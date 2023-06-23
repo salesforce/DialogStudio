@@ -1,0 +1,3500 @@
+{
+    "SimJointRestaurant--train--1": {
+        "original dialog id": "restaurant_00000000",
+        "dialog index": 1,
+        "original dialog info": {
+            "slots and values": {
+                "restaurant": {
+                    "num_people": [
+                        "4",
+                        "6",
+                        "3",
+                        "5",
+                        "2"
+                    ],
+                    "restaurant_name": [
+                        "boats",
+                        "amarin",
+                        "oren",
+                        "sweet greens",
+                        "amarin",
+                        "ephesus",
+                        "cheese cake factory",
+                        "amarin",
+                        "il fornaio",
+                        "the view"
+                    ],
+                    "date": [
+                        "wednesday",
+                        "tomorrow",
+                        "tonight",
+                        "friday",
+                        "next monday"
+                    ],
+                    "time": [
+                        "8 pm",
+                        "6.15 pm",
+                        "7.30 pm",
+                        "6 pm",
+                        "5 pm",
+                        "7 pm",
+                        "5.30 pm",
+                        "8.30 pm",
+                        "dontcare",
+                        "7.15 pm",
+                        "6.30 pm"
+                    ],
+                    "meal": [
+                        "dinner",
+                        "brunch",
+                        "breakfast",
+                        "dontcare",
+                        "lunch"
+                    ],
+                    "location": [
+                        "redmond",
+                        "madison",
+                        "morristown",
+                        "orlando",
+                        "kirkland",
+                        "yorktown heights",
+                        "middletown",
+                        "los altos",
+                        "mountain view"
+                    ],
+                    "price_range": [
+                        "moderately priced",
+                        "dontcare",
+                        "inexpensive",
+                        "expensive"
+                    ],
+                    "category": [
+                        "mediterranean",
+                        "italian",
+                        "thai",
+                        "dontcare",
+                        "taiwanese",
+                        "french",
+                        "indian",
+                        "greek",
+                        "vietnamese",
+                        "chinese"
+                    ],
+                    "rating": [
+                        "good",
+                        "zagat rated",
+                        "dontcare",
+                        "michelin rated"
+                    ]
+                }
+            },
+            "intents": {
+                "restaurant": [
+                    "GREETING",
+                    "REQUEST_ALTS",
+                    "OTHER",
+                    "CANT_UNDERSTAND",
+                    "NEGATE",
+                    "THANK_YOU",
+                    "GOOD_BYE",
+                    "INFORM",
+                    "AFFIRM"
+                ]
+            }
+        },
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "hi , i want to make a restaurant reservation .",
+                "system response": "okay , where do you want to go , and how many people will there be ?",
+                "dialog history": "",
+                "original user side information": {
+                    "dialogue_state": [],
+                    "user_acts": [
+                        {
+                            "type": "GREETING"
+                        }
+                    ],
+                    "user_intents": [
+                        "RESERVE_RESTAURANT"
+                    ],
+                    "user_utterance": {
+                        "slots": [],
+                        "text": "hi , i want to make a restaurant reservation .",
+                        "tokens": [
+                            "hi",
+                            ",",
+                            "i",
+                            "want",
+                            "to",
+                            "make",
+                            "a",
+                            "restaurant",
+                            "reservation",
+                            "."
+                        ]
+                    }
+                },
+                "original system side information": {
+                    "system_acts": [
+                        {
+                            "slot": "restaurant_name",
+                            "type": "REQUEST"
+                        },
+                        {
+                            "slot": "num_people",
+                            "type": "REQUEST"
+                        }
+                    ],
+                    "system_utterance": {
+                        "slots": [],
+                        "text": "okay , where do you want to go , and how many people will there be ?",
+                        "tokens": [
+                            "okay",
+                            ",",
+                            "where",
+                            "do",
+                            "you",
+                            "want",
+                            "to",
+                            "go",
+                            ",",
+                            "and",
+                            "how",
+                            "many",
+                            "people",
+                            "will",
+                            "there",
+                            "be",
+                            "?"
+                        ]
+                    }
+                },
+                "dst": "",
+                "dst accumulated": "",
+                "intent": "GREETING",
+                "external knowledge non-flat": {
+                    "metadata": {
+                        "system_acts": [
+                            {
+                                "slot": "restaurant_name",
+                                "type": "REQUEST"
+                            },
+                            {
+                                "slot": "num_people",
+                                "type": "REQUEST"
+                            }
+                        ]
+                    }
+                },
+                "external knowledge": "System acts: [{'slot': 'restaurant_name', 'type': 'REQUEST'}, {'slot': 'num_people', 'type': 'REQUEST'}]"
+            },
+            {
+                "turn id": 2,
+                "user utterance": "the sushi boat for 6 .",
+                "system response": "for what date ?",
+                "dialog history": "<USER> hi , i want to make a restaurant reservation . <SYSTEM> okay , where do you want to go , and how many people will there be ?",
+                "original user side information": {
+                    "dialogue_state": [
+                        {
+                            "slot": "num_people",
+                            "value": "6"
+                        },
+                        {
+                            "slot": "restaurant_name",
+                            "value": "sushi boat"
+                        }
+                    ],
+                    "user_acts": [
+                        {
+                            "type": "INFORM"
+                        }
+                    ],
+                    "user_utterance": {
+                        "slots": [
+                            {
+                                "exclusive_end": 3,
+                                "slot": "restaurant_name",
+                                "start": 1
+                            },
+                            {
+                                "exclusive_end": 5,
+                                "slot": "num_people",
+                                "start": 4
+                            }
+                        ],
+                        "text": "the sushi boat for 6 .",
+                        "tokens": [
+                            "the",
+                            "sushi",
+                            "boat",
+                            "for",
+                            "6",
+                            "."
+                        ]
+                    }
+                },
+                "original system side information": {
+                    "system_acts": [
+                        {
+                            "slot": "date",
+                            "type": "REQUEST"
+                        }
+                    ],
+                    "system_utterance": {
+                        "slots": [],
+                        "text": "for what date ?",
+                        "tokens": [
+                            "for",
+                            "what",
+                            "date",
+                            "?"
+                        ]
+                    }
+                },
+                "dst": "restaurant restaurant_name sushi boat, restaurant num_people 6",
+                "dst accumulated": "restaurant restaurant_name sushi boat, restaurant num_people 6",
+                "intent": "INFORM",
+                "external knowledge non-flat": {
+                    "metadata": {
+                        "system_acts": [
+                            {
+                                "slot": "date",
+                                "type": "REQUEST"
+                            }
+                        ]
+                    }
+                },
+                "external knowledge": "System acts: [{'slot': 'date', 'type': 'REQUEST'}]"
+            },
+            {
+                "turn id": 3,
+                "user utterance": "this friday .",
+                "system response": "at what time ?",
+                "dialog history": "<USER> hi , i want to make a restaurant reservation . <SYSTEM> okay , where do you want to go , and how many people will there be ? <USER> the sushi boat for 6 . <SYSTEM> for what date ?",
+                "original user side information": {
+                    "dialogue_state": [
+                        {
+                            "slot": "date",
+                            "value": "friday"
+                        },
+                        {
+                            "slot": "num_people",
+                            "value": "6"
+                        },
+                        {
+                            "slot": "restaurant_name",
+                            "value": "sushi boat"
+                        }
+                    ],
+                    "user_acts": [
+                        {
+                            "type": "INFORM"
+                        }
+                    ],
+                    "user_utterance": {
+                        "slots": [
+                            {
+                                "exclusive_end": 2,
+                                "slot": "date",
+                                "start": 1
+                            }
+                        ],
+                        "text": "this friday .",
+                        "tokens": [
+                            "this",
+                            "friday",
+                            "."
+                        ]
+                    }
+                },
+                "original system side information": {
+                    "system_acts": [
+                        {
+                            "slot": "time",
+                            "type": "REQUEST"
+                        }
+                    ],
+                    "system_utterance": {
+                        "slots": [],
+                        "text": "at what time ?",
+                        "tokens": [
+                            "at",
+                            "what",
+                            "time",
+                            "?"
+                        ]
+                    }
+                },
+                "dst": "restaurant date friday",
+                "dst accumulated": "restaurant restaurant_name sushi boat, restaurant num_people 6, restaurant date friday",
+                "intent": "INFORM",
+                "external knowledge non-flat": {
+                    "metadata": {
+                        "system_acts": [
+                            {
+                                "slot": "time",
+                                "type": "REQUEST"
+                            }
+                        ]
+                    }
+                },
+                "external knowledge": "System acts: [{'slot': 'time', 'type': 'REQUEST'}]"
+            },
+            {
+                "turn id": 4,
+                "user utterance": "7 pm .",
+                "system response": "so you want a reservation for the sushi boat for this friday at 7 pm for 6 people ?",
+                "dialog history": "<USER> hi , i want to make a restaurant reservation . <SYSTEM> okay , where do you want to go , and how many people will there be ? <USER> the sushi boat for 6 . <SYSTEM> for what date ? <USER> this friday . <SYSTEM> at what time ?",
+                "original user side information": {
+                    "dialogue_state": [
+                        {
+                            "slot": "num_people",
+                            "value": "6"
+                        },
+                        {
+                            "slot": "date",
+                            "value": "friday"
+                        },
+                        {
+                            "slot": "restaurant_name",
+                            "value": "sushi boat"
+                        },
+                        {
+                            "slot": "time",
+                            "value": "7 pm"
+                        }
+                    ],
+                    "user_acts": [
+                        {
+                            "type": "INFORM"
+                        }
+                    ],
+                    "user_utterance": {
+                        "slots": [
+                            {
+                                "exclusive_end": 2,
+                                "slot": "time",
+                                "start": 0
+                            }
+                        ],
+                        "text": "7 pm .",
+                        "tokens": [
+                            "7",
+                            "pm",
+                            "."
+                        ]
+                    }
+                },
+                "original system side information": {
+                    "system_acts": [
+                        {
+                            "slot": "date",
+                            "type": "CONFIRM",
+                            "value": "friday"
+                        },
+                        {
+                            "slot": "time",
+                            "type": "CONFIRM",
+                            "value": "7 pm"
+                        },
+                        {
+                            "slot": "num_people",
+                            "type": "CONFIRM",
+                            "value": "6"
+                        },
+                        {
+                            "slot": "restaurant_name",
+                            "type": "CONFIRM",
+                            "value": "sushi boat"
+                        }
+                    ],
+                    "system_utterance": {
+                        "slots": [
+                            {
+                                "exclusive_end": 9,
+                                "slot": "restaurant_name",
+                                "start": 7
+                            },
+                            {
+                                "exclusive_end": 12,
+                                "slot": "date",
+                                "start": 11
+                            },
+                            {
+                                "exclusive_end": 15,
+                                "slot": "time",
+                                "start": 13
+                            },
+                            {
+                                "exclusive_end": 17,
+                                "slot": "num_people",
+                                "start": 16
+                            }
+                        ],
+                        "text": "so you want a reservation for the sushi boat for this friday at 7 pm for 6 people ?",
+                        "tokens": [
+                            "so",
+                            "you",
+                            "want",
+                            "a",
+                            "reservation",
+                            "for",
+                            "the",
+                            "sushi",
+                            "boat",
+                            "for",
+                            "this",
+                            "friday",
+                            "at",
+                            "7",
+                            "pm",
+                            "for",
+                            "6",
+                            "people",
+                            "?"
+                        ]
+                    }
+                },
+                "dst": "restaurant time 7 pm",
+                "dst accumulated": "restaurant restaurant_name sushi boat, restaurant num_people 6, restaurant date friday, restaurant time 7 pm",
+                "intent": "INFORM",
+                "external knowledge non-flat": {
+                    "metadata": {
+                        "system_acts": [
+                            {
+                                "slot": "date",
+                                "type": "CONFIRM",
+                                "value": "friday"
+                            },
+                            {
+                                "slot": "time",
+                                "type": "CONFIRM",
+                                "value": "7 pm"
+                            },
+                            {
+                                "slot": "num_people",
+                                "type": "CONFIRM",
+                                "value": "6"
+                            },
+                            {
+                                "slot": "restaurant_name",
+                                "type": "CONFIRM",
+                                "value": "sushi boat"
+                            }
+                        ]
+                    }
+                },
+                "external knowledge": "System acts: [{'slot': 'date', 'type': 'CONFIRM', 'value': 'friday'}, {'slot': 'time', 'type': 'CONFIRM', 'value': '7 pm'}, {'slot': 'num_people', 'type': 'CONFIRM', 'value': '6'}, {'slot': 'restaurant_name', 'type': 'CONFIRM', 'value': 'sushi boat'}]"
+            },
+            {
+                "turn id": 5,
+                "user utterance": "that ' s right .",
+                "system response": "alright . your reservation is confirmed for 6 people at the sushi boat friday at 7 pm .",
+                "dialog history": "<USER> hi , i want to make a restaurant reservation . <SYSTEM> okay , where do you want to go , and how many people will there be ? <USER> the sushi boat for 6 . <SYSTEM> for what date ? <USER> this friday . <SYSTEM> at what time ? <USER> 7 pm . <SYSTEM> so you want a reservation for the sushi boat for this friday at 7 pm for 6 people ?",
+                "original user side information": {
+                    "dialogue_state": [
+                        {
+                            "slot": "date",
+                            "value": "friday"
+                        },
+                        {
+                            "slot": "num_people",
+                            "value": "6"
+                        },
+                        {
+                            "slot": "restaurant_name",
+                            "value": "sushi boat"
+                        },
+                        {
+                            "slot": "time",
+                            "value": "7 pm"
+                        }
+                    ],
+                    "user_acts": [
+                        {
+                            "type": "AFFIRM"
+                        }
+                    ],
+                    "user_utterance": {
+                        "slots": [],
+                        "text": "that ' s right .",
+                        "tokens": [
+                            "that",
+                            "'",
+                            "s",
+                            "right",
+                            "."
+                        ]
+                    }
+                },
+                "original system side information": {
+                    "system_acts": [
+                        {
+                            "slot": "restaurant_name",
+                            "type": "NOTIFY_SUCCESS",
+                            "value": "sushi boat"
+                        },
+                        {
+                            "slot": "time",
+                            "type": "NOTIFY_SUCCESS",
+                            "value": "7 pm"
+                        },
+                        {
+                            "slot": "num_people",
+                            "type": "NOTIFY_SUCCESS",
+                            "value": "6"
+                        },
+                        {
+                            "slot": "date",
+                            "type": "NOTIFY_SUCCESS",
+                            "value": "friday"
+                        }
+                    ],
+                    "system_utterance": {
+                        "slots": [
+                            {
+                                "exclusive_end": 8,
+                                "slot": "num_people",
+                                "start": 7
+                            },
+                            {
+                                "exclusive_end": 13,
+                                "slot": "restaurant_name",
+                                "start": 11
+                            },
+                            {
+                                "exclusive_end": 14,
+                                "slot": "date",
+                                "start": 13
+                            },
+                            {
+                                "exclusive_end": 17,
+                                "slot": "time",
+                                "start": 15
+                            }
+                        ],
+                        "text": "alright . your reservation is confirmed for 6 people at the sushi boat friday at 7 pm .",
+                        "tokens": [
+                            "alright",
+                            ".",
+                            "your",
+                            "reservation",
+                            "is",
+                            "confirmed",
+                            "for",
+                            "6",
+                            "people",
+                            "at",
+                            "the",
+                            "sushi",
+                            "boat",
+                            "friday",
+                            "at",
+                            "7",
+                            "pm",
+                            "."
+                        ]
+                    }
+                },
+                "dst": "",
+                "dst accumulated": "restaurant restaurant_name sushi boat, restaurant num_people 6, restaurant date friday, restaurant time 7 pm",
+                "intent": "AFFIRM",
+                "external knowledge non-flat": {
+                    "metadata": {
+                        "system_acts": [
+                            {
+                                "slot": "restaurant_name",
+                                "type": "NOTIFY_SUCCESS",
+                                "value": "sushi boat"
+                            },
+                            {
+                                "slot": "time",
+                                "type": "NOTIFY_SUCCESS",
+                                "value": "7 pm"
+                            },
+                            {
+                                "slot": "num_people",
+                                "type": "NOTIFY_SUCCESS",
+                                "value": "6"
+                            },
+                            {
+                                "slot": "date",
+                                "type": "NOTIFY_SUCCESS",
+                                "value": "friday"
+                            }
+                        ]
+                    }
+                },
+                "external knowledge": "System acts: [{'slot': 'restaurant_name', 'type': 'NOTIFY_SUCCESS', 'value': 'sushi boat'}, {'slot': 'time', 'type': 'NOTIFY_SUCCESS', 'value': '7 pm'}, {'slot': 'num_people', 'type': 'NOTIFY_SUCCESS', 'value': '6'}, {'slot': 'date', 'type': 'NOTIFY_SUCCESS', 'value': 'friday'}]"
+            },
+            {
+                "turn id": 6,
+                "user utterance": "thanks !",
+                "system response": "",
+                "dialog history": "<USER> hi , i want to make a restaurant reservation . <SYSTEM> okay , where do you want to go , and how many people will there be ? <USER> the sushi boat for 6 . <SYSTEM> for what date ? <USER> this friday . <SYSTEM> at what time ? <USER> 7 pm . <SYSTEM> so you want a reservation for the sushi boat for this friday at 7 pm for 6 people ? <USER> that ' s right . <SYSTEM> alright . your reservation is confirmed for 6 people at the sushi boat friday at 7 pm .",
+                "original user side information": {
+                    "dialogue_state": [
+                        {
+                            "slot": "date",
+                            "value": "friday"
+                        },
+                        {
+                            "slot": "num_people",
+                            "value": "6"
+                        },
+                        {
+                            "slot": "restaurant_name",
+                            "value": "sushi boat"
+                        },
+                        {
+                            "slot": "time",
+                            "value": "7 pm"
+                        }
+                    ],
+                    "user_acts": [
+                        {
+                            "type": "THANK_YOU"
+                        }
+                    ],
+                    "user_utterance": {
+                        "slots": [],
+                        "text": "thanks !",
+                        "tokens": [
+                            "thanks",
+                            "!"
+                        ]
+                    }
+                },
+                "original system side information": {},
+                "dst": "",
+                "dst accumulated": "restaurant restaurant_name sushi boat, restaurant num_people 6, restaurant date friday, restaurant time 7 pm",
+                "intent": "THANK_YOU",
+                "external knowledge non-flat": {
+                    "metadata": {
+                        "system_acts": ""
+                    }
+                },
+                "external knowledge": "System acts: "
+            }
+        ],
+        "dst knowledge": "( restaurant : ( num_people : ( 4 | 6 | 3 | 5 | 2 ) | restaurant_name : ( boats | amarin | oren | sweet greens | amarin | ephesus | cheese cake factory | amarin | il fornaio | the view ) | date : ( wednesday | tomorrow | tonight | friday | next monday ) | time : ( 8 pm | 6.15 pm | 7.30 pm | 6 pm | 5 pm | 7 pm | 5.30 pm | 8.30 pm | dontcare | 7.15 pm | 6.30 pm ) | meal : ( dinner | brunch | breakfast | dontcare | lunch ) | location : ( redmond | madison | morristown | orlando | kirkland | yorktown heights | middletown | los altos | mountain view ) | price_range : ( moderately priced | dontcare | inexpensive | expensive ) | category : ( mediterranean | italian | thai | dontcare | taiwanese | french | indian | greek | vietnamese | chinese ) | rating : ( good | zagat rated | dontcare | michelin rated )))",
+        "intent knowledge": "( restaurant : ( GREETING | REQUEST_ALTS | OTHER | CANT_UNDERSTAND | NEGATE | THANK_YOU | GOOD_BYE | INFORM | AFFIRM ))",
+        "prompt": [
+            "This is a bot helping users to reserve a restaurant. Given the dialog context and external database, please generate a relevant system response for the user.",
+            "This bot assists users to reserve a restaurant. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
+            "This bot helps users to reserve a restaurant. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
+            "The purpose of this bot is to assist users to reserve a restaurant. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
+            "This bot is designed to help users reserve a restaurant. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+        ]
+    },
+    "SimJointRestaurant--train--2": {
+        "original dialog id": "restaurant_00000002",
+        "dialog index": 2,
+        "original dialog info": {
+            "slots and values": {
+                "restaurant": {
+                    "num_people": [
+                        "4",
+                        "6",
+                        "3",
+                        "5",
+                        "2"
+                    ],
+                    "restaurant_name": [
+                        "boats",
+                        "amarin",
+                        "oren",
+                        "sweet greens",
+                        "amarin",
+                        "ephesus",
+                        "cheese cake factory",
+                        "amarin",
+                        "il fornaio",
+                        "the view"
+                    ],
+                    "date": [
+                        "wednesday",
+                        "tomorrow",
+                        "tonight",
+                        "friday",
+                        "next monday"
+                    ],
+                    "time": [
+                        "8 pm",
+                        "6.15 pm",
+                        "7.30 pm",
+                        "6 pm",
+                        "5 pm",
+                        "7 pm",
+                        "5.30 pm",
+                        "8.30 pm",
+                        "dontcare",
+                        "7.15 pm",
+                        "6.30 pm"
+                    ],
+                    "meal": [
+                        "dinner",
+                        "brunch",
+                        "breakfast",
+                        "dontcare",
+                        "lunch"
+                    ],
+                    "location": [
+                        "redmond",
+                        "madison",
+                        "morristown",
+                        "orlando",
+                        "kirkland",
+                        "yorktown heights",
+                        "middletown",
+                        "los altos",
+                        "mountain view"
+                    ],
+                    "price_range": [
+                        "moderately priced",
+                        "dontcare",
+                        "inexpensive",
+                        "expensive"
+                    ],
+                    "category": [
+                        "mediterranean",
+                        "italian",
+                        "thai",
+                        "dontcare",
+                        "taiwanese",
+                        "french",
+                        "indian",
+                        "greek",
+                        "vietnamese",
+                        "chinese"
+                    ],
+                    "rating": [
+                        "good",
+                        "zagat rated",
+                        "dontcare",
+                        "michelin rated"
+                    ]
+                }
+            },
+            "intents": {
+                "restaurant": [
+                    "GREETING",
+                    "REQUEST_ALTS",
+                    "OTHER",
+                    "CANT_UNDERSTAND",
+                    "NEGATE",
+                    "THANK_YOU",
+                    "GOOD_BYE",
+                    "INFORM",
+                    "AFFIRM"
+                ]
+            }
+        },
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "i need to make reservation for 6 pm .",
+                "system response": "what date and restaurant would you like ?",
+                "dialog history": "",
+                "original user side information": {
+                    "dialogue_state": [
+                        {
+                            "slot": "time",
+                            "value": "6 pm"
+                        }
+                    ],
+                    "user_acts": [],
+                    "user_intents": [
+                        "RESERVE_RESTAURANT"
+                    ],
+                    "user_utterance": {
+                        "slots": [
+                            {
+                                "exclusive_end": 8,
+                                "slot": "time",
+                                "start": 6
+                            }
+                        ],
+                        "text": "i need to make reservation for 6 pm .",
+                        "tokens": [
+                            "i",
+                            "need",
+                            "to",
+                            "make",
+                            "reservation",
+                            "for",
+                            "6",
+                            "pm",
+                            "."
+                        ]
+                    }
+                },
+                "original system side information": {
+                    "system_acts": [
+                        {
+                            "slot": "restaurant_name",
+                            "type": "REQUEST"
+                        },
+                        {
+                            "slot": "date",
+                            "type": "REQUEST"
+                        }
+                    ],
+                    "system_utterance": {
+                        "slots": [],
+                        "text": "what date and restaurant would you like ?",
+                        "tokens": [
+                            "what",
+                            "date",
+                            "and",
+                            "restaurant",
+                            "would",
+                            "you",
+                            "like",
+                            "?"
+                        ]
+                    }
+                },
+                "dst": "restaurant time 6 pm",
+                "dst accumulated": "restaurant time 6 pm",
+                "intent": "",
+                "external knowledge non-flat": {
+                    "metadata": {
+                        "system_acts": [
+                            {
+                                "slot": "restaurant_name",
+                                "type": "REQUEST"
+                            },
+                            {
+                                "slot": "date",
+                                "type": "REQUEST"
+                            }
+                        ]
+                    }
+                },
+                "external knowledge": "System acts: [{'slot': 'restaurant_name', 'type': 'REQUEST'}, {'slot': 'date', 'type': 'REQUEST'}]"
+            },
+            {
+                "turn id": 2,
+                "user utterance": "next monday at il fornaio .",
+                "system response": "for how many people do you need the reservation ?",
+                "dialog history": "<USER> i need to make reservation for 6 pm . <SYSTEM> what date and restaurant would you like ?",
+                "original user side information": {
+                    "dialogue_state": [
+                        {
+                            "slot": "date",
+                            "value": "next monday"
+                        },
+                        {
+                            "slot": "restaurant_name",
+                            "value": "il fornaio"
+                        },
+                        {
+                            "slot": "time",
+                            "value": "6 pm"
+                        }
+                    ],
+                    "user_acts": [
+                        {
+                            "type": "INFORM"
+                        }
+                    ],
+                    "user_utterance": {
+                        "slots": [
+                            {
+                                "exclusive_end": 2,
+                                "slot": "date",
+                                "start": 0
+                            },
+                            {
+                                "exclusive_end": 5,
+                                "slot": "restaurant_name",
+                                "start": 3
+                            }
+                        ],
+                        "text": "next monday at il fornaio .",
+                        "tokens": [
+                            "next",
+                            "monday",
+                            "at",
+                            "il",
+                            "fornaio",
+                            "."
+                        ]
+                    }
+                },
+                "original system side information": {
+                    "system_acts": [
+                        {
+                            "slot": "num_people",
+                            "type": "REQUEST"
+                        }
+                    ],
+                    "system_utterance": {
+                        "slots": [],
+                        "text": "for how many people do you need the reservation ?",
+                        "tokens": [
+                            "for",
+                            "how",
+                            "many",
+                            "people",
+                            "do",
+                            "you",
+                            "need",
+                            "the",
+                            "reservation",
+                            "?"
+                        ]
+                    }
+                },
+                "dst": "restaurant date next monday, restaurant restaurant_name il fornaio",
+                "dst accumulated": "restaurant time 6 pm, restaurant date next monday, restaurant restaurant_name il fornaio",
+                "intent": "INFORM",
+                "external knowledge non-flat": {
+                    "metadata": {
+                        "system_acts": [
+                            {
+                                "slot": "num_people",
+                                "type": "REQUEST"
+                            }
+                        ]
+                    }
+                },
+                "external knowledge": "System acts: [{'slot': 'num_people', 'type': 'REQUEST'}]"
+            },
+            {
+                "turn id": 3,
+                "user utterance": "what ?",
+                "system response": "how many people will be dining ?",
+                "dialog history": "<USER> i need to make reservation for 6 pm . <SYSTEM> what date and restaurant would you like ? <USER> next monday at il fornaio . <SYSTEM> for how many people do you need the reservation ?",
+                "original user side information": {
+                    "dialogue_state": [
+                        {
+                            "slot": "date",
+                            "value": "next monday"
+                        },
+                        {
+                            "slot": "restaurant_name",
+                            "value": "il fornaio"
+                        },
+                        {
+                            "slot": "time",
+                            "value": "6 pm"
+                        }
+                    ],
+                    "user_acts": [
+                        {
+                            "type": "CANT_UNDERSTAND"
+                        }
+                    ],
+                    "user_utterance": {
+                        "slots": [],
+                        "text": "what ?",
+                        "tokens": [
+                            "what",
+                            "?"
+                        ]
+                    }
+                },
+                "original system side information": {
+                    "system_acts": [
+                        {
+                            "slot": "num_people",
+                            "type": "REQUEST"
+                        }
+                    ],
+                    "system_utterance": {
+                        "slots": [],
+                        "text": "how many people will be dining ?",
+                        "tokens": [
+                            "how",
+                            "many",
+                            "people",
+                            "will",
+                            "be",
+                            "dining",
+                            "?"
+                        ]
+                    }
+                },
+                "dst": "",
+                "dst accumulated": "restaurant time 6 pm, restaurant date next monday, restaurant restaurant_name il fornaio",
+                "intent": "CANT_UNDERSTAND",
+                "external knowledge non-flat": {
+                    "metadata": {
+                        "system_acts": [
+                            {
+                                "slot": "num_people",
+                                "type": "REQUEST"
+                            }
+                        ]
+                    }
+                },
+                "external knowledge": "System acts: [{'slot': 'num_people', 'type': 'REQUEST'}]"
+            },
+            {
+                "turn id": 4,
+                "user utterance": "6 people .",
+                "system response": "6 pm is unavailable . would you like 6.15 pm or 6.30 pm ?",
+                "dialog history": "<USER> i need to make reservation for 6 pm . <SYSTEM> what date and restaurant would you like ? <USER> next monday at il fornaio . <SYSTEM> for how many people do you need the reservation ? <USER> what ? <SYSTEM> how many people will be dining ?",
+                "original user side information": {
+                    "dialogue_state": [
+                        {
+                            "slot": "num_people",
+                            "value": "6"
+                        },
+                        {
+                            "slot": "date",
+                            "value": "next monday"
+                        },
+                        {
+                            "slot": "restaurant_name",
+                            "value": "il fornaio"
+                        },
+                        {
+                            "slot": "time",
+                            "value": "6 pm"
+                        }
+                    ],
+                    "user_acts": [
+                        {
+                            "type": "INFORM"
+                        }
+                    ],
+                    "user_utterance": {
+                        "slots": [
+                            {
+                                "exclusive_end": 1,
+                                "slot": "num_people",
+                                "start": 0
+                            }
+                        ],
+                        "text": "6 people .",
+                        "tokens": [
+                            "6",
+                            "people",
+                            "."
+                        ]
+                    }
+                },
+                "original system side information": {
+                    "system_acts": [
+                        {
+                            "slot": "time",
+                            "type": "NEGATE",
+                            "value": "6 pm"
+                        },
+                        {
+                            "slot": "time",
+                            "type": "SELECT",
+                            "value": "6.15 pm"
+                        },
+                        {
+                            "slot": "time",
+                            "type": "SELECT",
+                            "value": "6.30 pm"
+                        }
+                    ],
+                    "system_utterance": {
+                        "slots": [
+                            {
+                                "exclusive_end": 2,
+                                "slot": "time",
+                                "start": 0
+                            },
+                            {
+                                "exclusive_end": 10,
+                                "slot": "time",
+                                "start": 8
+                            },
+                            {
+                                "exclusive_end": 13,
+                                "slot": "time",
+                                "start": 11
+                            }
+                        ],
+                        "text": "6 pm is unavailable . would you like 6.15 pm or 6.30 pm ?",
+                        "tokens": [
+                            "6",
+                            "pm",
+                            "is",
+                            "unavailable",
+                            ".",
+                            "would",
+                            "you",
+                            "like",
+                            "6.15",
+                            "pm",
+                            "or",
+                            "6.30",
+                            "pm",
+                            "?"
+                        ]
+                    }
+                },
+                "dst": "restaurant num_people 6",
+                "dst accumulated": "restaurant time 6 pm, restaurant date next monday, restaurant restaurant_name il fornaio, restaurant num_people 6",
+                "intent": "INFORM",
+                "external knowledge non-flat": {
+                    "metadata": {
+                        "system_acts": [
+                            {
+                                "slot": "time",
+                                "type": "NEGATE",
+                                "value": "6 pm"
+                            },
+                            {
+                                "slot": "time",
+                                "type": "SELECT",
+                                "value": "6.15 pm"
+                            },
+                            {
+                                "slot": "time",
+                                "type": "SELECT",
+                                "value": "6.30 pm"
+                            }
+                        ]
+                    }
+                },
+                "external knowledge": "System acts: [{'slot': 'time', 'type': 'NEGATE', 'value': '6 pm'}, {'slot': 'time', 'type': 'SELECT', 'value': '6.15 pm'}, {'slot': 'time', 'type': 'SELECT', 'value': '6.30 pm'}]"
+            },
+            {
+                "turn id": 5,
+                "user utterance": "no .",
+                "system response": "would you like 7 pm or 8 pm ?",
+                "dialog history": "<USER> i need to make reservation for 6 pm . <SYSTEM> what date and restaurant would you like ? <USER> next monday at il fornaio . <SYSTEM> for how many people do you need the reservation ? <USER> what ? <SYSTEM> how many people will be dining ? <USER> 6 people . <SYSTEM> 6 pm is unavailable . would you like 6.15 pm or 6.30 pm ?",
+                "original user side information": {
+                    "dialogue_state": [
+                        {
+                            "slot": "num_people",
+                            "value": "6"
+                        },
+                        {
+                            "slot": "date",
+                            "value": "next monday"
+                        },
+                        {
+                            "slot": "restaurant_name",
+                            "value": "il fornaio"
+                        },
+                        {
+                            "slot": "time",
+                            "value": "6 pm"
+                        }
+                    ],
+                    "user_acts": [
+                        {
+                            "type": "NEGATE"
+                        }
+                    ],
+                    "user_utterance": {
+                        "slots": [],
+                        "text": "no .",
+                        "tokens": [
+                            "no",
+                            "."
+                        ]
+                    }
+                },
+                "original system side information": {
+                    "system_acts": [
+                        {
+                            "slot": "time",
+                            "type": "SELECT",
+                            "value": "7 pm"
+                        },
+                        {
+                            "slot": "time",
+                            "type": "SELECT",
+                            "value": "8 pm"
+                        }
+                    ],
+                    "system_utterance": {
+                        "slots": [
+                            {
+                                "exclusive_end": 5,
+                                "slot": "time",
+                                "start": 3
+                            },
+                            {
+                                "exclusive_end": 8,
+                                "slot": "time",
+                                "start": 6
+                            }
+                        ],
+                        "text": "would you like 7 pm or 8 pm ?",
+                        "tokens": [
+                            "would",
+                            "you",
+                            "like",
+                            "7",
+                            "pm",
+                            "or",
+                            "8",
+                            "pm",
+                            "?"
+                        ]
+                    }
+                },
+                "dst": "",
+                "dst accumulated": "restaurant time 6 pm, restaurant date next monday, restaurant restaurant_name il fornaio, restaurant num_people 6",
+                "intent": "NEGATE",
+                "external knowledge non-flat": {
+                    "metadata": {
+                        "system_acts": [
+                            {
+                                "slot": "time",
+                                "type": "SELECT",
+                                "value": "7 pm"
+                            },
+                            {
+                                "slot": "time",
+                                "type": "SELECT",
+                                "value": "8 pm"
+                            }
+                        ]
+                    }
+                },
+                "external knowledge": "System acts: [{'slot': 'time', 'type': 'SELECT', 'value': '7 pm'}, {'slot': 'time', 'type': 'SELECT', 'value': '8 pm'}]"
+            },
+            {
+                "turn id": 6,
+                "user utterance": "yes . 8 pm please .",
+                "system response": "your reservation is confirmed for 6 people at il fornaio next monday at 8 pm .",
+                "dialog history": "<USER> i need to make reservation for 6 pm . <SYSTEM> what date and restaurant would you like ? <USER> next monday at il fornaio . <SYSTEM> for how many people do you need the reservation ? <USER> what ? <SYSTEM> how many people will be dining ? <USER> 6 people . <SYSTEM> 6 pm is unavailable . would you like 6.15 pm or 6.30 pm ? <USER> no . <SYSTEM> would you like 7 pm or 8 pm ?",
+                "original user side information": {
+                    "dialogue_state": [
+                        {
+                            "slot": "num_people",
+                            "value": "6"
+                        },
+                        {
+                            "slot": "date",
+                            "value": "next monday"
+                        },
+                        {
+                            "slot": "restaurant_name",
+                            "value": "il fornaio"
+                        },
+                        {
+                            "slot": "time",
+                            "value": "8 pm"
+                        }
+                    ],
+                    "user_acts": [
+                        {
+                            "slot": "time",
+                            "type": "AFFIRM"
+                        }
+                    ],
+                    "user_utterance": {
+                        "slots": [
+                            {
+                                "exclusive_end": 4,
+                                "slot": "time",
+                                "start": 2
+                            }
+                        ],
+                        "text": "yes . 8 pm please .",
+                        "tokens": [
+                            "yes",
+                            ".",
+                            "8",
+                            "pm",
+                            "please",
+                            "."
+                        ]
+                    }
+                },
+                "original system side information": {
+                    "system_acts": [
+                        {
+                            "slot": "restaurant_name",
+                            "type": "NOTIFY_SUCCESS",
+                            "value": "il fornaio"
+                        },
+                        {
+                            "slot": "time",
+                            "type": "NOTIFY_SUCCESS",
+                            "value": "8 pm"
+                        },
+                        {
+                            "slot": "num_people",
+                            "type": "NOTIFY_SUCCESS",
+                            "value": "6"
+                        },
+                        {
+                            "slot": "date",
+                            "type": "NOTIFY_SUCCESS",
+                            "value": "next monday"
+                        }
+                    ],
+                    "system_utterance": {
+                        "slots": [
+                            {
+                                "exclusive_end": 6,
+                                "slot": "num_people",
+                                "start": 5
+                            },
+                            {
+                                "exclusive_end": 10,
+                                "slot": "restaurant_name",
+                                "start": 8
+                            },
+                            {
+                                "exclusive_end": 12,
+                                "slot": "date",
+                                "start": 10
+                            },
+                            {
+                                "exclusive_end": 15,
+                                "slot": "time",
+                                "start": 13
+                            }
+                        ],
+                        "text": "your reservation is confirmed for 6 people at il fornaio next monday at 8 pm .",
+                        "tokens": [
+                            "your",
+                            "reservation",
+                            "is",
+                            "confirmed",
+                            "for",
+                            "6",
+                            "people",
+                            "at",
+                            "il",
+                            "fornaio",
+                            "next",
+                            "monday",
+                            "at",
+                            "8",
+                            "pm",
+                            "."
+                        ]
+                    }
+                },
+                "dst": "restaurant time 8 pm",
+                "dst accumulated": "restaurant time 8 pm, restaurant date next monday, restaurant restaurant_name il fornaio, restaurant num_people 6",
+                "intent": "AFFIRM",
+                "external knowledge non-flat": {
+                    "metadata": {
+                        "system_acts": [
+                            {
+                                "slot": "restaurant_name",
+                                "type": "NOTIFY_SUCCESS",
+                                "value": "il fornaio"
+                            },
+                            {
+                                "slot": "time",
+                                "type": "NOTIFY_SUCCESS",
+                                "value": "8 pm"
+                            },
+                            {
+                                "slot": "num_people",
+                                "type": "NOTIFY_SUCCESS",
+                                "value": "6"
+                            },
+                            {
+                                "slot": "date",
+                                "type": "NOTIFY_SUCCESS",
+                                "value": "next monday"
+                            }
+                        ]
+                    }
+                },
+                "external knowledge": "System acts: [{'slot': 'restaurant_name', 'type': 'NOTIFY_SUCCESS', 'value': 'il fornaio'}, {'slot': 'time', 'type': 'NOTIFY_SUCCESS', 'value': '8 pm'}, {'slot': 'num_people', 'type': 'NOTIFY_SUCCESS', 'value': '6'}, {'slot': 'date', 'type': 'NOTIFY_SUCCESS', 'value': 'next monday'}]"
+            },
+            {
+                "turn id": 7,
+                "user utterance": "bye .",
+                "system response": "",
+                "dialog history": "<USER> i need to make reservation for 6 pm . <SYSTEM> what date and restaurant would you like ? <USER> next monday at il fornaio . <SYSTEM> for how many people do you need the reservation ? <USER> what ? <SYSTEM> how many people will be dining ? <USER> 6 people . <SYSTEM> 6 pm is unavailable . would you like 6.15 pm or 6.30 pm ? <USER> no . <SYSTEM> would you like 7 pm or 8 pm ? <USER> yes . 8 pm please . <SYSTEM> your reservation is confirmed for 6 people at il fornaio next monday at 8 pm .",
+                "original user side information": {
+                    "dialogue_state": [
+                        {
+                            "slot": "num_people",
+                            "value": "6"
+                        },
+                        {
+                            "slot": "date",
+                            "value": "next monday"
+                        },
+                        {
+                            "slot": "restaurant_name",
+                            "value": "il fornaio"
+                        },
+                        {
+                            "slot": "time",
+                            "value": "8 pm"
+                        }
+                    ],
+                    "user_acts": [
+                        {
+                            "type": "GOOD_BYE"
+                        }
+                    ],
+                    "user_utterance": {
+                        "slots": [],
+                        "text": "bye .",
+                        "tokens": [
+                            "bye",
+                            "."
+                        ]
+                    }
+                },
+                "original system side information": {},
+                "dst": "",
+                "dst accumulated": "restaurant time 8 pm, restaurant date next monday, restaurant restaurant_name il fornaio, restaurant num_people 6",
+                "intent": "GOOD_BYE",
+                "external knowledge non-flat": {
+                    "metadata": {
+                        "system_acts": ""
+                    }
+                },
+                "external knowledge": "System acts: "
+            }
+        ],
+        "dst knowledge": "( restaurant : ( num_people : ( 4 | 6 | 3 | 5 | 2 ) | restaurant_name : ( boats | amarin | oren | sweet greens | amarin | ephesus | cheese cake factory | amarin | il fornaio | the view ) | date : ( wednesday | tomorrow | tonight | friday | next monday ) | time : ( 8 pm | 6.15 pm | 7.30 pm | 6 pm | 5 pm | 7 pm | 5.30 pm | 8.30 pm | dontcare | 7.15 pm | 6.30 pm ) | meal : ( dinner | brunch | breakfast | dontcare | lunch ) | location : ( redmond | madison | morristown | orlando | kirkland | yorktown heights | middletown | los altos | mountain view ) | price_range : ( moderately priced | dontcare | inexpensive | expensive ) | category : ( mediterranean | italian | thai | dontcare | taiwanese | french | indian | greek | vietnamese | chinese ) | rating : ( good | zagat rated | dontcare | michelin rated )))",
+        "intent knowledge": "( restaurant : ( GREETING | REQUEST_ALTS | OTHER | CANT_UNDERSTAND | NEGATE | THANK_YOU | GOOD_BYE | INFORM | AFFIRM ))",
+        "prompt": [
+            "This is a bot helping users to reserve a restaurant. Given the dialog context and external database, please generate a relevant system response for the user.",
+            "This bot assists users to reserve a restaurant. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
+            "This bot helps users to reserve a restaurant. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
+            "The purpose of this bot is to assist users to reserve a restaurant. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
+            "This bot is designed to help users reserve a restaurant. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+        ]
+    },
+    "SimJointRestaurant--train--3": {
+        "original dialog id": "restaurant_00000003",
+        "dialog index": 3,
+        "original dialog info": {
+            "slots and values": {
+                "restaurant": {
+                    "num_people": [
+                        "4",
+                        "6",
+                        "3",
+                        "5",
+                        "2"
+                    ],
+                    "restaurant_name": [
+                        "boats",
+                        "amarin",
+                        "oren",
+                        "sweet greens",
+                        "amarin",
+                        "ephesus",
+                        "cheese cake factory",
+                        "amarin",
+                        "il fornaio",
+                        "the view"
+                    ],
+                    "date": [
+                        "wednesday",
+                        "tomorrow",
+                        "tonight",
+                        "friday",
+                        "next monday"
+                    ],
+                    "time": [
+                        "8 pm",
+                        "6.15 pm",
+                        "7.30 pm",
+                        "6 pm",
+                        "5 pm",
+                        "7 pm",
+                        "5.30 pm",
+                        "8.30 pm",
+                        "dontcare",
+                        "7.15 pm",
+                        "6.30 pm"
+                    ],
+                    "meal": [
+                        "dinner",
+                        "brunch",
+                        "breakfast",
+                        "dontcare",
+                        "lunch"
+                    ],
+                    "location": [
+                        "redmond",
+                        "madison",
+                        "morristown",
+                        "orlando",
+                        "kirkland",
+                        "yorktown heights",
+                        "middletown",
+                        "los altos",
+                        "mountain view"
+                    ],
+                    "price_range": [
+                        "moderately priced",
+                        "dontcare",
+                        "inexpensive",
+                        "expensive"
+                    ],
+                    "category": [
+                        "mediterranean",
+                        "italian",
+                        "thai",
+                        "dontcare",
+                        "taiwanese",
+                        "french",
+                        "indian",
+                        "greek",
+                        "vietnamese",
+                        "chinese"
+                    ],
+                    "rating": [
+                        "good",
+                        "zagat rated",
+                        "dontcare",
+                        "michelin rated"
+                    ]
+                }
+            },
+            "intents": {
+                "restaurant": [
+                    "GREETING",
+                    "REQUEST_ALTS",
+                    "OTHER",
+                    "CANT_UNDERSTAND",
+                    "NEGATE",
+                    "THANK_YOU",
+                    "GOOD_BYE",
+                    "INFORM",
+                    "AFFIRM"
+                ]
+            }
+        },
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "hi , i want to make a reservation for 6 pm .",
+                "system response": "for what date , what restaurant and how many people ?",
+                "dialog history": "",
+                "original user side information": {
+                    "dialogue_state": [
+                        {
+                            "slot": "time",
+                            "value": "6 pm"
+                        }
+                    ],
+                    "user_acts": [
+                        {
+                            "type": "GREETING"
+                        }
+                    ],
+                    "user_intents": [
+                        "RESERVE_RESTAURANT"
+                    ],
+                    "user_utterance": {
+                        "slots": [
+                            {
+                                "exclusive_end": 11,
+                                "slot": "time",
+                                "start": 9
+                            }
+                        ],
+                        "text": "hi , i want to make a reservation for 6 pm .",
+                        "tokens": [
+                            "hi",
+                            ",",
+                            "i",
+                            "want",
+                            "to",
+                            "make",
+                            "a",
+                            "reservation",
+                            "for",
+                            "6",
+                            "pm",
+                            "."
+                        ]
+                    }
+                },
+                "original system side information": {
+                    "system_acts": [
+                        {
+                            "slot": "date",
+                            "type": "REQUEST"
+                        },
+                        {
+                            "slot": "num_people",
+                            "type": "REQUEST"
+                        },
+                        {
+                            "slot": "restaurant_name",
+                            "type": "REQUEST"
+                        }
+                    ],
+                    "system_utterance": {
+                        "slots": [],
+                        "text": "for what date , what restaurant and how many people ?",
+                        "tokens": [
+                            "for",
+                            "what",
+                            "date",
+                            ",",
+                            "what",
+                            "restaurant",
+                            "and",
+                            "how",
+                            "many",
+                            "people",
+                            "?"
+                        ]
+                    }
+                },
+                "dst": "restaurant time 6 pm",
+                "dst accumulated": "restaurant time 6 pm",
+                "intent": "GREETING",
+                "external knowledge non-flat": {
+                    "metadata": {
+                        "system_acts": [
+                            {
+                                "slot": "date",
+                                "type": "REQUEST"
+                            },
+                            {
+                                "slot": "num_people",
+                                "type": "REQUEST"
+                            },
+                            {
+                                "slot": "restaurant_name",
+                                "type": "REQUEST"
+                            }
+                        ]
+                    }
+                },
+                "external knowledge": "System acts: [{'slot': 'date', 'type': 'REQUEST'}, {'slot': 'num_people', 'type': 'REQUEST'}, {'slot': 'restaurant_name', 'type': 'REQUEST'}]"
+            },
+            {
+                "turn id": 2,
+                "user utterance": "6 people on friday for sushi boat .",
+                "system response": "they couldn ' t reserve a table for you at 6 pm , but do 6.15 pm or 6.30 pm work ?",
+                "dialog history": "<USER> hi , i want to make a reservation for 6 pm . <SYSTEM> for what date , what restaurant and how many people ?",
+                "original user side information": {
+                    "dialogue_state": [
+                        {
+                            "slot": "num_people",
+                            "value": "6"
+                        },
+                        {
+                            "slot": "date",
+                            "value": "friday"
+                        },
+                        {
+                            "slot": "restaurant_name",
+                            "value": "sushi boat"
+                        },
+                        {
+                            "slot": "time",
+                            "value": "6 pm"
+                        }
+                    ],
+                    "user_acts": [
+                        {
+                            "type": "INFORM"
+                        }
+                    ],
+                    "user_utterance": {
+                        "slots": [
+                            {
+                                "exclusive_end": 1,
+                                "slot": "num_people",
+                                "start": 0
+                            },
+                            {
+                                "exclusive_end": 4,
+                                "slot": "date",
+                                "start": 3
+                            },
+                            {
+                                "exclusive_end": 7,
+                                "slot": "restaurant_name",
+                                "start": 5
+                            }
+                        ],
+                        "text": "6 people on friday for sushi boat .",
+                        "tokens": [
+                            "6",
+                            "people",
+                            "on",
+                            "friday",
+                            "for",
+                            "sushi",
+                            "boat",
+                            "."
+                        ]
+                    }
+                },
+                "original system side information": {
+                    "system_acts": [
+                        {
+                            "slot": "time",
+                            "type": "NEGATE",
+                            "value": "6 pm"
+                        },
+                        {
+                            "slot": "time",
+                            "type": "SELECT",
+                            "value": "6.15 pm"
+                        },
+                        {
+                            "slot": "time",
+                            "type": "SELECT",
+                            "value": "6.30 pm"
+                        }
+                    ],
+                    "system_utterance": {
+                        "slots": [
+                            {
+                                "exclusive_end": 12,
+                                "slot": "time",
+                                "start": 10
+                            },
+                            {
+                                "exclusive_end": 17,
+                                "slot": "time",
+                                "start": 15
+                            },
+                            {
+                                "exclusive_end": 20,
+                                "slot": "time",
+                                "start": 18
+                            }
+                        ],
+                        "text": "they couldn ' t reserve a table for you at 6 pm , but do 6.15 pm or 6.30 pm work ?",
+                        "tokens": [
+                            "they",
+                            "couldn",
+                            "'",
+                            "t",
+                            "reserve",
+                            "a",
+                            "table",
+                            "for",
+                            "you",
+                            "at",
+                            "6",
+                            "pm",
+                            ",",
+                            "but",
+                            "do",
+                            "6.15",
+                            "pm",
+                            "or",
+                            "6.30",
+                            "pm",
+                            "work",
+                            "?"
+                        ]
+                    }
+                },
+                "dst": "restaurant num_people 6, restaurant date friday, restaurant restaurant_name sushi boat",
+                "dst accumulated": "restaurant time 6 pm, restaurant num_people 6, restaurant date friday, restaurant restaurant_name sushi boat",
+                "intent": "INFORM",
+                "external knowledge non-flat": {
+                    "metadata": {
+                        "system_acts": [
+                            {
+                                "slot": "time",
+                                "type": "NEGATE",
+                                "value": "6 pm"
+                            },
+                            {
+                                "slot": "time",
+                                "type": "SELECT",
+                                "value": "6.15 pm"
+                            },
+                            {
+                                "slot": "time",
+                                "type": "SELECT",
+                                "value": "6.30 pm"
+                            }
+                        ]
+                    }
+                },
+                "external knowledge": "System acts: [{'slot': 'time', 'type': 'NEGATE', 'value': '6 pm'}, {'slot': 'time', 'type': 'SELECT', 'value': '6.15 pm'}, {'slot': 'time', 'type': 'SELECT', 'value': '6.30 pm'}]"
+            },
+            {
+                "turn id": 3,
+                "user utterance": "6.30 pm is fine .",
+                "system response": "great ! i ' ve booked a reservation for 6 people at sushi boat on friday at 6.30 pm .",
+                "dialog history": "<USER> hi , i want to make a reservation for 6 pm . <SYSTEM> for what date , what restaurant and how many people ? <USER> 6 people on friday for sushi boat . <SYSTEM> they couldn ' t reserve a table for you at 6 pm , but do 6.15 pm or 6.30 pm work ?",
+                "original user side information": {
+                    "dialogue_state": [
+                        {
+                            "slot": "date",
+                            "value": "friday"
+                        },
+                        {
+                            "slot": "num_people",
+                            "value": "6"
+                        },
+                        {
+                            "slot": "restaurant_name",
+                            "value": "sushi boat"
+                        },
+                        {
+                            "slot": "time",
+                            "value": "6.30 pm"
+                        }
+                    ],
+                    "user_acts": [
+                        {
+                            "slot": "time",
+                            "type": "AFFIRM"
+                        }
+                    ],
+                    "user_utterance": {
+                        "slots": [
+                            {
+                                "exclusive_end": 2,
+                                "slot": "time",
+                                "start": 0
+                            }
+                        ],
+                        "text": "6.30 pm is fine .",
+                        "tokens": [
+                            "6.30",
+                            "pm",
+                            "is",
+                            "fine",
+                            "."
+                        ]
+                    }
+                },
+                "original system side information": {
+                    "system_acts": [
+                        {
+                            "slot": "restaurant_name",
+                            "type": "NOTIFY_SUCCESS",
+                            "value": "sushi boat"
+                        },
+                        {
+                            "slot": "time",
+                            "type": "NOTIFY_SUCCESS",
+                            "value": "6.30 pm"
+                        },
+                        {
+                            "slot": "num_people",
+                            "type": "NOTIFY_SUCCESS",
+                            "value": "6"
+                        },
+                        {
+                            "slot": "date",
+                            "type": "NOTIFY_SUCCESS",
+                            "value": "friday"
+                        }
+                    ],
+                    "system_utterance": {
+                        "slots": [
+                            {
+                                "exclusive_end": 10,
+                                "slot": "num_people",
+                                "start": 9
+                            },
+                            {
+                                "exclusive_end": 14,
+                                "slot": "restaurant_name",
+                                "start": 12
+                            },
+                            {
+                                "exclusive_end": 16,
+                                "slot": "date",
+                                "start": 15
+                            },
+                            {
+                                "exclusive_end": 19,
+                                "slot": "time",
+                                "start": 17
+                            }
+                        ],
+                        "text": "great ! i ' ve booked a reservation for 6 people at sushi boat on friday at 6.30 pm .",
+                        "tokens": [
+                            "great",
+                            "!",
+                            "i",
+                            "'",
+                            "ve",
+                            "booked",
+                            "a",
+                            "reservation",
+                            "for",
+                            "6",
+                            "people",
+                            "at",
+                            "sushi",
+                            "boat",
+                            "on",
+                            "friday",
+                            "at",
+                            "6.30",
+                            "pm",
+                            "."
+                        ]
+                    }
+                },
+                "dst": "restaurant time 6.30 pm",
+                "dst accumulated": "restaurant time 6.30 pm, restaurant num_people 6, restaurant date friday, restaurant restaurant_name sushi boat",
+                "intent": "AFFIRM",
+                "external knowledge non-flat": {
+                    "metadata": {
+                        "system_acts": [
+                            {
+                                "slot": "restaurant_name",
+                                "type": "NOTIFY_SUCCESS",
+                                "value": "sushi boat"
+                            },
+                            {
+                                "slot": "time",
+                                "type": "NOTIFY_SUCCESS",
+                                "value": "6.30 pm"
+                            },
+                            {
+                                "slot": "num_people",
+                                "type": "NOTIFY_SUCCESS",
+                                "value": "6"
+                            },
+                            {
+                                "slot": "date",
+                                "type": "NOTIFY_SUCCESS",
+                                "value": "friday"
+                            }
+                        ]
+                    }
+                },
+                "external knowledge": "System acts: [{'slot': 'restaurant_name', 'type': 'NOTIFY_SUCCESS', 'value': 'sushi boat'}, {'slot': 'time', 'type': 'NOTIFY_SUCCESS', 'value': '6.30 pm'}, {'slot': 'num_people', 'type': 'NOTIFY_SUCCESS', 'value': '6'}, {'slot': 'date', 'type': 'NOTIFY_SUCCESS', 'value': 'friday'}]"
+            },
+            {
+                "turn id": 4,
+                "user utterance": "bye !",
+                "system response": "",
+                "dialog history": "<USER> hi , i want to make a reservation for 6 pm . <SYSTEM> for what date , what restaurant and how many people ? <USER> 6 people on friday for sushi boat . <SYSTEM> they couldn ' t reserve a table for you at 6 pm , but do 6.15 pm or 6.30 pm work ? <USER> 6.30 pm is fine . <SYSTEM> great ! i ' ve booked a reservation for 6 people at sushi boat on friday at 6.30 pm .",
+                "original user side information": {
+                    "dialogue_state": [
+                        {
+                            "slot": "date",
+                            "value": "friday"
+                        },
+                        {
+                            "slot": "num_people",
+                            "value": "6"
+                        },
+                        {
+                            "slot": "restaurant_name",
+                            "value": "sushi boat"
+                        },
+                        {
+                            "slot": "time",
+                            "value": "6.30 pm"
+                        }
+                    ],
+                    "user_acts": [
+                        {
+                            "type": "GOOD_BYE"
+                        }
+                    ],
+                    "user_utterance": {
+                        "slots": [],
+                        "text": "bye !",
+                        "tokens": [
+                            "bye",
+                            "!"
+                        ]
+                    }
+                },
+                "original system side information": {},
+                "dst": "",
+                "dst accumulated": "restaurant time 6.30 pm, restaurant num_people 6, restaurant date friday, restaurant restaurant_name sushi boat",
+                "intent": "GOOD_BYE",
+                "external knowledge non-flat": {
+                    "metadata": {
+                        "system_acts": ""
+                    }
+                },
+                "external knowledge": "System acts: "
+            }
+        ],
+        "dst knowledge": "( restaurant : ( num_people : ( 4 | 6 | 3 | 5 | 2 ) | restaurant_name : ( boats | amarin | oren | sweet greens | amarin | ephesus | cheese cake factory | amarin | il fornaio | the view ) | date : ( wednesday | tomorrow | tonight | friday | next monday ) | time : ( 8 pm | 6.15 pm | 7.30 pm | 6 pm | 5 pm | 7 pm | 5.30 pm | 8.30 pm | dontcare | 7.15 pm | 6.30 pm ) | meal : ( dinner | brunch | breakfast | dontcare | lunch ) | location : ( redmond | madison | morristown | orlando | kirkland | yorktown heights | middletown | los altos | mountain view ) | price_range : ( moderately priced | dontcare | inexpensive | expensive ) | category : ( mediterranean | italian | thai | dontcare | taiwanese | french | indian | greek | vietnamese | chinese ) | rating : ( good | zagat rated | dontcare | michelin rated )))",
+        "intent knowledge": "( restaurant : ( GREETING | REQUEST_ALTS | OTHER | CANT_UNDERSTAND | NEGATE | THANK_YOU | GOOD_BYE | INFORM | AFFIRM ))",
+        "prompt": [
+            "This is a bot helping users to reserve a restaurant. Given the dialog context and external database, please generate a relevant system response for the user.",
+            "This bot assists users to reserve a restaurant. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
+            "This bot helps users to reserve a restaurant. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
+            "The purpose of this bot is to assist users to reserve a restaurant. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
+            "This bot is designed to help users reserve a restaurant. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+        ]
+    },
+    "SimJointRestaurant--train--4": {
+        "original dialog id": "restaurant_00000007",
+        "dialog index": 4,
+        "original dialog info": {
+            "slots and values": {
+                "restaurant": {
+                    "num_people": [
+                        "4",
+                        "6",
+                        "3",
+                        "5",
+                        "2"
+                    ],
+                    "restaurant_name": [
+                        "boats",
+                        "amarin",
+                        "oren",
+                        "sweet greens",
+                        "amarin",
+                        "ephesus",
+                        "cheese cake factory",
+                        "amarin",
+                        "il fornaio",
+                        "the view"
+                    ],
+                    "date": [
+                        "wednesday",
+                        "tomorrow",
+                        "tonight",
+                        "friday",
+                        "next monday"
+                    ],
+                    "time": [
+                        "8 pm",
+                        "6.15 pm",
+                        "7.30 pm",
+                        "6 pm",
+                        "5 pm",
+                        "7 pm",
+                        "5.30 pm",
+                        "8.30 pm",
+                        "dontcare",
+                        "7.15 pm",
+                        "6.30 pm"
+                    ],
+                    "meal": [
+                        "dinner",
+                        "brunch",
+                        "breakfast",
+                        "dontcare",
+                        "lunch"
+                    ],
+                    "location": [
+                        "redmond",
+                        "madison",
+                        "morristown",
+                        "orlando",
+                        "kirkland",
+                        "yorktown heights",
+                        "middletown",
+                        "los altos",
+                        "mountain view"
+                    ],
+                    "price_range": [
+                        "moderately priced",
+                        "dontcare",
+                        "inexpensive",
+                        "expensive"
+                    ],
+                    "category": [
+                        "mediterranean",
+                        "italian",
+                        "thai",
+                        "dontcare",
+                        "taiwanese",
+                        "french",
+                        "indian",
+                        "greek",
+                        "vietnamese",
+                        "chinese"
+                    ],
+                    "rating": [
+                        "good",
+                        "zagat rated",
+                        "dontcare",
+                        "michelin rated"
+                    ]
+                }
+            },
+            "intents": {
+                "restaurant": [
+                    "GREETING",
+                    "REQUEST_ALTS",
+                    "OTHER",
+                    "CANT_UNDERSTAND",
+                    "NEGATE",
+                    "THANK_YOU",
+                    "GOOD_BYE",
+                    "INFORM",
+                    "AFFIRM"
+                ]
+            }
+        },
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "hi ! can you book me a restaurant reservation ?",
+                "system response": "for how many people ?",
+                "dialog history": "",
+                "original user side information": {
+                    "dialogue_state": [],
+                    "user_acts": [
+                        {
+                            "type": "GREETING"
+                        }
+                    ],
+                    "user_intents": [
+                        "RESERVE_RESTAURANT"
+                    ],
+                    "user_utterance": {
+                        "slots": [],
+                        "text": "hi ! can you book me a restaurant reservation ?",
+                        "tokens": [
+                            "hi",
+                            "!",
+                            "can",
+                            "you",
+                            "book",
+                            "me",
+                            "a",
+                            "restaurant",
+                            "reservation",
+                            "?"
+                        ]
+                    }
+                },
+                "original system side information": {
+                    "system_acts": [
+                        {
+                            "slot": "num_people",
+                            "type": "REQUEST"
+                        }
+                    ],
+                    "system_utterance": {
+                        "slots": [],
+                        "text": "for how many people ?",
+                        "tokens": [
+                            "for",
+                            "how",
+                            "many",
+                            "people",
+                            "?"
+                        ]
+                    }
+                },
+                "dst": "",
+                "dst accumulated": "",
+                "intent": "GREETING",
+                "external knowledge non-flat": {
+                    "metadata": {
+                        "system_acts": [
+                            {
+                                "slot": "num_people",
+                                "type": "REQUEST"
+                            }
+                        ]
+                    }
+                },
+                "external knowledge": "System acts: [{'slot': 'num_people', 'type': 'REQUEST'}]"
+            },
+            {
+                "turn id": 2,
+                "user utterance": "5",
+                "system response": "please confirm number of people is 5",
+                "dialog history": "<USER> hi ! can you book me a restaurant reservation ? <SYSTEM> for how many people ?",
+                "original user side information": {
+                    "dialogue_state": [
+                        {
+                            "slot": "num_people",
+                            "value": "5"
+                        }
+                    ],
+                    "user_acts": [
+                        {
+                            "type": "INFORM"
+                        }
+                    ],
+                    "user_utterance": {
+                        "slots": [
+                            {
+                                "exclusive_end": 1,
+                                "slot": "num_people",
+                                "start": 0
+                            }
+                        ],
+                        "text": "5",
+                        "tokens": [
+                            "5"
+                        ]
+                    }
+                },
+                "original system side information": {
+                    "system_acts": [
+                        {
+                            "slot": "num_people",
+                            "type": "CONFIRM",
+                            "value": "5"
+                        }
+                    ],
+                    "system_utterance": {
+                        "slots": [
+                            {
+                                "exclusive_end": 7,
+                                "slot": "num_people",
+                                "start": 6
+                            }
+                        ],
+                        "text": "please confirm number of people is 5",
+                        "tokens": [
+                            "please",
+                            "confirm",
+                            "number",
+                            "of",
+                            "people",
+                            "is",
+                            "5"
+                        ]
+                    }
+                },
+                "dst": "restaurant num_people 5",
+                "dst accumulated": "restaurant num_people 5",
+                "intent": "INFORM",
+                "external knowledge non-flat": {
+                    "metadata": {
+                        "system_acts": [
+                            {
+                                "slot": "num_people",
+                                "type": "CONFIRM",
+                                "value": "5"
+                            }
+                        ]
+                    }
+                },
+                "external knowledge": "System acts: [{'slot': 'num_people', 'type': 'CONFIRM', 'value': '5'}]"
+            },
+            {
+                "turn id": 3,
+                "user utterance": "correct",
+                "system response": "what is the restaurant and for what day ?",
+                "dialog history": "<USER> hi ! can you book me a restaurant reservation ? <SYSTEM> for how many people ? <USER> 5 <SYSTEM> please confirm number of people is 5",
+                "original user side information": {
+                    "dialogue_state": [
+                        {
+                            "slot": "num_people",
+                            "value": "5"
+                        }
+                    ],
+                    "user_acts": [
+                        {
+                            "type": "AFFIRM"
+                        }
+                    ],
+                    "user_utterance": {
+                        "slots": [],
+                        "text": "correct",
+                        "tokens": [
+                            "correct"
+                        ]
+                    }
+                },
+                "original system side information": {
+                    "system_acts": [
+                        {
+                            "slot": "date",
+                            "type": "REQUEST"
+                        },
+                        {
+                            "slot": "restaurant_name",
+                            "type": "REQUEST"
+                        }
+                    ],
+                    "system_utterance": {
+                        "slots": [],
+                        "text": "what is the restaurant and for what day ?",
+                        "tokens": [
+                            "what",
+                            "is",
+                            "the",
+                            "restaurant",
+                            "and",
+                            "for",
+                            "what",
+                            "day",
+                            "?"
+                        ]
+                    }
+                },
+                "dst": "",
+                "dst accumulated": "restaurant num_people 5",
+                "intent": "AFFIRM",
+                "external knowledge non-flat": {
+                    "metadata": {
+                        "system_acts": [
+                            {
+                                "slot": "date",
+                                "type": "REQUEST"
+                            },
+                            {
+                                "slot": "restaurant_name",
+                                "type": "REQUEST"
+                            }
+                        ]
+                    }
+                },
+                "external knowledge": "System acts: [{'slot': 'date', 'type': 'REQUEST'}, {'slot': 'restaurant_name', 'type': 'REQUEST'}]"
+            },
+            {
+                "turn id": 4,
+                "user utterance": "date is wednesday at the sushi boat",
+                "system response": "what time ?",
+                "dialog history": "<USER> hi ! can you book me a restaurant reservation ? <SYSTEM> for how many people ? <USER> 5 <SYSTEM> please confirm number of people is 5 <USER> correct <SYSTEM> what is the restaurant and for what day ?",
+                "original user side information": {
+                    "dialogue_state": [
+                        {
+                            "slot": "num_people",
+                            "value": "5"
+                        },
+                        {
+                            "slot": "date",
+                            "value": "wednesday"
+                        },
+                        {
+                            "slot": "restaurant_name",
+                            "value": "sushi boat"
+                        }
+                    ],
+                    "user_acts": [
+                        {
+                            "type": "INFORM"
+                        }
+                    ],
+                    "user_utterance": {
+                        "slots": [
+                            {
+                                "exclusive_end": 3,
+                                "slot": "date",
+                                "start": 2
+                            },
+                            {
+                                "exclusive_end": 7,
+                                "slot": "restaurant_name",
+                                "start": 5
+                            }
+                        ],
+                        "text": "date is wednesday at the sushi boat",
+                        "tokens": [
+                            "date",
+                            "is",
+                            "wednesday",
+                            "at",
+                            "the",
+                            "sushi",
+                            "boat"
+                        ]
+                    }
+                },
+                "original system side information": {
+                    "system_acts": [
+                        {
+                            "slot": "time",
+                            "type": "REQUEST"
+                        }
+                    ],
+                    "system_utterance": {
+                        "slots": [],
+                        "text": "what time ?",
+                        "tokens": [
+                            "what",
+                            "time",
+                            "?"
+                        ]
+                    }
+                },
+                "dst": "restaurant date wednesday, restaurant restaurant_name sushi boat",
+                "dst accumulated": "restaurant num_people 5, restaurant date wednesday, restaurant restaurant_name sushi boat",
+                "intent": "INFORM",
+                "external knowledge non-flat": {
+                    "metadata": {
+                        "system_acts": [
+                            {
+                                "slot": "time",
+                                "type": "REQUEST"
+                            }
+                        ]
+                    }
+                },
+                "external knowledge": "System acts: [{'slot': 'time', 'type': 'REQUEST'}]"
+            },
+            {
+                "turn id": 5,
+                "user utterance": "7.15 pm",
+                "system response": "confirm time is 7.15 pm",
+                "dialog history": "<USER> hi ! can you book me a restaurant reservation ? <SYSTEM> for how many people ? <USER> 5 <SYSTEM> please confirm number of people is 5 <USER> correct <SYSTEM> what is the restaurant and for what day ? <USER> date is wednesday at the sushi boat <SYSTEM> what time ?",
+                "original user side information": {
+                    "dialogue_state": [
+                        {
+                            "slot": "date",
+                            "value": "wednesday"
+                        },
+                        {
+                            "slot": "num_people",
+                            "value": "5"
+                        },
+                        {
+                            "slot": "restaurant_name",
+                            "value": "sushi boat"
+                        },
+                        {
+                            "slot": "time",
+                            "value": "7.15 pm"
+                        }
+                    ],
+                    "user_acts": [
+                        {
+                            "type": "INFORM"
+                        }
+                    ],
+                    "user_utterance": {
+                        "slots": [
+                            {
+                                "exclusive_end": 2,
+                                "slot": "time",
+                                "start": 0
+                            }
+                        ],
+                        "text": "7.15 pm",
+                        "tokens": [
+                            "7.15",
+                            "pm"
+                        ]
+                    }
+                },
+                "original system side information": {
+                    "system_acts": [
+                        {
+                            "slot": "time",
+                            "type": "CONFIRM",
+                            "value": "7.15 pm"
+                        }
+                    ],
+                    "system_utterance": {
+                        "slots": [
+                            {
+                                "exclusive_end": 5,
+                                "slot": "time",
+                                "start": 3
+                            }
+                        ],
+                        "text": "confirm time is 7.15 pm",
+                        "tokens": [
+                            "confirm",
+                            "time",
+                            "is",
+                            "7.15",
+                            "pm"
+                        ]
+                    }
+                },
+                "dst": "restaurant time 7.15 pm",
+                "dst accumulated": "restaurant num_people 5, restaurant date wednesday, restaurant restaurant_name sushi boat, restaurant time 7.15 pm",
+                "intent": "INFORM",
+                "external knowledge non-flat": {
+                    "metadata": {
+                        "system_acts": [
+                            {
+                                "slot": "time",
+                                "type": "CONFIRM",
+                                "value": "7.15 pm"
+                            }
+                        ]
+                    }
+                },
+                "external knowledge": "System acts: [{'slot': 'time', 'type': 'CONFIRM', 'value': '7.15 pm'}]"
+            },
+            {
+                "turn id": 6,
+                "user utterance": "right",
+                "system response": "7.15 pm reservation not available however 6.15 pm is available",
+                "dialog history": "<USER> hi ! can you book me a restaurant reservation ? <SYSTEM> for how many people ? <USER> 5 <SYSTEM> please confirm number of people is 5 <USER> correct <SYSTEM> what is the restaurant and for what day ? <USER> date is wednesday at the sushi boat <SYSTEM> what time ? <USER> 7.15 pm <SYSTEM> confirm time is 7.15 pm",
+                "original user side information": {
+                    "dialogue_state": [
+                        {
+                            "slot": "date",
+                            "value": "wednesday"
+                        },
+                        {
+                            "slot": "num_people",
+                            "value": "5"
+                        },
+                        {
+                            "slot": "restaurant_name",
+                            "value": "sushi boat"
+                        },
+                        {
+                            "slot": "time",
+                            "value": "7.15 pm"
+                        }
+                    ],
+                    "user_acts": [
+                        {
+                            "type": "AFFIRM"
+                        }
+                    ],
+                    "user_utterance": {
+                        "slots": [],
+                        "text": "right",
+                        "tokens": [
+                            "right"
+                        ]
+                    }
+                },
+                "original system side information": {
+                    "system_acts": [
+                        {
+                            "slot": "time",
+                            "type": "NEGATE",
+                            "value": "7.15 pm"
+                        },
+                        {
+                            "slot": "time",
+                            "type": "OFFER",
+                            "value": "6.15 pm"
+                        }
+                    ],
+                    "system_utterance": {
+                        "slots": [
+                            {
+                                "exclusive_end": 2,
+                                "slot": "time",
+                                "start": 0
+                            },
+                            {
+                                "exclusive_end": 8,
+                                "slot": "time",
+                                "start": 6
+                            }
+                        ],
+                        "text": "7.15 pm reservation not available however 6.15 pm is available",
+                        "tokens": [
+                            "7.15",
+                            "pm",
+                            "reservation",
+                            "not",
+                            "available",
+                            "however",
+                            "6.15",
+                            "pm",
+                            "is",
+                            "available"
+                        ]
+                    }
+                },
+                "dst": "",
+                "dst accumulated": "restaurant num_people 5, restaurant date wednesday, restaurant restaurant_name sushi boat, restaurant time 7.15 pm",
+                "intent": "AFFIRM",
+                "external knowledge non-flat": {
+                    "metadata": {
+                        "system_acts": [
+                            {
+                                "slot": "time",
+                                "type": "NEGATE",
+                                "value": "7.15 pm"
+                            },
+                            {
+                                "slot": "time",
+                                "type": "OFFER",
+                                "value": "6.15 pm"
+                            }
+                        ]
+                    }
+                },
+                "external knowledge": "System acts: [{'slot': 'time', 'type': 'NEGATE', 'value': '7.15 pm'}, {'slot': 'time', 'type': 'OFFER', 'value': '6.15 pm'}]"
+            },
+            {
+                "turn id": 7,
+                "user utterance": "agree",
+                "system response": "reservation confirmed for wednesday at 6.15 pm at sushi boat for 5 people",
+                "dialog history": "<USER> hi ! can you book me a restaurant reservation ? <SYSTEM> for how many people ? <USER> 5 <SYSTEM> please confirm number of people is 5 <USER> correct <SYSTEM> what is the restaurant and for what day ? <USER> date is wednesday at the sushi boat <SYSTEM> what time ? <USER> 7.15 pm <SYSTEM> confirm time is 7.15 pm <USER> right <SYSTEM> 7.15 pm reservation not available however 6.15 pm is available",
+                "original user side information": {
+                    "dialogue_state": [
+                        {
+                            "slot": "date",
+                            "value": "wednesday"
+                        },
+                        {
+                            "slot": "num_people",
+                            "value": "5"
+                        },
+                        {
+                            "slot": "restaurant_name",
+                            "value": "sushi boat"
+                        },
+                        {
+                            "slot": "time",
+                            "value": "6.15 pm"
+                        }
+                    ],
+                    "user_acts": [
+                        {
+                            "type": "AFFIRM"
+                        }
+                    ],
+                    "user_utterance": {
+                        "slots": [],
+                        "text": "agree",
+                        "tokens": [
+                            "agree"
+                        ]
+                    }
+                },
+                "original system side information": {
+                    "system_acts": [
+                        {
+                            "slot": "restaurant_name",
+                            "type": "NOTIFY_SUCCESS",
+                            "value": "sushi boat"
+                        },
+                        {
+                            "slot": "time",
+                            "type": "NOTIFY_SUCCESS",
+                            "value": "6.15 pm"
+                        },
+                        {
+                            "slot": "num_people",
+                            "type": "NOTIFY_SUCCESS",
+                            "value": "5"
+                        },
+                        {
+                            "slot": "date",
+                            "type": "NOTIFY_SUCCESS",
+                            "value": "wednesday"
+                        }
+                    ],
+                    "system_utterance": {
+                        "slots": [
+                            {
+                                "exclusive_end": 4,
+                                "slot": "date",
+                                "start": 3
+                            },
+                            {
+                                "exclusive_end": 7,
+                                "slot": "time",
+                                "start": 5
+                            },
+                            {
+                                "exclusive_end": 10,
+                                "slot": "restaurant_name",
+                                "start": 8
+                            },
+                            {
+                                "exclusive_end": 12,
+                                "slot": "num_people",
+                                "start": 11
+                            }
+                        ],
+                        "text": "reservation confirmed for wednesday at 6.15 pm at sushi boat for 5 people",
+                        "tokens": [
+                            "reservation",
+                            "confirmed",
+                            "for",
+                            "wednesday",
+                            "at",
+                            "6.15",
+                            "pm",
+                            "at",
+                            "sushi",
+                            "boat",
+                            "for",
+                            "5",
+                            "people"
+                        ]
+                    }
+                },
+                "dst": "",
+                "dst accumulated": "restaurant num_people 5, restaurant date wednesday, restaurant restaurant_name sushi boat, restaurant time 7.15 pm",
+                "intent": "AFFIRM",
+                "external knowledge non-flat": {
+                    "metadata": {
+                        "system_acts": [
+                            {
+                                "slot": "restaurant_name",
+                                "type": "NOTIFY_SUCCESS",
+                                "value": "sushi boat"
+                            },
+                            {
+                                "slot": "time",
+                                "type": "NOTIFY_SUCCESS",
+                                "value": "6.15 pm"
+                            },
+                            {
+                                "slot": "num_people",
+                                "type": "NOTIFY_SUCCESS",
+                                "value": "5"
+                            },
+                            {
+                                "slot": "date",
+                                "type": "NOTIFY_SUCCESS",
+                                "value": "wednesday"
+                            }
+                        ]
+                    }
+                },
+                "external knowledge": "System acts: [{'slot': 'restaurant_name', 'type': 'NOTIFY_SUCCESS', 'value': 'sushi boat'}, {'slot': 'time', 'type': 'NOTIFY_SUCCESS', 'value': '6.15 pm'}, {'slot': 'num_people', 'type': 'NOTIFY_SUCCESS', 'value': '5'}, {'slot': 'date', 'type': 'NOTIFY_SUCCESS', 'value': 'wednesday'}]"
+            },
+            {
+                "turn id": 8,
+                "user utterance": "thanks cya",
+                "system response": "",
+                "dialog history": "<USER> hi ! can you book me a restaurant reservation ? <SYSTEM> for how many people ? <USER> 5 <SYSTEM> please confirm number of people is 5 <USER> correct <SYSTEM> what is the restaurant and for what day ? <USER> date is wednesday at the sushi boat <SYSTEM> what time ? <USER> 7.15 pm <SYSTEM> confirm time is 7.15 pm <USER> right <SYSTEM> 7.15 pm reservation not available however 6.15 pm is available <USER> agree <SYSTEM> reservation confirmed for wednesday at 6.15 pm at sushi boat for 5 people",
+                "original user side information": {
+                    "dialogue_state": [
+                        {
+                            "slot": "date",
+                            "value": "wednesday"
+                        },
+                        {
+                            "slot": "num_people",
+                            "value": "5"
+                        },
+                        {
+                            "slot": "restaurant_name",
+                            "value": "sushi boat"
+                        },
+                        {
+                            "slot": "time",
+                            "value": "6.15 pm"
+                        }
+                    ],
+                    "user_acts": [
+                        {
+                            "type": "THANK_YOU"
+                        },
+                        {
+                            "type": "GOOD_BYE"
+                        }
+                    ],
+                    "user_utterance": {
+                        "slots": [],
+                        "text": "thanks cya",
+                        "tokens": [
+                            "thanks",
+                            "cya"
+                        ]
+                    }
+                },
+                "original system side information": {},
+                "dst": "",
+                "dst accumulated": "restaurant num_people 5, restaurant date wednesday, restaurant restaurant_name sushi boat, restaurant time 7.15 pm",
+                "intent": "THANK_YOU, GOOD_BYE",
+                "external knowledge non-flat": {
+                    "metadata": {
+                        "system_acts": ""
+                    }
+                },
+                "external knowledge": "System acts: "
+            }
+        ],
+        "dst knowledge": "( restaurant : ( num_people : ( 4 | 6 | 3 | 5 | 2 ) | restaurant_name : ( boats | amarin | oren | sweet greens | amarin | ephesus | cheese cake factory | amarin | il fornaio | the view ) | date : ( wednesday | tomorrow | tonight | friday | next monday ) | time : ( 8 pm | 6.15 pm | 7.30 pm | 6 pm | 5 pm | 7 pm | 5.30 pm | 8.30 pm | dontcare | 7.15 pm | 6.30 pm ) | meal : ( dinner | brunch | breakfast | dontcare | lunch ) | location : ( redmond | madison | morristown | orlando | kirkland | yorktown heights | middletown | los altos | mountain view ) | price_range : ( moderately priced | dontcare | inexpensive | expensive ) | category : ( mediterranean | italian | thai | dontcare | taiwanese | french | indian | greek | vietnamese | chinese ) | rating : ( good | zagat rated | dontcare | michelin rated )))",
+        "intent knowledge": "( restaurant : ( GREETING | REQUEST_ALTS | OTHER | CANT_UNDERSTAND | NEGATE | THANK_YOU | GOOD_BYE | INFORM | AFFIRM ))",
+        "prompt": [
+            "This is a bot helping users to reserve a restaurant. Given the dialog context and external database, please generate a relevant system response for the user.",
+            "This bot assists users to reserve a restaurant. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
+            "This bot helps users to reserve a restaurant. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
+            "The purpose of this bot is to assist users to reserve a restaurant. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
+            "This bot is designed to help users reserve a restaurant. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+        ]
+    },
+    "SimJointRestaurant--train--5": {
+        "original dialog id": "restaurant_00000011",
+        "dialog index": 5,
+        "original dialog info": {
+            "slots and values": {
+                "restaurant": {
+                    "num_people": [
+                        "4",
+                        "6",
+                        "3",
+                        "5",
+                        "2"
+                    ],
+                    "restaurant_name": [
+                        "boats",
+                        "amarin",
+                        "oren",
+                        "sweet greens",
+                        "amarin",
+                        "ephesus",
+                        "cheese cake factory",
+                        "amarin",
+                        "il fornaio",
+                        "the view"
+                    ],
+                    "date": [
+                        "wednesday",
+                        "tomorrow",
+                        "tonight",
+                        "friday",
+                        "next monday"
+                    ],
+                    "time": [
+                        "8 pm",
+                        "6.15 pm",
+                        "7.30 pm",
+                        "6 pm",
+                        "5 pm",
+                        "7 pm",
+                        "5.30 pm",
+                        "8.30 pm",
+                        "dontcare",
+                        "7.15 pm",
+                        "6.30 pm"
+                    ],
+                    "meal": [
+                        "dinner",
+                        "brunch",
+                        "breakfast",
+                        "dontcare",
+                        "lunch"
+                    ],
+                    "location": [
+                        "redmond",
+                        "madison",
+                        "morristown",
+                        "orlando",
+                        "kirkland",
+                        "yorktown heights",
+                        "middletown",
+                        "los altos",
+                        "mountain view"
+                    ],
+                    "price_range": [
+                        "moderately priced",
+                        "dontcare",
+                        "inexpensive",
+                        "expensive"
+                    ],
+                    "category": [
+                        "mediterranean",
+                        "italian",
+                        "thai",
+                        "dontcare",
+                        "taiwanese",
+                        "french",
+                        "indian",
+                        "greek",
+                        "vietnamese",
+                        "chinese"
+                    ],
+                    "rating": [
+                        "good",
+                        "zagat rated",
+                        "dontcare",
+                        "michelin rated"
+                    ]
+                }
+            },
+            "intents": {
+                "restaurant": [
+                    "GREETING",
+                    "REQUEST_ALTS",
+                    "OTHER",
+                    "CANT_UNDERSTAND",
+                    "NEGATE",
+                    "THANK_YOU",
+                    "GOOD_BYE",
+                    "INFORM",
+                    "AFFIRM"
+                ]
+            }
+        },
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "make a restaurant reservation",
+                "system response": "for what time ?",
+                "dialog history": "",
+                "original user side information": {
+                    "dialogue_state": [],
+                    "user_acts": [],
+                    "user_intents": [
+                        "RESERVE_RESTAURANT"
+                    ],
+                    "user_utterance": {
+                        "slots": [],
+                        "text": "make a restaurant reservation",
+                        "tokens": [
+                            "make",
+                            "a",
+                            "restaurant",
+                            "reservation"
+                        ]
+                    }
+                },
+                "original system side information": {
+                    "system_acts": [
+                        {
+                            "slot": "time",
+                            "type": "REQUEST"
+                        }
+                    ],
+                    "system_utterance": {
+                        "slots": [],
+                        "text": "for what time ?",
+                        "tokens": [
+                            "for",
+                            "what",
+                            "time",
+                            "?"
+                        ]
+                    }
+                },
+                "dst": "",
+                "dst accumulated": "",
+                "intent": "",
+                "external knowledge non-flat": {
+                    "metadata": {
+                        "system_acts": [
+                            {
+                                "slot": "time",
+                                "type": "REQUEST"
+                            }
+                        ]
+                    }
+                },
+                "external knowledge": "System acts: [{'slot': 'time', 'type': 'REQUEST'}]"
+            },
+            {
+                "turn id": 2,
+                "user utterance": "8 pm tonight",
+                "system response": "for what restaurant and for how many ?",
+                "dialog history": "<USER> make a restaurant reservation <SYSTEM> for what time ?",
+                "original user side information": {
+                    "dialogue_state": [
+                        {
+                            "slot": "date",
+                            "value": "tonight"
+                        },
+                        {
+                            "slot": "time",
+                            "value": "8 pm"
+                        }
+                    ],
+                    "user_acts": [
+                        {
+                            "type": "INFORM"
+                        }
+                    ],
+                    "user_utterance": {
+                        "slots": [
+                            {
+                                "exclusive_end": 2,
+                                "slot": "time",
+                                "start": 0
+                            },
+                            {
+                                "exclusive_end": 3,
+                                "slot": "date",
+                                "start": 2
+                            }
+                        ],
+                        "text": "8 pm tonight",
+                        "tokens": [
+                            "8",
+                            "pm",
+                            "tonight"
+                        ]
+                    }
+                },
+                "original system side information": {
+                    "system_acts": [
+                        {
+                            "slot": "num_people",
+                            "type": "REQUEST"
+                        },
+                        {
+                            "slot": "restaurant_name",
+                            "type": "REQUEST"
+                        }
+                    ],
+                    "system_utterance": {
+                        "slots": [],
+                        "text": "for what restaurant and for how many ?",
+                        "tokens": [
+                            "for",
+                            "what",
+                            "restaurant",
+                            "and",
+                            "for",
+                            "how",
+                            "many",
+                            "?"
+                        ]
+                    }
+                },
+                "dst": "restaurant time 8 pm, restaurant date tonight",
+                "dst accumulated": "restaurant time 8 pm, restaurant date tonight",
+                "intent": "INFORM",
+                "external knowledge non-flat": {
+                    "metadata": {
+                        "system_acts": [
+                            {
+                                "slot": "num_people",
+                                "type": "REQUEST"
+                            },
+                            {
+                                "slot": "restaurant_name",
+                                "type": "REQUEST"
+                            }
+                        ]
+                    }
+                },
+                "external knowledge": "System acts: [{'slot': 'num_people', 'type': 'REQUEST'}, {'slot': 'restaurant_name', 'type': 'REQUEST'}]"
+            },
+            {
+                "turn id": 3,
+                "user utterance": "5 at sakoon",
+                "system response": "there are none available for 8 pm , but there is one at 6.15 pm . would you like 6.15 pm instead ?",
+                "dialog history": "<USER> make a restaurant reservation <SYSTEM> for what time ? <USER> 8 pm tonight <SYSTEM> for what restaurant and for how many ?",
+                "original user side information": {
+                    "dialogue_state": [
+                        {
+                            "slot": "date",
+                            "value": "tonight"
+                        },
+                        {
+                            "slot": "num_people",
+                            "value": "5"
+                        },
+                        {
+                            "slot": "restaurant_name",
+                            "value": "sakoon"
+                        },
+                        {
+                            "slot": "time",
+                            "value": "8 pm"
+                        }
+                    ],
+                    "user_acts": [
+                        {
+                            "type": "INFORM"
+                        }
+                    ],
+                    "user_utterance": {
+                        "slots": [
+                            {
+                                "exclusive_end": 1,
+                                "slot": "num_people",
+                                "start": 0
+                            },
+                            {
+                                "exclusive_end": 3,
+                                "slot": "restaurant_name",
+                                "start": 2
+                            }
+                        ],
+                        "text": "5 at sakoon",
+                        "tokens": [
+                            "5",
+                            "at",
+                            "sakoon"
+                        ]
+                    }
+                },
+                "original system side information": {
+                    "system_acts": [
+                        {
+                            "slot": "time",
+                            "type": "NEGATE",
+                            "value": "8 pm"
+                        },
+                        {
+                            "slot": "time",
+                            "type": "OFFER",
+                            "value": "6.15 pm"
+                        }
+                    ],
+                    "system_utterance": {
+                        "slots": [
+                            {
+                                "exclusive_end": 7,
+                                "slot": "time",
+                                "start": 5
+                            },
+                            {
+                                "exclusive_end": 15,
+                                "slot": "time",
+                                "start": 13
+                            },
+                            {
+                                "exclusive_end": 21,
+                                "slot": "time",
+                                "start": 19
+                            }
+                        ],
+                        "text": "there are none available for 8 pm , but there is one at 6.15 pm . would you like 6.15 pm instead ?",
+                        "tokens": [
+                            "there",
+                            "are",
+                            "none",
+                            "available",
+                            "for",
+                            "8",
+                            "pm",
+                            ",",
+                            "but",
+                            "there",
+                            "is",
+                            "one",
+                            "at",
+                            "6.15",
+                            "pm",
+                            ".",
+                            "would",
+                            "you",
+                            "like",
+                            "6.15",
+                            "pm",
+                            "instead",
+                            "?"
+                        ]
+                    }
+                },
+                "dst": "restaurant num_people 5, restaurant restaurant_name sakoon",
+                "dst accumulated": "restaurant time 8 pm, restaurant date tonight, restaurant num_people 5, restaurant restaurant_name sakoon",
+                "intent": "INFORM",
+                "external knowledge non-flat": {
+                    "metadata": {
+                        "system_acts": [
+                            {
+                                "slot": "time",
+                                "type": "NEGATE",
+                                "value": "8 pm"
+                            },
+                            {
+                                "slot": "time",
+                                "type": "OFFER",
+                                "value": "6.15 pm"
+                            }
+                        ]
+                    }
+                },
+                "external knowledge": "System acts: [{'slot': 'time', 'type': 'NEGATE', 'value': '8 pm'}, {'slot': 'time', 'type': 'OFFER', 'value': '6.15 pm'}]"
+            },
+            {
+                "turn id": 4,
+                "user utterance": "no",
+                "system response": "i ' m sorry , but i cannot make a reservation for 5 at sakoon tonight .",
+                "dialog history": "<USER> make a restaurant reservation <SYSTEM> for what time ? <USER> 8 pm tonight <SYSTEM> for what restaurant and for how many ? <USER> 5 at sakoon <SYSTEM> there are none available for 8 pm , but there is one at 6.15 pm . would you like 6.15 pm instead ?",
+                "original user side information": {
+                    "dialogue_state": [
+                        {
+                            "slot": "num_people",
+                            "value": "5"
+                        },
+                        {
+                            "slot": "date",
+                            "value": "tonight"
+                        },
+                        {
+                            "slot": "restaurant_name",
+                            "value": "sakoon"
+                        },
+                        {
+                            "slot": "time",
+                            "value": "8 pm"
+                        }
+                    ],
+                    "user_acts": [
+                        {
+                            "type": "NEGATE"
+                        }
+                    ],
+                    "user_utterance": {
+                        "slots": [],
+                        "text": "no",
+                        "tokens": [
+                            "no"
+                        ]
+                    }
+                },
+                "original system side information": {
+                    "system_acts": [
+                        {
+                            "slot": "date",
+                            "type": "NOTIFY_FAILURE",
+                            "value": "tonight"
+                        },
+                        {
+                            "slot": "num_people",
+                            "type": "NOTIFY_FAILURE",
+                            "value": "5"
+                        },
+                        {
+                            "slot": "restaurant_name",
+                            "type": "NOTIFY_FAILURE",
+                            "value": "sakoon"
+                        }
+                    ],
+                    "system_utterance": {
+                        "slots": [
+                            {
+                                "exclusive_end": 13,
+                                "slot": "num_people",
+                                "start": 12
+                            },
+                            {
+                                "exclusive_end": 15,
+                                "slot": "restaurant_name",
+                                "start": 14
+                            },
+                            {
+                                "exclusive_end": 16,
+                                "slot": "date",
+                                "start": 15
+                            }
+                        ],
+                        "text": "i ' m sorry , but i cannot make a reservation for 5 at sakoon tonight .",
+                        "tokens": [
+                            "i",
+                            "'",
+                            "m",
+                            "sorry",
+                            ",",
+                            "but",
+                            "i",
+                            "cannot",
+                            "make",
+                            "a",
+                            "reservation",
+                            "for",
+                            "5",
+                            "at",
+                            "sakoon",
+                            "tonight",
+                            "."
+                        ]
+                    }
+                },
+                "dst": "",
+                "dst accumulated": "restaurant time 8 pm, restaurant date tonight, restaurant num_people 5, restaurant restaurant_name sakoon",
+                "intent": "NEGATE",
+                "external knowledge non-flat": {
+                    "metadata": {
+                        "system_acts": [
+                            {
+                                "slot": "date",
+                                "type": "NOTIFY_FAILURE",
+                                "value": "tonight"
+                            },
+                            {
+                                "slot": "num_people",
+                                "type": "NOTIFY_FAILURE",
+                                "value": "5"
+                            },
+                            {
+                                "slot": "restaurant_name",
+                                "type": "NOTIFY_FAILURE",
+                                "value": "sakoon"
+                            }
+                        ]
+                    }
+                },
+                "external knowledge": "System acts: [{'slot': 'date', 'type': 'NOTIFY_FAILURE', 'value': 'tonight'}, {'slot': 'num_people', 'type': 'NOTIFY_FAILURE', 'value': '5'}, {'slot': 'restaurant_name', 'type': 'NOTIFY_FAILURE', 'value': 'sakoon'}]"
+            },
+            {
+                "turn id": 5,
+                "user utterance": "what about at sumiko ?",
+                "system response": "sorry , there are no reservations available for 5 people at sumiko tonight .",
+                "dialog history": "<USER> make a restaurant reservation <SYSTEM> for what time ? <USER> 8 pm tonight <SYSTEM> for what restaurant and for how many ? <USER> 5 at sakoon <SYSTEM> there are none available for 8 pm , but there is one at 6.15 pm . would you like 6.15 pm instead ? <USER> no <SYSTEM> i ' m sorry , but i cannot make a reservation for 5 at sakoon tonight .",
+                "original user side information": {
+                    "dialogue_state": [
+                        {
+                            "slot": "num_people",
+                            "value": "5"
+                        },
+                        {
+                            "slot": "date",
+                            "value": "tonight"
+                        },
+                        {
+                            "slot": "restaurant_name",
+                            "value": "sumiko"
+                        },
+                        {
+                            "slot": "time",
+                            "value": "8 pm"
+                        }
+                    ],
+                    "user_acts": [
+                        {
+                            "type": "INFORM"
+                        }
+                    ],
+                    "user_utterance": {
+                        "slots": [
+                            {
+                                "exclusive_end": 4,
+                                "slot": "restaurant_name",
+                                "start": 3
+                            }
+                        ],
+                        "text": "what about at sumiko ?",
+                        "tokens": [
+                            "what",
+                            "about",
+                            "at",
+                            "sumiko",
+                            "?"
+                        ]
+                    }
+                },
+                "original system side information": {
+                    "system_acts": [
+                        {
+                            "slot": "restaurant_name",
+                            "type": "NOTIFY_FAILURE",
+                            "value": "sumiko"
+                        },
+                        {
+                            "slot": "num_people",
+                            "type": "NOTIFY_FAILURE",
+                            "value": "5"
+                        },
+                        {
+                            "slot": "date",
+                            "type": "NOTIFY_FAILURE",
+                            "value": "tonight"
+                        }
+                    ],
+                    "system_utterance": {
+                        "slots": [
+                            {
+                                "exclusive_end": 9,
+                                "slot": "num_people",
+                                "start": 8
+                            },
+                            {
+                                "exclusive_end": 12,
+                                "slot": "restaurant_name",
+                                "start": 11
+                            },
+                            {
+                                "exclusive_end": 13,
+                                "slot": "date",
+                                "start": 12
+                            }
+                        ],
+                        "text": "sorry , there are no reservations available for 5 people at sumiko tonight .",
+                        "tokens": [
+                            "sorry",
+                            ",",
+                            "there",
+                            "are",
+                            "no",
+                            "reservations",
+                            "available",
+                            "for",
+                            "5",
+                            "people",
+                            "at",
+                            "sumiko",
+                            "tonight",
+                            "."
+                        ]
+                    }
+                },
+                "dst": "restaurant restaurant_name sumiko",
+                "dst accumulated": "restaurant time 8 pm, restaurant date tonight, restaurant num_people 5, restaurant restaurant_name sumiko",
+                "intent": "INFORM",
+                "external knowledge non-flat": {
+                    "metadata": {
+                        "system_acts": [
+                            {
+                                "slot": "restaurant_name",
+                                "type": "NOTIFY_FAILURE",
+                                "value": "sumiko"
+                            },
+                            {
+                                "slot": "num_people",
+                                "type": "NOTIFY_FAILURE",
+                                "value": "5"
+                            },
+                            {
+                                "slot": "date",
+                                "type": "NOTIFY_FAILURE",
+                                "value": "tonight"
+                            }
+                        ]
+                    }
+                },
+                "external knowledge": "System acts: [{'slot': 'restaurant_name', 'type': 'NOTIFY_FAILURE', 'value': 'sumiko'}, {'slot': 'num_people', 'type': 'NOTIFY_FAILURE', 'value': '5'}, {'slot': 'date', 'type': 'NOTIFY_FAILURE', 'value': 'tonight'}]"
+            },
+            {
+                "turn id": 6,
+                "user utterance": "ok , never mind . bye !",
+                "system response": "",
+                "dialog history": "<USER> make a restaurant reservation <SYSTEM> for what time ? <USER> 8 pm tonight <SYSTEM> for what restaurant and for how many ? <USER> 5 at sakoon <SYSTEM> there are none available for 8 pm , but there is one at 6.15 pm . would you like 6.15 pm instead ? <USER> no <SYSTEM> i ' m sorry , but i cannot make a reservation for 5 at sakoon tonight . <USER> what about at sumiko ? <SYSTEM> sorry , there are no reservations available for 5 people at sumiko tonight .",
+                "original user side information": {
+                    "dialogue_state": [
+                        {
+                            "slot": "date",
+                            "value": "tonight"
+                        },
+                        {
+                            "slot": "num_people",
+                            "value": "5"
+                        },
+                        {
+                            "slot": "restaurant_name",
+                            "value": "sumiko"
+                        },
+                        {
+                            "slot": "time",
+                            "value": "8 pm"
+                        }
+                    ],
+                    "user_acts": [
+                        {
+                            "type": "GOOD_BYE"
+                        }
+                    ],
+                    "user_utterance": {
+                        "slots": [],
+                        "text": "ok , never mind . bye !",
+                        "tokens": [
+                            "ok",
+                            ",",
+                            "never",
+                            "mind",
+                            ".",
+                            "bye",
+                            "!"
+                        ]
+                    }
+                },
+                "original system side information": {},
+                "dst": "",
+                "dst accumulated": "restaurant time 8 pm, restaurant date tonight, restaurant num_people 5, restaurant restaurant_name sumiko",
+                "intent": "GOOD_BYE",
+                "external knowledge non-flat": {
+                    "metadata": {
+                        "system_acts": ""
+                    }
+                },
+                "external knowledge": "System acts: "
+            }
+        ],
+        "dst knowledge": "( restaurant : ( num_people : ( 4 | 6 | 3 | 5 | 2 ) | restaurant_name : ( boats | amarin | oren | sweet greens | amarin | ephesus | cheese cake factory | amarin | il fornaio | the view ) | date : ( wednesday | tomorrow | tonight | friday | next monday ) | time : ( 8 pm | 6.15 pm | 7.30 pm | 6 pm | 5 pm | 7 pm | 5.30 pm | 8.30 pm | dontcare | 7.15 pm | 6.30 pm ) | meal : ( dinner | brunch | breakfast | dontcare | lunch ) | location : ( redmond | madison | morristown | orlando | kirkland | yorktown heights | middletown | los altos | mountain view ) | price_range : ( moderately priced | dontcare | inexpensive | expensive ) | category : ( mediterranean | italian | thai | dontcare | taiwanese | french | indian | greek | vietnamese | chinese ) | rating : ( good | zagat rated | dontcare | michelin rated )))",
+        "intent knowledge": "( restaurant : ( GREETING | REQUEST_ALTS | OTHER | CANT_UNDERSTAND | NEGATE | THANK_YOU | GOOD_BYE | INFORM | AFFIRM ))",
+        "prompt": [
+            "This is a bot helping users to reserve a restaurant. Given the dialog context and external database, please generate a relevant system response for the user.",
+            "This bot assists users to reserve a restaurant. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
+            "This bot helps users to reserve a restaurant. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
+            "The purpose of this bot is to assist users to reserve a restaurant. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
+            "This bot is designed to help users reserve a restaurant. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+        ]
+    }
+}

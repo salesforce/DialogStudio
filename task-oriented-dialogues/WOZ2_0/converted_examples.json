@@ -1,0 +1,1352 @@
+{
+    "WOZ2_0--train--1": {
+        "original dialog id": 0,
+        "dialog index": 1,
+        "original dialog info": {},
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "Are there any eritrean restaurants in town?",
+                "system response": "No, there are no eritrean restaurants in town. Would you like a different restaurant? ",
+                "dialog history": "",
+                "original user side information": {
+                    "turn_label": [
+                        [
+                            "food",
+                            "eritrean"
+                        ]
+                    ],
+                    "asr": [
+                        [
+                            "Are there any eritrean restaurants in town?",
+                            1.0
+                        ]
+                    ],
+                    "turn_idx": 0,
+                    "belief_state": [
+                        {
+                            "slots": [
+                                [
+                                    "food",
+                                    "eritrean"
+                                ]
+                            ],
+                            "act": "inform"
+                        }
+                    ],
+                    "transcript": "Are there any eritrean restaurants in town?"
+                },
+                "original system side information": {
+                    "system_acts": []
+                },
+                "dst": "restaurant food eritrean",
+                "dst accumulated": "restaurant food eritrean"
+            },
+            {
+                "turn id": 2,
+                "user utterance": "How about Chinese food?",
+                "system response": "There is a wide variety of Chinese restaurants, do you have an area preference or a price preference to narrow it down?",
+                "dialog history": "<USER> Are there any eritrean restaurants in town? <SYSTEM> No, there are no eritrean restaurants in town. Would you like a different restaurant?",
+                "original user side information": {
+                    "turn_label": [
+                        [
+                            "food",
+                            "chinese"
+                        ]
+                    ],
+                    "asr": [
+                        [
+                            "How about Chinese food?",
+                            1.0
+                        ]
+                    ],
+                    "turn_idx": 1,
+                    "belief_state": [
+                        {
+                            "slots": [
+                                [
+                                    "food",
+                                    "chinese"
+                                ]
+                            ],
+                            "act": "inform"
+                        }
+                    ],
+                    "transcript": "How about Chinese food?"
+                },
+                "original system side information": {
+                    "system_acts": [
+                        "area"
+                    ]
+                },
+                "dst": "restaurant food chinese",
+                "dst accumulated": "restaurant food chinese"
+            },
+            {
+                "turn id": 3,
+                "user utterance": "I would like the East part of town.",
+                "system response": "Yu Garden is a chinese restaurant in the east area.",
+                "dialog history": "<USER> Are there any eritrean restaurants in town? <SYSTEM> No, there are no eritrean restaurants in town. Would you like a different restaurant? <USER> How about Chinese food? <SYSTEM> There is a wide variety of Chinese restaurants, do you have an area preference or a price preference to narrow it down?",
+                "original user side information": {
+                    "turn_label": [
+                        [
+                            "area",
+                            "east"
+                        ]
+                    ],
+                    "asr": [
+                        [
+                            "I would like the East part of town.",
+                            1.0
+                        ]
+                    ],
+                    "turn_idx": 2,
+                    "belief_state": [
+                        {
+                            "slots": [
+                                [
+                                    "food",
+                                    "chinese"
+                                ]
+                            ],
+                            "act": "inform"
+                        },
+                        {
+                            "slots": [
+                                [
+                                    "area",
+                                    "east"
+                                ]
+                            ],
+                            "act": "inform"
+                        }
+                    ],
+                    "transcript": "I would like the East part of town."
+                },
+                "original system side information": {
+                    "system_acts": []
+                },
+                "dst": "restaurant area east",
+                "dst accumulated": "restaurant food chinese, restaurant area east"
+            },
+            {
+                "turn id": 4,
+                "user utterance": "Could I get the address, phone number, and postcode of Yu Garden?",
+                "system response": "Phone is 01223 248882, address and postcode are 529 Newmarket Road Fen Ditton C.B 5, 8 P.A",
+                "dialog history": "<USER> Are there any eritrean restaurants in town? <SYSTEM> No, there are no eritrean restaurants in town. Would you like a different restaurant? <USER> How about Chinese food? <SYSTEM> There is a wide variety of Chinese restaurants, do you have an area preference or a price preference to narrow it down? <USER> I would like the East part of town. <SYSTEM> Yu Garden is a chinese restaurant in the east area.",
+                "original user side information": {
+                    "turn_label": [
+                        [
+                            "request",
+                            "postcode"
+                        ],
+                        [
+                            "request",
+                            "phone"
+                        ],
+                        [
+                            "request",
+                            "address"
+                        ]
+                    ],
+                    "asr": [
+                        [
+                            "Could I get the address, phone number, and postcode of Yu Garden?",
+                            1.0
+                        ]
+                    ],
+                    "turn_idx": 3,
+                    "belief_state": [
+                        {
+                            "slots": [
+                                [
+                                    "slot",
+                                    "postcode"
+                                ]
+                            ],
+                            "act": "request"
+                        },
+                        {
+                            "slots": [
+                                [
+                                    "slot",
+                                    "phone"
+                                ]
+                            ],
+                            "act": "request"
+                        },
+                        {
+                            "slots": [
+                                [
+                                    "slot",
+                                    "address"
+                                ]
+                            ],
+                            "act": "request"
+                        },
+                        {
+                            "slots": [
+                                [
+                                    "food",
+                                    "chinese"
+                                ]
+                            ],
+                            "act": "inform"
+                        },
+                        {
+                            "slots": [
+                                [
+                                    "area",
+                                    "east"
+                                ]
+                            ],
+                            "act": "inform"
+                        }
+                    ],
+                    "transcript": "Could I get the address, phone number, and postcode of Yu Garden?"
+                },
+                "original system side information": {
+                    "system_acts": []
+                },
+                "dst": "",
+                "dst accumulated": "restaurant food chinese, restaurant area east"
+            },
+            {
+                "turn id": 5,
+                "user utterance": "Thank you.  That is all the information I needed.  Bye bye!",
+                "system response": "",
+                "dialog history": "<USER> Are there any eritrean restaurants in town? <SYSTEM> No, there are no eritrean restaurants in town. Would you like a different restaurant? <USER> How about Chinese food? <SYSTEM> There is a wide variety of Chinese restaurants, do you have an area preference or a price preference to narrow it down? <USER> I would like the East part of town. <SYSTEM> Yu Garden is a chinese restaurant in the east area. <USER> Could I get the address, phone number, and postcode of Yu Garden? <SYSTEM> Phone is 01223 248882, address and postcode are 529 Newmarket Road Fen Ditton C.B 5, 8 P.A",
+                "original user side information": {
+                    "turn_label": [],
+                    "asr": [
+                        [
+                            "Thank you.  That is all the information I needed.  Bye bye!",
+                            1.0
+                        ]
+                    ],
+                    "turn_idx": 4,
+                    "belief_state": [
+                        {
+                            "slots": [
+                                [
+                                    "food",
+                                    "chinese"
+                                ]
+                            ],
+                            "act": "inform"
+                        },
+                        {
+                            "slots": [
+                                [
+                                    "area",
+                                    "east"
+                                ]
+                            ],
+                            "act": "inform"
+                        }
+                    ],
+                    "transcript": "Thank you.  That is all the information I needed.  Bye bye!"
+                },
+                "original system side information": {},
+                "dst": "",
+                "dst accumulated": "restaurant food chinese, restaurant area east"
+            }
+        ],
+        "external knowledge non-flat": {
+            "metadata": {},
+            "slots and values": {
+                "restaurant": {
+                    "food": [
+                        "austrian",
+                        "austrian",
+                        "caribbean",
+                        "irish",
+                        "irish",
+                        "seafood",
+                        "tuscan",
+                        "christmas",
+                        "vietnamese",
+                        "british"
+                    ],
+                    "area": [
+                        "north",
+                        "dontcare",
+                        "centre",
+                        "south",
+                        "east side",
+                        "east",
+                        "center",
+                        "west"
+                    ],
+                    "price range": [
+                        "dontcare",
+                        "cheap",
+                        "expensive",
+                        "moderate"
+                    ]
+                }
+            },
+            "intents": {}
+        },
+        "external knowledge": "()",
+        "dst knowledge": "( restaurant : ( food : ( austrian | austrian | caribbean | irish | irish | seafood | tuscan | christmas | vietnamese | british ) | area : ( north | dontcare | centre | south | east side | east | center | west ) | price range : ( dontcare | cheap | expensive | moderate )))",
+        "intent knowledge": "()",
+        "prompt": [
+            "This is a bot helping users to find a restaurant. Given the dialog context and external database, please generate a relevant system response for the user.",
+            "This bot assists users to find a restaurant. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
+            "This bot helps users to find a restaurant. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
+            "The purpose of this bot is to assist users to find a restaurant. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
+            "This bot is designed to help users find a restaurant. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+        ]
+    },
+    "WOZ2_0--train--2": {
+        "original dialog id": 1,
+        "dialog index": 2,
+        "original dialog info": {},
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "Hi, I'm looking for a nice German restaurant.",
+                "system response": "There are no German restaurants listed, do you have another preference?",
+                "dialog history": "",
+                "original user side information": {
+                    "turn_label": [
+                        [
+                            "food",
+                            "german"
+                        ]
+                    ],
+                    "asr": [
+                        [
+                            "Hi, I'm looking for a nice German restaurant.",
+                            1.0
+                        ]
+                    ],
+                    "turn_idx": 0,
+                    "belief_state": [
+                        {
+                            "slots": [
+                                [
+                                    "food",
+                                    "german"
+                                ]
+                            ],
+                            "act": "inform"
+                        }
+                    ],
+                    "transcript": "Hi, I'm looking for a nice German restaurant."
+                },
+                "original system side information": {
+                    "system_acts": [
+                        "food"
+                    ]
+                },
+                "dst": "restaurant food german",
+                "dst accumulated": "restaurant food german"
+            },
+            {
+                "turn id": 2,
+                "user utterance": "How about European yeah? ",
+                "system response": "Which area of town?",
+                "dialog history": "<USER> Hi, I'm looking for a nice German restaurant. <SYSTEM> There are no German restaurants listed, do you have another preference?",
+                "original user side information": {
+                    "turn_label": [
+                        [
+                            "food",
+                            "european"
+                        ]
+                    ],
+                    "asr": [
+                        [
+                            "How about European yeah? ",
+                            1.0
+                        ]
+                    ],
+                    "turn_idx": 1,
+                    "belief_state": [
+                        {
+                            "slots": [
+                                [
+                                    "food",
+                                    "european"
+                                ]
+                            ],
+                            "act": "inform"
+                        }
+                    ],
+                    "transcript": "How about European yeah? "
+                },
+                "original system side information": {
+                    "system_acts": [
+                        "area"
+                    ]
+                },
+                "dst": "restaurant food european",
+                "dst accumulated": "restaurant food european"
+            },
+            {
+                "turn id": 3,
+                "user utterance": "I don't care.",
+                "system response": "There are ten restaurants that fit that description. Do you have a price preference?",
+                "dialog history": "<USER> Hi, I'm looking for a nice German restaurant. <SYSTEM> There are no German restaurants listed, do you have another preference? <USER> How about European yeah? <SYSTEM> Which area of town?",
+                "original user side information": {
+                    "turn_label": [
+                        [
+                            "area",
+                            "dontcare"
+                        ]
+                    ],
+                    "asr": [
+                        [
+                            "I don't care.",
+                            1.0
+                        ]
+                    ],
+                    "turn_idx": 2,
+                    "belief_state": [
+                        {
+                            "slots": [
+                                [
+                                    "food",
+                                    "european"
+                                ]
+                            ],
+                            "act": "inform"
+                        },
+                        {
+                            "slots": [
+                                [
+                                    "area",
+                                    "dontcare"
+                                ]
+                            ],
+                            "act": "inform"
+                        }
+                    ],
+                    "transcript": "I don't care."
+                },
+                "original system side information": {
+                    "system_acts": [
+                        "price range"
+                    ]
+                },
+                "dst": "restaurant area dontcare",
+                "dst accumulated": "restaurant food european, restaurant area dontcare"
+            },
+            {
+                "turn id": 4,
+                "user utterance": "Can I have the address, phone number, and area for the most expensive one?",
+                "system response": "Cambridge Lodge Restaurant is listed as expensive in the west area located at \t Cambridge Lodge Hotel 139 Huntingdon Road City Centre. Their phone number is\t 01223 355166.  ",
+                "dialog history": "<USER> Hi, I'm looking for a nice German restaurant. <SYSTEM> There are no German restaurants listed, do you have another preference? <USER> How about European yeah? <SYSTEM> Which area of town? <USER> I don't care. <SYSTEM> There are ten restaurants that fit that description. Do you have a price preference?",
+                "original user side information": {
+                    "turn_label": [
+                        [
+                            "price range",
+                            "expensive"
+                        ],
+                        [
+                            "request",
+                            "phone"
+                        ],
+                        [
+                            "request",
+                            "area"
+                        ],
+                        [
+                            "request",
+                            "address"
+                        ]
+                    ],
+                    "asr": [
+                        [
+                            "Can I have the address, phone number, and area for the most expensive one?",
+                            1.0
+                        ]
+                    ],
+                    "turn_idx": 3,
+                    "belief_state": [
+                        {
+                            "slots": [
+                                [
+                                    "slot",
+                                    "phone"
+                                ]
+                            ],
+                            "act": "request"
+                        },
+                        {
+                            "slots": [
+                                [
+                                    "slot",
+                                    "area"
+                                ]
+                            ],
+                            "act": "request"
+                        },
+                        {
+                            "slots": [
+                                [
+                                    "slot",
+                                    "address"
+                                ]
+                            ],
+                            "act": "request"
+                        },
+                        {
+                            "slots": [
+                                [
+                                    "food",
+                                    "european"
+                                ]
+                            ],
+                            "act": "inform"
+                        },
+                        {
+                            "slots": [
+                                [
+                                    "price range",
+                                    "expensive"
+                                ]
+                            ],
+                            "act": "inform"
+                        },
+                        {
+                            "slots": [
+                                [
+                                    "area",
+                                    "dontcare"
+                                ]
+                            ],
+                            "act": "inform"
+                        }
+                    ],
+                    "transcript": "Can I have the address, phone number, and area for the most expensive one?"
+                },
+                "original system side information": {
+                    "system_acts": []
+                },
+                "dst": "restaurant price_range expensive",
+                "dst accumulated": "restaurant food european, restaurant area dontcare, restaurant price_range expensive"
+            },
+            {
+                "turn id": 5,
+                "user utterance": "Thank you goodbye",
+                "system response": "",
+                "dialog history": "<USER> Hi, I'm looking for a nice German restaurant. <SYSTEM> There are no German restaurants listed, do you have another preference? <USER> How about European yeah? <SYSTEM> Which area of town? <USER> I don't care. <SYSTEM> There are ten restaurants that fit that description. Do you have a price preference? <USER> Can I have the address, phone number, and area for the most expensive one? <SYSTEM> Cambridge Lodge Restaurant is listed as expensive in the west area located at \t Cambridge Lodge Hotel 139 Huntingdon Road City Centre. Their phone number is\t 01223 355166.",
+                "original user side information": {
+                    "turn_label": [],
+                    "asr": [
+                        [
+                            "Thank you goodbye",
+                            1.0
+                        ]
+                    ],
+                    "turn_idx": 4,
+                    "belief_state": [
+                        {
+                            "slots": [
+                                [
+                                    "food",
+                                    "european"
+                                ]
+                            ],
+                            "act": "inform"
+                        },
+                        {
+                            "slots": [
+                                [
+                                    "price range",
+                                    "expensive"
+                                ]
+                            ],
+                            "act": "inform"
+                        },
+                        {
+                            "slots": [
+                                [
+                                    "area",
+                                    "dontcare"
+                                ]
+                            ],
+                            "act": "inform"
+                        }
+                    ],
+                    "transcript": "Thank you goodbye"
+                },
+                "original system side information": {},
+                "dst": "",
+                "dst accumulated": "restaurant food european, restaurant area dontcare, restaurant price_range expensive"
+            }
+        ],
+        "external knowledge non-flat": {
+            "metadata": {},
+            "slots and values": {
+                "restaurant": {
+                    "food": [
+                        "austrian",
+                        "austrian",
+                        "caribbean",
+                        "irish",
+                        "irish",
+                        "seafood",
+                        "tuscan",
+                        "christmas",
+                        "vietnamese",
+                        "british"
+                    ],
+                    "area": [
+                        "north",
+                        "dontcare",
+                        "centre",
+                        "south",
+                        "east side",
+                        "east",
+                        "center",
+                        "west"
+                    ],
+                    "price range": [
+                        "dontcare",
+                        "cheap",
+                        "expensive",
+                        "moderate"
+                    ]
+                }
+            },
+            "intents": {}
+        },
+        "external knowledge": "()",
+        "dst knowledge": "( restaurant : ( food : ( austrian | austrian | caribbean | irish | irish | seafood | tuscan | christmas | vietnamese | british ) | area : ( north | dontcare | centre | south | east side | east | center | west ) | price range : ( dontcare | cheap | expensive | moderate )))",
+        "intent knowledge": "()",
+        "prompt": [
+            "This is a bot helping users to find a restaurant. Given the dialog context and external database, please generate a relevant system response for the user.",
+            "This bot assists users to find a restaurant. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
+            "This bot helps users to find a restaurant. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
+            "The purpose of this bot is to assist users to find a restaurant. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
+            "This bot is designed to help users find a restaurant. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+        ]
+    },
+    "WOZ2_0--train--3": {
+        "original dialog id": 2,
+        "dialog index": 3,
+        "original dialog info": {},
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "I am looking for a restaurant in the expensive price range that serves Australasian food. ",
+                "system response": "There are no restaurants matching your requests.  May I help you find a different type of restaurant? ",
+                "dialog history": "",
+                "original user side information": {
+                    "turn_label": [
+                        [
+                            "food",
+                            "australasian"
+                        ],
+                        [
+                            "price range",
+                            "expensive"
+                        ]
+                    ],
+                    "asr": [
+                        [
+                            "I am looking for a restaurant in the expensive price range that serves Australasian food. ",
+                            1.0
+                        ]
+                    ],
+                    "turn_idx": 0,
+                    "belief_state": [
+                        {
+                            "slots": [
+                                [
+                                    "food",
+                                    "australasian"
+                                ]
+                            ],
+                            "act": "inform"
+                        },
+                        {
+                            "slots": [
+                                [
+                                    "price range",
+                                    "expensive"
+                                ]
+                            ],
+                            "act": "inform"
+                        }
+                    ],
+                    "transcript": "I am looking for a restaurant in the expensive price range that serves Australasian food. "
+                },
+                "original system side information": {
+                    "system_acts": [
+                        "food"
+                    ]
+                },
+                "dst": "restaurant food australasian, restaurant price_range expensive",
+                "dst accumulated": "restaurant food australasian, restaurant price_range expensive"
+            },
+            {
+                "turn id": 2,
+                "user utterance": "I'd like to find some Mediterranean food and need to know their address and phone number.",
+                "system response": "There is an expensive restaurant that serves mediterranean food located at Thompsons Lane Fen Ditton. Their phone number is 01223 362525.",
+                "dialog history": "<USER> I am looking for a restaurant in the expensive price range that serves Australasian food. <SYSTEM> There are no restaurants matching your requests.  May I help you find a different type of restaurant?",
+                "original user side information": {
+                    "turn_label": [
+                        [
+                            "food",
+                            "mediterranean"
+                        ],
+                        [
+                            "request",
+                            "phone"
+                        ],
+                        [
+                            "request",
+                            "address"
+                        ]
+                    ],
+                    "asr": [
+                        [
+                            "I'd like to find some Mediterranean food and need to know their address and phone number.",
+                            1.0
+                        ]
+                    ],
+                    "turn_idx": 1,
+                    "belief_state": [
+                        {
+                            "slots": [
+                                [
+                                    "slot",
+                                    "phone"
+                                ]
+                            ],
+                            "act": "request"
+                        },
+                        {
+                            "slots": [
+                                [
+                                    "slot",
+                                    "address"
+                                ]
+                            ],
+                            "act": "request"
+                        },
+                        {
+                            "slots": [
+                                [
+                                    "food",
+                                    "mediterranean"
+                                ]
+                            ],
+                            "act": "inform"
+                        },
+                        {
+                            "slots": [
+                                [
+                                    "price range",
+                                    "expensive"
+                                ]
+                            ],
+                            "act": "inform"
+                        }
+                    ],
+                    "transcript": "I'd like to find some Mediterranean food and need to know their address and phone number."
+                },
+                "original system side information": {
+                    "system_acts": []
+                },
+                "dst": "restaurant food mediterranean",
+                "dst accumulated": "restaurant food mediterranean, restaurant price_range expensive"
+            },
+            {
+                "turn id": 3,
+                "user utterance": "Thank you!",
+                "system response": "",
+                "dialog history": "<USER> I am looking for a restaurant in the expensive price range that serves Australasian food. <SYSTEM> There are no restaurants matching your requests.  May I help you find a different type of restaurant? <USER> I'd like to find some Mediterranean food and need to know their address and phone number. <SYSTEM> There is an expensive restaurant that serves mediterranean food located at Thompsons Lane Fen Ditton. Their phone number is 01223 362525.",
+                "original user side information": {
+                    "turn_label": [],
+                    "asr": [
+                        [
+                            "Thank you!",
+                            1.0
+                        ]
+                    ],
+                    "turn_idx": 2,
+                    "belief_state": [
+                        {
+                            "slots": [
+                                [
+                                    "food",
+                                    "mediterranean"
+                                ]
+                            ],
+                            "act": "inform"
+                        },
+                        {
+                            "slots": [
+                                [
+                                    "price range",
+                                    "expensive"
+                                ]
+                            ],
+                            "act": "inform"
+                        }
+                    ],
+                    "transcript": "Thank you!"
+                },
+                "original system side information": {},
+                "dst": "",
+                "dst accumulated": "restaurant food mediterranean, restaurant price_range expensive"
+            }
+        ],
+        "external knowledge non-flat": {
+            "metadata": {},
+            "slots and values": {
+                "restaurant": {
+                    "food": [
+                        "austrian",
+                        "austrian",
+                        "caribbean",
+                        "irish",
+                        "irish",
+                        "seafood",
+                        "tuscan",
+                        "christmas",
+                        "vietnamese",
+                        "british"
+                    ],
+                    "area": [
+                        "north",
+                        "dontcare",
+                        "centre",
+                        "south",
+                        "east side",
+                        "east",
+                        "center",
+                        "west"
+                    ],
+                    "price range": [
+                        "dontcare",
+                        "cheap",
+                        "expensive",
+                        "moderate"
+                    ]
+                }
+            },
+            "intents": {}
+        },
+        "external knowledge": "()",
+        "dst knowledge": "( restaurant : ( food : ( austrian | austrian | caribbean | irish | irish | seafood | tuscan | christmas | vietnamese | british ) | area : ( north | dontcare | centre | south | east side | east | center | west ) | price range : ( dontcare | cheap | expensive | moderate )))",
+        "intent knowledge": "()",
+        "prompt": [
+            "This is a bot helping users to find a restaurant. Given the dialog context and external database, please generate a relevant system response for the user.",
+            "This bot assists users to find a restaurant. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
+            "This bot helps users to find a restaurant. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
+            "The purpose of this bot is to assist users to find a restaurant. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
+            "This bot is designed to help users find a restaurant. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+        ]
+    },
+    "WOZ2_0--train--4": {
+        "original dialog id": 3,
+        "dialog index": 4,
+        "original dialog info": {},
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "I am looking for a moderately priced restaurant.",
+                "system response": "What type of food would you like?",
+                "dialog history": "",
+                "original user side information": {
+                    "turn_label": [
+                        [
+                            "price range",
+                            "moderate"
+                        ]
+                    ],
+                    "asr": [
+                        [
+                            "I am looking for a moderately priced restaurant.",
+                            1.0
+                        ]
+                    ],
+                    "turn_idx": 0,
+                    "belief_state": [
+                        {
+                            "slots": [
+                                [
+                                    "price range",
+                                    "moderate"
+                                ]
+                            ],
+                            "act": "inform"
+                        }
+                    ],
+                    "transcript": "I am looking for a moderately priced restaurant."
+                },
+                "original system side information": {
+                    "system_acts": [
+                        "food"
+                    ]
+                },
+                "dst": "restaurant price_range moderate",
+                "dst accumulated": "restaurant price_range moderate"
+            },
+            {
+                "turn id": 2,
+                "user utterance": "Turkish food.",
+                "system response": "I have two restaurants in the Centre area of town. Would you like the information for both?",
+                "dialog history": "<USER> I am looking for a moderately priced restaurant. <SYSTEM> What type of food would you like?",
+                "original user side information": {
+                    "turn_label": [
+                        [
+                            "food",
+                            "turkish"
+                        ]
+                    ],
+                    "asr": [
+                        [
+                            "Turkish food.",
+                            1.0
+                        ]
+                    ],
+                    "turn_idx": 1,
+                    "belief_state": [
+                        {
+                            "slots": [
+                                [
+                                    "food",
+                                    "turkish"
+                                ]
+                            ],
+                            "act": "inform"
+                        },
+                        {
+                            "slots": [
+                                [
+                                    "price range",
+                                    "moderate"
+                                ]
+                            ],
+                            "act": "inform"
+                        }
+                    ],
+                    "transcript": "Turkish food."
+                },
+                "original system side information": {
+                    "system_acts": []
+                },
+                "dst": "restaurant food turkish",
+                "dst accumulated": "restaurant price_range moderate, restaurant food turkish"
+            },
+            {
+                "turn id": 3,
+                "user utterance": "Yes, please give me the one Turkish food restaurant's phone number and address please.",
+                "system response": "Anatolia is located at 30 Bridge Street City Centre, phone number is 01223 362372",
+                "dialog history": "<USER> I am looking for a moderately priced restaurant. <SYSTEM> What type of food would you like? <USER> Turkish food. <SYSTEM> I have two restaurants in the Centre area of town. Would you like the information for both?",
+                "original user side information": {
+                    "turn_label": [
+                        [
+                            "request",
+                            "phone"
+                        ],
+                        [
+                            "request",
+                            "address"
+                        ],
+                        [
+                            "food",
+                            "turkish"
+                        ]
+                    ],
+                    "asr": [
+                        [
+                            "Yes, please give me the one Turkish food restaurant's phone number and address please.",
+                            1.0
+                        ]
+                    ],
+                    "turn_idx": 2,
+                    "belief_state": [
+                        {
+                            "slots": [
+                                [
+                                    "slot",
+                                    "phone"
+                                ]
+                            ],
+                            "act": "request"
+                        },
+                        {
+                            "slots": [
+                                [
+                                    "slot",
+                                    "address"
+                                ]
+                            ],
+                            "act": "request"
+                        },
+                        {
+                            "slots": [
+                                [
+                                    "food",
+                                    "turkish"
+                                ]
+                            ],
+                            "act": "inform"
+                        },
+                        {
+                            "slots": [
+                                [
+                                    "price range",
+                                    "moderate"
+                                ]
+                            ],
+                            "act": "inform"
+                        }
+                    ],
+                    "transcript": "Yes, please give me the one Turkish food restaurant's phone number and address please."
+                },
+                "original system side information": {
+                    "system_acts": []
+                },
+                "dst": "restaurant food turkish",
+                "dst accumulated": "restaurant price_range moderate, restaurant food turkish"
+            },
+            {
+                "turn id": 4,
+                "user utterance": "thank you. ",
+                "system response": "",
+                "dialog history": "<USER> I am looking for a moderately priced restaurant. <SYSTEM> What type of food would you like? <USER> Turkish food. <SYSTEM> I have two restaurants in the Centre area of town. Would you like the information for both? <USER> Yes, please give me the one Turkish food restaurant's phone number and address please. <SYSTEM> Anatolia is located at 30 Bridge Street City Centre, phone number is 01223 362372",
+                "original user side information": {
+                    "turn_label": [],
+                    "asr": [
+                        [
+                            "thank you. ",
+                            1.0
+                        ]
+                    ],
+                    "turn_idx": 3,
+                    "belief_state": [
+                        {
+                            "slots": [
+                                [
+                                    "food",
+                                    "turkish"
+                                ]
+                            ],
+                            "act": "inform"
+                        },
+                        {
+                            "slots": [
+                                [
+                                    "price range",
+                                    "moderate"
+                                ]
+                            ],
+                            "act": "inform"
+                        }
+                    ],
+                    "transcript": "thank you. "
+                },
+                "original system side information": {},
+                "dst": "",
+                "dst accumulated": "restaurant price_range moderate, restaurant food turkish"
+            }
+        ],
+        "external knowledge non-flat": {
+            "metadata": {},
+            "slots and values": {
+                "restaurant": {
+                    "food": [
+                        "austrian",
+                        "austrian",
+                        "caribbean",
+                        "irish",
+                        "irish",
+                        "seafood",
+                        "tuscan",
+                        "christmas",
+                        "vietnamese",
+                        "british"
+                    ],
+                    "area": [
+                        "north",
+                        "dontcare",
+                        "centre",
+                        "south",
+                        "east side",
+                        "east",
+                        "center",
+                        "west"
+                    ],
+                    "price range": [
+                        "dontcare",
+                        "cheap",
+                        "expensive",
+                        "moderate"
+                    ]
+                }
+            },
+            "intents": {}
+        },
+        "external knowledge": "()",
+        "dst knowledge": "( restaurant : ( food : ( austrian | austrian | caribbean | irish | irish | seafood | tuscan | christmas | vietnamese | british ) | area : ( north | dontcare | centre | south | east side | east | center | west ) | price range : ( dontcare | cheap | expensive | moderate )))",
+        "intent knowledge": "()",
+        "prompt": [
+            "This is a bot helping users to find a restaurant. Given the dialog context and external database, please generate a relevant system response for the user.",
+            "This bot assists users to find a restaurant. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
+            "This bot helps users to find a restaurant. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
+            "The purpose of this bot is to assist users to find a restaurant. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
+            "This bot is designed to help users find a restaurant. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+        ]
+    },
+    "WOZ2_0--train--5": {
+        "original dialog id": 4,
+        "dialog index": 5,
+        "original dialog info": {},
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "Hi I am looking for a persian restaurant in the west part of town. ",
+                "system response": "I'm sorry I do not have any Persian restaurants listed on the west side.  Should I try Persian restaurants in all locations?",
+                "dialog history": "",
+                "original user side information": {
+                    "turn_label": [
+                        [
+                            "area",
+                            "west"
+                        ],
+                        [
+                            "food",
+                            "persian"
+                        ]
+                    ],
+                    "asr": [
+                        [
+                            "Hi I am looking for a persian restaurant in the west part of town. ",
+                            1.0
+                        ]
+                    ],
+                    "turn_idx": 0,
+                    "belief_state": [
+                        {
+                            "slots": [
+                                [
+                                    "food",
+                                    "persian"
+                                ]
+                            ],
+                            "act": "inform"
+                        },
+                        {
+                            "slots": [
+                                [
+                                    "area",
+                                    "west"
+                                ]
+                            ],
+                            "act": "inform"
+                        }
+                    ],
+                    "transcript": "Hi I am looking for a persian restaurant in the west part of town. "
+                },
+                "original system side information": {
+                    "system_acts": [
+                        [
+                            "area",
+                            "dontcare"
+                        ]
+                    ]
+                },
+                "dst": "restaurant area west, restaurant food persian",
+                "dst accumulated": "restaurant area west, restaurant food persian"
+            },
+            {
+                "turn id": 2,
+                "user utterance": "No thank you.  Is there a restaurant with italian food?",
+                "system response": "Prezzo is on the west side.",
+                "dialog history": "<USER> Hi I am looking for a persian restaurant in the west part of town. <SYSTEM> I'm sorry I do not have any Persian restaurants listed on the west side.  Should I try Persian restaurants in all locations?",
+                "original user side information": {
+                    "turn_label": [
+                        [
+                            "food",
+                            "italian"
+                        ]
+                    ],
+                    "asr": [
+                        [
+                            "No thank you.  Is there a restaurant with italian food?",
+                            1.0
+                        ]
+                    ],
+                    "turn_idx": 1,
+                    "belief_state": [
+                        {
+                            "slots": [
+                                [
+                                    "food",
+                                    "italian"
+                                ]
+                            ],
+                            "act": "inform"
+                        },
+                        {
+                            "slots": [
+                                [
+                                    "area",
+                                    "west"
+                                ]
+                            ],
+                            "act": "inform"
+                        }
+                    ],
+                    "transcript": "No thank you.  Is there a restaurant with italian food?"
+                },
+                "original system side information": {
+                    "system_acts": []
+                },
+                "dst": "restaurant food italian",
+                "dst accumulated": "restaurant area west, restaurant food italian"
+            },
+            {
+                "turn id": 3,
+                "user utterance": "Great! May I have the phone number please?",
+                "system response": "The phone number is  01799 521260",
+                "dialog history": "<USER> Hi I am looking for a persian restaurant in the west part of town. <SYSTEM> I'm sorry I do not have any Persian restaurants listed on the west side.  Should I try Persian restaurants in all locations? <USER> No thank you.  Is there a restaurant with italian food? <SYSTEM> Prezzo is on the west side.",
+                "original user side information": {
+                    "turn_label": [
+                        [
+                            "request",
+                            "phone"
+                        ]
+                    ],
+                    "asr": [
+                        [
+                            "Great! May I have the phone number please?",
+                            1.0
+                        ]
+                    ],
+                    "turn_idx": 2,
+                    "belief_state": [
+                        {
+                            "slots": [
+                                [
+                                    "slot",
+                                    "phone"
+                                ]
+                            ],
+                            "act": "request"
+                        },
+                        {
+                            "slots": [
+                                [
+                                    "food",
+                                    "italian"
+                                ]
+                            ],
+                            "act": "inform"
+                        },
+                        {
+                            "slots": [
+                                [
+                                    "area",
+                                    "west"
+                                ]
+                            ],
+                            "act": "inform"
+                        }
+                    ],
+                    "transcript": "Great! May I have the phone number please?"
+                },
+                "original system side information": {
+                    "system_acts": []
+                },
+                "dst": "",
+                "dst accumulated": "restaurant area west, restaurant food italian"
+            },
+            {
+                "turn id": 4,
+                "user utterance": "Thanks, good night!",
+                "system response": "",
+                "dialog history": "<USER> Hi I am looking for a persian restaurant in the west part of town. <SYSTEM> I'm sorry I do not have any Persian restaurants listed on the west side.  Should I try Persian restaurants in all locations? <USER> No thank you.  Is there a restaurant with italian food? <SYSTEM> Prezzo is on the west side. <USER> Great! May I have the phone number please? <SYSTEM> The phone number is  01799 521260",
+                "original user side information": {
+                    "turn_label": [],
+                    "asr": [
+                        [
+                            "Thanks, good night!",
+                            1.0
+                        ]
+                    ],
+                    "turn_idx": 3,
+                    "belief_state": [
+                        {
+                            "slots": [
+                                [
+                                    "food",
+                                    "italian"
+                                ]
+                            ],
+                            "act": "inform"
+                        },
+                        {
+                            "slots": [
+                                [
+                                    "area",
+                                    "west"
+                                ]
+                            ],
+                            "act": "inform"
+                        }
+                    ],
+                    "transcript": "Thanks, good night!"
+                },
+                "original system side information": {},
+                "dst": "",
+                "dst accumulated": "restaurant area west, restaurant food italian"
+            }
+        ],
+        "external knowledge non-flat": {
+            "metadata": {},
+            "slots and values": {
+                "restaurant": {
+                    "food": [
+                        "austrian",
+                        "austrian",
+                        "caribbean",
+                        "irish",
+                        "irish",
+                        "seafood",
+                        "tuscan",
+                        "christmas",
+                        "vietnamese",
+                        "british"
+                    ],
+                    "area": [
+                        "north",
+                        "dontcare",
+                        "centre",
+                        "south",
+                        "east side",
+                        "east",
+                        "center",
+                        "west"
+                    ],
+                    "price range": [
+                        "dontcare",
+                        "cheap",
+                        "expensive",
+                        "moderate"
+                    ]
+                }
+            },
+            "intents": {}
+        },
+        "external knowledge": "()",
+        "dst knowledge": "( restaurant : ( food : ( austrian | austrian | caribbean | irish | irish | seafood | tuscan | christmas | vietnamese | british ) | area : ( north | dontcare | centre | south | east side | east | center | west ) | price range : ( dontcare | cheap | expensive | moderate )))",
+        "intent knowledge": "()",
+        "prompt": [
+            "This is a bot helping users to find a restaurant. Given the dialog context and external database, please generate a relevant system response for the user.",
+            "This bot assists users to find a restaurant. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
+            "This bot helps users to find a restaurant. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
+            "The purpose of this bot is to assist users to find a restaurant. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
+            "This bot is designed to help users find a restaurant. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+        ]
+    }
+}

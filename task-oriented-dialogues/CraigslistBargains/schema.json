@@ -1,0 +1,14 @@
+{
+    "values": {
+    },
+    "attributes": [
+      {"name": "Role", "value_type": "role", "multivalued": false, "entity": false},
+      {"name": "Target", "value_type": "price", "multivalued": false, "entity": false},
+      {"name": "Bottomline", "value_type": "price", "multivalued": false, "entity": false},
+      {"name": "Title", "value_type": "text", "multivalued": false, "entity": false},
+      {"name": "Category", "value_type": "text", "multivalued": false, "entity": false},
+      {"name": "Price", "value_type": "price", "multivalued": false, "entity": false},
+      {"name": "Images", "value_type": "text", "multivalued": false, "entity": false},
+      {"name": "Description", "value_type": "text", "multivalued": false, "entity": false}
+    ]
+}

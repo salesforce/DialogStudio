@@ -1,0 +1,2495 @@
+{
+    "Taskmaster1--train--1": {
+        "original dialog id": "dlg-00055f4e-4a46-48bf-8d99-4e477663eb23",
+        "dialog index": 1,
+        "original dialog info": {
+            "instruction_id": "restaurant-table-2",
+            "slots and values": {
+                "restaurant": {
+                    "location": [
+                        "College Avenue",
+                        "High Street in Salem",
+                        "Convoy",
+                        "Sanibel Island",
+                        "Troy Ohio"
+                    ],
+                    "name": [
+                        "Normans",
+                        "Lucilles Smokehouse",
+                        "Island prime",
+                        "Me and My Amigos",
+                        "Morton's steakhouse"
+                    ],
+                    "seating_type": [
+                        "high seat",
+                        "High chairs",
+                        "table outside.",
+                        "private table.",
+                        "seating us away from large groups"
+                    ],
+                    "reservation_time": [
+                        "530",
+                        "after 6PM-7PM",
+                        "tonight at 9:30pm",
+                        "3 pm.",
+                        "2 p.m"
+                    ],
+                    "guests_num": [
+                        "Four people",
+                        "11 guests",
+                        "Three people",
+                        "six people and a child",
+                        "myself and my child"
+                    ],
+                    "accept_reservation": [
+                        "Great. That's all been booked for you",
+                        "That reservation has been made for you",
+                        "Reservations are confirmed",
+                        "Great. I have booked that for you",
+                        "I will go ahead an make the reservation,"
+                    ],
+                    "reservation_name": [
+                        "charleston",
+                        "Mr. Kollitz",
+                        "Bucca De Beppo",
+                        "6:00pm",
+                        "Tiago's Mexican Restaurant"
+                    ],
+                    "restaurant_reservation": [
+                        "American or Italian food",
+                        "reserve",
+                        "Thai restaurants",
+                        "Asian restuarants",
+                        "dinner buffet"
+                    ],
+                    "reject_reservation": [
+                        "I need to cancel that reservation",
+                        "They can't do a reservation",
+                        "Ranch",
+                        "Sorry, the reservation is not available"
+                    ],
+                    "drink_name": [
+                        "caffichino",
+                        "2"
+                    ],
+                    "from_location": [
+                        "123 twain street, Atalanta 30309",
+                        "my house",
+                        "123 twain street",
+                        "home",
+                        "the seattle downtoan area",
+                        "seattle downtoan area",
+                        "at home"
+                    ],
+                    "to_location": [
+                        "Giordanos",
+                        "777 choo choo lane, Atlanta. zip is 30305",
+                        "tacos",
+                        "Taco Junction",
+                        "giordanos",
+                        "airport",
+                        "777 choo choo lane"
+                    ],
+                    "people_num": [
+                        "2 of us",
+                        "traveling alone"
+                    ],
+                    "pickup_time": [
+                        "3 pm today",
+                        "3 pm",
+                        "3pm today",
+                        "30 minutes",
+                        "3pm",
+                        "11:30am",
+                        "3 pm this afternoon"
+                    ],
+                    "appt_reason": [
+                        "enhance the air conditioning",
+                        "I would like to enhance the air conditioning"
+                    ],
+                    "appt_date": [
+                        "Tuesday",
+                        "Monday of the coming week"
+                    ],
+                    "appt_time": [
+                        "as soon as possible",
+                        "early in the morning",
+                        "morning"
+                    ],
+                    "pizza_size": [
+                        "medium",
+                        "small",
+                        "large",
+                        "large pizza",
+                        "3 special"
+                    ],
+                    "pizza_name": [
+                        "chocolate chip",
+                        "Deep Dish pizza",
+                        "deep dish pizza",
+                        "chicken cheese pizza",
+                        "chesse pizza",
+                        "Chicago's Deep Dish pizza",
+                        "Chicago's Deep Dish Pizza's",
+                        "cinnamon pizza",
+                        "traditional"
+                    ],
+                    "accept_preference": [
+                        "without mushrooms"
+                    ],
+                    "store_location": [
+                        "Peachtree city",
+                        "near Atlanta",
+                        "Atlanta",
+                        "Peachtree city?",
+                        "main and 3rd"
+                    ],
+                    "topping_type": [
+                        "cardamon",
+                        "pineapple"
+                    ],
+                    "store_name": [
+                        "Chicago's Deep Dish Pizza",
+                        "Old Chicago",
+                        "Pizza Hut"
+                    ],
+                    "accept_pizza_order": [
+                        "yeah finished our order"
+                    ]
+                }
+            },
+            "intents": {}
+        },
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "Hi, I'm looking to book a table for Korean fod.",
+                "system response": "Ok, what area are you thinking about?",
+                "dialog history": "",
+                "original user side information": {
+                    "speaker": "USER"
+                },
+                "original system side information": {
+                    "speaker": "ASSISTANT",
+                    "segments": []
+                },
+                "dst": "",
+                "dst accumulated": "",
+                "external knowledge": "()"
+            },
+            {
+                "turn id": 2,
+                "user utterance": "Somewhere in Southern NYC, maybe the East Village?",
+                "system response": "Ok, great.  There's Thursday Kitchen, it has great reviews.",
+                "dialog history": "<USER> Hi, I'm looking to book a table for Korean fod. <SYSTEM> Ok, what area are you thinking about?",
+                "original user side information": {
+                    "speaker": [
+                        {
+                            "start_index": 13,
+                            "end_index": 49,
+                            "text": "Southern NYC, maybe the East Village",
+                            "annotations": [
+                                {
+                                    "name": "restaurant_reservation.location.restaurant.accept"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 13,
+                            "end_index": 25,
+                            "text": "Southern NYC",
+                            "annotations": [
+                                {
+                                    "name": "restaurant_reservation.location.restaurant.accept"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "original system side information": {
+                    "speaker": "ASSISTANT",
+                    "segments": [
+                        {
+                            "start_index": 20,
+                            "end_index": 35,
+                            "text": "Thursday Kitche",
+                            "annotations": [
+                                {
+                                    "name": "restaurant_reservation.name.restaurant.reject"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "dst": "restaurant location Southern NYC maybe the East Village, restaurant location Southern NYC",
+                "dst accumulated": "restaurant location Southern NYC",
+                "external knowledge": "(( start_index : 20 | end_index : 35 | text : Thursday Kitche | annotations : (( name : restaurant_reservation.name.restaurant.reject ))))"
+            },
+            {
+                "turn id": 3,
+                "user utterance": "That's great. So I need a table for tonight at 7 pm for 8 people. We don't want to sit at the bar, but anywhere else is fine.",
+                "system response": "They don't have any availability for 7 pm.",
+                "dialog history": "<USER> Hi, I'm looking to book a table for Korean fod. <SYSTEM> Ok, what area are you thinking about? <USER> Somewhere in Southern NYC, maybe the East Village? <SYSTEM> Ok, great.  There's Thursday Kitchen, it has great reviews.",
+                "original user side information": {
+                    "speaker": [
+                        {
+                            "start_index": 26,
+                            "end_index": 31,
+                            "text": "table",
+                            "annotations": [
+                                {
+                                    "name": "restaurant_reservation.type.seating"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 47,
+                            "end_index": 51,
+                            "text": "7 pm",
+                            "annotations": [
+                                {
+                                    "name": "restaurant_reservation.time.reservation"
+                                },
+                                {
+                                    "name": "restaurant_reservation.time.reservation"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 56,
+                            "end_index": 57,
+                            "text": "8",
+                            "annotations": [
+                                {
+                                    "name": "restaurant_reservation.num.guests"
+                                },
+                                {
+                                    "name": "restaurant_reservation.num.guests"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 87,
+                            "end_index": 98,
+                            "text": "at the bar,",
+                            "annotations": [
+                                {
+                                    "name": "restaurant_reservation.type.seating"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "original system side information": {
+                    "speaker": "ASSISTANT",
+                    "segments": [
+                        {
+                            "start_index": 37,
+                            "end_index": 41,
+                            "text": "7 pm",
+                            "annotations": [
+                                {
+                                    "name": "restaurant_reservation.time.reservation"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 37,
+                            "end_index": 42,
+                            "text": "7 pm.",
+                            "annotations": [
+                                {
+                                    "name": "restaurant_reservation.time.reservation.reject"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "dst": "restaurant seating_type table, restaurant reservation_time 7 pm, restaurant guests_num 8, restaurant seating_type at the bar",
+                "dst accumulated": "restaurant location Southern NYC, restaurant seating_type at the bar, restaurant reservation_time 7 pm, restaurant guests_num 8",
+                "external knowledge": "(( start_index : 37 | end_index : 41 | text : 7 pm | annotations : (( name : restaurant_reservation.time.reservation ))) | ( start_index : 37 | end_index : 42 | text : 7 pm. | annotations : (( name : restaurant_reservation.time.reservation.reject ))))"
+            },
+            {
+                "turn id": 4,
+                "user utterance": "What times are available?",
+                "system response": "5 or 8.",
+                "dialog history": "<USER> Hi, I'm looking to book a table for Korean fod. <SYSTEM> Ok, what area are you thinking about? <USER> Somewhere in Southern NYC, maybe the East Village? <SYSTEM> Ok, great.  There's Thursday Kitchen, it has great reviews. <USER> That's great. So I need a table for tonight at 7 pm for 8 people. We don't want to sit at the bar, but anywhere else is fine. <SYSTEM> They don't have any availability for 7 pm.",
+                "original user side information": {
+                    "speaker": "USER"
+                },
+                "original system side information": {
+                    "speaker": "ASSISTANT",
+                    "segments": [
+                        {
+                            "start_index": 0,
+                            "end_index": 1,
+                            "text": "5",
+                            "annotations": [
+                                {
+                                    "name": "restaurant_reservation.time.reservation"
+                                },
+                                {
+                                    "name": "restaurant_reservation.time.reservation"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 5,
+                            "end_index": 6,
+                            "text": "8",
+                            "annotations": [
+                                {
+                                    "name": "restaurant_reservation.time.reservation"
+                                },
+                                {
+                                    "name": "restaurant_reservation.time.reservation"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "dst": "",
+                "dst accumulated": "restaurant location Southern NYC, restaurant seating_type at the bar, restaurant reservation_time 7 pm, restaurant guests_num 8",
+                "external knowledge": "(( start_index : 0 | end_index : 1 | text : 5 | annotations : (( name : restaurant_reservation.time.reservation ) | ( name : restaurant_reservation.time.reservation ))) | ( start_index : 5 | end_index : 6 | text : 8 | annotations : (( name : restaurant_reservation.time.reservation ) | ( name : restaurant_reservation.time.reservation ))))"
+            },
+            {
+                "turn id": 5,
+                "user utterance": "Yikes, we can't do those times.",
+                "system response": "Ok, do you have a second choice?",
+                "dialog history": "<USER> Hi, I'm looking to book a table for Korean fod. <SYSTEM> Ok, what area are you thinking about? <USER> Somewhere in Southern NYC, maybe the East Village? <SYSTEM> Ok, great.  There's Thursday Kitchen, it has great reviews. <USER> That's great. So I need a table for tonight at 7 pm for 8 people. We don't want to sit at the bar, but anywhere else is fine. <SYSTEM> They don't have any availability for 7 pm. <USER> What times are available? <SYSTEM> 5 or 8.",
+                "original user side information": {
+                    "speaker": "USER"
+                },
+                "original system side information": {
+                    "speaker": "ASSISTANT",
+                    "segments": []
+                },
+                "dst": "",
+                "dst accumulated": "restaurant location Southern NYC, restaurant seating_type at the bar, restaurant reservation_time 7 pm, restaurant guests_num 8",
+                "external knowledge": "()"
+            },
+            {
+                "turn id": 6,
+                "user utterance": "Let me check.",
+                "system response": "Ok.",
+                "dialog history": "<USER> Hi, I'm looking to book a table for Korean fod. <SYSTEM> Ok, what area are you thinking about? <USER> Somewhere in Southern NYC, maybe the East Village? <SYSTEM> Ok, great.  There's Thursday Kitchen, it has great reviews. <USER> That's great. So I need a table for tonight at 7 pm for 8 people. We don't want to sit at the bar, but anywhere else is fine. <SYSTEM> They don't have any availability for 7 pm. <USER> What times are available? <SYSTEM> 5 or 8. <USER> Yikes, we can't do those times. <SYSTEM> Ok, do you have a second choice?",
+                "original user side information": {
+                    "speaker": "USER"
+                },
+                "original system side information": {
+                    "speaker": "ASSISTANT",
+                    "segments": []
+                },
+                "dst": "",
+                "dst accumulated": "restaurant location Southern NYC, restaurant seating_type at the bar, restaurant reservation_time 7 pm, restaurant guests_num 8",
+                "external knowledge": "()"
+            },
+            {
+                "turn id": 7,
+                "user utterance": "Lets try Boka, are they free for 8 people at 7?",
+                "system response": "Yes.",
+                "dialog history": "<USER> Hi, I'm looking to book a table for Korean fod. <SYSTEM> Ok, what area are you thinking about? <USER> Somewhere in Southern NYC, maybe the East Village? <SYSTEM> Ok, great.  There's Thursday Kitchen, it has great reviews. <USER> That's great. So I need a table for tonight at 7 pm for 8 people. We don't want to sit at the bar, but anywhere else is fine. <SYSTEM> They don't have any availability for 7 pm. <USER> What times are available? <SYSTEM> 5 or 8. <USER> Yikes, we can't do those times. <SYSTEM> Ok, do you have a second choice? <USER> Let me check. <SYSTEM> Ok.",
+                "original user side information": {
+                    "speaker": [
+                        {
+                            "start_index": 9,
+                            "end_index": 13,
+                            "text": "Boka",
+                            "annotations": [
+                                {
+                                    "name": "restaurant_reservation.name.restaurant.accept"
+                                },
+                                {
+                                    "name": "restaurant_reservation.name.restaurant.accept"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 33,
+                            "end_index": 34,
+                            "text": "8",
+                            "annotations": [
+                                {
+                                    "name": "restaurant_reservation.num.guests.accept"
+                                },
+                                {
+                                    "name": "restaurant_reservation.num.guests.accept"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 45,
+                            "end_index": 46,
+                            "text": "7",
+                            "annotations": [
+                                {
+                                    "name": "restaurant_reservation.time.reservation.accept"
+                                },
+                                {
+                                    "name": "restaurant_reservation.time.reservation.accept"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "original system side information": {
+                    "speaker": "ASSISTANT",
+                    "segments": []
+                },
+                "dst": "restaurant name Boka, restaurant guests_num 8, restaurant reservation_time 7",
+                "dst accumulated": "restaurant location Southern NYC, restaurant seating_type at the bar, restaurant reservation_time 7, restaurant guests_num 8, restaurant name Boka",
+                "external knowledge": "()"
+            },
+            {
+                "turn id": 8,
+                "user utterance": "Great, let's book that.",
+                "system response": "Ok great, are there any other requests?",
+                "dialog history": "<USER> Hi, I'm looking to book a table for Korean fod. <SYSTEM> Ok, what area are you thinking about? <USER> Somewhere in Southern NYC, maybe the East Village? <SYSTEM> Ok, great.  There's Thursday Kitchen, it has great reviews. <USER> That's great. So I need a table for tonight at 7 pm for 8 people. We don't want to sit at the bar, but anywhere else is fine. <SYSTEM> They don't have any availability for 7 pm. <USER> What times are available? <SYSTEM> 5 or 8. <USER> Yikes, we can't do those times. <SYSTEM> Ok, do you have a second choice? <USER> Let me check. <SYSTEM> Ok. <USER> Lets try Boka, are they free for 8 people at 7? <SYSTEM> Yes.",
+                "original user side information": {
+                    "speaker": "USER"
+                },
+                "original system side information": {
+                    "speaker": "ASSISTANT",
+                    "segments": []
+                },
+                "dst": "",
+                "dst accumulated": "restaurant location Southern NYC, restaurant seating_type at the bar, restaurant reservation_time 7, restaurant guests_num 8, restaurant name Boka",
+                "external knowledge": "()"
+            },
+            {
+                "turn id": 9,
+                "user utterance": "No, that's it, just book.",
+                "system response": "Great, should I use your account you have open with them?",
+                "dialog history": "<USER> Hi, I'm looking to book a table for Korean fod. <SYSTEM> Ok, what area are you thinking about? <USER> Somewhere in Southern NYC, maybe the East Village? <SYSTEM> Ok, great.  There's Thursday Kitchen, it has great reviews. <USER> That's great. So I need a table for tonight at 7 pm for 8 people. We don't want to sit at the bar, but anywhere else is fine. <SYSTEM> They don't have any availability for 7 pm. <USER> What times are available? <SYSTEM> 5 or 8. <USER> Yikes, we can't do those times. <SYSTEM> Ok, do you have a second choice? <USER> Let me check. <SYSTEM> Ok. <USER> Lets try Boka, are they free for 8 people at 7? <SYSTEM> Yes. <USER> Great, let's book that. <SYSTEM> Ok great, are there any other requests?",
+                "original user side information": {
+                    "speaker": "USER"
+                },
+                "original system side information": {
+                    "speaker": "ASSISTANT",
+                    "segments": []
+                },
+                "dst": "",
+                "dst accumulated": "restaurant location Southern NYC, restaurant seating_type at the bar, restaurant reservation_time 7, restaurant guests_num 8, restaurant name Boka",
+                "external knowledge": "()"
+            },
+            {
+                "turn id": 10,
+                "user utterance": "Yes please.",
+                "system response": "Great. You will get a confirmation to your phone soon.",
+                "dialog history": "<USER> Hi, I'm looking to book a table for Korean fod. <SYSTEM> Ok, what area are you thinking about? <USER> Somewhere in Southern NYC, maybe the East Village? <SYSTEM> Ok, great.  There's Thursday Kitchen, it has great reviews. <USER> That's great. So I need a table for tonight at 7 pm for 8 people. We don't want to sit at the bar, but anywhere else is fine. <SYSTEM> They don't have any availability for 7 pm. <USER> What times are available? <SYSTEM> 5 or 8. <USER> Yikes, we can't do those times. <SYSTEM> Ok, do you have a second choice? <USER> Let me check. <SYSTEM> Ok. <USER> Lets try Boka, are they free for 8 people at 7? <SYSTEM> Yes. <USER> Great, let's book that. <SYSTEM> Ok great, are there any other requests? <USER> No, that's it, just book. <SYSTEM> Great, should I use your account you have open with them?",
+                "original user side information": {
+                    "speaker": "USER"
+                },
+                "original system side information": {
+                    "speaker": "ASSISTANT",
+                    "segments": []
+                },
+                "dst": "",
+                "dst accumulated": "restaurant location Southern NYC, restaurant seating_type at the bar, restaurant reservation_time 7, restaurant guests_num 8, restaurant name Boka",
+                "external knowledge": "()"
+            }
+        ],
+        "dst knowledge": "( restaurant : ( location : ( College Avenue | High Street in Salem | Convoy | Sanibel Island | Troy Ohio ) | name : ( Normans | Lucilles Smokehouse | Island prime | Me and My Amigos | \"Morton s steakhouse\") | seating_type : ( high seat | High chairs | table outside. | private table. | seating us away from large groups ) | reservation_time : ( 530 | after 6PM-7PM | tonight at 9:30pm | 3 pm. | 2 p.m ) | guests_num : ( Four people | 11 guests | Three people | six people and a child | myself and my child ) | accept_reservation : (\"Great. That s all been booked for you\" | That reservation has been made for you | Reservations are confirmed | Great. I have booked that for you | I will go ahead an make the reservation | ) | reservation_name : ( charleston | Mr. Kollitz | Bucca De Beppo | 6:00pm | \"Tiago s Mexican Restaurant\") | restaurant_reservation : ( American or Italian food | reserve | Thai restaurants | Asian restuarants | dinner buffet ) | reject_reservation : ( I need to cancel that reservation | \"They can t do a reservation\" | Ranch | Sorry | the reservation is not available ) | drink_name : ( caffichino | 2 ) | from_location : ( 123 twain street | Atalanta 30309 | my house | 123 twain street | home | the seattle downtoan area | seattle downtoan area | at home ) | to_location : ( Giordanos | 777 choo choo lane | Atlanta. zip is 30305 | tacos | Taco Junction | giordanos | airport | 777 choo choo lane ) | people_num : ( 2 of us | traveling alone ) | pickup_time : ( 3 pm today | 3 pm | 3pm today | 30 minutes | 3pm | 11:30am | 3 pm this afternoon ) | appt_reason : ( enhance the air conditioning | I would like to enhance the air conditioning ) | appt_date : ( Tuesday | Monday of the coming week ) | appt_time : ( as soon as possible | early in the morning | morning ) | pizza_size : ( medium | small | large | large pizza | 3 special ) | pizza_name : ( chocolate chip | Deep Dish pizza | deep dish pizza | chicken cheese pizza | chesse pizza | \"Chicago s Deep Dish pizza\" | \"Chicago s Deep Dish Pizza s\" | cinnamon pizza | traditional ) | accept_preference : ( without mushrooms ) | store_location : ( Peachtree city | near Atlanta | Atlanta | Peachtree city? | main and 3rd ) | topping_type : ( cardamon | pineapple ) | store_name : (\"Chicago s Deep Dish Pizza\" | Old Chicago | Pizza Hut ) | accept_pizza_order : ( yeah finished our order )))",
+        "intent knowledge": "()",
+        "prompt": [
+            "This is a bot helping users to reserve a restaurant. Given the dialog context and external database, please generate a relevant system response for the user.",
+            "This bot assists users to reserve a restaurant. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
+            "This bot helps users to reserve a restaurant. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
+            "The purpose of this bot is to assist users to reserve a restaurant. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
+            "This bot is designed to help users reserve a restaurant. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+        ]
+    },
+    "Taskmaster1--train--2": {
+        "original dialog id": "dlg-0009352b-de51-474b-9f13-a2b0b2481546",
+        "dialog index": 2,
+        "original dialog info": {
+            "instruction_id": "movie-tickets-1",
+            "slots and values": {
+                "movie": {
+                    "name": [
+                        "2",
+                        "How to train your dragon.",
+                        "A Bronx Tale",
+                        "us",
+                        "Avengers Endgame"
+                    ],
+                    "tickets_num": [
+                        "KSwiss and I will the attendees",
+                        "So two adult tickets",
+                        "One adult and one child",
+                        "Two tickets.",
+                        "Bumblebee"
+                    ],
+                    "start_time": [
+                        "3:15 PM",
+                        "6:30,7, 8 and 10 pm",
+                        "8:20p,",
+                        "1:30pm,",
+                        "10 p.m tonight"
+                    ],
+                    "ticket_price": [
+                        "270",
+                        "9.25 each",
+                        "$15.75 per ticket",
+                        "27.75",
+                        "$10."
+                    ],
+                    "theater_location": [
+                        "Fifth street",
+                        "AMC Classic at 5501 Atlantic Springs Rd, Raleigh, NC",
+                        "Cheyenne, Wyoming.",
+                        "Manor Shopping Center and the street Address is: 1246 Millersville Pike, Lancaster, PA 17603",
+                        "junction on Kiesel Avenue"
+                    ],
+                    "theater_name": [
+                        "Cinema 3",
+                        "Morton Cinemas",
+                        "Carmike 12",
+                        "Orlando Cinemark",
+                        "AMC Burlington Cinema 10"
+                    ],
+                    "accept_ticket_booking": [
+                        "Ok, your tickets are puchased and confirmed",
+                        "Confirmed",
+                        "I've ordered your tickets",
+                        "I have gone ahead and booked your tickets",
+                        "Okay, I've gotten those booked for you. The information will be sent to your mobile phone via text message. Is there anything else I can do for you today"
+                    ],
+                    "screening_type": [
+                        "Dolby theater screening",
+                        "3D,",
+                        "IMAX",
+                        "no IMAX",
+                        "regular seating"
+                    ],
+                    "movie_ticket": [
+                        "tickets for a movie",
+                        "a reservation to see",
+                        "Hi, I would like to go to a movie tonight.",
+                        "get some movie tickets please",
+                        "I wanted to purch"
+                    ],
+                    "duration_time": [
+                        "45 MINUTE",
+                        "2 hours and 12 minutes",
+                        "Almost 2 hours",
+                        "1 hour, 38 minutes",
+                        "an hour and forty four minutes"
+                    ],
+                    "end_time": [
+                        "around 10",
+                        "7:30",
+                        "be over by nine",
+                        "something in the evening",
+                        "6pm",
+                        "10:00 pm",
+                        "4 pm",
+                        "nine thirty"
+                    ],
+                    "reject_ticket_booking": [
+                        "already sold out.",
+                        "Okay, I have pla",
+                        "Sorry you couldn't get tickets tonight",
+                        "Your purchase request has been cancelled",
+                        "It looks like we're sold out"
+                    ],
+                    "estimate_price": [
+                        "7 dollars"
+                    ],
+                    "reservation_time": [
+                        "7:00pm"
+                    ],
+                    "restaurant_name": [
+                        "Busaba"
+                    ]
+                }
+            },
+            "intents": {}
+        },
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "Hi I would like to see if the Movie What Men Want is playing here.",
+                "system response": "Yes it's showing here would you like to purchase a ticket?",
+                "dialog history": "",
+                "original user side information": {
+                    "speaker": [
+                        {
+                            "start_index": 36,
+                            "end_index": 49,
+                            "text": "What Men Want",
+                            "annotations": [
+                                {
+                                    "name": "movie_ticket.name.movie"
+                                },
+                                {
+                                    "name": "movie_ticket.name.movie"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "original system side information": {
+                    "speaker": "ASSISTANT",
+                    "segments": []
+                },
+                "dst": "movie name What Men Want",
+                "dst accumulated": "movie name What Men Want",
+                "external knowledge": "()"
+            },
+            {
+                "turn id": 2,
+                "user utterance": "Yes, for me and a friend so two tickets please",
+                "system response": "Okay.",
+                "dialog history": "<USER> Hi I would like to see if the Movie What Men Want is playing here. <SYSTEM> Yes it's showing here would you like to purchase a ticket?",
+                "original user side information": {
+                    "speaker": [
+                        {
+                            "start_index": 28,
+                            "end_index": 31,
+                            "text": "two",
+                            "annotations": [
+                                {
+                                    "name": "movie_ticket.num.tickets"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 28,
+                            "end_index": 39,
+                            "text": "two tickets",
+                            "annotations": [
+                                {
+                                    "name": "movie_ticket.num.tickets"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "original system side information": {
+                    "speaker": "ASSISTANT",
+                    "segments": []
+                },
+                "dst": "movie tickets_num two, movie tickets_num two tickets",
+                "dst accumulated": "movie name What Men Want, movie tickets_num two tickets",
+                "external knowledge": "()"
+            },
+            {
+                "turn id": 3,
+                "user utterance": "What time is that moving playing today?",
+                "system response": "That movie is showing at 4, 5, and 8pm.",
+                "dialog history": "<USER> Hi I would like to see if the Movie What Men Want is playing here. <SYSTEM> Yes it's showing here would you like to purchase a ticket? <USER> Yes, for me and a friend so two tickets please <SYSTEM> Okay.",
+                "original user side information": {
+                    "speaker": "USER"
+                },
+                "original system side information": {
+                    "speaker": "ASSISTANT",
+                    "segments": [
+                        {
+                            "start_index": 25,
+                            "end_index": 26,
+                            "text": "4",
+                            "annotations": [
+                                {
+                                    "name": "movie_ticket.time.start"
+                                },
+                                {
+                                    "name": "movie_ticket.time.start"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 28,
+                            "end_index": 29,
+                            "text": "5",
+                            "annotations": [
+                                {
+                                    "name": "movie_ticket.time.start"
+                                },
+                                {
+                                    "name": "movie_ticket.time.start"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 35,
+                            "end_index": 38,
+                            "text": "8pm",
+                            "annotations": [
+                                {
+                                    "name": "movie_ticket.time.start"
+                                },
+                                {
+                                    "name": "movie_ticket.time.start"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "dst": "",
+                "dst accumulated": "movie name What Men Want, movie tickets_num two tickets",
+                "external knowledge": "(( start_index : 25 | end_index : 26 | text : 4 | annotations : (( name : movie_ticket.time.start ) | ( name : movie_ticket.time.start ))) | ( start_index : 28 | end_index : 29 | text : 5 | annotations : (( name : movie_ticket.time.start ) | ( name : movie_ticket.time.start ))) | ( start_index : 35 | end_index : 38 | text : 8pm | annotations : (( name : movie_ticket.time.start ) | ( name : movie_ticket.time.start ))))"
+            },
+            {
+                "turn id": 4,
+                "user utterance": "Okay. Is there anymore movies showing around 8pm",
+                "system response": "Yes , showing at 8pm is Green Book.",
+                "dialog history": "<USER> Hi I would like to see if the Movie What Men Want is playing here. <SYSTEM> Yes it's showing here would you like to purchase a ticket? <USER> Yes, for me and a friend so two tickets please <SYSTEM> Okay. <USER> What time is that moving playing today? <SYSTEM> That movie is showing at 4, 5, and 8pm.",
+                "original user side information": {
+                    "speaker": [
+                        {
+                            "start_index": 45,
+                            "end_index": 48,
+                            "text": "8pm",
+                            "annotations": [
+                                {
+                                    "name": "movie_ticket.time.start"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "original system side information": {
+                    "speaker": "ASSISTANT",
+                    "segments": [
+                        {
+                            "start_index": 17,
+                            "end_index": 20,
+                            "text": "8pm",
+                            "annotations": [
+                                {
+                                    "name": "movie_ticket.time.start"
+                                },
+                                {
+                                    "name": "movie_ticket.time.start"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 24,
+                            "end_index": 34,
+                            "text": "Green Book",
+                            "annotations": [
+                                {
+                                    "name": "movie_ticket.name.movie"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 24,
+                            "end_index": 35,
+                            "text": "Green Book.",
+                            "annotations": [
+                                {
+                                    "name": "movie_ticket.name.movie"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "dst": "movie start_time 8pm",
+                "dst accumulated": "movie name What Men Want, movie tickets_num two tickets, movie start_time 8pm",
+                "external knowledge": "(( start_index : 17 | end_index : 20 | text : 8pm | annotations : (( name : movie_ticket.time.start ) | ( name : movie_ticket.time.start ))) | ( start_index : 24 | end_index : 34 | text : Green Book | annotations : (( name : movie_ticket.name.movie ))) | ( start_index : 24 | end_index : 35 | text : Green Book. | annotations : (( name : movie_ticket.name.movie ))))"
+            },
+            {
+                "turn id": 5,
+                "user utterance": "What is that about?",
+                "system response": "It's about two men dealing with racisim.",
+                "dialog history": "<USER> Hi I would like to see if the Movie What Men Want is playing here. <SYSTEM> Yes it's showing here would you like to purchase a ticket? <USER> Yes, for me and a friend so two tickets please <SYSTEM> Okay. <USER> What time is that moving playing today? <SYSTEM> That movie is showing at 4, 5, and 8pm. <USER> Okay. Is there anymore movies showing around 8pm <SYSTEM> Yes , showing at 8pm is Green Book.",
+                "original user side information": {
+                    "speaker": "USER"
+                },
+                "original system side information": {
+                    "speaker": "ASSISTANT",
+                    "segments": []
+                },
+                "dst": "",
+                "dst accumulated": "movie name What Men Want, movie tickets_num two tickets, movie start_time 8pm",
+                "external knowledge": "()"
+            },
+            {
+                "turn id": 6,
+                "user utterance": "Oh, no can you recommend anything else?",
+                "system response": "What do you like?",
+                "dialog history": "<USER> Hi I would like to see if the Movie What Men Want is playing here. <SYSTEM> Yes it's showing here would you like to purchase a ticket? <USER> Yes, for me and a friend so two tickets please <SYSTEM> Okay. <USER> What time is that moving playing today? <SYSTEM> That movie is showing at 4, 5, and 8pm. <USER> Okay. Is there anymore movies showing around 8pm <SYSTEM> Yes , showing at 8pm is Green Book. <USER> What is that about? <SYSTEM> It's about two men dealing with racisim.",
+                "original user side information": {
+                    "speaker": "USER"
+                },
+                "original system side information": {
+                    "speaker": "ASSISTANT",
+                    "segments": []
+                },
+                "dst": "",
+                "dst accumulated": "movie name What Men Want, movie tickets_num two tickets, movie start_time 8pm",
+                "external knowledge": "()"
+            },
+            {
+                "turn id": 7,
+                "user utterance": "Well I like movies that are funny.",
+                "system response": "Like comedies?",
+                "dialog history": "<USER> Hi I would like to see if the Movie What Men Want is playing here. <SYSTEM> Yes it's showing here would you like to purchase a ticket? <USER> Yes, for me and a friend so two tickets please <SYSTEM> Okay. <USER> What time is that moving playing today? <SYSTEM> That movie is showing at 4, 5, and 8pm. <USER> Okay. Is there anymore movies showing around 8pm <SYSTEM> Yes , showing at 8pm is Green Book. <USER> What is that about? <SYSTEM> It's about two men dealing with racisim. <USER> Oh, no can you recommend anything else? <SYSTEM> What do you like?",
+                "original user side information": {
+                    "speaker": "USER"
+                },
+                "original system side information": {
+                    "speaker": "ASSISTANT",
+                    "segments": []
+                },
+                "dst": "",
+                "dst accumulated": "movie name What Men Want, movie tickets_num two tickets, movie start_time 8pm",
+                "external knowledge": "()"
+            },
+            {
+                "turn id": 8,
+                "user utterance": "Well no I like action as well.",
+                "system response": "Okay. How to train your dragon is playing at 8pm.",
+                "dialog history": "<USER> Hi I would like to see if the Movie What Men Want is playing here. <SYSTEM> Yes it's showing here would you like to purchase a ticket? <USER> Yes, for me and a friend so two tickets please <SYSTEM> Okay. <USER> What time is that moving playing today? <SYSTEM> That movie is showing at 4, 5, and 8pm. <USER> Okay. Is there anymore movies showing around 8pm <SYSTEM> Yes , showing at 8pm is Green Book. <USER> What is that about? <SYSTEM> It's about two men dealing with racisim. <USER> Oh, no can you recommend anything else? <SYSTEM> What do you like? <USER> Well I like movies that are funny. <SYSTEM> Like comedies?",
+                "original user side information": {
+                    "speaker": "USER"
+                },
+                "original system side information": {
+                    "speaker": "ASSISTANT",
+                    "segments": [
+                        {
+                            "start_index": 6,
+                            "end_index": 30,
+                            "text": "How to train your dragon",
+                            "annotations": [
+                                {
+                                    "name": "movie_ticket.name.movie"
+                                },
+                                {
+                                    "name": "movie_ticket.name.movie.accept"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 45,
+                            "end_index": 48,
+                            "text": "8pm",
+                            "annotations": [
+                                {
+                                    "name": "movie_ticket.time.start.accept"
+                                },
+                                {
+                                    "name": "movie_ticket.time.start"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "dst": "",
+                "dst accumulated": "movie name What Men Want, movie tickets_num two tickets, movie start_time 8pm",
+                "external knowledge": "(( start_index : 6 | end_index : 30 | text : How to train your dragon | annotations : (( name : movie_ticket.name.movie ) | ( name : movie_ticket.name.movie.accept ))) | ( start_index : 45 | end_index : 48 | text : 8pm | annotations : (( name : movie_ticket.time.start.accept ) | ( name : movie_ticket.time.start ))))"
+            },
+            {
+                "turn id": 9,
+                "user utterance": "Okay can i get two tickets for that ?",
+                "system response": "So you want me to cancel the tickets for What men want ?",
+                "dialog history": "<USER> Hi I would like to see if the Movie What Men Want is playing here. <SYSTEM> Yes it's showing here would you like to purchase a ticket? <USER> Yes, for me and a friend so two tickets please <SYSTEM> Okay. <USER> What time is that moving playing today? <SYSTEM> That movie is showing at 4, 5, and 8pm. <USER> Okay. Is there anymore movies showing around 8pm <SYSTEM> Yes , showing at 8pm is Green Book. <USER> What is that about? <SYSTEM> It's about two men dealing with racisim. <USER> Oh, no can you recommend anything else? <SYSTEM> What do you like? <USER> Well I like movies that are funny. <SYSTEM> Like comedies? <USER> Well no I like action as well. <SYSTEM> Okay. How to train your dragon is playing at 8pm.",
+                "original user side information": {
+                    "speaker": [
+                        {
+                            "start_index": 15,
+                            "end_index": 18,
+                            "text": "two",
+                            "annotations": [
+                                {
+                                    "name": "movie_ticket.num.tickets"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "original system side information": {
+                    "speaker": "ASSISTANT",
+                    "segments": [
+                        {
+                            "start_index": 41,
+                            "end_index": 54,
+                            "text": "What men want",
+                            "annotations": [
+                                {
+                                    "name": "movie_ticket.name.movie.reject"
+                                },
+                                {
+                                    "name": "movie_ticket.name.movie.reject"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "dst": "movie tickets_num two",
+                "dst accumulated": "movie name What Men Want, movie tickets_num two, movie start_time 8pm",
+                "external knowledge": "(( start_index : 41 | end_index : 54 | text : What men want | annotations : (( name : movie_ticket.name.movie.reject ) | ( name : movie_ticket.name.movie.reject ))))"
+            },
+            {
+                "turn id": 10,
+                "user utterance": "Yes please.",
+                "system response": "Okay, no problem.",
+                "dialog history": "<USER> Hi I would like to see if the Movie What Men Want is playing here. <SYSTEM> Yes it's showing here would you like to purchase a ticket? <USER> Yes, for me and a friend so two tickets please <SYSTEM> Okay. <USER> What time is that moving playing today? <SYSTEM> That movie is showing at 4, 5, and 8pm. <USER> Okay. Is there anymore movies showing around 8pm <SYSTEM> Yes , showing at 8pm is Green Book. <USER> What is that about? <SYSTEM> It's about two men dealing with racisim. <USER> Oh, no can you recommend anything else? <SYSTEM> What do you like? <USER> Well I like movies that are funny. <SYSTEM> Like comedies? <USER> Well no I like action as well. <SYSTEM> Okay. How to train your dragon is playing at 8pm. <USER> Okay can i get two tickets for that ? <SYSTEM> So you want me to cancel the tickets for What men want ?",
+                "original user side information": {
+                    "speaker": "USER"
+                },
+                "original system side information": {
+                    "speaker": "ASSISTANT",
+                    "segments": []
+                },
+                "dst": "",
+                "dst accumulated": "movie name What Men Want, movie tickets_num two, movie start_time 8pm",
+                "external knowledge": "()"
+            },
+            {
+                "turn id": 11,
+                "user utterance": "How much will this cost.",
+                "system response": "You said two adult tickets?",
+                "dialog history": "<USER> Hi I would like to see if the Movie What Men Want is playing here. <SYSTEM> Yes it's showing here would you like to purchase a ticket? <USER> Yes, for me and a friend so two tickets please <SYSTEM> Okay. <USER> What time is that moving playing today? <SYSTEM> That movie is showing at 4, 5, and 8pm. <USER> Okay. Is there anymore movies showing around 8pm <SYSTEM> Yes , showing at 8pm is Green Book. <USER> What is that about? <SYSTEM> It's about two men dealing with racisim. <USER> Oh, no can you recommend anything else? <SYSTEM> What do you like? <USER> Well I like movies that are funny. <SYSTEM> Like comedies? <USER> Well no I like action as well. <SYSTEM> Okay. How to train your dragon is playing at 8pm. <USER> Okay can i get two tickets for that ? <SYSTEM> So you want me to cancel the tickets for What men want ? <USER> Yes please. <SYSTEM> Okay, no problem.",
+                "original user side information": {
+                    "speaker": "USER"
+                },
+                "original system side information": {
+                    "speaker": "ASSISTANT",
+                    "segments": [
+                        {
+                            "start_index": 9,
+                            "end_index": 12,
+                            "text": "two",
+                            "annotations": [
+                                {
+                                    "name": "movie_ticket.num.tickets"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 9,
+                            "end_index": 26,
+                            "text": "two adult tickets",
+                            "annotations": [
+                                {
+                                    "name": "movie_ticket.time.start.accept"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "dst": "",
+                "dst accumulated": "movie name What Men Want, movie tickets_num two, movie start_time 8pm",
+                "external knowledge": "(( start_index : 9 | end_index : 12 | text : two | annotations : (( name : movie_ticket.num.tickets ))) | ( start_index : 9 | end_index : 26 | text : two adult tickets | annotations : (( name : movie_ticket.time.start.accept ))))"
+            },
+            {
+                "turn id": 12,
+                "user utterance": "Yes.",
+                "system response": "Okay, that will be $20.80",
+                "dialog history": "<USER> Hi I would like to see if the Movie What Men Want is playing here. <SYSTEM> Yes it's showing here would you like to purchase a ticket? <USER> Yes, for me and a friend so two tickets please <SYSTEM> Okay. <USER> What time is that moving playing today? <SYSTEM> That movie is showing at 4, 5, and 8pm. <USER> Okay. Is there anymore movies showing around 8pm <SYSTEM> Yes , showing at 8pm is Green Book. <USER> What is that about? <SYSTEM> It's about two men dealing with racisim. <USER> Oh, no can you recommend anything else? <SYSTEM> What do you like? <USER> Well I like movies that are funny. <SYSTEM> Like comedies? <USER> Well no I like action as well. <SYSTEM> Okay. How to train your dragon is playing at 8pm. <USER> Okay can i get two tickets for that ? <SYSTEM> So you want me to cancel the tickets for What men want ? <USER> Yes please. <SYSTEM> Okay, no problem. <USER> How much will this cost. <SYSTEM> You said two adult tickets?",
+                "original user side information": {
+                    "speaker": "USER"
+                },
+                "original system side information": {
+                    "speaker": "ASSISTANT",
+                    "segments": [
+                        {
+                            "start_index": 19,
+                            "end_index": 25,
+                            "text": "$20.80",
+                            "annotations": [
+                                {
+                                    "name": "movie_ticket.price.ticket.accept"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "dst": "",
+                "dst accumulated": "movie name What Men Want, movie tickets_num two, movie start_time 8pm",
+                "external knowledge": "(( start_index : 19 | end_index : 25 | text : $20.80 | annotations : (( name : movie_ticket.price.ticket.accept ))))"
+            },
+            {
+                "turn id": 13,
+                "user utterance": "Okay.",
+                "system response": "Anything else I can help you with ?",
+                "dialog history": "<USER> Hi I would like to see if the Movie What Men Want is playing here. <SYSTEM> Yes it's showing here would you like to purchase a ticket? <USER> Yes, for me and a friend so two tickets please <SYSTEM> Okay. <USER> What time is that moving playing today? <SYSTEM> That movie is showing at 4, 5, and 8pm. <USER> Okay. Is there anymore movies showing around 8pm <SYSTEM> Yes , showing at 8pm is Green Book. <USER> What is that about? <SYSTEM> It's about two men dealing with racisim. <USER> Oh, no can you recommend anything else? <SYSTEM> What do you like? <USER> Well I like movies that are funny. <SYSTEM> Like comedies? <USER> Well no I like action as well. <SYSTEM> Okay. How to train your dragon is playing at 8pm. <USER> Okay can i get two tickets for that ? <SYSTEM> So you want me to cancel the tickets for What men want ? <USER> Yes please. <SYSTEM> Okay, no problem. <USER> How much will this cost. <SYSTEM> You said two adult tickets? <USER> Yes. <SYSTEM> Okay, that will be $20.80",
+                "original user side information": {
+                    "speaker": "USER"
+                },
+                "original system side information": {
+                    "speaker": "ASSISTANT",
+                    "segments": []
+                },
+                "dst": "",
+                "dst accumulated": "movie name What Men Want, movie tickets_num two, movie start_time 8pm",
+                "external knowledge": "()"
+            },
+            {
+                "turn id": 14,
+                "user utterance": "Yes can i bring my own food to theater.",
+                "system response": "No, sorry you have to purchase food in the lobby.",
+                "dialog history": "<USER> Hi I would like to see if the Movie What Men Want is playing here. <SYSTEM> Yes it's showing here would you like to purchase a ticket? <USER> Yes, for me and a friend so two tickets please <SYSTEM> Okay. <USER> What time is that moving playing today? <SYSTEM> That movie is showing at 4, 5, and 8pm. <USER> Okay. Is there anymore movies showing around 8pm <SYSTEM> Yes , showing at 8pm is Green Book. <USER> What is that about? <SYSTEM> It's about two men dealing with racisim. <USER> Oh, no can you recommend anything else? <SYSTEM> What do you like? <USER> Well I like movies that are funny. <SYSTEM> Like comedies? <USER> Well no I like action as well. <SYSTEM> Okay. How to train your dragon is playing at 8pm. <USER> Okay can i get two tickets for that ? <SYSTEM> So you want me to cancel the tickets for What men want ? <USER> Yes please. <SYSTEM> Okay, no problem. <USER> How much will this cost. <SYSTEM> You said two adult tickets? <USER> Yes. <SYSTEM> Okay, that will be $20.80 <USER> Okay. <SYSTEM> Anything else I can help you with ?",
+                "original user side information": {
+                    "speaker": "USER"
+                },
+                "original system side information": {
+                    "speaker": "ASSISTANT",
+                    "segments": []
+                },
+                "dst": "",
+                "dst accumulated": "movie name What Men Want, movie tickets_num two, movie start_time 8pm",
+                "external knowledge": "()"
+            },
+            {
+                "turn id": 15,
+                "user utterance": "Okay that is fine.",
+                "system response": "Thank you enjoy your movie",
+                "dialog history": "<USER> Hi I would like to see if the Movie What Men Want is playing here. <SYSTEM> Yes it's showing here would you like to purchase a ticket? <USER> Yes, for me and a friend so two tickets please <SYSTEM> Okay. <USER> What time is that moving playing today? <SYSTEM> That movie is showing at 4, 5, and 8pm. <USER> Okay. Is there anymore movies showing around 8pm <SYSTEM> Yes , showing at 8pm is Green Book. <USER> What is that about? <SYSTEM> It's about two men dealing with racisim. <USER> Oh, no can you recommend anything else? <SYSTEM> What do you like? <USER> Well I like movies that are funny. <SYSTEM> Like comedies? <USER> Well no I like action as well. <SYSTEM> Okay. How to train your dragon is playing at 8pm. <USER> Okay can i get two tickets for that ? <SYSTEM> So you want me to cancel the tickets for What men want ? <USER> Yes please. <SYSTEM> Okay, no problem. <USER> How much will this cost. <SYSTEM> You said two adult tickets? <USER> Yes. <SYSTEM> Okay, that will be $20.80 <USER> Okay. <SYSTEM> Anything else I can help you with ? <USER> Yes can i bring my own food to theater. <SYSTEM> No, sorry you have to purchase food in the lobby.",
+                "original user side information": {
+                    "speaker": "USER"
+                },
+                "original system side information": {
+                    "speaker": "ASSISTANT",
+                    "segments": []
+                },
+                "dst": "",
+                "dst accumulated": "movie name What Men Want, movie tickets_num two, movie start_time 8pm",
+                "external knowledge": "()"
+            }
+        ],
+        "dst knowledge": "( movie : ( name : ( 2 | How to train your dragon. | A Bronx Tale | us | Avengers Endgame ) | tickets_num : ( KSwiss and I will the attendees | So two adult tickets | One adult and one child | Two tickets. | Bumblebee ) | start_time : ( 3:15 PM | 6:30,7 | 8 and 10 pm | 8:20p | | 1:30pm | | 10 p.m tonight ) | ticket_price : ( 270 | 9.25 each | $15.75 per ticket | 27.75 | $10. ) | theater_location : ( Fifth street | AMC Classic at 5501 Atlantic Springs Rd | Raleigh | NC | Cheyenne | Wyoming. | Manor Shopping Center and the street Address is: 1246 Millersville Pike | Lancaster | PA 17603 | junction on Kiesel Avenue ) | theater_name : ( Cinema 3 | Morton Cinemas | Carmike 12 | Orlando Cinemark | AMC Burlington Cinema 10 ) | accept_ticket_booking : ( Ok | your tickets are puchased and confirmed | Confirmed | \"I ve ordered your tickets\" | I have gone ahead and booked your tickets | \"Okay | I ve gotten those booked for you. The information will be sent to your mobile phone via text message. Is there anything else I can do for you today\") | screening_type : ( Dolby theater screening | 3D | | IMAX | no IMAX | regular seating ) | movie_ticket : ( tickets for a movie | a reservation to see | Hi | I would like to go to a movie tonight. | get some movie tickets please | I wanted to purch ) | duration_time : ( 45 MINUTE | 2 hours and 12 minutes | Almost 2 hours | 1 hour | 38 minutes | an hour and forty four minutes ) | end_time : ( around 10 | 7:30 | be over by nine | something in the evening | 6pm | 10:00 pm | 4 pm | nine thirty ) | reject_ticket_booking : ( already sold out. | Okay | I have pla | \"Sorry you couldn t get tickets tonight\" | Your purchase request has been cancelled | \"It looks like we re sold out\") | estimate_price : ( 7 dollars ) | reservation_time : ( 7:00pm ) | restaurant_name : ( Busaba )))",
+        "intent knowledge": "()",
+        "prompt": [
+            "This is a bot helping users to book a movie ticket. Given the dialog context and external database, please generate a relevant system response for the user.",
+            "This bot assists users to book a movie ticket. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
+            "This bot helps users to book a movie ticket. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
+            "The purpose of this bot is to assist users to book a movie ticket. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
+            "This bot is designed to help users book a movie ticket. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+        ]
+    },
+    "Taskmaster1--train--3": {
+        "original dialog id": "dlg-00123c7b-15a0-4f21-9002-a2509149ee2d",
+        "dialog index": 3,
+        "original dialog info": {
+            "instruction_id": "movie-tickets-3",
+            "slots and values": {
+                "movie": {
+                    "name": [
+                        "2",
+                        "How to train your dragon.",
+                        "A Bronx Tale",
+                        "us",
+                        "Avengers Endgame"
+                    ],
+                    "tickets_num": [
+                        "KSwiss and I will the attendees",
+                        "So two adult tickets",
+                        "One adult and one child",
+                        "Two tickets.",
+                        "Bumblebee"
+                    ],
+                    "start_time": [
+                        "3:15 PM",
+                        "6:30,7, 8 and 10 pm",
+                        "8:20p,",
+                        "1:30pm,",
+                        "10 p.m tonight"
+                    ],
+                    "ticket_price": [
+                        "270",
+                        "9.25 each",
+                        "$15.75 per ticket",
+                        "27.75",
+                        "$10."
+                    ],
+                    "theater_location": [
+                        "Fifth street",
+                        "AMC Classic at 5501 Atlantic Springs Rd, Raleigh, NC",
+                        "Cheyenne, Wyoming.",
+                        "Manor Shopping Center and the street Address is: 1246 Millersville Pike, Lancaster, PA 17603",
+                        "junction on Kiesel Avenue"
+                    ],
+                    "theater_name": [
+                        "Cinema 3",
+                        "Morton Cinemas",
+                        "Carmike 12",
+                        "Orlando Cinemark",
+                        "AMC Burlington Cinema 10"
+                    ],
+                    "accept_ticket_booking": [
+                        "Ok, your tickets are puchased and confirmed",
+                        "Confirmed",
+                        "I've ordered your tickets",
+                        "I have gone ahead and booked your tickets",
+                        "Okay, I've gotten those booked for you. The information will be sent to your mobile phone via text message. Is there anything else I can do for you today"
+                    ],
+                    "screening_type": [
+                        "Dolby theater screening",
+                        "3D,",
+                        "IMAX",
+                        "no IMAX",
+                        "regular seating"
+                    ],
+                    "movie_ticket": [
+                        "tickets for a movie",
+                        "a reservation to see",
+                        "Hi, I would like to go to a movie tonight.",
+                        "get some movie tickets please",
+                        "I wanted to purch"
+                    ],
+                    "duration_time": [
+                        "45 MINUTE",
+                        "2 hours and 12 minutes",
+                        "Almost 2 hours",
+                        "1 hour, 38 minutes",
+                        "an hour and forty four minutes"
+                    ],
+                    "end_time": [
+                        "around 10",
+                        "7:30",
+                        "be over by nine",
+                        "something in the evening",
+                        "6pm",
+                        "10:00 pm",
+                        "4 pm",
+                        "nine thirty"
+                    ],
+                    "reject_ticket_booking": [
+                        "already sold out.",
+                        "Okay, I have pla",
+                        "Sorry you couldn't get tickets tonight",
+                        "Your purchase request has been cancelled",
+                        "It looks like we're sold out"
+                    ],
+                    "estimate_price": [
+                        "7 dollars"
+                    ],
+                    "reservation_time": [
+                        "7:00pm"
+                    ],
+                    "restaurant_name": [
+                        "Busaba"
+                    ]
+                }
+            },
+            "intents": {}
+        },
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "I want to watch avengers endgame",
+                "system response": "where do you want to watch it at?",
+                "dialog history": "",
+                "original user side information": {
+                    "speaker": [
+                        {
+                            "start_index": 16,
+                            "end_index": 32,
+                            "text": "avengers endgame",
+                            "annotations": [
+                                {
+                                    "name": "movie_ticket.name.movie"
+                                },
+                                {
+                                    "name": "movie_ticket.name.movie.reject"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "original system side information": {
+                    "speaker": "ASSISTANT",
+                    "segments": []
+                },
+                "dst": "movie name avengers endgame",
+                "dst accumulated": "movie name avengers endgame",
+                "external knowledge": "()"
+            },
+            {
+                "turn id": 2,
+                "user utterance": "at bangkok close the hotel I a currently staying",
+                "system response": "sounds good, what time do you want to watch the movie?",
+                "dialog history": "<USER> I want to watch avengers endgame <SYSTEM> where do you want to watch it at?",
+                "original user side information": {
+                    "speaker": [
+                        {
+                            "start_index": 3,
+                            "end_index": 10,
+                            "text": "bangkok",
+                            "annotations": [
+                                {
+                                    "name": "movie_ticket.location.theater.accept"
+                                },
+                                {
+                                    "name": "movie_ticket.location.theater.reject"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "original system side information": {
+                    "speaker": "ASSISTANT",
+                    "segments": []
+                },
+                "dst": "movie theater_location bangkok",
+                "dst accumulated": "movie name avengers endgame, movie theater_location bangkok",
+                "external knowledge": "()"
+            },
+            {
+                "turn id": 3,
+                "user utterance": "8 o'clock",
+                "system response": "how many tickets?",
+                "dialog history": "<USER> I want to watch avengers endgame <SYSTEM> where do you want to watch it at? <USER> at bangkok close the hotel I a currently staying <SYSTEM> sounds good, what time do you want to watch the movie?",
+                "original user side information": {
+                    "speaker": [
+                        {
+                            "start_index": 0,
+                            "end_index": 1,
+                            "text": "8",
+                            "annotations": [
+                                {
+                                    "name": "movie_ticket.time.start.reject"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 0,
+                            "end_index": 9,
+                            "text": "8 o'clock",
+                            "annotations": [
+                                {
+                                    "name": "movie_ticket.time.start.reject"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "original system side information": {
+                    "speaker": "ASSISTANT",
+                    "segments": []
+                },
+                "dst": "movie start_time 8, movie start_time 8 o'clock",
+                "dst accumulated": "movie name avengers endgame, movie theater_location bangkok, movie start_time 8 o'clock",
+                "external knowledge": "()"
+            },
+            {
+                "turn id": 4,
+                "user utterance": "two",
+                "system response": "and should we use the account we already have with the movie theater?",
+                "dialog history": "<USER> I want to watch avengers endgame <SYSTEM> where do you want to watch it at? <USER> at bangkok close the hotel I a currently staying <SYSTEM> sounds good, what time do you want to watch the movie? <USER> 8 o'clock <SYSTEM> how many tickets?",
+                "original user side information": {
+                    "speaker": [
+                        {
+                            "start_index": 0,
+                            "end_index": 3,
+                            "text": "two",
+                            "annotations": [
+                                {
+                                    "name": "movie_ticket.num.tickets.accept"
+                                },
+                                {
+                                    "name": "movie_ticket.num.tickets.reject"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "original system side information": {
+                    "speaker": "ASSISTANT",
+                    "segments": []
+                },
+                "dst": "movie tickets_num two",
+                "dst accumulated": "movie name avengers endgame, movie theater_location bangkok, movie start_time 8 o'clock, movie tickets_num two",
+                "external knowledge": "()"
+            },
+            {
+                "turn id": 5,
+                "user utterance": "yes",
+                "system response": "It seems they do not have any movie at that time",
+                "dialog history": "<USER> I want to watch avengers endgame <SYSTEM> where do you want to watch it at? <USER> at bangkok close the hotel I a currently staying <SYSTEM> sounds good, what time do you want to watch the movie? <USER> 8 o'clock <SYSTEM> how many tickets? <USER> two <SYSTEM> and should we use the account we already have with the movie theater?",
+                "original user side information": {
+                    "speaker": "USER"
+                },
+                "original system side information": {
+                    "speaker": "ASSISTANT",
+                    "segments": []
+                },
+                "dst": "",
+                "dst accumulated": "movie name avengers endgame, movie theater_location bangkok, movie start_time 8 o'clock, movie tickets_num two",
+                "external knowledge": "()"
+            },
+            {
+                "turn id": 6,
+                "user utterance": "let's watch another movie then",
+                "system response": "what other movie do you want to watch",
+                "dialog history": "<USER> I want to watch avengers endgame <SYSTEM> where do you want to watch it at? <USER> at bangkok close the hotel I a currently staying <SYSTEM> sounds good, what time do you want to watch the movie? <USER> 8 o'clock <SYSTEM> how many tickets? <USER> two <SYSTEM> and should we use the account we already have with the movie theater? <USER> yes <SYSTEM> It seems they do not have any movie at that time",
+                "original user side information": {
+                    "speaker": "USER"
+                },
+                "original system side information": {
+                    "speaker": "ASSISTANT",
+                    "segments": []
+                },
+                "dst": "",
+                "dst accumulated": "movie name avengers endgame, movie theater_location bangkok, movie start_time 8 o'clock, movie tickets_num two",
+                "external knowledge": "()"
+            },
+            {
+                "turn id": 7,
+                "user utterance": "let's watch how to train your dragon",
+                "system response": "the newest one",
+                "dialog history": "<USER> I want to watch avengers endgame <SYSTEM> where do you want to watch it at? <USER> at bangkok close the hotel I a currently staying <SYSTEM> sounds good, what time do you want to watch the movie? <USER> 8 o'clock <SYSTEM> how many tickets? <USER> two <SYSTEM> and should we use the account we already have with the movie theater? <USER> yes <SYSTEM> It seems they do not have any movie at that time <USER> let's watch another movie then <SYSTEM> what other movie do you want to watch",
+                "original user side information": {
+                    "speaker": [
+                        {
+                            "start_index": 12,
+                            "end_index": 36,
+                            "text": "how to train your dragon",
+                            "annotations": [
+                                {
+                                    "name": "movie_ticket.name.movie"
+                                },
+                                {
+                                    "name": "movie_ticket.name.movie.reject"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "original system side information": {
+                    "speaker": "ASSISTANT",
+                    "segments": []
+                },
+                "dst": "movie name how to train your dragon",
+                "dst accumulated": "movie name how to train your dragon, movie theater_location bangkok, movie start_time 8 o'clock, movie tickets_num two",
+                "external knowledge": "()"
+            },
+            {
+                "turn id": 8,
+                "user utterance": "yes, that one",
+                "system response": "I don't think that movie is playing at that time either",
+                "dialog history": "<USER> I want to watch avengers endgame <SYSTEM> where do you want to watch it at? <USER> at bangkok close the hotel I a currently staying <SYSTEM> sounds good, what time do you want to watch the movie? <USER> 8 o'clock <SYSTEM> how many tickets? <USER> two <SYSTEM> and should we use the account we already have with the movie theater? <USER> yes <SYSTEM> It seems they do not have any movie at that time <USER> let's watch another movie then <SYSTEM> what other movie do you want to watch <USER> let's watch how to train your dragon <SYSTEM> the newest one",
+                "original user side information": {
+                    "speaker": "USER"
+                },
+                "original system side information": {
+                    "speaker": "ASSISTANT",
+                    "segments": []
+                },
+                "dst": "",
+                "dst accumulated": "movie name how to train your dragon, movie theater_location bangkok, movie start_time 8 o'clock, movie tickets_num two",
+                "external knowledge": "()"
+            },
+            {
+                "turn id": 9,
+                "user utterance": "so neither choices are playing at the time I want to watch",
+                "system response": "I am afraid so ",
+                "dialog history": "<USER> I want to watch avengers endgame <SYSTEM> where do you want to watch it at? <USER> at bangkok close the hotel I a currently staying <SYSTEM> sounds good, what time do you want to watch the movie? <USER> 8 o'clock <SYSTEM> how many tickets? <USER> two <SYSTEM> and should we use the account we already have with the movie theater? <USER> yes <SYSTEM> It seems they do not have any movie at that time <USER> let's watch another movie then <SYSTEM> what other movie do you want to watch <USER> let's watch how to train your dragon <SYSTEM> the newest one <USER> yes, that one <SYSTEM> I don't think that movie is playing at that time either",
+                "original user side information": {
+                    "speaker": "USER"
+                },
+                "original system side information": {
+                    "speaker": "ASSISTANT",
+                    "segments": []
+                },
+                "dst": "",
+                "dst accumulated": "movie name how to train your dragon, movie theater_location bangkok, movie start_time 8 o'clock, movie tickets_num two",
+                "external knowledge": "()"
+            },
+            {
+                "turn id": 10,
+                "user utterance": "I am no longer interested in watching the movie",
+                "system response": "very well, have a great day sir",
+                "dialog history": "<USER> I want to watch avengers endgame <SYSTEM> where do you want to watch it at? <USER> at bangkok close the hotel I a currently staying <SYSTEM> sounds good, what time do you want to watch the movie? <USER> 8 o'clock <SYSTEM> how many tickets? <USER> two <SYSTEM> and should we use the account we already have with the movie theater? <USER> yes <SYSTEM> It seems they do not have any movie at that time <USER> let's watch another movie then <SYSTEM> what other movie do you want to watch <USER> let's watch how to train your dragon <SYSTEM> the newest one <USER> yes, that one <SYSTEM> I don't think that movie is playing at that time either <USER> so neither choices are playing at the time I want to watch <SYSTEM> I am afraid so",
+                "original user side information": {
+                    "speaker": "USER"
+                },
+                "original system side information": {
+                    "speaker": "ASSISTANT",
+                    "segments": []
+                },
+                "dst": "",
+                "dst accumulated": "movie name how to train your dragon, movie theater_location bangkok, movie start_time 8 o'clock, movie tickets_num two",
+                "external knowledge": "()"
+            },
+            {
+                "turn id": 11,
+                "user utterance": "thank you",
+                "system response": "you are welcome",
+                "dialog history": "<USER> I want to watch avengers endgame <SYSTEM> where do you want to watch it at? <USER> at bangkok close the hotel I a currently staying <SYSTEM> sounds good, what time do you want to watch the movie? <USER> 8 o'clock <SYSTEM> how many tickets? <USER> two <SYSTEM> and should we use the account we already have with the movie theater? <USER> yes <SYSTEM> It seems they do not have any movie at that time <USER> let's watch another movie then <SYSTEM> what other movie do you want to watch <USER> let's watch how to train your dragon <SYSTEM> the newest one <USER> yes, that one <SYSTEM> I don't think that movie is playing at that time either <USER> so neither choices are playing at the time I want to watch <SYSTEM> I am afraid so <USER> I am no longer interested in watching the movie <SYSTEM> very well, have a great day sir",
+                "original user side information": {
+                    "speaker": "USER"
+                },
+                "original system side information": {
+                    "speaker": "ASSISTANT",
+                    "segments": []
+                },
+                "dst": "",
+                "dst accumulated": "movie name how to train your dragon, movie theater_location bangkok, movie start_time 8 o'clock, movie tickets_num two",
+                "external knowledge": "()"
+            }
+        ],
+        "dst knowledge": "( movie : ( name : ( 2 | How to train your dragon. | A Bronx Tale | us | Avengers Endgame ) | tickets_num : ( KSwiss and I will the attendees | So two adult tickets | One adult and one child | Two tickets. | Bumblebee ) | start_time : ( 3:15 PM | 6:30,7 | 8 and 10 pm | 8:20p | | 1:30pm | | 10 p.m tonight ) | ticket_price : ( 270 | 9.25 each | $15.75 per ticket | 27.75 | $10. ) | theater_location : ( Fifth street | AMC Classic at 5501 Atlantic Springs Rd | Raleigh | NC | Cheyenne | Wyoming. | Manor Shopping Center and the street Address is: 1246 Millersville Pike | Lancaster | PA 17603 | junction on Kiesel Avenue ) | theater_name : ( Cinema 3 | Morton Cinemas | Carmike 12 | Orlando Cinemark | AMC Burlington Cinema 10 ) | accept_ticket_booking : ( Ok | your tickets are puchased and confirmed | Confirmed | \"I ve ordered your tickets\" | I have gone ahead and booked your tickets | \"Okay | I ve gotten those booked for you. The information will be sent to your mobile phone via text message. Is there anything else I can do for you today\") | screening_type : ( Dolby theater screening | 3D | | IMAX | no IMAX | regular seating ) | movie_ticket : ( tickets for a movie | a reservation to see | Hi | I would like to go to a movie tonight. | get some movie tickets please | I wanted to purch ) | duration_time : ( 45 MINUTE | 2 hours and 12 minutes | Almost 2 hours | 1 hour | 38 minutes | an hour and forty four minutes ) | end_time : ( around 10 | 7:30 | be over by nine | something in the evening | 6pm | 10:00 pm | 4 pm | nine thirty ) | reject_ticket_booking : ( already sold out. | Okay | I have pla | \"Sorry you couldn t get tickets tonight\" | Your purchase request has been cancelled | \"It looks like we re sold out\") | estimate_price : ( 7 dollars ) | reservation_time : ( 7:00pm ) | restaurant_name : ( Busaba )))",
+        "intent knowledge": "()",
+        "prompt": [
+            "This is a bot helping users to book a movie ticket. Given the dialog context and external database, please generate a relevant system response for the user.",
+            "This bot assists users to book a movie ticket. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
+            "This bot helps users to book a movie ticket. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
+            "The purpose of this bot is to assist users to book a movie ticket. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
+            "This bot is designed to help users book a movie ticket. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+        ]
+    },
+    "Taskmaster1--train--4": {
+        "original dialog id": "dlg-0013673c-31c6-4565-8fac-810e173a5c53",
+        "dialog index": 4,
+        "original dialog info": {
+            "instruction_id": "pizza-ordering-2",
+            "slots and values": {
+                "pizza": {
+                    "store_name": [
+                        "prince Street Pizza",
+                        "I love Ny pizza",
+                        "Napolis",
+                        "The Parlor Pizzeria",
+                        "Joeys"
+                    ],
+                    "store_location": [
+                        "Wall Street in Downtown.",
+                        "Kentucky",
+                        "Washington, D.C.",
+                        "Snoqualmie",
+                        "7500 E. Speedway"
+                    ],
+                    "name": [
+                        "traditional style GF pizza",
+                        "Spinach Alfredo",
+                        "2 cheese",
+                        "extra cheese , meatball pizza",
+                        "\"meat pizza"
+                    ],
+                    "size": [
+                        "family pie has 12 slices.",
+                        "XL supreme",
+                        "16 x 16",
+                        "1 large",
+                        "Extra Large"
+                    ],
+                    "topping_type": [
+                        "apple",
+                        "talian beef",
+                        "Oven roasted sweet peppers",
+                        "Whole milk Mozzrella cheese",
+                        "Ground beef"
+                    ],
+                    "crust_type": [
+                        "itsalian",
+                        "special crust",
+                        "large",
+                        "thin",
+                        "deep dish,"
+                    ],
+                    "pizza_ordering": [
+                        "place my order",
+                        "pizza will be ready",
+                        "order",
+                        "placing the order",
+                        "order a pizza f"
+                    ],
+                    "accept_preference": [
+                        "Cheddar",
+                        "light sauc",
+                        "extra tomatoes sauce",
+                        "Parmesan romano",
+                        "Hearty Marinara Sauce"
+                    ],
+                    "accept_pizza_order": [
+                        "Ok, your order is being placed.",
+                        "pizza will be ready in about 25 minutes",
+                        "I've placed the order.",
+                        "Okay, it's going to be $23.98 and it will",
+                        "Ok, order completed."
+                    ],
+                    "preference": [
+                        "Regular",
+                        "light sauce.",
+                        "Tomato Sauce",
+                        "BBQ marinara",
+                        "Extra Pepperoni"
+                    ],
+                    "reject_preference": [
+                        "olives",
+                        "cannot do substitutions",
+                        "not the one with bacon",
+                        "alfredo sauce",
+                        "Scottish cheese"
+                    ],
+                    "milk_type": [
+                        "1/2",
+                        "1/2 and 1/2",
+                        "lowfat",
+                        "soy milk",
+                        "fat free"
+                    ],
+                    "drink_num": [
+                        "two",
+                        "plain"
+                    ],
+                    "drink_size": [
+                        "tall",
+                        "small",
+                        "grande",
+                        "Grande",
+                        "Tall"
+                    ],
+                    "drink_name": [
+                        "flavored latte",
+                        "latte",
+                        "Pike's Place",
+                        "Grande Mocha",
+                        "chai latte",
+                        "Mocha"
+                    ],
+                    "reject_pizza_order": [
+                        "Your order can not be confirmed"
+                    ],
+                    "appt_reason": [
+                        "enhance the air conditioning"
+                    ],
+                    "appt_date": [
+                        "Monday",
+                        "Tuesday"
+                    ],
+                    "appt_time": [
+                        "early in the morning",
+                        "morning"
+                    ]
+                }
+            },
+            "intents": {}
+        },
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "I want to order a pizza from Bertuccis in Chelmsford, MA",
+                "system response": "what type of pizza would you like? ",
+                "dialog history": "",
+                "original user side information": {
+                    "speaker": [
+                        {
+                            "start_index": 29,
+                            "end_index": 38,
+                            "text": "Bertuccis",
+                            "annotations": [
+                                {
+                                    "name": "pizza_ordering.name.store"
+                                },
+                                {
+                                    "name": "pizza_ordering.name.store"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 42,
+                            "end_index": 56,
+                            "text": "Chelmsford, MA",
+                            "annotations": [
+                                {
+                                    "name": "pizza_ordering.location.store"
+                                },
+                                {
+                                    "name": "pizza_ordering.location.store"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "original system side information": {
+                    "speaker": "ASSISTANT",
+                    "segments": []
+                },
+                "dst": "pizza store_name Bertuccis, pizza store_location Chelmsford MA",
+                "dst accumulated": "pizza store_name Bertuccis, pizza store_location Chelmsford MA",
+                "external knowledge": "()"
+            },
+            {
+                "turn id": 2,
+                "user utterance": "a silano",
+                "system response": "what size ",
+                "dialog history": "<USER> I want to order a pizza from Bertuccis in Chelmsford, MA <SYSTEM> what type of pizza would you like?",
+                "original user side information": {
+                    "speaker": [
+                        {
+                            "start_index": 2,
+                            "end_index": 8,
+                            "text": "silano",
+                            "annotations": [
+                                {
+                                    "name": "pizza_ordering.name.pizza"
+                                },
+                                {
+                                    "name": "pizza_ordering.name.pizza"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "original system side information": {
+                    "speaker": "ASSISTANT",
+                    "segments": []
+                },
+                "dst": "pizza name silano",
+                "dst accumulated": "pizza store_name Bertuccis, pizza store_location Chelmsford MA, pizza name silano",
+                "external knowledge": "()"
+            },
+            {
+                "turn id": 3,
+                "user utterance": "a large please",
+                "system response": "understood. will do",
+                "dialog history": "<USER> I want to order a pizza from Bertuccis in Chelmsford, MA <SYSTEM> what type of pizza would you like? <USER> a silano <SYSTEM> what size",
+                "original user side information": {
+                    "speaker": [
+                        {
+                            "start_index": 2,
+                            "end_index": 7,
+                            "text": "large",
+                            "annotations": [
+                                {
+                                    "name": "pizza_ordering.size.pizza"
+                                },
+                                {
+                                    "name": "pizza_ordering.size.pizza"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "original system side information": {
+                    "speaker": "ASSISTANT",
+                    "segments": []
+                },
+                "dst": "pizza size large",
+                "dst accumulated": "pizza store_name Bertuccis, pizza store_location Chelmsford MA, pizza name silano, pizza size large",
+                "external knowledge": "()"
+            },
+            {
+                "turn id": 4,
+                "user utterance": "thanks",
+                "system response": "unfortunately bertuccis has run out of broccoli and so are not offering the silano style pizza today",
+                "dialog history": "<USER> I want to order a pizza from Bertuccis in Chelmsford, MA <SYSTEM> what type of pizza would you like? <USER> a silano <SYSTEM> what size <USER> a large please <SYSTEM> understood. will do",
+                "original user side information": {
+                    "speaker": "USER"
+                },
+                "original system side information": {
+                    "speaker": "ASSISTANT",
+                    "segments": [
+                        {
+                            "start_index": 14,
+                            "end_index": 23,
+                            "text": "bertuccis",
+                            "annotations": [
+                                {
+                                    "name": "pizza_ordering.name.store"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 39,
+                            "end_index": 47,
+                            "text": "broccoli",
+                            "annotations": [
+                                {
+                                    "name": "pizza_ordering.type.topping.reject"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 76,
+                            "end_index": 94,
+                            "text": "silano style pizza",
+                            "annotations": [
+                                {
+                                    "name": "pizza_ordering.name.pizza.reject"
+                                },
+                                {
+                                    "name": "pizza_ordering.name.pizza.reject"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "dst": "",
+                "dst accumulated": "pizza store_name Bertuccis, pizza store_location Chelmsford MA, pizza name silano, pizza size large",
+                "external knowledge": "(( start_index : 14 | end_index : 23 | text : bertuccis | annotations : (( name : pizza_ordering.name.store ))) | ( start_index : 39 | end_index : 47 | text : broccoli | annotations : (( name : pizza_ordering.type.topping.reject ))) | ( start_index : 76 | end_index : 94 | text : silano style pizza | annotations : (( name : pizza_ordering.name.pizza.reject ) | ( name : pizza_ordering.name.pizza.reject ))))"
+            },
+            {
+                "turn id": 5,
+                "user utterance": "I see",
+                "system response": "would you like a different type of pizza? ",
+                "dialog history": "<USER> I want to order a pizza from Bertuccis in Chelmsford, MA <SYSTEM> what type of pizza would you like? <USER> a silano <SYSTEM> what size <USER> a large please <SYSTEM> understood. will do <USER> thanks <SYSTEM> unfortunately bertuccis has run out of broccoli and so are not offering the silano style pizza today",
+                "original user side information": {
+                    "speaker": "USER"
+                },
+                "original system side information": {
+                    "speaker": "ASSISTANT",
+                    "segments": []
+                },
+                "dst": "",
+                "dst accumulated": "pizza store_name Bertuccis, pizza store_location Chelmsford MA, pizza name silano, pizza size large",
+                "external knowledge": "()"
+            },
+            {
+                "turn id": 6,
+                "user utterance": "yes. i would like a sporkie pizza",
+                "system response": "what size would you like? ",
+                "dialog history": "<USER> I want to order a pizza from Bertuccis in Chelmsford, MA <SYSTEM> what type of pizza would you like? <USER> a silano <SYSTEM> what size <USER> a large please <SYSTEM> understood. will do <USER> thanks <SYSTEM> unfortunately bertuccis has run out of broccoli and so are not offering the silano style pizza today <USER> I see <SYSTEM> would you like a different type of pizza?",
+                "original user side information": {
+                    "speaker": [
+                        {
+                            "start_index": 20,
+                            "end_index": 33,
+                            "text": "sporkie pizza",
+                            "annotations": [
+                                {
+                                    "name": "pizza_ordering.name.pizza"
+                                },
+                                {
+                                    "name": "pizza_ordering.name.pizza"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "original system side information": {
+                    "speaker": "ASSISTANT",
+                    "segments": []
+                },
+                "dst": "pizza name sporkie pizza",
+                "dst accumulated": "pizza store_name Bertuccis, pizza store_location Chelmsford MA, pizza name sporkie pizza, pizza size large",
+                "external knowledge": "()"
+            },
+            {
+                "turn id": 7,
+                "user utterance": "large",
+                "system response": "ok. I have confirmed your order for a large sporkie pizza at the bertuccis in chelmsford, ma",
+                "dialog history": "<USER> I want to order a pizza from Bertuccis in Chelmsford, MA <SYSTEM> what type of pizza would you like? <USER> a silano <SYSTEM> what size <USER> a large please <SYSTEM> understood. will do <USER> thanks <SYSTEM> unfortunately bertuccis has run out of broccoli and so are not offering the silano style pizza today <USER> I see <SYSTEM> would you like a different type of pizza? <USER> yes. i would like a sporkie pizza <SYSTEM> what size would you like?",
+                "original user side information": {
+                    "speaker": [
+                        {
+                            "start_index": 0,
+                            "end_index": 5,
+                            "text": "large",
+                            "annotations": [
+                                {
+                                    "name": "pizza_ordering.size.pizza"
+                                },
+                                {
+                                    "name": "pizza_ordering.size.pizza"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "original system side information": {
+                    "speaker": "ASSISTANT",
+                    "segments": [
+                        {
+                            "start_index": 38,
+                            "end_index": 43,
+                            "text": "large",
+                            "annotations": [
+                                {
+                                    "name": "pizza_ordering.size.pizza.accept"
+                                },
+                                {
+                                    "name": "pizza_ordering.size.pizza.accept"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 44,
+                            "end_index": 57,
+                            "text": "sporkie pizza",
+                            "annotations": [
+                                {
+                                    "name": "pizza_ordering.name.pizza.accept"
+                                },
+                                {
+                                    "name": "pizza_ordering.name.pizza.accept"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 65,
+                            "end_index": 74,
+                            "text": "bertuccis",
+                            "annotations": [
+                                {
+                                    "name": "pizza_ordering.name.store.accept"
+                                },
+                                {
+                                    "name": "pizza_ordering.name.store.accept"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 78,
+                            "end_index": 92,
+                            "text": "chelmsford, ma",
+                            "annotations": [
+                                {
+                                    "name": "pizza_ordering.location.store.accept"
+                                },
+                                {
+                                    "name": "pizza_ordering.location.store.accept"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "dst": "pizza size large",
+                "dst accumulated": "pizza store_name Bertuccis, pizza store_location Chelmsford MA, pizza name sporkie pizza, pizza size large",
+                "external knowledge": "(( start_index : 38 | end_index : 43 | text : large | annotations : (( name : pizza_ordering.size.pizza.accept ) | ( name : pizza_ordering.size.pizza.accept ))) | ( start_index : 44 | end_index : 57 | text : sporkie pizza | annotations : (( name : pizza_ordering.name.pizza.accept ) | ( name : pizza_ordering.name.pizza.accept ))) | ( start_index : 65 | end_index : 74 | text : bertuccis | annotations : (( name : pizza_ordering.name.store.accept ) | ( name : pizza_ordering.name.store.accept ))) | ( start_index : 78 | end_index : 92 | text : chelmsford | ma | annotations : (( name : pizza_ordering.location.store.accept ) | ( name : pizza_ordering.location.store.accept ))))"
+            },
+            {
+                "turn id": 8,
+                "user utterance": "very good",
+                "system response": "would you like anything else? ",
+                "dialog history": "<USER> I want to order a pizza from Bertuccis in Chelmsford, MA <SYSTEM> what type of pizza would you like? <USER> a silano <SYSTEM> what size <USER> a large please <SYSTEM> understood. will do <USER> thanks <SYSTEM> unfortunately bertuccis has run out of broccoli and so are not offering the silano style pizza today <USER> I see <SYSTEM> would you like a different type of pizza? <USER> yes. i would like a sporkie pizza <SYSTEM> what size would you like? <USER> large <SYSTEM> ok. I have confirmed your order for a large sporkie pizza at the bertuccis in chelmsford, ma",
+                "original user side information": {
+                    "speaker": "USER"
+                },
+                "original system side information": {
+                    "speaker": "ASSISTANT",
+                    "segments": []
+                },
+                "dst": "",
+                "dst accumulated": "pizza store_name Bertuccis, pizza store_location Chelmsford MA, pizza name sporkie pizza, pizza size large",
+                "external knowledge": "()"
+            },
+            {
+                "turn id": 9,
+                "user utterance": "no thank you",
+                "system response": "you will be receiving a text message on your phone confirming the details of your order including the receipt and will be ready for pick up in 25 minutes",
+                "dialog history": "<USER> I want to order a pizza from Bertuccis in Chelmsford, MA <SYSTEM> what type of pizza would you like? <USER> a silano <SYSTEM> what size <USER> a large please <SYSTEM> understood. will do <USER> thanks <SYSTEM> unfortunately bertuccis has run out of broccoli and so are not offering the silano style pizza today <USER> I see <SYSTEM> would you like a different type of pizza? <USER> yes. i would like a sporkie pizza <SYSTEM> what size would you like? <USER> large <SYSTEM> ok. I have confirmed your order for a large sporkie pizza at the bertuccis in chelmsford, ma <USER> very good <SYSTEM> would you like anything else?",
+                "original user side information": {
+                    "speaker": "USER"
+                },
+                "original system side information": {
+                    "speaker": "ASSISTANT",
+                    "segments": []
+                },
+                "dst": "",
+                "dst accumulated": "pizza store_name Bertuccis, pizza store_location Chelmsford MA, pizza name sporkie pizza, pizza size large",
+                "external knowledge": "()"
+            },
+            {
+                "turn id": 10,
+                "user utterance": "great. thank you so much",
+                "system response": "you're welcome. glad i could be of assistance",
+                "dialog history": "<USER> I want to order a pizza from Bertuccis in Chelmsford, MA <SYSTEM> what type of pizza would you like? <USER> a silano <SYSTEM> what size <USER> a large please <SYSTEM> understood. will do <USER> thanks <SYSTEM> unfortunately bertuccis has run out of broccoli and so are not offering the silano style pizza today <USER> I see <SYSTEM> would you like a different type of pizza? <USER> yes. i would like a sporkie pizza <SYSTEM> what size would you like? <USER> large <SYSTEM> ok. I have confirmed your order for a large sporkie pizza at the bertuccis in chelmsford, ma <USER> very good <SYSTEM> would you like anything else? <USER> no thank you <SYSTEM> you will be receiving a text message on your phone confirming the details of your order including the receipt and will be ready for pick up in 25 minutes",
+                "original user side information": {
+                    "speaker": "USER"
+                },
+                "original system side information": {
+                    "speaker": "ASSISTANT",
+                    "segments": []
+                },
+                "dst": "",
+                "dst accumulated": "pizza store_name Bertuccis, pizza store_location Chelmsford MA, pizza name sporkie pizza, pizza size large",
+                "external knowledge": "()"
+            }
+        ],
+        "dst knowledge": "( pizza : ( store_name : ( prince Street Pizza | I love Ny pizza | Napolis | The Parlor Pizzeria | Joeys ) | store_location : ( Wall Street in Downtown. | Kentucky | Washington | D.C. | Snoqualmie | 7500 E. Speedway ) | name : ( traditional style GF pizza | Spinach Alfredo | 2 cheese | extra cheese | meatball pizza | \"meat pizza ) | size : ( family pie has 12 slices. | XL supreme | 16 x 16 | 1 large | Extra Large ) | topping_type : ( apple | talian beef | Oven roasted sweet peppers | Whole milk Mozzrella cheese | Ground beef ) | crust_type : ( itsalian | special crust | large | thin | deep dish | ) | pizza_ordering : ( place my order | pizza will be ready | order | placing the order | order a pizza f ) | accept_preference : ( Cheddar | light sauc | extra tomatoes sauce | Parmesan romano | Hearty Marinara Sauce ) | accept_pizza_order : ( Ok | your order is being placed. | pizza will be ready in about 25 minutes | \"I ve placed the order.\" | \"Okay | it s going to be $23.98 and it will\" | Ok | order completed. ) | preference : ( Regular | light sauce. | Tomato Sauce | BBQ marinara | Extra Pepperoni ) | reject_preference : ( olives | cannot do substitutions | not the one with bacon | alfredo sauce | Scottish cheese ) | milk_type : ( 1/2 | 1/2 and 1/2 | lowfat | soy milk | fat free ) | drink_num : ( two | plain ) | drink_size : ( tall | small | grande | Grande | Tall ) | drink_name : ( flavored latte | latte | \"Pike s Place\" | Grande Mocha | chai latte | Mocha ) | reject_pizza_order : ( Your order can not be confirmed ) | appt_reason : ( enhance the air conditioning ) | appt_date : ( Monday | Tuesday ) | appt_time : ( early in the morning | morning )))",
+        "intent knowledge": "()",
+        "prompt": [
+            "This is a bot helping users to order a pizza. Given the dialog context and external database, please generate a relevant system response for the user.",
+            "This bot assists users to order a pizza. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
+            "This bot helps users to order a pizza. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
+            "The purpose of this bot is to assist users to order a pizza. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
+            "This bot is designed to help users order a pizza. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+        ]
+    },
+    "Taskmaster1--train--5": {
+        "original dialog id": "dlg-001d8bb1-6f25-4ecd-986a-b7eeb5fa4e19",
+        "dialog index": 5,
+        "original dialog info": {
+            "instruction_id": "pizza-ordering-2",
+            "slots and values": {
+                "pizza": {
+                    "store_name": [
+                        "prince Street Pizza",
+                        "I love Ny pizza",
+                        "Napolis",
+                        "The Parlor Pizzeria",
+                        "Joeys"
+                    ],
+                    "store_location": [
+                        "Wall Street in Downtown.",
+                        "Kentucky",
+                        "Washington, D.C.",
+                        "Snoqualmie",
+                        "7500 E. Speedway"
+                    ],
+                    "name": [
+                        "traditional style GF pizza",
+                        "Spinach Alfredo",
+                        "2 cheese",
+                        "extra cheese , meatball pizza",
+                        "\"meat pizza"
+                    ],
+                    "size": [
+                        "family pie has 12 slices.",
+                        "XL supreme",
+                        "16 x 16",
+                        "1 large",
+                        "Extra Large"
+                    ],
+                    "topping_type": [
+                        "apple",
+                        "talian beef",
+                        "Oven roasted sweet peppers",
+                        "Whole milk Mozzrella cheese",
+                        "Ground beef"
+                    ],
+                    "crust_type": [
+                        "itsalian",
+                        "special crust",
+                        "large",
+                        "thin",
+                        "deep dish,"
+                    ],
+                    "pizza_ordering": [
+                        "place my order",
+                        "pizza will be ready",
+                        "order",
+                        "placing the order",
+                        "order a pizza f"
+                    ],
+                    "accept_preference": [
+                        "Cheddar",
+                        "light sauc",
+                        "extra tomatoes sauce",
+                        "Parmesan romano",
+                        "Hearty Marinara Sauce"
+                    ],
+                    "accept_pizza_order": [
+                        "Ok, your order is being placed.",
+                        "pizza will be ready in about 25 minutes",
+                        "I've placed the order.",
+                        "Okay, it's going to be $23.98 and it will",
+                        "Ok, order completed."
+                    ],
+                    "preference": [
+                        "Regular",
+                        "light sauce.",
+                        "Tomato Sauce",
+                        "BBQ marinara",
+                        "Extra Pepperoni"
+                    ],
+                    "reject_preference": [
+                        "olives",
+                        "cannot do substitutions",
+                        "not the one with bacon",
+                        "alfredo sauce",
+                        "Scottish cheese"
+                    ],
+                    "milk_type": [
+                        "1/2",
+                        "1/2 and 1/2",
+                        "lowfat",
+                        "soy milk",
+                        "fat free"
+                    ],
+                    "drink_num": [
+                        "two",
+                        "plain"
+                    ],
+                    "drink_size": [
+                        "tall",
+                        "small",
+                        "grande",
+                        "Grande",
+                        "Tall"
+                    ],
+                    "drink_name": [
+                        "flavored latte",
+                        "latte",
+                        "Pike's Place",
+                        "Grande Mocha",
+                        "chai latte",
+                        "Mocha"
+                    ],
+                    "reject_pizza_order": [
+                        "Your order can not be confirmed"
+                    ],
+                    "appt_reason": [
+                        "enhance the air conditioning"
+                    ],
+                    "appt_date": [
+                        "Monday",
+                        "Tuesday"
+                    ],
+                    "appt_time": [
+                        "early in the morning",
+                        "morning"
+                    ]
+                }
+            },
+            "intents": {}
+        },
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "Hi I'd like to order two large pizzas.",
+                "system response": "Sure, what kind of pizzas to you have in mind?",
+                "dialog history": "",
+                "original user side information": {
+                    "speaker": [
+                        {
+                            "start_index": 25,
+                            "end_index": 30,
+                            "text": "large",
+                            "annotations": [
+                                {
+                                    "name": "pizza_ordering.size.pizza"
+                                },
+                                {
+                                    "name": "pizza_ordering.size.pizza"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "original system side information": {
+                    "speaker": "ASSISTANT",
+                    "segments": []
+                },
+                "dst": "pizza size large",
+                "dst accumulated": "pizza size large",
+                "external knowledge": "()"
+            },
+            {
+                "turn id": 2,
+                "user utterance": "I'll have a Hawaiian please.",
+                "system response": "sure, is there anything else I can get for you?",
+                "dialog history": "<USER> Hi I'd like to order two large pizzas. <SYSTEM> Sure, what kind of pizzas to you have in mind?",
+                "original user side information": {
+                    "speaker": [
+                        {
+                            "start_index": 12,
+                            "end_index": 20,
+                            "text": "Hawaiian",
+                            "annotations": [
+                                {
+                                    "name": "pizza_ordering.name.pizza"
+                                },
+                                {
+                                    "name": "pizza_ordering.name.pizza"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "original system side information": {
+                    "speaker": "ASSISTANT",
+                    "segments": []
+                },
+                "dst": "pizza name Hawaiian",
+                "dst accumulated": "pizza size large, pizza name Hawaiian",
+                "external knowledge": "()"
+            },
+            {
+                "turn id": 3,
+                "user utterance": "Yes, I'd like a large meat lover pizza please.",
+                "system response": "I am sorry, we're currently out of the meat lover pizza. Is there anything else you'd like instead?",
+                "dialog history": "<USER> Hi I'd like to order two large pizzas. <SYSTEM> Sure, what kind of pizzas to you have in mind? <USER> I'll have a Hawaiian please. <SYSTEM> sure, is there anything else I can get for you?",
+                "original user side information": {
+                    "speaker": [
+                        {
+                            "start_index": 16,
+                            "end_index": 21,
+                            "text": "large",
+                            "annotations": [
+                                {
+                                    "name": "pizza_ordering.size.pizza"
+                                },
+                                {
+                                    "name": "pizza_ordering.size.pizza"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 22,
+                            "end_index": 38,
+                            "text": "meat lover pizza",
+                            "annotations": [
+                                {
+                                    "name": "pizza_ordering.name.pizza"
+                                },
+                                {
+                                    "name": "pizza_ordering.name.pizza"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "original system side information": {
+                    "speaker": "ASSISTANT",
+                    "segments": [
+                        {
+                            "start_index": 39,
+                            "end_index": 55,
+                            "text": "meat lover pizza",
+                            "annotations": [
+                                {
+                                    "name": "pizza_ordering.name.pizza.reject"
+                                },
+                                {
+                                    "name": "pizza_ordering.name.pizza.reject"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "dst": "pizza size large, pizza name meat lover pizza",
+                "dst accumulated": "pizza size large, pizza name meat lover pizza",
+                "external knowledge": "(( start_index : 39 | end_index : 55 | text : meat lover pizza | annotations : (( name : pizza_ordering.name.pizza.reject ) | ( name : pizza_ordering.name.pizza.reject ))))"
+            },
+            {
+                "turn id": 4,
+                "user utterance": "Sure. I'd like a buffalo chicken pizza please.",
+                "system response": "Sure thing. What size do you want your buffalo chicken pizza?",
+                "dialog history": "<USER> Hi I'd like to order two large pizzas. <SYSTEM> Sure, what kind of pizzas to you have in mind? <USER> I'll have a Hawaiian please. <SYSTEM> sure, is there anything else I can get for you? <USER> Yes, I'd like a large meat lover pizza please. <SYSTEM> I am sorry, we're currently out of the meat lover pizza. Is there anything else you'd like instead?",
+                "original user side information": {
+                    "speaker": [
+                        {
+                            "start_index": 17,
+                            "end_index": 38,
+                            "text": "buffalo chicken pizza",
+                            "annotations": [
+                                {
+                                    "name": "pizza_ordering.name.pizza"
+                                },
+                                {
+                                    "name": "pizza_ordering.name.pizza"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "original system side information": {
+                    "speaker": "ASSISTANT",
+                    "segments": [
+                        {
+                            "start_index": 39,
+                            "end_index": 60,
+                            "text": "buffalo chicken pizza",
+                            "annotations": [
+                                {
+                                    "name": "pizza_ordering.name.pizza"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "dst": "pizza name buffalo chicken pizza",
+                "dst accumulated": "pizza size large, pizza name buffalo chicken pizza",
+                "external knowledge": "(( start_index : 39 | end_index : 60 | text : buffalo chicken pizza | annotations : (( name : pizza_ordering.name.pizza ))))"
+            },
+            {
+                "turn id": 5,
+                "user utterance": "Large please.",
+                "system response": "What kind of crust do you want for your Hawaiian pizza?",
+                "dialog history": "<USER> Hi I'd like to order two large pizzas. <SYSTEM> Sure, what kind of pizzas to you have in mind? <USER> I'll have a Hawaiian please. <SYSTEM> sure, is there anything else I can get for you? <USER> Yes, I'd like a large meat lover pizza please. <SYSTEM> I am sorry, we're currently out of the meat lover pizza. Is there anything else you'd like instead? <USER> Sure. I'd like a buffalo chicken pizza please. <SYSTEM> Sure thing. What size do you want your buffalo chicken pizza?",
+                "original user side information": {
+                    "speaker": [
+                        {
+                            "start_index": 0,
+                            "end_index": 5,
+                            "text": "Large",
+                            "annotations": [
+                                {
+                                    "name": "pizza_ordering.size.pizza"
+                                },
+                                {
+                                    "name": "pizza_ordering.size.pizza"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "original system side information": {
+                    "speaker": "ASSISTANT",
+                    "segments": [
+                        {
+                            "start_index": 40,
+                            "end_index": 48,
+                            "text": "Hawaiian",
+                            "annotations": [
+                                {
+                                    "name": "pizza_ordering.name.pizza"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 40,
+                            "end_index": 54,
+                            "text": "Hawaiian pizza",
+                            "annotations": [
+                                {
+                                    "name": "pizza_ordering.name.pizza"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "dst": "pizza size Large",
+                "dst accumulated": "pizza size Large, pizza name buffalo chicken pizza",
+                "external knowledge": "(( start_index : 40 | end_index : 48 | text : Hawaiian | annotations : (( name : pizza_ordering.name.pizza ))) | ( start_index : 40 | end_index : 54 | text : Hawaiian pizza | annotations : (( name : pizza_ordering.name.pizza ))))"
+            },
+            {
+                "turn id": 6,
+                "user utterance": "Hand tossed please.",
+                "system response": "What kind of crust do you want for you buffalo chicken pizza?",
+                "dialog history": "<USER> Hi I'd like to order two large pizzas. <SYSTEM> Sure, what kind of pizzas to you have in mind? <USER> I'll have a Hawaiian please. <SYSTEM> sure, is there anything else I can get for you? <USER> Yes, I'd like a large meat lover pizza please. <SYSTEM> I am sorry, we're currently out of the meat lover pizza. Is there anything else you'd like instead? <USER> Sure. I'd like a buffalo chicken pizza please. <SYSTEM> Sure thing. What size do you want your buffalo chicken pizza? <USER> Large please. <SYSTEM> What kind of crust do you want for your Hawaiian pizza?",
+                "original user side information": {
+                    "speaker": [
+                        {
+                            "start_index": 0,
+                            "end_index": 11,
+                            "text": "Hand tossed",
+                            "annotations": [
+                                {
+                                    "name": "pizza_ordering.type.crust"
+                                },
+                                {
+                                    "name": "pizza_ordering.type.crust"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "original system side information": {
+                    "speaker": "ASSISTANT",
+                    "segments": [
+                        {
+                            "start_index": 39,
+                            "end_index": 60,
+                            "text": "buffalo chicken pizza",
+                            "annotations": [
+                                {
+                                    "name": "pizza_ordering.name.pizza"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "dst": "pizza crust_type Hand tossed",
+                "dst accumulated": "pizza size Large, pizza name buffalo chicken pizza, pizza crust_type Hand tossed",
+                "external knowledge": "(( start_index : 39 | end_index : 60 | text : buffalo chicken pizza | annotations : (( name : pizza_ordering.name.pizza ))))"
+            },
+            {
+                "turn id": 7,
+                "user utterance": "Also hand tossed please.",
+                "system response": "thank you very much. Is there anything else I can get for you?",
+                "dialog history": "<USER> Hi I'd like to order two large pizzas. <SYSTEM> Sure, what kind of pizzas to you have in mind? <USER> I'll have a Hawaiian please. <SYSTEM> sure, is there anything else I can get for you? <USER> Yes, I'd like a large meat lover pizza please. <SYSTEM> I am sorry, we're currently out of the meat lover pizza. Is there anything else you'd like instead? <USER> Sure. I'd like a buffalo chicken pizza please. <SYSTEM> Sure thing. What size do you want your buffalo chicken pizza? <USER> Large please. <SYSTEM> What kind of crust do you want for your Hawaiian pizza? <USER> Hand tossed please. <SYSTEM> What kind of crust do you want for you buffalo chicken pizza?",
+                "original user side information": {
+                    "speaker": [
+                        {
+                            "start_index": 5,
+                            "end_index": 16,
+                            "text": "hand tossed",
+                            "annotations": [
+                                {
+                                    "name": "pizza_ordering.type.crust"
+                                },
+                                {
+                                    "name": "pizza_ordering.type.crust"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "original system side information": {
+                    "speaker": "ASSISTANT",
+                    "segments": []
+                },
+                "dst": "pizza crust_type hand tossed",
+                "dst accumulated": "pizza size Large, pizza name buffalo chicken pizza, pizza crust_type hand tossed",
+                "external knowledge": "()"
+            },
+            {
+                "turn id": 8,
+                "user utterance": "No, that's it for today. Thank you",
+                "system response": "My pleasure. So we have a large, hand tossed crust buffalo chicken pizza and a large hand tossed crust Hawaiian pizza. Is that correct?",
+                "dialog history": "<USER> Hi I'd like to order two large pizzas. <SYSTEM> Sure, what kind of pizzas to you have in mind? <USER> I'll have a Hawaiian please. <SYSTEM> sure, is there anything else I can get for you? <USER> Yes, I'd like a large meat lover pizza please. <SYSTEM> I am sorry, we're currently out of the meat lover pizza. Is there anything else you'd like instead? <USER> Sure. I'd like a buffalo chicken pizza please. <SYSTEM> Sure thing. What size do you want your buffalo chicken pizza? <USER> Large please. <SYSTEM> What kind of crust do you want for your Hawaiian pizza? <USER> Hand tossed please. <SYSTEM> What kind of crust do you want for you buffalo chicken pizza? <USER> Also hand tossed please. <SYSTEM> thank you very much. Is there anything else I can get for you?",
+                "original user side information": {
+                    "speaker": "USER"
+                },
+                "original system side information": {
+                    "speaker": "ASSISTANT",
+                    "segments": [
+                        {
+                            "start_index": 26,
+                            "end_index": 31,
+                            "text": "large",
+                            "annotations": [
+                                {
+                                    "name": "pizza_ordering.size.pizza.accept"
+                                },
+                                {
+                                    "name": "pizza_ordering.size.pizza"
+                                },
+                                {
+                                    "name": "pizza_ordering.size.pizza"
+                                },
+                                {
+                                    "name": "pizza_ordering.size.pizza"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 33,
+                            "end_index": 44,
+                            "text": "hand tossed",
+                            "annotations": [
+                                {
+                                    "name": "pizza_ordering.type.crust"
+                                },
+                                {
+                                    "name": "pizza_ordering.type.crust"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 33,
+                            "end_index": 50,
+                            "text": "hand tossed crust",
+                            "annotations": [
+                                {
+                                    "name": "pizza_ordering.type.crust.accept"
+                                },
+                                {
+                                    "name": "pizza_ordering.type.crust"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 51,
+                            "end_index": 72,
+                            "text": "buffalo chicken pizza",
+                            "annotations": [
+                                {
+                                    "name": "pizza_ordering.name.pizza.accept"
+                                },
+                                {
+                                    "name": "pizza_ordering.name.pizza"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 103,
+                            "end_index": 117,
+                            "text": "Hawaiian pizza",
+                            "annotations": [
+                                {
+                                    "name": "pizza_ordering.name.pizza.accept"
+                                },
+                                {
+                                    "name": "pizza_ordering.name.pizza"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "dst": "",
+                "dst accumulated": "pizza size Large, pizza name buffalo chicken pizza, pizza crust_type hand tossed",
+                "external knowledge": "(( start_index : 26 | end_index : 31 | text : large | annotations : (( name : pizza_ordering.size.pizza.accept ) | ( name : pizza_ordering.size.pizza ) | ( name : pizza_ordering.size.pizza ) | ( name : pizza_ordering.size.pizza ))) | ( start_index : 33 | end_index : 44 | text : hand tossed | annotations : (( name : pizza_ordering.type.crust ) | ( name : pizza_ordering.type.crust ))) | ( start_index : 33 | end_index : 50 | text : hand tossed crust | annotations : (( name : pizza_ordering.type.crust.accept ) | ( name : pizza_ordering.type.crust ))) | ( start_index : 51 | end_index : 72 | text : buffalo chicken pizza | annotations : (( name : pizza_ordering.name.pizza.accept ) | ( name : pizza_ordering.name.pizza ))) | ( start_index : 103 | end_index : 117 | text : Hawaiian pizza | annotations : (( name : pizza_ordering.name.pizza.accept ) | ( name : pizza_ordering.name.pizza ))))"
+            },
+            {
+                "turn id": 9,
+                "user utterance": "Perfect",
+                "system response": "So your total today will be $25 ",
+                "dialog history": "<USER> Hi I'd like to order two large pizzas. <SYSTEM> Sure, what kind of pizzas to you have in mind? <USER> I'll have a Hawaiian please. <SYSTEM> sure, is there anything else I can get for you? <USER> Yes, I'd like a large meat lover pizza please. <SYSTEM> I am sorry, we're currently out of the meat lover pizza. Is there anything else you'd like instead? <USER> Sure. I'd like a buffalo chicken pizza please. <SYSTEM> Sure thing. What size do you want your buffalo chicken pizza? <USER> Large please. <SYSTEM> What kind of crust do you want for your Hawaiian pizza? <USER> Hand tossed please. <SYSTEM> What kind of crust do you want for you buffalo chicken pizza? <USER> Also hand tossed please. <SYSTEM> thank you very much. Is there anything else I can get for you? <USER> No, that's it for today. Thank you <SYSTEM> My pleasure. So we have a large, hand tossed crust buffalo chicken pizza and a large hand tossed crust Hawaiian pizza. Is that correct?",
+                "original user side information": {
+                    "speaker": "USER"
+                },
+                "original system side information": {
+                    "speaker": "ASSISTANT",
+                    "segments": []
+                },
+                "dst": "",
+                "dst accumulated": "pizza size Large, pizza name buffalo chicken pizza, pizza crust_type hand tossed",
+                "external knowledge": "()"
+            },
+            {
+                "turn id": 10,
+                "user utterance": "Sounds good",
+                "system response": "Awesome. Can I have a name for the order please?",
+                "dialog history": "<USER> Hi I'd like to order two large pizzas. <SYSTEM> Sure, what kind of pizzas to you have in mind? <USER> I'll have a Hawaiian please. <SYSTEM> sure, is there anything else I can get for you? <USER> Yes, I'd like a large meat lover pizza please. <SYSTEM> I am sorry, we're currently out of the meat lover pizza. Is there anything else you'd like instead? <USER> Sure. I'd like a buffalo chicken pizza please. <SYSTEM> Sure thing. What size do you want your buffalo chicken pizza? <USER> Large please. <SYSTEM> What kind of crust do you want for your Hawaiian pizza? <USER> Hand tossed please. <SYSTEM> What kind of crust do you want for you buffalo chicken pizza? <USER> Also hand tossed please. <SYSTEM> thank you very much. Is there anything else I can get for you? <USER> No, that's it for today. Thank you <SYSTEM> My pleasure. So we have a large, hand tossed crust buffalo chicken pizza and a large hand tossed crust Hawaiian pizza. Is that correct? <USER> Perfect <SYSTEM> So your total today will be $25",
+                "original user side information": {
+                    "speaker": "USER"
+                },
+                "original system side information": {
+                    "speaker": "ASSISTANT",
+                    "segments": []
+                },
+                "dst": "",
+                "dst accumulated": "pizza size Large, pizza name buffalo chicken pizza, pizza crust_type hand tossed",
+                "external knowledge": "()"
+            },
+            {
+                "turn id": 11,
+                "user utterance": "It's John Doe",
+                "system response": "Can I also have a phone number for order update?",
+                "dialog history": "<USER> Hi I'd like to order two large pizzas. <SYSTEM> Sure, what kind of pizzas to you have in mind? <USER> I'll have a Hawaiian please. <SYSTEM> sure, is there anything else I can get for you? <USER> Yes, I'd like a large meat lover pizza please. <SYSTEM> I am sorry, we're currently out of the meat lover pizza. Is there anything else you'd like instead? <USER> Sure. I'd like a buffalo chicken pizza please. <SYSTEM> Sure thing. What size do you want your buffalo chicken pizza? <USER> Large please. <SYSTEM> What kind of crust do you want for your Hawaiian pizza? <USER> Hand tossed please. <SYSTEM> What kind of crust do you want for you buffalo chicken pizza? <USER> Also hand tossed please. <SYSTEM> thank you very much. Is there anything else I can get for you? <USER> No, that's it for today. Thank you <SYSTEM> My pleasure. So we have a large, hand tossed crust buffalo chicken pizza and a large hand tossed crust Hawaiian pizza. Is that correct? <USER> Perfect <SYSTEM> So your total today will be $25 <USER> Sounds good <SYSTEM> Awesome. Can I have a name for the order please?",
+                "original user side information": {
+                    "speaker": "USER"
+                },
+                "original system side information": {
+                    "speaker": "ASSISTANT",
+                    "segments": []
+                },
+                "dst": "",
+                "dst accumulated": "pizza size Large, pizza name buffalo chicken pizza, pizza crust_type hand tossed",
+                "external knowledge": "()"
+            },
+            {
+                "turn id": 12,
+                "user utterance": "sure it123456789",
+                "system response": "ok, thank you very much. Your order will be ready to pick up in 25 minutes",
+                "dialog history": "<USER> Hi I'd like to order two large pizzas. <SYSTEM> Sure, what kind of pizzas to you have in mind? <USER> I'll have a Hawaiian please. <SYSTEM> sure, is there anything else I can get for you? <USER> Yes, I'd like a large meat lover pizza please. <SYSTEM> I am sorry, we're currently out of the meat lover pizza. Is there anything else you'd like instead? <USER> Sure. I'd like a buffalo chicken pizza please. <SYSTEM> Sure thing. What size do you want your buffalo chicken pizza? <USER> Large please. <SYSTEM> What kind of crust do you want for your Hawaiian pizza? <USER> Hand tossed please. <SYSTEM> What kind of crust do you want for you buffalo chicken pizza? <USER> Also hand tossed please. <SYSTEM> thank you very much. Is there anything else I can get for you? <USER> No, that's it for today. Thank you <SYSTEM> My pleasure. So we have a large, hand tossed crust buffalo chicken pizza and a large hand tossed crust Hawaiian pizza. Is that correct? <USER> Perfect <SYSTEM> So your total today will be $25 <USER> Sounds good <SYSTEM> Awesome. Can I have a name for the order please? <USER> It's John Doe <SYSTEM> Can I also have a phone number for order update?",
+                "original user side information": {
+                    "speaker": "USER"
+                },
+                "original system side information": {
+                    "speaker": "ASSISTANT",
+                    "segments": []
+                },
+                "dst": "",
+                "dst accumulated": "pizza size Large, pizza name buffalo chicken pizza, pizza crust_type hand tossed",
+                "external knowledge": "()"
+            },
+            {
+                "turn id": 13,
+                "user utterance": "sounds good. Thank you",
+                "system response": "My pleasure ",
+                "dialog history": "<USER> Hi I'd like to order two large pizzas. <SYSTEM> Sure, what kind of pizzas to you have in mind? <USER> I'll have a Hawaiian please. <SYSTEM> sure, is there anything else I can get for you? <USER> Yes, I'd like a large meat lover pizza please. <SYSTEM> I am sorry, we're currently out of the meat lover pizza. Is there anything else you'd like instead? <USER> Sure. I'd like a buffalo chicken pizza please. <SYSTEM> Sure thing. What size do you want your buffalo chicken pizza? <USER> Large please. <SYSTEM> What kind of crust do you want for your Hawaiian pizza? <USER> Hand tossed please. <SYSTEM> What kind of crust do you want for you buffalo chicken pizza? <USER> Also hand tossed please. <SYSTEM> thank you very much. Is there anything else I can get for you? <USER> No, that's it for today. Thank you <SYSTEM> My pleasure. So we have a large, hand tossed crust buffalo chicken pizza and a large hand tossed crust Hawaiian pizza. Is that correct? <USER> Perfect <SYSTEM> So your total today will be $25 <USER> Sounds good <SYSTEM> Awesome. Can I have a name for the order please? <USER> It's John Doe <SYSTEM> Can I also have a phone number for order update? <USER> sure it123456789 <SYSTEM> ok, thank you very much. Your order will be ready to pick up in 25 minutes",
+                "original user side information": {
+                    "speaker": "USER"
+                },
+                "original system side information": {
+                    "speaker": "ASSISTANT",
+                    "segments": []
+                },
+                "dst": "",
+                "dst accumulated": "pizza size Large, pizza name buffalo chicken pizza, pizza crust_type hand tossed",
+                "external knowledge": "()"
+            }
+        ],
+        "dst knowledge": "( pizza : ( store_name : ( prince Street Pizza | I love Ny pizza | Napolis | The Parlor Pizzeria | Joeys ) | store_location : ( Wall Street in Downtown. | Kentucky | Washington | D.C. | Snoqualmie | 7500 E. Speedway ) | name : ( traditional style GF pizza | Spinach Alfredo | 2 cheese | extra cheese | meatball pizza | \"meat pizza ) | size : ( family pie has 12 slices. | XL supreme | 16 x 16 | 1 large | Extra Large ) | topping_type : ( apple | talian beef | Oven roasted sweet peppers | Whole milk Mozzrella cheese | Ground beef ) | crust_type : ( itsalian | special crust | large | thin | deep dish | ) | pizza_ordering : ( place my order | pizza will be ready | order | placing the order | order a pizza f ) | accept_preference : ( Cheddar | light sauc | extra tomatoes sauce | Parmesan romano | Hearty Marinara Sauce ) | accept_pizza_order : ( Ok | your order is being placed. | pizza will be ready in about 25 minutes | \"I ve placed the order.\" | \"Okay | it s going to be $23.98 and it will\" | Ok | order completed. ) | preference : ( Regular | light sauce. | Tomato Sauce | BBQ marinara | Extra Pepperoni ) | reject_preference : ( olives | cannot do substitutions | not the one with bacon | alfredo sauce | Scottish cheese ) | milk_type : ( 1/2 | 1/2 and 1/2 | lowfat | soy milk | fat free ) | drink_num : ( two | plain ) | drink_size : ( tall | small | grande | Grande | Tall ) | drink_name : ( flavored latte | latte | \"Pike s Place\" | Grande Mocha | chai latte | Mocha ) | reject_pizza_order : ( Your order can not be confirmed ) | appt_reason : ( enhance the air conditioning ) | appt_date : ( Monday | Tuesday ) | appt_time : ( early in the morning | morning )))",
+        "intent knowledge": "()",
+        "prompt": [
+            "This is a bot helping users to order a pizza. Given the dialog context and external database, please generate a relevant system response for the user.",
+            "This bot assists users to order a pizza. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
+            "This bot helps users to order a pizza. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
+            "The purpose of this bot is to assist users to order a pizza. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
+            "This bot is designed to help users order a pizza. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+        ]
+    }
+}

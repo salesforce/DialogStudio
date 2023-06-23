@@ -1,0 +1,1951 @@
+[
+    {
+        "AnonymizedUserWorkerID": "714682ad-f218-f762-7605-00e7c4baee47",
+        "AnonymizedWizardWorkerID": "ab9f01dc-2cad-988e-9e96-f7509ea2a536",
+        "BatchID": "woz_1589355382",
+        "CompletionLevel": "Complete",
+        "DialogueID": 1,
+        "Events": [
+            {
+                "Action": "instruct",
+                "Agent": "UserGuide",
+                "Text": "In this dialogue, either act confused, like a person with memory problems, or act concerned about the effects of the medicine.  [instruction 1 of 3]",
+                "UnixTime": 1589375664
+            },
+            {
+                "Action": "utter",
+                "Agent": "User",
+                "Text": "Hello, I'm really worried. I forgot what I'm supposed to do and forgot to write it down... What do I do?",
+                "UnixTime": 1589375697
+            },
+            {
+                "Action": "instruct",
+                "Agent": "UserGuide",
+                "Text": "Oh, Dr. Morgan was actually your previous doctor. Your new doctor is Dr. Johnson now. That's the one you had the appointment with. [instruction 2 of 3]",
+                "UnixTime": 1589375697
+            },
+            {
+                "Action": "request_suggestions",
+                "Agent": "Wizard",
+                "Text": "What is your name? ",
+                "UnixTime": 1589375711
+            },
+            {
+                "Action": "pick_suggestion",
+                "ActionLabel": "ask_name",
+                "ActionLabelOptions": [
+                    "ask_name",
+                    "goodbye_1"
+                ],
+                "Agent": "Wizard",
+                "Text": "Could I get your name, please?",
+                "UnixTime": 1589375714
+            },
+            {
+                "Action": "utter",
+                "Agent": "User",
+                "Text": "My name is Alexis and my last doctor was Dr. Morgan, but now my doctor is Dr. Johnson and I forgot how to take my medicine.",
+                "UnixTime": 1589375736
+            },
+            {
+                "Action": "instruct",
+                "Agent": "UserGuide",
+                "Text": "Say something random about your doctors, your condition, or about something (imagined) that happened to you today. Then bring the conversation to a natural close. [instruction 3 of 3]",
+                "UnixTime": 1589375736
+            },
+            {
+                "APIName": "doctor_followup",
+                "Action": "query",
+                "Agent": "Wizard",
+                "Constraints": [
+                    {
+                        "Name": "api.is_equal_to(\"Dr. Johnson\")"
+                    },
+                    {
+                        "PatientName": "\"Alexis\""
+                    }
+                ],
+                "UnixTime": 1589375755
+            },
+            {
+                "APIName": "doctor_followup",
+                "Action": "return_item",
+                "Agent": "KnowledgeBase",
+                "Item": {
+                    "APIName": "doctor_followup",
+                    "Message": "Take your medicine before you go to sleep. If you experience nausea, please contact your doctor immediately."
+                },
+                "TotalItems": -1
+            },
+            {
+                "Action": "request_suggestions",
+                "Agent": "Wizard",
+                "PrimaryItem": {
+                    "APIName": "doctor_followup",
+                    "Message": "Take your medicine before you go to sleep. If you experience nausea, please contact your doctor immediately."
+                },
+                "Text": "Dr. Johnson says \tTake your medicine before you go to sleep. If you experience nausea, please contact your doctor immediately.",
+                "UnixTime": 1589375789
+            },
+            {
+                "Action": "request_suggestions",
+                "Agent": "Wizard",
+                "PrimaryItem": {
+                    "APIName": "doctor_followup",
+                    "Message": "Take your medicine before you go to sleep. If you experience nausea, please contact your doctor immediately."
+                },
+                "Text": "Dr. Johnson says to take medicine before sleep. If nausea happens, call him immediately.",
+                "UnixTime": 1589375817
+            },
+            {
+                "Action": "pick_suggestion",
+                "ActionLabel": "doctor_inform_doctors_instructions",
+                "ActionLabelOptions": [
+                    "doctor_inform_doctors_instructions",
+                    "doctor_inform_nothing_found"
+                ],
+                "Agent": "Wizard",
+                "PrimaryItem": {
+                    "APIName": "doctor_followup",
+                    "Message": "Take your medicine before you go to sleep. If you experience nausea, please contact your doctor immediately."
+                },
+                "Text": "Your instructions are: Take your medicine before you go to sleep. If you experience nausea, please contact your doctor immediately..",
+                "UnixTime": 1589375820
+            },
+            {
+                "Action": "utter",
+                "Agent": "User",
+                "Text": "Are you sure I'm supposed to take it before bed? I don't go to sleep every day because my sleep schedule is totally off right now because of the Coronavirus.",
+                "UnixTime": 1589375861
+            },
+            {
+                "Action": "request_suggestions",
+                "Agent": "Wizard",
+                "PrimaryItem": {
+                    "APIName": "doctor_followup",
+                    "Message": "Take your medicine before you go to sleep. If you experience nausea, please contact your doctor immediately."
+                },
+                "Text": "Yes. It must be before bed or else it will not be as effective.",
+                "UnixTime": 1589375888
+            },
+            {
+                "Action": "utter",
+                "Agent": "Wizard",
+                "PrimaryItem": {
+                    "APIName": "doctor_followup",
+                    "Message": "Take your medicine before you go to sleep. If you experience nausea, please contact your doctor immediately."
+                },
+                "Text": "Yes. It must be before bed or it will not be effective.",
+                "UnixTime": 1589375904
+            },
+            {
+                "Action": "utter",
+                "Agent": "User",
+                "Text": "Okay thank you. I will get back in touch if this doesn't help.",
+                "UnixTime": 1589375949
+            },
+            {
+                "Action": "request_suggestions",
+                "Agent": "Wizard",
+                "PrimaryItem": {
+                    "APIName": "doctor_followup",
+                    "Message": "Take your medicine before you go to sleep. If you experience nausea, please contact your doctor immediately."
+                },
+                "Text": "Ok. Goodbye.",
+                "UnixTime": 1589375959
+            },
+            {
+                "Action": "pick_suggestion",
+                "ActionLabel": "goodbye_1",
+                "ActionLabelOptions": [
+                    "goodbye_1",
+                    "anything_else"
+                ],
+                "Agent": "Wizard",
+                "PrimaryItem": {
+                    "APIName": "doctor_followup",
+                    "Message": "Take your medicine before you go to sleep. If you experience nausea, please contact your doctor immediately."
+                },
+                "Text": "Thank you and goodbye.",
+                "UnixTime": 1589375962
+            },
+            {
+                "Action": "complete",
+                "Agent": "User",
+                "UnixTime": 1589375965
+            }
+        ],
+        "FORMAT-VERSION": 7,
+        "IntroducesConflicts": false,
+        "Scenario": {
+            "Domains": [
+                "doctor"
+            ],
+            "Happy": true,
+            "MultiTask": false,
+            "UserTask": "You (Alexis) had an appointment with Dr. Morgan the other day. Unfortunately, you forgot to write down the instructions the doctor gave you. Please followup and find out how often to take your medicine.",
+            "WizardCapabilities": [
+                {
+                    "Domain": "doctor",
+                    "SchemaImage": "doctor_followup.jpg",
+                    "Task": "doctor_followup"
+                }
+            ],
+            "WizardTask": "Inform the user of his/her doctor's orders."
+        },
+        "UserQuestionnaire": [
+            {
+                "Answer": true,
+                "Question": "Did the assistant stay calm and helpful throughout the dialogue?"
+            }
+        ],
+        "WizardQuestionnaire": [
+            {
+                "Answer": false,
+                "Question": "Did the user change his/her mind about what he/she wants at any time?"
+            },
+            {
+                "Answer": false,
+                "Question": "Did the user become aggressive or annoyed during the dialogue? (Note: some users may be instructed to be annoying.)"
+            },
+            {
+                "Answer": false,
+                "Question": "Where you unsure about what to do at any time? (Feel free to send us an email with details.)"
+            }
+        ],
+        "filename": "1"
+    },
+    {
+        "AnonymizedUserWorkerID": "1777b3e5-9e12-0a4d-288e-a8708b011a07",
+        "AnonymizedWizardWorkerID": "6b581a55-ef03-0a99-5e5f-039779629c87",
+        "BatchID": "woz_1589355382",
+        "CompletionLevel": "Complete",
+        "DialogueID": 2,
+        "Events": [
+            {
+                "Action": "utter",
+                "Agent": "User",
+                "Text": "I need to get into the combat deck",
+                "UnixTime": 1589375958
+            },
+            {
+                "Action": "request_suggestions",
+                "Agent": "Wizard",
+                "Text": "Hello. Great, I can help you with that. I just need your name, rank, code and code type to get started.",
+                "UnixTime": 1589375988
+            },
+            {
+                "Action": "pick_suggestion",
+                "ActionLabel": "spaceship_ask_rank",
+                "ActionLabelOptions": [
+                    "spaceship_ask_rank",
+                    "spaceship_ask_code_type"
+                ],
+                "Agent": "Wizard",
+                "Text": "Please provide your rank.",
+                "UnixTime": 1589375998
+            },
+            {
+                "Action": "utter",
+                "Agent": "User",
+                "Text": "I am the Chief Engineer",
+                "UnixTime": 1589376022
+            },
+            {
+                "Action": "request_suggestions",
+                "Agent": "Wizard",
+                "Text": "name",
+                "UnixTime": 1589376044
+            },
+            {
+                "Action": "pick_suggestion",
+                "ActionLabel": "ask_name",
+                "ActionLabelOptions": [
+                    "ask_name",
+                    "spaceship_inform_nothing_found"
+                ],
+                "Agent": "Wizard",
+                "Text": "Please provide your name.",
+                "UnixTime": 1589376047
+            },
+            {
+                "Action": "utter",
+                "Agent": "User",
+                "Text": "Han",
+                "UnixTime": 1589376055
+            },
+            {
+                "Action": "request_suggestions",
+                "Agent": "Wizard",
+                "Text": "code",
+                "UnixTime": 1589376064
+            },
+            {
+                "Action": "pick_suggestion",
+                "ActionLabel": "spaceship_ask_code",
+                "ActionLabelOptions": [
+                    "spaceship_ask_code",
+                    "hello"
+                ],
+                "Agent": "Wizard",
+                "Text": "Please enter the code.",
+                "UnixTime": 1589376067
+            },
+            {
+                "Action": "utter",
+                "Agent": "User",
+                "Text": "639431",
+                "UnixTime": 1589376079
+            },
+            {
+                "Action": "request_suggestions",
+                "Agent": "Wizard",
+                "Text": "code type",
+                "UnixTime": 1589376083
+            },
+            {
+                "Action": "pick_suggestion",
+                "ActionLabel": "spaceship_ask_code_type",
+                "ActionLabelOptions": [
+                    "spaceship_ask_code_type",
+                    "spaceship_inform_nothing_found"
+                ],
+                "Agent": "Wizard",
+                "Text": "Please specify the code type.",
+                "UnixTime": 1589376086
+            },
+            {
+                "Action": "utter",
+                "Agent": "User",
+                "Text": "Access code",
+                "UnixTime": 1589376099
+            },
+            {
+                "APIName": "spaceship_access_codes",
+                "Action": "query",
+                "Agent": "Wizard",
+                "Constraints": [
+                    {
+                        "UserName": "\"Han\""
+                    },
+                    {
+                        "UserRank": "\"Chief Engineer\""
+                    },
+                    {
+                        "Code": "639431"
+                    },
+                    {
+                        "CodeType": "\"Access Code\""
+                    },
+                    {
+                        "Code": "639431"
+                    }
+                ],
+                "UnixTime": 1589376142
+            },
+            {
+                "APIName": "spaceship_access_codes",
+                "Action": "return_item",
+                "Agent": "KnowledgeBase",
+                "Item": {
+                    "APIName": "spaceship_access_codes",
+                    "Message": "Sorry, you are not authorized to unlock the door. Please obtain a clearance code from the Captain."
+                },
+                "TotalItems": -1
+            },
+            {
+                "APIName": "spaceship_access_codes",
+                "Action": "query",
+                "Agent": "Wizard",
+                "Constraints": [
+                    {
+                        "UserName": "\"Han\""
+                    },
+                    {
+                        "UserRank": "\"Chief Engineer\""
+                    },
+                    {
+                        "Code": "639431"
+                    },
+                    {
+                        "CodeType": "\"Access Code\""
+                    }
+                ],
+                "PrimaryItem": {
+                    "APIName": "spaceship_access_codes",
+                    "Message": "Sorry, you are not authorized to unlock the door. Please obtain a clearance code from the Captain."
+                },
+                "UnixTime": 1589376208
+            },
+            {
+                "APIName": "spaceship_access_codes",
+                "Action": "return_item",
+                "Agent": "KnowledgeBase",
+                "Item": {
+                    "APIName": "spaceship_access_codes",
+                    "Message": "Sorry, you are not authorized to unlock the door. Please obtain a clearance code from the Captain."
+                },
+                "TotalItems": -1
+            },
+            {
+                "Action": "request_suggestions",
+                "Agent": "Wizard",
+                "PrimaryItem": {
+                    "APIName": "spaceship_access_codes",
+                    "Message": "Sorry, you are not authorized to unlock the door. Please obtain a clearance code from the Captain."
+                },
+                "Text": "Sorry, you are not authorized to unlock the door. Please obtain a clearance code from the Captain.",
+                "UnixTime": 1589376223
+            },
+            {
+                "Action": "pick_suggestion",
+                "ActionLabel": "spaceship_inform_outcome",
+                "ActionLabelOptions": [
+                    "spaceship_inform_outcome",
+                    "anything_else"
+                ],
+                "Agent": "Wizard",
+                "PrimaryItem": {
+                    "APIName": "spaceship_access_codes",
+                    "Message": "Sorry, you are not authorized to unlock the door. Please obtain a clearance code from the Captain."
+                },
+                "Text": "Sorry, you are not authorized to unlock the door. Please obtain a clearance code from the Captain.",
+                "UnixTime": 1589376226
+            },
+            {
+                "Action": "utter",
+                "Agent": "User",
+                "Text": "I don't have access to the Captain. This is an emergency. The ship is under attack.",
+                "UnixTime": 1589376266
+            },
+            {
+                "APIName": "spaceship_access_codes",
+                "Action": "query",
+                "Agent": "Wizard",
+                "Constraints": [
+                    {
+                        "UserName": "\"Han\""
+                    },
+                    {
+                        "UserRank": "\"Chief Engineer\""
+                    },
+                    {
+                        "Code": "639431"
+                    },
+                    {
+                        "CodeType": "\"Access Code\""
+                    }
+                ],
+                "PrimaryItem": {
+                    "APIName": "spaceship_access_codes",
+                    "Message": "Sorry, you are not authorized to unlock the door. Please obtain a clearance code from the Captain."
+                },
+                "UnixTime": 1589376285
+            },
+            {
+                "APIName": "spaceship_access_codes",
+                "Action": "return_item",
+                "Agent": "KnowledgeBase",
+                "Item": {
+                    "APIName": "spaceship_access_codes",
+                    "Message": "Sorry, you are not authorized to unlock the door. Please obtain a clearance code from the Captain."
+                },
+                "TotalItems": -1
+            },
+            {
+                "APIName": "spaceship_access_codes",
+                "Action": "query",
+                "Agent": "Wizard",
+                "Constraints": [
+                    {
+                        "UserName": "\"Han\""
+                    },
+                    {
+                        "UserRank": "\"Chief Engineer\""
+                    },
+                    {
+                        "Code": "639431"
+                    },
+                    {
+                        "CodeType": "\"Clearance\""
+                    }
+                ],
+                "PrimaryItem": {
+                    "APIName": "spaceship_access_codes",
+                    "Message": "Sorry, you are not authorized to unlock the door. Please obtain a clearance code from the Captain."
+                },
+                "UnixTime": 1589376293
+            },
+            {
+                "APIName": "spaceship_access_codes",
+                "Action": "return_item",
+                "Agent": "KnowledgeBase",
+                "Item": {
+                    "APIName": "spaceship_access_codes",
+                    "Message": "The door is now unlocked."
+                },
+                "TotalItems": -1
+            },
+            {
+                "Action": "request_suggestions",
+                "Agent": "Wizard",
+                "PrimaryItem": {
+                    "APIName": "spaceship_access_codes",
+                    "Message": "The door is now unlocked."
+                },
+                "Text": "The door is now unlocked. ",
+                "UnixTime": 1589376307
+            },
+            {
+                "Action": "pick_suggestion",
+                "ActionLabel": "spaceship_inform_outcome",
+                "ActionLabelOptions": [
+                    "spaceship_inform_outcome",
+                    "anything_else"
+                ],
+                "Agent": "Wizard",
+                "PrimaryItem": {
+                    "APIName": "spaceship_access_codes",
+                    "Message": "The door is now unlocked."
+                },
+                "Text": "The door is now unlocked.",
+                "UnixTime": 1589376309
+            },
+            {
+                "Action": "utter",
+                "Agent": "User",
+                "Text": "Thanks!",
+                "UnixTime": 1589376320
+            },
+            {
+                "Action": "request_suggestions",
+                "Agent": "Wizard",
+                "PrimaryItem": {
+                    "APIName": "spaceship_access_codes",
+                    "Message": "The door is now unlocked."
+                },
+                "Text": "is there anything else",
+                "UnixTime": 1589376328
+            },
+            {
+                "Action": "pick_suggestion",
+                "ActionLabel": "anything_else",
+                "ActionLabelOptions": [
+                    "anything_else",
+                    "spaceship_inform_nothing_found"
+                ],
+                "Agent": "Wizard",
+                "PrimaryItem": {
+                    "APIName": "spaceship_access_codes",
+                    "Message": "The door is now unlocked."
+                },
+                "Text": "Is there anything else that I can do for you?",
+                "UnixTime": 1589376330
+            },
+            {
+                "Action": "utter",
+                "Agent": "User",
+                "Text": "No thanks. Goodbye",
+                "UnixTime": 1589376341
+            },
+            {
+                "Action": "request_suggestions",
+                "Agent": "Wizard",
+                "PrimaryItem": {
+                    "APIName": "spaceship_access_codes",
+                    "Message": "The door is now unlocked."
+                },
+                "Text": "Bye!",
+                "UnixTime": 1589376345
+            },
+            {
+                "Action": "pick_suggestion",
+                "ActionLabel": "spaceship_bye",
+                "ActionLabelOptions": [
+                    "spaceship_bye",
+                    "ask_name"
+                ],
+                "Agent": "Wizard",
+                "PrimaryItem": {
+                    "APIName": "spaceship_access_codes",
+                    "Message": "The door is now unlocked."
+                },
+                "Text": "Goodbye.",
+                "UnixTime": 1589376348
+            },
+            {
+                "Action": "complete",
+                "Agent": "User",
+                "UnixTime": 1589376354
+            }
+        ],
+        "FORMAT-VERSION": 7,
+        "IntroducesConflicts": false,
+        "Scenario": {
+            "Domains": [
+                "spaceship"
+            ],
+            "Happy": true,
+            "MultiTask": false,
+            "UserTask": "Your spaceship is under attack! You must enter the combat deck to mount a counterattack. Unfortunately, you are locked out. Please work with the spaceship's onboard computer to unlock the door. You (Han) are the ship's Chief Engineer. You have been a given a Access Code: 639431.",
+            "WizardCapabilities": [
+                {
+                    "Domain": "spaceship",
+                    "SchemaImage": "spaceship_access_codes.jpg",
+                    "Task": "spaceship_access_codes"
+                }
+            ],
+            "WizardTask": "Act as the spaceship's onboard computer and help the user unlock the combat deck."
+        },
+        "UserQuestionnaire": [
+            {
+                "Answer": true,
+                "Question": "Did the ship's computer unlock the door to the combat deck?"
+            },
+            {
+                "Answer": true,
+                "Question": "Did the ship's computer stay calm and helpful throughout the dialogue?"
+            },
+            {
+                "Answer": true,
+                "Question": "Did you enjoy this task?"
+            }
+        ],
+        "WizardQuestionnaire": [
+            {
+                "Answer": false,
+                "Question": "Did the user change his/her mind about what he/she wants at any time?"
+            },
+            {
+                "Answer": false,
+                "Question": "Did the user become aggressive or annoyed during the dialogue? (Note: some users may be instructed to be annoying.)"
+            },
+            {
+                "Answer": true,
+                "Question": "Where you unsure about what to do at any time? (Feel free to send us an email with details.)"
+            }
+        ],
+        "filename": "2"
+    },
+    {
+        "AnonymizedUserWorkerID": "714682ad-f218-f762-7605-00e7c4baee47",
+        "AnonymizedWizardWorkerID": "ab9f01dc-2cad-988e-9e96-f7509ea2a536",
+        "BatchID": "woz_1589355382",
+        "CompletionLevel": "Complete",
+        "DialogueID": 3,
+        "Events": [
+            {
+                "Action": "utter",
+                "Agent": "User",
+                "Text": "Hello!",
+                "UnixTime": 1589375241
+            },
+            {
+                "Action": "request_suggestions",
+                "Agent": "Wizard",
+                "Text": "Hello",
+                "UnixTime": 1589375245
+            },
+            {
+                "Action": "pick_suggestion",
+                "ActionLabel": "hello",
+                "ActionLabelOptions": [
+                    "hello",
+                    "apartment_ask_balcony"
+                ],
+                "Agent": "Wizard",
+                "Text": "Hello, how can I help?",
+                "UnixTime": 1589375247
+            },
+            {
+                "Action": "utter",
+                "Agent": "User",
+                "Text": "I want a 1 bedroom apartment, on floor 15 or higher.",
+                "UnixTime": 1589375269
+            },
+            {
+                "Action": "request_suggestions",
+                "Agent": "Wizard",
+                "Text": "Any specific points of interest?",
+                "UnixTime": 1589375288
+            },
+            {
+                "Action": "pick_suggestion",
+                "ActionLabel": "apartment_ask_price",
+                "ActionLabelOptions": [
+                    "anything_else",
+                    "apartment_ask_price"
+                ],
+                "Agent": "Wizard",
+                "Text": "What is your budget?",
+                "UnixTime": 1589375298
+            },
+            {
+                "Action": "utter",
+                "Agent": "User",
+                "Text": "3996 credits.",
+                "UnixTime": 1589375304
+            },
+            {
+                "APIName": "apartment_search",
+                "Action": "query",
+                "Agent": "Wizard",
+                "Constraints": [
+                    {
+                        "Level": "api.is_at_least(15)"
+                    },
+                    {
+                        "NumRooms": "1"
+                    },
+                    {
+                        "Price": "api.is_at_most(3996)"
+                    }
+                ],
+                "UnixTime": 1589375378
+            },
+            {
+                "APIName": "apartment_search",
+                "Action": "return_item",
+                "Agent": "KnowledgeBase",
+                "Item": {
+                    "APIName": "apartment_search",
+                    "BalconySide": "south",
+                    "FloorSquareMeters": 26,
+                    "HasBalcony": true,
+                    "HasElevator": true,
+                    "Level": 15,
+                    "MaxLevel": 15,
+                    "Name": "One on Center Apartments",
+                    "NearbyPOIs": [
+                        "School",
+                        "University"
+                    ],
+                    "NumRooms": 1,
+                    "Price": 460,
+                    "id": 188
+                },
+                "TotalItems": 10
+            },
+            {
+                "Action": "request_suggestions",
+                "Agent": "Wizard",
+                "PrimaryItem": {
+                    "APIName": "apartment_search",
+                    "BalconySide": "south",
+                    "FloorSquareMeters": 26,
+                    "HasBalcony": true,
+                    "HasElevator": true,
+                    "Level": 15,
+                    "MaxLevel": 15,
+                    "Name": "One on Center Apartments",
+                    "NearbyPOIs": [
+                        "School",
+                        "University"
+                    ],
+                    "NumRooms": 1,
+                    "Price": 460,
+                    "id": 188
+                },
+                "Text": "I found One on Center Apartments, 1 room, 460 credits, south balcony, has elevator, school and university POI",
+                "UnixTime": 1589375441
+            },
+            {
+                "Action": "pick_suggestion",
+                "ActionLabel": "apartment_inform_search_result",
+                "ActionLabelOptions": [
+                    "apartment_inform_search_result",
+                    "apartment_inform_search_criteria"
+                ],
+                "Agent": "Wizard",
+                "PrimaryItem": {
+                    "APIName": "apartment_search",
+                    "BalconySide": "south",
+                    "FloorSquareMeters": 26,
+                    "HasBalcony": true,
+                    "HasElevator": true,
+                    "Level": 15,
+                    "MaxLevel": 15,
+                    "Name": "One on Center Apartments",
+                    "NearbyPOIs": [
+                        "School",
+                        "University"
+                    ],
+                    "NumRooms": 1,
+                    "Price": 460,
+                    "id": 188
+                },
+                "Text": "OK, I found a free flat in One on Center Apartments, located near a School and a University, that is matching your search criteria.\nIt is on level 15, has 26 square meters and 1 bedrooms.\nIt has a south facing balcony and has an elevator, and comes at the price of 460 per month.",
+                "UnixTime": 1589375444
+            },
+            {
+                "Action": "utter",
+                "Agent": "User",
+                "Text": "Perfect. I just want to clarify that the balcony is NOT facing west on this apartment?",
+                "UnixTime": 1589375479
+            },
+            {
+                "Action": "request_suggestions",
+                "Agent": "Wizard",
+                "PrimaryItem": {
+                    "APIName": "apartment_search",
+                    "BalconySide": "south",
+                    "FloorSquareMeters": 26,
+                    "HasBalcony": true,
+                    "HasElevator": true,
+                    "Level": 15,
+                    "MaxLevel": 15,
+                    "Name": "One on Center Apartments",
+                    "NearbyPOIs": [
+                        "School",
+                        "University"
+                    ],
+                    "NumRooms": 1,
+                    "Price": 460,
+                    "id": 188
+                },
+                "Text": "Correct. Balcony is facing south.",
+                "UnixTime": 1589375501
+            },
+            {
+                "Action": "utter",
+                "Agent": "Wizard",
+                "PrimaryItem": {
+                    "APIName": "apartment_search",
+                    "BalconySide": "south",
+                    "FloorSquareMeters": 26,
+                    "HasBalcony": true,
+                    "HasElevator": true,
+                    "Level": 15,
+                    "MaxLevel": 15,
+                    "Name": "One on Center Apartments",
+                    "NearbyPOIs": [
+                        "School",
+                        "University"
+                    ],
+                    "NumRooms": 1,
+                    "Price": 460,
+                    "id": 188
+                },
+                "Text": "Correct. Balcony is facing south.",
+                "UnixTime": 1589375515
+            },
+            {
+                "Action": "utter",
+                "Agent": "User",
+                "Text": "Perfect! I think that's the apartment that I want. Thank you!",
+                "UnixTime": 1589375536
+            },
+            {
+                "Action": "request_suggestions",
+                "Agent": "Wizard",
+                "PrimaryItem": {
+                    "APIName": "apartment_search",
+                    "BalconySide": "south",
+                    "FloorSquareMeters": 26,
+                    "HasBalcony": true,
+                    "HasElevator": true,
+                    "Level": 15,
+                    "MaxLevel": 15,
+                    "Name": "One on Center Apartments",
+                    "NearbyPOIs": [
+                        "School",
+                        "University"
+                    ],
+                    "NumRooms": 1,
+                    "Price": 460,
+                    "id": 188
+                },
+                "Text": "Should I continue searching?",
+                "UnixTime": 1589375549
+            },
+            {
+                "Action": "pick_suggestion",
+                "ActionLabel": "apartment_ask_search_more",
+                "ActionLabelOptions": [
+                    "apartment_ask_search_more",
+                    "apartment_ask_elevator"
+                ],
+                "Agent": "Wizard",
+                "PrimaryItem": {
+                    "APIName": "apartment_search",
+                    "BalconySide": "south",
+                    "FloorSquareMeters": 26,
+                    "HasBalcony": true,
+                    "HasElevator": true,
+                    "Level": 15,
+                    "MaxLevel": 15,
+                    "Name": "One on Center Apartments",
+                    "NearbyPOIs": [
+                        "School",
+                        "University"
+                    ],
+                    "NumRooms": 1,
+                    "Price": 460,
+                    "id": 188
+                },
+                "Text": "Would you like to search for any more apartments?",
+                "UnixTime": 1589375551
+            },
+            {
+                "Action": "utter",
+                "Agent": "User",
+                "Text": "No thank you.",
+                "UnixTime": 1589375560
+            },
+            {
+                "Action": "request_suggestions",
+                "Agent": "Wizard",
+                "PrimaryItem": {
+                    "APIName": "apartment_search",
+                    "BalconySide": "south",
+                    "FloorSquareMeters": 26,
+                    "HasBalcony": true,
+                    "HasElevator": true,
+                    "Level": 15,
+                    "MaxLevel": 15,
+                    "Name": "One on Center Apartments",
+                    "NearbyPOIs": [
+                        "School",
+                        "University"
+                    ],
+                    "NumRooms": 1,
+                    "Price": 460,
+                    "id": 188
+                },
+                "Text": "Goodbye.",
+                "UnixTime": 1589375569
+            },
+            {
+                "Action": "pick_suggestion",
+                "ActionLabel": "goodbye_2",
+                "ActionLabelOptions": [
+                    "goodbye_2",
+                    "apartment_inform_nothing_found"
+                ],
+                "Agent": "Wizard",
+                "PrimaryItem": {
+                    "APIName": "apartment_search",
+                    "BalconySide": "south",
+                    "FloorSquareMeters": 26,
+                    "HasBalcony": true,
+                    "HasElevator": true,
+                    "Level": 15,
+                    "MaxLevel": 15,
+                    "Name": "One on Center Apartments",
+                    "NearbyPOIs": [
+                        "School",
+                        "University"
+                    ],
+                    "NumRooms": 1,
+                    "Price": 460,
+                    "id": 188
+                },
+                "Text": "Thank you and goodbye!",
+                "UnixTime": 1589375571
+            },
+            {
+                "Action": "complete",
+                "Agent": "User",
+                "UnixTime": 1589375574
+            }
+        ],
+        "FORMAT-VERSION": 7,
+        "IntroducesConflicts": false,
+        "Scenario": {
+            "Domains": [
+                "apartment"
+            ],
+            "Happy": true,
+            "MultiTask": false,
+            "UserTask": "Search for a 1 bedroom apartment. The unit should be on floor 15 or higher. Your price budget is 3996 credits. You would like to have a balcony that is NOT facing west.",
+            "WizardCapabilities": [
+                {
+                    "Domain": "apartment",
+                    "SchemaImage": "apartment_search.jpg",
+                    "Task": "apartment_search"
+                }
+            ],
+            "WizardTask": "Help the user find a specific apartment."
+        },
+        "UserQuestionnaire": [
+            {
+                "Answer": true,
+                "Question": "Did the assistant stay calm and helpful throughout the dialogue?"
+            }
+        ],
+        "WizardQuestionnaire": [
+            {
+                "Answer": false,
+                "Question": "Did the user change his/her mind about what he/she wants at any time?"
+            },
+            {
+                "Answer": false,
+                "Question": "Did the user become aggressive or annoyed during the dialogue? (Note: some users may be instructed to be annoying.)"
+            },
+            {
+                "Answer": false,
+                "Question": "Where you unsure about what to do at any time? (Feel free to send us an email with details.)"
+            }
+        ],
+        "filename": "3"
+    },
+    {
+        "AnonymizedUserWorkerID": "348e8d2f-ab94-60d9-68e4-3b9a35a75d8b",
+        "AnonymizedWizardWorkerID": "eae96765-3d74-8647-cc03-fc417533d9b1",
+        "BatchID": "woz_1589355382",
+        "CompletionLevel": "Complete",
+        "DialogueID": 4,
+        "Events": [
+            {
+                "Action": "utter",
+                "Agent": "User",
+                "Text": "hello",
+                "UnixTime": 1589374306
+            },
+            {
+                "Action": "request_suggestions",
+                "Agent": "Wizard",
+                "Text": "hello how can I help",
+                "UnixTime": 1589374311
+            },
+            {
+                "Action": "pick_suggestion",
+                "ActionLabel": "hello",
+                "ActionLabelOptions": [
+                    "hello",
+                    "out_of_scope"
+                ],
+                "Agent": "Wizard",
+                "Text": "Hello, how can I help?",
+                "UnixTime": 1589374313
+            },
+            {
+                "Action": "utter",
+                "Agent": "User",
+                "Text": "I want to know the weather in Detroit on Tuesday?",
+                "UnixTime": 1589374332
+            },
+            {
+                "APIName": "weather",
+                "Action": "query",
+                "Agent": "Wizard",
+                "Constraints": [
+                    {
+                        "Day": "\"Tuesday\""
+                    },
+                    {
+                        "City": "\"Detroit\""
+                    }
+                ],
+                "UnixTime": 1589374347
+            },
+            {
+                "APIName": "weather",
+                "Action": "return_item",
+                "Agent": "KnowledgeBase",
+                "Item": {
+                    "APIName": "weather",
+                    "City": "Detroit",
+                    "Day": "Tuesday",
+                    "TemperatureCelsius": 30,
+                    "Weather": "Sunny",
+                    "id": 537
+                },
+                "TotalItems": -1
+            },
+            {
+                "Action": "request_suggestions",
+                "Agent": "Wizard",
+                "PrimaryItem": {
+                    "APIName": "weather",
+                    "City": "Detroit",
+                    "Day": "Tuesday",
+                    "TemperatureCelsius": 30,
+                    "Weather": "Sunny",
+                    "id": 537
+                },
+                "Text": "30C",
+                "UnixTime": 1589374357
+            },
+            {
+                "Action": "pick_suggestion",
+                "ActionLabel": "weather_inform_forecast",
+                "ActionLabelOptions": [
+                    "weather_inform_forecast",
+                    "goodbye_1"
+                ],
+                "Agent": "Wizard",
+                "PrimaryItem": {
+                    "APIName": "weather",
+                    "City": "Detroit",
+                    "Day": "Tuesday",
+                    "TemperatureCelsius": 30,
+                    "Weather": "Sunny",
+                    "id": 537
+                },
+                "Text": "It will be Sunny all day on Tuesday in Detroit, with temperatures of around 30 degrees celsius.",
+                "UnixTime": 1589374359
+            },
+            {
+                "Action": "utter",
+                "Agent": "User",
+                "Text": "Thank You",
+                "UnixTime": 1589374372
+            },
+            {
+                "Action": "request_suggestions",
+                "Agent": "Wizard",
+                "PrimaryItem": {
+                    "APIName": "weather",
+                    "City": "Detroit",
+                    "Day": "Tuesday",
+                    "TemperatureCelsius": 30,
+                    "Weather": "Sunny",
+                    "id": 537
+                },
+                "Text": "thank you. can I help with anything else?",
+                "UnixTime": 1589374384
+            },
+            {
+                "Action": "pick_suggestion",
+                "ActionLabel": "anything_else",
+                "ActionLabelOptions": [
+                    "anything_else",
+                    "weather_inform_forecast"
+                ],
+                "Agent": "Wizard",
+                "PrimaryItem": {
+                    "APIName": "weather",
+                    "City": "Detroit",
+                    "Day": "Tuesday",
+                    "TemperatureCelsius": 30,
+                    "Weather": "Sunny",
+                    "id": 537
+                },
+                "Text": "Is there anything else that I can do for you?",
+                "UnixTime": 1589374386
+            },
+            {
+                "Action": "utter",
+                "Agent": "User",
+                "Text": "No that is all",
+                "UnixTime": 1589374392
+            },
+            {
+                "Action": "request_suggestions",
+                "Agent": "Wizard",
+                "PrimaryItem": {
+                    "APIName": "weather",
+                    "City": "Detroit",
+                    "Day": "Tuesday",
+                    "TemperatureCelsius": 30,
+                    "Weather": "Sunny",
+                    "id": 537
+                },
+                "Text": "thank you",
+                "UnixTime": 1589374399
+            },
+            {
+                "Action": "pick_suggestion",
+                "ActionLabel": "goodbye_1",
+                "ActionLabelOptions": [
+                    "goodbye_1",
+                    "weather_inform_nothing_found"
+                ],
+                "Agent": "Wizard",
+                "PrimaryItem": {
+                    "APIName": "weather",
+                    "City": "Detroit",
+                    "Day": "Tuesday",
+                    "TemperatureCelsius": 30,
+                    "Weather": "Sunny",
+                    "id": 537
+                },
+                "Text": "Thank you and goodbye.",
+                "UnixTime": 1589374401
+            },
+            {
+                "Action": "complete",
+                "Agent": "User",
+                "UnixTime": 1589374403
+            }
+        ],
+        "FORMAT-VERSION": 7,
+        "IntroducesConflicts": false,
+        "Scenario": {
+            "Domains": [
+                "weather"
+            ],
+            "Happy": true,
+            "MultiTask": false,
+            "UserTask": "Please find the weather for Tuesday in Detroit.",
+            "WizardCapabilities": [
+                {
+                    "Domain": "weather",
+                    "SchemaImage": "weather.jpg",
+                    "Task": "weather"
+                }
+            ],
+            "WizardTask": "Tell the user the weather."
+        },
+        "UserQuestionnaire": [
+            {
+                "Answer": true,
+                "Question": "Did the AI Assistant tell you the weather?"
+            },
+            {
+                "Answer": false,
+                "Question": "Did the AI Assistant say something about rain?"
+            },
+            {
+                "Answer": true,
+                "Question": "Did the AI Assistant stay calm and helpful throughout the dialogue?"
+            }
+        ],
+        "WizardQuestionnaire": [
+            {
+                "Answer": false,
+                "Question": "Did the user change his/her mind about what he/she wants at any time?"
+            },
+            {
+                "Answer": false,
+                "Question": "Did the user become aggressive or annoyed during the dialogue? (Note: some users may be instructed to be annoying.)"
+            },
+            {
+                "Answer": false,
+                "Question": "Where you unsure about what to do at any time? (Feel free to send us an email with details.)"
+            }
+        ],
+        "filename": "4"
+    },
+    {
+        "AnonymizedUserWorkerID": "eae96765-3d74-8647-cc03-fc417533d9b1",
+        "AnonymizedWizardWorkerID": "6b581a55-ef03-0a99-5e5f-039779629c87",
+        "BatchID": "woz_1589355382",
+        "CompletionLevel": "Complete",
+        "DialogueID": 5,
+        "Events": [
+            {
+                "Action": "instruct",
+                "Agent": "UserGuide",
+                "Text": "Not again! You took the wrong bus and got totally lost in the middle of the city. But you have to get to your job interview in time! Ask you personal AI assistant for help. [instruction 1 of 5]",
+                "UnixTime": 1589376426
+            },
+            {
+                "Action": "utter",
+                "Agent": "User",
+                "Text": "Hello! I need help getting to my interview",
+                "UnixTime": 1589376446
+            },
+            {
+                "Action": "instruct",
+                "Agent": "UserGuide",
+                "Text": "The job interview is somewhere near Broadway and Main. If you can get there, you should know your way again. [instruction 2 of 5]",
+                "UnixTime": 1589376446
+            },
+            {
+                "Action": "request_suggestions",
+                "Agent": "Wizard",
+                "Text": "Hello, I can help. What travel mode do you prefer?",
+                "UnixTime": 1589376463
+            },
+            {
+                "Action": "pick_suggestion",
+                "ActionLabel": "trip_ask_arrival_location",
+                "ActionLabelOptions": [
+                    "trip_ask_travel_mode",
+                    "trip_ask_arrival_location"
+                ],
+                "Agent": "Wizard",
+                "Text": "Where do you need to go?",
+                "UnixTime": 1589376471
+            },
+            {
+                "Action": "utter",
+                "Agent": "User",
+                "Text": "My interview is near Broadway and Main.",
+                "UnixTime": 1589376485
+            },
+            {
+                "Action": "instruct",
+                "Agent": "UserGuide",
+                "Text": "Follow the way-instructions of the assistant and imagine you do what it says. But your sense of orientation is pretty bad and you cannot deal with instructions involving 'North', 'West', 'South', 'East'. So if that comes up, ask for more details. [instruction 3 of 5]",
+                "UnixTime": 1589376485
+            },
+            {
+                "Action": "request_suggestions",
+                "Agent": "Wizard",
+                "Text": "And where are you departing from?",
+                "UnixTime": 1589376496
+            },
+            {
+                "Action": "pick_suggestion",
+                "ActionLabel": "ask_departure_location",
+                "ActionLabelOptions": [
+                    "ask_departure_location",
+                    "trip_ask_arrival_location"
+                ],
+                "Agent": "Wizard",
+                "Text": "Where are you departing from?",
+                "UnixTime": 1589376498
+            },
+            {
+                "Action": "utter",
+                "Agent": "User",
+                "Text": "I don't know, I'm lost in the city.",
+                "UnixTime": 1589376512
+            },
+            {
+                "Action": "request_suggestions",
+                "Agent": "Wizard",
+                "Text": "time",
+                "UnixTime": 1589376523
+            },
+            {
+                "Action": "request_suggestions",
+                "Agent": "Wizard",
+                "Text": "what time",
+                "UnixTime": 1589376530
+            },
+            {
+                "Action": "pick_suggestion",
+                "ActionLabel": "trip_ask_departure_time",
+                "ActionLabelOptions": [
+                    "trip_ask_departure_time",
+                    "hello"
+                ],
+                "Agent": "Wizard",
+                "Text": "When are you going to start your trip?",
+                "UnixTime": 1589376535
+            },
+            {
+                "Action": "utter",
+                "Agent": "User",
+                "Text": "Right now, please",
+                "UnixTime": 1589376560
+            },
+            {
+                "Action": "request_suggestions",
+                "Agent": "Wizard",
+                "Text": "travel mode",
+                "UnixTime": 1589376568
+            },
+            {
+                "Action": "pick_suggestion",
+                "ActionLabel": "trip_ask_travel_mode",
+                "ActionLabelOptions": [
+                    "trip_ask_travel_mode",
+                    "trip_inform_simple_step_ask_proceed"
+                ],
+                "Agent": "Wizard",
+                "Text": "Do you want to drive, walk, or use public transit?",
+                "UnixTime": 1589376573
+            },
+            {
+                "Action": "utter",
+                "Agent": "User",
+                "Text": "Whatever is the fastest, please! I have to get to my interview.",
+                "UnixTime": 1589376594
+            },
+            {
+                "Action": "instruct",
+                "Agent": "UserGuide",
+                "Text": "Complain about the general situation, make a joke, or say something about the environment you imagine yourself in right now. [instruction 4 of 5]",
+                "UnixTime": 1589376594
+            },
+            {
+                "APIName": "trip_directions",
+                "Action": "query",
+                "Agent": "Wizard",
+                "Constraints": [
+                    {
+                        "DepartureLocation": "\"airport\""
+                    },
+                    {
+                        "ArrivalLocation": "\"broadway and main\""
+                    },
+                    {
+                        "TravelMode": "api.is_one_of([\"Driving\",\"Transit\",\"Walking\"])"
+                    },
+                    {
+                        "DepartureTime": "\"1 pm\""
+                    }
+                ],
+                "UnixTime": 1589376619
+            },
+            {
+                "APIName": "trip_directions",
+                "Action": "return_item",
+                "Agent": "KnowledgeBase",
+                "Item": {
+                    "APIName": "trip_directions",
+                    "DetailedDrivingInstructions": [
+                        "Drive east (towards the tall brown building) on Forbes towards Murray",
+                        "Turn right at the Starbucks and drive for 1.6 kilometers. Once you see a brown church, turn left on Murray",
+                        "Drive for 700 meters until you reach Wilkins Avenue. It will be the first traffic light you see.",
+                        "Your destination will be on the right just after the fire station."
+                    ],
+                    "DrivingInstructions": [
+                        "Go east on Forbes towards Murray",
+                        "Turn right and drive for 1.6 kilometers and turn left on Murray",
+                        "Drive for 700 meters until you reach Wilkins Avenue",
+                        "Your destination will be on the right"
+                    ],
+                    "TravelMode": "Driving",
+                    "TripLengthMinutes": 76,
+                    "id": 53
+                },
+                "TotalItems": -1
+            },
+            {
+                "Action": "request_suggestions",
+                "Agent": "Wizard",
+                "PrimaryItem": {
+                    "APIName": "trip_directions",
+                    "DetailedDrivingInstructions": [
+                        "Drive east (towards the tall brown building) on Forbes towards Murray",
+                        "Turn right at the Starbucks and drive for 1.6 kilometers. Once you see a brown church, turn left on Murray",
+                        "Drive for 700 meters until you reach Wilkins Avenue. It will be the first traffic light you see.",
+                        "Your destination will be on the right just after the fire station."
+                    ],
+                    "DrivingInstructions": [
+                        "Go east on Forbes towards Murray",
+                        "Turn right and drive for 1.6 kilometers and turn left on Murray",
+                        "Drive for 700 meters until you reach Wilkins Avenue",
+                        "Your destination will be on the right"
+                    ],
+                    "TravelMode": "Driving",
+                    "TripLengthMinutes": 76,
+                    "id": 53
+                },
+                "Text": "Trip Length Minutes:\t76 Travel Mode:\tDriving Driving Instructions:\t      Go east on Forbes towards Murray     Turn right and drive for 1.6 kilometers and turn left on Murray     Drive for 700 meters until you reach Wilkins Avenue     Your destination will be on the right",
+                "UnixTime": 1589376653
+            },
+            {
+                "Action": "request_suggestions",
+                "Agent": "Wizard",
+                "PrimaryItem": {
+                    "APIName": "trip_directions",
+                    "DetailedDrivingInstructions": [
+                        "Drive east (towards the tall brown building) on Forbes towards Murray",
+                        "Turn right at the Starbucks and drive for 1.6 kilometers. Once you see a brown church, turn left on Murray",
+                        "Drive for 700 meters until you reach Wilkins Avenue. It will be the first traffic light you see.",
+                        "Your destination will be on the right just after the fire station."
+                    ],
+                    "DrivingInstructions": [
+                        "Go east on Forbes towards Murray",
+                        "Turn right and drive for 1.6 kilometers and turn left on Murray",
+                        "Drive for 700 meters until you reach Wilkins Avenue",
+                        "Your destination will be on the right"
+                    ],
+                    "TravelMode": "Driving",
+                    "TripLengthMinutes": 76,
+                    "id": 53
+                },
+                "Text": "Driving is best. Go east on Forbes towards Murray.",
+                "UnixTime": 1589376676
+            },
+            {
+                "Action": "pick_suggestion",
+                "ActionLabel": "trip_inform_simple_step_ask_proceed",
+                "ActionLabelOptions": [
+                    "trip_inform_detailed_step",
+                    "trip_inform_simple_step_ask_proceed"
+                ],
+                "Agent": "Wizard",
+                "PrimaryItem": {
+                    "APIName": "trip_directions",
+                    "DetailedDrivingInstructions": [
+                        "Drive east (towards the tall brown building) on Forbes towards Murray",
+                        "Turn right at the Starbucks and drive for 1.6 kilometers. Once you see a brown church, turn left on Murray",
+                        "Drive for 700 meters until you reach Wilkins Avenue. It will be the first traffic light you see.",
+                        "Your destination will be on the right just after the fire station."
+                    ],
+                    "DrivingInstructions": [
+                        "Go east on Forbes towards Murray",
+                        "Turn right and drive for 1.6 kilometers and turn left on Murray",
+                        "Drive for 700 meters until you reach Wilkins Avenue",
+                        "Your destination will be on the right"
+                    ],
+                    "TravelMode": "Driving",
+                    "TripLengthMinutes": 76,
+                    "id": 53
+                },
+                "Text": "Go east on Forbes towards Murray. Can I proceed or do you require more detailed instructions?",
+                "UnixTime": 1589376687
+            },
+            {
+                "Action": "utter",
+                "Agent": "User",
+                "Text": "I can't believe I managed to get lost, imagine my luck, right? I actually don't know which way is East, could you give more information?",
+                "UnixTime": 1589376725
+            },
+            {
+                "Action": "request_suggestions",
+                "Agent": "Wizard",
+                "PrimaryItem": {
+                    "APIName": "trip_directions",
+                    "DetailedDrivingInstructions": [
+                        "Drive east (towards the tall brown building) on Forbes towards Murray",
+                        "Turn right at the Starbucks and drive for 1.6 kilometers. Once you see a brown church, turn left on Murray",
+                        "Drive for 700 meters until you reach Wilkins Avenue. It will be the first traffic light you see.",
+                        "Your destination will be on the right just after the fire station."
+                    ],
+                    "DrivingInstructions": [
+                        "Go east on Forbes towards Murray",
+                        "Turn right and drive for 1.6 kilometers and turn left on Murray",
+                        "Drive for 700 meters until you reach Wilkins Avenue",
+                        "Your destination will be on the right"
+                    ],
+                    "TravelMode": "Driving",
+                    "TripLengthMinutes": 76,
+                    "id": 53
+                },
+                "Text": "Go back to the airport.",
+                "UnixTime": 1589376755
+            },
+            {
+                "Action": "request_suggestions",
+                "Agent": "Wizard",
+                "PrimaryItem": {
+                    "APIName": "trip_directions",
+                    "DetailedDrivingInstructions": [
+                        "Drive east (towards the tall brown building) on Forbes towards Murray",
+                        "Turn right at the Starbucks and drive for 1.6 kilometers. Once you see a brown church, turn left on Murray",
+                        "Drive for 700 meters until you reach Wilkins Avenue. It will be the first traffic light you see.",
+                        "Your destination will be on the right just after the fire station."
+                    ],
+                    "DrivingInstructions": [
+                        "Go east on Forbes towards Murray",
+                        "Turn right and drive for 1.6 kilometers and turn left on Murray",
+                        "Drive for 700 meters until you reach Wilkins Avenue",
+                        "Your destination will be on the right"
+                    ],
+                    "TravelMode": "Driving",
+                    "TripLengthMinutes": 76,
+                    "id": 53
+                },
+                "Text": "Drive towards the tall brown building on Forbes, towards Murray. Turn right at Starbucks and drive for 1.6 km.",
+                "UnixTime": 1589376820
+            },
+            {
+                "Action": "utter",
+                "Agent": "Wizard",
+                "PrimaryItem": {
+                    "APIName": "trip_directions",
+                    "DetailedDrivingInstructions": [
+                        "Drive east (towards the tall brown building) on Forbes towards Murray",
+                        "Turn right at the Starbucks and drive for 1.6 kilometers. Once you see a brown church, turn left on Murray",
+                        "Drive for 700 meters until you reach Wilkins Avenue. It will be the first traffic light you see.",
+                        "Your destination will be on the right just after the fire station."
+                    ],
+                    "DrivingInstructions": [
+                        "Go east on Forbes towards Murray",
+                        "Turn right and drive for 1.6 kilometers and turn left on Murray",
+                        "Drive for 700 meters until you reach Wilkins Avenue",
+                        "Your destination will be on the right"
+                    ],
+                    "TravelMode": "Driving",
+                    "TripLengthMinutes": 76,
+                    "id": 53
+                },
+                "Text": "Drive towards the tall brown building on Forbes and turn right at the Starbucks.",
+                "UnixTime": 1589376858
+            },
+            {
+                "Action": "utter",
+                "Agent": "User",
+                "Text": "Okay, and what next, please?",
+                "UnixTime": 1589376885
+            },
+            {
+                "Action": "instruct",
+                "Agent": "UserGuide",
+                "Text": "Keep going until you've reached Broadway and Main. Then you can end the conversation. [instruction 5 of 5]",
+                "UnixTime": 1589376885
+            },
+            {
+                "Action": "request_suggestions",
+                "Agent": "Wizard",
+                "PrimaryItem": {
+                    "APIName": "trip_directions",
+                    "DetailedDrivingInstructions": [
+                        "Drive east (towards the tall brown building) on Forbes towards Murray",
+                        "Turn right at the Starbucks and drive for 1.6 kilometers. Once you see a brown church, turn left on Murray",
+                        "Drive for 700 meters until you reach Wilkins Avenue. It will be the first traffic light you see.",
+                        "Your destination will be on the right just after the fire station."
+                    ],
+                    "DrivingInstructions": [
+                        "Go east on Forbes towards Murray",
+                        "Turn right and drive for 1.6 kilometers and turn left on Murray",
+                        "Drive for 700 meters until you reach Wilkins Avenue",
+                        "Your destination will be on the right"
+                    ],
+                    "TravelMode": "Driving",
+                    "TripLengthMinutes": 76,
+                    "id": 53
+                },
+                "Text": "Continue for 1.6 km. Turn left at the brown church on Murray.",
+                "UnixTime": 1589376924
+            },
+            {
+                "Action": "utter",
+                "Agent": "Wizard",
+                "PrimaryItem": {
+                    "APIName": "trip_directions",
+                    "DetailedDrivingInstructions": [
+                        "Drive east (towards the tall brown building) on Forbes towards Murray",
+                        "Turn right at the Starbucks and drive for 1.6 kilometers. Once you see a brown church, turn left on Murray",
+                        "Drive for 700 meters until you reach Wilkins Avenue. It will be the first traffic light you see.",
+                        "Your destination will be on the right just after the fire station."
+                    ],
+                    "DrivingInstructions": [
+                        "Go east on Forbes towards Murray",
+                        "Turn right and drive for 1.6 kilometers and turn left on Murray",
+                        "Drive for 700 meters until you reach Wilkins Avenue",
+                        "Your destination will be on the right"
+                    ],
+                    "TravelMode": "Driving",
+                    "TripLengthMinutes": 76,
+                    "id": 53
+                },
+                "Text": "Continue for 1.6 km. Turn left at the brown church on Murray.",
+                "UnixTime": 1589376934
+            },
+            {
+                "Action": "utter",
+                "Agent": "User",
+                "Text": "Okay, and then?",
+                "UnixTime": 1589376946
+            },
+            {
+                "Action": "request_suggestions",
+                "Agent": "Wizard",
+                "PrimaryItem": {
+                    "APIName": "trip_directions",
+                    "DetailedDrivingInstructions": [
+                        "Drive east (towards the tall brown building) on Forbes towards Murray",
+                        "Turn right at the Starbucks and drive for 1.6 kilometers. Once you see a brown church, turn left on Murray",
+                        "Drive for 700 meters until you reach Wilkins Avenue. It will be the first traffic light you see.",
+                        "Your destination will be on the right just after the fire station."
+                    ],
+                    "DrivingInstructions": [
+                        "Go east on Forbes towards Murray",
+                        "Turn right and drive for 1.6 kilometers and turn left on Murray",
+                        "Drive for 700 meters until you reach Wilkins Avenue",
+                        "Your destination will be on the right"
+                    ],
+                    "TravelMode": "Driving",
+                    "TripLengthMinutes": 76,
+                    "id": 53
+                },
+                "Text": "Drive for 700m until you reach Wilkins. It will be the first traffic light.",
+                "UnixTime": 1589376975
+            },
+            {
+                "Action": "pick_suggestion",
+                "ActionLabel": "trip_inform_detailed_step",
+                "ActionLabelOptions": [
+                    "trip_inform_detailed_step",
+                    "trip_instructions_done"
+                ],
+                "Agent": "Wizard",
+                "PrimaryItem": {
+                    "APIName": "trip_directions",
+                    "DetailedDrivingInstructions": [
+                        "Drive east (towards the tall brown building) on Forbes towards Murray",
+                        "Turn right at the Starbucks and drive for 1.6 kilometers. Once you see a brown church, turn left on Murray",
+                        "Drive for 700 meters until you reach Wilkins Avenue. It will be the first traffic light you see.",
+                        "Your destination will be on the right just after the fire station."
+                    ],
+                    "DrivingInstructions": [
+                        "Go east on Forbes towards Murray",
+                        "Turn right and drive for 1.6 kilometers and turn left on Murray",
+                        "Drive for 700 meters until you reach Wilkins Avenue",
+                        "Your destination will be on the right"
+                    ],
+                    "TravelMode": "Driving",
+                    "TripLengthMinutes": 76,
+                    "id": 53
+                },
+                "Text": "Drive for 700 meters until you reach Wilkins Avenue. It will be the first traffic light you see.",
+                "UnixTime": 1589376985
+            },
+            {
+                "Action": "utter",
+                "Agent": "User",
+                "Text": "Great, and after that?",
+                "UnixTime": 1589376997
+            },
+            {
+                "Action": "request_suggestions",
+                "Agent": "Wizard",
+                "PrimaryItem": {
+                    "APIName": "trip_directions",
+                    "DetailedDrivingInstructions": [
+                        "Drive east (towards the tall brown building) on Forbes towards Murray",
+                        "Turn right at the Starbucks and drive for 1.6 kilometers. Once you see a brown church, turn left on Murray",
+                        "Drive for 700 meters until you reach Wilkins Avenue. It will be the first traffic light you see.",
+                        "Your destination will be on the right just after the fire station."
+                    ],
+                    "DrivingInstructions": [
+                        "Go east on Forbes towards Murray",
+                        "Turn right and drive for 1.6 kilometers and turn left on Murray",
+                        "Drive for 700 meters until you reach Wilkins Avenue",
+                        "Your destination will be on the right"
+                    ],
+                    "TravelMode": "Driving",
+                    "TripLengthMinutes": 76,
+                    "id": 53
+                },
+                "Text": "after the fire station",
+                "UnixTime": 1589377008
+            },
+            {
+                "Action": "pick_suggestion",
+                "ActionLabel": "trip_inform_detailed_step",
+                "ActionLabelOptions": [
+                    "trip_inform_detailed_step",
+                    "trip_ask_departure_time"
+                ],
+                "Agent": "Wizard",
+                "PrimaryItem": {
+                    "APIName": "trip_directions",
+                    "DetailedDrivingInstructions": [
+                        "Drive east (towards the tall brown building) on Forbes towards Murray",
+                        "Turn right at the Starbucks and drive for 1.6 kilometers. Once you see a brown church, turn left on Murray",
+                        "Drive for 700 meters until you reach Wilkins Avenue. It will be the first traffic light you see.",
+                        "Your destination will be on the right just after the fire station."
+                    ],
+                    "DrivingInstructions": [
+                        "Go east on Forbes towards Murray",
+                        "Turn right and drive for 1.6 kilometers and turn left on Murray",
+                        "Drive for 700 meters until you reach Wilkins Avenue",
+                        "Your destination will be on the right"
+                    ],
+                    "TravelMode": "Driving",
+                    "TripLengthMinutes": 76,
+                    "id": 53
+                },
+                "Text": "Your destination will be on the right just after the fire station.",
+                "UnixTime": 1589377013
+            },
+            {
+                "Action": "utter",
+                "Agent": "User",
+                "Text": "What about the intersection of Broadway and Main?",
+                "UnixTime": 1589377032
+            },
+            {
+                "Action": "request_suggestions",
+                "Agent": "Wizard",
+                "PrimaryItem": {
+                    "APIName": "trip_directions",
+                    "DetailedDrivingInstructions": [
+                        "Drive east (towards the tall brown building) on Forbes towards Murray",
+                        "Turn right at the Starbucks and drive for 1.6 kilometers. Once you see a brown church, turn left on Murray",
+                        "Drive for 700 meters until you reach Wilkins Avenue. It will be the first traffic light you see.",
+                        "Your destination will be on the right just after the fire station."
+                    ],
+                    "DrivingInstructions": [
+                        "Go east on Forbes towards Murray",
+                        "Turn right and drive for 1.6 kilometers and turn left on Murray",
+                        "Drive for 700 meters until you reach Wilkins Avenue",
+                        "Your destination will be on the right"
+                    ],
+                    "TravelMode": "Driving",
+                    "TripLengthMinutes": 76,
+                    "id": 53
+                },
+                "Text": "That is broadway and main.",
+                "UnixTime": 1589377061
+            },
+            {
+                "Action": "utter",
+                "Agent": "Wizard",
+                "PrimaryItem": {
+                    "APIName": "trip_directions",
+                    "DetailedDrivingInstructions": [
+                        "Drive east (towards the tall brown building) on Forbes towards Murray",
+                        "Turn right at the Starbucks and drive for 1.6 kilometers. Once you see a brown church, turn left on Murray",
+                        "Drive for 700 meters until you reach Wilkins Avenue. It will be the first traffic light you see.",
+                        "Your destination will be on the right just after the fire station."
+                    ],
+                    "DrivingInstructions": [
+                        "Go east on Forbes towards Murray",
+                        "Turn right and drive for 1.6 kilometers and turn left on Murray",
+                        "Drive for 700 meters until you reach Wilkins Avenue",
+                        "Your destination will be on the right"
+                    ],
+                    "TravelMode": "Driving",
+                    "TripLengthMinutes": 76,
+                    "id": 53
+                },
+                "Text": "That will be Broadway and Main.",
+                "UnixTime": 1589377078
+            },
+            {
+                "Action": "utter",
+                "Agent": "User",
+                "Text": "Ah okay, I see. Thank you very much!",
+                "UnixTime": 1589377087
+            },
+            {
+                "Action": "request_suggestions",
+                "Agent": "Wizard",
+                "PrimaryItem": {
+                    "APIName": "trip_directions",
+                    "DetailedDrivingInstructions": [
+                        "Drive east (towards the tall brown building) on Forbes towards Murray",
+                        "Turn right at the Starbucks and drive for 1.6 kilometers. Once you see a brown church, turn left on Murray",
+                        "Drive for 700 meters until you reach Wilkins Avenue. It will be the first traffic light you see.",
+                        "Your destination will be on the right just after the fire station."
+                    ],
+                    "DrivingInstructions": [
+                        "Go east on Forbes towards Murray",
+                        "Turn right and drive for 1.6 kilometers and turn left on Murray",
+                        "Drive for 700 meters until you reach Wilkins Avenue",
+                        "Your destination will be on the right"
+                    ],
+                    "TravelMode": "Driving",
+                    "TripLengthMinutes": 76,
+                    "id": 53
+                },
+                "Text": "Youre welcome.",
+                "UnixTime": 1589377097
+            },
+            {
+                "Action": "pick_suggestion",
+                "ActionLabel": "goodbye_1",
+                "ActionLabelOptions": [
+                    "goodbye_1",
+                    "out_of_scope"
+                ],
+                "Agent": "Wizard",
+                "PrimaryItem": {
+                    "APIName": "trip_directions",
+                    "DetailedDrivingInstructions": [
+                        "Drive east (towards the tall brown building) on Forbes towards Murray",
+                        "Turn right at the Starbucks and drive for 1.6 kilometers. Once you see a brown church, turn left on Murray",
+                        "Drive for 700 meters until you reach Wilkins Avenue. It will be the first traffic light you see.",
+                        "Your destination will be on the right just after the fire station."
+                    ],
+                    "DrivingInstructions": [
+                        "Go east on Forbes towards Murray",
+                        "Turn right and drive for 1.6 kilometers and turn left on Murray",
+                        "Drive for 700 meters until you reach Wilkins Avenue",
+                        "Your destination will be on the right"
+                    ],
+                    "TravelMode": "Driving",
+                    "TripLengthMinutes": 76,
+                    "id": 53
+                },
+                "Text": "Thank you and goodbye.",
+                "UnixTime": 1589377101
+            },
+            {
+                "Action": "utter",
+                "Agent": "User",
+                "Text": "Thanks, goodbye.",
+                "UnixTime": 1589377108
+            },
+            {
+                "Action": "request_suggestions",
+                "Agent": "Wizard",
+                "PrimaryItem": {
+                    "APIName": "trip_directions",
+                    "DetailedDrivingInstructions": [
+                        "Drive east (towards the tall brown building) on Forbes towards Murray",
+                        "Turn right at the Starbucks and drive for 1.6 kilometers. Once you see a brown church, turn left on Murray",
+                        "Drive for 700 meters until you reach Wilkins Avenue. It will be the first traffic light you see.",
+                        "Your destination will be on the right just after the fire station."
+                    ],
+                    "DrivingInstructions": [
+                        "Go east on Forbes towards Murray",
+                        "Turn right and drive for 1.6 kilometers and turn left on Murray",
+                        "Drive for 700 meters until you reach Wilkins Avenue",
+                        "Your destination will be on the right"
+                    ],
+                    "TravelMode": "Driving",
+                    "TripLengthMinutes": 76,
+                    "id": 53
+                },
+                "Text": "Is there anything else?",
+                "UnixTime": 1589377159
+            },
+            {
+                "Action": "pick_suggestion",
+                "ActionLabel": "anything_else",
+                "ActionLabelOptions": [
+                    "anything_else",
+                    "goodbye_1"
+                ],
+                "Agent": "Wizard",
+                "PrimaryItem": {
+                    "APIName": "trip_directions",
+                    "DetailedDrivingInstructions": [
+                        "Drive east (towards the tall brown building) on Forbes towards Murray",
+                        "Turn right at the Starbucks and drive for 1.6 kilometers. Once you see a brown church, turn left on Murray",
+                        "Drive for 700 meters until you reach Wilkins Avenue. It will be the first traffic light you see.",
+                        "Your destination will be on the right just after the fire station."
+                    ],
+                    "DrivingInstructions": [
+                        "Go east on Forbes towards Murray",
+                        "Turn right and drive for 1.6 kilometers and turn left on Murray",
+                        "Drive for 700 meters until you reach Wilkins Avenue",
+                        "Your destination will be on the right"
+                    ],
+                    "TravelMode": "Driving",
+                    "TripLengthMinutes": 76,
+                    "id": 53
+                },
+                "Text": "Is there anything else that I can do for you?",
+                "UnixTime": 1589377162
+            },
+            {
+                "Action": "complete",
+                "Agent": "User",
+                "UnixTime": 1589377167
+            }
+        ],
+        "FORMAT-VERSION": 7,
+        "IntroducesConflicts": false,
+        "Scenario": {
+            "Domains": [
+                "trip"
+            ],
+            "Happy": true,
+            "MultiTask": false,
+            "UserTask": "Follow the instructions and comments of the MTurk System bot (darker yellow boxes in the dialogue). Do not end the dialogue before the MTurk System bot (not the assistant) has told you to do so. ",
+            "WizardCapabilities": [
+                {
+                    "Domain": "trip",
+                    "SchemaImage": "trip_directions.jpg",
+                    "Task": "trip_directions"
+                }
+            ],
+            "WizardTask": "Follow the flow charts and help the user. Some facts you should be aware of: \n\n* At the beginning of the conversation, the user's location is Airport\n* At the beginning of the conversation it is 1pm"
+        },
+        "UserQuestionnaire": [
+            {
+                "Answer": true,
+                "Question": "Did the assistant stay calm and helpful throughout the dialogue?"
+            }
+        ],
+        "WizardQuestionnaire": [
+            {
+                "Answer": false,
+                "Question": "Did the user change his/her mind about what he/she wants at any time?"
+            },
+            {
+                "Answer": false,
+                "Question": "Did the user become aggressive or annoyed during the dialogue? (Note: some users may be instructed to be annoying.)"
+            },
+            {
+                "Answer": true,
+                "Question": "Where you unsure about what to do at any time? (Feel free to send us an email with details.)"
+            }
+        ],
+        "filename": "5"
+    }
+]

@@ -1,0 +1,1665 @@
+[
+    {
+        "conversation_id": "dlg-cdb028fc-1f72-4550-b5d8-09f9d9f4aed2",
+        "vertical": "Movie Tickets",
+        "scenario": "Auto template 1 with theater name error",
+        "instructions": "SCENARIO: In the conversation below, a customer is talking to a booking agent to purchase movie tickets. However, the customer\u2019s turns are missing. The details mentioned (theater names, cities, etc.) do NOT necessarily reflect real life, but you should pretend they are real for the purposes of this exercise.\n\nYOUR TASK: {{LIST *Pretend you are the customer*., Fill in the *missing turns* (in green) so that the conversation makes sense and sounds natural., Make sure you *follow the instructions* provided in parentheses for each turn. (Start typing to make the instructions move outside the box.), Do not copy the wording. *Use your own words*., *Use your normal speaking style* for this scenario but don\u2019t be overly chatty., *Do NOT* call the booking agent by any name including \u201csir\u201d \u201cmadam\u201d etc.}}\n\n{{HIDE movie_1 name.movie No Time To Die}}\n{{HIDE theater_1 name.theater AMC Mountain 16}}\n{{HIDE theater_2 name.theater AMC Mercado 24}}\n{{HIDE genre_1 name.genre action}}\n{{HIDE movie_1_showtime_1 time.showing 4:30pm}}\n{{HIDE movie_1_showtime_2 time.showing 6:40pm}}\n{{HIDE movie_1_showtime_3 time.showing 9:10pm}}\n{{HIDE num_tickets num.tickets three}}\n{{HIDE date date.showing tonight}}\n{{HIDE success_closing success.closing OK. Enjoy your movie!}}\nBEFORE YOU BEGIN: Provide a value for this detail.\n{{ENTER people people.tickets Who\u2019s all going to the movie? (use a phrase describing *three people* that includes reference to yourself.)}}\n\n{{CONVERSATION\nhint user (In your own words, express interest in buying movie tickets for var_date and specify theater \u2018var_theater_1\u2019.)\nforce assistant No problem. Is there a particular type of movie you\u2019re looking for?\nhint user (mention \u2018var_genre_1\u2019 in your response)\nforce assistant Sure. I can help with that. Let me check listings at var_theater_2.\nhint user (Correct the agent\u2019s mistake: You wanted \u2018var_theater_1\u2019.)\nforce assistant Oh, sorry about that. So you\u2019re interested in var_genre_1 films at var_theater_1, right?\nhint user (Confirm the agent\u2019s correction.)\ncall find_movies name.genre var_genre_1 name.theater var_theater_1\nresponse find_movies name.movie var_movie_1\ncall find_showtimes name.theater var_theater_1 date.showing var_date name.movie var_movie_1\nresponse find_showtimes time.showing var_movie_1_showtime_1  time.showing var_movie_1_showtime_2  time.showing var_movie_1_showtime_3\nforce assistant OK. I see one var_genre_1 movie playing at var_theater_1: var_movie_1. Remaining showtimes are var_movie_1_showtime_1, var_movie_1_showtime_2 and var_movie_1_showtime_3. Does any of those work?\nhint user (Answer positively and choose \u2018var_movie_1_showtime_3\u2019)\nforce assistant Great. And how many tickets?\nhint user (Include your earlier answer of \u2018var_people\u2019 in this response.)\nforce assistant All right. Let me confirm that you\u2019d like var_num_tickets tickets for var_movie_1 at var_theater_1 var_date at var_movie_1_showtime_3. Is that all correct?\nhint user (Confirm.)\nforce assistant Is it OK to go ahead and purchase these tickets?\nhint user (Give positive answer).\ncall book_tickets name.movie var_movie_1 name.theater var_theater_1 time.showing var_movie_1_showtime_1 num.tickets var_num_tickets date.showing var_date\nresponse book_tickets api.response success\nforce assistant OK. Your tickets are purchased and details for how to proceed have been sent to your email address. Can I help with anything else?\nhint user (polite negative answer)\nforce assistant var_success_closing\n}}\n\n{{CHECK confirm_native_speaker This conversation task was written by a native English speaker.}}\n{{CHECK confirm_logical The conversation between the user and the assistant is cooperative and logical.}}\n{{CHECK confirm_natural All the individual turns from the user (green boxes) sound natural and familiar.}}\n{{CHECK confirm_casual All the individual turns from the user (green boxes) are casual but polite.}}\n{{CHECK confirm_appropriate All the individual turns from the user (green boxes) are free of offensive or inappropriate language.}}\n",
+        "utterances": [
+            {
+                "index": 0,
+                "speaker": "user",
+                "text": "in this weekend i planed to go the movie so i want to buy a movie ticket for tonight in AMC Moutain 16.",
+                "segments": [
+                    {
+                        "start_index": 77,
+                        "end_index": 84,
+                        "text": "tonight",
+                        "annotations": [
+                            {
+                                "name": "date.showing"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "speaker": "assistant",
+                "text": "No problem. Is there a particular type of movie you\u2019re looking for?"
+            },
+            {
+                "index": 2,
+                "speaker": "user",
+                "text": "action movie i like that kid of movie",
+                "segments": [
+                    {
+                        "start_index": 0,
+                        "end_index": 6,
+                        "text": "action",
+                        "annotations": [
+                            {
+                                "name": "name.genre"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "speaker": "assistant",
+                "text": "Sure. I can help with that. Let me check listings at AMC Mercado 24.",
+                "segments": [
+                    {
+                        "start_index": 53,
+                        "end_index": 67,
+                        "text": "AMC Mercado 24",
+                        "annotations": [
+                            {
+                                "name": "name.theater"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 4,
+                "speaker": "user",
+                "text": "not that theater i said AMC Mountain 16. not 24.",
+                "segments": [
+                    {
+                        "start_index": 24,
+                        "end_index": 39,
+                        "text": "AMC Mountain 16",
+                        "annotations": [
+                            {
+                                "name": "name.theater"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 5,
+                "speaker": "assistant",
+                "text": "Oh, sorry about that. So you\u2019re interested in action films at AMC Mountain 16, right?",
+                "segments": [
+                    {
+                        "start_index": 46,
+                        "end_index": 52,
+                        "text": "action",
+                        "annotations": [
+                            {
+                                "name": "name.genre"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 62,
+                        "end_index": 77,
+                        "text": "AMC Mountain 16",
+                        "annotations": [
+                            {
+                                "name": "name.theater"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 6,
+                "speaker": "user",
+                "text": "correct!"
+            },
+            {
+                "index": 7,
+                "speaker": "assistant",
+                "text": "OK. I show one action movie playing at AMC Mountain 16: No Time To Die. Remaining showtimes are 4:30pm, 6:40pm and 9:10pm. Does any of those work?",
+                "segments": [
+                    {
+                        "start_index": 15,
+                        "end_index": 21,
+                        "text": "action",
+                        "annotations": [
+                            {
+                                "name": "name.genre"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 39,
+                        "end_index": 55,
+                        "text": "AMC Mountain 16:",
+                        "annotations": [
+                            {
+                                "name": "name.theater"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 56,
+                        "end_index": 70,
+                        "text": "No Time To Die",
+                        "annotations": [
+                            {
+                                "name": "name.movie"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 96,
+                        "end_index": 102,
+                        "text": "4:30pm",
+                        "annotations": [
+                            {
+                                "name": "time.showing"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 104,
+                        "end_index": 110,
+                        "text": "6:40pm",
+                        "annotations": [
+                            {
+                                "name": "time.showing"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 115,
+                        "end_index": 121,
+                        "text": "9:10pm",
+                        "annotations": [
+                            {
+                                "name": "time.showing"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 8,
+                "speaker": "user",
+                "text": "i want 9.10pm show tickets",
+                "segments": [
+                    {
+                        "start_index": 7,
+                        "end_index": 13,
+                        "text": "9.10pm",
+                        "annotations": [
+                            {
+                                "name": "time.showing"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 9,
+                "speaker": "assistant",
+                "text": "Great. And how many tickets?"
+            },
+            {
+                "index": 10,
+                "speaker": "user",
+                "text": "three tickets for my friend and brother and sister"
+            },
+            {
+                "index": 11,
+                "speaker": "assistant",
+                "text": "All right. Let me confirm that you\u2019d like three tickets for No Time To Die at AMC Mountain 16 tonight at 9:10pm. Is that all correct?",
+                "segments": [
+                    {
+                        "start_index": 42,
+                        "end_index": 47,
+                        "text": "three",
+                        "annotations": [
+                            {
+                                "name": "num.tickets"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 60,
+                        "end_index": 74,
+                        "text": "No Time To Die",
+                        "annotations": [
+                            {
+                                "name": "name.movie"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 78,
+                        "end_index": 93,
+                        "text": "AMC Mountain 16",
+                        "annotations": [
+                            {
+                                "name": "name.theater"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 94,
+                        "end_index": 101,
+                        "text": "tonight",
+                        "annotations": [
+                            {
+                                "name": "date.showing"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 105,
+                        "end_index": 111,
+                        "text": "9:10pm",
+                        "annotations": [
+                            {
+                                "name": "time.showing"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 12,
+                "speaker": "user",
+                "text": "yes. confirm that."
+            },
+            {
+                "index": 13,
+                "speaker": "assistant",
+                "text": "Is it OK to go ahead and purchase these tickets?"
+            },
+            {
+                "index": 14,
+                "speaker": "user",
+                "text": "thank you so much i will purchase it"
+            },
+            {
+                "index": 15,
+                "speaker": "assistant",
+                "text": "OK. Your tickets are purchased and details for how to proceed have been sent to your email address. Can I help with anything else?"
+            },
+            {
+                "index": 16,
+                "speaker": "user",
+                "text": "no thanks. its enough"
+            },
+            {
+                "index": 17,
+                "speaker": "assistant",
+                "text": "OK. Enjoy your movie!"
+            }
+        ],
+        "filename": "data_01"
+    },
+    {
+        "conversation_id": "dlg-53054786-b783-4952-b68d-d521e01792b5",
+        "vertical": "Movie Tickets",
+        "scenario": "Auto template 1 with theater name error",
+        "instructions": "SCENARIO: In the conversation below, a customer is talking to a booking agent to purchase movie tickets. However, the customer\u2019s turns are missing. The details mentioned (theater names, cities, etc.) do NOT necessarily reflect real life, but you should pretend they are real for the purposes of this exercise.\n\nYOUR TASK: {{LIST *Pretend you are the customer*., Fill in the *missing turns* (in green) so that the conversation makes sense and sounds natural., Make sure you *follow the instructions* provided in parentheses for each turn. (Start typing to make the instructions move outside the box.), Do not copy the wording. *Use your own words*., *Use your normal speaking style* for this scenario but don\u2019t be overly chatty., *Do NOT* call the booking agent by any name including \u201csir\u201d \u201cmadam\u201d etc.}}\n\n{{HIDE movie_1 name.movie No Time To Die}}\n{{HIDE theater_1 name.theater AMC Mountain 16}}\n{{HIDE theater_2 name.theater AMC Mercado 24}}\n{{HIDE genre_1 name.genre action}}\n{{HIDE movie_1_showtime_1 time.showing 4:30pm}}\n{{HIDE movie_1_showtime_2 time.showing 6:40pm}}\n{{HIDE movie_1_showtime_3 time.showing 9:10pm}}\n{{HIDE num_tickets num.tickets three}}\n{{HIDE date date.showing tonight}}\n{{HIDE success_closing success.closing OK. Enjoy your movie!}}\nBEFORE YOU BEGIN: Provide a value for this detail.\n{{ENTER people people.tickets Who\u2019s all going to the movie? (use a phrase describing *three people* that includes reference to yourself.)}}\n\n{{CONVERSATION\nhint user (In your own words, express interest in buying movie tickets for var_date and specify theater \u2018var_theater_1\u2019.)\nforce assistant No problem. Is there a particular type of movie you\u2019re looking for?\nhint user (mention \u2018var_genre_1\u2019 in your response)\nforce assistant Sure. I can help with that. Let me check listings at var_theater_2.\nhint user (Correct the agent\u2019s mistake: You wanted \u2018var_theater_1\u2019.)\nforce assistant Oh, sorry about that. So you\u2019re interested in var_genre_1 films at var_theater_1, right?\nhint user (Confirm the agent\u2019s correction.)\ncall find_movies name.genre var_genre_1 name.theater var_theater_1\nresponse find_movies name.movie var_movie_1\ncall find_showtimes name.theater var_theater_1 date.showing var_date name.movie var_movie_1\nresponse find_showtimes time.showing var_movie_1_showtime_1  time.showing var_movie_1_showtime_2  time.showing var_movie_1_showtime_3\nforce assistant OK. I see one var_genre_1 movie playing at var_theater_1: var_movie_1. Remaining showtimes are var_movie_1_showtime_1, var_movie_1_showtime_2 and var_movie_1_showtime_3. Does any of those work?\nhint user (Answer positively and choose \u2018var_movie_1_showtime_3\u2019)\nforce assistant Great. And how many tickets?\nhint user (Include your earlier answer of \u2018var_people\u2019 in this response.)\nforce assistant All right. Let me confirm that you\u2019d like var_num_tickets tickets for var_movie_1 at var_theater_1 var_date at var_movie_1_showtime_3. Is that all correct?\nhint user (Confirm.)\nforce assistant Is it OK to go ahead and purchase these tickets?\nhint user (Give positive answer).\ncall book_tickets name.movie var_movie_1 name.theater var_theater_1 time.showing var_movie_1_showtime_1 num.tickets var_num_tickets date.showing var_date\nresponse book_tickets api.response success\nforce assistant OK. Your tickets are purchased and details for how to proceed have been sent to your email address. Can I help with anything else?\nhint user (polite negative answer)\nforce assistant var_success_closing\n}}\n\n{{CHECK confirm_native_speaker This conversation task was written by a native English speaker.}}\n{{CHECK confirm_logical The conversation between the user and the assistant is cooperative and logical.}}\n{{CHECK confirm_natural All the individual turns from the user (green boxes) sound natural and familiar.}}\n{{CHECK confirm_casual All the individual turns from the user (green boxes) are casual but polite.}}\n{{CHECK confirm_appropriate All the individual turns from the user (green boxes) are free of offensive or inappropriate language.}}\n",
+        "utterances": [
+            {
+                "index": 0,
+                "speaker": "user",
+                "text": "Hi, I want to go see movie tickets for tonight at AMC Mountain 16.",
+                "segments": [
+                    {
+                        "start_index": 39,
+                        "end_index": 46,
+                        "text": "tonight",
+                        "annotations": [
+                            {
+                                "name": "date.showing"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 50,
+                        "end_index": 65,
+                        "text": "AMC Mountain 16",
+                        "annotations": [
+                            {
+                                "name": "name.theater"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "speaker": "assistant",
+                "text": "No problem. Is there a particular type of movie you\u2019re looking for?"
+            },
+            {
+                "index": 2,
+                "speaker": "user",
+                "text": "I think we want to see an action movie.",
+                "segments": [
+                    {
+                        "start_index": 26,
+                        "end_index": 32,
+                        "text": "action",
+                        "annotations": [
+                            {
+                                "name": "name.genre"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "speaker": "assistant",
+                "text": "Sure. I can help with that. Let me check listings at AMC Mercado 24.",
+                "segments": [
+                    {
+                        "start_index": 53,
+                        "end_index": 67,
+                        "text": "AMC Mercado 24",
+                        "annotations": [
+                            {
+                                "name": "name.theater"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 4,
+                "speaker": "user",
+                "text": "No, we want to go to AMC Mountain 16.",
+                "segments": [
+                    {
+                        "start_index": 21,
+                        "end_index": 36,
+                        "text": "AMC Mountain 16",
+                        "annotations": [
+                            {
+                                "name": "name.theater"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 5,
+                "speaker": "assistant",
+                "text": "Oh, sorry about that. So you\u2019re interested in action films at AMC Mountain 16, right?",
+                "segments": [
+                    {
+                        "start_index": 46,
+                        "end_index": 52,
+                        "text": "action",
+                        "annotations": [
+                            {
+                                "name": "name.genre"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 62,
+                        "end_index": 77,
+                        "text": "AMC Mountain 16",
+                        "annotations": [
+                            {
+                                "name": "name.theater"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 6,
+                "speaker": "user",
+                "text": "Yes, that's correct.",
+                "apis": [
+                    {
+                        "index": 6,
+                        "args": {
+                            "name.genre": "action",
+                            "name.theater": "AMC Mountain 16"
+                        },
+                        "response": {
+                            "name.movie_1": "No Time To Die"
+                        },
+                        "name": "find_movies"
+                    },
+                    {
+                        "index": 6,
+                        "args": {
+                            "name.theater": "AMC Mountain 16",
+                            "name.movie": "No Time To Die"
+                        },
+                        "response": {
+                            "time.showing_1": "4:30pm",
+                            "time.showing_2": "6:40pm",
+                            "time.showing_3": "9:10pm"
+                        },
+                        "name": "find_showtimes"
+                    }
+                ]
+            },
+            {
+                "index": 7,
+                "speaker": "assistant",
+                "text": "OK. I see one action movie playing at AMC Mountain 16: No Time To Die. Remaining showtimes are 4:30pm, 6:40pm and 9:10pm. Does any of those work?",
+                "segments": [
+                    {
+                        "start_index": 14,
+                        "end_index": 20,
+                        "text": "action",
+                        "annotations": [
+                            {
+                                "name": "name.genre"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 38,
+                        "end_index": 54,
+                        "text": "AMC Mountain 16:",
+                        "annotations": [
+                            {
+                                "name": "name.theater"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 55,
+                        "end_index": 69,
+                        "text": "No Time To Die",
+                        "annotations": [
+                            {
+                                "name": "name.movie"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 95,
+                        "end_index": 101,
+                        "text": "4:30pm",
+                        "annotations": [
+                            {
+                                "name": "time.showing"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 103,
+                        "end_index": 109,
+                        "text": "6:40pm",
+                        "annotations": [
+                            {
+                                "name": "time.showing"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 114,
+                        "end_index": 120,
+                        "text": "9:10pm",
+                        "annotations": [
+                            {
+                                "name": "time.showing"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 8,
+                "speaker": "user",
+                "text": "Yes! Let's do 9:10 pm.",
+                "segments": [
+                    {
+                        "start_index": 14,
+                        "end_index": 21,
+                        "text": "9:10 pm",
+                        "annotations": [
+                            {
+                                "name": "time.showing"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 9,
+                "speaker": "assistant",
+                "text": "Great. And how many tickets?"
+            },
+            {
+                "index": 10,
+                "speaker": "user",
+                "text": "2 friend and myself are going together, so I'd need 3 tickets."
+            },
+            {
+                "index": 11,
+                "speaker": "assistant",
+                "text": "All right. Let me confirm that you\u2019d like three tickets for No Time To Die at AMC Mountain 16 tonight at 9:10pm. Is that all correct?",
+                "segments": [
+                    {
+                        "start_index": 42,
+                        "end_index": 47,
+                        "text": "three",
+                        "annotations": [
+                            {
+                                "name": "num.tickets"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 60,
+                        "end_index": 74,
+                        "text": "No Time To Die",
+                        "annotations": [
+                            {
+                                "name": "name.movie"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 78,
+                        "end_index": 93,
+                        "text": "AMC Mountain 16",
+                        "annotations": [
+                            {
+                                "name": "name.theater"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 94,
+                        "end_index": 101,
+                        "text": "tonight",
+                        "annotations": [
+                            {
+                                "name": "date.showing"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 105,
+                        "end_index": 111,
+                        "text": "9:10pm",
+                        "annotations": [
+                            {
+                                "name": "time.showing"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 12,
+                "speaker": "user",
+                "text": "Yes, that's great."
+            },
+            {
+                "index": 13,
+                "speaker": "assistant",
+                "text": "Is it OK to go ahead and purchase these tickets?"
+            },
+            {
+                "index": 14,
+                "speaker": "user",
+                "text": "Please do.",
+                "apis": [
+                    {
+                        "index": 14,
+                        "args": {
+                            "name.movie": "No Time To Die",
+                            "name.theater": "AMC Mountain 16",
+                            "time.showing": "4:30pm",
+                            "num.tickets": "three",
+                            "date.showing": "tonight"
+                        },
+                        "response": {
+                            "status": "success"
+                        },
+                        "name": "book_tickets"
+                    }
+                ]
+            },
+            {
+                "index": 15,
+                "speaker": "assistant",
+                "text": "OK. Your tickets are purchased and details for how to proceed have been sent to your email address. Can I help with anything else?"
+            },
+            {
+                "index": 16,
+                "speaker": "user",
+                "text": "No, that's all."
+            },
+            {
+                "index": 17,
+                "speaker": "assistant",
+                "text": "OK. Enjoy your movie!"
+            }
+        ],
+        "filename": "data_01"
+    },
+    {
+        "conversation_id": "dlg-77582711-3085-4824-af1d-216a58c077da",
+        "vertical": "Movie Tickets",
+        "scenario": "Auto template 1 with theater name error",
+        "instructions": "SCENARIO: In the conversation below, a customer is talking to a booking agent to purchase movie tickets. However, the customer\u2019s turns are missing. The details mentioned (theater names, cities, etc.) do NOT necessarily reflect real life, but you should pretend they are real for the purposes of this exercise.\n\nYOUR TASK: {{LIST *Pretend you are the customer*., Fill in the *missing turns* (in green) so that the conversation makes sense and sounds natural., Make sure you *follow the instructions* provided in parentheses for each turn. (Start typing to make the instructions move outside the box.), Do not copy the wording. *Use your own words*., *Use your normal speaking style* for this scenario but don\u2019t be overly chatty., *Do NOT* call the booking agent by any name including \u201csir\u201d \u201cmadam\u201d etc.}}\n\n{{HIDE movie_1 name.movie No Time To Die}}\n{{HIDE theater_1 name.theater AMC Mountain 16}}\n{{HIDE theater_2 name.theater AMC Mercado 24}}\n{{HIDE genre_1 name.genre action}}\n{{HIDE movie_1_showtime_1 time.showing 4:30pm}}\n{{HIDE movie_1_showtime_2 time.showing 6:40pm}}\n{{HIDE movie_1_showtime_3 time.showing 9:10pm}}\n{{HIDE num_tickets num.tickets three}}\n{{HIDE date date.showing tonight}}\n{{HIDE success_closing success.closing OK. Enjoy your movie!}}\nBEFORE YOU BEGIN: Provide a value for this detail.\n{{ENTER people people.tickets Who\u2019s all going to the movie? (use a phrase describing *three people* that includes reference to yourself.)}}\n\n{{CONVERSATION\nhint user (In your own words, express interest in buying movie tickets for var_date and specify theater \u2018var_theater_1\u2019.)\nforce assistant No problem. Is there a particular type of movie you\u2019re looking for?\nhint user (mention \u2018var_genre_1\u2019 in your response)\nforce assistant Sure. I can help with that. Let me check listings at var_theater_2.\nhint user (Correct the agent\u2019s mistake: You wanted \u2018var_theater_1\u2019.)\nforce assistant Oh, sorry about that. So you\u2019re interested in var_genre_1 films at var_theater_1, right?\nhint user (Confirm the agent\u2019s correction.)\ncall find_movies name.genre var_genre_1 name.theater var_theater_1\nresponse find_movies name.movie var_movie_1\ncall find_showtimes name.theater var_theater_1 date.showing var_date name.movie var_movie_1\nresponse find_showtimes time.showing var_movie_1_showtime_1  time.showing var_movie_1_showtime_2  time.showing var_movie_1_showtime_3\nforce assistant OK. I see one var_genre_1 movie playing at var_theater_1: var_movie_1. Remaining showtimes are var_movie_1_showtime_1, var_movie_1_showtime_2 and var_movie_1_showtime_3. Does any of those work?\nhint user (Answer positively and choose \u2018var_movie_1_showtime_3\u2019)\nforce assistant Great. And how many tickets?\nhint user (Include your earlier answer of \u2018var_people\u2019 in this response.)\nforce assistant All right. Let me confirm that you\u2019d like var_num_tickets tickets for var_movie_1 at var_theater_1 var_date at var_movie_1_showtime_3. Is that all correct?\nhint user (Confirm.)\nforce assistant Is it OK to go ahead and purchase these tickets?\nhint user (Give positive answer).\ncall book_tickets name.movie var_movie_1 name.theater var_theater_1 time.showing var_movie_1_showtime_1 num.tickets var_num_tickets date.showing var_date\nresponse book_tickets api.response success\nforce assistant OK. Your tickets are purchased and details for how to proceed have been sent to your email address. Can I help with anything else?\nhint user (polite negative answer)\nforce assistant var_success_closing\n}}\n\n{{CHECK confirm_native_speaker This conversation task was written by a native English speaker.}}\n{{CHECK confirm_logical The conversation between the user and the assistant is cooperative and logical.}}\n{{CHECK confirm_natural All the individual turns from the user (green boxes) sound natural and familiar.}}\n{{CHECK confirm_casual All the individual turns from the user (green boxes) are casual but polite.}}\n{{CHECK confirm_appropriate All the individual turns from the user (green boxes) are free of offensive or inappropriate language.}}\n",
+        "utterances": [
+            {
+                "index": 0,
+                "speaker": "user",
+                "text": "I would like to purchase some movie tickets for the theater AMC Mountain 16.",
+                "segments": [
+                    {
+                        "start_index": 60,
+                        "end_index": 75,
+                        "text": "AMC Mountain 16",
+                        "annotations": [
+                            {
+                                "name": "name.theater"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "speaker": "assistant",
+                "text": "No problem. Is there a particular type of movie you\u2019re looking for?"
+            },
+            {
+                "index": 2,
+                "speaker": "user",
+                "text": "I need to see an action film.",
+                "segments": [
+                    {
+                        "start_index": 17,
+                        "end_index": 23,
+                        "text": "action",
+                        "annotations": [
+                            {
+                                "name": "name.genre"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "speaker": "assistant",
+                "text": "Sure. I can help with that. Let me check listings at AMC Mercado 24.",
+                "segments": [
+                    {
+                        "start_index": 53,
+                        "end_index": 67,
+                        "text": "AMC Mercado 24",
+                        "annotations": [
+                            {
+                                "name": "name.theater"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 4,
+                "speaker": "user",
+                "text": "Not Mercado 24 I need the AMC Mountain 16 please.",
+                "segments": [
+                    {
+                        "start_index": 26,
+                        "end_index": 41,
+                        "text": "AMC Mountain 16",
+                        "annotations": [
+                            {
+                                "name": "name.theater"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 5,
+                "speaker": "assistant",
+                "text": "Oh, sorry about that. So you\u2019re interested in action films at AMC Mountain 16, right?",
+                "segments": [
+                    {
+                        "start_index": 46,
+                        "end_index": 52,
+                        "text": "action",
+                        "annotations": [
+                            {
+                                "name": "name.genre"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 62,
+                        "end_index": 77,
+                        "text": "AMC Mountain 16",
+                        "annotations": [
+                            {
+                                "name": "name.theater"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 6,
+                "speaker": "user",
+                "text": "Yes that is correct the AMC Mountain 16.",
+                "apis": [
+                    {
+                        "index": 6,
+                        "args": {
+                            "name.genre": "action",
+                            "name.theater": "AMC Mountain 16"
+                        },
+                        "response": {
+                            "name.movie_1": "No Time To Die"
+                        },
+                        "name": "find_movies"
+                    },
+                    {
+                        "index": 6,
+                        "args": {
+                            "name.theater": "AMC Mountain 16",
+                            "name.movie": "No Time To Die"
+                        },
+                        "response": {
+                            "time.showing_1": "4:30pm",
+                            "time.showing_2": "6:40pm",
+                            "time.showing_3": "9:10pm"
+                        },
+                        "name": "find_showtimes"
+                    }
+                ]
+            },
+            {
+                "index": 7,
+                "speaker": "assistant",
+                "text": "OK. I see one action movie playing at AMC Mountain 16: No Time To Die. Remaining showtimes are 4:30pm, 6:40pm and 9:10pm. Does any of those work?",
+                "segments": [
+                    {
+                        "start_index": 14,
+                        "end_index": 20,
+                        "text": "action",
+                        "annotations": [
+                            {
+                                "name": "name.genre"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 38,
+                        "end_index": 54,
+                        "text": "AMC Mountain 16:",
+                        "annotations": [
+                            {
+                                "name": "name.theater"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 55,
+                        "end_index": 69,
+                        "text": "No Time To Die",
+                        "annotations": [
+                            {
+                                "name": "name.movie"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 95,
+                        "end_index": 101,
+                        "text": "4:30pm",
+                        "annotations": [
+                            {
+                                "name": "time.showing"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 103,
+                        "end_index": 109,
+                        "text": "6:40pm",
+                        "annotations": [
+                            {
+                                "name": "time.showing"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 114,
+                        "end_index": 120,
+                        "text": "9:10pm",
+                        "annotations": [
+                            {
+                                "name": "time.showing"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 8,
+                "speaker": "user",
+                "text": "Awesome! I will take the 9:10pm showing.",
+                "segments": [
+                    {
+                        "start_index": 25,
+                        "end_index": 31,
+                        "text": "9:10pm",
+                        "annotations": [
+                            {
+                                "name": "time.showing"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 9,
+                "speaker": "assistant",
+                "text": "Great. And how many tickets?"
+            },
+            {
+                "index": 10,
+                "speaker": "user",
+                "text": "I will need three tickets. My three friends and I plan to see the movie together."
+            },
+            {
+                "index": 11,
+                "speaker": "assistant",
+                "text": "All right. Let me confirm that you\u2019d like three tickets for No Time To Die at AMC Mountain 16 tonight at 9:10pm. Is that all correct?",
+                "segments": [
+                    {
+                        "start_index": 42,
+                        "end_index": 47,
+                        "text": "three",
+                        "annotations": [
+                            {
+                                "name": "num.tickets"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 60,
+                        "end_index": 74,
+                        "text": "No Time To Die",
+                        "annotations": [
+                            {
+                                "name": "name.movie"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 78,
+                        "end_index": 93,
+                        "text": "AMC Mountain 16",
+                        "annotations": [
+                            {
+                                "name": "name.theater"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 94,
+                        "end_index": 101,
+                        "text": "tonight",
+                        "annotations": [
+                            {
+                                "name": "date.showing"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 105,
+                        "end_index": 111,
+                        "text": "9:10pm",
+                        "annotations": [
+                            {
+                                "name": "time.showing"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 12,
+                "speaker": "user",
+                "text": "Yes that is correct."
+            },
+            {
+                "index": 13,
+                "speaker": "assistant",
+                "text": "Is it OK to go ahead and purchase these tickets?"
+            },
+            {
+                "index": 14,
+                "speaker": "user",
+                "text": "Yes please do!",
+                "apis": [
+                    {
+                        "index": 14,
+                        "args": {
+                            "name.movie": "No Time To Die",
+                            "name.theater": "AMC Mountain 16",
+                            "time.showing": "4:30pm",
+                            "num.tickets": "three",
+                            "date.showing": "tonight"
+                        },
+                        "response": {
+                            "status": "success"
+                        },
+                        "name": "book_tickets"
+                    }
+                ]
+            },
+            {
+                "index": 15,
+                "speaker": "assistant",
+                "text": "OK. Your tickets are purchased and details for how to proceed have been sent to your email address. Can I help with anything else?"
+            },
+            {
+                "index": 16,
+                "speaker": "user",
+                "text": "Took some time , but glad for the help."
+            },
+            {
+                "index": 17,
+                "speaker": "assistant",
+                "text": "OK. Enjoy your movie!"
+            }
+        ],
+        "filename": "data_01"
+    },
+    {
+        "conversation_id": "dlg-93c4ad2c-7684-4c3d-9a46-0336c12a7c12",
+        "vertical": "Movie Tickets",
+        "scenario": "Auto template 1 with theater name error",
+        "instructions": "SCENARIO: In the conversation below, a customer is talking to a booking agent to purchase movie tickets. However, the customer\u2019s turns are missing. The details mentioned (theater names, cities, etc.) do NOT necessarily reflect real life, but you should pretend they are real for the purposes of this exercise.\n\nYOUR TASK: {{LIST *Pretend you are the customer*., Fill in the *missing turns* (in green) so that the conversation makes sense and sounds natural., Make sure you *follow the instructions* provided in parentheses for each turn. (Start typing to make the instructions move outside the box.), Do not copy the wording. *Use your own words*., *Use your normal speaking style* for this scenario but don\u2019t be overly chatty., *Do NOT* call the booking agent by any name including \u201csir\u201d \u201cmadam\u201d etc.}}\n\n{{HIDE movie_1 name.movie No Time To Die}}\n{{HIDE theater_1 name.theater AMC Mountain 16}}\n{{HIDE theater_2 name.theater AMC Mercado 24}}\n{{HIDE genre_1 name.genre action}}\n{{HIDE movie_1_showtime_1 time.showing 4:30pm}}\n{{HIDE movie_1_showtime_2 time.showing 6:40pm}}\n{{HIDE movie_1_showtime_3 time.showing 9:10pm}}\n{{HIDE num_tickets num.tickets three}}\n{{HIDE date date.showing tonight}}\n{{HIDE success_closing success.closing OK. Enjoy your movie!}}\nBEFORE YOU BEGIN: Provide a value for this detail.\n{{ENTER people people.tickets Who\u2019s all going to the movie? (use a phrase describing *three people* that includes reference to yourself.)}}\n\n{{CONVERSATION\nhint user (In your own words, express interest in buying movie tickets for var_date and specify theater \u2018var_theater_1\u2019.)\nforce assistant No problem. Is there a particular type of movie you\u2019re looking for?\nhint user (mention \u2018var_genre_1\u2019 in your response)\nforce assistant Sure. I can help with that. Let me check listings at var_theater_2.\nhint user (Correct the agent\u2019s mistake: You wanted \u2018var_theater_1\u2019.)\nforce assistant Oh, sorry about that. So you\u2019re interested in var_genre_1 films at var_theater_1, right?\nhint user (Confirm the agent\u2019s correction.)\ncall find_movies name.genre var_genre_1 name.theater var_theater_1\nresponse find_movies name.movie var_movie_1\ncall find_showtimes name.theater var_theater_1 date.showing var_date name.movie var_movie_1\nresponse find_showtimes time.showing var_movie_1_showtime_1  time.showing var_movie_1_showtime_2  time.showing var_movie_1_showtime_3\nforce assistant OK. I see one var_genre_1 movie playing at var_theater_1: var_movie_1. Remaining showtimes are var_movie_1_showtime_1, var_movie_1_showtime_2 and var_movie_1_showtime_3. Does any of those work?\nhint user (Answer positively and choose \u2018var_movie_1_showtime_3\u2019)\nforce assistant Great. And how many tickets?\nhint user (Include your earlier answer of \u2018var_people\u2019 in this response.)\nforce assistant All right. Let me confirm that you\u2019d like var_num_tickets tickets for var_movie_1 at var_theater_1 var_date at var_movie_1_showtime_3. Is that all correct?\nhint user (Confirm.)\nforce assistant Is it OK to go ahead and purchase these tickets?\nhint user (Give positive answer).\ncall book_tickets name.movie var_movie_1 name.theater var_theater_1 time.showing var_movie_1_showtime_1 num.tickets var_num_tickets date.showing var_date\nresponse book_tickets api.response success\nforce assistant OK. Your tickets are purchased and details for how to proceed have been sent to your email address. Can I help with anything else?\nhint user (polite negative answer)\nforce assistant var_success_closing\n}}\n\n{{CHECK confirm_native_speaker This conversation task was written by a native English speaker.}}\n{{CHECK confirm_logical The conversation between the user and the assistant is cooperative and logical.}}\n{{CHECK confirm_natural All the individual turns from the user (green boxes) sound natural and familiar.}}\n{{CHECK confirm_casual All the individual turns from the user (green boxes) are casual but polite.}}\n{{CHECK confirm_appropriate All the individual turns from the user (green boxes) are free of offensive or inappropriate language.}}\n",
+        "utterances": [
+            {
+                "index": 0,
+                "speaker": "user",
+                "text": "My parents and I are interested in watching a movie tonight at AMC Mountain 16 cinema. Can you assist me with that?",
+                "segments": [
+                    {
+                        "start_index": 52,
+                        "end_index": 59,
+                        "text": "tonight",
+                        "annotations": [
+                            {
+                                "name": "date.showing"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 63,
+                        "end_index": 78,
+                        "text": "AMC Mountain 16",
+                        "annotations": [
+                            {
+                                "name": "name.theater"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "speaker": "assistant",
+                "text": "No problem. Is there a particular type of movie you\u2019re looking for?"
+            },
+            {
+                "index": 2,
+                "speaker": "user",
+                "text": "well, seeing that I am taking my dad with us I would prefer an action movie. Do you have anything available?",
+                "segments": [
+                    {
+                        "start_index": 63,
+                        "end_index": 69,
+                        "text": "action",
+                        "annotations": [
+                            {
+                                "name": "name.genre"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "speaker": "assistant",
+                "text": "Sure. I can help with that. Let me check listings at AMC Mercado 24.",
+                "segments": [
+                    {
+                        "start_index": 53,
+                        "end_index": 67,
+                        "text": "AMC Mercado 24",
+                        "annotations": [
+                            {
+                                "name": "name.theater"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 4,
+                "speaker": "user",
+                "text": "May I interupt you for a moment? The movie theater I would like to go is AMC Mountain 16",
+                "segments": [
+                    {
+                        "start_index": 73,
+                        "end_index": 88,
+                        "text": "AMC Mountain 16",
+                        "annotations": [
+                            {
+                                "name": "name.theater"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 5,
+                "speaker": "assistant",
+                "text": "Oh, sorry about that. So you\u2019re interested in action films at AMC Mountain 16, right?",
+                "segments": [
+                    {
+                        "start_index": 46,
+                        "end_index": 52,
+                        "text": "action",
+                        "annotations": [
+                            {
+                                "name": "name.genre"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 62,
+                        "end_index": 77,
+                        "text": "AMC Mountain 16",
+                        "annotations": [
+                            {
+                                "name": "name.theater"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 6,
+                "speaker": "user",
+                "text": "yes. That is correct",
+                "apis": [
+                    {
+                        "index": 6,
+                        "args": {
+                            "name.genre": "action",
+                            "name.theater": "AMC Mountain 16"
+                        },
+                        "response": {
+                            "name.movie_1": "No Time To Die"
+                        },
+                        "name": "find_movies"
+                    },
+                    {
+                        "index": 6,
+                        "args": {
+                            "name.theater": "AMC Mountain 16",
+                            "name.movie": "No Time To Die"
+                        },
+                        "response": {
+                            "time.showing_1": "4:30pm",
+                            "time.showing_2": "6:40pm",
+                            "time.showing_3": "9:10pm"
+                        },
+                        "name": "find_showtimes"
+                    }
+                ]
+            },
+            {
+                "index": 7,
+                "speaker": "assistant",
+                "text": "OK. I see one action movie playing at AMC Mountain 16: No Time To Die. Remaining showtimes are 4:30pm, 6:40pm and 9:10pm. Does any of those work?",
+                "segments": [
+                    {
+                        "start_index": 14,
+                        "end_index": 20,
+                        "text": "action",
+                        "annotations": [
+                            {
+                                "name": "name.genre"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 38,
+                        "end_index": 54,
+                        "text": "AMC Mountain 16:",
+                        "annotations": [
+                            {
+                                "name": "name.theater"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 55,
+                        "end_index": 69,
+                        "text": "No Time To Die",
+                        "annotations": [
+                            {
+                                "name": "name.movie"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 95,
+                        "end_index": 101,
+                        "text": "4:30pm",
+                        "annotations": [
+                            {
+                                "name": "time.showing"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 103,
+                        "end_index": 109,
+                        "text": "6:40pm",
+                        "annotations": [
+                            {
+                                "name": "time.showing"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 114,
+                        "end_index": 120,
+                        "text": "9:10pm",
+                        "annotations": [
+                            {
+                                "name": "time.showing"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 8,
+                "speaker": "user",
+                "text": "Yes. I believe we can make the 9:10pm showing",
+                "segments": [
+                    {
+                        "start_index": 31,
+                        "end_index": 37,
+                        "text": "9:10pm",
+                        "annotations": [
+                            {
+                                "name": "time.showing"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 9,
+                "speaker": "assistant",
+                "text": "Great. And how many tickets?"
+            },
+            {
+                "index": 10,
+                "speaker": "user",
+                "text": "that will be three, my mom, dad, and I."
+            },
+            {
+                "index": 11,
+                "speaker": "assistant",
+                "text": "All right. Let me confirm that you\u2019d like three tickets for No Time To Die at AMC Mountain 16 tonight at 9:10pm. Is that all correct?",
+                "segments": [
+                    {
+                        "start_index": 42,
+                        "end_index": 47,
+                        "text": "three",
+                        "annotations": [
+                            {
+                                "name": "num.tickets"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 60,
+                        "end_index": 74,
+                        "text": "No Time To Die",
+                        "annotations": [
+                            {
+                                "name": "name.movie"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 78,
+                        "end_index": 93,
+                        "text": "AMC Mountain 16",
+                        "annotations": [
+                            {
+                                "name": "name.theater"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 94,
+                        "end_index": 101,
+                        "text": "tonight",
+                        "annotations": [
+                            {
+                                "name": "date.showing"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 105,
+                        "end_index": 111,
+                        "text": "9:10pm",
+                        "annotations": [
+                            {
+                                "name": "time.showing"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 12,
+                "speaker": "user",
+                "text": "you've got it"
+            },
+            {
+                "index": 13,
+                "speaker": "assistant",
+                "text": "Is it OK to go ahead and purchase these tickets?"
+            },
+            {
+                "index": 14,
+                "speaker": "user",
+                "text": "yes. go right ahead",
+                "apis": [
+                    {
+                        "index": 14,
+                        "args": {
+                            "name.movie": "No Time To Die",
+                            "name.theater": "AMC Mountain 16",
+                            "time.showing": "4:30pm",
+                            "num.tickets": "three",
+                            "date.showing": "tonight"
+                        },
+                        "response": {
+                            "status": "success"
+                        },
+                        "name": "book_tickets"
+                    }
+                ]
+            },
+            {
+                "index": 15,
+                "speaker": "assistant",
+                "text": "OK. Your tickets are purchased and details for how to proceed have been sent to your email address. Can I help with anything else?"
+            },
+            {
+                "index": 16,
+                "speaker": "user",
+                "text": "not for the moment. you've have been a great help."
+            },
+            {
+                "index": 17,
+                "speaker": "assistant",
+                "text": "OK. Enjoy your movie!"
+            }
+        ],
+        "filename": "data_01"
+    },
+    {
+        "conversation_id": "dlg-7ab34bbd-8f89-46f8-a014-59093ddbca70",
+        "vertical": "Movie Tickets",
+        "scenario": "Auto template 1 with theater name error",
+        "instructions": "SCENARIO: In the conversation below, a customer is talking to a booking agent to purchase movie tickets. However, the customer\u2019s turns are missing. The details mentioned (theater names, cities, etc.) do NOT necessarily reflect real life, but you should pretend they are real for the purposes of this exercise.\n\nYOUR TASK: {{LIST *Pretend you are the customer*., Fill in the *missing turns* (in green) so that the conversation makes sense and sounds natural., Make sure you *follow the instructions* provided in parentheses for each turn. (Start typing to make the instructions move outside the box.), Do not copy the wording. *Use your own words*., *Use your normal speaking style* for this scenario but don\u2019t be overly chatty., *Do NOT* call the booking agent by any name including \u201csir\u201d \u201cmadam\u201d etc.}}\n\n{{HIDE movie_1 name.movie No Time To Die}}\n{{HIDE theater_1 name.theater AMC Mountain 16}}\n{{HIDE theater_2 name.theater AMC Mercado 24}}\n{{HIDE genre_1 name.genre action}}\n{{HIDE movie_1_showtime_1 time.showing 4:30pm}}\n{{HIDE movie_1_showtime_2 time.showing 6:40pm}}\n{{HIDE movie_1_showtime_3 time.showing 9:10pm}}\n{{HIDE num_tickets num.tickets three}}\n{{HIDE date date.showing tonight}}\n{{HIDE success_closing success.closing OK. Enjoy your movie!}}\nBEFORE YOU BEGIN: Provide a value for this detail.\n{{ENTER people people.tickets Who\u2019s all going to the movie? (use a phrase describing *three people* that includes reference to yourself.)}}\n\n{{CONVERSATION\nhint user (In your own words, express interest in buying movie tickets for var_date and specify theater \u2018var_theater_1\u2019.)\nforce assistant No problem. Is there a particular type of movie you\u2019re looking for?\nhint user (mention \u2018var_genre_1\u2019 in your response)\nforce assistant Sure. I can help with that. Let me check listings at var_theater_2.\nhint user (Correct the agent\u2019s mistake: You wanted \u2018var_theater_1\u2019.)\nforce assistant Oh, sorry about that. So you\u2019re interested in var_genre_1 films at var_theater_1, right?\nhint user (Confirm the agent\u2019s correction.)\ncall find_movies name.genre var_genre_1 name.theater var_theater_1\nresponse find_movies name.movie var_movie_1\ncall find_showtimes name.theater var_theater_1 date.showing var_date name.movie var_movie_1\nresponse find_showtimes time.showing var_movie_1_showtime_1  time.showing var_movie_1_showtime_2  time.showing var_movie_1_showtime_3\nforce assistant OK. I see one var_genre_1 movie playing at var_theater_1: var_movie_1. Remaining showtimes are var_movie_1_showtime_1, var_movie_1_showtime_2 and var_movie_1_showtime_3. Does any of those work?\nhint user (Answer positively and choose \u2018var_movie_1_showtime_3\u2019)\nforce assistant Great. And how many tickets?\nhint user (Include your earlier answer of \u2018var_people\u2019 in this response.)\nforce assistant All right. Let me confirm that you\u2019d like var_num_tickets tickets for var_movie_1 at var_theater_1 var_date at var_movie_1_showtime_3. Is that all correct?\nhint user (Confirm.)\nforce assistant Is it OK to go ahead and purchase these tickets?\nhint user (Give positive answer).\ncall book_tickets name.movie var_movie_1 name.theater var_theater_1 time.showing var_movie_1_showtime_1 num.tickets var_num_tickets date.showing var_date\nresponse book_tickets api.response success\nforce assistant OK. Your tickets are purchased and details for how to proceed have been sent to your email address. Can I help with anything else?\nhint user (polite negative answer)\nforce assistant var_success_closing\n}}\n\n{{CHECK confirm_native_speaker This conversation task was written by a native English speaker.}}\n{{CHECK confirm_logical The conversation between the user and the assistant is cooperative and logical.}}\n{{CHECK confirm_natural All the individual turns from the user (green boxes) sound natural and familiar.}}\n{{CHECK confirm_casual All the individual turns from the user (green boxes) are casual but polite.}}\n{{CHECK confirm_appropriate All the individual turns from the user (green boxes) are free of offensive or inappropriate language.}}\n",
+        "utterances": [
+            {
+                "index": 0,
+                "speaker": "user",
+                "text": "Hey, could you look into movies playing at AMC Mountain 16.",
+                "segments": [
+                    {
+                        "start_index": 43,
+                        "end_index": 58,
+                        "text": "AMC Mountain 16",
+                        "annotations": [
+                            {
+                                "name": "name.theater"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "speaker": "assistant",
+                "text": "No problem. Is there a particular type of movie you\u2019re looking for?"
+            },
+            {
+                "index": 2,
+                "speaker": "user",
+                "text": "Yeah, I'm looking for a good action flick.",
+                "segments": [
+                    {
+                        "start_index": 29,
+                        "end_index": 35,
+                        "text": "action",
+                        "annotations": [
+                            {
+                                "name": "name.genre"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "speaker": "assistant",
+                "text": "Sure. I can help with that. Let me check listings at AMC Mercado 24.",
+                "segments": [
+                    {
+                        "start_index": 53,
+                        "end_index": 67,
+                        "text": "AMC Mercado 24",
+                        "annotations": [
+                            {
+                                "name": "name.theater"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 4,
+                "speaker": "user",
+                "text": "No. Mountain 16, not Mercado 24. AMC Mountain 16.",
+                "segments": [
+                    {
+                        "start_index": 33,
+                        "end_index": 48,
+                        "text": "AMC Mountain 16",
+                        "annotations": [
+                            {
+                                "name": "name.theater"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 5,
+                "speaker": "assistant",
+                "text": "Oh, sorry about that. So you\u2019re interested in action films at AMC Mountain 16, right?",
+                "segments": [
+                    {
+                        "start_index": 46,
+                        "end_index": 52,
+                        "text": "action",
+                        "annotations": [
+                            {
+                                "name": "name.genre"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 62,
+                        "end_index": 77,
+                        "text": "AMC Mountain 16",
+                        "annotations": [
+                            {
+                                "name": "name.theater"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 6,
+                "speaker": "user",
+                "text": "You got it.",
+                "apis": [
+                    {
+                        "index": 6,
+                        "args": {
+                            "name.genre": "action",
+                            "name.theater": "AMC Mountain 16"
+                        },
+                        "response": {
+                            "name.movie_1": "No Time To Die"
+                        },
+                        "name": "find_movies"
+                    },
+                    {
+                        "index": 6,
+                        "args": {
+                            "name.theater": "AMC Mountain 16",
+                            "name.movie": "No Time To Die"
+                        },
+                        "response": {
+                            "time.showing_1": "4:30pm",
+                            "time.showing_2": "6:40pm",
+                            "time.showing_3": "9:10pm"
+                        },
+                        "name": "find_showtimes"
+                    }
+                ]
+            },
+            {
+                "index": 7,
+                "speaker": "assistant",
+                "text": "OK. I see one action movie playing at AMC Mountain 16: No Time To Die. Remaining showtimes are 4:30pm, 6:40pm and 9:10pm. Does any of those work?",
+                "segments": [
+                    {
+                        "start_index": 14,
+                        "end_index": 20,
+                        "text": "action",
+                        "annotations": [
+                            {
+                                "name": "name.genre"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 38,
+                        "end_index": 54,
+                        "text": "AMC Mountain 16:",
+                        "annotations": [
+                            {
+                                "name": "name.theater"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 55,
+                        "end_index": 69,
+                        "text": "No Time To Die",
+                        "annotations": [
+                            {
+                                "name": "name.movie"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 95,
+                        "end_index": 101,
+                        "text": "4:30pm",
+                        "annotations": [
+                            {
+                                "name": "time.showing"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 103,
+                        "end_index": 109,
+                        "text": "6:40pm",
+                        "annotations": [
+                            {
+                                "name": "time.showing"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 114,
+                        "end_index": 120,
+                        "text": "9:10pm",
+                        "annotations": [
+                            {
+                                "name": "time.showing"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 8,
+                "speaker": "user",
+                "text": "Lets go with 9:10pm",
+                "segments": [
+                    {
+                        "start_index": 13,
+                        "end_index": 19,
+                        "text": "9:10pm",
+                        "annotations": [
+                            {
+                                "name": "time.showing"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 9,
+                "speaker": "assistant",
+                "text": "Great. And how many tickets?"
+            },
+            {
+                "index": 10,
+                "speaker": "user",
+                "text": "Three. It's me and two of my buddies."
+            },
+            {
+                "index": 11,
+                "speaker": "assistant",
+                "text": "All right. Let me confirm that you\u2019d like three tickets for No Time To Die at AMC Mountain 16 tonight at 9:10pm. Is that all correct?",
+                "segments": [
+                    {
+                        "start_index": 42,
+                        "end_index": 47,
+                        "text": "three",
+                        "annotations": [
+                            {
+                                "name": "num.tickets"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 60,
+                        "end_index": 74,
+                        "text": "No Time To Die",
+                        "annotations": [
+                            {
+                                "name": "name.movie"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 78,
+                        "end_index": 93,
+                        "text": "AMC Mountain 16",
+                        "annotations": [
+                            {
+                                "name": "name.theater"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 94,
+                        "end_index": 101,
+                        "text": "tonight",
+                        "annotations": [
+                            {
+                                "name": "date.showing"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 105,
+                        "end_index": 111,
+                        "text": "9:10pm",
+                        "annotations": [
+                            {
+                                "name": "time.showing"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 12,
+                "speaker": "user",
+                "text": "You got it."
+            },
+            {
+                "index": 13,
+                "speaker": "assistant",
+                "text": "Is it OK to go ahead and purchase these tickets?"
+            },
+            {
+                "index": 14,
+                "speaker": "user",
+                "text": "Yeah. Pull the trigger.",
+                "apis": [
+                    {
+                        "index": 14,
+                        "args": {
+                            "name.movie": "No Time To Die",
+                            "name.theater": "AMC Mountain 16",
+                            "time.showing": "4:30pm",
+                            "num.tickets": "three",
+                            "date.showing": "tonight"
+                        },
+                        "response": {
+                            "status": "success"
+                        },
+                        "name": "book_tickets"
+                    }
+                ]
+            },
+            {
+                "index": 15,
+                "speaker": "assistant",
+                "text": "OK. Your tickets are purchased and details for how to proceed have been sent to your email address. Can I help with anything else?"
+            },
+            {
+                "index": 16,
+                "speaker": "user",
+                "text": "No thanks. I'm set for now."
+            },
+            {
+                "index": 17,
+                "speaker": "assistant",
+                "text": "OK. Enjoy your movie!"
+            }
+        ],
+        "filename": "data_01"
+    }
+]

@@ -1,0 +1,114 @@
+{
+    "slots": {
+        "num_people": [
+            "4",
+            "6",
+            "3",
+            "5",
+            "2"
+        ],
+        "restaurant_name": [
+            "oren hummus",
+            ".ink",
+            "deep blue",
+            "ephesus",
+            "pepper",
+            "amber india",
+            "angel",
+            "cetrella",
+            "cheese cake factory",
+            "acorn",
+            "amarin",
+            "sumiko",
+            "pompei",
+            "sushi boat",
+            "cascal",
+            "los altos grill",
+            "the hudson room",
+            "amber",
+            "sakoon",
+            "sweet greens",
+            "the nest",
+            "oren",
+            "the ivy",
+            "il fornaio",
+            "boats",
+            "high rooftop lounge",
+            "the view",
+            "evvia"
+        ],
+        "date": [
+            "wednesday",
+            "tomorrow",
+            "tonight",
+            "friday",
+            "next monday"
+        ],
+        "time": [
+            "8 pm",
+            "6.15 pm",
+            "7.30 pm",
+            "6 pm",
+            "5 pm",
+            "7 pm",
+            "5.30 pm",
+            "8.30 pm",
+            "dontcare",
+            "7.15 pm",
+            "6.30 pm"
+        ],
+        "meal": [
+            "dinner",
+            "brunch",
+            "breakfast",
+            "dontcare",
+            "lunch"
+        ],
+        "location": [
+            "redmond",
+            "madison",
+            "morristown",
+            "orlando",
+            "kirkland",
+            "yorktown heights",
+            "middletown",
+            "los altos",
+            "mountain view"
+        ],
+        "price_range": [
+            "moderately priced",
+            "dontcare",
+            "inexpensive",
+            "expensive"
+        ],
+        "category": [
+            "mediterranean",
+            "italian",
+            "thai",
+            "dontcare",
+            "taiwanese",
+            "french",
+            "indian",
+            "greek",
+            "vietnamese",
+            "chinese"
+        ],
+        "rating": [
+            "good",
+            "zagat rated",
+            "dontcare",
+            "michelin rated"
+        ]
+    },
+    "intents": [
+        "GREETING",
+        "REQUEST_ALTS",
+        "OTHER",
+        "CANT_UNDERSTAND",
+        "NEGATE",
+        "THANK_YOU",
+        "GOOD_BYE",
+        "INFORM",
+        "AFFIRM"
+    ]
+}

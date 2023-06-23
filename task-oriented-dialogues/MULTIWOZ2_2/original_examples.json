@@ -1,0 +1,4302 @@
+[
+    {
+        "dialogue_id": "PMUL4398.json",
+        "services": [
+            "restaurant",
+            "hotel"
+        ],
+        "turns": [
+            {
+                "frames": [
+                    {
+                        "actions": [],
+                        "service": "restaurant",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "find_restaurant",
+                            "requested_slots": [],
+                            "slot_values": {
+                                "restaurant-area": [
+                                    "centre"
+                                ],
+                                "restaurant-pricerange": [
+                                    "expensive"
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "taxi",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "train",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "bus",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "police",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "hotel",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "find_hotel",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "attraction",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "hospital",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    }
+                ],
+                "speaker": "USER",
+                "turn_id": "0",
+                "utterance": "i need a place to dine in the center thats expensive"
+            },
+            {
+                "frames": [],
+                "speaker": "SYSTEM",
+                "turn_id": "1",
+                "utterance": "I have several options for you; do you prefer African, Asian, or British food?"
+            },
+            {
+                "frames": [
+                    {
+                        "actions": [],
+                        "service": "restaurant",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "find_restaurant",
+                            "requested_slots": [
+                                "restaurant-food"
+                            ],
+                            "slot_values": {
+                                "restaurant-area": [
+                                    "centre"
+                                ],
+                                "restaurant-pricerange": [
+                                    "expensive"
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "taxi",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "train",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "bus",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "police",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "hotel",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "find_hotel",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "attraction",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "hospital",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    }
+                ],
+                "speaker": "USER",
+                "turn_id": "2",
+                "utterance": "Any sort of food would be fine, as long as it is a bit expensive. Could I get the phone number for your recommendation?"
+            },
+            {
+                "frames": [
+                    {
+                        "actions": [],
+                        "service": "restaurant",
+                        "slots": [
+                            {
+                                "exclusive_end": 38,
+                                "slot": "restaurant-name",
+                                "start": 31,
+                                "value": "Bedouin"
+                            }
+                        ]
+                    }
+                ],
+                "speaker": "SYSTEM",
+                "turn_id": "3",
+                "utterance": "There is an Afrian place named Bedouin in the centre. How does that sound?"
+            },
+            {
+                "frames": [
+                    {
+                        "actions": [],
+                        "service": "restaurant",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "find_restaurant",
+                            "requested_slots": [
+                                "restaurant-phone"
+                            ],
+                            "slot_values": {
+                                "restaurant-area": [
+                                    "centre"
+                                ],
+                                "restaurant-name": [
+                                    "bedouin"
+                                ],
+                                "restaurant-pricerange": [
+                                    "expensive"
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "hotel",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "find_hotel",
+                            "requested_slots": [],
+                            "slot_values": {
+                                "hotel-pricerange": [
+                                    "expensive"
+                                ],
+                                "hotel-type": [
+                                    "hotel"
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "taxi",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "train",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "bus",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "police",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "attraction",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "hospital",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    }
+                ],
+                "speaker": "USER",
+                "turn_id": "4",
+                "utterance": "Sounds good, could I get that phone number? Also, could you recommend me an expensive hotel?"
+            },
+            {
+                "frames": [
+                    {
+                        "actions": [],
+                        "service": "hotel",
+                        "slots": [
+                            {
+                                "exclusive_end": 90,
+                                "slot": "hotel-name",
+                                "start": 69,
+                                "value": "University Arms Hotel"
+                            }
+                        ]
+                    }
+                ],
+                "speaker": "SYSTEM",
+                "turn_id": "5",
+                "utterance": "Bedouin's phone is 01223367660. As far as hotels go, I recommend the University Arms Hotel in the center of town."
+            },
+            {
+                "frames": [
+                    {
+                        "actions": [],
+                        "service": "restaurant",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {
+                                "restaurant-area": [
+                                    "centre"
+                                ],
+                                "restaurant-name": [
+                                    "bedouin"
+                                ],
+                                "restaurant-pricerange": [
+                                    "expensive"
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "hotel",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "find_hotel",
+                            "requested_slots": [],
+                            "slot_values": {
+                                "hotel-name": [
+                                    "university arms hotel"
+                                ],
+                                "hotel-pricerange": [
+                                    "expensive"
+                                ],
+                                "hotel-type": [
+                                    "hotel"
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "taxi",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "train",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "bus",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "police",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "attraction",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "hospital",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    }
+                ],
+                "speaker": "USER",
+                "turn_id": "6",
+                "utterance": "Yes. Can you book it for me?"
+            },
+            {
+                "frames": [],
+                "speaker": "SYSTEM",
+                "turn_id": "7",
+                "utterance": "Sure, when would you like that reservation?"
+            },
+            {
+                "frames": [
+                    {
+                        "actions": [],
+                        "service": "restaurant",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {
+                                "restaurant-area": [
+                                    "centre"
+                                ],
+                                "restaurant-name": [
+                                    "bedouin"
+                                ],
+                                "restaurant-pricerange": [
+                                    "expensive"
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "hotel",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "book_hotel",
+                            "requested_slots": [],
+                            "slot_values": {
+                                "hotel-bookday": [
+                                    "saturday"
+                                ],
+                                "hotel-bookpeople": [
+                                    "2"
+                                ],
+                                "hotel-bookstay": [
+                                    "2"
+                                ],
+                                "hotel-name": [
+                                    "university arms hotel"
+                                ],
+                                "hotel-pricerange": [
+                                    "expensive"
+                                ],
+                                "hotel-type": [
+                                    "hotel"
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "taxi",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "train",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "bus",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "police",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "attraction",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "hospital",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    }
+                ],
+                "speaker": "USER",
+                "turn_id": "8",
+                "utterance": "i want to book it for 2 people and 2 nights starting from saturday."
+            },
+            {
+                "frames": [],
+                "speaker": "SYSTEM",
+                "turn_id": "9",
+                "utterance": "Your booking was successful. Your reference number is FRGZWQL2 . May I help you further?"
+            },
+            {
+                "frames": [
+                    {
+                        "actions": [],
+                        "service": "restaurant",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {
+                                "restaurant-area": [
+                                    "centre"
+                                ],
+                                "restaurant-name": [
+                                    "bedouin"
+                                ],
+                                "restaurant-pricerange": [
+                                    "expensive"
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "hotel",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {
+                                "hotel-bookday": [
+                                    "saturday"
+                                ],
+                                "hotel-bookpeople": [
+                                    "2"
+                                ],
+                                "hotel-bookstay": [
+                                    "2"
+                                ],
+                                "hotel-name": [
+                                    "university arms hotel"
+                                ],
+                                "hotel-pricerange": [
+                                    "expensive"
+                                ],
+                                "hotel-type": [
+                                    "hotel"
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "taxi",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "train",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "bus",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "police",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "attraction",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "hospital",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    }
+                ],
+                "speaker": "USER",
+                "turn_id": "10",
+                "utterance": "That is all I need to know. Thanks, good bye."
+            },
+            {
+                "frames": [],
+                "speaker": "SYSTEM",
+                "turn_id": "11",
+                "utterance": "Thank you so much for Cambridge TownInfo centre. Have a great day!"
+            }
+        ],
+        "filename": "dialogues_001"
+    },
+    {
+        "dialogue_id": "SNG1013.json",
+        "services": [
+            "hotel"
+        ],
+        "turns": [
+            {
+                "frames": [
+                    {
+                        "actions": [],
+                        "service": "hotel",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "find_hotel",
+                            "requested_slots": [],
+                            "slot_values": {
+                                "hotel-area": [
+                                    "centre"
+                                ],
+                                "hotel-internet": [
+                                    "yes"
+                                ],
+                                "hotel-parking": [
+                                    "yes"
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "taxi",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "train",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "bus",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "police",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "restaurant",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "attraction",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "hospital",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    }
+                ],
+                "speaker": "USER",
+                "turn_id": "0",
+                "utterance": "Guten Tag, I am staying overnight in Cambridge and need a place to sleep. I need free parking and internet."
+            },
+            {
+                "frames": [],
+                "speaker": "SYSTEM",
+                "turn_id": "1",
+                "utterance": "I have 4 different options for you. I have two cheaper guesthouses and two expensive hotels. Do you have a preference?"
+            },
+            {
+                "frames": [
+                    {
+                        "actions": [],
+                        "service": "hotel",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "find_hotel",
+                            "requested_slots": [],
+                            "slot_values": {
+                                "hotel-area": [
+                                    "south"
+                                ],
+                                "hotel-internet": [
+                                    "yes"
+                                ],
+                                "hotel-parking": [
+                                    "yes"
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "taxi",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "train",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "bus",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "police",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "restaurant",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "find_restaurant",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "attraction",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "hospital",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    }
+                ],
+                "speaker": "USER",
+                "turn_id": "2",
+                "utterance": "No, but I'd really like to be on the south end of the city. Do any of those fit the bill?"
+            },
+            {
+                "frames": [],
+                "speaker": "SYSTEM",
+                "turn_id": "3",
+                "utterance": "Sure. Does price matter? We can narrow it down and find exactly what you need."
+            },
+            {
+                "frames": [
+                    {
+                        "actions": [],
+                        "service": "hotel",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "find_hotel",
+                            "requested_slots": [],
+                            "slot_values": {
+                                "hotel-area": [
+                                    "south"
+                                ],
+                                "hotel-internet": [
+                                    "yes"
+                                ],
+                                "hotel-parking": [
+                                    "yes"
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "taxi",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "train",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "bus",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "police",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "restaurant",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "find_restaurant",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "attraction",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "hospital",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    }
+                ],
+                "speaker": "USER",
+                "turn_id": "4",
+                "utterance": "No I don't care about the price. Which one do you recommend?"
+            },
+            {
+                "frames": [
+                    {
+                        "actions": [],
+                        "service": "hotel",
+                        "slots": [
+                            {
+                                "exclusive_end": 45,
+                                "slot": "hotel-name",
+                                "start": 18,
+                                "value": "aylesbray lodge guest house"
+                            }
+                        ]
+                    }
+                ],
+                "speaker": "SYSTEM",
+                "turn_id": "5",
+                "utterance": "I would recommend aylesbray lodge guest house. Would you like me to book that for you?"
+            },
+            {
+                "frames": [
+                    {
+                        "actions": [],
+                        "service": "hotel",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "book_hotel",
+                            "requested_slots": [],
+                            "slot_values": {
+                                "hotel-area": [
+                                    "south"
+                                ],
+                                "hotel-bookday": [
+                                    "tuesday"
+                                ],
+                                "hotel-bookpeople": [
+                                    "4"
+                                ],
+                                "hotel-bookstay": [
+                                    "4"
+                                ],
+                                "hotel-internet": [
+                                    "yes"
+                                ],
+                                "hotel-parking": [
+                                    "yes"
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "taxi",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "train",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "bus",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "police",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "restaurant",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "attraction",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "hospital",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    }
+                ],
+                "speaker": "USER",
+                "turn_id": "6",
+                "utterance": "Yes, book it for 4 people and 4 nights starting from tuesday."
+            },
+            {
+                "frames": [],
+                "speaker": "SYSTEM",
+                "turn_id": "7",
+                "utterance": "The booking was unsuccessful. would you like another day or a shorter stay?"
+            },
+            {
+                "frames": [
+                    {
+                        "actions": [],
+                        "service": "hotel",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "book_hotel",
+                            "requested_slots": [],
+                            "slot_values": {
+                                "hotel-area": [
+                                    "south"
+                                ],
+                                "hotel-bookday": [
+                                    "tuesday"
+                                ],
+                                "hotel-bookpeople": [
+                                    "4"
+                                ],
+                                "hotel-bookstay": [
+                                    "3"
+                                ],
+                                "hotel-internet": [
+                                    "yes"
+                                ],
+                                "hotel-name": [
+                                    "aylesbray lodge guest house"
+                                ],
+                                "hotel-parking": [
+                                    "yes"
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "taxi",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "train",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "bus",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "police",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "restaurant",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "attraction",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "hospital",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    }
+                ],
+                "speaker": "USER",
+                "turn_id": "8",
+                "utterance": "How about for 3 nights?"
+            },
+            {
+                "frames": [],
+                "speaker": "SYSTEM",
+                "turn_id": "9",
+                "utterance": "Booked! Reference number is: 84ESP6F5"
+            },
+            {
+                "frames": [
+                    {
+                        "actions": [],
+                        "service": "hotel",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {
+                                "hotel-area": [
+                                    "south"
+                                ],
+                                "hotel-bookday": [
+                                    "tuesday"
+                                ],
+                                "hotel-bookpeople": [
+                                    "4"
+                                ],
+                                "hotel-bookstay": [
+                                    "3"
+                                ],
+                                "hotel-internet": [
+                                    "yes"
+                                ],
+                                "hotel-name": [
+                                    "aylesbray lodge guest house"
+                                ],
+                                "hotel-parking": [
+                                    "yes"
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "taxi",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "train",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "bus",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "police",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "restaurant",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "attraction",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "hospital",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    }
+                ],
+                "speaker": "USER",
+                "turn_id": "10",
+                "utterance": "Great. I am all set then. Have a nice day. Bye."
+            },
+            {
+                "frames": [],
+                "speaker": "SYSTEM",
+                "turn_id": "11",
+                "utterance": "Have a nice stay. Bye."
+            }
+        ],
+        "filename": "dialogues_001"
+    },
+    {
+        "dialogue_id": "PMUL0121.json",
+        "services": [
+            "restaurant",
+            "hotel"
+        ],
+        "turns": [
+            {
+                "frames": [
+                    {
+                        "actions": [],
+                        "service": "hotel",
+                        "slots": [
+                            {
+                                "exclusive_end": 48,
+                                "slot": "hotel-name",
+                                "start": 39,
+                                "value": "Cityroomz"
+                            }
+                        ],
+                        "state": {
+                            "active_intent": "find_hotel",
+                            "requested_slots": [],
+                            "slot_values": {
+                                "hotel-name": [
+                                    "cityroomz"
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "taxi",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "train",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "bus",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "police",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "restaurant",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "attraction",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "hospital",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    }
+                ],
+                "speaker": "USER",
+                "turn_id": "0",
+                "utterance": "Hi there! Can you give me some info on Cityroomz?"
+            },
+            {
+                "frames": [],
+                "speaker": "SYSTEM",
+                "turn_id": "1",
+                "utterance": "Cityroomz is located at Sleeperz Hotel, Station Road in the Centre area. It is a moderatley priced hotel with a 0 star rating. Would you like to book a room?"
+            },
+            {
+                "frames": [
+                    {
+                        "actions": [],
+                        "service": "hotel",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "book_hotel",
+                            "requested_slots": [],
+                            "slot_values": {
+                                "hotel-bookday": [
+                                    "tuesday"
+                                ],
+                                "hotel-bookpeople": [
+                                    "7"
+                                ],
+                                "hotel-bookstay": [
+                                    "3"
+                                ],
+                                "hotel-name": [
+                                    "cityroomz"
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "taxi",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "train",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "bus",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "police",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "restaurant",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "attraction",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "hospital",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    }
+                ],
+                "speaker": "USER",
+                "turn_id": "2",
+                "utterance": "Yes please. I need it for 7 people for 3 nights starting on tuesday."
+            },
+            {
+                "frames": [],
+                "speaker": "SYSTEM",
+                "turn_id": "3",
+                "utterance": "How many days would you like to book it for?"
+            },
+            {
+                "frames": [
+                    {
+                        "actions": [],
+                        "service": "hotel",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "book_hotel",
+                            "requested_slots": [],
+                            "slot_values": {
+                                "hotel-bookday": [
+                                    "tuesday"
+                                ],
+                                "hotel-bookpeople": [
+                                    "7"
+                                ],
+                                "hotel-bookstay": [
+                                    "3"
+                                ],
+                                "hotel-name": [
+                                    "cityroomz"
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "taxi",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "train",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "bus",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "police",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "restaurant",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "attraction",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "hospital",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    }
+                ],
+                "speaker": "USER",
+                "turn_id": "4",
+                "utterance": "I would like to book it for 3 nights beginning on Tuesday."
+            },
+            {
+                "frames": [],
+                "speaker": "SYSTEM",
+                "turn_id": "5",
+                "utterance": "Ok, Your rooms have been booked. Your reference number is CYJDAR7R . Is there anything else I can help you with today?"
+            },
+            {
+                "frames": [
+                    {
+                        "actions": [],
+                        "service": "restaurant",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "find_restaurant",
+                            "requested_slots": [],
+                            "slot_values": {
+                                "restaurant-area": [
+                                    "west"
+                                ],
+                                "restaurant-pricerange": [
+                                    "expensive"
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "hotel",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {
+                                "hotel-bookday": [
+                                    "tuesday"
+                                ],
+                                "hotel-bookpeople": [
+                                    "7"
+                                ],
+                                "hotel-bookstay": [
+                                    "3"
+                                ],
+                                "hotel-name": [
+                                    "cityroomz"
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "taxi",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "train",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "bus",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "police",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "attraction",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "hospital",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    }
+                ],
+                "speaker": "USER",
+                "turn_id": "6",
+                "utterance": "Yeah, I need a restaurant in the west and with expensive pricing."
+            },
+            {
+                "frames": [],
+                "speaker": "SYSTEM",
+                "turn_id": "7",
+                "utterance": "There are 9 expensive restaurants in the west area. Do you prefer a certain type of food?"
+            },
+            {
+                "frames": [
+                    {
+                        "actions": [],
+                        "service": "restaurant",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "find_restaurant",
+                            "requested_slots": [
+                                "restaurant-phone",
+                                "restaurant-postcode"
+                            ],
+                            "slot_values": {
+                                "restaurant-area": [
+                                    "west"
+                                ],
+                                "restaurant-pricerange": [
+                                    "expensive"
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "hotel",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {
+                                "hotel-bookday": [
+                                    "tuesday"
+                                ],
+                                "hotel-bookpeople": [
+                                    "7"
+                                ],
+                                "hotel-bookstay": [
+                                    "3"
+                                ],
+                                "hotel-name": [
+                                    "cityroomz"
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "taxi",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "train",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "bus",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "police",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "attraction",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "hospital",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    }
+                ],
+                "speaker": "USER",
+                "turn_id": "8",
+                "utterance": "No, I don't have a preference, but I need the phone number and postcode."
+            },
+            {
+                "frames": [],
+                "speaker": "SYSTEM",
+                "turn_id": "9",
+                "utterance": "I recommend Graffiti, the number is 01223277977 and the postcode is cb30lx. Would you like me to book a table for you?"
+            },
+            {
+                "frames": [
+                    {
+                        "actions": [],
+                        "service": "restaurant",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {
+                                "restaurant-area": [
+                                    "west"
+                                ],
+                                "restaurant-pricerange": [
+                                    "expensive"
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "hotel",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {
+                                "hotel-bookday": [
+                                    "tuesday"
+                                ],
+                                "hotel-bookpeople": [
+                                    "7"
+                                ],
+                                "hotel-bookstay": [
+                                    "3"
+                                ],
+                                "hotel-name": [
+                                    "cityroomz"
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "taxi",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "train",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "bus",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "police",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "attraction",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "hospital",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    }
+                ],
+                "speaker": "USER",
+                "turn_id": "10",
+                "utterance": "No, right now, I just need the infor. Thanks!"
+            },
+            {
+                "frames": [],
+                "speaker": "SYSTEM",
+                "turn_id": "11",
+                "utterance": "Can I help you with anything else today?"
+            },
+            {
+                "frames": [
+                    {
+                        "actions": [],
+                        "service": "restaurant",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {
+                                "restaurant-area": [
+                                    "west"
+                                ],
+                                "restaurant-pricerange": [
+                                    "expensive"
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "hotel",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {
+                                "hotel-bookday": [
+                                    "tuesday"
+                                ],
+                                "hotel-bookpeople": [
+                                    "7"
+                                ],
+                                "hotel-bookstay": [
+                                    "3"
+                                ],
+                                "hotel-name": [
+                                    "cityroomz"
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "taxi",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "train",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "bus",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "police",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "attraction",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "hospital",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    }
+                ],
+                "speaker": "USER",
+                "turn_id": "12",
+                "utterance": "That is all. thanks"
+            },
+            {
+                "frames": [],
+                "speaker": "SYSTEM",
+                "turn_id": "13",
+                "utterance": "Thank you for using our system."
+            }
+        ],
+        "filename": "dialogues_001"
+    },
+    {
+        "dialogue_id": "PMUL3484.json",
+        "services": [
+            "restaurant",
+            "taxi",
+            "hotel"
+        ],
+        "turns": [
+            {
+                "frames": [
+                    {
+                        "actions": [],
+                        "service": "hotel",
+                        "slots": [
+                            {
+                                "exclusive_end": 58,
+                                "slot": "hotel-name",
+                                "start": 31,
+                                "value": "alyesbray lodge guest house"
+                            }
+                        ],
+                        "state": {
+                            "active_intent": "find_hotel",
+                            "requested_slots": [],
+                            "slot_values": {
+                                "hotel-name": [
+                                    "alyesbray lodge guest house",
+                                    "aylesbray lodge guest house"
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "taxi",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "train",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "bus",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "police",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "restaurant",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "attraction",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "hospital",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    }
+                ],
+                "speaker": "USER",
+                "turn_id": "0",
+                "utterance": "I am looking for a hotel named alyesbray lodge guest house."
+            },
+            {
+                "frames": [],
+                "speaker": "SYSTEM",
+                "turn_id": "1",
+                "utterance": "i have their info, what would you like to know?"
+            },
+            {
+                "frames": [
+                    {
+                        "actions": [],
+                        "service": "hotel",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "find_hotel",
+                            "requested_slots": [],
+                            "slot_values": {
+                                "hotel-name": [
+                                    "aylesbray lodge guest house",
+                                    "alyesbray lodge guest house"
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "taxi",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "train",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "bus",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "police",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "restaurant",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "attraction",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "hospital",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    }
+                ],
+                "speaker": "USER",
+                "turn_id": "2",
+                "utterance": "I would like to book a reservation for it. Can you help me with that?"
+            },
+            {
+                "frames": [],
+                "speaker": "SYSTEM",
+                "turn_id": "3",
+                "utterance": "I sure can. First, I will need to know when you want your stay to begin and how many days you'll be staying. Also, how many people will be staying?"
+            },
+            {
+                "frames": [
+                    {
+                        "actions": [],
+                        "service": "hotel",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "book_hotel",
+                            "requested_slots": [],
+                            "slot_values": {
+                                "hotel-bookday": [
+                                    "sunday"
+                                ],
+                                "hotel-bookstay": [
+                                    "5"
+                                ],
+                                "hotel-name": [
+                                    "aylesbray lodge guest house",
+                                    "alyesbray lodge guest house"
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "taxi",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "train",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "bus",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "police",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "restaurant",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "attraction",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "hospital",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    }
+                ],
+                "speaker": "USER",
+                "turn_id": "4",
+                "utterance": "We will be arriving on Sunday and will stay for 5 nights."
+            },
+            {
+                "frames": [],
+                "speaker": "SYSTEM",
+                "turn_id": "5",
+                "utterance": "Can you tell me how many guests will be staying in the room?"
+            },
+            {
+                "frames": [
+                    {
+                        "actions": [],
+                        "service": "hotel",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "book_hotel",
+                            "requested_slots": [],
+                            "slot_values": {
+                                "hotel-bookday": [
+                                    "sunday"
+                                ],
+                                "hotel-bookpeople": [
+                                    "8"
+                                ],
+                                "hotel-bookstay": [
+                                    "5"
+                                ],
+                                "hotel-name": [
+                                    "aylesbray lodge guest house",
+                                    "alyesbray lodge guest house"
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "taxi",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "train",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "bus",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "police",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "restaurant",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "attraction",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "hospital",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    }
+                ],
+                "speaker": "USER",
+                "turn_id": "6",
+                "utterance": "There will be 8 guests."
+            },
+            {
+                "frames": [],
+                "speaker": "SYSTEM",
+                "turn_id": "7",
+                "utterance": "Booking was successful. Your reference number is 4UFN3SWC . Will that be all for today?"
+            },
+            {
+                "frames": [
+                    {
+                        "actions": [],
+                        "service": "hotel",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {
+                                "hotel-bookday": [
+                                    "sunday"
+                                ],
+                                "hotel-bookpeople": [
+                                    "8"
+                                ],
+                                "hotel-bookstay": [
+                                    "5"
+                                ],
+                                "hotel-name": [
+                                    "aylesbray lodge guest house",
+                                    "alyesbray lodge guest house"
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "taxi",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "train",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "bus",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "police",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "restaurant",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "attraction",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "hospital",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    }
+                ],
+                "speaker": "USER",
+                "turn_id": "8",
+                "utterance": "that is it thank you."
+            },
+            {
+                "frames": [],
+                "speaker": "SYSTEM",
+                "turn_id": "9",
+                "utterance": "You have a nice day then!"
+            },
+            {
+                "frames": [
+                    {
+                        "actions": [],
+                        "service": "hotel",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {
+                                "hotel-bookday": [
+                                    "sunday"
+                                ],
+                                "hotel-bookpeople": [
+                                    "8"
+                                ],
+                                "hotel-bookstay": [
+                                    "5"
+                                ],
+                                "hotel-name": [
+                                    "aylesbray lodge guest house",
+                                    "alyesbray lodge guest house"
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "taxi",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "train",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "bus",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "police",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "restaurant",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "find_restaurant",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "attraction",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "hospital",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    }
+                ],
+                "speaker": "USER",
+                "turn_id": "10",
+                "utterance": "Can you actually look up a restaurant for me as well?"
+            },
+            {
+                "frames": [],
+                "speaker": "SYSTEM",
+                "turn_id": "11",
+                "utterance": "sure thing what's the area and or name?"
+            },
+            {
+                "frames": [
+                    {
+                        "actions": [],
+                        "service": "restaurant",
+                        "slots": [
+                            {
+                                "exclusive_end": 41,
+                                "slot": "restaurant-name",
+                                "start": 20,
+                                "value": "Don Pasquale Pizzeria"
+                            }
+                        ],
+                        "state": {
+                            "active_intent": "find_restaurant",
+                            "requested_slots": [],
+                            "slot_values": {
+                                "restaurant-name": [
+                                    "don pasquale pizzeria"
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "hotel",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {
+                                "hotel-bookday": [
+                                    "sunday"
+                                ],
+                                "hotel-bookpeople": [
+                                    "8"
+                                ],
+                                "hotel-bookstay": [
+                                    "5"
+                                ],
+                                "hotel-name": [
+                                    "aylesbray lodge guest house",
+                                    "alyesbray lodge guest house"
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "taxi",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "train",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "bus",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "police",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "attraction",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "hospital",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    }
+                ],
+                "speaker": "USER",
+                "turn_id": "12",
+                "utterance": "It's a place called Don Pasquale Pizzeria."
+            },
+            {
+                "frames": [],
+                "speaker": "SYSTEM",
+                "turn_id": "13",
+                "utterance": "A very nice place in the centre. Need a reservation?"
+            },
+            {
+                "frames": [
+                    {
+                        "actions": [],
+                        "service": "restaurant",
+                        "slots": [
+                            {
+                                "exclusive_end": 91,
+                                "slot": "restaurant-booktime",
+                                "start": 86,
+                                "value": "19:00"
+                            }
+                        ],
+                        "state": {
+                            "active_intent": "book_restaurant",
+                            "requested_slots": [],
+                            "slot_values": {
+                                "restaurant-bookday": [
+                                    "sunday"
+                                ],
+                                "restaurant-bookpeople": [
+                                    "8"
+                                ],
+                                "restaurant-booktime": [
+                                    "19:00"
+                                ],
+                                "restaurant-name": [
+                                    "don pasquale pizzeria"
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "hotel",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {
+                                "hotel-bookday": [
+                                    "sunday"
+                                ],
+                                "hotel-bookpeople": [
+                                    "8"
+                                ],
+                                "hotel-bookstay": [
+                                    "5"
+                                ],
+                                "hotel-name": [
+                                    "aylesbray lodge guest house",
+                                    "alyesbray lodge guest house"
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "taxi",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "find_taxi",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "train",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "bus",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "police",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "attraction",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "hospital",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    }
+                ],
+                "speaker": "USER",
+                "turn_id": "14",
+                "utterance": "Yes, I do. I'll need it booked for the same day, same people, and we'd like to eat at 19:00."
+            },
+            {
+                "frames": [],
+                "speaker": "SYSTEM",
+                "turn_id": "15",
+                "utterance": "Booking was successful. The table will be reserved for 15 minutes. Reference number is : GVM0PAM2 ."
+            },
+            {
+                "frames": [
+                    {
+                        "actions": [],
+                        "service": "taxi",
+                        "slots": [
+                            {
+                                "copy_from": "restaurant-name",
+                                "slot": "taxi-destination",
+                                "value": [
+                                    "don pasquale pizzeria"
+                                ]
+                            },
+                            {
+                                "copy_from": "hotel-name",
+                                "slot": "taxi-departure",
+                                "value": [
+                                    "alyesbray lodge guest house",
+                                    "aylesbray lodge guest house"
+                                ]
+                            },
+                            {
+                                "copy_from": "restaurant-booktime",
+                                "slot": "taxi-arriveby",
+                                "value": [
+                                    "19:00"
+                                ]
+                            }
+                        ],
+                        "state": {
+                            "active_intent": "find_taxi",
+                            "requested_slots": [],
+                            "slot_values": {
+                                "taxi-arriveby": [
+                                    "19:00"
+                                ],
+                                "taxi-departure": [
+                                    "alyesbray lodge guest house",
+                                    "aylesbray lodge guest house"
+                                ],
+                                "taxi-destination": [
+                                    "don pasquale pizzeria"
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "restaurant",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {
+                                "restaurant-bookday": [
+                                    "sunday"
+                                ],
+                                "restaurant-bookpeople": [
+                                    "8"
+                                ],
+                                "restaurant-booktime": [
+                                    "19:00"
+                                ],
+                                "restaurant-name": [
+                                    "don pasquale pizzeria"
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "hotel",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {
+                                "hotel-bookday": [
+                                    "sunday"
+                                ],
+                                "hotel-bookpeople": [
+                                    "8"
+                                ],
+                                "hotel-bookstay": [
+                                    "5"
+                                ],
+                                "hotel-name": [
+                                    "aylesbray lodge guest house",
+                                    "alyesbray lodge guest house"
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "train",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "bus",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "police",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "attraction",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "hospital",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    }
+                ],
+                "speaker": "USER",
+                "turn_id": "16",
+                "utterance": "Great. One more thing. Can you book a taxi between the two places? I'd like to arrive at the restaurant in time for my reservation."
+            },
+            {
+                "frames": [],
+                "speaker": "SYSTEM",
+                "turn_id": "17",
+                "utterance": "Contact number 07404031593. You are in a Red Skoda."
+            },
+            {
+                "frames": [
+                    {
+                        "actions": [],
+                        "service": "taxi",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {
+                                "taxi-arriveby": [
+                                    "19:00"
+                                ],
+                                "taxi-departure": [
+                                    "aylesbray lodge guest house"
+                                ],
+                                "taxi-destination": [
+                                    "don pasquale pizzeria"
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "restaurant",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {
+                                "restaurant-bookday": [
+                                    "sunday"
+                                ],
+                                "restaurant-bookpeople": [
+                                    "8"
+                                ],
+                                "restaurant-booktime": [
+                                    "19:00"
+                                ],
+                                "restaurant-name": [
+                                    "don pasquale pizzeria"
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "hotel",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {
+                                "hotel-bookday": [
+                                    "sunday"
+                                ],
+                                "hotel-bookpeople": [
+                                    "8"
+                                ],
+                                "hotel-bookstay": [
+                                    "5"
+                                ],
+                                "hotel-name": [
+                                    "aylesbray lodge guest house",
+                                    "alyesbray lodge guest house"
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "train",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "bus",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "police",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "attraction",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "hospital",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    }
+                ],
+                "speaker": "USER",
+                "turn_id": "18",
+                "utterance": "Thank you so much that was all I needed."
+            },
+            {
+                "frames": [],
+                "speaker": "SYSTEM",
+                "turn_id": "19",
+                "utterance": "Alright, hope you enjoy the rest of your day."
+            }
+        ],
+        "filename": "dialogues_001"
+    },
+    {
+        "dialogue_id": "SNG0389.json",
+        "services": [
+            "train"
+        ],
+        "turns": [
+            {
+                "frames": [
+                    {
+                        "actions": [],
+                        "service": "train",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "find_train",
+                            "requested_slots": [],
+                            "slot_values": {
+                                "train-day": [
+                                    "tuesday"
+                                ],
+                                "train-departure": [
+                                    "kings lynn"
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "taxi",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "bus",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "police",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "hotel",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "restaurant",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "attraction",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "hospital",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    }
+                ],
+                "speaker": "USER",
+                "turn_id": "0",
+                "utterance": "i need a train on tuesday out of kings lynn"
+            },
+            {
+                "frames": [],
+                "speaker": "SYSTEM",
+                "turn_id": "1",
+                "utterance": "What time of day would you like to leave?"
+            },
+            {
+                "frames": [
+                    {
+                        "actions": [],
+                        "service": "train",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "find_train",
+                            "requested_slots": [],
+                            "slot_values": {
+                                "train-day": [
+                                    "tuesday"
+                                ],
+                                "train-departure": [
+                                    "kings lynn"
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "taxi",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "bus",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "police",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "hotel",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "restaurant",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "attraction",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "hospital",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    }
+                ],
+                "speaker": "USER",
+                "turn_id": "2",
+                "utterance": "I want to leave on Tuesday."
+            },
+            {
+                "frames": [],
+                "speaker": "SYSTEM",
+                "turn_id": "3",
+                "utterance": "Do you have a time you'd like to leave?"
+            },
+            {
+                "frames": [
+                    {
+                        "actions": [],
+                        "service": "train",
+                        "slots": [
+                            {
+                                "exclusive_end": 28,
+                                "slot": "train-leaveat",
+                                "start": 24,
+                                "value": "9:30"
+                            }
+                        ],
+                        "state": {
+                            "active_intent": "find_train",
+                            "requested_slots": [],
+                            "slot_values": {
+                                "train-day": [
+                                    "tuesday"
+                                ],
+                                "train-departure": [
+                                    "kings lynn"
+                                ],
+                                "train-leaveat": [
+                                    "9:30",
+                                    "09:30"
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "taxi",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "bus",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "police",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "hotel",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "restaurant",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "attraction",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "hospital",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    }
+                ],
+                "speaker": "USER",
+                "turn_id": "4",
+                "utterance": "I'd like to leave after 9:30."
+            },
+            {
+                "frames": [],
+                "speaker": "SYSTEM",
+                "turn_id": "5",
+                "utterance": "Is that 9:30 AM or PM?"
+            },
+            {
+                "frames": [
+                    {
+                        "actions": [],
+                        "service": "train",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "find_train",
+                            "requested_slots": [],
+                            "slot_values": {
+                                "train-day": [
+                                    "tuesday"
+                                ],
+                                "train-departure": [
+                                    "kings lynn"
+                                ],
+                                "train-destination": [
+                                    "cambridge"
+                                ],
+                                "train-leaveat": [
+                                    "09:30",
+                                    "9:30"
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "taxi",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "bus",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "police",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "hotel",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "restaurant",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "attraction",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "hospital",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    }
+                ],
+                "speaker": "USER",
+                "turn_id": "6",
+                "utterance": "Looking for a train Tuesday leaving kings lynn after 9:30 to go to cambridge."
+            },
+            {
+                "frames": [],
+                "speaker": "SYSTEM",
+                "turn_id": "7",
+                "utterance": "I'm sorry, I'm not seeing any trains for that time. Would you like to try another time or a different route?"
+            },
+            {
+                "frames": [
+                    {
+                        "actions": [],
+                        "service": "train",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "find_train",
+                            "requested_slots": [],
+                            "slot_values": {
+                                "train-day": [
+                                    "tuesday"
+                                ],
+                                "train-departure": [
+                                    "kings lynn"
+                                ],
+                                "train-destination": [
+                                    "cambridge"
+                                ],
+                                "train-leaveat": [
+                                    "09:30",
+                                    "9:30"
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "taxi",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "bus",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "police",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "hotel",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "restaurant",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "attraction",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "hospital",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    }
+                ],
+                "speaker": "USER",
+                "turn_id": "8",
+                "utterance": "No, I'd like a train leaving after 09:30 departing from Kings Lynn and going to Cambridge. Please take another look?"
+            },
+            {
+                "frames": [],
+                "speaker": "SYSTEM",
+                "turn_id": "9",
+                "utterance": "There are no trains running at this time. Can I narrow your search in any way?"
+            },
+            {
+                "frames": [
+                    {
+                        "actions": [],
+                        "service": "train",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "find_train",
+                            "requested_slots": [],
+                            "slot_values": {
+                                "train-day": [
+                                    "tuesday"
+                                ],
+                                "train-departure": [
+                                    "kings lynn"
+                                ],
+                                "train-destination": [
+                                    "cambridge"
+                                ],
+                                "train-leaveat": [
+                                    "09:30",
+                                    "9:30"
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "taxi",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "bus",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "police",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "hotel",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "restaurant",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "attraction",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "hospital",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    }
+                ],
+                "speaker": "USER",
+                "turn_id": "10",
+                "utterance": "Wow...no, I really needed that time. I guess not. Thanks anyway."
+            },
+            {
+                "frames": [],
+                "speaker": "SYSTEM",
+                "turn_id": "11",
+                "utterance": "I do have a train living at 10:11 of that would work for you."
+            },
+            {
+                "frames": [
+                    {
+                        "actions": [],
+                        "service": "train",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "book_train",
+                            "requested_slots": [],
+                            "slot_values": {
+                                "train-bookpeople": [
+                                    "2"
+                                ],
+                                "train-day": [
+                                    "tuesday"
+                                ],
+                                "train-departure": [
+                                    "kings lynn"
+                                ],
+                                "train-destination": [
+                                    "cambridge"
+                                ],
+                                "train-leaveat": [
+                                    "09:30",
+                                    "9:30"
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "taxi",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "bus",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "police",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "hotel",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "restaurant",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "attraction",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "hospital",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    }
+                ],
+                "speaker": "USER",
+                "turn_id": "12",
+                "utterance": "Yes, that works. Please book for two people. Thanks for checking again."
+            },
+            {
+                "frames": [],
+                "speaker": "SYSTEM",
+                "turn_id": "13",
+                "utterance": "It's my pleasure. You're booked with reference HXG3N56O . The total fee is 19.6 GBP payable at the station. May I help with anything else?"
+            },
+            {
+                "frames": [
+                    {
+                        "actions": [],
+                        "service": "train",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {
+                                "train-bookpeople": [
+                                    "2"
+                                ],
+                                "train-day": [
+                                    "tuesday"
+                                ],
+                                "train-departure": [
+                                    "kings lynn"
+                                ],
+                                "train-destination": [
+                                    "cambridge"
+                                ],
+                                "train-leaveat": [
+                                    "09:30",
+                                    "9:30"
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "taxi",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "bus",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "police",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "hotel",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "restaurant",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "attraction",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "hospital",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    }
+                ],
+                "speaker": "USER",
+                "turn_id": "14",
+                "utterance": "Perfect. Thank you for your help. Have a great day. Bye."
+            },
+            {
+                "frames": [],
+                "speaker": "SYSTEM",
+                "turn_id": "15",
+                "utterance": "Thank you for using our service, goodbye."
+            },
+            {
+                "frames": [
+                    {
+                        "actions": [],
+                        "service": "train",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "book_train",
+                            "requested_slots": [],
+                            "slot_values": {
+                                "train-bookpeople": [
+                                    "2"
+                                ],
+                                "train-day": [
+                                    "tuesday"
+                                ],
+                                "train-departure": [
+                                    "kings lynn"
+                                ],
+                                "train-destination": [
+                                    "cambridge"
+                                ],
+                                "train-leaveat": [
+                                    "09:30",
+                                    "9:30"
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "taxi",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "bus",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "police",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "hotel",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "restaurant",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "attraction",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    },
+                    {
+                        "actions": [],
+                        "service": "hospital",
+                        "slots": [],
+                        "state": {
+                            "active_intent": "NONE",
+                            "requested_slots": [],
+                            "slot_values": {}
+                        }
+                    }
+                ],
+                "speaker": "USER",
+                "turn_id": "16",
+                "utterance": "Have a nice day."
+            },
+            {
+                "frames": [],
+                "speaker": "SYSTEM",
+                "turn_id": "17",
+                "utterance": "Booking was successful, the total fee is 19.6 GBP payable at the station . Reference number is : HXG3N56O ."
+            }
+        ],
+        "filename": "dialogues_001"
+    }
+]

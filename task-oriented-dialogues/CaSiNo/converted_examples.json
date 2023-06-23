@@ -1,0 +1,1253 @@
+{
+    "CaSiNo--train--1": {
+        "original dialog id": 938,
+        "dialog index": 1,
+        "original dialog info": {
+            "participant_info": {
+                "mturk_agent_1": {
+                    "value2issue": {
+                        "Medium": "Food",
+                        "Low": "Water",
+                        "High": "Firewood"
+                    },
+                    "value2reason": {
+                        "High": "It gets cold at night where I am going camping, so I will need additional firewood",
+                        "Medium": "I am going with a big family and any extra food will be helpful.",
+                        "Low": "It is hot and dry during the day and I don't want to be dehydrated."
+                    },
+                    "outcomes": {
+                        "points_scored": 22,
+                        "satisfaction": "Extremely satisfied",
+                        "opponent_likeness": "Extremely like"
+                    },
+                    "demographics": {
+                        "age": 36,
+                        "gender": "male",
+                        "ethnicity": "white american",
+                        "education": "high school graduate / ged"
+                    },
+                    "personality": {
+                        "svo": "prosocial",
+                        "big-five": {
+                            "extraversion": 2.0,
+                            "agreeableness": 4.5,
+                            "conscientiousness": 5.0,
+                            "emotional-stability": 2.5,
+                            "openness-to-experiences": 6.5
+                        }
+                    }
+                },
+                "mturk_agent_2": {
+                    "value2issue": {
+                        "Low": "Food",
+                        "High": "Water",
+                        "Medium": "Firewood"
+                    },
+                    "value2reason": {
+                        "High": "i have health issues that necessitates this",
+                        "Medium": "it's really cold and my diabetes doesn't do well in cold",
+                        "Low": "i need to keep my sugars level"
+                    },
+                    "outcomes": {
+                        "points_scored": 19,
+                        "satisfaction": "Extremely satisfied",
+                        "opponent_likeness": "Extremely like"
+                    },
+                    "demographics": {
+                        "age": 47,
+                        "gender": "female",
+                        "ethnicity": "white american",
+                        "education": "some 2 year college, associate's degree"
+                    },
+                    "personality": {
+                        "svo": "prosocial",
+                        "big-five": {
+                            "extraversion": 6.0,
+                            "agreeableness": 6.5,
+                            "conscientiousness": 2.0,
+                            "emotional-stability": 4.0,
+                            "openness-to-experiences": 1.5
+                        }
+                    }
+                }
+            },
+            "annotations": [],
+            "results": [
+                {
+                    "text": "Submit-Deal",
+                    "task_data": {
+                        "issue2youget": {
+                            "Water": "3",
+                            "Firewood": "1",
+                            "Food": "0"
+                        },
+                        "issue2theyget": {
+                            "Water": "0",
+                            "Firewood": "2",
+                            "Food": "3"
+                        }
+                    },
+                    "id": "mturk_agent_2"
+                },
+                {
+                    "text": "Accept-Deal",
+                    "task_data": {
+                        "data": "accept_deal"
+                    },
+                    "id": "mturk_agent_1"
+                }
+            ]
+        },
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "Hello!, how are you doing?",
+                "system response": "I'm good - and you?",
+                "dialog history": "",
+                "original user side information": {
+                    "speakere": "mturk_agent_1"
+                },
+                "original system side information": {
+                    "speaker": "mturk_agent_2"
+                }
+            },
+            {
+                "turn id": 2,
+                "user utterance": "\ud83d\ude42 super!, ... so you are going camping too?",
+                "system response": "Yep - I'm hoping you can help me out here.  I've just finished my last round of chemo and really need to flush my systm out.  I'd love it if I could take all 3 waters and 1 firewood.  You can have the rest.",
+                "dialog history": "<USER> Hello!, how are you doing? <SYSTEM> I'm good - and you?",
+                "original user side information": {
+                    "speakere": "mturk_agent_1"
+                },
+                "original system side information": {
+                    "speaker": "mturk_agent_2"
+                }
+            },
+            {
+                "turn id": 3,
+                "user utterance": "oh, I'm sorry to hear about that... I think I can help with the water, but you need firewood as well?",
+                "system response": "Well, just one would be beneficial.  I don't regulate my body heat as much as I used to.",
+                "dialog history": "<USER> Hello!, how are you doing? <SYSTEM> I'm good - and you? <USER> \ud83d\ude42 super!, ... so you are going camping too? <SYSTEM> Yep - I'm hoping you can help me out here.  I've just finished my last round of chemo and really need to flush my systm out.  I'd love it if I could take all 3 waters and 1 firewood.  You can have the rest.",
+                "original user side information": {
+                    "speakere": "mturk_agent_1"
+                },
+                "original system side information": {
+                    "speaker": "mturk_agent_2"
+                }
+            },
+            {
+                "turn id": 4,
+                "user utterance": "The reason I am asking, is because it gets very cold in the desert at night...and I may need that... but if all you need is one, I don't see why we couldn't make a deal",
+                "system response": "that would be amazing - I know it does get cold so I definitely don't want you to be cold either.  I don't need any of the food - not much of an appetite right now anyway.",
+                "dialog history": "<USER> Hello!, how are you doing? <SYSTEM> I'm good - and you? <USER> \ud83d\ude42 super!, ... so you are going camping too? <SYSTEM> Yep - I'm hoping you can help me out here.  I've just finished my last round of chemo and really need to flush my systm out.  I'd love it if I could take all 3 waters and 1 firewood.  You can have the rest. <USER> oh, I'm sorry to hear about that... I think I can help with the water, but you need firewood as well? <SYSTEM> Well, just one would be beneficial.  I don't regulate my body heat as much as I used to.",
+                "original user side information": {
+                    "speakere": "mturk_agent_1"
+                },
+                "original system side information": {
+                    "speaker": "mturk_agent_2"
+                }
+            },
+            {
+                "turn id": 5,
+                "user utterance": "Once again, really sad to hear about your condition\u2639\ufe0f..., but perhaps being in the great outdoors would be beneficial for your immune system?\ud83d\ude2e... So you need 3 water and 1 firewood?",
+                "system response": "Yes, that would be great for me - would that work for you?",
+                "dialog history": "<USER> Hello!, how are you doing? <SYSTEM> I'm good - and you? <USER> \ud83d\ude42 super!, ... so you are going camping too? <SYSTEM> Yep - I'm hoping you can help me out here.  I've just finished my last round of chemo and really need to flush my systm out.  I'd love it if I could take all 3 waters and 1 firewood.  You can have the rest. <USER> oh, I'm sorry to hear about that... I think I can help with the water, but you need firewood as well? <SYSTEM> Well, just one would be beneficial.  I don't regulate my body heat as much as I used to. <USER> The reason I am asking, is because it gets very cold in the desert at night...and I may need that... but if all you need is one, I don't see why we couldn't make a deal <SYSTEM> that would be amazing - I know it does get cold so I definitely don't want you to be cold either.  I don't need any of the food - not much of an appetite right now anyway.",
+                "original user side information": {
+                    "speakere": "mturk_agent_1"
+                },
+                "original system side information": {
+                    "speaker": "mturk_agent_2"
+                }
+            },
+            {
+                "turn id": 6,
+                "user utterance": "Yep, I mostly need the firewood, but I can do with 2 packages... So let's make it happen!\ud83d\ude42",
+                "system response": "",
+                "dialog history": "<USER> Hello!, how are you doing? <SYSTEM> I'm good - and you? <USER> \ud83d\ude42 super!, ... so you are going camping too? <SYSTEM> Yep - I'm hoping you can help me out here.  I've just finished my last round of chemo and really need to flush my systm out.  I'd love it if I could take all 3 waters and 1 firewood.  You can have the rest. <USER> oh, I'm sorry to hear about that... I think I can help with the water, but you need firewood as well? <SYSTEM> Well, just one would be beneficial.  I don't regulate my body heat as much as I used to. <USER> The reason I am asking, is because it gets very cold in the desert at night...and I may need that... but if all you need is one, I don't see why we couldn't make a deal <SYSTEM> that would be amazing - I know it does get cold so I definitely don't want you to be cold either.  I don't need any of the food - not much of an appetite right now anyway. <USER> Once again, really sad to hear about your condition\u2639\ufe0f..., but perhaps being in the great outdoors would be beneficial for your immune system?\ud83d\ude2e... So you need 3 water and 1 firewood? <SYSTEM> Yes, that would be great for me - would that work for you?",
+                "original user side information": {
+                    "speakere": "mturk_agent_1"
+                },
+                "original system side information": {}
+            }
+        ],
+        "external knowledge non-flat": {
+            "metadata": {
+                "participant_info": {
+                    "mturk_agent_2": {
+                        "value2issue": {
+                            "Low": "Food",
+                            "High": "Water",
+                            "Medium": "Firewood"
+                        },
+                        "value2reason": {
+                            "High": "i have health issues that necessitates this",
+                            "Medium": "it's really cold and my diabetes doesn't do well in cold",
+                            "Low": "i need to keep my sugars level"
+                        },
+                        "outcomes": {
+                            "points_scored": 19,
+                            "satisfaction": "Extremely satisfied",
+                            "opponent_likeness": "Extremely like"
+                        },
+                        "demographics": {
+                            "age": 47,
+                            "gender": "female",
+                            "ethnicity": "white american",
+                            "education": "some 2 year college, associate's degree"
+                        },
+                        "personality": {
+                            "svo": "prosocial",
+                            "big-five": {
+                                "extraversion": 6.0,
+                                "agreeableness": 6.5,
+                                "conscientiousness": 2.0,
+                                "emotional-stability": 4.0,
+                                "openness-to-experiences": 1.5
+                            }
+                        }
+                    }
+                },
+                "results": [
+                    {
+                        "text": "Submit-Deal",
+                        "task_data": {
+                            "issue2youget": {
+                                "Water": "3",
+                                "Firewood": "1",
+                                "Food": "0"
+                            },
+                            "issue2theyget": {
+                                "Water": "0",
+                                "Firewood": "2",
+                                "Food": "3"
+                            }
+                        },
+                        "id": "mturk_agent_2"
+                    },
+                    {
+                        "text": "Accept-Deal",
+                        "task_data": {
+                            "data": "accept_deal"
+                        },
+                        "id": "mturk_agent_1"
+                    }
+                ]
+            },
+            "slots and values": {},
+            "intents": {}
+        },
+        "external knowledge": "Participant information: {'mturk_agent_2': {'value2issue': {'Low': 'Food', 'High': 'Water', 'Medium': 'Firewood'}, 'value2reason': {'High': 'i have health issues that necessitates this', 'Medium': \"it's really cold and my diabetes doesn't do well in cold\", 'Low': 'i need to keep my sugars level'}, 'outcomes': {'points_scored': 19, 'satisfaction': 'Extremely satisfied', 'opponent_likeness': 'Extremely like'}, 'demographics': {'age': 47, 'gender': 'female', 'ethnicity': 'white american', 'education': \"some 2 year college, associate's degree\"}, 'personality': {'svo': 'prosocial', 'big-five': {'extraversion': 6.0, 'agreeableness': 6.5, 'conscientiousness': 2.0, 'emotional-stability': 4.0, 'openness-to-experiences': 1.5}}}} Results: [{'text': 'Submit-Deal', 'task_data': {'issue2youget': {'Water': '3', 'Firewood': '1', 'Food': '0'}, 'issue2theyget': {'Water': '0', 'Firewood': '2', 'Food': '3'}}, 'id': 'mturk_agent_2'}, {'text': 'Accept-Deal', 'task_data': {'data': 'accept_deal'}, 'id': 'mturk_agent_1'}]",
+        "dst knowledge": "",
+        "intent knowledge": "",
+        "prompt": [
+            "This is a bot helping users to take the role of campsite neighbors and negotiate for food, water, and firewood. Given the dialog context and external database, please generate a relevant system response for the user.",
+            "This bot assists users to take the role of campsite neighbors and negotiate for food, water, and firewood. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
+            "This bot helps users to take the role of campsite neighbors and negotiate for food, water, and firewood. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
+            "The purpose of this bot is to assist users to take the role of campsite neighbors and negotiate for food, water, and firewood. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
+            "This bot is designed to help users take the role of campsite neighbors and negotiate for food, water, and firewood. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+        ]
+    },
+    "CaSiNo--train--2": {
+        "original dialog id": 404,
+        "dialog index": 2,
+        "original dialog info": {
+            "participant_info": {
+                "mturk_agent_2": {
+                    "value2issue": {
+                        "Medium": "Food",
+                        "Low": "Water",
+                        "High": "Firewood"
+                    },
+                    "value2reason": {
+                        "High": "I would prefer to have extra firewood just in case I need to boil water because I am worried about getting a disease from river water and also to keep the bugs away.",
+                        "Medium": "You can never have enough food!! I am worried I might get lost and I am diabetic so I need to eat often.",
+                        "Low": "I would like the water because if it is hot I would want enough to drink so I don't get dehydrated."
+                    },
+                    "outcomes": {
+                        "points_scored": 22,
+                        "satisfaction": "Slightly satisfied",
+                        "opponent_likeness": "Undecided"
+                    },
+                    "demographics": {
+                        "age": 39,
+                        "gender": "male",
+                        "ethnicity": "white american",
+                        "education": "some 4 year college, bachelor's degree"
+                    },
+                    "personality": {
+                        "svo": "prosocial",
+                        "big-five": {
+                            "extraversion": 2.0,
+                            "agreeableness": 3.0,
+                            "conscientiousness": 6.0,
+                            "emotional-stability": 3.0,
+                            "openness-to-experiences": 4.0
+                        }
+                    }
+                },
+                "mturk_agent_1": {
+                    "value2issue": {
+                        "High": "Food",
+                        "Low": "Water",
+                        "Medium": "Firewood"
+                    },
+                    "value2reason": {
+                        "High": "I will need more as i came with two other people.",
+                        "Medium": "To keep warm in the evening.",
+                        "Low": "I will need more to take me through"
+                    },
+                    "outcomes": {
+                        "points_scored": 16,
+                        "satisfaction": "Extremely satisfied",
+                        "opponent_likeness": "Extremely like"
+                    },
+                    "demographics": {
+                        "age": 32,
+                        "gender": "female",
+                        "ethnicity": "black or african american",
+                        "education": "some 4 year college, bachelor's degree"
+                    },
+                    "personality": {
+                        "svo": "prosocial",
+                        "big-five": {
+                            "extraversion": 4.0,
+                            "agreeableness": 6.5,
+                            "conscientiousness": 6.5,
+                            "emotional-stability": 6.5,
+                            "openness-to-experiences": 6.5
+                        }
+                    }
+                }
+            },
+            "annotations": [],
+            "results": [
+                {
+                    "text": "Submit-Deal",
+                    "task_data": {
+                        "issue2youget": {
+                            "Food": "2",
+                            "Firewood": "0",
+                            "Water": "2"
+                        },
+                        "issue2theyget": {
+                            "Food": "1",
+                            "Firewood": "3",
+                            "Water": "1"
+                        }
+                    },
+                    "id": "mturk_agent_1"
+                },
+                {
+                    "text": "Accept-Deal",
+                    "task_data": {
+                        "data": "accept_deal"
+                    },
+                    "id": "mturk_agent_2"
+                }
+            ]
+        },
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "Hi there!  This is my first time camping so I would prefer 3 firewood, 2 food, and 1 water.  What are your thoughts?",
+                "system response": "Welcome. If you gave me 3 food, 2 firewood and 2 water i will be Ok.",
+                "dialog history": "",
+                "original user side information": {
+                    "speakere": "mturk_agent_2"
+                },
+                "original system side information": {
+                    "speaker": "mturk_agent_1"
+                }
+            },
+            {
+                "turn id": 2,
+                "user utterance": "Well I would really prefer the 3 firewood.  I am really worried about getting lyme disease from mosquitos so the fire would keep away the bugs.  Also, this is silly, but I am a little scared of the dark!  So the fire would make me feel better at night.\ud83d\ude2e",
+                "system response": "You must be all by yourself. Ok, i will give you 2 firewood, you give me 3 food and 2 water. What about that?",
+                "dialog history": "<USER> Hi there!  This is my first time camping so I would prefer 3 firewood, 2 food, and 1 water.  What are your thoughts? <SYSTEM> Welcome. If you gave me 3 food, 2 firewood and 2 water i will be Ok.",
+                "original user side information": {
+                    "speakere": "mturk_agent_2"
+                },
+                "original system side information": {
+                    "speaker": "mturk_agent_1"
+                }
+            },
+            {
+                "turn id": 3,
+                "user utterance": "I appreciate your offer of 2 firewood.  Why do you need 3 food?",
+                "system response": "I never walk alone\ud83d\ude42 I came along with my other.",
+                "dialog history": "<USER> Hi there!  This is my first time camping so I would prefer 3 firewood, 2 food, and 1 water.  What are your thoughts? <SYSTEM> Welcome. If you gave me 3 food, 2 firewood and 2 water i will be Ok. <USER> Well I would really prefer the 3 firewood.  I am really worried about getting lyme disease from mosquitos so the fire would keep away the bugs.  Also, this is silly, but I am a little scared of the dark!  So the fire would make me feel better at night.\ud83d\ude2e <SYSTEM> You must be all by yourself. Ok, i will give you 2 firewood, you give me 3 food and 2 water. What about that?",
+                "original user side information": {
+                    "speakere": "mturk_agent_2"
+                },
+                "original system side information": {
+                    "speaker": "mturk_agent_1"
+                }
+            },
+            {
+                "turn id": 4,
+                "user utterance": "Oh ok so you would want extra food for the other person.  That makes sense.  Would you be willing to take 2 food and 1 water if I get 3 firewood?",
+                "system response": "That will not be fair enough. Lets do this, you take 2 firewood and 1 water.",
+                "dialog history": "<USER> Hi there!  This is my first time camping so I would prefer 3 firewood, 2 food, and 1 water.  What are your thoughts? <SYSTEM> Welcome. If you gave me 3 food, 2 firewood and 2 water i will be Ok. <USER> Well I would really prefer the 3 firewood.  I am really worried about getting lyme disease from mosquitos so the fire would keep away the bugs.  Also, this is silly, but I am a little scared of the dark!  So the fire would make me feel better at night.\ud83d\ude2e <SYSTEM> You must be all by yourself. Ok, i will give you 2 firewood, you give me 3 food and 2 water. What about that? <USER> I appreciate your offer of 2 firewood.  Why do you need 3 food? <SYSTEM> I never walk alone\ud83d\ude42 I came along with my other.",
+                "original user side information": {
+                    "speakere": "mturk_agent_2"
+                },
+                "original system side information": {
+                    "speaker": "mturk_agent_1"
+                }
+            },
+            {
+                "turn id": 5,
+                "user utterance": "I am happy with the 2 firewood and 1 water, but would then prefer 2 food also if that if ok.",
+                "system response": "Come on, i am the one to get the 2 food and 2 water!",
+                "dialog history": "<USER> Hi there!  This is my first time camping so I would prefer 3 firewood, 2 food, and 1 water.  What are your thoughts? <SYSTEM> Welcome. If you gave me 3 food, 2 firewood and 2 water i will be Ok. <USER> Well I would really prefer the 3 firewood.  I am really worried about getting lyme disease from mosquitos so the fire would keep away the bugs.  Also, this is silly, but I am a little scared of the dark!  So the fire would make me feel better at night.\ud83d\ude2e <SYSTEM> You must be all by yourself. Ok, i will give you 2 firewood, you give me 3 food and 2 water. What about that? <USER> I appreciate your offer of 2 firewood.  Why do you need 3 food? <SYSTEM> I never walk alone\ud83d\ude42 I came along with my other. <USER> Oh ok so you would want extra food for the other person.  That makes sense.  Would you be willing to take 2 food and 1 water if I get 3 firewood? <SYSTEM> That will not be fair enough. Lets do this, you take 2 firewood and 1 water.",
+                "original user side information": {
+                    "speakere": "mturk_agent_2"
+                },
+                "original system side information": {
+                    "speaker": "mturk_agent_1"
+                }
+            },
+            {
+                "turn id": 6,
+                "user utterance": "Hmmm ok.  If you are getting 2 food and 2 water, then if would be fair for me to get the 3 firewood because I really am scared of the bugs.",
+                "system response": "",
+                "dialog history": "<USER> Hi there!  This is my first time camping so I would prefer 3 firewood, 2 food, and 1 water.  What are your thoughts? <SYSTEM> Welcome. If you gave me 3 food, 2 firewood and 2 water i will be Ok. <USER> Well I would really prefer the 3 firewood.  I am really worried about getting lyme disease from mosquitos so the fire would keep away the bugs.  Also, this is silly, but I am a little scared of the dark!  So the fire would make me feel better at night.\ud83d\ude2e <SYSTEM> You must be all by yourself. Ok, i will give you 2 firewood, you give me 3 food and 2 water. What about that? <USER> I appreciate your offer of 2 firewood.  Why do you need 3 food? <SYSTEM> I never walk alone\ud83d\ude42 I came along with my other. <USER> Oh ok so you would want extra food for the other person.  That makes sense.  Would you be willing to take 2 food and 1 water if I get 3 firewood? <SYSTEM> That will not be fair enough. Lets do this, you take 2 firewood and 1 water. <USER> I am happy with the 2 firewood and 1 water, but would then prefer 2 food also if that if ok. <SYSTEM> Come on, i am the one to get the 2 food and 2 water!",
+                "original user side information": {
+                    "speakere": "mturk_agent_2"
+                },
+                "original system side information": {}
+            }
+        ],
+        "external knowledge non-flat": {
+            "metadata": {
+                "participant_info": {
+                    "mturk_agent_1": {
+                        "value2issue": {
+                            "High": "Food",
+                            "Low": "Water",
+                            "Medium": "Firewood"
+                        },
+                        "value2reason": {
+                            "High": "I will need more as i came with two other people.",
+                            "Medium": "To keep warm in the evening.",
+                            "Low": "I will need more to take me through"
+                        },
+                        "outcomes": {
+                            "points_scored": 16,
+                            "satisfaction": "Extremely satisfied",
+                            "opponent_likeness": "Extremely like"
+                        },
+                        "demographics": {
+                            "age": 32,
+                            "gender": "female",
+                            "ethnicity": "black or african american",
+                            "education": "some 4 year college, bachelor's degree"
+                        },
+                        "personality": {
+                            "svo": "prosocial",
+                            "big-five": {
+                                "extraversion": 4.0,
+                                "agreeableness": 6.5,
+                                "conscientiousness": 6.5,
+                                "emotional-stability": 6.5,
+                                "openness-to-experiences": 6.5
+                            }
+                        }
+                    }
+                },
+                "results": [
+                    {
+                        "text": "Submit-Deal",
+                        "task_data": {
+                            "issue2youget": {
+                                "Food": "2",
+                                "Firewood": "0",
+                                "Water": "2"
+                            },
+                            "issue2theyget": {
+                                "Food": "1",
+                                "Firewood": "3",
+                                "Water": "1"
+                            }
+                        },
+                        "id": "mturk_agent_1"
+                    },
+                    {
+                        "text": "Accept-Deal",
+                        "task_data": {
+                            "data": "accept_deal"
+                        },
+                        "id": "mturk_agent_2"
+                    }
+                ]
+            },
+            "slots and values": {},
+            "intents": {}
+        },
+        "external knowledge": "Participant information: {'mturk_agent_1': {'value2issue': {'High': 'Food', 'Low': 'Water', 'Medium': 'Firewood'}, 'value2reason': {'High': 'I will need more as i came with two other people.', 'Medium': 'To keep warm in the evening.', 'Low': 'I will need more to take me through'}, 'outcomes': {'points_scored': 16, 'satisfaction': 'Extremely satisfied', 'opponent_likeness': 'Extremely like'}, 'demographics': {'age': 32, 'gender': 'female', 'ethnicity': 'black or african american', 'education': \"some 4 year college, bachelor's degree\"}, 'personality': {'svo': 'prosocial', 'big-five': {'extraversion': 4.0, 'agreeableness': 6.5, 'conscientiousness': 6.5, 'emotional-stability': 6.5, 'openness-to-experiences': 6.5}}}} Results: [{'text': 'Submit-Deal', 'task_data': {'issue2youget': {'Food': '2', 'Firewood': '0', 'Water': '2'}, 'issue2theyget': {'Food': '1', 'Firewood': '3', 'Water': '1'}}, 'id': 'mturk_agent_1'}, {'text': 'Accept-Deal', 'task_data': {'data': 'accept_deal'}, 'id': 'mturk_agent_2'}]",
+        "dst knowledge": "",
+        "intent knowledge": "",
+        "prompt": [
+            "This is a bot helping users to take the role of campsite neighbors and negotiate for food, water, and firewood. Given the dialog context and external database, please generate a relevant system response for the user.",
+            "This bot assists users to take the role of campsite neighbors and negotiate for food, water, and firewood. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
+            "This bot helps users to take the role of campsite neighbors and negotiate for food, water, and firewood. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
+            "The purpose of this bot is to assist users to take the role of campsite neighbors and negotiate for food, water, and firewood. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
+            "This bot is designed to help users take the role of campsite neighbors and negotiate for food, water, and firewood. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+        ]
+    },
+    "CaSiNo--train--3": {
+        "original dialog id": 790,
+        "dialog index": 3,
+        "original dialog info": {
+            "participant_info": {
+                "mturk_agent_1": {
+                    "value2issue": {
+                        "Medium": "Food",
+                        "Low": "Water",
+                        "High": "Firewood"
+                    },
+                    "value2reason": {
+                        "High": "i need firewood for fire",
+                        "Medium": "i need food for nourishment",
+                        "Low": "i need water for survival"
+                    },
+                    "outcomes": {
+                        "points_scored": 16,
+                        "satisfaction": "Extremely satisfied",
+                        "opponent_likeness": "Extremely like"
+                    },
+                    "demographics": {
+                        "age": 30,
+                        "gender": "male",
+                        "ethnicity": "white american",
+                        "education": "master's degree"
+                    },
+                    "personality": {
+                        "svo": "proself",
+                        "big-five": {
+                            "extraversion": 3.5,
+                            "agreeableness": 4.5,
+                            "conscientiousness": 3.5,
+                            "emotional-stability": 6.0,
+                            "openness-to-experiences": 3.5
+                        }
+                    }
+                },
+                "mturk_agent_2": {
+                    "value2issue": {
+                        "Medium": "Food",
+                        "Low": "Water",
+                        "High": "Firewood"
+                    },
+                    "value2reason": {
+                        "High": "The weather changed at the last moment and it will be colder than expected, so I need some extra firewood.",
+                        "Medium": "My brother said that he might stop by, so I want some additional packages of food, just in case he is hungry.",
+                        "Low": "I could use some extra water, because if I build a bigger fire I will need more water to put it out."
+                    },
+                    "outcomes": {
+                        "points_scored": 20,
+                        "satisfaction": "Slightly satisfied",
+                        "opponent_likeness": "Slightly dislike"
+                    },
+                    "demographics": {
+                        "age": 37,
+                        "gender": "male",
+                        "ethnicity": "white american",
+                        "education": "master's degree"
+                    },
+                    "personality": {
+                        "svo": "proself",
+                        "big-five": {
+                            "extraversion": 6.0,
+                            "agreeableness": 7.0,
+                            "conscientiousness": 7.0,
+                            "emotional-stability": 7.0,
+                            "openness-to-experiences": 7.0
+                        }
+                    }
+                }
+            },
+            "annotations": [],
+            "results": [
+                {
+                    "text": "Submit-Deal",
+                    "task_data": {
+                        "issue2youget": {
+                            "Firewood": "2",
+                            "Food": "0",
+                            "Water": "2"
+                        },
+                        "issue2theyget": {
+                            "Firewood": "1",
+                            "Food": "3",
+                            "Water": "1"
+                        }
+                    },
+                    "id": "mturk_agent_1"
+                },
+                {
+                    "text": "Accept-Deal",
+                    "task_data": {
+                        "data": "accept_deal"
+                    },
+                    "id": "mturk_agent_2"
+                }
+            ]
+        },
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "hello!",
+                "system response": "Hello, how are you?",
+                "dialog history": "",
+                "original user side information": {
+                    "speakere": "mturk_agent_1"
+                },
+                "original system side information": {
+                    "speaker": "mturk_agent_2"
+                }
+            },
+            {
+                "turn id": 2,
+                "user utterance": "Am fine what about you?",
+                "system response": "I'm doing well.",
+                "dialog history": "<USER> hello! <SYSTEM> Hello, how are you?",
+                "original user side information": {
+                    "speakere": "mturk_agent_1"
+                },
+                "original system side information": {
+                    "speaker": "mturk_agent_2"
+                }
+            },
+            {
+                "turn id": 3,
+                "user utterance": "wow great",
+                "system response": "There is one thing, I am thinking that I might need some extra firewood, because it is supposed to get colder than I expected. Would you be interested in trading me some, for something else?",
+                "dialog history": "<USER> hello! <SYSTEM> Hello, how are you? <USER> Am fine what about you? <SYSTEM> I'm doing well.",
+                "original user side information": {
+                    "speakere": "mturk_agent_1"
+                },
+                "original system side information": {
+                    "speaker": "mturk_agent_2"
+                }
+            },
+            {
+                "turn id": 4,
+                "user utterance": "yeah i can give you 1 firewood and 3 waters in exchange for 3 foods and 2 firewood",
+                "system response": "Hmm, I don't think I could give up 2 firewoods and 3 foods. I don't really need water much. If I give you 2 firewoods, I would need 3 foods.",
+                "dialog history": "<USER> hello! <SYSTEM> Hello, how are you? <USER> Am fine what about you? <SYSTEM> I'm doing well. <USER> wow great <SYSTEM> There is one thing, I am thinking that I might need some extra firewood, because it is supposed to get colder than I expected. Would you be interested in trading me some, for something else?",
+                "original user side information": {
+                    "speakere": "mturk_agent_1"
+                },
+                "original system side information": {
+                    "speaker": "mturk_agent_2"
+                }
+            },
+            {
+                "turn id": 5,
+                "user utterance": "you cant have it all.Is either you give 3 and gain 3.I will give yo 3 food and you give 2 firewood and all water",
+                "system response": "I'm not trying to take everything \ud83d\ude42 How about I give you 2 firewood and 2 water, and I get 1 firewood, 3 food and just 1 water?",
+                "dialog history": "<USER> hello! <SYSTEM> Hello, how are you? <USER> Am fine what about you? <SYSTEM> I'm doing well. <USER> wow great <SYSTEM> There is one thing, I am thinking that I might need some extra firewood, because it is supposed to get colder than I expected. Would you be interested in trading me some, for something else? <USER> yeah i can give you 1 firewood and 3 waters in exchange for 3 foods and 2 firewood <SYSTEM> Hmm, I don't think I could give up 2 firewoods and 3 foods. I don't really need water much. If I give you 2 firewoods, I would need 3 foods.",
+                "original user side information": {
+                    "speakere": "mturk_agent_1"
+                },
+                "original system side information": {
+                    "speaker": "mturk_agent_2"
+                }
+            }
+        ],
+        "external knowledge non-flat": {
+            "metadata": {
+                "participant_info": {
+                    "mturk_agent_2": {
+                        "value2issue": {
+                            "Medium": "Food",
+                            "Low": "Water",
+                            "High": "Firewood"
+                        },
+                        "value2reason": {
+                            "High": "The weather changed at the last moment and it will be colder than expected, so I need some extra firewood.",
+                            "Medium": "My brother said that he might stop by, so I want some additional packages of food, just in case he is hungry.",
+                            "Low": "I could use some extra water, because if I build a bigger fire I will need more water to put it out."
+                        },
+                        "outcomes": {
+                            "points_scored": 20,
+                            "satisfaction": "Slightly satisfied",
+                            "opponent_likeness": "Slightly dislike"
+                        },
+                        "demographics": {
+                            "age": 37,
+                            "gender": "male",
+                            "ethnicity": "white american",
+                            "education": "master's degree"
+                        },
+                        "personality": {
+                            "svo": "proself",
+                            "big-five": {
+                                "extraversion": 6.0,
+                                "agreeableness": 7.0,
+                                "conscientiousness": 7.0,
+                                "emotional-stability": 7.0,
+                                "openness-to-experiences": 7.0
+                            }
+                        }
+                    }
+                },
+                "results": [
+                    {
+                        "text": "Submit-Deal",
+                        "task_data": {
+                            "issue2youget": {
+                                "Firewood": "2",
+                                "Food": "0",
+                                "Water": "2"
+                            },
+                            "issue2theyget": {
+                                "Firewood": "1",
+                                "Food": "3",
+                                "Water": "1"
+                            }
+                        },
+                        "id": "mturk_agent_1"
+                    },
+                    {
+                        "text": "Accept-Deal",
+                        "task_data": {
+                            "data": "accept_deal"
+                        },
+                        "id": "mturk_agent_2"
+                    }
+                ]
+            },
+            "slots and values": {},
+            "intents": {}
+        },
+        "external knowledge": "Participant information: {'mturk_agent_2': {'value2issue': {'Medium': 'Food', 'Low': 'Water', 'High': 'Firewood'}, 'value2reason': {'High': 'The weather changed at the last moment and it will be colder than expected, so I need some extra firewood.', 'Medium': 'My brother said that he might stop by, so I want some additional packages of food, just in case he is hungry.', 'Low': 'I could use some extra water, because if I build a bigger fire I will need more water to put it out.'}, 'outcomes': {'points_scored': 20, 'satisfaction': 'Slightly satisfied', 'opponent_likeness': 'Slightly dislike'}, 'demographics': {'age': 37, 'gender': 'male', 'ethnicity': 'white american', 'education': \"master's degree\"}, 'personality': {'svo': 'proself', 'big-five': {'extraversion': 6.0, 'agreeableness': 7.0, 'conscientiousness': 7.0, 'emotional-stability': 7.0, 'openness-to-experiences': 7.0}}}} Results: [{'text': 'Submit-Deal', 'task_data': {'issue2youget': {'Firewood': '2', 'Food': '0', 'Water': '2'}, 'issue2theyget': {'Firewood': '1', 'Food': '3', 'Water': '1'}}, 'id': 'mturk_agent_1'}, {'text': 'Accept-Deal', 'task_data': {'data': 'accept_deal'}, 'id': 'mturk_agent_2'}]",
+        "dst knowledge": "",
+        "intent knowledge": "",
+        "prompt": [
+            "This is a bot helping users to take the role of campsite neighbors and negotiate for food, water, and firewood. Given the dialog context and external database, please generate a relevant system response for the user.",
+            "This bot assists users to take the role of campsite neighbors and negotiate for food, water, and firewood. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
+            "This bot helps users to take the role of campsite neighbors and negotiate for food, water, and firewood. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
+            "The purpose of this bot is to assist users to take the role of campsite neighbors and negotiate for food, water, and firewood. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
+            "This bot is designed to help users take the role of campsite neighbors and negotiate for food, water, and firewood. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+        ]
+    },
+    "CaSiNo--train--4": {
+        "original dialog id": 607,
+        "dialog index": 4,
+        "original dialog info": {
+            "participant_info": {
+                "mturk_agent_1": {
+                    "value2issue": {
+                        "Low": "Food",
+                        "High": "Water",
+                        "Medium": "Firewood"
+                    },
+                    "value2reason": {
+                        "High": "You need water to survive and it is the most important aspect you cannot go long without it ",
+                        "Medium": "You need to make a fire and you have been and you are running low on wood to use now ",
+                        "Low": "You packed a lot of food and you don't need that much anymore but you still need to get food "
+                    },
+                    "outcomes": {
+                        "points_scored": 19,
+                        "satisfaction": "Slightly satisfied",
+                        "opponent_likeness": "Slightly like"
+                    },
+                    "demographics": {
+                        "age": 27,
+                        "gender": "male",
+                        "ethnicity": "hispanic or latino",
+                        "education": "some 4 year college, no degree"
+                    },
+                    "personality": {
+                        "svo": "unclassified",
+                        "big-five": {
+                            "extraversion": 4.5,
+                            "agreeableness": 5.0,
+                            "conscientiousness": 3.5,
+                            "emotional-stability": 3.5,
+                            "openness-to-experiences": 4.5
+                        }
+                    }
+                },
+                "mturk_agent_2": {
+                    "value2issue": {
+                        "Medium": "Food",
+                        "Low": "Water",
+                        "High": "Firewood"
+                    },
+                    "value2reason": {
+                        "High": "I have raw food that I am going to hunt and cook.",
+                        "Medium": "I may not hunt as successfully as I hope.",
+                        "Low": "There are freshwater springs in my area."
+                    },
+                    "outcomes": {
+                        "points_scored": 22,
+                        "satisfaction": "Slightly satisfied",
+                        "opponent_likeness": "Slightly like"
+                    },
+                    "demographics": {
+                        "age": 40,
+                        "gender": "male",
+                        "ethnicity": "white american",
+                        "education": "some 4 year college, bachelor's degree"
+                    },
+                    "personality": {
+                        "svo": "prosocial",
+                        "big-five": {
+                            "extraversion": 1.5,
+                            "agreeableness": 3.5,
+                            "conscientiousness": 4.5,
+                            "emotional-stability": 1.5,
+                            "openness-to-experiences": 6.0
+                        }
+                    }
+                }
+            },
+            "annotations": [
+                [
+                    "Hello I need a lot of water to survive",
+                    "self-need"
+                ],
+                [
+                    "I have a lot of water around me I can use. So I can give you a lot of extra.",
+                    "no-need"
+                ],
+                [
+                    "Ok nice I will give you 3 food if you give me 3 water",
+                    "promote-coordination"
+                ],
+                [
+                    "OK, that works for me. But I would like a lot of firewood. I like to hunt and cook what I kill.",
+                    "self-need"
+                ],
+                [
+                    "Ok I will give you 2 firewood ",
+                    "non-strategic"
+                ],
+                [
+                    "So I get 3 food and 2 firewood? And you get all of the water?",
+                    "non-strategic"
+                ],
+                [
+                    "yes does that sound good to you?",
+                    "non-strategic"
+                ],
+                [
+                    "Yes, I am happy with that arrangement. ",
+                    "non-strategic"
+                ],
+                [
+                    "Alright so let us finalize",
+                    "non-strategic"
+                ],
+                [
+                    "Great, I hope your camping trip goes well!\ud83d\ude42",
+                    "small-talk"
+                ]
+            ],
+            "results": [
+                {
+                    "text": "Submit-Deal",
+                    "task_data": {
+                        "issue2youget": {
+                            "Water": "3",
+                            "Firewood": "1",
+                            "Food": "0"
+                        },
+                        "issue2theyget": {
+                            "Water": "0",
+                            "Firewood": "2",
+                            "Food": "3"
+                        }
+                    },
+                    "id": "mturk_agent_1"
+                },
+                {
+                    "text": "Accept-Deal",
+                    "task_data": {
+                        "data": "accept_deal"
+                    },
+                    "id": "mturk_agent_2"
+                }
+            ]
+        },
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "Hello I need a lot of water to survive",
+                "system response": "I have a lot of water around me I can use. So I can give you a lot of extra.",
+                "dialog history": "",
+                "original user side information": {
+                    "speakere": "mturk_agent_1"
+                },
+                "original system side information": {
+                    "speaker": "mturk_agent_2"
+                }
+            },
+            {
+                "turn id": 2,
+                "user utterance": "Ok nice I will give you 3 food if you give me 3 water",
+                "system response": "OK, that works for me. But I would like a lot of firewood. I like to hunt and cook what I kill.",
+                "dialog history": "<USER> Hello I need a lot of water to survive <SYSTEM> I have a lot of water around me I can use. So I can give you a lot of extra.",
+                "original user side information": {
+                    "speakere": "mturk_agent_1"
+                },
+                "original system side information": {
+                    "speaker": "mturk_agent_2"
+                }
+            },
+            {
+                "turn id": 3,
+                "user utterance": "Ok I will give you 2 firewood ",
+                "system response": "So I get 3 food and 2 firewood? And you get all of the water?",
+                "dialog history": "<USER> Hello I need a lot of water to survive <SYSTEM> I have a lot of water around me I can use. So I can give you a lot of extra. <USER> Ok nice I will give you 3 food if you give me 3 water <SYSTEM> OK, that works for me. But I would like a lot of firewood. I like to hunt and cook what I kill.",
+                "original user side information": {
+                    "speakere": "mturk_agent_1"
+                },
+                "original system side information": {
+                    "speaker": "mturk_agent_2"
+                }
+            },
+            {
+                "turn id": 4,
+                "user utterance": "yes does that sound good to you?",
+                "system response": "Yes, I am happy with that arrangement. ",
+                "dialog history": "<USER> Hello I need a lot of water to survive <SYSTEM> I have a lot of water around me I can use. So I can give you a lot of extra. <USER> Ok nice I will give you 3 food if you give me 3 water <SYSTEM> OK, that works for me. But I would like a lot of firewood. I like to hunt and cook what I kill. <USER> Ok I will give you 2 firewood <SYSTEM> So I get 3 food and 2 firewood? And you get all of the water?",
+                "original user side information": {
+                    "speakere": "mturk_agent_1"
+                },
+                "original system side information": {
+                    "speaker": "mturk_agent_2"
+                }
+            },
+            {
+                "turn id": 5,
+                "user utterance": "Alright so let us finalize",
+                "system response": "Great, I hope your camping trip goes well!\ud83d\ude42",
+                "dialog history": "<USER> Hello I need a lot of water to survive <SYSTEM> I have a lot of water around me I can use. So I can give you a lot of extra. <USER> Ok nice I will give you 3 food if you give me 3 water <SYSTEM> OK, that works for me. But I would like a lot of firewood. I like to hunt and cook what I kill. <USER> Ok I will give you 2 firewood <SYSTEM> So I get 3 food and 2 firewood? And you get all of the water? <USER> yes does that sound good to you? <SYSTEM> Yes, I am happy with that arrangement.",
+                "original user side information": {
+                    "speakere": "mturk_agent_1"
+                },
+                "original system side information": {
+                    "speaker": "mturk_agent_2"
+                }
+            }
+        ],
+        "external knowledge non-flat": {
+            "metadata": {
+                "participant_info": {
+                    "mturk_agent_2": {
+                        "value2issue": {
+                            "Medium": "Food",
+                            "Low": "Water",
+                            "High": "Firewood"
+                        },
+                        "value2reason": {
+                            "High": "I have raw food that I am going to hunt and cook.",
+                            "Medium": "I may not hunt as successfully as I hope.",
+                            "Low": "There are freshwater springs in my area."
+                        },
+                        "outcomes": {
+                            "points_scored": 22,
+                            "satisfaction": "Slightly satisfied",
+                            "opponent_likeness": "Slightly like"
+                        },
+                        "demographics": {
+                            "age": 40,
+                            "gender": "male",
+                            "ethnicity": "white american",
+                            "education": "some 4 year college, bachelor's degree"
+                        },
+                        "personality": {
+                            "svo": "prosocial",
+                            "big-five": {
+                                "extraversion": 1.5,
+                                "agreeableness": 3.5,
+                                "conscientiousness": 4.5,
+                                "emotional-stability": 1.5,
+                                "openness-to-experiences": 6.0
+                            }
+                        }
+                    }
+                },
+                "results": [
+                    {
+                        "text": "Submit-Deal",
+                        "task_data": {
+                            "issue2youget": {
+                                "Water": "3",
+                                "Firewood": "1",
+                                "Food": "0"
+                            },
+                            "issue2theyget": {
+                                "Water": "0",
+                                "Firewood": "2",
+                                "Food": "3"
+                            }
+                        },
+                        "id": "mturk_agent_1"
+                    },
+                    {
+                        "text": "Accept-Deal",
+                        "task_data": {
+                            "data": "accept_deal"
+                        },
+                        "id": "mturk_agent_2"
+                    }
+                ]
+            },
+            "slots and values": {},
+            "intents": {}
+        },
+        "external knowledge": "Participant information: {'mturk_agent_2': {'value2issue': {'Medium': 'Food', 'Low': 'Water', 'High': 'Firewood'}, 'value2reason': {'High': 'I have raw food that I am going to hunt and cook.', 'Medium': 'I may not hunt as successfully as I hope.', 'Low': 'There are freshwater springs in my area.'}, 'outcomes': {'points_scored': 22, 'satisfaction': 'Slightly satisfied', 'opponent_likeness': 'Slightly like'}, 'demographics': {'age': 40, 'gender': 'male', 'ethnicity': 'white american', 'education': \"some 4 year college, bachelor's degree\"}, 'personality': {'svo': 'prosocial', 'big-five': {'extraversion': 1.5, 'agreeableness': 3.5, 'conscientiousness': 4.5, 'emotional-stability': 1.5, 'openness-to-experiences': 6.0}}}} Results: [{'text': 'Submit-Deal', 'task_data': {'issue2youget': {'Water': '3', 'Firewood': '1', 'Food': '0'}, 'issue2theyget': {'Water': '0', 'Firewood': '2', 'Food': '3'}}, 'id': 'mturk_agent_1'}, {'text': 'Accept-Deal', 'task_data': {'data': 'accept_deal'}, 'id': 'mturk_agent_2'}]",
+        "dst knowledge": "",
+        "intent knowledge": "",
+        "prompt": [
+            "This is a bot helping users to take the role of campsite neighbors and negotiate for food, water, and firewood. Given the dialog context and external database, please generate a relevant system response for the user.",
+            "This bot assists users to take the role of campsite neighbors and negotiate for food, water, and firewood. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
+            "This bot helps users to take the role of campsite neighbors and negotiate for food, water, and firewood. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
+            "The purpose of this bot is to assist users to take the role of campsite neighbors and negotiate for food, water, and firewood. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
+            "This bot is designed to help users take the role of campsite neighbors and negotiate for food, water, and firewood. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+        ]
+    },
+    "CaSiNo--train--5": {
+        "original dialog id": 727,
+        "dialog index": 5,
+        "original dialog info": {
+            "participant_info": {
+                "mturk_agent_2": {
+                    "value2issue": {
+                        "Medium": "Food",
+                        "Low": "Water",
+                        "High": "Firewood"
+                    },
+                    "value2reason": {
+                        "High": "I will need more fire to keep any suspicious animals away as well as cooking any food and can be used to make water drinkable.  ",
+                        "Medium": "I plan on this outing being a few days, as well as high energy activities will make me hungrier and I will need more food.",
+                        "Low": "I am able to gather water that is potable and could do with this least."
+                    },
+                    "outcomes": {
+                        "points_scored": 21,
+                        "satisfaction": "Extremely satisfied",
+                        "opponent_likeness": "Extremely like"
+                    },
+                    "demographics": {
+                        "age": 37,
+                        "gender": "male",
+                        "ethnicity": "white american",
+                        "education": "doctorate degree"
+                    },
+                    "personality": {
+                        "svo": "prosocial",
+                        "big-five": {
+                            "extraversion": 4.5,
+                            "agreeableness": 4.0,
+                            "conscientiousness": 7.0,
+                            "emotional-stability": 5.5,
+                            "openness-to-experiences": 4.0
+                        }
+                    }
+                },
+                "mturk_agent_1": {
+                    "value2issue": {
+                        "Medium": "Food",
+                        "High": "Water",
+                        "Low": "Firewood"
+                    },
+                    "value2reason": {
+                        "High": "3 I need to fill my hiking canteens.",
+                        "Medium": "1 a little extra never hurts.",
+                        "Low": "2 we cook every meal and  snacks in between "
+                    },
+                    "outcomes": {
+                        "points_scored": 17,
+                        "satisfaction": "Extremely satisfied",
+                        "opponent_likeness": "Extremely like"
+                    },
+                    "demographics": {
+                        "age": 44,
+                        "gender": "female",
+                        "ethnicity": "hispanic or latino",
+                        "education": "some 2 year college, associate's degree"
+                    },
+                    "personality": {
+                        "svo": "proself",
+                        "big-five": {
+                            "extraversion": 2.0,
+                            "agreeableness": 4.5,
+                            "conscientiousness": 3.0,
+                            "emotional-stability": 6.0,
+                            "openness-to-experiences": 4.5
+                        }
+                    }
+                }
+            },
+            "annotations": [],
+            "results": [
+                {
+                    "text": "Submit-Deal",
+                    "task_data": {
+                        "issue2youget": {
+                            "Firewood": "2",
+                            "Food": "2",
+                            "Water": "1"
+                        },
+                        "issue2theyget": {
+                            "Firewood": "1",
+                            "Food": "1",
+                            "Water": "2"
+                        }
+                    },
+                    "id": "mturk_agent_2"
+                },
+                {
+                    "text": "Accept-Deal",
+                    "task_data": {
+                        "data": "accept_deal"
+                    },
+                    "id": "mturk_agent_1"
+                }
+            ]
+        },
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "Hi I would like to let you know that I could really use some extra firewood and food.  I was wondering if we could split it up with me receiving 3 firewood and 3 food and you get 3 water?\ud83d\ude42\ud83d\ude42\ud83d\ude42",
+                "system response": "Hello, that deal would not work for me. I am in need firewood too. \ud83d\ude42 How about 2 waters for me, 2 firewood and 1 food for me?",
+                "dialog history": "",
+                "original user side information": {
+                    "speakere": "mturk_agent_2"
+                },
+                "original system side information": {
+                    "speaker": "mturk_agent_1"
+                }
+            },
+            {
+                "turn id": 2,
+                "user utterance": "Firewood is really my most needed item as I need it for several reasons.  Could we do 3 firewood for me, 3 water for you and then 2 food for me and 1 food for you?  This would really help me out.",
+                "system response": "I see, firewood is your most needed item. I thought food would have been because we all need nutrients. I have a need for firewood too.",
+                "dialog history": "<USER> Hi I would like to let you know that I could really use some extra firewood and food.  I was wondering if we could split it up with me receiving 3 firewood and 3 food and you get 3 water?\ud83d\ude42\ud83d\ude42\ud83d\ude42 <SYSTEM> Hello, that deal would not work for me. I am in need firewood too. \ud83d\ude42 How about 2 waters for me, 2 firewood and 1 food for me?",
+                "original user side information": {
+                    "speakere": "mturk_agent_2"
+                },
+                "original system side information": {
+                    "speaker": "mturk_agent_1"
+                }
+            },
+            {
+                "turn id": 3,
+                "user utterance": "Yes it is highest priority as I need it to scare off animals as well as cooking food and using to purify water.  If you feel food is most important how about 3 Firewood, 1 food and 2 water for me and 2 food 1 water for you?\ud83d\ude42",
+                "system response": "I really need at least 1 firewood. How abour 2 firewood, 2 food and 0 water for you? I need to cook for my family and of course warm the bottle for my toddler.",
+                "dialog history": "<USER> Hi I would like to let you know that I could really use some extra firewood and food.  I was wondering if we could split it up with me receiving 3 firewood and 3 food and you get 3 water?\ud83d\ude42\ud83d\ude42\ud83d\ude42 <SYSTEM> Hello, that deal would not work for me. I am in need firewood too. \ud83d\ude42 How about 2 waters for me, 2 firewood and 1 food for me? <USER> Firewood is really my most needed item as I need it for several reasons.  Could we do 3 firewood for me, 3 water for you and then 2 food for me and 1 food for you?  This would really help me out. <SYSTEM> I see, firewood is your most needed item. I thought food would have been because we all need nutrients. I have a need for firewood too.",
+                "original user side information": {
+                    "speakere": "mturk_agent_2"
+                },
+                "original system side information": {
+                    "speaker": "mturk_agent_1"
+                }
+            },
+            {
+                "turn id": 4,
+                "user utterance": "I can understand why you would need 1 firewood.  I think i would need a water though, you don't want to let a fire just go in the wild.  So i think what about 2 firewood, 2 food, and 1 water for me and 1 firewood 1 food and 2 water for you and your family.  \ud83d\ude42",
+                "system response": "I think that could work. I understand the need for the water especially around fire \ud83d\ude42",
+                "dialog history": "<USER> Hi I would like to let you know that I could really use some extra firewood and food.  I was wondering if we could split it up with me receiving 3 firewood and 3 food and you get 3 water?\ud83d\ude42\ud83d\ude42\ud83d\ude42 <SYSTEM> Hello, that deal would not work for me. I am in need firewood too. \ud83d\ude42 How about 2 waters for me, 2 firewood and 1 food for me? <USER> Firewood is really my most needed item as I need it for several reasons.  Could we do 3 firewood for me, 3 water for you and then 2 food for me and 1 food for you?  This would really help me out. <SYSTEM> I see, firewood is your most needed item. I thought food would have been because we all need nutrients. I have a need for firewood too. <USER> Yes it is highest priority as I need it to scare off animals as well as cooking food and using to purify water.  If you feel food is most important how about 3 Firewood, 1 food and 2 water for me and 2 food 1 water for you?\ud83d\ude42 <SYSTEM> I really need at least 1 firewood. How abour 2 firewood, 2 food and 0 water for you? I need to cook for my family and of course warm the bottle for my toddler.",
+                "original user side information": {
+                    "speakere": "mturk_agent_2"
+                },
+                "original system side information": {
+                    "speaker": "mturk_agent_1"
+                }
+            },
+            {
+                "turn id": 5,
+                "user utterance": "Ok it sounds like we have an agreement.  For me I would get 2 firewood, 2 food and 1 water.  You would receive 1 firewood, 1 food and and 2 water.  This sounds like a good deal for both of us.\ud83d\ude42",
+                "system response": "Yes, we have deal and we are walking away feeling good about what we agreed upon. The camping trip should be a great success. \ud83d\ude42\ud83d\ude42\ud83d\ude42",
+                "dialog history": "<USER> Hi I would like to let you know that I could really use some extra firewood and food.  I was wondering if we could split it up with me receiving 3 firewood and 3 food and you get 3 water?\ud83d\ude42\ud83d\ude42\ud83d\ude42 <SYSTEM> Hello, that deal would not work for me. I am in need firewood too. \ud83d\ude42 How about 2 waters for me, 2 firewood and 1 food for me? <USER> Firewood is really my most needed item as I need it for several reasons.  Could we do 3 firewood for me, 3 water for you and then 2 food for me and 1 food for you?  This would really help me out. <SYSTEM> I see, firewood is your most needed item. I thought food would have been because we all need nutrients. I have a need for firewood too. <USER> Yes it is highest priority as I need it to scare off animals as well as cooking food and using to purify water.  If you feel food is most important how about 3 Firewood, 1 food and 2 water for me and 2 food 1 water for you?\ud83d\ude42 <SYSTEM> I really need at least 1 firewood. How abour 2 firewood, 2 food and 0 water for you? I need to cook for my family and of course warm the bottle for my toddler. <USER> I can understand why you would need 1 firewood.  I think i would need a water though, you don't want to let a fire just go in the wild.  So i think what about 2 firewood, 2 food, and 1 water for me and 1 firewood 1 food and 2 water for you and your family.  \ud83d\ude42 <SYSTEM> I think that could work. I understand the need for the water especially around fire \ud83d\ude42",
+                "original user side information": {
+                    "speakere": "mturk_agent_2"
+                },
+                "original system side information": {
+                    "speaker": "mturk_agent_1"
+                }
+            }
+        ],
+        "external knowledge non-flat": {
+            "metadata": {
+                "participant_info": {
+                    "mturk_agent_1": {
+                        "value2issue": {
+                            "Medium": "Food",
+                            "High": "Water",
+                            "Low": "Firewood"
+                        },
+                        "value2reason": {
+                            "High": "3 I need to fill my hiking canteens.",
+                            "Medium": "1 a little extra never hurts.",
+                            "Low": "2 we cook every meal and  snacks in between "
+                        },
+                        "outcomes": {
+                            "points_scored": 17,
+                            "satisfaction": "Extremely satisfied",
+                            "opponent_likeness": "Extremely like"
+                        },
+                        "demographics": {
+                            "age": 44,
+                            "gender": "female",
+                            "ethnicity": "hispanic or latino",
+                            "education": "some 2 year college, associate's degree"
+                        },
+                        "personality": {
+                            "svo": "proself",
+                            "big-five": {
+                                "extraversion": 2.0,
+                                "agreeableness": 4.5,
+                                "conscientiousness": 3.0,
+                                "emotional-stability": 6.0,
+                                "openness-to-experiences": 4.5
+                            }
+                        }
+                    }
+                },
+                "results": [
+                    {
+                        "text": "Submit-Deal",
+                        "task_data": {
+                            "issue2youget": {
+                                "Firewood": "2",
+                                "Food": "2",
+                                "Water": "1"
+                            },
+                            "issue2theyget": {
+                                "Firewood": "1",
+                                "Food": "1",
+                                "Water": "2"
+                            }
+                        },
+                        "id": "mturk_agent_2"
+                    },
+                    {
+                        "text": "Accept-Deal",
+                        "task_data": {
+                            "data": "accept_deal"
+                        },
+                        "id": "mturk_agent_1"
+                    }
+                ]
+            },
+            "slots and values": {},
+            "intents": {}
+        },
+        "external knowledge": "Participant information: {'mturk_agent_1': {'value2issue': {'Medium': 'Food', 'High': 'Water', 'Low': 'Firewood'}, 'value2reason': {'High': '3 I need to fill my hiking canteens.', 'Medium': '1 a little extra never hurts.', 'Low': '2 we cook every meal and  snacks in between '}, 'outcomes': {'points_scored': 17, 'satisfaction': 'Extremely satisfied', 'opponent_likeness': 'Extremely like'}, 'demographics': {'age': 44, 'gender': 'female', 'ethnicity': 'hispanic or latino', 'education': \"some 2 year college, associate's degree\"}, 'personality': {'svo': 'proself', 'big-five': {'extraversion': 2.0, 'agreeableness': 4.5, 'conscientiousness': 3.0, 'emotional-stability': 6.0, 'openness-to-experiences': 4.5}}}} Results: [{'text': 'Submit-Deal', 'task_data': {'issue2youget': {'Firewood': '2', 'Food': '2', 'Water': '1'}, 'issue2theyget': {'Firewood': '1', 'Food': '1', 'Water': '2'}}, 'id': 'mturk_agent_2'}, {'text': 'Accept-Deal', 'task_data': {'data': 'accept_deal'}, 'id': 'mturk_agent_1'}]",
+        "dst knowledge": "",
+        "intent knowledge": "",
+        "prompt": [
+            "This is a bot helping users to take the role of campsite neighbors and negotiate for food, water, and firewood. Given the dialog context and external database, please generate a relevant system response for the user.",
+            "This bot assists users to take the role of campsite neighbors and negotiate for food, water, and firewood. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
+            "This bot helps users to take the role of campsite neighbors and negotiate for food, water, and firewood. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
+            "The purpose of this bot is to assist users to take the role of campsite neighbors and negotiate for food, water, and firewood. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
+            "This bot is designed to help users take the role of campsite neighbors and negotiate for food, water, and firewood. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+        ]
+    }
+}

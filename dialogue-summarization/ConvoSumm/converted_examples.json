@@ -1,0 +1,52 @@
+{
+    "ConvoSumm--train--1": {
+        "original dialog id": "",
+        "dialog index": 1,
+        "original dialog info": {
+            "summary": "Commenters respond to a question placed by the Original POster as to what time the AMD presentation starts there in the Netherlands. Most responses answer back with the time frame converted to 12 PM EST. another comment states that it takes place at the same time as the Nintendo E3 Conference.",
+            "dialog history": "Title: Does anybody know at what time the AMD presentation will be for the netherlands? Subreddit: pcmasterrace I'm really bad with timezones. Its in 3 hours and 4 minutes. its at 8pm ET, its now 9am ET Their official twitch states 9am pst 12pm est. is there a seperate amd show besides the pc gaming one? I dont believe I have no clue where you got 8 from since i went to their twitter and all the post are about the one at 12 today. its the same time as nintendos E3 confernece , so in abput 3/4 hours It starts at 2 AM for you, I believe. 1800 for central and 1900 for eastern europe",
+            "sub dataset": "reddit"
+        },
+        "log": ""
+    },
+    "ConvoSumm--train--2": {
+        "original dialog id": "",
+        "dialog index": 2,
+        "original dialog info": {
+            "summary": "Some commenters do not recommend using oil at all, while others like using it. Those who use oil differ in their opinions about which oils to use, such as Safflower or Coconut oil, but do not suggest using olive oil or vegetable oil. Those who do not use oil suggest using nothing or preparing the pan with water instead of the oil.",
+            "dialog history": "Title: Best oil to cook with for losing weight Subreddit: diet Title says it all, I was wondering what the best oil to cook stuff in a ban is. like say stir frying veggies or scrambling egg whites. I'm sure there was more calories in the oil I used this morning than the eggs I ate haha I think all oils, aka fat have very similar caloric value Coconut oil. The other oils are bad for you and olive oil does bad things when heated. I agree coconut oil or MCT oil is the best for you with no noticeable added taste I use it for cooking everything. You can even use it as lip balm or for treating dry skin and dandruff a was watching the hairy bikers diet show thing and they dry fry everything and ive started doing that. Things taste better. No oil. Just put your food in. start on a low heat and get higher Wait, wouldn't that make food stick? Not if you cook it on low first like really low then once the fats started to come out of it then crank it up a little more. and it cooks in its own oil then and doesnt stick. Also, Teflon is legit. Even the crummy $10 pan I got at walmart keeps things from sticking at all. I usually always go with olive oil and sometimes safflower oil for the health benefits for women. Avoid vegetable oil at all costs. These are polyunsaturates that cause so many health problems because they tend to become oxidized or rancid when subjected to heat, oxygen and moisture as in cooking and processing. Go for coconut and olive oil. Coconut oil is heat stable, will give you more energy and help you lose weight. It is a medium-chain fat. water, in a spritz bottle.",
+            "sub dataset": "reddit"
+        },
+        "log": ""
+    },
+    "ConvoSumm--train--3": {
+        "original dialog id": "",
+        "dialog index": 3,
+        "original dialog info": {
+            "summary": "Commentators agree that the location does not have valet parking. Two commentators advise going to a nearby garage that\u2019s a few blocks away. One commentator gives a rude reply, which leads another commentator to try and offer sympathy. His efforts are rudely rebuffed.",
+            "dialog history": "Title: Does Kimmel Center have valet parking? Subreddit: philadelphia I was reading about parking on their website but there is no indication. The website only points to their parking garage where you have to make reservations. No valet parking, but if you drive up Spruce to 15th, there's a very good garage above Fox and Hound. If you really don't wanna park on your own, you can drive over to the hotels on 17th. Thank you for the helpful information Get to that garage early and have a backup garage. It fills up early every time there's an event. You know what companies who have valet parking do? They advertise that they have valet parking. do you need a hug? I'm perfectly contented just watching you work so hard trying to stuff that straw man. Do you need a diaper change or something? That's usually mom's job It takes a village. ps I've been to plenty of places that don't indicate valet when they do have it. I've also seen places that advertise it but it's not available at certain times, or it's for a different price than advertised, or it's with a 3rd party company, etc. That was why I asked for clarification.",
+            "sub dataset": "reddit"
+        },
+        "log": ""
+    },
+    "ConvoSumm--train--4": {
+        "original dialog id": "",
+        "dialog index": 4,
+        "original dialog info": {
+            "summary": "Commenters offer their movie(s) that they can practically quote word for one. One mentions Dumb and Dumber, and another said Shutter Island, which one mentions is good. Another mentions Predator or Aliens. Overall, there are various movies mentioned with very little similarity.",
+            "dialog history": "Title: what movie(s) have you seen so many times you can practically quote it word for word? Subreddit: movies for me its Mean Girls. I spent one summer, with my best friend, watching it at least once a week. * Pulp Fiction * Wayne's World Mrs Doubtfire One time we watched it at his now-ex gf's house and for some reason the sound wouldn't work. We watched it anyway and made the dialogue up ourselves, full of swearing and Street Fighter moves) Knocked Up. I was going through a rough time when it came out and saw it like 8 times in the theatre. I saw that in theaters! very funny movie. ferris bueller's day off and christmas vacation are two big ones. probably the first two dark knight movies. probably the lost boys. big trouble in little china. The Big Lebowski. Coen Brothers movies are infinitely rewatchable. Pilgrim vs. the World Madison -Happy I have most of Scott pilgrim memorized too! my boyfriend (at the time) and I saw it 3 times in theaters. *Forrest Gump* Napoleon Dynamite and Just Friends The Matrix Ferris Bueller's Day Off and Blues Brothers Princess Bride or Blues Brothers Forrest Gump, The Mask, Toy Story, Aladdin, The Lion King - all the movies I grew up watching. Disney movies are the best! Monty python and the holy grail Blue brothers Atonement, Big Fish, Shutter Island, Pride and Prejudice oooo shutter island is a good one. Wanna Wrestle? Sideways & Office Space Very many movies, but mainly my favorite movie of all time, Predator. Tremors Fargo. Me and a co-worker of mine quote (re-enact) pretty much every scene, Favorite movie of all time. Aliens, my dad let me watch it with him when i was young (probably too young) and he could never again watch it with me i would always quote the lines before they were said. Talladega nights: the ballad of Ricky bobby Animal House, Minority Report, and Kung Fu Hustle. The Count of Monte Cristo. I wore out the VHS. That's how much I love this movie. Richard Harris' Abb\u00e9 Faria is one of my favourite movie characters ever. I'm a priest, not a saint. Gives me chills every time. spongebob squarepants movie! Blazing Saddles",
+            "sub dataset": "reddit"
+        },
+        "log": ""
+    },
+    "ConvoSumm--train--5": {
+        "original dialog id": "",
+        "dialog index": 5,
+        "original dialog info": {
+            "summary": "The commenters respond to a post about a new, up and coming adult entertainment center providing bowling, billiards, video arcade games, and laser tag along with a bar and restaurant. The facility is advertising unlimited laser tag and bowling for a straight fee of $25.00 on a particular day. One of the commentators is curious about whether it is worth it.  Some commenters enjoy the facility's array of entertainment options.  Other commenters say that they had never heard of the place before, having lived in the area most of their lives.",
+            "dialog history": "Title: Unlimited laser tag and bowling on Memorial Day! Subreddit: batonrouge We are having unlimited laser tag and bowling here at Quarters for $25 on Monday, May 26th! All you have do is be wearing a visible article of clothing colored red, white, or blue! Quarters: bringing Baton Rouge's gangs together for laser tag. I'd rather hear about Baton Rougeans shooting each other with lasers than with lead. My question for every other member of this subreddit: Is bowling and laser tag any good at quarters? I've heard mixed reviews about the place and don't feel like dumping $25 to find out for myself. The bowling is great, the laser tag is good. They have comfy leather seats in the bowling area, which is right across from the bar (you can order food at the bar as well). I don't really like playing laser tag so I'm not the best judge on it. What and where is Quarters? I've lived in Baton Rouge my whole life and have never heard of this place. It's pretty new. In the same shopping center as lil Caesars on the corner of Sherwood and coursey. We're at the corner of Sherwood and Coursey in the Lake Sherwood Mall Shopping Center. We're a relatively new and up and coming adult entertainment center. You need a better selection of video games and lower prices to play them. We're currently getting a lot of new video games in and the prices are pretty normal for an arcade in Baton Rouge. What is Quarters and why have I never heard of it? A lot of people haven't heard of us, we're pretty new to the game. We are a bar, restaurant, bowling, billards, arcade, and laser tag facility.",
+            "sub dataset": "reddit"
+        },
+        "log": ""
+    }
+}

@@ -1,0 +1,2729 @@
+{
+    "DSTC2-Clean--train--1": {
+        "original dialog id": "",
+        "dialog index": 1,
+        "original dialog info": {},
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "",
+                "system response": "Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?",
+                "dialog history": "",
+                "original user side information": {},
+                "original system side information": {
+                    "system_acts": []
+                }
+            },
+            {
+                "turn id": 2,
+                "user utterance": "hello and welcome to the cambridge",
+                "system response": "What kind of food would you like?",
+                "dialog history": "<SYSTEM> Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?",
+                "original user side information": {
+                    "turn_label": [],
+                    "asr": [
+                        [
+                            "",
+                            0.4154
+                        ],
+                        [
+                            "",
+                            0.1401
+                        ],
+                        [
+                            "well",
+                            0.1021
+                        ],
+                        [
+                            "that",
+                            0.1016
+                        ],
+                        [
+                            "oh",
+                            0.0499
+                        ],
+                        [
+                            "i'm",
+                            0.0485
+                        ],
+                        [
+                            "",
+                            0.0379
+                        ],
+                        [
+                            "food",
+                            0.0357
+                        ],
+                        [
+                            "well",
+                            0.0344
+                        ],
+                        [
+                            "that",
+                            0.0343
+                        ]
+                    ]
+                },
+                "original system side information": {
+                    "system_acts": [
+                        "food"
+                    ]
+                },
+                "dst": ""
+            },
+            {
+                "turn id": 3,
+                "user utterance": "moderately priced swedish food",
+                "system response": "Sorry there is no swedish restaurant in the moderate price range",
+                "dialog history": "<SYSTEM> Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you? <USER> hello and welcome to the cambridge <SYSTEM> What kind of food would you like?",
+                "original user side information": {
+                    "turn_label": [
+                        [
+                            "food",
+                            "swedish"
+                        ],
+                        [
+                            "price range",
+                            "moderate"
+                        ]
+                    ],
+                    "asr": [
+                        [
+                            "moderately priced swedish food",
+                            0.9891
+                        ],
+                        [
+                            "a moderately priced swedish food",
+                            0.0054
+                        ],
+                        [
+                            "moderately priced swiss food",
+                            0.0039
+                        ],
+                        [
+                            "uh moderately priced swedish food",
+                            0.001
+                        ],
+                        [
+                            "moderately priced food",
+                            0.0002
+                        ],
+                        [
+                            "moderately priced swedish swedish food",
+                            0.0002
+                        ],
+                        [
+                            "moderately priced swedish code",
+                            0.0002
+                        ],
+                        [
+                            "i moderately priced swedish food",
+                            0.0001
+                        ],
+                        [
+                            "is moderately priced swedish food",
+                            0.0
+                        ],
+                        [
+                            "moderately priced is food",
+                            0.0
+                        ]
+                    ]
+                },
+                "original system side information": {
+                    "system_acts": []
+                },
+                "dst": "restaurant food swedish, restaurant price range moderate"
+            },
+            {
+                "turn id": 4,
+                "user utterance": "how about asian oriental",
+                "system response": "yippee noodle bar is a great restaurant serving asian oriental food and it is in the moderate price range",
+                "dialog history": "<SYSTEM> Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you? <USER> hello and welcome to the cambridge <SYSTEM> What kind of food would you like? <USER> moderately priced swedish food <SYSTEM> Sorry there is no swedish restaurant in the moderate price range",
+                "original user side information": {
+                    "turn_label": [
+                        [
+                            "food",
+                            "asian oriental"
+                        ]
+                    ],
+                    "asr": [
+                        [
+                            "how about asian oriental",
+                            0.8698
+                        ],
+                        [
+                            "how about asian asian oriental",
+                            0.0617
+                        ],
+                        [
+                            "how about a oriental",
+                            0.0588
+                        ],
+                        [
+                            "how about a asian oriental",
+                            0.0042
+                        ],
+                        [
+                            "how about the oriental",
+                            0.003
+                        ],
+                        [
+                            "how about eastern oriental",
+                            0.0008
+                        ],
+                        [
+                            "how about in oriental",
+                            0.0006
+                        ],
+                        [
+                            "how how about asian oriental",
+                            0.0004
+                        ],
+                        [
+                            "how about asian oriental a",
+                            0.0004
+                        ],
+                        [
+                            "ah about asian oriental",
+                            0.0002
+                        ]
+                    ]
+                },
+                "original system side information": {
+                    "system_acts": []
+                },
+                "dst": "restaurant food asian oriental"
+            },
+            {
+                "turn id": 5,
+                "user utterance": "is there anything else",
+                "system response": "Can I help you with anything else?",
+                "dialog history": "<SYSTEM> Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you? <USER> hello and welcome to the cambridge <SYSTEM> What kind of food would you like? <USER> moderately priced swedish food <SYSTEM> Sorry there is no swedish restaurant in the moderate price range <USER> how about asian oriental <SYSTEM> yippee noodle bar is a great restaurant serving asian oriental food and it is in the moderate price range",
+                "original user side information": {
+                    "turn_label": [],
+                    "asr": [
+                        [
+                            "is there anything else",
+                            0.9981
+                        ],
+                        [
+                            "is is there anything else",
+                            0.0008
+                        ],
+                        [
+                            "uh there anything else",
+                            0.0007
+                        ],
+                        [
+                            "is there a anything else",
+                            0.0001
+                        ],
+                        [
+                            "and there anything else",
+                            0.0001
+                        ],
+                        [
+                            "i there anything else",
+                            0.0
+                        ],
+                        [
+                            "do there anything else",
+                            0.0
+                        ],
+                        [
+                            "is their anything else",
+                            0.0
+                        ],
+                        [
+                            "is there any else",
+                            0.0
+                        ],
+                        [
+                            "his there anything else",
+                            0.0
+                        ]
+                    ]
+                },
+                "original system side information": {
+                    "system_acts": []
+                },
+                "dst": ""
+            },
+            {
+                "turn id": 6,
+                "user utterance": "could i have the addresses and phone number",
+                "system response": "Sure , yippee noodle bar is on 40428 King Street City Centre",
+                "dialog history": "<SYSTEM> Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you? <USER> hello and welcome to the cambridge <SYSTEM> What kind of food would you like? <USER> moderately priced swedish food <SYSTEM> Sorry there is no swedish restaurant in the moderate price range <USER> how about asian oriental <SYSTEM> yippee noodle bar is a great restaurant serving asian oriental food and it is in the moderate price range <USER> is there anything else <SYSTEM> Can I help you with anything else?",
+                "original user side information": {
+                    "turn_label": [
+                        [
+                            "request",
+                            "phone"
+                        ],
+                        [
+                            "request",
+                            "address"
+                        ]
+                    ],
+                    "asr": [
+                        [
+                            "could i have the addressess and phone number",
+                            0.6151
+                        ],
+                        [
+                            "can i have the addressess and phone number",
+                            0.3692
+                        ],
+                        [
+                            "could i have the addressess the phone number",
+                            0.0038
+                        ],
+                        [
+                            "could i have the addressess phone number",
+                            0.0032
+                        ],
+                        [
+                            "can i have the addressess the phone number",
+                            0.0023
+                        ],
+                        [
+                            "i i have the addressess and phone number",
+                            0.002
+                        ],
+                        [
+                            "can i have the addressess phone number",
+                            0.0019
+                        ],
+                        [
+                            "could have the addressess and phone number",
+                            0.0012
+                        ],
+                        [
+                            "can have the addressess and phone number",
+                            0.0007
+                        ],
+                        [
+                            "i have the addressess and phone number",
+                            0.0006
+                        ]
+                    ]
+                },
+                "original system side information": {
+                    "system_acts": []
+                },
+                "dst": "restaurant request phone, restaurant request address"
+            },
+            {
+                "turn id": 7,
+                "user utterance": "phone number",
+                "system response": "The phone number of yippee noodle bar is 01223 518111 .",
+                "dialog history": "<SYSTEM> Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you? <USER> hello and welcome to the cambridge <SYSTEM> What kind of food would you like? <USER> moderately priced swedish food <SYSTEM> Sorry there is no swedish restaurant in the moderate price range <USER> how about asian oriental <SYSTEM> yippee noodle bar is a great restaurant serving asian oriental food and it is in the moderate price range <USER> is there anything else <SYSTEM> Can I help you with anything else? <USER> could i have the addresses and phone number <SYSTEM> Sure , yippee noodle bar is on 40428 King Street City Centre",
+                "original user side information": {
+                    "turn_label": [
+                        [
+                            "request",
+                            "phone"
+                        ]
+                    ],
+                    "asr": [
+                        [
+                            "phone number",
+                            0.9903
+                        ],
+                        [
+                            "the number",
+                            0.0041
+                        ],
+                        [
+                            "phone phone number",
+                            0.0041
+                        ],
+                        [
+                            "a number",
+                            0.0007
+                        ],
+                        [
+                            "uh number",
+                            0.0006
+                        ],
+                        [
+                            "i number",
+                            0.0001
+                        ],
+                        [
+                            "phone number of",
+                            0.0
+                        ],
+                        [
+                            "the phone number",
+                            0.0
+                        ],
+                        [
+                            "number",
+                            0.0
+                        ],
+                        [
+                            "phone phone phone number",
+                            0.0
+                        ]
+                    ]
+                },
+                "original system side information": {
+                    "system_acts": []
+                },
+                "dst": "restaurant request phone"
+            },
+            {
+                "turn id": 8,
+                "user utterance": "thank you good bye",
+                "system response": "",
+                "dialog history": "<SYSTEM> Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you? <USER> hello and welcome to the cambridge <SYSTEM> What kind of food would you like? <USER> moderately priced swedish food <SYSTEM> Sorry there is no swedish restaurant in the moderate price range <USER> how about asian oriental <SYSTEM> yippee noodle bar is a great restaurant serving asian oriental food and it is in the moderate price range <USER> is there anything else <SYSTEM> Can I help you with anything else? <USER> could i have the addresses and phone number <SYSTEM> Sure , yippee noodle bar is on 40428 King Street City Centre <USER> phone number <SYSTEM> The phone number of yippee noodle bar is 01223 518111 .",
+                "original user side information": {
+                    "turn_label": [],
+                    "asr": [
+                        [
+                            "thank you good bye",
+                            0.3075
+                        ],
+                        [
+                            "thank you good goodbye",
+                            0.247
+                        ],
+                        [
+                            "thank you bye",
+                            0.247
+                        ],
+                        [
+                            "thank you goodbye",
+                            0.1984
+                        ],
+                        [
+                            "thank thank you good bye",
+                            0.0
+                        ],
+                        [
+                            "thank you good by",
+                            0.0
+                        ],
+                        [
+                            "ah thank you good bye",
+                            0.0
+                        ],
+                        [
+                            "thank thank you good goodbye",
+                            0.0
+                        ],
+                        [
+                            "thank thank you bye",
+                            0.0
+                        ],
+                        [
+                            "you good bye",
+                            0.0
+                        ]
+                    ]
+                },
+                "original system side information": {
+                    "system_acts": []
+                },
+                "dst": ""
+            }
+        ],
+        "external knowledge non-flat": {
+            "metadata": {},
+            "slots and values": {
+                "restaurant": {
+                    "food": [
+                        "latin american",
+                        "northern european",
+                        "north indian",
+                        "italian",
+                        "hungarian",
+                        "thai",
+                        "tuscan",
+                        "korean",
+                        "european",
+                        "catalan"
+                    ],
+                    "price range": [
+                        "cheap",
+                        "moderate",
+                        "expensive"
+                    ],
+                    "area": [
+                        "centre",
+                        "north",
+                        "west",
+                        "south",
+                        "east"
+                    ]
+                }
+            },
+            "intents": {}
+        },
+        "external knowledge": "()",
+        "dst knowledge": "( restaurant : ( food : ( latin american | northern european | north indian | italian | hungarian | thai | tuscan | korean | european | catalan ) | price range : ( cheap | moderate | expensive ) | area : ( centre | north | west | south | east )))",
+        "intent knowledge": "()",
+        "prompt": [
+            "This is a bot helping users to find a restaurant. Given the dialog context and external database, please generate a relevant system response for the user.",
+            "This bot assists users to find a restaurant. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
+            "This bot helps users to find a restaurant. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
+            "The purpose of this bot is to assist users to find a restaurant. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
+            "This bot is designed to help users find a restaurant. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+        ]
+    },
+    "DSTC2-Clean--train--2": {
+        "original dialog id": "",
+        "dialog index": 2,
+        "original dialog info": {},
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "",
+                "system response": "Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?",
+                "dialog history": "",
+                "original user side information": {},
+                "original system side information": {
+                    "system_acts": []
+                }
+            },
+            {
+                "turn id": 2,
+                "user utterance": "hello and welcome",
+                "system response": "What part of town do you have in mind?",
+                "dialog history": "<SYSTEM> Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?",
+                "original user side information": {
+                    "turn_label": [],
+                    "asr": [
+                        [
+                            "and that well",
+                            0.1956
+                        ],
+                        [
+                            "and that will",
+                            0.1627
+                        ],
+                        [
+                            "and that well",
+                            0.0951
+                        ],
+                        [
+                            "i that well",
+                            0.0902
+                        ],
+                        [
+                            "can that well",
+                            0.0856
+                        ],
+                        [
+                            "and that will",
+                            0.0791
+                        ],
+                        [
+                            "i that will",
+                            0.075
+                        ],
+                        [
+                            "i'm that well",
+                            0.0747
+                        ],
+                        [
+                            "can that will",
+                            0.0712
+                        ],
+                        [
+                            "and i well",
+                            0.0708
+                        ]
+                    ]
+                },
+                "original system side information": {
+                    "system_acts": [
+                        "area"
+                    ]
+                },
+                "dst": ""
+            },
+            {
+                "turn id": 3,
+                "user utterance": "center",
+                "system response": "What kind of food would you like?",
+                "dialog history": "<SYSTEM> Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you? <USER> hello and welcome <SYSTEM> What part of town do you have in mind?",
+                "original user side information": {
+                    "turn_label": [
+                        [
+                            "area",
+                            "centre"
+                        ]
+                    ],
+                    "asr": [
+                        [
+                            "centre",
+                            0.9533
+                        ],
+                        [
+                            "centre centre",
+                            0.023
+                        ],
+                        [
+                            "the",
+                            0.0215
+                        ],
+                        [
+                            "city",
+                            0.001
+                        ],
+                        [
+                            "in",
+                            0.0005
+                        ],
+                        [
+                            "the centre",
+                            0.0005
+                        ],
+                        [
+                            "i",
+                            0.0001
+                        ],
+                        [
+                            "centre a",
+                            0.0
+                        ],
+                        [
+                            "centre of",
+                            0.0
+                        ],
+                        [
+                            "city centre",
+                            0.0
+                        ]
+                    ]
+                },
+                "original system side information": {
+                    "system_acts": [
+                        "food"
+                    ]
+                },
+                "dst": "restaurant area centre"
+            },
+            {
+                "turn id": 4,
+                "user utterance": "catalan",
+                "system response": "What kind of food would you like?",
+                "dialog history": "<SYSTEM> Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you? <USER> hello and welcome <SYSTEM> What part of town do you have in mind? <USER> center <SYSTEM> What kind of food would you like?",
+                "original user side information": {
+                    "turn_label": [
+                        [
+                            "food",
+                            "catalan"
+                        ]
+                    ],
+                    "asr": [
+                        [
+                            "can one",
+                            0.2479
+                        ],
+                        [
+                            "can i one",
+                            0.1776
+                        ],
+                        [
+                            "kettle one",
+                            0.1094
+                        ],
+                        [
+                            "one",
+                            0.1093
+                        ],
+                        [
+                            "kettle i one",
+                            0.0783
+                        ],
+                        [
+                            "i one",
+                            0.0783
+                        ],
+                        [
+                            "can hello one",
+                            0.0626
+                        ],
+                        [
+                            "i i one",
+                            0.0507
+                        ],
+                        [
+                            "can i hello one",
+                            0.0449
+                        ],
+                        [
+                            "can don't one",
+                            0.0409
+                        ]
+                    ]
+                },
+                "original system side information": {
+                    "system_acts": [
+                        "food"
+                    ]
+                },
+                "dst": "restaurant food catalan"
+            },
+            {
+                "turn id": 5,
+                "user utterance": "catalan",
+                "system response": "What kind of food would you like?",
+                "dialog history": "<SYSTEM> Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you? <USER> hello and welcome <SYSTEM> What part of town do you have in mind? <USER> center <SYSTEM> What kind of food would you like? <USER> catalan <SYSTEM> What kind of food would you like?",
+                "original user side information": {
+                    "turn_label": [
+                        [
+                            "food",
+                            "catalan"
+                        ]
+                    ],
+                    "asr": [
+                        [
+                            "can that one",
+                            0.2095
+                        ],
+                        [
+                            "is that one",
+                            0.1858
+                        ],
+                        [
+                            "can have one",
+                            0.0962
+                        ],
+                        [
+                            "and that one",
+                            0.0914
+                        ],
+                        [
+                            "is have one",
+                            0.0853
+                        ],
+                        [
+                            "in that one",
+                            0.0784
+                        ],
+                        [
+                            "can one",
+                            0.0729
+                        ],
+                        [
+                            "is one",
+                            0.0646
+                        ],
+                        [
+                            "that one",
+                            0.0638
+                        ],
+                        [
+                            "to that one",
+                            0.0521
+                        ]
+                    ]
+                },
+                "original system side information": {
+                    "system_acts": [
+                        "food"
+                    ]
+                },
+                "dst": "restaurant food catalan"
+            },
+            {
+                "turn id": 6,
+                "user utterance": "italian",
+                "system response": "Would you like something in the cheap , moderate , or expensive price range?",
+                "dialog history": "<SYSTEM> Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you? <USER> hello and welcome <SYSTEM> What part of town do you have in mind? <USER> center <SYSTEM> What kind of food would you like? <USER> catalan <SYSTEM> What kind of food would you like? <USER> catalan <SYSTEM> What kind of food would you like?",
+                "original user side information": {
+                    "turn_label": [
+                        [
+                            "food",
+                            "italian"
+                        ]
+                    ],
+                    "asr": [
+                        [
+                            "ok don't in",
+                            0.1705
+                        ],
+                        [
+                            "i don't in",
+                            0.1574
+                        ],
+                        [
+                            "ok in",
+                            0.1162
+                        ],
+                        [
+                            "ok don't don't in",
+                            0.1124
+                        ],
+                        [
+                            "i in",
+                            0.1072
+                        ],
+                        [
+                            "i don't don't in",
+                            0.1038
+                        ],
+                        [
+                            "ok i don't in",
+                            0.0658
+                        ],
+                        [
+                            "i i don't in",
+                            0.0607
+                        ],
+                        [
+                            "ok don't",
+                            0.0551
+                        ],
+                        [
+                            "i don't",
+                            0.0509
+                        ]
+                    ]
+                },
+                "original system side information": {
+                    "system_acts": [
+                        "price range"
+                    ]
+                },
+                "dst": "restaurant food italian"
+            },
+            {
+                "turn id": 7,
+                "user utterance": "moderate",
+                "system response": "yippee noodle bar is a nice place in the centre of town and the prices are moderate",
+                "dialog history": "<SYSTEM> Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you? <USER> hello and welcome <SYSTEM> What part of town do you have in mind? <USER> center <SYSTEM> What kind of food would you like? <USER> catalan <SYSTEM> What kind of food would you like? <USER> catalan <SYSTEM> What kind of food would you like? <USER> italian <SYSTEM> Would you like something in the cheap , moderate , or expensive price range?",
+                "original user side information": {
+                    "turn_label": [
+                        [
+                            "price range",
+                            "moderate"
+                        ]
+                    ],
+                    "asr": [
+                        [
+                            "moderate",
+                            0.9985
+                        ],
+                        [
+                            "moderate moderate",
+                            0.0006
+                        ],
+                        [
+                            "a",
+                            0.0005
+                        ],
+                        [
+                            "the moderate",
+                            0.0001
+                        ],
+                        [
+                            "moderate",
+                            0.0001
+                        ],
+                        [
+                            "moderate",
+                            0.0001
+                        ],
+                        [
+                            "ok",
+                            0.0
+                        ],
+                        [
+                            "moderate is",
+                            0.0
+                        ],
+                        [
+                            "moderate to",
+                            0.0
+                        ],
+                        [
+                            "moderate it",
+                            0.0
+                        ]
+                    ]
+                },
+                "original system side information": {
+                    "system_acts": []
+                },
+                "dst": "restaurant price range moderate"
+            },
+            {
+                "turn id": 8,
+                "user utterance": "is there anything else",
+                "system response": "cotto is a nice place in the centre of town and the prices are moderate",
+                "dialog history": "<SYSTEM> Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you? <USER> hello and welcome <SYSTEM> What part of town do you have in mind? <USER> center <SYSTEM> What kind of food would you like? <USER> catalan <SYSTEM> What kind of food would you like? <USER> catalan <SYSTEM> What kind of food would you like? <USER> italian <SYSTEM> Would you like something in the cheap , moderate , or expensive price range? <USER> moderate <SYSTEM> yippee noodle bar is a nice place in the centre of town and the prices are moderate",
+                "original user side information": {
+                    "turn_label": [],
+                    "asr": [
+                        [
+                            "is there anything else",
+                            0.9984
+                        ],
+                        [
+                            "get there anything else",
+                            0.0005
+                        ],
+                        [
+                            "give there anything else",
+                            0.0004
+                        ],
+                        [
+                            "ok is there anything else",
+                            0.0001
+                        ],
+                        [
+                            "is is there anything else",
+                            0.0001
+                        ],
+                        [
+                            "is their anything else",
+                            0.0001
+                        ],
+                        [
+                            "you there anything else",
+                            0.0001
+                        ],
+                        [
+                            "there anything else",
+                            0.0001
+                        ],
+                        [
+                            "is there anything else a",
+                            0.0
+                        ],
+                        [
+                            "could there anything else",
+                            0.0
+                        ]
+                    ]
+                },
+                "original system side information": {
+                    "system_acts": []
+                },
+                "dst": ""
+            },
+            {
+                "turn id": 9,
+                "user utterance": "could i get the phone number and",
+                "system response": "The phone number of cotto is 01223 302010 .",
+                "dialog history": "<SYSTEM> Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you? <USER> hello and welcome <SYSTEM> What part of town do you have in mind? <USER> center <SYSTEM> What kind of food would you like? <USER> catalan <SYSTEM> What kind of food would you like? <USER> catalan <SYSTEM> What kind of food would you like? <USER> italian <SYSTEM> Would you like something in the cheap , moderate , or expensive price range? <USER> moderate <SYSTEM> yippee noodle bar is a nice place in the centre of town and the prices are moderate <USER> is there anything else <SYSTEM> cotto is a nice place in the centre of town and the prices are moderate",
+                "original user side information": {
+                    "turn_label": [
+                        [
+                            "request",
+                            "phone"
+                        ]
+                    ],
+                    "asr": [
+                        [
+                            "can i get the phone number and",
+                            0.6569
+                        ],
+                        [
+                            "could i get the phone number and",
+                            0.2108
+                        ],
+                        [
+                            "can i get the phone number number and",
+                            0.0275
+                        ],
+                        [
+                            "can i get the phone and",
+                            0.0275
+                        ],
+                        [
+                            "can i get the phone number",
+                            0.0238
+                        ],
+                        [
+                            "can i get the phone number and in",
+                            0.0213
+                        ],
+                        [
+                            "could i get the phone number number and",
+                            0.0088
+                        ],
+                        [
+                            "could i get the phone and",
+                            0.0088
+                        ],
+                        [
+                            "could i get the phone number",
+                            0.0076
+                        ],
+                        [
+                            "could i get the phone number and in",
+                            0.0068
+                        ]
+                    ]
+                },
+                "original system side information": {
+                    "system_acts": []
+                },
+                "dst": "restaurant request phone"
+            },
+            {
+                "turn id": 10,
+                "user utterance": "price range",
+                "system response": "cotto is in the moderate price range",
+                "dialog history": "<SYSTEM> Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you? <USER> hello and welcome <SYSTEM> What part of town do you have in mind? <USER> center <SYSTEM> What kind of food would you like? <USER> catalan <SYSTEM> What kind of food would you like? <USER> catalan <SYSTEM> What kind of food would you like? <USER> italian <SYSTEM> Would you like something in the cheap , moderate , or expensive price range? <USER> moderate <SYSTEM> yippee noodle bar is a nice place in the centre of town and the prices are moderate <USER> is there anything else <SYSTEM> cotto is a nice place in the centre of town and the prices are moderate <USER> could i get the phone number and <SYSTEM> The phone number of cotto is 01223 302010 .",
+                "original user side information": {
+                    "turn_label": [
+                        [
+                            "request",
+                            "price range"
+                        ]
+                    ],
+                    "asr": [
+                        [
+                            "price range",
+                            0.9955
+                        ],
+                        [
+                            "range",
+                            0.0021
+                        ],
+                        [
+                            "price price range",
+                            0.0019
+                        ],
+                        [
+                            "price priced range",
+                            0.0002
+                        ],
+                        [
+                            "price rang",
+                            0.0001
+                        ],
+                        [
+                            "price range",
+                            0.0001
+                        ],
+                        [
+                            "price range is",
+                            0.0
+                        ],
+                        [
+                            "price price range",
+                            0.0
+                        ],
+                        [
+                            "a range",
+                            0.0
+                        ],
+                        [
+                            "price range a",
+                            0.0
+                        ]
+                    ]
+                },
+                "original system side information": {
+                    "system_acts": []
+                },
+                "dst": "restaurant request price range"
+            },
+            {
+                "turn id": 11,
+                "user utterance": "could i get the phone number and price range",
+                "system response": "The phone number of cotto is 01223 302010 .",
+                "dialog history": "<SYSTEM> Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you? <USER> hello and welcome <SYSTEM> What part of town do you have in mind? <USER> center <SYSTEM> What kind of food would you like? <USER> catalan <SYSTEM> What kind of food would you like? <USER> catalan <SYSTEM> What kind of food would you like? <USER> italian <SYSTEM> Would you like something in the cheap , moderate , or expensive price range? <USER> moderate <SYSTEM> yippee noodle bar is a nice place in the centre of town and the prices are moderate <USER> is there anything else <SYSTEM> cotto is a nice place in the centre of town and the prices are moderate <USER> could i get the phone number and <SYSTEM> The phone number of cotto is 01223 302010 . <USER> price range <SYSTEM> cotto is in the moderate price range",
+                "original user side information": {
+                    "turn_label": [
+                        [
+                            "request",
+                            "phone"
+                        ],
+                        [
+                            "request",
+                            "price range"
+                        ]
+                    ],
+                    "asr": [
+                        [
+                            "can i get the phone number and price range",
+                            0.8438
+                        ],
+                        [
+                            "could i get the phone number and price range",
+                            0.096
+                        ],
+                        [
+                            "can i get the phone number and price rang",
+                            0.0219
+                        ],
+                        [
+                            "can i get a phone number and price range",
+                            0.0185
+                        ],
+                        [
+                            "can i get the phone number plea price range",
+                            0.0069
+                        ],
+                        [
+                            "can i get the phone number can price range",
+                            0.0052
+                        ],
+                        [
+                            "could i get the phone number and price rang",
+                            0.0025
+                        ],
+                        [
+                            "could i get a phone number and price range",
+                            0.0021
+                        ],
+                        [
+                            "can get the phone number and price range",
+                            0.0016
+                        ],
+                        [
+                            "i i get the phone number and price range",
+                            0.0014
+                        ]
+                    ]
+                },
+                "original system side information": {
+                    "system_acts": []
+                },
+                "dst": "restaurant request phone, restaurant request price range"
+            },
+            {
+                "turn id": 12,
+                "user utterance": "thank you good bye",
+                "system response": "",
+                "dialog history": "<SYSTEM> Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you? <USER> hello and welcome <SYSTEM> What part of town do you have in mind? <USER> center <SYSTEM> What kind of food would you like? <USER> catalan <SYSTEM> What kind of food would you like? <USER> catalan <SYSTEM> What kind of food would you like? <USER> italian <SYSTEM> Would you like something in the cheap , moderate , or expensive price range? <USER> moderate <SYSTEM> yippee noodle bar is a nice place in the centre of town and the prices are moderate <USER> is there anything else <SYSTEM> cotto is a nice place in the centre of town and the prices are moderate <USER> could i get the phone number and <SYSTEM> The phone number of cotto is 01223 302010 . <USER> price range <SYSTEM> cotto is in the moderate price range <USER> could i get the phone number and price range <SYSTEM> The phone number of cotto is 01223 302010 .",
+                "original user side information": {
+                    "turn_label": [],
+                    "asr": [
+                        [
+                            "thank you good bye",
+                            0.7415
+                        ],
+                        [
+                            "thank you good goodbye",
+                            0.1196
+                        ],
+                        [
+                            "thank you bye",
+                            0.1196
+                        ],
+                        [
+                            "thank you goodbye",
+                            0.0193
+                        ],
+                        [
+                            "thank you good by",
+                            0.0
+                        ],
+                        [
+                            "thank u good bye",
+                            0.0
+                        ],
+                        [
+                            "thank you by",
+                            0.0
+                        ],
+                        [
+                            "thank thank you good bye",
+                            0.0
+                        ],
+                        [
+                            "thank you good night",
+                            0.0
+                        ],
+                        [
+                            "a you good bye",
+                            0.0
+                        ]
+                    ]
+                },
+                "original system side information": {
+                    "system_acts": []
+                },
+                "dst": ""
+            }
+        ],
+        "external knowledge non-flat": {
+            "metadata": {},
+            "slots and values": {
+                "restaurant": {
+                    "food": [
+                        "latin american",
+                        "northern european",
+                        "north indian",
+                        "italian",
+                        "hungarian",
+                        "thai",
+                        "tuscan",
+                        "korean",
+                        "european",
+                        "catalan"
+                    ],
+                    "price range": [
+                        "cheap",
+                        "moderate",
+                        "expensive"
+                    ],
+                    "area": [
+                        "centre",
+                        "north",
+                        "west",
+                        "south",
+                        "east"
+                    ]
+                }
+            },
+            "intents": {}
+        },
+        "external knowledge": "()",
+        "dst knowledge": "( restaurant : ( food : ( latin american | northern european | north indian | italian | hungarian | thai | tuscan | korean | european | catalan ) | price range : ( cheap | moderate | expensive ) | area : ( centre | north | west | south | east )))",
+        "intent knowledge": "()",
+        "prompt": [
+            "This is a bot helping users to find a restaurant. Given the dialog context and external database, please generate a relevant system response for the user.",
+            "This bot assists users to find a restaurant. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
+            "This bot helps users to find a restaurant. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
+            "The purpose of this bot is to assist users to find a restaurant. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
+            "This bot is designed to help users find a restaurant. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+        ]
+    },
+    "DSTC2-Clean--train--3": {
+        "original dialog id": "",
+        "dialog index": 3,
+        "original dialog info": {},
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "",
+                "system response": "Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?",
+                "dialog history": "",
+                "original user side information": {},
+                "original system side information": {
+                    "system_acts": []
+                }
+            },
+            {
+                "turn id": 2,
+                "user utterance": "hello and welcome to the cambridge",
+                "system response": "What part of town do you have in mind?",
+                "dialog history": "<SYSTEM> Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?",
+                "original user side information": {
+                    "turn_label": [],
+                    "asr": [
+                        [
+                            "that's ok",
+                            0.3537
+                        ],
+                        [
+                            "and ok",
+                            0.1756
+                        ],
+                        [
+                            "that's what's",
+                            0.1186
+                        ],
+                        [
+                            "that's ok the",
+                            0.0871
+                        ],
+                        [
+                            "and what's",
+                            0.0588
+                        ],
+                        [
+                            "that's ok that's",
+                            0.0555
+                        ],
+                        [
+                            "that's ok perfect",
+                            0.0481
+                        ],
+                        [
+                            "and ok the",
+                            0.0432
+                        ],
+                        [
+                            "that's that's ok",
+                            0.0302
+                        ],
+                        [
+                            "that's what's the",
+                            0.0292
+                        ]
+                    ]
+                },
+                "original system side information": {
+                    "system_acts": [
+                        "area"
+                    ]
+                },
+                "dst": ""
+            },
+            {
+                "turn id": 3,
+                "user utterance": "any part",
+                "system response": "Let me confirm , You are looking for a restaurant in the cheap price range right?",
+                "dialog history": "<SYSTEM> Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you? <USER> hello and welcome to the cambridge <SYSTEM> What part of town do you have in mind?",
+                "original user side information": {
+                    "turn_label": [
+                        [
+                            "area",
+                            "dontcare"
+                        ]
+                    ],
+                    "asr": [
+                        [
+                            "cheap part",
+                            0.386
+                        ],
+                        [
+                            "part",
+                            0.1743
+                        ],
+                        [
+                            "cheap ok part",
+                            0.1168
+                        ],
+                        [
+                            "can part",
+                            0.099
+                        ],
+                        [
+                            "cheap you part",
+                            0.0597
+                        ],
+                        [
+                            "ok part",
+                            0.0527
+                        ],
+                        [
+                            "could part",
+                            0.0367
+                        ],
+                        [
+                            "can ok part",
+                            0.0299
+                        ],
+                        [
+                            "you part",
+                            0.0269
+                        ],
+                        [
+                            "cheap ok you part",
+                            0.0181
+                        ]
+                    ]
+                },
+                "original system side information": {
+                    "system_acts": [
+                        [
+                            "price range",
+                            "cheap"
+                        ]
+                    ]
+                },
+                "dst": "restaurant area dontcare"
+            },
+            {
+                "turn id": 4,
+                "user utterance": "i dont care about the price range",
+                "system response": "What part of town do you have in mind?",
+                "dialog history": "<SYSTEM> Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you? <USER> hello and welcome to the cambridge <SYSTEM> What part of town do you have in mind? <USER> any part <SYSTEM> Let me confirm , You are looking for a restaurant in the cheap price range right?",
+                "original user side information": {
+                    "turn_label": [
+                        [
+                            "price range",
+                            "dontcare"
+                        ]
+                    ],
+                    "asr": [
+                        [
+                            "i don't care about the price range",
+                            0.9993
+                        ],
+                        [
+                            "i i don't care about the price range",
+                            0.0003
+                        ],
+                        [
+                            "don't care about the price range",
+                            0.0002
+                        ],
+                        [
+                            "i care about the price range",
+                            0.0
+                        ],
+                        [
+                            "i don't care how about the price range",
+                            0.0
+                        ],
+                        [
+                            "i don't don't care about the price range",
+                            0.0
+                        ],
+                        [
+                            "i don't care about to price range",
+                            0.0
+                        ],
+                        [
+                            "i don't care the price range",
+                            0.0
+                        ],
+                        [
+                            "i don't care where about the price range",
+                            0.0
+                        ],
+                        [
+                            "i don't care about about the price range",
+                            0.0
+                        ]
+                    ]
+                },
+                "original system side information": {
+                    "system_acts": [
+                        "area"
+                    ]
+                },
+                "dst": "restaurant price range dontcare"
+            },
+            {
+                "turn id": 5,
+                "user utterance": "uh world food",
+                "system response": "I'm sorry but there is no restaurant serving world food",
+                "dialog history": "<SYSTEM> Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you? <USER> hello and welcome to the cambridge <SYSTEM> What part of town do you have in mind? <USER> any part <SYSTEM> Let me confirm , You are looking for a restaurant in the cheap price range right? <USER> i dont care about the price range <SYSTEM> What part of town do you have in mind?",
+                "original user side information": {
+                    "turn_label": [
+                        [
+                            "food",
+                            "world"
+                        ]
+                    ],
+                    "asr": [
+                        [
+                            "uh world food",
+                            0.7228
+                        ],
+                        [
+                            "um world food",
+                            0.1016
+                        ],
+                        [
+                            "uhm world food",
+                            0.0947
+                        ],
+                        [
+                            "ah world food",
+                            0.0431
+                        ],
+                        [
+                            "oh world food",
+                            0.0331
+                        ],
+                        [
+                            "uh welsh food",
+                            0.0014
+                        ],
+                        [
+                            "uh uh world food",
+                            0.0011
+                        ],
+                        [
+                            "world food",
+                            0.0008
+                        ],
+                        [
+                            "uh world food",
+                            0.0008
+                        ],
+                        [
+                            "uh world food and",
+                            0.0005
+                        ]
+                    ]
+                },
+                "original system side information": {
+                    "system_acts": []
+                },
+                "dst": "restaurant food world"
+            },
+            {
+                "turn id": 6,
+                "user utterance": "how about mediterranean food",
+                "system response": "Sorry would you like world or mediterranean food?",
+                "dialog history": "<SYSTEM> Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you? <USER> hello and welcome to the cambridge <SYSTEM> What part of town do you have in mind? <USER> any part <SYSTEM> Let me confirm , You are looking for a restaurant in the cheap price range right? <USER> i dont care about the price range <SYSTEM> What part of town do you have in mind? <USER> uh world food <SYSTEM> I'm sorry but there is no restaurant serving world food",
+                "original user side information": {
+                    "turn_label": [
+                        [
+                            "food",
+                            "mediterranean"
+                        ]
+                    ],
+                    "asr": [
+                        [
+                            "how about mediterranean food",
+                            0.9845
+                        ],
+                        [
+                            "how about mediterranean mediterranean food",
+                            0.0056
+                        ],
+                        [
+                            "how about a food",
+                            0.0055
+                        ],
+                        [
+                            "hi about mediterranean food",
+                            0.0029
+                        ],
+                        [
+                            "ah about mediterranean food",
+                            0.0004
+                        ],
+                        [
+                            "how how about mediterranean food",
+                            0.0004
+                        ],
+                        [
+                            "how i about mediterranean food",
+                            0.0002
+                        ],
+                        [
+                            "oh about mediterranean food",
+                            0.0002
+                        ],
+                        [
+                            "how about mediterranean who",
+                            0.0001
+                        ],
+                        [
+                            "about mediterranean food",
+                            0.0001
+                        ]
+                    ]
+                },
+                "original system side information": {
+                    "system_acts": []
+                },
+                "dst": "restaurant food mediterranean"
+            },
+            {
+                "turn id": 7,
+                "user utterance": "mediterranean food",
+                "system response": "the gardenia serves mediterranean food",
+                "dialog history": "<SYSTEM> Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you? <USER> hello and welcome to the cambridge <SYSTEM> What part of town do you have in mind? <USER> any part <SYSTEM> Let me confirm , You are looking for a restaurant in the cheap price range right? <USER> i dont care about the price range <SYSTEM> What part of town do you have in mind? <USER> uh world food <SYSTEM> I'm sorry but there is no restaurant serving world food <USER> how about mediterranean food <SYSTEM> Sorry would you like world or mediterranean food?",
+                "original user side information": {
+                    "turn_label": [
+                        [
+                            "food",
+                            "mediterranean"
+                        ]
+                    ],
+                    "asr": [
+                        [
+                            "mediterranean food",
+                            0.9999
+                        ],
+                        [
+                            "mediterranean mediterranean food",
+                            0.0
+                        ],
+                        [
+                            "food",
+                            0.0
+                        ],
+                        [
+                            "ok mediterranean food",
+                            0.0
+                        ],
+                        [
+                            "mediterranean foods",
+                            0.0
+                        ],
+                        [
+                            "mediterranean who",
+                            0.0
+                        ],
+                        [
+                            "i food",
+                            0.0
+                        ],
+                        [
+                            "mediterranean through",
+                            0.0
+                        ],
+                        [
+                            "mediterranean food food",
+                            0.0
+                        ],
+                        [
+                            "mediterranean",
+                            0.0
+                        ]
+                    ]
+                },
+                "original system side information": {
+                    "system_acts": []
+                },
+                "dst": "restaurant food mediterranean"
+            },
+            {
+                "turn id": 8,
+                "user utterance": "is there anything else",
+                "system response": "shiraz restaurant serves mediterranean food",
+                "dialog history": "<SYSTEM> Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you? <USER> hello and welcome to the cambridge <SYSTEM> What part of town do you have in mind? <USER> any part <SYSTEM> Let me confirm , You are looking for a restaurant in the cheap price range right? <USER> i dont care about the price range <SYSTEM> What part of town do you have in mind? <USER> uh world food <SYSTEM> I'm sorry but there is no restaurant serving world food <USER> how about mediterranean food <SYSTEM> Sorry would you like world or mediterranean food? <USER> mediterranean food <SYSTEM> the gardenia serves mediterranean food",
+                "original user side information": {
+                    "turn_label": [],
+                    "asr": [
+                        [
+                            "is there anything else",
+                            0.9996
+                        ],
+                        [
+                            "is there a anything else",
+                            0.0002
+                        ],
+                        [
+                            "is their anything else",
+                            0.0
+                        ],
+                        [
+                            "is there anything else a",
+                            0.0
+                        ],
+                        [
+                            "is there anything else i",
+                            0.0
+                        ],
+                        [
+                            "is is there anything else",
+                            0.0
+                        ],
+                        [
+                            "it there anything else",
+                            0.0
+                        ],
+                        [
+                            "is there anything else s",
+                            0.0
+                        ],
+                        [
+                            "is there anything else tv",
+                            0.0
+                        ],
+                        [
+                            "the there anything else",
+                            0.0
+                        ]
+                    ]
+                },
+                "original system side information": {
+                    "system_acts": []
+                },
+                "dst": ""
+            },
+            {
+                "turn id": 9,
+                "user utterance": "could i have the addresses",
+                "system response": "Sure , shiraz restaurant is on 84 Regent Street City Centre",
+                "dialog history": "<SYSTEM> Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you? <USER> hello and welcome to the cambridge <SYSTEM> What part of town do you have in mind? <USER> any part <SYSTEM> Let me confirm , You are looking for a restaurant in the cheap price range right? <USER> i dont care about the price range <SYSTEM> What part of town do you have in mind? <USER> uh world food <SYSTEM> I'm sorry but there is no restaurant serving world food <USER> how about mediterranean food <SYSTEM> Sorry would you like world or mediterranean food? <USER> mediterranean food <SYSTEM> the gardenia serves mediterranean food <USER> is there anything else <SYSTEM> shiraz restaurant serves mediterranean food",
+                "original user side information": {
+                    "turn_label": [
+                        [
+                            "request",
+                            "address"
+                        ]
+                    ],
+                    "asr": [
+                        [
+                            "can i have the addressess",
+                            0.6083
+                        ],
+                        [
+                            "could i have the addressess",
+                            0.3626
+                        ],
+                        [
+                            "i have the addressess",
+                            0.0153
+                        ],
+                        [
+                            "ok can i have the addressess",
+                            0.0046
+                        ],
+                        [
+                            "can i get the addressess",
+                            0.0031
+                        ],
+                        [
+                            "ok could i have the addressess",
+                            0.0028
+                        ],
+                        [
+                            "could i get the addressess",
+                            0.0019
+                        ],
+                        [
+                            "can great have the addressess",
+                            0.0005
+                        ],
+                        [
+                            "and can i have the addressess",
+                            0.0005
+                        ],
+                        [
+                            "i i have the addressess",
+                            0.0004
+                        ]
+                    ]
+                },
+                "original system side information": {
+                    "system_acts": []
+                },
+                "dst": "restaurant request address"
+            },
+            {
+                "turn id": 10,
+                "user utterance": "thank you good bye",
+                "system response": "",
+                "dialog history": "<SYSTEM> Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you? <USER> hello and welcome to the cambridge <SYSTEM> What part of town do you have in mind? <USER> any part <SYSTEM> Let me confirm , You are looking for a restaurant in the cheap price range right? <USER> i dont care about the price range <SYSTEM> What part of town do you have in mind? <USER> uh world food <SYSTEM> I'm sorry but there is no restaurant serving world food <USER> how about mediterranean food <SYSTEM> Sorry would you like world or mediterranean food? <USER> mediterranean food <SYSTEM> the gardenia serves mediterranean food <USER> is there anything else <SYSTEM> shiraz restaurant serves mediterranean food <USER> could i have the addresses <SYSTEM> Sure , shiraz restaurant is on 84 Regent Street City Centre",
+                "original user side information": {
+                    "turn_label": [],
+                    "asr": [
+                        [
+                            "thank you good bye",
+                            0.4031
+                        ],
+                        [
+                            "thank you bye",
+                            0.2317
+                        ],
+                        [
+                            "thank you good goodbye",
+                            0.2315
+                        ],
+                        [
+                            "thank you goodbye",
+                            0.1331
+                        ],
+                        [
+                            "thank thank you good bye",
+                            0.0001
+                        ],
+                        [
+                            "ok thank you good bye",
+                            0.0001
+                        ],
+                        [
+                            "you good bye",
+                            0.0001
+                        ],
+                        [
+                            "thank thank you bye",
+                            0.0001
+                        ],
+                        [
+                            "thank thank you good goodbye",
+                            0.0001
+                        ],
+                        [
+                            "ok thank you bye",
+                            0.0001
+                        ]
+                    ]
+                },
+                "original system side information": {
+                    "system_acts": []
+                },
+                "dst": ""
+            }
+        ],
+        "external knowledge non-flat": {
+            "metadata": {},
+            "slots and values": {
+                "restaurant": {
+                    "food": [
+                        "latin american",
+                        "northern european",
+                        "north indian",
+                        "italian",
+                        "hungarian",
+                        "thai",
+                        "tuscan",
+                        "korean",
+                        "european",
+                        "catalan"
+                    ],
+                    "price range": [
+                        "cheap",
+                        "moderate",
+                        "expensive"
+                    ],
+                    "area": [
+                        "centre",
+                        "north",
+                        "west",
+                        "south",
+                        "east"
+                    ]
+                }
+            },
+            "intents": {}
+        },
+        "external knowledge": "()",
+        "dst knowledge": "( restaurant : ( food : ( latin american | northern european | north indian | italian | hungarian | thai | tuscan | korean | european | catalan ) | price range : ( cheap | moderate | expensive ) | area : ( centre | north | west | south | east )))",
+        "intent knowledge": "()",
+        "prompt": [
+            "This is a bot helping users to find a restaurant. Given the dialog context and external database, please generate a relevant system response for the user.",
+            "This bot assists users to find a restaurant. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
+            "This bot helps users to find a restaurant. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
+            "The purpose of this bot is to assist users to find a restaurant. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
+            "This bot is designed to help users find a restaurant. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+        ]
+    },
+    "DSTC2-Clean--train--4": {
+        "original dialog id": "",
+        "dialog index": 4,
+        "original dialog info": {},
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "",
+                "system response": "Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?",
+                "dialog history": "",
+                "original user side information": {},
+                "original system side information": {
+                    "system_acts": []
+                }
+            },
+            {
+                "turn id": 2,
+                "user utterance": "noise",
+                "system response": "What part of town do you have in mind?",
+                "dialog history": "<SYSTEM> Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?",
+                "original user side information": {
+                    "turn_label": [],
+                    "asr": [
+                        [
+                            "",
+                            0.1746
+                        ],
+                        [
+                            "",
+                            0.1587
+                        ],
+                        [
+                            "phone",
+                            0.1276
+                        ],
+                        [
+                            "phone",
+                            0.116
+                        ],
+                        [
+                            "number",
+                            0.1148
+                        ],
+                        [
+                            "number",
+                            0.1043
+                        ],
+                        [
+                            "phone number",
+                            0.0839
+                        ],
+                        [
+                            "phone number",
+                            0.0762
+                        ],
+                        [
+                            "what",
+                            0.023
+                        ],
+                        [
+                            "what",
+                            0.0209
+                        ]
+                    ]
+                },
+                "original system side information": {
+                    "system_acts": [
+                        "area"
+                    ]
+                },
+                "dst": ""
+            },
+            {
+                "turn id": 3,
+                "user utterance": "west part of town",
+                "system response": "Would you like something in the cheap , moderate , or expensive price range?",
+                "dialog history": "<SYSTEM> Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you? <USER> noise <SYSTEM> What part of town do you have in mind?",
+                "original user side information": {
+                    "turn_label": [
+                        [
+                            "area",
+                            "west"
+                        ]
+                    ],
+                    "asr": [
+                        [
+                            "west part of town",
+                            0.8481
+                        ],
+                        [
+                            "the west part of town",
+                            0.1398
+                        ],
+                        [
+                            "in west part of town",
+                            0.0036
+                        ],
+                        [
+                            "part of town",
+                            0.0035
+                        ],
+                        [
+                            "west west part of town",
+                            0.0031
+                        ],
+                        [
+                            "the part of town",
+                            0.0006
+                        ],
+                        [
+                            "what part of town",
+                            0.0005
+                        ],
+                        [
+                            "the west west part of town",
+                            0.0005
+                        ],
+                        [
+                            "west western part of town",
+                            0.0003
+                        ],
+                        [
+                            "i west part of town",
+                            0.0001
+                        ]
+                    ]
+                },
+                "original system side information": {
+                    "system_acts": [
+                        "price range"
+                    ]
+                },
+                "dst": "restaurant area west"
+            },
+            {
+                "turn id": 4,
+                "user utterance": "cheap",
+                "system response": "la margherita is a nice restaurant in the west of town in the cheap price range",
+                "dialog history": "<SYSTEM> Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you? <USER> noise <SYSTEM> What part of town do you have in mind? <USER> west part of town <SYSTEM> Would you like something in the cheap , moderate , or expensive price range?",
+                "original user side information": {
+                    "turn_label": [
+                        [
+                            "price range",
+                            "cheap"
+                        ]
+                    ],
+                    "asr": [
+                        [
+                            "cheap",
+                            0.9959
+                        ],
+                        [
+                            "cheaper",
+                            0.0027
+                        ],
+                        [
+                            "cheap cheap",
+                            0.0006
+                        ],
+                        [
+                            "uh",
+                            0.0003
+                        ],
+                        [
+                            "a",
+                            0.0002
+                        ],
+                        [
+                            "ah",
+                            0.0001
+                        ],
+                        [
+                            "cheap",
+                            0.0001
+                        ],
+                        [
+                            "cheap",
+                            0.0
+                        ],
+                        [
+                            "cheap uh",
+                            0.0
+                        ],
+                        [
+                            "cheap is",
+                            0.0
+                        ]
+                    ]
+                },
+                "original system side information": {
+                    "system_acts": []
+                },
+                "dst": "restaurant price range cheap"
+            },
+            {
+                "turn id": 5,
+                "user utterance": "do you have another option anything else",
+                "system response": "thanh binh is a nice restaurant in the west of town in the cheap price range",
+                "dialog history": "<SYSTEM> Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you? <USER> noise <SYSTEM> What part of town do you have in mind? <USER> west part of town <SYSTEM> Would you like something in the cheap , moderate , or expensive price range? <USER> cheap <SYSTEM> la margherita is a nice restaurant in the west of town in the cheap price range",
+                "original user side information": {
+                    "turn_label": [],
+                    "asr": [
+                        [
+                            "do you have another option anything else",
+                            0.7238
+                        ],
+                        [
+                            "you have another option anything else",
+                            0.126
+                        ],
+                        [
+                            "do you have another anything else",
+                            0.0447
+                        ],
+                        [
+                            "do you have another option options anything else",
+                            0.0418
+                        ],
+                        [
+                            "do you have another option option anything else",
+                            0.0211
+                        ],
+                        [
+                            "do you have another uh anything else",
+                            0.014
+                        ],
+                        [
+                            "do you have another option can anything else",
+                            0.0078
+                        ],
+                        [
+                            "you have another anything else",
+                            0.0078
+                        ],
+                        [
+                            "you have another option options anything else",
+                            0.0073
+                        ],
+                        [
+                            "do have another option anything else",
+                            0.0056
+                        ]
+                    ]
+                },
+                "original system side information": {
+                    "system_acts": []
+                },
+                "dst": ""
+            },
+            {
+                "turn id": 6,
+                "user utterance": "could have the phone number",
+                "system response": "The phone number of thanh binh is 01223 362456 .",
+                "dialog history": "<SYSTEM> Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you? <USER> noise <SYSTEM> What part of town do you have in mind? <USER> west part of town <SYSTEM> Would you like something in the cheap , moderate , or expensive price range? <USER> cheap <SYSTEM> la margherita is a nice restaurant in the west of town in the cheap price range <USER> do you have another option anything else <SYSTEM> thanh binh is a nice restaurant in the west of town in the cheap price range",
+                "original user side information": {
+                    "turn_label": [
+                        [
+                            "request",
+                            "phone"
+                        ]
+                    ],
+                    "asr": [
+                        [
+                            "can i have the phone number",
+                            0.5698
+                        ],
+                        [
+                            "could i have the phone number",
+                            0.4222
+                        ],
+                        [
+                            "i i have the phone number",
+                            0.0018
+                        ],
+                        [
+                            "can have the phone number",
+                            0.0017
+                        ],
+                        [
+                            "could have the phone number",
+                            0.0013
+                        ],
+                        [
+                            "can i have their phone number",
+                            0.0009
+                        ],
+                        [
+                            "i have the phone number",
+                            0.0008
+                        ],
+                        [
+                            "could i have their phone number",
+                            0.0007
+                        ],
+                        [
+                            "can i know the phone number",
+                            0.0005
+                        ],
+                        [
+                            "can i i have the phone number",
+                            0.0004
+                        ]
+                    ]
+                },
+                "original system side information": {
+                    "system_acts": []
+                },
+                "dst": "restaurant request phone"
+            },
+            {
+                "turn id": 7,
+                "user utterance": "thank you good bye",
+                "system response": "",
+                "dialog history": "<SYSTEM> Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you? <USER> noise <SYSTEM> What part of town do you have in mind? <USER> west part of town <SYSTEM> Would you like something in the cheap , moderate , or expensive price range? <USER> cheap <SYSTEM> la margherita is a nice restaurant in the west of town in the cheap price range <USER> do you have another option anything else <SYSTEM> thanh binh is a nice restaurant in the west of town in the cheap price range <USER> could have the phone number <SYSTEM> The phone number of thanh binh is 01223 362456 .",
+                "original user side information": {
+                    "turn_label": [],
+                    "asr": [
+                        [
+                            "thank you good bye",
+                            0.6286
+                        ],
+                        [
+                            "thank you good goodbye",
+                            0.1622
+                        ],
+                        [
+                            "thank you bye",
+                            0.1622
+                        ],
+                        [
+                            "thank you goodbye",
+                            0.0419
+                        ],
+                        [
+                            "ok thank you good bye",
+                            0.0029
+                        ],
+                        [
+                            "ok thank you good goodbye",
+                            0.0008
+                        ],
+                        [
+                            "ok thank you bye",
+                            0.0008
+                        ],
+                        [
+                            "uh thank you good bye",
+                            0.0004
+                        ],
+                        [
+                            "ok thank you goodbye",
+                            0.0002
+                        ],
+                        [
+                            "uh thank you good goodbye",
+                            0.0001
+                        ]
+                    ]
+                },
+                "original system side information": {
+                    "system_acts": []
+                },
+                "dst": ""
+            }
+        ],
+        "external knowledge non-flat": {
+            "metadata": {},
+            "slots and values": {
+                "restaurant": {
+                    "food": [
+                        "latin american",
+                        "northern european",
+                        "north indian",
+                        "italian",
+                        "hungarian",
+                        "thai",
+                        "tuscan",
+                        "korean",
+                        "european",
+                        "catalan"
+                    ],
+                    "price range": [
+                        "cheap",
+                        "moderate",
+                        "expensive"
+                    ],
+                    "area": [
+                        "centre",
+                        "north",
+                        "west",
+                        "south",
+                        "east"
+                    ]
+                }
+            },
+            "intents": {}
+        },
+        "external knowledge": "()",
+        "dst knowledge": "( restaurant : ( food : ( latin american | northern european | north indian | italian | hungarian | thai | tuscan | korean | european | catalan ) | price range : ( cheap | moderate | expensive ) | area : ( centre | north | west | south | east )))",
+        "intent knowledge": "()",
+        "prompt": [
+            "This is a bot helping users to find a restaurant. Given the dialog context and external database, please generate a relevant system response for the user.",
+            "This bot assists users to find a restaurant. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
+            "This bot helps users to find a restaurant. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
+            "The purpose of this bot is to assist users to find a restaurant. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
+            "This bot is designed to help users find a restaurant. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+        ]
+    },
+    "DSTC2-Clean--train--5": {
+        "original dialog id": "",
+        "dialog index": 5,
+        "original dialog info": {},
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "",
+                "system response": "Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?",
+                "dialog history": "",
+                "original user side information": {},
+                "original system side information": {
+                    "system_acts": []
+                }
+            },
+            {
+                "turn id": 2,
+                "user utterance": "hello welcome to the cambridge system",
+                "system response": "What part of town do you have in mind?",
+                "dialog history": "<SYSTEM> Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?",
+                "original user side information": {
+                    "turn_label": [],
+                    "asr": [
+                        [
+                            "",
+                            0.1494
+                        ],
+                        [
+                            "i",
+                            0.125
+                        ],
+                        [
+                            "",
+                            0.1191
+                        ],
+                        [
+                            "well",
+                            0.1116
+                        ],
+                        [
+                            "i",
+                            0.0997
+                        ],
+                        [
+                            "i well",
+                            0.0934
+                        ],
+                        [
+                            "well",
+                            0.0889
+                        ],
+                        [
+                            "for",
+                            0.0745
+                        ],
+                        [
+                            "i well",
+                            0.0745
+                        ],
+                        [
+                            "that",
+                            0.064
+                        ]
+                    ]
+                },
+                "original system side information": {
+                    "system_acts": [
+                        "area"
+                    ]
+                },
+                "dst": ""
+            },
+            {
+                "turn id": 3,
+                "user utterance": "east",
+                "system response": "What kind of food would you like?",
+                "dialog history": "<SYSTEM> Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you? <USER> hello welcome to the cambridge system <SYSTEM> What part of town do you have in mind?",
+                "original user side information": {
+                    "turn_label": [
+                        [
+                            "area",
+                            "east"
+                        ]
+                    ],
+                    "asr": [
+                        [
+                            "east",
+                            0.9966
+                        ],
+                        [
+                            "eastern",
+                            0.0013
+                        ],
+                        [
+                            "east east",
+                            0.001
+                        ],
+                        [
+                            "the",
+                            0.0009
+                        ],
+                        [
+                            "in",
+                            0.0001
+                        ],
+                        [
+                            "east uh",
+                            0.0
+                        ],
+                        [
+                            "east a",
+                            0.0
+                        ],
+                        [
+                            "east i",
+                            0.0
+                        ],
+                        [
+                            "",
+                            0.0
+                        ],
+                        [
+                            "i east",
+                            0.0
+                        ]
+                    ]
+                },
+                "original system side information": {
+                    "system_acts": [
+                        "food"
+                    ]
+                },
+                "dst": "restaurant area east"
+            },
+            {
+                "turn id": 4,
+                "user utterance": "expensive",
+                "system response": "What kind of food would you like?",
+                "dialog history": "<SYSTEM> Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you? <USER> hello welcome to the cambridge system <SYSTEM> What part of town do you have in mind? <USER> east <SYSTEM> What kind of food would you like?",
+                "original user side information": {
+                    "turn_label": [
+                        [
+                            "price range",
+                            "expensive"
+                        ]
+                    ],
+                    "asr": [
+                        [
+                            "expensive",
+                            0.9983
+                        ],
+                        [
+                            "expensive expensive",
+                            0.0006
+                        ],
+                        [
+                            "",
+                            0.0004
+                        ],
+                        [
+                            "a expensive",
+                            0.0004
+                        ],
+                        [
+                            "uh",
+                            0.0001
+                        ],
+                        [
+                            "expensive",
+                            0.0001
+                        ],
+                        [
+                            "expensive uh",
+                            0.0
+                        ],
+                        [
+                            "the",
+                            0.0
+                        ],
+                        [
+                            "i expensive",
+                            0.0
+                        ],
+                        [
+                            "expensive i",
+                            0.0
+                        ]
+                    ]
+                },
+                "original system side information": {
+                    "system_acts": [
+                        "food"
+                    ]
+                },
+                "dst": "restaurant price range expensive"
+            },
+            {
+                "turn id": 5,
+                "user utterance": "any type",
+                "system response": "yu garden is a nice place in the east of town and the prices are expensive",
+                "dialog history": "<SYSTEM> Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you? <USER> hello welcome to the cambridge system <SYSTEM> What part of town do you have in mind? <USER> east <SYSTEM> What kind of food would you like? <USER> expensive <SYSTEM> What kind of food would you like?",
+                "original user side information": {
+                    "turn_label": [
+                        [
+                            "food",
+                            "dontcare"
+                        ]
+                    ],
+                    "asr": [
+                        [
+                            "any type",
+                            0.9923
+                        ],
+                        [
+                            "any type",
+                            0.002
+                        ],
+                        [
+                            "any type",
+                            0.002
+                        ],
+                        [
+                            "any type is",
+                            0.0008
+                        ],
+                        [
+                            "any it type",
+                            0.0008
+                        ],
+                        [
+                            "is type",
+                            0.0008
+                        ],
+                        [
+                            "any type of",
+                            0.0004
+                        ],
+                        [
+                            "any type uh",
+                            0.0004
+                        ],
+                        [
+                            "any type a",
+                            0.0003
+                        ],
+                        [
+                            "any any type",
+                            0.0003
+                        ]
+                    ]
+                },
+                "original system side information": {
+                    "system_acts": []
+                },
+                "dst": "restaurant food dontcare"
+            },
+            {
+                "turn id": 6,
+                "user utterance": "is there anything else",
+                "system response": "sitar tandoori is a nice place in the east of town and the prices are expensive",
+                "dialog history": "<SYSTEM> Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you? <USER> hello welcome to the cambridge system <SYSTEM> What part of town do you have in mind? <USER> east <SYSTEM> What kind of food would you like? <USER> expensive <SYSTEM> What kind of food would you like? <USER> any type <SYSTEM> yu garden is a nice place in the east of town and the prices are expensive",
+                "original user side information": {
+                    "turn_label": [],
+                    "asr": [
+                        [
+                            "is there anything else",
+                            0.9643
+                        ],
+                        [
+                            "is there any else",
+                            0.0188
+                        ],
+                        [
+                            "is there anything any else",
+                            0.0112
+                        ],
+                        [
+                            "is there anything nothing else",
+                            0.0049
+                        ],
+                        [
+                            "is there any any else",
+                            0.0002
+                        ],
+                        [
+                            "is there else",
+                            0.0002
+                        ],
+                        [
+                            "is there a anything else",
+                            0.0002
+                        ],
+                        [
+                            "is there anything anything else",
+                            0.0002
+                        ],
+                        [
+                            "is there anything kind else",
+                            0.0001
+                        ],
+                        [
+                            "is there any nothing else",
+                            0.0001
+                        ]
+                    ]
+                },
+                "original system side information": {
+                    "system_acts": []
+                },
+                "dst": ""
+            },
+            {
+                "turn id": 7,
+                "user utterance": "could i have their phone number and the type of food",
+                "system response": "The phone number of sitar tandoori is 01223 249955 .",
+                "dialog history": "<SYSTEM> Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you? <USER> hello welcome to the cambridge system <SYSTEM> What part of town do you have in mind? <USER> east <SYSTEM> What kind of food would you like? <USER> expensive <SYSTEM> What kind of food would you like? <USER> any type <SYSTEM> yu garden is a nice place in the east of town and the prices are expensive <USER> is there anything else <SYSTEM> sitar tandoori is a nice place in the east of town and the prices are expensive",
+                "original user side information": {
+                    "turn_label": [
+                        [
+                            "request",
+                            "food"
+                        ],
+                        [
+                            "request",
+                            "phone"
+                        ]
+                    ],
+                    "asr": [
+                        [
+                            "can i have the phone number and the type of food",
+                            0.6177
+                        ],
+                        [
+                            "can i have the phone number the type of food",
+                            0.1085
+                        ],
+                        [
+                            "can i have the phone number and and type of food",
+                            0.1003
+                        ],
+                        [
+                            "can have the phone number and the type of food",
+                            0.0445
+                        ],
+                        [
+                            "could i have the phone number and the type of food",
+                            0.0443
+                        ],
+                        [
+                            "can i i have the phone number and the type of food",
+                            0.0437
+                        ],
+                        [
+                            "can i have the phone number and type of food",
+                            0.0176
+                        ],
+                        [
+                            "can have the phone number the type of food",
+                            0.0078
+                        ],
+                        [
+                            "could i have the phone number the type of food",
+                            0.0078
+                        ],
+                        [
+                            "can i i have the phone number the type of food",
+                            0.0077
+                        ]
+                    ]
+                },
+                "original system side information": {
+                    "system_acts": []
+                },
+                "dst": "restaurant request food, restaurant request phone"
+            },
+            {
+                "turn id": 8,
+                "user utterance": "type of food",
+                "system response": "sitar tandoori serves indian food",
+                "dialog history": "<SYSTEM> Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you? <USER> hello welcome to the cambridge system <SYSTEM> What part of town do you have in mind? <USER> east <SYSTEM> What kind of food would you like? <USER> expensive <SYSTEM> What kind of food would you like? <USER> any type <SYSTEM> yu garden is a nice place in the east of town and the prices are expensive <USER> is there anything else <SYSTEM> sitar tandoori is a nice place in the east of town and the prices are expensive <USER> could i have their phone number and the type of food <SYSTEM> The phone number of sitar tandoori is 01223 249955 .",
+                "original user side information": {
+                    "turn_label": [
+                        [
+                            "request",
+                            "food"
+                        ]
+                    ],
+                    "asr": [
+                        [
+                            "type of food",
+                            0.9968
+                        ],
+                        [
+                            "type type of food",
+                            0.0011
+                        ],
+                        [
+                            "of food",
+                            0.001
+                        ],
+                        [
+                            "type the of food",
+                            0.0009
+                        ],
+                        [
+                            "i of food",
+                            0.0001
+                        ],
+                        [
+                            "type of food",
+                            0.0001
+                        ],
+                        [
+                            "type uh of food",
+                            0.0
+                        ],
+                        [
+                            "type of food uh",
+                            0.0
+                        ],
+                        [
+                            "type a of food",
+                            0.0
+                        ],
+                        [
+                            "type of food",
+                            0.0
+                        ]
+                    ]
+                },
+                "original system side information": {
+                    "system_acts": []
+                },
+                "dst": "restaurant request food"
+            },
+            {
+                "turn id": 9,
+                "user utterance": "thank you good bye",
+                "system response": "",
+                "dialog history": "<SYSTEM> Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you? <USER> hello welcome to the cambridge system <SYSTEM> What part of town do you have in mind? <USER> east <SYSTEM> What kind of food would you like? <USER> expensive <SYSTEM> What kind of food would you like? <USER> any type <SYSTEM> yu garden is a nice place in the east of town and the prices are expensive <USER> is there anything else <SYSTEM> sitar tandoori is a nice place in the east of town and the prices are expensive <USER> could i have their phone number and the type of food <SYSTEM> The phone number of sitar tandoori is 01223 249955 . <USER> type of food <SYSTEM> sitar tandoori serves indian food",
+                "original user side information": {
+                    "turn_label": [],
+                    "asr": [
+                        [
+                            "thank you goodbye",
+                            0.306
+                        ],
+                        [
+                            "thank you good",
+                            0.247
+                        ],
+                        [
+                            "thank you goodbye bye",
+                            0.247
+                        ],
+                        [
+                            "thank you good bye",
+                            0.1993
+                        ],
+                        [
+                            "uh thank you goodbye",
+                            0.0002
+                        ],
+                        [
+                            "uh thank you good",
+                            0.0002
+                        ],
+                        [
+                            "uh thank you goodbye bye",
+                            0.0002
+                        ],
+                        [
+                            "uh thank you good bye",
+                            0.0001
+                        ],
+                        [
+                            "ah thank you goodbye",
+                            0.0
+                        ],
+                        [
+                            "ah thank you good",
+                            0.0
+                        ]
+                    ]
+                },
+                "original system side information": {
+                    "system_acts": []
+                },
+                "dst": ""
+            }
+        ],
+        "external knowledge non-flat": {
+            "metadata": {},
+            "slots and values": {
+                "restaurant": {
+                    "food": [
+                        "latin american",
+                        "northern european",
+                        "north indian",
+                        "italian",
+                        "hungarian",
+                        "thai",
+                        "tuscan",
+                        "korean",
+                        "european",
+                        "catalan"
+                    ],
+                    "price range": [
+                        "cheap",
+                        "moderate",
+                        "expensive"
+                    ],
+                    "area": [
+                        "centre",
+                        "north",
+                        "west",
+                        "south",
+                        "east"
+                    ]
+                }
+            },
+            "intents": {}
+        },
+        "external knowledge": "()",
+        "dst knowledge": "( restaurant : ( food : ( latin american | northern european | north indian | italian | hungarian | thai | tuscan | korean | european | catalan ) | price range : ( cheap | moderate | expensive ) | area : ( centre | north | west | south | east )))",
+        "intent knowledge": "()",
+        "prompt": [
+            "This is a bot helping users to find a restaurant. Given the dialog context and external database, please generate a relevant system response for the user.",
+            "This bot assists users to find a restaurant. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
+            "This bot helps users to find a restaurant. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
+            "The purpose of this bot is to assist users to find a restaurant. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
+            "This bot is designed to help users find a restaurant. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+        ]
+    }
+}

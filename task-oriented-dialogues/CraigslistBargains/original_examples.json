@@ -1,0 +1,918 @@
+[
+    {
+        "uuid": "C_fe3d143826f44a8db1072188f5345e8a",
+        "scenario": {
+            "category": "phone",
+            "uuid": "S_6Bcls3VtniHs9vXk",
+            "post_id": "6149527852",
+            "kbs": [
+                {
+                    "personal": {
+                        "Bottomline": null,
+                        "Role": "buyer",
+                        "Target": 7
+                    },
+                    "item": {
+                        "Category": "phone",
+                        "Images": [
+                            "phone/6149527852_0.jpg"
+                        ],
+                        "Price": 10,
+                        "Description": [
+                            "Charge two devices simultaneously on the go. This vehicle charger with an additional USB port delivers enough power to charge two devices at once. The push-button activated LED connector light means no more fumbling in the dark trying to connect your device. Auto Detect IC Technology automatically detects the device type and its specific charging needs for improved compatibility. And the built-in indicator light illuminates red to let you know the charger is receiving power and the power socket is working properly."
+                        ],
+                        "Title": "Verizon Car Charger with Dual Output Micro USB and LED Light"
+                    }
+                },
+                {
+                    "personal": {
+                        "Bottomline": null,
+                        "Role": "seller",
+                        "Target": 10
+                    },
+                    "item": {
+                        "Category": "phone",
+                        "Images": [
+                            "phone/6149527852_0.jpg"
+                        ],
+                        "Price": 10,
+                        "Description": [
+                            "Charge two devices simultaneously on the go. This vehicle charger with an additional USB port delivers enough power to charge two devices at once. The push-button activated LED connector light means no more fumbling in the dark trying to connect your device. Auto Detect IC Technology automatically detects the device type and its specific charging needs for improved compatibility. And the built-in indicator light illuminates red to let you know the charger is receiving power and the power socket is working properly."
+                        ],
+                        "Title": "Verizon Car Charger with Dual Output Micro USB and LED Light"
+                    }
+                }
+            ],
+            "attributes": [
+                {
+                    "entity": false,
+                    "unique": false,
+                    "value_type": "role",
+                    "multivalued": false,
+                    "name": "Role"
+                },
+                {
+                    "entity": false,
+                    "unique": false,
+                    "value_type": "price",
+                    "multivalued": false,
+                    "name": "Bottomline"
+                },
+                {
+                    "entity": false,
+                    "unique": false,
+                    "value_type": "price",
+                    "multivalued": false,
+                    "name": "Target"
+                },
+                {
+                    "entity": false,
+                    "unique": false,
+                    "value_type": "text",
+                    "multivalued": false,
+                    "name": "Title"
+                },
+                {
+                    "entity": false,
+                    "unique": false,
+                    "value_type": "text",
+                    "multivalued": false,
+                    "name": "Category"
+                },
+                {
+                    "entity": false,
+                    "unique": false,
+                    "value_type": "price",
+                    "multivalued": false,
+                    "name": "Price"
+                },
+                {
+                    "entity": false,
+                    "unique": false,
+                    "value_type": "text",
+                    "multivalued": false,
+                    "name": "Images"
+                },
+                {
+                    "entity": false,
+                    "unique": false,
+                    "value_type": "text",
+                    "multivalued": false,
+                    "name": "Description"
+                }
+            ],
+            "intersection": 0.6
+        },
+        "scenario_uuid": "S_q0qenRCWLQ6vOMOq",
+        "agents": {
+            "1": "human",
+            "0": "human"
+        },
+        "outcome": {
+            "reward": 1,
+            "offer": {
+                "price": 7.0,
+                "sides": ""
+            }
+        },
+        "events": [
+            {
+                "action": "message",
+                "start_time": "1496341261.23",
+                "data": "Hi, not sure if the charger would work for my car. Can you sell it to me for $5?",
+                "agent": 0,
+                "time": "1496341272.93"
+            },
+            {
+                "action": "message",
+                "start_time": "1496341284.35",
+                "data": "It will work, i have never seen a car without a cigarette lighter port.",
+                "agent": 1,
+                "time": "1496341307.92"
+            },
+            {
+                "action": "message",
+                "start_time": "1496341318.6",
+                "data": "Still, can I buy it for $5? I'm on a tight budge",
+                "agent": 0,
+                "time": "1496341329.15"
+            },
+            {
+                "action": "message",
+                "start_time": "1496341336.93",
+                "data": "I think the lowest I would want to go is 8. ",
+                "agent": 1,
+                "time": "1496341345.99"
+            },
+            {
+                "action": "message",
+                "start_time": "1496341364.25",
+                "data": "How about $6 and I pick it up myself? It'll save you shipping to me.",
+                "agent": 0,
+                "time": "1496341376.38"
+            },
+            {
+                "action": "message",
+                "start_time": "1496341384.1",
+                "data": "7, and we have a deal.",
+                "agent": 1,
+                "time": "1496341391.82"
+            },
+            {
+                "action": "message",
+                "start_time": "1496341396.89",
+                "data": "Eh, fine. $7.",
+                "agent": 0,
+                "time": "1496341400.98"
+            },
+            {
+                "action": "offer",
+                "start_time": null,
+                "data": {
+                    "price": 7.0,
+                    "sides": ""
+                },
+                "agent": 0,
+                "time": "1496341417.71"
+            },
+            {
+                "action": "accept",
+                "start_time": null,
+                "data": null,
+                "agent": 1,
+                "time": "1496341426.16"
+            }
+        ]
+    },
+    {
+        "uuid": "C_4566b2e6938a4a6a8e714e799d780e71",
+        "scenario": {
+            "category": "bike",
+            "uuid": "S_KBCT5vA6znuh9TvV",
+            "post_id": "6151236842",
+            "kbs": [
+                {
+                    "personal": {
+                        "Bottomline": null,
+                        "Role": "buyer",
+                        "Target": 120
+                    },
+                    "item": {
+                        "Category": "bike",
+                        "Images": [
+                            "bike/6151236842_0.jpg"
+                        ],
+                        "Price": 200,
+                        "Description": [
+                            "Hey there cl I have a long board for sale pretty much brand knew rode all together 4 or 5 times . The brand on the deck is a gravity skateboard. The brand of trucks are sidewinder 2sGuwuing.mini monster hawgs 70mm 78a Wheels with Swiss bones bearings brand new. Please no low ballers thank you and have a great day ."
+                        ],
+                        "Title": "Long board custom bilt from the board up"
+                    }
+                },
+                {
+                    "personal": {
+                        "Bottomline": null,
+                        "Role": "seller",
+                        "Target": 200
+                    },
+                    "item": {
+                        "Category": "bike",
+                        "Images": [
+                            "bike/6151236842_0.jpg"
+                        ],
+                        "Price": 200,
+                        "Description": [
+                            "Hey there cl I have a long board for sale pretty much brand knew rode all together 4 or 5 times . The brand on the deck is a gravity skateboard. The brand of trucks are sidewinder 2sGuwuing.mini monster hawgs 70mm 78a Wheels with Swiss bones bearings brand new. Please no low ballers thank you and have a great day ."
+                        ],
+                        "Title": "Long board custom bilt from the board up"
+                    }
+                }
+            ],
+            "attributes": [
+                {
+                    "entity": false,
+                    "unique": false,
+                    "value_type": "role",
+                    "multivalued": false,
+                    "name": "Role"
+                },
+                {
+                    "entity": false,
+                    "unique": false,
+                    "value_type": "price",
+                    "multivalued": false,
+                    "name": "Bottomline"
+                },
+                {
+                    "entity": false,
+                    "unique": false,
+                    "value_type": "price",
+                    "multivalued": false,
+                    "name": "Target"
+                },
+                {
+                    "entity": false,
+                    "unique": false,
+                    "value_type": "text",
+                    "multivalued": false,
+                    "name": "Title"
+                },
+                {
+                    "entity": false,
+                    "unique": false,
+                    "value_type": "text",
+                    "multivalued": false,
+                    "name": "Category"
+                },
+                {
+                    "entity": false,
+                    "unique": false,
+                    "value_type": "price",
+                    "multivalued": false,
+                    "name": "Price"
+                },
+                {
+                    "entity": false,
+                    "unique": false,
+                    "value_type": "text",
+                    "multivalued": false,
+                    "name": "Images"
+                },
+                {
+                    "entity": false,
+                    "unique": false,
+                    "value_type": "text",
+                    "multivalued": false,
+                    "name": "Description"
+                }
+            ],
+            "intersection": 1.0
+        },
+        "scenario_uuid": "S_8xNI8WVmYboQ5o0d",
+        "agents": {
+            "1": "human",
+            "0": "human"
+        },
+        "outcome": {
+            "reward": 1,
+            "offer": {
+                "price": 145.0,
+                "sides": ""
+            }
+        },
+        "events": [
+            {
+                "action": "message",
+                "start_time": "1496341302.67",
+                "data": "Hi,I am interested in your board!",
+                "agent": 0,
+                "time": "1496341309.85"
+            },
+            {
+                "action": "message",
+                "start_time": "1496341314.24",
+                "data": "Hi, do you have any questions?",
+                "agent": 1,
+                "time": "1496341323.47"
+            },
+            {
+                "action": "message",
+                "start_time": "1496341344.67",
+                "data": "Do you know what wood it is made out of?",
+                "agent": 0,
+                "time": "1496341349.68"
+            },
+            {
+                "action": "message",
+                "start_time": "1496341371.4",
+                "data": "I do not know specifically but the brand is a gravity skateboard. ",
+                "agent": 1,
+                "time": "1496341385.18"
+            },
+            {
+                "action": "message",
+                "start_time": "1496341396.56",
+                "data": "The wheels seem nice on it, but they could be a beter quality. Would you accept 100 for the board?",
+                "agent": 0,
+                "time": "1496341420.57"
+            },
+            {
+                "action": "message",
+                "start_time": "1496341429.24",
+                "data": "No, that offer is too low. The board is pretty much brand new as it's been ridden only 4 or 5 times.  The bone bearings are brand new.",
+                "agent": 1,
+                "time": "1496341476.72"
+            },
+            {
+                "action": "message",
+                "start_time": "1496341493.28",
+                "data": "If I picked it up at your location would you accpet 120?",
+                "agent": 0,
+                "time": "1496341503.98"
+            },
+            {
+                "action": "message",
+                "start_time": "1496341550.28",
+                "data": "Make it 150 and we got a deal. ",
+                "agent": 1,
+                "time": "1496341555.05"
+            },
+            {
+                "action": "message",
+                "start_time": "1496341568.46",
+                "data": "I could do 145, if you can gurantee the painting on the front of the board is not scratched up. ",
+                "agent": 0,
+                "time": "1496341586.55"
+            },
+            {
+                "action": "message",
+                "start_time": "1496341608.89",
+                "data": "Deal",
+                "agent": 1,
+                "time": "1496341610.13"
+            },
+            {
+                "action": "message",
+                "start_time": "1496341629.75",
+                "data": "Great!",
+                "agent": 0,
+                "time": "1496341631.69"
+            },
+            {
+                "action": "offer",
+                "start_time": null,
+                "data": {
+                    "price": 145.0,
+                    "sides": ""
+                },
+                "agent": 0,
+                "time": "1496341634.34"
+            },
+            {
+                "action": "accept",
+                "start_time": null,
+                "data": null,
+                "agent": 1,
+                "time": "1496341677.66"
+            }
+        ]
+    },
+    {
+        "uuid": "C_f82ff19f74094889873c8acc58ee582f",
+        "scenario": {
+            "category": "housing",
+            "uuid": "S_Jrg93XX4AYzY9IQ7",
+            "post_id": "6131652108",
+            "kbs": [
+                {
+                    "personal": {
+                        "Bottomline": null,
+                        "Role": "buyer",
+                        "Target": 1920
+                    },
+                    "item": {
+                        "Category": "housing",
+                        "Images": [],
+                        "Price": 3200,
+                        "Description": [
+                            "This is a single family house in an excellent condition. It will be available for move-in on July 2017. It's in a very nice and quiet community with great school district. Email me for viewing or further information. Thanks.",
+                            "Huge living room and family room, plus 4 spacious bedrooms",
+                            "2 generous bathrooms with bathtubs",
+                            "Great school district (Oliveira elementary, Thornton junior high, American high)",
+                            "Few mins drive to Bart and Lucky and 99 Supermarkets"
+                        ],
+                        "Title": "A 4 bedroom single family house for rent in central Fremont"
+                    }
+                },
+                {
+                    "personal": {
+                        "Bottomline": null,
+                        "Role": "seller",
+                        "Target": 3200
+                    },
+                    "item": {
+                        "Category": "housing",
+                        "Images": [],
+                        "Price": 3200,
+                        "Description": [
+                            "This is a single family house in an excellent condition. It will be available for move-in on July 2017. It's in a very nice and quiet community with great school district. Email me for viewing or further information. Thanks.",
+                            "Huge living room and family room, plus 4 spacious bedrooms",
+                            "2 generous bathrooms with bathtubs",
+                            "Great school district (Oliveira elementary, Thornton junior high, American high)",
+                            "Few mins drive to Bart and Lucky and 99 Supermarkets",
+                            "Spacious two-car garage",
+                            "Easy access to FWY 880 and Dumbarton Bridge.",
+                            "Deposit: one month rent",
+                            "Lease: one year minimum, longer preferred",
+                            "No pet or smoking. No section 8. No sub-leasing.",
+                            "Tenant pay all utilities. Gardening is included in the rent"
+                        ],
+                        "Title": "A 4 bedroom single family house for rent in central Fremont"
+                    }
+                }
+            ],
+            "attributes": [
+                {
+                    "entity": false,
+                    "unique": false,
+                    "value_type": "role",
+                    "multivalued": false,
+                    "name": "Role"
+                },
+                {
+                    "entity": false,
+                    "unique": false,
+                    "value_type": "price",
+                    "multivalued": false,
+                    "name": "Bottomline"
+                },
+                {
+                    "entity": false,
+                    "unique": false,
+                    "value_type": "price",
+                    "multivalued": false,
+                    "name": "Target"
+                },
+                {
+                    "entity": false,
+                    "unique": false,
+                    "value_type": "text",
+                    "multivalued": false,
+                    "name": "Title"
+                },
+                {
+                    "entity": false,
+                    "unique": false,
+                    "value_type": "text",
+                    "multivalued": false,
+                    "name": "Category"
+                },
+                {
+                    "entity": false,
+                    "unique": false,
+                    "value_type": "price",
+                    "multivalued": false,
+                    "name": "Price"
+                },
+                {
+                    "entity": false,
+                    "unique": false,
+                    "value_type": "text",
+                    "multivalued": false,
+                    "name": "Images"
+                },
+                {
+                    "entity": false,
+                    "unique": false,
+                    "value_type": "text",
+                    "multivalued": false,
+                    "name": "Description"
+                }
+            ],
+            "intersection": 1.0
+        },
+        "scenario_uuid": "S_vjAzVfmyolx9HnUe",
+        "agents": {
+            "1": "human",
+            "0": "human"
+        },
+        "outcome": {
+            "reward": 1,
+            "offer": {
+                "price": 1900.0,
+                "sides": ""
+            }
+        },
+        "events": [
+            {
+                "action": "message",
+                "start_time": "1496341329.09",
+                "data": "i would love to buy ",
+                "agent": 0,
+                "time": "1496341331.9"
+            },
+            {
+                "action": "message",
+                "start_time": "1496341336.5",
+                "data": "Sure! What's your price?",
+                "agent": 1,
+                "time": "1496341357.74"
+            },
+            {
+                "action": "message",
+                "start_time": "1496341369.21",
+                "data": "im on a budget so i could do 1850",
+                "agent": 0,
+                "time": "1496341377.98"
+            },
+            {
+                "action": "message",
+                "start_time": "1496341419.92",
+                "data": "How about $1900 and I'll wave the deposit.",
+                "agent": 1,
+                "time": "1496341433.02"
+            },
+            {
+                "action": "message",
+                "start_time": "1496341447.57",
+                "data": "i will take it",
+                "agent": 0,
+                "time": "1496341449.28"
+            },
+            {
+                "action": "message",
+                "start_time": "1496341453.2",
+                "data": "Great!",
+                "agent": 1,
+                "time": "1496341454.29"
+            },
+            {
+                "action": "offer",
+                "start_time": null,
+                "data": {
+                    "price": 1900.0,
+                    "sides": ""
+                },
+                "agent": 1,
+                "time": "1496341458.26"
+            },
+            {
+                "action": "offer",
+                "start_time": null,
+                "data": {
+                    "price": 1900.0,
+                    "sides": ""
+                },
+                "agent": 0,
+                "time": "1496341458.58"
+            },
+            {
+                "action": "accept",
+                "start_time": null,
+                "data": null,
+                "agent": 1,
+                "time": "1496341462.53"
+            },
+            {
+                "action": "accept",
+                "start_time": null,
+                "data": null,
+                "agent": 0,
+                "time": "1496341464.61"
+            }
+        ]
+    },
+    {
+        "uuid": "C_15d928e7d3db4380a9d6a9a5e83fcd09",
+        "scenario": {
+            "category": "furniture",
+            "uuid": "S_BPTzvYVeri3mn93K",
+            "post_id": "6131245434",
+            "kbs": [
+                {
+                    "personal": {
+                        "Bottomline": null,
+                        "Role": "buyer",
+                        "Target": 444
+                    },
+                    "item": {
+                        "Category": "furniture",
+                        "Images": [
+                            "furniture/6131245434_0.jpg"
+                        ],
+                        "Price": 585,
+                        "Description": [
+                            "I am remodeling my space and selling a beautiful custom modern terra cotta color sectional couch. It is in like-new condition and can be taken apart in two pieces while transporting. Absolutely no wear or tear in a non-smoking home. I am located in the Sunset district of SF. Please email if you are interested in seeing it. Thank you!"
+                        ],
+                        "Title": "Sectional Couch"
+                    }
+                },
+                {
+                    "personal": {
+                        "Bottomline": null,
+                        "Role": "seller",
+                        "Target": 585
+                    },
+                    "item": {
+                        "Category": "furniture",
+                        "Images": [
+                            "furniture/6131245434_0.jpg"
+                        ],
+                        "Price": 585,
+                        "Description": [
+                            "I am remodeling my space and selling a beautiful custom modern terra cotta color sectional couch. It is in like-new condition and can be taken apart in two pieces while transporting. Absolutely no wear or tear in a non-smoking home. I am located in the Sunset district of SF. Please email if you are interested in seeing it. Thank you!",
+                            "Sectional: 38L x 87W"
+                        ],
+                        "Title": "Sectional Couch"
+                    }
+                }
+            ],
+            "attributes": [
+                {
+                    "entity": false,
+                    "unique": false,
+                    "value_type": "role",
+                    "multivalued": false,
+                    "name": "Role"
+                },
+                {
+                    "entity": false,
+                    "unique": false,
+                    "value_type": "price",
+                    "multivalued": false,
+                    "name": "Bottomline"
+                },
+                {
+                    "entity": false,
+                    "unique": false,
+                    "value_type": "price",
+                    "multivalued": false,
+                    "name": "Target"
+                },
+                {
+                    "entity": false,
+                    "unique": false,
+                    "value_type": "text",
+                    "multivalued": false,
+                    "name": "Title"
+                },
+                {
+                    "entity": false,
+                    "unique": false,
+                    "value_type": "text",
+                    "multivalued": false,
+                    "name": "Category"
+                },
+                {
+                    "entity": false,
+                    "unique": false,
+                    "value_type": "price",
+                    "multivalued": false,
+                    "name": "Price"
+                },
+                {
+                    "entity": false,
+                    "unique": false,
+                    "value_type": "text",
+                    "multivalued": false,
+                    "name": "Images"
+                },
+                {
+                    "entity": false,
+                    "unique": false,
+                    "value_type": "text",
+                    "multivalued": false,
+                    "name": "Description"
+                }
+            ],
+            "intersection": 0.6
+        },
+        "scenario_uuid": "S_A1AOTPw0h6Yv6CyD",
+        "agents": {
+            "1": "human",
+            "0": "human"
+        },
+        "outcome": {
+            "reward": 0,
+            "offer": null
+        },
+        "events": [
+            {
+                "action": "message",
+                "start_time": "1496341353.35",
+                "data": "hello",
+                "agent": 0,
+                "time": "1496341354.2"
+            },
+            {
+                "action": "message",
+                "start_time": "1496341356.38",
+                "data": "Hi",
+                "agent": 1,
+                "time": "1496341357.16"
+            },
+            {
+                "action": "message",
+                "start_time": "1496341375.55",
+                "data": "How old is the couch?",
+                "agent": 0,
+                "time": "1496341382.74"
+            },
+            {
+                "action": "message",
+                "start_time": "1496341394.77",
+                "data": "It is practically brand new",
+                "agent": 1,
+                "time": "1496341404.33"
+            },
+            {
+                "action": "message",
+                "start_time": "1496341416.22",
+                "data": "As you know, the value goes down as soon as the couch goes out the door. I see the list price is 585. I can give you 400 for it and can pick it up today.",
+                "agent": 0,
+                "time": "1496341465.09"
+            },
+            {
+                "action": "message",
+                "start_time": "1496341480.29",
+                "data": "Well as I said it has nearly no wear and was in a non-smoking home, I can go as low as 480 on it",
+                "agent": 1,
+                "time": "1496341519.21"
+            }
+        ]
+    },
+    {
+        "uuid": "C_c4e882c43dd746ad994226df5cc24eb7",
+        "scenario": {
+            "category": "furniture",
+            "uuid": "S_d4C8thhPACvbiI0Q",
+            "post_id": "6144504669",
+            "kbs": [
+                {
+                    "personal": {
+                        "Bottomline": null,
+                        "Role": "buyer",
+                        "Target": 600
+                    },
+                    "item": {
+                        "Category": "furniture",
+                        "Images": [
+                            "furniture/6144504669_0.jpg"
+                        ],
+                        "Price": 1000,
+                        "Description": [
+                            "MUST SEE!!!",
+                            "Like new ! - making space in our Designer Showroom - Must go, must go!!!",
+                            "Perfect for interiors, bonus room, office, special storage - make us a deal!"
+                        ],
+                        "Title": "Beautiful Cherry Hutch"
+                    }
+                },
+                {
+                    "personal": {
+                        "Bottomline": null,
+                        "Role": "seller",
+                        "Target": 1000
+                    },
+                    "item": {
+                        "Category": "furniture",
+                        "Images": [
+                            "furniture/6144504669_0.jpg"
+                        ],
+                        "Price": 1000,
+                        "Description": [
+                            "MUST SEE!!!",
+                            "Like new ! - making space in our Designer Showroom - Must go, must go!!!",
+                            "Perfect for interiors, bonus room, office, special storage - make us a deal!",
+                            "Beautiful cherry hutch with a dark stain.",
+                            "Decorative glass counter.",
+                            "Price Negotiable!"
+                        ],
+                        "Title": "Beautiful Cherry Hutch"
+                    }
+                }
+            ],
+            "attributes": [
+                {
+                    "entity": false,
+                    "unique": false,
+                    "value_type": "role",
+                    "multivalued": false,
+                    "name": "Role"
+                },
+                {
+                    "entity": false,
+                    "unique": false,
+                    "value_type": "price",
+                    "multivalued": false,
+                    "name": "Bottomline"
+                },
+                {
+                    "entity": false,
+                    "unique": false,
+                    "value_type": "price",
+                    "multivalued": false,
+                    "name": "Target"
+                },
+                {
+                    "entity": false,
+                    "unique": false,
+                    "value_type": "text",
+                    "multivalued": false,
+                    "name": "Title"
+                },
+                {
+                    "entity": false,
+                    "unique": false,
+                    "value_type": "text",
+                    "multivalued": false,
+                    "name": "Category"
+                },
+                {
+                    "entity": false,
+                    "unique": false,
+                    "value_type": "price",
+                    "multivalued": false,
+                    "name": "Price"
+                },
+                {
+                    "entity": false,
+                    "unique": false,
+                    "value_type": "text",
+                    "multivalued": false,
+                    "name": "Images"
+                },
+                {
+                    "entity": false,
+                    "unique": false,
+                    "value_type": "text",
+                    "multivalued": false,
+                    "name": "Description"
+                }
+            ],
+            "intersection": 1.0
+        },
+        "scenario_uuid": "S_57ZE7GXBeXHbLvzm",
+        "agents": {
+            "1": "human",
+            "0": "human"
+        },
+        "outcome": {
+            "reward": 0,
+            "offer": null
+        },
+        "events": [
+            {
+                "action": "message",
+                "start_time": "1496341443.42",
+                "data": "500",
+                "agent": 0,
+                "time": "1496341444.65"
+            },
+            {
+                "action": "message",
+                "start_time": "1496341509.95",
+                "data": "that is a lot lower then i am willing to sell this item for. ",
+                "agent": 1,
+                "time": "1496341526.6"
+            },
+            {
+                "action": "offer",
+                "start_time": null,
+                "data": {
+                    "price": 900.0,
+                    "sides": ""
+                },
+                "agent": 1,
+                "time": "1496341678.63"
+            },
+            {
+                "action": "quit",
+                "start_time": null,
+                "data": null,
+                "agent": 1,
+                "time": "1496341787.19"
+            }
+        ]
+    }
+]

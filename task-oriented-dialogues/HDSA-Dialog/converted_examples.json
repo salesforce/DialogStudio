@@ -1,0 +1,1689 @@
+{
+    "HDSA-Dialog--train--1": {
+        "original dialog id": "PMUL0195",
+        "dialog index": 1,
+        "original dialog info": {},
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "hi i am looking to find a guesthouse to stay at and it does not need to have internet .",
+                "system response": "i have a listing for [value_count] in the [hotel_area] of town , is that okay ?",
+                "dialog history": "",
+                "original user side information": {
+                    "user_orig": "hi i am looking to find a guesthouse to stay at and it does not need to have internet .",
+                    "BS": {
+                        "hotel": [
+                            [
+                                "type",
+                                "guesthouse"
+                            ],
+                            [
+                                "internet",
+                                "no"
+                            ]
+                        ]
+                    }
+                },
+                "original system side information": {
+                    "KB": 2,
+                    "source": {
+                        "[hotel_type]": "guesthouse",
+                        "[hotel_internet]": "no",
+                        "[hotel_pricerange]": "moderate",
+                        "[hotel_address]": "63 milton road",
+                        "[hotel_parking]": "no",
+                        "[hotel_phone]": "1223311625",
+                        "[hotel_postcode]": "cb41xa",
+                        "[hotel_area]": "north",
+                        "[hotel_stars]": "3",
+                        "[hotel_name]": "alpha-milton guest house"
+                    },
+                    "act": {
+                        "hotel-select-none": "none",
+                        "hotel-inform-area": "north of town",
+                        "hotel-inform-choice": "one"
+                    },
+                    "sys_orig": "i have a listing for one in the north of town , is that okay ?"
+                }
+            },
+            {
+                "turn id": 2,
+                "user utterance": "is that [value_count] star with a [hotel_pricerange] price ?",
+                "system response": "the alpha minton guest house sounds like it will be perfect for you . it s a [hotel_pricerange] -ly priced , [value_count] star guesthouse in the [hotel_area] . can i book a room for you ?",
+                "dialog history": "<USER> hi i am looking to find a guesthouse to stay at and it does not need to have internet . <SYSTEM> i have a listing for [value_count] in the [hotel_area] of town , is that okay ?",
+                "original user side information": {
+                    "user_orig": "is that 3 star with a moderate price ?",
+                    "BS": {
+                        "hotel": [
+                            [
+                                "pricerange",
+                                "moderate"
+                            ],
+                            [
+                                "type",
+                                "guesthouse"
+                            ],
+                            [
+                                "internet",
+                                "no"
+                            ],
+                            [
+                                "stars",
+                                "3"
+                            ]
+                        ]
+                    }
+                },
+                "original system side information": {
+                    "KB": 2,
+                    "source": {
+                        "[hotel_type]": "guesthouse",
+                        "[hotel_internet]": "no",
+                        "[hotel_pricerange]": "moderate",
+                        "[hotel_address]": "63 milton road",
+                        "[hotel_parking]": "no",
+                        "[hotel_phone]": "1223311625",
+                        "[hotel_postcode]": "cb41xa",
+                        "[hotel_area]": "north",
+                        "[hotel_stars]": "3",
+                        "[hotel_name]": "alpha-milton guest house"
+                    },
+                    "act": {
+                        "hotel-recommend-name": "the alpha-minton guest house",
+                        "hotel-recommend-type": "guesthouse",
+                        "hotel-recommend-area": "north",
+                        "booking-inform-none": "none",
+                        "hotel-recommend-price": "moderately-priced",
+                        "hotel-recommend-stars": "3"
+                    },
+                    "sys_orig": "the alpha-minton guest house sounds like it will be perfect for you . it 's a moderately-priced , 3-star guesthouse in the north . can i book a room for you ?"
+                }
+            },
+            {
+                "turn id": 3,
+                "user utterance": "please do , for [value_count] person , for [value_count] nights , starting [value_day] .",
+                "system response": "i have made a booking here is your information booking was successful . reference number is [hotel_reference] .",
+                "dialog history": "<USER> hi i am looking to find a guesthouse to stay at and it does not need to have internet . <SYSTEM> i have a listing for [value_count] in the [hotel_area] of town , is that okay ? <USER> is that [value_count] star with a [hotel_pricerange] price ? <SYSTEM> the alpha minton guest house sounds like it will be perfect for you . it s a [hotel_pricerange] -ly priced , [value_count] star guesthouse in the [hotel_area] . can i book a room for you ?",
+                "original user side information": {
+                    "user_orig": "please do , for 1 person , for 5 nights , starting thursday .",
+                    "BS": {
+                        "hotel": [
+                            [
+                                "pricerange",
+                                "moderate"
+                            ],
+                            [
+                                "type",
+                                "guesthouse"
+                            ],
+                            [
+                                "internet",
+                                "no"
+                            ],
+                            [
+                                "stars",
+                                "3"
+                            ]
+                        ]
+                    }
+                },
+                "original system side information": {
+                    "KB": 2,
+                    "source": {
+                        "[hotel_type]": "guesthouse",
+                        "[hotel_internet]": "no",
+                        "[taxi_reference]": "dgghj53e",
+                        "[train_reference]": "dgghj53e",
+                        "[hotel_parking]": "no",
+                        "[hotel_phone]": "1223311625",
+                        "[hospital_reference]": "dgghj53e",
+                        "[hotel_area]": "north",
+                        "[bus_reference]": "dgghj53e",
+                        "[hotel_postcode]": "cb41xa",
+                        "[restaurant_reference]": "dgghj53e",
+                        "[police_reference]": "dgghj53e",
+                        "[hotel_name]": "alpha-milton guest house",
+                        "[hotel_reference]": "dgghj53e",
+                        "[attraction_reference]": "dgghj53e",
+                        "[hotel_pricerange]": "moderate",
+                        "[hotel_stars]": "3",
+                        "[hotel_address]": "63 milton road"
+                    },
+                    "act": {
+                        "booking-book-reference": "dgghj53e"
+                    },
+                    "sys_orig": "i have made a booking here is your information : booking was successful . reference number is : dgghj53e ."
+                }
+            },
+            {
+                "turn id": 4,
+                "user utterance": "thanks . can you help me find a place to eat also ? i would like some [restaurant_food] food , in the same price range as my hotel .",
+                "system response": "unfortunately there are no [restaurant_pricerange] -ly priced restaurant -s serving [restaurant_food] food on the [restaurant_area] side . would you like me to look in another part of town ?",
+                "dialog history": "<USER> hi i am looking to find a guesthouse to stay at and it does not need to have internet . <SYSTEM> i have a listing for [value_count] in the [hotel_area] of town , is that okay ? <USER> is that [value_count] star with a [hotel_pricerange] price ? <SYSTEM> the alpha minton guest house sounds like it will be perfect for you . it s a [hotel_pricerange] -ly priced , [value_count] star guesthouse in the [hotel_area] . can i book a room for you ? <USER> please do , for [value_count] person , for [value_count] nights , starting [value_day] . <SYSTEM> i have made a booking here is your information booking was successful . reference number is [hotel_reference] .",
+                "original user side information": {
+                    "user_orig": "thanks . can you help me find a place to eat also ? i 'd like some british food , in the same price range as my hotel .",
+                    "BS": {
+                        "restaurant": [
+                            [
+                                "pricerange",
+                                "moderate"
+                            ],
+                            [
+                                "food",
+                                "british"
+                            ],
+                            [
+                                "area",
+                                "north"
+                            ]
+                        ],
+                        "hotel": [
+                            [
+                                "pricerange",
+                                "moderate"
+                            ],
+                            [
+                                "type",
+                                "guesthouse"
+                            ],
+                            [
+                                "internet",
+                                "no"
+                            ],
+                            [
+                                "stars",
+                                "3"
+                            ]
+                        ]
+                    }
+                },
+                "original system side information": {
+                    "KB": 0,
+                    "source": {
+                        "[restaurant_area]": "centre",
+                        "[restaurant_reference]": "xxxxxxxx",
+                        "[restaurant_type]": "restaurant",
+                        "[restaurant_address]": "regent street city centre",
+                        "[restaurant_phone]": "01223323737",
+                        "[restaurant_name]": "pizza hut city centre",
+                        "[restaurant_food]": "italian",
+                        "[restaurant_pricerange]": "cheap",
+                        "[restaurant_postcode]": "cb21ab"
+                    },
+                    "act": {
+                        "restaurant-request-area": "?",
+                        "restaurant-sorry-price": "moderately priced",
+                        "restaurant-sorry-area": "north side",
+                        "restaurant-sorry-food": "british"
+                    },
+                    "sys_orig": "unfortunately there are no moderately priced restaurants serving british food on the north side . would you like me to look in another part of town ?"
+                }
+            },
+            {
+                "turn id": 5,
+                "user utterance": "yes , please look in another part of town .",
+                "system response": "[restaurant_name] is in [restaurant_area] . phone number is [value_count] and address is [restaurant_address] . would you like to make a reservation ?",
+                "dialog history": "<USER> hi i am looking to find a guesthouse to stay at and it does not need to have internet . <SYSTEM> i have a listing for [value_count] in the [hotel_area] of town , is that okay ? <USER> is that [value_count] star with a [hotel_pricerange] price ? <SYSTEM> the alpha minton guest house sounds like it will be perfect for you . it s a [hotel_pricerange] -ly priced , [value_count] star guesthouse in the [hotel_area] . can i book a room for you ? <USER> please do , for [value_count] person , for [value_count] nights , starting [value_day] . <SYSTEM> i have made a booking here is your information booking was successful . reference number is [hotel_reference] . <USER> thanks . can you help me find a place to eat also ? i would like some [restaurant_food] food , in the same price range as my hotel . <SYSTEM> unfortunately there are no [restaurant_pricerange] -ly priced restaurant -s serving [restaurant_food] food on the [restaurant_area] side . would you like me to look in another part of town ?",
+                "original user side information": {
+                    "user_orig": "yes , please look in another part of town .",
+                    "BS": {
+                        "restaurant": [
+                            [
+                                "pricerange",
+                                "moderate"
+                            ],
+                            [
+                                "food",
+                                "british"
+                            ]
+                        ],
+                        "hotel": [
+                            [
+                                "pricerange",
+                                "moderate"
+                            ],
+                            [
+                                "type",
+                                "guesthouse"
+                            ],
+                            [
+                                "internet",
+                                "no"
+                            ],
+                            [
+                                "stars",
+                                "3"
+                            ]
+                        ]
+                    }
+                },
+                "original system side information": {
+                    "KB": 2,
+                    "source": {
+                        "[restaurant_area]": "centre",
+                        "[restaurant_type]": "restaurant",
+                        "[restaurant_address]": "de vere university arms regent street city centre",
+                        "[restaurant_phone]": "01223337766",
+                        "[restaurant_food]": "british",
+                        "[restaurant_name]": "restaurant one seven",
+                        "[restaurant_pricerange]": "moderate",
+                        "[restaurant_postcode]": "cb21ab"
+                    },
+                    "act": {
+                        "restaurant-inform-phone": "01223365098",
+                        "booking-inform-none": "none",
+                        "restaurant-inform-address": "4 kings parade city centre",
+                        "restaurant-recommend-area": "centre",
+                        "restaurant-recommend-name": "the copper kettle"
+                    },
+                    "sys_orig": "the copper kettle is in centre . phone number is 01223365098 and address is 4 kings parade city centre . would you like to make a reservation ?"
+                }
+            },
+            {
+                "turn id": 6,
+                "user utterance": "yes please for [value_count] person at [value_time] on [value_day] .",
+                "system response": "you table is booked for [value_time] on [value_day] . your reference number is [restaurant_reference] . is that all ?",
+                "dialog history": "<USER> hi i am looking to find a guesthouse to stay at and it does not need to have internet . <SYSTEM> i have a listing for [value_count] in the [hotel_area] of town , is that okay ? <USER> is that [value_count] star with a [hotel_pricerange] price ? <SYSTEM> the alpha minton guest house sounds like it will be perfect for you . it s a [hotel_pricerange] -ly priced , [value_count] star guesthouse in the [hotel_area] . can i book a room for you ? <USER> please do , for [value_count] person , for [value_count] nights , starting [value_day] . <SYSTEM> i have made a booking here is your information booking was successful . reference number is [hotel_reference] . <USER> thanks . can you help me find a place to eat also ? i would like some [restaurant_food] food , in the same price range as my hotel . <SYSTEM> unfortunately there are no [restaurant_pricerange] -ly priced restaurant -s serving [restaurant_food] food on the [restaurant_area] side . would you like me to look in another part of town ? <USER> yes , please look in another part of town . <SYSTEM> [restaurant_name] is in [restaurant_area] . phone number is [value_count] and address is [restaurant_address] . would you like to make a reservation ?",
+                "original user side information": {
+                    "user_orig": "yes please for one person at 17:45 on thursday .",
+                    "BS": {
+                        "restaurant": [
+                            [
+                                "pricerange",
+                                "moderate"
+                            ],
+                            [
+                                "food",
+                                "british"
+                            ]
+                        ],
+                        "hotel": [
+                            [
+                                "pricerange",
+                                "moderate"
+                            ],
+                            [
+                                "type",
+                                "guesthouse"
+                            ],
+                            [
+                                "internet",
+                                "no"
+                            ],
+                            [
+                                "stars",
+                                "3"
+                            ]
+                        ]
+                    }
+                },
+                "original system side information": {
+                    "KB": 2,
+                    "source": {
+                        "[restaurant_area]": "centre",
+                        "[restaurant_type]": "restaurant",
+                        "[restaurant_address]": "de vere university arms regent street city centre",
+                        "[taxi_reference]": "bb26wx3r",
+                        "[train_reference]": "bb26wx3r",
+                        "[restaurant_phone]": "01223337766",
+                        "[hospital_reference]": "bb26wx3r",
+                        "[restaurant_name]": "restaurant one seven",
+                        "[bus_reference]": "bb26wx3r",
+                        "[restaurant_postcode]": "cb21ab",
+                        "[restaurant_reference]": "bb26wx3r",
+                        "[restaurant_food]": "british",
+                        "[police_reference]": "bb26wx3r",
+                        "[hotel_reference]": "bb26wx3r",
+                        "[attraction_reference]": "bb26wx3r",
+                        "[restaurant_pricerange]": "moderate"
+                    },
+                    "act": {
+                        "booking-book-reference": "bb26wx3r",
+                        "booking-book-day": "thursday",
+                        "booking-book-time": "17:45",
+                        "general-none-none": "none"
+                    },
+                    "sys_orig": "you table is booked for 17:45 on thursday . your reference number is bb26wx3r . is that all ?"
+                }
+            },
+            {
+                "turn id": 7,
+                "user utterance": "no , can you also help me book a taxi ?",
+                "system response": "when you would like to leave or arrive by ? what s your departure and destination ?",
+                "dialog history": "<USER> hi i am looking to find a guesthouse to stay at and it does not need to have internet . <SYSTEM> i have a listing for [value_count] in the [hotel_area] of town , is that okay ? <USER> is that [value_count] star with a [hotel_pricerange] price ? <SYSTEM> the alpha minton guest house sounds like it will be perfect for you . it s a [hotel_pricerange] -ly priced , [value_count] star guesthouse in the [hotel_area] . can i book a room for you ? <USER> please do , for [value_count] person , for [value_count] nights , starting [value_day] . <SYSTEM> i have made a booking here is your information booking was successful . reference number is [hotel_reference] . <USER> thanks . can you help me find a place to eat also ? i would like some [restaurant_food] food , in the same price range as my hotel . <SYSTEM> unfortunately there are no [restaurant_pricerange] -ly priced restaurant -s serving [restaurant_food] food on the [restaurant_area] side . would you like me to look in another part of town ? <USER> yes , please look in another part of town . <SYSTEM> [restaurant_name] is in [restaurant_area] . phone number is [value_count] and address is [restaurant_address] . would you like to make a reservation ? <USER> yes please for [value_count] person at [value_time] on [value_day] . <SYSTEM> you table is booked for [value_time] on [value_day] . your reference number is [restaurant_reference] . is that all ?",
+                "original user side information": {
+                    "user_orig": "no , can you also help me book a taxi ?",
+                    "BS": {
+                        "restaurant": [
+                            [
+                                "pricerange",
+                                "moderate"
+                            ],
+                            [
+                                "food",
+                                "british"
+                            ]
+                        ],
+                        "hotel": [
+                            [
+                                "pricerange",
+                                "moderate"
+                            ],
+                            [
+                                "type",
+                                "guesthouse"
+                            ],
+                            [
+                                "internet",
+                                "no"
+                            ],
+                            [
+                                "stars",
+                                "3"
+                            ]
+                        ]
+                    }
+                },
+                "original system side information": {
+                    "KB": 2,
+                    "source": {
+                        "[restaurant_area]": "centre",
+                        "[restaurant_type]": "restaurant",
+                        "[restaurant_address]": "de vere university arms regent street city centre",
+                        "[restaurant_phone]": "01223337766",
+                        "[restaurant_food]": "british",
+                        "[restaurant_name]": "restaurant one seven",
+                        "[restaurant_pricerange]": "moderate",
+                        "[restaurant_postcode]": "cb21ab"
+                    },
+                    "act": {
+                        "taxi-request-leaveat": "?",
+                        "taxi-request-departure": "?",
+                        "taxi-request-arriveby": "?",
+                        "taxi-request-destination": "?"
+                    },
+                    "sys_orig": "when you would like to leave or arrive by ? what 's your departure/destination ?"
+                }
+            },
+            {
+                "turn id": 8,
+                "user utterance": "i would like to arrive by [value_time] to the [value_count] kings parade . pick us up at the alpha minon guesthouse .",
+                "system response": "okay great ! your car will be a [taxi_type] and the contact number is [taxi_phone] . do you need help with anything else ?",
+                "dialog history": "<USER> hi i am looking to find a guesthouse to stay at and it does not need to have internet . <SYSTEM> i have a listing for [value_count] in the [hotel_area] of town , is that okay ? <USER> is that [value_count] star with a [hotel_pricerange] price ? <SYSTEM> the alpha minton guest house sounds like it will be perfect for you . it s a [hotel_pricerange] -ly priced , [value_count] star guesthouse in the [hotel_area] . can i book a room for you ? <USER> please do , for [value_count] person , for [value_count] nights , starting [value_day] . <SYSTEM> i have made a booking here is your information booking was successful . reference number is [hotel_reference] . <USER> thanks . can you help me find a place to eat also ? i would like some [restaurant_food] food , in the same price range as my hotel . <SYSTEM> unfortunately there are no [restaurant_pricerange] -ly priced restaurant -s serving [restaurant_food] food on the [restaurant_area] side . would you like me to look in another part of town ? <USER> yes , please look in another part of town . <SYSTEM> [restaurant_name] is in [restaurant_area] . phone number is [value_count] and address is [restaurant_address] . would you like to make a reservation ? <USER> yes please for [value_count] person at [value_time] on [value_day] . <SYSTEM> you table is booked for [value_time] on [value_day] . your reference number is [restaurant_reference] . is that all ? <USER> no , can you also help me book a taxi ? <SYSTEM> when you would like to leave or arrive by ? what s your departure and destination ?",
+                "original user side information": {
+                    "user_orig": "i would like to arrive by 17:45 to the 4 kings parade . pick us up at the alpha-minon guesthouse .",
+                    "BS": {
+                        "restaurant": [
+                            [
+                                "pricerange",
+                                "moderate"
+                            ],
+                            [
+                                "food",
+                                "british"
+                            ]
+                        ],
+                        "taxi": [
+                            [
+                                "departure",
+                                "alpha-milton guest house"
+                            ],
+                            [
+                                "destination",
+                                "the copper kettle"
+                            ],
+                            [
+                                "arriveBy",
+                                "17:45"
+                            ]
+                        ],
+                        "hotel": [
+                            [
+                                "pricerange",
+                                "moderate"
+                            ],
+                            [
+                                "type",
+                                "guesthouse"
+                            ],
+                            [
+                                "internet",
+                                "no"
+                            ],
+                            [
+                                "stars",
+                                "3"
+                            ]
+                        ]
+                    }
+                },
+                "original system side information": {
+                    "KB": 0,
+                    "source": {},
+                    "act": {
+                        "general-none-none": "none",
+                        "taxi-inform-phone": "07675976580",
+                        "taxi-inform-type": "black bmw"
+                    },
+                    "sys_orig": "okay great ! your car will be a black bmw and the contact number is 07675976580. do you need help with anything else ?"
+                }
+            },
+            {
+                "turn id": 9,
+                "user utterance": "nope . that s all . thank you . bye now",
+                "system response": "have a nice day .",
+                "dialog history": "<USER> hi i am looking to find a guesthouse to stay at and it does not need to have internet . <SYSTEM> i have a listing for [value_count] in the [hotel_area] of town , is that okay ? <USER> is that [value_count] star with a [hotel_pricerange] price ? <SYSTEM> the alpha minton guest house sounds like it will be perfect for you . it s a [hotel_pricerange] -ly priced , [value_count] star guesthouse in the [hotel_area] . can i book a room for you ? <USER> please do , for [value_count] person , for [value_count] nights , starting [value_day] . <SYSTEM> i have made a booking here is your information booking was successful . reference number is [hotel_reference] . <USER> thanks . can you help me find a place to eat also ? i would like some [restaurant_food] food , in the same price range as my hotel . <SYSTEM> unfortunately there are no [restaurant_pricerange] -ly priced restaurant -s serving [restaurant_food] food on the [restaurant_area] side . would you like me to look in another part of town ? <USER> yes , please look in another part of town . <SYSTEM> [restaurant_name] is in [restaurant_area] . phone number is [value_count] and address is [restaurant_address] . would you like to make a reservation ? <USER> yes please for [value_count] person at [value_time] on [value_day] . <SYSTEM> you table is booked for [value_time] on [value_day] . your reference number is [restaurant_reference] . is that all ? <USER> no , can you also help me book a taxi ? <SYSTEM> when you would like to leave or arrive by ? what s your departure and destination ? <USER> i would like to arrive by [value_time] to the [value_count] kings parade . pick us up at the alpha minon guesthouse . <SYSTEM> okay great ! your car will be a [taxi_type] and the contact number is [taxi_phone] . do you need help with anything else ?",
+                "original user side information": {
+                    "user_orig": "nope . that 's all . thank you . bye now",
+                    "BS": {
+                        "restaurant": [
+                            [
+                                "pricerange",
+                                "moderate"
+                            ],
+                            [
+                                "food",
+                                "british"
+                            ]
+                        ],
+                        "taxi": [
+                            [
+                                "departure",
+                                "alpha-milton guest house"
+                            ],
+                            [
+                                "destination",
+                                "the copper kettle"
+                            ],
+                            [
+                                "arriveBy",
+                                "17:45"
+                            ]
+                        ],
+                        "hotel": [
+                            [
+                                "pricerange",
+                                "moderate"
+                            ],
+                            [
+                                "type",
+                                "guesthouse"
+                            ],
+                            [
+                                "internet",
+                                "no"
+                            ],
+                            [
+                                "stars",
+                                "3"
+                            ]
+                        ]
+                    }
+                },
+                "original system side information": {
+                    "KB": 0,
+                    "source": {},
+                    "act": {
+                        "general-none-none": "none"
+                    },
+                    "sys_orig": "have a nice day ."
+                }
+            }
+        ],
+        "external knowledge non-flat": {
+            "metadata": {},
+            "slots and values": {},
+            "intents": {}
+        },
+        "external knowledge": "",
+        "dst knowledge": "",
+        "intent knowledge": "",
+        "prompt": []
+    },
+    "HDSA-Dialog--train--2": {
+        "original dialog id": "PMUL4478",
+        "dialog index": 2,
+        "original dialog info": {},
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "i am traveling to [value_place] and looking forward to try local restaurant -s .",
+                "system response": "okay , any type in mind ?",
+                "dialog history": "",
+                "original user side information": {
+                    "user_orig": "i am traveling to cambridge and looking forward to try local restaurants .",
+                    "BS": {}
+                },
+                "original system side information": {
+                    "KB": 0,
+                    "source": {
+                        "[restaurant_area]": "centre",
+                        "[restaurant_reference]": "xxxxxxxx",
+                        "[restaurant_type]": "restaurant",
+                        "[restaurant_address]": "regent street city centre",
+                        "[restaurant_phone]": "01223323737",
+                        "[restaurant_name]": "pizza hut city centre",
+                        "[restaurant_food]": "italian",
+                        "[restaurant_pricerange]": "cheap",
+                        "[restaurant_postcode]": "cb21ab"
+                    },
+                    "act": {
+                        "restaurant-request-food": "?"
+                    },
+                    "sys_orig": "okay , any type in mind ?"
+                }
+            },
+            {
+                "turn id": 2,
+                "user utterance": "the train i am looking for should depart from [value_place] and be leaving after [value_time] . can you help ?",
+                "system response": "okay . you mentioned finding a local restaurant , initially . would you like me to search for [value_count] ? if so , what kind of cuisine ?",
+                "dialog history": "<USER> i am traveling to [value_place] and looking forward to try local restaurant -s . <SYSTEM> okay , any type in mind ?",
+                "original user side information": {
+                    "user_orig": "the train i 'm looking for should depart from stevenage and be leaving after 16:45. can you help ?",
+                    "BS": {}
+                },
+                "original system side information": {
+                    "KB": 0,
+                    "source": {
+                        "[restaurant_area]": "centre",
+                        "[restaurant_reference]": "xxxxxxxx",
+                        "[restaurant_type]": "restaurant",
+                        "[restaurant_address]": "regent street city centre",
+                        "[restaurant_phone]": "01223323737",
+                        "[restaurant_name]": "pizza hut city centre",
+                        "[restaurant_food]": "italian",
+                        "[restaurant_pricerange]": "cheap",
+                        "[restaurant_postcode]": "cb21ab"
+                    },
+                    "act": {
+                        "general-none-none": "none",
+                        "restaurant-request-food": "?"
+                    },
+                    "sys_orig": "okay . you mentioned finding a local restaurant , initially . would you like me to search for one ? if so , what kind of cuisine ?"
+                }
+            },
+            {
+                "turn id": 3,
+                "user utterance": "i am looking for something local . what do you recommend ?",
+                "system response": "it depends on what your price range is .",
+                "dialog history": "<USER> i am traveling to [value_place] and looking forward to try local restaurant -s . <SYSTEM> okay , any type in mind ? <USER> the train i am looking for should depart from [value_place] and be leaving after [value_time] . can you help ? <SYSTEM> okay . you mentioned finding a local restaurant , initially . would you like me to search for [value_count] ? if so , what kind of cuisine ?",
+                "original user side information": {
+                    "user_orig": "i 'm looking for something local . what do you recommend ?",
+                    "BS": {}
+                },
+                "original system side information": {
+                    "KB": 0,
+                    "source": {
+                        "[restaurant_area]": "centre",
+                        "[restaurant_reference]": "xxxxxxxx",
+                        "[restaurant_type]": "restaurant",
+                        "[restaurant_address]": "regent street city centre",
+                        "[restaurant_phone]": "01223323737",
+                        "[restaurant_name]": "pizza hut city centre",
+                        "[restaurant_food]": "italian",
+                        "[restaurant_pricerange]": "cheap",
+                        "[restaurant_postcode]": "cb21ab"
+                    },
+                    "act": {
+                        "restaurant-request-price": "?"
+                    },
+                    "sys_orig": "it depends on what your price range is ."
+                }
+            },
+            {
+                "turn id": 4,
+                "user utterance": "actually i am craving singaporean food , price is no object . i would also like something in the [restaurant_area] area .",
+                "system response": "unfortunately , there is not a singaporean restaurant in the [restaurant_area] of town . any other preferences ?",
+                "dialog history": "<USER> i am traveling to [value_place] and looking forward to try local restaurant -s . <SYSTEM> okay , any type in mind ? <USER> the train i am looking for should depart from [value_place] and be leaving after [value_time] . can you help ? <SYSTEM> okay . you mentioned finding a local restaurant , initially . would you like me to search for [value_count] ? if so , what kind of cuisine ? <USER> i am looking for something local . what do you recommend ? <SYSTEM> it depends on what your price range is .",
+                "original user side information": {
+                    "user_orig": "actually i am craving singaporean food , price is no object . i would also like something in the centre area .",
+                    "BS": {
+                        "restaurant": [
+                            [
+                                "food",
+                                "singaporean"
+                            ],
+                            [
+                                "area",
+                                "centre"
+                            ]
+                        ]
+                    }
+                },
+                "original system side information": {
+                    "KB": 0,
+                    "source": {
+                        "[restaurant_area]": "centre",
+                        "[restaurant_reference]": "xxxxxxxx",
+                        "[restaurant_type]": "restaurant",
+                        "[restaurant_address]": "regent street city centre",
+                        "[restaurant_phone]": "01223323737",
+                        "[restaurant_name]": "pizza hut city centre",
+                        "[restaurant_food]": "italian",
+                        "[restaurant_pricerange]": "cheap",
+                        "[restaurant_postcode]": "cb21ab"
+                    },
+                    "act": {
+                        "general-none-none": "none",
+                        "restaurant-sorry-area": "centre of town",
+                        "restaurant-sorry-food": "singaporean"
+                    },
+                    "sys_orig": "unfortunately , there is not a singaporean restaurant in the centre of town . any other preferences ?"
+                }
+            },
+            {
+                "turn id": 5,
+                "user utterance": "do you have any asian [restaurant_pricerange] restaurant -s ?",
+                "system response": "yes , there s a place called [restaurant_name] .",
+                "dialog history": "<USER> i am traveling to [value_place] and looking forward to try local restaurant -s . <SYSTEM> okay , any type in mind ? <USER> the train i am looking for should depart from [value_place] and be leaving after [value_time] . can you help ? <SYSTEM> okay . you mentioned finding a local restaurant , initially . would you like me to search for [value_count] ? if so , what kind of cuisine ? <USER> i am looking for something local . what do you recommend ? <SYSTEM> it depends on what your price range is . <USER> actually i am craving singaporean food , price is no object . i would also like something in the [restaurant_area] area . <SYSTEM> unfortunately , there is not a singaporean restaurant in the [restaurant_area] of town . any other preferences ?",
+                "original user side information": {
+                    "user_orig": "do you have any asian expensive restaurants ?",
+                    "BS": {
+                        "restaurant": [
+                            [
+                                "pricerange",
+                                "expensive"
+                            ],
+                            [
+                                "food",
+                                "asian oriental"
+                            ],
+                            [
+                                "area",
+                                "centre"
+                            ]
+                        ]
+                    }
+                },
+                "original system side information": {
+                    "KB": 2,
+                    "source": {
+                        "[restaurant_area]": "centre",
+                        "[restaurant_reference]": "xxxxxxxx",
+                        "[restaurant_type]": "restaurant",
+                        "[restaurant_address]": "52 mill road city centre",
+                        "[restaurant_phone]": "01223311911",
+                        "[restaurant_name]": "kymmoy",
+                        "[restaurant_food]": "asian oriental",
+                        "[restaurant_pricerange]": "expensive",
+                        "[restaurant_postcode]": "cb12as"
+                    },
+                    "act": {
+                        "restaurant-inform-name": "kymmoy"
+                    },
+                    "sys_orig": "yes , there 's a place called kymmoy ."
+                }
+            },
+            {
+                "turn id": 6,
+                "user utterance": "thank you so much for your information .",
+                "system response": "enjoy your stay in [value_place] !",
+                "dialog history": "<USER> i am traveling to [value_place] and looking forward to try local restaurant -s . <SYSTEM> okay , any type in mind ? <USER> the train i am looking for should depart from [value_place] and be leaving after [value_time] . can you help ? <SYSTEM> okay . you mentioned finding a local restaurant , initially . would you like me to search for [value_count] ? if so , what kind of cuisine ? <USER> i am looking for something local . what do you recommend ? <SYSTEM> it depends on what your price range is . <USER> actually i am craving singaporean food , price is no object . i would also like something in the [restaurant_area] area . <SYSTEM> unfortunately , there is not a singaporean restaurant in the [restaurant_area] of town . any other preferences ? <USER> do you have any asian [restaurant_pricerange] restaurant -s ? <SYSTEM> yes , there s a place called [restaurant_name] .",
+                "original user side information": {
+                    "user_orig": "thank you so much for your information .",
+                    "BS": {
+                        "restaurant": [
+                            [
+                                "pricerange",
+                                "expensive"
+                            ],
+                            [
+                                "food",
+                                "asian oriental"
+                            ],
+                            [
+                                "area",
+                                "centre"
+                            ]
+                        ]
+                    }
+                },
+                "original system side information": {
+                    "KB": 2,
+                    "source": {
+                        "[restaurant_area]": "centre",
+                        "[restaurant_type]": "restaurant",
+                        "[restaurant_address]": "52 mill road city centre",
+                        "[restaurant_phone]": "01223311911",
+                        "[restaurant_food]": "asian oriental",
+                        "[restaurant_name]": "kymmoy",
+                        "[restaurant_pricerange]": "expensive",
+                        "[restaurant_postcode]": "cb12as"
+                    },
+                    "act": {
+                        "general-none-none": "none"
+                    },
+                    "sys_orig": "enjoy your stay in cambridge !"
+                }
+            }
+        ],
+        "external knowledge non-flat": {
+            "metadata": {},
+            "slots and values": {},
+            "intents": {}
+        },
+        "external knowledge": "",
+        "dst knowledge": "",
+        "intent knowledge": "",
+        "prompt": []
+    },
+    "HDSA-Dialog--train--3": {
+        "original dialog id": "MUL1196",
+        "dialog index": 3,
+        "original dialog info": {},
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "i am looking for museums to visit in town . what are my options ?",
+                "system response": "there are [value_count] museums in the city . do you have a particular area of town that you are interested in ?",
+                "dialog history": "",
+                "original user side information": {
+                    "user_orig": "i 'm looking for museums to visit in town . what are my options ?",
+                    "BS": {
+                        "attraction": [
+                            [
+                                "type",
+                                "museum"
+                            ]
+                        ]
+                    }
+                },
+                "original system side information": {
+                    "KB": 2,
+                    "source": {
+                        "[attraction_address]": "98 king street",
+                        "[attraction_postcode]": "cb11ln",
+                        "[attraction_area]": "centre",
+                        "[attraction_phone]": "1223314960",
+                        "[attraction_openhours]": "?",
+                        "[attraction_name]": "broughton house gallery",
+                        "[attraction_pricerange]": "free",
+                        "[attraction_entrance fee]": "free",
+                        "[attraction_type]": "museum"
+                    },
+                    "act": {
+                        "attraction-request-area": "?",
+                        "attraction-inform-type": "museums",
+                        "attraction-inform-choice": "23"
+                    },
+                    "sys_orig": "there are 23 museums in the city . do you have a particular area of town that you 're interested in ?"
+                }
+            },
+            {
+                "turn id": 2,
+                "user utterance": "i have no idea . could you suggest [value_count] that sounds interesting ?",
+                "system response": "i recommend the museum of archaeology and anthropology in the [attraction_area] of town . how does that sound ?",
+                "dialog history": "<USER> i am looking for museums to visit in town . what are my options ? <SYSTEM> there are [value_count] museums in the city . do you have a particular area of town that you are interested in ?",
+                "original user side information": {
+                    "user_orig": "i have no idea . could you suggest one that sounds interesting ?",
+                    "BS": {
+                        "attraction": [
+                            [
+                                "type",
+                                "museum"
+                            ]
+                        ]
+                    }
+                },
+                "original system side information": {
+                    "KB": 2,
+                    "source": {
+                        "[attraction_address]": "98 king street",
+                        "[attraction_postcode]": "cb11ln",
+                        "[attraction_area]": "centre",
+                        "[attraction_phone]": "1223314960",
+                        "[attraction_openhours]": "?",
+                        "[attraction_name]": "broughton house gallery",
+                        "[attraction_pricerange]": "free",
+                        "[attraction_entrance fee]": "free",
+                        "[attraction_type]": "museum"
+                    },
+                    "act": {
+                        "attraction-recommend-name": "museum of archaeology and anthropology",
+                        "general-none-none": "none",
+                        "attraction-recommend-area": "centre of town"
+                    },
+                    "sys_orig": "i recommend the museum of archaeology and anthropology in the centre of town . how does that sound ?"
+                }
+            },
+            {
+                "turn id": 3,
+                "user utterance": "can i get the phone number and address please . i also need a hotel with free parking .",
+                "system response": "the phone number is [attraction_phone] and the address is [attraction_address] . in what area would you like the hotel to be in ?",
+                "dialog history": "<USER> i am looking for museums to visit in town . what are my options ? <SYSTEM> there are [value_count] museums in the city . do you have a particular area of town that you are interested in ? <USER> i have no idea . could you suggest [value_count] that sounds interesting ? <SYSTEM> i recommend the museum of archaeology and anthropology in the [attraction_area] of town . how does that sound ?",
+                "original user side information": {
+                    "user_orig": "can i get the phone number and address please . i also need a hotel with free parking .",
+                    "BS": {
+                        "attraction": [
+                            [
+                                "type",
+                                "museum"
+                            ]
+                        ]
+                    }
+                },
+                "original system side information": {
+                    "KB": 2,
+                    "source": {
+                        "[attraction_address]": "98 king street",
+                        "[attraction_postcode]": "cb11ln",
+                        "[attraction_area]": "centre",
+                        "[attraction_phone]": "1223314960",
+                        "[attraction_openhours]": "?",
+                        "[attraction_name]": "broughton house gallery",
+                        "[attraction_pricerange]": "free",
+                        "[attraction_entrance fee]": "free",
+                        "[attraction_type]": "museum"
+                    },
+                    "act": {
+                        "attraction-inform-address": "downing street",
+                        "hotel-request-area": "?",
+                        "attraction-inform-phone": "01223333516"
+                    },
+                    "sys_orig": "the phone number is 01223333516 and the address is university of cambridge , downing street . in what area would you like the hotel to be in ?"
+                }
+            },
+            {
+                "turn id": 4,
+                "user utterance": "near the museum if possible . i am looking for a guesthouse with free parking .",
+                "system response": "i found the [hotel_name] that meets your requirement -s . would you like me to book your stay ?",
+                "dialog history": "<USER> i am looking for museums to visit in town . what are my options ? <SYSTEM> there are [value_count] museums in the city . do you have a particular area of town that you are interested in ? <USER> i have no idea . could you suggest [value_count] that sounds interesting ? <SYSTEM> i recommend the museum of archaeology and anthropology in the [attraction_area] of town . how does that sound ? <USER> can i get the phone number and address please . i also need a hotel with free parking . <SYSTEM> the phone number is [attraction_phone] and the address is [attraction_address] . in what area would you like the hotel to be in ?",
+                "original user side information": {
+                    "user_orig": "near the museum if possible . i 'm looking for a guesthouse with free parking .",
+                    "BS": {
+                        "hotel": [
+                            [
+                                "parking",
+                                "yes"
+                            ],
+                            [
+                                "type",
+                                "guesthouse"
+                            ],
+                            [
+                                "area",
+                                "centre"
+                            ]
+                        ],
+                        "attraction": [
+                            [
+                                "type",
+                                "museum"
+                            ]
+                        ]
+                    }
+                },
+                "original system side information": {
+                    "KB": 2,
+                    "source": {
+                        "[hotel_name]": "alexander bed and breakfast",
+                        "[hotel_internet]": "yes",
+                        "[hotel_address]": "56 saint barnabas road",
+                        "[hotel_reference]": "xxxxxxxx",
+                        "[hotel_postcode]": "cb12de",
+                        "[hotel_parking]": "yes",
+                        "[hotel_phone]": "1223525725",
+                        "[hotel_pricerange]": "cheap",
+                        "[hotel_area]": "centre",
+                        "[hotel_stars]": "4",
+                        "[hotel_type]": "guesthouse"
+                    },
+                    "act": {
+                        "booking-inform-none": "none",
+                        "hotel-inform-name": "alexander bed and breakfast"
+                    },
+                    "sys_orig": "i found the alexander bed and breakfast that meets your requirements . would you like me to book your stay ?"
+                }
+            },
+            {
+                "turn id": 5,
+                "user utterance": "no , i am not ready to book quite yet . thanks for your help . bye .",
+                "system response": "you are welcome and i hope you enjoy your museum visit .",
+                "dialog history": "<USER> i am looking for museums to visit in town . what are my options ? <SYSTEM> there are [value_count] museums in the city . do you have a particular area of town that you are interested in ? <USER> i have no idea . could you suggest [value_count] that sounds interesting ? <SYSTEM> i recommend the museum of archaeology and anthropology in the [attraction_area] of town . how does that sound ? <USER> can i get the phone number and address please . i also need a hotel with free parking . <SYSTEM> the phone number is [attraction_phone] and the address is [attraction_address] . in what area would you like the hotel to be in ? <USER> near the museum if possible . i am looking for a guesthouse with free parking . <SYSTEM> i found the [hotel_name] that meets your requirement -s . would you like me to book your stay ?",
+                "original user side information": {
+                    "user_orig": "no , i 'm not ready to book quite yet . thanks for your help . bye .",
+                    "BS": {
+                        "hotel": [
+                            [
+                                "parking",
+                                "yes"
+                            ],
+                            [
+                                "type",
+                                "guesthouse"
+                            ],
+                            [
+                                "area",
+                                "centre"
+                            ]
+                        ],
+                        "attraction": [
+                            [
+                                "type",
+                                "museum"
+                            ]
+                        ]
+                    }
+                },
+                "original system side information": {
+                    "KB": 2,
+                    "source": {
+                        "[hotel_type]": "guesthouse",
+                        "[hotel_internet]": "yes",
+                        "[hotel_pricerange]": "cheap",
+                        "[hotel_address]": "56 saint barnabas road",
+                        "[hotel_parking]": "yes",
+                        "[hotel_phone]": "1223525725",
+                        "[hotel_postcode]": "cb12de",
+                        "[hotel_area]": "centre",
+                        "[hotel_stars]": "4",
+                        "[hotel_name]": "alexander bed and breakfast"
+                    },
+                    "act": {
+                        "general-none-none": "none"
+                    },
+                    "sys_orig": "you 're welcome and i hope you enjoy your museum visit ."
+                }
+            }
+        ],
+        "external knowledge non-flat": {
+            "metadata": {},
+            "slots and values": {},
+            "intents": {}
+        },
+        "external knowledge": "",
+        "dst knowledge": "",
+        "intent knowledge": "",
+        "prompt": []
+    },
+    "HDSA-Dialog--train--4": {
+        "original dialog id": "SNG01471",
+        "dialog index": 4,
+        "original dialog info": {},
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "hello , i am looking for a train heading to [train_destination] and i will be departing from [train_departure] .",
+                "system response": "the first train leaves on [train_day] at [train_leaveat] and arrives at [train_arriveby] . should i book it for you ?",
+                "dialog history": "",
+                "original user side information": {
+                    "user_orig": "hello , i am looking for a train heading to cambridge and i will be departing from kings lynn .",
+                    "BS": {
+                        "train": [
+                            [
+                                "departure",
+                                "kings lynn"
+                            ],
+                            [
+                                "destination",
+                                "cambridge"
+                            ]
+                        ]
+                    }
+                },
+                "original system side information": {
+                    "KB": 2,
+                    "source": {
+                        "[train_arriveby]": "05:58",
+                        "[train_duration]": "47 minutes",
+                        "[train_reference]": "xxxxxxxx",
+                        "[train_departure]": "cambridge",
+                        "[train_price]": "9.80 pounds",
+                        "[train_day]": "friday",
+                        "[train_destination]": "kings lynn",
+                        "[train_leaveat]": "05:11",
+                        "[train_trainid]": "tr3112"
+                    },
+                    "act": {
+                        "train-inform-day": "friday",
+                        "booking-inform-none": "none",
+                        "train-inform-leaveat": "05:11",
+                        "train-inform-arriveby": "05:58"
+                    },
+                    "sys_orig": "the first train leaves on friday at 05:11 and arrives at 05:58. should i book it for you ?"
+                }
+            },
+            {
+                "turn id": 2,
+                "user utterance": "no , not at this time . thank you , goodbye .",
+                "system response": "thank you . enjoy your trip .",
+                "dialog history": "<USER> hello , i am looking for a train heading to [train_destination] and i will be departing from [train_departure] . <SYSTEM> the first train leaves on [train_day] at [train_leaveat] and arrives at [train_arriveby] . should i book it for you ?",
+                "original user side information": {
+                    "user_orig": "no , not at this time . thank you , good bye .",
+                    "BS": {
+                        "train": [
+                            [
+                                "departure",
+                                "kings lynn"
+                            ],
+                            [
+                                "destination",
+                                "cambridge"
+                            ]
+                        ]
+                    }
+                },
+                "original system side information": {
+                    "KB": 2,
+                    "source": {
+                        "[train_destination]": "cambridge",
+                        "[train_leaveat]": "05:11",
+                        "[train_price]": "9.80 pounds",
+                        "[train_departure]": "kings lynn",
+                        "[train_day]": "monday",
+                        "[train_arriveby]": "05:58",
+                        "[train_duration]": "47 minutes",
+                        "[train_trainid]": "tr4943"
+                    },
+                    "act": {
+                        "general-none-none": "none"
+                    },
+                    "sys_orig": "thank you . enjoy your trip ."
+                }
+            }
+        ],
+        "external knowledge non-flat": {
+            "metadata": {},
+            "slots and values": {},
+            "intents": {}
+        },
+        "external knowledge": "",
+        "dst knowledge": "",
+        "intent knowledge": "",
+        "prompt": []
+    },
+    "HDSA-Dialog--train--5": {
+        "original dialog id": "PMUL3490",
+        "dialog index": 5,
+        "original dialog info": {},
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "i am looking for information . can you help me with a place to stay while i am in town ?",
+                "system response": "i can help you . which part of town ?",
+                "dialog history": "",
+                "original user side information": {
+                    "user_orig": "i am looking for information . can you help me with a place to stay while i 'm in town ?",
+                    "BS": {}
+                },
+                "original system side information": {
+                    "KB": 0,
+                    "source": {
+                        "[hotel_name]": "a and b guest house",
+                        "[hotel_internet]": "yes",
+                        "[hotel_address]": "124 tenison road",
+                        "[hotel_reference]": "xxxxxxxx",
+                        "[hotel_postcode]": "cb12dp",
+                        "[hotel_parking]": "no",
+                        "[hotel_phone]": "1223315702",
+                        "[hotel_pricerange]": "moderate",
+                        "[hotel_area]": "east",
+                        "[hotel_stars]": "4",
+                        "[hotel_type]": "guesthouse"
+                    },
+                    "act": {
+                        "hotel-request-area": "?"
+                    },
+                    "sys_orig": "i can help you . which part of town ?"
+                }
+            },
+            {
+                "turn id": 2,
+                "user utterance": "the [hotel_area] part of town is where i want to go and include free parking and should have a star of [value_count]",
+                "system response": "okay , how about the [hotel_name] ? it s located on [hotel_address] . would you like me to make a reservation ?",
+                "dialog history": "<USER> i am looking for information . can you help me with a place to stay while i am in town ? <SYSTEM> i can help you . which part of town ?",
+                "original user side information": {
+                    "user_orig": "the north part of town is where i want to go and include free parking and should have a star of 4",
+                    "BS": {
+                        "hotel": [
+                            [
+                                "parking",
+                                "yes"
+                            ],
+                            [
+                                "area",
+                                "north"
+                            ],
+                            [
+                                "stars",
+                                "4"
+                            ]
+                        ]
+                    }
+                },
+                "original system side information": {
+                    "KB": 2,
+                    "source": {
+                        "[hotel_name]": "acorn guest house",
+                        "[hotel_internet]": "yes",
+                        "[hotel_address]": "154 chesterton road",
+                        "[hotel_reference]": "xxxxxxxx",
+                        "[hotel_postcode]": "cb41da",
+                        "[hotel_parking]": "yes",
+                        "[hotel_phone]": "1223353888",
+                        "[hotel_pricerange]": "moderate",
+                        "[hotel_area]": "north",
+                        "[hotel_stars]": "4",
+                        "[hotel_type]": "guesthouse"
+                    },
+                    "act": {
+                        "booking-inform-none": "none",
+                        "hotel-inform-address": "154 chesterton road",
+                        "hotel-inform-name": "acorn guest house"
+                    },
+                    "sys_orig": "okay , how about the acorn guest house ? it 's located on 154 chesterton road . would you like me to make a reservation ?"
+                }
+            },
+            {
+                "turn id": 3,
+                "user utterance": "that sounds perfect . i need a room for [value_count] people and [value_count] nights starting from [value_day] .",
+                "system response": "the booking was successful . you have a reservation for [value_count] people , staying [value_count] nights a [hotel_name] starting on [value_day] . your reference number is [hotel_reference] .",
+                "dialog history": "<USER> i am looking for information . can you help me with a place to stay while i am in town ? <SYSTEM> i can help you . which part of town ? <USER> the [hotel_area] part of town is where i want to go and include free parking and should have a star of [value_count] <SYSTEM> okay , how about the [hotel_name] ? it s located on [hotel_address] . would you like me to make a reservation ?",
+                "original user side information": {
+                    "user_orig": "that sounds perfect . i need a room for 3 people and 4 nights starting from sunday .",
+                    "BS": {
+                        "hotel": [
+                            [
+                                "parking",
+                                "yes"
+                            ],
+                            [
+                                "area",
+                                "north"
+                            ],
+                            [
+                                "stars",
+                                "4"
+                            ]
+                        ]
+                    }
+                },
+                "original system side information": {
+                    "KB": 2,
+                    "source": {
+                        "[hotel_type]": "guesthouse",
+                        "[hotel_internet]": "yes",
+                        "[taxi_reference]": "z45i87ld",
+                        "[train_reference]": "z45i87ld",
+                        "[hotel_parking]": "yes",
+                        "[hotel_phone]": "1223353888",
+                        "[hospital_reference]": "z45i87ld",
+                        "[hotel_area]": "north",
+                        "[bus_reference]": "z45i87ld",
+                        "[hotel_postcode]": "cb41da",
+                        "[restaurant_reference]": "z45i87ld",
+                        "[police_reference]": "z45i87ld",
+                        "[hotel_name]": "acorn guest house",
+                        "[hotel_reference]": "z45i87ld",
+                        "[attraction_reference]": "z45i87ld",
+                        "[hotel_pricerange]": "moderate",
+                        "[hotel_stars]": "4",
+                        "[hotel_address]": "154 chesterton road"
+                    },
+                    "act": {
+                        "booking-book-name": "acorn guest house",
+                        "booking-book-reference": "z45i87ld",
+                        "booking-book-people": "3",
+                        "booking-book-day": "sunday",
+                        "booking-book-stay": "4"
+                    },
+                    "sys_orig": "the booking was successful . you have a reservation for 3 people , staying 4 nights a acorn guest house starting on sunday . your reference number is : z45i87ld ."
+                }
+            },
+            {
+                "turn id": 4,
+                "user utterance": "thank you ! i also need a swimming pool in the [attraction_area] area of [value_place] .",
+                "system response": "i would recommend [attraction_name] . would you like more information ?",
+                "dialog history": "<USER> i am looking for information . can you help me with a place to stay while i am in town ? <SYSTEM> i can help you . which part of town ? <USER> the [hotel_area] part of town is where i want to go and include free parking and should have a star of [value_count] <SYSTEM> okay , how about the [hotel_name] ? it s located on [hotel_address] . would you like me to make a reservation ? <USER> that sounds perfect . i need a room for [value_count] people and [value_count] nights starting from [value_day] . <SYSTEM> the booking was successful . you have a reservation for [value_count] people , staying [value_count] nights a [hotel_name] starting on [value_day] . your reference number is [hotel_reference] .",
+                "original user side information": {
+                    "user_orig": "thank you ! i also need a swimming pool in the north area of cambridge .",
+                    "BS": {
+                        "hotel": [
+                            [
+                                "parking",
+                                "yes"
+                            ],
+                            [
+                                "area",
+                                "north"
+                            ],
+                            [
+                                "stars",
+                                "4"
+                            ]
+                        ],
+                        "attraction": [
+                            [
+                                "type",
+                                "swimmingpool"
+                            ],
+                            [
+                                "area",
+                                "north"
+                            ]
+                        ]
+                    }
+                },
+                "original system side information": {
+                    "KB": 2,
+                    "source": {
+                        "[attraction_address]": "between victoria road and the river",
+                        "[attraction_reference]": "xxxxxxxx",
+                        "[attraction_postcode]": "cb43px",
+                        "[attraction_area]": "north",
+                        "[attraction_phone]": "1223302579",
+                        "[attraction_openhours]": "?",
+                        "[attraction_name]": "jesus green outdoor pool",
+                        "[attraction_pricerange]": "?",
+                        "[attraction_entrance fee]": "?",
+                        "[attraction_type]": "swimmingpool"
+                    },
+                    "act": {
+                        "attraction-recommend-name": "jesus green outdoor pool",
+                        "general-none-none": "none"
+                    },
+                    "sys_orig": "i 'd recommend jesus green outdoor pool . would you like more information ?"
+                }
+            },
+            {
+                "turn id": 5,
+                "user utterance": "can you please provide me with the address , postcode and phone number ?",
+                "system response": "sure ! the address is [attraction_address] , the postcode is [attraction_postcode] , and the phone number is [attraction_phone] .",
+                "dialog history": "<USER> i am looking for information . can you help me with a place to stay while i am in town ? <SYSTEM> i can help you . which part of town ? <USER> the [hotel_area] part of town is where i want to go and include free parking and should have a star of [value_count] <SYSTEM> okay , how about the [hotel_name] ? it s located on [hotel_address] . would you like me to make a reservation ? <USER> that sounds perfect . i need a room for [value_count] people and [value_count] nights starting from [value_day] . <SYSTEM> the booking was successful . you have a reservation for [value_count] people , staying [value_count] nights a [hotel_name] starting on [value_day] . your reference number is [hotel_reference] . <USER> thank you ! i also need a swimming pool in the [attraction_area] area of [value_place] . <SYSTEM> i would recommend [attraction_name] . would you like more information ?",
+                "original user side information": {
+                    "user_orig": "can you please provide me with the address , postcode and phone number ?",
+                    "BS": {
+                        "hotel": [
+                            [
+                                "parking",
+                                "yes"
+                            ],
+                            [
+                                "area",
+                                "north"
+                            ],
+                            [
+                                "stars",
+                                "4"
+                            ]
+                        ],
+                        "attraction": [
+                            [
+                                "type",
+                                "swimmingpool"
+                            ],
+                            [
+                                "area",
+                                "north"
+                            ]
+                        ]
+                    }
+                },
+                "original system side information": {
+                    "KB": 2,
+                    "source": {
+                        "[attraction_address]": "between victoria road and the river",
+                        "[attraction_postcode]": "cb43px",
+                        "[attraction_area]": "north",
+                        "[attraction_phone]": "1223302579",
+                        "[attraction_openhours]": "?",
+                        "[attraction_name]": "jesus green outdoor pool",
+                        "[attraction_pricerange]": "?",
+                        "[attraction_entrance fee]": "?",
+                        "[attraction_type]": "swimmingpool"
+                    },
+                    "act": {
+                        "attraction-inform-address": "between victoria road and the river",
+                        "attraction-inform-phone": "01223302579",
+                        "attraction-inform-postcode": "cb43px"
+                    },
+                    "sys_orig": "sure ! the address is between victoria road and the river , the postcode is cb43px , and the phone number is 01223302579 ."
+                }
+            },
+            {
+                "turn id": 6,
+                "user utterance": "lastly a taxi from the hotel to the pool please .",
+                "system response": "do you have a arrival time in mind ?",
+                "dialog history": "<USER> i am looking for information . can you help me with a place to stay while i am in town ? <SYSTEM> i can help you . which part of town ? <USER> the [hotel_area] part of town is where i want to go and include free parking and should have a star of [value_count] <SYSTEM> okay , how about the [hotel_name] ? it s located on [hotel_address] . would you like me to make a reservation ? <USER> that sounds perfect . i need a room for [value_count] people and [value_count] nights starting from [value_day] . <SYSTEM> the booking was successful . you have a reservation for [value_count] people , staying [value_count] nights a [hotel_name] starting on [value_day] . your reference number is [hotel_reference] . <USER> thank you ! i also need a swimming pool in the [attraction_area] area of [value_place] . <SYSTEM> i would recommend [attraction_name] . would you like more information ? <USER> can you please provide me with the address , postcode and phone number ? <SYSTEM> sure ! the address is [attraction_address] , the postcode is [attraction_postcode] , and the phone number is [attraction_phone] .",
+                "original user side information": {
+                    "user_orig": "lastly a taxi from the hotel to the pool please .",
+                    "BS": {
+                        "hotel": [
+                            [
+                                "parking",
+                                "yes"
+                            ],
+                            [
+                                "area",
+                                "north"
+                            ],
+                            [
+                                "stars",
+                                "4"
+                            ]
+                        ],
+                        "taxi": [
+                            [
+                                "departure",
+                                "acorn guest house"
+                            ],
+                            [
+                                "destination",
+                                "jesus green outdoor pool"
+                            ]
+                        ],
+                        "attraction": [
+                            [
+                                "type",
+                                "swimmingpool"
+                            ],
+                            [
+                                "area",
+                                "north"
+                            ]
+                        ]
+                    }
+                },
+                "original system side information": {
+                    "KB": 0,
+                    "source": {},
+                    "act": {
+                        "taxi-request-arriveby": "?"
+                    },
+                    "sys_orig": "do you have a arrival time in mind ?"
+                }
+            },
+            {
+                "turn id": 7,
+                "user utterance": "i want to to leave the hotel by [value_time] .",
+                "system response": "when is your arrival time ?",
+                "dialog history": "<USER> i am looking for information . can you help me with a place to stay while i am in town ? <SYSTEM> i can help you . which part of town ? <USER> the [hotel_area] part of town is where i want to go and include free parking and should have a star of [value_count] <SYSTEM> okay , how about the [hotel_name] ? it s located on [hotel_address] . would you like me to make a reservation ? <USER> that sounds perfect . i need a room for [value_count] people and [value_count] nights starting from [value_day] . <SYSTEM> the booking was successful . you have a reservation for [value_count] people , staying [value_count] nights a [hotel_name] starting on [value_day] . your reference number is [hotel_reference] . <USER> thank you ! i also need a swimming pool in the [attraction_area] area of [value_place] . <SYSTEM> i would recommend [attraction_name] . would you like more information ? <USER> can you please provide me with the address , postcode and phone number ? <SYSTEM> sure ! the address is [attraction_address] , the postcode is [attraction_postcode] , and the phone number is [attraction_phone] . <USER> lastly a taxi from the hotel to the pool please . <SYSTEM> do you have a arrival time in mind ?",
+                "original user side information": {
+                    "user_orig": "i want to to leave the hotel by 10:30 .",
+                    "BS": {
+                        "hotel": [
+                            [
+                                "parking",
+                                "yes"
+                            ],
+                            [
+                                "area",
+                                "north"
+                            ],
+                            [
+                                "stars",
+                                "4"
+                            ]
+                        ],
+                        "taxi": [
+                            [
+                                "departure",
+                                "acorn guest house"
+                            ],
+                            [
+                                "destination",
+                                "jesus green outdoor pool"
+                            ]
+                        ],
+                        "attraction": [
+                            [
+                                "type",
+                                "swimmingpool"
+                            ],
+                            [
+                                "area",
+                                "north"
+                            ]
+                        ]
+                    }
+                },
+                "original system side information": {
+                    "KB": 0,
+                    "source": {},
+                    "act": {
+                        "taxi-request-arriveby": "?"
+                    },
+                    "sys_orig": "when is your arrival time ?"
+                }
+            },
+            {
+                "turn id": 8,
+                "user utterance": "my arrival time will be [value_time] .",
+                "system response": "your taxi have been booked for a [taxi_type] and its contact number is [taxi_phone] .",
+                "dialog history": "<USER> i am looking for information . can you help me with a place to stay while i am in town ? <SYSTEM> i can help you . which part of town ? <USER> the [hotel_area] part of town is where i want to go and include free parking and should have a star of [value_count] <SYSTEM> okay , how about the [hotel_name] ? it s located on [hotel_address] . would you like me to make a reservation ? <USER> that sounds perfect . i need a room for [value_count] people and [value_count] nights starting from [value_day] . <SYSTEM> the booking was successful . you have a reservation for [value_count] people , staying [value_count] nights a [hotel_name] starting on [value_day] . your reference number is [hotel_reference] . <USER> thank you ! i also need a swimming pool in the [attraction_area] area of [value_place] . <SYSTEM> i would recommend [attraction_name] . would you like more information ? <USER> can you please provide me with the address , postcode and phone number ? <SYSTEM> sure ! the address is [attraction_address] , the postcode is [attraction_postcode] , and the phone number is [attraction_phone] . <USER> lastly a taxi from the hotel to the pool please . <SYSTEM> do you have a arrival time in mind ? <USER> i want to to leave the hotel by [value_time] . <SYSTEM> when is your arrival time ?",
+                "original user side information": {
+                    "user_orig": "my arrival time will be 17:00 .",
+                    "BS": {
+                        "hotel": [
+                            [
+                                "parking",
+                                "yes"
+                            ],
+                            [
+                                "area",
+                                "north"
+                            ],
+                            [
+                                "stars",
+                                "4"
+                            ]
+                        ],
+                        "taxi": [
+                            [
+                                "departure",
+                                "acorn guest house"
+                            ],
+                            [
+                                "destination",
+                                "jesus green outdoor pool"
+                            ],
+                            [
+                                "arriveBy",
+                                "17:00"
+                            ]
+                        ],
+                        "attraction": [
+                            [
+                                "type",
+                                "swimmingpool"
+                            ],
+                            [
+                                "area",
+                                "north"
+                            ]
+                        ]
+                    }
+                },
+                "original system side information": {
+                    "KB": 0,
+                    "source": {},
+                    "act": {
+                        "taxi-inform-phone": "07055228719",
+                        "taxi-inform-type": "black volvo"
+                    },
+                    "sys_orig": "your taxi have been booked for a black volvo and its contact number is 07055228719 ."
+                }
+            },
+            {
+                "turn id": 9,
+                "user utterance": "thanks . that is all for today .",
+                "system response": "thanks for inquiring with us and have a great day",
+                "dialog history": "<USER> i am looking for information . can you help me with a place to stay while i am in town ? <SYSTEM> i can help you . which part of town ? <USER> the [hotel_area] part of town is where i want to go and include free parking and should have a star of [value_count] <SYSTEM> okay , how about the [hotel_name] ? it s located on [hotel_address] . would you like me to make a reservation ? <USER> that sounds perfect . i need a room for [value_count] people and [value_count] nights starting from [value_day] . <SYSTEM> the booking was successful . you have a reservation for [value_count] people , staying [value_count] nights a [hotel_name] starting on [value_day] . your reference number is [hotel_reference] . <USER> thank you ! i also need a swimming pool in the [attraction_area] area of [value_place] . <SYSTEM> i would recommend [attraction_name] . would you like more information ? <USER> can you please provide me with the address , postcode and phone number ? <SYSTEM> sure ! the address is [attraction_address] , the postcode is [attraction_postcode] , and the phone number is [attraction_phone] . <USER> lastly a taxi from the hotel to the pool please . <SYSTEM> do you have a arrival time in mind ? <USER> i want to to leave the hotel by [value_time] . <SYSTEM> when is your arrival time ? <USER> my arrival time will be [value_time] . <SYSTEM> your taxi have been booked for a [taxi_type] and its contact number is [taxi_phone] .",
+                "original user side information": {
+                    "user_orig": "thanks . that is all for today .",
+                    "BS": {
+                        "hotel": [
+                            [
+                                "parking",
+                                "yes"
+                            ],
+                            [
+                                "area",
+                                "north"
+                            ],
+                            [
+                                "stars",
+                                "4"
+                            ]
+                        ],
+                        "taxi": [
+                            [
+                                "departure",
+                                "acorn guest house"
+                            ],
+                            [
+                                "destination",
+                                "jesus green outdoor pool"
+                            ],
+                            [
+                                "arriveBy",
+                                "17:00"
+                            ]
+                        ],
+                        "attraction": [
+                            [
+                                "type",
+                                "swimmingpool"
+                            ],
+                            [
+                                "area",
+                                "north"
+                            ]
+                        ]
+                    }
+                },
+                "original system side information": {
+                    "KB": 0,
+                    "source": {},
+                    "act": {
+                        "general-none-none": "none"
+                    },
+                    "sys_orig": "thanks for inquiring with us and have a great day"
+                }
+            },
+            {
+                "turn id": 10,
+                "user utterance": "thanks . i hope your day is good too .",
+                "system response": "it sure is . thanks .",
+                "dialog history": "<USER> i am looking for information . can you help me with a place to stay while i am in town ? <SYSTEM> i can help you . which part of town ? <USER> the [hotel_area] part of town is where i want to go and include free parking and should have a star of [value_count] <SYSTEM> okay , how about the [hotel_name] ? it s located on [hotel_address] . would you like me to make a reservation ? <USER> that sounds perfect . i need a room for [value_count] people and [value_count] nights starting from [value_day] . <SYSTEM> the booking was successful . you have a reservation for [value_count] people , staying [value_count] nights a [hotel_name] starting on [value_day] . your reference number is [hotel_reference] . <USER> thank you ! i also need a swimming pool in the [attraction_area] area of [value_place] . <SYSTEM> i would recommend [attraction_name] . would you like more information ? <USER> can you please provide me with the address , postcode and phone number ? <SYSTEM> sure ! the address is [attraction_address] , the postcode is [attraction_postcode] , and the phone number is [attraction_phone] . <USER> lastly a taxi from the hotel to the pool please . <SYSTEM> do you have a arrival time in mind ? <USER> i want to to leave the hotel by [value_time] . <SYSTEM> when is your arrival time ? <USER> my arrival time will be [value_time] . <SYSTEM> your taxi have been booked for a [taxi_type] and its contact number is [taxi_phone] . <USER> thanks . that is all for today . <SYSTEM> thanks for inquiring with us and have a great day",
+                "original user side information": {
+                    "user_orig": "thanks . i hope your day is good too .",
+                    "BS": {
+                        "hotel": [
+                            [
+                                "parking",
+                                "yes"
+                            ],
+                            [
+                                "area",
+                                "north"
+                            ],
+                            [
+                                "stars",
+                                "4"
+                            ]
+                        ],
+                        "taxi": [
+                            [
+                                "departure",
+                                "acorn guest house"
+                            ],
+                            [
+                                "destination",
+                                "jesus green outdoor pool"
+                            ],
+                            [
+                                "arriveBy",
+                                "17:00"
+                            ]
+                        ],
+                        "attraction": [
+                            [
+                                "type",
+                                "swimmingpool"
+                            ],
+                            [
+                                "area",
+                                "north"
+                            ]
+                        ]
+                    }
+                },
+                "original system side information": {
+                    "KB": 0,
+                    "source": {},
+                    "act": {
+                        "general-none-none": "none"
+                    },
+                    "sys_orig": "it sure is . thanks ."
+                }
+            },
+            {
+                "turn id": 11,
+                "user utterance": "good . glad to hear it . you can end this conversation now . i do not need anything else .",
+                "system response": "thank you for using our service .",
+                "dialog history": "<USER> i am looking for information . can you help me with a place to stay while i am in town ? <SYSTEM> i can help you . which part of town ? <USER> the [hotel_area] part of town is where i want to go and include free parking and should have a star of [value_count] <SYSTEM> okay , how about the [hotel_name] ? it s located on [hotel_address] . would you like me to make a reservation ? <USER> that sounds perfect . i need a room for [value_count] people and [value_count] nights starting from [value_day] . <SYSTEM> the booking was successful . you have a reservation for [value_count] people , staying [value_count] nights a [hotel_name] starting on [value_day] . your reference number is [hotel_reference] . <USER> thank you ! i also need a swimming pool in the [attraction_area] area of [value_place] . <SYSTEM> i would recommend [attraction_name] . would you like more information ? <USER> can you please provide me with the address , postcode and phone number ? <SYSTEM> sure ! the address is [attraction_address] , the postcode is [attraction_postcode] , and the phone number is [attraction_phone] . <USER> lastly a taxi from the hotel to the pool please . <SYSTEM> do you have a arrival time in mind ? <USER> i want to to leave the hotel by [value_time] . <SYSTEM> when is your arrival time ? <USER> my arrival time will be [value_time] . <SYSTEM> your taxi have been booked for a [taxi_type] and its contact number is [taxi_phone] . <USER> thanks . that is all for today . <SYSTEM> thanks for inquiring with us and have a great day <USER> thanks . i hope your day is good too . <SYSTEM> it sure is . thanks .",
+                "original user side information": {
+                    "user_orig": "good . glad to hear it . you can end this conversation now . i do n't need anything else .",
+                    "BS": {
+                        "hotel": [
+                            [
+                                "parking",
+                                "yes"
+                            ],
+                            [
+                                "area",
+                                "north"
+                            ],
+                            [
+                                "stars",
+                                "4"
+                            ]
+                        ],
+                        "taxi": [
+                            [
+                                "departure",
+                                "acorn guest house"
+                            ],
+                            [
+                                "destination",
+                                "jesus green outdoor pool"
+                            ],
+                            [
+                                "arriveBy",
+                                "17:00"
+                            ]
+                        ],
+                        "attraction": [
+                            [
+                                "type",
+                                "swimmingpool"
+                            ],
+                            [
+                                "area",
+                                "north"
+                            ]
+                        ]
+                    }
+                },
+                "original system side information": {
+                    "KB": 0,
+                    "source": {},
+                    "act": {
+                        "general-none-none": "none"
+                    },
+                    "sys_orig": "thank you for using our service ."
+                }
+            }
+        ],
+        "external knowledge non-flat": {
+            "metadata": {},
+            "slots and values": {},
+            "intents": {}
+        },
+        "external knowledge": "",
+        "dst knowledge": "",
+        "intent knowledge": "",
+        "prompt": []
+    }
+}

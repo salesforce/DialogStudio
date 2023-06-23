@@ -1,0 +1,933 @@
+[
+    {
+        "dialogue_idx": 0,
+        "dialogue": [
+            {
+                "turn_label": [
+                    [
+                        "food",
+                        "eritrean"
+                    ]
+                ],
+                "asr": [
+                    [
+                        "Are there any eritrean restaurants in town?",
+                        1.0
+                    ]
+                ],
+                "system_transcript": "",
+                "turn_idx": 0,
+                "belief_state": [
+                    {
+                        "slots": [
+                            [
+                                "food",
+                                "eritrean"
+                            ]
+                        ],
+                        "act": "inform"
+                    }
+                ],
+                "transcript": "Are there any eritrean restaurants in town?",
+                "system_acts": []
+            },
+            {
+                "turn_label": [
+                    [
+                        "food",
+                        "chinese"
+                    ]
+                ],
+                "asr": [
+                    [
+                        "How about Chinese food?",
+                        1.0
+                    ]
+                ],
+                "system_transcript": "No, there are no eritrean restaurants in town. Would you like a different restaurant? ",
+                "turn_idx": 1,
+                "belief_state": [
+                    {
+                        "slots": [
+                            [
+                                "food",
+                                "chinese"
+                            ]
+                        ],
+                        "act": "inform"
+                    }
+                ],
+                "transcript": "How about Chinese food?",
+                "system_acts": []
+            },
+            {
+                "turn_label": [
+                    [
+                        "area",
+                        "east"
+                    ]
+                ],
+                "asr": [
+                    [
+                        "I would like the East part of town.",
+                        1.0
+                    ]
+                ],
+                "system_transcript": "There is a wide variety of Chinese restaurants, do you have an area preference or a price preference to narrow it down?",
+                "turn_idx": 2,
+                "belief_state": [
+                    {
+                        "slots": [
+                            [
+                                "food",
+                                "chinese"
+                            ]
+                        ],
+                        "act": "inform"
+                    },
+                    {
+                        "slots": [
+                            [
+                                "area",
+                                "east"
+                            ]
+                        ],
+                        "act": "inform"
+                    }
+                ],
+                "transcript": "I would like the East part of town.",
+                "system_acts": [
+                    "area"
+                ]
+            },
+            {
+                "turn_label": [
+                    [
+                        "request",
+                        "postcode"
+                    ],
+                    [
+                        "request",
+                        "phone"
+                    ],
+                    [
+                        "request",
+                        "address"
+                    ]
+                ],
+                "asr": [
+                    [
+                        "Could I get the address, phone number, and postcode of Yu Garden?",
+                        1.0
+                    ]
+                ],
+                "system_transcript": "Yu Garden is a chinese restaurant in the east area.",
+                "turn_idx": 3,
+                "belief_state": [
+                    {
+                        "slots": [
+                            [
+                                "slot",
+                                "postcode"
+                            ]
+                        ],
+                        "act": "request"
+                    },
+                    {
+                        "slots": [
+                            [
+                                "slot",
+                                "phone"
+                            ]
+                        ],
+                        "act": "request"
+                    },
+                    {
+                        "slots": [
+                            [
+                                "slot",
+                                "address"
+                            ]
+                        ],
+                        "act": "request"
+                    },
+                    {
+                        "slots": [
+                            [
+                                "food",
+                                "chinese"
+                            ]
+                        ],
+                        "act": "inform"
+                    },
+                    {
+                        "slots": [
+                            [
+                                "area",
+                                "east"
+                            ]
+                        ],
+                        "act": "inform"
+                    }
+                ],
+                "transcript": "Could I get the address, phone number, and postcode of Yu Garden?",
+                "system_acts": []
+            },
+            {
+                "turn_label": [],
+                "asr": [
+                    [
+                        "Thank you.  That is all the information I needed.  Bye bye!",
+                        1.0
+                    ]
+                ],
+                "system_transcript": "Phone is 01223 248882, address and postcode are 529 Newmarket Road Fen Ditton C.B 5, 8 P.A",
+                "turn_idx": 4,
+                "belief_state": [
+                    {
+                        "slots": [
+                            [
+                                "food",
+                                "chinese"
+                            ]
+                        ],
+                        "act": "inform"
+                    },
+                    {
+                        "slots": [
+                            [
+                                "area",
+                                "east"
+                            ]
+                        ],
+                        "act": "inform"
+                    }
+                ],
+                "transcript": "Thank you.  That is all the information I needed.  Bye bye!",
+                "system_acts": []
+            }
+        ]
+    },
+    {
+        "dialogue_idx": 1,
+        "dialogue": [
+            {
+                "turn_label": [
+                    [
+                        "food",
+                        "german"
+                    ]
+                ],
+                "asr": [
+                    [
+                        "Hi, I'm looking for a nice German restaurant.",
+                        1.0
+                    ]
+                ],
+                "system_transcript": "",
+                "turn_idx": 0,
+                "belief_state": [
+                    {
+                        "slots": [
+                            [
+                                "food",
+                                "german"
+                            ]
+                        ],
+                        "act": "inform"
+                    }
+                ],
+                "transcript": "Hi, I'm looking for a nice German restaurant.",
+                "system_acts": []
+            },
+            {
+                "turn_label": [
+                    [
+                        "food",
+                        "european"
+                    ]
+                ],
+                "asr": [
+                    [
+                        "How about European yeah? ",
+                        1.0
+                    ]
+                ],
+                "system_transcript": "There are no German restaurants listed, do you have another preference?",
+                "turn_idx": 1,
+                "belief_state": [
+                    {
+                        "slots": [
+                            [
+                                "food",
+                                "european"
+                            ]
+                        ],
+                        "act": "inform"
+                    }
+                ],
+                "transcript": "How about European yeah? ",
+                "system_acts": [
+                    "food"
+                ]
+            },
+            {
+                "turn_label": [
+                    [
+                        "area",
+                        "dontcare"
+                    ]
+                ],
+                "asr": [
+                    [
+                        "I don't care.",
+                        1.0
+                    ]
+                ],
+                "system_transcript": "Which area of town?",
+                "turn_idx": 2,
+                "belief_state": [
+                    {
+                        "slots": [
+                            [
+                                "food",
+                                "european"
+                            ]
+                        ],
+                        "act": "inform"
+                    },
+                    {
+                        "slots": [
+                            [
+                                "area",
+                                "dontcare"
+                            ]
+                        ],
+                        "act": "inform"
+                    }
+                ],
+                "transcript": "I don't care.",
+                "system_acts": [
+                    "area"
+                ]
+            },
+            {
+                "turn_label": [
+                    [
+                        "price range",
+                        "expensive"
+                    ],
+                    [
+                        "request",
+                        "phone"
+                    ],
+                    [
+                        "request",
+                        "area"
+                    ],
+                    [
+                        "request",
+                        "address"
+                    ]
+                ],
+                "asr": [
+                    [
+                        "Can I have the address, phone number, and area for the most expensive one?",
+                        1.0
+                    ]
+                ],
+                "system_transcript": "There are ten restaurants that fit that description. Do you have a price preference?",
+                "turn_idx": 3,
+                "belief_state": [
+                    {
+                        "slots": [
+                            [
+                                "slot",
+                                "phone"
+                            ]
+                        ],
+                        "act": "request"
+                    },
+                    {
+                        "slots": [
+                            [
+                                "slot",
+                                "area"
+                            ]
+                        ],
+                        "act": "request"
+                    },
+                    {
+                        "slots": [
+                            [
+                                "slot",
+                                "address"
+                            ]
+                        ],
+                        "act": "request"
+                    },
+                    {
+                        "slots": [
+                            [
+                                "food",
+                                "european"
+                            ]
+                        ],
+                        "act": "inform"
+                    },
+                    {
+                        "slots": [
+                            [
+                                "price range",
+                                "expensive"
+                            ]
+                        ],
+                        "act": "inform"
+                    },
+                    {
+                        "slots": [
+                            [
+                                "area",
+                                "dontcare"
+                            ]
+                        ],
+                        "act": "inform"
+                    }
+                ],
+                "transcript": "Can I have the address, phone number, and area for the most expensive one?",
+                "system_acts": [
+                    "price range"
+                ]
+            },
+            {
+                "turn_label": [],
+                "asr": [
+                    [
+                        "Thank you goodbye",
+                        1.0
+                    ]
+                ],
+                "system_transcript": "Cambridge Lodge Restaurant is listed as expensive in the west area located at \t Cambridge Lodge Hotel 139 Huntingdon Road City Centre. Their phone number is\t 01223 355166.  ",
+                "turn_idx": 4,
+                "belief_state": [
+                    {
+                        "slots": [
+                            [
+                                "food",
+                                "european"
+                            ]
+                        ],
+                        "act": "inform"
+                    },
+                    {
+                        "slots": [
+                            [
+                                "price range",
+                                "expensive"
+                            ]
+                        ],
+                        "act": "inform"
+                    },
+                    {
+                        "slots": [
+                            [
+                                "area",
+                                "dontcare"
+                            ]
+                        ],
+                        "act": "inform"
+                    }
+                ],
+                "transcript": "Thank you goodbye",
+                "system_acts": []
+            }
+        ]
+    },
+    {
+        "dialogue_idx": 2,
+        "dialogue": [
+            {
+                "turn_label": [
+                    [
+                        "food",
+                        "australasian"
+                    ],
+                    [
+                        "price range",
+                        "expensive"
+                    ]
+                ],
+                "asr": [
+                    [
+                        "I am looking for a restaurant in the expensive price range that serves Australasian food. ",
+                        1.0
+                    ]
+                ],
+                "system_transcript": "",
+                "turn_idx": 0,
+                "belief_state": [
+                    {
+                        "slots": [
+                            [
+                                "food",
+                                "australasian"
+                            ]
+                        ],
+                        "act": "inform"
+                    },
+                    {
+                        "slots": [
+                            [
+                                "price range",
+                                "expensive"
+                            ]
+                        ],
+                        "act": "inform"
+                    }
+                ],
+                "transcript": "I am looking for a restaurant in the expensive price range that serves Australasian food. ",
+                "system_acts": []
+            },
+            {
+                "turn_label": [
+                    [
+                        "food",
+                        "mediterranean"
+                    ],
+                    [
+                        "request",
+                        "phone"
+                    ],
+                    [
+                        "request",
+                        "address"
+                    ]
+                ],
+                "asr": [
+                    [
+                        "I'd like to find some Mediterranean food and need to know their address and phone number.",
+                        1.0
+                    ]
+                ],
+                "system_transcript": "There are no restaurants matching your requests.  May I help you find a different type of restaurant? ",
+                "turn_idx": 1,
+                "belief_state": [
+                    {
+                        "slots": [
+                            [
+                                "slot",
+                                "phone"
+                            ]
+                        ],
+                        "act": "request"
+                    },
+                    {
+                        "slots": [
+                            [
+                                "slot",
+                                "address"
+                            ]
+                        ],
+                        "act": "request"
+                    },
+                    {
+                        "slots": [
+                            [
+                                "food",
+                                "mediterranean"
+                            ]
+                        ],
+                        "act": "inform"
+                    },
+                    {
+                        "slots": [
+                            [
+                                "price range",
+                                "expensive"
+                            ]
+                        ],
+                        "act": "inform"
+                    }
+                ],
+                "transcript": "I'd like to find some Mediterranean food and need to know their address and phone number.",
+                "system_acts": [
+                    "food"
+                ]
+            },
+            {
+                "turn_label": [],
+                "asr": [
+                    [
+                        "Thank you!",
+                        1.0
+                    ]
+                ],
+                "system_transcript": "There is an expensive restaurant that serves mediterranean food located at Thompsons Lane Fen Ditton. Their phone number is 01223 362525.",
+                "turn_idx": 2,
+                "belief_state": [
+                    {
+                        "slots": [
+                            [
+                                "food",
+                                "mediterranean"
+                            ]
+                        ],
+                        "act": "inform"
+                    },
+                    {
+                        "slots": [
+                            [
+                                "price range",
+                                "expensive"
+                            ]
+                        ],
+                        "act": "inform"
+                    }
+                ],
+                "transcript": "Thank you!",
+                "system_acts": []
+            }
+        ]
+    },
+    {
+        "dialogue_idx": 3,
+        "dialogue": [
+            {
+                "turn_label": [
+                    [
+                        "price range",
+                        "moderate"
+                    ]
+                ],
+                "asr": [
+                    [
+                        "I am looking for a moderately priced restaurant.",
+                        1.0
+                    ]
+                ],
+                "system_transcript": "",
+                "turn_idx": 0,
+                "belief_state": [
+                    {
+                        "slots": [
+                            [
+                                "price range",
+                                "moderate"
+                            ]
+                        ],
+                        "act": "inform"
+                    }
+                ],
+                "transcript": "I am looking for a moderately priced restaurant.",
+                "system_acts": []
+            },
+            {
+                "turn_label": [
+                    [
+                        "food",
+                        "turkish"
+                    ]
+                ],
+                "asr": [
+                    [
+                        "Turkish food.",
+                        1.0
+                    ]
+                ],
+                "system_transcript": "What type of food would you like?",
+                "turn_idx": 1,
+                "belief_state": [
+                    {
+                        "slots": [
+                            [
+                                "food",
+                                "turkish"
+                            ]
+                        ],
+                        "act": "inform"
+                    },
+                    {
+                        "slots": [
+                            [
+                                "price range",
+                                "moderate"
+                            ]
+                        ],
+                        "act": "inform"
+                    }
+                ],
+                "transcript": "Turkish food.",
+                "system_acts": [
+                    "food"
+                ]
+            },
+            {
+                "turn_label": [
+                    [
+                        "request",
+                        "phone"
+                    ],
+                    [
+                        "request",
+                        "address"
+                    ],
+                    [
+                        "food",
+                        "turkish"
+                    ]
+                ],
+                "asr": [
+                    [
+                        "Yes, please give me the one Turkish food restaurant's phone number and address please.",
+                        1.0
+                    ]
+                ],
+                "system_transcript": "I have two restaurants in the Centre area of town. Would you like the information for both?",
+                "turn_idx": 2,
+                "belief_state": [
+                    {
+                        "slots": [
+                            [
+                                "slot",
+                                "phone"
+                            ]
+                        ],
+                        "act": "request"
+                    },
+                    {
+                        "slots": [
+                            [
+                                "slot",
+                                "address"
+                            ]
+                        ],
+                        "act": "request"
+                    },
+                    {
+                        "slots": [
+                            [
+                                "food",
+                                "turkish"
+                            ]
+                        ],
+                        "act": "inform"
+                    },
+                    {
+                        "slots": [
+                            [
+                                "price range",
+                                "moderate"
+                            ]
+                        ],
+                        "act": "inform"
+                    }
+                ],
+                "transcript": "Yes, please give me the one Turkish food restaurant's phone number and address please.",
+                "system_acts": []
+            },
+            {
+                "turn_label": [],
+                "asr": [
+                    [
+                        "thank you. ",
+                        1.0
+                    ]
+                ],
+                "system_transcript": "Anatolia is located at 30 Bridge Street City Centre, phone number is 01223 362372",
+                "turn_idx": 3,
+                "belief_state": [
+                    {
+                        "slots": [
+                            [
+                                "food",
+                                "turkish"
+                            ]
+                        ],
+                        "act": "inform"
+                    },
+                    {
+                        "slots": [
+                            [
+                                "price range",
+                                "moderate"
+                            ]
+                        ],
+                        "act": "inform"
+                    }
+                ],
+                "transcript": "thank you. ",
+                "system_acts": []
+            }
+        ]
+    },
+    {
+        "dialogue_idx": 4,
+        "dialogue": [
+            {
+                "turn_label": [
+                    [
+                        "area",
+                        "west"
+                    ],
+                    [
+                        "food",
+                        "persian"
+                    ]
+                ],
+                "asr": [
+                    [
+                        "Hi I am looking for a persian restaurant in the west part of town. ",
+                        1.0
+                    ]
+                ],
+                "system_transcript": "",
+                "turn_idx": 0,
+                "belief_state": [
+                    {
+                        "slots": [
+                            [
+                                "food",
+                                "persian"
+                            ]
+                        ],
+                        "act": "inform"
+                    },
+                    {
+                        "slots": [
+                            [
+                                "area",
+                                "west"
+                            ]
+                        ],
+                        "act": "inform"
+                    }
+                ],
+                "transcript": "Hi I am looking for a persian restaurant in the west part of town. ",
+                "system_acts": []
+            },
+            {
+                "turn_label": [
+                    [
+                        "food",
+                        "italian"
+                    ]
+                ],
+                "asr": [
+                    [
+                        "No thank you.  Is there a restaurant with italian food?",
+                        1.0
+                    ]
+                ],
+                "system_transcript": "I'm sorry I do not have any Persian restaurants listed on the west side.  Should I try Persian restaurants in all locations?",
+                "turn_idx": 1,
+                "belief_state": [
+                    {
+                        "slots": [
+                            [
+                                "food",
+                                "italian"
+                            ]
+                        ],
+                        "act": "inform"
+                    },
+                    {
+                        "slots": [
+                            [
+                                "area",
+                                "west"
+                            ]
+                        ],
+                        "act": "inform"
+                    }
+                ],
+                "transcript": "No thank you.  Is there a restaurant with italian food?",
+                "system_acts": [
+                    [
+                        "area",
+                        "dontcare"
+                    ]
+                ]
+            },
+            {
+                "turn_label": [
+                    [
+                        "request",
+                        "phone"
+                    ]
+                ],
+                "asr": [
+                    [
+                        "Great! May I have the phone number please?",
+                        1.0
+                    ]
+                ],
+                "system_transcript": "Prezzo is on the west side.",
+                "turn_idx": 2,
+                "belief_state": [
+                    {
+                        "slots": [
+                            [
+                                "slot",
+                                "phone"
+                            ]
+                        ],
+                        "act": "request"
+                    },
+                    {
+                        "slots": [
+                            [
+                                "food",
+                                "italian"
+                            ]
+                        ],
+                        "act": "inform"
+                    },
+                    {
+                        "slots": [
+                            [
+                                "area",
+                                "west"
+                            ]
+                        ],
+                        "act": "inform"
+                    }
+                ],
+                "transcript": "Great! May I have the phone number please?",
+                "system_acts": []
+            },
+            {
+                "turn_label": [],
+                "asr": [
+                    [
+                        "Thanks, good night!",
+                        1.0
+                    ]
+                ],
+                "system_transcript": "The phone number is  01799 521260",
+                "turn_idx": 3,
+                "belief_state": [
+                    {
+                        "slots": [
+                            [
+                                "food",
+                                "italian"
+                            ]
+                        ],
+                        "act": "inform"
+                    },
+                    {
+                        "slots": [
+                            [
+                                "area",
+                                "west"
+                            ]
+                        ],
+                        "act": "inform"
+                    }
+                ],
+                "transcript": "Thanks, good night!",
+                "system_acts": []
+            }
+        ]
+    }
+]

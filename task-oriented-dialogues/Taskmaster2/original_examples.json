@@ -1,0 +1,2206 @@
+[
+    {
+        "conversation_id": "dlg-0010a9d6-91c2-4b9b-ad73-33b44a8b5d42",
+        "instruction_id": "hotel-2",
+        "utterances": [
+            {
+                "index": 0,
+                "speaker": "ASSISTANT",
+                "text": "Hello! How can I help you?"
+            },
+            {
+                "index": 1,
+                "speaker": "USER",
+                "text": "Hi, I would like to find a hotel."
+            },
+            {
+                "index": 2,
+                "speaker": "ASSISTANT",
+                "text": "Okay."
+            },
+            {
+                "index": 3,
+                "speaker": "ASSISTANT",
+                "text": "What else can you tell me about the hotel?"
+            },
+            {
+                "index": 4,
+                "speaker": "USER",
+                "text": "Find a hotel near the beachfront.",
+                "segments": [
+                    {
+                        "start_index": 13,
+                        "end_index": 32,
+                        "text": "near the beachfront",
+                        "annotations": [
+                            {
+                                "name": "hotel_search.sub_location.hotel"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 5,
+                "speaker": "ASSISTANT",
+                "text": "Okay beachfront in which town?",
+                "segments": [
+                    {
+                        "start_index": 5,
+                        "end_index": 15,
+                        "text": "beachfront",
+                        "annotations": [
+                            {
+                                "name": "hotel_search.sub_location.hotel"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 6,
+                "speaker": "USER",
+                "text": "Oxnard California.",
+                "segments": [
+                    {
+                        "start_index": 0,
+                        "end_index": 17,
+                        "text": "Oxnard California",
+                        "annotations": [
+                            {
+                                "name": "hotel_search.location.hotel"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 7,
+                "speaker": "ASSISTANT",
+                "text": "Okay."
+            },
+            {
+                "index": 8,
+                "speaker": "USER",
+                "text": "My price range is $300 for a night.",
+                "segments": [
+                    {
+                        "start_index": 18,
+                        "end_index": 34,
+                        "text": "$300 for a night",
+                        "annotations": [
+                            {
+                                "name": "hotel_search.price_range"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 9,
+                "speaker": "ASSISTANT",
+                "text": "Okay."
+            },
+            {
+                "index": 10,
+                "speaker": "ASSISTANT",
+                "text": "Is that all?"
+            },
+            {
+                "index": 11,
+                "speaker": "USER",
+                "text": "No. I want a room with a balcony.",
+                "segments": [
+                    {
+                        "start_index": 23,
+                        "end_index": 32,
+                        "text": "a balcony",
+                        "annotations": [
+                            {
+                                "name": "hotel_search.amenity"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 12,
+                "speaker": "ASSISTANT",
+                "text": "Okay, what else?"
+            },
+            {
+                "index": 13,
+                "speaker": "USER",
+                "text": "I will stay on next year June 16th to 19th, 2017.",
+                "segments": [
+                    {
+                        "start_index": 15,
+                        "end_index": 48,
+                        "text": "next year June 16th to 19th, 2017",
+                        "annotations": [
+                            {
+                                "name": "hotel_search.date_range"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 14,
+                "speaker": "ASSISTANT",
+                "text": "Alright."
+            },
+            {
+                "index": 15,
+                "speaker": "ASSISTANT",
+                "text": "Let me describe a couple of options you can choose from."
+            },
+            {
+                "index": 16,
+                "speaker": "ASSISTANT",
+                "text": "Staybridge Suites Carlsbad, it's $145 per night. It's rated 4.5 stars. Warm suites with kitchens in a relaxed property featuring an outdoor pool, a gym & a BBQ area.",
+                "segments": [
+                    {
+                        "start_index": 0,
+                        "end_index": 26,
+                        "text": "Staybridge Suites Carlsbad",
+                        "annotations": [
+                            {
+                                "name": "hotel1_detail.name.hotel"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 33,
+                        "end_index": 47,
+                        "text": "$145 per night",
+                        "annotations": [
+                            {
+                                "name": "hotel1_detail.price_per_night"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 60,
+                        "end_index": 69,
+                        "text": "4.5 stars",
+                        "annotations": [
+                            {
+                                "name": "hotel1_detail.customer_rating"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 71,
+                        "end_index": 164,
+                        "text": "Warm suites with kitchens in a relaxed property featuring an outdoor pool, a gym & a BBQ area",
+                        "annotations": [
+                            {
+                                "name": "hotel1_detail.other_detail"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 129,
+                        "end_index": 144,
+                        "text": "an outdoor pool",
+                        "annotations": [
+                            {
+                                "name": "hotel1_detail.amenity"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 146,
+                        "end_index": 151,
+                        "text": "a gym",
+                        "annotations": [
+                            {
+                                "name": "hotel1_detail.amenity"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 154,
+                        "end_index": 164,
+                        "text": "a BBQ area",
+                        "annotations": [
+                            {
+                                "name": "hotel1_detail.amenity"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 17,
+                "speaker": "ASSISTANT",
+                "text": "Park Hyatt Aviara resort Golf Club and Spa, it's $279 per night. It\u2019s rated 4.8 stars. Resort offering an 18-hole golf course, an outdoor pool & tennis courts plus a spa & fine dining.",
+                "segments": [
+                    {
+                        "start_index": 0,
+                        "end_index": 42,
+                        "text": "Park Hyatt Aviara resort Golf Club and Spa",
+                        "annotations": [
+                            {
+                                "name": "hotel2_detail.name.hotel"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 49,
+                        "end_index": 63,
+                        "text": "$279 per night",
+                        "annotations": [
+                            {
+                                "name": "hotel2_detail.price_per_night"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 76,
+                        "end_index": 85,
+                        "text": "4.8 stars",
+                        "annotations": [
+                            {
+                                "name": "hotel2_detail.customer_rating"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 87,
+                        "end_index": 183,
+                        "text": "Resort offering an 18-hole golf course, an outdoor pool & tennis courts plus a spa & fine dining",
+                        "annotations": [
+                            {
+                                "name": "hotel2_detail.other_detail"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 103,
+                        "end_index": 125,
+                        "text": "an 18-hole golf course",
+                        "annotations": [
+                            {
+                                "name": "hotel2_detail.amenity"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 127,
+                        "end_index": 142,
+                        "text": "an outdoor pool",
+                        "annotations": [
+                            {
+                                "name": "hotel2_detail.amenity"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 145,
+                        "end_index": 158,
+                        "text": "tennis courts",
+                        "annotations": [
+                            {
+                                "name": "hotel2_detail.amenity"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 164,
+                        "end_index": 169,
+                        "text": "a spa",
+                        "annotations": [
+                            {
+                                "name": "hotel2_detail.amenity"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 172,
+                        "end_index": 183,
+                        "text": "fine dining",
+                        "annotations": [
+                            {
+                                "name": "hotel2_detail.amenity"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 18,
+                "speaker": "ASSISTANT",
+                "text": "Those are the two options. Which one do you want?"
+            },
+            {
+                "index": 19,
+                "speaker": "USER",
+                "text": "I want the second one, it looks great for me."
+            },
+            {
+                "index": 20,
+                "speaker": "ASSISTANT",
+                "text": "Okay."
+            },
+            {
+                "index": 21,
+                "speaker": "USER",
+                "text": "Tell me more about the second one."
+            },
+            {
+                "index": 22,
+                "speaker": "ASSISTANT",
+                "text": "What would you like to know?"
+            },
+            {
+                "index": 23,
+                "speaker": "USER",
+                "text": "Does hotel have a fitness center?",
+                "segments": [
+                    {
+                        "start_index": 16,
+                        "end_index": 32,
+                        "text": "a fitness center",
+                        "annotations": [
+                            {
+                                "name": "hotel_search.amenity"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 24,
+                "speaker": "ASSISTANT",
+                "text": "Yes, it does."
+            },
+            {
+                "index": 25,
+                "speaker": "ASSISTANT",
+                "text": "Thank you."
+            },
+            {
+                "index": 26,
+                "speaker": "USER",
+                "text": "Okay, thank you."
+            }
+        ],
+        "filename": "hotels"
+    },
+    {
+        "conversation_id": "dlg-00131332-f7b3-4227-9672-652dd3a2c39e",
+        "instruction_id": "hotel-1b",
+        "utterances": [
+            {
+                "index": 0,
+                "speaker": "USER",
+                "text": "I'd like to find out more about the hotel I want to stay at."
+            },
+            {
+                "index": 1,
+                "speaker": "ASSISTANT",
+                "text": "Hi, how can I help you?"
+            },
+            {
+                "index": 2,
+                "speaker": "ASSISTANT",
+                "text": "What hotel is it?"
+            },
+            {
+                "index": 3,
+                "speaker": "USER",
+                "text": "Park City Peaks Hotel in Park City, Utah. I'd like to stay there from December 20th to December 27th, 2016.",
+                "segments": [
+                    {
+                        "start_index": 0,
+                        "end_index": 21,
+                        "text": "Park City Peaks Hotel",
+                        "annotations": [
+                            {
+                                "name": "hotel_search.name.hotel"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 25,
+                        "end_index": 40,
+                        "text": "Park City, Utah",
+                        "annotations": [
+                            {
+                                "name": "hotel_search.location.hotel"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 65,
+                        "end_index": 106,
+                        "text": "from December 20th to December 27th, 2016",
+                        "annotations": [
+                            {
+                                "name": "hotel_search.date_range"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 4,
+                "speaker": "USER",
+                "text": "That's all for now. Thank you."
+            },
+            {
+                "index": 5,
+                "speaker": "ASSISTANT",
+                "text": "Okay. I can check availability."
+            },
+            {
+                "index": 6,
+                "speaker": "USER",
+                "text": "I'd like to know if that is near ski slopes.",
+                "segments": [
+                    {
+                        "start_index": 28,
+                        "end_index": 43,
+                        "text": "near ski slopes",
+                        "annotations": [
+                            {
+                                "name": "hotel_search.sub_location.hotel"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 7,
+                "speaker": "ASSISTANT",
+                "text": "It is about 1 mile away."
+            },
+            {
+                "index": 8,
+                "speaker": "USER",
+                "text": "Is there a full bar? Is it kid friendly? And is it formal or casual?",
+                "segments": [
+                    {
+                        "start_index": 11,
+                        "end_index": 19,
+                        "text": "full bar",
+                        "annotations": [
+                            {
+                                "name": "hotel_search.amenity"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 27,
+                        "end_index": 39,
+                        "text": "kid friendly",
+                        "annotations": [
+                            {
+                                "name": "hotel_search.amenity"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 48,
+                        "end_index": 67,
+                        "text": "it formal or casual",
+                        "annotations": [
+                            {
+                                "name": "hotel_search.other_request"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 9,
+                "speaker": "ASSISTANT",
+                "text": "let me check on that for you. One second. Here is the Hotel which you are looking for. There is a sports bar at the hotel.",
+                "segments": [
+                    {
+                        "start_index": 98,
+                        "end_index": 108,
+                        "text": "sports bar",
+                        "annotations": [
+                            {
+                                "name": "hotel_search.amenity"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 10,
+                "speaker": "ASSISTANT",
+                "text": "Bye. Have a nice day."
+            },
+            {
+                "index": 11,
+                "speaker": "ASSISTANT",
+                "text": "Thank you Anything else?"
+            },
+            {
+                "index": 12,
+                "speaker": "USER",
+                "text": "Great they have a sport bar. Any special activity center duties and does the room have a balcony, cable TV, a mini-fridge, coffee and honor bar and a fireplace.",
+                "segments": [
+                    {
+                        "start_index": 18,
+                        "end_index": 27,
+                        "text": "sport bar",
+                        "annotations": [
+                            {
+                                "name": "hotel_search.amenity"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 89,
+                        "end_index": 96,
+                        "text": "balcony",
+                        "annotations": [
+                            {
+                                "name": "hotel_search.amenity"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 98,
+                        "end_index": 106,
+                        "text": "cable TV",
+                        "annotations": [
+                            {
+                                "name": "hotel_search.amenity"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 110,
+                        "end_index": 121,
+                        "text": "mini-fridge",
+                        "annotations": [
+                            {
+                                "name": "hotel_search.amenity"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 123,
+                        "end_index": 129,
+                        "text": "coffee",
+                        "annotations": [
+                            {
+                                "name": "hotel_search.amenity"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 134,
+                        "end_index": 143,
+                        "text": "honor bar",
+                        "annotations": [
+                            {
+                                "name": "hotel_search.amenity"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 150,
+                        "end_index": 159,
+                        "text": "fireplace",
+                        "annotations": [
+                            {
+                                "name": "hotel_search.amenity"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 13,
+                "speaker": "ASSISTANT",
+                "text": "Can you list those one at a time."
+            },
+            {
+                "index": 14,
+                "speaker": "USER",
+                "text": "A balcony or terrace, a TV with cable, mini fridge, coffee maker, honor bar and fireplace.",
+                "segments": [
+                    {
+                        "start_index": 2,
+                        "end_index": 9,
+                        "text": "balcony",
+                        "annotations": [
+                            {
+                                "name": "hotel_search.amenity"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 13,
+                        "end_index": 20,
+                        "text": "terrace",
+                        "annotations": [
+                            {
+                                "name": "hotel_search.amenity"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 24,
+                        "end_index": 37,
+                        "text": "TV with cable",
+                        "annotations": [
+                            {
+                                "name": "hotel_search.amenity"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 39,
+                        "end_index": 50,
+                        "text": "mini fridge",
+                        "annotations": [
+                            {
+                                "name": "hotel_search.amenity"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 52,
+                        "end_index": 64,
+                        "text": "coffee maker",
+                        "annotations": [
+                            {
+                                "name": "hotel_search.amenity"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 66,
+                        "end_index": 75,
+                        "text": "honor bar",
+                        "annotations": [
+                            {
+                                "name": "hotel_search.amenity"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 80,
+                        "end_index": 89,
+                        "text": "fireplace",
+                        "annotations": [
+                            {
+                                "name": "hotel_search.amenity"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "filename": "hotels"
+    },
+    {
+        "conversation_id": "dlg-00258574-83c8-4bb0-a0f0-4f744715cb27",
+        "instruction_id": "hotel-1c",
+        "utterances": [
+            {
+                "index": 0,
+                "speaker": "USER",
+                "text": "I'd like to find out more about the hotel, I plan to stay at Homeland final episode."
+            },
+            {
+                "index": 1,
+                "speaker": "ASSISTANT",
+                "text": "Okay."
+            },
+            {
+                "index": 2,
+                "speaker": "ASSISTANT",
+                "text": "Okay, what else can you tell me? Would you mind saying that again?"
+            },
+            {
+                "index": 3,
+                "speaker": "USER",
+                "text": "Squaw Valley California.",
+                "segments": [
+                    {
+                        "start_index": 0,
+                        "end_index": 12,
+                        "text": "Squaw Valley",
+                        "annotations": [
+                            {
+                                "name": "hotel_search.name.hotel"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 13,
+                        "end_index": 23,
+                        "text": "California",
+                        "annotations": [
+                            {
+                                "name": "hotel_search.location.hotel"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 4,
+                "speaker": "ASSISTANT",
+                "text": "Okay."
+            },
+            {
+                "index": 5,
+                "speaker": "USER",
+                "text": "And my date of Janine will be between 22-24 December.",
+                "segments": [
+                    {
+                        "start_index": 30,
+                        "end_index": 52,
+                        "text": "between 22-24 December",
+                        "annotations": [
+                            {
+                                "name": "hotel_search.date_range"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 6,
+                "speaker": "ASSISTANT",
+                "text": "Okay. What would you like to know?"
+            },
+            {
+                "index": 7,
+                "speaker": "USER",
+                "text": "I would like to know that the hotel near to downtown or not?",
+                "segments": [
+                    {
+                        "start_index": 36,
+                        "end_index": 52,
+                        "text": "near to downtown",
+                        "annotations": [
+                            {
+                                "name": "hotel_search.sub_location.hotel"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 8,
+                "speaker": "ASSISTANT",
+                "text": "Yes, the hotel is near downtown.",
+                "segments": [
+                    {
+                        "start_index": 18,
+                        "end_index": 31,
+                        "text": "near downtown",
+                        "annotations": [
+                            {
+                                "name": "hotel_search.sub_location.hotel"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 9,
+                "speaker": "USER",
+                "text": "And is there any restaurant near the hotel?"
+            },
+            {
+                "index": 10,
+                "speaker": "ASSISTANT",
+                "text": "There are plenty of restaurants near the hotel."
+            },
+            {
+                "index": 11,
+                "speaker": "USER",
+                "text": "Does this restaurant have a full bar in it?"
+            },
+            {
+                "index": 12,
+                "speaker": "ASSISTANT",
+                "text": "Yes, some restaurants have a full bar."
+            },
+            {
+                "index": 13,
+                "speaker": "USER",
+                "text": "And does the hotel have pool with hot tub and fitness center?",
+                "segments": [
+                    {
+                        "start_index": 24,
+                        "end_index": 41,
+                        "text": "pool with hot tub",
+                        "annotations": [
+                            {
+                                "name": "hotel_search.amenity"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 46,
+                        "end_index": 60,
+                        "text": "fitness center",
+                        "annotations": [
+                            {
+                                "name": "hotel_search.amenity"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 14,
+                "speaker": "ASSISTANT",
+                "text": "Yes, the hotel has a hot tub and a fitness center.",
+                "segments": [
+                    {
+                        "start_index": 19,
+                        "end_index": 28,
+                        "text": "a hot tub",
+                        "annotations": [
+                            {
+                                "name": "hotel1_detail.amenity"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 33,
+                        "end_index": 49,
+                        "text": "a fitness center",
+                        "annotations": [
+                            {
+                                "name": "hotel1_detail.amenity"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 15,
+                "speaker": "USER",
+                "text": "Does the room have balcony or a terrace?",
+                "segments": [
+                    {
+                        "start_index": 19,
+                        "end_index": 26,
+                        "text": "balcony",
+                        "annotations": [
+                            {
+                                "name": "hotel_search.amenity"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 30,
+                        "end_index": 39,
+                        "text": "a terrace",
+                        "annotations": [
+                            {
+                                "name": "hotel_search.amenity"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 16,
+                "speaker": "ASSISTANT",
+                "text": "Yes, the rooms have a balcony.",
+                "segments": [
+                    {
+                        "start_index": 20,
+                        "end_index": 29,
+                        "text": "a balcony",
+                        "annotations": [
+                            {
+                                "name": "hotel1_detail.amenity"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 17,
+                "speaker": "USER",
+                "text": "Does it have mini fridge or coffee maker?",
+                "segments": [
+                    {
+                        "start_index": 13,
+                        "end_index": 24,
+                        "text": "mini fridge",
+                        "annotations": [
+                            {
+                                "name": "hotel_search.amenity"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 28,
+                        "end_index": 40,
+                        "text": "coffee maker",
+                        "annotations": [
+                            {
+                                "name": "hotel_search.amenity"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 18,
+                "speaker": "ASSISTANT",
+                "text": "Yes, they have mini fridges.",
+                "segments": [
+                    {
+                        "start_index": 15,
+                        "end_index": 27,
+                        "text": "mini fridges",
+                        "annotations": [
+                            {
+                                "name": "hotel1_detail.amenity"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 19,
+                "speaker": "USER",
+                "text": "And what will be the price of the room?"
+            },
+            {
+                "index": 20,
+                "speaker": "ASSISTANT",
+                "text": "For your dates it'll be around $349 per night.",
+                "segments": [
+                    {
+                        "start_index": 24,
+                        "end_index": 45,
+                        "text": "around $349 per night",
+                        "annotations": [
+                            {
+                                "name": "hotel_search.price_range"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 21,
+                "speaker": "USER",
+                "text": "That sound great. Thank you so much for your help."
+            },
+            {
+                "index": 22,
+                "speaker": "ASSISTANT",
+                "text": "Are you excited to go to Squaw Valley?",
+                "segments": [
+                    {
+                        "start_index": 25,
+                        "end_index": 37,
+                        "text": "Squaw Valley",
+                        "annotations": [
+                            {
+                                "name": "hotel_search.name.hotel"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 23,
+                "speaker": "USER",
+                "text": "Nope. I have some work to complete."
+            },
+            {
+                "index": 24,
+                "speaker": "ASSISTANT",
+                "text": "Why are you not going to Squaw Valley then?",
+                "segments": [
+                    {
+                        "start_index": 25,
+                        "end_index": 37,
+                        "text": "Squaw Valley",
+                        "annotations": [
+                            {
+                                "name": "hotel_search.name.hotel"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 25,
+                "speaker": "USER",
+                "text": "No, I'm going there."
+            },
+            {
+                "index": 26,
+                "speaker": "ASSISTANT",
+                "text": "You're going there but you're not excited."
+            },
+            {
+                "index": 27,
+                "speaker": "USER",
+                "text": "I'm super excited."
+            },
+            {
+                "index": 28,
+                "speaker": "ASSISTANT",
+                "text": "I'm happy for you."
+            },
+            {
+                "index": 29,
+                "speaker": "USER",
+                "text": "Okay, thank you so much."
+            },
+            {
+                "index": 30,
+                "speaker": "ASSISTANT",
+                "text": "People need vacations to rewind and relax."
+            },
+            {
+                "index": 31,
+                "speaker": "USER",
+                "text": "Yes, that's true."
+            },
+            {
+                "index": 32,
+                "speaker": "ASSISTANT",
+                "text": "Do you agree?"
+            },
+            {
+                "index": 33,
+                "speaker": "USER",
+                "text": "Yes, absolutely."
+            },
+            {
+                "index": 34,
+                "speaker": "ASSISTANT",
+                "text": "Great!"
+            },
+            {
+                "index": 35,
+                "speaker": "USER",
+                "text": "Okay, bye bye."
+            },
+            {
+                "index": 36,
+                "speaker": "ASSISTANT",
+                "text": "Goodbye."
+            }
+        ],
+        "filename": "hotels"
+    },
+    {
+        "conversation_id": "dlg-0032fc41-9845-4be6-b9f5-0e6d898fda57",
+        "instruction_id": "hotel-8",
+        "utterances": [
+            {
+                "index": 0,
+                "speaker": "ASSISTANT",
+                "text": "Hello. How can I help you?"
+            },
+            {
+                "index": 1,
+                "speaker": "USER",
+                "text": "Hi, I'd like to find a hotel in Laguna Beach, California.",
+                "segments": [
+                    {
+                        "start_index": 32,
+                        "end_index": 44,
+                        "text": "Laguna Beach",
+                        "annotations": [
+                            {
+                                "name": "hotel_search.sub_location.hotel"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 46,
+                        "end_index": 56,
+                        "text": "California",
+                        "annotations": [
+                            {
+                                "name": "hotel_search.location.hotel"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "speaker": "ASSISTANT",
+                "text": "Okay, what dates will you be travelling?"
+            },
+            {
+                "index": 3,
+                "speaker": "USER",
+                "text": "June 7th to the 13th.",
+                "segments": [
+                    {
+                        "start_index": 0,
+                        "end_index": 20,
+                        "text": "June 7th to the 13th",
+                        "annotations": [
+                            {
+                                "name": "hotel_search.date_range"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 4,
+                "speaker": "ASSISTANT",
+                "text": "I'm sorry, Can you repeat that please?"
+            },
+            {
+                "index": 5,
+                "speaker": "USER",
+                "text": "June 7th to the 13th.",
+                "segments": [
+                    {
+                        "start_index": 0,
+                        "end_index": 20,
+                        "text": "June 7th to the 13th",
+                        "annotations": [
+                            {
+                                "name": "hotel_search.date_range"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 6,
+                "speaker": "ASSISTANT",
+                "text": "Okay, June 7th to the 13th.",
+                "segments": [
+                    {
+                        "start_index": 6,
+                        "end_index": 26,
+                        "text": "June 7th to the 13th",
+                        "annotations": [
+                            {
+                                "name": "hotel_search.date_range"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 7,
+                "speaker": "USER",
+                "text": "I need it to have at least three stars.",
+                "segments": [
+                    {
+                        "start_index": 18,
+                        "end_index": 38,
+                        "text": "at least three stars",
+                        "annotations": [
+                            {
+                                "name": "hotel_search.customer_rating"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 8,
+                "speaker": "ASSISTANT",
+                "text": "Do you have a Max price point?"
+            },
+            {
+                "index": 9,
+                "speaker": "USER",
+                "text": "$200 a night.",
+                "segments": [
+                    {
+                        "start_index": 0,
+                        "end_index": 12,
+                        "text": "$200 a night",
+                        "annotations": [
+                            {
+                                "name": "hotel_search.price_range"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 10,
+                "speaker": "ASSISTANT",
+                "text": "What amenities are you looking for?"
+            },
+            {
+                "index": 11,
+                "speaker": "USER",
+                "text": "I just need it to have two double beds. I need to have parking. And I want it to be near the beach.",
+                "segments": [
+                    {
+                        "start_index": 23,
+                        "end_index": 26,
+                        "text": "two",
+                        "annotations": [
+                            {
+                                "name": "hotel_search. num.beds"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 27,
+                        "end_index": 38,
+                        "text": "double beds",
+                        "annotations": [
+                            {
+                                "name": "hotel_search.type.bed"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 55,
+                        "end_index": 62,
+                        "text": "parking",
+                        "annotations": [
+                            {
+                                "name": "hotel_search.amenity"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 84,
+                        "end_index": 98,
+                        "text": "near the beach",
+                        "annotations": [
+                            {
+                                "name": "hotel_search.sub_location.hotel"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 12,
+                "speaker": "ASSISTANT",
+                "text": "Okay, sounds good. Let me see what I can find. Hold on a second. I found two hotels."
+            },
+            {
+                "index": 13,
+                "speaker": "USER",
+                "text": "Which one has the best customer reviews?",
+                "segments": [
+                    {
+                        "start_index": 18,
+                        "end_index": 39,
+                        "text": "best customer reviews",
+                        "annotations": [
+                            {
+                                "name": "hotel_search.customer_rating"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 14,
+                "speaker": "ASSISTANT",
+                "text": "The best hotel with the best customer reviews would be at the Laguna Beach Inn.",
+                "segments": [
+                    {
+                        "start_index": 24,
+                        "end_index": 45,
+                        "text": "best customer reviews",
+                        "annotations": [
+                            {
+                                "name": "hotel_search.customer_rating"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 58,
+                        "end_index": 78,
+                        "text": "the Laguna Beach Inn",
+                        "annotations": [
+                            {
+                                "name": "hotel1_detail.name.hotel"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 15,
+                "speaker": "USER",
+                "text": "How far away is it from the beach?",
+                "segments": [
+                    {
+                        "start_index": 28,
+                        "end_index": 33,
+                        "text": "beach",
+                        "annotations": [
+                            {
+                                "name": "hotel_search.sub_location.hotel"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 16,
+                "speaker": "ASSISTANT",
+                "text": "The beach is three minutes from the hotel.",
+                "segments": [
+                    {
+                        "start_index": 0,
+                        "end_index": 41,
+                        "text": "The beach is three minutes from the hotel",
+                        "annotations": [
+                            {
+                                "name": "hotel1_detail.other_detail"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 4,
+                        "end_index": 9,
+                        "text": "beach",
+                        "annotations": [
+                            {
+                                "name": "hotel_search.sub_location.hotel"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 17,
+                "speaker": "USER",
+                "text": "Does it have any restaurant or bars nearby?",
+                "segments": [
+                    {
+                        "start_index": 17,
+                        "end_index": 27,
+                        "text": "restaurant",
+                        "annotations": [
+                            {
+                                "name": "hotel_search.amenity"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 31,
+                        "end_index": 35,
+                        "text": "bars",
+                        "annotations": [
+                            {
+                                "name": "hotel_search.amenity"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 18,
+                "speaker": "ASSISTANT",
+                "text": "Let me check that for you. Hold on a second. This hotel is within 10 minutes of downtown. So, there are plenty of restaurants nearby.",
+                "segments": [
+                    {
+                        "start_index": 45,
+                        "end_index": 88,
+                        "text": "This hotel is within 10 minutes of downtown",
+                        "annotations": [
+                            {
+                                "name": "hotel1_detail.other_detail"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 80,
+                        "end_index": 88,
+                        "text": "downtown",
+                        "annotations": [
+                            {
+                                "name": "hotel_search.sub_location.hotel"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 114,
+                        "end_index": 125,
+                        "text": "restaurants",
+                        "annotations": [
+                            {
+                                "name": "hotel1_detail.amenity"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 19,
+                "speaker": "USER",
+                "text": "Okay. I just need the address."
+            },
+            {
+                "index": 20,
+                "speaker": "ASSISTANT",
+                "text": "Sure thing."
+            },
+            {
+                "index": 21,
+                "speaker": "ASSISTANT",
+                "text": "Sure thing, here is their address: 2020 s Coast Hwy, Laguna Beach, CA 92651.",
+                "segments": [
+                    {
+                        "start_index": 35,
+                        "end_index": 75,
+                        "text": "2020 s Coast Hwy, Laguna Beach, CA 92651",
+                        "annotations": [
+                            {
+                                "name": "hotel1_detail.location"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 22,
+                "speaker": "USER",
+                "text": "Thank you very much."
+            },
+            {
+                "index": 23,
+                "speaker": "ASSISTANT",
+                "text": "You're welcome. Anything else I can do for you?"
+            },
+            {
+                "index": 24,
+                "speaker": "USER",
+                "text": "That's it."
+            },
+            {
+                "index": 25,
+                "speaker": "ASSISTANT",
+                "text": "Great, enjoy your trip."
+            }
+        ],
+        "filename": "hotels"
+    },
+    {
+        "conversation_id": "dlg-003fa5f0-3457-464b-b22b-e74194fe172a",
+        "instruction_id": "hotel-10",
+        "utterances": [
+            {
+                "index": 0,
+                "speaker": "ASSISTANT",
+                "text": "How can I help you?"
+            },
+            {
+                "index": 1,
+                "speaker": "USER",
+                "text": "I'd like help in finding a hotel in San Francisco.",
+                "segments": [
+                    {
+                        "start_index": 36,
+                        "end_index": 49,
+                        "text": "San Francisco",
+                        "annotations": [
+                            {
+                                "name": "hotel_search.location.hotel"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "speaker": "ASSISTANT",
+                "text": "May I know your dates for stay?"
+            },
+            {
+                "index": 3,
+                "speaker": "USER",
+                "text": "March 7th to the 10th.",
+                "segments": [
+                    {
+                        "start_index": 0,
+                        "end_index": 21,
+                        "text": "March 7th to the 10th",
+                        "annotations": [
+                            {
+                                "name": "hotel_search.date_range"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 4,
+                "speaker": "ASSISTANT",
+                "text": "How many guests will join you?"
+            },
+            {
+                "index": 5,
+                "speaker": "USER",
+                "text": "One.",
+                "segments": [
+                    {
+                        "start_index": 0,
+                        "end_index": 3,
+                        "text": "One",
+                        "annotations": [
+                            {
+                                "name": "hotel_search.num.guests"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 6,
+                "speaker": "ASSISTANT",
+                "text": "Okay."
+            },
+            {
+                "index": 7,
+                "speaker": "ASSISTANT",
+                "text": "Do you have any hotel class preference?"
+            },
+            {
+                "index": 8,
+                "speaker": "USER",
+                "text": "Three stars or better.",
+                "segments": [
+                    {
+                        "start_index": 0,
+                        "end_index": 21,
+                        "text": "Three stars or better",
+                        "annotations": [
+                            {
+                                "name": "hotel_search.star_rating"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 9,
+                "speaker": "ASSISTANT",
+                "text": "Cool, do you have any other specific preferences?"
+            },
+            {
+                "index": 10,
+                "speaker": "USER",
+                "text": "And less than $200 a night.",
+                "segments": [
+                    {
+                        "start_index": 4,
+                        "end_index": 26,
+                        "text": "less than $200 a night",
+                        "annotations": [
+                            {
+                                "name": "hotel_search.price_range"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 11,
+                "speaker": "ASSISTANT",
+                "text": "Okay."
+            },
+            {
+                "index": 12,
+                "speaker": "ASSISTANT",
+                "text": "Which location is preferable?"
+            },
+            {
+                "index": 13,
+                "speaker": "USER",
+                "text": "Closest to the baseball stadium.",
+                "segments": [
+                    {
+                        "start_index": 0,
+                        "end_index": 31,
+                        "text": "Closest to the baseball stadium",
+                        "annotations": [
+                            {
+                                "name": "hotel_search.sub_location.hotel"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 14,
+                "speaker": "ASSISTANT",
+                "text": "Okay, hold on for a while."
+            },
+            {
+                "index": 15,
+                "speaker": "ASSISTANT",
+                "text": "Let me help you in finding one."
+            },
+            {
+                "index": 16,
+                "speaker": "ASSISTANT",
+                "text": "I have found one for you."
+            },
+            {
+                "index": 17,
+                "speaker": "USER",
+                "text": "Okay."
+            },
+            {
+                "index": 18,
+                "speaker": "ASSISTANT",
+                "text": "Courtyard by Marriott San Francisco Downtown and the cost is $179.",
+                "segments": [
+                    {
+                        "start_index": 0,
+                        "end_index": 44,
+                        "text": "Courtyard by Marriott San Francisco Downtown",
+                        "annotations": [
+                            {
+                                "name": "hotel1_detail.name.hotel"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 61,
+                        "end_index": 65,
+                        "text": "$179",
+                        "annotations": [
+                            {
+                                "name": "hotel1_detail.price_per_night"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 19,
+                "speaker": "USER",
+                "text": "Do they offer free breakfast?",
+                "segments": [
+                    {
+                        "start_index": 14,
+                        "end_index": 28,
+                        "text": "free breakfast",
+                        "annotations": [
+                            {
+                                "name": "hotel_search.amenity"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 20,
+                "speaker": "ASSISTANT",
+                "text": "Modern hotel with an indoor pool, a restaurant & a coffee shop, plus free WiFi.",
+                "segments": [
+                    {
+                        "start_index": 21,
+                        "end_index": 32,
+                        "text": "indoor pool",
+                        "annotations": [
+                            {
+                                "name": "hotel1_detail.amenity"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 36,
+                        "end_index": 46,
+                        "text": "restaurant",
+                        "annotations": [
+                            {
+                                "name": "hotel1_detail.amenity"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 51,
+                        "end_index": 62,
+                        "text": "coffee shop",
+                        "annotations": [
+                            {
+                                "name": "hotel1_detail.amenity"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 69,
+                        "end_index": 78,
+                        "text": "free WiFi",
+                        "annotations": [
+                            {
+                                "name": "hotel1_detail.amenity"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 0,
+                        "end_index": 78,
+                        "text": "Modern hotel with an indoor pool, a restaurant & a coffee shop, plus free WiFi",
+                        "annotations": [
+                            {
+                                "name": "hotel1_detail.other_detail"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 21,
+                "speaker": "USER",
+                "text": "What type of room do they offer?"
+            },
+            {
+                "index": 22,
+                "speaker": "ASSISTANT",
+                "text": "Contemporary rooms offer free WiFi and flat-screen TVs, plus desks, mini fridges and coffeemakers. Suites and upgraded rooms add pull-out sofas, and some feature whirlpool tubs. Social spaces include a living room-style lobby with fire pits, plus an outdoor courtyard.",
+                "segments": [
+                    {
+                        "start_index": 0,
+                        "end_index": 18,
+                        "text": "Contemporary rooms",
+                        "annotations": [
+                            {
+                                "name": "hotel1_detail.type.room"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 25,
+                        "end_index": 34,
+                        "text": "free WiFi",
+                        "annotations": [
+                            {
+                                "name": "hotel1_detail.amenity"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 39,
+                        "end_index": 54,
+                        "text": "flat-screen TVs",
+                        "annotations": [
+                            {
+                                "name": "hotel1_detail.amenity"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 61,
+                        "end_index": 66,
+                        "text": "desks",
+                        "annotations": [
+                            {
+                                "name": "hotel1_detail.amenity"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 68,
+                        "end_index": 80,
+                        "text": "mini fridges",
+                        "annotations": [
+                            {
+                                "name": "hotel1_detail.amenity"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 85,
+                        "end_index": 97,
+                        "text": "coffeemakers",
+                        "annotations": [
+                            {
+                                "name": "hotel1_detail.amenity"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 99,
+                        "end_index": 105,
+                        "text": "Suites",
+                        "annotations": [
+                            {
+                                "name": "hotel1_detail.type.room"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 110,
+                        "end_index": 124,
+                        "text": "upgraded rooms",
+                        "annotations": [
+                            {
+                                "name": "hotel1_detail.type.room"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 129,
+                        "end_index": 143,
+                        "text": "pull-out sofas",
+                        "annotations": [
+                            {
+                                "name": "hotel1_detail.amenity"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 149,
+                        "end_index": 176,
+                        "text": "some feature whirlpool tubs",
+                        "annotations": [
+                            {
+                                "name": "hotel1_detail.other_detail"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 162,
+                        "end_index": 176,
+                        "text": "whirlpool tubs",
+                        "annotations": [
+                            {
+                                "name": "hotel1_detail.amenity"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 178,
+                        "end_index": 267,
+                        "text": "Social spaces include a living room-style lobby with fire pits, plus an outdoor courtyard",
+                        "annotations": [
+                            {
+                                "name": "hotel1_detail.other_detail"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 202,
+                        "end_index": 240,
+                        "text": "living room-style lobby with fire pits",
+                        "annotations": [
+                            {
+                                "name": "hotel1_detail.amenity"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 250,
+                        "end_index": 267,
+                        "text": "outdoor courtyard",
+                        "annotations": [
+                            {
+                                "name": "hotel1_detail.amenity"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 23,
+                "speaker": "ASSISTANT",
+                "text": "The American restaurant serves breakfast, a grill restaurant serves dinner, and there's an on-site Starbucks. Other amenities include an indoor pool and an exercise room, plus a business center and 20 meeting rooms.",
+                "segments": [
+                    {
+                        "start_index": 137,
+                        "end_index": 148,
+                        "text": "indoor pool",
+                        "annotations": [
+                            {
+                                "name": "hotel1_detail.amenity"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 156,
+                        "end_index": 169,
+                        "text": "exercise room",
+                        "annotations": [
+                            {
+                                "name": "hotel1_detail.amenity"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 178,
+                        "end_index": 193,
+                        "text": "business center",
+                        "annotations": [
+                            {
+                                "name": "hotel1_detail.amenity"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 198,
+                        "end_index": 214,
+                        "text": "20 meeting rooms",
+                        "annotations": [
+                            {
+                                "name": "hotel1_detail.amenity"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 0,
+                        "end_index": 214,
+                        "text": "The American restaurant serves breakfast, a grill restaurant serves dinner, and there's an on-site Starbucks. Other amenities include an indoor pool and an exercise room, plus a business center and 20 meeting rooms",
+                        "annotations": [
+                            {
+                                "name": "hotel1_detail.other_detail"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 24,
+                "speaker": "USER",
+                "text": "How much is a room with two beds?",
+                "segments": [
+                    {
+                        "start_index": 24,
+                        "end_index": 32,
+                        "text": "two beds",
+                        "annotations": [
+                            {
+                                "name": "hotel_search. num.beds"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 25,
+                "speaker": "ASSISTANT",
+                "text": "179$.",
+                "segments": [
+                    {
+                        "start_index": 0,
+                        "end_index": 4,
+                        "text": "179$",
+                        "annotations": [
+                            {
+                                "name": "hotel1_detail.price_per_night"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 26,
+                "speaker": "USER",
+                "text": "What is the next cheapest hotel that meets that criteria?"
+            },
+            {
+                "index": 27,
+                "speaker": "ASSISTANT",
+                "text": "One moment please."
+            },
+            {
+                "index": 28,
+                "speaker": "ASSISTANT",
+                "text": "We have Hotel Triton for $139.",
+                "segments": [
+                    {
+                        "start_index": 8,
+                        "end_index": 20,
+                        "text": "Hotel Triton",
+                        "annotations": [
+                            {
+                                "name": "hotel2_detail.name.hotel"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 25,
+                        "end_index": 29,
+                        "text": "$139",
+                        "annotations": [
+                            {
+                                "name": "hotel2_detail.price_per_night"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 29,
+                "speaker": "USER",
+                "text": "What is the customer review rating of that hotel?"
+            },
+            {
+                "index": 30,
+                "speaker": "ASSISTANT",
+                "text": "3.9.",
+                "segments": [
+                    {
+                        "start_index": 0,
+                        "end_index": 3,
+                        "text": "3.9",
+                        "annotations": [
+                            {
+                                "name": "hotel2_detail.customer_rating"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 31,
+                "speaker": "USER",
+                "text": "How far away is that hotel from the baseball park?",
+                "segments": [
+                    {
+                        "start_index": 27,
+                        "end_index": 49,
+                        "text": "from the baseball park",
+                        "annotations": [
+                            {
+                                "name": "hotel_search.sub_location.hotel"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 32,
+                "speaker": "ASSISTANT",
+                "text": "It's just a 15 min from there.",
+                "segments": [
+                    {
+                        "start_index": 0,
+                        "end_index": 29,
+                        "text": "It's just a 15 min from there",
+                        "annotations": [
+                            {
+                                "name": "hotel2_detail.other_detail"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 33,
+                "speaker": "USER",
+                "text": "Is that walking or driving?"
+            },
+            {
+                "index": 34,
+                "speaker": "ASSISTANT",
+                "text": "Driving 1.7 miles in distance.",
+                "segments": [
+                    {
+                        "start_index": 0,
+                        "end_index": 29,
+                        "text": "Driving 1.7 miles in distance",
+                        "annotations": [
+                            {
+                                "name": "hotel2_detail.other_detail"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 35,
+                "speaker": "USER",
+                "text": "Okay. I'll take a room there."
+            },
+            {
+                "index": 36,
+                "speaker": "ASSISTANT",
+                "text": "Do you want me to book a room for you?"
+            },
+            {
+                "index": 37,
+                "speaker": "USER",
+                "text": "Yes."
+            },
+            {
+                "index": 38,
+                "speaker": "ASSISTANT",
+                "text": "Can you mention the dates please?"
+            },
+            {
+                "index": 39,
+                "speaker": "USER",
+                "text": "March 7th to 10th.",
+                "segments": [
+                    {
+                        "start_index": 0,
+                        "end_index": 17,
+                        "text": "March 7th to 10th",
+                        "annotations": [
+                            {
+                                "name": "hotel_search.date_range"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 40,
+                "speaker": "ASSISTANT",
+                "text": "Yes, it is confirmed from march 7th to 10th.",
+                "segments": [
+                    {
+                        "start_index": 5,
+                        "end_index": 20,
+                        "text": "it is confirmed",
+                        "annotations": [
+                            {
+                                "name": "hotel_booked.hotel_booked"
+                            }
+                        ]
+                    },
+                    {
+                        "start_index": 21,
+                        "end_index": 43,
+                        "text": "from march 7th to 10th",
+                        "annotations": [
+                            {
+                                "name": "hotel_search.date_range"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 41,
+                "speaker": "USER",
+                "text": "Thank you."
+            },
+            {
+                "index": 42,
+                "speaker": "ASSISTANT",
+                "text": "Have a nice day."
+            },
+            {
+                "index": 43,
+                "speaker": "USER",
+                "text": "You too."
+            }
+        ],
+        "filename": "hotels"
+    }
+]

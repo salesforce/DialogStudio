@@ -1,0 +1,2030 @@
+{
+    "KVRET--train--1": {
+        "original dialog id": "118f8056-0e66-43df-8eb8-bfe9056ca01a",
+        "dialog index": 1,
+        "original dialog info": {
+            "scenario": {
+                "kb": {
+                    "items": [
+                        {
+                            "distance": "2 miles",
+                            "traffic_info": "road block nearby",
+                            "poi_type": "parking garage",
+                            "address": "550 Alester Ave",
+                            "poi": "Dish Parking"
+                        },
+                        {
+                            "distance": "6 miles",
+                            "traffic_info": "no traffic",
+                            "poi_type": "parking garage",
+                            "address": "610 Amarillo Ave",
+                            "poi": "Stanford Oval Parking"
+                        },
+                        {
+                            "distance": "4 miles",
+                            "traffic_info": "car collision nearby",
+                            "poi_type": "grocery store",
+                            "address": "409 Bollard St",
+                            "poi": "Willows Market"
+                        },
+                        {
+                            "distance": "2 miles",
+                            "traffic_info": "moderate traffic",
+                            "poi_type": "rest stop",
+                            "address": "329 El Camino Real",
+                            "poi": "The Westin"
+                        },
+                        {
+                            "distance": "1 miles",
+                            "traffic_info": "heavy traffic",
+                            "poi_type": "friends house",
+                            "address": "580 Van Ness Ave",
+                            "poi": "toms house"
+                        },
+                        {
+                            "distance": "4 miles",
+                            "traffic_info": "heavy traffic",
+                            "poi_type": "pizza restaurant",
+                            "address": "915 Arbol Dr",
+                            "poi": "Pizza Chicago"
+                        },
+                        {
+                            "distance": "6 miles",
+                            "traffic_info": "car collision nearby",
+                            "poi_type": "gas station",
+                            "address": "200 Alester Ave",
+                            "poi": "Valero"
+                        },
+                        {
+                            "distance": "2 miles",
+                            "traffic_info": "no traffic",
+                            "poi_type": "chinese restaurant",
+                            "address": "271 Springer Street",
+                            "poi": "Mandarin Roots"
+                        }
+                    ],
+                    "column_names": [
+                        "poi",
+                        "poi_type",
+                        "address",
+                        "distance",
+                        "traffic_info"
+                    ],
+                    "kb_title": "location information"
+                },
+                "task": {
+                    "intent": "navigate"
+                },
+                "uuid": "118f8056-0e66-43df-8eb8-bfe9056ca01a"
+            }
+        },
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "where's the nearest parking garage",
+                "system response": "The nearest parking garage is Dish Parking at 550 Alester Ave. Would you like directions there? ",
+                "dialog history": "",
+                "original user side information": {
+                    "end_dialogue": false
+                },
+                "original system side information": {
+                    "end_dialogue": false,
+                    "requested": {
+                        "distance": true,
+                        "traffic_info": false,
+                        "poi_type": true,
+                        "address": true,
+                        "poi": false
+                    },
+                    "slots": {
+                        "distance": "nearest",
+                        "poi_type": "parking garage"
+                    }
+                },
+                "dst": "navigate distance nearest, navigate poi_type parking garage",
+                "dst accumulated": "navigate distance nearest, navigate poi_type parking garage"
+            },
+            {
+                "turn id": 2,
+                "user utterance": "Yes, please set directions via a route that avoids all heavy traffic if possible. ",
+                "system response": "It looks like there is a road block being reported on the route but I will still find the quickest route to 550 Alester Ave. ",
+                "dialog history": "<USER> where's the nearest parking garage <SYSTEM> The nearest parking garage is Dish Parking at 550 Alester Ave. Would you like directions there?",
+                "original user side information": {
+                    "end_dialogue": false
+                },
+                "original system side information": {
+                    "end_dialogue": false,
+                    "requested": {
+                        "distance": false,
+                        "traffic_info": true,
+                        "poi_type": false,
+                        "address": false,
+                        "poi": true
+                    },
+                    "slots": {
+                        "traffic_info": "avoid heavy traffic ",
+                        "poi": "dish parking"
+                    }
+                },
+                "dst": "navigate traffic_info avoid heavy traffic , navigate poi dish parking",
+                "dst accumulated": "navigate distance nearest, navigate poi_type parking garage, navigate traffic_info avoid heavy traffic, navigate poi dish parking"
+            },
+            {
+                "turn id": 3,
+                "user utterance": "Thanks so much for your help. ",
+                "system response": "You're very welcome!",
+                "dialog history": "<USER> where's the nearest parking garage <SYSTEM> The nearest parking garage is Dish Parking at 550 Alester Ave. Would you like directions there? <USER> Yes, please set directions via a route that avoids all heavy traffic if possible. <SYSTEM> It looks like there is a road block being reported on the route but I will still find the quickest route to 550 Alester Ave.",
+                "original user side information": {
+                    "end_dialogue": false
+                },
+                "original system side information": {
+                    "end_dialogue": true,
+                    "requested": {
+                        "distance": false,
+                        "traffic_info": false,
+                        "poi_type": false,
+                        "address": false,
+                        "poi": false
+                    },
+                    "slots": {}
+                },
+                "dst": "",
+                "dst accumulated": "navigate distance nearest, navigate poi_type parking garage, navigate traffic_info avoid heavy traffic, navigate poi dish parking"
+            }
+        ],
+        "external knowledge non-flat": {
+            "metadata": {
+                "navigate": [
+                    {
+                        "distance": "2 miles",
+                        "traffic_info": "road block nearby",
+                        "poi_type": "parking garage",
+                        "address": "550 Alester Ave",
+                        "poi": "Dish Parking"
+                    },
+                    {
+                        "distance": "6 miles",
+                        "traffic_info": "no traffic",
+                        "poi_type": "parking garage",
+                        "address": "610 Amarillo Ave",
+                        "poi": "Stanford Oval Parking"
+                    },
+                    {
+                        "distance": "4 miles",
+                        "traffic_info": "car collision nearby",
+                        "poi_type": "grocery store",
+                        "address": "409 Bollard St",
+                        "poi": "Willows Market"
+                    },
+                    {
+                        "distance": "2 miles",
+                        "traffic_info": "moderate traffic",
+                        "poi_type": "rest stop",
+                        "address": "329 El Camino Real",
+                        "poi": "The Westin"
+                    },
+                    {
+                        "distance": "1 miles",
+                        "traffic_info": "heavy traffic",
+                        "poi_type": "friends house",
+                        "address": "580 Van Ness Ave",
+                        "poi": "toms house"
+                    },
+                    {
+                        "distance": "4 miles",
+                        "traffic_info": "heavy traffic",
+                        "poi_type": "pizza restaurant",
+                        "address": "915 Arbol Dr",
+                        "poi": "Pizza Chicago"
+                    },
+                    {
+                        "distance": "6 miles",
+                        "traffic_info": "car collision nearby",
+                        "poi_type": "gas station",
+                        "address": "200 Alester Ave",
+                        "poi": "Valero"
+                    },
+                    {
+                        "distance": "2 miles",
+                        "traffic_info": "no traffic",
+                        "poi_type": "chinese restaurant",
+                        "address": "271 Springer Street",
+                        "poi": "Mandarin Roots"
+                    }
+                ]
+            },
+            "slots and values": {
+                "traffic_info": [
+                    "no traffic",
+                    "moderate traffic",
+                    "heavy traffic",
+                    "road block nearby",
+                    "car collision nearby"
+                ],
+                "poi_type": [
+                    "friends house",
+                    "home",
+                    "coffee or tea place",
+                    "chinese restaurant",
+                    "pizza restaurant",
+                    "grocery store",
+                    "rest stop",
+                    "shopping center",
+                    "parking garage",
+                    "gas station",
+                    "hospital",
+                    "certain address"
+                ],
+                "poi": [
+                    {
+                        "address": "593 Arrowhead Way",
+                        "poi": "Chef Chu's",
+                        "type": "chinese restaurant"
+                    },
+                    {
+                        "address": "394 Van Ness Ave",
+                        "poi": "Coupa",
+                        "type": "coffee or tea place"
+                    },
+                    {
+                        "address": "408 University Ave",
+                        "poi": "Trader Joes",
+                        "type": "grocery store"
+                    },
+                    {
+                        "address": "113 Anton Ct",
+                        "poi": "Round Table",
+                        "type": "pizza restaurant"
+                    },
+                    {
+                        "address": "1313 Chester Ave",
+                        "poi": "Hacienda Market",
+                        "type": "grocery store"
+                    },
+                    {
+                        "address": "465 Arcadia Pl",
+                        "poi": "Four Seasons",
+                        "type": "rest stop"
+                    },
+                    {
+                        "address": "830 Almanor Ln",
+                        "poi": "tai pan",
+                        "type": "chinese restaurant"
+                    },
+                    {
+                        "address": "773 Alger Dr",
+                        "poi": "Stanford Shopping Center",
+                        "type": "shopping center"
+                    },
+                    {
+                        "address": "53 University Av",
+                        "poi": "Shell",
+                        "type": "gas station"
+                    },
+                    {
+                        "address": "657 Ames Ave",
+                        "poi": "The Clement Hotel",
+                        "type": "rest stop"
+                    },
+                    {
+                        "address": "792 Bedoin Street",
+                        "poi": "Starbucks",
+                        "type": "coffee or tea place"
+                    },
+                    {
+                        "address": "329 El Camino Real",
+                        "poi": "The Westin",
+                        "type": "rest stop"
+                    },
+                    {
+                        "address": "383 University Ave",
+                        "poi": "Town and Country",
+                        "type": "shopping center"
+                    },
+                    {
+                        "address": "452 Arcadia Pl",
+                        "poi": "Safeway",
+                        "type": "grocery store"
+                    },
+                    {
+                        "address": "171 Oak Rd",
+                        "poi": "Topanga Mall",
+                        "type": "shopping center"
+                    },
+                    {
+                        "address": "842 Arrowhead Way",
+                        "poi": "Panda Express",
+                        "type": "chinese restaurant"
+                    },
+                    {
+                        "address": "704 El Camino Real",
+                        "poi": "Pizza Hut",
+                        "type": "pizza restaurant"
+                    },
+                    {
+                        "address": "899 Ames Ct",
+                        "poi": "Stanford Childrens Health",
+                        "type": "hospital"
+                    },
+                    {
+                        "address": "5677 southwest 4th street",
+                        "poi": "5677 southwest 4th street",
+                        "type": "certain address"
+                    },
+                    {
+                        "address": "5672 barringer street",
+                        "poi": "5672 barringer street",
+                        "type": "certain address"
+                    },
+                    {
+                        "address": "214 El Camino Real",
+                        "poi": "Stanford Express Care",
+                        "type": "hospital"
+                    },
+                    {
+                        "address": "638 Amherst St",
+                        "poi": "Sigona Farmers Market",
+                        "type": "grocery store"
+                    },
+                    {
+                        "address": "611 Ames Ave",
+                        "poi": "Palo Alto Medical Foundation",
+                        "type": "hospital"
+                    },
+                    {
+                        "address": "434 Arastradero Rd",
+                        "poi": "Ravenswood Shopping Center",
+                        "type": "shopping center"
+                    },
+                    {
+                        "address": "338 Alester Ave",
+                        "poi": "Midtown Shopping Center",
+                        "type": "shopping center"
+                    },
+                    {
+                        "address": "271 Springer Street",
+                        "poi": "Mandarin Roots",
+                        "type": "chinese restaurant"
+                    },
+                    {
+                        "address": "753 University Ave",
+                        "poi": "Comfort Inn",
+                        "type": "rest stop"
+                    },
+                    {
+                        "address": "669 El Camino Real",
+                        "poi": "P.F. Changs",
+                        "type": "chinese restaurant"
+                    },
+                    {
+                        "address": "915 Arbol Dr",
+                        "poi": "Pizza Chicago",
+                        "type": "pizza restaurant"
+                    },
+                    {
+                        "address": "333 Arbol Dr",
+                        "poi": "Travelers Lodge",
+                        "type": "rest stop"
+                    },
+                    {
+                        "address": "436 Alger Dr",
+                        "poi": "Palo Alto Cafe",
+                        "type": "coffee or tea place"
+                    },
+                    {
+                        "address": "5677 springer street",
+                        "poi": "5677 springer street",
+                        "type": "certain address"
+                    },
+                    {
+                        "address": "113 Arbol Dr",
+                        "poi": "Jing Jing",
+                        "type": "chinese restaurant"
+                    },
+                    {
+                        "address": "409 Bollard St",
+                        "poi": "Willows Market",
+                        "type": "grocery store"
+                    },
+                    {
+                        "address": "776 Arastradero Rd",
+                        "poi": "Dominos",
+                        "type": "pizza restaurant"
+                    },
+                    {
+                        "address": "269 Alger Dr",
+                        "poi": "Cafe Venetia",
+                        "type": "coffee or tea place"
+                    },
+                    {
+                        "address": "110 Arastradero Rd",
+                        "poi": "Papa Johns",
+                        "type": "pizza restaurant"
+                    },
+                    {
+                        "address": "550 Alester Ave",
+                        "poi": "Dish Parking",
+                        "type": "parking garage"
+                    },
+                    {
+                        "address": "578 Arbol Dr",
+                        "poi": "Hotel Keen",
+                        "type": "rest stop"
+                    },
+                    {
+                        "address": "9981 Archuleta Ave",
+                        "poi": "Peets Coffee",
+                        "type": "coffee or tea place"
+                    },
+                    {
+                        "address": "200 Alester Ave",
+                        "poi": "Valero",
+                        "type": "gas station"
+                    },
+                    {
+                        "address": "819 Alma St",
+                        "poi": "Whole Foods",
+                        "type": "grocery store"
+                    },
+                    {
+                        "address": "91 El Camino Real",
+                        "poi": "76",
+                        "type": "gas station"
+                    },
+                    {
+                        "address": "583 Alester Ave",
+                        "poi": "Philz",
+                        "type": "coffee or tea place"
+                    },
+                    {
+                        "address": "270 Altaire Walk",
+                        "poi": "Civic Center Garage",
+                        "type": "parking garage"
+                    },
+                    {
+                        "address": "610 Amarillo Ave",
+                        "poi": "Stanford Oval Parking",
+                        "type": "parking garage"
+                    },
+                    {
+                        "address": "347 Alta Mesa Ave",
+                        "poi": "jills house",
+                        "type": "friends house"
+                    },
+                    {
+                        "address": "880 Ames Ct",
+                        "poi": "Webster Garage",
+                        "type": "parking garage"
+                    },
+                    {
+                        "address": "864 Almanor Ln",
+                        "poi": "jacks house",
+                        "type": "friends house"
+                    },
+                    {
+                        "address": "56 cadwell street",
+                        "poi": "home_2",
+                        "type": "home"
+                    },
+                    {
+                        "address": "5671 barringer street",
+                        "poi": "home_3",
+                        "type": "home"
+                    },
+                    {
+                        "address": "528 Anton Ct",
+                        "poi": "Pizza My Heart",
+                        "type": "pizza restaurant"
+                    },
+                    {
+                        "address": "10 ames street",
+                        "poi": "home_1",
+                        "type": "home"
+                    },
+                    {
+                        "address": "580 Van Ness Ave",
+                        "poi": "toms house",
+                        "type": "friends house"
+                    },
+                    {
+                        "address": "481 Amaranta Ave",
+                        "poi": "Palo Alto Garage R",
+                        "type": "parking garage"
+                    },
+                    {
+                        "address": "783 Arcadia Pl",
+                        "poi": "Chevron",
+                        "type": "gas station"
+                    },
+                    {
+                        "address": "145 Amherst St",
+                        "poi": "Teavana",
+                        "type": "coffee or tea place"
+                    }
+                ],
+                "distance": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9
+                ]
+            },
+            "intents": {}
+        },
+        "external knowledge": "( navigate : (( distance : 2 miles | traffic_info : road block nearby | poi_type : parking garage | address : 550 Alester Ave | poi : Dish Parking ) | ( distance : 6 miles | traffic_info : no traffic | poi_type : parking garage | address : 610 Amarillo Ave | poi : Stanford Oval Parking ) | ( distance : 4 miles | traffic_info : car collision nearby | poi_type : grocery store | address : 409 Bollard St | poi : Willows Market ) | ( distance : 2 miles | traffic_info : moderate traffic | poi_type : rest stop | address : 329 El Camino Real | poi : The Westin ) | ( distance : 1 miles | traffic_info : heavy traffic | poi_type : friends house | address : 580 Van Ness Ave | poi : toms house ) | ( distance : 4 miles | traffic_info : heavy traffic | poi_type : pizza restaurant | address : 915 Arbol Dr | poi : Pizza Chicago ) | ( distance : 6 miles | traffic_info : car collision nearby | poi_type : gas station | address : 200 Alester Ave | poi : Valero ) | ( distance : 2 miles | traffic_info : no traffic | poi_type : chinese restaurant | address : 271 Springer Street | poi : Mandarin Roots )))",
+        "dst knowledge": "( traffic_info : ( no traffic | moderate traffic | heavy traffic | road block nearby | car collision nearby ) | poi_type : ( friends house | home | coffee or tea place | chinese restaurant | pizza restaurant | grocery store | rest stop | shopping center | parking garage | gas station | hospital | certain address ) | poi : (( address : 593 Arrowhead Way | poi : \"Chef Chu s\" | type : chinese restaurant ) | ( address : 394 Van Ness Ave | poi : Coupa | type : coffee or tea place ) | ( address : 408 University Ave | poi : Trader Joes | type : grocery store ) | ( address : 113 Anton Ct | poi : Round Table | type : pizza restaurant ) | ( address : 1313 Chester Ave | poi : Hacienda Market | type : grocery store ) | ( address : 465 Arcadia Pl | poi : Four Seasons | type : rest stop ) | ( address : 830 Almanor Ln | poi : tai pan | type : chinese restaurant ) | ( address : 773 Alger Dr | poi : Stanford Shopping Center | type : shopping center ) | ( address : 53 University Av | poi : Shell | type : gas station ) | ( address : 657 Ames Ave | poi : The Clement Hotel | type : rest stop ) | ( address : 792 Bedoin Street | poi : Starbucks | type : coffee or tea place ) | ( address : 329 El Camino Real | poi : The Westin | type : rest stop ) | ( address : 383 University Ave | poi : Town and Country | type : shopping center ) | ( address : 452 Arcadia Pl | poi : Safeway | type : grocery store ) | ( address : 171 Oak Rd | poi : Topanga Mall | type : shopping center ) | ( address : 842 Arrowhead Way | poi : Panda Express | type : chinese restaurant ) | ( address : 704 El Camino Real | poi : Pizza Hut | type : pizza restaurant ) | ( address : 899 Ames Ct | poi : Stanford Childrens Health | type : hospital ) | ( address : 5677 southwest 4th street | poi : 5677 southwest 4th street | type : certain address ) | ( address : 5672 barringer street | poi : 5672 barringer street | type : certain address ) | ( address : 214 El Camino Real | poi : Stanford Express Care | type : hospital ) | ( address : 638 Amherst St | poi : Sigona Farmers Market | type : grocery store ) | ( address : 611 Ames Ave | poi : Palo Alto Medical Foundation | type : hospital ) | ( address : 434 Arastradero Rd | poi : Ravenswood Shopping Center | type : shopping center ) | ( address : 338 Alester Ave | poi : Midtown Shopping Center | type : shopping center ) | ( address : 271 Springer Street | poi : Mandarin Roots | type : chinese restaurant ) | ( address : 753 University Ave | poi : Comfort Inn | type : rest stop ) | ( address : 669 El Camino Real | poi : P.F. Changs | type : chinese restaurant ) | ( address : 915 Arbol Dr | poi : Pizza Chicago | type : pizza restaurant ) | ( address : 333 Arbol Dr | poi : Travelers Lodge | type : rest stop ) | ( address : 436 Alger Dr | poi : Palo Alto Cafe | type : coffee or tea place ) | ( address : 5677 springer street | poi : 5677 springer street | type : certain address ) | ( address : 113 Arbol Dr | poi : Jing Jing | type : chinese restaurant ) | ( address : 409 Bollard St | poi : Willows Market | type : grocery store ) | ( address : 776 Arastradero Rd | poi : Dominos | type : pizza restaurant ) | ( address : 269 Alger Dr | poi : Cafe Venetia | type : coffee or tea place ) | ( address : 110 Arastradero Rd | poi : Papa Johns | type : pizza restaurant ) | ( address : 550 Alester Ave | poi : Dish Parking | type : parking garage ) | ( address : 578 Arbol Dr | poi : Hotel Keen | type : rest stop ) | ( address : 9981 Archuleta Ave | poi : Peets Coffee | type : coffee or tea place ) | ( address : 200 Alester Ave | poi : Valero | type : gas station ) | ( address : 819 Alma St | poi : Whole Foods | type : grocery store ) | ( address : 91 El Camino Real | poi : 76 | type : gas station ) | ( address : 583 Alester Ave | poi : Philz | type : coffee or tea place ) | ( address : 270 Altaire Walk | poi : Civic Center Garage | type : parking garage ) | ( address : 610 Amarillo Ave | poi : Stanford Oval Parking | type : parking garage ) | ( address : 347 Alta Mesa Ave | poi : jills house | type : friends house ) | ( address : 880 Ames Ct | poi : Webster Garage | type : parking garage ) | ( address : 864 Almanor Ln | poi : jacks house | type : friends house ) | ( address : 56 cadwell street | poi : home_2 | type : home ) | ( address : 5671 barringer street | poi : home_3 | type : home ) | ( address : 528 Anton Ct | poi : Pizza My Heart | type : pizza restaurant ) | ( address : 10 ames street | poi : home_1 | type : home ) | ( address : 580 Van Ness Ave | poi : toms house | type : friends house ) | ( address : 481 Amaranta Ave | poi : Palo Alto Garage R | type : parking garage ) | ( address : 783 Arcadia Pl | poi : Chevron | type : gas station ) | ( address : 145 Amherst St | poi : Teavana | type : coffee or tea place )) | distance : (1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9))",
+        "intent knowledge": "()",
+        "prompt": [
+            "This is a bot helping users to get navigation. Given the dialog context and external database, please generate a relevant system response for the user.",
+            "This bot assists users to get navigation. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
+            "This bot helps users to get navigation. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
+            "The purpose of this bot is to assist users to get navigation. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
+            "This bot is designed to help users get navigation. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+        ]
+    },
+    "KVRET--train--2": {
+        "original dialog id": "ebfd0087-3526-43ae-a0d9-1b3a37dcb544",
+        "dialog index": 2,
+        "original dialog info": {
+            "scenario": {
+                "kb": {
+                    "items": [
+                        {
+                            "distance": "4 miles",
+                            "traffic_info": "moderate traffic",
+                            "poi_type": "shopping center",
+                            "address": "383 University Ave",
+                            "poi": "Town and Country"
+                        },
+                        {
+                            "distance": "4 miles",
+                            "traffic_info": "moderate traffic",
+                            "poi_type": "gas station",
+                            "address": "91 El Camino Real",
+                            "poi": "76"
+                        },
+                        {
+                            "distance": "2 miles",
+                            "traffic_info": "moderate traffic",
+                            "poi_type": "shopping center",
+                            "address": "773 Alger Dr",
+                            "poi": "Stanford Shopping Center"
+                        },
+                        {
+                            "distance": "3 miles",
+                            "traffic_info": "moderate traffic",
+                            "poi_type": "coffee or tea place",
+                            "address": "145 Amherst St",
+                            "poi": "Teavana"
+                        },
+                        {
+                            "distance": "4 miles",
+                            "traffic_info": "moderate traffic",
+                            "poi_type": "pizza restaurant",
+                            "address": "776 Arastradero Rd",
+                            "poi": "Dominos"
+                        },
+                        {
+                            "distance": "4 miles",
+                            "traffic_info": "road block nearby",
+                            "poi_type": "parking garage",
+                            "address": "481 Amaranta Ave",
+                            "poi": "Palo Alto Garage R"
+                        },
+                        {
+                            "distance": "5 miles",
+                            "traffic_info": "no traffic",
+                            "poi_type": "hospital",
+                            "address": "214 El Camino Real",
+                            "poi": "Stanford Express Care"
+                        },
+                        {
+                            "distance": "3 miles",
+                            "traffic_info": "no traffic",
+                            "poi_type": "hospital",
+                            "address": "611 Ames Ave",
+                            "poi": "Palo Alto Medical Foundation"
+                        }
+                    ],
+                    "column_names": [
+                        "poi",
+                        "poi_type",
+                        "address",
+                        "distance",
+                        "traffic_info"
+                    ],
+                    "kb_title": "location information"
+                },
+                "task": {
+                    "intent": "navigate"
+                },
+                "uuid": "ebfd0087-3526-43ae-a0d9-1b3a37dcb544"
+            }
+        },
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "Where is the nearest gas station?",
+                "system response": "There is a 76 4 miles away.",
+                "dialog history": "",
+                "original user side information": {
+                    "end_dialogue": false
+                },
+                "original system side information": {
+                    "end_dialogue": false,
+                    "requested": {
+                        "distance": true,
+                        "traffic_info": false,
+                        "poi_type": true,
+                        "address": false,
+                        "poi": false
+                    },
+                    "slots": {
+                        "distance": "nearest ",
+                        "poi_type": "gas station"
+                    }
+                },
+                "dst": "navigate distance nearest , navigate poi_type gas station",
+                "dst accumulated": "navigate distance nearest, navigate poi_type gas station"
+            },
+            {
+                "turn id": 2,
+                "user utterance": "What is the address?",
+                "system response": "The 76 gas station is located at 91 El Camino Real. It is 4 miles away through moderate traffic",
+                "dialog history": "<USER> Where is the nearest gas station? <SYSTEM> There is a 76 4 miles away.",
+                "original user side information": {
+                    "end_dialogue": false
+                },
+                "original system side information": {
+                    "end_dialogue": false,
+                    "requested": {
+                        "distance": false,
+                        "traffic_info": false,
+                        "poi_type": false,
+                        "address": false,
+                        "poi": false
+                    },
+                    "slots": {}
+                },
+                "dst": "",
+                "dst accumulated": "navigate distance nearest, navigate poi_type gas station"
+            },
+            {
+                "turn id": 3,
+                "user utterance": "Thanks!",
+                "system response": "Anytime!",
+                "dialog history": "<USER> Where is the nearest gas station? <SYSTEM> There is a 76 4 miles away. <USER> What is the address? <SYSTEM> The 76 gas station is located at 91 El Camino Real. It is 4 miles away through moderate traffic",
+                "original user side information": {
+                    "end_dialogue": false
+                },
+                "original system side information": {
+                    "end_dialogue": true,
+                    "requested": {
+                        "distance": false,
+                        "traffic_info": false,
+                        "poi_type": false,
+                        "address": false,
+                        "poi": false
+                    },
+                    "slots": {}
+                },
+                "dst": "",
+                "dst accumulated": "navigate distance nearest, navigate poi_type gas station"
+            }
+        ],
+        "external knowledge non-flat": {
+            "metadata": {
+                "navigate": [
+                    {
+                        "distance": "4 miles",
+                        "traffic_info": "moderate traffic",
+                        "poi_type": "shopping center",
+                        "address": "383 University Ave",
+                        "poi": "Town and Country"
+                    },
+                    {
+                        "distance": "4 miles",
+                        "traffic_info": "moderate traffic",
+                        "poi_type": "gas station",
+                        "address": "91 El Camino Real",
+                        "poi": "76"
+                    },
+                    {
+                        "distance": "2 miles",
+                        "traffic_info": "moderate traffic",
+                        "poi_type": "shopping center",
+                        "address": "773 Alger Dr",
+                        "poi": "Stanford Shopping Center"
+                    },
+                    {
+                        "distance": "3 miles",
+                        "traffic_info": "moderate traffic",
+                        "poi_type": "coffee or tea place",
+                        "address": "145 Amherst St",
+                        "poi": "Teavana"
+                    },
+                    {
+                        "distance": "4 miles",
+                        "traffic_info": "moderate traffic",
+                        "poi_type": "pizza restaurant",
+                        "address": "776 Arastradero Rd",
+                        "poi": "Dominos"
+                    },
+                    {
+                        "distance": "4 miles",
+                        "traffic_info": "road block nearby",
+                        "poi_type": "parking garage",
+                        "address": "481 Amaranta Ave",
+                        "poi": "Palo Alto Garage R"
+                    },
+                    {
+                        "distance": "5 miles",
+                        "traffic_info": "no traffic",
+                        "poi_type": "hospital",
+                        "address": "214 El Camino Real",
+                        "poi": "Stanford Express Care"
+                    },
+                    {
+                        "distance": "3 miles",
+                        "traffic_info": "no traffic",
+                        "poi_type": "hospital",
+                        "address": "611 Ames Ave",
+                        "poi": "Palo Alto Medical Foundation"
+                    }
+                ]
+            },
+            "slots and values": {
+                "traffic_info": [
+                    "no traffic",
+                    "moderate traffic",
+                    "heavy traffic",
+                    "road block nearby",
+                    "car collision nearby"
+                ],
+                "poi_type": [
+                    "friends house",
+                    "home",
+                    "coffee or tea place",
+                    "chinese restaurant",
+                    "pizza restaurant",
+                    "grocery store",
+                    "rest stop",
+                    "shopping center",
+                    "parking garage",
+                    "gas station",
+                    "hospital",
+                    "certain address"
+                ],
+                "poi": [
+                    {
+                        "address": "593 Arrowhead Way",
+                        "poi": "Chef Chu's",
+                        "type": "chinese restaurant"
+                    },
+                    {
+                        "address": "394 Van Ness Ave",
+                        "poi": "Coupa",
+                        "type": "coffee or tea place"
+                    },
+                    {
+                        "address": "408 University Ave",
+                        "poi": "Trader Joes",
+                        "type": "grocery store"
+                    },
+                    {
+                        "address": "113 Anton Ct",
+                        "poi": "Round Table",
+                        "type": "pizza restaurant"
+                    },
+                    {
+                        "address": "1313 Chester Ave",
+                        "poi": "Hacienda Market",
+                        "type": "grocery store"
+                    },
+                    {
+                        "address": "465 Arcadia Pl",
+                        "poi": "Four Seasons",
+                        "type": "rest stop"
+                    },
+                    {
+                        "address": "830 Almanor Ln",
+                        "poi": "tai pan",
+                        "type": "chinese restaurant"
+                    },
+                    {
+                        "address": "773 Alger Dr",
+                        "poi": "Stanford Shopping Center",
+                        "type": "shopping center"
+                    },
+                    {
+                        "address": "53 University Av",
+                        "poi": "Shell",
+                        "type": "gas station"
+                    },
+                    {
+                        "address": "657 Ames Ave",
+                        "poi": "The Clement Hotel",
+                        "type": "rest stop"
+                    },
+                    {
+                        "address": "792 Bedoin Street",
+                        "poi": "Starbucks",
+                        "type": "coffee or tea place"
+                    },
+                    {
+                        "address": "329 El Camino Real",
+                        "poi": "The Westin",
+                        "type": "rest stop"
+                    },
+                    {
+                        "address": "383 University Ave",
+                        "poi": "Town and Country",
+                        "type": "shopping center"
+                    },
+                    {
+                        "address": "452 Arcadia Pl",
+                        "poi": "Safeway",
+                        "type": "grocery store"
+                    },
+                    {
+                        "address": "171 Oak Rd",
+                        "poi": "Topanga Mall",
+                        "type": "shopping center"
+                    },
+                    {
+                        "address": "842 Arrowhead Way",
+                        "poi": "Panda Express",
+                        "type": "chinese restaurant"
+                    },
+                    {
+                        "address": "704 El Camino Real",
+                        "poi": "Pizza Hut",
+                        "type": "pizza restaurant"
+                    },
+                    {
+                        "address": "899 Ames Ct",
+                        "poi": "Stanford Childrens Health",
+                        "type": "hospital"
+                    },
+                    {
+                        "address": "5677 southwest 4th street",
+                        "poi": "5677 southwest 4th street",
+                        "type": "certain address"
+                    },
+                    {
+                        "address": "5672 barringer street",
+                        "poi": "5672 barringer street",
+                        "type": "certain address"
+                    },
+                    {
+                        "address": "214 El Camino Real",
+                        "poi": "Stanford Express Care",
+                        "type": "hospital"
+                    },
+                    {
+                        "address": "638 Amherst St",
+                        "poi": "Sigona Farmers Market",
+                        "type": "grocery store"
+                    },
+                    {
+                        "address": "611 Ames Ave",
+                        "poi": "Palo Alto Medical Foundation",
+                        "type": "hospital"
+                    },
+                    {
+                        "address": "434 Arastradero Rd",
+                        "poi": "Ravenswood Shopping Center",
+                        "type": "shopping center"
+                    },
+                    {
+                        "address": "338 Alester Ave",
+                        "poi": "Midtown Shopping Center",
+                        "type": "shopping center"
+                    },
+                    {
+                        "address": "271 Springer Street",
+                        "poi": "Mandarin Roots",
+                        "type": "chinese restaurant"
+                    },
+                    {
+                        "address": "753 University Ave",
+                        "poi": "Comfort Inn",
+                        "type": "rest stop"
+                    },
+                    {
+                        "address": "669 El Camino Real",
+                        "poi": "P.F. Changs",
+                        "type": "chinese restaurant"
+                    },
+                    {
+                        "address": "915 Arbol Dr",
+                        "poi": "Pizza Chicago",
+                        "type": "pizza restaurant"
+                    },
+                    {
+                        "address": "333 Arbol Dr",
+                        "poi": "Travelers Lodge",
+                        "type": "rest stop"
+                    },
+                    {
+                        "address": "436 Alger Dr",
+                        "poi": "Palo Alto Cafe",
+                        "type": "coffee or tea place"
+                    },
+                    {
+                        "address": "5677 springer street",
+                        "poi": "5677 springer street",
+                        "type": "certain address"
+                    },
+                    {
+                        "address": "113 Arbol Dr",
+                        "poi": "Jing Jing",
+                        "type": "chinese restaurant"
+                    },
+                    {
+                        "address": "409 Bollard St",
+                        "poi": "Willows Market",
+                        "type": "grocery store"
+                    },
+                    {
+                        "address": "776 Arastradero Rd",
+                        "poi": "Dominos",
+                        "type": "pizza restaurant"
+                    },
+                    {
+                        "address": "269 Alger Dr",
+                        "poi": "Cafe Venetia",
+                        "type": "coffee or tea place"
+                    },
+                    {
+                        "address": "110 Arastradero Rd",
+                        "poi": "Papa Johns",
+                        "type": "pizza restaurant"
+                    },
+                    {
+                        "address": "550 Alester Ave",
+                        "poi": "Dish Parking",
+                        "type": "parking garage"
+                    },
+                    {
+                        "address": "578 Arbol Dr",
+                        "poi": "Hotel Keen",
+                        "type": "rest stop"
+                    },
+                    {
+                        "address": "9981 Archuleta Ave",
+                        "poi": "Peets Coffee",
+                        "type": "coffee or tea place"
+                    },
+                    {
+                        "address": "200 Alester Ave",
+                        "poi": "Valero",
+                        "type": "gas station"
+                    },
+                    {
+                        "address": "819 Alma St",
+                        "poi": "Whole Foods",
+                        "type": "grocery store"
+                    },
+                    {
+                        "address": "91 El Camino Real",
+                        "poi": "76",
+                        "type": "gas station"
+                    },
+                    {
+                        "address": "583 Alester Ave",
+                        "poi": "Philz",
+                        "type": "coffee or tea place"
+                    },
+                    {
+                        "address": "270 Altaire Walk",
+                        "poi": "Civic Center Garage",
+                        "type": "parking garage"
+                    },
+                    {
+                        "address": "610 Amarillo Ave",
+                        "poi": "Stanford Oval Parking",
+                        "type": "parking garage"
+                    },
+                    {
+                        "address": "347 Alta Mesa Ave",
+                        "poi": "jills house",
+                        "type": "friends house"
+                    },
+                    {
+                        "address": "880 Ames Ct",
+                        "poi": "Webster Garage",
+                        "type": "parking garage"
+                    },
+                    {
+                        "address": "864 Almanor Ln",
+                        "poi": "jacks house",
+                        "type": "friends house"
+                    },
+                    {
+                        "address": "56 cadwell street",
+                        "poi": "home_2",
+                        "type": "home"
+                    },
+                    {
+                        "address": "5671 barringer street",
+                        "poi": "home_3",
+                        "type": "home"
+                    },
+                    {
+                        "address": "528 Anton Ct",
+                        "poi": "Pizza My Heart",
+                        "type": "pizza restaurant"
+                    },
+                    {
+                        "address": "10 ames street",
+                        "poi": "home_1",
+                        "type": "home"
+                    },
+                    {
+                        "address": "580 Van Ness Ave",
+                        "poi": "toms house",
+                        "type": "friends house"
+                    },
+                    {
+                        "address": "481 Amaranta Ave",
+                        "poi": "Palo Alto Garage R",
+                        "type": "parking garage"
+                    },
+                    {
+                        "address": "783 Arcadia Pl",
+                        "poi": "Chevron",
+                        "type": "gas station"
+                    },
+                    {
+                        "address": "145 Amherst St",
+                        "poi": "Teavana",
+                        "type": "coffee or tea place"
+                    }
+                ],
+                "distance": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9
+                ]
+            },
+            "intents": {}
+        },
+        "external knowledge": "( navigate : (( distance : 4 miles | traffic_info : moderate traffic | poi_type : shopping center | address : 383 University Ave | poi : Town and Country ) | ( distance : 4 miles | traffic_info : moderate traffic | poi_type : gas station | address : 91 El Camino Real | poi : 76 ) | ( distance : 2 miles | traffic_info : moderate traffic | poi_type : shopping center | address : 773 Alger Dr | poi : Stanford Shopping Center ) | ( distance : 3 miles | traffic_info : moderate traffic | poi_type : coffee or tea place | address : 145 Amherst St | poi : Teavana ) | ( distance : 4 miles | traffic_info : moderate traffic | poi_type : pizza restaurant | address : 776 Arastradero Rd | poi : Dominos ) | ( distance : 4 miles | traffic_info : road block nearby | poi_type : parking garage | address : 481 Amaranta Ave | poi : Palo Alto Garage R ) | ( distance : 5 miles | traffic_info : no traffic | poi_type : hospital | address : 214 El Camino Real | poi : Stanford Express Care ) | ( distance : 3 miles | traffic_info : no traffic | poi_type : hospital | address : 611 Ames Ave | poi : Palo Alto Medical Foundation )))",
+        "dst knowledge": "( traffic_info : ( no traffic | moderate traffic | heavy traffic | road block nearby | car collision nearby ) | poi_type : ( friends house | home | coffee or tea place | chinese restaurant | pizza restaurant | grocery store | rest stop | shopping center | parking garage | gas station | hospital | certain address ) | poi : (( address : 593 Arrowhead Way | poi : \"Chef Chu s\" | type : chinese restaurant ) | ( address : 394 Van Ness Ave | poi : Coupa | type : coffee or tea place ) | ( address : 408 University Ave | poi : Trader Joes | type : grocery store ) | ( address : 113 Anton Ct | poi : Round Table | type : pizza restaurant ) | ( address : 1313 Chester Ave | poi : Hacienda Market | type : grocery store ) | ( address : 465 Arcadia Pl | poi : Four Seasons | type : rest stop ) | ( address : 830 Almanor Ln | poi : tai pan | type : chinese restaurant ) | ( address : 773 Alger Dr | poi : Stanford Shopping Center | type : shopping center ) | ( address : 53 University Av | poi : Shell | type : gas station ) | ( address : 657 Ames Ave | poi : The Clement Hotel | type : rest stop ) | ( address : 792 Bedoin Street | poi : Starbucks | type : coffee or tea place ) | ( address : 329 El Camino Real | poi : The Westin | type : rest stop ) | ( address : 383 University Ave | poi : Town and Country | type : shopping center ) | ( address : 452 Arcadia Pl | poi : Safeway | type : grocery store ) | ( address : 171 Oak Rd | poi : Topanga Mall | type : shopping center ) | ( address : 842 Arrowhead Way | poi : Panda Express | type : chinese restaurant ) | ( address : 704 El Camino Real | poi : Pizza Hut | type : pizza restaurant ) | ( address : 899 Ames Ct | poi : Stanford Childrens Health | type : hospital ) | ( address : 5677 southwest 4th street | poi : 5677 southwest 4th street | type : certain address ) | ( address : 5672 barringer street | poi : 5672 barringer street | type : certain address ) | ( address : 214 El Camino Real | poi : Stanford Express Care | type : hospital ) | ( address : 638 Amherst St | poi : Sigona Farmers Market | type : grocery store ) | ( address : 611 Ames Ave | poi : Palo Alto Medical Foundation | type : hospital ) | ( address : 434 Arastradero Rd | poi : Ravenswood Shopping Center | type : shopping center ) | ( address : 338 Alester Ave | poi : Midtown Shopping Center | type : shopping center ) | ( address : 271 Springer Street | poi : Mandarin Roots | type : chinese restaurant ) | ( address : 753 University Ave | poi : Comfort Inn | type : rest stop ) | ( address : 669 El Camino Real | poi : P.F. Changs | type : chinese restaurant ) | ( address : 915 Arbol Dr | poi : Pizza Chicago | type : pizza restaurant ) | ( address : 333 Arbol Dr | poi : Travelers Lodge | type : rest stop ) | ( address : 436 Alger Dr | poi : Palo Alto Cafe | type : coffee or tea place ) | ( address : 5677 springer street | poi : 5677 springer street | type : certain address ) | ( address : 113 Arbol Dr | poi : Jing Jing | type : chinese restaurant ) | ( address : 409 Bollard St | poi : Willows Market | type : grocery store ) | ( address : 776 Arastradero Rd | poi : Dominos | type : pizza restaurant ) | ( address : 269 Alger Dr | poi : Cafe Venetia | type : coffee or tea place ) | ( address : 110 Arastradero Rd | poi : Papa Johns | type : pizza restaurant ) | ( address : 550 Alester Ave | poi : Dish Parking | type : parking garage ) | ( address : 578 Arbol Dr | poi : Hotel Keen | type : rest stop ) | ( address : 9981 Archuleta Ave | poi : Peets Coffee | type : coffee or tea place ) | ( address : 200 Alester Ave | poi : Valero | type : gas station ) | ( address : 819 Alma St | poi : Whole Foods | type : grocery store ) | ( address : 91 El Camino Real | poi : 76 | type : gas station ) | ( address : 583 Alester Ave | poi : Philz | type : coffee or tea place ) | ( address : 270 Altaire Walk | poi : Civic Center Garage | type : parking garage ) | ( address : 610 Amarillo Ave | poi : Stanford Oval Parking | type : parking garage ) | ( address : 347 Alta Mesa Ave | poi : jills house | type : friends house ) | ( address : 880 Ames Ct | poi : Webster Garage | type : parking garage ) | ( address : 864 Almanor Ln | poi : jacks house | type : friends house ) | ( address : 56 cadwell street | poi : home_2 | type : home ) | ( address : 5671 barringer street | poi : home_3 | type : home ) | ( address : 528 Anton Ct | poi : Pizza My Heart | type : pizza restaurant ) | ( address : 10 ames street | poi : home_1 | type : home ) | ( address : 580 Van Ness Ave | poi : toms house | type : friends house ) | ( address : 481 Amaranta Ave | poi : Palo Alto Garage R | type : parking garage ) | ( address : 783 Arcadia Pl | poi : Chevron | type : gas station ) | ( address : 145 Amherst St | poi : Teavana | type : coffee or tea place )) | distance : (1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9))",
+        "intent knowledge": "()",
+        "prompt": [
+            "This is a bot helping users to get navigation. Given the dialog context and external database, please generate a relevant system response for the user.",
+            "This bot assists users to get navigation. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
+            "This bot helps users to get navigation. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
+            "The purpose of this bot is to assist users to get navigation. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
+            "This bot is designed to help users get navigation. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+        ]
+    },
+    "KVRET--train--3": {
+        "original dialog id": "b1551b67-9278-4b63-99f2-ac14cd1f1dce",
+        "dialog index": 3,
+        "original dialog info": {
+            "scenario": {
+                "kb": {
+                    "items": [
+                        {
+                            "distance": "5 miles",
+                            "traffic_info": "moderate traffic",
+                            "poi_type": "chinese restaurant",
+                            "address": "669 El Camino Real",
+                            "poi": "P.F. Changs"
+                        },
+                        {
+                            "distance": "6 miles",
+                            "traffic_info": "moderate traffic",
+                            "poi_type": "shopping center",
+                            "address": "434 Arastradero Rd",
+                            "poi": "Ravenswood Shopping Center"
+                        },
+                        {
+                            "distance": "8 miles",
+                            "traffic_info": "heavy traffic",
+                            "poi_type": "chinese restaurant",
+                            "address": "593 Arrowhead Way",
+                            "poi": "Chef Chu's"
+                        },
+                        {
+                            "distance": "5 miles",
+                            "traffic_info": "no traffic",
+                            "poi_type": "rest stop",
+                            "address": "329 El Camino Real",
+                            "poi": "The Westin"
+                        },
+                        {
+                            "distance": "2 miles",
+                            "traffic_info": "heavy traffic",
+                            "poi_type": "parking garage",
+                            "address": "550 Alester Ave",
+                            "poi": "Dish Parking"
+                        },
+                        {
+                            "distance": "1 miles",
+                            "traffic_info": "no traffic",
+                            "poi_type": "home",
+                            "address": "5671 barringer street",
+                            "poi": "home"
+                        },
+                        {
+                            "distance": "4 miles",
+                            "traffic_info": "heavy traffic",
+                            "poi_type": "coffee or tea place",
+                            "address": "583 Alester Ave",
+                            "poi": "Philz"
+                        },
+                        {
+                            "distance": "3 miles",
+                            "traffic_info": "no traffic",
+                            "poi_type": "hospital",
+                            "address": "611 Ames Ave",
+                            "poi": "Palo Alto Medical Foundation"
+                        }
+                    ],
+                    "column_names": [
+                        "poi",
+                        "poi_type",
+                        "address",
+                        "distance",
+                        "traffic_info"
+                    ],
+                    "kb_title": "location information"
+                },
+                "task": {
+                    "intent": "navigate"
+                },
+                "uuid": "b1551b67-9278-4b63-99f2-ac14cd1f1dce"
+            }
+        },
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "show me the closest location where i can get chinese food",
+                "system response": "The closest chinese restaurant is PF Changs, located 5 miles away. ",
+                "dialog history": "",
+                "original user side information": {
+                    "end_dialogue": false
+                },
+                "original system side information": {
+                    "end_dialogue": false,
+                    "requested": {
+                        "distance": true,
+                        "traffic_info": false,
+                        "poi_type": true,
+                        "address": true,
+                        "poi": false
+                    },
+                    "slots": {
+                        "distance": "closest",
+                        "poi_type": "chinese restaurant"
+                    }
+                },
+                "dst": "navigate distance closest, navigate poi_type chinese restaurant",
+                "dst accumulated": "navigate distance closest, navigate poi_type chinese restaurant"
+            },
+            {
+                "turn id": 2,
+                "user utterance": "OK, please give me an address and directions via a route that avoids all heavy traffic. ",
+                "system response": "P.F. Changs route set to 669 El Camino Real with only moderate traffic noted. ",
+                "dialog history": "<USER> show me the closest location where i can get chinese food <SYSTEM> The closest chinese restaurant is PF Changs, located 5 miles away.",
+                "original user side information": {
+                    "end_dialogue": false
+                },
+                "original system side information": {
+                    "end_dialogue": false,
+                    "requested": {
+                        "distance": false,
+                        "traffic_info": true,
+                        "poi_type": false,
+                        "address": true,
+                        "poi": false
+                    },
+                    "slots": {
+                        "traffic_info": "avoid heavy traffic"
+                    }
+                },
+                "dst": "navigate traffic_info avoid heavy traffic",
+                "dst accumulated": "navigate distance closest, navigate poi_type chinese restaurant, navigate traffic_info avoid heavy traffic"
+            },
+            {
+                "turn id": 3,
+                "user utterance": "Thank you",
+                "system response": "You're welcome. Drive safely, and enjoy. ",
+                "dialog history": "<USER> show me the closest location where i can get chinese food <SYSTEM> The closest chinese restaurant is PF Changs, located 5 miles away. <USER> OK, please give me an address and directions via a route that avoids all heavy traffic. <SYSTEM> P.F. Changs route set to 669 El Camino Real with only moderate traffic noted.",
+                "original user side information": {
+                    "end_dialogue": false
+                },
+                "original system side information": {
+                    "end_dialogue": true,
+                    "requested": {
+                        "distance": false,
+                        "traffic_info": false,
+                        "poi_type": false,
+                        "address": false,
+                        "poi": false
+                    },
+                    "slots": {}
+                },
+                "dst": "",
+                "dst accumulated": "navigate distance closest, navigate poi_type chinese restaurant, navigate traffic_info avoid heavy traffic"
+            }
+        ],
+        "external knowledge non-flat": {
+            "metadata": {
+                "navigate": [
+                    {
+                        "distance": "5 miles",
+                        "traffic_info": "moderate traffic",
+                        "poi_type": "chinese restaurant",
+                        "address": "669 El Camino Real",
+                        "poi": "P.F. Changs"
+                    },
+                    {
+                        "distance": "6 miles",
+                        "traffic_info": "moderate traffic",
+                        "poi_type": "shopping center",
+                        "address": "434 Arastradero Rd",
+                        "poi": "Ravenswood Shopping Center"
+                    },
+                    {
+                        "distance": "8 miles",
+                        "traffic_info": "heavy traffic",
+                        "poi_type": "chinese restaurant",
+                        "address": "593 Arrowhead Way",
+                        "poi": "Chef Chu's"
+                    },
+                    {
+                        "distance": "5 miles",
+                        "traffic_info": "no traffic",
+                        "poi_type": "rest stop",
+                        "address": "329 El Camino Real",
+                        "poi": "The Westin"
+                    },
+                    {
+                        "distance": "2 miles",
+                        "traffic_info": "heavy traffic",
+                        "poi_type": "parking garage",
+                        "address": "550 Alester Ave",
+                        "poi": "Dish Parking"
+                    },
+                    {
+                        "distance": "1 miles",
+                        "traffic_info": "no traffic",
+                        "poi_type": "home",
+                        "address": "5671 barringer street",
+                        "poi": "home"
+                    },
+                    {
+                        "distance": "4 miles",
+                        "traffic_info": "heavy traffic",
+                        "poi_type": "coffee or tea place",
+                        "address": "583 Alester Ave",
+                        "poi": "Philz"
+                    },
+                    {
+                        "distance": "3 miles",
+                        "traffic_info": "no traffic",
+                        "poi_type": "hospital",
+                        "address": "611 Ames Ave",
+                        "poi": "Palo Alto Medical Foundation"
+                    }
+                ]
+            },
+            "slots and values": {
+                "traffic_info": [
+                    "no traffic",
+                    "moderate traffic",
+                    "heavy traffic",
+                    "road block nearby",
+                    "car collision nearby"
+                ],
+                "poi_type": [
+                    "friends house",
+                    "home",
+                    "coffee or tea place",
+                    "chinese restaurant",
+                    "pizza restaurant",
+                    "grocery store",
+                    "rest stop",
+                    "shopping center",
+                    "parking garage",
+                    "gas station",
+                    "hospital",
+                    "certain address"
+                ],
+                "poi": [
+                    {
+                        "address": "593 Arrowhead Way",
+                        "poi": "Chef Chu's",
+                        "type": "chinese restaurant"
+                    },
+                    {
+                        "address": "394 Van Ness Ave",
+                        "poi": "Coupa",
+                        "type": "coffee or tea place"
+                    },
+                    {
+                        "address": "408 University Ave",
+                        "poi": "Trader Joes",
+                        "type": "grocery store"
+                    },
+                    {
+                        "address": "113 Anton Ct",
+                        "poi": "Round Table",
+                        "type": "pizza restaurant"
+                    },
+                    {
+                        "address": "1313 Chester Ave",
+                        "poi": "Hacienda Market",
+                        "type": "grocery store"
+                    },
+                    {
+                        "address": "465 Arcadia Pl",
+                        "poi": "Four Seasons",
+                        "type": "rest stop"
+                    },
+                    {
+                        "address": "830 Almanor Ln",
+                        "poi": "tai pan",
+                        "type": "chinese restaurant"
+                    },
+                    {
+                        "address": "773 Alger Dr",
+                        "poi": "Stanford Shopping Center",
+                        "type": "shopping center"
+                    },
+                    {
+                        "address": "53 University Av",
+                        "poi": "Shell",
+                        "type": "gas station"
+                    },
+                    {
+                        "address": "657 Ames Ave",
+                        "poi": "The Clement Hotel",
+                        "type": "rest stop"
+                    },
+                    {
+                        "address": "792 Bedoin Street",
+                        "poi": "Starbucks",
+                        "type": "coffee or tea place"
+                    },
+                    {
+                        "address": "329 El Camino Real",
+                        "poi": "The Westin",
+                        "type": "rest stop"
+                    },
+                    {
+                        "address": "383 University Ave",
+                        "poi": "Town and Country",
+                        "type": "shopping center"
+                    },
+                    {
+                        "address": "452 Arcadia Pl",
+                        "poi": "Safeway",
+                        "type": "grocery store"
+                    },
+                    {
+                        "address": "171 Oak Rd",
+                        "poi": "Topanga Mall",
+                        "type": "shopping center"
+                    },
+                    {
+                        "address": "842 Arrowhead Way",
+                        "poi": "Panda Express",
+                        "type": "chinese restaurant"
+                    },
+                    {
+                        "address": "704 El Camino Real",
+                        "poi": "Pizza Hut",
+                        "type": "pizza restaurant"
+                    },
+                    {
+                        "address": "899 Ames Ct",
+                        "poi": "Stanford Childrens Health",
+                        "type": "hospital"
+                    },
+                    {
+                        "address": "5677 southwest 4th street",
+                        "poi": "5677 southwest 4th street",
+                        "type": "certain address"
+                    },
+                    {
+                        "address": "5672 barringer street",
+                        "poi": "5672 barringer street",
+                        "type": "certain address"
+                    },
+                    {
+                        "address": "214 El Camino Real",
+                        "poi": "Stanford Express Care",
+                        "type": "hospital"
+                    },
+                    {
+                        "address": "638 Amherst St",
+                        "poi": "Sigona Farmers Market",
+                        "type": "grocery store"
+                    },
+                    {
+                        "address": "611 Ames Ave",
+                        "poi": "Palo Alto Medical Foundation",
+                        "type": "hospital"
+                    },
+                    {
+                        "address": "434 Arastradero Rd",
+                        "poi": "Ravenswood Shopping Center",
+                        "type": "shopping center"
+                    },
+                    {
+                        "address": "338 Alester Ave",
+                        "poi": "Midtown Shopping Center",
+                        "type": "shopping center"
+                    },
+                    {
+                        "address": "271 Springer Street",
+                        "poi": "Mandarin Roots",
+                        "type": "chinese restaurant"
+                    },
+                    {
+                        "address": "753 University Ave",
+                        "poi": "Comfort Inn",
+                        "type": "rest stop"
+                    },
+                    {
+                        "address": "669 El Camino Real",
+                        "poi": "P.F. Changs",
+                        "type": "chinese restaurant"
+                    },
+                    {
+                        "address": "915 Arbol Dr",
+                        "poi": "Pizza Chicago",
+                        "type": "pizza restaurant"
+                    },
+                    {
+                        "address": "333 Arbol Dr",
+                        "poi": "Travelers Lodge",
+                        "type": "rest stop"
+                    },
+                    {
+                        "address": "436 Alger Dr",
+                        "poi": "Palo Alto Cafe",
+                        "type": "coffee or tea place"
+                    },
+                    {
+                        "address": "5677 springer street",
+                        "poi": "5677 springer street",
+                        "type": "certain address"
+                    },
+                    {
+                        "address": "113 Arbol Dr",
+                        "poi": "Jing Jing",
+                        "type": "chinese restaurant"
+                    },
+                    {
+                        "address": "409 Bollard St",
+                        "poi": "Willows Market",
+                        "type": "grocery store"
+                    },
+                    {
+                        "address": "776 Arastradero Rd",
+                        "poi": "Dominos",
+                        "type": "pizza restaurant"
+                    },
+                    {
+                        "address": "269 Alger Dr",
+                        "poi": "Cafe Venetia",
+                        "type": "coffee or tea place"
+                    },
+                    {
+                        "address": "110 Arastradero Rd",
+                        "poi": "Papa Johns",
+                        "type": "pizza restaurant"
+                    },
+                    {
+                        "address": "550 Alester Ave",
+                        "poi": "Dish Parking",
+                        "type": "parking garage"
+                    },
+                    {
+                        "address": "578 Arbol Dr",
+                        "poi": "Hotel Keen",
+                        "type": "rest stop"
+                    },
+                    {
+                        "address": "9981 Archuleta Ave",
+                        "poi": "Peets Coffee",
+                        "type": "coffee or tea place"
+                    },
+                    {
+                        "address": "200 Alester Ave",
+                        "poi": "Valero",
+                        "type": "gas station"
+                    },
+                    {
+                        "address": "819 Alma St",
+                        "poi": "Whole Foods",
+                        "type": "grocery store"
+                    },
+                    {
+                        "address": "91 El Camino Real",
+                        "poi": "76",
+                        "type": "gas station"
+                    },
+                    {
+                        "address": "583 Alester Ave",
+                        "poi": "Philz",
+                        "type": "coffee or tea place"
+                    },
+                    {
+                        "address": "270 Altaire Walk",
+                        "poi": "Civic Center Garage",
+                        "type": "parking garage"
+                    },
+                    {
+                        "address": "610 Amarillo Ave",
+                        "poi": "Stanford Oval Parking",
+                        "type": "parking garage"
+                    },
+                    {
+                        "address": "347 Alta Mesa Ave",
+                        "poi": "jills house",
+                        "type": "friends house"
+                    },
+                    {
+                        "address": "880 Ames Ct",
+                        "poi": "Webster Garage",
+                        "type": "parking garage"
+                    },
+                    {
+                        "address": "864 Almanor Ln",
+                        "poi": "jacks house",
+                        "type": "friends house"
+                    },
+                    {
+                        "address": "56 cadwell street",
+                        "poi": "home_2",
+                        "type": "home"
+                    },
+                    {
+                        "address": "5671 barringer street",
+                        "poi": "home_3",
+                        "type": "home"
+                    },
+                    {
+                        "address": "528 Anton Ct",
+                        "poi": "Pizza My Heart",
+                        "type": "pizza restaurant"
+                    },
+                    {
+                        "address": "10 ames street",
+                        "poi": "home_1",
+                        "type": "home"
+                    },
+                    {
+                        "address": "580 Van Ness Ave",
+                        "poi": "toms house",
+                        "type": "friends house"
+                    },
+                    {
+                        "address": "481 Amaranta Ave",
+                        "poi": "Palo Alto Garage R",
+                        "type": "parking garage"
+                    },
+                    {
+                        "address": "783 Arcadia Pl",
+                        "poi": "Chevron",
+                        "type": "gas station"
+                    },
+                    {
+                        "address": "145 Amherst St",
+                        "poi": "Teavana",
+                        "type": "coffee or tea place"
+                    }
+                ],
+                "distance": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9
+                ]
+            },
+            "intents": {}
+        },
+        "external knowledge": "( navigate : (( distance : 5 miles | traffic_info : moderate traffic | poi_type : chinese restaurant | address : 669 El Camino Real | poi : P.F. Changs ) | ( distance : 6 miles | traffic_info : moderate traffic | poi_type : shopping center | address : 434 Arastradero Rd | poi : Ravenswood Shopping Center ) | ( distance : 8 miles | traffic_info : heavy traffic | poi_type : chinese restaurant | address : 593 Arrowhead Way | poi : \"Chef Chu s\") | ( distance : 5 miles | traffic_info : no traffic | poi_type : rest stop | address : 329 El Camino Real | poi : The Westin ) | ( distance : 2 miles | traffic_info : heavy traffic | poi_type : parking garage | address : 550 Alester Ave | poi : Dish Parking ) | ( distance : 1 miles | traffic_info : no traffic | poi_type : home | address : 5671 barringer street | poi : home ) | ( distance : 4 miles | traffic_info : heavy traffic | poi_type : coffee or tea place | address : 583 Alester Ave | poi : Philz ) | ( distance : 3 miles | traffic_info : no traffic | poi_type : hospital | address : 611 Ames Ave | poi : Palo Alto Medical Foundation )))",
+        "dst knowledge": "( traffic_info : ( no traffic | moderate traffic | heavy traffic | road block nearby | car collision nearby ) | poi_type : ( friends house | home | coffee or tea place | chinese restaurant | pizza restaurant | grocery store | rest stop | shopping center | parking garage | gas station | hospital | certain address ) | poi : (( address : 593 Arrowhead Way | poi : \"Chef Chu s\" | type : chinese restaurant ) | ( address : 394 Van Ness Ave | poi : Coupa | type : coffee or tea place ) | ( address : 408 University Ave | poi : Trader Joes | type : grocery store ) | ( address : 113 Anton Ct | poi : Round Table | type : pizza restaurant ) | ( address : 1313 Chester Ave | poi : Hacienda Market | type : grocery store ) | ( address : 465 Arcadia Pl | poi : Four Seasons | type : rest stop ) | ( address : 830 Almanor Ln | poi : tai pan | type : chinese restaurant ) | ( address : 773 Alger Dr | poi : Stanford Shopping Center | type : shopping center ) | ( address : 53 University Av | poi : Shell | type : gas station ) | ( address : 657 Ames Ave | poi : The Clement Hotel | type : rest stop ) | ( address : 792 Bedoin Street | poi : Starbucks | type : coffee or tea place ) | ( address : 329 El Camino Real | poi : The Westin | type : rest stop ) | ( address : 383 University Ave | poi : Town and Country | type : shopping center ) | ( address : 452 Arcadia Pl | poi : Safeway | type : grocery store ) | ( address : 171 Oak Rd | poi : Topanga Mall | type : shopping center ) | ( address : 842 Arrowhead Way | poi : Panda Express | type : chinese restaurant ) | ( address : 704 El Camino Real | poi : Pizza Hut | type : pizza restaurant ) | ( address : 899 Ames Ct | poi : Stanford Childrens Health | type : hospital ) | ( address : 5677 southwest 4th street | poi : 5677 southwest 4th street | type : certain address ) | ( address : 5672 barringer street | poi : 5672 barringer street | type : certain address ) | ( address : 214 El Camino Real | poi : Stanford Express Care | type : hospital ) | ( address : 638 Amherst St | poi : Sigona Farmers Market | type : grocery store ) | ( address : 611 Ames Ave | poi : Palo Alto Medical Foundation | type : hospital ) | ( address : 434 Arastradero Rd | poi : Ravenswood Shopping Center | type : shopping center ) | ( address : 338 Alester Ave | poi : Midtown Shopping Center | type : shopping center ) | ( address : 271 Springer Street | poi : Mandarin Roots | type : chinese restaurant ) | ( address : 753 University Ave | poi : Comfort Inn | type : rest stop ) | ( address : 669 El Camino Real | poi : P.F. Changs | type : chinese restaurant ) | ( address : 915 Arbol Dr | poi : Pizza Chicago | type : pizza restaurant ) | ( address : 333 Arbol Dr | poi : Travelers Lodge | type : rest stop ) | ( address : 436 Alger Dr | poi : Palo Alto Cafe | type : coffee or tea place ) | ( address : 5677 springer street | poi : 5677 springer street | type : certain address ) | ( address : 113 Arbol Dr | poi : Jing Jing | type : chinese restaurant ) | ( address : 409 Bollard St | poi : Willows Market | type : grocery store ) | ( address : 776 Arastradero Rd | poi : Dominos | type : pizza restaurant ) | ( address : 269 Alger Dr | poi : Cafe Venetia | type : coffee or tea place ) | ( address : 110 Arastradero Rd | poi : Papa Johns | type : pizza restaurant ) | ( address : 550 Alester Ave | poi : Dish Parking | type : parking garage ) | ( address : 578 Arbol Dr | poi : Hotel Keen | type : rest stop ) | ( address : 9981 Archuleta Ave | poi : Peets Coffee | type : coffee or tea place ) | ( address : 200 Alester Ave | poi : Valero | type : gas station ) | ( address : 819 Alma St | poi : Whole Foods | type : grocery store ) | ( address : 91 El Camino Real | poi : 76 | type : gas station ) | ( address : 583 Alester Ave | poi : Philz | type : coffee or tea place ) | ( address : 270 Altaire Walk | poi : Civic Center Garage | type : parking garage ) | ( address : 610 Amarillo Ave | poi : Stanford Oval Parking | type : parking garage ) | ( address : 347 Alta Mesa Ave | poi : jills house | type : friends house ) | ( address : 880 Ames Ct | poi : Webster Garage | type : parking garage ) | ( address : 864 Almanor Ln | poi : jacks house | type : friends house ) | ( address : 56 cadwell street | poi : home_2 | type : home ) | ( address : 5671 barringer street | poi : home_3 | type : home ) | ( address : 528 Anton Ct | poi : Pizza My Heart | type : pizza restaurant ) | ( address : 10 ames street | poi : home_1 | type : home ) | ( address : 580 Van Ness Ave | poi : toms house | type : friends house ) | ( address : 481 Amaranta Ave | poi : Palo Alto Garage R | type : parking garage ) | ( address : 783 Arcadia Pl | poi : Chevron | type : gas station ) | ( address : 145 Amherst St | poi : Teavana | type : coffee or tea place )) | distance : (1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9))",
+        "intent knowledge": "()",
+        "prompt": [
+            "This is a bot helping users to get navigation. Given the dialog context and external database, please generate a relevant system response for the user.",
+            "This bot assists users to get navigation. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
+            "This bot helps users to get navigation. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
+            "The purpose of this bot is to assist users to get navigation. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
+            "This bot is designed to help users get navigation. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+        ]
+    },
+    "KVRET--train--4": {
+        "original dialog id": "97da7e92-0d43-4f03-aaf2-3c67c5fd02ac",
+        "dialog index": 4,
+        "original dialog info": {
+            "scenario": {
+                "kb": {
+                    "items": null,
+                    "column_names": [
+                        "event",
+                        "time",
+                        "date",
+                        "room",
+                        "agenda",
+                        "party"
+                    ],
+                    "kb_title": "calendar"
+                },
+                "task": {
+                    "intent": "schedule"
+                },
+                "uuid": "97da7e92-0d43-4f03-aaf2-3c67c5fd02ac"
+            }
+        },
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "Hi, please set up a reminder for my dinner on the 11th at 4pm with my sister. Thanks!",
+                "system response": "Set! Have a good time",
+                "dialog history": "",
+                "original user side information": {
+                    "end_dialogue": false
+                },
+                "original system side information": {
+                    "end_dialogue": true,
+                    "requested": {
+                        "room": false,
+                        "agenda": false,
+                        "time": true,
+                        "date": true,
+                        "party": true,
+                        "event": true
+                    },
+                    "slots": {
+                        "date": "11th ",
+                        "party": "sister",
+                        "event": "dinner ",
+                        "time": "4pm "
+                    }
+                },
+                "dst": "schedule date 11th , schedule party sister, schedule event dinner , schedule time 4pm ",
+                "dst accumulated": "schedule date 11th, schedule party sister, schedule event dinner, schedule time 4pm"
+            }
+        ],
+        "external knowledge non-flat": {
+            "metadata": {
+                "schedule": []
+            },
+            "slots and values": {
+                "event": [
+                    "taking medicine",
+                    "conference",
+                    "dinner",
+                    "lab appointment",
+                    "yoga activity",
+                    "tennis activity",
+                    "doctor appointment",
+                    "meeting",
+                    "swimming activity",
+                    "optometrist appointment",
+                    "football activity",
+                    "dentist appointment"
+                ],
+                "time": [
+                    "1pm",
+                    "2pm",
+                    "3pm",
+                    "4pm",
+                    "5pm",
+                    "6pm",
+                    "8pm",
+                    "9am",
+                    "10am",
+                    "11am",
+                    "7pm"
+                ],
+                "data": [],
+                "party": [
+                    "sales team",
+                    "HR",
+                    "executive team",
+                    "infrastructure team",
+                    "vice president",
+                    "boss",
+                    "management",
+                    "Tom",
+                    "Jon",
+                    "Martha",
+                    "brother",
+                    "mother",
+                    "aunt",
+                    "father",
+                    "sister",
+                    "Marie",
+                    "Alex",
+                    "Jeff",
+                    "Ana"
+                ],
+                "room": [
+                    "conference room 100",
+                    "conference room 102",
+                    "conference room 50"
+                ],
+                "agenda": [
+                    "go over budget",
+                    "discuss the merger",
+                    "discuss the company picnic",
+                    "go over quarterly report",
+                    "onboard new members",
+                    "discuss dress code",
+                    "sign the NDA"
+                ]
+            },
+            "intents": {}
+        },
+        "external knowledge": "( schedule : ())",
+        "dst knowledge": "( event : ( taking medicine | conference | dinner | lab appointment | yoga activity | tennis activity | doctor appointment | meeting | swimming activity | optometrist appointment | football activity | dentist appointment ) | time : ( 1pm | 2pm | 3pm | 4pm | 5pm | 6pm | 8pm | 9am | 10am | 11am | 7pm ) | data : () | party : ( sales team | HR | executive team | infrastructure team | vice president | boss | management | Tom | Jon | Martha | brother | mother | aunt | father | sister | Marie | Alex | Jeff | Ana ) | room : ( conference room 100 | conference room 102 | conference room 50 ) | agenda : ( go over budget | discuss the merger | discuss the company picnic | go over quarterly report | onboard new members | discuss dress code | sign the NDA ))",
+        "intent knowledge": "()",
+        "prompt": [
+            "This is a bot helping users to manage a calendar. Given the dialog context and external database, please generate a relevant system response for the user.",
+            "This bot assists users to manage a calendar. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
+            "This bot helps users to manage a calendar. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
+            "The purpose of this bot is to assist users to manage a calendar. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
+            "This bot is designed to help users manage a calendar. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+        ]
+    },
+    "KVRET--train--5": {
+        "original dialog id": "abc61848-73c5-478d-ab89-65be9585f487",
+        "dialog index": 5,
+        "original dialog info": {
+            "scenario": {
+                "kb": {
+                    "items": [
+                        {
+                            "room": "-",
+                            "agenda": "-",
+                            "time": "10am",
+                            "date": "the 8th",
+                            "party": "aunt",
+                            "event": "dentist appointment"
+                        },
+                        {
+                            "room": "-",
+                            "agenda": "-",
+                            "time": "5pm",
+                            "date": "saturday",
+                            "party": "Marie",
+                            "event": "taking medicine"
+                        },
+                        {
+                            "room": "-",
+                            "agenda": "-",
+                            "time": "4pm",
+                            "date": "monday",
+                            "party": "Alex",
+                            "event": "football activity"
+                        },
+                        {
+                            "room": "-",
+                            "agenda": "-",
+                            "time": "4pm",
+                            "date": "the 4th",
+                            "party": "Marie",
+                            "event": "yoga activity"
+                        },
+                        {
+                            "room": "-",
+                            "agenda": "-",
+                            "time": "5pm",
+                            "date": "the 13th",
+                            "party": "father",
+                            "event": "lab appointment"
+                        },
+                        {
+                            "room": "-",
+                            "agenda": "-",
+                            "time": "7pm",
+                            "date": "the 8th",
+                            "party": "Jon",
+                            "event": "dinner"
+                        }
+                    ],
+                    "column_names": [
+                        "event",
+                        "time",
+                        "date",
+                        "room",
+                        "agenda",
+                        "party"
+                    ],
+                    "kb_title": "calendar"
+                },
+                "task": {
+                    "intent": "schedule"
+                },
+                "uuid": "abc61848-73c5-478d-ab89-65be9585f487"
+            }
+        },
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "What time is dinner and who is it with?",
+                "system response": "Dinner is at 7 pm with Jon.",
+                "dialog history": "",
+                "original user side information": {
+                    "end_dialogue": false
+                },
+                "original system side information": {
+                    "end_dialogue": false,
+                    "requested": {
+                        "room": false,
+                        "agenda": false,
+                        "time": true,
+                        "date": false,
+                        "party": true,
+                        "event": true
+                    },
+                    "slots": {
+                        "event": "dinner"
+                    }
+                },
+                "dst": "schedule event dinner",
+                "dst accumulated": "schedule event dinner"
+            },
+            {
+                "turn id": 2,
+                "user utterance": "Okay, perfect! Thanks.",
+                "system response": "you're welcome",
+                "dialog history": "<USER> What time is dinner and who is it with? <SYSTEM> Dinner is at 7 pm with Jon.",
+                "original user side information": {
+                    "end_dialogue": false
+                },
+                "original system side information": {
+                    "end_dialogue": true,
+                    "requested": {
+                        "room": false,
+                        "agenda": false,
+                        "time": false,
+                        "date": false,
+                        "party": false,
+                        "event": false
+                    },
+                    "slots": {}
+                },
+                "dst": "",
+                "dst accumulated": "schedule event dinner"
+            }
+        ],
+        "external knowledge non-flat": {
+            "metadata": {
+                "schedule": [
+                    {
+                        "room": "-",
+                        "agenda": "-",
+                        "time": "10am",
+                        "date": "the 8th",
+                        "party": "aunt",
+                        "event": "dentist appointment"
+                    },
+                    {
+                        "room": "-",
+                        "agenda": "-",
+                        "time": "5pm",
+                        "date": "saturday",
+                        "party": "Marie",
+                        "event": "taking medicine"
+                    },
+                    {
+                        "room": "-",
+                        "agenda": "-",
+                        "time": "4pm",
+                        "date": "monday",
+                        "party": "Alex",
+                        "event": "football activity"
+                    },
+                    {
+                        "room": "-",
+                        "agenda": "-",
+                        "time": "4pm",
+                        "date": "the 4th",
+                        "party": "Marie",
+                        "event": "yoga activity"
+                    },
+                    {
+                        "room": "-",
+                        "agenda": "-",
+                        "time": "5pm",
+                        "date": "the 13th",
+                        "party": "father",
+                        "event": "lab appointment"
+                    },
+                    {
+                        "room": "-",
+                        "agenda": "-",
+                        "time": "7pm",
+                        "date": "the 8th",
+                        "party": "Jon",
+                        "event": "dinner"
+                    }
+                ]
+            },
+            "slots and values": {
+                "event": [
+                    "taking medicine",
+                    "conference",
+                    "dinner",
+                    "lab appointment",
+                    "yoga activity",
+                    "tennis activity",
+                    "doctor appointment",
+                    "meeting",
+                    "swimming activity",
+                    "optometrist appointment",
+                    "football activity",
+                    "dentist appointment"
+                ],
+                "time": [
+                    "1pm",
+                    "2pm",
+                    "3pm",
+                    "4pm",
+                    "5pm",
+                    "6pm",
+                    "8pm",
+                    "9am",
+                    "10am",
+                    "11am",
+                    "7pm"
+                ],
+                "data": [],
+                "party": [
+                    "sales team",
+                    "HR",
+                    "executive team",
+                    "infrastructure team",
+                    "vice president",
+                    "boss",
+                    "management",
+                    "Tom",
+                    "Jon",
+                    "Martha",
+                    "brother",
+                    "mother",
+                    "aunt",
+                    "father",
+                    "sister",
+                    "Marie",
+                    "Alex",
+                    "Jeff",
+                    "Ana"
+                ],
+                "room": [
+                    "conference room 100",
+                    "conference room 102",
+                    "conference room 50"
+                ],
+                "agenda": [
+                    "go over budget",
+                    "discuss the merger",
+                    "discuss the company picnic",
+                    "go over quarterly report",
+                    "onboard new members",
+                    "discuss dress code",
+                    "sign the NDA"
+                ]
+            },
+            "intents": {}
+        },
+        "external knowledge": "( schedule : (( room : - | agenda : - | time : 10am | date : the 8th | party : aunt | event : dentist appointment ) | ( room : - | agenda : - | time : 5pm | date : saturday | party : Marie | event : taking medicine ) | ( room : - | agenda : - | time : 4pm | date : monday | party : Alex | event : football activity ) | ( room : - | agenda : - | time : 4pm | date : the 4th | party : Marie | event : yoga activity ) | ( room : - | agenda : - | time : 5pm | date : the 13th | party : father | event : lab appointment ) | ( room : - | agenda : - | time : 7pm | date : the 8th | party : Jon | event : dinner )))",
+        "dst knowledge": "( event : ( taking medicine | conference | dinner | lab appointment | yoga activity | tennis activity | doctor appointment | meeting | swimming activity | optometrist appointment | football activity | dentist appointment ) | time : ( 1pm | 2pm | 3pm | 4pm | 5pm | 6pm | 8pm | 9am | 10am | 11am | 7pm ) | data : () | party : ( sales team | HR | executive team | infrastructure team | vice president | boss | management | Tom | Jon | Martha | brother | mother | aunt | father | sister | Marie | Alex | Jeff | Ana ) | room : ( conference room 100 | conference room 102 | conference room 50 ) | agenda : ( go over budget | discuss the merger | discuss the company picnic | go over quarterly report | onboard new members | discuss dress code | sign the NDA ))",
+        "intent knowledge": "()",
+        "prompt": [
+            "This is a bot helping users to manage a calendar. Given the dialog context and external database, please generate a relevant system response for the user.",
+            "This bot assists users to manage a calendar. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
+            "This bot helps users to manage a calendar. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
+            "The purpose of this bot is to assist users to manage a calendar. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
+            "This bot is designed to help users manage a calendar. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+        ]
+    }
+}

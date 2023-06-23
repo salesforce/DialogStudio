@@ -1,0 +1,1246 @@
+[
+    {
+        "dialogue_id": "sim_movies_dev_000000",
+        "turns": [
+            {
+                "database_state": {
+                    "has_more_results": true,
+                    "scores": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                },
+                "dialogue_state": {
+                    "num_tickets": "2",
+                    "time": "8:00_pm"
+                },
+                "system_acts": [
+                    {
+                        "name": "greeting"
+                    }
+                ],
+                "system_utterance": "Hi, how can I help you?",
+                "user_utterance": "can you get 2 tickets for 8 00 pm ?"
+            },
+            {
+                "database_state": {
+                    "has_more_results": true,
+                    "scores": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                },
+                "dialogue_state": {
+                    "date": "base_date_plus_2",
+                    "num_tickets": "2",
+                    "time": "8:00_pm"
+                },
+                "system_acts": [
+                    {
+                        "name": "impl_confirm",
+                        "slot_values": {
+                            "num_tickets": "2"
+                        }
+                    },
+                    {
+                        "name": "request",
+                        "slot_values": {
+                            "date": "REQUESTED"
+                        }
+                    }
+                ],
+                "system_utterance": "Ok, 2 tickets. What day would you prefer?",
+                "user_utterance": "for base_date_plus_2"
+            },
+            {
+                "database_state": {
+                    "has_more_results": true,
+                    "scores": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                },
+                "dialogue_state": {
+                    "date": "base_date_plus_2",
+                    "movie": "Bakit_lahat_ng_guwapo_may_boyfriend?!",
+                    "num_tickets": "2",
+                    "time": "8:00_pm"
+                },
+                "system_acts": [
+                    {
+                        "name": "ack"
+                    },
+                    {
+                        "name": "request",
+                        "slot_values": {
+                            "movie": "REQUESTED"
+                        }
+                    }
+                ],
+                "system_utterance": "Ok. Which movie would you like to see?",
+                "user_utterance": "bakit lahat ng guwapo may boyfriend ? !"
+            },
+            {
+                "database_state": {
+                    "has_more_results": true,
+                    "scores": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                },
+                "dialogue_state": {
+                    "date": "base_date_plus_2",
+                    "movie": "Bakit_lahat_ng_guwapo_may_boyfriend?!",
+                    "num_tickets": "2",
+                    "time": "8:00_pm"
+                },
+                "system_acts": [
+                    {
+                        "name": "ack"
+                    },
+                    {
+                        "name": "request",
+                        "slot_values": {
+                            "theatre_name": "REQUESTED"
+                        }
+                    }
+                ],
+                "system_utterance": "Ok. Which movie theater would you prefer?",
+                "user_utterance": "can you suggest me a theater ?"
+            },
+            {
+                "database_state": {
+                    "scores": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "dialogue_state": {
+                    "date": "base_date_plus_2",
+                    "movie": "Bakit_lahat_ng_guwapo_may_boyfriend?!",
+                    "num_tickets": "2",
+                    "theatre_name": "Century_at_Pacific_Commons",
+                    "time": "8:00_pm"
+                },
+                "system_acts": [
+                    {
+                        "name": "select",
+                        "slot_values": {
+                            "theatre_name": "AMC_Saratoga_14|CineLux_Plaza_Theatre|Century_at_Pacific_Commons|CineLux_Almaden_Cafe_&_Lounge"
+                        }
+                    }
+                ],
+                "system_utterance": "Would AMC Saratoga 14|CineLux Plaza Theatre|Century at Pacific Commons|CineLux Almaden Cafe & Lounge work for you?",
+                "user_utterance": "yes , century at pacific commons ."
+            },
+            {
+                "database_state": {
+                    "scores": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "dialogue_state": {
+                    "date": "base_date_plus_2",
+                    "movie": "Bakit_lahat_ng_guwapo_may_boyfriend?!",
+                    "num_tickets": "2",
+                    "theatre_name": "Cinemark_12_Downtown_San_Mateo",
+                    "time": "8:00_pm"
+                },
+                "system_acts": [
+                    {
+                        "name": "confirm",
+                        "slot_values": {
+                            "date": "base_date_plus_2",
+                            "movie": "Bakit_lahat_ng_guwapo_may_boyfriend?!",
+                            "num_tickets": "2",
+                            "theatre_name": "Century_at_Pacific_Commons",
+                            "time": "8:00_pm"
+                        }
+                    }
+                ],
+                "system_utterance": "To confirm, you want 2 tickets to see Bakit lahat ng guwapo may boyfriend?! at Century at Pacific Commons at 8:00 pm base_date_plus_2, right?",
+                "user_utterance": "yes 2 tickets for bakit lahat ng guwapo may boyfriend ? ! at 8 00 pm base_date_plus_2 please no , i do n't want century at pacific commons cinemark 12 downtown san mateo ."
+            },
+            {
+                "database_state": {
+                    "scores": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "dialogue_state": {
+                    "date": "base_date_plus_2",
+                    "movie": "Bakit_lahat_ng_guwapo_may_boyfriend?!",
+                    "num_tickets": "2",
+                    "theatre_name": "Cinemark_12_Downtown_San_Mateo",
+                    "time": "8:00_pm"
+                },
+                "system_acts": [
+                    {
+                        "name": "confirm",
+                        "slot_values": {
+                            "date": "base_date_plus_2",
+                            "movie": "Bakit_lahat_ng_guwapo_may_boyfriend?!",
+                            "num_tickets": "2",
+                            "theatre_name": "Century_at_Pacific_Commons",
+                            "time": "8:00_pm"
+                        }
+                    }
+                ],
+                "system_utterance": "To confirm, you want 2 tickets to see Bakit lahat ng guwapo may boyfriend?! at Century at Pacific Commons at 8:00 pm base_date_plus_2, right?",
+                "user_utterance": "yes 2 tickets for bakit lahat ng guwapo may boyfriend ? ! at 8 00 pm base_date_plus_2 please no , i do n't want century at pacific commons cinemark 12 downtown san mateo"
+            },
+            {
+                "database_state": {
+                    "scores": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "dialogue_state": {
+                    "date": "base_date_plus_2",
+                    "movie": "Bakit_lahat_ng_guwapo_may_boyfriend?!",
+                    "num_tickets": "2",
+                    "theatre_name": "Cinemark_12_Downtown_San_Mateo",
+                    "time": "8:00_pm"
+                },
+                "system_acts": [
+                    {
+                        "name": "confirm",
+                        "slot_values": {
+                            "date": "base_date_plus_2",
+                            "movie": "Bakit_lahat_ng_guwapo_may_boyfriend?!",
+                            "num_tickets": "2",
+                            "theatre_name": "Century_at_Pacific_Commons",
+                            "time": "8:00_pm"
+                        }
+                    }
+                ],
+                "system_utterance": "To confirm, you want 2 tickets to see Bakit lahat ng guwapo may boyfriend?! at Century at Pacific Commons at 8:00 pm base_date_plus_2, right?",
+                "user_utterance": "yes 2 tickets for bakit lahat ng guwapo may boyfriend ? ! at 8 00 pm base_date_plus_2 please no , century at pacific commons will not work for me cinemark 12 downtown san mateo theatre"
+            },
+            {
+                "database_state": {
+                    "scores": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "dialogue_state": {
+                    "date": "base_date_plus_2",
+                    "movie": "Bakit_lahat_ng_guwapo_may_boyfriend?!",
+                    "num_tickets": "2",
+                    "theatre_name": "Century_at_Pacific_Commons",
+                    "time": "8:00_pm"
+                },
+                "system_acts": [
+                    {
+                        "name": "confirm",
+                        "slot_values": {
+                            "date": "base_date_plus_2",
+                            "movie": "Bakit_lahat_ng_guwapo_may_boyfriend?!",
+                            "num_tickets": "2",
+                            "theatre_name": "Century_at_Pacific_Commons",
+                            "time": "8:00_pm"
+                        }
+                    }
+                ],
+                "system_utterance": "To confirm, you want 2 tickets to see Bakit lahat ng guwapo may boyfriend?! at Century at Pacific Commons at 8:00 pm base_date_plus_2, right?",
+                "user_utterance": "yes"
+            },
+            {
+                "database_state": {
+                    "scores": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "dialogue_state": {
+                    "date": "base_date_plus_2",
+                    "movie": "Bakit_lahat_ng_guwapo_may_boyfriend?!",
+                    "num_tickets": "2",
+                    "theatre_name": "Century_at_Pacific_Commons",
+                    "time": "8:00_pm"
+                },
+                "system_acts": [
+                    {
+                        "name": "notify_success",
+                        "slot_values": {
+                            "date": "base_date_plus_2",
+                            "movie": "Bakit_lahat_ng_guwapo_may_boyfriend?!",
+                            "num_tickets": "2",
+                            "theatre_name": "Century_at_Pacific_Commons",
+                            "time": "8:00_pm"
+                        }
+                    },
+                    {
+                        "name": "request_more"
+                    }
+                ],
+                "system_utterance": "I just bought you 2 tickets to see Bakit lahat ng guwapo may boyfriend?! at Century at Pacific Commons at 8:00 pm base_date_plus_2. Is there anything else I can do for you?",
+                "user_utterance": "see ya"
+            }
+        ]
+    },
+    {
+        "dialogue_id": "sim_movies_dev_000001",
+        "turns": [
+            {
+                "database_state": {
+                    "has_more_results": true,
+                    "scores": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                },
+                "dialogue_state": {
+                    "movie": "Aquarius",
+                    "theatre_name": "CineLux_Plaza_Theatre",
+                    "time": "DontCare"
+                },
+                "system_acts": [
+                    {
+                        "name": "greeting"
+                    }
+                ],
+                "system_utterance": "Hi, how can I help you?",
+                "user_utterance": "you want me to buy movie tickets for aquarius showing at cinelux plaza theatre ? . any time would work for me ."
+            },
+            {
+                "database_state": {
+                    "scores": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "dialogue_state": {
+                    "date": "base_date_plus_0",
+                    "movie": "Aquarius",
+                    "num_tickets": "3",
+                    "theatre_name": "CineLux_Plaza_Theatre",
+                    "time": "DontCare"
+                },
+                "system_acts": [
+                    {
+                        "name": "impl_confirm",
+                        "slot_values": {
+                            "movie": "Aquarius",
+                            "theatre_name": "CineLux_Plaza_Theatre"
+                        }
+                    },
+                    {
+                        "name": "request",
+                        "slot_values": {
+                            "date": "REQUESTED"
+                        }
+                    }
+                ],
+                "system_utterance": "Sure, tickets for Aquarius at CineLux Plaza Theatre. What day would you prefer?",
+                "user_utterance": "3 tickets for base_date_plus_0"
+            },
+            {
+                "database_state": {
+                    "scores": [
+                        1.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "dialogue_state": {
+                    "date": "base_date_plus_0",
+                    "movie": "Aquarius",
+                    "num_tickets": "3",
+                    "theatre_name": "CineLux_Plaza_Theatre",
+                    "time": "DontCare"
+                },
+                "system_acts": [
+                    {
+                        "name": "impl_confirm",
+                        "slot_values": {
+                            "num_tickets": "3"
+                        }
+                    },
+                    {
+                        "name": "offer",
+                        "slot_values": {
+                            "time": "2:00_pm"
+                        }
+                    }
+                ],
+                "system_utterance": "Ok, 3 tickets. Would 2:00 pm work for you?",
+                "user_utterance": "no"
+            },
+            {
+                "database_state": {
+                    "scores": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "dialogue_state": {
+                    "date": "base_date_plus_0",
+                    "movie": "Aquarius",
+                    "num_tickets": "3",
+                    "theatre_name": "CineLux_Plaza_Theatre",
+                    "time": "8:00_pm"
+                },
+                "system_acts": [
+                    {
+                        "name": "offer",
+                        "slot_values": {
+                            "time": "8:00_pm"
+                        }
+                    }
+                ],
+                "system_utterance": "Would 8:00 pm work for you?",
+                "user_utterance": "yes , 8 00 pm ."
+            },
+            {
+                "database_state": {
+                    "scores": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "dialogue_state": {
+                    "date": "base_date_plus_0",
+                    "movie": "Aquarius",
+                    "num_tickets": "3",
+                    "theatre_name": "CineLux_Plaza_Theatre",
+                    "time": "8:00_pm"
+                },
+                "system_acts": [
+                    {
+                        "name": "confirm",
+                        "slot_values": {
+                            "date": "base_date_plus_0",
+                            "movie": "Aquarius",
+                            "num_tickets": "3",
+                            "theatre_name": "CineLux_Plaza_Theatre",
+                            "time": "8:00_pm"
+                        }
+                    }
+                ],
+                "system_utterance": "To confirm, you want 3 tickets to see Aquarius at CineLux Plaza Theatre at 8:00 pm base_date_plus_0, right?",
+                "user_utterance": "yep"
+            },
+            {
+                "database_state": {
+                    "scores": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "dialogue_state": {
+                    "date": "base_date_plus_0",
+                    "movie": "Aquarius",
+                    "num_tickets": "3",
+                    "theatre_name": "CineLux_Plaza_Theatre",
+                    "time": "8:00_pm"
+                },
+                "system_acts": [
+                    {
+                        "name": "notify_success",
+                        "slot_values": {
+                            "date": "base_date_plus_0",
+                            "movie": "Aquarius",
+                            "num_tickets": "3",
+                            "theatre_name": "CineLux_Plaza_Theatre",
+                            "time": "8:00_pm"
+                        }
+                    },
+                    {
+                        "name": "request_more"
+                    }
+                ],
+                "system_utterance": "I just bought you 3 tickets to see Aquarius at CineLux Plaza Theatre at 8:00 pm base_date_plus_0. Is there anything else I can do for you?",
+                "user_utterance": "see ya ."
+            }
+        ]
+    },
+    {
+        "dialogue_id": "sim_movies_dev_000002",
+        "turns": [
+            {
+                "database_state": {
+                    "has_more_results": true,
+                    "scores": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                },
+                "dialogue_state": {
+                    "num_tickets": "3"
+                },
+                "system_acts": [
+                    {
+                        "name": "greeting"
+                    }
+                ],
+                "system_utterance": "Hi, how can I help you?",
+                "user_utterance": "hello . i want to buy 3 movie tickets ."
+            },
+            {
+                "database_state": {
+                    "has_more_results": true,
+                    "scores": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                },
+                "dialogue_state": {
+                    "date": "DontCare",
+                    "num_tickets": "3",
+                    "time": "6:00_pm"
+                },
+                "system_acts": [
+                    {
+                        "name": "impl_confirm",
+                        "slot_values": {
+                            "num_tickets": "3"
+                        }
+                    },
+                    {
+                        "name": "request",
+                        "slot_values": {
+                            "date": "REQUESTED",
+                            "time": "REQUESTED"
+                        }
+                    }
+                ],
+                "system_utterance": "Ok, 3 tickets. What time and day would you prefer?",
+                "user_utterance": "6 00 pm , please . . any day is ok ."
+            },
+            {
+                "database_state": {
+                    "has_more_results": true,
+                    "scores": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                },
+                "dialogue_state": {
+                    "date": "DontCare",
+                    "num_tickets": "3",
+                    "theatre_name": "CineLux_Plaza_Theatre",
+                    "time": "6:00_pm"
+                },
+                "system_acts": [
+                    {
+                        "name": "ack"
+                    },
+                    {
+                        "name": "request",
+                        "slot_values": {
+                            "theatre_name": "REQUESTED"
+                        }
+                    }
+                ],
+                "system_utterance": "Ok. Which movie theater would you prefer?",
+                "user_utterance": "cinelux plaza theatre"
+            },
+            {
+                "database_state": {
+                    "has_more_results": true,
+                    "scores": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                },
+                "dialogue_state": {
+                    "date": "DontCare",
+                    "movie": "DontCare",
+                    "num_tickets": "3",
+                    "theatre_name": "CineLux_Plaza_Theatre",
+                    "time": "6:00_pm"
+                },
+                "system_acts": [
+                    {
+                        "name": "ack"
+                    },
+                    {
+                        "name": "request",
+                        "slot_values": {
+                            "movie": "REQUESTED"
+                        }
+                    }
+                ],
+                "system_utterance": "Ok. Which movie would you like to see?",
+                "user_utterance": "any movie would be fine ."
+            },
+            {
+                "database_state": {
+                    "scores": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "dialogue_state": {
+                    "date": "base_date_plus_0",
+                    "movie": "Disney_Junior_at_the_Movies_with_Mickey!",
+                    "num_tickets": "3",
+                    "theatre_name": "CineLux_Plaza_Theatre",
+                    "time": "6:00_pm"
+                },
+                "system_acts": [
+                    {
+                        "name": "ack"
+                    },
+                    {
+                        "name": "offer",
+                        "slot_values": {
+                            "date": "base_date_plus_0",
+                            "movie": "Disney_Junior_at_the_Movies_with_Mickey!",
+                            "time": "6:00_pm"
+                        }
+                    }
+                ],
+                "system_utterance": "Ok. Would you like to see Disney Junior at the Movies with Mickey! at 6:00 pm base_date_plus_0?",
+                "user_utterance": "thats correct"
+            },
+            {
+                "database_state": {
+                    "scores": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "dialogue_state": {
+                    "date": "base_date_plus_0",
+                    "movie": "Disney_Junior_at_the_Movies_with_Mickey!",
+                    "num_tickets": "3",
+                    "theatre_name": "CineLux_Plaza_Theatre",
+                    "time": "6:00_pm"
+                },
+                "system_acts": [
+                    {
+                        "name": "confirm",
+                        "slot_values": {
+                            "date": "base_date_plus_0",
+                            "movie": "Disney_Junior_at_the_Movies_with_Mickey!",
+                            "num_tickets": "3",
+                            "theatre_name": "CineLux_Plaza_Theatre",
+                            "time": "6:00_pm"
+                        }
+                    }
+                ],
+                "system_utterance": "To confirm, you want 3 tickets to see Disney Junior at the Movies with Mickey! at CineLux Plaza Theatre at 6:00 pm base_date_plus_0, right?",
+                "user_utterance": "yes"
+            },
+            {
+                "database_state": {
+                    "scores": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "dialogue_state": {
+                    "date": "base_date_plus_0",
+                    "movie": "Disney_Junior_at_the_Movies_with_Mickey!",
+                    "num_tickets": "3",
+                    "theatre_name": "CineLux_Plaza_Theatre",
+                    "time": "6:00_pm"
+                },
+                "system_acts": [
+                    {
+                        "name": "notify_success",
+                        "slot_values": {
+                            "date": "base_date_plus_0",
+                            "movie": "Disney_Junior_at_the_Movies_with_Mickey!",
+                            "num_tickets": "3",
+                            "theatre_name": "CineLux_Plaza_Theatre",
+                            "time": "6:00_pm"
+                        }
+                    },
+                    {
+                        "name": "request_more"
+                    }
+                ],
+                "system_utterance": "I just bought you 3 tickets to see Disney Junior at the Movies with Mickey! at CineLux Plaza Theatre at 6:00 pm base_date_plus_0. Is there anything else I can do for you?",
+                "user_utterance": "thanks . bye"
+            }
+        ]
+    },
+    {
+        "dialogue_id": "sim_movies_dev_000003",
+        "turns": [
+            {
+                "database_state": {
+                    "has_more_results": true,
+                    "scores": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                },
+                "dialogue_state": {
+                    "movie": "The_Girl_on_the_Train",
+                    "theatre_name": "Cinemark_Redwood_Downtown_20_and_XD",
+                    "time": "DontCare"
+                },
+                "system_acts": [
+                    {
+                        "name": "greeting"
+                    }
+                ],
+                "system_utterance": "Hi, how can I help you?",
+                "user_utterance": "i need to buy tickets to see the girl on the train at cinemark redwood downtown 20 and xd . . i 'm flexible on the time ."
+            },
+            {
+                "database_state": {
+                    "has_more_results": true,
+                    "scores": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                },
+                "dialogue_state": {
+                    "movie": "The_Girl_on_the_Train",
+                    "theatre_name": "Cinemark_Redwood_Downtown_20_and_XD",
+                    "time": "DontCare"
+                },
+                "system_acts": [
+                    {
+                        "name": "impl_confirm",
+                        "slot_values": {
+                            "movie": "The_Girl_on_the_Train",
+                            "theatre_name": "Cinemark_Redwood_Downtown_20_and_XD"
+                        }
+                    },
+                    {
+                        "name": "request",
+                        "slot_values": {
+                            "date": "REQUESTED"
+                        }
+                    }
+                ],
+                "system_utterance": "Sure, tickets for The Girl on the Train at Cinemark Redwood Downtown 20 and XD. What day would you prefer?",
+                "user_utterance": "what did you just say ?"
+            },
+            {
+                "database_state": {
+                    "scores": [
+                        1.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "dialogue_state": {
+                    "date": "base_date_plus_2",
+                    "movie": "The_Girl_on_the_Train",
+                    "num_tickets": "4",
+                    "theatre_name": "Cinemark_Redwood_Downtown_20_and_XD",
+                    "time": "DontCare"
+                },
+                "system_acts": [
+                    {
+                        "name": "impl_confirm",
+                        "slot_values": {
+                            "movie": "The_Girl_on_the_Train",
+                            "theatre_name": "Cinemark_Redwood_Downtown_20_and_XD"
+                        }
+                    },
+                    {
+                        "name": "request",
+                        "slot_values": {
+                            "date": "REQUESTED"
+                        }
+                    }
+                ],
+                "system_utterance": "Sure, tickets for The Girl on the Train at Cinemark Redwood Downtown 20 and XD. What day would you prefer?",
+                "user_utterance": "4 for base_date_plus_2 ."
+            },
+            {
+                "database_state": {
+                    "scores": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "dialogue_state": {
+                    "date": "base_date_plus_2",
+                    "movie": "The_Girl_on_the_Train",
+                    "num_tickets": "4",
+                    "theatre_name": "Cinemark_Redwood_Downtown_20_and_XD",
+                    "time": "12:00_pm"
+                },
+                "system_acts": [
+                    {
+                        "name": "impl_confirm",
+                        "slot_values": {
+                            "num_tickets": "4"
+                        }
+                    },
+                    {
+                        "name": "offer",
+                        "slot_values": {
+                            "time": "12:00_pm"
+                        }
+                    }
+                ],
+                "system_utterance": "Ok, 4 tickets. Would 12:00 pm work for you?",
+                "user_utterance": "yes"
+            },
+            {
+                "database_state": {
+                    "scores": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "dialogue_state": {
+                    "date": "base_date_plus_2",
+                    "movie": "The_Girl_on_the_Train",
+                    "num_tickets": "4",
+                    "theatre_name": "Cinemark_Redwood_Downtown_20_and_XD",
+                    "time": "12:00_pm"
+                },
+                "system_acts": [
+                    {
+                        "name": "confirm",
+                        "slot_values": {
+                            "date": "base_date_plus_2",
+                            "movie": "The_Girl_on_the_Train",
+                            "num_tickets": "4",
+                            "theatre_name": "Cinemark_Redwood_Downtown_20_and_XD",
+                            "time": "12:00_pm"
+                        }
+                    }
+                ],
+                "system_utterance": "That is 4 tickets to see The Girl on the Train at Cinemark Redwood Downtown 20 and XD at 12:00 pm base_date_plus_2, right?",
+                "user_utterance": "yes"
+            },
+            {
+                "database_state": {
+                    "scores": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "dialogue_state": {
+                    "date": "base_date_plus_2",
+                    "movie": "The_Girl_on_the_Train",
+                    "num_tickets": "4",
+                    "theatre_name": "Cinemark_Redwood_Downtown_20_and_XD",
+                    "time": "12:00_pm"
+                },
+                "system_acts": [
+                    {
+                        "name": "notify_success",
+                        "slot_values": {
+                            "date": "base_date_plus_2",
+                            "movie": "The_Girl_on_the_Train",
+                            "num_tickets": "4",
+                            "theatre_name": "Cinemark_Redwood_Downtown_20_and_XD",
+                            "time": "12:00_pm"
+                        }
+                    },
+                    {
+                        "name": "request_more"
+                    }
+                ],
+                "system_utterance": "I just bought you 4 tickets to see The Girl on the Train at Cinemark Redwood Downtown 20 and XD at 12:00 pm base_date_plus_2. Is there anything else I can do for you?",
+                "user_utterance": "good bye ."
+            }
+        ]
+    },
+    {
+        "dialogue_id": "sim_movies_dev_000004",
+        "turns": [
+            {
+                "database_state": {
+                    "has_more_results": true,
+                    "scores": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                },
+                "dialogue_state": {
+                    "date": "base_date_plus_2"
+                },
+                "system_acts": [
+                    {
+                        "name": "greeting"
+                    }
+                ],
+                "system_utterance": "Hi, how can I help you?",
+                "user_utterance": "can you get tickets for me for a movie showing on base_date_plus_2 ?"
+            },
+            {
+                "database_state": {
+                    "has_more_results": true,
+                    "scores": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                },
+                "dialogue_state": {
+                    "date": "base_date_plus_2",
+                    "time": "6:00_pm"
+                },
+                "system_acts": [
+                    {
+                        "name": "impl_confirm",
+                        "slot_values": {
+                            "date": "base_date_plus_2"
+                        }
+                    },
+                    {
+                        "name": "request",
+                        "slot_values": {
+                            "time": "REQUESTED"
+                        }
+                    }
+                ],
+                "system_utterance": "OK, looking for shows on base_date_plus_2. What time would work for you?",
+                "user_utterance": "how about 6 00 pm then"
+            },
+            {
+                "database_state": {
+                    "has_more_results": true,
+                    "scores": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                },
+                "dialogue_state": {
+                    "date": "base_date_plus_2",
+                    "theatre_name": "DontCare",
+                    "time": "6:00_pm"
+                },
+                "system_acts": [
+                    {
+                        "name": "request",
+                        "slot_values": {
+                            "theatre_name": "REQUESTED"
+                        }
+                    }
+                ],
+                "system_utterance": "Which movie theater would you prefer?",
+                "user_utterance": "any movie theater would be fine ."
+            },
+            {
+                "database_state": {
+                    "has_more_results": true,
+                    "scores": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                },
+                "dialogue_state": {
+                    "date": "base_date_plus_2",
+                    "movie": "Almost_Christmas",
+                    "theatre_name": "DontCare",
+                    "time": "6:00_pm"
+                },
+                "system_acts": [
+                    {
+                        "name": "ack"
+                    },
+                    {
+                        "name": "request",
+                        "slot_values": {
+                            "movie": "REQUESTED"
+                        }
+                    }
+                ],
+                "system_utterance": "Ok. Which movie would you like to see?",
+                "user_utterance": "almost christmas"
+            },
+            {
+                "database_state": {
+                    "has_more_results": true,
+                    "scores": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                },
+                "dialogue_state": {
+                    "date": "base_date_plus_2",
+                    "movie": "Almost_Christmas",
+                    "num_tickets": "2",
+                    "theatre_name": "DontCare",
+                    "time": "6:00_pm"
+                },
+                "system_acts": [
+                    {
+                        "name": "ack"
+                    },
+                    {
+                        "name": "request",
+                        "slot_values": {
+                            "num_tickets": "REQUESTED"
+                        }
+                    }
+                ],
+                "system_utterance": "Sure. How many tickets would you want?",
+                "user_utterance": "2 tickets please ."
+            },
+            {
+                "database_state": {
+                    "has_more_results": true,
+                    "scores": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                },
+                "dialogue_state": {
+                    "date": "base_date_plus_2",
+                    "movie": "Almost_Christmas",
+                    "num_tickets": "2",
+                    "theatre_name": "DontCare",
+                    "time": "6:00_pm"
+                },
+                "system_acts": [
+                    {
+                        "name": "ack"
+                    },
+                    {
+                        "name": "offer",
+                        "slot_values": {
+                            "theatre_name": "AMC_Mercado_20",
+                            "time": "6:00_pm"
+                        }
+                    }
+                ],
+                "system_utterance": "Sure. Would you like to see it at 6:00 pm at AMC Mercado 20?",
+                "user_utterance": "can you help me with what to say ?"
+            },
+            {
+                "database_state": {
+                    "has_more_results": true,
+                    "scores": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                },
+                "dialogue_state": {
+                    "date": "base_date_plus_2",
+                    "movie": "Almost_Christmas",
+                    "num_tickets": "2",
+                    "theatre_name": "DontCare",
+                    "time": "6:00_pm"
+                },
+                "system_acts": [
+                    {
+                        "name": "ack"
+                    },
+                    {
+                        "name": "offer",
+                        "slot_values": {
+                            "theatre_name": "AMC_Mercado_20",
+                            "time": "6:00_pm"
+                        }
+                    }
+                ],
+                "system_utterance": "Sure. Would you like to see it at 6:00 pm at AMC Mercado 20?",
+                "user_utterance": "what ?"
+            },
+            {
+                "database_state": {
+                    "scores": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "dialogue_state": {
+                    "date": "base_date_plus_2",
+                    "movie": "Almost_Christmas",
+                    "num_tickets": "2",
+                    "theatre_name": "AMC_Mercado_20",
+                    "time": "6:00_pm"
+                },
+                "system_acts": [
+                    {
+                        "name": "ack"
+                    },
+                    {
+                        "name": "offer",
+                        "slot_values": {
+                            "theatre_name": "AMC_Mercado_20",
+                            "time": "6:00_pm"
+                        }
+                    }
+                ],
+                "system_utterance": "Sure. Would you like to see it at 6:00 pm at AMC Mercado 20?",
+                "user_utterance": "yes"
+            },
+            {
+                "database_state": {
+                    "scores": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "dialogue_state": {
+                    "date": "base_date_plus_2",
+                    "movie": "Almost_Christmas",
+                    "num_tickets": "2",
+                    "theatre_name": "AMC_Mercado_20",
+                    "time": "6:00_pm"
+                },
+                "system_acts": [
+                    {
+                        "name": "confirm",
+                        "slot_values": {
+                            "date": "base_date_plus_2",
+                            "movie": "Almost_Christmas",
+                            "num_tickets": "2",
+                            "theatre_name": "AMC_Mercado_20",
+                            "time": "6:00_pm"
+                        }
+                    }
+                ],
+                "system_utterance": "To confirm, you want 2 tickets to see Almost Christmas at AMC Mercado 20 at 6:00 pm base_date_plus_2, right?",
+                "user_utterance": "yes 2 tickets for almost christmas at 6 00 pm base_date_plus_2 at amc mercado 20 please ."
+            },
+            {
+                "database_state": {
+                    "scores": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "dialogue_state": {
+                    "date": "base_date_plus_2",
+                    "movie": "Almost_Christmas",
+                    "num_tickets": "2",
+                    "theatre_name": "AMC_Mercado_20",
+                    "time": "6:00_pm"
+                },
+                "system_acts": [
+                    {
+                        "name": "notify_success",
+                        "slot_values": {
+                            "date": "base_date_plus_2",
+                            "movie": "Almost_Christmas",
+                            "num_tickets": "2",
+                            "theatre_name": "AMC_Mercado_20",
+                            "time": "6:00_pm"
+                        }
+                    },
+                    {
+                        "name": "request_more"
+                    }
+                ],
+                "system_utterance": "I just bought you 2 tickets to see Almost Christmas at AMC Mercado 20 at 6:00 pm base_date_plus_2. Is there anything else I can do for you?",
+                "user_utterance": "thank you . goodbye"
+            }
+        ]
+    }
+]

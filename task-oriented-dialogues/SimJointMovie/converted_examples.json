@@ -1,0 +1,3034 @@
+{
+    "SimJointMovie--train--1": {
+        "original dialog id": "movies_00000004",
+        "dialog index": 1,
+        "original dialog info": {
+            "slots and values": {
+                "movie": {
+                    "time": [
+                        "8 pm",
+                        "8:00 pm",
+                        "7.30 pm",
+                        "6 pm",
+                        "6.15 pm",
+                        "10:00 pm",
+                        "7 pm",
+                        "5 pm",
+                        "1 pm",
+                        "8.30 pm",
+                        "6:00 pm",
+                        "12 pm",
+                        "4:00 pm",
+                        "dontcare",
+                        "2 pm",
+                        "7.15 pm",
+                        "6.30 pm"
+                    ],
+                    "num_tickets": [
+                        "1",
+                        "4",
+                        "6",
+                        "3",
+                        "5",
+                        "2"
+                    ],
+                    "movie": [
+                        "sahasam swasaga sagipo",
+                        "mr. donkey",
+                        "storks",
+                        "achcham yenbadhu madamaiyada",
+                        "the magnificent seven",
+                        "storks",
+                        "storks",
+                        "gimme danger",
+                        "jack reacher",
+                        "max steel"
+                    ],
+                    "date": [
+                        "wednesday",
+                        "tomorrow",
+                        "tonight",
+                        "friday",
+                        "tuesday",
+                        "next monday",
+                        "sunday",
+                        "today",
+                        "saturday"
+                    ],
+                    "theatre_name": [
+                        "century 25 union city and xd",
+                        "amc newpark 12",
+                        "amc cupertino square 16",
+                        "shoreline theater",
+                        "camera 7",
+                        "angelika",
+                        "century cinemas 16",
+                        "amc mercado",
+                        "cinemark 12 downtown san mateo",
+                        "amc saratoga 14",
+                        "amc mercado 20",
+                        "century 20 great mall",
+                        "century at pacific commons",
+                        "cinelux plaza theatre",
+                        "cinemark redwood downtown 20 and xd",
+                        "aquarius",
+                        "lincoln square cinemas",
+                        "cinearts @ santana row",
+                        "cinelux almaden cafe & lounge",
+                        "the stanford theater"
+                    ]
+                }
+            },
+            "intents": {
+                "movie": [
+                    "GREETING",
+                    "OTHER",
+                    "CANT_UNDERSTAND",
+                    "NEGATE",
+                    "THANK_YOU",
+                    "GOOD_BYE",
+                    "INFORM",
+                    "AFFIRM"
+                ]
+            }
+        },
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "i would like to buy movie tickets for 6:00 pm",
+                "system response": "which movie , and how many tickets do you need ?",
+                "dialog history": "",
+                "original user side information": {
+                    "dialogue_state": [
+                        {
+                            "slot": "time",
+                            "value": "6:00 pm"
+                        }
+                    ],
+                    "user_acts": [
+                        {
+                            "type": "INFORM"
+                        }
+                    ],
+                    "user_intents": [
+                        "BUY_MOVIE_TICKETS"
+                    ],
+                    "user_utterance": {
+                        "slots": [
+                            {
+                                "exclusive_end": 10,
+                                "slot": "time",
+                                "start": 8
+                            }
+                        ],
+                        "text": "i would like to buy movie tickets for 6:00 pm",
+                        "tokens": [
+                            "i",
+                            "would",
+                            "like",
+                            "to",
+                            "buy",
+                            "movie",
+                            "tickets",
+                            "for",
+                            "6:00",
+                            "pm"
+                        ]
+                    }
+                },
+                "original system side information": {
+                    "system_acts": [
+                        {
+                            "slot": "movie",
+                            "type": "REQUEST"
+                        },
+                        {
+                            "slot": "num_tickets",
+                            "type": "REQUEST"
+                        }
+                    ],
+                    "system_utterance": {
+                        "slots": [],
+                        "text": "which movie , and how many tickets do you need ?",
+                        "tokens": [
+                            "which",
+                            "movie",
+                            ",",
+                            "and",
+                            "how",
+                            "many",
+                            "tickets",
+                            "do",
+                            "you",
+                            "need",
+                            "?"
+                        ]
+                    }
+                },
+                "dst": "movie time 6:00 pm",
+                "dst accumulated": "movie time 6:00 pm",
+                "intent": "INFORM",
+                "external knowledge non-flat": {
+                    "metadata": {
+                        "system_acts": [
+                            {
+                                "slot": "movie",
+                                "type": "REQUEST"
+                            },
+                            {
+                                "slot": "num_tickets",
+                                "type": "REQUEST"
+                            }
+                        ]
+                    }
+                },
+                "external knowledge": "System acts: [{'slot': 'movie', 'type': 'REQUEST'}, {'slot': 'num_tickets', 'type': 'REQUEST'}]"
+            },
+            {
+                "turn id": 2,
+                "user utterance": "i need 3 tickets for the movie called a man called ove",
+                "system response": "which date and which movie theater would you like ?",
+                "dialog history": "<USER> i would like to buy movie tickets for 6:00 pm <SYSTEM> which movie , and how many tickets do you need ?",
+                "original user side information": {
+                    "dialogue_state": [
+                        {
+                            "slot": "num_tickets",
+                            "value": "3"
+                        },
+                        {
+                            "slot": "time",
+                            "value": "6:00 pm"
+                        },
+                        {
+                            "slot": "movie",
+                            "value": "a man called ove"
+                        }
+                    ],
+                    "user_acts": [
+                        {
+                            "type": "INFORM"
+                        }
+                    ],
+                    "user_utterance": {
+                        "slots": [
+                            {
+                                "exclusive_end": 3,
+                                "slot": "num_tickets",
+                                "start": 2
+                            },
+                            {
+                                "exclusive_end": 12,
+                                "slot": "movie",
+                                "start": 8
+                            }
+                        ],
+                        "text": "i need 3 tickets for the movie called a man called ove",
+                        "tokens": [
+                            "i",
+                            "need",
+                            "3",
+                            "tickets",
+                            "for",
+                            "the",
+                            "movie",
+                            "called",
+                            "a",
+                            "man",
+                            "called",
+                            "ove"
+                        ]
+                    }
+                },
+                "original system side information": {
+                    "system_acts": [
+                        {
+                            "slot": "theatre_name",
+                            "type": "REQUEST"
+                        },
+                        {
+                            "slot": "date",
+                            "type": "REQUEST"
+                        }
+                    ],
+                    "system_utterance": {
+                        "slots": [],
+                        "text": "which date and which movie theater would you like ?",
+                        "tokens": [
+                            "which",
+                            "date",
+                            "and",
+                            "which",
+                            "movie",
+                            "theater",
+                            "would",
+                            "you",
+                            "like",
+                            "?"
+                        ]
+                    }
+                },
+                "dst": "movie num_tickets 3, movie movie a man called ove",
+                "dst accumulated": "movie time 6:00 pm, movie num_tickets 3, movie movie a man called ove",
+                "intent": "INFORM",
+                "external knowledge non-flat": {
+                    "metadata": {
+                        "system_acts": [
+                            {
+                                "slot": "theatre_name",
+                                "type": "REQUEST"
+                            },
+                            {
+                                "slot": "date",
+                                "type": "REQUEST"
+                            }
+                        ]
+                    }
+                },
+                "external knowledge": "System acts: [{'slot': 'theatre_name', 'type': 'REQUEST'}, {'slot': 'date', 'type': 'REQUEST'}]"
+            },
+            {
+                "turn id": 3,
+                "user utterance": "the date is this wednesday at the camera 7",
+                "system response": "please confirm that the time is 6:00 pm",
+                "dialog history": "<USER> i would like to buy movie tickets for 6:00 pm <SYSTEM> which movie , and how many tickets do you need ? <USER> i need 3 tickets for the movie called a man called ove <SYSTEM> which date and which movie theater would you like ?",
+                "original user side information": {
+                    "dialogue_state": [
+                        {
+                            "slot": "num_tickets",
+                            "value": "3"
+                        },
+                        {
+                            "slot": "time",
+                            "value": "6:00 pm"
+                        },
+                        {
+                            "slot": "date",
+                            "value": "wednesday"
+                        },
+                        {
+                            "slot": "theatre_name",
+                            "value": "camera 7"
+                        },
+                        {
+                            "slot": "movie",
+                            "value": "a man called ove"
+                        }
+                    ],
+                    "user_acts": [
+                        {
+                            "type": "INFORM"
+                        }
+                    ],
+                    "user_utterance": {
+                        "slots": [
+                            {
+                                "exclusive_end": 5,
+                                "slot": "date",
+                                "start": 4
+                            },
+                            {
+                                "exclusive_end": 9,
+                                "slot": "theatre_name",
+                                "start": 7
+                            }
+                        ],
+                        "text": "the date is this wednesday at the camera 7",
+                        "tokens": [
+                            "the",
+                            "date",
+                            "is",
+                            "this",
+                            "wednesday",
+                            "at",
+                            "the",
+                            "camera",
+                            "7"
+                        ]
+                    }
+                },
+                "original system side information": {
+                    "system_acts": [
+                        {
+                            "slot": "time",
+                            "type": "CONFIRM",
+                            "value": "6:00 pm"
+                        }
+                    ],
+                    "system_utterance": {
+                        "slots": [
+                            {
+                                "exclusive_end": 8,
+                                "slot": "time",
+                                "start": 6
+                            }
+                        ],
+                        "text": "please confirm that the time is 6:00 pm",
+                        "tokens": [
+                            "please",
+                            "confirm",
+                            "that",
+                            "the",
+                            "time",
+                            "is",
+                            "6:00",
+                            "pm"
+                        ]
+                    }
+                },
+                "dst": "movie date wednesday, movie theatre_name camera 7",
+                "dst accumulated": "movie time 6:00 pm, movie num_tickets 3, movie movie a man called ove, movie date wednesday, movie theatre_name camera 7",
+                "intent": "INFORM",
+                "external knowledge non-flat": {
+                    "metadata": {
+                        "system_acts": [
+                            {
+                                "slot": "time",
+                                "type": "CONFIRM",
+                                "value": "6:00 pm"
+                            }
+                        ]
+                    }
+                },
+                "external knowledge": "System acts: [{'slot': 'time', 'type': 'CONFIRM', 'value': '6:00 pm'}]"
+            },
+            {
+                "turn id": 4,
+                "user utterance": "yes that ' s correct .",
+                "system response": "purchase is confirmed for march 08 at 6:00 pm to see a man called ove at camera 7",
+                "dialog history": "<USER> i would like to buy movie tickets for 6:00 pm <SYSTEM> which movie , and how many tickets do you need ? <USER> i need 3 tickets for the movie called a man called ove <SYSTEM> which date and which movie theater would you like ? <USER> the date is this wednesday at the camera 7 <SYSTEM> please confirm that the time is 6:00 pm",
+                "original user side information": {
+                    "dialogue_state": [
+                        {
+                            "slot": "num_tickets",
+                            "value": "3"
+                        },
+                        {
+                            "slot": "time",
+                            "value": "6:00 pm"
+                        },
+                        {
+                            "slot": "date",
+                            "value": "wednesday"
+                        },
+                        {
+                            "slot": "movie",
+                            "value": "a man called ove"
+                        },
+                        {
+                            "slot": "theatre_name",
+                            "value": "camera 7"
+                        }
+                    ],
+                    "user_acts": [
+                        {
+                            "type": "AFFIRM"
+                        }
+                    ],
+                    "user_utterance": {
+                        "slots": [],
+                        "text": "yes that ' s correct .",
+                        "tokens": [
+                            "yes",
+                            "that",
+                            "'",
+                            "s",
+                            "correct",
+                            "."
+                        ]
+                    }
+                },
+                "original system side information": {
+                    "system_acts": [
+                        {
+                            "slot": "theatre_name",
+                            "type": "NOTIFY_SUCCESS",
+                            "value": "camera 7"
+                        },
+                        {
+                            "slot": "time",
+                            "type": "NOTIFY_SUCCESS",
+                            "value": "6:00 pm"
+                        },
+                        {
+                            "slot": "movie",
+                            "type": "NOTIFY_SUCCESS",
+                            "value": "a man called ove"
+                        },
+                        {
+                            "slot": "date",
+                            "type": "NOTIFY_SUCCESS",
+                            "value": "march 08"
+                        }
+                    ],
+                    "system_utterance": {
+                        "slots": [
+                            {
+                                "exclusive_end": 6,
+                                "slot": "date",
+                                "start": 4
+                            },
+                            {
+                                "exclusive_end": 9,
+                                "slot": "time",
+                                "start": 7
+                            },
+                            {
+                                "exclusive_end": 15,
+                                "slot": "movie",
+                                "start": 11
+                            },
+                            {
+                                "exclusive_end": 18,
+                                "slot": "theatre_name",
+                                "start": 16
+                            }
+                        ],
+                        "text": "purchase is confirmed for march 08 at 6:00 pm to see a man called ove at camera 7",
+                        "tokens": [
+                            "purchase",
+                            "is",
+                            "confirmed",
+                            "for",
+                            "march",
+                            "08",
+                            "at",
+                            "6:00",
+                            "pm",
+                            "to",
+                            "see",
+                            "a",
+                            "man",
+                            "called",
+                            "ove",
+                            "at",
+                            "camera",
+                            "7"
+                        ]
+                    }
+                },
+                "dst": "",
+                "dst accumulated": "movie time 6:00 pm, movie num_tickets 3, movie movie a man called ove, movie date wednesday, movie theatre_name camera 7",
+                "intent": "AFFIRM",
+                "external knowledge non-flat": {
+                    "metadata": {
+                        "system_acts": [
+                            {
+                                "slot": "theatre_name",
+                                "type": "NOTIFY_SUCCESS",
+                                "value": "camera 7"
+                            },
+                            {
+                                "slot": "time",
+                                "type": "NOTIFY_SUCCESS",
+                                "value": "6:00 pm"
+                            },
+                            {
+                                "slot": "movie",
+                                "type": "NOTIFY_SUCCESS",
+                                "value": "a man called ove"
+                            },
+                            {
+                                "slot": "date",
+                                "type": "NOTIFY_SUCCESS",
+                                "value": "march 08"
+                            }
+                        ]
+                    }
+                },
+                "external knowledge": "System acts: [{'slot': 'theatre_name', 'type': 'NOTIFY_SUCCESS', 'value': 'camera 7'}, {'slot': 'time', 'type': 'NOTIFY_SUCCESS', 'value': '6:00 pm'}, {'slot': 'movie', 'type': 'NOTIFY_SUCCESS', 'value': 'a man called ove'}, {'slot': 'date', 'type': 'NOTIFY_SUCCESS', 'value': 'march 08'}]"
+            },
+            {
+                "turn id": 5,
+                "user utterance": "thank you .",
+                "system response": "",
+                "dialog history": "<USER> i would like to buy movie tickets for 6:00 pm <SYSTEM> which movie , and how many tickets do you need ? <USER> i need 3 tickets for the movie called a man called ove <SYSTEM> which date and which movie theater would you like ? <USER> the date is this wednesday at the camera 7 <SYSTEM> please confirm that the time is 6:00 pm <USER> yes that ' s correct . <SYSTEM> purchase is confirmed for march 08 at 6:00 pm to see a man called ove at camera 7",
+                "original user side information": {
+                    "dialogue_state": [
+                        {
+                            "slot": "num_tickets",
+                            "value": "3"
+                        },
+                        {
+                            "slot": "time",
+                            "value": "6:00 pm"
+                        },
+                        {
+                            "slot": "date",
+                            "value": "wednesday"
+                        },
+                        {
+                            "slot": "theatre_name",
+                            "value": "camera 7"
+                        },
+                        {
+                            "slot": "movie",
+                            "value": "a man called ove"
+                        }
+                    ],
+                    "user_acts": [
+                        {
+                            "type": "THANK_YOU"
+                        }
+                    ],
+                    "user_utterance": {
+                        "slots": [],
+                        "text": "thank you .",
+                        "tokens": [
+                            "thank",
+                            "you",
+                            "."
+                        ]
+                    }
+                },
+                "original system side information": {},
+                "dst": "",
+                "dst accumulated": "movie time 6:00 pm, movie num_tickets 3, movie movie a man called ove, movie date wednesday, movie theatre_name camera 7",
+                "intent": "THANK_YOU",
+                "external knowledge non-flat": {
+                    "metadata": {
+                        "system_acts": ""
+                    }
+                },
+                "external knowledge": "System acts: "
+            }
+        ],
+        "dst knowledge": "( movie : ( time : ( 8 pm | 8:00 pm | 7.30 pm | 6 pm | 6.15 pm | 10:00 pm | 7 pm | 5 pm | 1 pm | 8.30 pm | 6:00 pm | 12 pm | 4:00 pm | dontcare | 2 pm | 7.15 pm | 6.30 pm ) | num_tickets : ( 1 | 4 | 6 | 3 | 5 | 2 ) | movie : ( sahasam swasaga sagipo | mr. donkey | storks | achcham yenbadhu madamaiyada | the magnificent seven | storks | storks | gimme danger | jack reacher | max steel ) | date : ( wednesday | tomorrow | tonight | friday | tuesday | next monday | sunday | today | saturday ) | theatre_name : ( century 25 union city and xd | amc newpark 12 | amc cupertino square 16 | shoreline theater | camera 7 | angelika | century cinemas 16 | amc mercado | cinemark 12 downtown san mateo | amc saratoga 14 | amc mercado 20 | century 20 great mall | century at pacific commons | cinelux plaza theatre | cinemark redwood downtown 20 and xd | aquarius | lincoln square cinemas | cinearts @ santana row | cinelux almaden cafe & lounge | the stanford theater )))",
+        "intent knowledge": "( movie : ( GREETING | OTHER | CANT_UNDERSTAND | NEGATE | THANK_YOU | GOOD_BYE | INFORM | AFFIRM ))",
+        "prompt": [
+            "This is a bot helping users to book a movie ticket. Given the dialog context and external database, please generate a relevant system response for the user.",
+            "This bot assists users to book a movie ticket. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
+            "This bot helps users to book a movie ticket. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
+            "The purpose of this bot is to assist users to book a movie ticket. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
+            "This bot is designed to help users book a movie ticket. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+        ]
+    },
+    "SimJointMovie--train--2": {
+        "original dialog id": "movies_00000005",
+        "dialog index": 2,
+        "original dialog info": {
+            "slots and values": {
+                "movie": {
+                    "time": [
+                        "8 pm",
+                        "8:00 pm",
+                        "7.30 pm",
+                        "6 pm",
+                        "6.15 pm",
+                        "10:00 pm",
+                        "7 pm",
+                        "5 pm",
+                        "1 pm",
+                        "8.30 pm",
+                        "6:00 pm",
+                        "12 pm",
+                        "4:00 pm",
+                        "dontcare",
+                        "2 pm",
+                        "7.15 pm",
+                        "6.30 pm"
+                    ],
+                    "num_tickets": [
+                        "1",
+                        "4",
+                        "6",
+                        "3",
+                        "5",
+                        "2"
+                    ],
+                    "movie": [
+                        "sahasam swasaga sagipo",
+                        "mr. donkey",
+                        "storks",
+                        "achcham yenbadhu madamaiyada",
+                        "the magnificent seven",
+                        "storks",
+                        "storks",
+                        "gimme danger",
+                        "jack reacher",
+                        "max steel"
+                    ],
+                    "date": [
+                        "wednesday",
+                        "tomorrow",
+                        "tonight",
+                        "friday",
+                        "tuesday",
+                        "next monday",
+                        "sunday",
+                        "today",
+                        "saturday"
+                    ],
+                    "theatre_name": [
+                        "century 25 union city and xd",
+                        "amc newpark 12",
+                        "amc cupertino square 16",
+                        "shoreline theater",
+                        "camera 7",
+                        "angelika",
+                        "century cinemas 16",
+                        "amc mercado",
+                        "cinemark 12 downtown san mateo",
+                        "amc saratoga 14",
+                        "amc mercado 20",
+                        "century 20 great mall",
+                        "century at pacific commons",
+                        "cinelux plaza theatre",
+                        "cinemark redwood downtown 20 and xd",
+                        "aquarius",
+                        "lincoln square cinemas",
+                        "cinearts @ santana row",
+                        "cinelux almaden cafe & lounge",
+                        "the stanford theater"
+                    ]
+                }
+            },
+            "intents": {
+                "movie": [
+                    "GREETING",
+                    "OTHER",
+                    "CANT_UNDERSTAND",
+                    "NEGATE",
+                    "THANK_YOU",
+                    "GOOD_BYE",
+                    "INFORM",
+                    "AFFIRM"
+                ]
+            }
+        },
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "please purchase 3 movie tickets for a man called ove for 6:00 pm .",
+                "system response": "what is the name of the theater , and what day would you like to go ?",
+                "dialog history": "",
+                "original user side information": {
+                    "dialogue_state": [
+                        {
+                            "slot": "num_tickets",
+                            "value": "3"
+                        },
+                        {
+                            "slot": "time",
+                            "value": "6:00 pm"
+                        },
+                        {
+                            "slot": "movie",
+                            "value": "a man called ove"
+                        }
+                    ],
+                    "user_acts": [
+                        {
+                            "type": "INFORM"
+                        }
+                    ],
+                    "user_intents": [
+                        "BUY_MOVIE_TICKETS"
+                    ],
+                    "user_utterance": {
+                        "slots": [
+                            {
+                                "exclusive_end": 3,
+                                "slot": "num_tickets",
+                                "start": 2
+                            },
+                            {
+                                "exclusive_end": 10,
+                                "slot": "movie",
+                                "start": 6
+                            },
+                            {
+                                "exclusive_end": 13,
+                                "slot": "time",
+                                "start": 11
+                            }
+                        ],
+                        "text": "please purchase 3 movie tickets for a man called ove for 6:00 pm .",
+                        "tokens": [
+                            "please",
+                            "purchase",
+                            "3",
+                            "movie",
+                            "tickets",
+                            "for",
+                            "a",
+                            "man",
+                            "called",
+                            "ove",
+                            "for",
+                            "6:00",
+                            "pm",
+                            "."
+                        ]
+                    }
+                },
+                "original system side information": {
+                    "system_acts": [
+                        {
+                            "slot": "theatre_name",
+                            "type": "REQUEST"
+                        },
+                        {
+                            "slot": "date",
+                            "type": "REQUEST"
+                        }
+                    ],
+                    "system_utterance": {
+                        "slots": [],
+                        "text": "what is the name of the theater , and what day would you like to go ?",
+                        "tokens": [
+                            "what",
+                            "is",
+                            "the",
+                            "name",
+                            "of",
+                            "the",
+                            "theater",
+                            ",",
+                            "and",
+                            "what",
+                            "day",
+                            "would",
+                            "you",
+                            "like",
+                            "to",
+                            "go",
+                            "?"
+                        ]
+                    }
+                },
+                "dst": "movie num_tickets 3, movie movie a man called ove, movie time 6:00 pm",
+                "dst accumulated": "movie num_tickets 3, movie movie a man called ove, movie time 6:00 pm",
+                "intent": "INFORM",
+                "external knowledge non-flat": {
+                    "metadata": {
+                        "system_acts": [
+                            {
+                                "slot": "theatre_name",
+                                "type": "REQUEST"
+                            },
+                            {
+                                "slot": "date",
+                                "type": "REQUEST"
+                            }
+                        ]
+                    }
+                },
+                "external knowledge": "System acts: [{'slot': 'theatre_name', 'type': 'REQUEST'}, {'slot': 'date', 'type': 'REQUEST'}]"
+            },
+            {
+                "turn id": 2,
+                "user utterance": "wednesday and the theater is amc cupertino square 16",
+                "system response": "you want the tickets for 6:00 pm correct ?",
+                "dialog history": "<USER> please purchase 3 movie tickets for a man called ove for 6:00 pm . <SYSTEM> what is the name of the theater , and what day would you like to go ?",
+                "original user side information": {
+                    "dialogue_state": [
+                        {
+                            "slot": "num_tickets",
+                            "value": "3"
+                        },
+                        {
+                            "slot": "time",
+                            "value": "6:00 pm"
+                        },
+                        {
+                            "slot": "date",
+                            "value": "wednesday"
+                        },
+                        {
+                            "slot": "movie",
+                            "value": "a man called ove"
+                        },
+                        {
+                            "slot": "theatre_name",
+                            "value": "amc cupertino square 16"
+                        }
+                    ],
+                    "user_acts": [
+                        {
+                            "type": "INFORM"
+                        }
+                    ],
+                    "user_utterance": {
+                        "slots": [
+                            {
+                                "exclusive_end": 1,
+                                "slot": "date",
+                                "start": 0
+                            },
+                            {
+                                "exclusive_end": 9,
+                                "slot": "theatre_name",
+                                "start": 5
+                            }
+                        ],
+                        "text": "wednesday and the theater is amc cupertino square 16",
+                        "tokens": [
+                            "wednesday",
+                            "and",
+                            "the",
+                            "theater",
+                            "is",
+                            "amc",
+                            "cupertino",
+                            "square",
+                            "16"
+                        ]
+                    }
+                },
+                "original system side information": {
+                    "system_acts": [
+                        {
+                            "slot": "time",
+                            "type": "CONFIRM",
+                            "value": "6:00 pm"
+                        }
+                    ],
+                    "system_utterance": {
+                        "slots": [
+                            {
+                                "exclusive_end": 7,
+                                "slot": "time",
+                                "start": 5
+                            }
+                        ],
+                        "text": "you want the tickets for 6:00 pm correct ?",
+                        "tokens": [
+                            "you",
+                            "want",
+                            "the",
+                            "tickets",
+                            "for",
+                            "6:00",
+                            "pm",
+                            "correct",
+                            "?"
+                        ]
+                    }
+                },
+                "dst": "movie date wednesday, movie theatre_name amc cupertino square 16",
+                "dst accumulated": "movie num_tickets 3, movie movie a man called ove, movie time 6:00 pm, movie date wednesday, movie theatre_name amc cupertino square 16",
+                "intent": "INFORM",
+                "external knowledge non-flat": {
+                    "metadata": {
+                        "system_acts": [
+                            {
+                                "slot": "time",
+                                "type": "CONFIRM",
+                                "value": "6:00 pm"
+                            }
+                        ]
+                    }
+                },
+                "external knowledge": "System acts: [{'slot': 'time', 'type': 'CONFIRM', 'value': '6:00 pm'}]"
+            },
+            {
+                "turn id": 3,
+                "user utterance": "yes",
+                "system response": "3 tickets for a man called ove at amc cupertino square 16 at 6:00 pm on march 08 have been purchased .",
+                "dialog history": "<USER> please purchase 3 movie tickets for a man called ove for 6:00 pm . <SYSTEM> what is the name of the theater , and what day would you like to go ? <USER> wednesday and the theater is amc cupertino square 16 <SYSTEM> you want the tickets for 6:00 pm correct ?",
+                "original user side information": {
+                    "dialogue_state": [
+                        {
+                            "slot": "num_tickets",
+                            "value": "3"
+                        },
+                        {
+                            "slot": "time",
+                            "value": "6:00 pm"
+                        },
+                        {
+                            "slot": "date",
+                            "value": "wednesday"
+                        },
+                        {
+                            "slot": "movie",
+                            "value": "a man called ove"
+                        },
+                        {
+                            "slot": "theatre_name",
+                            "value": "amc cupertino square 16"
+                        }
+                    ],
+                    "user_acts": [
+                        {
+                            "type": "AFFIRM"
+                        }
+                    ],
+                    "user_utterance": {
+                        "slots": [],
+                        "text": "yes",
+                        "tokens": [
+                            "yes"
+                        ]
+                    }
+                },
+                "original system side information": {
+                    "system_acts": [
+                        {
+                            "slot": "movie",
+                            "type": "NOTIFY_SUCCESS",
+                            "value": "a man called ove"
+                        },
+                        {
+                            "slot": "num_tickets",
+                            "type": "NOTIFY_SUCCESS",
+                            "value": "3"
+                        },
+                        {
+                            "slot": "time",
+                            "type": "NOTIFY_SUCCESS",
+                            "value": "6:00 pm"
+                        },
+                        {
+                            "slot": "date",
+                            "type": "NOTIFY_SUCCESS",
+                            "value": "march 08"
+                        },
+                        {
+                            "slot": "theatre_name",
+                            "type": "NOTIFY_SUCCESS",
+                            "value": "amc cupertino square 16"
+                        }
+                    ],
+                    "system_utterance": {
+                        "slots": [
+                            {
+                                "exclusive_end": 1,
+                                "slot": "num_tickets",
+                                "start": 0
+                            },
+                            {
+                                "exclusive_end": 7,
+                                "slot": "movie",
+                                "start": 3
+                            },
+                            {
+                                "exclusive_end": 12,
+                                "slot": "theatre_name",
+                                "start": 8
+                            },
+                            {
+                                "exclusive_end": 15,
+                                "slot": "time",
+                                "start": 13
+                            },
+                            {
+                                "exclusive_end": 18,
+                                "slot": "date",
+                                "start": 16
+                            }
+                        ],
+                        "text": "3 tickets for a man called ove at amc cupertino square 16 at 6:00 pm on march 08 have been purchased .",
+                        "tokens": [
+                            "3",
+                            "tickets",
+                            "for",
+                            "a",
+                            "man",
+                            "called",
+                            "ove",
+                            "at",
+                            "amc",
+                            "cupertino",
+                            "square",
+                            "16",
+                            "at",
+                            "6:00",
+                            "pm",
+                            "on",
+                            "march",
+                            "08",
+                            "have",
+                            "been",
+                            "purchased",
+                            "."
+                        ]
+                    }
+                },
+                "dst": "",
+                "dst accumulated": "movie num_tickets 3, movie movie a man called ove, movie time 6:00 pm, movie date wednesday, movie theatre_name amc cupertino square 16",
+                "intent": "AFFIRM",
+                "external knowledge non-flat": {
+                    "metadata": {
+                        "system_acts": [
+                            {
+                                "slot": "movie",
+                                "type": "NOTIFY_SUCCESS",
+                                "value": "a man called ove"
+                            },
+                            {
+                                "slot": "num_tickets",
+                                "type": "NOTIFY_SUCCESS",
+                                "value": "3"
+                            },
+                            {
+                                "slot": "time",
+                                "type": "NOTIFY_SUCCESS",
+                                "value": "6:00 pm"
+                            },
+                            {
+                                "slot": "date",
+                                "type": "NOTIFY_SUCCESS",
+                                "value": "march 08"
+                            },
+                            {
+                                "slot": "theatre_name",
+                                "type": "NOTIFY_SUCCESS",
+                                "value": "amc cupertino square 16"
+                            }
+                        ]
+                    }
+                },
+                "external knowledge": "System acts: [{'slot': 'movie', 'type': 'NOTIFY_SUCCESS', 'value': 'a man called ove'}, {'slot': 'num_tickets', 'type': 'NOTIFY_SUCCESS', 'value': '3'}, {'slot': 'time', 'type': 'NOTIFY_SUCCESS', 'value': '6:00 pm'}, {'slot': 'date', 'type': 'NOTIFY_SUCCESS', 'value': 'march 08'}, {'slot': 'theatre_name', 'type': 'NOTIFY_SUCCESS', 'value': 'amc cupertino square 16'}]"
+            },
+            {
+                "turn id": 4,
+                "user utterance": "bye .",
+                "system response": "",
+                "dialog history": "<USER> please purchase 3 movie tickets for a man called ove for 6:00 pm . <SYSTEM> what is the name of the theater , and what day would you like to go ? <USER> wednesday and the theater is amc cupertino square 16 <SYSTEM> you want the tickets for 6:00 pm correct ? <USER> yes <SYSTEM> 3 tickets for a man called ove at amc cupertino square 16 at 6:00 pm on march 08 have been purchased .",
+                "original user side information": {
+                    "dialogue_state": [
+                        {
+                            "slot": "num_tickets",
+                            "value": "3"
+                        },
+                        {
+                            "slot": "time",
+                            "value": "6:00 pm"
+                        },
+                        {
+                            "slot": "date",
+                            "value": "wednesday"
+                        },
+                        {
+                            "slot": "theatre_name",
+                            "value": "amc cupertino square 16"
+                        },
+                        {
+                            "slot": "movie",
+                            "value": "a man called ove"
+                        }
+                    ],
+                    "user_acts": [
+                        {
+                            "type": "GOOD_BYE"
+                        }
+                    ],
+                    "user_utterance": {
+                        "slots": [],
+                        "text": "bye .",
+                        "tokens": [
+                            "bye",
+                            "."
+                        ]
+                    }
+                },
+                "original system side information": {},
+                "dst": "",
+                "dst accumulated": "movie num_tickets 3, movie movie a man called ove, movie time 6:00 pm, movie date wednesday, movie theatre_name amc cupertino square 16",
+                "intent": "GOOD_BYE",
+                "external knowledge non-flat": {
+                    "metadata": {
+                        "system_acts": ""
+                    }
+                },
+                "external knowledge": "System acts: "
+            }
+        ],
+        "dst knowledge": "( movie : ( time : ( 8 pm | 8:00 pm | 7.30 pm | 6 pm | 6.15 pm | 10:00 pm | 7 pm | 5 pm | 1 pm | 8.30 pm | 6:00 pm | 12 pm | 4:00 pm | dontcare | 2 pm | 7.15 pm | 6.30 pm ) | num_tickets : ( 1 | 4 | 6 | 3 | 5 | 2 ) | movie : ( sahasam swasaga sagipo | mr. donkey | storks | achcham yenbadhu madamaiyada | the magnificent seven | storks | storks | gimme danger | jack reacher | max steel ) | date : ( wednesday | tomorrow | tonight | friday | tuesday | next monday | sunday | today | saturday ) | theatre_name : ( century 25 union city and xd | amc newpark 12 | amc cupertino square 16 | shoreline theater | camera 7 | angelika | century cinemas 16 | amc mercado | cinemark 12 downtown san mateo | amc saratoga 14 | amc mercado 20 | century 20 great mall | century at pacific commons | cinelux plaza theatre | cinemark redwood downtown 20 and xd | aquarius | lincoln square cinemas | cinearts @ santana row | cinelux almaden cafe & lounge | the stanford theater )))",
+        "intent knowledge": "( movie : ( GREETING | OTHER | CANT_UNDERSTAND | NEGATE | THANK_YOU | GOOD_BYE | INFORM | AFFIRM ))",
+        "prompt": [
+            "This is a bot helping users to book a movie ticket. Given the dialog context and external database, please generate a relevant system response for the user.",
+            "This bot assists users to book a movie ticket. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
+            "This bot helps users to book a movie ticket. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
+            "The purpose of this bot is to assist users to book a movie ticket. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
+            "This bot is designed to help users book a movie ticket. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+        ]
+    },
+    "SimJointMovie--train--3": {
+        "original dialog id": "movies_00000008",
+        "dialog index": 3,
+        "original dialog info": {
+            "slots and values": {
+                "movie": {
+                    "time": [
+                        "8 pm",
+                        "8:00 pm",
+                        "7.30 pm",
+                        "6 pm",
+                        "6.15 pm",
+                        "10:00 pm",
+                        "7 pm",
+                        "5 pm",
+                        "1 pm",
+                        "8.30 pm",
+                        "6:00 pm",
+                        "12 pm",
+                        "4:00 pm",
+                        "dontcare",
+                        "2 pm",
+                        "7.15 pm",
+                        "6.30 pm"
+                    ],
+                    "num_tickets": [
+                        "1",
+                        "4",
+                        "6",
+                        "3",
+                        "5",
+                        "2"
+                    ],
+                    "movie": [
+                        "sahasam swasaga sagipo",
+                        "mr. donkey",
+                        "storks",
+                        "achcham yenbadhu madamaiyada",
+                        "the magnificent seven",
+                        "storks",
+                        "storks",
+                        "gimme danger",
+                        "jack reacher",
+                        "max steel"
+                    ],
+                    "date": [
+                        "wednesday",
+                        "tomorrow",
+                        "tonight",
+                        "friday",
+                        "tuesday",
+                        "next monday",
+                        "sunday",
+                        "today",
+                        "saturday"
+                    ],
+                    "theatre_name": [
+                        "century 25 union city and xd",
+                        "amc newpark 12",
+                        "amc cupertino square 16",
+                        "shoreline theater",
+                        "camera 7",
+                        "angelika",
+                        "century cinemas 16",
+                        "amc mercado",
+                        "cinemark 12 downtown san mateo",
+                        "amc saratoga 14",
+                        "amc mercado 20",
+                        "century 20 great mall",
+                        "century at pacific commons",
+                        "cinelux plaza theatre",
+                        "cinemark redwood downtown 20 and xd",
+                        "aquarius",
+                        "lincoln square cinemas",
+                        "cinearts @ santana row",
+                        "cinelux almaden cafe & lounge",
+                        "the stanford theater"
+                    ]
+                }
+            },
+            "intents": {
+                "movie": [
+                    "GREETING",
+                    "OTHER",
+                    "CANT_UNDERSTAND",
+                    "NEGATE",
+                    "THANK_YOU",
+                    "GOOD_BYE",
+                    "INFORM",
+                    "AFFIRM"
+                ]
+            }
+        },
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "would you purchase 5 movie tickets",
+                "system response": "which theater and which movie and for what time",
+                "dialog history": "",
+                "original user side information": {
+                    "dialogue_state": [
+                        {
+                            "slot": "num_tickets",
+                            "value": "5"
+                        }
+                    ],
+                    "user_acts": [
+                        {
+                            "type": "INFORM"
+                        }
+                    ],
+                    "user_intents": [
+                        "BUY_MOVIE_TICKETS"
+                    ],
+                    "user_utterance": {
+                        "slots": [
+                            {
+                                "exclusive_end": 4,
+                                "slot": "num_tickets",
+                                "start": 3
+                            }
+                        ],
+                        "text": "would you purchase 5 movie tickets",
+                        "tokens": [
+                            "would",
+                            "you",
+                            "purchase",
+                            "5",
+                            "movie",
+                            "tickets"
+                        ]
+                    }
+                },
+                "original system side information": {
+                    "system_acts": [
+                        {
+                            "slot": "movie",
+                            "type": "REQUEST"
+                        },
+                        {
+                            "slot": "time",
+                            "type": "REQUEST"
+                        },
+                        {
+                            "slot": "theatre_name",
+                            "type": "REQUEST"
+                        }
+                    ],
+                    "system_utterance": {
+                        "slots": [],
+                        "text": "which theater and which movie and for what time",
+                        "tokens": [
+                            "which",
+                            "theater",
+                            "and",
+                            "which",
+                            "movie",
+                            "and",
+                            "for",
+                            "what",
+                            "time"
+                        ]
+                    }
+                },
+                "dst": "movie num_tickets 5",
+                "dst accumulated": "movie num_tickets 5",
+                "intent": "INFORM",
+                "external knowledge non-flat": {
+                    "metadata": {
+                        "system_acts": [
+                            {
+                                "slot": "movie",
+                                "type": "REQUEST"
+                            },
+                            {
+                                "slot": "time",
+                                "type": "REQUEST"
+                            },
+                            {
+                                "slot": "theatre_name",
+                                "type": "REQUEST"
+                            }
+                        ]
+                    }
+                },
+                "external knowledge": "System acts: [{'slot': 'movie', 'type': 'REQUEST'}, {'slot': 'time', 'type': 'REQUEST'}, {'slot': 'theatre_name', 'type': 'REQUEST'}]"
+            },
+            {
+                "turn id": 2,
+                "user utterance": "for cinelux almaden cafe & lounge for a man called ove at 10:00 pm",
+                "system response": "which date to you want",
+                "dialog history": "<USER> would you purchase 5 movie tickets <SYSTEM> which theater and which movie and for what time",
+                "original user side information": {
+                    "dialogue_state": [
+                        {
+                            "slot": "num_tickets",
+                            "value": "5"
+                        },
+                        {
+                            "slot": "time",
+                            "value": "10:00 pm"
+                        },
+                        {
+                            "slot": "movie",
+                            "value": "a man called ove"
+                        },
+                        {
+                            "slot": "theatre_name",
+                            "value": "cinelux almaden cafe & lounge"
+                        }
+                    ],
+                    "user_acts": [
+                        {
+                            "type": "INFORM"
+                        }
+                    ],
+                    "user_utterance": {
+                        "slots": [
+                            {
+                                "exclusive_end": 6,
+                                "slot": "theatre_name",
+                                "start": 1
+                            },
+                            {
+                                "exclusive_end": 11,
+                                "slot": "movie",
+                                "start": 7
+                            },
+                            {
+                                "exclusive_end": 14,
+                                "slot": "time",
+                                "start": 12
+                            }
+                        ],
+                        "text": "for cinelux almaden cafe & lounge for a man called ove at 10:00 pm",
+                        "tokens": [
+                            "for",
+                            "cinelux",
+                            "almaden",
+                            "cafe",
+                            "&",
+                            "lounge",
+                            "for",
+                            "a",
+                            "man",
+                            "called",
+                            "ove",
+                            "at",
+                            "10:00",
+                            "pm"
+                        ]
+                    }
+                },
+                "original system side information": {
+                    "system_acts": [
+                        {
+                            "slot": "date",
+                            "type": "REQUEST"
+                        }
+                    ],
+                    "system_utterance": {
+                        "slots": [],
+                        "text": "which date to you want",
+                        "tokens": [
+                            "which",
+                            "date",
+                            "to",
+                            "you",
+                            "want"
+                        ]
+                    }
+                },
+                "dst": "movie theatre_name cinelux almaden cafe & lounge, movie movie a man called ove, movie time 10:00 pm",
+                "dst accumulated": "movie num_tickets 5, movie theatre_name cinelux almaden cafe & lounge, movie movie a man called ove, movie time 10:00 pm",
+                "intent": "INFORM",
+                "external knowledge non-flat": {
+                    "metadata": {
+                        "system_acts": [
+                            {
+                                "slot": "date",
+                                "type": "REQUEST"
+                            }
+                        ]
+                    }
+                },
+                "external knowledge": "System acts: [{'slot': 'date', 'type': 'REQUEST'}]"
+            },
+            {
+                "turn id": 3,
+                "user utterance": "i would like this for tuesday",
+                "system response": "and the time you want is 10:00 pm , correct",
+                "dialog history": "<USER> would you purchase 5 movie tickets <SYSTEM> which theater and which movie and for what time <USER> for cinelux almaden cafe & lounge for a man called ove at 10:00 pm <SYSTEM> which date to you want",
+                "original user side information": {
+                    "dialogue_state": [
+                        {
+                            "slot": "num_tickets",
+                            "value": "5"
+                        },
+                        {
+                            "slot": "time",
+                            "value": "10:00 pm"
+                        },
+                        {
+                            "slot": "date",
+                            "value": "tuesday"
+                        },
+                        {
+                            "slot": "movie",
+                            "value": "a man called ove"
+                        },
+                        {
+                            "slot": "theatre_name",
+                            "value": "cinelux almaden cafe & lounge"
+                        }
+                    ],
+                    "user_acts": [
+                        {
+                            "type": "INFORM"
+                        }
+                    ],
+                    "user_utterance": {
+                        "slots": [
+                            {
+                                "exclusive_end": 6,
+                                "slot": "date",
+                                "start": 5
+                            }
+                        ],
+                        "text": "i would like this for tuesday",
+                        "tokens": [
+                            "i",
+                            "would",
+                            "like",
+                            "this",
+                            "for",
+                            "tuesday"
+                        ]
+                    }
+                },
+                "original system side information": {
+                    "system_acts": [
+                        {
+                            "slot": "time",
+                            "type": "CONFIRM",
+                            "value": "10:00 pm"
+                        }
+                    ],
+                    "system_utterance": {
+                        "slots": [
+                            {
+                                "exclusive_end": 8,
+                                "slot": "time",
+                                "start": 6
+                            }
+                        ],
+                        "text": "and the time you want is 10:00 pm , correct",
+                        "tokens": [
+                            "and",
+                            "the",
+                            "time",
+                            "you",
+                            "want",
+                            "is",
+                            "10:00",
+                            "pm",
+                            ",",
+                            "correct"
+                        ]
+                    }
+                },
+                "dst": "movie date tuesday",
+                "dst accumulated": "movie num_tickets 5, movie theatre_name cinelux almaden cafe & lounge, movie movie a man called ove, movie time 10:00 pm, movie date tuesday",
+                "intent": "INFORM",
+                "external knowledge non-flat": {
+                    "metadata": {
+                        "system_acts": [
+                            {
+                                "slot": "time",
+                                "type": "CONFIRM",
+                                "value": "10:00 pm"
+                            }
+                        ]
+                    }
+                },
+                "external knowledge": "System acts: [{'slot': 'time', 'type': 'CONFIRM', 'value': '10:00 pm'}]"
+            },
+            {
+                "turn id": 4,
+                "user utterance": "yes 10:00 pm is correct",
+                "system response": "purchase confirmed for 10:00 pm for a man called ove march 07 at cinelux almaden cafe & lounge",
+                "dialog history": "<USER> would you purchase 5 movie tickets <SYSTEM> which theater and which movie and for what time <USER> for cinelux almaden cafe & lounge for a man called ove at 10:00 pm <SYSTEM> which date to you want <USER> i would like this for tuesday <SYSTEM> and the time you want is 10:00 pm , correct",
+                "original user side information": {
+                    "dialogue_state": [
+                        {
+                            "slot": "num_tickets",
+                            "value": "5"
+                        },
+                        {
+                            "slot": "time",
+                            "value": "10:00 pm"
+                        },
+                        {
+                            "slot": "date",
+                            "value": "tuesday"
+                        },
+                        {
+                            "slot": "movie",
+                            "value": "a man called ove"
+                        },
+                        {
+                            "slot": "theatre_name",
+                            "value": "cinelux almaden cafe & lounge"
+                        }
+                    ],
+                    "user_acts": [
+                        {
+                            "slot": "time",
+                            "type": "AFFIRM"
+                        }
+                    ],
+                    "user_utterance": {
+                        "slots": [
+                            {
+                                "exclusive_end": 3,
+                                "slot": "time",
+                                "start": 1
+                            }
+                        ],
+                        "text": "yes 10:00 pm is correct",
+                        "tokens": [
+                            "yes",
+                            "10:00",
+                            "pm",
+                            "is",
+                            "correct"
+                        ]
+                    }
+                },
+                "original system side information": {
+                    "system_acts": [
+                        {
+                            "slot": "movie",
+                            "type": "NOTIFY_SUCCESS",
+                            "value": "a man called ove"
+                        },
+                        {
+                            "slot": "time",
+                            "type": "NOTIFY_SUCCESS",
+                            "value": "10:00 pm"
+                        },
+                        {
+                            "slot": "date",
+                            "type": "NOTIFY_SUCCESS",
+                            "value": "march 07"
+                        },
+                        {
+                            "slot": "theatre_name",
+                            "type": "NOTIFY_SUCCESS",
+                            "value": "cinelux almaden cafe & lounge"
+                        }
+                    ],
+                    "system_utterance": {
+                        "slots": [
+                            {
+                                "exclusive_end": 5,
+                                "slot": "time",
+                                "start": 3
+                            },
+                            {
+                                "exclusive_end": 10,
+                                "slot": "movie",
+                                "start": 6
+                            },
+                            {
+                                "exclusive_end": 12,
+                                "slot": "date",
+                                "start": 10
+                            },
+                            {
+                                "exclusive_end": 18,
+                                "slot": "theatre_name",
+                                "start": 13
+                            }
+                        ],
+                        "text": "purchase confirmed for 10:00 pm for a man called ove march 07 at cinelux almaden cafe & lounge",
+                        "tokens": [
+                            "purchase",
+                            "confirmed",
+                            "for",
+                            "10:00",
+                            "pm",
+                            "for",
+                            "a",
+                            "man",
+                            "called",
+                            "ove",
+                            "march",
+                            "07",
+                            "at",
+                            "cinelux",
+                            "almaden",
+                            "cafe",
+                            "&",
+                            "lounge"
+                        ]
+                    }
+                },
+                "dst": "movie time 10:00 pm",
+                "dst accumulated": "movie num_tickets 5, movie theatre_name cinelux almaden cafe & lounge, movie movie a man called ove, movie time 10:00 pm, movie date tuesday",
+                "intent": "AFFIRM",
+                "external knowledge non-flat": {
+                    "metadata": {
+                        "system_acts": [
+                            {
+                                "slot": "movie",
+                                "type": "NOTIFY_SUCCESS",
+                                "value": "a man called ove"
+                            },
+                            {
+                                "slot": "time",
+                                "type": "NOTIFY_SUCCESS",
+                                "value": "10:00 pm"
+                            },
+                            {
+                                "slot": "date",
+                                "type": "NOTIFY_SUCCESS",
+                                "value": "march 07"
+                            },
+                            {
+                                "slot": "theatre_name",
+                                "type": "NOTIFY_SUCCESS",
+                                "value": "cinelux almaden cafe & lounge"
+                            }
+                        ]
+                    }
+                },
+                "external knowledge": "System acts: [{'slot': 'movie', 'type': 'NOTIFY_SUCCESS', 'value': 'a man called ove'}, {'slot': 'time', 'type': 'NOTIFY_SUCCESS', 'value': '10:00 pm'}, {'slot': 'date', 'type': 'NOTIFY_SUCCESS', 'value': 'march 07'}, {'slot': 'theatre_name', 'type': 'NOTIFY_SUCCESS', 'value': 'cinelux almaden cafe & lounge'}]"
+            },
+            {
+                "turn id": 5,
+                "user utterance": "thanks , bye",
+                "system response": "",
+                "dialog history": "<USER> would you purchase 5 movie tickets <SYSTEM> which theater and which movie and for what time <USER> for cinelux almaden cafe & lounge for a man called ove at 10:00 pm <SYSTEM> which date to you want <USER> i would like this for tuesday <SYSTEM> and the time you want is 10:00 pm , correct <USER> yes 10:00 pm is correct <SYSTEM> purchase confirmed for 10:00 pm for a man called ove march 07 at cinelux almaden cafe & lounge",
+                "original user side information": {
+                    "dialogue_state": [
+                        {
+                            "slot": "num_tickets",
+                            "value": "5"
+                        },
+                        {
+                            "slot": "time",
+                            "value": "10:00 pm"
+                        },
+                        {
+                            "slot": "date",
+                            "value": "tuesday"
+                        },
+                        {
+                            "slot": "movie",
+                            "value": "a man called ove"
+                        },
+                        {
+                            "slot": "theatre_name",
+                            "value": "cinelux almaden cafe & lounge"
+                        }
+                    ],
+                    "user_acts": [
+                        {
+                            "type": "THANK_YOU"
+                        },
+                        {
+                            "type": "GOOD_BYE"
+                        }
+                    ],
+                    "user_utterance": {
+                        "slots": [],
+                        "text": "thanks , bye",
+                        "tokens": [
+                            "thanks",
+                            ",",
+                            "bye"
+                        ]
+                    }
+                },
+                "original system side information": {},
+                "dst": "",
+                "dst accumulated": "movie num_tickets 5, movie theatre_name cinelux almaden cafe & lounge, movie movie a man called ove, movie time 10:00 pm, movie date tuesday",
+                "intent": "THANK_YOU, GOOD_BYE",
+                "external knowledge non-flat": {
+                    "metadata": {
+                        "system_acts": ""
+                    }
+                },
+                "external knowledge": "System acts: "
+            }
+        ],
+        "dst knowledge": "( movie : ( time : ( 8 pm | 8:00 pm | 7.30 pm | 6 pm | 6.15 pm | 10:00 pm | 7 pm | 5 pm | 1 pm | 8.30 pm | 6:00 pm | 12 pm | 4:00 pm | dontcare | 2 pm | 7.15 pm | 6.30 pm ) | num_tickets : ( 1 | 4 | 6 | 3 | 5 | 2 ) | movie : ( sahasam swasaga sagipo | mr. donkey | storks | achcham yenbadhu madamaiyada | the magnificent seven | storks | storks | gimme danger | jack reacher | max steel ) | date : ( wednesday | tomorrow | tonight | friday | tuesday | next monday | sunday | today | saturday ) | theatre_name : ( century 25 union city and xd | amc newpark 12 | amc cupertino square 16 | shoreline theater | camera 7 | angelika | century cinemas 16 | amc mercado | cinemark 12 downtown san mateo | amc saratoga 14 | amc mercado 20 | century 20 great mall | century at pacific commons | cinelux plaza theatre | cinemark redwood downtown 20 and xd | aquarius | lincoln square cinemas | cinearts @ santana row | cinelux almaden cafe & lounge | the stanford theater )))",
+        "intent knowledge": "( movie : ( GREETING | OTHER | CANT_UNDERSTAND | NEGATE | THANK_YOU | GOOD_BYE | INFORM | AFFIRM ))",
+        "prompt": [
+            "This is a bot helping users to book a movie ticket. Given the dialog context and external database, please generate a relevant system response for the user.",
+            "This bot assists users to book a movie ticket. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
+            "This bot helps users to book a movie ticket. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
+            "The purpose of this bot is to assist users to book a movie ticket. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
+            "This bot is designed to help users book a movie ticket. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+        ]
+    },
+    "SimJointMovie--train--4": {
+        "original dialog id": "movies_00000009",
+        "dialog index": 4,
+        "original dialog info": {
+            "slots and values": {
+                "movie": {
+                    "time": [
+                        "8 pm",
+                        "8:00 pm",
+                        "7.30 pm",
+                        "6 pm",
+                        "6.15 pm",
+                        "10:00 pm",
+                        "7 pm",
+                        "5 pm",
+                        "1 pm",
+                        "8.30 pm",
+                        "6:00 pm",
+                        "12 pm",
+                        "4:00 pm",
+                        "dontcare",
+                        "2 pm",
+                        "7.15 pm",
+                        "6.30 pm"
+                    ],
+                    "num_tickets": [
+                        "1",
+                        "4",
+                        "6",
+                        "3",
+                        "5",
+                        "2"
+                    ],
+                    "movie": [
+                        "sahasam swasaga sagipo",
+                        "mr. donkey",
+                        "storks",
+                        "achcham yenbadhu madamaiyada",
+                        "the magnificent seven",
+                        "storks",
+                        "storks",
+                        "gimme danger",
+                        "jack reacher",
+                        "max steel"
+                    ],
+                    "date": [
+                        "wednesday",
+                        "tomorrow",
+                        "tonight",
+                        "friday",
+                        "tuesday",
+                        "next monday",
+                        "sunday",
+                        "today",
+                        "saturday"
+                    ],
+                    "theatre_name": [
+                        "century 25 union city and xd",
+                        "amc newpark 12",
+                        "amc cupertino square 16",
+                        "shoreline theater",
+                        "camera 7",
+                        "angelika",
+                        "century cinemas 16",
+                        "amc mercado",
+                        "cinemark 12 downtown san mateo",
+                        "amc saratoga 14",
+                        "amc mercado 20",
+                        "century 20 great mall",
+                        "century at pacific commons",
+                        "cinelux plaza theatre",
+                        "cinemark redwood downtown 20 and xd",
+                        "aquarius",
+                        "lincoln square cinemas",
+                        "cinearts @ santana row",
+                        "cinelux almaden cafe & lounge",
+                        "the stanford theater"
+                    ]
+                }
+            },
+            "intents": {
+                "movie": [
+                    "GREETING",
+                    "OTHER",
+                    "CANT_UNDERSTAND",
+                    "NEGATE",
+                    "THANK_YOU",
+                    "GOOD_BYE",
+                    "INFORM",
+                    "AFFIRM"
+                ]
+            }
+        },
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "please buy movie tickets for the camera 7 theater at 6:00 pm",
+                "system response": "sure . which movie would you like to see , and how many tickets should i buy and for which date ?",
+                "dialog history": "",
+                "original user side information": {
+                    "dialogue_state": [
+                        {
+                            "slot": "time",
+                            "value": "6:00 pm"
+                        },
+                        {
+                            "slot": "theatre_name",
+                            "value": "camera 7"
+                        }
+                    ],
+                    "user_acts": [
+                        {
+                            "type": "INFORM"
+                        }
+                    ],
+                    "user_intents": [
+                        "BUY_MOVIE_TICKETS"
+                    ],
+                    "user_utterance": {
+                        "slots": [
+                            {
+                                "exclusive_end": 8,
+                                "slot": "theatre_name",
+                                "start": 6
+                            },
+                            {
+                                "exclusive_end": 12,
+                                "slot": "time",
+                                "start": 10
+                            }
+                        ],
+                        "text": "please buy movie tickets for the camera 7 theater at 6:00 pm",
+                        "tokens": [
+                            "please",
+                            "buy",
+                            "movie",
+                            "tickets",
+                            "for",
+                            "the",
+                            "camera",
+                            "7",
+                            "theater",
+                            "at",
+                            "6:00",
+                            "pm"
+                        ]
+                    }
+                },
+                "original system side information": {
+                    "system_acts": [
+                        {
+                            "slot": "date",
+                            "type": "REQUEST"
+                        },
+                        {
+                            "slot": "num_tickets",
+                            "type": "REQUEST"
+                        },
+                        {
+                            "slot": "movie",
+                            "type": "REQUEST"
+                        }
+                    ],
+                    "system_utterance": {
+                        "slots": [],
+                        "text": "sure . which movie would you like to see , and how many tickets should i buy and for which date ?",
+                        "tokens": [
+                            "sure",
+                            ".",
+                            "which",
+                            "movie",
+                            "would",
+                            "you",
+                            "like",
+                            "to",
+                            "see",
+                            ",",
+                            "and",
+                            "how",
+                            "many",
+                            "tickets",
+                            "should",
+                            "i",
+                            "buy",
+                            "and",
+                            "for",
+                            "which",
+                            "date",
+                            "?"
+                        ]
+                    }
+                },
+                "dst": "movie theatre_name camera 7, movie time 6:00 pm",
+                "dst accumulated": "movie theatre_name camera 7, movie time 6:00 pm",
+                "intent": "INFORM",
+                "external knowledge non-flat": {
+                    "metadata": {
+                        "system_acts": [
+                            {
+                                "slot": "date",
+                                "type": "REQUEST"
+                            },
+                            {
+                                "slot": "num_tickets",
+                                "type": "REQUEST"
+                            },
+                            {
+                                "slot": "movie",
+                                "type": "REQUEST"
+                            }
+                        ]
+                    }
+                },
+                "external knowledge": "System acts: [{'slot': 'date', 'type': 'REQUEST'}, {'slot': 'num_tickets', 'type': 'REQUEST'}, {'slot': 'movie', 'type': 'REQUEST'}]"
+            },
+            {
+                "turn id": 2,
+                "user utterance": "i ' m sorry i don ' t understand .",
+                "system response": "what movie , what date and how many tickets would you like ?",
+                "dialog history": "<USER> please buy movie tickets for the camera 7 theater at 6:00 pm <SYSTEM> sure . which movie would you like to see , and how many tickets should i buy and for which date ?",
+                "original user side information": {
+                    "dialogue_state": [
+                        {
+                            "slot": "time",
+                            "value": "6:00 pm"
+                        },
+                        {
+                            "slot": "theatre_name",
+                            "value": "camera 7"
+                        }
+                    ],
+                    "user_acts": [
+                        {
+                            "type": "CANT_UNDERSTAND"
+                        }
+                    ],
+                    "user_utterance": {
+                        "slots": [],
+                        "text": "i ' m sorry i don ' t understand .",
+                        "tokens": [
+                            "i",
+                            "'",
+                            "m",
+                            "sorry",
+                            "i",
+                            "don",
+                            "'",
+                            "t",
+                            "understand",
+                            "."
+                        ]
+                    }
+                },
+                "original system side information": {
+                    "system_acts": [
+                        {
+                            "slot": "movie",
+                            "type": "REQUEST"
+                        },
+                        {
+                            "slot": "num_tickets",
+                            "type": "REQUEST"
+                        },
+                        {
+                            "slot": "date",
+                            "type": "REQUEST"
+                        }
+                    ],
+                    "system_utterance": {
+                        "slots": [],
+                        "text": "what movie , what date and how many tickets would you like ?",
+                        "tokens": [
+                            "what",
+                            "movie",
+                            ",",
+                            "what",
+                            "date",
+                            "and",
+                            "how",
+                            "many",
+                            "tickets",
+                            "would",
+                            "you",
+                            "like",
+                            "?"
+                        ]
+                    }
+                },
+                "dst": "",
+                "dst accumulated": "movie theatre_name camera 7, movie time 6:00 pm",
+                "intent": "CANT_UNDERSTAND",
+                "external knowledge non-flat": {
+                    "metadata": {
+                        "system_acts": [
+                            {
+                                "slot": "movie",
+                                "type": "REQUEST"
+                            },
+                            {
+                                "slot": "num_tickets",
+                                "type": "REQUEST"
+                            },
+                            {
+                                "slot": "date",
+                                "type": "REQUEST"
+                            }
+                        ]
+                    }
+                },
+                "external knowledge": "System acts: [{'slot': 'movie', 'type': 'REQUEST'}, {'slot': 'num_tickets', 'type': 'REQUEST'}, {'slot': 'date', 'type': 'REQUEST'}]"
+            },
+            {
+                "turn id": 3,
+                "user utterance": "2 tickets for a man called ove , on wednesday .",
+                "system response": "and you would like to see this at 6:00 pm ?",
+                "dialog history": "<USER> please buy movie tickets for the camera 7 theater at 6:00 pm <SYSTEM> sure . which movie would you like to see , and how many tickets should i buy and for which date ? <USER> i ' m sorry i don ' t understand . <SYSTEM> what movie , what date and how many tickets would you like ?",
+                "original user side information": {
+                    "dialogue_state": [
+                        {
+                            "slot": "num_tickets",
+                            "value": "2"
+                        },
+                        {
+                            "slot": "time",
+                            "value": "6:00 pm"
+                        },
+                        {
+                            "slot": "date",
+                            "value": "wednesday"
+                        },
+                        {
+                            "slot": "theatre_name",
+                            "value": "camera 7"
+                        },
+                        {
+                            "slot": "movie",
+                            "value": "a man called ove"
+                        }
+                    ],
+                    "user_acts": [
+                        {
+                            "type": "INFORM"
+                        }
+                    ],
+                    "user_utterance": {
+                        "slots": [
+                            {
+                                "exclusive_end": 1,
+                                "slot": "num_tickets",
+                                "start": 0
+                            },
+                            {
+                                "exclusive_end": 7,
+                                "slot": "movie",
+                                "start": 3
+                            },
+                            {
+                                "exclusive_end": 10,
+                                "slot": "date",
+                                "start": 9
+                            }
+                        ],
+                        "text": "2 tickets for a man called ove , on wednesday .",
+                        "tokens": [
+                            "2",
+                            "tickets",
+                            "for",
+                            "a",
+                            "man",
+                            "called",
+                            "ove",
+                            ",",
+                            "on",
+                            "wednesday",
+                            "."
+                        ]
+                    }
+                },
+                "original system side information": {
+                    "system_acts": [
+                        {
+                            "slot": "time",
+                            "type": "CONFIRM",
+                            "value": "6:00 pm"
+                        }
+                    ],
+                    "system_utterance": {
+                        "slots": [
+                            {
+                                "exclusive_end": 10,
+                                "slot": "time",
+                                "start": 8
+                            }
+                        ],
+                        "text": "and you would like to see this at 6:00 pm ?",
+                        "tokens": [
+                            "and",
+                            "you",
+                            "would",
+                            "like",
+                            "to",
+                            "see",
+                            "this",
+                            "at",
+                            "6:00",
+                            "pm",
+                            "?"
+                        ]
+                    }
+                },
+                "dst": "movie num_tickets 2, movie movie a man called ove, movie date wednesday",
+                "dst accumulated": "movie theatre_name camera 7, movie time 6:00 pm, movie num_tickets 2, movie movie a man called ove, movie date wednesday",
+                "intent": "INFORM",
+                "external knowledge non-flat": {
+                    "metadata": {
+                        "system_acts": [
+                            {
+                                "slot": "time",
+                                "type": "CONFIRM",
+                                "value": "6:00 pm"
+                            }
+                        ]
+                    }
+                },
+                "external knowledge": "System acts: [{'slot': 'time', 'type': 'CONFIRM', 'value': '6:00 pm'}]"
+            },
+            {
+                "turn id": 4,
+                "user utterance": "yes",
+                "system response": "ok . i have purchased 2 tickets for a man called ove for march 08 at 6:00 pm .",
+                "dialog history": "<USER> please buy movie tickets for the camera 7 theater at 6:00 pm <SYSTEM> sure . which movie would you like to see , and how many tickets should i buy and for which date ? <USER> i ' m sorry i don ' t understand . <SYSTEM> what movie , what date and how many tickets would you like ? <USER> 2 tickets for a man called ove , on wednesday . <SYSTEM> and you would like to see this at 6:00 pm ?",
+                "original user side information": {
+                    "dialogue_state": [
+                        {
+                            "slot": "num_tickets",
+                            "value": "2"
+                        },
+                        {
+                            "slot": "time",
+                            "value": "6:00 pm"
+                        },
+                        {
+                            "slot": "date",
+                            "value": "wednesday"
+                        },
+                        {
+                            "slot": "movie",
+                            "value": "a man called ove"
+                        },
+                        {
+                            "slot": "theatre_name",
+                            "value": "camera 7"
+                        }
+                    ],
+                    "user_acts": [
+                        {
+                            "type": "AFFIRM"
+                        }
+                    ],
+                    "user_utterance": {
+                        "slots": [],
+                        "text": "yes",
+                        "tokens": [
+                            "yes"
+                        ]
+                    }
+                },
+                "original system side information": {
+                    "system_acts": [
+                        {
+                            "slot": "num_tickets",
+                            "type": "NOTIFY_SUCCESS",
+                            "value": "2"
+                        },
+                        {
+                            "slot": "time",
+                            "type": "NOTIFY_SUCCESS",
+                            "value": "6:00 pm"
+                        },
+                        {
+                            "slot": "movie",
+                            "type": "NOTIFY_SUCCESS",
+                            "value": "a man called ove"
+                        },
+                        {
+                            "slot": "date",
+                            "type": "NOTIFY_SUCCESS",
+                            "value": "march 08"
+                        }
+                    ],
+                    "system_utterance": {
+                        "slots": [
+                            {
+                                "exclusive_end": 6,
+                                "slot": "num_tickets",
+                                "start": 5
+                            },
+                            {
+                                "exclusive_end": 12,
+                                "slot": "movie",
+                                "start": 8
+                            },
+                            {
+                                "exclusive_end": 15,
+                                "slot": "date",
+                                "start": 13
+                            },
+                            {
+                                "exclusive_end": 18,
+                                "slot": "time",
+                                "start": 16
+                            }
+                        ],
+                        "text": "ok . i have purchased 2 tickets for a man called ove for march 08 at 6:00 pm .",
+                        "tokens": [
+                            "ok",
+                            ".",
+                            "i",
+                            "have",
+                            "purchased",
+                            "2",
+                            "tickets",
+                            "for",
+                            "a",
+                            "man",
+                            "called",
+                            "ove",
+                            "for",
+                            "march",
+                            "08",
+                            "at",
+                            "6:00",
+                            "pm",
+                            "."
+                        ]
+                    }
+                },
+                "dst": "",
+                "dst accumulated": "movie theatre_name camera 7, movie time 6:00 pm, movie num_tickets 2, movie movie a man called ove, movie date wednesday",
+                "intent": "AFFIRM",
+                "external knowledge non-flat": {
+                    "metadata": {
+                        "system_acts": [
+                            {
+                                "slot": "num_tickets",
+                                "type": "NOTIFY_SUCCESS",
+                                "value": "2"
+                            },
+                            {
+                                "slot": "time",
+                                "type": "NOTIFY_SUCCESS",
+                                "value": "6:00 pm"
+                            },
+                            {
+                                "slot": "movie",
+                                "type": "NOTIFY_SUCCESS",
+                                "value": "a man called ove"
+                            },
+                            {
+                                "slot": "date",
+                                "type": "NOTIFY_SUCCESS",
+                                "value": "march 08"
+                            }
+                        ]
+                    }
+                },
+                "external knowledge": "System acts: [{'slot': 'num_tickets', 'type': 'NOTIFY_SUCCESS', 'value': '2'}, {'slot': 'time', 'type': 'NOTIFY_SUCCESS', 'value': '6:00 pm'}, {'slot': 'movie', 'type': 'NOTIFY_SUCCESS', 'value': 'a man called ove'}, {'slot': 'date', 'type': 'NOTIFY_SUCCESS', 'value': 'march 08'}]"
+            },
+            {
+                "turn id": 5,
+                "user utterance": "thanks . goodbye .",
+                "system response": "",
+                "dialog history": "<USER> please buy movie tickets for the camera 7 theater at 6:00 pm <SYSTEM> sure . which movie would you like to see , and how many tickets should i buy and for which date ? <USER> i ' m sorry i don ' t understand . <SYSTEM> what movie , what date and how many tickets would you like ? <USER> 2 tickets for a man called ove , on wednesday . <SYSTEM> and you would like to see this at 6:00 pm ? <USER> yes <SYSTEM> ok . i have purchased 2 tickets for a man called ove for march 08 at 6:00 pm .",
+                "original user side information": {
+                    "dialogue_state": [
+                        {
+                            "slot": "num_tickets",
+                            "value": "2"
+                        },
+                        {
+                            "slot": "time",
+                            "value": "6:00 pm"
+                        },
+                        {
+                            "slot": "date",
+                            "value": "wednesday"
+                        },
+                        {
+                            "slot": "movie",
+                            "value": "a man called ove"
+                        },
+                        {
+                            "slot": "theatre_name",
+                            "value": "camera 7"
+                        }
+                    ],
+                    "user_acts": [
+                        {
+                            "type": "THANK_YOU"
+                        },
+                        {
+                            "type": "GOOD_BYE"
+                        }
+                    ],
+                    "user_utterance": {
+                        "slots": [],
+                        "text": "thanks . goodbye .",
+                        "tokens": [
+                            "thanks",
+                            ".",
+                            "goodbye",
+                            "."
+                        ]
+                    }
+                },
+                "original system side information": {},
+                "dst": "",
+                "dst accumulated": "movie theatre_name camera 7, movie time 6:00 pm, movie num_tickets 2, movie movie a man called ove, movie date wednesday",
+                "intent": "THANK_YOU, GOOD_BYE",
+                "external knowledge non-flat": {
+                    "metadata": {
+                        "system_acts": ""
+                    }
+                },
+                "external knowledge": "System acts: "
+            }
+        ],
+        "dst knowledge": "( movie : ( time : ( 8 pm | 8:00 pm | 7.30 pm | 6 pm | 6.15 pm | 10:00 pm | 7 pm | 5 pm | 1 pm | 8.30 pm | 6:00 pm | 12 pm | 4:00 pm | dontcare | 2 pm | 7.15 pm | 6.30 pm ) | num_tickets : ( 1 | 4 | 6 | 3 | 5 | 2 ) | movie : ( sahasam swasaga sagipo | mr. donkey | storks | achcham yenbadhu madamaiyada | the magnificent seven | storks | storks | gimme danger | jack reacher | max steel ) | date : ( wednesday | tomorrow | tonight | friday | tuesday | next monday | sunday | today | saturday ) | theatre_name : ( century 25 union city and xd | amc newpark 12 | amc cupertino square 16 | shoreline theater | camera 7 | angelika | century cinemas 16 | amc mercado | cinemark 12 downtown san mateo | amc saratoga 14 | amc mercado 20 | century 20 great mall | century at pacific commons | cinelux plaza theatre | cinemark redwood downtown 20 and xd | aquarius | lincoln square cinemas | cinearts @ santana row | cinelux almaden cafe & lounge | the stanford theater )))",
+        "intent knowledge": "( movie : ( GREETING | OTHER | CANT_UNDERSTAND | NEGATE | THANK_YOU | GOOD_BYE | INFORM | AFFIRM ))",
+        "prompt": [
+            "This is a bot helping users to book a movie ticket. Given the dialog context and external database, please generate a relevant system response for the user.",
+            "This bot assists users to book a movie ticket. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
+            "This bot helps users to book a movie ticket. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
+            "The purpose of this bot is to assist users to book a movie ticket. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
+            "This bot is designed to help users book a movie ticket. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+        ]
+    },
+    "SimJointMovie--train--5": {
+        "original dialog id": "movies_00000016",
+        "dialog index": 5,
+        "original dialog info": {
+            "slots and values": {
+                "movie": {
+                    "time": [
+                        "8 pm",
+                        "8:00 pm",
+                        "7.30 pm",
+                        "6 pm",
+                        "6.15 pm",
+                        "10:00 pm",
+                        "7 pm",
+                        "5 pm",
+                        "1 pm",
+                        "8.30 pm",
+                        "6:00 pm",
+                        "12 pm",
+                        "4:00 pm",
+                        "dontcare",
+                        "2 pm",
+                        "7.15 pm",
+                        "6.30 pm"
+                    ],
+                    "num_tickets": [
+                        "1",
+                        "4",
+                        "6",
+                        "3",
+                        "5",
+                        "2"
+                    ],
+                    "movie": [
+                        "sahasam swasaga sagipo",
+                        "mr. donkey",
+                        "storks",
+                        "achcham yenbadhu madamaiyada",
+                        "the magnificent seven",
+                        "storks",
+                        "storks",
+                        "gimme danger",
+                        "jack reacher",
+                        "max steel"
+                    ],
+                    "date": [
+                        "wednesday",
+                        "tomorrow",
+                        "tonight",
+                        "friday",
+                        "tuesday",
+                        "next monday",
+                        "sunday",
+                        "today",
+                        "saturday"
+                    ],
+                    "theatre_name": [
+                        "century 25 union city and xd",
+                        "amc newpark 12",
+                        "amc cupertino square 16",
+                        "shoreline theater",
+                        "camera 7",
+                        "angelika",
+                        "century cinemas 16",
+                        "amc mercado",
+                        "cinemark 12 downtown san mateo",
+                        "amc saratoga 14",
+                        "amc mercado 20",
+                        "century 20 great mall",
+                        "century at pacific commons",
+                        "cinelux plaza theatre",
+                        "cinemark redwood downtown 20 and xd",
+                        "aquarius",
+                        "lincoln square cinemas",
+                        "cinearts @ santana row",
+                        "cinelux almaden cafe & lounge",
+                        "the stanford theater"
+                    ]
+                }
+            },
+            "intents": {
+                "movie": [
+                    "GREETING",
+                    "OTHER",
+                    "CANT_UNDERSTAND",
+                    "NEGATE",
+                    "THANK_YOU",
+                    "GOOD_BYE",
+                    "INFORM",
+                    "AFFIRM"
+                ]
+            }
+        },
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "could you please buy movie tickets for a man called ove",
+                "system response": "do you have a preference of movie theater , time and day ?",
+                "dialog history": "",
+                "original user side information": {
+                    "dialogue_state": [
+                        {
+                            "slot": "movie",
+                            "value": "a man called ove"
+                        }
+                    ],
+                    "user_acts": [
+                        {
+                            "type": "INFORM"
+                        }
+                    ],
+                    "user_intents": [
+                        "BUY_MOVIE_TICKETS"
+                    ],
+                    "user_utterance": {
+                        "slots": [
+                            {
+                                "exclusive_end": 11,
+                                "slot": "movie",
+                                "start": 7
+                            }
+                        ],
+                        "text": "could you please buy movie tickets for a man called ove",
+                        "tokens": [
+                            "could",
+                            "you",
+                            "please",
+                            "buy",
+                            "movie",
+                            "tickets",
+                            "for",
+                            "a",
+                            "man",
+                            "called",
+                            "ove"
+                        ]
+                    }
+                },
+                "original system side information": {
+                    "system_acts": [
+                        {
+                            "slot": "time",
+                            "type": "REQUEST"
+                        },
+                        {
+                            "slot": "theatre_name",
+                            "type": "REQUEST"
+                        }
+                    ],
+                    "system_utterance": {
+                        "slots": [],
+                        "text": "do you have a preference of movie theater , time and day ?",
+                        "tokens": [
+                            "do",
+                            "you",
+                            "have",
+                            "a",
+                            "preference",
+                            "of",
+                            "movie",
+                            "theater",
+                            ",",
+                            "time",
+                            "and",
+                            "day",
+                            "?"
+                        ]
+                    }
+                },
+                "dst": "movie movie a man called ove",
+                "dst accumulated": "movie movie a man called ove",
+                "intent": "INFORM",
+                "external knowledge non-flat": {
+                    "metadata": {
+                        "system_acts": [
+                            {
+                                "slot": "time",
+                                "type": "REQUEST"
+                            },
+                            {
+                                "slot": "theatre_name",
+                                "type": "REQUEST"
+                            }
+                        ]
+                    }
+                },
+                "external knowledge": "System acts: [{'slot': 'time', 'type': 'REQUEST'}, {'slot': 'theatre_name', 'type': 'REQUEST'}]"
+            },
+            {
+                "turn id": 2,
+                "user utterance": "i ' d like tickets for wednesday at 6:00 pm at the amc saratoga 14 movie theater .",
+                "system response": "how many tickets would you like ?",
+                "dialog history": "<USER> could you please buy movie tickets for a man called ove <SYSTEM> do you have a preference of movie theater , time and day ?",
+                "original user side information": {
+                    "dialogue_state": [
+                        {
+                            "slot": "time",
+                            "value": "6:00 pm"
+                        },
+                        {
+                            "slot": "date",
+                            "value": "wednesday"
+                        },
+                        {
+                            "slot": "movie",
+                            "value": "a man called ove"
+                        },
+                        {
+                            "slot": "theatre_name",
+                            "value": "amc saratoga 14"
+                        }
+                    ],
+                    "user_acts": [
+                        {
+                            "type": "INFORM"
+                        }
+                    ],
+                    "user_utterance": {
+                        "slots": [
+                            {
+                                "exclusive_end": 7,
+                                "slot": "date",
+                                "start": 6
+                            },
+                            {
+                                "exclusive_end": 10,
+                                "slot": "time",
+                                "start": 8
+                            },
+                            {
+                                "exclusive_end": 15,
+                                "slot": "theatre_name",
+                                "start": 12
+                            }
+                        ],
+                        "text": "i ' d like tickets for wednesday at 6:00 pm at the amc saratoga 14 movie theater .",
+                        "tokens": [
+                            "i",
+                            "'",
+                            "d",
+                            "like",
+                            "tickets",
+                            "for",
+                            "wednesday",
+                            "at",
+                            "6:00",
+                            "pm",
+                            "at",
+                            "the",
+                            "amc",
+                            "saratoga",
+                            "14",
+                            "movie",
+                            "theater",
+                            "."
+                        ]
+                    }
+                },
+                "original system side information": {
+                    "system_acts": [
+                        {
+                            "slot": "num_tickets",
+                            "type": "REQUEST"
+                        }
+                    ],
+                    "system_utterance": {
+                        "slots": [],
+                        "text": "how many tickets would you like ?",
+                        "tokens": [
+                            "how",
+                            "many",
+                            "tickets",
+                            "would",
+                            "you",
+                            "like",
+                            "?"
+                        ]
+                    }
+                },
+                "dst": "movie date wednesday, movie time 6:00 pm, movie theatre_name amc saratoga 14",
+                "dst accumulated": "movie movie a man called ove, movie date wednesday, movie time 6:00 pm, movie theatre_name amc saratoga 14",
+                "intent": "INFORM",
+                "external knowledge non-flat": {
+                    "metadata": {
+                        "system_acts": [
+                            {
+                                "slot": "num_tickets",
+                                "type": "REQUEST"
+                            }
+                        ]
+                    }
+                },
+                "external knowledge": "System acts: [{'slot': 'num_tickets', 'type': 'REQUEST'}]"
+            },
+            {
+                "turn id": 3,
+                "user utterance": "i need 3 tickets .",
+                "system response": "just to confirm the time , 6:00 pm ?",
+                "dialog history": "<USER> could you please buy movie tickets for a man called ove <SYSTEM> do you have a preference of movie theater , time and day ? <USER> i ' d like tickets for wednesday at 6:00 pm at the amc saratoga 14 movie theater . <SYSTEM> how many tickets would you like ?",
+                "original user side information": {
+                    "dialogue_state": [
+                        {
+                            "slot": "num_tickets",
+                            "value": "3"
+                        },
+                        {
+                            "slot": "time",
+                            "value": "6:00 pm"
+                        },
+                        {
+                            "slot": "date",
+                            "value": "wednesday"
+                        },
+                        {
+                            "slot": "theatre_name",
+                            "value": "amc saratoga 14"
+                        },
+                        {
+                            "slot": "movie",
+                            "value": "a man called ove"
+                        }
+                    ],
+                    "user_acts": [
+                        {
+                            "type": "INFORM"
+                        }
+                    ],
+                    "user_utterance": {
+                        "slots": [
+                            {
+                                "exclusive_end": 3,
+                                "slot": "num_tickets",
+                                "start": 2
+                            }
+                        ],
+                        "text": "i need 3 tickets .",
+                        "tokens": [
+                            "i",
+                            "need",
+                            "3",
+                            "tickets",
+                            "."
+                        ]
+                    }
+                },
+                "original system side information": {
+                    "system_acts": [
+                        {
+                            "slot": "time",
+                            "type": "CONFIRM",
+                            "value": "6:00 pm"
+                        }
+                    ],
+                    "system_utterance": {
+                        "slots": [
+                            {
+                                "exclusive_end": 8,
+                                "slot": "time",
+                                "start": 6
+                            }
+                        ],
+                        "text": "just to confirm the time , 6:00 pm ?",
+                        "tokens": [
+                            "just",
+                            "to",
+                            "confirm",
+                            "the",
+                            "time",
+                            ",",
+                            "6:00",
+                            "pm",
+                            "?"
+                        ]
+                    }
+                },
+                "dst": "movie num_tickets 3",
+                "dst accumulated": "movie movie a man called ove, movie date wednesday, movie time 6:00 pm, movie theatre_name amc saratoga 14, movie num_tickets 3",
+                "intent": "INFORM",
+                "external knowledge non-flat": {
+                    "metadata": {
+                        "system_acts": [
+                            {
+                                "slot": "time",
+                                "type": "CONFIRM",
+                                "value": "6:00 pm"
+                            }
+                        ]
+                    }
+                },
+                "external knowledge": "System acts: [{'slot': 'time', 'type': 'CONFIRM', 'value': '6:00 pm'}]"
+            },
+            {
+                "turn id": 4,
+                "user utterance": "yes , that is correct , 6:00 pm is the time i would like .",
+                "system response": "this is a confirmation of tickets purchased for a man called ove for 3 people at 6:00 pm on march 08 at the amc saratoga 14 movie theater .",
+                "dialog history": "<USER> could you please buy movie tickets for a man called ove <SYSTEM> do you have a preference of movie theater , time and day ? <USER> i ' d like tickets for wednesday at 6:00 pm at the amc saratoga 14 movie theater . <SYSTEM> how many tickets would you like ? <USER> i need 3 tickets . <SYSTEM> just to confirm the time , 6:00 pm ?",
+                "original user side information": {
+                    "dialogue_state": [
+                        {
+                            "slot": "num_tickets",
+                            "value": "3"
+                        },
+                        {
+                            "slot": "time",
+                            "value": "6:00 pm"
+                        },
+                        {
+                            "slot": "date",
+                            "value": "wednesday"
+                        },
+                        {
+                            "slot": "theatre_name",
+                            "value": "amc saratoga 14"
+                        },
+                        {
+                            "slot": "movie",
+                            "value": "a man called ove"
+                        }
+                    ],
+                    "user_acts": [
+                        {
+                            "slot": "time",
+                            "type": "AFFIRM"
+                        }
+                    ],
+                    "user_utterance": {
+                        "slots": [
+                            {
+                                "exclusive_end": 8,
+                                "slot": "time",
+                                "start": 6
+                            }
+                        ],
+                        "text": "yes , that is correct , 6:00 pm is the time i would like .",
+                        "tokens": [
+                            "yes",
+                            ",",
+                            "that",
+                            "is",
+                            "correct",
+                            ",",
+                            "6:00",
+                            "pm",
+                            "is",
+                            "the",
+                            "time",
+                            "i",
+                            "would",
+                            "like",
+                            "."
+                        ]
+                    }
+                },
+                "original system side information": {
+                    "system_acts": [
+                        {
+                            "slot": "theatre_name",
+                            "type": "NOTIFY_SUCCESS",
+                            "value": "amc saratoga 14"
+                        },
+                        {
+                            "slot": "date",
+                            "type": "NOTIFY_SUCCESS",
+                            "value": "march 08"
+                        },
+                        {
+                            "slot": "time",
+                            "type": "NOTIFY_SUCCESS",
+                            "value": "6:00 pm"
+                        },
+                        {
+                            "slot": "num_tickets",
+                            "type": "NOTIFY_SUCCESS",
+                            "value": "3"
+                        },
+                        {
+                            "slot": "movie",
+                            "type": "NOTIFY_SUCCESS",
+                            "value": "a man called ove"
+                        }
+                    ],
+                    "system_utterance": {
+                        "slots": [
+                            {
+                                "exclusive_end": 12,
+                                "slot": "movie",
+                                "start": 8
+                            },
+                            {
+                                "exclusive_end": 14,
+                                "slot": "num_tickets",
+                                "start": 13
+                            },
+                            {
+                                "exclusive_end": 18,
+                                "slot": "time",
+                                "start": 16
+                            },
+                            {
+                                "exclusive_end": 21,
+                                "slot": "date",
+                                "start": 19
+                            },
+                            {
+                                "exclusive_end": 26,
+                                "slot": "theatre_name",
+                                "start": 23
+                            }
+                        ],
+                        "text": "this is a confirmation of tickets purchased for a man called ove for 3 people at 6:00 pm on march 08 at the amc saratoga 14 movie theater .",
+                        "tokens": [
+                            "this",
+                            "is",
+                            "a",
+                            "confirmation",
+                            "of",
+                            "tickets",
+                            "purchased",
+                            "for",
+                            "a",
+                            "man",
+                            "called",
+                            "ove",
+                            "for",
+                            "3",
+                            "people",
+                            "at",
+                            "6:00",
+                            "pm",
+                            "on",
+                            "march",
+                            "08",
+                            "at",
+                            "the",
+                            "amc",
+                            "saratoga",
+                            "14",
+                            "movie",
+                            "theater",
+                            "."
+                        ]
+                    }
+                },
+                "dst": "movie time 6:00 pm",
+                "dst accumulated": "movie movie a man called ove, movie date wednesday, movie time 6:00 pm, movie theatre_name amc saratoga 14, movie num_tickets 3",
+                "intent": "AFFIRM",
+                "external knowledge non-flat": {
+                    "metadata": {
+                        "system_acts": [
+                            {
+                                "slot": "theatre_name",
+                                "type": "NOTIFY_SUCCESS",
+                                "value": "amc saratoga 14"
+                            },
+                            {
+                                "slot": "date",
+                                "type": "NOTIFY_SUCCESS",
+                                "value": "march 08"
+                            },
+                            {
+                                "slot": "time",
+                                "type": "NOTIFY_SUCCESS",
+                                "value": "6:00 pm"
+                            },
+                            {
+                                "slot": "num_tickets",
+                                "type": "NOTIFY_SUCCESS",
+                                "value": "3"
+                            },
+                            {
+                                "slot": "movie",
+                                "type": "NOTIFY_SUCCESS",
+                                "value": "a man called ove"
+                            }
+                        ]
+                    }
+                },
+                "external knowledge": "System acts: [{'slot': 'theatre_name', 'type': 'NOTIFY_SUCCESS', 'value': 'amc saratoga 14'}, {'slot': 'date', 'type': 'NOTIFY_SUCCESS', 'value': 'march 08'}, {'slot': 'time', 'type': 'NOTIFY_SUCCESS', 'value': '6:00 pm'}, {'slot': 'num_tickets', 'type': 'NOTIFY_SUCCESS', 'value': '3'}, {'slot': 'movie', 'type': 'NOTIFY_SUCCESS', 'value': 'a man called ove'}]"
+            },
+            {
+                "turn id": 5,
+                "user utterance": "bye .",
+                "system response": "",
+                "dialog history": "<USER> could you please buy movie tickets for a man called ove <SYSTEM> do you have a preference of movie theater , time and day ? <USER> i ' d like tickets for wednesday at 6:00 pm at the amc saratoga 14 movie theater . <SYSTEM> how many tickets would you like ? <USER> i need 3 tickets . <SYSTEM> just to confirm the time , 6:00 pm ? <USER> yes , that is correct , 6:00 pm is the time i would like . <SYSTEM> this is a confirmation of tickets purchased for a man called ove for 3 people at 6:00 pm on march 08 at the amc saratoga 14 movie theater .",
+                "original user side information": {
+                    "dialogue_state": [
+                        {
+                            "slot": "num_tickets",
+                            "value": "3"
+                        },
+                        {
+                            "slot": "time",
+                            "value": "6:00 pm"
+                        },
+                        {
+                            "slot": "date",
+                            "value": "wednesday"
+                        },
+                        {
+                            "slot": "theatre_name",
+                            "value": "amc saratoga 14"
+                        },
+                        {
+                            "slot": "movie",
+                            "value": "a man called ove"
+                        }
+                    ],
+                    "user_acts": [
+                        {
+                            "type": "GOOD_BYE"
+                        }
+                    ],
+                    "user_utterance": {
+                        "slots": [],
+                        "text": "bye .",
+                        "tokens": [
+                            "bye",
+                            "."
+                        ]
+                    }
+                },
+                "original system side information": {},
+                "dst": "",
+                "dst accumulated": "movie movie a man called ove, movie date wednesday, movie time 6:00 pm, movie theatre_name amc saratoga 14, movie num_tickets 3",
+                "intent": "GOOD_BYE",
+                "external knowledge non-flat": {
+                    "metadata": {
+                        "system_acts": ""
+                    }
+                },
+                "external knowledge": "System acts: "
+            }
+        ],
+        "dst knowledge": "( movie : ( time : ( 8 pm | 8:00 pm | 7.30 pm | 6 pm | 6.15 pm | 10:00 pm | 7 pm | 5 pm | 1 pm | 8.30 pm | 6:00 pm | 12 pm | 4:00 pm | dontcare | 2 pm | 7.15 pm | 6.30 pm ) | num_tickets : ( 1 | 4 | 6 | 3 | 5 | 2 ) | movie : ( sahasam swasaga sagipo | mr. donkey | storks | achcham yenbadhu madamaiyada | the magnificent seven | storks | storks | gimme danger | jack reacher | max steel ) | date : ( wednesday | tomorrow | tonight | friday | tuesday | next monday | sunday | today | saturday ) | theatre_name : ( century 25 union city and xd | amc newpark 12 | amc cupertino square 16 | shoreline theater | camera 7 | angelika | century cinemas 16 | amc mercado | cinemark 12 downtown san mateo | amc saratoga 14 | amc mercado 20 | century 20 great mall | century at pacific commons | cinelux plaza theatre | cinemark redwood downtown 20 and xd | aquarius | lincoln square cinemas | cinearts @ santana row | cinelux almaden cafe & lounge | the stanford theater )))",
+        "intent knowledge": "( movie : ( GREETING | OTHER | CANT_UNDERSTAND | NEGATE | THANK_YOU | GOOD_BYE | INFORM | AFFIRM ))",
+        "prompt": [
+            "This is a bot helping users to book a movie ticket. Given the dialog context and external database, please generate a relevant system response for the user.",
+            "This bot assists users to book a movie ticket. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
+            "This bot helps users to book a movie ticket. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
+            "The purpose of this bot is to assist users to book a movie ticket. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
+            "This bot is designed to help users book a movie ticket. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+        ]
+    }
+}

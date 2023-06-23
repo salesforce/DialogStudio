@@ -1,0 +1,3690 @@
+[
+    {
+        "dialogue_id": "train_1",
+        "num_utterances": 14,
+        "utterances": [
+            {
+                "speaker": "USR",
+                "text": "I'd like to book a trip to Atlantis from Caprica on Saturday, August 13, 2016 for 8 adults.",
+                "ap_label": "",
+                "da_label": "inform"
+            },
+            {
+                "speaker": "USR",
+                "text": "I have a tight budget of 1700.",
+                "ap_label": "",
+                "da_label": "inform"
+            },
+            {
+                "speaker": "SYS",
+                "text": "Hi...I checked a few options for you, and unfortunately, we do not currently have any trips that meet this criteria.",
+                "ap_label": "",
+                "da_label": "sorry",
+                "slots": {
+                    "dst_city": "Atlantis",
+                    "or_city": "Caprica",
+                    "str_date": "Saturday, August 13, 2016",
+                    "n_adults": "8",
+                    "budget": "1700"
+                }
+            },
+            {
+                "speaker": "SYS",
+                "text": " Would you like to book an alternate travel option?",
+                "ap_label": "",
+                "da_label": "sorry",
+                "slots": {
+                    "dst_city": "Atlantis",
+                    "or_city": "Caprica",
+                    "str_date": "Saturday, August 13, 2016",
+                    "n_adults": "8",
+                    "budget": "1700"
+                }
+            },
+            {
+                "speaker": "USR",
+                "text": "Yes, how about going to Neverland from Caprica on August 13, 2016 for 5 adults.",
+                "ap_label": "",
+                "da_label": "inform"
+            },
+            {
+                "speaker": "USR",
+                "text": "For this trip, my budget would be 1900.",
+                "ap_label": "",
+                "da_label": "inform"
+            },
+            {
+                "speaker": "SYS",
+                "text": "I checked the availability for this date and there were no trips available.",
+                "ap_label": "",
+                "da_label": "suggest",
+                "slots": {
+                    "dst_city": "Neverland",
+                    "n_adults": "5",
+                    "budget": "1900",
+                    "or_city": "Caprica",
+                    "str_date": "August 13, 2016"
+                }
+            },
+            {
+                "speaker": "SYS",
+                "text": " Would you like to select some alternate dates?",
+                "ap_label": "",
+                "da_label": "suggest",
+                "slots": {
+                    "dst_city": "Neverland",
+                    "n_adults": "5",
+                    "budget": "1900",
+                    "or_city": "Caprica",
+                    "str_date": "August 13, 2016"
+                }
+            },
+            {
+                "speaker": "USR",
+                "text": "I have no flexibility for dates... but I can leave from Atlantis rather than Caprica.",
+                "ap_label": "",
+                "da_label": "negate"
+            },
+            {
+                "speaker": "USR",
+                "text": "How about that?",
+                "ap_label": "",
+                "da_label": "negate"
+            },
+            {
+                "speaker": "SYS",
+                "text": "I checked the availability for that date and there were no trips available.",
+                "ap_label": "",
+                "da_label": "suggest",
+                "slots": {
+                    "flex": false,
+                    "or_city": "Caprica"
+                }
+            },
+            {
+                "speaker": "SYS",
+                "text": " Would you like to select some alternate dates?",
+                "ap_label": "",
+                "da_label": "suggest",
+                "slots": {
+                    "flex": false,
+                    "or_city": "Caprica"
+                }
+            },
+            {
+                "speaker": "USR",
+                "text": "I suppose I'll speak with my husband to see if we can choose other dates, and then I'll come back to you.",
+                "ap_label": "",
+                "da_label": "thankyou"
+            },
+            {
+                "speaker": "USR",
+                "text": "Thanks for your help",
+                "ap_label": "",
+                "da_label": "thankyou"
+            }
+        ],
+        "scenario": {
+            "db_id": "U22HTHYNP",
+            "db_type": "booking",
+            "task": "book",
+            "items": [
+                {
+                    "trip": {
+                        "returning": {
+                            "duration": {
+                                "hours": 0,
+                                "min": 51
+                            },
+                            "arrival": {
+                                "hour": 10,
+                                "year": 2016,
+                                "day": 24,
+                                "min": 51,
+                                "month": 8
+                            },
+                            "departure": {
+                                "hour": 10,
+                                "year": 2016,
+                                "day": 24,
+                                "min": 0,
+                                "month": 8
+                            }
+                        },
+                        "seat": "ECONOMY",
+                        "leaving": {
+                            "duration": {
+                                "hours": 0,
+                                "min": 51
+                            },
+                            "arrival": {
+                                "hour": 0,
+                                "year": 2016,
+                                "day": 16,
+                                "min": 51,
+                                "month": 8
+                            },
+                            "departure": {
+                                "hour": 0,
+                                "year": 2016,
+                                "day": 16,
+                                "min": 0,
+                                "month": 8
+                            }
+                        },
+                        "or_city": "Porto Alegre",
+                        "duration_days": 9
+                    },
+                    "price": 2118.81,
+                    "hotel": {
+                        "gst_rating": 7.15,
+                        "vicinity": [],
+                        "name": "Scarlet Palms Resort",
+                        "country": "Brazil",
+                        "amenities": [
+                            "FREE_BREAKFAST",
+                            "FREE_PARKING",
+                            "FREE_WIFI"
+                        ],
+                        "dst_city": "Goiania",
+                        "category": "3.5 star hotel"
+                    }
+                },
+                {
+                    "trip": {
+                        "returning": {
+                            "duration": {
+                                "hours": 2,
+                                "min": 37
+                            },
+                            "arrival": {
+                                "hour": 12,
+                                "year": 2016,
+                                "day": 10,
+                                "min": 37,
+                                "month": 8
+                            },
+                            "departure": {
+                                "hour": 10,
+                                "year": 2016,
+                                "day": 10,
+                                "min": 0,
+                                "month": 8
+                            }
+                        },
+                        "seat": "ECONOMY",
+                        "leaving": {
+                            "duration": {
+                                "hours": 2,
+                                "min": 37
+                            },
+                            "arrival": {
+                                "hour": 0,
+                                "year": 2016,
+                                "day": 4,
+                                "min": 37,
+                                "month": 8
+                            },
+                            "departure": {
+                                "hour": 22,
+                                "year": 2016,
+                                "day": 3,
+                                "min": 0,
+                                "month": 8
+                            }
+                        },
+                        "or_city": "Porto Alegre",
+                        "duration_days": 7
+                    },
+                    "price": 2369.83,
+                    "hotel": {
+                        "gst_rating": 0,
+                        "vicinity": [],
+                        "name": "Sunway Hostel",
+                        "country": "Argentina",
+                        "amenities": [
+                            "FREE_BREAKFAST",
+                            "FREE_WIFI"
+                        ],
+                        "dst_city": "Rosario",
+                        "category": "2.0 star hotel"
+                    }
+                },
+                {
+                    "trip": {
+                        "returning": {
+                            "duration": {
+                                "hours": 0,
+                                "min": 51
+                            },
+                            "arrival": {
+                                "hour": 10,
+                                "year": 2016,
+                                "day": 24,
+                                "min": 51,
+                                "month": 8
+                            },
+                            "departure": {
+                                "hour": 10,
+                                "year": 2016,
+                                "day": 24,
+                                "min": 0,
+                                "month": 8
+                            }
+                        },
+                        "seat": "BUSINESS",
+                        "leaving": {
+                            "duration": {
+                                "hours": 0,
+                                "min": 51
+                            },
+                            "arrival": {
+                                "hour": 0,
+                                "year": 2016,
+                                "day": 16,
+                                "min": 51,
+                                "month": 8
+                            },
+                            "departure": {
+                                "hour": 0,
+                                "year": 2016,
+                                "day": 16,
+                                "min": 0,
+                                "month": 8
+                            }
+                        },
+                        "or_city": "Porto Alegre",
+                        "duration_days": 9
+                    },
+                    "price": 2375.72,
+                    "hotel": {
+                        "gst_rating": 7.15,
+                        "vicinity": [],
+                        "name": "Scarlet Palms Resort",
+                        "country": "Brazil",
+                        "amenities": [
+                            "FREE_BREAKFAST",
+                            "FREE_PARKING",
+                            "FREE_WIFI"
+                        ],
+                        "dst_city": "Goiania",
+                        "category": "3.5 star hotel"
+                    }
+                },
+                {
+                    "trip": {
+                        "returning": {
+                            "duration": {
+                                "hours": 1,
+                                "min": 30
+                            },
+                            "arrival": {
+                                "hour": 11,
+                                "year": 2016,
+                                "day": 1,
+                                "min": 30,
+                                "month": 9
+                            },
+                            "departure": {
+                                "hour": 10,
+                                "year": 2016,
+                                "day": 1,
+                                "min": 0,
+                                "month": 9
+                            }
+                        },
+                        "seat": "BUSINESS",
+                        "leaving": {
+                            "duration": {
+                                "hours": 1,
+                                "min": 30
+                            },
+                            "arrival": {
+                                "hour": 18,
+                                "year": 2016,
+                                "day": 19,
+                                "min": 30,
+                                "month": 8
+                            },
+                            "departure": {
+                                "hour": 17,
+                                "year": 2016,
+                                "day": 19,
+                                "min": 0,
+                                "month": 8
+                            }
+                        },
+                        "or_city": "Porto Alegre",
+                        "duration_days": 13
+                    },
+                    "price": 2492.95,
+                    "hotel": {
+                        "gst_rating": 0,
+                        "vicinity": [],
+                        "name": "Hotel Mundo",
+                        "country": "Brazil",
+                        "amenities": [
+                            "FREE_BREAKFAST",
+                            "FREE_WIFI",
+                            "FREE_PARKING"
+                        ],
+                        "dst_city": "Manaus",
+                        "category": "2.5 star hotel"
+                    }
+                },
+                {
+                    "trip": {
+                        "returning": {
+                            "duration": {
+                                "hours": 0,
+                                "min": 51
+                            },
+                            "arrival": {
+                                "hour": 10,
+                                "year": 2016,
+                                "day": 31,
+                                "min": 51,
+                                "month": 8
+                            },
+                            "departure": {
+                                "hour": 10,
+                                "year": 2016,
+                                "day": 31,
+                                "min": 0,
+                                "month": 8
+                            }
+                        },
+                        "seat": "ECONOMY",
+                        "leaving": {
+                            "duration": {
+                                "hours": 0,
+                                "min": 51
+                            },
+                            "arrival": {
+                                "hour": 19,
+                                "year": 2016,
+                                "day": 27,
+                                "min": 51,
+                                "month": 8
+                            },
+                            "departure": {
+                                "hour": 19,
+                                "year": 2016,
+                                "day": 27,
+                                "min": 0,
+                                "month": 8
+                            }
+                        },
+                        "or_city": "Porto Alegre",
+                        "duration_days": 4
+                    },
+                    "price": 2538.0,
+                    "hotel": {
+                        "gst_rating": 8.22,
+                        "vicinity": [],
+                        "name": "The Glee",
+                        "country": "Brazil",
+                        "amenities": [
+                            "FREE_BREAKFAST",
+                            "FREE_WIFI"
+                        ],
+                        "dst_city": "Recife",
+                        "category": "4.0 star hotel"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "dialogue_id": "train_2",
+        "num_utterances": 28,
+        "utterances": [
+            {
+                "speaker": "USR",
+                "text": "Hello there i am looking to go on a vacation with my family to Gotham City, can you help me?",
+                "ap_label": "",
+                "da_label": "greeting"
+            },
+            {
+                "speaker": "SYS",
+                "text": "when  would you like to travel and how many people will you be?",
+                "ap_label": "",
+                "da_label": "request",
+                "slots": {
+                    "dst_city": "Gotham City"
+                }
+            },
+            {
+                "speaker": "USR",
+                "text": "Not sure when we want to leave, but we are 12 kids and 5 adults",
+                "ap_label": "",
+                "da_label": "inform"
+            },
+            {
+                "speaker": "SYS",
+                "text": "do you have a budget?",
+                "ap_label": "",
+                "da_label": "request",
+                "slots": {
+                    "str_date": "-1",
+                    "n_adults": "5",
+                    "n_children": "12"
+                }
+            },
+            {
+                "speaker": "USR",
+                "text": "yes i do, it is around $2200",
+                "ap_label": "",
+                "da_label": "inform"
+            },
+            {
+                "speaker": "SYS",
+                "text": "where will you be travelling from?",
+                "ap_label": "",
+                "da_label": "request",
+                "slots": {
+                    "budget": "$2200"
+                }
+            },
+            {
+                "speaker": "USR",
+                "text": "We are from Neverland",
+                "ap_label": "",
+                "da_label": "inform"
+            },
+            {
+                "speaker": "SYS",
+                "text": "We have nothing available leaving from Neverland, are you able to depart from another city?",
+                "ap_label": "",
+                "da_label": "suggest",
+                "slots": {
+                    "or_city": "Neverland"
+                }
+            },
+            {
+                "speaker": "USR",
+                "text": "we can depart from Toronto",
+                "ap_label": "",
+                "da_label": "inform"
+            },
+            {
+                "speaker": "SYS",
+                "text": "Gotham City is not a destination we travel to.",
+                "ap_label": "",
+                "da_label": "suggest",
+                "slots": {
+                    "or_city": "Toronto"
+                }
+            },
+            {
+                "speaker": "SYS",
+                "text": "Are you interested in any other destinations?",
+                "ap_label": "",
+                "da_label": "suggest",
+                "slots": {
+                    "or_city": "Toronto"
+                }
+            },
+            {
+                "speaker": "USR",
+                "text": "hmm what options would i have out of Toronto?",
+                "ap_label": "",
+                "da_label": "inform"
+            },
+            {
+                "speaker": "SYS",
+                "text": "Would you be interested in Calgary?",
+                "ap_label": "",
+                "da_label": "suggest",
+                "slots": {
+                    "or_city": "Toronto"
+                }
+            },
+            {
+                "speaker": "USR",
+                "text": "that would be nice",
+                "ap_label": "",
+                "da_label": "switch_frame"
+            },
+            {
+                "speaker": "SYS",
+                "text": "I have a departure from Toronto to Calgary  on August 17 returning on August 24.",
+                "ap_label": "",
+                "da_label": "offer",
+                "slots": {}
+            },
+            {
+                "speaker": "SYS",
+                "text": "Does that work for you?",
+                "ap_label": "",
+                "da_label": "offer",
+                "slots": {}
+            },
+            {
+                "speaker": "USR",
+                "text": "No sorry i was planning on getting a tan this vacation.",
+                "ap_label": "",
+                "da_label": "request_alts"
+            },
+            {
+                "speaker": "USR",
+                "text": "Thanks, is there anywhere else?",
+                "ap_label": "",
+                "da_label": "request_alts"
+            },
+            {
+                "speaker": "USR",
+                "text": "Thank you\nis there anywhere else?",
+                "ap_label": "",
+                "da_label": "request_alts"
+            },
+            {
+                "speaker": "SYS",
+                "text": "How about a trip to Dominican Republic?",
+                "ap_label": "",
+                "da_label": "suggest",
+                "slots": {}
+            },
+            {
+                "speaker": "SYS",
+                "text": "it is quite cheap at this time of year.",
+                "ap_label": "",
+                "da_label": "suggest",
+                "slots": {}
+            },
+            {
+                "speaker": "USR",
+                "text": "What options do you have available for me?",
+                "ap_label": "",
+                "da_label": "request"
+            },
+            {
+                "speaker": "SYS",
+                "text": "I have the el Mar hotel available in Punta Cana this week.",
+                "ap_label": "",
+                "da_label": "offer",
+                "slots": {}
+            },
+            {
+                "speaker": "USR",
+                "text": "That sounds interesting.",
+                "ap_label": "",
+                "da_label": "switch_frame"
+            },
+            {
+                "speaker": "USR",
+                "text": "how many stars does the hotel have?",
+                "ap_label": "",
+                "da_label": "switch_frame"
+            },
+            {
+                "speaker": "SYS",
+                "text": "2.5 stars.",
+                "ap_label": "",
+                "da_label": "inform",
+                "slots": {}
+            },
+            {
+                "speaker": "SYS",
+                "text": "You would have to fly out of Melbourne though",
+                "ap_label": "",
+                "da_label": "inform",
+                "slots": {}
+            },
+            {
+                "speaker": "USR",
+                "text": "Ahh...maybe another time",
+                "ap_label": "",
+                "da_label": "goodbye"
+            }
+        ],
+        "scenario": {
+            "db_id": "U21RP4FCY",
+            "db_type": "booking",
+            "task": "book",
+            "items": [
+                {
+                    "trip": {
+                        "returning": {
+                            "duration": {
+                                "hours": 1,
+                                "min": 2
+                            },
+                            "arrival": {
+                                "hour": 5,
+                                "year": 2016,
+                                "day": 24,
+                                "min": 2,
+                                "month": 8
+                            },
+                            "departure": {
+                                "hour": 4,
+                                "year": 2016,
+                                "day": 24,
+                                "min": 0,
+                                "month": 8
+                            }
+                        },
+                        "seat": "ECONOMY",
+                        "leaving": {
+                            "duration": {
+                                "hours": 1,
+                                "min": 2
+                            },
+                            "arrival": {
+                                "hour": 12,
+                                "year": 2016,
+                                "day": 17,
+                                "min": 2,
+                                "month": 8
+                            },
+                            "departure": {
+                                "hour": 11,
+                                "year": 2016,
+                                "day": 17,
+                                "min": 0,
+                                "month": 8
+                            }
+                        },
+                        "or_city": "Toronto",
+                        "duration_days": 7
+                    },
+                    "price": 1864.38,
+                    "hotel": {
+                        "gst_rating": 0,
+                        "vicinity": [],
+                        "name": "Amusement",
+                        "country": "Canada",
+                        "amenities": [
+                            "FREE_PARKING",
+                            "FREE_WIFI"
+                        ],
+                        "dst_city": "Calgary",
+                        "category": "4.0 star hotel"
+                    }
+                },
+                {
+                    "trip": {
+                        "returning": {
+                            "duration": {
+                                "hours": 1,
+                                "min": 8
+                            },
+                            "arrival": {
+                                "hour": 6,
+                                "year": 2016,
+                                "day": 31,
+                                "min": 8,
+                                "month": 8
+                            },
+                            "departure": {
+                                "hour": 5,
+                                "year": 2016,
+                                "day": 31,
+                                "min": 0,
+                                "month": 8
+                            }
+                        },
+                        "seat": "ECONOMY",
+                        "leaving": {
+                            "duration": {
+                                "hours": 1,
+                                "min": 8
+                            },
+                            "arrival": {
+                                "hour": 12,
+                                "year": 2016,
+                                "day": 24,
+                                "min": 8,
+                                "month": 8
+                            },
+                            "departure": {
+                                "hour": 11,
+                                "year": 2016,
+                                "day": 24,
+                                "min": 0,
+                                "month": 8
+                            }
+                        },
+                        "or_city": "Melbourne",
+                        "duration_days": 7
+                    },
+                    "price": 2038.8,
+                    "hotel": {
+                        "gst_rating": 0,
+                        "vicinity": [],
+                        "name": "El Mar",
+                        "country": "Dominican Republic",
+                        "amenities": [],
+                        "dst_city": "Punta Cana",
+                        "category": "2.5 star hotel"
+                    }
+                },
+                {
+                    "trip": {
+                        "returning": {
+                            "duration": {
+                                "hours": 0,
+                                "min": 57
+                            },
+                            "arrival": {
+                                "hour": 11,
+                                "year": 2016,
+                                "day": 6,
+                                "min": 57,
+                                "month": 9
+                            },
+                            "departure": {
+                                "hour": 11,
+                                "year": 2016,
+                                "day": 6,
+                                "min": 0,
+                                "month": 9
+                            }
+                        },
+                        "seat": "ECONOMY",
+                        "leaving": {
+                            "duration": {
+                                "hours": 0,
+                                "min": 57
+                            },
+                            "arrival": {
+                                "hour": 17,
+                                "year": 2016,
+                                "day": 24,
+                                "min": 57,
+                                "month": 8
+                            },
+                            "departure": {
+                                "hour": 17,
+                                "year": 2016,
+                                "day": 24,
+                                "min": 0,
+                                "month": 8
+                            }
+                        },
+                        "or_city": "Tampa",
+                        "duration_days": 13
+                    },
+                    "price": 2081.2,
+                    "hotel": {
+                        "gst_rating": 0,
+                        "vicinity": [],
+                        "name": "El Mar",
+                        "country": "Dominican Republic",
+                        "amenities": [],
+                        "dst_city": "Punta Cana",
+                        "category": "2.5 star hotel"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "dialogue_id": "train_3",
+        "num_utterances": 21,
+        "utterances": [
+            {
+                "speaker": "USR",
+                "text": "Hi I'd like to go to Caprica from Busan, between Sunday August 21, 2016 and Wednesday August 31, 2016",
+                "ap_label": "",
+                "da_label": "greeting"
+            },
+            {
+                "speaker": "SYS",
+                "text": "And what would be your maximum budget for this trip?",
+                "ap_label": "",
+                "da_label": "request",
+                "slots": {
+                    "dst_city": "Caprica",
+                    "or_city": "Busan",
+                    "str_date": "Sunday August 21, 2016",
+                    "end_date": "Wednesday August 31, 2016"
+                }
+            },
+            {
+                "speaker": "USR",
+                "text": "Actually it's unlimited for this trip",
+                "ap_label": "",
+                "da_label": "inform"
+            },
+            {
+                "speaker": "SYS",
+                "text": "How many adults and how many children will be making this trip?",
+                "ap_label": "",
+                "da_label": "request",
+                "slots": {
+                    "budget": "-1"
+                }
+            },
+            {
+                "speaker": "USR",
+                "text": "2 adults",
+                "ap_label": "",
+                "da_label": "inform"
+            },
+            {
+                "speaker": "SYS",
+                "text": "I have no trips to Caprica from Busan.",
+                "ap_label": "",
+                "da_label": "suggest",
+                "slots": {
+                    "n_adults": "2"
+                }
+            },
+            {
+                "speaker": "SYS",
+                "text": " I do have a trip to Mannheim, Germany, one to Kingston , Canada, and another to Toronto Canada.",
+                "ap_label": "",
+                "da_label": "suggest",
+                "slots": {
+                    "n_adults": "2"
+                }
+            },
+            {
+                "speaker": "SYS",
+                "text": " Would you like to select alternate dates or an alternate travel destination?",
+                "ap_label": "",
+                "da_label": "suggest",
+                "slots": {
+                    "n_adults": "2"
+                }
+            },
+            {
+                "speaker": "USR",
+                "text": "Do you have anything for San Antonio as a destination?",
+                "ap_label": "",
+                "da_label": "inform"
+            },
+            {
+                "speaker": "SYS",
+                "text": "Yes, I do.",
+                "ap_label": "",
+                "da_label": "suggest",
+                "slots": {
+                    "dst_city": "San Antonio"
+                }
+            },
+            {
+                "speaker": "SYS",
+                "text": " I have one for 8445.37 USD.",
+                "ap_label": "",
+                "da_label": "suggest",
+                "slots": {
+                    "dst_city": "San Antonio"
+                }
+            },
+            {
+                "speaker": "SYS",
+                "text": " Would you like to book this package?",
+                "ap_label": "",
+                "da_label": "suggest",
+                "slots": {
+                    "dst_city": "San Antonio"
+                }
+            },
+            {
+                "speaker": "SYS",
+                "text": " The guest rating is 7.15/10 and there is free parking and free wifi.",
+                "ap_label": "",
+                "da_label": "suggest",
+                "slots": {
+                    "dst_city": "San Antonio"
+                }
+            },
+            {
+                "speaker": "SYS",
+                "text": " Leaving Sunday, August 21st at 11:00 a.m. and returning Sunday, August 28th at 1:00 a.m.",
+                "ap_label": "",
+                "da_label": "suggest",
+                "slots": {
+                    "dst_city": "San Antonio"
+                }
+            },
+            {
+                "speaker": "USR",
+                "text": "Is breakfast included?",
+                "ap_label": "",
+                "da_label": "switch_frame"
+            },
+            {
+                "speaker": "SYS",
+                "text": "Yes, it is.",
+                "ap_label": "",
+                "da_label": "inform",
+                "slots": {}
+            },
+            {
+                "speaker": "USR",
+                "text": "That sounds great.",
+                "ap_label": "",
+                "da_label": "inform"
+            },
+            {
+                "speaker": "USR",
+                "text": "1:00 am return on Sunday August 28th is very early in the morning...",
+                "ap_label": "",
+                "da_label": "inform"
+            },
+            {
+                "speaker": "SYS",
+                "text": "Would you like to book this package?",
+                "ap_label": "",
+                "da_label": "suggest",
+                "slots": {
+                    "arr_time_or": "1:00 am",
+                    "end_date": "Sunday August 28th"
+                }
+            },
+            {
+                "speaker": "USR",
+                "text": "Yes I would.",
+                "ap_label": "",
+                "da_label": "thankyou"
+            },
+            {
+                "speaker": "USR",
+                "text": "Thanks for your help.",
+                "ap_label": "",
+                "da_label": "thankyou"
+            }
+        ],
+        "scenario": {
+            "db_id": "U22HTHYNP",
+            "db_type": "booking",
+            "task": "book",
+            "items": [
+                {
+                    "trip": {
+                        "returning": {
+                            "duration": {
+                                "hours": 12,
+                                "min": 4
+                            },
+                            "arrival": {
+                                "hour": 13,
+                                "year": 2016,
+                                "day": 29,
+                                "min": 4,
+                                "month": 8
+                            },
+                            "departure": {
+                                "hour": 1,
+                                "year": 2016,
+                                "day": 29,
+                                "min": 0,
+                                "month": 8
+                            }
+                        },
+                        "seat": "ECONOMY",
+                        "leaving": {
+                            "duration": {
+                                "hours": 12,
+                                "min": 4
+                            },
+                            "arrival": {
+                                "hour": 21,
+                                "year": 2016,
+                                "day": 24,
+                                "min": 4,
+                                "month": 8
+                            },
+                            "departure": {
+                                "hour": 9,
+                                "year": 2016,
+                                "day": 24,
+                                "min": 0,
+                                "month": 8
+                            }
+                        },
+                        "or_city": "Busan",
+                        "duration_days": 6
+                    },
+                    "price": 5482.15,
+                    "hotel": {
+                        "gst_rating": 8.86,
+                        "vicinity": [],
+                        "name": "Hotel Richard",
+                        "country": "Canada",
+                        "amenities": [
+                            "FREE_BREAKFAST",
+                            "FREE_PARKING",
+                            "FREE_WIFI"
+                        ],
+                        "dst_city": "Toronto",
+                        "category": "3.0 star hotel"
+                    }
+                },
+                {
+                    "trip": {
+                        "returning": {
+                            "duration": {
+                                "hours": 12,
+                                "min": 14
+                            },
+                            "arrival": {
+                                "hour": 13,
+                                "year": 2016,
+                                "day": 27,
+                                "min": 14,
+                                "month": 8
+                            },
+                            "departure": {
+                                "hour": 1,
+                                "year": 2016,
+                                "day": 27,
+                                "min": 0,
+                                "month": 8
+                            }
+                        },
+                        "seat": "ECONOMY",
+                        "leaving": {
+                            "duration": {
+                                "hours": 12,
+                                "min": 14
+                            },
+                            "arrival": {
+                                "hour": 19,
+                                "year": 2016,
+                                "day": 24,
+                                "min": 14,
+                                "month": 8
+                            },
+                            "departure": {
+                                "hour": 7,
+                                "year": 2016,
+                                "day": 24,
+                                "min": 0,
+                                "month": 8
+                            }
+                        },
+                        "or_city": "Busan",
+                        "duration_days": 4
+                    },
+                    "price": 5648.4,
+                    "hotel": {
+                        "gst_rating": 6.37,
+                        "vicinity": [],
+                        "name": "Cosmos Inn",
+                        "country": "Canada",
+                        "amenities": [
+                            "FREE_BREAKFAST",
+                            "FREE_PARKING",
+                            "FREE_WIFI"
+                        ],
+                        "dst_city": "Kingston",
+                        "category": "2.5 star hotel"
+                    }
+                },
+                {
+                    "trip": {
+                        "returning": {
+                            "duration": {
+                                "hours": 9,
+                                "min": 36
+                            },
+                            "arrival": {
+                                "hour": 10,
+                                "year": 2016,
+                                "day": 30,
+                                "min": 36,
+                                "month": 8
+                            },
+                            "departure": {
+                                "hour": 1,
+                                "year": 2016,
+                                "day": 30,
+                                "min": 0,
+                                "month": 8
+                            }
+                        },
+                        "seat": "ECONOMY",
+                        "leaving": {
+                            "duration": {
+                                "hours": 9,
+                                "min": 36
+                            },
+                            "arrival": {
+                                "hour": 16,
+                                "year": 2016,
+                                "day": 27,
+                                "min": 36,
+                                "month": 8
+                            },
+                            "departure": {
+                                "hour": 7,
+                                "year": 2016,
+                                "day": 27,
+                                "min": 0,
+                                "month": 8
+                            }
+                        },
+                        "or_city": "Busan",
+                        "duration_days": 4
+                    },
+                    "price": 5851.61,
+                    "hotel": {
+                        "gst_rating": 8.98,
+                        "vicinity": [],
+                        "name": "The Regal Resort",
+                        "country": "Germany",
+                        "amenities": [
+                            "FREE_WIFI",
+                            "SPA"
+                        ],
+                        "dst_city": "Mannheim",
+                        "category": "5.0 star hotel"
+                    }
+                },
+                {
+                    "trip": {
+                        "returning": {
+                            "duration": {
+                                "hours": 12,
+                                "min": 4
+                            },
+                            "arrival": {
+                                "hour": 13,
+                                "year": 2016,
+                                "day": 29,
+                                "min": 4,
+                                "month": 8
+                            },
+                            "departure": {
+                                "hour": 1,
+                                "year": 2016,
+                                "day": 29,
+                                "min": 0,
+                                "month": 8
+                            }
+                        },
+                        "seat": "BUSINESS",
+                        "leaving": {
+                            "duration": {
+                                "hours": 12,
+                                "min": 4
+                            },
+                            "arrival": {
+                                "hour": 21,
+                                "year": 2016,
+                                "day": 24,
+                                "min": 4,
+                                "month": 8
+                            },
+                            "departure": {
+                                "hour": 9,
+                                "year": 2016,
+                                "day": 24,
+                                "min": 0,
+                                "month": 8
+                            }
+                        },
+                        "or_city": "Busan",
+                        "duration_days": 6
+                    },
+                    "price": 7081.11,
+                    "hotel": {
+                        "gst_rating": 8.86,
+                        "vicinity": [],
+                        "name": "Hotel Richard",
+                        "country": "Canada",
+                        "amenities": [
+                            "FREE_BREAKFAST",
+                            "FREE_PARKING",
+                            "FREE_WIFI"
+                        ],
+                        "dst_city": "Toronto",
+                        "category": "3.0 star hotel"
+                    }
+                },
+                {
+                    "trip": {
+                        "returning": {
+                            "duration": {
+                                "hours": 12,
+                                "min": 14
+                            },
+                            "arrival": {
+                                "hour": 13,
+                                "year": 2016,
+                                "day": 28,
+                                "min": 14,
+                                "month": 8
+                            },
+                            "departure": {
+                                "hour": 1,
+                                "year": 2016,
+                                "day": 28,
+                                "min": 0,
+                                "month": 8
+                            }
+                        },
+                        "seat": "ECONOMY",
+                        "leaving": {
+                            "duration": {
+                                "hours": 12,
+                                "min": 14
+                            },
+                            "arrival": {
+                                "hour": 19,
+                                "year": 2016,
+                                "day": 25,
+                                "min": 14,
+                                "month": 8
+                            },
+                            "departure": {
+                                "hour": 7,
+                                "year": 2016,
+                                "day": 25,
+                                "min": 0,
+                                "month": 8
+                            }
+                        },
+                        "or_city": "Busan",
+                        "duration_days": 4
+                    },
+                    "price": 7089.29,
+                    "hotel": {
+                        "gst_rating": 8.22,
+                        "vicinity": [],
+                        "name": "Ebony Manor Inn & Suites",
+                        "country": "Canada",
+                        "amenities": [
+                            "FREE_BREAKFAST",
+                            "FREE_WIFI",
+                            "FREE_PARKING"
+                        ],
+                        "dst_city": "Kingston",
+                        "category": "4.0 star hotel"
+                    }
+                },
+                {
+                    "trip": {
+                        "returning": {
+                            "duration": {
+                                "hours": 12,
+                                "min": 24
+                            },
+                            "arrival": {
+                                "hour": 13,
+                                "year": 2016,
+                                "day": 28,
+                                "min": 24,
+                                "month": 8
+                            },
+                            "departure": {
+                                "hour": 1,
+                                "year": 2016,
+                                "day": 28,
+                                "min": 0,
+                                "month": 8
+                            }
+                        },
+                        "seat": "ECONOMY",
+                        "leaving": {
+                            "duration": {
+                                "hours": 12,
+                                "min": 24
+                            },
+                            "arrival": {
+                                "hour": 23,
+                                "year": 2016,
+                                "day": 21,
+                                "min": 24,
+                                "month": 8
+                            },
+                            "departure": {
+                                "hour": 11,
+                                "year": 2016,
+                                "day": 21,
+                                "min": 0,
+                                "month": 8
+                            }
+                        },
+                        "or_city": "Busan",
+                        "duration_days": 8
+                    },
+                    "price": 8445.37,
+                    "hotel": {
+                        "gst_rating": 7.15,
+                        "vicinity": [],
+                        "name": "Vertex Inn",
+                        "country": "United States",
+                        "amenities": [
+                            "FREE_BREAKFAST",
+                            "FREE_PARKING",
+                            "FREE_WIFI"
+                        ],
+                        "dst_city": "San Antonio",
+                        "category": "2.0 star hotel"
+                    }
+                },
+                {
+                    "trip": {
+                        "returning": {
+                            "duration": {
+                                "hours": 12,
+                                "min": 24
+                            },
+                            "arrival": {
+                                "hour": 13,
+                                "year": 2016,
+                                "day": 28,
+                                "min": 24,
+                                "month": 8
+                            },
+                            "departure": {
+                                "hour": 1,
+                                "year": 2016,
+                                "day": 28,
+                                "min": 0,
+                                "month": 8
+                            }
+                        },
+                        "seat": "BUSINESS",
+                        "leaving": {
+                            "duration": {
+                                "hours": 12,
+                                "min": 24
+                            },
+                            "arrival": {
+                                "hour": 23,
+                                "year": 2016,
+                                "day": 21,
+                                "min": 24,
+                                "month": 8
+                            },
+                            "departure": {
+                                "hour": 11,
+                                "year": 2016,
+                                "day": 21,
+                                "min": 0,
+                                "month": 8
+                            }
+                        },
+                        "or_city": "Busan",
+                        "duration_days": 8
+                    },
+                    "price": 10960.45,
+                    "hotel": {
+                        "gst_rating": 7.15,
+                        "vicinity": [],
+                        "name": "Vertex Inn",
+                        "country": "United States",
+                        "amenities": [
+                            "FREE_BREAKFAST",
+                            "FREE_PARKING",
+                            "FREE_WIFI"
+                        ],
+                        "dst_city": "San Antonio",
+                        "category": "2.0 star hotel"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "dialogue_id": "train_4",
+        "num_utterances": 19,
+        "utterances": [
+            {
+                "speaker": "USR",
+                "text": "Hey, i Want to go to St. Louis on the 17th of August",
+                "ap_label": "",
+                "da_label": "greeting"
+            },
+            {
+                "speaker": "SYS",
+                "text": "For how many days?",
+                "ap_label": "",
+                "da_label": "request",
+                "slots": {
+                    "dst_city": "St. Louis",
+                    "str_date": "17th of August"
+                }
+            },
+            {
+                "speaker": "USR",
+                "text": "I need to back by the 31st",
+                "ap_label": "",
+                "da_label": "inform"
+            },
+            {
+                "speaker": "SYS",
+                "text": "What will your departure city be?",
+                "ap_label": "",
+                "da_label": "request",
+                "slots": {
+                    "end_date": "31st"
+                }
+            },
+            {
+                "speaker": "USR",
+                "text": "I\u2019m from Calgary",
+                "ap_label": "",
+                "da_label": "inform"
+            },
+            {
+                "speaker": "SYS",
+                "text": "I have a direct flight leaving from Calgary on August 18 and returning on August 28th.",
+                "ap_label": "",
+                "da_label": "suggest",
+                "slots": {
+                    "or_city": "Calgary"
+                }
+            },
+            {
+                "speaker": "SYS",
+                "text": "Does that work for you?",
+                "ap_label": "",
+                "da_label": "suggest",
+                "slots": {
+                    "or_city": "Calgary"
+                }
+            },
+            {
+                "speaker": "USR",
+                "text": "Yes that sounds perfect may you please tell me about the destination place",
+                "ap_label": "",
+                "da_label": "moreinfo"
+            },
+            {
+                "speaker": "SYS",
+                "text": "It is the Glorious Cloak inn hotel in St. Louis.",
+                "ap_label": "",
+                "da_label": "inform",
+                "slots": {}
+            },
+            {
+                "speaker": "SYS",
+                "text": "It has a 3-star rating.",
+                "ap_label": "",
+                "da_label": "inform",
+                "slots": {}
+            },
+            {
+                "speaker": "USR",
+                "text": "That sounds lavish, what type of flight would that be?",
+                "ap_label": "",
+                "da_label": "request"
+            },
+            {
+                "speaker": "SYS",
+                "text": "You would be flying business class, for a grand total of only $1858.14",
+                "ap_label": "",
+                "da_label": "inform",
+                "slots": {}
+            },
+            {
+                "speaker": "USR",
+                "text": "Are there any possible flights with economy class?",
+                "ap_label": "",
+                "da_label": "inform"
+            },
+            {
+                "speaker": "SYS",
+                "text": "I have a package at the Lunar whcih has a 5 star rating on an economy class flight on the same dates for $1558.00",
+                "ap_label": "",
+                "da_label": "suggest",
+                "slots": {
+                    "seat": "economy"
+                }
+            },
+            {
+                "speaker": "USR",
+                "text": "that sounds even better.",
+                "ap_label": "",
+                "da_label": "switch_frame"
+            },
+            {
+                "speaker": "SYS",
+                "text": "This deal includes free breakfast and free wifi.",
+                "ap_label": "",
+                "da_label": "suggest",
+                "slots": {}
+            },
+            {
+                "speaker": "SYS",
+                "text": "Would you like me to book it for you?",
+                "ap_label": "",
+                "da_label": "suggest",
+                "slots": {}
+            },
+            {
+                "speaker": "USR",
+                "text": "Yes please, that sounds wonderful.",
+                "ap_label": "",
+                "da_label": "thankyou"
+            },
+            {
+                "speaker": "USR",
+                "text": "thank you",
+                "ap_label": "",
+                "da_label": "thankyou"
+            }
+        ],
+        "scenario": {
+            "db_id": "U21RP4FCY",
+            "db_type": "booking",
+            "task": "book",
+            "items": [
+                {
+                    "trip": {
+                        "returning": {
+                            "duration": {
+                                "hours": 1,
+                                "min": 2
+                            },
+                            "arrival": {
+                                "hour": 5,
+                                "year": 2016,
+                                "day": 6,
+                                "min": 2,
+                                "month": 9
+                            },
+                            "departure": {
+                                "hour": 4,
+                                "year": 2016,
+                                "day": 6,
+                                "min": 0,
+                                "month": 9
+                            }
+                        },
+                        "seat": "ECONOMY",
+                        "leaving": {
+                            "duration": {
+                                "hours": 1,
+                                "min": 2
+                            },
+                            "arrival": {
+                                "hour": 16,
+                                "year": 2016,
+                                "day": 26,
+                                "min": 2,
+                                "month": 8
+                            },
+                            "departure": {
+                                "hour": 15,
+                                "year": 2016,
+                                "day": 26,
+                                "min": 0,
+                                "month": 8
+                            }
+                        },
+                        "or_city": "Baltimore",
+                        "duration_days": 11
+                    },
+                    "price": 692.14,
+                    "hotel": {
+                        "gst_rating": 9.16,
+                        "vicinity": [],
+                        "name": "Palacio Tranquila",
+                        "country": "United States",
+                        "amenities": [
+                            "FREE_BREAKFAST",
+                            "FREE_PARKING",
+                            "FREE_WIFI"
+                        ],
+                        "dst_city": "St. Louis",
+                        "category": "3.5 star hotel"
+                    }
+                },
+                {
+                    "trip": {
+                        "returning": {
+                            "duration": {
+                                "hours": 3,
+                                "min": 57
+                            },
+                            "arrival": {
+                                "hour": 7,
+                                "year": 2016,
+                                "day": 6,
+                                "min": 57,
+                                "month": 9
+                            },
+                            "departure": {
+                                "hour": 4,
+                                "year": 2016,
+                                "day": 6,
+                                "min": 0,
+                                "month": 9
+                            }
+                        },
+                        "seat": "ECONOMY",
+                        "leaving": {
+                            "duration": {
+                                "hours": 3,
+                                "min": 57
+                            },
+                            "arrival": {
+                                "hour": 18,
+                                "year": 2016,
+                                "day": 26,
+                                "min": 57,
+                                "month": 8
+                            },
+                            "departure": {
+                                "hour": 15,
+                                "year": 2016,
+                                "day": 26,
+                                "min": 0,
+                                "month": 8
+                            }
+                        },
+                        "or_city": "Pittsburgh",
+                        "duration_days": 11
+                    },
+                    "price": 1406.7,
+                    "hotel": {
+                        "gst_rating": 9.16,
+                        "vicinity": [],
+                        "name": "Palacio Tranquila",
+                        "country": "United States",
+                        "amenities": [
+                            "FREE_BREAKFAST",
+                            "FREE_PARKING",
+                            "FREE_WIFI"
+                        ],
+                        "dst_city": "St. Louis",
+                        "category": "3.5 star hotel"
+                    }
+                },
+                {
+                    "trip": {
+                        "returning": {
+                            "duration": {
+                                "hours": 2,
+                                "min": 39
+                            },
+                            "arrival": {
+                                "hour": 4,
+                                "year": 2016,
+                                "day": 4,
+                                "min": 39,
+                                "month": 9
+                            },
+                            "departure": {
+                                "hour": 2,
+                                "year": 2016,
+                                "day": 4,
+                                "min": 0,
+                                "month": 9
+                            }
+                        },
+                        "seat": "BUSINESS",
+                        "leaving": {
+                            "duration": {
+                                "hours": 2,
+                                "min": 39
+                            },
+                            "arrival": {
+                                "hour": 15,
+                                "year": 2016,
+                                "day": 26,
+                                "min": 39,
+                                "month": 8
+                            },
+                            "departure": {
+                                "hour": 13,
+                                "year": 2016,
+                                "day": 26,
+                                "min": 0,
+                                "month": 8
+                            }
+                        },
+                        "or_city": "Alexandria",
+                        "duration_days": 9
+                    },
+                    "price": 1542.75,
+                    "hotel": {
+                        "gst_rating": 9.16,
+                        "vicinity": [],
+                        "name": "Palacio Tranquila",
+                        "country": "United States",
+                        "amenities": [
+                            "FREE_BREAKFAST",
+                            "FREE_PARKING",
+                            "FREE_WIFI"
+                        ],
+                        "dst_city": "St. Louis",
+                        "category": "3.5 star hotel"
+                    }
+                },
+                {
+                    "trip": {
+                        "returning": {
+                            "duration": {
+                                "hours": 4,
+                                "min": 41
+                            },
+                            "arrival": {
+                                "hour": 12,
+                                "year": 2016,
+                                "day": 30,
+                                "min": 41,
+                                "month": 8
+                            },
+                            "departure": {
+                                "hour": 8,
+                                "year": 2016,
+                                "day": 30,
+                                "min": 0,
+                                "month": 8
+                            }
+                        },
+                        "seat": "ECONOMY",
+                        "leaving": {
+                            "duration": {
+                                "hours": 4,
+                                "min": 41
+                            },
+                            "arrival": {
+                                "hour": 23,
+                                "year": 2016,
+                                "day": 26,
+                                "min": 41,
+                                "month": 8
+                            },
+                            "departure": {
+                                "hour": 19,
+                                "year": 2016,
+                                "day": 26,
+                                "min": 0,
+                                "month": 8
+                            }
+                        },
+                        "or_city": "Houston",
+                        "duration_days": 4
+                    },
+                    "price": 1586.25,
+                    "hotel": {
+                        "gst_rating": 9.16,
+                        "vicinity": [],
+                        "name": "Palacio Tranquila",
+                        "country": "United States",
+                        "amenities": [
+                            "FREE_BREAKFAST",
+                            "FREE_PARKING",
+                            "FREE_WIFI"
+                        ],
+                        "dst_city": "St. Louis",
+                        "category": "3.5 star hotel"
+                    }
+                },
+                {
+                    "trip": {
+                        "returning": {
+                            "duration": {
+                                "hours": 4,
+                                "min": 33
+                            },
+                            "arrival": {
+                                "hour": 15,
+                                "year": 2016,
+                                "day": 2,
+                                "min": 33,
+                                "month": 9
+                            },
+                            "departure": {
+                                "hour": 11,
+                                "year": 2016,
+                                "day": 2,
+                                "min": 0,
+                                "month": 9
+                            }
+                        },
+                        "seat": "ECONOMY",
+                        "leaving": {
+                            "duration": {
+                                "hours": 4,
+                                "min": 33
+                            },
+                            "arrival": {
+                                "hour": 2,
+                                "year": 2016,
+                                "day": 27,
+                                "min": 33,
+                                "month": 8
+                            },
+                            "departure": {
+                                "hour": 22,
+                                "year": 2016,
+                                "day": 26,
+                                "min": 0,
+                                "month": 8
+                            }
+                        },
+                        "or_city": "Tampa",
+                        "duration_days": 7
+                    },
+                    "price": 1833.58,
+                    "hotel": {
+                        "gst_rating": 9.16,
+                        "vicinity": [],
+                        "name": "Palacio Tranquila",
+                        "country": "United States",
+                        "amenities": [
+                            "FREE_BREAKFAST",
+                            "FREE_PARKING",
+                            "FREE_WIFI"
+                        ],
+                        "dst_city": "St. Louis",
+                        "category": "3.5 star hotel"
+                    }
+                },
+                {
+                    "trip": {
+                        "returning": {
+                            "duration": {
+                                "hours": 10,
+                                "min": 55
+                            },
+                            "arrival": {
+                                "hour": 14,
+                                "year": 2016,
+                                "day": 6,
+                                "min": 55,
+                                "month": 9
+                            },
+                            "departure": {
+                                "hour": 4,
+                                "year": 2016,
+                                "day": 6,
+                                "min": 0,
+                                "month": 9
+                            }
+                        },
+                        "seat": "ECONOMY",
+                        "leaving": {
+                            "duration": {
+                                "hours": 10,
+                                "min": 55
+                            },
+                            "arrival": {
+                                "hour": 1,
+                                "year": 2016,
+                                "day": 27,
+                                "min": 55,
+                                "month": 8
+                            },
+                            "departure": {
+                                "hour": 15,
+                                "year": 2016,
+                                "day": 26,
+                                "min": 0,
+                                "month": 8
+                            }
+                        },
+                        "or_city": "Leon",
+                        "duration_days": 11
+                    },
+                    "price": 3114.41,
+                    "hotel": {
+                        "gst_rating": 9.16,
+                        "vicinity": [],
+                        "name": "Palacio Tranquila",
+                        "country": "United States",
+                        "amenities": [
+                            "FREE_BREAKFAST",
+                            "FREE_PARKING",
+                            "FREE_WIFI"
+                        ],
+                        "dst_city": "St. Louis",
+                        "category": "3.5 star hotel"
+                    }
+                },
+                {
+                    "trip": {
+                        "returning": {
+                            "duration": {
+                                "hours": 11,
+                                "min": 12
+                            },
+                            "arrival": {
+                                "hour": 13,
+                                "year": 2016,
+                                "day": 4,
+                                "min": 12,
+                                "month": 9
+                            },
+                            "departure": {
+                                "hour": 2,
+                                "year": 2016,
+                                "day": 4,
+                                "min": 0,
+                                "month": 9
+                            }
+                        },
+                        "seat": "ECONOMY",
+                        "leaving": {
+                            "duration": {
+                                "hours": 11,
+                                "min": 12
+                            },
+                            "arrival": {
+                                "hour": 0,
+                                "year": 2016,
+                                "day": 27,
+                                "min": 12,
+                                "month": 8
+                            },
+                            "departure": {
+                                "hour": 13,
+                                "year": 2016,
+                                "day": 26,
+                                "min": 0,
+                                "month": 8
+                            }
+                        },
+                        "or_city": "Brasilia",
+                        "duration_days": 10
+                    },
+                    "price": 3757.5,
+                    "hotel": {
+                        "gst_rating": 9.16,
+                        "vicinity": [],
+                        "name": "Palacio Tranquila",
+                        "country": "United States",
+                        "amenities": [
+                            "FREE_BREAKFAST",
+                            "FREE_PARKING",
+                            "FREE_WIFI"
+                        ],
+                        "dst_city": "St. Louis",
+                        "category": "3.5 star hotel"
+                    }
+                },
+                {
+                    "trip": {
+                        "returning": {
+                            "duration": {
+                                "hours": 8,
+                                "min": 26
+                            },
+                            "arrival": {
+                                "hour": 10,
+                                "year": 2016,
+                                "day": 4,
+                                "min": 26,
+                                "month": 9
+                            },
+                            "departure": {
+                                "hour": 2,
+                                "year": 2016,
+                                "day": 4,
+                                "min": 0,
+                                "month": 9
+                            }
+                        },
+                        "seat": "BUSINESS",
+                        "leaving": {
+                            "duration": {
+                                "hours": 8,
+                                "min": 26
+                            },
+                            "arrival": {
+                                "hour": 21,
+                                "year": 2016,
+                                "day": 26,
+                                "min": 26,
+                                "month": 8
+                            },
+                            "departure": {
+                                "hour": 13,
+                                "year": 2016,
+                                "day": 26,
+                                "min": 0,
+                                "month": 8
+                            }
+                        },
+                        "or_city": "Fortaleza",
+                        "duration_days": 9
+                    },
+                    "price": 3767.8,
+                    "hotel": {
+                        "gst_rating": 9.16,
+                        "vicinity": [],
+                        "name": "Palacio Tranquila",
+                        "country": "United States",
+                        "amenities": [
+                            "FREE_BREAKFAST",
+                            "FREE_PARKING",
+                            "FREE_WIFI"
+                        ],
+                        "dst_city": "St. Louis",
+                        "category": "3.5 star hotel"
+                    }
+                },
+                {
+                    "trip": {
+                        "returning": {
+                            "duration": {
+                                "hours": 10,
+                                "min": 31
+                            },
+                            "arrival": {
+                                "hour": 14,
+                                "year": 2016,
+                                "day": 6,
+                                "min": 31,
+                                "month": 9
+                            },
+                            "departure": {
+                                "hour": 4,
+                                "year": 2016,
+                                "day": 6,
+                                "min": 0,
+                                "month": 9
+                            }
+                        },
+                        "seat": "BUSINESS",
+                        "leaving": {
+                            "duration": {
+                                "hours": 10,
+                                "min": 31
+                            },
+                            "arrival": {
+                                "hour": 1,
+                                "year": 2016,
+                                "day": 27,
+                                "min": 31,
+                                "month": 8
+                            },
+                            "departure": {
+                                "hour": 15,
+                                "year": 2016,
+                                "day": 26,
+                                "min": 0,
+                                "month": 8
+                            }
+                        },
+                        "or_city": "Campinas",
+                        "duration_days": 11
+                    },
+                    "price": 3874.24,
+                    "hotel": {
+                        "gst_rating": 9.16,
+                        "vicinity": [],
+                        "name": "Palacio Tranquila",
+                        "country": "United States",
+                        "amenities": [
+                            "FREE_BREAKFAST",
+                            "FREE_PARKING",
+                            "FREE_WIFI"
+                        ],
+                        "dst_city": "St. Louis",
+                        "category": "3.5 star hotel"
+                    }
+                },
+                {
+                    "trip": {
+                        "returning": {
+                            "duration": {
+                                "hours": 10,
+                                "min": 30
+                            },
+                            "arrival": {
+                                "hour": 13,
+                                "year": 2016,
+                                "day": 5,
+                                "min": 30,
+                                "month": 9
+                            },
+                            "departure": {
+                                "hour": 3,
+                                "year": 2016,
+                                "day": 5,
+                                "min": 0,
+                                "month": 9
+                            }
+                        },
+                        "seat": "BUSINESS",
+                        "leaving": {
+                            "duration": {
+                                "hours": 10,
+                                "min": 30
+                            },
+                            "arrival": {
+                                "hour": 0,
+                                "year": 2016,
+                                "day": 27,
+                                "min": 30,
+                                "month": 8
+                            },
+                            "departure": {
+                                "hour": 14,
+                                "year": 2016,
+                                "day": 26,
+                                "min": 0,
+                                "month": 8
+                            }
+                        },
+                        "or_city": "Barcelona",
+                        "duration_days": 10
+                    },
+                    "price": 4337.85,
+                    "hotel": {
+                        "gst_rating": 9.16,
+                        "vicinity": [],
+                        "name": "Palacio Tranquila",
+                        "country": "United States",
+                        "amenities": [
+                            "FREE_BREAKFAST",
+                            "FREE_PARKING",
+                            "FREE_WIFI"
+                        ],
+                        "dst_city": "St. Louis",
+                        "category": "3.5 star hotel"
+                    }
+                },
+                {
+                    "trip": {
+                        "returning": {
+                            "duration": {
+                                "hours": 2,
+                                "min": 46
+                            },
+                            "arrival": {
+                                "hour": 9,
+                                "year": 2016,
+                                "day": 29,
+                                "min": 46,
+                                "month": 8
+                            },
+                            "departure": {
+                                "hour": 7,
+                                "year": 2016,
+                                "day": 29,
+                                "min": 0,
+                                "month": 8
+                            }
+                        },
+                        "seat": "ECONOMY",
+                        "leaving": {
+                            "duration": {
+                                "hours": 2,
+                                "min": 46
+                            },
+                            "arrival": {
+                                "hour": 20,
+                                "year": 2016,
+                                "day": 26,
+                                "min": 46,
+                                "month": 8
+                            },
+                            "departure": {
+                                "hour": 18,
+                                "year": 2016,
+                                "day": 26,
+                                "min": 0,
+                                "month": 8
+                            }
+                        },
+                        "or_city": "Cancun",
+                        "duration_days": 3
+                    },
+                    "price": 1252.97,
+                    "hotel": {
+                        "gst_rating": 9.16,
+                        "vicinity": [],
+                        "name": "Palacio Tranquila",
+                        "country": "United States",
+                        "amenities": [
+                            "FREE_BREAKFAST",
+                            "FREE_PARKING",
+                            "FREE_WIFI"
+                        ],
+                        "dst_city": "St. Louis",
+                        "category": "3.5 star hotel"
+                    }
+                },
+                {
+                    "trip": {
+                        "returning": {
+                            "duration": {
+                                "hours": 3,
+                                "min": 38
+                            },
+                            "arrival": {
+                                "hour": 11,
+                                "year": 2016,
+                                "day": 30,
+                                "min": 38,
+                                "month": 8
+                            },
+                            "departure": {
+                                "hour": 8,
+                                "year": 2016,
+                                "day": 30,
+                                "min": 0,
+                                "month": 8
+                            }
+                        },
+                        "seat": "ECONOMY",
+                        "leaving": {
+                            "duration": {
+                                "hours": 3,
+                                "min": 38
+                            },
+                            "arrival": {
+                                "hour": 22,
+                                "year": 2016,
+                                "day": 26,
+                                "min": 38,
+                                "month": 8
+                            },
+                            "departure": {
+                                "hour": 19,
+                                "year": 2016,
+                                "day": 26,
+                                "min": 0,
+                                "month": 8
+                            }
+                        },
+                        "or_city": "New York",
+                        "duration_days": 4
+                    },
+                    "price": 1331.28,
+                    "hotel": {
+                        "gst_rating": 9.16,
+                        "vicinity": [],
+                        "name": "Palacio Tranquila",
+                        "country": "United States",
+                        "amenities": [
+                            "FREE_BREAKFAST",
+                            "FREE_PARKING",
+                            "FREE_WIFI"
+                        ],
+                        "dst_city": "St. Louis",
+                        "category": "3.5 star hotel"
+                    }
+                },
+                {
+                    "trip": {
+                        "returning": {
+                            "duration": {
+                                "hours": 3,
+                                "min": 9
+                            },
+                            "arrival": {
+                                "hour": 10,
+                                "year": 2016,
+                                "day": 29,
+                                "min": 9,
+                                "month": 8
+                            },
+                            "departure": {
+                                "hour": 7,
+                                "year": 2016,
+                                "day": 29,
+                                "min": 0,
+                                "month": 8
+                            }
+                        },
+                        "seat": "ECONOMY",
+                        "leaving": {
+                            "duration": {
+                                "hours": 3,
+                                "min": 9
+                            },
+                            "arrival": {
+                                "hour": 21,
+                                "year": 2016,
+                                "day": 26,
+                                "min": 9,
+                                "month": 8
+                            },
+                            "departure": {
+                                "hour": 18,
+                                "year": 2016,
+                                "day": 26,
+                                "min": 0,
+                                "month": 8
+                            }
+                        },
+                        "or_city": "Los Angeles",
+                        "duration_days": 3
+                    },
+                    "price": 1359.74,
+                    "hotel": {
+                        "gst_rating": 9.16,
+                        "vicinity": [],
+                        "name": "Palacio Tranquila",
+                        "country": "United States",
+                        "amenities": [
+                            "FREE_BREAKFAST",
+                            "FREE_PARKING",
+                            "FREE_WIFI"
+                        ],
+                        "dst_city": "St. Louis",
+                        "category": "3.5 star hotel"
+                    }
+                },
+                {
+                    "trip": {
+                        "returning": {
+                            "duration": {
+                                "hours": 3,
+                                "min": 12
+                            },
+                            "arrival": {
+                                "hour": 10,
+                                "year": 2016,
+                                "day": 29,
+                                "min": 12,
+                                "month": 8
+                            },
+                            "departure": {
+                                "hour": 7,
+                                "year": 2016,
+                                "day": 29,
+                                "min": 0,
+                                "month": 8
+                            }
+                        },
+                        "seat": "ECONOMY",
+                        "leaving": {
+                            "duration": {
+                                "hours": 3,
+                                "min": 12
+                            },
+                            "arrival": {
+                                "hour": 21,
+                                "year": 2016,
+                                "day": 26,
+                                "min": 12,
+                                "month": 8
+                            },
+                            "departure": {
+                                "hour": 18,
+                                "year": 2016,
+                                "day": 26,
+                                "min": 0,
+                                "month": 8
+                            }
+                        },
+                        "or_city": "Puebla",
+                        "duration_days": 3
+                    },
+                    "price": 1371.18,
+                    "hotel": {
+                        "gst_rating": 9.16,
+                        "vicinity": [],
+                        "name": "Palacio Tranquila",
+                        "country": "United States",
+                        "amenities": [
+                            "FREE_BREAKFAST",
+                            "FREE_PARKING",
+                            "FREE_WIFI"
+                        ],
+                        "dst_city": "St. Louis",
+                        "category": "3.5 star hotel"
+                    }
+                },
+                {
+                    "trip": {
+                        "returning": {
+                            "duration": {
+                                "hours": 3,
+                                "min": 38
+                            },
+                            "arrival": {
+                                "hour": 11,
+                                "year": 2016,
+                                "day": 30,
+                                "min": 38,
+                                "month": 8
+                            },
+                            "departure": {
+                                "hour": 8,
+                                "year": 2016,
+                                "day": 30,
+                                "min": 0,
+                                "month": 8
+                            }
+                        },
+                        "seat": "BUSINESS",
+                        "leaving": {
+                            "duration": {
+                                "hours": 3,
+                                "min": 38
+                            },
+                            "arrival": {
+                                "hour": 22,
+                                "year": 2016,
+                                "day": 26,
+                                "min": 38,
+                                "month": 8
+                            },
+                            "departure": {
+                                "hour": 19,
+                                "year": 2016,
+                                "day": 26,
+                                "min": 0,
+                                "month": 8
+                            }
+                        },
+                        "or_city": "New York",
+                        "duration_days": 4
+                    },
+                    "price": 1628.75,
+                    "hotel": {
+                        "gst_rating": 9.16,
+                        "vicinity": [],
+                        "name": "Palacio Tranquila",
+                        "country": "United States",
+                        "amenities": [
+                            "FREE_BREAKFAST",
+                            "FREE_PARKING",
+                            "FREE_WIFI"
+                        ],
+                        "dst_city": "St. Louis",
+                        "category": "3.5 star hotel"
+                    }
+                },
+                {
+                    "trip": {
+                        "returning": {
+                            "duration": {
+                                "hours": 3,
+                                "min": 9
+                            },
+                            "arrival": {
+                                "hour": 10,
+                                "year": 2016,
+                                "day": 29,
+                                "min": 9,
+                                "month": 8
+                            },
+                            "departure": {
+                                "hour": 7,
+                                "year": 2016,
+                                "day": 29,
+                                "min": 0,
+                                "month": 8
+                            }
+                        },
+                        "seat": "BUSINESS",
+                        "leaving": {
+                            "duration": {
+                                "hours": 3,
+                                "min": 9
+                            },
+                            "arrival": {
+                                "hour": 21,
+                                "year": 2016,
+                                "day": 26,
+                                "min": 9,
+                                "month": 8
+                            },
+                            "departure": {
+                                "hour": 18,
+                                "year": 2016,
+                                "day": 26,
+                                "min": 0,
+                                "month": 8
+                            }
+                        },
+                        "or_city": "Los Angeles",
+                        "duration_days": 3
+                    },
+                    "price": 1649.55,
+                    "hotel": {
+                        "gst_rating": 9.16,
+                        "vicinity": [],
+                        "name": "Palacio Tranquila",
+                        "country": "United States",
+                        "amenities": [
+                            "FREE_BREAKFAST",
+                            "FREE_PARKING",
+                            "FREE_WIFI"
+                        ],
+                        "dst_city": "St. Louis",
+                        "category": "3.5 star hotel"
+                    }
+                },
+                {
+                    "trip": {
+                        "returning": {
+                            "duration": {
+                                "hours": 3,
+                                "min": 12
+                            },
+                            "arrival": {
+                                "hour": 10,
+                                "year": 2016,
+                                "day": 29,
+                                "min": 12,
+                                "month": 8
+                            },
+                            "departure": {
+                                "hour": 7,
+                                "year": 2016,
+                                "day": 29,
+                                "min": 0,
+                                "month": 8
+                            }
+                        },
+                        "seat": "BUSINESS",
+                        "leaving": {
+                            "duration": {
+                                "hours": 3,
+                                "min": 12
+                            },
+                            "arrival": {
+                                "hour": 21,
+                                "year": 2016,
+                                "day": 26,
+                                "min": 12,
+                                "month": 8
+                            },
+                            "departure": {
+                                "hour": 18,
+                                "year": 2016,
+                                "day": 26,
+                                "min": 0,
+                                "month": 8
+                            }
+                        },
+                        "or_city": "Puebla",
+                        "duration_days": 3
+                    },
+                    "price": 1664.8,
+                    "hotel": {
+                        "gst_rating": 9.16,
+                        "vicinity": [],
+                        "name": "Palacio Tranquila",
+                        "country": "United States",
+                        "amenities": [
+                            "FREE_BREAKFAST",
+                            "FREE_PARKING",
+                            "FREE_WIFI"
+                        ],
+                        "dst_city": "St. Louis",
+                        "category": "3.5 star hotel"
+                    }
+                },
+                {
+                    "trip": {
+                        "returning": {
+                            "duration": {
+                                "hours": 4,
+                                "min": 41
+                            },
+                            "arrival": {
+                                "hour": 12,
+                                "year": 2016,
+                                "day": 30,
+                                "min": 41,
+                                "month": 8
+                            },
+                            "departure": {
+                                "hour": 8,
+                                "year": 2016,
+                                "day": 30,
+                                "min": 0,
+                                "month": 8
+                            }
+                        },
+                        "seat": "BUSINESS",
+                        "leaving": {
+                            "duration": {
+                                "hours": 4,
+                                "min": 41
+                            },
+                            "arrival": {
+                                "hour": 23,
+                                "year": 2016,
+                                "day": 26,
+                                "min": 41,
+                                "month": 8
+                            },
+                            "departure": {
+                                "hour": 19,
+                                "year": 2016,
+                                "day": 26,
+                                "min": 0,
+                                "month": 8
+                            }
+                        },
+                        "or_city": "Houston",
+                        "duration_days": 4
+                    },
+                    "price": 1968.72,
+                    "hotel": {
+                        "gst_rating": 9.16,
+                        "vicinity": [],
+                        "name": "Palacio Tranquila",
+                        "country": "United States",
+                        "amenities": [
+                            "FREE_BREAKFAST",
+                            "FREE_PARKING",
+                            "FREE_WIFI"
+                        ],
+                        "dst_city": "St. Louis",
+                        "category": "3.5 star hotel"
+                    }
+                },
+                {
+                    "trip": {
+                        "returning": {
+                            "duration": {
+                                "hours": 11,
+                                "min": 8
+                            },
+                            "arrival": {
+                                "hour": 19,
+                                "year": 2016,
+                                "day": 30,
+                                "min": 8,
+                                "month": 8
+                            },
+                            "departure": {
+                                "hour": 8,
+                                "year": 2016,
+                                "day": 30,
+                                "min": 0,
+                                "month": 8
+                            }
+                        },
+                        "seat": "BUSINESS",
+                        "leaving": {
+                            "duration": {
+                                "hours": 11,
+                                "min": 8
+                            },
+                            "arrival": {
+                                "hour": 6,
+                                "year": 2016,
+                                "day": 27,
+                                "min": 8,
+                                "month": 8
+                            },
+                            "departure": {
+                                "hour": 19,
+                                "year": 2016,
+                                "day": 26,
+                                "min": 0,
+                                "month": 8
+                            }
+                        },
+                        "or_city": "Rosario",
+                        "duration_days": 5
+                    },
+                    "price": 4073.12,
+                    "hotel": {
+                        "gst_rating": 9.16,
+                        "vicinity": [],
+                        "name": "Palacio Tranquila",
+                        "country": "United States",
+                        "amenities": [
+                            "FREE_BREAKFAST",
+                            "FREE_PARKING",
+                            "FREE_WIFI"
+                        ],
+                        "dst_city": "St. Louis",
+                        "category": "3.5 star hotel"
+                    }
+                },
+                {
+                    "trip": {
+                        "returning": {
+                            "duration": {
+                                "hours": 4,
+                                "min": 17
+                            },
+                            "arrival": {
+                                "hour": 7,
+                                "year": 2016,
+                                "day": 28,
+                                "min": 17,
+                                "month": 8
+                            },
+                            "departure": {
+                                "hour": 3,
+                                "year": 2016,
+                                "day": 28,
+                                "min": 0,
+                                "month": 8
+                            }
+                        },
+                        "seat": "ECONOMY",
+                        "leaving": {
+                            "duration": {
+                                "hours": 4,
+                                "min": 17
+                            },
+                            "arrival": {
+                                "hour": 18,
+                                "year": 2016,
+                                "day": 18,
+                                "min": 17,
+                                "month": 8
+                            },
+                            "departure": {
+                                "hour": 14,
+                                "year": 2016,
+                                "day": 18,
+                                "min": 0,
+                                "month": 8
+                            }
+                        },
+                        "or_city": "Calgary",
+                        "duration_days": 10
+                    },
+                    "price": 1489.77,
+                    "hotel": {
+                        "gst_rating": 7.15,
+                        "vicinity": [],
+                        "name": "Glorious Cloak Inn",
+                        "country": "United States",
+                        "amenities": [
+                            "FREE_BREAKFAST",
+                            "FREE_WIFI"
+                        ],
+                        "dst_city": "St. Louis",
+                        "category": "3.0 star hotel"
+                    }
+                },
+                {
+                    "trip": {
+                        "returning": {
+                            "duration": {
+                                "hours": 4,
+                                "min": 17
+                            },
+                            "arrival": {
+                                "hour": 7,
+                                "year": 2016,
+                                "day": 28,
+                                "min": 17,
+                                "month": 8
+                            },
+                            "departure": {
+                                "hour": 3,
+                                "year": 2016,
+                                "day": 28,
+                                "min": 0,
+                                "month": 8
+                            }
+                        },
+                        "seat": "ECONOMY",
+                        "leaving": {
+                            "duration": {
+                                "hours": 4,
+                                "min": 17
+                            },
+                            "arrival": {
+                                "hour": 18,
+                                "year": 2016,
+                                "day": 18,
+                                "min": 17,
+                                "month": 8
+                            },
+                            "departure": {
+                                "hour": 14,
+                                "year": 2016,
+                                "day": 18,
+                                "min": 0,
+                                "month": 8
+                            }
+                        },
+                        "or_city": "Calgary",
+                        "duration_days": 10
+                    },
+                    "price": 1558.2,
+                    "hotel": {
+                        "gst_rating": 8.98,
+                        "vicinity": [],
+                        "name": "Lunar",
+                        "country": "United States",
+                        "amenities": [
+                            "FREE_BREAKFAST",
+                            "FREE_WIFI"
+                        ],
+                        "dst_city": "St. Louis",
+                        "category": "5.0 star hotel"
+                    }
+                },
+                {
+                    "trip": {
+                        "returning": {
+                            "duration": {
+                                "hours": 4,
+                                "min": 17
+                            },
+                            "arrival": {
+                                "hour": 7,
+                                "year": 2016,
+                                "day": 28,
+                                "min": 17,
+                                "month": 8
+                            },
+                            "departure": {
+                                "hour": 3,
+                                "year": 2016,
+                                "day": 28,
+                                "min": 0,
+                                "month": 8
+                            }
+                        },
+                        "seat": "BUSINESS",
+                        "leaving": {
+                            "duration": {
+                                "hours": 4,
+                                "min": 17
+                            },
+                            "arrival": {
+                                "hour": 18,
+                                "year": 2016,
+                                "day": 18,
+                                "min": 17,
+                                "month": 8
+                            },
+                            "departure": {
+                                "hour": 14,
+                                "year": 2016,
+                                "day": 18,
+                                "min": 0,
+                                "month": 8
+                            }
+                        },
+                        "or_city": "Calgary",
+                        "duration_days": 10
+                    },
+                    "price": 1858.14,
+                    "hotel": {
+                        "gst_rating": 7.15,
+                        "vicinity": [],
+                        "name": "Glorious Cloak Inn",
+                        "country": "United States",
+                        "amenities": [
+                            "FREE_BREAKFAST",
+                            "FREE_WIFI"
+                        ],
+                        "dst_city": "St. Louis",
+                        "category": "3.0 star hotel"
+                    }
+                },
+                {
+                    "trip": {
+                        "returning": {
+                            "duration": {
+                                "hours": 4,
+                                "min": 17
+                            },
+                            "arrival": {
+                                "hour": 7,
+                                "year": 2016,
+                                "day": 28,
+                                "min": 17,
+                                "month": 8
+                            },
+                            "departure": {
+                                "hour": 3,
+                                "year": 2016,
+                                "day": 28,
+                                "min": 0,
+                                "month": 8
+                            }
+                        },
+                        "seat": "BUSINESS",
+                        "leaving": {
+                            "duration": {
+                                "hours": 4,
+                                "min": 17
+                            },
+                            "arrival": {
+                                "hour": 18,
+                                "year": 2016,
+                                "day": 18,
+                                "min": 17,
+                                "month": 8
+                            },
+                            "departure": {
+                                "hour": 14,
+                                "year": 2016,
+                                "day": 18,
+                                "min": 0,
+                                "month": 8
+                            }
+                        },
+                        "or_city": "Calgary",
+                        "duration_days": 10
+                    },
+                    "price": 1926.57,
+                    "hotel": {
+                        "gst_rating": 8.98,
+                        "vicinity": [],
+                        "name": "Lunar",
+                        "country": "United States",
+                        "amenities": [
+                            "FREE_BREAKFAST",
+                            "FREE_WIFI"
+                        ],
+                        "dst_city": "St. Louis",
+                        "category": "5.0 star hotel"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "dialogue_id": "train_5",
+        "num_utterances": 12,
+        "utterances": [
+            {
+                "speaker": "USR",
+                "text": "I'm looking for a trip to Gotham City leaving from Kakariko Village on Saturday, August 13, 2016.",
+                "ap_label": "",
+                "da_label": "inform"
+            },
+            {
+                "speaker": "USR",
+                "text": "3 adults for no more than $2400 USD.",
+                "ap_label": "",
+                "da_label": "inform"
+            },
+            {
+                "speaker": "SYS",
+                "text": "I have a trip available to Vancouver for these dates within your price range.",
+                "ap_label": "",
+                "da_label": "suggest",
+                "slots": {
+                    "dst_city": "Gotham City",
+                    "or_city": "Kakariko Village",
+                    "str_date": "Saturday, August 13, 2016",
+                    "n_adults": "3",
+                    "budget": "$2400 USD"
+                }
+            },
+            {
+                "speaker": "SYS",
+                "text": " Would you like to increase your budget or adjust the dates?",
+                "ap_label": "",
+                "da_label": "suggest",
+                "slots": {
+                    "dst_city": "Gotham City",
+                    "or_city": "Kakariko Village",
+                    "str_date": "Saturday, August 13, 2016",
+                    "n_adults": "3",
+                    "budget": "$2400 USD"
+                }
+            },
+            {
+                "speaker": "USR",
+                "text": "I'd like to adjust the departure city to Caprica.",
+                "ap_label": "",
+                "da_label": "inform"
+            },
+            {
+                "speaker": "SYS",
+                "text": "Still no availability for this destination.",
+                "ap_label": "",
+                "da_label": "suggest",
+                "slots": {
+                    "or_city": "Caprica"
+                }
+            },
+            {
+                "speaker": "SYS",
+                "text": " Would you like to increase your budget or adjust the dates?",
+                "ap_label": "",
+                "da_label": "suggest",
+                "slots": {
+                    "or_city": "Caprica"
+                }
+            },
+            {
+                "speaker": "USR",
+                "text": "The dates cannot be changed.",
+                "ap_label": "",
+                "da_label": "inform"
+            },
+            {
+                "speaker": "USR",
+                "text": "How about going to Theed with 14 adults, leaving from Kakariko Village, on a budget of $2900?",
+                "ap_label": "",
+                "da_label": "inform"
+            },
+            {
+                "speaker": "SYS",
+                "text": "Still no availability.",
+                "ap_label": "",
+                "da_label": "no_result",
+                "slots": {
+                    "flex": false,
+                    "dst_city": "Theed",
+                    "or_city": "Kakariko Village",
+                    "n_adults": "with 14 adults",
+                    "budget": "$2900"
+                }
+            },
+            {
+                "speaker": "USR",
+                "text": "Then I will bring my business elsewhere.",
+                "ap_label": "",
+                "da_label": "thankyou"
+            },
+            {
+                "speaker": "USR",
+                "text": "Thank you.",
+                "ap_label": "",
+                "da_label": "thankyou"
+            }
+        ],
+        "scenario": {
+            "db_id": "U22HTHYNP",
+            "db_type": "booking",
+            "task": "book",
+            "items": [
+                {
+                    "trip": {
+                        "returning": {
+                            "duration": {
+                                "hours": 1,
+                                "min": 1
+                            },
+                            "arrival": {
+                                "hour": 9,
+                                "year": 2016,
+                                "day": 31,
+                                "min": 1,
+                                "month": 8
+                            },
+                            "departure": {
+                                "hour": 8,
+                                "year": 2016,
+                                "day": 31,
+                                "min": 0,
+                                "month": 8
+                            }
+                        },
+                        "seat": "ECONOMY",
+                        "leaving": {
+                            "duration": {
+                                "hours": 1,
+                                "min": 1
+                            },
+                            "arrival": {
+                                "hour": 17,
+                                "year": 2016,
+                                "day": 19,
+                                "min": 1,
+                                "month": 8
+                            },
+                            "departure": {
+                                "hour": 16,
+                                "year": 2016,
+                                "day": 19,
+                                "min": 0,
+                                "month": 8
+                            }
+                        },
+                        "or_city": "Houston",
+                        "duration_days": 12
+                    },
+                    "price": 1607.78,
+                    "hotel": {
+                        "gst_rating": 8.8,
+                        "vicinity": [],
+                        "name": "Obsidian Gem Inn",
+                        "country": "Canada",
+                        "amenities": [
+                            "FREE_BREAKFAST",
+                            "FREE_PARKING",
+                            "FREE_WIFI"
+                        ],
+                        "dst_city": "Vancouver",
+                        "category": "4.0 star hotel"
+                    }
+                },
+                {
+                    "trip": {
+                        "returning": {
+                            "duration": {
+                                "hours": 1,
+                                "min": 1
+                            },
+                            "arrival": {
+                                "hour": 9,
+                                "year": 2016,
+                                "day": 31,
+                                "min": 1,
+                                "month": 8
+                            },
+                            "departure": {
+                                "hour": 8,
+                                "year": 2016,
+                                "day": 31,
+                                "min": 0,
+                                "month": 8
+                            }
+                        },
+                        "seat": "BUSINESS",
+                        "leaving": {
+                            "duration": {
+                                "hours": 1,
+                                "min": 1
+                            },
+                            "arrival": {
+                                "hour": 17,
+                                "year": 2016,
+                                "day": 19,
+                                "min": 1,
+                                "month": 8
+                            },
+                            "departure": {
+                                "hour": 16,
+                                "year": 2016,
+                                "day": 19,
+                                "min": 0,
+                                "month": 8
+                            }
+                        },
+                        "or_city": "Houston",
+                        "duration_days": 12
+                    },
+                    "price": 1810.76,
+                    "hotel": {
+                        "gst_rating": 8.8,
+                        "vicinity": [],
+                        "name": "Obsidian Gem Inn",
+                        "country": "Canada",
+                        "amenities": [
+                            "FREE_BREAKFAST",
+                            "FREE_PARKING",
+                            "FREE_WIFI"
+                        ],
+                        "dst_city": "Vancouver",
+                        "category": "4.0 star hotel"
+                    }
+                },
+                {
+                    "trip": {
+                        "returning": {
+                            "duration": {
+                                "hours": 1,
+                                "min": 16
+                            },
+                            "arrival": {
+                                "hour": 1,
+                                "year": 2016,
+                                "day": 31,
+                                "min": 16,
+                                "month": 8
+                            },
+                            "departure": {
+                                "hour": 0,
+                                "year": 2016,
+                                "day": 31,
+                                "min": 0,
+                                "month": 8
+                            }
+                        },
+                        "seat": "ECONOMY",
+                        "leaving": {
+                            "duration": {
+                                "hours": 1,
+                                "min": 16
+                            },
+                            "arrival": {
+                                "hour": 9,
+                                "year": 2016,
+                                "day": 27,
+                                "min": 16,
+                                "month": 8
+                            },
+                            "departure": {
+                                "hour": 8,
+                                "year": 2016,
+                                "day": 27,
+                                "min": 0,
+                                "month": 8
+                            }
+                        },
+                        "or_city": "Minneapolis",
+                        "duration_days": 4
+                    },
+                    "price": 1852.59,
+                    "hotel": {
+                        "gst_rating": 8.8,
+                        "vicinity": [],
+                        "name": "Obsidian Gem Inn",
+                        "country": "Canada",
+                        "amenities": [
+                            "FREE_BREAKFAST",
+                            "FREE_PARKING",
+                            "FREE_WIFI"
+                        ],
+                        "dst_city": "Vancouver",
+                        "category": "4.0 star hotel"
+                    }
+                },
+                {
+                    "trip": {
+                        "returning": {
+                            "duration": {
+                                "hours": 0,
+                                "min": 55
+                            },
+                            "arrival": {
+                                "hour": 2,
+                                "year": 2016,
+                                "day": 25,
+                                "min": 55,
+                                "month": 8
+                            },
+                            "departure": {
+                                "hour": 2,
+                                "year": 2016,
+                                "day": 25,
+                                "min": 0,
+                                "month": 8
+                            }
+                        },
+                        "seat": "BUSINESS",
+                        "leaving": {
+                            "duration": {
+                                "hours": 0,
+                                "min": 55
+                            },
+                            "arrival": {
+                                "hour": 10,
+                                "year": 2016,
+                                "day": 19,
+                                "min": 55,
+                                "month": 8
+                            },
+                            "departure": {
+                                "hour": 10,
+                                "year": 2016,
+                                "day": 19,
+                                "min": 0,
+                                "month": 8
+                            }
+                        },
+                        "or_city": "London",
+                        "duration_days": 6
+                    },
+                    "price": 2132.26,
+                    "hotel": {
+                        "gst_rating": 8.8,
+                        "vicinity": [],
+                        "name": "Obsidian Gem Inn",
+                        "country": "Canada",
+                        "amenities": [
+                            "FREE_BREAKFAST",
+                            "FREE_PARKING",
+                            "FREE_WIFI"
+                        ],
+                        "dst_city": "Vancouver",
+                        "category": "4.0 star hotel"
+                    }
+                },
+                {
+                    "trip": {
+                        "returning": {
+                            "duration": {
+                                "hours": 0,
+                                "min": 48
+                            },
+                            "arrival": {
+                                "hour": 4,
+                                "year": 2016,
+                                "day": 27,
+                                "min": 48,
+                                "month": 8
+                            },
+                            "departure": {
+                                "hour": 4,
+                                "year": 2016,
+                                "day": 27,
+                                "min": 0,
+                                "month": 8
+                            }
+                        },
+                        "seat": "ECONOMY",
+                        "leaving": {
+                            "duration": {
+                                "hours": 0,
+                                "min": 48
+                            },
+                            "arrival": {
+                                "hour": 12,
+                                "year": 2016,
+                                "day": 19,
+                                "min": 48,
+                                "month": 8
+                            },
+                            "departure": {
+                                "hour": 12,
+                                "year": 2016,
+                                "day": 19,
+                                "min": 0,
+                                "month": 8
+                            }
+                        },
+                        "or_city": "Toronto",
+                        "duration_days": 8
+                    },
+                    "price": 2154.91,
+                    "hotel": {
+                        "gst_rating": 8.8,
+                        "vicinity": [],
+                        "name": "Obsidian Gem Inn",
+                        "country": "Canada",
+                        "amenities": [
+                            "FREE_BREAKFAST",
+                            "FREE_PARKING",
+                            "FREE_WIFI"
+                        ],
+                        "dst_city": "Vancouver",
+                        "category": "4.0 star hotel"
+                    }
+                },
+                {
+                    "trip": {
+                        "returning": {
+                            "duration": {
+                                "hours": 0,
+                                "min": 41
+                            },
+                            "arrival": {
+                                "hour": 2,
+                                "year": 2016,
+                                "day": 22,
+                                "min": 41,
+                                "month": 8
+                            },
+                            "departure": {
+                                "hour": 2,
+                                "year": 2016,
+                                "day": 22,
+                                "min": 0,
+                                "month": 8
+                            }
+                        },
+                        "seat": "ECONOMY",
+                        "leaving": {
+                            "duration": {
+                                "hours": 0,
+                                "min": 41
+                            },
+                            "arrival": {
+                                "hour": 9,
+                                "year": 2016,
+                                "day": 17,
+                                "min": 41,
+                                "month": 8
+                            },
+                            "departure": {
+                                "hour": 9,
+                                "year": 2016,
+                                "day": 17,
+                                "min": 0,
+                                "month": 8
+                            }
+                        },
+                        "or_city": "London",
+                        "duration_days": 5
+                    },
+                    "price": 1897.54,
+                    "hotel": {
+                        "gst_rating": 0,
+                        "vicinity": [],
+                        "name": "Amusement",
+                        "country": "Canada",
+                        "amenities": [
+                            "FREE_PARKING",
+                            "FREE_WIFI"
+                        ],
+                        "dst_city": "Calgary",
+                        "category": "4.0 star hotel"
+                    }
+                },
+                {
+                    "trip": {
+                        "returning": {
+                            "duration": {
+                                "hours": 0,
+                                "min": 44
+                            },
+                            "arrival": {
+                                "hour": 4,
+                                "year": 2016,
+                                "day": 24,
+                                "min": 44,
+                                "month": 8
+                            },
+                            "departure": {
+                                "hour": 4,
+                                "year": 2016,
+                                "day": 24,
+                                "min": 0,
+                                "month": 8
+                            }
+                        },
+                        "seat": "BUSINESS",
+                        "leaving": {
+                            "duration": {
+                                "hours": 0,
+                                "min": 44
+                            },
+                            "arrival": {
+                                "hour": 11,
+                                "year": 2016,
+                                "day": 17,
+                                "min": 44,
+                                "month": 8
+                            },
+                            "departure": {
+                                "hour": 11,
+                                "year": 2016,
+                                "day": 17,
+                                "min": 0,
+                                "month": 8
+                            }
+                        },
+                        "or_city": "Vancouver",
+                        "duration_days": 7
+                    },
+                    "price": 1990.24,
+                    "hotel": {
+                        "gst_rating": 0,
+                        "vicinity": [],
+                        "name": "Amusement",
+                        "country": "Canada",
+                        "amenities": [
+                            "FREE_PARKING",
+                            "FREE_WIFI"
+                        ],
+                        "dst_city": "Calgary",
+                        "category": "4.0 star hotel"
+                    }
+                },
+                {
+                    "trip": {
+                        "returning": {
+                            "duration": {
+                                "hours": 1,
+                                "min": 2
+                            },
+                            "arrival": {
+                                "hour": 5,
+                                "year": 2016,
+                                "day": 24,
+                                "min": 2,
+                                "month": 8
+                            },
+                            "departure": {
+                                "hour": 4,
+                                "year": 2016,
+                                "day": 24,
+                                "min": 0,
+                                "month": 8
+                            }
+                        },
+                        "seat": "ECONOMY",
+                        "leaving": {
+                            "duration": {
+                                "hours": 1,
+                                "min": 2
+                            },
+                            "arrival": {
+                                "hour": 12,
+                                "year": 2016,
+                                "day": 17,
+                                "min": 2,
+                                "month": 8
+                            },
+                            "departure": {
+                                "hour": 11,
+                                "year": 2016,
+                                "day": 17,
+                                "min": 0,
+                                "month": 8
+                            }
+                        },
+                        "or_city": "Toronto",
+                        "duration_days": 7
+                    },
+                    "price": 2102.23,
+                    "hotel": {
+                        "gst_rating": 0,
+                        "vicinity": [],
+                        "name": "Amusement",
+                        "country": "Canada",
+                        "amenities": [
+                            "FREE_PARKING",
+                            "FREE_WIFI"
+                        ],
+                        "dst_city": "Calgary",
+                        "category": "4.0 star hotel"
+                    }
+                },
+                {
+                    "trip": {
+                        "returning": {
+                            "duration": {
+                                "hours": 0,
+                                "min": 52
+                            },
+                            "arrival": {
+                                "hour": 5,
+                                "year": 2016,
+                                "day": 25,
+                                "min": 52,
+                                "month": 8
+                            },
+                            "departure": {
+                                "hour": 5,
+                                "year": 2016,
+                                "day": 25,
+                                "min": 0,
+                                "month": 8
+                            }
+                        },
+                        "seat": "ECONOMY",
+                        "leaving": {
+                            "duration": {
+                                "hours": 0,
+                                "min": 52
+                            },
+                            "arrival": {
+                                "hour": 12,
+                                "year": 2016,
+                                "day": 17,
+                                "min": 52,
+                                "month": 8
+                            },
+                            "departure": {
+                                "hour": 12,
+                                "year": 2016,
+                                "day": 17,
+                                "min": 0,
+                                "month": 8
+                            }
+                        },
+                        "or_city": "Las Vegas",
+                        "duration_days": 8
+                    },
+                    "price": 2139.87,
+                    "hotel": {
+                        "gst_rating": 0,
+                        "vicinity": [],
+                        "name": "Amusement",
+                        "country": "Canada",
+                        "amenities": [
+                            "FREE_PARKING",
+                            "FREE_WIFI"
+                        ],
+                        "dst_city": "Calgary",
+                        "category": "4.0 star hotel"
+                    }
+                },
+                {
+                    "trip": {
+                        "returning": {
+                            "duration": {
+                                "hours": 1,
+                                "min": 4
+                            },
+                            "arrival": {
+                                "hour": 5,
+                                "year": 2016,
+                                "day": 24,
+                                "min": 4,
+                                "month": 8
+                            },
+                            "departure": {
+                                "hour": 4,
+                                "year": 2016,
+                                "day": 24,
+                                "min": 0,
+                                "month": 8
+                            }
+                        },
+                        "seat": "ECONOMY",
+                        "leaving": {
+                            "duration": {
+                                "hours": 1,
+                                "min": 4
+                            },
+                            "arrival": {
+                                "hour": 12,
+                                "year": 2016,
+                                "day": 17,
+                                "min": 4,
+                                "month": 8
+                            },
+                            "departure": {
+                                "hour": 11,
+                                "year": 2016,
+                                "day": 17,
+                                "min": 0,
+                                "month": 8
+                            }
+                        },
+                        "or_city": "Pittsburgh",
+                        "duration_days": 7
+                    },
+                    "price": 2158.23,
+                    "hotel": {
+                        "gst_rating": 0,
+                        "vicinity": [],
+                        "name": "Amusement",
+                        "country": "Canada",
+                        "amenities": [
+                            "FREE_PARKING",
+                            "FREE_WIFI"
+                        ],
+                        "dst_city": "Calgary",
+                        "category": "4.0 star hotel"
+                    }
+                }
+            ]
+        }
+    }
+]

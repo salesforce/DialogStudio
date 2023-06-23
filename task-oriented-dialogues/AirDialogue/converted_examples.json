@@ -1,0 +1,1485 @@
+{
+    "AirDialogue--train--1": {
+        "original dialog id": "",
+        "dialog index": 1,
+        "original dialog info": {
+            "search_info": [
+                {
+                    "timestmamp": 1532340320889,
+                    "button_name": "top-change-reservation"
+                },
+                {
+                    "timestmamp": 1532340419156,
+                    "field_name": "customer-name",
+                    "field_value": "Edward hall"
+                },
+                {
+                    "timestmamp": 1532340420306,
+                    "field_name": "customer-final-action",
+                    "field_value": "no_reservation"
+                },
+                {
+                    "timestmamp": 1532340422018,
+                    "button_name": "agent-end-conversation"
+                }
+            ],
+            "action": {
+                "status": "no_reservation",
+                "name": "Edward hall",
+                "flight": []
+            },
+            "intent": {
+                "return_month": "Sept",
+                "return_day": "13",
+                "max_price": 5000,
+                "departure_airport": "IAD",
+                "max_connections": 1,
+                "departure_day": "11",
+                "goal": "change",
+                "departure_month": "Sept",
+                "name": "Edward Hall",
+                "return_airport": "ATL"
+            },
+            "timestamps": [
+                1532340243,
+                1532340256,
+                1532340271,
+                1532340294,
+                1532340299,
+                1532340318,
+                1532340329,
+                1532340365,
+                1532340378,
+                1532340403
+            ],
+            "expected_action": {
+                "status": "no_reservation",
+                "name": "Edward Hall",
+                "flight": []
+            },
+            "correct_sample": true
+        },
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "Hello.",
+                "system response": "Hello. How may I help you?",
+                "dialog history": "",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 2,
+                "user utterance": "Can you help me to change my recent reservation because my trip dates are got postponed?",
+                "system response": "I will help you with that please share your name to proceed further?",
+                "dialog history": "<USER> Hello. <SYSTEM> Hello. How may I help you?",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 3,
+                "user utterance": "Edward hall here.",
+                "system response": "Please wait for a while.",
+                "dialog history": "<USER> Hello. <SYSTEM> Hello. How may I help you? <USER> Can you help me to change my recent reservation because my trip dates are got postponed? <SYSTEM> I will help you with that please share your name to proceed further?",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 4,
+                "user utterance": "Sure, take your own time.",
+                "system response": "There is no active reservation found under your name to amend it.",
+                "dialog history": "<USER> Hello. <SYSTEM> Hello. How may I help you? <USER> Can you help me to change my recent reservation because my trip dates are got postponed? <SYSTEM> I will help you with that please share your name to proceed further? <USER> Edward hall here. <SYSTEM> Please wait for a while.",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 5,
+                "user utterance": "That's ok, thank you for checking.",
+                "system response": "Thank you for choosing us.",
+                "dialog history": "<USER> Hello. <SYSTEM> Hello. How may I help you? <USER> Can you help me to change my recent reservation because my trip dates are got postponed? <SYSTEM> I will help you with that please share your name to proceed further? <USER> Edward hall here. <SYSTEM> Please wait for a while. <USER> Sure, take your own time. <SYSTEM> There is no active reservation found under your name to amend it.",
+                "original user side information": {},
+                "original system side information": {}
+            }
+        ],
+        "external knowledge non-flat": {
+            "metadata": {
+                "flight": [
+                    {
+                        "return_airport": "MSP",
+                        "airline": "Frontier",
+                        "departure_day": "11",
+                        "departure_airport": "ATL",
+                        "flight_number": 1029,
+                        "departure_month": "Sept",
+                        "departure_time_num": 2,
+                        "class": "economy",
+                        "return_time_num": 20,
+                        "return_month": "Sept",
+                        "return_day": "13",
+                        "num_connections": 1,
+                        "price": 200
+                    },
+                    {
+                        "return_airport": "ATL",
+                        "airline": "AA",
+                        "departure_day": "12",
+                        "departure_airport": "IAD",
+                        "flight_number": 1007,
+                        "departure_month": "Sept",
+                        "departure_time_num": 6,
+                        "class": "economy",
+                        "return_time_num": 5,
+                        "return_month": "Sept",
+                        "return_day": "13",
+                        "num_connections": 1,
+                        "price": 200
+                    },
+                    {
+                        "return_airport": "ATL",
+                        "airline": "Delta",
+                        "departure_day": "12",
+                        "departure_airport": "IAD",
+                        "flight_number": 1020,
+                        "departure_month": "Sept",
+                        "departure_time_num": 4,
+                        "class": "economy",
+                        "return_time_num": 20,
+                        "return_month": "Sept",
+                        "return_day": "13",
+                        "num_connections": 1,
+                        "price": 100
+                    },
+                    {
+                        "return_airport": "IAD",
+                        "airline": "UA",
+                        "departure_day": "10",
+                        "departure_airport": "MSP",
+                        "flight_number": 1003,
+                        "departure_month": "Sept",
+                        "departure_time_num": 21,
+                        "class": "economy",
+                        "return_time_num": 2,
+                        "return_month": "Sept",
+                        "return_day": "14",
+                        "num_connections": 1,
+                        "price": 100
+                    },
+                    {
+                        "return_airport": "MSP",
+                        "airline": "Southwest",
+                        "departure_day": "11",
+                        "departure_airport": "IAD",
+                        "flight_number": 1004,
+                        "departure_month": "Sept",
+                        "departure_time_num": 13,
+                        "class": "economy",
+                        "return_time_num": 20,
+                        "return_month": "Sept",
+                        "return_day": "14",
+                        "num_connections": 1,
+                        "price": 200
+                    },
+                    {
+                        "return_airport": "MSP",
+                        "airline": "Frontier",
+                        "departure_day": "11",
+                        "departure_airport": "IAD",
+                        "flight_number": 1005,
+                        "departure_month": "Sept",
+                        "departure_time_num": 1,
+                        "class": "economy",
+                        "return_time_num": 15,
+                        "return_month": "Sept",
+                        "return_day": "13",
+                        "num_connections": 0,
+                        "price": 100
+                    },
+                    {
+                        "return_airport": "ATL",
+                        "airline": "Southwest",
+                        "departure_day": "12",
+                        "departure_airport": "MSP",
+                        "flight_number": 1021,
+                        "departure_month": "Sept",
+                        "departure_time_num": 5,
+                        "class": "economy",
+                        "return_time_num": 15,
+                        "return_month": "Sept",
+                        "return_day": "13",
+                        "num_connections": 1,
+                        "price": 200
+                    },
+                    {
+                        "return_airport": "MSP",
+                        "airline": "UA",
+                        "departure_day": "12",
+                        "departure_airport": "ATL",
+                        "flight_number": 1022,
+                        "departure_month": "Sept",
+                        "departure_time_num": 12,
+                        "class": "economy",
+                        "return_time_num": 5,
+                        "return_month": "Sept",
+                        "return_day": "12",
+                        "num_connections": 1,
+                        "price": 100
+                    },
+                    {
+                        "return_airport": "ATL",
+                        "airline": "AA",
+                        "departure_day": "11",
+                        "departure_airport": "IAD",
+                        "flight_number": 1000,
+                        "departure_month": "Sept",
+                        "departure_time_num": 10,
+                        "class": "business",
+                        "return_time_num": 21,
+                        "return_month": "Sept",
+                        "return_day": "13",
+                        "num_connections": 1,
+                        "price": 800
+                    },
+                    {
+                        "return_airport": "MSP",
+                        "airline": "UA",
+                        "departure_day": "11",
+                        "departure_airport": "IAD",
+                        "flight_number": 1009,
+                        "departure_month": "Sept",
+                        "departure_time_num": 21,
+                        "class": "economy",
+                        "return_time_num": 14,
+                        "return_month": "Sept",
+                        "return_day": "13",
+                        "num_connections": 1,
+                        "price": 200
+                    }
+                ]
+            },
+            "slots and values": {},
+            "intents": {}
+        },
+        "external knowledge": "( flight : (( return_airport : MSP | airline : Frontier | departure_day : 11 | departure_airport : ATL | flight_number : 1029 | departure_month : Sept | departure_time_num : 2 | class : economy | return_time_num : 20 | return_month : Sept | return_day : 13 | num_connections : 1 | price : 200) | ( return_airport : ATL | airline : AA | departure_day : 12 | departure_airport : IAD | flight_number : 1007 | departure_month : Sept | departure_time_num : 6 | class : economy | return_time_num : 5 | return_month : Sept | return_day : 13 | num_connections : 1 | price : 200) | ( return_airport : ATL | airline : Delta | departure_day : 12 | departure_airport : IAD | flight_number : 1020 | departure_month : Sept | departure_time_num : 4 | class : economy | return_time_num : 20 | return_month : Sept | return_day : 13 | num_connections : 1 | price : 100) | ( return_airport : IAD | airline : UA | departure_day : 10 | departure_airport : MSP | flight_number : 1003 | departure_month : Sept | departure_time_num : 21 | class : economy | return_time_num : 2 | return_month : Sept | return_day : 14 | num_connections : 1 | price : 100) | ( return_airport : MSP | airline : Southwest | departure_day : 11 | departure_airport : IAD | flight_number : 1004 | departure_month : Sept | departure_time_num : 13 | class : economy | return_time_num : 20 | return_month : Sept | return_day : 14 | num_connections : 1 | price : 200) | ( return_airport : MSP | airline : Frontier | departure_day : 11 | departure_airport : IAD | flight_number : 1005 | departure_month : Sept | departure_time_num : 1 | class : economy | return_time_num : 15 | return_month : Sept | return_day : 13 | num_connections : 0 | price : 100) | ( return_airport : ATL | airline : Southwest | departure_day : 12 | departure_airport : MSP | flight_number : 1021 | departure_month : Sept | departure_time_num : 5 | class : economy | return_time_num : 15 | return_month : Sept | return_day : 13 | num_connections : 1 | price : 200) | ( return_airport : MSP | airline : UA | departure_day : 12 | departure_airport : ATL | flight_number : 1022 | departure_month : Sept | departure_time_num : 12 | class : economy | return_time_num : 5 | return_month : Sept | return_day : 12 | num_connections : 1 | price : 100) | ( return_airport : ATL | airline : AA | departure_day : 11 | departure_airport : IAD | flight_number : 1000 | departure_month : Sept | departure_time_num : 10 | class : business | return_time_num : 21 | return_month : Sept | return_day : 13 | num_connections : 1 | price : 800) | ( return_airport : MSP | airline : UA | departure_day : 11 | departure_airport : IAD | flight_number : 1009 | departure_month : Sept | departure_time_num : 21 | class : economy | return_time_num : 14 | return_month : Sept | return_day : 13 | num_connections : 1 | price : 200)))",
+        "dst knowledge": "()",
+        "intent knowledge": "()",
+        "prompt": [
+            "This is a bot helping users to book a flight ticket. Given the dialog context and external database, please generate a relevant system response for the user.",
+            "This bot assists users to book a flight ticket. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
+            "This bot helps users to book a flight ticket. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
+            "The purpose of this bot is to assist users to book a flight ticket. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
+            "This bot is designed to help users book a flight ticket. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+        ]
+    },
+    "AirDialogue--train--2": {
+        "original dialog id": "",
+        "dialog index": 2,
+        "original dialog info": {
+            "action": {
+                "status": "book",
+                "name": "Stephen Evans",
+                "flight": [
+                    1006
+                ]
+            },
+            "intent": {
+                "return_month": "Apr",
+                "return_day": "5",
+                "max_price": 1000,
+                "departure_airport": "HOU",
+                "max_connections": 1,
+                "departure_day": "3",
+                "goal": "book",
+                "departure_month": "Apr",
+                "name": "Stephen Evans",
+                "return_airport": "LAS"
+            },
+            "timestamps": [
+                1518078655,
+                1518078670,
+                1518078716,
+                1518078717,
+                1518078742,
+                1518078746,
+                1518078759,
+                1518078772,
+                1518078787,
+                1518078789,
+                1518078792,
+                1518078827,
+                1518078837,
+                1518078846,
+                1518078847,
+                1518078857
+            ],
+            "expected_action": {
+                "status": "book",
+                "name": "Stephen Evans",
+                "flight": [
+                    1006,
+                    1017
+                ]
+            },
+            "correct_sample": true
+        },
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "HI.",
+                "system response": "Hello. How may I be of your address?",
+                "dialog history": "",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 2,
+                "user utterance": "I want to book a flight ticket to Las Vegas with price under 1000. Can you please help me with it?",
+                "system response": "Sure, can I know your connection limit?",
+                "dialog history": "<USER> HI. <SYSTEM> Hello. How may I be of your address?",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 3,
+                "user utterance": "I need a single connection.",
+                "system response": "Please let me know your boarding and landing points.",
+                "dialog history": "<USER> HI. <SYSTEM> Hello. How may I be of your address? <USER> I want to book a flight ticket to Las Vegas with price under 1000. Can you please help me with it? <SYSTEM> Sure, can I know your connection limit?",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 4,
+                "user utterance": "Airport codes are HOU-LAS.",
+                "system response": "Kindly share your planned travelling dates to proceed further.",
+                "dialog history": "<USER> HI. <SYSTEM> Hello. How may I be of your address? <USER> I want to book a flight ticket to Las Vegas with price under 1000. Can you please help me with it? <SYSTEM> Sure, can I know your connection limit? <USER> I need a single connection. <SYSTEM> Please let me know your boarding and landing points.",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 5,
+                "user utterance": "Travel dates are 04/03 and 04/05.",
+                "system response": "Please wait a while.",
+                "dialog history": "<USER> HI. <SYSTEM> Hello. How may I be of your address? <USER> I want to book a flight ticket to Las Vegas with price under 1000. Can you please help me with it? <SYSTEM> Sure, can I know your connection limit? <USER> I need a single connection. <SYSTEM> Please let me know your boarding and landing points. <USER> Airport codes are HOU-LAS. <SYSTEM> Kindly share your planned travelling dates to proceed further.",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 6,
+                "user utterance": "Ok.",
+                "system response": "We found a Frontier airline matching your essential details with one connection and the flight number-1006.",
+                "dialog history": "<USER> HI. <SYSTEM> Hello. How may I be of your address? <USER> I want to book a flight ticket to Las Vegas with price under 1000. Can you please help me with it? <SYSTEM> Sure, can I know your connection limit? <USER> I need a single connection. <SYSTEM> Please let me know your boarding and landing points. <USER> Airport codes are HOU-LAS. <SYSTEM> Kindly share your planned travelling dates to proceed further. <USER> Travel dates are 04/03 and 04/05. <SYSTEM> Please wait a while.",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 7,
+                "user utterance": "Please proceed booking with the name Stephen Evans.",
+                "system response": "Your booking has been processed successfully.",
+                "dialog history": "<USER> HI. <SYSTEM> Hello. How may I be of your address? <USER> I want to book a flight ticket to Las Vegas with price under 1000. Can you please help me with it? <SYSTEM> Sure, can I know your connection limit? <USER> I need a single connection. <SYSTEM> Please let me know your boarding and landing points. <USER> Airport codes are HOU-LAS. <SYSTEM> Kindly share your planned travelling dates to proceed further. <USER> Travel dates are 04/03 and 04/05. <SYSTEM> Please wait a while. <USER> Ok. <SYSTEM> We found a Frontier airline matching your essential details with one connection and the flight number-1006.",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 8,
+                "user utterance": "Thanks for the help.",
+                "system response": "You're welcome. Happy journey.",
+                "dialog history": "<USER> HI. <SYSTEM> Hello. How may I be of your address? <USER> I want to book a flight ticket to Las Vegas with price under 1000. Can you please help me with it? <SYSTEM> Sure, can I know your connection limit? <USER> I need a single connection. <SYSTEM> Please let me know your boarding and landing points. <USER> Airport codes are HOU-LAS. <SYSTEM> Kindly share your planned travelling dates to proceed further. <USER> Travel dates are 04/03 and 04/05. <SYSTEM> Please wait a while. <USER> Ok. <SYSTEM> We found a Frontier airline matching your essential details with one connection and the flight number-1006. <USER> Please proceed booking with the name Stephen Evans. <SYSTEM> Your booking has been processed successfully.",
+                "original user side information": {},
+                "original system side information": {}
+            }
+        ],
+        "external knowledge non-flat": {
+            "metadata": {
+                "flight": [
+                    {
+                        "return_airport": "LAS",
+                        "airline": "Frontier",
+                        "departure_day": "3",
+                        "departure_airport": "HOU",
+                        "flight_number": 1006,
+                        "departure_month": "Apr",
+                        "departure_time_num": 16,
+                        "class": "economy",
+                        "return_time_num": 23,
+                        "return_month": "Apr",
+                        "return_day": "5",
+                        "num_connections": 1,
+                        "price": 100
+                    },
+                    {
+                        "return_airport": "HOU",
+                        "airline": "Southwest",
+                        "departure_day": "4",
+                        "departure_airport": "HOU",
+                        "flight_number": 1014,
+                        "departure_month": "Apr",
+                        "departure_time_num": 16,
+                        "class": "economy",
+                        "return_time_num": 6,
+                        "return_month": "Apr",
+                        "return_day": "5",
+                        "num_connections": 1,
+                        "price": 200
+                    },
+                    {
+                        "return_airport": "HOU",
+                        "airline": "Delta",
+                        "departure_day": "3",
+                        "departure_airport": "HOU",
+                        "flight_number": 1025,
+                        "departure_month": "Apr",
+                        "departure_time_num": 17,
+                        "class": "economy",
+                        "return_time_num": 6,
+                        "return_month": "Apr",
+                        "return_day": "6",
+                        "num_connections": 1,
+                        "price": 200
+                    },
+                    {
+                        "return_airport": "HOU",
+                        "airline": "AA",
+                        "departure_day": "3",
+                        "departure_airport": "LAS",
+                        "flight_number": 1028,
+                        "departure_month": "Apr",
+                        "departure_time_num": 16,
+                        "class": "economy",
+                        "return_time_num": 12,
+                        "return_month": "Apr",
+                        "return_day": "5",
+                        "num_connections": 1,
+                        "price": 200
+                    },
+                    {
+                        "return_airport": "HOU",
+                        "airline": "JetBlue",
+                        "departure_day": "4",
+                        "departure_airport": "LAS",
+                        "flight_number": 1023,
+                        "departure_month": "Apr",
+                        "departure_time_num": 2,
+                        "class": "economy",
+                        "return_time_num": 18,
+                        "return_month": "Apr",
+                        "return_day": "4",
+                        "num_connections": 1,
+                        "price": 100
+                    },
+                    {
+                        "return_airport": "HOU",
+                        "airline": "Southwest",
+                        "departure_day": "3",
+                        "departure_airport": "LAS",
+                        "flight_number": 1020,
+                        "departure_month": "Apr",
+                        "departure_time_num": 17,
+                        "class": "economy",
+                        "return_time_num": 5,
+                        "return_month": "Apr",
+                        "return_day": "6",
+                        "num_connections": 1,
+                        "price": 300
+                    },
+                    {
+                        "return_airport": "LAS",
+                        "airline": "AA",
+                        "departure_day": "4",
+                        "departure_airport": "HOU",
+                        "flight_number": 1018,
+                        "departure_month": "Apr",
+                        "departure_time_num": 4,
+                        "class": "economy",
+                        "return_time_num": 3,
+                        "return_month": "Apr",
+                        "return_day": "5",
+                        "num_connections": 1,
+                        "price": 100
+                    },
+                    {
+                        "return_airport": "HOU",
+                        "airline": "Spirit",
+                        "departure_day": "3",
+                        "departure_airport": "HOU",
+                        "flight_number": 1004,
+                        "departure_month": "Apr",
+                        "departure_time_num": 14,
+                        "class": "economy",
+                        "return_time_num": 2,
+                        "return_month": "Apr",
+                        "return_day": "6",
+                        "num_connections": 1,
+                        "price": 200
+                    },
+                    {
+                        "return_airport": "LAS",
+                        "airline": "Southwest",
+                        "departure_day": "4",
+                        "departure_airport": "HOU",
+                        "flight_number": 1015,
+                        "departure_month": "Apr",
+                        "departure_time_num": 2,
+                        "class": "economy",
+                        "return_time_num": 2,
+                        "return_month": "Apr",
+                        "return_day": "6",
+                        "num_connections": 1,
+                        "price": 200
+                    },
+                    {
+                        "return_airport": "HOU",
+                        "airline": "AA",
+                        "departure_day": "3",
+                        "departure_airport": "HOU",
+                        "flight_number": 1012,
+                        "departure_month": "Apr",
+                        "departure_time_num": 12,
+                        "class": "economy",
+                        "return_time_num": 22,
+                        "return_month": "Apr",
+                        "return_day": "5",
+                        "num_connections": 1,
+                        "price": 200
+                    }
+                ]
+            },
+            "slots and values": {},
+            "intents": {}
+        },
+        "external knowledge": "( flight : (( return_airport : LAS | airline : Frontier | departure_day : 3 | departure_airport : HOU | flight_number : 1006 | departure_month : Apr | departure_time_num : 16 | class : economy | return_time_num : 23 | return_month : Apr | return_day : 5 | num_connections : 1 | price : 100) | ( return_airport : HOU | airline : Southwest | departure_day : 4 | departure_airport : HOU | flight_number : 1014 | departure_month : Apr | departure_time_num : 16 | class : economy | return_time_num : 6 | return_month : Apr | return_day : 5 | num_connections : 1 | price : 200) | ( return_airport : HOU | airline : Delta | departure_day : 3 | departure_airport : HOU | flight_number : 1025 | departure_month : Apr | departure_time_num : 17 | class : economy | return_time_num : 6 | return_month : Apr | return_day : 6 | num_connections : 1 | price : 200) | ( return_airport : HOU | airline : AA | departure_day : 3 | departure_airport : LAS | flight_number : 1028 | departure_month : Apr | departure_time_num : 16 | class : economy | return_time_num : 12 | return_month : Apr | return_day : 5 | num_connections : 1 | price : 200) | ( return_airport : HOU | airline : JetBlue | departure_day : 4 | departure_airport : LAS | flight_number : 1023 | departure_month : Apr | departure_time_num : 2 | class : economy | return_time_num : 18 | return_month : Apr | return_day : 4 | num_connections : 1 | price : 100) | ( return_airport : HOU | airline : Southwest | departure_day : 3 | departure_airport : LAS | flight_number : 1020 | departure_month : Apr | departure_time_num : 17 | class : economy | return_time_num : 5 | return_month : Apr | return_day : 6 | num_connections : 1 | price : 300) | ( return_airport : LAS | airline : AA | departure_day : 4 | departure_airport : HOU | flight_number : 1018 | departure_month : Apr | departure_time_num : 4 | class : economy | return_time_num : 3 | return_month : Apr | return_day : 5 | num_connections : 1 | price : 100) | ( return_airport : HOU | airline : Spirit | departure_day : 3 | departure_airport : HOU | flight_number : 1004 | departure_month : Apr | departure_time_num : 14 | class : economy | return_time_num : 2 | return_month : Apr | return_day : 6 | num_connections : 1 | price : 200) | ( return_airport : LAS | airline : Southwest | departure_day : 4 | departure_airport : HOU | flight_number : 1015 | departure_month : Apr | departure_time_num : 2 | class : economy | return_time_num : 2 | return_month : Apr | return_day : 6 | num_connections : 1 | price : 200) | ( return_airport : HOU | airline : AA | departure_day : 3 | departure_airport : HOU | flight_number : 1012 | departure_month : Apr | departure_time_num : 12 | class : economy | return_time_num : 22 | return_month : Apr | return_day : 5 | num_connections : 1 | price : 200)))",
+        "dst knowledge": "()",
+        "intent knowledge": "()",
+        "prompt": [
+            "This is a bot helping users to book a flight ticket. Given the dialog context and external database, please generate a relevant system response for the user.",
+            "This bot assists users to book a flight ticket. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
+            "This bot helps users to book a flight ticket. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
+            "The purpose of this bot is to assist users to book a flight ticket. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
+            "This bot is designed to help users book a flight ticket. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+        ]
+    },
+    "AirDialogue--train--3": {
+        "original dialog id": "",
+        "dialog index": 3,
+        "original dialog info": {
+            "search_info": [
+                {
+                    "timestmamp": 1530014855515,
+                    "button_name": "top-book-flight"
+                },
+                {
+                    "timestmamp": 1530014866408,
+                    "field_name": "departure_day",
+                    "field_value": "04/03"
+                },
+                {
+                    "timestmamp": 1530014872133,
+                    "field_name": "return_day",
+                    "field_value": "04/05"
+                },
+                {
+                    "timestmamp": 1530014875003,
+                    "field_name": "from_city",
+                    "field_value": "CLT"
+                },
+                {
+                    "timestmamp": 1530014876803,
+                    "field_name": "from_city",
+                    "field_value": "ORD"
+                },
+                {
+                    "timestmamp": 1530014881516,
+                    "field_name": "to_city",
+                    "field_value": "ATL"
+                },
+                {
+                    "timestmamp": 1530014882157,
+                    "field_name": "flight_search_submit",
+                    "field_value": ""
+                },
+                {
+                    "timestmamp": 1530014912858,
+                    "field_name": "customer-name",
+                    "field_value": "Gary Taylor"
+                },
+                {
+                    "timestmamp": 1530014914523,
+                    "field_name": "customer-final-action",
+                    "field_value": "book"
+                },
+                {
+                    "timestmamp": 1530014916732,
+                    "field_name": "customer-flight-number",
+                    "field_value": "1014"
+                },
+                {
+                    "timestmamp": 1530015110299,
+                    "button_name": "agent-end-conversation"
+                }
+            ],
+            "action": {
+                "status": "book",
+                "name": "Gary Taylor",
+                "flight": [
+                    1014
+                ]
+            },
+            "intent": {
+                "return_month": "Apr",
+                "return_day": "5",
+                "max_price": 1000,
+                "departure_airport": "ORD",
+                "max_connections": 1,
+                "departure_day": "3",
+                "goal": "book",
+                "departure_month": "Apr",
+                "name": "Gary Taylor",
+                "return_airport": "ATL"
+            },
+            "timestamps": [
+                1530014779,
+                1530014792,
+                1530014815,
+                1530014842,
+                1530014850,
+                1530014853,
+                1530014870,
+                1530014894,
+                1530014899,
+                1530014906,
+                1530014919,
+                1530014984,
+                1530015036,
+                1530015045,
+                1530015059,
+                1530015074
+            ],
+            "expected_action": {
+                "status": "book",
+                "name": "Gary Taylor",
+                "flight": [
+                    1014,
+                    1020,
+                    1021
+                ]
+            },
+            "correct_sample": true
+        },
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "Hello.",
+                "system response": "Hello, do you need any help from us?",
+                "dialog history": "",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 2,
+                "user utterance": "Can you please help me in reserving my flight from ORD to reach ATL?",
+                "system response": "Sure, could you please share your departure and arrival day?",
+                "dialog history": "<USER> Hello. <SYSTEM> Hello, do you need any help from us?",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 3,
+                "user utterance": "Thank you, my travelling dates are Apr 3rd and Apr 5th.",
+                "system response": "Ok, could I have your name please?",
+                "dialog history": "<USER> Hello. <SYSTEM> Hello, do you need any help from us? <USER> Can you please help me in reserving my flight from ORD to reach ATL? <SYSTEM> Sure, could you please share your departure and arrival day?",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 4,
+                "user utterance": "I am Gary Taylor.",
+                "system response": "Ok, do you need direct or connecting flight?",
+                "dialog history": "<USER> Hello. <SYSTEM> Hello, do you need any help from us? <USER> Can you please help me in reserving my flight from ORD to reach ATL? <SYSTEM> Sure, could you please share your departure and arrival day? <USER> Thank you, my travelling dates are Apr 3rd and Apr 5th. <SYSTEM> Ok, could I have your name please?",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 5,
+                "user utterance": "I prefer a single connecting flight.",
+                "system response": "Ok, do you have any other specifications?",
+                "dialog history": "<USER> Hello. <SYSTEM> Hello, do you need any help from us? <USER> Can you please help me in reserving my flight from ORD to reach ATL? <SYSTEM> Sure, could you please share your departure and arrival day? <USER> Thank you, my travelling dates are Apr 3rd and Apr 5th. <SYSTEM> Ok, could I have your name please? <USER> I am Gary Taylor. <SYSTEM> Ok, do you need direct or connecting flight?",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 6,
+                "user utterance": "I don't have any other specifications.",
+                "system response": "The economy class with flight number 1014 of Frontier airline is available having fare as 200 and connection as 1, is it ok for you?",
+                "dialog history": "<USER> Hello. <SYSTEM> Hello, do you need any help from us? <USER> Can you please help me in reserving my flight from ORD to reach ATL? <SYSTEM> Sure, could you please share your departure and arrival day? <USER> Thank you, my travelling dates are Apr 3rd and Apr 5th. <SYSTEM> Ok, could I have your name please? <USER> I am Gary Taylor. <SYSTEM> Ok, do you need direct or connecting flight? <USER> I prefer a single connecting flight. <SYSTEM> Ok, do you have any other specifications?",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 7,
+                "user utterance": "Yes, please proceed by booking.",
+                "system response": "Ok, your reservation is confirmed. The departure time is 6:00 hours and the arrival time is 10:00 hours.",
+                "dialog history": "<USER> Hello. <SYSTEM> Hello, do you need any help from us? <USER> Can you please help me in reserving my flight from ORD to reach ATL? <SYSTEM> Sure, could you please share your departure and arrival day? <USER> Thank you, my travelling dates are Apr 3rd and Apr 5th. <SYSTEM> Ok, could I have your name please? <USER> I am Gary Taylor. <SYSTEM> Ok, do you need direct or connecting flight? <USER> I prefer a single connecting flight. <SYSTEM> Ok, do you have any other specifications? <USER> I don't have any other specifications. <SYSTEM> The economy class with flight number 1014 of Frontier airline is available having fare as 200 and connection as 1, is it ok for you?",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 8,
+                "user utterance": "Thank you for the help.",
+                "system response": "Thank you for reaching our service.",
+                "dialog history": "<USER> Hello. <SYSTEM> Hello, do you need any help from us? <USER> Can you please help me in reserving my flight from ORD to reach ATL? <SYSTEM> Sure, could you please share your departure and arrival day? <USER> Thank you, my travelling dates are Apr 3rd and Apr 5th. <SYSTEM> Ok, could I have your name please? <USER> I am Gary Taylor. <SYSTEM> Ok, do you need direct or connecting flight? <USER> I prefer a single connecting flight. <SYSTEM> Ok, do you have any other specifications? <USER> I don't have any other specifications. <SYSTEM> The economy class with flight number 1014 of Frontier airline is available having fare as 200 and connection as 1, is it ok for you? <USER> Yes, please proceed by booking. <SYSTEM> Ok, your reservation is confirmed. The departure time is 6:00 hours and the arrival time is 10:00 hours.",
+                "original user side information": {},
+                "original system side information": {}
+            }
+        ],
+        "external knowledge non-flat": {
+            "metadata": {
+                "flight": [
+                    {
+                        "return_airport": "ATL",
+                        "airline": "Frontier",
+                        "departure_day": "3",
+                        "departure_airport": "ORD",
+                        "flight_number": 1014,
+                        "departure_month": "Apr",
+                        "departure_time_num": 6,
+                        "class": "economy",
+                        "return_time_num": 10,
+                        "return_month": "Apr",
+                        "return_day": "5",
+                        "num_connections": 1,
+                        "price": 200
+                    },
+                    {
+                        "return_airport": "ORD",
+                        "airline": "Hawaiian",
+                        "departure_day": "3",
+                        "departure_airport": "ATL",
+                        "flight_number": 1006,
+                        "departure_month": "Apr",
+                        "departure_time_num": 22,
+                        "class": "business",
+                        "return_time_num": 11,
+                        "return_month": "Apr",
+                        "return_day": "5",
+                        "num_connections": 1,
+                        "price": 500
+                    },
+                    {
+                        "return_airport": "ATL",
+                        "airline": "Frontier",
+                        "departure_day": "3",
+                        "departure_airport": "ORD",
+                        "flight_number": 1021,
+                        "departure_month": "Apr",
+                        "departure_time_num": 1,
+                        "class": "economy",
+                        "return_time_num": 22,
+                        "return_month": "Apr",
+                        "return_day": "5",
+                        "num_connections": 1,
+                        "price": 200
+                    },
+                    {
+                        "return_airport": "ORD",
+                        "airline": "Frontier",
+                        "departure_day": "4",
+                        "departure_airport": "DEN",
+                        "flight_number": 1022,
+                        "departure_month": "Apr",
+                        "departure_time_num": 0,
+                        "class": "economy",
+                        "return_time_num": 13,
+                        "return_month": "Apr",
+                        "return_day": "4",
+                        "num_connections": 2,
+                        "price": 200
+                    },
+                    {
+                        "return_airport": "ORD",
+                        "airline": "Hawaiian",
+                        "departure_day": "3",
+                        "departure_airport": "DEN",
+                        "flight_number": 1029,
+                        "departure_month": "Apr",
+                        "departure_time_num": 7,
+                        "class": "economy",
+                        "return_time_num": 23,
+                        "return_month": "Apr",
+                        "return_day": "4",
+                        "num_connections": 0,
+                        "price": 200
+                    },
+                    {
+                        "return_airport": "ORD",
+                        "airline": "Delta",
+                        "departure_day": "3",
+                        "departure_airport": "DEN",
+                        "flight_number": 1016,
+                        "departure_month": "Apr",
+                        "departure_time_num": 6,
+                        "class": "economy",
+                        "return_time_num": 6,
+                        "return_month": "Apr",
+                        "return_day": "5",
+                        "num_connections": 1,
+                        "price": 200
+                    },
+                    {
+                        "return_airport": "ATL",
+                        "airline": "Frontier",
+                        "departure_day": "3",
+                        "departure_airport": "DEN",
+                        "flight_number": 1015,
+                        "departure_month": "Apr",
+                        "departure_time_num": 3,
+                        "class": "economy",
+                        "return_time_num": 8,
+                        "return_month": "Apr",
+                        "return_day": "5",
+                        "num_connections": 1,
+                        "price": 200
+                    },
+                    {
+                        "return_airport": "ORD",
+                        "airline": "Frontier",
+                        "departure_day": "3",
+                        "departure_airport": "ATL",
+                        "flight_number": 1000,
+                        "departure_month": "Apr",
+                        "departure_time_num": 8,
+                        "class": "economy",
+                        "return_time_num": 5,
+                        "return_month": "Apr",
+                        "return_day": "5",
+                        "num_connections": 1,
+                        "price": 100
+                    },
+                    {
+                        "return_airport": "ORD",
+                        "airline": "Hawaiian",
+                        "departure_day": "3",
+                        "departure_airport": "DEN",
+                        "flight_number": 1001,
+                        "departure_month": "Apr",
+                        "departure_time_num": 1,
+                        "class": "economy",
+                        "return_time_num": 14,
+                        "return_month": "Apr",
+                        "return_day": "4",
+                        "num_connections": 1,
+                        "price": 100
+                    },
+                    {
+                        "return_airport": "ATL",
+                        "airline": "Spirit",
+                        "departure_day": "3",
+                        "departure_airport": "ORD",
+                        "flight_number": 1020,
+                        "departure_month": "Apr",
+                        "departure_time_num": 10,
+                        "class": "economy",
+                        "return_time_num": 6,
+                        "return_month": "Apr",
+                        "return_day": "5",
+                        "num_connections": 1,
+                        "price": 200
+                    }
+                ]
+            },
+            "slots and values": {},
+            "intents": {}
+        },
+        "external knowledge": "( flight : (( return_airport : ATL | airline : Frontier | departure_day : 3 | departure_airport : ORD | flight_number : 1014 | departure_month : Apr | departure_time_num : 6 | class : economy | return_time_num : 10 | return_month : Apr | return_day : 5 | num_connections : 1 | price : 200) | ( return_airport : ORD | airline : Hawaiian | departure_day : 3 | departure_airport : ATL | flight_number : 1006 | departure_month : Apr | departure_time_num : 22 | class : business | return_time_num : 11 | return_month : Apr | return_day : 5 | num_connections : 1 | price : 500) | ( return_airport : ATL | airline : Frontier | departure_day : 3 | departure_airport : ORD | flight_number : 1021 | departure_month : Apr | departure_time_num : 1 | class : economy | return_time_num : 22 | return_month : Apr | return_day : 5 | num_connections : 1 | price : 200) | ( return_airport : ORD | airline : Frontier | departure_day : 4 | departure_airport : DEN | flight_number : 1022 | departure_month : Apr | departure_time_num : 0 | class : economy | return_time_num : 13 | return_month : Apr | return_day : 4 | num_connections : 2 | price : 200) | ( return_airport : ORD | airline : Hawaiian | departure_day : 3 | departure_airport : DEN | flight_number : 1029 | departure_month : Apr | departure_time_num : 7 | class : economy | return_time_num : 23 | return_month : Apr | return_day : 4 | num_connections : 0 | price : 200) | ( return_airport : ORD | airline : Delta | departure_day : 3 | departure_airport : DEN | flight_number : 1016 | departure_month : Apr | departure_time_num : 6 | class : economy | return_time_num : 6 | return_month : Apr | return_day : 5 | num_connections : 1 | price : 200) | ( return_airport : ATL | airline : Frontier | departure_day : 3 | departure_airport : DEN | flight_number : 1015 | departure_month : Apr | departure_time_num : 3 | class : economy | return_time_num : 8 | return_month : Apr | return_day : 5 | num_connections : 1 | price : 200) | ( return_airport : ORD | airline : Frontier | departure_day : 3 | departure_airport : ATL | flight_number : 1000 | departure_month : Apr | departure_time_num : 8 | class : economy | return_time_num : 5 | return_month : Apr | return_day : 5 | num_connections : 1 | price : 100) | ( return_airport : ORD | airline : Hawaiian | departure_day : 3 | departure_airport : DEN | flight_number : 1001 | departure_month : Apr | departure_time_num : 1 | class : economy | return_time_num : 14 | return_month : Apr | return_day : 4 | num_connections : 1 | price : 100) | ( return_airport : ATL | airline : Spirit | departure_day : 3 | departure_airport : ORD | flight_number : 1020 | departure_month : Apr | departure_time_num : 10 | class : economy | return_time_num : 6 | return_month : Apr | return_day : 5 | num_connections : 1 | price : 200)))",
+        "dst knowledge": "()",
+        "intent knowledge": "()",
+        "prompt": [
+            "This is a bot helping users to book a flight ticket. Given the dialog context and external database, please generate a relevant system response for the user.",
+            "This bot assists users to book a flight ticket. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
+            "This bot helps users to book a flight ticket. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
+            "The purpose of this bot is to assist users to book a flight ticket. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
+            "This bot is designed to help users book a flight ticket. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+        ]
+    },
+    "AirDialogue--train--4": {
+        "original dialog id": "",
+        "dialog index": 4,
+        "original dialog info": {
+            "search_info": [
+                {
+                    "timestmamp": 1528211747101,
+                    "field_name": "customer-name",
+                    "field_value": "Donna Evans"
+                },
+                {
+                    "timestmamp": 1528211831285,
+                    "button_name": "top-book-flight"
+                },
+                {
+                    "timestmamp": 1528211833236,
+                    "field_name": "max_connection",
+                    "field_value": "1"
+                },
+                {
+                    "timestmamp": 1528211847733,
+                    "field_name": "departure_day",
+                    "field_value": "02/01"
+                },
+                {
+                    "timestmamp": 1528211850581,
+                    "field_name": "return_day",
+                    "field_value": "02/03"
+                },
+                {
+                    "timestmamp": 1528211872844,
+                    "field_name": "to_city",
+                    "field_value": "OAK"
+                },
+                {
+                    "timestmamp": 1528211876500,
+                    "field_name": "from_city",
+                    "field_value": "PHL"
+                },
+                {
+                    "timestmamp": 1528211883973,
+                    "field_name": "flight_search_submit",
+                    "field_value": ""
+                },
+                {
+                    "timestmamp": 1528211933476,
+                    "field_name": "customer-final-action",
+                    "field_value": "book"
+                },
+                {
+                    "timestmamp": 1528211936636,
+                    "field_name": "customer-flight-number",
+                    "field_value": "1018"
+                },
+                {
+                    "timestmamp": 1528211972428,
+                    "button_name": "agent-end-conversation"
+                }
+            ],
+            "action": {
+                "status": "book",
+                "name": "Donna Evans",
+                "flight": [
+                    1018
+                ]
+            },
+            "intent": {
+                "return_month": "Feb",
+                "return_day": "3",
+                "max_price": 1000,
+                "departure_airport": "PHL",
+                "max_connections": 1,
+                "departure_day": "1",
+                "goal": "book",
+                "departure_month": "Feb",
+                "name": "Donna Evans",
+                "return_airport": "OAK"
+            },
+            "timestamps": [
+                1528211735,
+                1528211740,
+                1528211814,
+                1528211822,
+                1528211838,
+                1528211854,
+                1528211870,
+                1528211881,
+                1528211897,
+                1528211919,
+                1528211947,
+                1528211956,
+                1528211957,
+                1528211971
+            ],
+            "expected_action": {
+                "status": "book",
+                "name": "Donna Evans",
+                "flight": [
+                    1018
+                ]
+            },
+            "correct_sample": true
+        },
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "Hi. Donna Evans here.",
+                "system response": "Hello, how can I help you today?",
+                "dialog history": "",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 2,
+                "user utterance": "I would like to prefer a flight with lay-by option for my business trip to Oakland. Can you book a flight ticket?",
+                "system response": "Sure, let me know your travel dates please?",
+                "dialog history": "<USER> Hi. Donna Evans here. <SYSTEM> Hello, how can I help you today?",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 3,
+                "user utterance": "The trip dates are from 01 Feb to 03 Feb.",
+                "system response": "Can I know your airport codes?",
+                "dialog history": "<USER> Hi. Donna Evans here. <SYSTEM> Hello, how can I help you today? <USER> I would like to prefer a flight with lay-by option for my business trip to Oakland. Can you book a flight ticket? <SYSTEM> Sure, let me know your travel dates please?",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 4,
+                "user utterance": "The airport codes are from PHL to OAK.",
+                "system response": "Any preferences you have?",
+                "dialog history": "<USER> Hi. Donna Evans here. <SYSTEM> Hello, how can I help you today? <USER> I would like to prefer a flight with lay-by option for my business trip to Oakland. Can you book a flight ticket? <SYSTEM> Sure, let me know your travel dates please? <USER> The trip dates are from 01 Feb to 03 Feb. <SYSTEM> Can I know your airport codes?",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 5,
+                "user utterance": "No, that is it.",
+                "system response": "Spirit Airlines has a connecting flight with number 1018 for fare 200, shall I proceed?",
+                "dialog history": "<USER> Hi. Donna Evans here. <SYSTEM> Hello, how can I help you today? <USER> I would like to prefer a flight with lay-by option for my business trip to Oakland. Can you book a flight ticket? <SYSTEM> Sure, let me know your travel dates please? <USER> The trip dates are from 01 Feb to 03 Feb. <SYSTEM> Can I know your airport codes? <USER> The airport codes are from PHL to OAK. <SYSTEM> Any preferences you have?",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 6,
+                "user utterance": "I am fine with the airlines. You can book the flight ticket.",
+                "system response": "Your ticket is reserved in economy class.",
+                "dialog history": "<USER> Hi. Donna Evans here. <SYSTEM> Hello, how can I help you today? <USER> I would like to prefer a flight with lay-by option for my business trip to Oakland. Can you book a flight ticket? <SYSTEM> Sure, let me know your travel dates please? <USER> The trip dates are from 01 Feb to 03 Feb. <SYSTEM> Can I know your airport codes? <USER> The airport codes are from PHL to OAK. <SYSTEM> Any preferences you have? <USER> No, that is it. <SYSTEM> Spirit Airlines has a connecting flight with number 1018 for fare 200, shall I proceed?",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 7,
+                "user utterance": "Thank you.",
+                "system response": "Thank you for opting us.",
+                "dialog history": "<USER> Hi. Donna Evans here. <SYSTEM> Hello, how can I help you today? <USER> I would like to prefer a flight with lay-by option for my business trip to Oakland. Can you book a flight ticket? <SYSTEM> Sure, let me know your travel dates please? <USER> The trip dates are from 01 Feb to 03 Feb. <SYSTEM> Can I know your airport codes? <USER> The airport codes are from PHL to OAK. <SYSTEM> Any preferences you have? <USER> No, that is it. <SYSTEM> Spirit Airlines has a connecting flight with number 1018 for fare 200, shall I proceed? <USER> I am fine with the airlines. You can book the flight ticket. <SYSTEM> Your ticket is reserved in economy class.",
+                "original user side information": {},
+                "original system side information": {}
+            }
+        ],
+        "external knowledge non-flat": {
+            "metadata": {
+                "flight": [
+                    {
+                        "return_airport": "OAK",
+                        "airline": "Spirit",
+                        "departure_day": "1",
+                        "departure_airport": "PHL",
+                        "flight_number": 1018,
+                        "departure_month": "Feb",
+                        "departure_time_num": 23,
+                        "class": "economy",
+                        "return_time_num": 17,
+                        "return_month": "Feb",
+                        "return_day": "3",
+                        "num_connections": 1,
+                        "price": 200
+                    },
+                    {
+                        "return_airport": "OAK",
+                        "airline": "JetBlue",
+                        "departure_day": "2",
+                        "departure_airport": "JFK",
+                        "flight_number": 1027,
+                        "departure_month": "Feb",
+                        "departure_time_num": 23,
+                        "class": "economy",
+                        "return_time_num": 9,
+                        "return_month": "Feb",
+                        "return_day": "3",
+                        "num_connections": 1,
+                        "price": 100
+                    },
+                    {
+                        "return_airport": "JFK",
+                        "airline": "Delta",
+                        "departure_day": "1",
+                        "departure_airport": "PHL",
+                        "flight_number": 1008,
+                        "departure_month": "Feb",
+                        "departure_time_num": 9,
+                        "class": "economy",
+                        "return_time_num": 13,
+                        "return_month": "Feb",
+                        "return_day": "3",
+                        "num_connections": 1,
+                        "price": 300
+                    },
+                    {
+                        "return_airport": "JFK",
+                        "airline": "AA",
+                        "departure_day": "31",
+                        "departure_airport": "PHL",
+                        "flight_number": 1011,
+                        "departure_month": "Jan",
+                        "departure_time_num": 21,
+                        "class": "economy",
+                        "return_time_num": 7,
+                        "return_month": "Feb",
+                        "return_day": "4",
+                        "num_connections": 1,
+                        "price": 100
+                    },
+                    {
+                        "return_airport": "JFK",
+                        "airline": "Hawaiian",
+                        "departure_day": "1",
+                        "departure_airport": "PHL",
+                        "flight_number": 1001,
+                        "departure_month": "Feb",
+                        "departure_time_num": 15,
+                        "class": "economy",
+                        "return_time_num": 10,
+                        "return_month": "Feb",
+                        "return_day": "4",
+                        "num_connections": 1,
+                        "price": 200
+                    },
+                    {
+                        "return_airport": "JFK",
+                        "airline": "AA",
+                        "departure_day": "2",
+                        "departure_airport": "OAK",
+                        "flight_number": 1028,
+                        "departure_month": "Feb",
+                        "departure_time_num": 19,
+                        "class": "economy",
+                        "return_time_num": 10,
+                        "return_month": "Feb",
+                        "return_day": "3",
+                        "num_connections": 1,
+                        "price": 100
+                    },
+                    {
+                        "return_airport": "PHL",
+                        "airline": "Hawaiian",
+                        "departure_day": "1",
+                        "departure_airport": "OAK",
+                        "flight_number": 1024,
+                        "departure_month": "Feb",
+                        "departure_time_num": 4,
+                        "class": "economy",
+                        "return_time_num": 3,
+                        "return_month": "Feb",
+                        "return_day": "4",
+                        "num_connections": 1,
+                        "price": 100
+                    },
+                    {
+                        "return_airport": "PHL",
+                        "airline": "Spirit",
+                        "departure_day": "2",
+                        "departure_airport": "JFK",
+                        "flight_number": 1005,
+                        "departure_month": "Feb",
+                        "departure_time_num": 2,
+                        "class": "economy",
+                        "return_time_num": 9,
+                        "return_month": "Feb",
+                        "return_day": "4",
+                        "num_connections": 1,
+                        "price": 100
+                    },
+                    {
+                        "return_airport": "PHL",
+                        "airline": "Southwest",
+                        "departure_day": "2",
+                        "departure_airport": "JFK",
+                        "flight_number": 1010,
+                        "departure_month": "Feb",
+                        "departure_time_num": 9,
+                        "class": "economy",
+                        "return_time_num": 6,
+                        "return_month": "Feb",
+                        "return_day": "4",
+                        "num_connections": 1,
+                        "price": 100
+                    },
+                    {
+                        "return_airport": "OAK",
+                        "airline": "Delta",
+                        "departure_day": "1",
+                        "departure_airport": "PHL",
+                        "flight_number": 1009,
+                        "departure_month": "Feb",
+                        "departure_time_num": 17,
+                        "class": "economy",
+                        "return_time_num": 7,
+                        "return_month": "Feb",
+                        "return_day": "4",
+                        "num_connections": 1,
+                        "price": 100
+                    }
+                ]
+            },
+            "slots and values": {},
+            "intents": {}
+        },
+        "external knowledge": "( flight : (( return_airport : OAK | airline : Spirit | departure_day : 1 | departure_airport : PHL | flight_number : 1018 | departure_month : Feb | departure_time_num : 23 | class : economy | return_time_num : 17 | return_month : Feb | return_day : 3 | num_connections : 1 | price : 200) | ( return_airport : OAK | airline : JetBlue | departure_day : 2 | departure_airport : JFK | flight_number : 1027 | departure_month : Feb | departure_time_num : 23 | class : economy | return_time_num : 9 | return_month : Feb | return_day : 3 | num_connections : 1 | price : 100) | ( return_airport : JFK | airline : Delta | departure_day : 1 | departure_airport : PHL | flight_number : 1008 | departure_month : Feb | departure_time_num : 9 | class : economy | return_time_num : 13 | return_month : Feb | return_day : 3 | num_connections : 1 | price : 300) | ( return_airport : JFK | airline : AA | departure_day : 31 | departure_airport : PHL | flight_number : 1011 | departure_month : Jan | departure_time_num : 21 | class : economy | return_time_num : 7 | return_month : Feb | return_day : 4 | num_connections : 1 | price : 100) | ( return_airport : JFK | airline : Hawaiian | departure_day : 1 | departure_airport : PHL | flight_number : 1001 | departure_month : Feb | departure_time_num : 15 | class : economy | return_time_num : 10 | return_month : Feb | return_day : 4 | num_connections : 1 | price : 200) | ( return_airport : JFK | airline : AA | departure_day : 2 | departure_airport : OAK | flight_number : 1028 | departure_month : Feb | departure_time_num : 19 | class : economy | return_time_num : 10 | return_month : Feb | return_day : 3 | num_connections : 1 | price : 100) | ( return_airport : PHL | airline : Hawaiian | departure_day : 1 | departure_airport : OAK | flight_number : 1024 | departure_month : Feb | departure_time_num : 4 | class : economy | return_time_num : 3 | return_month : Feb | return_day : 4 | num_connections : 1 | price : 100) | ( return_airport : PHL | airline : Spirit | departure_day : 2 | departure_airport : JFK | flight_number : 1005 | departure_month : Feb | departure_time_num : 2 | class : economy | return_time_num : 9 | return_month : Feb | return_day : 4 | num_connections : 1 | price : 100) | ( return_airport : PHL | airline : Southwest | departure_day : 2 | departure_airport : JFK | flight_number : 1010 | departure_month : Feb | departure_time_num : 9 | class : economy | return_time_num : 6 | return_month : Feb | return_day : 4 | num_connections : 1 | price : 100) | ( return_airport : OAK | airline : Delta | departure_day : 1 | departure_airport : PHL | flight_number : 1009 | departure_month : Feb | departure_time_num : 17 | class : economy | return_time_num : 7 | return_month : Feb | return_day : 4 | num_connections : 1 | price : 100)))",
+        "dst knowledge": "()",
+        "intent knowledge": "()",
+        "prompt": [
+            "This is a bot helping users to book a flight ticket. Given the dialog context and external database, please generate a relevant system response for the user.",
+            "This bot assists users to book a flight ticket. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
+            "This bot helps users to book a flight ticket. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
+            "The purpose of this bot is to assist users to book a flight ticket. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
+            "This bot is designed to help users book a flight ticket. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+        ]
+    },
+    "AirDialogue--train--5": {
+        "original dialog id": "",
+        "dialog index": 5,
+        "original dialog info": {
+            "action": {
+                "status": "book",
+                "name": "Gregory Allen",
+                "flight": [
+                    1000
+                ]
+            },
+            "intent": {
+                "return_month": "Oct",
+                "return_day": "12",
+                "max_price": 5000,
+                "departure_airport": "ORD",
+                "max_connections": 0,
+                "departure_day": "10",
+                "goal": "book",
+                "departure_month": "Oct",
+                "name": "Gregory Allen",
+                "return_airport": "EWR"
+            },
+            "timestamps": [
+                1519915651,
+                1519915670,
+                1519915730,
+                1519915733,
+                1519915825,
+                1519915833,
+                1519915843,
+                1519915912,
+                1519915943,
+                1519916019,
+                1519916027
+            ],
+            "expected_action": {
+                "status": "no_flight",
+                "name": "Gregory Allen",
+                "flight": []
+            },
+            "correct_sample": false
+        },
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "Hello.",
+                "system response": "Hello. How can I help you?",
+                "dialog history": "",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 2,
+                "user utterance": "I am Gregory Allen. I want to attend a live music concert in EWr, can you please find a flight from ORD?",
+                "system response": "Sure, I will help you to book a flight. Can you please share me your travelling dates?",
+                "dialog history": "<USER> Hello. <SYSTEM> Hello. How can I help you?",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 3,
+                "user utterance": "I want to start my journey on 10/10 and my return will be on 10/12.",
+                "system response": "Please hold on for a moment.",
+                "dialog history": "<USER> Hello. <SYSTEM> Hello. How can I help you? <USER> I am Gregory Allen. I want to attend a live music concert in EWr, can you please find a flight from ORD? <SYSTEM> Sure, I will help you to book a flight. Can you please share me your travelling dates?",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 4,
+                "user utterance": "Ok, take your time.",
+                "system response": "Here, I found a flight for you with single connection. Shall I proceed for booking?",
+                "dialog history": "<USER> Hello. <SYSTEM> Hello. How can I help you? <USER> I am Gregory Allen. I want to attend a live music concert in EWr, can you please find a flight from ORD? <SYSTEM> Sure, I will help you to book a flight. Can you please share me your travelling dates? <USER> I want to start my journey on 10/10 and my return will be on 10/12. <SYSTEM> Please hold on for a moment.",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 5,
+                "user utterance": "Please proceed.",
+                "system response": "Your ticket is booked with flight number 1000 and airline is Southwest.",
+                "dialog history": "<USER> Hello. <SYSTEM> Hello. How can I help you? <USER> I am Gregory Allen. I want to attend a live music concert in EWr, can you please find a flight from ORD? <SYSTEM> Sure, I will help you to book a flight. Can you please share me your travelling dates? <USER> I want to start my journey on 10/10 and my return will be on 10/12. <SYSTEM> Please hold on for a moment. <USER> Ok, take your time. <SYSTEM> Here, I found a flight for you with single connection. Shall I proceed for booking?",
+                "original user side information": {},
+                "original system side information": {}
+            }
+        ],
+        "external knowledge non-flat": {
+            "metadata": {
+                "flight": [
+                    {
+                        "return_airport": "EWR",
+                        "airline": "Southwest",
+                        "departure_day": "10",
+                        "departure_airport": "ORD",
+                        "flight_number": 1000,
+                        "departure_month": "Oct",
+                        "departure_time_num": 6,
+                        "class": "economy",
+                        "return_time_num": 3,
+                        "return_month": "Oct",
+                        "return_day": "12",
+                        "num_connections": 1,
+                        "price": 100
+                    },
+                    {
+                        "return_airport": "ORD",
+                        "airline": "Hawaiian",
+                        "departure_day": "10",
+                        "departure_airport": "EWR",
+                        "flight_number": 1011,
+                        "departure_month": "Oct",
+                        "departure_time_num": 12,
+                        "class": "economy",
+                        "return_time_num": 3,
+                        "return_month": "Oct",
+                        "return_day": "13",
+                        "num_connections": 1,
+                        "price": 100
+                    },
+                    {
+                        "return_airport": "EWR",
+                        "airline": "Spirit",
+                        "departure_day": "9",
+                        "departure_airport": "PHX",
+                        "flight_number": 1014,
+                        "departure_month": "Oct",
+                        "departure_time_num": 19,
+                        "class": "economy",
+                        "return_time_num": 0,
+                        "return_month": "Oct",
+                        "return_day": "11",
+                        "num_connections": 1,
+                        "price": 100
+                    },
+                    {
+                        "return_airport": "PHX",
+                        "airline": "UA",
+                        "departure_day": "9",
+                        "departure_airport": "EWR",
+                        "flight_number": 1023,
+                        "departure_month": "Oct",
+                        "departure_time_num": 21,
+                        "class": "economy",
+                        "return_time_num": 12,
+                        "return_month": "Oct",
+                        "return_day": "11",
+                        "num_connections": 1,
+                        "price": 200
+                    },
+                    {
+                        "return_airport": "PHX",
+                        "airline": "Southwest",
+                        "departure_day": "10",
+                        "departure_airport": "ORD",
+                        "flight_number": 1025,
+                        "departure_month": "Oct",
+                        "departure_time_num": 3,
+                        "class": "economy",
+                        "return_time_num": 9,
+                        "return_month": "Oct",
+                        "return_day": "12",
+                        "num_connections": 1,
+                        "price": 100
+                    },
+                    {
+                        "return_airport": "ORD",
+                        "airline": "Southwest",
+                        "departure_day": "10",
+                        "departure_airport": "EWR",
+                        "flight_number": 1013,
+                        "departure_month": "Oct",
+                        "departure_time_num": 3,
+                        "class": "business",
+                        "return_time_num": 21,
+                        "return_month": "Oct",
+                        "return_day": "11",
+                        "num_connections": 1,
+                        "price": 700
+                    },
+                    {
+                        "return_airport": "EWR",
+                        "airline": "AA",
+                        "departure_day": "10",
+                        "departure_airport": "PHX",
+                        "flight_number": 1010,
+                        "departure_month": "Oct",
+                        "departure_time_num": 13,
+                        "class": "business",
+                        "return_time_num": 5,
+                        "return_month": "Oct",
+                        "return_day": "12",
+                        "num_connections": 1,
+                        "price": 800
+                    },
+                    {
+                        "return_airport": "PHX",
+                        "airline": "Spirit",
+                        "departure_day": "10",
+                        "departure_airport": "ORD",
+                        "flight_number": 1012,
+                        "departure_month": "Oct",
+                        "departure_time_num": 5,
+                        "class": "economy",
+                        "return_time_num": 12,
+                        "return_month": "Oct",
+                        "return_day": "11",
+                        "num_connections": 0,
+                        "price": 100
+                    },
+                    {
+                        "return_airport": "PHX",
+                        "airline": "Hawaiian",
+                        "departure_day": "10",
+                        "departure_airport": "EWR",
+                        "flight_number": 1024,
+                        "departure_month": "Oct",
+                        "departure_time_num": 1,
+                        "class": "economy",
+                        "return_time_num": 9,
+                        "return_month": "Oct",
+                        "return_day": "12",
+                        "num_connections": 1,
+                        "price": 100
+                    },
+                    {
+                        "return_airport": "EWR",
+                        "airline": "Spirit",
+                        "departure_day": "9",
+                        "departure_airport": "PHX",
+                        "flight_number": 1018,
+                        "departure_month": "Oct",
+                        "departure_time_num": 9,
+                        "class": "economy",
+                        "return_time_num": 19,
+                        "return_month": "Oct",
+                        "return_day": "12",
+                        "num_connections": 1,
+                        "price": 200
+                    }
+                ]
+            },
+            "slots and values": {},
+            "intents": {}
+        },
+        "external knowledge": "( flight : (( return_airport : EWR | airline : Southwest | departure_day : 10 | departure_airport : ORD | flight_number : 1000 | departure_month : Oct | departure_time_num : 6 | class : economy | return_time_num : 3 | return_month : Oct | return_day : 12 | num_connections : 1 | price : 100) | ( return_airport : ORD | airline : Hawaiian | departure_day : 10 | departure_airport : EWR | flight_number : 1011 | departure_month : Oct | departure_time_num : 12 | class : economy | return_time_num : 3 | return_month : Oct | return_day : 13 | num_connections : 1 | price : 100) | ( return_airport : EWR | airline : Spirit | departure_day : 9 | departure_airport : PHX | flight_number : 1014 | departure_month : Oct | departure_time_num : 19 | class : economy | return_time_num : 0 | return_month : Oct | return_day : 11 | num_connections : 1 | price : 100) | ( return_airport : PHX | airline : UA | departure_day : 9 | departure_airport : EWR | flight_number : 1023 | departure_month : Oct | departure_time_num : 21 | class : economy | return_time_num : 12 | return_month : Oct | return_day : 11 | num_connections : 1 | price : 200) | ( return_airport : PHX | airline : Southwest | departure_day : 10 | departure_airport : ORD | flight_number : 1025 | departure_month : Oct | departure_time_num : 3 | class : economy | return_time_num : 9 | return_month : Oct | return_day : 12 | num_connections : 1 | price : 100) | ( return_airport : ORD | airline : Southwest | departure_day : 10 | departure_airport : EWR | flight_number : 1013 | departure_month : Oct | departure_time_num : 3 | class : business | return_time_num : 21 | return_month : Oct | return_day : 11 | num_connections : 1 | price : 700) | ( return_airport : EWR | airline : AA | departure_day : 10 | departure_airport : PHX | flight_number : 1010 | departure_month : Oct | departure_time_num : 13 | class : business | return_time_num : 5 | return_month : Oct | return_day : 12 | num_connections : 1 | price : 800) | ( return_airport : PHX | airline : Spirit | departure_day : 10 | departure_airport : ORD | flight_number : 1012 | departure_month : Oct | departure_time_num : 5 | class : economy | return_time_num : 12 | return_month : Oct | return_day : 11 | num_connections : 0 | price : 100) | ( return_airport : PHX | airline : Hawaiian | departure_day : 10 | departure_airport : EWR | flight_number : 1024 | departure_month : Oct | departure_time_num : 1 | class : economy | return_time_num : 9 | return_month : Oct | return_day : 12 | num_connections : 1 | price : 100) | ( return_airport : EWR | airline : Spirit | departure_day : 9 | departure_airport : PHX | flight_number : 1018 | departure_month : Oct | departure_time_num : 9 | class : economy | return_time_num : 19 | return_month : Oct | return_day : 12 | num_connections : 1 | price : 200)))",
+        "dst knowledge": "()",
+        "intent knowledge": "()",
+        "prompt": [
+            "This is a bot helping users to book a flight ticket. Given the dialog context and external database, please generate a relevant system response for the user.",
+            "This bot assists users to book a flight ticket. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
+            "This bot helps users to book a flight ticket. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
+            "The purpose of this bot is to assist users to book a flight ticket. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
+            "This bot is designed to help users book a flight ticket. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+        ]
+    }
+}

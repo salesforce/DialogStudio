@@ -1,0 +1,663 @@
+{
+    "MulDoGO--train--1": {
+        "original dialog id": "0db9fadd-de84-43cd-a92f-a61da85844ec",
+        "dialog index": 1,
+        "original dialog info": {},
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "hai",
+                "system response": "Hello there! Sky high customer services, How may I help you today?",
+                "dialog history": "",
+                "original user side information": {
+                    "slot-labels": [
+                        "O"
+                    ],
+                    "intent": [
+                        "openinggreeting"
+                    ]
+                },
+                "original system side information": {}
+            },
+            {
+                "turn id": 2,
+                "user utterance": "check my seat assignment",
+                "system response": "Sure! I'll be able to do that for you, could you please let me know your last name and booking confirmation number?",
+                "dialog history": "<USER> hai <SYSTEM> Hello there! Sky high customer services, How may I help you today?",
+                "original user side information": {
+                    "slot-labels": [
+                        "O O O O"
+                    ],
+                    "intent": [
+                        "getseatinfo"
+                    ]
+                },
+                "original system side information": {}
+            },
+            {
+                "turn id": 3,
+                "user utterance": "ajianu n76f34",
+                "system response": "Thanks Ajianu! Please allow me a moment to check the details and get back to you.",
+                "dialog history": "<USER> hai <SYSTEM> Hello there! Sky high customer services, How may I help you today? <USER> check my seat assignment <SYSTEM> Sure! I'll be able to do that for you, could you please let me know your last name and booking confirmation number?",
+                "original user side information": {
+                    "slot-labels": [
+                        "name booking_confirmation_number booking_confirmation_number booking_confirmation_number booking_confirmation_number"
+                    ],
+                    "intent": [
+                        "contentonly"
+                    ]
+                },
+                "original system side information": {}
+            },
+            {
+                "turn id": 4,
+                "user utterance": "ok",
+                "system response": "Sorry to keep you waiting, your seat number is 5D it is a middle row seat, is that okay?",
+                "dialog history": "<USER> hai <SYSTEM> Hello there! Sky high customer services, How may I help you today? <USER> check my seat assignment <SYSTEM> Sure! I'll be able to do that for you, could you please let me know your last name and booking confirmation number? <USER> ajianu n76f34 <SYSTEM> Thanks Ajianu! Please allow me a moment to check the details and get back to you.",
+                "original user side information": {
+                    "slot-labels": [
+                        "O"
+                    ],
+                    "intent": [
+                        "confirmation"
+                    ]
+                },
+                "original system side information": {}
+            },
+            {
+                "turn id": 5,
+                "user utterance": "ok",
+                "system response": "Great! Will there be anything else I may help you with?",
+                "dialog history": "<USER> hai <SYSTEM> Hello there! Sky high customer services, How may I help you today? <USER> check my seat assignment <SYSTEM> Sure! I'll be able to do that for you, could you please let me know your last name and booking confirmation number? <USER> ajianu n76f34 <SYSTEM> Thanks Ajianu! Please allow me a moment to check the details and get back to you. <USER> ok <SYSTEM> Sorry to keep you waiting, your seat number is 5D it is a middle row seat, is that okay?",
+                "original user side information": {
+                    "slot-labels": [
+                        "O"
+                    ],
+                    "intent": [
+                        "confirmation"
+                    ]
+                },
+                "original system side information": {}
+            }
+        ],
+        "external knowledge non-flat": {
+            "metadata": {},
+            "slots and values": {},
+            "intents": {}
+        },
+        "external knowledge": "",
+        "dst knowledge": "",
+        "intent knowledge": "",
+        "prompt": [
+            "This is a bot helping users to book a flight ticket. Given the dialog context and external database, please generate a relevant system response for the user.",
+            "This bot assists users to book a flight ticket. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
+            "This bot helps users to book a flight ticket. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
+            "The purpose of this bot is to assist users to book a flight ticket. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
+            "This bot is designed to help users book a flight ticket. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+        ]
+    },
+    "MulDoGO--train--2": {
+        "original dialog id": "bfe535ee-26cf-43c0-a0b1-52a578b4fc06",
+        "dialog index": 2,
+        "original dialog info": {},
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "HI",
+                "system response": "Hello! You've been connected to StarAirwyas. How may I assist you?",
+                "dialog history": "",
+                "original user side information": {
+                    "slot-labels": [
+                        "O"
+                    ],
+                    "intent": [
+                        "openinggreeting"
+                    ]
+                },
+                "original system side information": {}
+            },
+            {
+                "turn id": 2,
+                "user utterance": "I ALREADY BOOKED A TICKET BUT I CHANGE THIS SEAT",
+                "system response": "I'll help you out with that. May I know your full name and the booking confirmation number?",
+                "dialog history": "<USER> HI <SYSTEM> Hello! You've been connected to StarAirwyas. How may I assist you?",
+                "original user side information": {
+                    "slot-labels": [
+                        "O O O O O O O O O O"
+                    ],
+                    "intent": [
+                        "changeseatassignment"
+                    ]
+                },
+                "original system side information": {}
+            },
+            {
+                "turn id": 3,
+                "user utterance": "NAME DIVI GT67G6",
+                "system response": "Divi I'd like to inform you that you've been assigned 8A which is aisle seat, would you like to change that?",
+                "dialog history": "<USER> HI <SYSTEM> Hello! You've been connected to StarAirwyas. How may I assist you? <USER> I ALREADY BOOKED A TICKET BUT I CHANGE THIS SEAT <SYSTEM> I'll help you out with that. May I know your full name and the booking confirmation number?",
+                "original user side information": {
+                    "slot-labels": [
+                        "booking_confirmation_number booking_confirmation_number booking_confirmation_number booking_confirmation_number"
+                    ],
+                    "intent": [
+                        "contentonly"
+                    ]
+                },
+                "original system side information": {}
+            },
+            {
+                "turn id": 4,
+                "user utterance": "OK",
+                "system response": "Would you want to change the seat?",
+                "dialog history": "<USER> HI <SYSTEM> Hello! You've been connected to StarAirwyas. How may I assist you? <USER> I ALREADY BOOKED A TICKET BUT I CHANGE THIS SEAT <SYSTEM> I'll help you out with that. May I know your full name and the booking confirmation number? <USER> NAME DIVI GT67G6 <SYSTEM> Divi I'd like to inform you that you've been assigned 8A which is aisle seat, would you like to change that?",
+                "original user side information": {
+                    "slot-labels": [
+                        "O"
+                    ],
+                    "intent": [
+                        "changeseatassignment"
+                    ]
+                },
+                "original system side information": {}
+            },
+            {
+                "turn id": 5,
+                "user utterance": "MIDDLE",
+                "system response": "Okay we have 12B available, would you like to take that?",
+                "dialog history": "<USER> HI <SYSTEM> Hello! You've been connected to StarAirwyas. How may I assist you? <USER> I ALREADY BOOKED A TICKET BUT I CHANGE THIS SEAT <SYSTEM> I'll help you out with that. May I know your full name and the booking confirmation number? <USER> NAME DIVI GT67G6 <SYSTEM> Divi I'd like to inform you that you've been assigned 8A which is aisle seat, would you like to change that? <USER> OK <SYSTEM> Would you want to change the seat?",
+                "original user side information": {
+                    "slot-labels": [
+                        "O"
+                    ],
+                    "intent": [
+                        "contentonly"
+                    ]
+                },
+                "original system side information": {}
+            },
+            {
+                "turn id": 6,
+                "user utterance": "OK",
+                "system response": "Great! Your seat has been changed successfully.",
+                "dialog history": "<USER> HI <SYSTEM> Hello! You've been connected to StarAirwyas. How may I assist you? <USER> I ALREADY BOOKED A TICKET BUT I CHANGE THIS SEAT <SYSTEM> I'll help you out with that. May I know your full name and the booking confirmation number? <USER> NAME DIVI GT67G6 <SYSTEM> Divi I'd like to inform you that you've been assigned 8A which is aisle seat, would you like to change that? <USER> OK <SYSTEM> Would you want to change the seat? <USER> MIDDLE <SYSTEM> Okay we have 12B available, would you like to take that?",
+                "original user side information": {
+                    "slot-labels": [
+                        "O"
+                    ],
+                    "intent": [
+                        "changeseatassignment"
+                    ]
+                },
+                "original system side information": {}
+            },
+            {
+                "turn id": 7,
+                "user utterance": "OK THANKYOU",
+                "system response": "You're welcome! Would there be anything else I may assist you with?",
+                "dialog history": "<USER> HI <SYSTEM> Hello! You've been connected to StarAirwyas. How may I assist you? <USER> I ALREADY BOOKED A TICKET BUT I CHANGE THIS SEAT <SYSTEM> I'll help you out with that. May I know your full name and the booking confirmation number? <USER> NAME DIVI GT67G6 <SYSTEM> Divi I'd like to inform you that you've been assigned 8A which is aisle seat, would you like to change that? <USER> OK <SYSTEM> Would you want to change the seat? <USER> MIDDLE <SYSTEM> Okay we have 12B available, would you like to take that? <USER> OK <SYSTEM> Great! Your seat has been changed successfully.",
+                "original user side information": {
+                    "slot-labels": [
+                        "O O"
+                    ],
+                    "intent": [
+                        "thankyou"
+                    ]
+                },
+                "original system side information": {}
+            },
+            {
+                "turn id": 8,
+                "user utterance": "NOTHING ELSE",
+                "system response": "Awesome! Thanks for reaching out to us, hope you have a wonderful trip ahead.",
+                "dialog history": "<USER> HI <SYSTEM> Hello! You've been connected to StarAirwyas. How may I assist you? <USER> I ALREADY BOOKED A TICKET BUT I CHANGE THIS SEAT <SYSTEM> I'll help you out with that. May I know your full name and the booking confirmation number? <USER> NAME DIVI GT67G6 <SYSTEM> Divi I'd like to inform you that you've been assigned 8A which is aisle seat, would you like to change that? <USER> OK <SYSTEM> Would you want to change the seat? <USER> MIDDLE <SYSTEM> Okay we have 12B available, would you like to take that? <USER> OK <SYSTEM> Great! Your seat has been changed successfully. <USER> OK THANKYOU <SYSTEM> You're welcome! Would there be anything else I may assist you with?",
+                "original user side information": {
+                    "slot-labels": [
+                        "O O"
+                    ],
+                    "intent": [
+                        "rejection"
+                    ]
+                },
+                "original system side information": {}
+            }
+        ],
+        "external knowledge non-flat": {
+            "metadata": {},
+            "slots and values": {},
+            "intents": {}
+        },
+        "external knowledge": "",
+        "dst knowledge": "",
+        "intent knowledge": "",
+        "prompt": [
+            "This is a bot helping users to book a flight ticket. Given the dialog context and external database, please generate a relevant system response for the user.",
+            "This bot assists users to book a flight ticket. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
+            "This bot helps users to book a flight ticket. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
+            "The purpose of this bot is to assist users to book a flight ticket. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
+            "This bot is designed to help users book a flight ticket. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+        ]
+    },
+    "MulDoGO--train--3": {
+        "original dialog id": "16103afa-cb12-4b73-b0a8-59502b1e3f06",
+        "dialog index": 3,
+        "original dialog info": {},
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "hai",
+                "system response": "Hello there! Sky high customer services, How may I help you today?",
+                "dialog history": "",
+                "original user side information": {
+                    "slot-labels": [
+                        "O"
+                    ],
+                    "intent": [
+                        "openinggreeting"
+                    ]
+                },
+                "original system side information": {}
+            },
+            {
+                "turn id": 2,
+                "user utterance": "check my seat assignment",
+                "system response": "Sure! I'll be able to do that for you, could you please let me know your last name and booking confirmation number?",
+                "dialog history": "<USER> hai <SYSTEM> Hello there! Sky high customer services, How may I help you today?",
+                "original user side information": {
+                    "slot-labels": [
+                        "O O O O"
+                    ],
+                    "intent": [
+                        "changeseatassignment"
+                    ]
+                },
+                "original system side information": {}
+            },
+            {
+                "turn id": 3,
+                "user utterance": "raja f66s89",
+                "system response": "Thanks Raja! Please allow me a moment to check the details and get back to you.",
+                "dialog history": "<USER> hai <SYSTEM> Hello there! Sky high customer services, How may I help you today? <USER> check my seat assignment <SYSTEM> Sure! I'll be able to do that for you, could you please let me know your last name and booking confirmation number?",
+                "original user side information": {
+                    "slot-labels": [
+                        "name booking_confirmation_number booking_confirmation_number booking_confirmation_number booking_confirmation_number"
+                    ],
+                    "intent": [
+                        "contentonly"
+                    ]
+                },
+                "original system side information": {}
+            },
+            {
+                "turn id": 4,
+                "user utterance": "ok",
+                "system response": "Sorry to keep you waiting, I've checked the details and found that your seat number is 5D it is an aisle row seat, is that okay?",
+                "dialog history": "<USER> hai <SYSTEM> Hello there! Sky high customer services, How may I help you today? <USER> check my seat assignment <SYSTEM> Sure! I'll be able to do that for you, could you please let me know your last name and booking confirmation number? <USER> raja f66s89 <SYSTEM> Thanks Raja! Please allow me a moment to check the details and get back to you.",
+                "original user side information": {
+                    "slot-labels": [
+                        "O"
+                    ],
+                    "intent": [
+                        "confirmation"
+                    ]
+                },
+                "original system side information": {}
+            },
+            {
+                "turn id": 5,
+                "user utterance": "ok",
+                "system response": "Great! Will there be anything else I may help you with?",
+                "dialog history": "<USER> hai <SYSTEM> Hello there! Sky high customer services, How may I help you today? <USER> check my seat assignment <SYSTEM> Sure! I'll be able to do that for you, could you please let me know your last name and booking confirmation number? <USER> raja f66s89 <SYSTEM> Thanks Raja! Please allow me a moment to check the details and get back to you. <USER> ok <SYSTEM> Sorry to keep you waiting, I've checked the details and found that your seat number is 5D it is an aisle row seat, is that okay?",
+                "original user side information": {
+                    "slot-labels": [
+                        "O"
+                    ],
+                    "intent": [
+                        "confirmation"
+                    ]
+                },
+                "original system side information": {}
+            },
+            {
+                "turn id": 6,
+                "user utterance": "no thanks",
+                "system response": "Alright! It was great assisting you, thanks for choosing our services. Have a safe flight, goodbye.",
+                "dialog history": "<USER> hai <SYSTEM> Hello there! Sky high customer services, How may I help you today? <USER> check my seat assignment <SYSTEM> Sure! I'll be able to do that for you, could you please let me know your last name and booking confirmation number? <USER> raja f66s89 <SYSTEM> Thanks Raja! Please allow me a moment to check the details and get back to you. <USER> ok <SYSTEM> Sorry to keep you waiting, I've checked the details and found that your seat number is 5D it is an aisle row seat, is that okay? <USER> ok <SYSTEM> Great! Will there be anything else I may help you with?",
+                "original user side information": {
+                    "slot-labels": [
+                        "O O"
+                    ],
+                    "intent": [
+                        "rejection"
+                    ]
+                },
+                "original system side information": {}
+            }
+        ],
+        "external knowledge non-flat": {
+            "metadata": {},
+            "slots and values": {},
+            "intents": {}
+        },
+        "external knowledge": "",
+        "dst knowledge": "",
+        "intent knowledge": "",
+        "prompt": [
+            "This is a bot helping users to book a flight ticket. Given the dialog context and external database, please generate a relevant system response for the user.",
+            "This bot assists users to book a flight ticket. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
+            "This bot helps users to book a flight ticket. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
+            "The purpose of this bot is to assist users to book a flight ticket. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
+            "This bot is designed to help users book a flight ticket. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+        ]
+    },
+    "MulDoGO--train--4": {
+        "original dialog id": "622ea2fb-aec8-4ecd-aa41-8c274579422b",
+        "dialog index": 4,
+        "original dialog info": {},
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "hi",
+                "system response": "Hello there! Sky high customer services, How may I help you today?",
+                "dialog history": "",
+                "original user side information": {
+                    "slot-labels": [
+                        "O"
+                    ],
+                    "intent": [
+                        "openinggreeting"
+                    ]
+                },
+                "original system side information": {}
+            },
+            {
+                "turn id": 2,
+                "user utterance": "please help me to check seat assignment",
+                "system response": "Sure! I'll be glad to help you in this, could you please let me know your last name?",
+                "dialog history": "<USER> hi <SYSTEM> Hello there! Sky high customer services, How may I help you today?",
+                "original user side information": {
+                    "slot-labels": [
+                        "O O O O O O O"
+                    ],
+                    "intent": [
+                        "getseatinfo"
+                    ]
+                },
+                "original system side information": {}
+            },
+            {
+                "turn id": 3,
+                "user utterance": "kooi",
+                "system response": "Thanks Kooi! Could you please let me know your booking confirmation number?",
+                "dialog history": "<USER> hi <SYSTEM> Hello there! Sky high customer services, How may I help you today? <USER> please help me to check seat assignment <SYSTEM> Sure! I'll be glad to help you in this, could you please let me know your last name?",
+                "original user side information": {
+                    "slot-labels": [
+                        "name"
+                    ],
+                    "intent": [
+                        "contentonly"
+                    ]
+                },
+                "original system side information": {}
+            },
+            {
+                "turn id": 4,
+                "user utterance": "mj8456",
+                "system response": "Perfect! Please allow me a moment to check the details and get back to you.",
+                "dialog history": "<USER> hi <SYSTEM> Hello there! Sky high customer services, How may I help you today? <USER> please help me to check seat assignment <SYSTEM> Sure! I'll be glad to help you in this, could you please let me know your last name? <USER> kooi <SYSTEM> Thanks Kooi! Could you please let me know your booking confirmation number?",
+                "original user side information": {
+                    "slot-labels": [
+                        "booking_confirmation_number booking_confirmation_number"
+                    ],
+                    "intent": [
+                        "contentonly"
+                    ]
+                },
+                "original system side information": {}
+            },
+            {
+                "turn id": 5,
+                "user utterance": "okay",
+                "system response": "Sorry to keep you waiting, I've checked your details and your seat number is 5D it is a middle row seat, is that okay?",
+                "dialog history": "<USER> hi <SYSTEM> Hello there! Sky high customer services, How may I help you today? <USER> please help me to check seat assignment <SYSTEM> Sure! I'll be glad to help you in this, could you please let me know your last name? <USER> kooi <SYSTEM> Thanks Kooi! Could you please let me know your booking confirmation number? <USER> mj8456 <SYSTEM> Perfect! Please allow me a moment to check the details and get back to you.",
+                "original user side information": {
+                    "slot-labels": [
+                        "O"
+                    ],
+                    "intent": [
+                        "confirmation"
+                    ]
+                },
+                "original system side information": {}
+            },
+            {
+                "turn id": 6,
+                "user utterance": "no chane it to window",
+                "system response": "Alright! Please allow me a moment to check if that is available.",
+                "dialog history": "<USER> hi <SYSTEM> Hello there! Sky high customer services, How may I help you today? <USER> please help me to check seat assignment <SYSTEM> Sure! I'll be glad to help you in this, could you please let me know your last name? <USER> kooi <SYSTEM> Thanks Kooi! Could you please let me know your booking confirmation number? <USER> mj8456 <SYSTEM> Perfect! Please allow me a moment to check the details and get back to you. <USER> okay <SYSTEM> Sorry to keep you waiting, I've checked your details and your seat number is 5D it is a middle row seat, is that okay?",
+                "original user side information": {
+                    "slot-labels": [],
+                    "intent": []
+                },
+                "original system side information": {}
+            },
+            {
+                "turn id": 7,
+                "user utterance": "okay dude",
+                "system response": "Thanks for waiting, I've checked there is a window seat available which is 12A should I go ahead and confirm it for you?",
+                "dialog history": "<USER> hi <SYSTEM> Hello there! Sky high customer services, How may I help you today? <USER> please help me to check seat assignment <SYSTEM> Sure! I'll be glad to help you in this, could you please let me know your last name? <USER> kooi <SYSTEM> Thanks Kooi! Could you please let me know your booking confirmation number? <USER> mj8456 <SYSTEM> Perfect! Please allow me a moment to check the details and get back to you. <USER> okay <SYSTEM> Sorry to keep you waiting, I've checked your details and your seat number is 5D it is a middle row seat, is that okay? <USER> no chane it to window <SYSTEM> Alright! Please allow me a moment to check if that is available.",
+                "original user side information": {
+                    "slot-labels": [
+                        "O O"
+                    ],
+                    "intent": [
+                        "confirmation"
+                    ]
+                },
+                "original system side information": {}
+            },
+            {
+                "turn id": 8,
+                "user utterance": "yes",
+                "system response": "Alright! Will do that, anything else I may help you in?",
+                "dialog history": "<USER> hi <SYSTEM> Hello there! Sky high customer services, How may I help you today? <USER> please help me to check seat assignment <SYSTEM> Sure! I'll be glad to help you in this, could you please let me know your last name? <USER> kooi <SYSTEM> Thanks Kooi! Could you please let me know your booking confirmation number? <USER> mj8456 <SYSTEM> Perfect! Please allow me a moment to check the details and get back to you. <USER> okay <SYSTEM> Sorry to keep you waiting, I've checked your details and your seat number is 5D it is a middle row seat, is that okay? <USER> no chane it to window <SYSTEM> Alright! Please allow me a moment to check if that is available. <USER> okay dude <SYSTEM> Thanks for waiting, I've checked there is a window seat available which is 12A should I go ahead and confirm it for you?",
+                "original user side information": {
+                    "slot-labels": [
+                        "O"
+                    ],
+                    "intent": [
+                        "confirmation"
+                    ]
+                },
+                "original system side information": {}
+            },
+            {
+                "turn id": 9,
+                "user utterance": "no send me the boarding pass",
+                "system response": "Sure! Could you please share your email address to which you'd like me to send the boarding pass?",
+                "dialog history": "<USER> hi <SYSTEM> Hello there! Sky high customer services, How may I help you today? <USER> please help me to check seat assignment <SYSTEM> Sure! I'll be glad to help you in this, could you please let me know your last name? <USER> kooi <SYSTEM> Thanks Kooi! Could you please let me know your booking confirmation number? <USER> mj8456 <SYSTEM> Perfect! Please allow me a moment to check the details and get back to you. <USER> okay <SYSTEM> Sorry to keep you waiting, I've checked your details and your seat number is 5D it is a middle row seat, is that okay? <USER> no chane it to window <SYSTEM> Alright! Please allow me a moment to check if that is available. <USER> okay dude <SYSTEM> Thanks for waiting, I've checked there is a window seat available which is 12A should I go ahead and confirm it for you? <USER> yes <SYSTEM> Alright! Will do that, anything else I may help you in?",
+                "original user side information": {
+                    "slot-labels": [
+                        "O O O O O"
+                    ],
+                    "intent": [
+                        "getboardingpass"
+                    ]
+                },
+                "original system side information": {}
+            },
+            {
+                "turn id": 10,
+                "user utterance": "shdfjkshfjh@gmail.com",
+                "system response": "Great! Please allow me a moment to process your request.",
+                "dialog history": "<USER> hi <SYSTEM> Hello there! Sky high customer services, How may I help you today? <USER> please help me to check seat assignment <SYSTEM> Sure! I'll be glad to help you in this, could you please let me know your last name? <USER> kooi <SYSTEM> Thanks Kooi! Could you please let me know your booking confirmation number? <USER> mj8456 <SYSTEM> Perfect! Please allow me a moment to check the details and get back to you. <USER> okay <SYSTEM> Sorry to keep you waiting, I've checked your details and your seat number is 5D it is a middle row seat, is that okay? <USER> no chane it to window <SYSTEM> Alright! Please allow me a moment to check if that is available. <USER> okay dude <SYSTEM> Thanks for waiting, I've checked there is a window seat available which is 12A should I go ahead and confirm it for you? <USER> yes <SYSTEM> Alright! Will do that, anything else I may help you in? <USER> no send me the boarding pass <SYSTEM> Sure! Could you please share your email address to which you'd like me to send the boarding pass?",
+                "original user side information": {
+                    "slot-labels": [
+                        "email_address"
+                    ],
+                    "intent": [
+                        "contentonly"
+                    ]
+                },
+                "original system side information": {}
+            },
+            {
+                "turn id": 11,
+                "user utterance": "okay",
+                "system response": "Thanks for waiting, I've checked the details and processed your request, you'll soon receive a mail with your boarding pass attachment. Anything else I may help you with?",
+                "dialog history": "<USER> hi <SYSTEM> Hello there! Sky high customer services, How may I help you today? <USER> please help me to check seat assignment <SYSTEM> Sure! I'll be glad to help you in this, could you please let me know your last name? <USER> kooi <SYSTEM> Thanks Kooi! Could you please let me know your booking confirmation number? <USER> mj8456 <SYSTEM> Perfect! Please allow me a moment to check the details and get back to you. <USER> okay <SYSTEM> Sorry to keep you waiting, I've checked your details and your seat number is 5D it is a middle row seat, is that okay? <USER> no chane it to window <SYSTEM> Alright! Please allow me a moment to check if that is available. <USER> okay dude <SYSTEM> Thanks for waiting, I've checked there is a window seat available which is 12A should I go ahead and confirm it for you? <USER> yes <SYSTEM> Alright! Will do that, anything else I may help you in? <USER> no send me the boarding pass <SYSTEM> Sure! Could you please share your email address to which you'd like me to send the boarding pass? <USER> shdfjkshfjh@gmail.com <SYSTEM> Great! Please allow me a moment to process your request.",
+                "original user side information": {
+                    "slot-labels": [
+                        "O"
+                    ],
+                    "intent": [
+                        "confirmation"
+                    ]
+                },
+                "original system side information": {}
+            },
+            {
+                "turn id": 12,
+                "user utterance": "no thank you",
+                "system response": "My pelasure! It was great assisting you, have a safe flight. Goodbye.",
+                "dialog history": "<USER> hi <SYSTEM> Hello there! Sky high customer services, How may I help you today? <USER> please help me to check seat assignment <SYSTEM> Sure! I'll be glad to help you in this, could you please let me know your last name? <USER> kooi <SYSTEM> Thanks Kooi! Could you please let me know your booking confirmation number? <USER> mj8456 <SYSTEM> Perfect! Please allow me a moment to check the details and get back to you. <USER> okay <SYSTEM> Sorry to keep you waiting, I've checked your details and your seat number is 5D it is a middle row seat, is that okay? <USER> no chane it to window <SYSTEM> Alright! Please allow me a moment to check if that is available. <USER> okay dude <SYSTEM> Thanks for waiting, I've checked there is a window seat available which is 12A should I go ahead and confirm it for you? <USER> yes <SYSTEM> Alright! Will do that, anything else I may help you in? <USER> no send me the boarding pass <SYSTEM> Sure! Could you please share your email address to which you'd like me to send the boarding pass? <USER> shdfjkshfjh@gmail.com <SYSTEM> Great! Please allow me a moment to process your request. <USER> okay <SYSTEM> Thanks for waiting, I've checked the details and processed your request, you'll soon receive a mail with your boarding pass attachment. Anything else I may help you with?",
+                "original user side information": {
+                    "slot-labels": [
+                        "O O O"
+                    ],
+                    "intent": [
+                        "rejection"
+                    ]
+                },
+                "original system side information": {}
+            }
+        ],
+        "external knowledge non-flat": {
+            "metadata": {},
+            "slots and values": {},
+            "intents": {}
+        },
+        "external knowledge": "",
+        "dst knowledge": "",
+        "intent knowledge": "",
+        "prompt": [
+            "This is a bot helping users to book a flight ticket. Given the dialog context and external database, please generate a relevant system response for the user.",
+            "This bot assists users to book a flight ticket. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
+            "This bot helps users to book a flight ticket. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
+            "The purpose of this bot is to assist users to book a flight ticket. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
+            "This bot is designed to help users book a flight ticket. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+        ]
+    },
+    "MulDoGO--train--5": {
+        "original dialog id": "b2f8257a-e58d-4107-b497-a5de53cbf1b4",
+        "dialog index": 5,
+        "original dialog info": {},
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "hello jesse",
+                "system response": "Good morning! You've reached Flamingo customers service. How may I help you today?",
+                "dialog history": "",
+                "original user side information": {
+                    "slot-labels": [
+                        "O O"
+                    ],
+                    "intent": [
+                        "openinggreeting"
+                    ]
+                },
+                "original system side information": {}
+            },
+            {
+                "turn id": 2,
+                "user utterance": "i want to know my seat no",
+                "system response": "Surely! I'll be happy to help you with that. Could you please help me with your last name and your booking confirmation number?",
+                "dialog history": "<USER> hello jesse <SYSTEM> Good morning! You've reached Flamingo customers service. How may I help you today?",
+                "original user side information": {
+                    "slot-labels": [
+                        "O O O O O O O"
+                    ],
+                    "intent": [
+                        "getseatinfo"
+                    ]
+                },
+                "original system side information": {}
+            },
+            {
+                "turn id": 3,
+                "user utterance": "my name is raja booking confirmation number fgh425",
+                "system response": "Thank you for that Mr.Raja. Could you please allow me a moment, while I get this done for you?",
+                "dialog history": "<USER> hello jesse <SYSTEM> Good morning! You've reached Flamingo customers service. How may I help you today? <USER> i want to know my seat no <SYSTEM> Surely! I'll be happy to help you with that. Could you please help me with your last name and your booking confirmation number?",
+                "original user side information": {
+                    "slot-labels": [
+                        "O O O name O O O booking_confirmation_number booking_confirmation_number"
+                    ],
+                    "intent": [
+                        "contentonly"
+                    ]
+                },
+                "original system side information": {}
+            },
+            {
+                "turn id": 4,
+                "user utterance": "ok",
+                "system response": "Fantastic! Here's your seat number K17 which is a window seat, Is that okay for you?",
+                "dialog history": "<USER> hello jesse <SYSTEM> Good morning! You've reached Flamingo customers service. How may I help you today? <USER> i want to know my seat no <SYSTEM> Surely! I'll be happy to help you with that. Could you please help me with your last name and your booking confirmation number? <USER> my name is raja booking confirmation number fgh425 <SYSTEM> Thank you for that Mr.Raja. Could you please allow me a moment, while I get this done for you?",
+                "original user side information": {
+                    "slot-labels": [
+                        "O"
+                    ],
+                    "intent": [
+                        "contentonly"
+                    ]
+                },
+                "original system side information": {}
+            },
+            {
+                "turn id": 5,
+                "user utterance": "ok thanks",
+                "system response": "You're welcome! Would there be anything else that I may help you with?",
+                "dialog history": "<USER> hello jesse <SYSTEM> Good morning! You've reached Flamingo customers service. How may I help you today? <USER> i want to know my seat no <SYSTEM> Surely! I'll be happy to help you with that. Could you please help me with your last name and your booking confirmation number? <USER> my name is raja booking confirmation number fgh425 <SYSTEM> Thank you for that Mr.Raja. Could you please allow me a moment, while I get this done for you? <USER> ok <SYSTEM> Fantastic! Here's your seat number K17 which is a window seat, Is that okay for you?",
+                "original user side information": {
+                    "slot-labels": [
+                        "O O"
+                    ],
+                    "intent": [
+                        "thankyou"
+                    ]
+                },
+                "original system side information": {}
+            },
+            {
+                "turn id": 6,
+                "user utterance": "no need",
+                "system response": "Wonderful! Thank you for choosing us, we are always here to help you. Have an amazing flight!",
+                "dialog history": "<USER> hello jesse <SYSTEM> Good morning! You've reached Flamingo customers service. How may I help you today? <USER> i want to know my seat no <SYSTEM> Surely! I'll be happy to help you with that. Could you please help me with your last name and your booking confirmation number? <USER> my name is raja booking confirmation number fgh425 <SYSTEM> Thank you for that Mr.Raja. Could you please allow me a moment, while I get this done for you? <USER> ok <SYSTEM> Fantastic! Here's your seat number K17 which is a window seat, Is that okay for you? <USER> ok thanks <SYSTEM> You're welcome! Would there be anything else that I may help you with?",
+                "original user side information": {
+                    "slot-labels": [
+                        "O O"
+                    ],
+                    "intent": [
+                        "rejection"
+                    ]
+                },
+                "original system side information": {}
+            }
+        ],
+        "external knowledge non-flat": {
+            "metadata": {},
+            "slots and values": {},
+            "intents": {}
+        },
+        "external knowledge": "",
+        "dst knowledge": "",
+        "intent knowledge": "",
+        "prompt": [
+            "This is a bot helping users to book a flight ticket. Given the dialog context and external database, please generate a relevant system response for the user.",
+            "This bot assists users to book a flight ticket. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
+            "This bot helps users to book a flight ticket. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
+            "The purpose of this bot is to assist users to book a flight ticket. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
+            "This bot is designed to help users book a flight ticket. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+        ]
+    }
+}

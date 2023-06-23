@@ -1,0 +1,2562 @@
+{
+    "Taskmaster3--train--1": {
+        "original dialog id": "dlg-53054786-b783-4952-b68d-d521e01792b5",
+        "dialog index": 1,
+        "original dialog info": {
+            "vertical": "Movie Tickets",
+            "scenario": "Auto template 1 with theater name error",
+            "instructions": "SCENARIO: In the conversation below, a customer is talking to a booking agent to purchase movie tickets. However, the customer\u2019s turns are missing. The details mentioned (theater names, cities, etc.) do NOT necessarily reflect real life, but you should pretend they are real for the purposes of this exercise.\n\nYOUR TASK: {{LIST *Pretend you are the customer*., Fill in the *missing turns* (in green) so that the conversation makes sense and sounds natural., Make sure you *follow the instructions* provided in parentheses for each turn. (Start typing to make the instructions move outside the box.), Do not copy the wording. *Use your own words*., *Use your normal speaking style* for this scenario but don\u2019t be overly chatty., *Do NOT* call the booking agent by any name including \u201csir\u201d \u201cmadam\u201d etc.}}\n\n{{HIDE movie_1 name.movie No Time To Die}}\n{{HIDE theater_1 name.theater AMC Mountain 16}}\n{{HIDE theater_2 name.theater AMC Mercado 24}}\n{{HIDE genre_1 name.genre action}}\n{{HIDE movie_1_showtime_1 time.showing 4:30pm}}\n{{HIDE movie_1_showtime_2 time.showing 6:40pm}}\n{{HIDE movie_1_showtime_3 time.showing 9:10pm}}\n{{HIDE num_tickets num.tickets three}}\n{{HIDE date date.showing tonight}}\n{{HIDE success_closing success.closing OK. Enjoy your movie!}}\nBEFORE YOU BEGIN: Provide a value for this detail.\n{{ENTER people people.tickets Who\u2019s all going to the movie? (use a phrase describing *three people* that includes reference to yourself.)}}\n\n{{CONVERSATION\nhint user (In your own words, express interest in buying movie tickets for var_date and specify theater \u2018var_theater_1\u2019.)\nforce assistant No problem. Is there a particular type of movie you\u2019re looking for?\nhint user (mention \u2018var_genre_1\u2019 in your response)\nforce assistant Sure. I can help with that. Let me check listings at var_theater_2.\nhint user (Correct the agent\u2019s mistake: You wanted \u2018var_theater_1\u2019.)\nforce assistant Oh, sorry about that. So you\u2019re interested in var_genre_1 films at var_theater_1, right?\nhint user (Confirm the agent\u2019s correction.)\ncall find_movies name.genre var_genre_1 name.theater var_theater_1\nresponse find_movies name.movie var_movie_1\ncall find_showtimes name.theater var_theater_1 date.showing var_date name.movie var_movie_1\nresponse find_showtimes time.showing var_movie_1_showtime_1  time.showing var_movie_1_showtime_2  time.showing var_movie_1_showtime_3\nforce assistant OK. I see one var_genre_1 movie playing at var_theater_1: var_movie_1. Remaining showtimes are var_movie_1_showtime_1, var_movie_1_showtime_2 and var_movie_1_showtime_3. Does any of those work?\nhint user (Answer positively and choose \u2018var_movie_1_showtime_3\u2019)\nforce assistant Great. And how many tickets?\nhint user (Include your earlier answer of \u2018var_people\u2019 in this response.)\nforce assistant All right. Let me confirm that you\u2019d like var_num_tickets tickets for var_movie_1 at var_theater_1 var_date at var_movie_1_showtime_3. Is that all correct?\nhint user (Confirm.)\nforce assistant Is it OK to go ahead and purchase these tickets?\nhint user (Give positive answer).\ncall book_tickets name.movie var_movie_1 name.theater var_theater_1 time.showing var_movie_1_showtime_1 num.tickets var_num_tickets date.showing var_date\nresponse book_tickets api.response success\nforce assistant OK. Your tickets are purchased and details for how to proceed have been sent to your email address. Can I help with anything else?\nhint user (polite negative answer)\nforce assistant var_success_closing\n}}\n\n{{CHECK confirm_native_speaker This conversation task was written by a native English speaker.}}\n{{CHECK confirm_logical The conversation between the user and the assistant is cooperative and logical.}}\n{{CHECK confirm_natural All the individual turns from the user (green boxes) sound natural and familiar.}}\n{{CHECK confirm_casual All the individual turns from the user (green boxes) are casual but polite.}}\n{{CHECK confirm_appropriate All the individual turns from the user (green boxes) are free of offensive or inappropriate language.}}\n",
+            "slots and values": {
+                "movie": {
+                    "showing_date": [
+                        "Friday April 23",
+                        "saturday",
+                        "Thursday January 31st",
+                        "today March 11th",
+                        "rrow nig"
+                    ],
+                    "theater_name": [
+                        "Cobb West Chester",
+                        "Midnight Theater",
+                        "Century theater",
+                        "AMC Woodridge 18",
+                        "AMC Holiday\\rTheater"
+                    ],
+                    "genre_name": [
+                        "ark Comedy",
+                        "thrilling film",
+                        "Comedy or and Action",
+                        "neo-noir",
+                        "Sci-Fi..do"
+                    ],
+                    "name": [
+                        "Rebuilding Paradis",
+                        "Not my problem\\r2",
+                        "\\rFamily Jewelshas",
+                        "details\\rNot My Problem\\rFamily",
+                        "The Death of Stalin"
+                    ],
+                    "showing_time": [
+                        "9 AM",
+                        "600",
+                        ":05PM",
+                        "2:30 p",
+                        "10:00 pm"
+                    ],
+                    "tickets_num": [
+                        "Four of us",
+                        "2 adult and 1 child's",
+                        "1 adult and 5 children's",
+                        "I am treating my mom",
+                        "would like to see a movie with my friend and roommate"
+                    ],
+                    "preference_time": [
+                        "Around 2:00 PM",
+                        "7:30 PM",
+                        "in an evening",
+                        "around 1:00pm",
+                        "Around 4:35 PM"
+                    ],
+                    "ticket_price": [
+                        "$9.50",
+                        "$5",
+                        "$9.99 each",
+                        "$16.12 for each",
+                        "$8 for an adult"
+                    ],
+                    "seating": [
+                        "4 seats together in the center aisle",
+                        "L15 middle row",
+                        "LAST SEAT",
+                        "row six seat seven",
+                        "F5"
+                    ],
+                    "location": [
+                        "X\\r221 Grandview Blvd.; Madison  MS 39",
+                        "closer for me",
+                        "Hicksville",
+                        "close to the regal west manchester cinemas",
+                        "near Cerritos"
+                    ],
+                    "person_name": [
+                        "Jane Austen",
+                        "Dwayne Johnson",
+                        "(Rose Byrne)",
+                        "Taraji P. Henson",
+                        "Steve Harvey"
+                    ],
+                    "release_date": [
+                        "(2019)",
+                        "n January 1 20",
+                        "28th",
+                        "next week",
+                        "just released"
+                    ],
+                    "critic_review": [
+                        "Critics say the action is very intense but the writing is light enough you can still laugh at parts",
+                        "rotten tomatoes rating of 81%",
+                        "igher rating",
+                        "68% Fresh",
+                        "scored 97%"
+                    ],
+                    "audience_review": [
+                        "awesome",
+                        "Some good and some bad",
+                        "68%",
+                        "best viewer rating",
+                        "huge positive reviews"
+                    ],
+                    "other_description": [
+                        "Yes it's a lot like a thriller but this one isn't about the fight or adventure seen but true love",
+                        "thought provoking",
+                        "avoid any movies where there is any abuse or brutality",
+                        "French film",
+                        "Maleficent it the childhood story of sleeping beauty"
+                    ],
+                    "screening_type": [
+                        "IMAX screen",
+                        "egular",
+                        "Stanard",
+                        "4 DX",
+                        "7D"
+                    ],
+                    "total_price": [
+                        "45$.",
+                        "$46.92",
+                        "24.99",
+                        "$54.84",
+                        "$21.98"
+                    ],
+                    "plot_description": [
+                        "about a woman Sarah Decker who moves upstate from her New York City lifestyle to work on her distant cousin\u2019s haunted marijuana farm",
+                        "about a woman who moves from her busy city life to work on a haunted marijuana farm",
+                        "The movie is about exploring Yosemite national park",
+                        "about fishing the North Sea that ends up gets ugly as Captain John\u2019s crew faces not only severe weather but a traitor on board",
+                        "character Sarah Decker moving from her New York City lifestyle to a far away haunted marijuana farm"
+                    ],
+                    "character_name": [
+                        "med S",
+                        "ubman's",
+                        "ybrid cyborg",
+                        "Elsa the Snow Queen",
+                        "Spidermans"
+                    ],
+                    "rating": [
+                        "rated PG",
+                        "rated R.\\r",
+                        "movierated as PG-13",
+                        "'R'",
+                        "PG/PG-13"
+                    ],
+                    "duration": [
+                        "122 minutes",
+                        "90 minutes.\"",
+                        "ittle PG|",
+                        "2 Hours and 8 Minutes",
+                        "one hour and 48 minutes"
+                    ]
+                }
+            },
+            "intents": {}
+        },
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "Hi, I want to go see movie tickets for tonight at AMC Mountain 16.",
+                "system response": "No problem. Is there a particular type of movie you\u2019re looking for?",
+                "dialog history": "",
+                "original user side information": {
+                    "segments": [
+                        {
+                            "start_index": 39,
+                            "end_index": 46,
+                            "text": "tonight",
+                            "annotations": [
+                                {
+                                    "name": "date.showing"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 50,
+                            "end_index": 65,
+                            "text": "AMC Mountain 16",
+                            "annotations": [
+                                {
+                                    "name": "name.theater"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "original system side information": {
+                    "segments": []
+                },
+                "dst": "movie showing_date tonight, movie theater_name AMC Mountain 16",
+                "dst accumulated": "movie showing_date tonight, movie theater_name AMC Mountain 16",
+                "external knowledge": "()"
+            },
+            {
+                "turn id": 2,
+                "user utterance": "I think we want to see an action movie.",
+                "system response": "Sure. I can help with that. Let me check listings at AMC Mercado 24.",
+                "dialog history": "<USER> Hi, I want to go see movie tickets for tonight at AMC Mountain 16. <SYSTEM> No problem. Is there a particular type of movie you\u2019re looking for?",
+                "original user side information": {
+                    "segments": [
+                        {
+                            "start_index": 26,
+                            "end_index": 32,
+                            "text": "action",
+                            "annotations": [
+                                {
+                                    "name": "name.genre"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "original system side information": {
+                    "segments": [
+                        {
+                            "start_index": 53,
+                            "end_index": 67,
+                            "text": "AMC Mercado 24",
+                            "annotations": [
+                                {
+                                    "name": "name.theater"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "dst": "movie genre_name action",
+                "dst accumulated": "movie showing_date tonight, movie theater_name AMC Mountain 16, movie genre_name action",
+                "external knowledge": "(( start_index : 53 | end_index : 67 | text : AMC Mercado 24 | annotations : (( name : name.theater ))))"
+            },
+            {
+                "turn id": 3,
+                "user utterance": "No, we want to go to AMC Mountain 16.",
+                "system response": "Oh, sorry about that. So you\u2019re interested in action films at AMC Mountain 16, right?",
+                "dialog history": "<USER> Hi, I want to go see movie tickets for tonight at AMC Mountain 16. <SYSTEM> No problem. Is there a particular type of movie you\u2019re looking for? <USER> I think we want to see an action movie. <SYSTEM> Sure. I can help with that. Let me check listings at AMC Mercado 24.",
+                "original user side information": {
+                    "segments": [
+                        {
+                            "start_index": 21,
+                            "end_index": 36,
+                            "text": "AMC Mountain 16",
+                            "annotations": [
+                                {
+                                    "name": "name.theater"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "original system side information": {
+                    "segments": [
+                        {
+                            "start_index": 46,
+                            "end_index": 52,
+                            "text": "action",
+                            "annotations": [
+                                {
+                                    "name": "name.genre"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 62,
+                            "end_index": 77,
+                            "text": "AMC Mountain 16",
+                            "annotations": [
+                                {
+                                    "name": "name.theater"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "dst": "movie theater_name AMC Mountain 16",
+                "dst accumulated": "movie showing_date tonight, movie theater_name AMC Mountain 16, movie genre_name action",
+                "external knowledge": "(( start_index : 46 | end_index : 52 | text : action | annotations : (( name : name.genre ))) | ( start_index : 62 | end_index : 77 | text : AMC Mountain 16 | annotations : (( name : name.theater ))))"
+            },
+            {
+                "turn id": 4,
+                "user utterance": "Yes, that's correct.",
+                "system response": "OK. I see one action movie playing at AMC Mountain 16: No Time To Die. Remaining showtimes are 4:30pm, 6:40pm and 9:10pm. Does any of those work?",
+                "dialog history": "<USER> Hi, I want to go see movie tickets for tonight at AMC Mountain 16. <SYSTEM> No problem. Is there a particular type of movie you\u2019re looking for? <USER> I think we want to see an action movie. <SYSTEM> Sure. I can help with that. Let me check listings at AMC Mercado 24. <USER> No, we want to go to AMC Mountain 16. <SYSTEM> Oh, sorry about that. So you\u2019re interested in action films at AMC Mountain 16, right?",
+                "original user side information": {
+                    "apis": [
+                        {
+                            "index": 6,
+                            "args": {
+                                "name.genre": "action",
+                                "name.theater": "AMC Mountain 16"
+                            },
+                            "response": {
+                                "name.movie_1": "No Time To Die"
+                            },
+                            "name": "find_movies"
+                        },
+                        {
+                            "index": 6,
+                            "args": {
+                                "name.theater": "AMC Mountain 16",
+                                "name.movie": "No Time To Die"
+                            },
+                            "response": {
+                                "time.showing_1": "4:30pm",
+                                "time.showing_2": "6:40pm",
+                                "time.showing_3": "9:10pm"
+                            },
+                            "name": "find_showtimes"
+                        }
+                    ]
+                },
+                "original system side information": {
+                    "segments": [
+                        {
+                            "start_index": 14,
+                            "end_index": 20,
+                            "text": "action",
+                            "annotations": [
+                                {
+                                    "name": "name.genre"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 38,
+                            "end_index": 54,
+                            "text": "AMC Mountain 16:",
+                            "annotations": [
+                                {
+                                    "name": "name.theater"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 55,
+                            "end_index": 69,
+                            "text": "No Time To Die",
+                            "annotations": [
+                                {
+                                    "name": "name.movie"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 95,
+                            "end_index": 101,
+                            "text": "4:30pm",
+                            "annotations": [
+                                {
+                                    "name": "time.showing"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 103,
+                            "end_index": 109,
+                            "text": "6:40pm",
+                            "annotations": [
+                                {
+                                    "name": "time.showing"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 114,
+                            "end_index": 120,
+                            "text": "9:10pm",
+                            "annotations": [
+                                {
+                                    "name": "time.showing"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "dst": "",
+                "dst accumulated": "movie showing_date tonight, movie theater_name AMC Mountain 16, movie genre_name action",
+                "external knowledge": "(( start_index : 14 | end_index : 20 | text : action | annotations : (( name : name.genre ))) | ( start_index : 38 | end_index : 54 | text : AMC Mountain 16: | annotations : (( name : name.theater ))) | ( start_index : 55 | end_index : 69 | text : No Time To Die | annotations : (( name : name.movie ))) | ( start_index : 95 | end_index : 101 | text : 4:30pm | annotations : (( name : time.showing ))) | ( start_index : 103 | end_index : 109 | text : 6:40pm | annotations : (( name : time.showing ))) | ( start_index : 114 | end_index : 120 | text : 9:10pm | annotations : (( name : time.showing ))))"
+            },
+            {
+                "turn id": 5,
+                "user utterance": "Yes! Let's do 9:10 pm.",
+                "system response": "Great. And how many tickets?",
+                "dialog history": "<USER> Hi, I want to go see movie tickets for tonight at AMC Mountain 16. <SYSTEM> No problem. Is there a particular type of movie you\u2019re looking for? <USER> I think we want to see an action movie. <SYSTEM> Sure. I can help with that. Let me check listings at AMC Mercado 24. <USER> No, we want to go to AMC Mountain 16. <SYSTEM> Oh, sorry about that. So you\u2019re interested in action films at AMC Mountain 16, right? <USER> Yes, that's correct. <SYSTEM> OK. I see one action movie playing at AMC Mountain 16: No Time To Die. Remaining showtimes are 4:30pm, 6:40pm and 9:10pm. Does any of those work?",
+                "original user side information": {
+                    "segments": [
+                        {
+                            "start_index": 14,
+                            "end_index": 21,
+                            "text": "9:10 pm",
+                            "annotations": [
+                                {
+                                    "name": "time.showing"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "original system side information": {
+                    "segments": []
+                },
+                "dst": "movie showing_time 9:10 pm",
+                "dst accumulated": "movie showing_date tonight, movie theater_name AMC Mountain 16, movie genre_name action, movie showing_time 9:10 pm",
+                "external knowledge": "()"
+            },
+            {
+                "turn id": 6,
+                "user utterance": "2 friend and myself are going together, so I'd need 3 tickets.",
+                "system response": "All right. Let me confirm that you\u2019d like three tickets for No Time To Die at AMC Mountain 16 tonight at 9:10pm. Is that all correct?",
+                "dialog history": "<USER> Hi, I want to go see movie tickets for tonight at AMC Mountain 16. <SYSTEM> No problem. Is there a particular type of movie you\u2019re looking for? <USER> I think we want to see an action movie. <SYSTEM> Sure. I can help with that. Let me check listings at AMC Mercado 24. <USER> No, we want to go to AMC Mountain 16. <SYSTEM> Oh, sorry about that. So you\u2019re interested in action films at AMC Mountain 16, right? <USER> Yes, that's correct. <SYSTEM> OK. I see one action movie playing at AMC Mountain 16: No Time To Die. Remaining showtimes are 4:30pm, 6:40pm and 9:10pm. Does any of those work? <USER> Yes! Let's do 9:10 pm. <SYSTEM> Great. And how many tickets?",
+                "original user side information": {},
+                "original system side information": {
+                    "segments": [
+                        {
+                            "start_index": 42,
+                            "end_index": 47,
+                            "text": "three",
+                            "annotations": [
+                                {
+                                    "name": "num.tickets"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 60,
+                            "end_index": 74,
+                            "text": "No Time To Die",
+                            "annotations": [
+                                {
+                                    "name": "name.movie"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 78,
+                            "end_index": 93,
+                            "text": "AMC Mountain 16",
+                            "annotations": [
+                                {
+                                    "name": "name.theater"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 94,
+                            "end_index": 101,
+                            "text": "tonight",
+                            "annotations": [
+                                {
+                                    "name": "date.showing"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 105,
+                            "end_index": 111,
+                            "text": "9:10pm",
+                            "annotations": [
+                                {
+                                    "name": "time.showing"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "dst": "",
+                "dst accumulated": "movie showing_date tonight, movie theater_name AMC Mountain 16, movie genre_name action, movie showing_time 9:10 pm",
+                "external knowledge": "(( start_index : 42 | end_index : 47 | text : three | annotations : (( name : num.tickets ))) | ( start_index : 60 | end_index : 74 | text : No Time To Die | annotations : (( name : name.movie ))) | ( start_index : 78 | end_index : 93 | text : AMC Mountain 16 | annotations : (( name : name.theater ))) | ( start_index : 94 | end_index : 101 | text : tonight | annotations : (( name : date.showing ))) | ( start_index : 105 | end_index : 111 | text : 9:10pm | annotations : (( name : time.showing ))))"
+            },
+            {
+                "turn id": 7,
+                "user utterance": "Yes, that's great.",
+                "system response": "Is it OK to go ahead and purchase these tickets?",
+                "dialog history": "<USER> Hi, I want to go see movie tickets for tonight at AMC Mountain 16. <SYSTEM> No problem. Is there a particular type of movie you\u2019re looking for? <USER> I think we want to see an action movie. <SYSTEM> Sure. I can help with that. Let me check listings at AMC Mercado 24. <USER> No, we want to go to AMC Mountain 16. <SYSTEM> Oh, sorry about that. So you\u2019re interested in action films at AMC Mountain 16, right? <USER> Yes, that's correct. <SYSTEM> OK. I see one action movie playing at AMC Mountain 16: No Time To Die. Remaining showtimes are 4:30pm, 6:40pm and 9:10pm. Does any of those work? <USER> Yes! Let's do 9:10 pm. <SYSTEM> Great. And how many tickets? <USER> 2 friend and myself are going together, so I'd need 3 tickets. <SYSTEM> All right. Let me confirm that you\u2019d like three tickets for No Time To Die at AMC Mountain 16 tonight at 9:10pm. Is that all correct?",
+                "original user side information": {},
+                "original system side information": {
+                    "segments": []
+                },
+                "dst": "",
+                "dst accumulated": "movie showing_date tonight, movie theater_name AMC Mountain 16, movie genre_name action, movie showing_time 9:10 pm",
+                "external knowledge": "()"
+            },
+            {
+                "turn id": 8,
+                "user utterance": "Please do.",
+                "system response": "OK. Your tickets are purchased and details for how to proceed have been sent to your email address. Can I help with anything else?",
+                "dialog history": "<USER> Hi, I want to go see movie tickets for tonight at AMC Mountain 16. <SYSTEM> No problem. Is there a particular type of movie you\u2019re looking for? <USER> I think we want to see an action movie. <SYSTEM> Sure. I can help with that. Let me check listings at AMC Mercado 24. <USER> No, we want to go to AMC Mountain 16. <SYSTEM> Oh, sorry about that. So you\u2019re interested in action films at AMC Mountain 16, right? <USER> Yes, that's correct. <SYSTEM> OK. I see one action movie playing at AMC Mountain 16: No Time To Die. Remaining showtimes are 4:30pm, 6:40pm and 9:10pm. Does any of those work? <USER> Yes! Let's do 9:10 pm. <SYSTEM> Great. And how many tickets? <USER> 2 friend and myself are going together, so I'd need 3 tickets. <SYSTEM> All right. Let me confirm that you\u2019d like three tickets for No Time To Die at AMC Mountain 16 tonight at 9:10pm. Is that all correct? <USER> Yes, that's great. <SYSTEM> Is it OK to go ahead and purchase these tickets?",
+                "original user side information": {
+                    "apis": [
+                        {
+                            "index": 14,
+                            "args": {
+                                "name.movie": "No Time To Die",
+                                "name.theater": "AMC Mountain 16",
+                                "time.showing": "4:30pm",
+                                "num.tickets": "three",
+                                "date.showing": "tonight"
+                            },
+                            "response": {
+                                "status": "success"
+                            },
+                            "name": "book_tickets"
+                        }
+                    ]
+                },
+                "original system side information": {
+                    "segments": []
+                },
+                "dst": "",
+                "dst accumulated": "movie showing_date tonight, movie theater_name AMC Mountain 16, movie genre_name action, movie showing_time 9:10 pm",
+                "external knowledge": "()"
+            },
+            {
+                "turn id": 9,
+                "user utterance": "No, that's all.",
+                "system response": "OK. Enjoy your movie!",
+                "dialog history": "<USER> Hi, I want to go see movie tickets for tonight at AMC Mountain 16. <SYSTEM> No problem. Is there a particular type of movie you\u2019re looking for? <USER> I think we want to see an action movie. <SYSTEM> Sure. I can help with that. Let me check listings at AMC Mercado 24. <USER> No, we want to go to AMC Mountain 16. <SYSTEM> Oh, sorry about that. So you\u2019re interested in action films at AMC Mountain 16, right? <USER> Yes, that's correct. <SYSTEM> OK. I see one action movie playing at AMC Mountain 16: No Time To Die. Remaining showtimes are 4:30pm, 6:40pm and 9:10pm. Does any of those work? <USER> Yes! Let's do 9:10 pm. <SYSTEM> Great. And how many tickets? <USER> 2 friend and myself are going together, so I'd need 3 tickets. <SYSTEM> All right. Let me confirm that you\u2019d like three tickets for No Time To Die at AMC Mountain 16 tonight at 9:10pm. Is that all correct? <USER> Yes, that's great. <SYSTEM> Is it OK to go ahead and purchase these tickets? <USER> Please do. <SYSTEM> OK. Your tickets are purchased and details for how to proceed have been sent to your email address. Can I help with anything else?",
+                "original user side information": {},
+                "original system side information": {
+                    "segments": []
+                },
+                "dst": "",
+                "dst accumulated": "movie showing_date tonight, movie theater_name AMC Mountain 16, movie genre_name action, movie showing_time 9:10 pm",
+                "external knowledge": "()"
+            }
+        ],
+        "dst knowledge": "( movie : ( showing_date : ( Friday April 23 | saturday | Thursday January 31st | today March 11th | rrow nig ) | theater_name : ( Cobb West Chester | Midnight Theater | Century theater | AMC Woodridge 18 | AMC Holiday\\\\rTheater ) | genre_name : ( ark Comedy | thrilling film | Comedy or and Action | neo-noir | Sci-Fi..do ) | name : ( Rebuilding Paradis | Not my problem\\\\r2 | \\\\rFamily Jewelshas | details\\\\rNot My Problem\\\\rFamily | The Death of Stalin ) | showing_time : ( 9 AM | 600 | :05PM | 2:30 p | 10:00 pm ) | tickets_num : ( Four of us | \"2 adult and 1 child s\" | \"1 adult and 5 children s\" | I am treating my mom | would like to see a movie with my friend and roommate ) | preference_time : ( Around 2:00 PM | 7:30 PM | in an evening | around 1:00pm | Around 4:35 PM ) | ticket_price : ( $9.50 | $5 | $9.99 each | $16.12 for each | $8 for an adult ) | seating : ( 4 seats together in the center aisle | L15 middle row | LAST SEAT | row six seat seven | F5 ) | location : ( X\\\\r221 Grandview Blvd.; Madison MS 39 | closer for me | Hicksville | close to the regal west manchester cinemas | near Cerritos ) | person_name : ( Jane Austen | Dwayne Johnson | (Rose Byrne) | Taraji P. Henson | Steve Harvey ) | release_date : ( (2019) | n January 1 20 | 28th | next week | just released ) | critic_review : ( Critics say the action is very intense but the writing is light enough you can still laugh at parts | rotten tomatoes rating of 81% | igher rating | 68% Fresh | scored 97% ) | audience_review : ( awesome | Some good and some bad | 68% | best viewer rating | huge positive reviews ) | other_description : (\"Yes it s a lot like a thriller but this one isn t about the fight or adventure seen but true love\" | thought provoking | avoid any movies where there is any abuse or brutality | French film | Maleficent it the childhood story of sleeping beauty ) | screening_type : ( IMAX screen | egular | Stanard | 4 DX | 7D ) | total_price : ( 45$. | $46.92 | 24.99 | $54.84 | $21.98 ) | plot_description : ( about a woman Sarah Decker who moves upstate from her New York City lifestyle to work on her distant cousin\u2019s haunted marijuana farm | about a woman who moves from her busy city life to work on a haunted marijuana farm | The movie is about exploring Yosemite national park | about fishing the North Sea that ends up gets ugly as Captain John\u2019s crew faces not only severe weather but a traitor on board | character Sarah Decker moving from her New York City lifestyle to a far away haunted marijuana farm ) | character_name : ( med S | \"ubman s\" | ybrid cyborg | Elsa the Snow Queen | Spidermans ) | rating : ( rated PG | rated R.\\\\r | movierated as PG-13 | \" R \" | PG/PG-13 ) | duration : ( 122 minutes | 90 minutes.\" | ittle PG| | 2 Hours and 8 Minutes | one hour and 48 minutes )))",
+        "intent knowledge": "()",
+        "prompt": [
+            "This is a bot helping users to book a movie ticket. Given the dialog context and external database, please generate a relevant system response for the user.",
+            "This bot assists users to book a movie ticket. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
+            "This bot helps users to book a movie ticket. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
+            "The purpose of this bot is to assist users to book a movie ticket. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
+            "This bot is designed to help users book a movie ticket. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+        ]
+    },
+    "Taskmaster3--train--2": {
+        "original dialog id": "dlg-77582711-3085-4824-af1d-216a58c077da",
+        "dialog index": 2,
+        "original dialog info": {
+            "vertical": "Movie Tickets",
+            "scenario": "Auto template 1 with theater name error",
+            "instructions": "SCENARIO: In the conversation below, a customer is talking to a booking agent to purchase movie tickets. However, the customer\u2019s turns are missing. The details mentioned (theater names, cities, etc.) do NOT necessarily reflect real life, but you should pretend they are real for the purposes of this exercise.\n\nYOUR TASK: {{LIST *Pretend you are the customer*., Fill in the *missing turns* (in green) so that the conversation makes sense and sounds natural., Make sure you *follow the instructions* provided in parentheses for each turn. (Start typing to make the instructions move outside the box.), Do not copy the wording. *Use your own words*., *Use your normal speaking style* for this scenario but don\u2019t be overly chatty., *Do NOT* call the booking agent by any name including \u201csir\u201d \u201cmadam\u201d etc.}}\n\n{{HIDE movie_1 name.movie No Time To Die}}\n{{HIDE theater_1 name.theater AMC Mountain 16}}\n{{HIDE theater_2 name.theater AMC Mercado 24}}\n{{HIDE genre_1 name.genre action}}\n{{HIDE movie_1_showtime_1 time.showing 4:30pm}}\n{{HIDE movie_1_showtime_2 time.showing 6:40pm}}\n{{HIDE movie_1_showtime_3 time.showing 9:10pm}}\n{{HIDE num_tickets num.tickets three}}\n{{HIDE date date.showing tonight}}\n{{HIDE success_closing success.closing OK. Enjoy your movie!}}\nBEFORE YOU BEGIN: Provide a value for this detail.\n{{ENTER people people.tickets Who\u2019s all going to the movie? (use a phrase describing *three people* that includes reference to yourself.)}}\n\n{{CONVERSATION\nhint user (In your own words, express interest in buying movie tickets for var_date and specify theater \u2018var_theater_1\u2019.)\nforce assistant No problem. Is there a particular type of movie you\u2019re looking for?\nhint user (mention \u2018var_genre_1\u2019 in your response)\nforce assistant Sure. I can help with that. Let me check listings at var_theater_2.\nhint user (Correct the agent\u2019s mistake: You wanted \u2018var_theater_1\u2019.)\nforce assistant Oh, sorry about that. So you\u2019re interested in var_genre_1 films at var_theater_1, right?\nhint user (Confirm the agent\u2019s correction.)\ncall find_movies name.genre var_genre_1 name.theater var_theater_1\nresponse find_movies name.movie var_movie_1\ncall find_showtimes name.theater var_theater_1 date.showing var_date name.movie var_movie_1\nresponse find_showtimes time.showing var_movie_1_showtime_1  time.showing var_movie_1_showtime_2  time.showing var_movie_1_showtime_3\nforce assistant OK. I see one var_genre_1 movie playing at var_theater_1: var_movie_1. Remaining showtimes are var_movie_1_showtime_1, var_movie_1_showtime_2 and var_movie_1_showtime_3. Does any of those work?\nhint user (Answer positively and choose \u2018var_movie_1_showtime_3\u2019)\nforce assistant Great. And how many tickets?\nhint user (Include your earlier answer of \u2018var_people\u2019 in this response.)\nforce assistant All right. Let me confirm that you\u2019d like var_num_tickets tickets for var_movie_1 at var_theater_1 var_date at var_movie_1_showtime_3. Is that all correct?\nhint user (Confirm.)\nforce assistant Is it OK to go ahead and purchase these tickets?\nhint user (Give positive answer).\ncall book_tickets name.movie var_movie_1 name.theater var_theater_1 time.showing var_movie_1_showtime_1 num.tickets var_num_tickets date.showing var_date\nresponse book_tickets api.response success\nforce assistant OK. Your tickets are purchased and details for how to proceed have been sent to your email address. Can I help with anything else?\nhint user (polite negative answer)\nforce assistant var_success_closing\n}}\n\n{{CHECK confirm_native_speaker This conversation task was written by a native English speaker.}}\n{{CHECK confirm_logical The conversation between the user and the assistant is cooperative and logical.}}\n{{CHECK confirm_natural All the individual turns from the user (green boxes) sound natural and familiar.}}\n{{CHECK confirm_casual All the individual turns from the user (green boxes) are casual but polite.}}\n{{CHECK confirm_appropriate All the individual turns from the user (green boxes) are free of offensive or inappropriate language.}}\n",
+            "slots and values": {
+                "movie": {
+                    "showing_date": [
+                        "Friday April 23",
+                        "saturday",
+                        "Thursday January 31st",
+                        "today March 11th",
+                        "rrow nig"
+                    ],
+                    "theater_name": [
+                        "Cobb West Chester",
+                        "Midnight Theater",
+                        "Century theater",
+                        "AMC Woodridge 18",
+                        "AMC Holiday\\rTheater"
+                    ],
+                    "genre_name": [
+                        "ark Comedy",
+                        "thrilling film",
+                        "Comedy or and Action",
+                        "neo-noir",
+                        "Sci-Fi..do"
+                    ],
+                    "name": [
+                        "Rebuilding Paradis",
+                        "Not my problem\\r2",
+                        "\\rFamily Jewelshas",
+                        "details\\rNot My Problem\\rFamily",
+                        "The Death of Stalin"
+                    ],
+                    "showing_time": [
+                        "9 AM",
+                        "600",
+                        ":05PM",
+                        "2:30 p",
+                        "10:00 pm"
+                    ],
+                    "tickets_num": [
+                        "Four of us",
+                        "2 adult and 1 child's",
+                        "1 adult and 5 children's",
+                        "I am treating my mom",
+                        "would like to see a movie with my friend and roommate"
+                    ],
+                    "preference_time": [
+                        "Around 2:00 PM",
+                        "7:30 PM",
+                        "in an evening",
+                        "around 1:00pm",
+                        "Around 4:35 PM"
+                    ],
+                    "ticket_price": [
+                        "$9.50",
+                        "$5",
+                        "$9.99 each",
+                        "$16.12 for each",
+                        "$8 for an adult"
+                    ],
+                    "seating": [
+                        "4 seats together in the center aisle",
+                        "L15 middle row",
+                        "LAST SEAT",
+                        "row six seat seven",
+                        "F5"
+                    ],
+                    "location": [
+                        "X\\r221 Grandview Blvd.; Madison  MS 39",
+                        "closer for me",
+                        "Hicksville",
+                        "close to the regal west manchester cinemas",
+                        "near Cerritos"
+                    ],
+                    "person_name": [
+                        "Jane Austen",
+                        "Dwayne Johnson",
+                        "(Rose Byrne)",
+                        "Taraji P. Henson",
+                        "Steve Harvey"
+                    ],
+                    "release_date": [
+                        "(2019)",
+                        "n January 1 20",
+                        "28th",
+                        "next week",
+                        "just released"
+                    ],
+                    "critic_review": [
+                        "Critics say the action is very intense but the writing is light enough you can still laugh at parts",
+                        "rotten tomatoes rating of 81%",
+                        "igher rating",
+                        "68% Fresh",
+                        "scored 97%"
+                    ],
+                    "audience_review": [
+                        "awesome",
+                        "Some good and some bad",
+                        "68%",
+                        "best viewer rating",
+                        "huge positive reviews"
+                    ],
+                    "other_description": [
+                        "Yes it's a lot like a thriller but this one isn't about the fight or adventure seen but true love",
+                        "thought provoking",
+                        "avoid any movies where there is any abuse or brutality",
+                        "French film",
+                        "Maleficent it the childhood story of sleeping beauty"
+                    ],
+                    "screening_type": [
+                        "IMAX screen",
+                        "egular",
+                        "Stanard",
+                        "4 DX",
+                        "7D"
+                    ],
+                    "total_price": [
+                        "45$.",
+                        "$46.92",
+                        "24.99",
+                        "$54.84",
+                        "$21.98"
+                    ],
+                    "plot_description": [
+                        "about a woman Sarah Decker who moves upstate from her New York City lifestyle to work on her distant cousin\u2019s haunted marijuana farm",
+                        "about a woman who moves from her busy city life to work on a haunted marijuana farm",
+                        "The movie is about exploring Yosemite national park",
+                        "about fishing the North Sea that ends up gets ugly as Captain John\u2019s crew faces not only severe weather but a traitor on board",
+                        "character Sarah Decker moving from her New York City lifestyle to a far away haunted marijuana farm"
+                    ],
+                    "character_name": [
+                        "med S",
+                        "ubman's",
+                        "ybrid cyborg",
+                        "Elsa the Snow Queen",
+                        "Spidermans"
+                    ],
+                    "rating": [
+                        "rated PG",
+                        "rated R.\\r",
+                        "movierated as PG-13",
+                        "'R'",
+                        "PG/PG-13"
+                    ],
+                    "duration": [
+                        "122 minutes",
+                        "90 minutes.\"",
+                        "ittle PG|",
+                        "2 Hours and 8 Minutes",
+                        "one hour and 48 minutes"
+                    ]
+                }
+            },
+            "intents": {}
+        },
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "I would like to purchase some movie tickets for the theater AMC Mountain 16.",
+                "system response": "No problem. Is there a particular type of movie you\u2019re looking for?",
+                "dialog history": "",
+                "original user side information": {
+                    "segments": [
+                        {
+                            "start_index": 60,
+                            "end_index": 75,
+                            "text": "AMC Mountain 16",
+                            "annotations": [
+                                {
+                                    "name": "name.theater"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "original system side information": {
+                    "segments": []
+                },
+                "dst": "movie theater_name AMC Mountain 16",
+                "dst accumulated": "movie theater_name AMC Mountain 16",
+                "external knowledge": "()"
+            },
+            {
+                "turn id": 2,
+                "user utterance": "I need to see an action film.",
+                "system response": "Sure. I can help with that. Let me check listings at AMC Mercado 24.",
+                "dialog history": "<USER> I would like to purchase some movie tickets for the theater AMC Mountain 16. <SYSTEM> No problem. Is there a particular type of movie you\u2019re looking for?",
+                "original user side information": {
+                    "segments": [
+                        {
+                            "start_index": 17,
+                            "end_index": 23,
+                            "text": "action",
+                            "annotations": [
+                                {
+                                    "name": "name.genre"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "original system side information": {
+                    "segments": [
+                        {
+                            "start_index": 53,
+                            "end_index": 67,
+                            "text": "AMC Mercado 24",
+                            "annotations": [
+                                {
+                                    "name": "name.theater"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "dst": "movie genre_name action",
+                "dst accumulated": "movie theater_name AMC Mountain 16, movie genre_name action",
+                "external knowledge": "(( start_index : 53 | end_index : 67 | text : AMC Mercado 24 | annotations : (( name : name.theater ))))"
+            },
+            {
+                "turn id": 3,
+                "user utterance": "Not Mercado 24 I need the AMC Mountain 16 please.",
+                "system response": "Oh, sorry about that. So you\u2019re interested in action films at AMC Mountain 16, right?",
+                "dialog history": "<USER> I would like to purchase some movie tickets for the theater AMC Mountain 16. <SYSTEM> No problem. Is there a particular type of movie you\u2019re looking for? <USER> I need to see an action film. <SYSTEM> Sure. I can help with that. Let me check listings at AMC Mercado 24.",
+                "original user side information": {
+                    "segments": [
+                        {
+                            "start_index": 26,
+                            "end_index": 41,
+                            "text": "AMC Mountain 16",
+                            "annotations": [
+                                {
+                                    "name": "name.theater"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "original system side information": {
+                    "segments": [
+                        {
+                            "start_index": 46,
+                            "end_index": 52,
+                            "text": "action",
+                            "annotations": [
+                                {
+                                    "name": "name.genre"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 62,
+                            "end_index": 77,
+                            "text": "AMC Mountain 16",
+                            "annotations": [
+                                {
+                                    "name": "name.theater"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "dst": "movie theater_name AMC Mountain 16",
+                "dst accumulated": "movie theater_name AMC Mountain 16, movie genre_name action",
+                "external knowledge": "(( start_index : 46 | end_index : 52 | text : action | annotations : (( name : name.genre ))) | ( start_index : 62 | end_index : 77 | text : AMC Mountain 16 | annotations : (( name : name.theater ))))"
+            },
+            {
+                "turn id": 4,
+                "user utterance": "Yes that is correct the AMC Mountain 16.",
+                "system response": "OK. I see one action movie playing at AMC Mountain 16: No Time To Die. Remaining showtimes are 4:30pm, 6:40pm and 9:10pm. Does any of those work?",
+                "dialog history": "<USER> I would like to purchase some movie tickets for the theater AMC Mountain 16. <SYSTEM> No problem. Is there a particular type of movie you\u2019re looking for? <USER> I need to see an action film. <SYSTEM> Sure. I can help with that. Let me check listings at AMC Mercado 24. <USER> Not Mercado 24 I need the AMC Mountain 16 please. <SYSTEM> Oh, sorry about that. So you\u2019re interested in action films at AMC Mountain 16, right?",
+                "original user side information": {
+                    "apis": [
+                        {
+                            "index": 6,
+                            "args": {
+                                "name.genre": "action",
+                                "name.theater": "AMC Mountain 16"
+                            },
+                            "response": {
+                                "name.movie_1": "No Time To Die"
+                            },
+                            "name": "find_movies"
+                        },
+                        {
+                            "index": 6,
+                            "args": {
+                                "name.theater": "AMC Mountain 16",
+                                "name.movie": "No Time To Die"
+                            },
+                            "response": {
+                                "time.showing_1": "4:30pm",
+                                "time.showing_2": "6:40pm",
+                                "time.showing_3": "9:10pm"
+                            },
+                            "name": "find_showtimes"
+                        }
+                    ]
+                },
+                "original system side information": {
+                    "segments": [
+                        {
+                            "start_index": 14,
+                            "end_index": 20,
+                            "text": "action",
+                            "annotations": [
+                                {
+                                    "name": "name.genre"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 38,
+                            "end_index": 54,
+                            "text": "AMC Mountain 16:",
+                            "annotations": [
+                                {
+                                    "name": "name.theater"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 55,
+                            "end_index": 69,
+                            "text": "No Time To Die",
+                            "annotations": [
+                                {
+                                    "name": "name.movie"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 95,
+                            "end_index": 101,
+                            "text": "4:30pm",
+                            "annotations": [
+                                {
+                                    "name": "time.showing"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 103,
+                            "end_index": 109,
+                            "text": "6:40pm",
+                            "annotations": [
+                                {
+                                    "name": "time.showing"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 114,
+                            "end_index": 120,
+                            "text": "9:10pm",
+                            "annotations": [
+                                {
+                                    "name": "time.showing"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "dst": "",
+                "dst accumulated": "movie theater_name AMC Mountain 16, movie genre_name action",
+                "external knowledge": "(( start_index : 14 | end_index : 20 | text : action | annotations : (( name : name.genre ))) | ( start_index : 38 | end_index : 54 | text : AMC Mountain 16: | annotations : (( name : name.theater ))) | ( start_index : 55 | end_index : 69 | text : No Time To Die | annotations : (( name : name.movie ))) | ( start_index : 95 | end_index : 101 | text : 4:30pm | annotations : (( name : time.showing ))) | ( start_index : 103 | end_index : 109 | text : 6:40pm | annotations : (( name : time.showing ))) | ( start_index : 114 | end_index : 120 | text : 9:10pm | annotations : (( name : time.showing ))))"
+            },
+            {
+                "turn id": 5,
+                "user utterance": "Awesome! I will take the 9:10pm showing.",
+                "system response": "Great. And how many tickets?",
+                "dialog history": "<USER> I would like to purchase some movie tickets for the theater AMC Mountain 16. <SYSTEM> No problem. Is there a particular type of movie you\u2019re looking for? <USER> I need to see an action film. <SYSTEM> Sure. I can help with that. Let me check listings at AMC Mercado 24. <USER> Not Mercado 24 I need the AMC Mountain 16 please. <SYSTEM> Oh, sorry about that. So you\u2019re interested in action films at AMC Mountain 16, right? <USER> Yes that is correct the AMC Mountain 16. <SYSTEM> OK. I see one action movie playing at AMC Mountain 16: No Time To Die. Remaining showtimes are 4:30pm, 6:40pm and 9:10pm. Does any of those work?",
+                "original user side information": {
+                    "segments": [
+                        {
+                            "start_index": 25,
+                            "end_index": 31,
+                            "text": "9:10pm",
+                            "annotations": [
+                                {
+                                    "name": "time.showing"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "original system side information": {
+                    "segments": []
+                },
+                "dst": "movie showing_time 9:10pm",
+                "dst accumulated": "movie theater_name AMC Mountain 16, movie genre_name action, movie showing_time 9:10pm",
+                "external knowledge": "()"
+            },
+            {
+                "turn id": 6,
+                "user utterance": "I will need three tickets. My three friends and I plan to see the movie together.",
+                "system response": "All right. Let me confirm that you\u2019d like three tickets for No Time To Die at AMC Mountain 16 tonight at 9:10pm. Is that all correct?",
+                "dialog history": "<USER> I would like to purchase some movie tickets for the theater AMC Mountain 16. <SYSTEM> No problem. Is there a particular type of movie you\u2019re looking for? <USER> I need to see an action film. <SYSTEM> Sure. I can help with that. Let me check listings at AMC Mercado 24. <USER> Not Mercado 24 I need the AMC Mountain 16 please. <SYSTEM> Oh, sorry about that. So you\u2019re interested in action films at AMC Mountain 16, right? <USER> Yes that is correct the AMC Mountain 16. <SYSTEM> OK. I see one action movie playing at AMC Mountain 16: No Time To Die. Remaining showtimes are 4:30pm, 6:40pm and 9:10pm. Does any of those work? <USER> Awesome! I will take the 9:10pm showing. <SYSTEM> Great. And how many tickets?",
+                "original user side information": {},
+                "original system side information": {
+                    "segments": [
+                        {
+                            "start_index": 42,
+                            "end_index": 47,
+                            "text": "three",
+                            "annotations": [
+                                {
+                                    "name": "num.tickets"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 60,
+                            "end_index": 74,
+                            "text": "No Time To Die",
+                            "annotations": [
+                                {
+                                    "name": "name.movie"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 78,
+                            "end_index": 93,
+                            "text": "AMC Mountain 16",
+                            "annotations": [
+                                {
+                                    "name": "name.theater"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 94,
+                            "end_index": 101,
+                            "text": "tonight",
+                            "annotations": [
+                                {
+                                    "name": "date.showing"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 105,
+                            "end_index": 111,
+                            "text": "9:10pm",
+                            "annotations": [
+                                {
+                                    "name": "time.showing"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "dst": "",
+                "dst accumulated": "movie theater_name AMC Mountain 16, movie genre_name action, movie showing_time 9:10pm",
+                "external knowledge": "(( start_index : 42 | end_index : 47 | text : three | annotations : (( name : num.tickets ))) | ( start_index : 60 | end_index : 74 | text : No Time To Die | annotations : (( name : name.movie ))) | ( start_index : 78 | end_index : 93 | text : AMC Mountain 16 | annotations : (( name : name.theater ))) | ( start_index : 94 | end_index : 101 | text : tonight | annotations : (( name : date.showing ))) | ( start_index : 105 | end_index : 111 | text : 9:10pm | annotations : (( name : time.showing ))))"
+            },
+            {
+                "turn id": 7,
+                "user utterance": "Yes that is correct.",
+                "system response": "Is it OK to go ahead and purchase these tickets?",
+                "dialog history": "<USER> I would like to purchase some movie tickets for the theater AMC Mountain 16. <SYSTEM> No problem. Is there a particular type of movie you\u2019re looking for? <USER> I need to see an action film. <SYSTEM> Sure. I can help with that. Let me check listings at AMC Mercado 24. <USER> Not Mercado 24 I need the AMC Mountain 16 please. <SYSTEM> Oh, sorry about that. So you\u2019re interested in action films at AMC Mountain 16, right? <USER> Yes that is correct the AMC Mountain 16. <SYSTEM> OK. I see one action movie playing at AMC Mountain 16: No Time To Die. Remaining showtimes are 4:30pm, 6:40pm and 9:10pm. Does any of those work? <USER> Awesome! I will take the 9:10pm showing. <SYSTEM> Great. And how many tickets? <USER> I will need three tickets. My three friends and I plan to see the movie together. <SYSTEM> All right. Let me confirm that you\u2019d like three tickets for No Time To Die at AMC Mountain 16 tonight at 9:10pm. Is that all correct?",
+                "original user side information": {},
+                "original system side information": {
+                    "segments": []
+                },
+                "dst": "",
+                "dst accumulated": "movie theater_name AMC Mountain 16, movie genre_name action, movie showing_time 9:10pm",
+                "external knowledge": "()"
+            },
+            {
+                "turn id": 8,
+                "user utterance": "Yes please do!",
+                "system response": "OK. Your tickets are purchased and details for how to proceed have been sent to your email address. Can I help with anything else?",
+                "dialog history": "<USER> I would like to purchase some movie tickets for the theater AMC Mountain 16. <SYSTEM> No problem. Is there a particular type of movie you\u2019re looking for? <USER> I need to see an action film. <SYSTEM> Sure. I can help with that. Let me check listings at AMC Mercado 24. <USER> Not Mercado 24 I need the AMC Mountain 16 please. <SYSTEM> Oh, sorry about that. So you\u2019re interested in action films at AMC Mountain 16, right? <USER> Yes that is correct the AMC Mountain 16. <SYSTEM> OK. I see one action movie playing at AMC Mountain 16: No Time To Die. Remaining showtimes are 4:30pm, 6:40pm and 9:10pm. Does any of those work? <USER> Awesome! I will take the 9:10pm showing. <SYSTEM> Great. And how many tickets? <USER> I will need three tickets. My three friends and I plan to see the movie together. <SYSTEM> All right. Let me confirm that you\u2019d like three tickets for No Time To Die at AMC Mountain 16 tonight at 9:10pm. Is that all correct? <USER> Yes that is correct. <SYSTEM> Is it OK to go ahead and purchase these tickets?",
+                "original user side information": {
+                    "apis": [
+                        {
+                            "index": 14,
+                            "args": {
+                                "name.movie": "No Time To Die",
+                                "name.theater": "AMC Mountain 16",
+                                "time.showing": "4:30pm",
+                                "num.tickets": "three",
+                                "date.showing": "tonight"
+                            },
+                            "response": {
+                                "status": "success"
+                            },
+                            "name": "book_tickets"
+                        }
+                    ]
+                },
+                "original system side information": {
+                    "segments": []
+                },
+                "dst": "",
+                "dst accumulated": "movie theater_name AMC Mountain 16, movie genre_name action, movie showing_time 9:10pm",
+                "external knowledge": "()"
+            },
+            {
+                "turn id": 9,
+                "user utterance": "Took some time , but glad for the help.",
+                "system response": "OK. Enjoy your movie!",
+                "dialog history": "<USER> I would like to purchase some movie tickets for the theater AMC Mountain 16. <SYSTEM> No problem. Is there a particular type of movie you\u2019re looking for? <USER> I need to see an action film. <SYSTEM> Sure. I can help with that. Let me check listings at AMC Mercado 24. <USER> Not Mercado 24 I need the AMC Mountain 16 please. <SYSTEM> Oh, sorry about that. So you\u2019re interested in action films at AMC Mountain 16, right? <USER> Yes that is correct the AMC Mountain 16. <SYSTEM> OK. I see one action movie playing at AMC Mountain 16: No Time To Die. Remaining showtimes are 4:30pm, 6:40pm and 9:10pm. Does any of those work? <USER> Awesome! I will take the 9:10pm showing. <SYSTEM> Great. And how many tickets? <USER> I will need three tickets. My three friends and I plan to see the movie together. <SYSTEM> All right. Let me confirm that you\u2019d like three tickets for No Time To Die at AMC Mountain 16 tonight at 9:10pm. Is that all correct? <USER> Yes that is correct. <SYSTEM> Is it OK to go ahead and purchase these tickets? <USER> Yes please do! <SYSTEM> OK. Your tickets are purchased and details for how to proceed have been sent to your email address. Can I help with anything else?",
+                "original user side information": {},
+                "original system side information": {
+                    "segments": []
+                },
+                "dst": "",
+                "dst accumulated": "movie theater_name AMC Mountain 16, movie genre_name action, movie showing_time 9:10pm",
+                "external knowledge": "()"
+            }
+        ],
+        "dst knowledge": "( movie : ( showing_date : ( Friday April 23 | saturday | Thursday January 31st | today March 11th | rrow nig ) | theater_name : ( Cobb West Chester | Midnight Theater | Century theater | AMC Woodridge 18 | AMC Holiday\\\\rTheater ) | genre_name : ( ark Comedy | thrilling film | Comedy or and Action | neo-noir | Sci-Fi..do ) | name : ( Rebuilding Paradis | Not my problem\\\\r2 | \\\\rFamily Jewelshas | details\\\\rNot My Problem\\\\rFamily | The Death of Stalin ) | showing_time : ( 9 AM | 600 | :05PM | 2:30 p | 10:00 pm ) | tickets_num : ( Four of us | \"2 adult and 1 child s\" | \"1 adult and 5 children s\" | I am treating my mom | would like to see a movie with my friend and roommate ) | preference_time : ( Around 2:00 PM | 7:30 PM | in an evening | around 1:00pm | Around 4:35 PM ) | ticket_price : ( $9.50 | $5 | $9.99 each | $16.12 for each | $8 for an adult ) | seating : ( 4 seats together in the center aisle | L15 middle row | LAST SEAT | row six seat seven | F5 ) | location : ( X\\\\r221 Grandview Blvd.; Madison MS 39 | closer for me | Hicksville | close to the regal west manchester cinemas | near Cerritos ) | person_name : ( Jane Austen | Dwayne Johnson | (Rose Byrne) | Taraji P. Henson | Steve Harvey ) | release_date : ( (2019) | n January 1 20 | 28th | next week | just released ) | critic_review : ( Critics say the action is very intense but the writing is light enough you can still laugh at parts | rotten tomatoes rating of 81% | igher rating | 68% Fresh | scored 97% ) | audience_review : ( awesome | Some good and some bad | 68% | best viewer rating | huge positive reviews ) | other_description : (\"Yes it s a lot like a thriller but this one isn t about the fight or adventure seen but true love\" | thought provoking | avoid any movies where there is any abuse or brutality | French film | Maleficent it the childhood story of sleeping beauty ) | screening_type : ( IMAX screen | egular | Stanard | 4 DX | 7D ) | total_price : ( 45$. | $46.92 | 24.99 | $54.84 | $21.98 ) | plot_description : ( about a woman Sarah Decker who moves upstate from her New York City lifestyle to work on her distant cousin\u2019s haunted marijuana farm | about a woman who moves from her busy city life to work on a haunted marijuana farm | The movie is about exploring Yosemite national park | about fishing the North Sea that ends up gets ugly as Captain John\u2019s crew faces not only severe weather but a traitor on board | character Sarah Decker moving from her New York City lifestyle to a far away haunted marijuana farm ) | character_name : ( med S | \"ubman s\" | ybrid cyborg | Elsa the Snow Queen | Spidermans ) | rating : ( rated PG | rated R.\\\\r | movierated as PG-13 | \" R \" | PG/PG-13 ) | duration : ( 122 minutes | 90 minutes.\" | ittle PG| | 2 Hours and 8 Minutes | one hour and 48 minutes )))",
+        "intent knowledge": "()",
+        "prompt": [
+            "This is a bot helping users to book a movie ticket. Given the dialog context and external database, please generate a relevant system response for the user.",
+            "This bot assists users to book a movie ticket. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
+            "This bot helps users to book a movie ticket. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
+            "The purpose of this bot is to assist users to book a movie ticket. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
+            "This bot is designed to help users book a movie ticket. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+        ]
+    },
+    "Taskmaster3--train--3": {
+        "original dialog id": "dlg-93c4ad2c-7684-4c3d-9a46-0336c12a7c12",
+        "dialog index": 3,
+        "original dialog info": {
+            "vertical": "Movie Tickets",
+            "scenario": "Auto template 1 with theater name error",
+            "instructions": "SCENARIO: In the conversation below, a customer is talking to a booking agent to purchase movie tickets. However, the customer\u2019s turns are missing. The details mentioned (theater names, cities, etc.) do NOT necessarily reflect real life, but you should pretend they are real for the purposes of this exercise.\n\nYOUR TASK: {{LIST *Pretend you are the customer*., Fill in the *missing turns* (in green) so that the conversation makes sense and sounds natural., Make sure you *follow the instructions* provided in parentheses for each turn. (Start typing to make the instructions move outside the box.), Do not copy the wording. *Use your own words*., *Use your normal speaking style* for this scenario but don\u2019t be overly chatty., *Do NOT* call the booking agent by any name including \u201csir\u201d \u201cmadam\u201d etc.}}\n\n{{HIDE movie_1 name.movie No Time To Die}}\n{{HIDE theater_1 name.theater AMC Mountain 16}}\n{{HIDE theater_2 name.theater AMC Mercado 24}}\n{{HIDE genre_1 name.genre action}}\n{{HIDE movie_1_showtime_1 time.showing 4:30pm}}\n{{HIDE movie_1_showtime_2 time.showing 6:40pm}}\n{{HIDE movie_1_showtime_3 time.showing 9:10pm}}\n{{HIDE num_tickets num.tickets three}}\n{{HIDE date date.showing tonight}}\n{{HIDE success_closing success.closing OK. Enjoy your movie!}}\nBEFORE YOU BEGIN: Provide a value for this detail.\n{{ENTER people people.tickets Who\u2019s all going to the movie? (use a phrase describing *three people* that includes reference to yourself.)}}\n\n{{CONVERSATION\nhint user (In your own words, express interest in buying movie tickets for var_date and specify theater \u2018var_theater_1\u2019.)\nforce assistant No problem. Is there a particular type of movie you\u2019re looking for?\nhint user (mention \u2018var_genre_1\u2019 in your response)\nforce assistant Sure. I can help with that. Let me check listings at var_theater_2.\nhint user (Correct the agent\u2019s mistake: You wanted \u2018var_theater_1\u2019.)\nforce assistant Oh, sorry about that. So you\u2019re interested in var_genre_1 films at var_theater_1, right?\nhint user (Confirm the agent\u2019s correction.)\ncall find_movies name.genre var_genre_1 name.theater var_theater_1\nresponse find_movies name.movie var_movie_1\ncall find_showtimes name.theater var_theater_1 date.showing var_date name.movie var_movie_1\nresponse find_showtimes time.showing var_movie_1_showtime_1  time.showing var_movie_1_showtime_2  time.showing var_movie_1_showtime_3\nforce assistant OK. I see one var_genre_1 movie playing at var_theater_1: var_movie_1. Remaining showtimes are var_movie_1_showtime_1, var_movie_1_showtime_2 and var_movie_1_showtime_3. Does any of those work?\nhint user (Answer positively and choose \u2018var_movie_1_showtime_3\u2019)\nforce assistant Great. And how many tickets?\nhint user (Include your earlier answer of \u2018var_people\u2019 in this response.)\nforce assistant All right. Let me confirm that you\u2019d like var_num_tickets tickets for var_movie_1 at var_theater_1 var_date at var_movie_1_showtime_3. Is that all correct?\nhint user (Confirm.)\nforce assistant Is it OK to go ahead and purchase these tickets?\nhint user (Give positive answer).\ncall book_tickets name.movie var_movie_1 name.theater var_theater_1 time.showing var_movie_1_showtime_1 num.tickets var_num_tickets date.showing var_date\nresponse book_tickets api.response success\nforce assistant OK. Your tickets are purchased and details for how to proceed have been sent to your email address. Can I help with anything else?\nhint user (polite negative answer)\nforce assistant var_success_closing\n}}\n\n{{CHECK confirm_native_speaker This conversation task was written by a native English speaker.}}\n{{CHECK confirm_logical The conversation between the user and the assistant is cooperative and logical.}}\n{{CHECK confirm_natural All the individual turns from the user (green boxes) sound natural and familiar.}}\n{{CHECK confirm_casual All the individual turns from the user (green boxes) are casual but polite.}}\n{{CHECK confirm_appropriate All the individual turns from the user (green boxes) are free of offensive or inappropriate language.}}\n",
+            "slots and values": {
+                "movie": {
+                    "showing_date": [
+                        "Friday April 23",
+                        "saturday",
+                        "Thursday January 31st",
+                        "today March 11th",
+                        "rrow nig"
+                    ],
+                    "theater_name": [
+                        "Cobb West Chester",
+                        "Midnight Theater",
+                        "Century theater",
+                        "AMC Woodridge 18",
+                        "AMC Holiday\\rTheater"
+                    ],
+                    "genre_name": [
+                        "ark Comedy",
+                        "thrilling film",
+                        "Comedy or and Action",
+                        "neo-noir",
+                        "Sci-Fi..do"
+                    ],
+                    "name": [
+                        "Rebuilding Paradis",
+                        "Not my problem\\r2",
+                        "\\rFamily Jewelshas",
+                        "details\\rNot My Problem\\rFamily",
+                        "The Death of Stalin"
+                    ],
+                    "showing_time": [
+                        "9 AM",
+                        "600",
+                        ":05PM",
+                        "2:30 p",
+                        "10:00 pm"
+                    ],
+                    "tickets_num": [
+                        "Four of us",
+                        "2 adult and 1 child's",
+                        "1 adult and 5 children's",
+                        "I am treating my mom",
+                        "would like to see a movie with my friend and roommate"
+                    ],
+                    "preference_time": [
+                        "Around 2:00 PM",
+                        "7:30 PM",
+                        "in an evening",
+                        "around 1:00pm",
+                        "Around 4:35 PM"
+                    ],
+                    "ticket_price": [
+                        "$9.50",
+                        "$5",
+                        "$9.99 each",
+                        "$16.12 for each",
+                        "$8 for an adult"
+                    ],
+                    "seating": [
+                        "4 seats together in the center aisle",
+                        "L15 middle row",
+                        "LAST SEAT",
+                        "row six seat seven",
+                        "F5"
+                    ],
+                    "location": [
+                        "X\\r221 Grandview Blvd.; Madison  MS 39",
+                        "closer for me",
+                        "Hicksville",
+                        "close to the regal west manchester cinemas",
+                        "near Cerritos"
+                    ],
+                    "person_name": [
+                        "Jane Austen",
+                        "Dwayne Johnson",
+                        "(Rose Byrne)",
+                        "Taraji P. Henson",
+                        "Steve Harvey"
+                    ],
+                    "release_date": [
+                        "(2019)",
+                        "n January 1 20",
+                        "28th",
+                        "next week",
+                        "just released"
+                    ],
+                    "critic_review": [
+                        "Critics say the action is very intense but the writing is light enough you can still laugh at parts",
+                        "rotten tomatoes rating of 81%",
+                        "igher rating",
+                        "68% Fresh",
+                        "scored 97%"
+                    ],
+                    "audience_review": [
+                        "awesome",
+                        "Some good and some bad",
+                        "68%",
+                        "best viewer rating",
+                        "huge positive reviews"
+                    ],
+                    "other_description": [
+                        "Yes it's a lot like a thriller but this one isn't about the fight or adventure seen but true love",
+                        "thought provoking",
+                        "avoid any movies where there is any abuse or brutality",
+                        "French film",
+                        "Maleficent it the childhood story of sleeping beauty"
+                    ],
+                    "screening_type": [
+                        "IMAX screen",
+                        "egular",
+                        "Stanard",
+                        "4 DX",
+                        "7D"
+                    ],
+                    "total_price": [
+                        "45$.",
+                        "$46.92",
+                        "24.99",
+                        "$54.84",
+                        "$21.98"
+                    ],
+                    "plot_description": [
+                        "about a woman Sarah Decker who moves upstate from her New York City lifestyle to work on her distant cousin\u2019s haunted marijuana farm",
+                        "about a woman who moves from her busy city life to work on a haunted marijuana farm",
+                        "The movie is about exploring Yosemite national park",
+                        "about fishing the North Sea that ends up gets ugly as Captain John\u2019s crew faces not only severe weather but a traitor on board",
+                        "character Sarah Decker moving from her New York City lifestyle to a far away haunted marijuana farm"
+                    ],
+                    "character_name": [
+                        "med S",
+                        "ubman's",
+                        "ybrid cyborg",
+                        "Elsa the Snow Queen",
+                        "Spidermans"
+                    ],
+                    "rating": [
+                        "rated PG",
+                        "rated R.\\r",
+                        "movierated as PG-13",
+                        "'R'",
+                        "PG/PG-13"
+                    ],
+                    "duration": [
+                        "122 minutes",
+                        "90 minutes.\"",
+                        "ittle PG|",
+                        "2 Hours and 8 Minutes",
+                        "one hour and 48 minutes"
+                    ]
+                }
+            },
+            "intents": {}
+        },
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "My parents and I are interested in watching a movie tonight at AMC Mountain 16 cinema. Can you assist me with that?",
+                "system response": "No problem. Is there a particular type of movie you\u2019re looking for?",
+                "dialog history": "",
+                "original user side information": {
+                    "segments": [
+                        {
+                            "start_index": 52,
+                            "end_index": 59,
+                            "text": "tonight",
+                            "annotations": [
+                                {
+                                    "name": "date.showing"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 63,
+                            "end_index": 78,
+                            "text": "AMC Mountain 16",
+                            "annotations": [
+                                {
+                                    "name": "name.theater"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "original system side information": {
+                    "segments": []
+                },
+                "dst": "movie showing_date tonight, movie theater_name AMC Mountain 16",
+                "dst accumulated": "movie showing_date tonight, movie theater_name AMC Mountain 16",
+                "external knowledge": "()"
+            },
+            {
+                "turn id": 2,
+                "user utterance": "well, seeing that I am taking my dad with us I would prefer an action movie. Do you have anything available?",
+                "system response": "Sure. I can help with that. Let me check listings at AMC Mercado 24.",
+                "dialog history": "<USER> My parents and I are interested in watching a movie tonight at AMC Mountain 16 cinema. Can you assist me with that? <SYSTEM> No problem. Is there a particular type of movie you\u2019re looking for?",
+                "original user side information": {
+                    "segments": [
+                        {
+                            "start_index": 63,
+                            "end_index": 69,
+                            "text": "action",
+                            "annotations": [
+                                {
+                                    "name": "name.genre"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "original system side information": {
+                    "segments": [
+                        {
+                            "start_index": 53,
+                            "end_index": 67,
+                            "text": "AMC Mercado 24",
+                            "annotations": [
+                                {
+                                    "name": "name.theater"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "dst": "movie genre_name action",
+                "dst accumulated": "movie showing_date tonight, movie theater_name AMC Mountain 16, movie genre_name action",
+                "external knowledge": "(( start_index : 53 | end_index : 67 | text : AMC Mercado 24 | annotations : (( name : name.theater ))))"
+            },
+            {
+                "turn id": 3,
+                "user utterance": "May I interupt you for a moment? The movie theater I would like to go is AMC Mountain 16",
+                "system response": "Oh, sorry about that. So you\u2019re interested in action films at AMC Mountain 16, right?",
+                "dialog history": "<USER> My parents and I are interested in watching a movie tonight at AMC Mountain 16 cinema. Can you assist me with that? <SYSTEM> No problem. Is there a particular type of movie you\u2019re looking for? <USER> well, seeing that I am taking my dad with us I would prefer an action movie. Do you have anything available? <SYSTEM> Sure. I can help with that. Let me check listings at AMC Mercado 24.",
+                "original user side information": {
+                    "segments": [
+                        {
+                            "start_index": 73,
+                            "end_index": 88,
+                            "text": "AMC Mountain 16",
+                            "annotations": [
+                                {
+                                    "name": "name.theater"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "original system side information": {
+                    "segments": [
+                        {
+                            "start_index": 46,
+                            "end_index": 52,
+                            "text": "action",
+                            "annotations": [
+                                {
+                                    "name": "name.genre"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 62,
+                            "end_index": 77,
+                            "text": "AMC Mountain 16",
+                            "annotations": [
+                                {
+                                    "name": "name.theater"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "dst": "movie theater_name AMC Mountain 16",
+                "dst accumulated": "movie showing_date tonight, movie theater_name AMC Mountain 16, movie genre_name action",
+                "external knowledge": "(( start_index : 46 | end_index : 52 | text : action | annotations : (( name : name.genre ))) | ( start_index : 62 | end_index : 77 | text : AMC Mountain 16 | annotations : (( name : name.theater ))))"
+            },
+            {
+                "turn id": 4,
+                "user utterance": "yes. That is correct",
+                "system response": "OK. I see one action movie playing at AMC Mountain 16: No Time To Die. Remaining showtimes are 4:30pm, 6:40pm and 9:10pm. Does any of those work?",
+                "dialog history": "<USER> My parents and I are interested in watching a movie tonight at AMC Mountain 16 cinema. Can you assist me with that? <SYSTEM> No problem. Is there a particular type of movie you\u2019re looking for? <USER> well, seeing that I am taking my dad with us I would prefer an action movie. Do you have anything available? <SYSTEM> Sure. I can help with that. Let me check listings at AMC Mercado 24. <USER> May I interupt you for a moment? The movie theater I would like to go is AMC Mountain 16 <SYSTEM> Oh, sorry about that. So you\u2019re interested in action films at AMC Mountain 16, right?",
+                "original user side information": {
+                    "apis": [
+                        {
+                            "index": 6,
+                            "args": {
+                                "name.genre": "action",
+                                "name.theater": "AMC Mountain 16"
+                            },
+                            "response": {
+                                "name.movie_1": "No Time To Die"
+                            },
+                            "name": "find_movies"
+                        },
+                        {
+                            "index": 6,
+                            "args": {
+                                "name.theater": "AMC Mountain 16",
+                                "name.movie": "No Time To Die"
+                            },
+                            "response": {
+                                "time.showing_1": "4:30pm",
+                                "time.showing_2": "6:40pm",
+                                "time.showing_3": "9:10pm"
+                            },
+                            "name": "find_showtimes"
+                        }
+                    ]
+                },
+                "original system side information": {
+                    "segments": [
+                        {
+                            "start_index": 14,
+                            "end_index": 20,
+                            "text": "action",
+                            "annotations": [
+                                {
+                                    "name": "name.genre"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 38,
+                            "end_index": 54,
+                            "text": "AMC Mountain 16:",
+                            "annotations": [
+                                {
+                                    "name": "name.theater"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 55,
+                            "end_index": 69,
+                            "text": "No Time To Die",
+                            "annotations": [
+                                {
+                                    "name": "name.movie"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 95,
+                            "end_index": 101,
+                            "text": "4:30pm",
+                            "annotations": [
+                                {
+                                    "name": "time.showing"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 103,
+                            "end_index": 109,
+                            "text": "6:40pm",
+                            "annotations": [
+                                {
+                                    "name": "time.showing"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 114,
+                            "end_index": 120,
+                            "text": "9:10pm",
+                            "annotations": [
+                                {
+                                    "name": "time.showing"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "dst": "",
+                "dst accumulated": "movie showing_date tonight, movie theater_name AMC Mountain 16, movie genre_name action",
+                "external knowledge": "(( start_index : 14 | end_index : 20 | text : action | annotations : (( name : name.genre ))) | ( start_index : 38 | end_index : 54 | text : AMC Mountain 16: | annotations : (( name : name.theater ))) | ( start_index : 55 | end_index : 69 | text : No Time To Die | annotations : (( name : name.movie ))) | ( start_index : 95 | end_index : 101 | text : 4:30pm | annotations : (( name : time.showing ))) | ( start_index : 103 | end_index : 109 | text : 6:40pm | annotations : (( name : time.showing ))) | ( start_index : 114 | end_index : 120 | text : 9:10pm | annotations : (( name : time.showing ))))"
+            },
+            {
+                "turn id": 5,
+                "user utterance": "Yes. I believe we can make the 9:10pm showing",
+                "system response": "Great. And how many tickets?",
+                "dialog history": "<USER> My parents and I are interested in watching a movie tonight at AMC Mountain 16 cinema. Can you assist me with that? <SYSTEM> No problem. Is there a particular type of movie you\u2019re looking for? <USER> well, seeing that I am taking my dad with us I would prefer an action movie. Do you have anything available? <SYSTEM> Sure. I can help with that. Let me check listings at AMC Mercado 24. <USER> May I interupt you for a moment? The movie theater I would like to go is AMC Mountain 16 <SYSTEM> Oh, sorry about that. So you\u2019re interested in action films at AMC Mountain 16, right? <USER> yes. That is correct <SYSTEM> OK. I see one action movie playing at AMC Mountain 16: No Time To Die. Remaining showtimes are 4:30pm, 6:40pm and 9:10pm. Does any of those work?",
+                "original user side information": {
+                    "segments": [
+                        {
+                            "start_index": 31,
+                            "end_index": 37,
+                            "text": "9:10pm",
+                            "annotations": [
+                                {
+                                    "name": "time.showing"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "original system side information": {
+                    "segments": []
+                },
+                "dst": "movie showing_time 9:10pm",
+                "dst accumulated": "movie showing_date tonight, movie theater_name AMC Mountain 16, movie genre_name action, movie showing_time 9:10pm",
+                "external knowledge": "()"
+            },
+            {
+                "turn id": 6,
+                "user utterance": "that will be three, my mom, dad, and I.",
+                "system response": "All right. Let me confirm that you\u2019d like three tickets for No Time To Die at AMC Mountain 16 tonight at 9:10pm. Is that all correct?",
+                "dialog history": "<USER> My parents and I are interested in watching a movie tonight at AMC Mountain 16 cinema. Can you assist me with that? <SYSTEM> No problem. Is there a particular type of movie you\u2019re looking for? <USER> well, seeing that I am taking my dad with us I would prefer an action movie. Do you have anything available? <SYSTEM> Sure. I can help with that. Let me check listings at AMC Mercado 24. <USER> May I interupt you for a moment? The movie theater I would like to go is AMC Mountain 16 <SYSTEM> Oh, sorry about that. So you\u2019re interested in action films at AMC Mountain 16, right? <USER> yes. That is correct <SYSTEM> OK. I see one action movie playing at AMC Mountain 16: No Time To Die. Remaining showtimes are 4:30pm, 6:40pm and 9:10pm. Does any of those work? <USER> Yes. I believe we can make the 9:10pm showing <SYSTEM> Great. And how many tickets?",
+                "original user side information": {},
+                "original system side information": {
+                    "segments": [
+                        {
+                            "start_index": 42,
+                            "end_index": 47,
+                            "text": "three",
+                            "annotations": [
+                                {
+                                    "name": "num.tickets"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 60,
+                            "end_index": 74,
+                            "text": "No Time To Die",
+                            "annotations": [
+                                {
+                                    "name": "name.movie"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 78,
+                            "end_index": 93,
+                            "text": "AMC Mountain 16",
+                            "annotations": [
+                                {
+                                    "name": "name.theater"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 94,
+                            "end_index": 101,
+                            "text": "tonight",
+                            "annotations": [
+                                {
+                                    "name": "date.showing"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 105,
+                            "end_index": 111,
+                            "text": "9:10pm",
+                            "annotations": [
+                                {
+                                    "name": "time.showing"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "dst": "",
+                "dst accumulated": "movie showing_date tonight, movie theater_name AMC Mountain 16, movie genre_name action, movie showing_time 9:10pm",
+                "external knowledge": "(( start_index : 42 | end_index : 47 | text : three | annotations : (( name : num.tickets ))) | ( start_index : 60 | end_index : 74 | text : No Time To Die | annotations : (( name : name.movie ))) | ( start_index : 78 | end_index : 93 | text : AMC Mountain 16 | annotations : (( name : name.theater ))) | ( start_index : 94 | end_index : 101 | text : tonight | annotations : (( name : date.showing ))) | ( start_index : 105 | end_index : 111 | text : 9:10pm | annotations : (( name : time.showing ))))"
+            },
+            {
+                "turn id": 7,
+                "user utterance": "you've got it",
+                "system response": "Is it OK to go ahead and purchase these tickets?",
+                "dialog history": "<USER> My parents and I are interested in watching a movie tonight at AMC Mountain 16 cinema. Can you assist me with that? <SYSTEM> No problem. Is there a particular type of movie you\u2019re looking for? <USER> well, seeing that I am taking my dad with us I would prefer an action movie. Do you have anything available? <SYSTEM> Sure. I can help with that. Let me check listings at AMC Mercado 24. <USER> May I interupt you for a moment? The movie theater I would like to go is AMC Mountain 16 <SYSTEM> Oh, sorry about that. So you\u2019re interested in action films at AMC Mountain 16, right? <USER> yes. That is correct <SYSTEM> OK. I see one action movie playing at AMC Mountain 16: No Time To Die. Remaining showtimes are 4:30pm, 6:40pm and 9:10pm. Does any of those work? <USER> Yes. I believe we can make the 9:10pm showing <SYSTEM> Great. And how many tickets? <USER> that will be three, my mom, dad, and I. <SYSTEM> All right. Let me confirm that you\u2019d like three tickets for No Time To Die at AMC Mountain 16 tonight at 9:10pm. Is that all correct?",
+                "original user side information": {},
+                "original system side information": {
+                    "segments": []
+                },
+                "dst": "",
+                "dst accumulated": "movie showing_date tonight, movie theater_name AMC Mountain 16, movie genre_name action, movie showing_time 9:10pm",
+                "external knowledge": "()"
+            },
+            {
+                "turn id": 8,
+                "user utterance": "yes. go right ahead",
+                "system response": "OK. Your tickets are purchased and details for how to proceed have been sent to your email address. Can I help with anything else?",
+                "dialog history": "<USER> My parents and I are interested in watching a movie tonight at AMC Mountain 16 cinema. Can you assist me with that? <SYSTEM> No problem. Is there a particular type of movie you\u2019re looking for? <USER> well, seeing that I am taking my dad with us I would prefer an action movie. Do you have anything available? <SYSTEM> Sure. I can help with that. Let me check listings at AMC Mercado 24. <USER> May I interupt you for a moment? The movie theater I would like to go is AMC Mountain 16 <SYSTEM> Oh, sorry about that. So you\u2019re interested in action films at AMC Mountain 16, right? <USER> yes. That is correct <SYSTEM> OK. I see one action movie playing at AMC Mountain 16: No Time To Die. Remaining showtimes are 4:30pm, 6:40pm and 9:10pm. Does any of those work? <USER> Yes. I believe we can make the 9:10pm showing <SYSTEM> Great. And how many tickets? <USER> that will be three, my mom, dad, and I. <SYSTEM> All right. Let me confirm that you\u2019d like three tickets for No Time To Die at AMC Mountain 16 tonight at 9:10pm. Is that all correct? <USER> you've got it <SYSTEM> Is it OK to go ahead and purchase these tickets?",
+                "original user side information": {
+                    "apis": [
+                        {
+                            "index": 14,
+                            "args": {
+                                "name.movie": "No Time To Die",
+                                "name.theater": "AMC Mountain 16",
+                                "time.showing": "4:30pm",
+                                "num.tickets": "three",
+                                "date.showing": "tonight"
+                            },
+                            "response": {
+                                "status": "success"
+                            },
+                            "name": "book_tickets"
+                        }
+                    ]
+                },
+                "original system side information": {
+                    "segments": []
+                },
+                "dst": "",
+                "dst accumulated": "movie showing_date tonight, movie theater_name AMC Mountain 16, movie genre_name action, movie showing_time 9:10pm",
+                "external knowledge": "()"
+            },
+            {
+                "turn id": 9,
+                "user utterance": "not for the moment. you've have been a great help.",
+                "system response": "OK. Enjoy your movie!",
+                "dialog history": "<USER> My parents and I are interested in watching a movie tonight at AMC Mountain 16 cinema. Can you assist me with that? <SYSTEM> No problem. Is there a particular type of movie you\u2019re looking for? <USER> well, seeing that I am taking my dad with us I would prefer an action movie. Do you have anything available? <SYSTEM> Sure. I can help with that. Let me check listings at AMC Mercado 24. <USER> May I interupt you for a moment? The movie theater I would like to go is AMC Mountain 16 <SYSTEM> Oh, sorry about that. So you\u2019re interested in action films at AMC Mountain 16, right? <USER> yes. That is correct <SYSTEM> OK. I see one action movie playing at AMC Mountain 16: No Time To Die. Remaining showtimes are 4:30pm, 6:40pm and 9:10pm. Does any of those work? <USER> Yes. I believe we can make the 9:10pm showing <SYSTEM> Great. And how many tickets? <USER> that will be three, my mom, dad, and I. <SYSTEM> All right. Let me confirm that you\u2019d like three tickets for No Time To Die at AMC Mountain 16 tonight at 9:10pm. Is that all correct? <USER> you've got it <SYSTEM> Is it OK to go ahead and purchase these tickets? <USER> yes. go right ahead <SYSTEM> OK. Your tickets are purchased and details for how to proceed have been sent to your email address. Can I help with anything else?",
+                "original user side information": {},
+                "original system side information": {
+                    "segments": []
+                },
+                "dst": "",
+                "dst accumulated": "movie showing_date tonight, movie theater_name AMC Mountain 16, movie genre_name action, movie showing_time 9:10pm",
+                "external knowledge": "()"
+            }
+        ],
+        "dst knowledge": "( movie : ( showing_date : ( Friday April 23 | saturday | Thursday January 31st | today March 11th | rrow nig ) | theater_name : ( Cobb West Chester | Midnight Theater | Century theater | AMC Woodridge 18 | AMC Holiday\\\\rTheater ) | genre_name : ( ark Comedy | thrilling film | Comedy or and Action | neo-noir | Sci-Fi..do ) | name : ( Rebuilding Paradis | Not my problem\\\\r2 | \\\\rFamily Jewelshas | details\\\\rNot My Problem\\\\rFamily | The Death of Stalin ) | showing_time : ( 9 AM | 600 | :05PM | 2:30 p | 10:00 pm ) | tickets_num : ( Four of us | \"2 adult and 1 child s\" | \"1 adult and 5 children s\" | I am treating my mom | would like to see a movie with my friend and roommate ) | preference_time : ( Around 2:00 PM | 7:30 PM | in an evening | around 1:00pm | Around 4:35 PM ) | ticket_price : ( $9.50 | $5 | $9.99 each | $16.12 for each | $8 for an adult ) | seating : ( 4 seats together in the center aisle | L15 middle row | LAST SEAT | row six seat seven | F5 ) | location : ( X\\\\r221 Grandview Blvd.; Madison MS 39 | closer for me | Hicksville | close to the regal west manchester cinemas | near Cerritos ) | person_name : ( Jane Austen | Dwayne Johnson | (Rose Byrne) | Taraji P. Henson | Steve Harvey ) | release_date : ( (2019) | n January 1 20 | 28th | next week | just released ) | critic_review : ( Critics say the action is very intense but the writing is light enough you can still laugh at parts | rotten tomatoes rating of 81% | igher rating | 68% Fresh | scored 97% ) | audience_review : ( awesome | Some good and some bad | 68% | best viewer rating | huge positive reviews ) | other_description : (\"Yes it s a lot like a thriller but this one isn t about the fight or adventure seen but true love\" | thought provoking | avoid any movies where there is any abuse or brutality | French film | Maleficent it the childhood story of sleeping beauty ) | screening_type : ( IMAX screen | egular | Stanard | 4 DX | 7D ) | total_price : ( 45$. | $46.92 | 24.99 | $54.84 | $21.98 ) | plot_description : ( about a woman Sarah Decker who moves upstate from her New York City lifestyle to work on her distant cousin\u2019s haunted marijuana farm | about a woman who moves from her busy city life to work on a haunted marijuana farm | The movie is about exploring Yosemite national park | about fishing the North Sea that ends up gets ugly as Captain John\u2019s crew faces not only severe weather but a traitor on board | character Sarah Decker moving from her New York City lifestyle to a far away haunted marijuana farm ) | character_name : ( med S | \"ubman s\" | ybrid cyborg | Elsa the Snow Queen | Spidermans ) | rating : ( rated PG | rated R.\\\\r | movierated as PG-13 | \" R \" | PG/PG-13 ) | duration : ( 122 minutes | 90 minutes.\" | ittle PG| | 2 Hours and 8 Minutes | one hour and 48 minutes )))",
+        "intent knowledge": "()",
+        "prompt": [
+            "This is a bot helping users to book a movie ticket. Given the dialog context and external database, please generate a relevant system response for the user.",
+            "This bot assists users to book a movie ticket. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
+            "This bot helps users to book a movie ticket. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
+            "The purpose of this bot is to assist users to book a movie ticket. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
+            "This bot is designed to help users book a movie ticket. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+        ]
+    },
+    "Taskmaster3--train--4": {
+        "original dialog id": "dlg-7ab34bbd-8f89-46f8-a014-59093ddbca70",
+        "dialog index": 4,
+        "original dialog info": {
+            "vertical": "Movie Tickets",
+            "scenario": "Auto template 1 with theater name error",
+            "instructions": "SCENARIO: In the conversation below, a customer is talking to a booking agent to purchase movie tickets. However, the customer\u2019s turns are missing. The details mentioned (theater names, cities, etc.) do NOT necessarily reflect real life, but you should pretend they are real for the purposes of this exercise.\n\nYOUR TASK: {{LIST *Pretend you are the customer*., Fill in the *missing turns* (in green) so that the conversation makes sense and sounds natural., Make sure you *follow the instructions* provided in parentheses for each turn. (Start typing to make the instructions move outside the box.), Do not copy the wording. *Use your own words*., *Use your normal speaking style* for this scenario but don\u2019t be overly chatty., *Do NOT* call the booking agent by any name including \u201csir\u201d \u201cmadam\u201d etc.}}\n\n{{HIDE movie_1 name.movie No Time To Die}}\n{{HIDE theater_1 name.theater AMC Mountain 16}}\n{{HIDE theater_2 name.theater AMC Mercado 24}}\n{{HIDE genre_1 name.genre action}}\n{{HIDE movie_1_showtime_1 time.showing 4:30pm}}\n{{HIDE movie_1_showtime_2 time.showing 6:40pm}}\n{{HIDE movie_1_showtime_3 time.showing 9:10pm}}\n{{HIDE num_tickets num.tickets three}}\n{{HIDE date date.showing tonight}}\n{{HIDE success_closing success.closing OK. Enjoy your movie!}}\nBEFORE YOU BEGIN: Provide a value for this detail.\n{{ENTER people people.tickets Who\u2019s all going to the movie? (use a phrase describing *three people* that includes reference to yourself.)}}\n\n{{CONVERSATION\nhint user (In your own words, express interest in buying movie tickets for var_date and specify theater \u2018var_theater_1\u2019.)\nforce assistant No problem. Is there a particular type of movie you\u2019re looking for?\nhint user (mention \u2018var_genre_1\u2019 in your response)\nforce assistant Sure. I can help with that. Let me check listings at var_theater_2.\nhint user (Correct the agent\u2019s mistake: You wanted \u2018var_theater_1\u2019.)\nforce assistant Oh, sorry about that. So you\u2019re interested in var_genre_1 films at var_theater_1, right?\nhint user (Confirm the agent\u2019s correction.)\ncall find_movies name.genre var_genre_1 name.theater var_theater_1\nresponse find_movies name.movie var_movie_1\ncall find_showtimes name.theater var_theater_1 date.showing var_date name.movie var_movie_1\nresponse find_showtimes time.showing var_movie_1_showtime_1  time.showing var_movie_1_showtime_2  time.showing var_movie_1_showtime_3\nforce assistant OK. I see one var_genre_1 movie playing at var_theater_1: var_movie_1. Remaining showtimes are var_movie_1_showtime_1, var_movie_1_showtime_2 and var_movie_1_showtime_3. Does any of those work?\nhint user (Answer positively and choose \u2018var_movie_1_showtime_3\u2019)\nforce assistant Great. And how many tickets?\nhint user (Include your earlier answer of \u2018var_people\u2019 in this response.)\nforce assistant All right. Let me confirm that you\u2019d like var_num_tickets tickets for var_movie_1 at var_theater_1 var_date at var_movie_1_showtime_3. Is that all correct?\nhint user (Confirm.)\nforce assistant Is it OK to go ahead and purchase these tickets?\nhint user (Give positive answer).\ncall book_tickets name.movie var_movie_1 name.theater var_theater_1 time.showing var_movie_1_showtime_1 num.tickets var_num_tickets date.showing var_date\nresponse book_tickets api.response success\nforce assistant OK. Your tickets are purchased and details for how to proceed have been sent to your email address. Can I help with anything else?\nhint user (polite negative answer)\nforce assistant var_success_closing\n}}\n\n{{CHECK confirm_native_speaker This conversation task was written by a native English speaker.}}\n{{CHECK confirm_logical The conversation between the user and the assistant is cooperative and logical.}}\n{{CHECK confirm_natural All the individual turns from the user (green boxes) sound natural and familiar.}}\n{{CHECK confirm_casual All the individual turns from the user (green boxes) are casual but polite.}}\n{{CHECK confirm_appropriate All the individual turns from the user (green boxes) are free of offensive or inappropriate language.}}\n",
+            "slots and values": {
+                "movie": {
+                    "showing_date": [
+                        "Friday April 23",
+                        "saturday",
+                        "Thursday January 31st",
+                        "today March 11th",
+                        "rrow nig"
+                    ],
+                    "theater_name": [
+                        "Cobb West Chester",
+                        "Midnight Theater",
+                        "Century theater",
+                        "AMC Woodridge 18",
+                        "AMC Holiday\\rTheater"
+                    ],
+                    "genre_name": [
+                        "ark Comedy",
+                        "thrilling film",
+                        "Comedy or and Action",
+                        "neo-noir",
+                        "Sci-Fi..do"
+                    ],
+                    "name": [
+                        "Rebuilding Paradis",
+                        "Not my problem\\r2",
+                        "\\rFamily Jewelshas",
+                        "details\\rNot My Problem\\rFamily",
+                        "The Death of Stalin"
+                    ],
+                    "showing_time": [
+                        "9 AM",
+                        "600",
+                        ":05PM",
+                        "2:30 p",
+                        "10:00 pm"
+                    ],
+                    "tickets_num": [
+                        "Four of us",
+                        "2 adult and 1 child's",
+                        "1 adult and 5 children's",
+                        "I am treating my mom",
+                        "would like to see a movie with my friend and roommate"
+                    ],
+                    "preference_time": [
+                        "Around 2:00 PM",
+                        "7:30 PM",
+                        "in an evening",
+                        "around 1:00pm",
+                        "Around 4:35 PM"
+                    ],
+                    "ticket_price": [
+                        "$9.50",
+                        "$5",
+                        "$9.99 each",
+                        "$16.12 for each",
+                        "$8 for an adult"
+                    ],
+                    "seating": [
+                        "4 seats together in the center aisle",
+                        "L15 middle row",
+                        "LAST SEAT",
+                        "row six seat seven",
+                        "F5"
+                    ],
+                    "location": [
+                        "X\\r221 Grandview Blvd.; Madison  MS 39",
+                        "closer for me",
+                        "Hicksville",
+                        "close to the regal west manchester cinemas",
+                        "near Cerritos"
+                    ],
+                    "person_name": [
+                        "Jane Austen",
+                        "Dwayne Johnson",
+                        "(Rose Byrne)",
+                        "Taraji P. Henson",
+                        "Steve Harvey"
+                    ],
+                    "release_date": [
+                        "(2019)",
+                        "n January 1 20",
+                        "28th",
+                        "next week",
+                        "just released"
+                    ],
+                    "critic_review": [
+                        "Critics say the action is very intense but the writing is light enough you can still laugh at parts",
+                        "rotten tomatoes rating of 81%",
+                        "igher rating",
+                        "68% Fresh",
+                        "scored 97%"
+                    ],
+                    "audience_review": [
+                        "awesome",
+                        "Some good and some bad",
+                        "68%",
+                        "best viewer rating",
+                        "huge positive reviews"
+                    ],
+                    "other_description": [
+                        "Yes it's a lot like a thriller but this one isn't about the fight or adventure seen but true love",
+                        "thought provoking",
+                        "avoid any movies where there is any abuse or brutality",
+                        "French film",
+                        "Maleficent it the childhood story of sleeping beauty"
+                    ],
+                    "screening_type": [
+                        "IMAX screen",
+                        "egular",
+                        "Stanard",
+                        "4 DX",
+                        "7D"
+                    ],
+                    "total_price": [
+                        "45$.",
+                        "$46.92",
+                        "24.99",
+                        "$54.84",
+                        "$21.98"
+                    ],
+                    "plot_description": [
+                        "about a woman Sarah Decker who moves upstate from her New York City lifestyle to work on her distant cousin\u2019s haunted marijuana farm",
+                        "about a woman who moves from her busy city life to work on a haunted marijuana farm",
+                        "The movie is about exploring Yosemite national park",
+                        "about fishing the North Sea that ends up gets ugly as Captain John\u2019s crew faces not only severe weather but a traitor on board",
+                        "character Sarah Decker moving from her New York City lifestyle to a far away haunted marijuana farm"
+                    ],
+                    "character_name": [
+                        "med S",
+                        "ubman's",
+                        "ybrid cyborg",
+                        "Elsa the Snow Queen",
+                        "Spidermans"
+                    ],
+                    "rating": [
+                        "rated PG",
+                        "rated R.\\r",
+                        "movierated as PG-13",
+                        "'R'",
+                        "PG/PG-13"
+                    ],
+                    "duration": [
+                        "122 minutes",
+                        "90 minutes.\"",
+                        "ittle PG|",
+                        "2 Hours and 8 Minutes",
+                        "one hour and 48 minutes"
+                    ]
+                }
+            },
+            "intents": {}
+        },
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "Hey, could you look into movies playing at AMC Mountain 16.",
+                "system response": "No problem. Is there a particular type of movie you\u2019re looking for?",
+                "dialog history": "",
+                "original user side information": {
+                    "segments": [
+                        {
+                            "start_index": 43,
+                            "end_index": 58,
+                            "text": "AMC Mountain 16",
+                            "annotations": [
+                                {
+                                    "name": "name.theater"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "original system side information": {
+                    "segments": []
+                },
+                "dst": "movie theater_name AMC Mountain 16",
+                "dst accumulated": "movie theater_name AMC Mountain 16",
+                "external knowledge": "()"
+            },
+            {
+                "turn id": 2,
+                "user utterance": "Yeah, I'm looking for a good action flick.",
+                "system response": "Sure. I can help with that. Let me check listings at AMC Mercado 24.",
+                "dialog history": "<USER> Hey, could you look into movies playing at AMC Mountain 16. <SYSTEM> No problem. Is there a particular type of movie you\u2019re looking for?",
+                "original user side information": {
+                    "segments": [
+                        {
+                            "start_index": 29,
+                            "end_index": 35,
+                            "text": "action",
+                            "annotations": [
+                                {
+                                    "name": "name.genre"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "original system side information": {
+                    "segments": [
+                        {
+                            "start_index": 53,
+                            "end_index": 67,
+                            "text": "AMC Mercado 24",
+                            "annotations": [
+                                {
+                                    "name": "name.theater"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "dst": "movie genre_name action",
+                "dst accumulated": "movie theater_name AMC Mountain 16, movie genre_name action",
+                "external knowledge": "(( start_index : 53 | end_index : 67 | text : AMC Mercado 24 | annotations : (( name : name.theater ))))"
+            },
+            {
+                "turn id": 3,
+                "user utterance": "No. Mountain 16, not Mercado 24. AMC Mountain 16.",
+                "system response": "Oh, sorry about that. So you\u2019re interested in action films at AMC Mountain 16, right?",
+                "dialog history": "<USER> Hey, could you look into movies playing at AMC Mountain 16. <SYSTEM> No problem. Is there a particular type of movie you\u2019re looking for? <USER> Yeah, I'm looking for a good action flick. <SYSTEM> Sure. I can help with that. Let me check listings at AMC Mercado 24.",
+                "original user side information": {
+                    "segments": [
+                        {
+                            "start_index": 33,
+                            "end_index": 48,
+                            "text": "AMC Mountain 16",
+                            "annotations": [
+                                {
+                                    "name": "name.theater"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "original system side information": {
+                    "segments": [
+                        {
+                            "start_index": 46,
+                            "end_index": 52,
+                            "text": "action",
+                            "annotations": [
+                                {
+                                    "name": "name.genre"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 62,
+                            "end_index": 77,
+                            "text": "AMC Mountain 16",
+                            "annotations": [
+                                {
+                                    "name": "name.theater"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "dst": "movie theater_name AMC Mountain 16",
+                "dst accumulated": "movie theater_name AMC Mountain 16, movie genre_name action",
+                "external knowledge": "(( start_index : 46 | end_index : 52 | text : action | annotations : (( name : name.genre ))) | ( start_index : 62 | end_index : 77 | text : AMC Mountain 16 | annotations : (( name : name.theater ))))"
+            },
+            {
+                "turn id": 4,
+                "user utterance": "You got it.",
+                "system response": "OK. I see one action movie playing at AMC Mountain 16: No Time To Die. Remaining showtimes are 4:30pm, 6:40pm and 9:10pm. Does any of those work?",
+                "dialog history": "<USER> Hey, could you look into movies playing at AMC Mountain 16. <SYSTEM> No problem. Is there a particular type of movie you\u2019re looking for? <USER> Yeah, I'm looking for a good action flick. <SYSTEM> Sure. I can help with that. Let me check listings at AMC Mercado 24. <USER> No. Mountain 16, not Mercado 24. AMC Mountain 16. <SYSTEM> Oh, sorry about that. So you\u2019re interested in action films at AMC Mountain 16, right?",
+                "original user side information": {
+                    "apis": [
+                        {
+                            "index": 6,
+                            "args": {
+                                "name.genre": "action",
+                                "name.theater": "AMC Mountain 16"
+                            },
+                            "response": {
+                                "name.movie_1": "No Time To Die"
+                            },
+                            "name": "find_movies"
+                        },
+                        {
+                            "index": 6,
+                            "args": {
+                                "name.theater": "AMC Mountain 16",
+                                "name.movie": "No Time To Die"
+                            },
+                            "response": {
+                                "time.showing_1": "4:30pm",
+                                "time.showing_2": "6:40pm",
+                                "time.showing_3": "9:10pm"
+                            },
+                            "name": "find_showtimes"
+                        }
+                    ]
+                },
+                "original system side information": {
+                    "segments": [
+                        {
+                            "start_index": 14,
+                            "end_index": 20,
+                            "text": "action",
+                            "annotations": [
+                                {
+                                    "name": "name.genre"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 38,
+                            "end_index": 54,
+                            "text": "AMC Mountain 16:",
+                            "annotations": [
+                                {
+                                    "name": "name.theater"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 55,
+                            "end_index": 69,
+                            "text": "No Time To Die",
+                            "annotations": [
+                                {
+                                    "name": "name.movie"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 95,
+                            "end_index": 101,
+                            "text": "4:30pm",
+                            "annotations": [
+                                {
+                                    "name": "time.showing"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 103,
+                            "end_index": 109,
+                            "text": "6:40pm",
+                            "annotations": [
+                                {
+                                    "name": "time.showing"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 114,
+                            "end_index": 120,
+                            "text": "9:10pm",
+                            "annotations": [
+                                {
+                                    "name": "time.showing"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "dst": "",
+                "dst accumulated": "movie theater_name AMC Mountain 16, movie genre_name action",
+                "external knowledge": "(( start_index : 14 | end_index : 20 | text : action | annotations : (( name : name.genre ))) | ( start_index : 38 | end_index : 54 | text : AMC Mountain 16: | annotations : (( name : name.theater ))) | ( start_index : 55 | end_index : 69 | text : No Time To Die | annotations : (( name : name.movie ))) | ( start_index : 95 | end_index : 101 | text : 4:30pm | annotations : (( name : time.showing ))) | ( start_index : 103 | end_index : 109 | text : 6:40pm | annotations : (( name : time.showing ))) | ( start_index : 114 | end_index : 120 | text : 9:10pm | annotations : (( name : time.showing ))))"
+            },
+            {
+                "turn id": 5,
+                "user utterance": "Lets go with 9:10pm",
+                "system response": "Great. And how many tickets?",
+                "dialog history": "<USER> Hey, could you look into movies playing at AMC Mountain 16. <SYSTEM> No problem. Is there a particular type of movie you\u2019re looking for? <USER> Yeah, I'm looking for a good action flick. <SYSTEM> Sure. I can help with that. Let me check listings at AMC Mercado 24. <USER> No. Mountain 16, not Mercado 24. AMC Mountain 16. <SYSTEM> Oh, sorry about that. So you\u2019re interested in action films at AMC Mountain 16, right? <USER> You got it. <SYSTEM> OK. I see one action movie playing at AMC Mountain 16: No Time To Die. Remaining showtimes are 4:30pm, 6:40pm and 9:10pm. Does any of those work?",
+                "original user side information": {
+                    "segments": [
+                        {
+                            "start_index": 13,
+                            "end_index": 19,
+                            "text": "9:10pm",
+                            "annotations": [
+                                {
+                                    "name": "time.showing"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "original system side information": {
+                    "segments": []
+                },
+                "dst": "movie showing_time 9:10pm",
+                "dst accumulated": "movie theater_name AMC Mountain 16, movie genre_name action, movie showing_time 9:10pm",
+                "external knowledge": "()"
+            },
+            {
+                "turn id": 6,
+                "user utterance": "Three. It's me and two of my buddies.",
+                "system response": "All right. Let me confirm that you\u2019d like three tickets for No Time To Die at AMC Mountain 16 tonight at 9:10pm. Is that all correct?",
+                "dialog history": "<USER> Hey, could you look into movies playing at AMC Mountain 16. <SYSTEM> No problem. Is there a particular type of movie you\u2019re looking for? <USER> Yeah, I'm looking for a good action flick. <SYSTEM> Sure. I can help with that. Let me check listings at AMC Mercado 24. <USER> No. Mountain 16, not Mercado 24. AMC Mountain 16. <SYSTEM> Oh, sorry about that. So you\u2019re interested in action films at AMC Mountain 16, right? <USER> You got it. <SYSTEM> OK. I see one action movie playing at AMC Mountain 16: No Time To Die. Remaining showtimes are 4:30pm, 6:40pm and 9:10pm. Does any of those work? <USER> Lets go with 9:10pm <SYSTEM> Great. And how many tickets?",
+                "original user side information": {},
+                "original system side information": {
+                    "segments": [
+                        {
+                            "start_index": 42,
+                            "end_index": 47,
+                            "text": "three",
+                            "annotations": [
+                                {
+                                    "name": "num.tickets"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 60,
+                            "end_index": 74,
+                            "text": "No Time To Die",
+                            "annotations": [
+                                {
+                                    "name": "name.movie"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 78,
+                            "end_index": 93,
+                            "text": "AMC Mountain 16",
+                            "annotations": [
+                                {
+                                    "name": "name.theater"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 94,
+                            "end_index": 101,
+                            "text": "tonight",
+                            "annotations": [
+                                {
+                                    "name": "date.showing"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 105,
+                            "end_index": 111,
+                            "text": "9:10pm",
+                            "annotations": [
+                                {
+                                    "name": "time.showing"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "dst": "",
+                "dst accumulated": "movie theater_name AMC Mountain 16, movie genre_name action, movie showing_time 9:10pm",
+                "external knowledge": "(( start_index : 42 | end_index : 47 | text : three | annotations : (( name : num.tickets ))) | ( start_index : 60 | end_index : 74 | text : No Time To Die | annotations : (( name : name.movie ))) | ( start_index : 78 | end_index : 93 | text : AMC Mountain 16 | annotations : (( name : name.theater ))) | ( start_index : 94 | end_index : 101 | text : tonight | annotations : (( name : date.showing ))) | ( start_index : 105 | end_index : 111 | text : 9:10pm | annotations : (( name : time.showing ))))"
+            },
+            {
+                "turn id": 7,
+                "user utterance": "You got it.",
+                "system response": "Is it OK to go ahead and purchase these tickets?",
+                "dialog history": "<USER> Hey, could you look into movies playing at AMC Mountain 16. <SYSTEM> No problem. Is there a particular type of movie you\u2019re looking for? <USER> Yeah, I'm looking for a good action flick. <SYSTEM> Sure. I can help with that. Let me check listings at AMC Mercado 24. <USER> No. Mountain 16, not Mercado 24. AMC Mountain 16. <SYSTEM> Oh, sorry about that. So you\u2019re interested in action films at AMC Mountain 16, right? <USER> You got it. <SYSTEM> OK. I see one action movie playing at AMC Mountain 16: No Time To Die. Remaining showtimes are 4:30pm, 6:40pm and 9:10pm. Does any of those work? <USER> Lets go with 9:10pm <SYSTEM> Great. And how many tickets? <USER> Three. It's me and two of my buddies. <SYSTEM> All right. Let me confirm that you\u2019d like three tickets for No Time To Die at AMC Mountain 16 tonight at 9:10pm. Is that all correct?",
+                "original user side information": {},
+                "original system side information": {
+                    "segments": []
+                },
+                "dst": "",
+                "dst accumulated": "movie theater_name AMC Mountain 16, movie genre_name action, movie showing_time 9:10pm",
+                "external knowledge": "()"
+            },
+            {
+                "turn id": 8,
+                "user utterance": "Yeah. Pull the trigger.",
+                "system response": "OK. Your tickets are purchased and details for how to proceed have been sent to your email address. Can I help with anything else?",
+                "dialog history": "<USER> Hey, could you look into movies playing at AMC Mountain 16. <SYSTEM> No problem. Is there a particular type of movie you\u2019re looking for? <USER> Yeah, I'm looking for a good action flick. <SYSTEM> Sure. I can help with that. Let me check listings at AMC Mercado 24. <USER> No. Mountain 16, not Mercado 24. AMC Mountain 16. <SYSTEM> Oh, sorry about that. So you\u2019re interested in action films at AMC Mountain 16, right? <USER> You got it. <SYSTEM> OK. I see one action movie playing at AMC Mountain 16: No Time To Die. Remaining showtimes are 4:30pm, 6:40pm and 9:10pm. Does any of those work? <USER> Lets go with 9:10pm <SYSTEM> Great. And how many tickets? <USER> Three. It's me and two of my buddies. <SYSTEM> All right. Let me confirm that you\u2019d like three tickets for No Time To Die at AMC Mountain 16 tonight at 9:10pm. Is that all correct? <USER> You got it. <SYSTEM> Is it OK to go ahead and purchase these tickets?",
+                "original user side information": {
+                    "apis": [
+                        {
+                            "index": 14,
+                            "args": {
+                                "name.movie": "No Time To Die",
+                                "name.theater": "AMC Mountain 16",
+                                "time.showing": "4:30pm",
+                                "num.tickets": "three",
+                                "date.showing": "tonight"
+                            },
+                            "response": {
+                                "status": "success"
+                            },
+                            "name": "book_tickets"
+                        }
+                    ]
+                },
+                "original system side information": {
+                    "segments": []
+                },
+                "dst": "",
+                "dst accumulated": "movie theater_name AMC Mountain 16, movie genre_name action, movie showing_time 9:10pm",
+                "external knowledge": "()"
+            },
+            {
+                "turn id": 9,
+                "user utterance": "No thanks. I'm set for now.",
+                "system response": "OK. Enjoy your movie!",
+                "dialog history": "<USER> Hey, could you look into movies playing at AMC Mountain 16. <SYSTEM> No problem. Is there a particular type of movie you\u2019re looking for? <USER> Yeah, I'm looking for a good action flick. <SYSTEM> Sure. I can help with that. Let me check listings at AMC Mercado 24. <USER> No. Mountain 16, not Mercado 24. AMC Mountain 16. <SYSTEM> Oh, sorry about that. So you\u2019re interested in action films at AMC Mountain 16, right? <USER> You got it. <SYSTEM> OK. I see one action movie playing at AMC Mountain 16: No Time To Die. Remaining showtimes are 4:30pm, 6:40pm and 9:10pm. Does any of those work? <USER> Lets go with 9:10pm <SYSTEM> Great. And how many tickets? <USER> Three. It's me and two of my buddies. <SYSTEM> All right. Let me confirm that you\u2019d like three tickets for No Time To Die at AMC Mountain 16 tonight at 9:10pm. Is that all correct? <USER> You got it. <SYSTEM> Is it OK to go ahead and purchase these tickets? <USER> Yeah. Pull the trigger. <SYSTEM> OK. Your tickets are purchased and details for how to proceed have been sent to your email address. Can I help with anything else?",
+                "original user side information": {},
+                "original system side information": {
+                    "segments": []
+                },
+                "dst": "",
+                "dst accumulated": "movie theater_name AMC Mountain 16, movie genre_name action, movie showing_time 9:10pm",
+                "external knowledge": "()"
+            }
+        ],
+        "dst knowledge": "( movie : ( showing_date : ( Friday April 23 | saturday | Thursday January 31st | today March 11th | rrow nig ) | theater_name : ( Cobb West Chester | Midnight Theater | Century theater | AMC Woodridge 18 | AMC Holiday\\\\rTheater ) | genre_name : ( ark Comedy | thrilling film | Comedy or and Action | neo-noir | Sci-Fi..do ) | name : ( Rebuilding Paradis | Not my problem\\\\r2 | \\\\rFamily Jewelshas | details\\\\rNot My Problem\\\\rFamily | The Death of Stalin ) | showing_time : ( 9 AM | 600 | :05PM | 2:30 p | 10:00 pm ) | tickets_num : ( Four of us | \"2 adult and 1 child s\" | \"1 adult and 5 children s\" | I am treating my mom | would like to see a movie with my friend and roommate ) | preference_time : ( Around 2:00 PM | 7:30 PM | in an evening | around 1:00pm | Around 4:35 PM ) | ticket_price : ( $9.50 | $5 | $9.99 each | $16.12 for each | $8 for an adult ) | seating : ( 4 seats together in the center aisle | L15 middle row | LAST SEAT | row six seat seven | F5 ) | location : ( X\\\\r221 Grandview Blvd.; Madison MS 39 | closer for me | Hicksville | close to the regal west manchester cinemas | near Cerritos ) | person_name : ( Jane Austen | Dwayne Johnson | (Rose Byrne) | Taraji P. Henson | Steve Harvey ) | release_date : ( (2019) | n January 1 20 | 28th | next week | just released ) | critic_review : ( Critics say the action is very intense but the writing is light enough you can still laugh at parts | rotten tomatoes rating of 81% | igher rating | 68% Fresh | scored 97% ) | audience_review : ( awesome | Some good and some bad | 68% | best viewer rating | huge positive reviews ) | other_description : (\"Yes it s a lot like a thriller but this one isn t about the fight or adventure seen but true love\" | thought provoking | avoid any movies where there is any abuse or brutality | French film | Maleficent it the childhood story of sleeping beauty ) | screening_type : ( IMAX screen | egular | Stanard | 4 DX | 7D ) | total_price : ( 45$. | $46.92 | 24.99 | $54.84 | $21.98 ) | plot_description : ( about a woman Sarah Decker who moves upstate from her New York City lifestyle to work on her distant cousin\u2019s haunted marijuana farm | about a woman who moves from her busy city life to work on a haunted marijuana farm | The movie is about exploring Yosemite national park | about fishing the North Sea that ends up gets ugly as Captain John\u2019s crew faces not only severe weather but a traitor on board | character Sarah Decker moving from her New York City lifestyle to a far away haunted marijuana farm ) | character_name : ( med S | \"ubman s\" | ybrid cyborg | Elsa the Snow Queen | Spidermans ) | rating : ( rated PG | rated R.\\\\r | movierated as PG-13 | \" R \" | PG/PG-13 ) | duration : ( 122 minutes | 90 minutes.\" | ittle PG| | 2 Hours and 8 Minutes | one hour and 48 minutes )))",
+        "intent knowledge": "()",
+        "prompt": [
+            "This is a bot helping users to book a movie ticket. Given the dialog context and external database, please generate a relevant system response for the user.",
+            "This bot assists users to book a movie ticket. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
+            "This bot helps users to book a movie ticket. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
+            "The purpose of this bot is to assist users to book a movie ticket. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
+            "This bot is designed to help users book a movie ticket. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+        ]
+    },
+    "Taskmaster3--train--5": {
+        "original dialog id": "dlg-b35af4b7-f3da-444e-85ad-a3e9508f0a5d",
+        "dialog index": 5,
+        "original dialog info": {
+            "vertical": "Movie Tickets",
+            "scenario": "4 exchanges with 1 error and predefined variables",
+            "instructions": "SCENARIO: Pretend you\u2019re *using a digital assistant to purchase tickets for a movie currently showing in theaters*.  {{LIST The entire conversation needs to follow the structure given below *in the TASK section*., You already know which movie you want to see as well as all the details (which you can pick from the section below)., The conversation ends with *a successful ticket purchase*., Do not include any extras like \u201cthank you\u201d or \u201cgoodbye\u201d or \u201chello\u201d etc. }}\n\nDETAILS:  This is *made up data* which you should use to complete your dialog creation (since there are actually no movies playing anywhere right now due to COVID-19).:\n{{LIST You are interested in seeing either *No Time To Die* OR  *Mulan*.,  There is one theater in your town: *Mountain AMC 16*., Showtimes for Mulan: 4:00pm 6:10pm 8:30pm 10:40pm, Showtimes for No Time To Die: 3:00pm 5:10pm 7:30pm 9:40pm, Make sure to include the number of tickets.}}\n*USE THIS Structure*\nUser: (Express desire to buy movie tickets and include TWO of the details needed for the purchase--one should be the movie name. See DETAILS section above.)\nAssistant: (Confirm the TWO details given so far and ask for confirmation *make one of the details incorrect*.)\nUser: (Alert the assistant of the detail that is wrong and give the right value.)\nAssistant: (Correct the wrong value, repeating back the correct value.)\nUser: (Confirms the correction, *THEN adds the THREE remaining details*.)\nAssistant: (Confirms all five details then asks if this is correct and whether they can go ahead with the purchase.)\nUser: (Answers yes.)\nAssistant: (Indicates successful purchase saying \u201dYour tickets are confirmed and they\u2019ve been sent to your email address.\u201d)\n\nTASK: *Write the transcript* of your spoken conversation according to the structure given above. Make sure it includes one exchange where *one of the details the assistant confirms is incorrect* (movie, theater, showtime, number, tickets or day).\n\nSPEAKING STYLE: {{LIST The assistant is polite and efficient, The assistant\u2019s speaking style should match yours but they are not overly formal or too casual, Don\u2019t call your assistant by name (e.g. \u201cJohnny\u201d or \u201cAlexa\u201d or \u201cSiri\u201d or \u201cAssistant\u201d or \u201cComputer\u201d). Just assume they\u2019re already listening to you.}}\n\n{{CONVERSATION}}\n\n{{CHECK confirm_native_speaker This conversation task was written by a native English speaker.}}\n{{CHECK confirm_slots The users discusses *each of these details*: 1) movie, 2) theater, 3) showtime, 4) number of tickets, 5) day.}}\n{{CHECK confirm_error_exchange The conversation includes *one exchange where one of the details the assistant reads back is wrong* and so the user must point it out so it can be corrected.}}\n{{CHECK confirm_details The assistant *confirms all the ticket details* together just before booking.}}\n{{CHECK confirm_purchase The assistant *completes purchasing the tickets* saying *\u201dYour tickets are confirmed and they\u2019ve been sent to your email address.\u201d*}}\n",
+            "slots and values": {
+                "movie": {
+                    "showing_date": [
+                        "Friday April 23",
+                        "saturday",
+                        "Thursday January 31st",
+                        "today March 11th",
+                        "rrow nig"
+                    ],
+                    "theater_name": [
+                        "Cobb West Chester",
+                        "Midnight Theater",
+                        "Century theater",
+                        "AMC Woodridge 18",
+                        "AMC Holiday\\rTheater"
+                    ],
+                    "genre_name": [
+                        "ark Comedy",
+                        "thrilling film",
+                        "Comedy or and Action",
+                        "neo-noir",
+                        "Sci-Fi..do"
+                    ],
+                    "name": [
+                        "Rebuilding Paradis",
+                        "Not my problem\\r2",
+                        "\\rFamily Jewelshas",
+                        "details\\rNot My Problem\\rFamily",
+                        "The Death of Stalin"
+                    ],
+                    "showing_time": [
+                        "9 AM",
+                        "600",
+                        ":05PM",
+                        "2:30 p",
+                        "10:00 pm"
+                    ],
+                    "tickets_num": [
+                        "Four of us",
+                        "2 adult and 1 child's",
+                        "1 adult and 5 children's",
+                        "I am treating my mom",
+                        "would like to see a movie with my friend and roommate"
+                    ],
+                    "preference_time": [
+                        "Around 2:00 PM",
+                        "7:30 PM",
+                        "in an evening",
+                        "around 1:00pm",
+                        "Around 4:35 PM"
+                    ],
+                    "ticket_price": [
+                        "$9.50",
+                        "$5",
+                        "$9.99 each",
+                        "$16.12 for each",
+                        "$8 for an adult"
+                    ],
+                    "seating": [
+                        "4 seats together in the center aisle",
+                        "L15 middle row",
+                        "LAST SEAT",
+                        "row six seat seven",
+                        "F5"
+                    ],
+                    "location": [
+                        "X\\r221 Grandview Blvd.; Madison  MS 39",
+                        "closer for me",
+                        "Hicksville",
+                        "close to the regal west manchester cinemas",
+                        "near Cerritos"
+                    ],
+                    "person_name": [
+                        "Jane Austen",
+                        "Dwayne Johnson",
+                        "(Rose Byrne)",
+                        "Taraji P. Henson",
+                        "Steve Harvey"
+                    ],
+                    "release_date": [
+                        "(2019)",
+                        "n January 1 20",
+                        "28th",
+                        "next week",
+                        "just released"
+                    ],
+                    "critic_review": [
+                        "Critics say the action is very intense but the writing is light enough you can still laugh at parts",
+                        "rotten tomatoes rating of 81%",
+                        "igher rating",
+                        "68% Fresh",
+                        "scored 97%"
+                    ],
+                    "audience_review": [
+                        "awesome",
+                        "Some good and some bad",
+                        "68%",
+                        "best viewer rating",
+                        "huge positive reviews"
+                    ],
+                    "other_description": [
+                        "Yes it's a lot like a thriller but this one isn't about the fight or adventure seen but true love",
+                        "thought provoking",
+                        "avoid any movies where there is any abuse or brutality",
+                        "French film",
+                        "Maleficent it the childhood story of sleeping beauty"
+                    ],
+                    "screening_type": [
+                        "IMAX screen",
+                        "egular",
+                        "Stanard",
+                        "4 DX",
+                        "7D"
+                    ],
+                    "total_price": [
+                        "45$.",
+                        "$46.92",
+                        "24.99",
+                        "$54.84",
+                        "$21.98"
+                    ],
+                    "plot_description": [
+                        "about a woman Sarah Decker who moves upstate from her New York City lifestyle to work on her distant cousin\u2019s haunted marijuana farm",
+                        "about a woman who moves from her busy city life to work on a haunted marijuana farm",
+                        "The movie is about exploring Yosemite national park",
+                        "about fishing the North Sea that ends up gets ugly as Captain John\u2019s crew faces not only severe weather but a traitor on board",
+                        "character Sarah Decker moving from her New York City lifestyle to a far away haunted marijuana farm"
+                    ],
+                    "character_name": [
+                        "med S",
+                        "ubman's",
+                        "ybrid cyborg",
+                        "Elsa the Snow Queen",
+                        "Spidermans"
+                    ],
+                    "rating": [
+                        "rated PG",
+                        "rated R.\\r",
+                        "movierated as PG-13",
+                        "'R'",
+                        "PG/PG-13"
+                    ],
+                    "duration": [
+                        "122 minutes",
+                        "90 minutes.\"",
+                        "ittle PG|",
+                        "2 Hours and 8 Minutes",
+                        "one hour and 48 minutes"
+                    ]
+                }
+            },
+            "intents": {}
+        },
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "We should go watch Mulan, I heard it's playing at Mountain AMC 16. I'll buy the tickets.",
+                "system response": "I'd love to watch Mulan! Isn't it also playing at Mountain AMC 18?",
+                "dialog history": "",
+                "original user side information": {
+                    "segments": [
+                        {
+                            "start_index": 19,
+                            "end_index": 24,
+                            "text": "Mulan",
+                            "annotations": [
+                                {
+                                    "name": "name.movie"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 50,
+                            "end_index": 65,
+                            "text": "Mountain AMC 16",
+                            "annotations": [
+                                {
+                                    "name": "name.theater"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "original system side information": {
+                    "segments": [
+                        {
+                            "start_index": 18,
+                            "end_index": 24,
+                            "text": "Mulan!",
+                            "annotations": [
+                                {
+                                    "name": "name.movie"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 50,
+                            "end_index": 65,
+                            "text": "Mountain AMC 18",
+                            "annotations": [
+                                {
+                                    "name": "name.theater"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "dst": "movie name Mulan, movie theater_name Mountain AMC 16",
+                "dst accumulated": "movie name Mulan, movie theater_name Mountain AMC 16",
+                "external knowledge": "(( start_index : 18 | end_index : 24 | text : Mulan! | annotations : (( name : name.movie ))) | ( start_index : 50 | end_index : 65 | text : Mountain AMC 18 | annotations : (( name : name.theater ))))"
+            },
+            {
+                "turn id": 2,
+                "user utterance": "No, it's only playing at Mountain AMC 16.",
+                "system response": "Oh sorry, you're right. Mountain AMC 16.",
+                "dialog history": "<USER> We should go watch Mulan, I heard it's playing at Mountain AMC 16. I'll buy the tickets. <SYSTEM> I'd love to watch Mulan! Isn't it also playing at Mountain AMC 18?",
+                "original user side information": {
+                    "segments": [
+                        {
+                            "start_index": 25,
+                            "end_index": 40,
+                            "text": "Mountain AMC 16",
+                            "annotations": [
+                                {
+                                    "name": "name.theater"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "original system side information": {
+                    "segments": [
+                        {
+                            "start_index": 24,
+                            "end_index": 39,
+                            "text": "Mountain AMC 16",
+                            "annotations": [
+                                {
+                                    "name": "name.theater"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "dst": "movie theater_name Mountain AMC 16",
+                "dst accumulated": "movie name Mulan, movie theater_name Mountain AMC 16",
+                "external knowledge": "(( start_index : 24 | end_index : 39 | text : Mountain AMC 16 | annotations : (( name : name.theater ))))"
+            },
+            {
+                "turn id": 3,
+                "user utterance": "Yeah Mountain AMC 16. So 2 tickets for Mulan tomorrow at Mountain AMC 16 at 4 pm?",
+                "system response": "Okay, so just to be sure 2 tickets for Mulan tomorrow at Mountain AMC 16 at 4 pm, correct?",
+                "dialog history": "<USER> We should go watch Mulan, I heard it's playing at Mountain AMC 16. I'll buy the tickets. <SYSTEM> I'd love to watch Mulan! Isn't it also playing at Mountain AMC 18? <USER> No, it's only playing at Mountain AMC 16. <SYSTEM> Oh sorry, you're right. Mountain AMC 16.",
+                "original user side information": {
+                    "segments": [
+                        {
+                            "start_index": 5,
+                            "end_index": 20,
+                            "text": "Mountain AMC 16",
+                            "annotations": [
+                                {
+                                    "name": "name.theater"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 25,
+                            "end_index": 26,
+                            "text": "2",
+                            "annotations": [
+                                {
+                                    "name": "num.tickets"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 39,
+                            "end_index": 44,
+                            "text": "Mulan",
+                            "annotations": [
+                                {
+                                    "name": "name.movie"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 45,
+                            "end_index": 53,
+                            "text": "tomorrow",
+                            "annotations": [
+                                {
+                                    "name": "date.showing"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 57,
+                            "end_index": 72,
+                            "text": "Mountain AMC 16",
+                            "annotations": [
+                                {
+                                    "name": "name.theater"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 76,
+                            "end_index": 80,
+                            "text": "4 pm",
+                            "annotations": [
+                                {
+                                    "name": "time.preference"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "original system side information": {
+                    "segments": [
+                        {
+                            "start_index": 25,
+                            "end_index": 26,
+                            "text": "2",
+                            "annotations": [
+                                {
+                                    "name": "num.tickets"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 39,
+                            "end_index": 44,
+                            "text": "Mulan",
+                            "annotations": [
+                                {
+                                    "name": "name.movie"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 45,
+                            "end_index": 53,
+                            "text": "tomorrow",
+                            "annotations": [
+                                {
+                                    "name": "date.showing"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 57,
+                            "end_index": 72,
+                            "text": "Mountain AMC 16",
+                            "annotations": [
+                                {
+                                    "name": "name.theater"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 76,
+                            "end_index": 80,
+                            "text": "4 pm",
+                            "annotations": [
+                                {
+                                    "name": "time.showing"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "dst": "movie theater_name Mountain AMC 16, movie tickets_num 2, movie name Mulan, movie showing_date tomorrow, movie theater_name Mountain AMC 16, movie preference_time 4 pm",
+                "dst accumulated": "movie name Mulan, movie theater_name Mountain AMC 16, movie tickets_num 2, movie showing_date tomorrow, movie preference_time 4 pm",
+                "external knowledge": "(( start_index : 25 | end_index : 26 | text : 2 | annotations : (( name : num.tickets ))) | ( start_index : 39 | end_index : 44 | text : Mulan | annotations : (( name : name.movie ))) | ( start_index : 45 | end_index : 53 | text : tomorrow | annotations : (( name : date.showing ))) | ( start_index : 57 | end_index : 72 | text : Mountain AMC 16 | annotations : (( name : name.theater ))) | ( start_index : 76 | end_index : 80 | text : 4 pm | annotations : (( name : time.showing ))))"
+            },
+            {
+                "turn id": 4,
+                "user utterance": "Yes",
+                "system response": "Your tickets are confirmed and they've been sent to your email address.",
+                "dialog history": "<USER> We should go watch Mulan, I heard it's playing at Mountain AMC 16. I'll buy the tickets. <SYSTEM> I'd love to watch Mulan! Isn't it also playing at Mountain AMC 18? <USER> No, it's only playing at Mountain AMC 16. <SYSTEM> Oh sorry, you're right. Mountain AMC 16. <USER> Yeah Mountain AMC 16. So 2 tickets for Mulan tomorrow at Mountain AMC 16 at 4 pm? <SYSTEM> Okay, so just to be sure 2 tickets for Mulan tomorrow at Mountain AMC 16 at 4 pm, correct?",
+                "original user side information": {
+                    "apis": [
+                        {
+                            "index": 6,
+                            "args": {
+                                "name.movie": "Mulan",
+                                "name.theater": "Mountain AMC 16",
+                                "num.tickets": "2",
+                                "time.showing": "4 pm",
+                                "date.showing": "tomorrow",
+                                "seating": "any"
+                            },
+                            "response": {
+                                "status": "success"
+                            },
+                            "name": "book_tickets"
+                        }
+                    ]
+                },
+                "original system side information": {
+                    "segments": []
+                },
+                "dst": "",
+                "dst accumulated": "movie name Mulan, movie theater_name Mountain AMC 16, movie tickets_num 2, movie showing_date tomorrow, movie preference_time 4 pm",
+                "external knowledge": "()"
+            }
+        ],
+        "dst knowledge": "( movie : ( showing_date : ( Friday April 23 | saturday | Thursday January 31st | today March 11th | rrow nig ) | theater_name : ( Cobb West Chester | Midnight Theater | Century theater | AMC Woodridge 18 | AMC Holiday\\\\rTheater ) | genre_name : ( ark Comedy | thrilling film | Comedy or and Action | neo-noir | Sci-Fi..do ) | name : ( Rebuilding Paradis | Not my problem\\\\r2 | \\\\rFamily Jewelshas | details\\\\rNot My Problem\\\\rFamily | The Death of Stalin ) | showing_time : ( 9 AM | 600 | :05PM | 2:30 p | 10:00 pm ) | tickets_num : ( Four of us | \"2 adult and 1 child s\" | \"1 adult and 5 children s\" | I am treating my mom | would like to see a movie with my friend and roommate ) | preference_time : ( Around 2:00 PM | 7:30 PM | in an evening | around 1:00pm | Around 4:35 PM ) | ticket_price : ( $9.50 | $5 | $9.99 each | $16.12 for each | $8 for an adult ) | seating : ( 4 seats together in the center aisle | L15 middle row | LAST SEAT | row six seat seven | F5 ) | location : ( X\\\\r221 Grandview Blvd.; Madison MS 39 | closer for me | Hicksville | close to the regal west manchester cinemas | near Cerritos ) | person_name : ( Jane Austen | Dwayne Johnson | (Rose Byrne) | Taraji P. Henson | Steve Harvey ) | release_date : ( (2019) | n January 1 20 | 28th | next week | just released ) | critic_review : ( Critics say the action is very intense but the writing is light enough you can still laugh at parts | rotten tomatoes rating of 81% | igher rating | 68% Fresh | scored 97% ) | audience_review : ( awesome | Some good and some bad | 68% | best viewer rating | huge positive reviews ) | other_description : (\"Yes it s a lot like a thriller but this one isn t about the fight or adventure seen but true love\" | thought provoking | avoid any movies where there is any abuse or brutality | French film | Maleficent it the childhood story of sleeping beauty ) | screening_type : ( IMAX screen | egular | Stanard | 4 DX | 7D ) | total_price : ( 45$. | $46.92 | 24.99 | $54.84 | $21.98 ) | plot_description : ( about a woman Sarah Decker who moves upstate from her New York City lifestyle to work on her distant cousin\u2019s haunted marijuana farm | about a woman who moves from her busy city life to work on a haunted marijuana farm | The movie is about exploring Yosemite national park | about fishing the North Sea that ends up gets ugly as Captain John\u2019s crew faces not only severe weather but a traitor on board | character Sarah Decker moving from her New York City lifestyle to a far away haunted marijuana farm ) | character_name : ( med S | \"ubman s\" | ybrid cyborg | Elsa the Snow Queen | Spidermans ) | rating : ( rated PG | rated R.\\\\r | movierated as PG-13 | \" R \" | PG/PG-13 ) | duration : ( 122 minutes | 90 minutes.\" | ittle PG| | 2 Hours and 8 Minutes | one hour and 48 minutes )))",
+        "intent knowledge": "()",
+        "prompt": [
+            "This is a bot helping users to book a movie ticket. Given the dialog context and external database, please generate a relevant system response for the user.",
+            "This bot assists users to book a movie ticket. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
+            "This bot helps users to book a movie ticket. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
+            "The purpose of this bot is to assist users to book a movie ticket. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
+            "This bot is designed to help users book a movie ticket. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+        ]
+    }
+}

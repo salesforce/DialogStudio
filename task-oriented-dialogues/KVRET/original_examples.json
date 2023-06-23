@@ -1,0 +1,617 @@
+[
+  {
+    "dialogue": [
+      {
+        "turn": "driver",
+        "data": {
+          "end_dialogue": false,
+          "utterance": "where's the nearest parking garage"
+        }
+      },
+      {
+        "turn": "assistant",
+        "data": {
+          "end_dialogue": false,
+          "requested": {
+            "distance": true,
+            "traffic_info": false,
+            "poi_type": true,
+            "address": true,
+            "poi": false
+          },
+          "slots": {
+            "distance": "nearest",
+            "poi_type": "parking garage"
+          },
+          "utterance": "The nearest parking garage is Dish Parking at 550 Alester Ave. Would you like directions there? "
+        }
+      },
+      {
+        "turn": "driver",
+        "data": {
+          "end_dialogue": false,
+          "utterance": "Yes, please set directions via a route that avoids all heavy traffic if possible. "
+        }
+      },
+      {
+        "turn": "assistant",
+        "data": {
+          "end_dialogue": false,
+          "requested": {
+            "distance": false,
+            "traffic_info": true,
+            "poi_type": false,
+            "address": false,
+            "poi": true
+          },
+          "slots": {
+            "traffic_info": "avoid heavy traffic ",
+            "poi": "dish parking"
+          },
+          "utterance": "It looks like there is a road block being reported on the route but I will still find the quickest route to 550 Alester Ave. "
+        }
+      },
+      {
+        "turn": "driver",
+        "data": {
+          "end_dialogue": false,
+          "utterance": "Thanks so much for your help. "
+        }
+      },
+      {
+        "turn": "assistant",
+        "data": {
+          "end_dialogue": true,
+          "requested": {
+            "distance": false,
+            "traffic_info": false,
+            "poi_type": false,
+            "address": false,
+            "poi": false
+          },
+          "slots": {},
+          "utterance": "You're very welcome!"
+        }
+      }
+    ],
+    "scenario": {
+      "kb": {
+        "items": [
+          {
+            "distance": "2 miles",
+            "traffic_info": "road block nearby",
+            "poi_type": "parking garage",
+            "address": "550 Alester Ave",
+            "poi": "Dish Parking"
+          },
+          {
+            "distance": "6 miles",
+            "traffic_info": "no traffic",
+            "poi_type": "parking garage",
+            "address": "610 Amarillo Ave",
+            "poi": "Stanford Oval Parking"
+          },
+          {
+            "distance": "4 miles",
+            "traffic_info": "car collision nearby",
+            "poi_type": "grocery store",
+            "address": "409 Bollard St",
+            "poi": "Willows Market"
+          },
+          {
+            "distance": "2 miles",
+            "traffic_info": "moderate traffic",
+            "poi_type": "rest stop",
+            "address": "329 El Camino Real",
+            "poi": "The Westin"
+          },
+          {
+            "distance": "1 miles",
+            "traffic_info": "heavy traffic",
+            "poi_type": "friends house",
+            "address": "580 Van Ness Ave",
+            "poi": "toms house"
+          },
+          {
+            "distance": "4 miles",
+            "traffic_info": "heavy traffic",
+            "poi_type": "pizza restaurant",
+            "address": "915 Arbol Dr",
+            "poi": "Pizza Chicago"
+          },
+          {
+            "distance": "6 miles",
+            "traffic_info": "car collision nearby",
+            "poi_type": "gas station",
+            "address": "200 Alester Ave",
+            "poi": "Valero"
+          },
+          {
+            "distance": "2 miles",
+            "traffic_info": "no traffic",
+            "poi_type": "chinese restaurant",
+            "address": "271 Springer Street",
+            "poi": "Mandarin Roots"
+          }
+        ],
+        "column_names": [
+          "poi",
+          "poi_type",
+          "address",
+          "distance",
+          "traffic_info"
+        ],
+        "kb_title": "location information"
+      },
+      "task": {
+        "intent": "navigate"
+      },
+      "uuid": "118f8056-0e66-43df-8eb8-bfe9056ca01a"
+    }
+  },
+  {
+    "dialogue": [
+      {
+        "turn": "driver",
+        "data": {
+          "end_dialogue": false,
+          "utterance": "Where is the nearest gas station?"
+        }
+      },
+      {
+        "turn": "assistant",
+        "data": {
+          "end_dialogue": false,
+          "requested": {
+            "distance": true,
+            "traffic_info": false,
+            "poi_type": true,
+            "address": false,
+            "poi": false
+          },
+          "slots": {
+            "distance": "nearest ",
+            "poi_type": "gas station"
+          },
+          "utterance": "There is a 76 4 miles away."
+        }
+      },
+      {
+        "turn": "driver",
+        "data": {
+          "end_dialogue": false,
+          "utterance": "What is the address?"
+        }
+      },
+      {
+        "turn": "assistant",
+        "data": {
+          "end_dialogue": false,
+          "requested": {
+            "distance": false,
+            "traffic_info": false,
+            "poi_type": false,
+            "address": false,
+            "poi": false
+          },
+          "slots": {},
+          "utterance": "The 76 gas station is located at 91 El Camino Real. It is 4 miles away through moderate traffic"
+        }
+      },
+      {
+        "turn": "driver",
+        "data": {
+          "end_dialogue": false,
+          "utterance": "Thanks!"
+        }
+      },
+      {
+        "turn": "assistant",
+        "data": {
+          "end_dialogue": true,
+          "requested": {
+            "distance": false,
+            "traffic_info": false,
+            "poi_type": false,
+            "address": false,
+            "poi": false
+          },
+          "slots": {},
+          "utterance": "Anytime!"
+        }
+      }
+    ],
+    "scenario": {
+      "kb": {
+        "items": [
+          {
+            "distance": "4 miles",
+            "traffic_info": "moderate traffic",
+            "poi_type": "shopping center",
+            "address": "383 University Ave",
+            "poi": "Town and Country"
+          },
+          {
+            "distance": "4 miles",
+            "traffic_info": "moderate traffic",
+            "poi_type": "gas station",
+            "address": "91 El Camino Real",
+            "poi": "76"
+          },
+          {
+            "distance": "2 miles",
+            "traffic_info": "moderate traffic",
+            "poi_type": "shopping center",
+            "address": "773 Alger Dr",
+            "poi": "Stanford Shopping Center"
+          },
+          {
+            "distance": "3 miles",
+            "traffic_info": "moderate traffic",
+            "poi_type": "coffee or tea place",
+            "address": "145 Amherst St",
+            "poi": "Teavana"
+          },
+          {
+            "distance": "4 miles",
+            "traffic_info": "moderate traffic",
+            "poi_type": "pizza restaurant",
+            "address": "776 Arastradero Rd",
+            "poi": "Dominos"
+          },
+          {
+            "distance": "4 miles",
+            "traffic_info": "road block nearby",
+            "poi_type": "parking garage",
+            "address": "481 Amaranta Ave",
+            "poi": "Palo Alto Garage R"
+          },
+          {
+            "distance": "5 miles",
+            "traffic_info": "no traffic",
+            "poi_type": "hospital",
+            "address": "214 El Camino Real",
+            "poi": "Stanford Express Care"
+          },
+          {
+            "distance": "3 miles",
+            "traffic_info": "no traffic",
+            "poi_type": "hospital",
+            "address": "611 Ames Ave",
+            "poi": "Palo Alto Medical Foundation"
+          }
+        ],
+        "column_names": [
+          "poi",
+          "poi_type",
+          "address",
+          "distance",
+          "traffic_info"
+        ],
+        "kb_title": "location information"
+      },
+      "task": {
+        "intent": "navigate"
+      },
+      "uuid": "ebfd0087-3526-43ae-a0d9-1b3a37dcb544"
+    }
+  },
+  {
+    "dialogue": [
+      {
+        "turn": "driver",
+        "data": {
+          "end_dialogue": false,
+          "utterance": "show me the closest location where i can get chinese food"
+        }
+      },
+      {
+        "turn": "assistant",
+        "data": {
+          "end_dialogue": false,
+          "requested": {
+            "distance": true,
+            "traffic_info": false,
+            "poi_type": true,
+            "address": true,
+            "poi": false
+          },
+          "slots": {
+            "distance": "closest",
+            "poi_type": "chinese restaurant"
+          },
+          "utterance": "The closest chinese restaurant is PF Changs, located 5 miles away. "
+        }
+      },
+      {
+        "turn": "driver",
+        "data": {
+          "end_dialogue": false,
+          "utterance": "OK, please give me an address and directions via a route that avoids all heavy traffic. "
+        }
+      },
+      {
+        "turn": "assistant",
+        "data": {
+          "end_dialogue": false,
+          "requested": {
+            "distance": false,
+            "traffic_info": true,
+            "poi_type": false,
+            "address": true,
+            "poi": false
+          },
+          "slots": {
+            "traffic_info": "avoid heavy traffic"
+          },
+          "utterance": "P.F. Changs route set to 669 El Camino Real with only moderate traffic noted. "
+        }
+      },
+      {
+        "turn": "driver",
+        "data": {
+          "end_dialogue": false,
+          "utterance": "Thank you"
+        }
+      },
+      {
+        "turn": "assistant",
+        "data": {
+          "end_dialogue": true,
+          "requested": {
+            "distance": false,
+            "traffic_info": false,
+            "poi_type": false,
+            "address": false,
+            "poi": false
+          },
+          "slots": {},
+          "utterance": "You're welcome. Drive safely, and enjoy. "
+        }
+      }
+    ],
+    "scenario": {
+      "kb": {
+        "items": [
+          {
+            "distance": "5 miles",
+            "traffic_info": "moderate traffic",
+            "poi_type": "chinese restaurant",
+            "address": "669 El Camino Real",
+            "poi": "P.F. Changs"
+          },
+          {
+            "distance": "6 miles",
+            "traffic_info": "moderate traffic",
+            "poi_type": "shopping center",
+            "address": "434 Arastradero Rd",
+            "poi": "Ravenswood Shopping Center"
+          },
+          {
+            "distance": "8 miles",
+            "traffic_info": "heavy traffic",
+            "poi_type": "chinese restaurant",
+            "address": "593 Arrowhead Way",
+            "poi": "Chef Chu's"
+          },
+          {
+            "distance": "5 miles",
+            "traffic_info": "no traffic",
+            "poi_type": "rest stop",
+            "address": "329 El Camino Real",
+            "poi": "The Westin"
+          },
+          {
+            "distance": "2 miles",
+            "traffic_info": "heavy traffic",
+            "poi_type": "parking garage",
+            "address": "550 Alester Ave",
+            "poi": "Dish Parking"
+          },
+          {
+            "distance": "1 miles",
+            "traffic_info": "no traffic",
+            "poi_type": "home",
+            "address": "5671 barringer street",
+            "poi": "home"
+          },
+          {
+            "distance": "4 miles",
+            "traffic_info": "heavy traffic",
+            "poi_type": "coffee or tea place",
+            "address": "583 Alester Ave",
+            "poi": "Philz"
+          },
+          {
+            "distance": "3 miles",
+            "traffic_info": "no traffic",
+            "poi_type": "hospital",
+            "address": "611 Ames Ave",
+            "poi": "Palo Alto Medical Foundation"
+          }
+        ],
+        "column_names": [
+          "poi",
+          "poi_type",
+          "address",
+          "distance",
+          "traffic_info"
+        ],
+        "kb_title": "location information"
+      },
+      "task": {
+        "intent": "navigate"
+      },
+      "uuid": "b1551b67-9278-4b63-99f2-ac14cd1f1dce"
+    }
+  },
+  {
+    "dialogue": [
+      {
+        "turn": "driver",
+        "data": {
+          "end_dialogue": false,
+          "utterance": "Hi, please set up a reminder for my dinner on the 11th at 4pm with my sister. Thanks!"
+        }
+      },
+      {
+        "turn": "assistant",
+        "data": {
+          "end_dialogue": true,
+          "requested": {
+            "room": false,
+            "agenda": false,
+            "time": true,
+            "date": true,
+            "party": true,
+            "event": true
+          },
+          "slots": {
+            "date": "11th ",
+            "party": "sister",
+            "event": "dinner ",
+            "time": "4pm "
+          },
+          "utterance": "Set! Have a good time"
+        }
+      }
+    ],
+    "scenario": {
+      "kb": {
+        "items": null,
+        "column_names": [
+          "event",
+          "time",
+          "date",
+          "room",
+          "agenda",
+          "party"
+        ],
+        "kb_title": "calendar"
+      },
+      "task": {
+        "intent": "schedule"
+      },
+      "uuid": "97da7e92-0d43-4f03-aaf2-3c67c5fd02ac"
+    }
+  },
+  {
+    "dialogue": [
+      {
+        "turn": "driver",
+        "data": {
+          "end_dialogue": false,
+          "utterance": "What time is dinner and who is it with?"
+        }
+      },
+      {
+        "turn": "assistant",
+        "data": {
+          "end_dialogue": false,
+          "requested": {
+            "room": false,
+            "agenda": false,
+            "time": true,
+            "date": false,
+            "party": true,
+            "event": true
+          },
+          "slots": {
+            "event": "dinner"
+          },
+          "utterance": "Dinner is at 7 pm with Jon."
+        }
+      },
+      {
+        "turn": "driver",
+        "data": {
+          "end_dialogue": false,
+          "utterance": "Okay, perfect! Thanks."
+        }
+      },
+      {
+        "turn": "assistant",
+        "data": {
+          "end_dialogue": true,
+          "requested": {
+            "room": false,
+            "agenda": false,
+            "time": false,
+            "date": false,
+            "party": false,
+            "event": false
+          },
+          "slots": {},
+          "utterance": "you're welcome"
+        }
+      }
+    ],
+    "scenario": {
+      "kb": {
+        "items": [
+          {
+            "room": "-",
+            "agenda": "-",
+            "time": "10am",
+            "date": "the 8th",
+            "party": "aunt",
+            "event": "dentist appointment"
+          },
+          {
+            "room": "-",
+            "agenda": "-",
+            "time": "5pm",
+            "date": "saturday",
+            "party": "Marie",
+            "event": "taking medicine"
+          },
+          {
+            "room": "-",
+            "agenda": "-",
+            "time": "4pm",
+            "date": "monday",
+            "party": "Alex",
+            "event": "football activity"
+          },
+          {
+            "room": "-",
+            "agenda": "-",
+            "time": "4pm",
+            "date": "the 4th",
+            "party": "Marie",
+            "event": "yoga activity"
+          },
+          {
+            "room": "-",
+            "agenda": "-",
+            "time": "5pm",
+            "date": "the 13th",
+            "party": "father",
+            "event": "lab appointment"
+          },
+          {
+            "room": "-",
+            "agenda": "-",
+            "time": "7pm",
+            "date": "the 8th",
+            "party": "Jon",
+            "event": "dinner"
+          }
+        ],
+        "column_names": [
+          "event",
+          "time",
+          "date",
+          "room",
+          "agenda",
+          "party"
+        ],
+        "kb_title": "calendar"
+      },
+      "task": {
+        "intent": "schedule"
+      },
+      "uuid": "abc61848-73c5-478d-ab89-65be9585f487"
+    }
+  }
+]

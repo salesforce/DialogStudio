@@ -1,0 +1,528 @@
+{
+    "Tweetsumm--train--1": {
+        "original dialog id": "b065262210783596c1fe79466b8f8985",
+        "dialog index": 1,
+        "original dialog info": {
+            "summaries": {
+                "extractive_summaries": [
+                    [
+                        {
+                            "is_agent": false,
+                            "sentences": [
+                                "So neither my iPhone nor my Apple Watch are recording my steps/activity, and Health doesn\u2019t recognise either source anymore for some reason."
+                            ]
+                        },
+                        {
+                            "is_agent": true,
+                            "sentences": [
+                                "To start, can you tell us the software versions your iPhone and Apple Watch are running currently?"
+                            ]
+                        },
+                        {
+                            "is_agent": false,
+                            "sentences": [
+                                "@AppleSupport My iPhone is on 11.1.2, and my watch is on 4.1."
+                            ]
+                        }
+                    ],
+                    [
+                        {
+                            "is_agent": false,
+                            "sentences": [
+                                "So neither my iPhone nor my Apple Watch are recording my steps/activity, and Health doesn\u2019t recognise either source anymore for some reason."
+                            ]
+                        },
+                        {
+                            "is_agent": true,
+                            "sentences": [
+                                "To start, can you tell us the software versions your iPhone and Apple Watch are running currently?"
+                            ]
+                        }
+                    ],
+                    [
+                        {
+                            "is_agent": false,
+                            "sentences": [
+                                "So neither my iPhone nor my Apple Watch are recording my steps/activity, and Health doesn\u2019t recognise either source anymore for some reason."
+                            ]
+                        },
+                        {
+                            "is_agent": true,
+                            "sentences": [
+                                "Have you tried restarting both devices since this started happening?"
+                            ]
+                        },
+                        {
+                            "is_agent": false,
+                            "sentences": [
+                                "@AppleSupport Yes, everything seems fine, it\u2019s just Health and activity."
+                            ]
+                        },
+                        {
+                            "is_agent": true,
+                            "sentences": [
+                                "@135060 Let\u2019s move to DM and look into this a bit more."
+                            ]
+                        }
+                    ]
+                ],
+                "abstractive_summaries": [
+                    [
+                        "Customer enquired about his Iphone and Apple watch which is not showing his any steps/activity and health activities.",
+                        "Agent is asking to move to DM and look into it."
+                    ],
+                    [
+                        "The customer has a problem.",
+                        "The agent in a very professional way tries to help the client."
+                    ],
+                    [
+                        "Health and activity functions are not working with the smartwatch and phone.",
+                        "Asks if the customer had restarted the items, offers to take this to DM to help resolve the issue."
+                    ]
+                ]
+            }
+        },
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": " So neither my iPhone nor my Apple Watch are recording my steps/activity, and Health doesn\u2019t recognise either source anymore for some reason. Any ideas? please read the above.",
+                "system response": " Let\u2019s investigate this together. To start, can you tell us the software versions your iPhone and Apple Watch are running currently?",
+                "dialog history": "",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 2,
+                "user utterance": " My iPhone is on 11.1.2, and my watch is on 4.1.",
+                "system response": " Thank you. Have you tried restarting both devices since this started happening?",
+                "dialog history": "<USR>  So neither my iPhone nor my Apple Watch are recording my steps/activity, and Health doesn\u2019t recognise either source anymore for some reason. Any ideas? please read the above. <SYS>  Let\u2019s investigate this together. To start, can you tell us the software versions your iPhone and Apple Watch are running currently?",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 3,
+                "user utterance": " I\u2019ve restarted both, also un-paired then re-paired the watch.",
+                "system response": " Got it. When did you first notice that the two devices were not talking to each other. Do the two devices communicate through other apps such as Messages?",
+                "dialog history": "<USR>  So neither my iPhone nor my Apple Watch are recording my steps/activity, and Health doesn\u2019t recognise either source anymore for some reason. Any ideas? please read the above. <SYS>  Let\u2019s investigate this together. To start, can you tell us the software versions your iPhone and Apple Watch are running currently? <USR>  My iPhone is on 11.1.2, and my watch is on 4.1. <SYS>  Thank you. Have you tried restarting both devices since this started happening?",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 4,
+                "user utterance": " Yes, everything seems fine, it\u2019s just Health and activity.",
+                "system response": " Let\u2019s move to DM and look into this a bit more. When reaching out in DM, let us know when this first started happening please. For example, did it start after an update or after installing a certain app?",
+                "dialog history": "<USR>  So neither my iPhone nor my Apple Watch are recording my steps/activity, and Health doesn\u2019t recognise either source anymore for some reason. Any ideas? please read the above. <SYS>  Let\u2019s investigate this together. To start, can you tell us the software versions your iPhone and Apple Watch are running currently? <USR>  My iPhone is on 11.1.2, and my watch is on 4.1. <SYS>  Thank you. Have you tried restarting both devices since this started happening? <USR>  I\u2019ve restarted both, also un-paired then re-paired the watch. <SYS>  Got it. When did you first notice that the two devices were not talking to each other. Do the two devices communicate through other apps such as Messages?",
+                "original user side information": {},
+                "original system side information": {}
+            }
+        ]
+    },
+    "Tweetsumm--train--2": {
+        "original dialog id": "1e1d8fd4f95c984fb78687c9e946dc97",
+        "dialog index": 2,
+        "original dialog info": {
+            "summaries": {
+                "extractive_summaries": [
+                    [
+                        {
+                            "is_agent": false,
+                            "sentences": [
+                                "it shows on the website it has 10 days replacement warranty, can u explain me what is it ?"
+                            ]
+                        },
+                        {
+                            "is_agent": true,
+                            "sentences": [
+                                "@264322 We've a 10days replacement policy if the item you received is damaged or defective."
+                            ]
+                        }
+                    ],
+                    [
+                        {
+                            "is_agent": false,
+                            "sentences": [
+                                "i m planning to get Apple AirPods !"
+                            ]
+                        },
+                        {
+                            "is_agent": false,
+                            "sentences": [
+                                "it shows on the website it has 10 days replacement warranty, can u explain me what is it ?"
+                            ]
+                        },
+                        {
+                            "is_agent": true,
+                            "sentences": [
+                                "@264322 We've a 10days replacement policy if the item you received is damaged or defective."
+                            ]
+                        },
+                        {
+                            "is_agent": true,
+                            "sentences": [
+                                "In case of any damage/ defect you can reach out to us, we'll check and help you accordingly."
+                            ]
+                        }
+                    ],
+                    [
+                        {
+                            "is_agent": false,
+                            "sentences": [
+                                "i m planning to get Apple AirPods !"
+                            ]
+                        },
+                        {
+                            "is_agent": false,
+                            "sentences": [
+                                "it shows on the website it has 10 days replacement warranty, can u explain me what is it ?"
+                            ]
+                        },
+                        {
+                            "is_agent": true,
+                            "sentences": [
+                                "@264322 We've a 10days replacement policy if the item you received is damaged or defective."
+                            ]
+                        },
+                        {
+                            "is_agent": true,
+                            "sentences": [
+                                "@264322 Yes, headsets/ earphones are not eligible for remorse returns."
+                            ]
+                        }
+                    ]
+                ],
+                "abstractive_summaries": [
+                    [
+                        "Customer is eager to know about the replacement policy on the earphones he wishes to buy.",
+                        "Agent stated that it only applies if the received item is defective or damaged."
+                    ],
+                    [
+                        "Wants to know about the 10 day return policy for Apple AirPods.",
+                        "Explains earphones are excluded from remorse returns and accept returns are only for damaged items."
+                    ]
+                ]
+            }
+        },
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": " hi team! i m planning to get Apple AirPods ! it shows on the website it has 10 days replacement warranty, can u explain me what is it ?",
+                "system response": " Weve a 10days replacement policy if the item you received is damaged or defective.",
+                "dialog history": "",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 2,
+                "user utterance": " Ok ! But what if i didn\u2019t like the product and want to return it",
+                "system response": " We wouldnt be able to accept the remorse returns. For more information on mobile returns policy. Kindly click on the link shared here: Appreciate your understanding.",
+                "dialog history": "<USR>  hi team! i m planning to get Apple AirPods ! it shows on the website it has 10 days replacement warranty, can u explain me what is it ? <SYS>  Weve a 10days replacement policy if the item you received is damaged or defective.",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 3,
+                "user utterance": " Ok thanks ! But these are earphones so does it mean same policy apply for these as well",
+                "system response": " Yes, headsets/ earphones are not eligible for remorse returns. In case of any damage/ defect you can reach out to us, well check and help you accordingly.",
+                "dialog history": "<USR>  hi team! i m planning to get Apple AirPods ! it shows on the website it has 10 days replacement warranty, can u explain me what is it ? <SYS>  Weve a 10days replacement policy if the item you received is damaged or defective. <USR>  Ok ! But what if i didn\u2019t like the product and want to return it <SYS>  We wouldnt be able to accept the remorse returns. For more information on mobile returns policy. Kindly click on the link shared here: Appreciate your understanding.",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 4,
+                "user utterance": " Oh ok ! Thanks for the help ! Much appreciated :)",
+                "system response": " Thanks to you too for understanding. Do keep us posted for any further concerns. Well be happy to help. \ud83d\ude0a",
+                "dialog history": "<USR>  hi team! i m planning to get Apple AirPods ! it shows on the website it has 10 days replacement warranty, can u explain me what is it ? <SYS>  Weve a 10days replacement policy if the item you received is damaged or defective. <USR>  Ok ! But what if i didn\u2019t like the product and want to return it <SYS>  We wouldnt be able to accept the remorse returns. For more information on mobile returns policy. Kindly click on the link shared here: Appreciate your understanding. <USR>  Ok thanks ! But these are earphones so does it mean same policy apply for these as well <SYS>  Yes, headsets/ earphones are not eligible for remorse returns. In case of any damage/ defect you can reach out to us, well check and help you accordingly.",
+                "original user side information": {},
+                "original system side information": {}
+            }
+        ]
+    },
+    "Tweetsumm--train--3": {
+        "original dialog id": "b5773077fa55c381260390472deff4c2",
+        "dialog index": 3,
+        "original dialog info": {
+            "summaries": {
+                "extractive_summaries": [
+                    [
+                        {
+                            "is_agent": false,
+                            "sentences": [
+                                "@AskAmex Signed up for new card with Delta to book immediately book tix."
+                            ]
+                        },
+                        {
+                            "is_agent": true,
+                            "sentences": [
+                                "Please call our New Accounts Team at 877-399-3086, for assistance."
+                            ]
+                        }
+                    ],
+                    [
+                        {
+                            "is_agent": false,
+                            "sentences": [
+                                "@AskAmex Where do I write to address a customer service issue to higher management?"
+                            ]
+                        },
+                        {
+                            "is_agent": true,
+                            "sentences": [
+                                "Which U.S. based card is this concerning?"
+                            ]
+                        },
+                        {
+                            "is_agent": false,
+                            "sentences": [
+                                "@AskAmex Signed up for new card with Delta to book immediately book tix."
+                            ]
+                        },
+                        {
+                            "is_agent": true,
+                            "sentences": [
+                                "Please call our New Accounts Team at 877-399-3086, for assistance."
+                            ]
+                        }
+                    ]
+                ],
+                "abstractive_summaries": [
+                    [
+                        "Signed up for an AmexCard with Delta but it didn't go through.",
+                        "Told to phone the new accounts team."
+                    ],
+                    [
+                        "Customer having a query about delta card.",
+                        "Agent inform to contact New accounts Team."
+                    ],
+                    [
+                        "The customer are frustrating for the alck of help from the agent.",
+                        "The agent do it his bet to help the customer."
+                    ]
+                ]
+            }
+        },
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": " Where do I write to address a customer service issue to higher management?",
+                "system response": " Hi Chris. Which U.S. based card is this concerning? Please do not release any personal or card information. Hi I never heard back from you. Let me know if I can assist. All the best.",
+                "dialog history": "",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 2,
+                "user utterance": " It was the Delta sky miles card.",
+                "system response": " Good Morning. What is this concerning and I may be able to help?",
+                "dialog history": "<USR>  Where do I write to address a customer service issue to higher management? <SYS>  Hi Chris. Which U.S. based card is this concerning? Please do not release any personal or card information. Hi I never heard back from you. Let me know if I can assist. All the best.",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 3,
+                "user utterance": " Signed up for new card with Delta to book immediately book tix. Card number didnt come up. Customer svce refused to help.",
+                "system response": " Good morning, thanks for reaching out. Please call our New Accounts Team at 877-399-3086, for assistance. Theyre available, Monday - Friday 8:00 AM to 12:00 AM (ET); Saturday 10:00 AM to 6:00 PM (ET). Sorry for the",
+                "dialog history": "<USR>  Where do I write to address a customer service issue to higher management? <SYS>  Hi Chris. Which U.S. based card is this concerning? Please do not release any personal or card information. Hi I never heard back from you. Let me know if I can assist. All the best. <USR>  It was the Delta sky miles card. <SYS>  Good Morning. What is this concerning and I may be able to help?",
+                "original user side information": {},
+                "original system side information": {}
+            }
+        ]
+    },
+    "Tweetsumm--train--4": {
+        "original dialog id": "3574d6b4418cb546a90d1561bacd66a2",
+        "dialog index": 4,
+        "original dialog info": {
+            "summaries": {
+                "extractive_summaries": [
+                    [
+                        {
+                            "is_agent": false,
+                            "sentences": [
+                                "@AmazonHelp @115821 Wow, expected 4 packages yesterday, but only 2 showed up."
+                            ]
+                        },
+                        {
+                            "is_agent": false,
+                            "sentences": [
+                                "50% failure rate-not impressed."
+                            ]
+                        },
+                        {
+                            "is_agent": false,
+                            "sentences": [
+                                "@AmazonHelp @115821 Last month driver delivered box, sat in van for 10 min on phone, and drove off."
+                            ]
+                        },
+                        {
+                            "is_agent": true,
+                            "sentences": [
+                                "We can see what options are available for the lost items, reach us by phone or chat here: https://t.co/hApLpMlfHN ^MG"
+                            ]
+                        },
+                        {
+                            "is_agent": true,
+                            "sentences": [
+                                "Have you received any updates via e-mail for the last two packages you were expecting?"
+                            ]
+                        }
+                    ],
+                    [
+                        {
+                            "is_agent": false,
+                            "sentences": [
+                                "@AmazonHelp @115821 Wow, expected 4 packages yesterday, but only 2 showed up."
+                            ]
+                        },
+                        {
+                            "is_agent": true,
+                            "sentences": [
+                                "We can see what options are available for the lost items, reach us by phone or chat here: https://t.co/hApLpMlfHN ^MG"
+                            ]
+                        }
+                    ]
+                ],
+                "abstractive_summaries": [
+                    [
+                        "The customer have a problem.",
+                        "The agent is very cordial and offers to follow up on the case."
+                    ],
+                    [
+                        "Two out of four packages not delivered.",
+                        "Wants the customer to phone to resolve issue."
+                    ],
+                    [
+                        "Customer enquires about the the 2 packages which was noticed as 'lost in transit'.",
+                        "Agent updates to reach out by phone or chat and to keep them posted."
+                    ]
+                ]
+            }
+        },
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": " Wow, expected 4 packages yesterday, but only 2 showed up. 50% failure rate-not impressed. Glad I paid for fast shipping. Last month driver delivered box, sat in van for 10 min on phone, and drove off. Then got notice that package was \"lost in transit\".",
+                "system response": " Im sorry you only received two of the orders. Is this happening with the same carrier each time? We can see what options are available for the lost items, reach us by phone or chat here:",
+                "dialog history": "",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 2,
+                "user utterance": " Problems are mostly with AMZL US delivery, but this time its UPS. UPS is usually pretty good. Also, the item isnt lost. I watched them deliver it. Status still says \"lost in transit\", though. No big deal, but it makes Amzn look silly",
+                "system response": " Okay, thanks for that info, Dave. Have you received any updates via e-mail for the last two packages you were expecting? Let us know. Wed like to help in any way we can!",
+                "dialog history": "<USR>  Wow, expected 4 packages yesterday, but only 2 showed up. 50% failure rate-not impressed. Glad I paid for fast shipping. Last month driver delivered box, sat in van for 10 min on phone, and drove off. Then got notice that package was \"lost in transit\". <SYS>  Im sorry you only received two of the orders. Is this happening with the same carrier each time? We can see what options are available for the lost items, reach us by phone or chat here:",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 3,
+                "user utterance": " Got shipping refunded via chat, and packages will be here when they get here. Thanks for letting me vent.",
+                "system response": " Keep us posted, Dave!",
+                "dialog history": "<USR>  Wow, expected 4 packages yesterday, but only 2 showed up. 50% failure rate-not impressed. Glad I paid for fast shipping. Last month driver delivered box, sat in van for 10 min on phone, and drove off. Then got notice that package was \"lost in transit\". <SYS>  Im sorry you only received two of the orders. Is this happening with the same carrier each time? We can see what options are available for the lost items, reach us by phone or chat here: <USR>  Problems are mostly with AMZL US delivery, but this time its UPS. UPS is usually pretty good. Also, the item isnt lost. I watched them deliver it. Status still says \"lost in transit\", though. No big deal, but it makes Amzn look silly <SYS>  Okay, thanks for that info, Dave. Have you received any updates via e-mail for the last two packages you were expecting? Let us know. Wed like to help in any way we can!",
+                "original user side information": {},
+                "original system side information": {}
+            }
+        ]
+    },
+    "Tweetsumm--train--5": {
+        "original dialog id": "f30d2bbc15e7ff32244761b38b67d160",
+        "dialog index": 5,
+        "original dialog info": {
+            "summaries": {
+                "extractive_summaries": [
+                    [
+                        {
+                            "is_agent": false,
+                            "sentences": [
+                                "I havent been able to purchase a ticket since your insane revamp."
+                            ]
+                        },
+                        {
+                            "is_agent": true,
+                            "sentences": [
+                                "@324537 Sorry to see this - I'll report to our Development team."
+                            ]
+                        }
+                    ],
+                    [
+                        {
+                            "is_agent": false,
+                            "sentences": [
+                                "@GWRHelp I'd rather you spent some time making your app &amp; website work properly rather than spending millions on pointless new advertising."
+                            ]
+                        },
+                        {
+                            "is_agent": true,
+                            "sentences": [
+                                "@324537 Sorry to see this - I'll report to our Development team."
+                            ]
+                        }
+                    ]
+                ],
+                "abstractive_summaries": [
+                    [
+                        "Customer cannot purchase a train ticket on the rail providers site since the revamp.",
+                        "Will report the issue to the development team."
+                    ],
+                    [
+                        "The client has a problem and is very frustrated.",
+                        "The agent tried to solve the problem."
+                    ],
+                    [
+                        "Customer is asking to make the website work properly.",
+                        "Agent stated that it will be reported to Development team."
+                    ]
+                ]
+            }
+        },
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": " Id rather you spent some time making your app &amp; website work properly rather than spending millions on pointless new advertising.",
+                "system response": " Hi. We are in the middle of huge \u00a37.5bn investment with new trains due soon. It\u2019s important to tell this story to as many people as possible",
+                "dialog history": "",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 2,
+                "user utterance": " This is what comes up no matter what I do on your website after the homepage. 24/7 for 5 days.",
+                "system response": " Hi Drayton. The websites been working. Have you tried clearing your cache or using a different browser? Lewis",
+                "dialog history": "<USR>  Id rather you spent some time making your app &amp; website work properly rather than spending millions on pointless new advertising. <SYS>  Hi. We are in the middle of huge \u00a37.5bn investment with new trains due soon. It\u2019s important to tell this story to as many people as possible",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 3,
+                "user utterance": " Tried to buy a ticket 6 times in half an hour. Every time greeted with this. Not even 30 seconds between choosing a ticket and signing in.",
+                "system response": " Sorry to see this Drayton. To confirm, is this on the app or mobile site? Phil.",
+                "dialog history": "<USR>  Id rather you spent some time making your app &amp; website work properly rather than spending millions on pointless new advertising. <SYS>  Hi. We are in the middle of huge \u00a37.5bn investment with new trains due soon. It\u2019s important to tell this story to as many people as possible <USR>  This is what comes up no matter what I do on your website after the homepage. 24/7 for 5 days. <SYS>  Hi Drayton. The websites been working. Have you tried clearing your cache or using a different browser? Lewis",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 4,
+                "user utterance": " Literally irrelevant if ppl cant buy tix for the new trains. Ive never hated a website so much that I physically dread having 2 use it. App. I havent been able to purchase a ticket since your insane revamp. It worked perfectly before and now its an absolute sh*tshow.",
+                "system response": " Sorry for the difficulty youve had, can you try un/reinstalling and booking again? Phil.",
+                "dialog history": "<USR>  Id rather you spent some time making your app &amp; website work properly rather than spending millions on pointless new advertising. <SYS>  Hi. We are in the middle of huge \u00a37.5bn investment with new trains due soon. It\u2019s important to tell this story to as many people as possible <USR>  This is what comes up no matter what I do on your website after the homepage. 24/7 for 5 days. <SYS>  Hi Drayton. The websites been working. Have you tried clearing your cache or using a different browser? Lewis <USR>  Tried to buy a ticket 6 times in half an hour. Every time greeted with this. Not even 30 seconds between choosing a ticket and signing in. <SYS>  Sorry to see this Drayton. To confirm, is this on the app or mobile site? Phil.",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 5,
+                "user utterance": " Believe me Phil Ive tried every trick in the book. Off and on again in all sense of the word.",
+                "system response": " Sorry to see this - Ill report to our Development team. Can you use mobile or desktop site in the meantime? Phil.",
+                "dialog history": "<USR>  Id rather you spent some time making your app &amp; website work properly rather than spending millions on pointless new advertising. <SYS>  Hi. We are in the middle of huge \u00a37.5bn investment with new trains due soon. It\u2019s important to tell this story to as many people as possible <USR>  This is what comes up no matter what I do on your website after the homepage. 24/7 for 5 days. <SYS>  Hi Drayton. The websites been working. Have you tried clearing your cache or using a different browser? Lewis <USR>  Tried to buy a ticket 6 times in half an hour. Every time greeted with this. Not even 30 seconds between choosing a ticket and signing in. <SYS>  Sorry to see this Drayton. To confirm, is this on the app or mobile site? Phil. <USR>  Literally irrelevant if ppl cant buy tix for the new trains. Ive never hated a website so much that I physically dread having 2 use it. App. I havent been able to purchase a ticket since your insane revamp. It worked perfectly before and now its an absolute sh*tshow. <SYS>  Sorry for the difficulty youve had, can you try un/reinstalling and booking again? Phil.",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 6,
+                "user utterance": " No Phil, am going to get the bus instead app works flawlessly.",
+                "system response": " Apologies again for the difficulty youve had today Drayton, I appreciate this is frustrating. Phil.",
+                "dialog history": "<USR>  Id rather you spent some time making your app &amp; website work properly rather than spending millions on pointless new advertising. <SYS>  Hi. We are in the middle of huge \u00a37.5bn investment with new trains due soon. It\u2019s important to tell this story to as many people as possible <USR>  This is what comes up no matter what I do on your website after the homepage. 24/7 for 5 days. <SYS>  Hi Drayton. The websites been working. Have you tried clearing your cache or using a different browser? Lewis <USR>  Tried to buy a ticket 6 times in half an hour. Every time greeted with this. Not even 30 seconds between choosing a ticket and signing in. <SYS>  Sorry to see this Drayton. To confirm, is this on the app or mobile site? Phil. <USR>  Literally irrelevant if ppl cant buy tix for the new trains. Ive never hated a website so much that I physically dread having 2 use it. App. I havent been able to purchase a ticket since your insane revamp. It worked perfectly before and now its an absolute sh*tshow. <SYS>  Sorry for the difficulty youve had, can you try un/reinstalling and booking again? Phil. <USR>  Believe me Phil Ive tried every trick in the book. Off and on again in all sense of the word. <SYS>  Sorry to see this - Ill report to our Development team. Can you use mobile or desktop site in the meantime? Phil.",
+                "original user side information": {},
+                "original system side information": {}
+            }
+        ]
+    }
+}
