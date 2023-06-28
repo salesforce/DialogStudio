@@ -3,21 +3,21 @@
     <img src="figures/logo.png" width="500"/>
     <br>
 <p>
-<div align="center">
+<!-- <div align="center">
 <a href="">Benchmark</a>,
 <a href="">Technical Report</a>,
 <a href="">Documentation</a>,
 <a href="">Jupyter Notebook Examples</a>,
 <a href="">Blog</a>
-</div>
+</div> -->
 
 # DialogStudio: Unified Dialog Datasets and Instruction-Aware Models for Conversational AI
 
-**--Note--:** More contents will be added soon after passing internal review. 
+**--Note--:** More contents will be added soon after passing internal legal review process. 
 
 ### Datasets
-Check [DialogStudio_datasets.csv](https://docs.google.com/spreadsheets/d/10U9I4GoHFTYxl3OlzbbV0gmXerMT9Itn2MZs8t6AIK0/edit#gid=461625820) for all supported datasets.
-
+<!-- Check [DialogStudio_datasets.csv](https://docs.google.com/spreadsheets/d/10U9I4GoHFTYxl3OlzbbV0gmXerMT9Itn2MZs8t6AIK0/edit#gid=461625820) for all supported datasets. -->
+Below figure shows the general DialogStudio statistics. Please refer the folder of each category for more details.
 <p align="center">
     <br>
     <img src="figures/DialogStudio_Stats.png" width="700"/>
@@ -25,52 +25,6 @@ Check [DialogStudio_datasets.csv](https://docs.google.com/spreadsheets/d/10U9I4G
 <p>
 
 
-Data Structure
-```
-Datasets/
-├── Task-Oriented:
-│   ├── KVRET
-│   ├── MuDoCo
-│   ├── AirDialogue
-│   ├── DuRecDial-2.0
-│   ├── SimJointGEN
-│   ├── BiTOD
-│   ├── DSTC2-Clean
-│   ├── OpenDialKG
-│   ├── Taskmaster1
-│   ├── Taskmaster2
-│   ├── Taskmaster3
-│   ├── CaSiNo
-│   ├── HDSA-Dialog
-│   ├── MetaLWOZ
-│   ├── FRAMES
-│   ├── MULTIWOZ2_2
-│   ├── SalesBot
-│   ├── STAR
-│   ├── ABCD
-│   ├── SGD
-│   ├── WOZ2_0
-│   ├── CraigslistBargains
-│   ├── MulDoGO
-│   ├── SimJointMovie
-│   ├── SimJointRestaurant
-│   └── SimJointGEN
-dialog-summarization
-│   ├── AMI
-│   ├── ConvoSumm
-│   ├── DialogSum
-│   ├── ICSI
-│   ├── MediaSum
-│   ├── QMSum
-│   ├── SAMSum
-│   ├── SummScreen_ForeverDreaming
-│   ├── SummScreen_TVMegaSite
-│   ├── TweetSumm
-│   └── ECTSum
-│   └── CRD3
-
-
-```
 
 # License
 
