@@ -37,4 +37,4 @@ Our project follows the following structure with respect to licensing:
 2. Original dataset licenses: For reference, we also put the original avaliable licenses for each dataset into their respective dataset folders.
 3. Code: Our codebase is under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0).
 
-For detailed information, please refer to the specific licenses.
+For detailed licensing information, please refer to the specific licenses accompanying the datasets. If you utilize datasets from DialogStudio, we kindly request that you cite our work.
