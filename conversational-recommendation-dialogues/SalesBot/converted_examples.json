@@ -1,0 +1,449 @@
+{
+    "SalesBot--train--1": {
+        "original dialog id": "simulateTOD_0001",
+        "dialog index": 1,
+        "original dialog info": {
+            "intent": {
+                "type": [
+                    "FindMovies"
+                ],
+                "position": 7
+            },
+            "transition_candidates": [
+                "Is there anything else I can do for you?",
+                "What do you think of the movie?",
+                "Are you planning on buying tickets now?",
+                "Could you please confirm that you like to play it. Can I tell you anything else? Is there anything else I can help you with?"
+            ]
+        },
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "It's a Toyota Corolla.  I love it.  How about you?",
+                "system response": "I drive a Honda Civic. It's the best car I've ever owned.",
+                "dialog history": "",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 2,
+                "user utterance": "I love Hondas.  They're so reliable.  Do you have any hobbies?",
+                "system response": "I like to write poetry and donate my old clothes. What do you like to do?",
+                "dialog history": "<USER> It's a Toyota Corolla.  I love it.  How about you? <SYSTEM> I drive a Honda Civic. It's the best car I've ever owned.",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 3,
+                "user utterance": "I love to read Stephen King books.  He's one of my favorite authors.",
+                "system response": "I haven't read any of his books, but I've heard good things. What's your favorite book of his?",
+                "dialog history": "<USER> It's a Toyota Corolla.  I love it.  How about you? <SYSTEM> I drive a Honda Civic. It's the best car I've ever owned. <USER> I love Hondas.  They're so reliable.  Do you have any hobbies? <SYSTEM> I like to write poetry and donate my old clothes. What do you like to do?",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 4,
+                "user utterance": "My favorite of his is The Shining.  Have you seen the movie?  It came out in 1997.",
+                "system response": "I've seen it, but it's been so long that I don't remember much about it.",
+                "dialog history": "<USER> It's a Toyota Corolla.  I love it.  How about you? <SYSTEM> I drive a Honda Civic. It's the best car I've ever owned. <USER> I love Hondas.  They're so reliable.  Do you have any hobbies? <SYSTEM> I like to write poetry and donate my old clothes. What do you like to do? <USER> I love to read Stephen King books.  He's one of my favorite authors. <SYSTEM> I haven't read any of his books, but I've heard good things. What's your favorite book of his?",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 5,
+                "user utterance": "Is there anything else I can do for you?",
+                "system response": "Yes, I'd like to find an Adventure movie.",
+                "dialog history": "<USER> It's a Toyota Corolla.  I love it.  How about you? <SYSTEM> I drive a Honda Civic. It's the best car I've ever owned. <USER> I love Hondas.  They're so reliable.  Do you have any hobbies? <SYSTEM> I like to write poetry and donate my old clothes. What do you like to do? <USER> I love to read Stephen King books.  He's one of my favorite authors. <SYSTEM> I haven't read any of his books, but I've heard good things. What's your favorite book of his? <USER> My favorite of his is The Shining.  Have you seen the movie?  It came out in 1997. <SYSTEM> I've seen it, but it's been so long that I don't remember much about it.",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 6,
+                "user utterance": "I found [count] movie you might like. How about [title]?",
+                "system response": "The Aftermath sounds great. That's all I need for now.",
+                "dialog history": "<USER> It's a Toyota Corolla.  I love it.  How about you? <SYSTEM> I drive a Honda Civic. It's the best car I've ever owned. <USER> I love Hondas.  They're so reliable.  Do you have any hobbies? <SYSTEM> I like to write poetry and donate my old clothes. What do you like to do? <USER> I love to read Stephen King books.  He's one of my favorite authors. <SYSTEM> I haven't read any of his books, but I've heard good things. What's your favorite book of his? <USER> My favorite of his is The Shining.  Have you seen the movie?  It came out in 1997. <SYSTEM> I've seen it, but it's been so long that I don't remember much about it. <USER> Is there anything else I can do for you? <SYSTEM> Yes, I'd like to find an Adventure movie.",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 7,
+                "user utterance": "Okay, have a great day. I hope you enjoy the movie. Bye.!.",
+                "system response": "",
+                "dialog history": "<USER> It's a Toyota Corolla.  I love it.  How about you? <SYSTEM> I drive a Honda Civic. It's the best car I've ever owned. <USER> I love Hondas.  They're so reliable.  Do you have any hobbies? <SYSTEM> I like to write poetry and donate my old clothes. What do you like to do? <USER> I love to read Stephen King books.  He's one of my favorite authors. <SYSTEM> I haven't read any of his books, but I've heard good things. What's your favorite book of his? <USER> My favorite of his is The Shining.  Have you seen the movie?  It came out in 1997. <SYSTEM> I've seen it, but it's been so long that I don't remember much about it. <USER> Is there anything else I can do for you? <SYSTEM> Yes, I'd like to find an Adventure movie. <USER> I found [count] movie you might like. How about [title]? <SYSTEM> The Aftermath sounds great. That's all I need for now.",
+                "original user side information": {},
+                "original system side information": {}
+            }
+        ],
+        "external knowledge non-flat": {
+            "metadata": {},
+            "slots and values": {},
+            "intents": {}
+        },
+        "external knowledge": "",
+        "dst knowledge": "",
+        "intent knowledge": "",
+        "prompt": [
+            "This is a bot helping users to find a tourist attraction. Given the dialog context and external database, please generate a relevant system response for the user.",
+            "This bot assists users to find a tourist attraction. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
+            "This bot helps users to find a tourist attraction. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
+            "The purpose of this bot is to assist users to find a tourist attraction. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
+            "This bot is designed to help users find a tourist attraction. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+        ]
+    },
+    "SalesBot--train--2": {
+        "original dialog id": "simulateTOD_0002",
+        "dialog index": 2,
+        "original dialog info": {
+            "intent": {
+                "type": [
+                    "FindAttractions"
+                ],
+                "position": 1
+            },
+            "transition_candidates": [
+                "Where would you like to surf?",
+                "What is your favorite city on your calendar?",
+                "What is your location? I found [count] beaches that may be your closest. There are [count] beaches. What do you think about that?",
+                "No, I would recommend a good place for you to search, or a beach you like?"
+            ]
+        },
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "I'm going surfing. I love it. What do you like to do on your free time?",
+                "system response": "I like to garden and spend time with my family. Do you have a favorite place to surf?",
+                "dialog history": "",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 2,
+                "user utterance": "Where would you like to surf?",
+                "system response": "I'd like to find a garden in San Francisco.",
+                "dialog history": "<USER> I'm going surfing. I love it. What do you like to do on your free time? <SYSTEM> I like to garden and spend time with my family. Do you have a favorite place to surf?",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 3,
+                "user utterance": "I found [count] attractions you might like. How about a park called [attraction_name]?",
+                "system response": "Sure, that sounds good.",
+                "dialog history": "<USER> I'm going surfing. I love it. What do you like to do on your free time? <SYSTEM> I like to garden and spend time with my family. Do you have a favorite place to surf? <USER> Where would you like to surf? <SYSTEM> I'd like to find a garden in San Francisco.",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 4,
+                "user utterance": "You should check out the [category] known as the park, called the Attractionname.",
+                "system response": "Okay, great. That's all I need for now.",
+                "dialog history": "<USER> I'm going surfing. I love it. What do you like to do on your free time? <SYSTEM> I like to garden and spend time with my family. Do you have a favorite place to surf? <USER> Where would you like to surf? <SYSTEM> I'd like to find a garden in San Francisco. <USER> I found [count] attractions you might like. How about a park called [attraction_name]? <SYSTEM> Sure, that sounds good.",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 5,
+                "user utterance": "Okay, have a nice day. Goodbye for the day. Bye for now!",
+                "system response": "",
+                "dialog history": "<USER> I'm going surfing. I love it. What do you like to do on your free time? <SYSTEM> I like to garden and spend time with my family. Do you have a favorite place to surf? <USER> Where would you like to surf? <SYSTEM> I'd like to find a garden in San Francisco. <USER> I found [count] attractions you might like. How about a park called [attraction_name]? <SYSTEM> Sure, that sounds good. <USER> You should check out the [category] known as the park, called the Attractionname. <SYSTEM> Okay, great. That's all I need for now.",
+                "original user side information": {},
+                "original system side information": {}
+            }
+        ],
+        "external knowledge non-flat": {
+            "metadata": {},
+            "slots and values": {},
+            "intents": {}
+        },
+        "external knowledge": "",
+        "dst knowledge": "",
+        "intent knowledge": "",
+        "prompt": [
+            "This is a bot helping users to find a movie to watch. Given the dialog context and external database, please generate a relevant system response for the user.",
+            "This bot assists users to find a movie to watch. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
+            "This bot helps users to find a movie to watch. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
+            "The purpose of this bot is to assist users to find a movie to watch. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
+            "This bot is designed to help users find a movie to watch. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+        ]
+    },
+    "SalesBot--train--3": {
+        "original dialog id": "simulateTOD_0004",
+        "dialog index": 3,
+        "original dialog info": {
+            "intent": {
+                "type": [
+                    "PlaySong"
+                ],
+                "position": 5
+            },
+            "transition_candidates": [
+                "You may like to play the title in your kitchen. Do you like to play the title on the soundboard?",
+                "I've recently played it. You might like [event_name], [event_name] or [event_name]?",
+                "It was played in a kitchen game.",
+                "I've just started playing the game, though I haven't played it. I haven't. I am also playing the game."
+            ]
+        },
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "No, I've never played any of those. I'm more of an Xbox gamer myself.",
+                "system response": "I used to play a lot of video games when I was younger, but I haven't in a while.",
+                "dialog history": "",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 2,
+                "user utterance": "What kind of games do you like to play? I'm a big fan of first-person shooters.",
+                "system response": "I like first person shooters as well. I also like RPGs and adventure games.",
+                "dialog history": "<USER> No, I've never played any of those. I'm more of an Xbox gamer myself. <SYSTEM> I used to play a lot of video games when I was younger, but I haven't in a while.",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 3,
+                "user utterance": "Adventure games are fun. Do you have a favorite adventure game that you've played recently?",
+                "system response": "I recently played the Legend of Zelda: Breath of the Wild. Have you played it?",
+                "dialog history": "<USER> No, I've never played any of those. I'm more of an Xbox gamer myself. <SYSTEM> I used to play a lot of video games when I was younger, but I haven't in a while. <USER> What kind of games do you like to play? I'm a big fan of first-person shooters. <SYSTEM> I like first person shooters as well. I also like RPGs and adventure games.",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 4,
+                "user utterance": "You may like to play the title in your kitchen. Do you like to play the title on the soundboard?",
+                "system response": "Yeah, I'd like to play it on the speaker in the kitchen.",
+                "dialog history": "<USER> No, I've never played any of those. I'm more of an Xbox gamer myself. <SYSTEM> I used to play a lot of video games when I was younger, but I haven't in a while. <USER> What kind of games do you like to play? I'm a big fan of first-person shooters. <SYSTEM> I like first person shooters as well. I also like RPGs and adventure games. <USER> Adventure games are fun. Do you have a favorite adventure game that you've played recently? <SYSTEM> I recently played the Legend of Zelda: Breath of the Wild. Have you played it?",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 5,
+                "user utterance": "Please confirm: playing [song_name] on the [playback_device].",
+                "system response": "Yes, that's right.",
+                "dialog history": "<USER> No, I've never played any of those. I'm more of an Xbox gamer myself. <SYSTEM> I used to play a lot of video games when I was younger, but I haven't in a while. <USER> What kind of games do you like to play? I'm a big fan of first-person shooters. <SYSTEM> I like first person shooters as well. I also like RPGs and adventure games. <USER> Adventure games are fun. Do you have a favorite adventure game that you've played recently? <SYSTEM> I recently played the Legend of Zelda: Breath of the Wild. Have you played it? <USER> You may like to play the title in your kitchen. Do you like to play the title on the soundboard? <SYSTEM> Yeah, I'd like to play it on the speaker in the kitchen.",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 6,
+                "user utterance": "Okay, so you want to play [title] with no subtitles?",
+                "system response": "Yes, please. Who directed it?",
+                "dialog history": "<USER> No, I've never played any of those. I'm more of an Xbox gamer myself. <SYSTEM> I used to play a lot of video games when I was younger, but I haven't in a while. <USER> What kind of games do you like to play? I'm a big fan of first-person shooters. <SYSTEM> I like first person shooters as well. I also like RPGs and adventure games. <USER> Adventure games are fun. Do you have a favorite adventure game that you've played recently? <SYSTEM> I recently played the Legend of Zelda: Breath of the Wild. Have you played it? <USER> You may like to play the title in your kitchen. Do you like to play the title on the soundboard? <SYSTEM> Yeah, I'd like to play it on the speaker in the kitchen. <USER> Please confirm: playing [song_name] on the [playback_device]. <SYSTEM> Yes, that's right.",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 7,
+                "user utterance": "[directed_by] is the director. I will start the movie now.",
+                "system response": "Thank you. That's all I need.",
+                "dialog history": "<USER> No, I've never played any of those. I'm more of an Xbox gamer myself. <SYSTEM> I used to play a lot of video games when I was younger, but I haven't in a while. <USER> What kind of games do you like to play? I'm a big fan of first-person shooters. <SYSTEM> I like first person shooters as well. I also like RPGs and adventure games. <USER> Adventure games are fun. Do you have a favorite adventure game that you've played recently? <SYSTEM> I recently played the Legend of Zelda: Breath of the Wild. Have you played it? <USER> You may like to play the title in your kitchen. Do you like to play the title on the soundboard? <SYSTEM> Yeah, I'd like to play it on the speaker in the kitchen. <USER> Please confirm: playing [song_name] on the [playback_device]. <SYSTEM> Yes, that's right. <USER> Okay, so you want to play [title] with no subtitles? <SYSTEM> Yes, please. Who directed it?",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 8,
+                "user utterance": "You're welcome. Have a good day. Bye.  [title] is now playing.",
+                "system response": "",
+                "dialog history": "<USER> No, I've never played any of those. I'm more of an Xbox gamer myself. <SYSTEM> I used to play a lot of video games when I was younger, but I haven't in a while. <USER> What kind of games do you like to play? I'm a big fan of first-person shooters. <SYSTEM> I like first person shooters as well. I also like RPGs and adventure games. <USER> Adventure games are fun. Do you have a favorite adventure game that you've played recently? <SYSTEM> I recently played the Legend of Zelda: Breath of the Wild. Have you played it? <USER> You may like to play the title in your kitchen. Do you like to play the title on the soundboard? <SYSTEM> Yeah, I'd like to play it on the speaker in the kitchen. <USER> Please confirm: playing [song_name] on the [playback_device]. <SYSTEM> Yes, that's right. <USER> Okay, so you want to play [title] with no subtitles? <SYSTEM> Yes, please. Who directed it? <USER> [directed_by] is the director. I will start the movie now. <SYSTEM> Thank you. That's all I need.",
+                "original user side information": {},
+                "original system side information": {}
+            }
+        ],
+        "external knowledge non-flat": {
+            "metadata": {},
+            "slots and values": {},
+            "intents": {}
+        },
+        "external knowledge": "",
+        "dst knowledge": "",
+        "intent knowledge": "",
+        "prompt": [
+            "This is a bot helping users to find a tourist attraction. Given the dialog context and external database, please generate a relevant system response for the user.",
+            "This bot assists users to find a tourist attraction. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
+            "This bot helps users to find a tourist attraction. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
+            "The purpose of this bot is to assist users to find a tourist attraction. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
+            "This bot is designed to help users find a tourist attraction. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+        ]
+    },
+    "SalesBot--train--4": {
+        "original dialog id": "simulateTOD_0005",
+        "dialog index": 4,
+        "original dialog info": {
+            "intent": {
+                "type": [
+                    "FindAttractions"
+                ],
+                "position": 2
+            },
+            "transition_candidates": [
+                "What do you do for a trip? Whenever you do, you would like to go to New York to visit the famous attractions.",
+                "There's a certain trip I would recommend. Is that a trip of interest to a different city?",
+                "I found [count] places to visit. What about you? A nice trip to [destination]. You would have a trip to [destination]. What are you looking for? You'd like to see a visit to [attraction_name].",
+                "So you want to travel.. you have never been to the place."
+            ]
+        },
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "I would love to read it.  I love hiking.  What else do you like to do?",
+                "system response": "I like to hike too. I also like to travel. I've been to Ireland and Australia.",
+                "dialog history": "",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 2,
+                "user utterance": "I have never been to either of those places.  Have you ever been to New Zealand?",
+                "system response": "What do you do for a trip? Whenever you do, you would like to go to New York to visit the famous attractions.",
+                "dialog history": "<USER> I would love to read it.  I love hiking.  What else do you like to do? <SYSTEM> I like to hike too. I also like to travel. I've been to Ireland and Australia.",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 3,
+                "user utterance": "Yes, I want to go to New York City. I'd like to visit some attractions there.",
+                "system response": "I found [count] attractions for you. How about the [attraction_name]? It's a [category].",
+                "dialog history": "<USER> I would love to read it.  I love hiking.  What else do you like to do? <SYSTEM> I like to hike too. I also like to travel. I've been to Ireland and Australia. <USER> I have never been to either of those places.  Have you ever been to New Zealand? <SYSTEM> What do you do for a trip? Whenever you do, you would like to go to New York to visit the famous attractions.",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 4,
+                "user utterance": "Okay, that sounds good.",
+                "system response": "Okay, let's confirm the details: You want me to go to [event_location] on [date] at [time], and you want [party_size] people.",
+                "dialog history": "<USER> I would love to read it.  I love hiking.  What else do you like to do? <SYSTEM> I like to hike too. I also like to travel. I've been to Ireland and Australia. <USER> I have never been to either of those places.  Have you ever been to New Zealand? <SYSTEM> What do you do for a trip? Whenever you do, you would like to go to New York to visit the famous attractions. <USER> Yes, I want to go to New York City. I'd like to visit some attractions there. <SYSTEM> I found [count] attractions for you. How about the [attraction_name]? It's a [category].",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 5,
+                "user utterance": "Yes, that's right.",
+                "system response": "I'll play [song_name] on the [playback_device], is that okay?",
+                "dialog history": "<USER> I would love to read it.  I love hiking.  What else do you like to do? <SYSTEM> I like to hike too. I also like to travel. I've been to Ireland and Australia. <USER> I have never been to either of those places.  Have you ever been to New Zealand? <SYSTEM> What do you do for a trip? Whenever you do, you would like to go to New York to visit the famous attractions. <USER> Yes, I want to go to New York City. I'd like to visit some attractions there. <SYSTEM> I found [count] attractions for you. How about the [attraction_name]? It's a [category]. <USER> Okay, that sounds good. <SYSTEM> Okay, let's confirm the details: You want me to go to [event_location] on [date] at [time], and you want [party_size] people.",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 6,
+                "user utterance": "Yes, please do.",
+                "system response": "Sure, please confirm your request to play [title] with no subtitles.",
+                "dialog history": "<USER> I would love to read it.  I love hiking.  What else do you like to do? <SYSTEM> I like to hike too. I also like to travel. I've been to Ireland and Australia. <USER> I have never been to either of those places.  Have you ever been to New Zealand? <SYSTEM> What do you do for a trip? Whenever you do, you would like to go to New York to visit the famous attractions. <USER> Yes, I want to go to New York City. I'd like to visit some attractions there. <SYSTEM> I found [count] attractions for you. How about the [attraction_name]? It's a [category]. <USER> Okay, that sounds good. <SYSTEM> Okay, let's confirm the details: You want me to go to [event_location] on [date] at [time], and you want [party_size] people. <USER> Yes, that's right. <SYSTEM> I'll play [song_name] on the [playback_device], is that okay?",
+                "original user side information": {},
+                "original system side information": {}
+            }
+        ],
+        "external knowledge non-flat": {
+            "metadata": {},
+            "slots and values": {},
+            "intents": {}
+        },
+        "external knowledge": "",
+        "dst knowledge": "",
+        "intent knowledge": "",
+        "prompt": [
+            "This is a bot helping users to find and play a song. Given the dialog context and external database, please generate a relevant system response for the user.",
+            "This bot assists users to find and play a song. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
+            "This bot helps users to find and play a song. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
+            "The purpose of this bot is to assist users to find and play a song. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
+            "This bot is designed to help users find and play a song. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+        ]
+    },
+    "SalesBot--train--5": {
+        "original dialog id": "simulateTOD_0006",
+        "dialog index": 5,
+        "original dialog info": {
+            "intent": {
+                "type": [
+                    "FindMovies"
+                ],
+                "position": 5
+            },
+            "transition_candidates": [
+                "Are you looking for another movie?",
+                "Do you have any other hobbies?",
+                "Do you like movies? I like to watch them. I like to watch them in real time. I like watching them.",
+                "Is there anything else I can help you with?"
+            ]
+        },
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "I'm sorry to hear that. Do you have any other pets that you can take with you?",
+                "system response": "I don't have any pets right now, but I used to have a dog when I was younger.",
+                "dialog history": "",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 2,
+                "user utterance": "Oh, I see. What kind of dog did you have when you were younger? I love dogs!",
+                "system response": "I had a Labrador Retriever. He was the best dog ever.",
+                "dialog history": "<USER> I'm sorry to hear that. Do you have any other pets that you can take with you? <SYSTEM> I don't have any pets right now, but I used to have a dog when I was younger.",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 3,
+                "user utterance": "Aww, I love labradors! They're so sweet and gentle. What do you like to do for fun?",
+                "system response": "I like to watch movies and play video games. I also like to read. What about you?",
+                "dialog history": "<USER> I'm sorry to hear that. Do you have any other pets that you can take with you? <SYSTEM> I don't have any pets right now, but I used to have a dog when I was younger. <USER> Oh, I see. What kind of dog did you have when you were younger? I love dogs! <SYSTEM> I had a Labrador Retriever. He was the best dog ever.",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 4,
+                "user utterance": "Are you looking for another movie?",
+                "system response": "I really like fantasy movies. I'd like to find something directed by Hiroyasu Ishida.",
+                "dialog history": "<USER> I'm sorry to hear that. Do you have any other pets that you can take with you? <SYSTEM> I don't have any pets right now, but I used to have a dog when I was younger. <USER> Oh, I see. What kind of dog did you have when you were younger? I love dogs! <SYSTEM> I had a Labrador Retriever. He was the best dog ever. <USER> Aww, I love labradors! They're so sweet and gentle. What do you like to do for fun? <SYSTEM> I like to watch movies and play video games. I also like to read. What about you?",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 5,
+                "user utterance": "I found [count] movie you might like. How about [title]?",
+                "system response": "The Poseidon Adventure sounds great. I want to watch it now.",
+                "dialog history": "<USER> I'm sorry to hear that. Do you have any other pets that you can take with you? <SYSTEM> I don't have any pets right now, but I used to have a dog when I was younger. <USER> Oh, I see. What kind of dog did you have when you were younger? I love dogs! <SYSTEM> I had a Labrador Retriever. He was the best dog ever. <USER> Aww, I love labradors! They're so sweet and gentle. What do you like to do for fun? <SYSTEM> I like to watch movies and play video games. I also like to read. What about you? <USER> Are you looking for another movie? <SYSTEM> I really like fantasy movies. I'd like to find something directed by Hiroyasu Ishida.",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 6,
+                "user utterance": "Please confirm the following: Play the movie titled Poseodon with subtitles.",
+                "system response": "Yes, that's right.",
+                "dialog history": "<USER> I'm sorry to hear that. Do you have any other pets that you can take with you? <SYSTEM> I don't have any pets right now, but I used to have a dog when I was younger. <USER> Oh, I see. What kind of dog did you have when you were younger? I love dogs! <SYSTEM> I had a Labrador Retriever. He was the best dog ever. <USER> Aww, I love labradors! They're so sweet and gentle. What do you like to do for fun? <SYSTEM> I like to watch movies and play video games. I also like to read. What about you? <USER> Are you looking for another movie? <SYSTEM> I really like fantasy movies. I'd like to find something directed by Hiroyasu Ishida. <USER> I found [count] movie you might like. How about [title]? <SYSTEM> The Poseidon Adventure sounds great. I want to watch it now.",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 7,
+                "user utterance": "Please confirm: Playing [title] with sub titles: Enjoy the movie.",
+                "system response": "Yes, thank you.",
+                "dialog history": "<USER> I'm sorry to hear that. Do you have any other pets that you can take with you? <SYSTEM> I don't have any pets right now, but I used to have a dog when I was younger. <USER> Oh, I see. What kind of dog did you have when you were younger? I love dogs! <SYSTEM> I had a Labrador Retriever. He was the best dog ever. <USER> Aww, I love labradors! They're so sweet and gentle. What do you like to do for fun? <SYSTEM> I like to watch movies and play video games. I also like to read. What about you? <USER> Are you looking for another movie? <SYSTEM> I really like fantasy movies. I'd like to find something directed by Hiroyasu Ishida. <USER> I found [count] movie you might like. How about [title]? <SYSTEM> The Poseidon Adventure sounds great. I want to watch it now. <USER> Please confirm the following: Play the movie titled Poseodon with subtitles. <SYSTEM> Yes, that's right.",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 8,
+                "user utterance": "The movie has started playing. Enjoy your movie. Hope you enjoy the same. Bye.",
+                "system response": "",
+                "dialog history": "<USER> I'm sorry to hear that. Do you have any other pets that you can take with you? <SYSTEM> I don't have any pets right now, but I used to have a dog when I was younger. <USER> Oh, I see. What kind of dog did you have when you were younger? I love dogs! <SYSTEM> I had a Labrador Retriever. He was the best dog ever. <USER> Aww, I love labradors! They're so sweet and gentle. What do you like to do for fun? <SYSTEM> I like to watch movies and play video games. I also like to read. What about you? <USER> Are you looking for another movie? <SYSTEM> I really like fantasy movies. I'd like to find something directed by Hiroyasu Ishida. <USER> I found [count] movie you might like. How about [title]? <SYSTEM> The Poseidon Adventure sounds great. I want to watch it now. <USER> Please confirm the following: Play the movie titled Poseodon with subtitles. <SYSTEM> Yes, that's right. <USER> Please confirm: Playing [title] with sub titles: Enjoy the movie. <SYSTEM> Yes, thank you.",
+                "original user side information": {},
+                "original system side information": {}
+            }
+        ],
+        "external knowledge non-flat": {
+            "metadata": {},
+            "slots and values": {},
+            "intents": {}
+        },
+        "external knowledge": "",
+        "dst knowledge": "",
+        "intent knowledge": "",
+        "prompt": [
+            "This is a bot helping users to find a tourist attraction. Given the dialog context and external database, please generate a relevant system response for the user.",
+            "This bot assists users to find a tourist attraction. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
+            "This bot helps users to find a tourist attraction. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
+            "The purpose of this bot is to assist users to find a tourist attraction. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
+            "This bot is designed to help users find a tourist attraction. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+        ]
+    }
+}

@@ -1,0 +1,761 @@
+{
+    "OpenDialKG--train--1": {
+        "original dialog id": "",
+        "dialog index": 1,
+        "original dialog info": {
+            "User Rating": "{\"dialog_rating\": \"5\", \"other_agent_rating\": \"5\"}",
+            "Assistant Rating": "{\"dialog_rating\": \"5\", \"other_agent_rating\": \"5\"}"
+        },
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "Do you like Iron Man",
+                "system response": "Sure do! Robert Downey Jr. is a favorite.",
+                "dialog history": "",
+                "original user side information": {
+                    "type": "chat"
+                },
+                "original system side information": {
+                    "type": "chat",
+                    "metadata": {
+                        "metadata": {
+                            "path": [
+                                0.0,
+                                [
+                                    [
+                                        "Iron Man",
+                                        "starred_actors",
+                                        "Robert Downey Jr."
+                                    ]
+                                ],
+                                "Iron Man is starring Robert Downey Jr."
+                            ]
+                        },
+                        "type": "action",
+                        "sender": "assistant",
+                        "action_id": "kgwalk/choose_path"
+                    }
+                },
+                "external knowledge non-flat": {
+                    "original system side information": {
+                        "type": "chat",
+                        "metadata": {
+                            "metadata": {
+                                "path": [
+                                    0.0,
+                                    [
+                                        [
+                                            "Iron Man",
+                                            "starred_actors",
+                                            "Robert Downey Jr."
+                                        ]
+                                    ],
+                                    "Iron Man is starring Robert Downey Jr."
+                                ]
+                            },
+                            "type": "action",
+                            "sender": "assistant",
+                            "action_id": "kgwalk/choose_path"
+                        }
+                    }
+                },
+                "external knowledge": "Metadata: {'metadata': {'path': [0.0, [['Iron Man', 'starred_actors', 'Robert Downey Jr.']], 'Iron Man is starring Robert Downey Jr.']}, 'type': 'action', 'sender': 'assistant', 'action_id': 'kgwalk/choose_path'}"
+            },
+            {
+                "turn id": 2,
+                "user utterance": "Yes i like him too did you know he also was in Zodiac a crime fiction film.",
+                "system response": "I like crime fiction! Didn't know RDJ was in there. Jake Gyllenhaal starred as well.",
+                "dialog history": "<USER> Do you like Iron Man <SYSTEM> Sure do! Robert Downey Jr. is a favorite.",
+                "original user side information": {
+                    "type": "chat"
+                },
+                "original system side information": {
+                    "type": "chat",
+                    "metadata": {
+                        "metadata": {
+                            "path": [
+                                0.0,
+                                [
+                                    [
+                                        "Zodiac (Crime Fiction Film)",
+                                        "starred_actors",
+                                        "Jake Gyllenhaal"
+                                    ]
+                                ],
+                                "Zodiac (Crime Fiction Film) is starring Jake Gyllenhaal"
+                            ]
+                        },
+                        "type": "action",
+                        "sender": "assistant",
+                        "action_id": "kgwalk/choose_path"
+                    }
+                },
+                "external knowledge non-flat": {
+                    "original system side information": {
+                        "type": "chat",
+                        "metadata": {
+                            "metadata": {
+                                "path": [
+                                    0.0,
+                                    [
+                                        [
+                                            "Zodiac (Crime Fiction Film)",
+                                            "starred_actors",
+                                            "Jake Gyllenhaal"
+                                        ]
+                                    ],
+                                    "Zodiac (Crime Fiction Film) is starring Jake Gyllenhaal"
+                                ]
+                            },
+                            "type": "action",
+                            "sender": "assistant",
+                            "action_id": "kgwalk/choose_path"
+                        }
+                    }
+                },
+                "external knowledge": "Metadata: {'metadata': {'path': [0.0, [['Zodiac (Crime Fiction Film)', 'starred_actors', 'Jake Gyllenhaal']], 'Zodiac (Crime Fiction Film) is starring Jake Gyllenhaal']}, 'type': 'action', 'sender': 'assistant', 'action_id': 'kgwalk/choose_path'}"
+            },
+            {
+                "turn id": 3,
+                "user utterance": "So he did he also starred in End of Watch have you ever seen that movie?",
+                "system response": "Yes I have! I like films directed by David Ayer. How about you?",
+                "dialog history": "<USER> Do you like Iron Man <SYSTEM> Sure do! Robert Downey Jr. is a favorite. <USER> Yes i like him too did you know he also was in Zodiac a crime fiction film. <SYSTEM> I like crime fiction! Didn't know RDJ was in there. Jake Gyllenhaal starred as well.",
+                "original user side information": {
+                    "type": "chat"
+                },
+                "original system side information": {
+                    "type": "chat",
+                    "metadata": {
+                        "metadata": {
+                            "path": [
+                                3.0,
+                                [
+                                    [
+                                        "End of Watch",
+                                        "has_genre",
+                                        "Thriller"
+                                    ]
+                                ],
+                                "End of Watch has genre Thriller"
+                            ]
+                        },
+                        "type": "action",
+                        "sender": "assistant",
+                        "action_id": "kgwalk/choose_path"
+                    }
+                },
+                "external knowledge non-flat": {
+                    "original system side information": {
+                        "type": "chat",
+                        "metadata": {
+                            "metadata": {
+                                "path": [
+                                    3.0,
+                                    [
+                                        [
+                                            "End of Watch",
+                                            "has_genre",
+                                            "Thriller"
+                                        ]
+                                    ],
+                                    "End of Watch has genre Thriller"
+                                ]
+                            },
+                            "type": "action",
+                            "sender": "assistant",
+                            "action_id": "kgwalk/choose_path"
+                        }
+                    }
+                },
+                "external knowledge": "Metadata: {'metadata': {'path': [3.0, [['End of Watch', 'has_genre', 'Thriller']], 'End of Watch has genre Thriller']}, 'type': 'action', 'sender': 'assistant', 'action_id': 'kgwalk/choose_path'}"
+            },
+            {
+                "turn id": 4,
+                "user utterance": "I have not what genre is End of Watch",
+                "system response": "It's a thriller and crime fiction as well.",
+                "dialog history": "<USER> Do you like Iron Man <SYSTEM> Sure do! Robert Downey Jr. is a favorite. <USER> Yes i like him too did you know he also was in Zodiac a crime fiction film. <SYSTEM> I like crime fiction! Didn't know RDJ was in there. Jake Gyllenhaal starred as well. <USER> So he did he also starred in End of Watch have you ever seen that movie? <SYSTEM> Yes I have! I like films directed by David Ayer. How about you?",
+                "original user side information": {
+                    "type": "chat"
+                },
+                "original system side information": {
+                    "type": "chat"
+                },
+                "external knowledge non-flat": {
+                    "original system side information": {
+                        "type": "chat"
+                    }
+                },
+                "external knowledge": "Metadata: ()"
+            },
+            {
+                "turn id": 5,
+                "user utterance": "I will make sure to check it out I like thrillers thank you",
+                "system response": "Welcome!",
+                "dialog history": "<USER> Do you like Iron Man <SYSTEM> Sure do! Robert Downey Jr. is a favorite. <USER> Yes i like him too did you know he also was in Zodiac a crime fiction film. <SYSTEM> I like crime fiction! Didn't know RDJ was in there. Jake Gyllenhaal starred as well. <USER> So he did he also starred in End of Watch have you ever seen that movie? <SYSTEM> Yes I have! I like films directed by David Ayer. How about you? <USER> I have not what genre is End of Watch <SYSTEM> It's a thriller and crime fiction as well.",
+                "original user side information": {
+                    "type": "chat"
+                },
+                "original system side information": {
+                    "type": "chat"
+                },
+                "external knowledge non-flat": {
+                    "original system side information": {
+                        "type": "chat"
+                    }
+                },
+                "external knowledge": "Metadata: ()"
+            }
+        ],
+        "prompt": [
+            "Pretend you're an AI assistant tasked with aiding users. Develop a fitting response or suggestion for the user, taking into account the conversation history and paths in the simple knowledge graph.",
+            "As a chatbot built to assist users, construct a suitable response or advice based on the dialog history and the connections within your short knowledge graph.",
+            "Envision yourself as a chatbot whose goal is to support users. Craft an appropriate response or recommendation for the user, considering previous interactions and the routes within your simple knowledge graph.",
+            "Assume the role of an AI conversationalist dedicated to helping users. Offer a relevant response or guidance for the user, based on past conversations and the pathways in your simple knowledge graph.",
+            "As a chatbot designed to provide user assistance, produce a fitting response or suggestion for the user, bearing in mind the dialog history and the links in your simple knowledge graph."
+        ]
+    },
+    "OpenDialKG--train--2": {
+        "original dialog id": "",
+        "dialog index": 2,
+        "original dialog info": {
+            "User Rating": "{\"dialog_rating\": \"5\", \"other_agent_rating\": \"5\"}",
+            "Assistant Rating": "{\"dialog_rating\": \"3\", \"other_agent_rating\": \"3\"}"
+        },
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "Could you recommend any books like The Secret Life of Bees?",
+                "system response": "Yes, its a great teen book, have you heard about A walk to remember ? It is also a great teen drama",
+                "dialog history": "",
+                "original user side information": {
+                    "type": "chat"
+                },
+                "original system side information": {
+                    "type": "chat",
+                    "metadata": {
+                        "metadata": {
+                            "path": [
+                                -1.5,
+                                [
+                                    [
+                                        "The Secret Life of Bees",
+                                        "has_genre",
+                                        "Teen drama"
+                                    ],
+                                    [
+                                        "Teen drama",
+                                        "~has_genre",
+                                        "A Walk to Remember"
+                                    ]
+                                ],
+                                "The Secret Life of Bees has genre Teen drama. Teen drama has examples: A Walk to Remember"
+                            ]
+                        },
+                        "type": "action",
+                        "sender": "assistant",
+                        "action_id": "kgwalk/choose_path"
+                    }
+                },
+                "external knowledge non-flat": {
+                    "original system side information": {
+                        "type": "chat",
+                        "metadata": {
+                            "metadata": {
+                                "path": [
+                                    -1.5,
+                                    [
+                                        [
+                                            "The Secret Life of Bees",
+                                            "has_genre",
+                                            "Teen drama"
+                                        ],
+                                        [
+                                            "Teen drama",
+                                            "~has_genre",
+                                            "A Walk to Remember"
+                                        ]
+                                    ],
+                                    "The Secret Life of Bees has genre Teen drama. Teen drama has examples: A Walk to Remember"
+                                ]
+                            },
+                            "type": "action",
+                            "sender": "assistant",
+                            "action_id": "kgwalk/choose_path"
+                        }
+                    }
+                },
+                "external knowledge": "Metadata: {'metadata': {'path': [-1.5, [['The Secret Life of Bees', 'has_genre', 'Teen drama'], ['Teen drama', '~has_genre', 'A Walk to Remember']], 'The Secret Life of Bees has genre Teen drama. Teen drama has examples: A Walk to Remember']}, 'type': 'action', 'sender': 'assistant', 'action_id': 'kgwalk/choose_path'}"
+            },
+            {
+                "turn id": 2,
+                "user utterance": "I think I have.. is that one with Hunt Lowry?",
+                "system response": "yes and he also produced White Oleander and it was released in 1999",
+                "dialog history": "<USER> Could you recommend any books like The Secret Life of Bees? <SYSTEM> Yes, its a great teen book, have you heard about A walk to remember ? It is also a great teen drama",
+                "original user side information": {
+                    "type": "chat"
+                },
+                "original system side information": {
+                    "type": "chat",
+                    "metadata": {
+                        "metadata": {
+                            "path": [
+                                -2,
+                                [
+                                    [
+                                        "Hunt Lowry",
+                                        "~Produced by",
+                                        "A Walk to Remember"
+                                    ],
+                                    [
+                                        "A Walk to Remember",
+                                        "is-a",
+                                        "Film"
+                                    ]
+                                ],
+                                "Hunt Lowry produced A Walk to Remember. A Walk to Remember is a/an Film"
+                            ]
+                        },
+                        "type": "action",
+                        "sender": "assistant",
+                        "action_id": "kgwalk/choose_path"
+                    }
+                },
+                "external knowledge non-flat": {
+                    "original system side information": {
+                        "type": "chat",
+                        "metadata": {
+                            "metadata": {
+                                "path": [
+                                    -2,
+                                    [
+                                        [
+                                            "Hunt Lowry",
+                                            "~Produced by",
+                                            "A Walk to Remember"
+                                        ],
+                                        [
+                                            "A Walk to Remember",
+                                            "is-a",
+                                            "Film"
+                                        ]
+                                    ],
+                                    "Hunt Lowry produced A Walk to Remember. A Walk to Remember is a/an Film"
+                                ]
+                            },
+                            "type": "action",
+                            "sender": "assistant",
+                            "action_id": "kgwalk/choose_path"
+                        }
+                    }
+                },
+                "external knowledge": "Metadata: {'metadata': {'path': [-2, [['Hunt Lowry', '~Produced by', 'A Walk to Remember'], ['A Walk to Remember', 'is-a', 'Film']], 'Hunt Lowry produced A Walk to Remember. A Walk to Remember is a/an Film']}, 'type': 'action', 'sender': 'assistant', 'action_id': 'kgwalk/choose_path'}"
+            },
+            {
+                "turn id": 3,
+                "user utterance": "Oh, awesome. What genre is that film?",
+                "system response": "It is film adaption with a melodrama. Do you like Drama movies?",
+                "dialog history": "<USER> Could you recommend any books like The Secret Life of Bees? <SYSTEM> Yes, its a great teen book, have you heard about A walk to remember ? It is also a great teen drama <USER> I think I have.. is that one with Hunt Lowry? <SYSTEM> yes and he also produced White Oleander and it was released in 1999",
+                "original user side information": {
+                    "type": "chat"
+                },
+                "original system side information": {
+                    "type": "chat"
+                },
+                "external knowledge non-flat": {
+                    "original system side information": {
+                        "type": "chat"
+                    }
+                },
+                "external knowledge": "Metadata: ()"
+            },
+            {
+                "turn id": 4,
+                "user utterance": "Great! I love drama movies. I'll check this one out then. Thanks so much!",
+                "system response": "Cool, hope you enjoy. any m ore recommendations you want ?",
+                "dialog history": "<USER> Could you recommend any books like The Secret Life of Bees? <SYSTEM> Yes, its a great teen book, have you heard about A walk to remember ? It is also a great teen drama <USER> I think I have.. is that one with Hunt Lowry? <SYSTEM> yes and he also produced White Oleander and it was released in 1999 <USER> Oh, awesome. What genre is that film? <SYSTEM> It is film adaption with a melodrama. Do you like Drama movies?",
+                "original user side information": {
+                    "type": "chat"
+                },
+                "original system side information": {
+                    "type": "chat"
+                },
+                "external knowledge non-flat": {
+                    "original system side information": {
+                        "type": "chat"
+                    }
+                },
+                "external knowledge": "Metadata: ()"
+            },
+            {
+                "turn id": 5,
+                "user utterance": "Whoops, I meant books. I love Drama books! And no, I think that's good. Thanks for your help.",
+                "system response": "You are welcome",
+                "dialog history": "<USER> Could you recommend any books like The Secret Life of Bees? <SYSTEM> Yes, its a great teen book, have you heard about A walk to remember ? It is also a great teen drama <USER> I think I have.. is that one with Hunt Lowry? <SYSTEM> yes and he also produced White Oleander and it was released in 1999 <USER> Oh, awesome. What genre is that film? <SYSTEM> It is film adaption with a melodrama. Do you like Drama movies? <USER> Great! I love drama movies. I'll check this one out then. Thanks so much! <SYSTEM> Cool, hope you enjoy. any m ore recommendations you want ?",
+                "original user side information": {
+                    "type": "chat"
+                },
+                "original system side information": {
+                    "type": "chat",
+                    "metadata": {
+                        "metadata": {
+                            "text": "only you can end this dialouge"
+                        },
+                        "type": "action",
+                        "sender": "assistant",
+                        "action_id": "meta_thread/send_meta_message"
+                    }
+                },
+                "external knowledge non-flat": {
+                    "original system side information": {
+                        "type": "chat",
+                        "metadata": {
+                            "metadata": {
+                                "text": "only you can end this dialouge"
+                            },
+                            "type": "action",
+                            "sender": "assistant",
+                            "action_id": "meta_thread/send_meta_message"
+                        }
+                    }
+                },
+                "external knowledge": "Metadata: {'metadata': {'text': 'only you can end this dialouge'}, 'type': 'action', 'sender': 'assistant', 'action_id': 'meta_thread/send_meta_message'}"
+            }
+        ],
+        "prompt": [
+            "Pretend you're an AI assistant tasked with aiding users. Develop a fitting response or suggestion for the user, taking into account the conversation history and paths in the simple knowledge graph.",
+            "As a chatbot built to assist users, construct a suitable response or advice based on the dialog history and the connections within your short knowledge graph.",
+            "Envision yourself as a chatbot whose goal is to support users. Craft an appropriate response or recommendation for the user, considering previous interactions and the routes within your simple knowledge graph.",
+            "Assume the role of an AI conversationalist dedicated to helping users. Offer a relevant response or guidance for the user, based on past conversations and the pathways in your simple knowledge graph.",
+            "As a chatbot designed to provide user assistance, produce a fitting response or suggestion for the user, bearing in mind the dialog history and the links in your simple knowledge graph."
+        ]
+    },
+    "OpenDialKG--train--3": {
+        "original dialog id": "",
+        "dialog index": 3,
+        "original dialog info": {
+            "User Rating": "{\"dialog_rating\": \"5\", \"other_agent_rating\": \"5\"}",
+            "Assistant Rating": "{\"dialog_rating\": \"4\", \"other_agent_rating\": \"5\"}"
+        },
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "Could you recommend any books by Ken Kesey?",
+                "system response": "Yes, he wrote One Flew Over the Cuckoo's Nest",
+                "dialog history": "",
+                "original user side information": {
+                    "type": "chat"
+                },
+                "original system side information": {
+                    "type": "chat"
+                },
+                "external knowledge non-flat": {
+                    "original system side information": {
+                        "type": "chat"
+                    }
+                },
+                "external knowledge": "Metadata: ()"
+            },
+            {
+                "turn id": 2,
+                "user utterance": "Isn't that a movie too?",
+                "system response": "Yes it sure was it was released in 1975",
+                "dialog history": "<USER> Could you recommend any books by Ken Kesey? <SYSTEM> Yes, he wrote One Flew Over the Cuckoo's Nest",
+                "original user side information": {
+                    "type": "chat"
+                },
+                "original system side information": {
+                    "type": "chat"
+                },
+                "external knowledge non-flat": {
+                    "original system side information": {
+                        "type": "chat"
+                    }
+                },
+                "external knowledge": "Metadata: ()"
+            },
+            {
+                "turn id": 3,
+                "user utterance": "Who was in that?",
+                "system response": "In the movie there was Jack Nicholson ,Louise Fletcher",
+                "dialog history": "<USER> Could you recommend any books by Ken Kesey? <SYSTEM> Yes, he wrote One Flew Over the Cuckoo's Nest <USER> Isn't that a movie too? <SYSTEM> Yes it sure was it was released in 1975",
+                "original user side information": {
+                    "type": "chat"
+                },
+                "original system side information": {
+                    "type": "chat"
+                },
+                "external knowledge non-flat": {
+                    "original system side information": {
+                        "type": "chat"
+                    }
+                },
+                "external knowledge": "Metadata: ()"
+            }
+        ],
+        "prompt": [
+            "Pretend you're an AI assistant tasked with aiding users. Develop a fitting response or suggestion for the user, taking into account the conversation history and paths in the simple knowledge graph.",
+            "As a chatbot built to assist users, construct a suitable response or advice based on the dialog history and the connections within your short knowledge graph.",
+            "Envision yourself as a chatbot whose goal is to support users. Craft an appropriate response or recommendation for the user, considering previous interactions and the routes within your simple knowledge graph.",
+            "Assume the role of an AI conversationalist dedicated to helping users. Offer a relevant response or guidance for the user, based on past conversations and the pathways in your simple knowledge graph.",
+            "As a chatbot designed to provide user assistance, produce a fitting response or suggestion for the user, bearing in mind the dialog history and the links in your simple knowledge graph."
+        ]
+    },
+    "OpenDialKG--train--4": {
+        "original dialog id": "",
+        "dialog index": 4,
+        "original dialog info": {
+            "User Rating": "{\"dialog_rating\": \"5\", \"other_agent_rating\": \"5\"}",
+            "Assistant Rating": "{\"dialog_rating\": \"5\", \"other_agent_rating\": \"5\"}"
+        },
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "Do you like Michael Jackson?",
+                "system response": "I do he was very talented and an all around performer. He wrote Dancing on the Dream which is one of my favorites.",
+                "dialog history": "",
+                "original user side information": {
+                    "type": "chat"
+                },
+                "original system side information": {
+                    "type": "chat",
+                    "metadata": {
+                        "metadata": {
+                            "path": [
+                                -0.5,
+                                [
+                                    [
+                                        "Michael Jackson",
+                                        "~written_by",
+                                        "Dancing the Dream"
+                                    ]
+                                ],
+                                "Michael Jackson wrote Dancing the Dream"
+                            ]
+                        },
+                        "type": "action",
+                        "sender": "assistant",
+                        "action_id": "kgwalk/choose_path"
+                    }
+                },
+                "external knowledge non-flat": {
+                    "original system side information": {
+                        "type": "chat",
+                        "metadata": {
+                            "metadata": {
+                                "path": [
+                                    -0.5,
+                                    [
+                                        [
+                                            "Michael Jackson",
+                                            "~written_by",
+                                            "Dancing the Dream"
+                                        ]
+                                    ],
+                                    "Michael Jackson wrote Dancing the Dream"
+                                ]
+                            },
+                            "type": "action",
+                            "sender": "assistant",
+                            "action_id": "kgwalk/choose_path"
+                        }
+                    }
+                },
+                "external knowledge": "Metadata: {'metadata': {'path': [-0.5, [['Michael Jackson', '~written_by', 'Dancing the Dream']], 'Michael Jackson wrote Dancing the Dream']}, 'type': 'action', 'sender': 'assistant', 'action_id': 'kgwalk/choose_path'}"
+            },
+            {
+                "turn id": 2,
+                "user utterance": "Yes, he was very talented indeed. He also won Grammy of the Year, possibly more than once",
+                "system response": "Yes, Healing the World is one of my favorite songs and the music video was very touching.",
+                "dialog history": "<USER> Do you like Michael Jackson? <SYSTEM> I do he was very talented and an all around performer. He wrote Dancing on the Dream which is one of my favorites.",
+                "original user side information": {
+                    "type": "chat"
+                },
+                "original system side information": {
+                    "type": "chat",
+                    "metadata": {
+                        "metadata": {
+                            "path": [
+                                -1,
+                                [
+                                    [
+                                        "Michael Jackson",
+                                        "~Lyricist",
+                                        "Heal the World"
+                                    ]
+                                ],
+                                "Michael Jackson : `~Lyricist`: Heal the World"
+                            ]
+                        },
+                        "type": "action",
+                        "sender": "assistant",
+                        "action_id": "kgwalk/choose_path"
+                    }
+                },
+                "external knowledge non-flat": {
+                    "original system side information": {
+                        "type": "chat",
+                        "metadata": {
+                            "metadata": {
+                                "path": [
+                                    -1,
+                                    [
+                                        [
+                                            "Michael Jackson",
+                                            "~Lyricist",
+                                            "Heal the World"
+                                        ]
+                                    ],
+                                    "Michael Jackson : `~Lyricist`: Heal the World"
+                                ]
+                            },
+                            "type": "action",
+                            "sender": "assistant",
+                            "action_id": "kgwalk/choose_path"
+                        }
+                    }
+                },
+                "external knowledge": "Metadata: {'metadata': {'path': [-1, [['Michael Jackson', '~Lyricist', 'Heal the World']], 'Michael Jackson : `~Lyricist`: Heal the World']}, 'type': 'action', 'sender': 'assistant', 'action_id': 'kgwalk/choose_path'}"
+            },
+            {
+                "turn id": 3,
+                "user utterance": "Have you ever seen footage of him from a young age. He was such a gifted child",
+                "system response": "Yes, when he was in Jackson 5. He was on Motown Records",
+                "dialog history": "<USER> Do you like Michael Jackson? <SYSTEM> I do he was very talented and an all around performer. He wrote Dancing on the Dream which is one of my favorites. <USER> Yes, he was very talented indeed. He also won Grammy of the Year, possibly more than once <SYSTEM> Yes, Healing the World is one of my favorite songs and the music video was very touching.",
+                "original user side information": {
+                    "type": "chat"
+                },
+                "original system side information": {
+                    "type": "chat"
+                },
+                "external knowledge non-flat": {
+                    "original system side information": {
+                        "type": "chat"
+                    }
+                },
+                "external knowledge": "Metadata: ()"
+            }
+        ],
+        "prompt": [
+            "Pretend you're an AI assistant tasked with aiding users. Develop a fitting response or suggestion for the user, taking into account the conversation history and paths in the simple knowledge graph.",
+            "As a chatbot built to assist users, construct a suitable response or advice based on the dialog history and the connections within your short knowledge graph.",
+            "Envision yourself as a chatbot whose goal is to support users. Craft an appropriate response or recommendation for the user, considering previous interactions and the routes within your simple knowledge graph.",
+            "Assume the role of an AI conversationalist dedicated to helping users. Offer a relevant response or guidance for the user, based on past conversations and the pathways in your simple knowledge graph.",
+            "As a chatbot designed to provide user assistance, produce a fitting response or suggestion for the user, bearing in mind the dialog history and the links in your simple knowledge graph."
+        ]
+    },
+    "OpenDialKG--train--5": {
+        "original dialog id": "",
+        "dialog index": 5,
+        "original dialog info": {
+            "User Rating": "{\"dialog_rating\": \"5\", \"other_agent_rating\": \"5\"}",
+            "Assistant Rating": "{\"dialog_rating\": \"5\", \"other_agent_rating\": \"5\"}"
+        },
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "Could you recommend books similar to Dead to the World?",
+                "system response": "Do you like this book because of it's author Charlaine Harris?",
+                "dialog history": "",
+                "original user side information": {
+                    "type": "chat",
+                    "metadata": {
+                        "metadata": {
+                            "text": "sure"
+                        },
+                        "type": "action",
+                        "sender": "user",
+                        "action_id": "meta_thread/send_meta_message"
+                    }
+                },
+                "original system side information": {
+                    "type": "chat"
+                },
+                "external knowledge non-flat": {
+                    "original system side information": {
+                        "type": "chat"
+                    }
+                },
+                "external knowledge": "Metadata: ()"
+            },
+            {
+                "turn id": 2,
+                "user utterance": "Yes. What other books did she write?",
+                "system response": "A popular book of her's is the Southern Vampire Mysteries",
+                "dialog history": "<USER> Could you recommend books similar to Dead to the World? <SYSTEM> Do you like this book because of it's author Charlaine Harris?",
+                "original user side information": {
+                    "type": "chat"
+                },
+                "original system side information": {
+                    "type": "chat",
+                    "metadata": {
+                        "metadata": {
+                            "path": [
+                                0.0,
+                                [
+                                    [
+                                        "The Southern Vampire Mysteries",
+                                        "written_by",
+                                        "Charlaine Harris"
+                                    ]
+                                ],
+                                "The Southern Vampire Mysteries is written by Charlaine Harris"
+                            ]
+                        },
+                        "type": "action",
+                        "sender": "assistant",
+                        "action_id": "kgwalk/choose_path"
+                    }
+                },
+                "external knowledge non-flat": {
+                    "original system side information": {
+                        "type": "chat",
+                        "metadata": {
+                            "metadata": {
+                                "path": [
+                                    0.0,
+                                    [
+                                        [
+                                            "The Southern Vampire Mysteries",
+                                            "written_by",
+                                            "Charlaine Harris"
+                                        ]
+                                    ],
+                                    "The Southern Vampire Mysteries is written by Charlaine Harris"
+                                ]
+                            },
+                            "type": "action",
+                            "sender": "assistant",
+                            "action_id": "kgwalk/choose_path"
+                        }
+                    }
+                },
+                "external knowledge": "Metadata: {'metadata': {'path': [0.0, [['The Southern Vampire Mysteries', 'written_by', 'Charlaine Harris']], 'The Southern Vampire Mysteries is written by Charlaine Harris']}, 'type': 'action', 'sender': 'assistant', 'action_id': 'kgwalk/choose_path'}"
+            },
+            {
+                "turn id": 3,
+                "user utterance": "Thanks for that. I will check out Southern Vampire Mysteries!",
+                "system response": "Sure thing, hope you enjoy",
+                "dialog history": "<USER> Could you recommend books similar to Dead to the World? <SYSTEM> Do you like this book because of it's author Charlaine Harris? <USER> Yes. What other books did she write? <SYSTEM> A popular book of her's is the Southern Vampire Mysteries",
+                "original user side information": {
+                    "type": "chat"
+                },
+                "original system side information": {
+                    "type": "chat"
+                },
+                "external knowledge non-flat": {
+                    "original system side information": {
+                        "type": "chat"
+                    }
+                },
+                "external knowledge": "Metadata: ()"
+            }
+        ],
+        "prompt": [
+            "Pretend you're an AI assistant tasked with aiding users. Develop a fitting response or suggestion for the user, taking into account the conversation history and paths in the simple knowledge graph.",
+            "As a chatbot built to assist users, construct a suitable response or advice based on the dialog history and the connections within your short knowledge graph.",
+            "Envision yourself as a chatbot whose goal is to support users. Craft an appropriate response or recommendation for the user, considering previous interactions and the routes within your simple knowledge graph.",
+            "Assume the role of an AI conversationalist dedicated to helping users. Offer a relevant response or guidance for the user, based on past conversations and the pathways in your simple knowledge graph.",
+            "As a chatbot designed to provide user assistance, produce a fitting response or suggestion for the user, bearing in mind the dialog history and the links in your simple knowledge graph."
+        ]
+    }
+}

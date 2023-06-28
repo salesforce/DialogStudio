@@ -1,0 +1,156 @@
+[
+    {
+        "id": "simulateTOD_0001",
+        "dialog": [
+            "It's a Toyota Corolla.  I love it.  How about you?",
+            "I drive a Honda Civic. It's the best car I've ever owned.",
+            "I love Hondas.  They're so reliable.  Do you have any hobbies?",
+            "I like to write poetry and donate my old clothes. What do you like to do?",
+            "I love to read Stephen King books.  He's one of my favorite authors.",
+            "I haven't read any of his books, but I've heard good things. What's your favorite book of his?",
+            "My favorite of his is The Shining.  Have you seen the movie?  It came out in 1997.",
+            "I've seen it, but it's been so long that I don't remember much about it.",
+            "Is there anything else I can do for you?",
+            "Yes, I'd like to find an Adventure movie.",
+            "I found [count] movie you might like. How about [title]?",
+            "The Aftermath sounds great. That's all I need for now.",
+            "Okay, have a great day. I hope you enjoy the movie. Bye.!."
+        ],
+        "intent": {
+            "type": [
+                "FindMovies"
+            ],
+            "position": 7
+        },
+        "transition_candidates": [
+            "Is there anything else I can do for you?",
+            "What do you think of the movie?",
+            "Are you planning on buying tickets now?",
+            "Could you please confirm that you like to play it. Can I tell you anything else? Is there anything else I can help you with?"
+        ],
+        "filename": "TOD_Simulators"
+    },
+    {
+        "id": "simulateTOD_0002",
+        "dialog": [
+            "I'm going surfing. I love it. What do you like to do on your free time?",
+            "I like to garden and spend time with my family. Do you have a favorite place to surf?",
+            "Where would you like to surf?",
+            "I'd like to find a garden in San Francisco.",
+            "I found [count] attractions you might like. How about a park called [attraction_name]?",
+            "Sure, that sounds good.",
+            "You should check out the [category] known as the park, called the Attractionname.",
+            "Okay, great. That's all I need for now.",
+            "Okay, have a nice day. Goodbye for the day. Bye for now!"
+        ],
+        "intent": {
+            "type": [
+                "FindAttractions"
+            ],
+            "position": 1
+        },
+        "transition_candidates": [
+            "Where would you like to surf?",
+            "What is your favorite city on your calendar?",
+            "What is your location? I found [count] beaches that may be your closest. There are [count] beaches. What do you think about that?",
+            "No, I would recommend a good place for you to search, or a beach you like?"
+        ],
+        "filename": "TOD_Simulators"
+    },
+    {
+        "id": "simulateTOD_0004",
+        "dialog": [
+            "No, I've never played any of those. I'm more of an Xbox gamer myself.",
+            "I used to play a lot of video games when I was younger, but I haven't in a while.",
+            "What kind of games do you like to play? I'm a big fan of first-person shooters.",
+            "I like first person shooters as well. I also like RPGs and adventure games.",
+            "Adventure games are fun. Do you have a favorite adventure game that you've played recently?",
+            "I recently played the Legend of Zelda: Breath of the Wild. Have you played it?",
+            "You may like to play the title in your kitchen. Do you like to play the title on the soundboard?",
+            "Yeah, I'd like to play it on the speaker in the kitchen.",
+            "Please confirm: playing [song_name] on the [playback_device].",
+            "Yes, that's right.",
+            "Okay, so you want to play [title] with no subtitles?",
+            "Yes, please. Who directed it?",
+            "[directed_by] is the director. I will start the movie now.",
+            "Thank you. That's all I need.",
+            "You're welcome. Have a good day. Bye.  [title] is now playing."
+        ],
+        "intent": {
+            "type": [
+                "PlaySong"
+            ],
+            "position": 5
+        },
+        "transition_candidates": [
+            "You may like to play the title in your kitchen. Do you like to play the title on the soundboard?",
+            "I've recently played it. You might like [event_name], [event_name] or [event_name]?",
+            "It was played in a kitchen game.",
+            "I've just started playing the game, though I haven't played it. I haven't. I am also playing the game."
+        ],
+        "filename": "TOD_Simulators"
+    },
+    {
+        "id": "simulateTOD_0005",
+        "dialog": [
+            "I would love to read it.  I love hiking.  What else do you like to do?",
+            "I like to hike too. I also like to travel. I've been to Ireland and Australia.",
+            "I have never been to either of those places.  Have you ever been to New Zealand?",
+            "What do you do for a trip? Whenever you do, you would like to go to New York to visit the famous attractions.",
+            "Yes, I want to go to New York City. I'd like to visit some attractions there.",
+            "I found [count] attractions for you. How about the [attraction_name]? It's a [category].",
+            "Okay, that sounds good.",
+            "Okay, let's confirm the details: You want me to go to [event_location] on [date] at [time], and you want [party_size] people.",
+            "Yes, that's right.",
+            "I'll play [song_name] on the [playback_device], is that okay?",
+            "Yes, please do.",
+            "Sure, please confirm your request to play [title] with no subtitles."
+        ],
+        "intent": {
+            "type": [
+                "FindAttractions"
+            ],
+            "position": 2
+        },
+        "transition_candidates": [
+            "What do you do for a trip? Whenever you do, you would like to go to New York to visit the famous attractions.",
+            "There's a certain trip I would recommend. Is that a trip of interest to a different city?",
+            "I found [count] places to visit. What about you? A nice trip to [destination]. You would have a trip to [destination]. What are you looking for? You'd like to see a visit to [attraction_name].",
+            "So you want to travel.. you have never been to the place."
+        ],
+        "filename": "TOD_Simulators"
+    },
+    {
+        "id": "simulateTOD_0006",
+        "dialog": [
+            "I'm sorry to hear that. Do you have any other pets that you can take with you?",
+            "I don't have any pets right now, but I used to have a dog when I was younger.",
+            "Oh, I see. What kind of dog did you have when you were younger? I love dogs!",
+            "I had a Labrador Retriever. He was the best dog ever.",
+            "Aww, I love labradors! They're so sweet and gentle. What do you like to do for fun?",
+            "I like to watch movies and play video games. I also like to read. What about you?",
+            "Are you looking for another movie?",
+            "I really like fantasy movies. I'd like to find something directed by Hiroyasu Ishida.",
+            "I found [count] movie you might like. How about [title]?",
+            "The Poseidon Adventure sounds great. I want to watch it now.",
+            "Please confirm the following: Play the movie titled Poseodon with subtitles.",
+            "Yes, that's right.",
+            "Please confirm: Playing [title] with sub titles: Enjoy the movie.",
+            "Yes, thank you.",
+            "The movie has started playing. Enjoy your movie. Hope you enjoy the same. Bye."
+        ],
+        "intent": {
+            "type": [
+                "FindMovies"
+            ],
+            "position": 5
+        },
+        "transition_candidates": [
+            "Are you looking for another movie?",
+            "Do you have any other hobbies?",
+            "Do you like movies? I like to watch them. I like to watch them in real time. I like watching them.",
+            "Is there anything else I can help you with?"
+        ],
+        "filename": "TOD_Simulators"
+    }
+]
