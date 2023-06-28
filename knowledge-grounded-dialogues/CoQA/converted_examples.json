@@ -1,0 +1,1125 @@
+{
+    "CoQA--train--1": {
+        "original dialog id": "3zotghdk5ibi9cex97fepx7jetpso7",
+        "dialog index": 1,
+        "original dialog info": {
+            "version": "1.0",
+            "source": "wikipedia",
+            "id": "3zotghdk5ibi9cex97fepx7jetpso7",
+            "filename": "Vatican_Library.txt",
+            "name": "Vatican_Library.txt"
+        },
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "When was the Vat formally opened?",
+                "system response": "It was formally established in 1475",
+                "dialog history": "",
+                "original user side information": {},
+                "original system side information": {
+                    "span_start": 151,
+                    "span_end": 179,
+                    "span_text": "Formally established in 1475",
+                    "input_text": "It was formally established in 1475",
+                    "turn_id": 1
+                }
+            },
+            {
+                "turn id": 2,
+                "user utterance": "what is the library for?",
+                "system response": "research",
+                "dialog history": "<USER> When was the Vat formally opened? <SYSTEM> It was formally established in 1475",
+                "original user side information": {},
+                "original system side information": {
+                    "span_start": 454,
+                    "span_end": 494,
+                    "span_text": "he Vatican Library is a research library",
+                    "input_text": "research",
+                    "turn_id": 2
+                }
+            },
+            {
+                "turn id": 3,
+                "user utterance": "for what subjects?",
+                "system response": "history, and law",
+                "dialog history": "<USER> When was the Vat formally opened? <SYSTEM> It was formally established in 1475 <USER> what is the library for? <SYSTEM> research",
+                "original user side information": {},
+                "original system side information": {
+                    "span_start": 457,
+                    "span_end": 511,
+                    "span_text": "Vatican Library is a research library for history, law",
+                    "input_text": "history, and law",
+                    "turn_id": 3
+                }
+            },
+            {
+                "turn id": 4,
+                "user utterance": "and?",
+                "system response": "philosophy, science and theology",
+                "dialog history": "<USER> When was the Vat formally opened? <SYSTEM> It was formally established in 1475 <USER> what is the library for? <SYSTEM> research <USER> for what subjects? <SYSTEM> history, and law",
+                "original user side information": {},
+                "original system side information": {
+                    "span_start": 457,
+                    "span_end": 545,
+                    "span_text": "Vatican Library is a research library for history, law, philosophy, science and theology",
+                    "input_text": "philosophy, science and theology",
+                    "turn_id": 4
+                }
+            },
+            {
+                "turn id": 5,
+                "user utterance": "what was started in 2014?",
+                "system response": "a  project",
+                "dialog history": "<USER> When was the Vat formally opened? <SYSTEM> It was formally established in 1475 <USER> what is the library for? <SYSTEM> research <USER> for what subjects? <SYSTEM> history, and law <USER> and? <SYSTEM> philosophy, science and theology",
+                "original user side information": {},
+                "original system side information": {
+                    "span_start": 769,
+                    "span_end": 879,
+                    "span_text": "March 2014, the Vatican Library began an initial four-year project of digitising its collection of manuscripts",
+                    "input_text": "a  project",
+                    "turn_id": 5
+                }
+            },
+            {
+                "turn id": 6,
+                "user utterance": "how do scholars divide the library?",
+                "system response": "into periods",
+                "dialog history": "<USER> When was the Vat formally opened? <SYSTEM> It was formally established in 1475 <USER> what is the library for? <SYSTEM> research <USER> for what subjects? <SYSTEM> history, and law <USER> and? <SYSTEM> philosophy, science and theology <USER> what was started in 2014? <SYSTEM> a  project",
+                "original user side information": {},
+                "original system side information": {
+                    "span_start": 1048,
+                    "span_end": 1127,
+                    "span_text": "Scholars have traditionally divided the history of the library into five period",
+                    "input_text": "into periods",
+                    "turn_id": 6
+                }
+            },
+            {
+                "turn id": 7,
+                "user utterance": "how many?",
+                "system response": "five",
+                "dialog history": "<USER> When was the Vat formally opened? <SYSTEM> It was formally established in 1475 <USER> what is the library for? <SYSTEM> research <USER> for what subjects? <SYSTEM> history, and law <USER> and? <SYSTEM> philosophy, science and theology <USER> what was started in 2014? <SYSTEM> a  project <USER> how do scholars divide the library? <SYSTEM> into periods",
+                "original user side information": {},
+                "original system side information": {
+                    "span_start": 1048,
+                    "span_end": 1128,
+                    "span_text": "Scholars have traditionally divided the history of the library into five periods",
+                    "input_text": "five",
+                    "turn_id": 7
+                }
+            },
+            {
+                "turn id": 8,
+                "user utterance": "what is the official name of the Vat?",
+                "system response": "The Vatican Apostolic Library",
+                "dialog history": "<USER> When was the Vat formally opened? <SYSTEM> It was formally established in 1475 <USER> what is the library for? <SYSTEM> research <USER> for what subjects? <SYSTEM> history, and law <USER> and? <SYSTEM> philosophy, science and theology <USER> what was started in 2014? <SYSTEM> a  project <USER> how do scholars divide the library? <SYSTEM> into periods <USER> how many? <SYSTEM> five",
+                "original user side information": {},
+                "original system side information": {
+                    "span_start": 4,
+                    "span_end": 94,
+                    "span_text": "Vatican Apostolic Library (), more commonly called the Vatican Library or simply the Vat, ",
+                    "input_text": "The Vatican Apostolic Library",
+                    "turn_id": 8
+                }
+            },
+            {
+                "turn id": 9,
+                "user utterance": "where is it?",
+                "system response": "in Vatican City",
+                "dialog history": "<USER> When was the Vat formally opened? <SYSTEM> It was formally established in 1475 <USER> what is the library for? <SYSTEM> research <USER> for what subjects? <SYSTEM> history, and law <USER> and? <SYSTEM> philosophy, science and theology <USER> what was started in 2014? <SYSTEM> a  project <USER> how do scholars divide the library? <SYSTEM> into periods <USER> how many? <SYSTEM> five <USER> what is the official name of the Vat? <SYSTEM> The Vatican Apostolic Library",
+                "original user side information": {},
+                "original system side information": {
+                    "span_start": 94,
+                    "span_end": 150,
+                    "span_text": "is the library of the Holy See, located in Vatican City.",
+                    "input_text": "in Vatican City",
+                    "turn_id": 9
+                }
+            },
+            {
+                "turn id": 10,
+                "user utterance": "how many printed books does it contain?",
+                "system response": "1.1 million",
+                "dialog history": "<USER> When was the Vat formally opened? <SYSTEM> It was formally established in 1475 <USER> what is the library for? <SYSTEM> research <USER> for what subjects? <SYSTEM> history, and law <USER> and? <SYSTEM> philosophy, science and theology <USER> what was started in 2014? <SYSTEM> a  project <USER> how do scholars divide the library? <SYSTEM> into periods <USER> how many? <SYSTEM> five <USER> what is the official name of the Vat? <SYSTEM> The Vatican Apostolic Library <USER> where is it? <SYSTEM> in Vatican City",
+                "original user side information": {},
+                "original system side information": {
+                    "span_start": 328,
+                    "span_end": 412,
+                    "span_text": " It has 75,000 codices from throughout history, as well as 1.1 million printed books",
+                    "input_text": "1.1 million",
+                    "turn_id": 10
+                }
+            },
+            {
+                "turn id": 11,
+                "user utterance": "when were the Secret Archives moved from the rest of the library?",
+                "system response": "at the beginning of the 17th century;",
+                "dialog history": "<USER> When was the Vat formally opened? <SYSTEM> It was formally established in 1475 <USER> what is the library for? <SYSTEM> research <USER> for what subjects? <SYSTEM> history, and law <USER> and? <SYSTEM> philosophy, science and theology <USER> what was started in 2014? <SYSTEM> a  project <USER> how do scholars divide the library? <SYSTEM> into periods <USER> how many? <SYSTEM> five <USER> what is the official name of the Vat? <SYSTEM> The Vatican Apostolic Library <USER> where is it? <SYSTEM> in Vatican City <USER> how many printed books does it contain? <SYSTEM> 1.1 million",
+                "original user side information": {},
+                "original system side information": {
+                    "span_start": 917,
+                    "span_end": 1009,
+                    "span_text": "atican Secret Archives were separated from the library at the beginning of the 17th century;",
+                    "input_text": "at the beginning of the 17th century;",
+                    "turn_id": 11
+                }
+            },
+            {
+                "turn id": 12,
+                "user utterance": "how many items are in this secret collection?",
+                "system response": "150,000",
+                "dialog history": "<USER> When was the Vat formally opened? <SYSTEM> It was formally established in 1475 <USER> what is the library for? <SYSTEM> research <USER> for what subjects? <SYSTEM> history, and law <USER> and? <SYSTEM> philosophy, science and theology <USER> what was started in 2014? <SYSTEM> a  project <USER> how do scholars divide the library? <SYSTEM> into periods <USER> how many? <SYSTEM> five <USER> what is the official name of the Vat? <SYSTEM> The Vatican Apostolic Library <USER> where is it? <SYSTEM> in Vatican City <USER> how many printed books does it contain? <SYSTEM> 1.1 million <USER> when were the Secret Archives moved from the rest of the library? <SYSTEM> at the beginning of the 17th century;",
+                "original user side information": {},
+                "original system side information": {
+                    "span_start": 915,
+                    "span_end": 1046,
+                    "span_text": " Vatican Secret Archives were separated from the library at the beginning of the 17th century; they contain another 150,000 items. ",
+                    "input_text": "150,000",
+                    "turn_id": 12
+                }
+            },
+            {
+                "turn id": 13,
+                "user utterance": "Can anyone use this library?",
+                "system response": "anyone who can document their qualifications and research needs.",
+                "dialog history": "<USER> When was the Vat formally opened? <SYSTEM> It was formally established in 1475 <USER> what is the library for? <SYSTEM> research <USER> for what subjects? <SYSTEM> history, and law <USER> and? <SYSTEM> philosophy, science and theology <USER> what was started in 2014? <SYSTEM> a  project <USER> how do scholars divide the library? <SYSTEM> into periods <USER> how many? <SYSTEM> five <USER> what is the official name of the Vat? <SYSTEM> The Vatican Apostolic Library <USER> where is it? <SYSTEM> in Vatican City <USER> how many printed books does it contain? <SYSTEM> 1.1 million <USER> when were the Secret Archives moved from the rest of the library? <SYSTEM> at the beginning of the 17th century; <USER> how many items are in this secret collection? <SYSTEM> 150,000",
+                "original user side information": {},
+                "original system side information": {
+                    "span_start": 546,
+                    "span_end": 643,
+                    "span_text": " The Vatican Library is open to anyone who can document their qualifications and research needs. ",
+                    "input_text": "anyone who can document their qualifications and research needs.",
+                    "turn_id": 13
+                }
+            },
+            {
+                "turn id": 14,
+                "user utterance": "what must be requested to view?",
+                "system response": "unknown",
+                "dialog history": "<USER> When was the Vat formally opened? <SYSTEM> It was formally established in 1475 <USER> what is the library for? <SYSTEM> research <USER> for what subjects? <SYSTEM> history, and law <USER> and? <SYSTEM> philosophy, science and theology <USER> what was started in 2014? <SYSTEM> a  project <USER> how do scholars divide the library? <SYSTEM> into periods <USER> how many? <SYSTEM> five <USER> what is the official name of the Vat? <SYSTEM> The Vatican Apostolic Library <USER> where is it? <SYSTEM> in Vatican City <USER> how many printed books does it contain? <SYSTEM> 1.1 million <USER> when were the Secret Archives moved from the rest of the library? <SYSTEM> at the beginning of the 17th century; <USER> how many items are in this secret collection? <SYSTEM> 150,000 <USER> Can anyone use this library? <SYSTEM> anyone who can document their qualifications and research needs.",
+                "original user side information": {},
+                "original system side information": {
+                    "span_start": -1,
+                    "span_end": -1,
+                    "span_text": "unknown",
+                    "input_text": "unknown",
+                    "turn_id": 14,
+                    "bad_turn": "true"
+                }
+            },
+            {
+                "turn id": 15,
+                "user utterance": "what must be requested in person or by mail?",
+                "system response": "Photocopies",
+                "dialog history": "<USER> When was the Vat formally opened? <SYSTEM> It was formally established in 1475 <USER> what is the library for? <SYSTEM> research <USER> for what subjects? <SYSTEM> history, and law <USER> and? <SYSTEM> philosophy, science and theology <USER> what was started in 2014? <SYSTEM> a  project <USER> how do scholars divide the library? <SYSTEM> into periods <USER> how many? <SYSTEM> five <USER> what is the official name of the Vat? <SYSTEM> The Vatican Apostolic Library <USER> where is it? <SYSTEM> in Vatican City <USER> how many printed books does it contain? <SYSTEM> 1.1 million <USER> when were the Secret Archives moved from the rest of the library? <SYSTEM> at the beginning of the 17th century; <USER> how many items are in this secret collection? <SYSTEM> 150,000 <USER> Can anyone use this library? <SYSTEM> anyone who can document their qualifications and research needs. <USER> what must be requested to view? <SYSTEM> unknown",
+                "original user side information": {},
+                "original system side information": {
+                    "span_start": 643,
+                    "span_end": 764,
+                    "span_text": "Photocopies for private study of pages from books published between 1801 and 1990 can be requested in person or by mail. ",
+                    "input_text": "Photocopies",
+                    "turn_id": 15
+                }
+            },
+            {
+                "turn id": 16,
+                "user utterance": "of what books?",
+                "system response": "only books published between 1801 and 1990",
+                "dialog history": "<USER> When was the Vat formally opened? <SYSTEM> It was formally established in 1475 <USER> what is the library for? <SYSTEM> research <USER> for what subjects? <SYSTEM> history, and law <USER> and? <SYSTEM> philosophy, science and theology <USER> what was started in 2014? <SYSTEM> a  project <USER> how do scholars divide the library? <SYSTEM> into periods <USER> how many? <SYSTEM> five <USER> what is the official name of the Vat? <SYSTEM> The Vatican Apostolic Library <USER> where is it? <SYSTEM> in Vatican City <USER> how many printed books does it contain? <SYSTEM> 1.1 million <USER> when were the Secret Archives moved from the rest of the library? <SYSTEM> at the beginning of the 17th century; <USER> how many items are in this secret collection? <SYSTEM> 150,000 <USER> Can anyone use this library? <SYSTEM> anyone who can document their qualifications and research needs. <USER> what must be requested to view? <SYSTEM> unknown <USER> what must be requested in person or by mail? <SYSTEM> Photocopies",
+                "original user side information": {},
+                "original system side information": {
+                    "span_start": 644,
+                    "span_end": 724,
+                    "span_text": "hotocopies for private study of pages from books published between 1801 and 1990",
+                    "input_text": "only books published between 1801 and 1990",
+                    "turn_id": 16
+                }
+            },
+            {
+                "turn id": 17,
+                "user utterance": "What is the Vat the library of?",
+                "system response": "the Holy See",
+                "dialog history": "<USER> When was the Vat formally opened? <SYSTEM> It was formally established in 1475 <USER> what is the library for? <SYSTEM> research <USER> for what subjects? <SYSTEM> history, and law <USER> and? <SYSTEM> philosophy, science and theology <USER> what was started in 2014? <SYSTEM> a  project <USER> how do scholars divide the library? <SYSTEM> into periods <USER> how many? <SYSTEM> five <USER> what is the official name of the Vat? <SYSTEM> The Vatican Apostolic Library <USER> where is it? <SYSTEM> in Vatican City <USER> how many printed books does it contain? <SYSTEM> 1.1 million <USER> when were the Secret Archives moved from the rest of the library? <SYSTEM> at the beginning of the 17th century; <USER> how many items are in this secret collection? <SYSTEM> 150,000 <USER> Can anyone use this library? <SYSTEM> anyone who can document their qualifications and research needs. <USER> what must be requested to view? <SYSTEM> unknown <USER> what must be requested in person or by mail? <SYSTEM> Photocopies <USER> of what books? <SYSTEM> only books published between 1801 and 1990",
+                "original user side information": {},
+                "original system side information": {
+                    "span_start": 78,
+                    "span_end": 125,
+                    "span_text": "simply the Vat, is the library of the Holy See,",
+                    "input_text": "the Holy See",
+                    "turn_id": 17
+                }
+            },
+            {
+                "turn id": 18,
+                "user utterance": "How many books survived the Pre Lateran period?",
+                "system response": "a handful of volumes",
+                "dialog history": "<USER> When was the Vat formally opened? <SYSTEM> It was formally established in 1475 <USER> what is the library for? <SYSTEM> research <USER> for what subjects? <SYSTEM> history, and law <USER> and? <SYSTEM> philosophy, science and theology <USER> what was started in 2014? <SYSTEM> a  project <USER> how do scholars divide the library? <SYSTEM> into periods <USER> how many? <SYSTEM> five <USER> what is the official name of the Vat? <SYSTEM> The Vatican Apostolic Library <USER> where is it? <SYSTEM> in Vatican City <USER> how many printed books does it contain? <SYSTEM> 1.1 million <USER> when were the Secret Archives moved from the rest of the library? <SYSTEM> at the beginning of the 17th century; <USER> how many items are in this secret collection? <SYSTEM> 150,000 <USER> Can anyone use this library? <SYSTEM> anyone who can document their qualifications and research needs. <USER> what must be requested to view? <SYSTEM> unknown <USER> what must be requested in person or by mail? <SYSTEM> Photocopies <USER> of what books? <SYSTEM> only books published between 1801 and 1990 <USER> What is the Vat the library of? <SYSTEM> the Holy See",
+                "original user side information": {},
+                "original system side information": {
+                    "span_start": 1192,
+                    "span_end": 1384,
+                    "span_text": "Pre-Lateran period, comprising the initial days of the library, dated from the earliest days of the Church. Only a handful of volumes survive from this period, though some are very significant",
+                    "input_text": "a handful of volumes",
+                    "turn_id": 18
+                }
+            },
+            {
+                "turn id": 19,
+                "user utterance": "what is the point of the project started in 2014?",
+                "system response": "digitising manuscripts",
+                "dialog history": "<USER> When was the Vat formally opened? <SYSTEM> It was formally established in 1475 <USER> what is the library for? <SYSTEM> research <USER> for what subjects? <SYSTEM> history, and law <USER> and? <SYSTEM> philosophy, science and theology <USER> what was started in 2014? <SYSTEM> a  project <USER> how do scholars divide the library? <SYSTEM> into periods <USER> how many? <SYSTEM> five <USER> what is the official name of the Vat? <SYSTEM> The Vatican Apostolic Library <USER> where is it? <SYSTEM> in Vatican City <USER> how many printed books does it contain? <SYSTEM> 1.1 million <USER> when were the Secret Archives moved from the rest of the library? <SYSTEM> at the beginning of the 17th century; <USER> how many items are in this secret collection? <SYSTEM> 150,000 <USER> Can anyone use this library? <SYSTEM> anyone who can document their qualifications and research needs. <USER> what must be requested to view? <SYSTEM> unknown <USER> what must be requested in person or by mail? <SYSTEM> Photocopies <USER> of what books? <SYSTEM> only books published between 1801 and 1990 <USER> What is the Vat the library of? <SYSTEM> the Holy See <USER> How many books survived the Pre Lateran period? <SYSTEM> a handful of volumes",
+                "original user side information": {},
+                "original system side information": {
+                    "span_start": 785,
+                    "span_end": 881,
+                    "span_text": "Vatican Library began an initial four-year project of digitising its collection of manuscripts, ",
+                    "input_text": "digitising manuscripts",
+                    "turn_id": 19
+                }
+            },
+            {
+                "turn id": 20,
+                "user utterance": "what will this allow?",
+                "system response": "them to be viewed online.",
+                "dialog history": "<USER> When was the Vat formally opened? <SYSTEM> It was formally established in 1475 <USER> what is the library for? <SYSTEM> research <USER> for what subjects? <SYSTEM> history, and law <USER> and? <SYSTEM> philosophy, science and theology <USER> what was started in 2014? <SYSTEM> a  project <USER> how do scholars divide the library? <SYSTEM> into periods <USER> how many? <SYSTEM> five <USER> what is the official name of the Vat? <SYSTEM> The Vatican Apostolic Library <USER> where is it? <SYSTEM> in Vatican City <USER> how many printed books does it contain? <SYSTEM> 1.1 million <USER> when were the Secret Archives moved from the rest of the library? <SYSTEM> at the beginning of the 17th century; <USER> how many items are in this secret collection? <SYSTEM> 150,000 <USER> Can anyone use this library? <SYSTEM> anyone who can document their qualifications and research needs. <USER> what must be requested to view? <SYSTEM> unknown <USER> what must be requested in person or by mail? <SYSTEM> Photocopies <USER> of what books? <SYSTEM> only books published between 1801 and 1990 <USER> What is the Vat the library of? <SYSTEM> the Holy See <USER> How many books survived the Pre Lateran period? <SYSTEM> a handful of volumes <USER> what is the point of the project started in 2014? <SYSTEM> digitising manuscripts",
+                "original user side information": {},
+                "original system side information": {
+                    "span_start": 868,
+                    "span_end": 910,
+                    "span_text": "manuscripts, to be made available online. ",
+                    "input_text": "them to be viewed online.",
+                    "turn_id": 20
+                }
+            }
+        ],
+        "external knowledge": "The Vatican Apostolic Library (), more commonly called the Vatican Library or simply the Vat, is the library of the Holy See, located in Vatican City. Formally established in 1475, although it is much older, it is one of the oldest libraries in the world and contains one of the most significant collections of historical texts. It has 75,000 codices from throughout history, as well as 1.1 million printed books, which include some 8,500 incunabula. \n\nThe Vatican Library is a research library for history, law, philosophy, science and theology. The Vatican Library is open to anyone who can document their qualifications and research needs. Photocopies for private study of pages from books published between 1801 and 1990 can be requested in person or by mail. \n\nIn March 2014, the Vatican Library began an initial four-year project of digitising its collection of manuscripts, to be made available online. \n\nThe Vatican Secret Archives were separated from the library at the beginning of the 17th century; they contain another 150,000 items. \n\nScholars have traditionally divided the history of the library into five periods, Pre-Lateran, Lateran, Avignon, Pre-Vatican and Vatican. \n\nThe Pre-Lateran period, comprising the initial days of the library, dated from the earliest days of the Church. Only a handful of volumes survive from this period, though some are very significant."
+    },
+    "CoQA--train--2": {
+        "original dialog id": "3wj1oxy92agboo5nlq4r7bndc3t8a8",
+        "dialog index": 2,
+        "original dialog info": {
+            "version": "1.0",
+            "source": "cnn",
+            "id": "3wj1oxy92agboo5nlq4r7bndc3t8a8",
+            "filename": "cnn_fe05c61a7e48461f7883cdec387567029614f07b.story",
+            "name": "cnn_fe05c61a7e48461f7883cdec387567029614f07b.story"
+        },
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "Where was the Auction held?",
+                "system response": "Hard Rock Cafe",
+                "dialog history": "",
+                "original user side information": {},
+                "original system side information": {
+                    "span_start": 243,
+                    "span_end": 284,
+                    "span_text": "Hard Rock Cafe in New York's Times Square",
+                    "input_text": "Hard Rock Cafe",
+                    "turn_id": 1
+                }
+            },
+            {
+                "turn id": 2,
+                "user utterance": "How much did they make?",
+                "system response": "$2 million.",
+                "dialog history": "<USER> Where was the Auction held? <SYSTEM> Hard Rock Cafe",
+                "original user side information": {},
+                "original system side information": {
+                    "span_start": 180,
+                    "span_end": 210,
+                    "span_text": " reaping a total $2 million. \n",
+                    "input_text": "$2 million.",
+                    "turn_id": 2
+                }
+            },
+            {
+                "turn id": 3,
+                "user utterance": "How much did they expected?",
+                "system response": "$120,000",
+                "dialog history": "<USER> Where was the Auction held? <SYSTEM> Hard Rock Cafe <USER> How much did they make? <SYSTEM> $2 million.",
+                "original user side information": {},
+                "original system side information": {
+                    "span_start": 292,
+                    "span_end": 342,
+                    "span_text": " pre-sale expectations of only $120,000 in sales. ",
+                    "input_text": "$120,000",
+                    "turn_id": 3
+                }
+            },
+            {
+                "turn id": 4,
+                "user utterance": "WHo buy the Jackson Glove",
+                "system response": "Hoffman Ma",
+                "dialog history": "<USER> Where was the Auction held? <SYSTEM> Hard Rock Cafe <USER> How much did they make? <SYSTEM> $2 million. <USER> How much did they expected? <SYSTEM> $120,000",
+                "original user side information": {},
+                "original system side information": {
+                    "span_start": 1295,
+                    "span_end": 1365,
+                    "span_text": "Hoffman Ma, who bought the glove on behalf of Ponte 16 Resort in Macau",
+                    "input_text": "Hoffman Ma",
+                    "turn_id": 4
+                }
+            },
+            {
+                "turn id": 5,
+                "user utterance": "Where was the buyer of the glove from?",
+                "system response": "Macau",
+                "dialog history": "<USER> Where was the Auction held? <SYSTEM> Hard Rock Cafe <USER> How much did they make? <SYSTEM> $2 million. <USER> How much did they expected? <SYSTEM> $120,000 <USER> WHo buy the Jackson Glove <SYSTEM> Hoffman Ma",
+                "original user side information": {},
+                "original system side information": {
+                    "span_start": 1331,
+                    "span_end": 1366,
+                    "span_text": "behalf of Ponte 16 Resort in Macau,",
+                    "input_text": "Macau",
+                    "turn_id": 5,
+                    "bad_turn": "true"
+                }
+            }
+        ],
+        "external knowledge": "New York (CNN) -- More than 80 Michael Jackson collectibles -- including the late pop star's famous rhinestone-studded glove from a 1983 performance -- were auctioned off Saturday, reaping a total $2 million. \n\nProfits from the auction at the Hard Rock Cafe in New York's Times Square crushed pre-sale expectations of only $120,000 in sales. \n\nThe highly prized memorabilia, which included items spanning the many stages of Jackson's career, came from more than 30 fans, associates and family members, who contacted Julien's Auctions to sell their gifts and mementos of the singer. \n\nJackson's flashy glove was the big-ticket item of the night, fetching $420,000 from a buyer in Hong Kong, China. Jackson wore the glove at a 1983 performance during \"Motown 25,\" an NBC special where he debuted his revolutionary moonwalk. \n\nFellow Motown star Walter \"Clyde\" Orange of the Commodores, who also performed in the special 26 years ago, said he asked for Jackson's autograph at the time, but Jackson gave him the glove instead. \n\n\"The legacy that [Jackson] left behind is bigger than life for me,\" Orange said. \"I hope that through that glove people can see what he was trying to say in his music and what he said in his music.\" \n\nOrange said he plans to give a portion of the proceeds to charity. \n\nHoffman Ma, who bought the glove on behalf of Ponte 16 Resort in Macau, paid a 25 percent buyer's premium, which was tacked onto all final sales over $50,000. Winners of items less than $50,000 paid a 20 percent premium. "
+    },
+    "CoQA--train--3": {
+        "original dialog id": "3bdcf01ogxu7zdn9vlrbf2rqzwplyf",
+        "dialog index": 3,
+        "original dialog info": {
+            "version": "1.0",
+            "source": "gutenberg",
+            "id": "3bdcf01ogxu7zdn9vlrbf2rqzwplyf",
+            "filename": "data/gutenberg/txt/Zane Grey___Riders of the Purple Sage.txt/CHAPTER VII_78c077ef5e268383edbec1f1c9d644b1423f889d258d95ff055aa92",
+            "name": "data/gutenberg/txt/Zane Grey___Riders of the Purple Sage.txt/CHAPTER VII_78c077ef5e268383edbec1f1c9d644b1423f889d258d95ff055aa92"
+        },
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "What did Venters call Lassiter?",
+                "system response": "gun-man",
+                "dialog history": "",
+                "original user side information": {},
+                "original system side information": {
+                    "span_start": 841,
+                    "span_end": 880,
+                    "span_text": "this gun-man, as Venters had called him",
+                    "input_text": "gun-man",
+                    "turn_id": 1
+                }
+            },
+            {
+                "turn id": 2,
+                "user utterance": "Who asked Lassiter to be their rider?",
+                "system response": "Jane",
+                "dialog history": "<USER> What did Venters call Lassiter? <SYSTEM> gun-man",
+                "original user side information": {},
+                "original system side information": {
+                    "span_start": 43,
+                    "span_end": 97,
+                    "span_text": "\"Lassiter, will you be my rider?\" Jane had asked him. ",
+                    "input_text": "Jane",
+                    "turn_id": 2
+                }
+            },
+            {
+                "turn id": 3,
+                "user utterance": "Did he agree?",
+                "system response": "Yes",
+                "dialog history": "<USER> What did Venters call Lassiter? <SYSTEM> gun-man <USER> Who asked Lassiter to be their rider? <SYSTEM> Jane",
+                "original user side information": {},
+                "original system side information": {
+                    "span_start": 99,
+                    "span_end": 129,
+                    "span_text": "\"I reckon so,\" he had replied.",
+                    "input_text": "Yes",
+                    "turn_id": 3
+                }
+            },
+            {
+                "turn id": 4,
+                "user utterance": "Why did she ask him?",
+                "system response": "to take charge of her cattle and horse and ranges, and save them",
+                "dialog history": "<USER> What did Venters call Lassiter? <SYSTEM> gun-man <USER> Who asked Lassiter to be their rider? <SYSTEM> Jane <USER> Did he agree? <SYSTEM> Yes",
+                "original user side information": {},
+                "original system side information": {
+                    "span_start": 199,
+                    "span_end": 301,
+                    "span_text": "She wanted him to take charge of her cattle and horse and ranges, and save them if that were possible.",
+                    "input_text": "to take charge of her cattle and horse and ranges, and save them",
+                    "turn_id": 4
+                }
+            },
+            {
+                "turn id": 5,
+                "user utterance": "Did she tell him as much?",
+                "system response": "No",
+                "dialog history": "<USER> What did Venters call Lassiter? <SYSTEM> gun-man <USER> Who asked Lassiter to be their rider? <SYSTEM> Jane <USER> Did he agree? <SYSTEM> Yes <USER> Why did she ask him? <SYSTEM> to take charge of her cattle and horse and ranges, and save them",
+                "original user side information": {},
+                "original system side information": {
+                    "span_start": 307,
+                    "span_end": 360,
+                    "span_text": "though she could not have spoken aloud all she meant,",
+                    "input_text": "No",
+                    "turn_id": 5
+                }
+            },
+            {
+                "turn id": 6,
+                "user utterance": "What was she willing to give up?",
+                "system response": "Whatever the price to be paid",
+                "dialog history": "<USER> What did Venters call Lassiter? <SYSTEM> gun-man <USER> Who asked Lassiter to be their rider? <SYSTEM> Jane <USER> Did he agree? <SYSTEM> Yes <USER> Why did she ask him? <SYSTEM> to take charge of her cattle and horse and ranges, and save them <USER> Did she tell him as much? <SYSTEM> No",
+                "original user side information": {},
+                "original system side information": {
+                    "span_start": 400,
+                    "span_end": 429,
+                    "span_text": "Whatever the price to be paid",
+                    "input_text": "Whatever the price to be paid",
+                    "turn_id": 6
+                }
+            },
+            {
+                "turn id": 7,
+                "user utterance": "Where was Milly led to?",
+                "system response": "Cottonwoods",
+                "dialog history": "<USER> What did Venters call Lassiter? <SYSTEM> gun-man <USER> Who asked Lassiter to be their rider? <SYSTEM> Jane <USER> Did he agree? <SYSTEM> Yes <USER> Why did she ask him? <SYSTEM> to take charge of her cattle and horse and ranges, and save them <USER> Did she tell him as much? <SYSTEM> No <USER> What was she willing to give up? <SYSTEM> Whatever the price to be paid",
+                "original user side information": {},
+                "original system side information": {
+                    "span_start": 509,
+                    "span_end": 538,
+                    "span_text": "led Milly Erne to Cottonwoods",
+                    "input_text": "Cottonwoods",
+                    "turn_id": 7
+                }
+            },
+            {
+                "turn id": 8,
+                "user utterance": "Who took her there?",
+                "system response": "A man",
+                "dialog history": "<USER> What did Venters call Lassiter? <SYSTEM> gun-man <USER> Who asked Lassiter to be their rider? <SYSTEM> Jane <USER> Did he agree? <SYSTEM> Yes <USER> Why did she ask him? <SYSTEM> to take charge of her cattle and horse and ranges, and save them <USER> Did she tell him as much? <SYSTEM> No <USER> What was she willing to give up? <SYSTEM> Whatever the price to be paid <USER> Where was Milly led to? <SYSTEM> Cottonwoods",
+                "original user side information": {},
+                "original system side information": {
+                    "span_start": 493,
+                    "span_end": 538,
+                    "span_text": "the man who had led Milly Erne to Cottonwoods",
+                    "input_text": "A man",
+                    "turn_id": 8
+                }
+            },
+            {
+                "turn id": 9,
+                "user utterance": "Whose name would Jane not speak?",
+                "system response": "this Mormon's name",
+                "dialog history": "<USER> What did Venters call Lassiter? <SYSTEM> gun-man <USER> Who asked Lassiter to be their rider? <SYSTEM> Jane <USER> Did he agree? <SYSTEM> Yes <USER> Why did she ask him? <SYSTEM> to take charge of her cattle and horse and ranges, and save them <USER> Did she tell him as much? <SYSTEM> No <USER> What was she willing to give up? <SYSTEM> Whatever the price to be paid <USER> Where was Milly led to? <SYSTEM> Cottonwoods <USER> Who took her there? <SYSTEM> A man",
+                "original user side information": {},
+                "original system side information": {
+                    "span_start": 604,
+                    "span_end": 622,
+                    "span_text": "this Mormon's name",
+                    "input_text": "this Mormon's name",
+                    "turn_id": 9
+                }
+            },
+            {
+                "turn id": 10,
+                "user utterance": "Did she allow herself to even think it?",
+                "system response": "No",
+                "dialog history": "<USER> What did Venters call Lassiter? <SYSTEM> gun-man <USER> Who asked Lassiter to be their rider? <SYSTEM> Jane <USER> Did he agree? <SYSTEM> Yes <USER> Why did she ask him? <SYSTEM> to take charge of her cattle and horse and ranges, and save them <USER> Did she tell him as much? <SYSTEM> No <USER> What was she willing to give up? <SYSTEM> Whatever the price to be paid <USER> Where was Milly led to? <SYSTEM> Cottonwoods <USER> Who took her there? <SYSTEM> A man <USER> Whose name would Jane not speak? <SYSTEM> this Mormon's name",
+                "original user side information": {},
+                "original system side information": {
+                    "span_start": 640,
+                    "span_end": 666,
+                    "span_text": "she did not even think it.",
+                    "input_text": "No",
+                    "turn_id": 10
+                }
+            },
+            {
+                "turn id": 11,
+                "user utterance": "What was Jane hoping Lassiter would become to her?",
+                "system response": "a helper, of a friend, of a champion",
+                "dialog history": "<USER> What did Venters call Lassiter? <SYSTEM> gun-man <USER> Who asked Lassiter to be their rider? <SYSTEM> Jane <USER> Did he agree? <SYSTEM> Yes <USER> Why did she ask him? <SYSTEM> to take charge of her cattle and horse and ranges, and save them <USER> Did she tell him as much? <SYSTEM> No <USER> What was she willing to give up? <SYSTEM> Whatever the price to be paid <USER> Where was Milly led to? <SYSTEM> Cottonwoods <USER> Who took her there? <SYSTEM> A man <USER> Whose name would Jane not speak? <SYSTEM> this Mormon's name <USER> Did she allow herself to even think it? <SYSTEM> No",
+                "original user side information": {},
+                "original system side information": {
+                    "span_start": 751,
+                    "span_end": 798,
+                    "span_text": "the need of a helper, of a friend, of a champio",
+                    "input_text": "a helper, of a friend, of a champion",
+                    "turn_id": 11
+                }
+            },
+            {
+                "turn id": 12,
+                "user utterance": "Who was oppressing her?",
+                "system response": "her churchmen",
+                "dialog history": "<USER> What did Venters call Lassiter? <SYSTEM> gun-man <USER> Who asked Lassiter to be their rider? <SYSTEM> Jane <USER> Did he agree? <SYSTEM> Yes <USER> Why did she ask him? <SYSTEM> to take charge of her cattle and horse and ranges, and save them <USER> Did she tell him as much? <SYSTEM> No <USER> What was she willing to give up? <SYSTEM> Whatever the price to be paid <USER> Where was Milly led to? <SYSTEM> Cottonwoods <USER> Who took her there? <SYSTEM> A man <USER> Whose name would Jane not speak? <SYSTEM> this Mormon's name <USER> Did she allow herself to even think it? <SYSTEM> No <USER> What was Jane hoping Lassiter would become to her? <SYSTEM> a helper, of a friend, of a champion",
+                "original user side information": {},
+                "original system side information": {
+                    "span_start": 991,
+                    "span_end": 1047,
+                    "span_text": "game of oppression her churchmen were waging against her",
+                    "input_text": "her churchmen",
+                    "turn_id": 12
+                }
+            },
+            {
+                "turn id": 13,
+                "user utterance": "What was she hoping she could keep from happening to him?",
+                "system response": "shedding blood",
+                "dialog history": "<USER> What did Venters call Lassiter? <SYSTEM> gun-man <USER> Who asked Lassiter to be their rider? <SYSTEM> Jane <USER> Did he agree? <SYSTEM> Yes <USER> Why did she ask him? <SYSTEM> to take charge of her cattle and horse and ranges, and save them <USER> Did she tell him as much? <SYSTEM> No <USER> What was she willing to give up? <SYSTEM> Whatever the price to be paid <USER> Where was Milly led to? <SYSTEM> Cottonwoods <USER> Who took her there? <SYSTEM> A man <USER> Whose name would Jane not speak? <SYSTEM> this Mormon's name <USER> Did she allow herself to even think it? <SYSTEM> No <USER> What was Jane hoping Lassiter would become to her? <SYSTEM> a helper, of a friend, of a champion <USER> Who was oppressing her? <SYSTEM> her churchmen",
+                "original user side information": {},
+                "original system side information": {
+                    "span_start": 885,
+                    "span_end": 928,
+                    "span_text": "she could even keep him from shedding blood",
+                    "input_text": "shedding blood",
+                    "turn_id": 13
+                }
+            },
+            {
+                "turn id": 14,
+                "user utterance": "Who had shouted Lassiter's name?",
+                "system response": "Venters",
+                "dialog history": "<USER> What did Venters call Lassiter? <SYSTEM> gun-man <USER> Who asked Lassiter to be their rider? <SYSTEM> Jane <USER> Did he agree? <SYSTEM> Yes <USER> Why did she ask him? <SYSTEM> to take charge of her cattle and horse and ranges, and save them <USER> Did she tell him as much? <SYSTEM> No <USER> What was she willing to give up? <SYSTEM> Whatever the price to be paid <USER> Where was Milly led to? <SYSTEM> Cottonwoods <USER> Who took her there? <SYSTEM> A man <USER> Whose name would Jane not speak? <SYSTEM> this Mormon's name <USER> Did she allow herself to even think it? <SYSTEM> No <USER> What was Jane hoping Lassiter would become to her? <SYSTEM> a helper, of a friend, of a champion <USER> Who was oppressing her? <SYSTEM> her churchmen <USER> What was she hoping she could keep from happening to him? <SYSTEM> shedding blood",
+                "original user side information": {},
+                "original system side information": {
+                    "span_start": 1108,
+                    "span_end": 1140,
+                    "span_text": "Venters shouted Lassiter's name.",
+                    "input_text": "Venters",
+                    "turn_id": 14
+                }
+            },
+            {
+                "turn id": 15,
+                "user utterance": "Who did that affect?",
+                "system response": "Tull and his men",
+                "dialog history": "<USER> What did Venters call Lassiter? <SYSTEM> gun-man <USER> Who asked Lassiter to be their rider? <SYSTEM> Jane <USER> Did he agree? <SYSTEM> Yes <USER> Why did she ask him? <SYSTEM> to take charge of her cattle and horse and ranges, and save them <USER> Did she tell him as much? <SYSTEM> No <USER> What was she willing to give up? <SYSTEM> Whatever the price to be paid <USER> Where was Milly led to? <SYSTEM> Cottonwoods <USER> Who took her there? <SYSTEM> A man <USER> Whose name would Jane not speak? <SYSTEM> this Mormon's name <USER> Did she allow herself to even think it? <SYSTEM> No <USER> What was Jane hoping Lassiter would become to her? <SYSTEM> a helper, of a friend, of a champion <USER> Who was oppressing her? <SYSTEM> her churchmen <USER> What was she hoping she could keep from happening to him? <SYSTEM> shedding blood <USER> Who had shouted Lassiter's name? <SYSTEM> Venters",
+                "original user side information": {},
+                "original system side information": {
+                    "span_start": 1071,
+                    "span_end": 1140,
+                    "span_text": " the effect on Tull and his men when Venters shouted Lassiter's name.",
+                    "input_text": "Tull and his men",
+                    "turn_id": 15
+                }
+            },
+            {
+                "turn id": 16,
+                "user utterance": "Did Jane think she could control Lassiter?",
+                "system response": "No",
+                "dialog history": "<USER> What did Venters call Lassiter? <SYSTEM> gun-man <USER> Who asked Lassiter to be their rider? <SYSTEM> Jane <USER> Did he agree? <SYSTEM> Yes <USER> Why did she ask him? <SYSTEM> to take charge of her cattle and horse and ranges, and save them <USER> Did she tell him as much? <SYSTEM> No <USER> What was she willing to give up? <SYSTEM> Whatever the price to be paid <USER> Where was Milly led to? <SYSTEM> Cottonwoods <USER> Who took her there? <SYSTEM> A man <USER> Whose name would Jane not speak? <SYSTEM> this Mormon's name <USER> Did she allow herself to even think it? <SYSTEM> No <USER> What was Jane hoping Lassiter would become to her? <SYSTEM> a helper, of a friend, of a champion <USER> Who was oppressing her? <SYSTEM> her churchmen <USER> What was she hoping she could keep from happening to him? <SYSTEM> shedding blood <USER> Who had shouted Lassiter's name? <SYSTEM> Venters <USER> Who did that affect? <SYSTEM> Tull and his men",
+                "original user side information": {},
+                "original system side information": {
+                    "span_start": 1141,
+                    "span_end": 1205,
+                    "span_text": "If she could not wholly control Lassiter, then what she could do",
+                    "input_text": "No",
+                    "turn_id": 16
+                }
+            },
+            {
+                "turn id": 17,
+                "user utterance": "Who is Bells?",
+                "system response": "One of her safe racers",
+                "dialog history": "<USER> What did Venters call Lassiter? <SYSTEM> gun-man <USER> Who asked Lassiter to be their rider? <SYSTEM> Jane <USER> Did he agree? <SYSTEM> Yes <USER> Why did she ask him? <SYSTEM> to take charge of her cattle and horse and ranges, and save them <USER> Did she tell him as much? <SYSTEM> No <USER> What was she willing to give up? <SYSTEM> Whatever the price to be paid <USER> Where was Milly led to? <SYSTEM> Cottonwoods <USER> Who took her there? <SYSTEM> A man <USER> Whose name would Jane not speak? <SYSTEM> this Mormon's name <USER> Did she allow herself to even think it? <SYSTEM> No <USER> What was Jane hoping Lassiter would become to her? <SYSTEM> a helper, of a friend, of a champion <USER> Who was oppressing her? <SYSTEM> her churchmen <USER> What was she hoping she could keep from happening to him? <SYSTEM> shedding blood <USER> Who had shouted Lassiter's name? <SYSTEM> Venters <USER> Who did that affect? <SYSTEM> Tull and his men <USER> Did Jane think she could control Lassiter? <SYSTEM> No",
+                "original user side information": {},
+                "original system side information": {
+                    "span_start": 1237,
+                    "span_end": 1300,
+                    "span_text": "One of her safe racers was a dark bay, and she called him Bells",
+                    "input_text": "One of her safe racers",
+                    "turn_id": 17
+                }
+            },
+            {
+                "turn id": 18,
+                "user utterance": "How did he get his name?",
+                "system response": "because of the way he struck his iron shoes on the stones.",
+                "dialog history": "<USER> What did Venters call Lassiter? <SYSTEM> gun-man <USER> Who asked Lassiter to be their rider? <SYSTEM> Jane <USER> Did he agree? <SYSTEM> Yes <USER> Why did she ask him? <SYSTEM> to take charge of her cattle and horse and ranges, and save them <USER> Did she tell him as much? <SYSTEM> No <USER> What was she willing to give up? <SYSTEM> Whatever the price to be paid <USER> Where was Milly led to? <SYSTEM> Cottonwoods <USER> Who took her there? <SYSTEM> A man <USER> Whose name would Jane not speak? <SYSTEM> this Mormon's name <USER> Did she allow herself to even think it? <SYSTEM> No <USER> What was Jane hoping Lassiter would become to her? <SYSTEM> a helper, of a friend, of a champion <USER> Who was oppressing her? <SYSTEM> her churchmen <USER> What was she hoping she could keep from happening to him? <SYSTEM> shedding blood <USER> Who had shouted Lassiter's name? <SYSTEM> Venters <USER> Who did that affect? <SYSTEM> Tull and his men <USER> Did Jane think she could control Lassiter? <SYSTEM> No <USER> Who is Bells? <SYSTEM> One of her safe racers",
+                "original user side information": {},
+                "original system side information": {
+                    "span_start": 1280,
+                    "span_end": 1360,
+                    "span_text": "she called him Bells because of the way he struck his iron shoes on the stones. ",
+                    "input_text": "because of the way he struck his iron shoes on the stones.",
+                    "turn_id": 18
+                }
+            },
+            {
+                "turn id": 19,
+                "user utterance": "Was Lassiter impressed with the horse?",
+                "system response": "Yes",
+                "dialog history": "<USER> What did Venters call Lassiter? <SYSTEM> gun-man <USER> Who asked Lassiter to be their rider? <SYSTEM> Jane <USER> Did he agree? <SYSTEM> Yes <USER> Why did she ask him? <SYSTEM> to take charge of her cattle and horse and ranges, and save them <USER> Did she tell him as much? <SYSTEM> No <USER> What was she willing to give up? <SYSTEM> Whatever the price to be paid <USER> Where was Milly led to? <SYSTEM> Cottonwoods <USER> Who took her there? <SYSTEM> A man <USER> Whose name would Jane not speak? <SYSTEM> this Mormon's name <USER> Did she allow herself to even think it? <SYSTEM> No <USER> What was Jane hoping Lassiter would become to her? <SYSTEM> a helper, of a friend, of a champion <USER> Who was oppressing her? <SYSTEM> her churchmen <USER> What was she hoping she could keep from happening to him? <SYSTEM> shedding blood <USER> Who had shouted Lassiter's name? <SYSTEM> Venters <USER> Who did that affect? <SYSTEM> Tull and his men <USER> Did Jane think she could control Lassiter? <SYSTEM> No <USER> Who is Bells? <SYSTEM> One of her safe racers <USER> How did he get his name? <SYSTEM> because of the way he struck his iron shoes on the stones.",
+                "original user side information": {},
+                "original system side information": {
+                    "span_start": 1360,
+                    "span_end": 1450,
+                    "span_text": "When Jerd led out this slender, beautifully built horse Lassiter suddenly became all eyes.",
+                    "input_text": "Yes",
+                    "turn_id": 19
+                }
+            },
+            {
+                "turn id": 20,
+                "user utterance": "Did he want to take him for himself?",
+                "system response": "Yes",
+                "dialog history": "<USER> What did Venters call Lassiter? <SYSTEM> gun-man <USER> Who asked Lassiter to be their rider? <SYSTEM> Jane <USER> Did he agree? <SYSTEM> Yes <USER> Why did she ask him? <SYSTEM> to take charge of her cattle and horse and ranges, and save them <USER> Did she tell him as much? <SYSTEM> No <USER> What was she willing to give up? <SYSTEM> Whatever the price to be paid <USER> Where was Milly led to? <SYSTEM> Cottonwoods <USER> Who took her there? <SYSTEM> A man <USER> Whose name would Jane not speak? <SYSTEM> this Mormon's name <USER> Did she allow herself to even think it? <SYSTEM> No <USER> What was Jane hoping Lassiter would become to her? <SYSTEM> a helper, of a friend, of a champion <USER> Who was oppressing her? <SYSTEM> her churchmen <USER> What was she hoping she could keep from happening to him? <SYSTEM> shedding blood <USER> Who had shouted Lassiter's name? <SYSTEM> Venters <USER> Who did that affect? <SYSTEM> Tull and his men <USER> Did Jane think she could control Lassiter? <SYSTEM> No <USER> Who is Bells? <SYSTEM> One of her safe racers <USER> How did he get his name? <SYSTEM> because of the way he struck his iron shoes on the stones. <USER> Was Lassiter impressed with the horse? <SYSTEM> Yes",
+                "original user side information": {},
+                "original system side information": {
+                    "span_start": 1532,
+                    "span_end": 1625,
+                    "span_text": "plainly weakening all the time in his determination not to take one of Jane's favorite racers",
+                    "input_text": "Yes",
+                    "turn_id": 20
+                }
+            }
+        ],
+        "external knowledge": "CHAPTER VII. THE DAUGHTER OF WITHERSTEEN \n\n\"Lassiter, will you be my rider?\" Jane had asked him. \n\n\"I reckon so,\" he had replied. \n\nFew as the words were, Jane knew how infinitely much they implied. She wanted him to take charge of her cattle and horse and ranges, and save them if that were possible. Yet, though she could not have spoken aloud all she meant, she was perfectly honest with herself. Whatever the price to be paid, she must keep Lassiter close to her; she must shield from him the man who had led Milly Erne to Cottonwoods. In her fear she so controlled her mind that she did not whisper this Mormon's name to her own soul, she did not even think it. Besides, beyond this thing she regarded as a sacred obligation thrust upon her, was the need of a helper, of a friend, of a champion in this critical time. If she could rule this gun-man, as Venters had called him, if she could even keep him from shedding blood, what strategy to play his flame and his presence against the game of oppression her churchmen were waging against her? Never would she forget the effect on Tull and his men when Venters shouted Lassiter's name. If she could not wholly control Lassiter, then what she could do might put off the fatal day. \n\nOne of her safe racers was a dark bay, and she called him Bells because of the way he struck his iron shoes on the stones. When Jerd led out this slender, beautifully built horse Lassiter suddenly became all eyes. A rider's love of a thoroughbred shone in them. Round and round Bells he walked, plainly weakening all the time in his determination not to take one of Jane's favorite racers. "
+    },
+    "CoQA--train--4": {
+        "original dialog id": "3ewijtffvo7wwchw6rtyaf7mfwte0p",
+        "dialog index": 4,
+        "original dialog info": {
+            "version": "1.0",
+            "source": "cnn",
+            "id": "3ewijtffvo7wwchw6rtyaf7mfwte0p",
+            "filename": "cnn_0c518067e0df811501e46b2e1cd1ce511f1645b7.story",
+            "name": "cnn_0c518067e0df811501e46b2e1cd1ce511f1645b7.story"
+        },
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "Who is Rudolph's father?",
+                "system response": "Donner",
+                "dialog history": "",
+                "original user side information": {},
+                "original system side information": {
+                    "span_start": 500,
+                    "span_end": 557,
+                    "span_text": "Santa's reindeer Donner and his wife have a son, Rudolph,",
+                    "input_text": "Donner",
+                    "turn_id": 1
+                }
+            },
+            {
+                "turn id": 2,
+                "user utterance": "Why does Rudolph run away?",
+                "system response": "he felt like an outcast",
+                "dialog history": "<USER> Who is Rudolph's father? <SYSTEM> Donner",
+                "original user side information": {},
+                "original system side information": {
+                    "span_start": 604,
+                    "span_end": 653,
+                    "span_text": "He runs away after being made to feel an outcast ",
+                    "input_text": "he felt like an outcast",
+                    "turn_id": 2
+                }
+            },
+            {
+                "turn id": 3,
+                "user utterance": "What makes him different from the other reindeer?",
+                "system response": "his nose glows",
+                "dialog history": "<USER> Who is Rudolph's father? <SYSTEM> Donner <USER> Why does Rudolph run away? <SYSTEM> he felt like an outcast",
+                "original user side information": {},
+                "original system side information": {
+                    "span_start": 548,
+                    "span_end": 602,
+                    "span_text": " Rudolph, who has the distinction of a nose that glows",
+                    "input_text": "his nose glows",
+                    "turn_id": 3
+                }
+            },
+            {
+                "turn id": 4,
+                "user utterance": "Who does he save during a snow storm?",
+                "system response": "his loved ones",
+                "dialog history": "<USER> Who is Rudolph's father? <SYSTEM> Donner <USER> Why does Rudolph run away? <SYSTEM> he felt like an outcast <USER> What makes him different from the other reindeer? <SYSTEM> his nose glows",
+                "original user side information": {},
+                "original system side information": {
+                    "span_start": 828,
+                    "span_end": 970,
+                    "span_text": "Rudolph goes on to save his loved ones from the Abominable Snow Monster and guides Santa through a blizzard that threatens to ruin Christmas. ",
+                    "input_text": "his loved ones",
+                    "turn_id": 4
+                }
+            },
+            {
+                "turn id": 5,
+                "user utterance": "Does he save Christmas?",
+                "system response": "yes",
+                "dialog history": "<USER> Who is Rudolph's father? <SYSTEM> Donner <USER> Why does Rudolph run away? <SYSTEM> he felt like an outcast <USER> What makes him different from the other reindeer? <SYSTEM> his nose glows <USER> Who does he save during a snow storm? <SYSTEM> his loved ones",
+                "original user side information": {},
+                "original system side information": {
+                    "span_start": 904,
+                    "span_end": 970,
+                    "span_text": "guides Santa through a blizzard that threatens to ruin Christmas. ",
+                    "input_text": "yes",
+                    "turn_id": 5
+                }
+            },
+            {
+                "turn id": 6,
+                "user utterance": "What Island does he travel to?",
+                "system response": "the Island of Misfit Toys",
+                "dialog history": "<USER> Who is Rudolph's father? <SYSTEM> Donner <USER> Why does Rudolph run away? <SYSTEM> he felt like an outcast <USER> What makes him different from the other reindeer? <SYSTEM> his nose glows <USER> Who does he save during a snow storm? <SYSTEM> his loved ones <USER> Does he save Christmas? <SYSTEM> yes",
+                "original user side information": {},
+                "original system side information": {
+                    "span_start": 756,
+                    "span_end": 800,
+                    "span_text": "After ending up on the Island of Misfit Toys",
+                    "input_text": "the Island of Misfit Toys",
+                    "turn_id": 6
+                }
+            },
+            {
+                "turn id": 7,
+                "user utterance": "Which company produced the movie?",
+                "system response": "Rankin-Bass",
+                "dialog history": "<USER> Who is Rudolph's father? <SYSTEM> Donner <USER> Why does Rudolph run away? <SYSTEM> he felt like an outcast <USER> What makes him different from the other reindeer? <SYSTEM> his nose glows <USER> Who does he save during a snow storm? <SYSTEM> his loved ones <USER> Does he save Christmas? <SYSTEM> yes <USER> What Island does he travel to? <SYSTEM> the Island of Misfit Toys",
+                "original user side information": {},
+                "original system side information": {
+                    "span_start": 303,
+                    "span_end": 406,
+                    "span_text": "The Rankin-Bass animated film production company used Japanese puppets and stop motion to tell the tale",
+                    "input_text": "Rankin-Bass",
+                    "turn_id": 7
+                }
+            },
+            {
+                "turn id": 8,
+                "user utterance": "When did it premiere?",
+                "system response": "December 6, 1964",
+                "dialog history": "<USER> Who is Rudolph's father? <SYSTEM> Donner <USER> Why does Rudolph run away? <SYSTEM> he felt like an outcast <USER> What makes him different from the other reindeer? <SYSTEM> his nose glows <USER> Who does he save during a snow storm? <SYSTEM> his loved ones <USER> Does he save Christmas? <SYSTEM> yes <USER> What Island does he travel to? <SYSTEM> the Island of Misfit Toys <USER> Which company produced the movie? <SYSTEM> Rankin-Bass",
+                "original user side information": {},
+                "original system side information": {
+                    "span_start": 76,
+                    "span_end": 149,
+                    "span_text": "\"Rudolph the Red-Nosed Reindeer\" premiered on television December 6, 1964",
+                    "input_text": "December 6, 1964",
+                    "turn_id": 8
+                }
+            },
+            {
+                "turn id": 9,
+                "user utterance": "What methods were used in filming the movie?",
+                "system response": "Japanese puppets and stop motion",
+                "dialog history": "<USER> Who is Rudolph's father? <SYSTEM> Donner <USER> Why does Rudolph run away? <SYSTEM> he felt like an outcast <USER> What makes him different from the other reindeer? <SYSTEM> his nose glows <USER> Who does he save during a snow storm? <SYSTEM> his loved ones <USER> Does he save Christmas? <SYSTEM> yes <USER> What Island does he travel to? <SYSTEM> the Island of Misfit Toys <USER> Which company produced the movie? <SYSTEM> Rankin-Bass <USER> When did it premiere? <SYSTEM> December 6, 1964",
+                "original user side information": {},
+                "original system side information": {
+                    "span_start": 303,
+                    "span_end": 406,
+                    "span_text": "The Rankin-Bass animated film production company used Japanese puppets and stop motion to tell the tale",
+                    "input_text": "Japanese puppets and stop motion",
+                    "turn_id": 9
+                }
+            },
+            {
+                "turn id": 10,
+                "user utterance": "Are all of the puppets still in existence?",
+                "system response": "no",
+                "dialog history": "<USER> Who is Rudolph's father? <SYSTEM> Donner <USER> Why does Rudolph run away? <SYSTEM> he felt like an outcast <USER> What makes him different from the other reindeer? <SYSTEM> his nose glows <USER> Who does he save during a snow storm? <SYSTEM> his loved ones <USER> Does he save Christmas? <SYSTEM> yes <USER> What Island does he travel to? <SYSTEM> the Island of Misfit Toys <USER> Which company produced the movie? <SYSTEM> Rankin-Bass <USER> When did it premiere? <SYSTEM> December 6, 1964 <USER> What methods were used in filming the movie? <SYSTEM> Japanese puppets and stop motion",
+                "original user side information": {},
+                "original system side information": {
+                    "span_start": 1122,
+                    "span_end": 1196,
+                    "span_text": "The pair were thought to be the last of the surviving production puppets. ",
+                    "input_text": "no",
+                    "turn_id": 10
+                }
+            },
+            {
+                "turn id": 11,
+                "user utterance": "How many remain?",
+                "system response": "two",
+                "dialog history": "<USER> Who is Rudolph's father? <SYSTEM> Donner <USER> Why does Rudolph run away? <SYSTEM> he felt like an outcast <USER> What makes him different from the other reindeer? <SYSTEM> his nose glows <USER> Who does he save during a snow storm? <SYSTEM> his loved ones <USER> Does he save Christmas? <SYSTEM> yes <USER> What Island does he travel to? <SYSTEM> the Island of Misfit Toys <USER> Which company produced the movie? <SYSTEM> Rankin-Bass <USER> When did it premiere? <SYSTEM> December 6, 1964 <USER> What methods were used in filming the movie? <SYSTEM> Japanese puppets and stop motion <USER> Are all of the puppets still in existence? <SYSTEM> no",
+                "original user side information": {},
+                "original system side information": {
+                    "span_start": 1122,
+                    "span_end": 1196,
+                    "span_text": "The pair were thought to be the last of the surviving production puppets. ",
+                    "input_text": "two",
+                    "turn_id": 11
+                }
+            },
+            {
+                "turn id": 12,
+                "user utterance": "Which?",
+                "system response": "Rudolph and Santa Claus",
+                "dialog history": "<USER> Who is Rudolph's father? <SYSTEM> Donner <USER> Why does Rudolph run away? <SYSTEM> he felt like an outcast <USER> What makes him different from the other reindeer? <SYSTEM> his nose glows <USER> Who does he save during a snow storm? <SYSTEM> his loved ones <USER> Does he save Christmas? <SYSTEM> yes <USER> What Island does he travel to? <SYSTEM> the Island of Misfit Toys <USER> Which company produced the movie? <SYSTEM> Rankin-Bass <USER> When did it premiere? <SYSTEM> December 6, 1964 <USER> What methods were used in filming the movie? <SYSTEM> Japanese puppets and stop motion <USER> Are all of the puppets still in existence? <SYSTEM> no <USER> How many remain? <SYSTEM> two",
+                "original user side information": {},
+                "original system side information": {
+                    "span_start": 1041,
+                    "span_end": 1158,
+                    "span_text": " the Rudolph and Santa Claus puppets at the Center for Puppetry Arts in Atlanta. The pair were thought to be the last",
+                    "input_text": "Rudolph and Santa Claus",
+                    "turn_id": 12
+                }
+            },
+            {
+                "turn id": 13,
+                "user utterance": "Where had they been stored since their use in the show?",
+                "system response": "in a family attic",
+                "dialog history": "<USER> Who is Rudolph's father? <SYSTEM> Donner <USER> Why does Rudolph run away? <SYSTEM> he felt like an outcast <USER> What makes him different from the other reindeer? <SYSTEM> his nose glows <USER> Who does he save during a snow storm? <SYSTEM> his loved ones <USER> Does he save Christmas? <SYSTEM> yes <USER> What Island does he travel to? <SYSTEM> the Island of Misfit Toys <USER> Which company produced the movie? <SYSTEM> Rankin-Bass <USER> When did it premiere? <SYSTEM> December 6, 1964 <USER> What methods were used in filming the movie? <SYSTEM> Japanese puppets and stop motion <USER> Are all of the puppets still in existence? <SYSTEM> no <USER> How many remain? <SYSTEM> two <USER> Which? <SYSTEM> Rudolph and Santa Claus",
+                "original user side information": {},
+                "original system side information": {
+                    "span_start": 1320,
+                    "span_end": 1392,
+                    "span_text": " the nephew of the original rescuer found the puppets in a family attic ",
+                    "input_text": "in a family attic",
+                    "turn_id": 13
+                }
+            },
+            {
+                "turn id": 14,
+                "user utterance": "When were they rediscovered?",
+                "system response": "In 2005",
+                "dialog history": "<USER> Who is Rudolph's father? <SYSTEM> Donner <USER> Why does Rudolph run away? <SYSTEM> he felt like an outcast <USER> What makes him different from the other reindeer? <SYSTEM> his nose glows <USER> Who does he save during a snow storm? <SYSTEM> his loved ones <USER> Does he save Christmas? <SYSTEM> yes <USER> What Island does he travel to? <SYSTEM> the Island of Misfit Toys <USER> Which company produced the movie? <SYSTEM> Rankin-Bass <USER> When did it premiere? <SYSTEM> December 6, 1964 <USER> What methods were used in filming the movie? <SYSTEM> Japanese puppets and stop motion <USER> Are all of the puppets still in existence? <SYSTEM> no <USER> How many remain? <SYSTEM> two <USER> Which? <SYSTEM> Rudolph and Santa Claus <USER> Where had they been stored since their use in the show? <SYSTEM> in a family attic",
+                "original user side information": {},
+                "original system side information": {
+                    "span_start": 1312,
+                    "span_end": 1374,
+                    "span_text": "In 2005, the nephew of the original rescuer found the puppets ",
+                    "input_text": "In 2005",
+                    "turn_id": 14
+                }
+            },
+            {
+                "turn id": 15,
+                "user utterance": "When were they put on display?",
+                "system response": "In 2006",
+                "dialog history": "<USER> Who is Rudolph's father? <SYSTEM> Donner <USER> Why does Rudolph run away? <SYSTEM> he felt like an outcast <USER> What makes him different from the other reindeer? <SYSTEM> his nose glows <USER> Who does he save during a snow storm? <SYSTEM> his loved ones <USER> Does he save Christmas? <SYSTEM> yes <USER> What Island does he travel to? <SYSTEM> the Island of Misfit Toys <USER> Which company produced the movie? <SYSTEM> Rankin-Bass <USER> When did it premiere? <SYSTEM> December 6, 1964 <USER> What methods were used in filming the movie? <SYSTEM> Japanese puppets and stop motion <USER> Are all of the puppets still in existence? <SYSTEM> no <USER> How many remain? <SYSTEM> two <USER> Which? <SYSTEM> Rudolph and Santa Claus <USER> Where had they been stored since their use in the show? <SYSTEM> in a family attic <USER> When were they rediscovered? <SYSTEM> In 2005",
+                "original user side information": {},
+                "original system side information": {
+                    "span_start": 972,
+                    "span_end": 1042,
+                    "span_text": "In 2006, the New York Times reported that fans drove for miles to see ",
+                    "input_text": "In 2006",
+                    "turn_id": 15
+                }
+            },
+            {
+                "turn id": 16,
+                "user utterance": "Where?",
+                "system response": "the Center for Puppetry Arts",
+                "dialog history": "<USER> Who is Rudolph's father? <SYSTEM> Donner <USER> Why does Rudolph run away? <SYSTEM> he felt like an outcast <USER> What makes him different from the other reindeer? <SYSTEM> his nose glows <USER> Who does he save during a snow storm? <SYSTEM> his loved ones <USER> Does he save Christmas? <SYSTEM> yes <USER> What Island does he travel to? <SYSTEM> the Island of Misfit Toys <USER> Which company produced the movie? <SYSTEM> Rankin-Bass <USER> When did it premiere? <SYSTEM> December 6, 1964 <USER> What methods were used in filming the movie? <SYSTEM> Japanese puppets and stop motion <USER> Are all of the puppets still in existence? <SYSTEM> no <USER> How many remain? <SYSTEM> two <USER> Which? <SYSTEM> Rudolph and Santa Claus <USER> Where had they been stored since their use in the show? <SYSTEM> in a family attic <USER> When were they rediscovered? <SYSTEM> In 2005 <USER> When were they put on display? <SYSTEM> In 2006",
+                "original user side information": {},
+                "original system side information": {
+                    "span_start": 972,
+                    "span_end": 1120,
+                    "span_text": "In 2006, the New York Times reported that fans drove for miles to see the Rudolph and Santa Claus puppets at the Center for Puppetry Arts in Atlanta",
+                    "input_text": "the Center for Puppetry Arts",
+                    "turn_id": 16
+                }
+            },
+            {
+                "turn id": 17,
+                "user utterance": "How much did they appraise for in 2005?",
+                "system response": "$8,000 to $10,000 for the pair",
+                "dialog history": "<USER> Who is Rudolph's father? <SYSTEM> Donner <USER> Why does Rudolph run away? <SYSTEM> he felt like an outcast <USER> What makes him different from the other reindeer? <SYSTEM> his nose glows <USER> Who does he save during a snow storm? <SYSTEM> his loved ones <USER> Does he save Christmas? <SYSTEM> yes <USER> What Island does he travel to? <SYSTEM> the Island of Misfit Toys <USER> Which company produced the movie? <SYSTEM> Rankin-Bass <USER> When did it premiere? <SYSTEM> December 6, 1964 <USER> What methods were used in filming the movie? <SYSTEM> Japanese puppets and stop motion <USER> Are all of the puppets still in existence? <SYSTEM> no <USER> How many remain? <SYSTEM> two <USER> Which? <SYSTEM> Rudolph and Santa Claus <USER> Where had they been stored since their use in the show? <SYSTEM> in a family attic <USER> When were they rediscovered? <SYSTEM> In 2005 <USER> When were they put on display? <SYSTEM> In 2006 <USER> Where? <SYSTEM> the Center for Puppetry Arts",
+                "original user side information": {},
+                "original system side information": {
+                    "span_start": 1521,
+                    "span_end": 1572,
+                    "span_text": " they were valued at $8,000 to $10,000 for the pair",
+                    "input_text": "$8,000 to $10,000 for the pair",
+                    "turn_id": 17
+                }
+            },
+            {
+                "turn id": 18,
+                "user utterance": "How much did they originally cost to produce?",
+                "system response": "about $5,000 each",
+                "dialog history": "<USER> Who is Rudolph's father? <SYSTEM> Donner <USER> Why does Rudolph run away? <SYSTEM> he felt like an outcast <USER> What makes him different from the other reindeer? <SYSTEM> his nose glows <USER> Who does he save during a snow storm? <SYSTEM> his loved ones <USER> Does he save Christmas? <SYSTEM> yes <USER> What Island does he travel to? <SYSTEM> the Island of Misfit Toys <USER> Which company produced the movie? <SYSTEM> Rankin-Bass <USER> When did it premiere? <SYSTEM> December 6, 1964 <USER> What methods were used in filming the movie? <SYSTEM> Japanese puppets and stop motion <USER> Are all of the puppets still in existence? <SYSTEM> no <USER> How many remain? <SYSTEM> two <USER> Which? <SYSTEM> Rudolph and Santa Claus <USER> Where had they been stored since their use in the show? <SYSTEM> in a family attic <USER> When were they rediscovered? <SYSTEM> In 2005 <USER> When were they put on display? <SYSTEM> In 2006 <USER> Where? <SYSTEM> the Center for Puppetry Arts <USER> How much did they appraise for in 2005? <SYSTEM> $8,000 to $10,000 for the pair",
+                "original user side information": {},
+                "original system side information": {
+                    "span_start": 1482,
+                    "span_end": 1512,
+                    "span_text": "\"Created for about $5,000 each",
+                    "input_text": "about $5,000 each",
+                    "turn_id": 18
+                }
+            },
+            {
+                "turn id": 19,
+                "user utterance": "What year were they made?",
+                "system response": "1964",
+                "dialog history": "<USER> Who is Rudolph's father? <SYSTEM> Donner <USER> Why does Rudolph run away? <SYSTEM> he felt like an outcast <USER> What makes him different from the other reindeer? <SYSTEM> his nose glows <USER> Who does he save during a snow storm? <SYSTEM> his loved ones <USER> Does he save Christmas? <SYSTEM> yes <USER> What Island does he travel to? <SYSTEM> the Island of Misfit Toys <USER> Which company produced the movie? <SYSTEM> Rankin-Bass <USER> When did it premiere? <SYSTEM> December 6, 1964 <USER> What methods were used in filming the movie? <SYSTEM> Japanese puppets and stop motion <USER> Are all of the puppets still in existence? <SYSTEM> no <USER> How many remain? <SYSTEM> two <USER> Which? <SYSTEM> Rudolph and Santa Claus <USER> Where had they been stored since their use in the show? <SYSTEM> in a family attic <USER> When were they rediscovered? <SYSTEM> In 2005 <USER> When were they put on display? <SYSTEM> In 2006 <USER> Where? <SYSTEM> the Center for Puppetry Arts <USER> How much did they appraise for in 2005? <SYSTEM> $8,000 to $10,000 for the pair <USER> How much did they originally cost to produce? <SYSTEM> about $5,000 each",
+                "original user side information": {},
+                "original system side information": {
+                    "span_start": 1483,
+                    "span_end": 1520,
+                    "span_text": "Created for about $5,000 each in 1964",
+                    "input_text": "1964",
+                    "turn_id": 19
+                }
+            },
+            {
+                "turn id": 20,
+                "user utterance": "Who bought them?",
+                "system response": "Kevin A. Kriess",
+                "dialog history": "<USER> Who is Rudolph's father? <SYSTEM> Donner <USER> Why does Rudolph run away? <SYSTEM> he felt like an outcast <USER> What makes him different from the other reindeer? <SYSTEM> his nose glows <USER> Who does he save during a snow storm? <SYSTEM> his loved ones <USER> Does he save Christmas? <SYSTEM> yes <USER> What Island does he travel to? <SYSTEM> the Island of Misfit Toys <USER> Which company produced the movie? <SYSTEM> Rankin-Bass <USER> When did it premiere? <SYSTEM> December 6, 1964 <USER> What methods were used in filming the movie? <SYSTEM> Japanese puppets and stop motion <USER> Are all of the puppets still in existence? <SYSTEM> no <USER> How many remain? <SYSTEM> two <USER> Which? <SYSTEM> Rudolph and Santa Claus <USER> Where had they been stored since their use in the show? <SYSTEM> in a family attic <USER> When were they rediscovered? <SYSTEM> In 2005 <USER> When were they put on display? <SYSTEM> In 2006 <USER> Where? <SYSTEM> the Center for Puppetry Arts <USER> How much did they appraise for in 2005? <SYSTEM> $8,000 to $10,000 for the pair <USER> How much did they originally cost to produce? <SYSTEM> about $5,000 each <USER> What year were they made? <SYSTEM> 1964",
+                "original user side information": {},
+                "original system side information": {
+                    "span_start": 1573,
+                    "span_end": 1621,
+                    "span_text": " The family sold both figures to Kevin A. Kriess",
+                    "input_text": "Kevin A. Kriess",
+                    "turn_id": 20
+                }
+            }
+        ],
+        "external knowledge": "(CNN) -- The longest-running holiday special still has a very shiny nose. \n\n\"Rudolph the Red-Nosed Reindeer\" premiered on television December 6, 1964, and is now one of the holiday season's perennial favorites. The story of the reindeer who saves Christmas is beloved among children and adults alike. \n\nThe Rankin-Bass animated film production company used Japanese puppets and stop motion to tell the tale, bolstered by a soundtrack featuring Burl Ives' rendition of the theme song. \n\nIn the story, Santa's reindeer Donner and his wife have a son, Rudolph, who has the distinction of a nose that glows. He runs away after being made to feel an outcast and links up with an elf who dreams of becoming a dentist and an adventurer seeking silver and gold. \n\nAfter ending up on the Island of Misfit Toys and wandering for a while, Rudolph goes on to save his loved ones from the Abominable Snow Monster and guides Santa through a blizzard that threatens to ruin Christmas. \n\nIn 2006, the New York Times reported that fans drove for miles to see the Rudolph and Santa Claus puppets at the Center for Puppetry Arts in Atlanta. The pair were thought to be the last of the surviving production puppets. They had been taken home by a production company employee and given to her children after filming was completed. \n\n\"In 2005, the nephew of the original rescuer found the puppets in a family attic and brought them to be appraised on the PBS series 'Antiques Roadshow,' \" the Times said. \"Created for about $5,000 each in 1964, they were valued at $8,000 to $10,000 for the pair. The family sold both figures to Kevin A. Kriess, the president of TimeandSpaceToys.com and a lifelong fan of the Rankin-Bass films.\" "
+    },
+    "CoQA--train--5": {
+        "original dialog id": "3urfvvm165iantk80llvkwwbjs7uzh",
+        "dialog index": 5,
+        "original dialog info": {
+            "version": "1.0",
+            "source": "gutenberg",
+            "id": "3urfvvm165iantk80llvkwwbjs7uzh",
+            "filename": "data/gutenberg/txt/Rafael Sabatini___Love-at-Arms.txt/CHAPTER XXIV_fda8193c6ee1bb314fcc5db76d39750371ceb652ccc85aeb5be1cf5",
+            "name": "data/gutenberg/txt/Rafael Sabatini___Love-at-Arms.txt/CHAPTER XXIV_fda8193c6ee1bb314fcc5db76d39750371ceb652ccc85aeb5be1cf5"
+        },
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "Who arrived at the church?",
+                "system response": "the garrison first",
+                "dialog history": "",
+                "original user side information": {},
+                "original system side information": {
+                    "span_start": 254,
+                    "span_end": 297,
+                    "span_text": "and the garrison trooped faithfully to Mass",
+                    "input_text": "the garrison first",
+                    "turn_id": 1
+                }
+            },
+            {
+                "turn id": 2,
+                "user utterance": "Who was followed by a clerk dressed in black?",
+                "system response": "Fra. Domenico",
+                "dialog history": "<USER> Who arrived at the church? <SYSTEM> the garrison first",
+                "original user side information": {},
+                "original system side information": {
+                    "span_start": 687,
+                    "span_end": 853,
+                    "span_text": "And now came Fra Domenico from the sacristy in the white chasuble that the Church ordains for the Corpus Christi feast, followed by a page in a clerkly gown of black,",
+                    "input_text": "Fra. Domenico",
+                    "turn_id": 2
+                }
+            },
+            {
+                "turn id": 3,
+                "user utterance": "Who was crying?",
+                "system response": "Valentina",
+                "dialog history": "<USER> Who arrived at the church? <SYSTEM> the garrison first <USER> Who was followed by a clerk dressed in black? <SYSTEM> Fra. Domenico",
+                "original user side information": {},
+                "original system side information": {
+                    "span_start": 459,
+                    "span_end": 684,
+                    "span_text": " Valentina was very pale, and round her eyes there were dark circles that told of sleeplessness, and as she bowed her head in prayer, her ladies observed that tears were falling on the illuminated Mass-book over which she ben",
+                    "input_text": "Valentina",
+                    "turn_id": 3
+                }
+            },
+            {
+                "turn id": 4,
+                "user utterance": "Who noticed it?",
+                "system response": "her ladies",
+                "dialog history": "<USER> Who arrived at the church? <SYSTEM> the garrison first <USER> Who was followed by a clerk dressed in black? <SYSTEM> Fra. Domenico <USER> Who was crying? <SYSTEM> Valentina",
+                "original user side information": {},
+                "original system side information": {
+                    "span_start": 592,
+                    "span_end": 665,
+                    "span_text": " her ladies observed that tears were falling on the illuminated Mass-book",
+                    "input_text": "her ladies",
+                    "turn_id": 4
+                }
+            },
+            {
+                "turn id": 5,
+                "user utterance": "Did any others arrive with her?",
+                "system response": "yes",
+                "dialog history": "<USER> Who arrived at the church? <SYSTEM> the garrison first <USER> Who was followed by a clerk dressed in black? <SYSTEM> Fra. Domenico <USER> Who was crying? <SYSTEM> Valentina <USER> Who noticed it? <SYSTEM> her ladies",
+                "original user side information": {},
+                "original system side information": {
+                    "span_start": 301,
+                    "span_end": 386,
+                    "span_text": "Presently came Monna Valentina, followed by her ladies, her pages, and lastly, Peppe,",
+                    "input_text": "yes",
+                    "turn_id": 5
+                }
+            },
+            {
+                "turn id": 6,
+                "user utterance": "What other group of people were in her group?",
+                "system response": "her pages",
+                "dialog history": "<USER> Who arrived at the church? <SYSTEM> the garrison first <USER> Who was followed by a clerk dressed in black? <SYSTEM> Fra. Domenico <USER> Who was crying? <SYSTEM> Valentina <USER> Who noticed it? <SYSTEM> her ladies <USER> Did any others arrive with her? <SYSTEM> yes",
+                "original user side information": {},
+                "original system side information": {
+                    "span_start": 311,
+                    "span_end": 386,
+                    "span_text": "came Monna Valentina, followed by her ladies, her pages, and lastly, Peppe,",
+                    "input_text": "her pages",
+                    "turn_id": 6
+                }
+            },
+            {
+                "turn id": 7,
+                "user utterance": "And who in the group was anxious?",
+                "system response": ", Peppe",
+                "dialog history": "<USER> Who arrived at the church? <SYSTEM> the garrison first <USER> Who was followed by a clerk dressed in black? <SYSTEM> Fra. Domenico <USER> Who was crying? <SYSTEM> Valentina <USER> Who noticed it? <SYSTEM> her ladies <USER> Did any others arrive with her? <SYSTEM> yes <USER> What other group of people were in her group? <SYSTEM> her pages",
+                "original user side information": {},
+                "original system side information": {
+                    "span_start": 378,
+                    "span_end": 460,
+                    "span_text": ", Peppe, wearing under his thin mask of piety an air of eager anxiety and unrest. ",
+                    "input_text": ", Peppe",
+                    "turn_id": 7
+                }
+            },
+            {
+                "turn id": 8,
+                "user utterance": "Was she well-rested?",
+                "system response": "no",
+                "dialog history": "<USER> Who arrived at the church? <SYSTEM> the garrison first <USER> Who was followed by a clerk dressed in black? <SYSTEM> Fra. Domenico <USER> Who was crying? <SYSTEM> Valentina <USER> Who noticed it? <SYSTEM> her ladies <USER> Did any others arrive with her? <SYSTEM> yes <USER> What other group of people were in her group? <SYSTEM> her pages <USER> And who in the group was anxious? <SYSTEM> , Peppe",
+                "original user side information": {},
+                "original system side information": {
+                    "span_start": 490,
+                    "span_end": 553,
+                    "span_text": "ound her eyes there were dark circles that told of sleeplessnes",
+                    "input_text": "no",
+                    "turn_id": 8
+                }
+            },
+            {
+                "turn id": 9,
+                "user utterance": "Who should be reinforced?",
+                "system response": "the single man-at-arms patrolling the walls.",
+                "dialog history": "<USER> Who arrived at the church? <SYSTEM> the garrison first <USER> Who was followed by a clerk dressed in black? <SYSTEM> Fra. Domenico <USER> Who was crying? <SYSTEM> Valentina <USER> Who noticed it? <SYSTEM> her ladies <USER> Did any others arrive with her? <SYSTEM> yes <USER> What other group of people were in her group? <SYSTEM> her pages <USER> And who in the group was anxious? <SYSTEM> , Peppe <USER> Was she well-rested? <SYSTEM> no",
+                "original user side information": {},
+                "original system side information": {
+                    "span_start": 1221,
+                    "span_end": 1307,
+                    "span_text": "t might be well that he should reinforce the single man-at-arms patrolling the walls. ",
+                    "input_text": "the single man-at-arms patrolling the walls.",
+                    "turn_id": 9
+                }
+            },
+            {
+                "turn id": 10,
+                "user utterance": "Who thought these measures were required?",
+                "system response": "Gian Maria",
+                "dialog history": "<USER> Who arrived at the church? <SYSTEM> the garrison first <USER> Who was followed by a clerk dressed in black? <SYSTEM> Fra. Domenico <USER> Who was crying? <SYSTEM> Valentina <USER> Who noticed it? <SYSTEM> her ladies <USER> Did any others arrive with her? <SYSTEM> yes <USER> What other group of people were in her group? <SYSTEM> her pages <USER> And who in the group was anxious? <SYSTEM> , Peppe <USER> Was she well-rested? <SYSTEM> no <USER> Who should be reinforced? <SYSTEM> the single man-at-arms patrolling the walls.",
+                "original user side information": {},
+                "original system side information": {
+                    "span_start": 1172,
+                    "span_end": 1304,
+                    "span_text": "Gian Maria at any moment to desperate measures, it might be well that he should reinforce the single man-at-arms patrolling the wall",
+                    "input_text": "Gian Maria",
+                    "turn_id": 10,
+                    "bad_turn": "true"
+                }
+            }
+        ],
+        "external knowledge": "CHAPTER XXIV. THE INTERRUPTED MASS \n\nThe morning of that Wednesday of Corpus Christi, fateful to all concerned in this chronicle, dawned misty and grey, and the air was chilled by the wind that blew from the sea. The chapel bell tinkled out its summons, and the garrison trooped faithfully to Mass. \n\nPresently came Monna Valentina, followed by her ladies, her pages, and lastly, Peppe, wearing under his thin mask of piety an air of eager anxiety and unrest. Valentina was very pale, and round her eyes there were dark circles that told of sleeplessness, and as she bowed her head in prayer, her ladies observed that tears were falling on the illuminated Mass-book over which she bent. And now came Fra Domenico from the sacristy in the white chasuble that the Church ordains for the Corpus Christi feast, followed by a page in a clerkly gown of black, and the Mass commenced. \n\nThere were absent only from the gathering Gonzaga and Fortemani, besides a sentry and the three prisoners. Francesco and his two followers. \n\nGonzaga had presented himself to Valentina with the plausible tale that, as the events of which Fanfulla's letter had given them knowledge might lead Gian Maria at any moment to desperate measures, it might be well that he should reinforce the single man-at-arms patrolling the walls. Valentina, little recking now whether the castle held or fell, and still less such trifles as Gonzaga's attendance at Mass, had assented without heeding the import of what he said. \n\nAnd so, his face drawn and his body quivering with the excitement of what he was about to do, Gonzaga had repaired to the ramparts so soon as he had seen them all safely into chapel. The sentinel was that same clerkly youth Aventano, who had read to the soldiers that letter Gian Maria had sent Gonzaga. This the courtier accepted as a good omen. If a man there was among the soldiery at Roccaleone with whom he deemed that he had an account to settle, that man was Aventano. "
+    }
+}

@@ -1,0 +1,187 @@
+{
+    "DART--train--1": {
+        "original dialog id": "",
+        "dialog index": 1,
+        "original dialog info": {
+            "tripleset": [
+                [
+                    "First Clearing",
+                    "LOCATION",
+                    "On NYS 52 1 Mi. Youngsville"
+                ],
+                [
+                    "On NYS 52 1 Mi. Youngsville",
+                    "CITY_OR_TOWN",
+                    "Callicoon, New York"
+                ]
+            ],
+            "subtree_was_extended": false,
+            "annotations": {
+                "source": [
+                    "WikiTableQuestions_mturk"
+                ],
+                "text": [
+                    "First Clearing\tbased on Callicoon, New York and location at On NYS 52 1 Mi. Youngsville"
+                ]
+            }
+        },
+        "log": {
+            "turn id": 1,
+            "user utterance": "First Clearing : location : On NYS 52 1 Mi. Youngsville | On NYS 52 1 Mi. Youngsville : city_or_town : Callicoon, New York",
+            "system response": "First Clearing\tbased on Callicoon, New York and location at On NYS 52 1 Mi. Youngsville",
+            "dialog history": "",
+            "original user side information": {},
+            "original system side information": {},
+            "external knowledge": ""
+        }
+    },
+    "DART--train--2": {
+        "original dialog id": "",
+        "dialog index": 2,
+        "original dialog info": {
+            "tripleset": [
+                [
+                    "[TABLECONTEXT]",
+                    "MARKER_NAME",
+                    "Old Turnpike"
+                ],
+                [
+                    "[TABLECONTEXT]",
+                    "[TITLE]",
+                    "List of New York State Historic Markers in Sullivan County, New York"
+                ]
+            ],
+            "subtree_was_extended": true,
+            "annotations": {
+                "source": [
+                    "WikiTableQuestions_mturk"
+                ],
+                "text": [
+                    "Old Turnpike is a Historic Marker in Sullivan County, New York."
+                ]
+            }
+        },
+        "log": {
+            "turn id": 1,
+            "user utterance": "[TABLECONTEXT] : marker_name : Old Turnpike | [TABLECONTEXT] : [title] : List of New York State Historic Markers in Sullivan County, New York",
+            "system response": "Old Turnpike is a Historic Marker in Sullivan County, New York.",
+            "dialog history": "",
+            "original user side information": {},
+            "original system side information": {},
+            "external knowledge": ""
+        }
+    },
+    "DART--train--3": {
+        "original dialog id": "",
+        "dialog index": 3,
+        "original dialog info": {
+            "tripleset": [
+                [
+                    "Antalya 15, Turkey",
+                    "SURFACE",
+                    "Hard"
+                ],
+                [
+                    "Antalya 15, Turkey",
+                    "OPPONENT",
+                    "Tereza Martincov\u00e1"
+                ],
+                [
+                    "Antalya 15, Turkey",
+                    "SCORE",
+                    "6-4, 6-3"
+                ],
+                [
+                    "15 April 2013",
+                    "TOURNAMENT",
+                    "Antalya 15, Turkey"
+                ]
+            ],
+            "subtree_was_extended": false,
+            "annotations": {
+                "source": [
+                    "WikiTableQuestions_mturk"
+                ],
+                "text": [
+                    "Tereza Martincov\u00e1"
+                ]
+            }
+        },
+        "log": {
+            "turn id": 1,
+            "user utterance": "Antalya 15, Turkey : surface : Hard | Antalya 15, Turkey : opponent : Tereza Martincov\u00e1 | Antalya 15, Turkey : score : 6-4, 6-3 | 15 April 2013 : tournament : Antalya 15, Turkey",
+            "system response": "Tereza Martincov\u00e1",
+            "dialog history": "",
+            "original user side information": {},
+            "original system side information": {},
+            "external knowledge": ""
+        }
+    },
+    "DART--train--4": {
+        "original dialog id": "",
+        "dialog index": 4,
+        "original dialog info": {
+            "tripleset": [
+                [
+                    "2 April 2012",
+                    "TOURNAMENT",
+                    "Ribeir\u00e3o Preto, Brazil"
+                ],
+                [
+                    "Ribeir\u00e3o Preto, Brazil",
+                    "SURFACE",
+                    "Hard"
+                ]
+            ],
+            "subtree_was_extended": false,
+            "annotations": {
+                "source": [
+                    "WikiTableQuestions_mturk"
+                ],
+                "text": [
+                    "Beatriz Haddad Maia played on 2 April 2012\tin Ribeir\u00e3o Preto, Brazil\ton a hard surface."
+                ]
+            }
+        },
+        "log": {
+            "turn id": 1,
+            "user utterance": "2 April 2012 : tournament : Ribeir\u00e3o Preto, Brazil | Ribeir\u00e3o Preto, Brazil : surface : Hard",
+            "system response": "Beatriz Haddad Maia played on 2 April 2012\tin Ribeir\u00e3o Preto, Brazil\ton a hard surface.",
+            "dialog history": "",
+            "original user side information": {},
+            "original system side information": {},
+            "external knowledge": ""
+        }
+    },
+    "DART--train--5": {
+        "original dialog id": "",
+        "dialog index": 5,
+        "original dialog info": {
+            "tripleset": [
+                [
+                    "5",
+                    "STADIUM",
+                    "shea stadium"
+                ]
+            ],
+            "subtree_was_extended": false,
+            "annotations": {
+                "source": [
+                    "WikiSQL_decl_sents"
+                ],
+                "text": [
+                    "The week 5 game is played in Shea Stadium."
+                ]
+            }
+        },
+        "log": {
+            "turn id": 1,
+            "user utterance": "5 : stadium : shea stadium",
+            "system response": "The week 5 game is played in Shea Stadium.",
+            "dialog history": "",
+            "original user side information": {},
+            "original system side information": {},
+            "external knowledge": ""
+        }
+    }
+}

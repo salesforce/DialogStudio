@@ -1,0 +1,195 @@
+{
+    "RESTAURANTS8K--train--1": {
+        "original dialog id": "",
+        "dialog index": 1,
+        "original dialog info": {
+            "task": "Slot Filling. They system response is the corresponding slot-values format: 'slot: value; ...; slot: value'",
+            "context": {
+                "requestedSlots": [
+                    "people"
+                ]
+            },
+            "labels": [
+                {
+                    "slot": "people",
+                    "valueSpan": {
+                        "startIndex": 14,
+                        "endIndex": 34
+                    }
+                }
+            ]
+        },
+        "log": {
+            "turn id": 1,
+            "user utterance": "There will be 5 adults and 1 child.",
+            "system response": "people: 5 adults and 1 child",
+            "dialog history": "",
+            "original user side information": {},
+            "original system side information": [
+                {
+                    "slot": "people",
+                    "valueSpan": {
+                        "startIndex": 14,
+                        "endIndex": 34
+                    },
+                    "value": "5 adults and 1 child"
+                }
+            ],
+            "external knowledge": ""
+        }
+    },
+    "RESTAURANTS8K--train--2": {
+        "original dialog id": "",
+        "dialog index": 2,
+        "original dialog info": {
+            "task": "Slot Filling. They system response is the corresponding slot-values format: 'slot: value; ...; slot: value'",
+            "labels": [
+                {
+                    "slot": "people",
+                    "valueSpan": {
+                        "startIndex": 42,
+                        "endIndex": 50
+                    }
+                },
+                {
+                    "slot": "date",
+                    "valueSpan": {
+                        "startIndex": 54,
+                        "endIndex": 65
+                    }
+                }
+            ]
+        },
+        "log": {
+            "turn id": 1,
+            "user utterance": "We will require and outside table to seat 9 people on August 23rd",
+            "system response": "people: 9 people; date: August 23rd",
+            "dialog history": "",
+            "original user side information": {},
+            "original system side information": [
+                {
+                    "slot": "people",
+                    "valueSpan": {
+                        "startIndex": 42,
+                        "endIndex": 50
+                    },
+                    "value": "9 people"
+                },
+                {
+                    "slot": "date",
+                    "valueSpan": {
+                        "startIndex": 54,
+                        "endIndex": 65
+                    },
+                    "value": "August 23rd"
+                }
+            ],
+            "external knowledge": ""
+        }
+    },
+    "RESTAURANTS8K--train--3": {
+        "original dialog id": "",
+        "dialog index": 3,
+        "original dialog info": {
+            "task": "Slot Filling. They system response is the corresponding slot-values format: 'slot: value; ...; slot: value'",
+            "labels": [
+                {
+                    "slot": "people",
+                    "valueSpan": {
+                        "startIndex": 21,
+                        "endIndex": 23
+                    }
+                }
+            ]
+        },
+        "log": {
+            "turn id": 1,
+            "user utterance": "Do you have room for 11 of us?",
+            "system response": "people: 11",
+            "dialog history": "",
+            "original user side information": {},
+            "original system side information": [
+                {
+                    "slot": "people",
+                    "valueSpan": {
+                        "startIndex": 21,
+                        "endIndex": 23
+                    },
+                    "value": "11"
+                }
+            ],
+            "external knowledge": ""
+        }
+    },
+    "RESTAURANTS8K--train--4": {
+        "original dialog id": "",
+        "dialog index": 4,
+        "original dialog info": {
+            "task": "Slot Filling. They system response is the corresponding slot-values format: 'slot: value; ...; slot: value'",
+            "labels": [
+                {
+                    "slot": "people",
+                    "valueSpan": {
+                        "startIndex": 7,
+                        "endIndex": 9
+                    }
+                }
+            ]
+        },
+        "log": {
+            "turn id": 1,
+            "user utterance": "We are 13 and have a table.",
+            "system response": "people: 13",
+            "dialog history": "",
+            "original user side information": {},
+            "original system side information": [
+                {
+                    "slot": "people",
+                    "valueSpan": {
+                        "startIndex": 7,
+                        "endIndex": 9
+                    },
+                    "value": "13"
+                }
+            ],
+            "external knowledge": ""
+        }
+    },
+    "RESTAURANTS8K--train--5": {
+        "original dialog id": "",
+        "dialog index": 5,
+        "original dialog info": {
+            "task": "Slot Filling. They system response is the corresponding slot-values format: 'slot: value; ...; slot: value'",
+            "context": {
+                "requestedSlots": [
+                    "time"
+                ]
+            },
+            "labels": [
+                {
+                    "slot": "time",
+                    "valueSpan": {
+                        "endIndex": 6
+                    }
+                }
+            ]
+        },
+        "log": {
+            "turn id": 1,
+            "user utterance": "6 a.m.",
+            "system response": "time: 6 a.m.",
+            "dialog history": "",
+            "original user side information": {},
+            "original system side information": [
+                {
+                    "slot": "time",
+                    "valueSpan": {
+                        "endIndex": 6
+                    },
+                    "value": "6 a.m."
+                }
+            ],
+            "external knowledge": ""
+        }
+    }
+}

@@ -1,0 +1,3111 @@
+[
+    [
+        {
+            "id": "nt-639",
+            "annotator": 0,
+            "position": 0,
+            "question": "where are the players from?",
+            "question_and_history": [
+                "where are the players from?"
+            ],
+            "table_file": "table_csv/203_149.csv",
+            "table_header": [
+                "Pick",
+                "Player",
+                "Team",
+                "Position",
+                "School"
+            ],
+            "table_data": [
+                [
+                    "1",
+                    "Ben McDonald",
+                    "Baltimore Orioles",
+                    "RHP",
+                    "Louisiana State University"
+                ],
+                [
+                    "2",
+                    "Tyler Houston",
+                    "Atlanta Braves",
+                    "C",
+                    "Valley HS (Las Vegas, NV)"
+                ],
+                [
+                    "3",
+                    "Roger Salkeld",
+                    "Seattle Mariners",
+                    "RHP",
+                    "Saugus (CA) HS"
+                ],
+                [
+                    "4",
+                    "Jeff Jackson",
+                    "Philadelphia Phillies",
+                    "OF",
+                    "Simeon HS (Chicago, IL)"
+                ],
+                [
+                    "5",
+                    "Donald Harris",
+                    "Texas Rangers",
+                    "OF",
+                    "Texas Tech University"
+                ],
+                [
+                    "6",
+                    "Paul Coleman",
+                    "Saint Louis Cardinals",
+                    "OF",
+                    "Frankston (TX) HS"
+                ],
+                [
+                    "7",
+                    "Frank Thomas",
+                    "Chicago White Sox",
+                    "1B",
+                    "Auburn University"
+                ],
+                [
+                    "8",
+                    "Earl Cunningham",
+                    "Chicago Cubs",
+                    "OF",
+                    "Lancaster (SC) HS"
+                ],
+                [
+                    "9",
+                    "Kyle Abbott",
+                    "California Angels",
+                    "LHP",
+                    "Long Beach State University"
+                ],
+                [
+                    "10",
+                    "Charles Johnson",
+                    "Montreal Expos",
+                    "C",
+                    "Westwood HS (Fort Pierce, FL)"
+                ],
+                [
+                    "11",
+                    "Calvin Murray",
+                    "Cleveland Indians",
+                    "3B",
+                    "W.T. White High School (Dallas, TX"
+                ],
+                [
+                    "12",
+                    "Jeff Juden",
+                    "Houston Astros",
+                    "RHP",
+                    "Salem (MA) HS"
+                ],
+                [
+                    "13",
+                    "Brent Mayne",
+                    "Kansas City Royals",
+                    "C",
+                    "Cal State Fullerton"
+                ],
+                [
+                    "14",
+                    "Steve Hosey",
+                    "San Francisco Giants",
+                    "OF",
+                    "Fresno State University"
+                ],
+                [
+                    "15",
+                    "Kiki Jones",
+                    "Los Angeles Dodgers",
+                    "RHP",
+                    "Hillsborough HS (Tampa, FL)"
+                ],
+                [
+                    "16",
+                    "Greg Blosser",
+                    "Boston Red Sox",
+                    "OF",
+                    "Sarasota (FL) HS"
+                ],
+                [
+                    "17",
+                    "Cal Eldred",
+                    "Milwaukee Brewers",
+                    "RHP",
+                    "University of Iowa"
+                ],
+                [
+                    "18",
+                    "Willie Greene",
+                    "Pittsburgh Pirates",
+                    "SS",
+                    "Jones County HS (Gray, GA)"
+                ],
+                [
+                    "19",
+                    "Eddie Zosky",
+                    "Toronto Blue Jays",
+                    "SS",
+                    "Fresno State University"
+                ],
+                [
+                    "20",
+                    "Scott Bryant",
+                    "Cincinnati Reds",
+                    "OF",
+                    "University of Texas"
+                ],
+                [
+                    "21",
+                    "Greg Gohr",
+                    "Detroit Tigers",
+                    "RHP",
+                    "Santa Clara University"
+                ],
+                [
+                    "22",
+                    "Tom Goodwin",
+                    "Los Angeles Dodgers",
+                    "OF",
+                    "Fresno State University"
+                ],
+                [
+                    "23",
+                    "Mo Vaughn",
+                    "Boston Red Sox",
+                    "1B",
+                    "Seton Hall University"
+                ],
+                [
+                    "24",
+                    "Alan Zinter",
+                    "New York Mets",
+                    "C",
+                    "University of Arizona"
+                ],
+                [
+                    "25",
+                    "Chuck Knoblauch",
+                    "Minnesota Twins",
+                    "2B",
+                    "Texas A&M University"
+                ],
+                [
+                    "26",
+                    "Scott Burrell",
+                    "Seattle Mariners",
+                    "RHP",
+                    "Hamden (CT) HS"
+                ]
+            ],
+            "answer_coordinates": {
+                "row_index": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25
+                ],
+                "column_index": [
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4
+                ]
+            },
+            "answer_text": [
+                "Louisiana State University",
+                "Valley HS (Las Vegas, NV)",
+                "Saugus (CA) HS",
+                "Simeon HS (Chicago, IL)",
+                "Texas Tech University",
+                "Frankston (TX) HS",
+                "Auburn University",
+                "Lancaster (SC) HS",
+                "Long Beach State University",
+                "Westwood HS (Fort Pierce, FL)",
+                "W.T. White High School (Dallas, TX",
+                "Salem (MA) HS",
+                "Cal State Fullerton",
+                "Fresno State University",
+                "Hillsborough HS (Tampa, FL)",
+                "Sarasota (FL) HS",
+                "University of Iowa",
+                "Jones County HS (Gray, GA)",
+                "Fresno State University",
+                "University of Texas",
+                "Santa Clara University",
+                "Fresno State University",
+                "Seton Hall University",
+                "University of Arizona",
+                "Texas A&M University",
+                "Hamden (CT) HS"
+            ],
+            "struct_in": "col : pick | player | team | position | school row 1 : 1 | ben mcdonald | baltimore orioles | rhp | louisiana state university row 2 : 2 | tyler houston | atlanta braves | c | valley hs (las vegas, nv) row 3 : 3 | roger salkeld | seattle mariners | rhp | saugus (ca) hs row 4 : 4 | jeff jackson | philadelphia phillies | of | simeon hs (chicago, il) row 5 : 5 | donald harris | texas rangers | of | texas tech university row 6 : 6 | paul coleman | saint louis cardinals | of | frankston (tx) hs row 7 : 7 | frank thomas | chicago white sox | 1b | auburn university row 8 : 8 | earl cunningham | chicago cubs | of | lancaster (sc) hs row 9 : 9 | kyle abbott | california angels | lhp | long beach state university row 10 : 10 | charles johnson | montreal expos | c | westwood hs (fort pierce, fl) row 11 : 11 | calvin murray | cleveland indians | 3b | w.t. white high school (dallas, tx row 12 : 12 | jeff juden | houston astros | rhp | salem (ma) hs row 13 : 13 | brent mayne | kansas city royals | c | cal state fullerton row 14 : 14 | steve hosey | san francisco giants | of | fresno state university row 15 : 15 | kiki jones | los angeles dodgers | rhp | hillsborough hs (tampa, fl) row 16 : 16 | greg blosser | boston red sox | of | sarasota (fl) hs row 17 : 17 | cal eldred | milwaukee brewers | rhp | university of iowa row 18 : 18 | willie greene | pittsburgh pirates | ss | jones county hs (gray, ga) row 19 : 19 | eddie zosky | toronto blue jays | ss | fresno state university row 20 : 20 | scott bryant | cincinnati reds | of | university of texas row 21 : 21 | greg gohr | detroit tigers | rhp | santa clara university row 22 : 22 | tom goodwin | los angeles dodgers | of | fresno state university row 23 : 23 | mo vaughn | boston red sox | 1b | seton hall university row 24 : 24 | alan zinter | new york mets | c | university of arizona row 25 : 25 | chuck knoblauch | minnesota twins | 2b | texas a&m university row 26 : 26 | scott burrell | seattle mariners | rhp | hamden (ct) hs",
+            "text_in": "where are the players from? || ",
+            "seq_out": "louisiana state university, valley hs (las vegas, nv), saugus (ca) hs, simeon hs (chicago, il), texas tech university, frankston (tx) hs, auburn university, lancaster (sc) hs, long beach state university, westwood hs (fort pierce, fl), w.t. white high school (dallas, tx, salem (ma) hs, cal state fullerton, fresno state university, hillsborough hs (tampa, fl), sarasota (fl) hs, university of iowa, jones county hs (gray, ga), fresno state university, university of texas, santa clara university, fresno state university, seton hall university, university of arizona, texas a&m university, hamden (ct) hs"
+        },
+        {
+            "id": "nt-639",
+            "annotator": 0,
+            "position": 1,
+            "question": "which player went to louisiana state university?",
+            "question_and_history": [
+                "where are the players from?",
+                "which player went to louisiana state university?"
+            ],
+            "table_file": "table_csv/203_149.csv",
+            "table_header": [
+                "Pick",
+                "Player",
+                "Team",
+                "Position",
+                "School"
+            ],
+            "table_data": [
+                [
+                    "1",
+                    "Ben McDonald",
+                    "Baltimore Orioles",
+                    "RHP",
+                    "Louisiana State University"
+                ],
+                [
+                    "2",
+                    "Tyler Houston",
+                    "Atlanta Braves",
+                    "C",
+                    "Valley HS (Las Vegas, NV)"
+                ],
+                [
+                    "3",
+                    "Roger Salkeld",
+                    "Seattle Mariners",
+                    "RHP",
+                    "Saugus (CA) HS"
+                ],
+                [
+                    "4",
+                    "Jeff Jackson",
+                    "Philadelphia Phillies",
+                    "OF",
+                    "Simeon HS (Chicago, IL)"
+                ],
+                [
+                    "5",
+                    "Donald Harris",
+                    "Texas Rangers",
+                    "OF",
+                    "Texas Tech University"
+                ],
+                [
+                    "6",
+                    "Paul Coleman",
+                    "Saint Louis Cardinals",
+                    "OF",
+                    "Frankston (TX) HS"
+                ],
+                [
+                    "7",
+                    "Frank Thomas",
+                    "Chicago White Sox",
+                    "1B",
+                    "Auburn University"
+                ],
+                [
+                    "8",
+                    "Earl Cunningham",
+                    "Chicago Cubs",
+                    "OF",
+                    "Lancaster (SC) HS"
+                ],
+                [
+                    "9",
+                    "Kyle Abbott",
+                    "California Angels",
+                    "LHP",
+                    "Long Beach State University"
+                ],
+                [
+                    "10",
+                    "Charles Johnson",
+                    "Montreal Expos",
+                    "C",
+                    "Westwood HS (Fort Pierce, FL)"
+                ],
+                [
+                    "11",
+                    "Calvin Murray",
+                    "Cleveland Indians",
+                    "3B",
+                    "W.T. White High School (Dallas, TX"
+                ],
+                [
+                    "12",
+                    "Jeff Juden",
+                    "Houston Astros",
+                    "RHP",
+                    "Salem (MA) HS"
+                ],
+                [
+                    "13",
+                    "Brent Mayne",
+                    "Kansas City Royals",
+                    "C",
+                    "Cal State Fullerton"
+                ],
+                [
+                    "14",
+                    "Steve Hosey",
+                    "San Francisco Giants",
+                    "OF",
+                    "Fresno State University"
+                ],
+                [
+                    "15",
+                    "Kiki Jones",
+                    "Los Angeles Dodgers",
+                    "RHP",
+                    "Hillsborough HS (Tampa, FL)"
+                ],
+                [
+                    "16",
+                    "Greg Blosser",
+                    "Boston Red Sox",
+                    "OF",
+                    "Sarasota (FL) HS"
+                ],
+                [
+                    "17",
+                    "Cal Eldred",
+                    "Milwaukee Brewers",
+                    "RHP",
+                    "University of Iowa"
+                ],
+                [
+                    "18",
+                    "Willie Greene",
+                    "Pittsburgh Pirates",
+                    "SS",
+                    "Jones County HS (Gray, GA)"
+                ],
+                [
+                    "19",
+                    "Eddie Zosky",
+                    "Toronto Blue Jays",
+                    "SS",
+                    "Fresno State University"
+                ],
+                [
+                    "20",
+                    "Scott Bryant",
+                    "Cincinnati Reds",
+                    "OF",
+                    "University of Texas"
+                ],
+                [
+                    "21",
+                    "Greg Gohr",
+                    "Detroit Tigers",
+                    "RHP",
+                    "Santa Clara University"
+                ],
+                [
+                    "22",
+                    "Tom Goodwin",
+                    "Los Angeles Dodgers",
+                    "OF",
+                    "Fresno State University"
+                ],
+                [
+                    "23",
+                    "Mo Vaughn",
+                    "Boston Red Sox",
+                    "1B",
+                    "Seton Hall University"
+                ],
+                [
+                    "24",
+                    "Alan Zinter",
+                    "New York Mets",
+                    "C",
+                    "University of Arizona"
+                ],
+                [
+                    "25",
+                    "Chuck Knoblauch",
+                    "Minnesota Twins",
+                    "2B",
+                    "Texas A&M University"
+                ],
+                [
+                    "26",
+                    "Scott Burrell",
+                    "Seattle Mariners",
+                    "RHP",
+                    "Hamden (CT) HS"
+                ]
+            ],
+            "answer_coordinates": {
+                "row_index": [
+                    0
+                ],
+                "column_index": [
+                    1
+                ]
+            },
+            "answer_text": [
+                "Ben McDonald"
+            ],
+            "struct_in": "col : pick | player | team | position | school row 1 : 1 | ben mcdonald | baltimore orioles | rhp | louisiana state university row 2 : 2 | tyler houston | atlanta braves | c | valley hs (las vegas, nv) row 3 : 3 | roger salkeld | seattle mariners | rhp | saugus (ca) hs row 4 : 4 | jeff jackson | philadelphia phillies | of | simeon hs (chicago, il) row 5 : 5 | donald harris | texas rangers | of | texas tech university row 6 : 6 | paul coleman | saint louis cardinals | of | frankston (tx) hs row 7 : 7 | frank thomas | chicago white sox | 1b | auburn university row 8 : 8 | earl cunningham | chicago cubs | of | lancaster (sc) hs row 9 : 9 | kyle abbott | california angels | lhp | long beach state university row 10 : 10 | charles johnson | montreal expos | c | westwood hs (fort pierce, fl) row 11 : 11 | calvin murray | cleveland indians | 3b | w.t. white high school (dallas, tx row 12 : 12 | jeff juden | houston astros | rhp | salem (ma) hs row 13 : 13 | brent mayne | kansas city royals | c | cal state fullerton row 14 : 14 | steve hosey | san francisco giants | of | fresno state university row 15 : 15 | kiki jones | los angeles dodgers | rhp | hillsborough hs (tampa, fl) row 16 : 16 | greg blosser | boston red sox | of | sarasota (fl) hs row 17 : 17 | cal eldred | milwaukee brewers | rhp | university of iowa row 18 : 18 | willie greene | pittsburgh pirates | ss | jones county hs (gray, ga) row 19 : 19 | eddie zosky | toronto blue jays | ss | fresno state university row 20 : 20 | scott bryant | cincinnati reds | of | university of texas row 21 : 21 | greg gohr | detroit tigers | rhp | santa clara university row 22 : 22 | tom goodwin | los angeles dodgers | of | fresno state university row 23 : 23 | mo vaughn | boston red sox | 1b | seton hall university row 24 : 24 | alan zinter | new york mets | c | university of arizona row 25 : 25 | chuck knoblauch | minnesota twins | 2b | texas a&m university row 26 : 26 | scott burrell | seattle mariners | rhp | hamden (ct) hs",
+            "text_in": "which player went to louisiana state university? || where are the players from?",
+            "seq_out": "ben mcdonald"
+        }
+    ],
+    [
+        {
+            "id": "nt-639",
+            "annotator": 1,
+            "position": 0,
+            "question": "who are the players?",
+            "question_and_history": [
+                "who are the players?"
+            ],
+            "table_file": "table_csv/203_149.csv",
+            "table_header": [
+                "Pick",
+                "Player",
+                "Team",
+                "Position",
+                "School"
+            ],
+            "table_data": [
+                [
+                    "1",
+                    "Ben McDonald",
+                    "Baltimore Orioles",
+                    "RHP",
+                    "Louisiana State University"
+                ],
+                [
+                    "2",
+                    "Tyler Houston",
+                    "Atlanta Braves",
+                    "C",
+                    "Valley HS (Las Vegas, NV)"
+                ],
+                [
+                    "3",
+                    "Roger Salkeld",
+                    "Seattle Mariners",
+                    "RHP",
+                    "Saugus (CA) HS"
+                ],
+                [
+                    "4",
+                    "Jeff Jackson",
+                    "Philadelphia Phillies",
+                    "OF",
+                    "Simeon HS (Chicago, IL)"
+                ],
+                [
+                    "5",
+                    "Donald Harris",
+                    "Texas Rangers",
+                    "OF",
+                    "Texas Tech University"
+                ],
+                [
+                    "6",
+                    "Paul Coleman",
+                    "Saint Louis Cardinals",
+                    "OF",
+                    "Frankston (TX) HS"
+                ],
+                [
+                    "7",
+                    "Frank Thomas",
+                    "Chicago White Sox",
+                    "1B",
+                    "Auburn University"
+                ],
+                [
+                    "8",
+                    "Earl Cunningham",
+                    "Chicago Cubs",
+                    "OF",
+                    "Lancaster (SC) HS"
+                ],
+                [
+                    "9",
+                    "Kyle Abbott",
+                    "California Angels",
+                    "LHP",
+                    "Long Beach State University"
+                ],
+                [
+                    "10",
+                    "Charles Johnson",
+                    "Montreal Expos",
+                    "C",
+                    "Westwood HS (Fort Pierce, FL)"
+                ],
+                [
+                    "11",
+                    "Calvin Murray",
+                    "Cleveland Indians",
+                    "3B",
+                    "W.T. White High School (Dallas, TX"
+                ],
+                [
+                    "12",
+                    "Jeff Juden",
+                    "Houston Astros",
+                    "RHP",
+                    "Salem (MA) HS"
+                ],
+                [
+                    "13",
+                    "Brent Mayne",
+                    "Kansas City Royals",
+                    "C",
+                    "Cal State Fullerton"
+                ],
+                [
+                    "14",
+                    "Steve Hosey",
+                    "San Francisco Giants",
+                    "OF",
+                    "Fresno State University"
+                ],
+                [
+                    "15",
+                    "Kiki Jones",
+                    "Los Angeles Dodgers",
+                    "RHP",
+                    "Hillsborough HS (Tampa, FL)"
+                ],
+                [
+                    "16",
+                    "Greg Blosser",
+                    "Boston Red Sox",
+                    "OF",
+                    "Sarasota (FL) HS"
+                ],
+                [
+                    "17",
+                    "Cal Eldred",
+                    "Milwaukee Brewers",
+                    "RHP",
+                    "University of Iowa"
+                ],
+                [
+                    "18",
+                    "Willie Greene",
+                    "Pittsburgh Pirates",
+                    "SS",
+                    "Jones County HS (Gray, GA)"
+                ],
+                [
+                    "19",
+                    "Eddie Zosky",
+                    "Toronto Blue Jays",
+                    "SS",
+                    "Fresno State University"
+                ],
+                [
+                    "20",
+                    "Scott Bryant",
+                    "Cincinnati Reds",
+                    "OF",
+                    "University of Texas"
+                ],
+                [
+                    "21",
+                    "Greg Gohr",
+                    "Detroit Tigers",
+                    "RHP",
+                    "Santa Clara University"
+                ],
+                [
+                    "22",
+                    "Tom Goodwin",
+                    "Los Angeles Dodgers",
+                    "OF",
+                    "Fresno State University"
+                ],
+                [
+                    "23",
+                    "Mo Vaughn",
+                    "Boston Red Sox",
+                    "1B",
+                    "Seton Hall University"
+                ],
+                [
+                    "24",
+                    "Alan Zinter",
+                    "New York Mets",
+                    "C",
+                    "University of Arizona"
+                ],
+                [
+                    "25",
+                    "Chuck Knoblauch",
+                    "Minnesota Twins",
+                    "2B",
+                    "Texas A&M University"
+                ],
+                [
+                    "26",
+                    "Scott Burrell",
+                    "Seattle Mariners",
+                    "RHP",
+                    "Hamden (CT) HS"
+                ]
+            ],
+            "answer_coordinates": {
+                "row_index": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25
+                ],
+                "column_index": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            "answer_text": [
+                "Ben McDonald",
+                "Tyler Houston",
+                "Roger Salkeld",
+                "Jeff Jackson",
+                "Donald Harris",
+                "Paul Coleman",
+                "Frank Thomas",
+                "Earl Cunningham",
+                "Kyle Abbott",
+                "Charles Johnson",
+                "Calvin Murray",
+                "Jeff Juden",
+                "Brent Mayne",
+                "Steve Hosey",
+                "Kiki Jones",
+                "Greg Blosser",
+                "Cal Eldred",
+                "Willie Greene",
+                "Eddie Zosky",
+                "Scott Bryant",
+                "Greg Gohr",
+                "Tom Goodwin",
+                "Mo Vaughn",
+                "Alan Zinter",
+                "Chuck Knoblauch",
+                "Scott Burrell"
+            ],
+            "struct_in": "col : pick | player | team | position | school row 1 : 1 | ben mcdonald | baltimore orioles | rhp | louisiana state university row 2 : 2 | tyler houston | atlanta braves | c | valley hs (las vegas, nv) row 3 : 3 | roger salkeld | seattle mariners | rhp | saugus (ca) hs row 4 : 4 | jeff jackson | philadelphia phillies | of | simeon hs (chicago, il) row 5 : 5 | donald harris | texas rangers | of | texas tech university row 6 : 6 | paul coleman | saint louis cardinals | of | frankston (tx) hs row 7 : 7 | frank thomas | chicago white sox | 1b | auburn university row 8 : 8 | earl cunningham | chicago cubs | of | lancaster (sc) hs row 9 : 9 | kyle abbott | california angels | lhp | long beach state university row 10 : 10 | charles johnson | montreal expos | c | westwood hs (fort pierce, fl) row 11 : 11 | calvin murray | cleveland indians | 3b | w.t. white high school (dallas, tx row 12 : 12 | jeff juden | houston astros | rhp | salem (ma) hs row 13 : 13 | brent mayne | kansas city royals | c | cal state fullerton row 14 : 14 | steve hosey | san francisco giants | of | fresno state university row 15 : 15 | kiki jones | los angeles dodgers | rhp | hillsborough hs (tampa, fl) row 16 : 16 | greg blosser | boston red sox | of | sarasota (fl) hs row 17 : 17 | cal eldred | milwaukee brewers | rhp | university of iowa row 18 : 18 | willie greene | pittsburgh pirates | ss | jones county hs (gray, ga) row 19 : 19 | eddie zosky | toronto blue jays | ss | fresno state university row 20 : 20 | scott bryant | cincinnati reds | of | university of texas row 21 : 21 | greg gohr | detroit tigers | rhp | santa clara university row 22 : 22 | tom goodwin | los angeles dodgers | of | fresno state university row 23 : 23 | mo vaughn | boston red sox | 1b | seton hall university row 24 : 24 | alan zinter | new york mets | c | university of arizona row 25 : 25 | chuck knoblauch | minnesota twins | 2b | texas a&m university row 26 : 26 | scott burrell | seattle mariners | rhp | hamden (ct) hs",
+            "text_in": "who are the players? || ",
+            "seq_out": "ben mcdonald, tyler houston, roger salkeld, jeff jackson, donald harris, paul coleman, frank thomas, earl cunningham, kyle abbott, charles johnson, calvin murray, jeff juden, brent mayne, steve hosey, kiki jones, greg blosser, cal eldred, willie greene, eddie zosky, scott bryant, greg gohr, tom goodwin, mo vaughn, alan zinter, chuck knoblauch, scott burrell"
+        },
+        {
+            "id": "nt-639",
+            "annotator": 1,
+            "position": 1,
+            "question": "which ones are in the top 26 picks?",
+            "question_and_history": [
+                "who are the players?",
+                "which ones are in the top 26 picks?"
+            ],
+            "table_file": "table_csv/203_149.csv",
+            "table_header": [
+                "Pick",
+                "Player",
+                "Team",
+                "Position",
+                "School"
+            ],
+            "table_data": [
+                [
+                    "1",
+                    "Ben McDonald",
+                    "Baltimore Orioles",
+                    "RHP",
+                    "Louisiana State University"
+                ],
+                [
+                    "2",
+                    "Tyler Houston",
+                    "Atlanta Braves",
+                    "C",
+                    "Valley HS (Las Vegas, NV)"
+                ],
+                [
+                    "3",
+                    "Roger Salkeld",
+                    "Seattle Mariners",
+                    "RHP",
+                    "Saugus (CA) HS"
+                ],
+                [
+                    "4",
+                    "Jeff Jackson",
+                    "Philadelphia Phillies",
+                    "OF",
+                    "Simeon HS (Chicago, IL)"
+                ],
+                [
+                    "5",
+                    "Donald Harris",
+                    "Texas Rangers",
+                    "OF",
+                    "Texas Tech University"
+                ],
+                [
+                    "6",
+                    "Paul Coleman",
+                    "Saint Louis Cardinals",
+                    "OF",
+                    "Frankston (TX) HS"
+                ],
+                [
+                    "7",
+                    "Frank Thomas",
+                    "Chicago White Sox",
+                    "1B",
+                    "Auburn University"
+                ],
+                [
+                    "8",
+                    "Earl Cunningham",
+                    "Chicago Cubs",
+                    "OF",
+                    "Lancaster (SC) HS"
+                ],
+                [
+                    "9",
+                    "Kyle Abbott",
+                    "California Angels",
+                    "LHP",
+                    "Long Beach State University"
+                ],
+                [
+                    "10",
+                    "Charles Johnson",
+                    "Montreal Expos",
+                    "C",
+                    "Westwood HS (Fort Pierce, FL)"
+                ],
+                [
+                    "11",
+                    "Calvin Murray",
+                    "Cleveland Indians",
+                    "3B",
+                    "W.T. White High School (Dallas, TX"
+                ],
+                [
+                    "12",
+                    "Jeff Juden",
+                    "Houston Astros",
+                    "RHP",
+                    "Salem (MA) HS"
+                ],
+                [
+                    "13",
+                    "Brent Mayne",
+                    "Kansas City Royals",
+                    "C",
+                    "Cal State Fullerton"
+                ],
+                [
+                    "14",
+                    "Steve Hosey",
+                    "San Francisco Giants",
+                    "OF",
+                    "Fresno State University"
+                ],
+                [
+                    "15",
+                    "Kiki Jones",
+                    "Los Angeles Dodgers",
+                    "RHP",
+                    "Hillsborough HS (Tampa, FL)"
+                ],
+                [
+                    "16",
+                    "Greg Blosser",
+                    "Boston Red Sox",
+                    "OF",
+                    "Sarasota (FL) HS"
+                ],
+                [
+                    "17",
+                    "Cal Eldred",
+                    "Milwaukee Brewers",
+                    "RHP",
+                    "University of Iowa"
+                ],
+                [
+                    "18",
+                    "Willie Greene",
+                    "Pittsburgh Pirates",
+                    "SS",
+                    "Jones County HS (Gray, GA)"
+                ],
+                [
+                    "19",
+                    "Eddie Zosky",
+                    "Toronto Blue Jays",
+                    "SS",
+                    "Fresno State University"
+                ],
+                [
+                    "20",
+                    "Scott Bryant",
+                    "Cincinnati Reds",
+                    "OF",
+                    "University of Texas"
+                ],
+                [
+                    "21",
+                    "Greg Gohr",
+                    "Detroit Tigers",
+                    "RHP",
+                    "Santa Clara University"
+                ],
+                [
+                    "22",
+                    "Tom Goodwin",
+                    "Los Angeles Dodgers",
+                    "OF",
+                    "Fresno State University"
+                ],
+                [
+                    "23",
+                    "Mo Vaughn",
+                    "Boston Red Sox",
+                    "1B",
+                    "Seton Hall University"
+                ],
+                [
+                    "24",
+                    "Alan Zinter",
+                    "New York Mets",
+                    "C",
+                    "University of Arizona"
+                ],
+                [
+                    "25",
+                    "Chuck Knoblauch",
+                    "Minnesota Twins",
+                    "2B",
+                    "Texas A&M University"
+                ],
+                [
+                    "26",
+                    "Scott Burrell",
+                    "Seattle Mariners",
+                    "RHP",
+                    "Hamden (CT) HS"
+                ]
+            ],
+            "answer_coordinates": {
+                "row_index": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25
+                ],
+                "column_index": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            "answer_text": [
+                "Ben McDonald",
+                "Tyler Houston",
+                "Roger Salkeld",
+                "Jeff Jackson",
+                "Donald Harris",
+                "Paul Coleman",
+                "Frank Thomas",
+                "Earl Cunningham",
+                "Kyle Abbott",
+                "Charles Johnson",
+                "Calvin Murray",
+                "Jeff Juden",
+                "Brent Mayne",
+                "Steve Hosey",
+                "Kiki Jones",
+                "Greg Blosser",
+                "Cal Eldred",
+                "Willie Greene",
+                "Eddie Zosky",
+                "Scott Bryant",
+                "Greg Gohr",
+                "Tom Goodwin",
+                "Mo Vaughn",
+                "Alan Zinter",
+                "Chuck Knoblauch",
+                "Scott Burrell"
+            ],
+            "struct_in": "col : pick | player | team | position | school row 1 : 1 | ben mcdonald | baltimore orioles | rhp | louisiana state university row 2 : 2 | tyler houston | atlanta braves | c | valley hs (las vegas, nv) row 3 : 3 | roger salkeld | seattle mariners | rhp | saugus (ca) hs row 4 : 4 | jeff jackson | philadelphia phillies | of | simeon hs (chicago, il) row 5 : 5 | donald harris | texas rangers | of | texas tech university row 6 : 6 | paul coleman | saint louis cardinals | of | frankston (tx) hs row 7 : 7 | frank thomas | chicago white sox | 1b | auburn university row 8 : 8 | earl cunningham | chicago cubs | of | lancaster (sc) hs row 9 : 9 | kyle abbott | california angels | lhp | long beach state university row 10 : 10 | charles johnson | montreal expos | c | westwood hs (fort pierce, fl) row 11 : 11 | calvin murray | cleveland indians | 3b | w.t. white high school (dallas, tx row 12 : 12 | jeff juden | houston astros | rhp | salem (ma) hs row 13 : 13 | brent mayne | kansas city royals | c | cal state fullerton row 14 : 14 | steve hosey | san francisco giants | of | fresno state university row 15 : 15 | kiki jones | los angeles dodgers | rhp | hillsborough hs (tampa, fl) row 16 : 16 | greg blosser | boston red sox | of | sarasota (fl) hs row 17 : 17 | cal eldred | milwaukee brewers | rhp | university of iowa row 18 : 18 | willie greene | pittsburgh pirates | ss | jones county hs (gray, ga) row 19 : 19 | eddie zosky | toronto blue jays | ss | fresno state university row 20 : 20 | scott bryant | cincinnati reds | of | university of texas row 21 : 21 | greg gohr | detroit tigers | rhp | santa clara university row 22 : 22 | tom goodwin | los angeles dodgers | of | fresno state university row 23 : 23 | mo vaughn | boston red sox | 1b | seton hall university row 24 : 24 | alan zinter | new york mets | c | university of arizona row 25 : 25 | chuck knoblauch | minnesota twins | 2b | texas a&m university row 26 : 26 | scott burrell | seattle mariners | rhp | hamden (ct) hs",
+            "text_in": "which ones are in the top 26 picks? || who are the players?",
+            "seq_out": "ben mcdonald, tyler houston, roger salkeld, jeff jackson, donald harris, paul coleman, frank thomas, earl cunningham, kyle abbott, charles johnson, calvin murray, jeff juden, brent mayne, steve hosey, kiki jones, greg blosser, cal eldred, willie greene, eddie zosky, scott bryant, greg gohr, tom goodwin, mo vaughn, alan zinter, chuck knoblauch, scott burrell"
+        },
+        {
+            "id": "nt-639",
+            "annotator": 1,
+            "position": 2,
+            "question": "and of those, who is from louisiana state university?",
+            "question_and_history": [
+                "who are the players?",
+                "which ones are in the top 26 picks?",
+                "and of those, who is from louisiana state university?"
+            ],
+            "table_file": "table_csv/203_149.csv",
+            "table_header": [
+                "Pick",
+                "Player",
+                "Team",
+                "Position",
+                "School"
+            ],
+            "table_data": [
+                [
+                    "1",
+                    "Ben McDonald",
+                    "Baltimore Orioles",
+                    "RHP",
+                    "Louisiana State University"
+                ],
+                [
+                    "2",
+                    "Tyler Houston",
+                    "Atlanta Braves",
+                    "C",
+                    "Valley HS (Las Vegas, NV)"
+                ],
+                [
+                    "3",
+                    "Roger Salkeld",
+                    "Seattle Mariners",
+                    "RHP",
+                    "Saugus (CA) HS"
+                ],
+                [
+                    "4",
+                    "Jeff Jackson",
+                    "Philadelphia Phillies",
+                    "OF",
+                    "Simeon HS (Chicago, IL)"
+                ],
+                [
+                    "5",
+                    "Donald Harris",
+                    "Texas Rangers",
+                    "OF",
+                    "Texas Tech University"
+                ],
+                [
+                    "6",
+                    "Paul Coleman",
+                    "Saint Louis Cardinals",
+                    "OF",
+                    "Frankston (TX) HS"
+                ],
+                [
+                    "7",
+                    "Frank Thomas",
+                    "Chicago White Sox",
+                    "1B",
+                    "Auburn University"
+                ],
+                [
+                    "8",
+                    "Earl Cunningham",
+                    "Chicago Cubs",
+                    "OF",
+                    "Lancaster (SC) HS"
+                ],
+                [
+                    "9",
+                    "Kyle Abbott",
+                    "California Angels",
+                    "LHP",
+                    "Long Beach State University"
+                ],
+                [
+                    "10",
+                    "Charles Johnson",
+                    "Montreal Expos",
+                    "C",
+                    "Westwood HS (Fort Pierce, FL)"
+                ],
+                [
+                    "11",
+                    "Calvin Murray",
+                    "Cleveland Indians",
+                    "3B",
+                    "W.T. White High School (Dallas, TX"
+                ],
+                [
+                    "12",
+                    "Jeff Juden",
+                    "Houston Astros",
+                    "RHP",
+                    "Salem (MA) HS"
+                ],
+                [
+                    "13",
+                    "Brent Mayne",
+                    "Kansas City Royals",
+                    "C",
+                    "Cal State Fullerton"
+                ],
+                [
+                    "14",
+                    "Steve Hosey",
+                    "San Francisco Giants",
+                    "OF",
+                    "Fresno State University"
+                ],
+                [
+                    "15",
+                    "Kiki Jones",
+                    "Los Angeles Dodgers",
+                    "RHP",
+                    "Hillsborough HS (Tampa, FL)"
+                ],
+                [
+                    "16",
+                    "Greg Blosser",
+                    "Boston Red Sox",
+                    "OF",
+                    "Sarasota (FL) HS"
+                ],
+                [
+                    "17",
+                    "Cal Eldred",
+                    "Milwaukee Brewers",
+                    "RHP",
+                    "University of Iowa"
+                ],
+                [
+                    "18",
+                    "Willie Greene",
+                    "Pittsburgh Pirates",
+                    "SS",
+                    "Jones County HS (Gray, GA)"
+                ],
+                [
+                    "19",
+                    "Eddie Zosky",
+                    "Toronto Blue Jays",
+                    "SS",
+                    "Fresno State University"
+                ],
+                [
+                    "20",
+                    "Scott Bryant",
+                    "Cincinnati Reds",
+                    "OF",
+                    "University of Texas"
+                ],
+                [
+                    "21",
+                    "Greg Gohr",
+                    "Detroit Tigers",
+                    "RHP",
+                    "Santa Clara University"
+                ],
+                [
+                    "22",
+                    "Tom Goodwin",
+                    "Los Angeles Dodgers",
+                    "OF",
+                    "Fresno State University"
+                ],
+                [
+                    "23",
+                    "Mo Vaughn",
+                    "Boston Red Sox",
+                    "1B",
+                    "Seton Hall University"
+                ],
+                [
+                    "24",
+                    "Alan Zinter",
+                    "New York Mets",
+                    "C",
+                    "University of Arizona"
+                ],
+                [
+                    "25",
+                    "Chuck Knoblauch",
+                    "Minnesota Twins",
+                    "2B",
+                    "Texas A&M University"
+                ],
+                [
+                    "26",
+                    "Scott Burrell",
+                    "Seattle Mariners",
+                    "RHP",
+                    "Hamden (CT) HS"
+                ]
+            ],
+            "answer_coordinates": {
+                "row_index": [
+                    0
+                ],
+                "column_index": [
+                    1
+                ]
+            },
+            "answer_text": [
+                "Ben McDonald"
+            ],
+            "struct_in": "col : pick | player | team | position | school row 1 : 1 | ben mcdonald | baltimore orioles | rhp | louisiana state university row 2 : 2 | tyler houston | atlanta braves | c | valley hs (las vegas, nv) row 3 : 3 | roger salkeld | seattle mariners | rhp | saugus (ca) hs row 4 : 4 | jeff jackson | philadelphia phillies | of | simeon hs (chicago, il) row 5 : 5 | donald harris | texas rangers | of | texas tech university row 6 : 6 | paul coleman | saint louis cardinals | of | frankston (tx) hs row 7 : 7 | frank thomas | chicago white sox | 1b | auburn university row 8 : 8 | earl cunningham | chicago cubs | of | lancaster (sc) hs row 9 : 9 | kyle abbott | california angels | lhp | long beach state university row 10 : 10 | charles johnson | montreal expos | c | westwood hs (fort pierce, fl) row 11 : 11 | calvin murray | cleveland indians | 3b | w.t. white high school (dallas, tx row 12 : 12 | jeff juden | houston astros | rhp | salem (ma) hs row 13 : 13 | brent mayne | kansas city royals | c | cal state fullerton row 14 : 14 | steve hosey | san francisco giants | of | fresno state university row 15 : 15 | kiki jones | los angeles dodgers | rhp | hillsborough hs (tampa, fl) row 16 : 16 | greg blosser | boston red sox | of | sarasota (fl) hs row 17 : 17 | cal eldred | milwaukee brewers | rhp | university of iowa row 18 : 18 | willie greene | pittsburgh pirates | ss | jones county hs (gray, ga) row 19 : 19 | eddie zosky | toronto blue jays | ss | fresno state university row 20 : 20 | scott bryant | cincinnati reds | of | university of texas row 21 : 21 | greg gohr | detroit tigers | rhp | santa clara university row 22 : 22 | tom goodwin | los angeles dodgers | of | fresno state university row 23 : 23 | mo vaughn | boston red sox | 1b | seton hall university row 24 : 24 | alan zinter | new york mets | c | university of arizona row 25 : 25 | chuck knoblauch | minnesota twins | 2b | texas a&m university row 26 : 26 | scott burrell | seattle mariners | rhp | hamden (ct) hs",
+            "text_in": "and of those, who is from louisiana state university? || which ones are in the top 26 picks? | who are the players?",
+            "seq_out": "ben mcdonald"
+        }
+    ],
+    [
+        {
+            "id": "nt-639",
+            "annotator": 2,
+            "position": 0,
+            "question": "who are the players in the top 26?",
+            "question_and_history": [
+                "who are the players in the top 26?"
+            ],
+            "table_file": "table_csv/203_149.csv",
+            "table_header": [
+                "Pick",
+                "Player",
+                "Team",
+                "Position",
+                "School"
+            ],
+            "table_data": [
+                [
+                    "1",
+                    "Ben McDonald",
+                    "Baltimore Orioles",
+                    "RHP",
+                    "Louisiana State University"
+                ],
+                [
+                    "2",
+                    "Tyler Houston",
+                    "Atlanta Braves",
+                    "C",
+                    "Valley HS (Las Vegas, NV)"
+                ],
+                [
+                    "3",
+                    "Roger Salkeld",
+                    "Seattle Mariners",
+                    "RHP",
+                    "Saugus (CA) HS"
+                ],
+                [
+                    "4",
+                    "Jeff Jackson",
+                    "Philadelphia Phillies",
+                    "OF",
+                    "Simeon HS (Chicago, IL)"
+                ],
+                [
+                    "5",
+                    "Donald Harris",
+                    "Texas Rangers",
+                    "OF",
+                    "Texas Tech University"
+                ],
+                [
+                    "6",
+                    "Paul Coleman",
+                    "Saint Louis Cardinals",
+                    "OF",
+                    "Frankston (TX) HS"
+                ],
+                [
+                    "7",
+                    "Frank Thomas",
+                    "Chicago White Sox",
+                    "1B",
+                    "Auburn University"
+                ],
+                [
+                    "8",
+                    "Earl Cunningham",
+                    "Chicago Cubs",
+                    "OF",
+                    "Lancaster (SC) HS"
+                ],
+                [
+                    "9",
+                    "Kyle Abbott",
+                    "California Angels",
+                    "LHP",
+                    "Long Beach State University"
+                ],
+                [
+                    "10",
+                    "Charles Johnson",
+                    "Montreal Expos",
+                    "C",
+                    "Westwood HS (Fort Pierce, FL)"
+                ],
+                [
+                    "11",
+                    "Calvin Murray",
+                    "Cleveland Indians",
+                    "3B",
+                    "W.T. White High School (Dallas, TX"
+                ],
+                [
+                    "12",
+                    "Jeff Juden",
+                    "Houston Astros",
+                    "RHP",
+                    "Salem (MA) HS"
+                ],
+                [
+                    "13",
+                    "Brent Mayne",
+                    "Kansas City Royals",
+                    "C",
+                    "Cal State Fullerton"
+                ],
+                [
+                    "14",
+                    "Steve Hosey",
+                    "San Francisco Giants",
+                    "OF",
+                    "Fresno State University"
+                ],
+                [
+                    "15",
+                    "Kiki Jones",
+                    "Los Angeles Dodgers",
+                    "RHP",
+                    "Hillsborough HS (Tampa, FL)"
+                ],
+                [
+                    "16",
+                    "Greg Blosser",
+                    "Boston Red Sox",
+                    "OF",
+                    "Sarasota (FL) HS"
+                ],
+                [
+                    "17",
+                    "Cal Eldred",
+                    "Milwaukee Brewers",
+                    "RHP",
+                    "University of Iowa"
+                ],
+                [
+                    "18",
+                    "Willie Greene",
+                    "Pittsburgh Pirates",
+                    "SS",
+                    "Jones County HS (Gray, GA)"
+                ],
+                [
+                    "19",
+                    "Eddie Zosky",
+                    "Toronto Blue Jays",
+                    "SS",
+                    "Fresno State University"
+                ],
+                [
+                    "20",
+                    "Scott Bryant",
+                    "Cincinnati Reds",
+                    "OF",
+                    "University of Texas"
+                ],
+                [
+                    "21",
+                    "Greg Gohr",
+                    "Detroit Tigers",
+                    "RHP",
+                    "Santa Clara University"
+                ],
+                [
+                    "22",
+                    "Tom Goodwin",
+                    "Los Angeles Dodgers",
+                    "OF",
+                    "Fresno State University"
+                ],
+                [
+                    "23",
+                    "Mo Vaughn",
+                    "Boston Red Sox",
+                    "1B",
+                    "Seton Hall University"
+                ],
+                [
+                    "24",
+                    "Alan Zinter",
+                    "New York Mets",
+                    "C",
+                    "University of Arizona"
+                ],
+                [
+                    "25",
+                    "Chuck Knoblauch",
+                    "Minnesota Twins",
+                    "2B",
+                    "Texas A&M University"
+                ],
+                [
+                    "26",
+                    "Scott Burrell",
+                    "Seattle Mariners",
+                    "RHP",
+                    "Hamden (CT) HS"
+                ]
+            ],
+            "answer_coordinates": {
+                "row_index": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25
+                ],
+                "column_index": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            "answer_text": [
+                "Ben McDonald",
+                "Tyler Houston",
+                "Roger Salkeld",
+                "Jeff Jackson",
+                "Donald Harris",
+                "Paul Coleman",
+                "Frank Thomas",
+                "Earl Cunningham",
+                "Kyle Abbott",
+                "Charles Johnson",
+                "Calvin Murray",
+                "Jeff Juden",
+                "Brent Mayne",
+                "Steve Hosey",
+                "Kiki Jones",
+                "Greg Blosser",
+                "Cal Eldred",
+                "Willie Greene",
+                "Eddie Zosky",
+                "Scott Bryant",
+                "Greg Gohr",
+                "Tom Goodwin",
+                "Mo Vaughn",
+                "Alan Zinter",
+                "Chuck Knoblauch",
+                "Scott Burrell"
+            ],
+            "struct_in": "col : pick | player | team | position | school row 1 : 1 | ben mcdonald | baltimore orioles | rhp | louisiana state university row 2 : 2 | tyler houston | atlanta braves | c | valley hs (las vegas, nv) row 3 : 3 | roger salkeld | seattle mariners | rhp | saugus (ca) hs row 4 : 4 | jeff jackson | philadelphia phillies | of | simeon hs (chicago, il) row 5 : 5 | donald harris | texas rangers | of | texas tech university row 6 : 6 | paul coleman | saint louis cardinals | of | frankston (tx) hs row 7 : 7 | frank thomas | chicago white sox | 1b | auburn university row 8 : 8 | earl cunningham | chicago cubs | of | lancaster (sc) hs row 9 : 9 | kyle abbott | california angels | lhp | long beach state university row 10 : 10 | charles johnson | montreal expos | c | westwood hs (fort pierce, fl) row 11 : 11 | calvin murray | cleveland indians | 3b | w.t. white high school (dallas, tx row 12 : 12 | jeff juden | houston astros | rhp | salem (ma) hs row 13 : 13 | brent mayne | kansas city royals | c | cal state fullerton row 14 : 14 | steve hosey | san francisco giants | of | fresno state university row 15 : 15 | kiki jones | los angeles dodgers | rhp | hillsborough hs (tampa, fl) row 16 : 16 | greg blosser | boston red sox | of | sarasota (fl) hs row 17 : 17 | cal eldred | milwaukee brewers | rhp | university of iowa row 18 : 18 | willie greene | pittsburgh pirates | ss | jones county hs (gray, ga) row 19 : 19 | eddie zosky | toronto blue jays | ss | fresno state university row 20 : 20 | scott bryant | cincinnati reds | of | university of texas row 21 : 21 | greg gohr | detroit tigers | rhp | santa clara university row 22 : 22 | tom goodwin | los angeles dodgers | of | fresno state university row 23 : 23 | mo vaughn | boston red sox | 1b | seton hall university row 24 : 24 | alan zinter | new york mets | c | university of arizona row 25 : 25 | chuck knoblauch | minnesota twins | 2b | texas a&m university row 26 : 26 | scott burrell | seattle mariners | rhp | hamden (ct) hs",
+            "text_in": "who are the players in the top 26? || ",
+            "seq_out": "ben mcdonald, tyler houston, roger salkeld, jeff jackson, donald harris, paul coleman, frank thomas, earl cunningham, kyle abbott, charles johnson, calvin murray, jeff juden, brent mayne, steve hosey, kiki jones, greg blosser, cal eldred, willie greene, eddie zosky, scott bryant, greg gohr, tom goodwin, mo vaughn, alan zinter, chuck knoblauch, scott burrell"
+        },
+        {
+            "id": "nt-639",
+            "annotator": 2,
+            "position": 1,
+            "question": "of those, which one was from louisiana state university?",
+            "question_and_history": [
+                "who are the players in the top 26?",
+                "of those, which one was from louisiana state university?"
+            ],
+            "table_file": "table_csv/203_149.csv",
+            "table_header": [
+                "Pick",
+                "Player",
+                "Team",
+                "Position",
+                "School"
+            ],
+            "table_data": [
+                [
+                    "1",
+                    "Ben McDonald",
+                    "Baltimore Orioles",
+                    "RHP",
+                    "Louisiana State University"
+                ],
+                [
+                    "2",
+                    "Tyler Houston",
+                    "Atlanta Braves",
+                    "C",
+                    "Valley HS (Las Vegas, NV)"
+                ],
+                [
+                    "3",
+                    "Roger Salkeld",
+                    "Seattle Mariners",
+                    "RHP",
+                    "Saugus (CA) HS"
+                ],
+                [
+                    "4",
+                    "Jeff Jackson",
+                    "Philadelphia Phillies",
+                    "OF",
+                    "Simeon HS (Chicago, IL)"
+                ],
+                [
+                    "5",
+                    "Donald Harris",
+                    "Texas Rangers",
+                    "OF",
+                    "Texas Tech University"
+                ],
+                [
+                    "6",
+                    "Paul Coleman",
+                    "Saint Louis Cardinals",
+                    "OF",
+                    "Frankston (TX) HS"
+                ],
+                [
+                    "7",
+                    "Frank Thomas",
+                    "Chicago White Sox",
+                    "1B",
+                    "Auburn University"
+                ],
+                [
+                    "8",
+                    "Earl Cunningham",
+                    "Chicago Cubs",
+                    "OF",
+                    "Lancaster (SC) HS"
+                ],
+                [
+                    "9",
+                    "Kyle Abbott",
+                    "California Angels",
+                    "LHP",
+                    "Long Beach State University"
+                ],
+                [
+                    "10",
+                    "Charles Johnson",
+                    "Montreal Expos",
+                    "C",
+                    "Westwood HS (Fort Pierce, FL)"
+                ],
+                [
+                    "11",
+                    "Calvin Murray",
+                    "Cleveland Indians",
+                    "3B",
+                    "W.T. White High School (Dallas, TX"
+                ],
+                [
+                    "12",
+                    "Jeff Juden",
+                    "Houston Astros",
+                    "RHP",
+                    "Salem (MA) HS"
+                ],
+                [
+                    "13",
+                    "Brent Mayne",
+                    "Kansas City Royals",
+                    "C",
+                    "Cal State Fullerton"
+                ],
+                [
+                    "14",
+                    "Steve Hosey",
+                    "San Francisco Giants",
+                    "OF",
+                    "Fresno State University"
+                ],
+                [
+                    "15",
+                    "Kiki Jones",
+                    "Los Angeles Dodgers",
+                    "RHP",
+                    "Hillsborough HS (Tampa, FL)"
+                ],
+                [
+                    "16",
+                    "Greg Blosser",
+                    "Boston Red Sox",
+                    "OF",
+                    "Sarasota (FL) HS"
+                ],
+                [
+                    "17",
+                    "Cal Eldred",
+                    "Milwaukee Brewers",
+                    "RHP",
+                    "University of Iowa"
+                ],
+                [
+                    "18",
+                    "Willie Greene",
+                    "Pittsburgh Pirates",
+                    "SS",
+                    "Jones County HS (Gray, GA)"
+                ],
+                [
+                    "19",
+                    "Eddie Zosky",
+                    "Toronto Blue Jays",
+                    "SS",
+                    "Fresno State University"
+                ],
+                [
+                    "20",
+                    "Scott Bryant",
+                    "Cincinnati Reds",
+                    "OF",
+                    "University of Texas"
+                ],
+                [
+                    "21",
+                    "Greg Gohr",
+                    "Detroit Tigers",
+                    "RHP",
+                    "Santa Clara University"
+                ],
+                [
+                    "22",
+                    "Tom Goodwin",
+                    "Los Angeles Dodgers",
+                    "OF",
+                    "Fresno State University"
+                ],
+                [
+                    "23",
+                    "Mo Vaughn",
+                    "Boston Red Sox",
+                    "1B",
+                    "Seton Hall University"
+                ],
+                [
+                    "24",
+                    "Alan Zinter",
+                    "New York Mets",
+                    "C",
+                    "University of Arizona"
+                ],
+                [
+                    "25",
+                    "Chuck Knoblauch",
+                    "Minnesota Twins",
+                    "2B",
+                    "Texas A&M University"
+                ],
+                [
+                    "26",
+                    "Scott Burrell",
+                    "Seattle Mariners",
+                    "RHP",
+                    "Hamden (CT) HS"
+                ]
+            ],
+            "answer_coordinates": {
+                "row_index": [
+                    0
+                ],
+                "column_index": [
+                    1
+                ]
+            },
+            "answer_text": [
+                "Ben McDonald"
+            ],
+            "struct_in": "col : pick | player | team | position | school row 1 : 1 | ben mcdonald | baltimore orioles | rhp | louisiana state university row 2 : 2 | tyler houston | atlanta braves | c | valley hs (las vegas, nv) row 3 : 3 | roger salkeld | seattle mariners | rhp | saugus (ca) hs row 4 : 4 | jeff jackson | philadelphia phillies | of | simeon hs (chicago, il) row 5 : 5 | donald harris | texas rangers | of | texas tech university row 6 : 6 | paul coleman | saint louis cardinals | of | frankston (tx) hs row 7 : 7 | frank thomas | chicago white sox | 1b | auburn university row 8 : 8 | earl cunningham | chicago cubs | of | lancaster (sc) hs row 9 : 9 | kyle abbott | california angels | lhp | long beach state university row 10 : 10 | charles johnson | montreal expos | c | westwood hs (fort pierce, fl) row 11 : 11 | calvin murray | cleveland indians | 3b | w.t. white high school (dallas, tx row 12 : 12 | jeff juden | houston astros | rhp | salem (ma) hs row 13 : 13 | brent mayne | kansas city royals | c | cal state fullerton row 14 : 14 | steve hosey | san francisco giants | of | fresno state university row 15 : 15 | kiki jones | los angeles dodgers | rhp | hillsborough hs (tampa, fl) row 16 : 16 | greg blosser | boston red sox | of | sarasota (fl) hs row 17 : 17 | cal eldred | milwaukee brewers | rhp | university of iowa row 18 : 18 | willie greene | pittsburgh pirates | ss | jones county hs (gray, ga) row 19 : 19 | eddie zosky | toronto blue jays | ss | fresno state university row 20 : 20 | scott bryant | cincinnati reds | of | university of texas row 21 : 21 | greg gohr | detroit tigers | rhp | santa clara university row 22 : 22 | tom goodwin | los angeles dodgers | of | fresno state university row 23 : 23 | mo vaughn | boston red sox | 1b | seton hall university row 24 : 24 | alan zinter | new york mets | c | university of arizona row 25 : 25 | chuck knoblauch | minnesota twins | 2b | texas a&m university row 26 : 26 | scott burrell | seattle mariners | rhp | hamden (ct) hs",
+            "text_in": "of those, which one was from louisiana state university? || who are the players in the top 26?",
+            "seq_out": "ben mcdonald"
+        }
+    ],
+    [
+        {
+            "id": "nt-11649",
+            "annotator": 0,
+            "position": 0,
+            "question": "what are all the names of the teams?",
+            "question_and_history": [
+                "what are all the names of the teams?"
+            ],
+            "table_file": "table_csv/204_135.csv",
+            "table_header": [
+                "Position",
+                "Club",
+                "Played",
+                "Points",
+                "Wins",
+                "Draws",
+                "Losses",
+                "Goals for",
+                "Goals against",
+                "Goal Difference"
+            ],
+            "table_data": [
+                [
+                    "1",
+                    "Cordoba CF",
+                    "30",
+                    "40",
+                    "16",
+                    "8",
+                    "6",
+                    "48",
+                    "22",
+                    "26"
+                ],
+                [
+                    "2",
+                    "CD Malaga",
+                    "30",
+                    "38",
+                    "14",
+                    "10",
+                    "6",
+                    "52",
+                    "36",
+                    "16"
+                ],
+                [
+                    "3",
+                    "Granada CF",
+                    "30",
+                    "36",
+                    "15",
+                    "6",
+                    "9",
+                    "48",
+                    "34",
+                    "14"
+                ],
+                [
+                    "4",
+                    "UD Las Palmas",
+                    "30",
+                    "35",
+                    "15",
+                    "5",
+                    "10",
+                    "47",
+                    "39",
+                    "8"
+                ],
+                [
+                    "5",
+                    "Recreativo de Huelva",
+                    "30",
+                    "33",
+                    "13",
+                    "7",
+                    "10",
+                    "43",
+                    "42",
+                    "1"
+                ],
+                [
+                    "6",
+                    "Levante UD",
+                    "30",
+                    "32",
+                    "14",
+                    "4",
+                    "12",
+                    "49",
+                    "42",
+                    "7"
+                ],
+                [
+                    "7",
+                    "Hercules CF",
+                    "30",
+                    "32",
+                    "14",
+                    "4",
+                    "12",
+                    "55",
+                    "46",
+                    "9"
+                ],
+                [
+                    "8",
+                    "Real Murcia",
+                    "30",
+                    "31",
+                    "12",
+                    "7",
+                    "11",
+                    "40",
+                    "35",
+                    "5"
+                ],
+                [
+                    "9",
+                    "Real Jaen",
+                    "30",
+                    "31",
+                    "14",
+                    "3",
+                    "13",
+                    "58",
+                    "42",
+                    "16"
+                ],
+                [
+                    "10",
+                    "Cadiz CF",
+                    "30",
+                    "28",
+                    "12",
+                    "4",
+                    "14",
+                    "43",
+                    "52",
+                    "-9"
+                ],
+                [
+                    "11",
+                    "CD Cartagena",
+                    "30",
+                    "28",
+                    "13",
+                    "2",
+                    "15",
+                    "45",
+                    "56",
+                    "-11"
+                ],
+                [
+                    "12",
+                    "CD Mestalla",
+                    "30",
+                    "27",
+                    "11",
+                    "5",
+                    "14",
+                    "50",
+                    "49",
+                    "1"
+                ],
+                [
+                    "13",
+                    "Albacete Balompie",
+                    "30",
+                    "27",
+                    "10",
+                    "7",
+                    "13",
+                    "27",
+                    "32",
+                    "-5"
+                ],
+                [
+                    "14",
+                    "CD San Fernando",
+                    "30",
+                    "27",
+                    "11",
+                    "5",
+                    "14",
+                    "37",
+                    "47",
+                    "-10"
+                ],
+                [
+                    "15",
+                    "Atletico Ceuta",
+                    "30",
+                    "23",
+                    "8",
+                    "7",
+                    "15",
+                    "33",
+                    "48",
+                    "-15"
+                ],
+                [
+                    "16",
+                    "CD Villarrobledo",
+                    "30",
+                    "12",
+                    "4",
+                    "4",
+                    "22",
+                    "26",
+                    "79",
+                    "-53"
+                ]
+            ],
+            "answer_coordinates": {
+                "row_index": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15
+                ],
+                "column_index": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            "answer_text": [
+                "Cordoba CF",
+                "CD Malaga",
+                "Granada CF",
+                "UD Las Palmas",
+                "Recreativo de Huelva",
+                "Levante UD",
+                "Hercules CF",
+                "Real Murcia",
+                "Real Jaen",
+                "Cadiz CF",
+                "CD Cartagena",
+                "CD Mestalla",
+                "Albacete Balompie",
+                "CD San Fernando",
+                "Atletico Ceuta",
+                "CD Villarrobledo"
+            ],
+            "struct_in": "col : position | club | played | points | wins | draws | losses | goals for | goals against | goal difference row 1 : 1 | cordoba cf | 30 | 40 | 16 | 8 | 6 | 48 | 22 | 26 row 2 : 2 | cd malaga | 30 | 38 | 14 | 10 | 6 | 52 | 36 | 16 row 3 : 3 | granada cf | 30 | 36 | 15 | 6 | 9 | 48 | 34 | 14 row 4 : 4 | ud las palmas | 30 | 35 | 15 | 5 | 10 | 47 | 39 | 8 row 5 : 5 | recreativo de huelva | 30 | 33 | 13 | 7 | 10 | 43 | 42 | 1 row 6 : 6 | levante ud | 30 | 32 | 14 | 4 | 12 | 49 | 42 | 7 row 7 : 7 | hercules cf | 30 | 32 | 14 | 4 | 12 | 55 | 46 | 9 row 8 : 8 | real murcia | 30 | 31 | 12 | 7 | 11 | 40 | 35 | 5 row 9 : 9 | real jaen | 30 | 31 | 14 | 3 | 13 | 58 | 42 | 16 row 10 : 10 | cadiz cf | 30 | 28 | 12 | 4 | 14 | 43 | 52 | -9 row 11 : 11 | cd cartagena | 30 | 28 | 13 | 2 | 15 | 45 | 56 | -11 row 12 : 12 | cd mestalla | 30 | 27 | 11 | 5 | 14 | 50 | 49 | 1 row 13 : 13 | albacete balompie | 30 | 27 | 10 | 7 | 13 | 27 | 32 | -5 row 14 : 14 | cd san fernando | 30 | 27 | 11 | 5 | 14 | 37 | 47 | -10 row 15 : 15 | atletico ceuta | 30 | 23 | 8 | 7 | 15 | 33 | 48 | -15 row 16 : 16 | cd villarrobledo | 30 | 12 | 4 | 4 | 22 | 26 | 79 | -53",
+            "text_in": "what are all the names of the teams? || ",
+            "seq_out": "cordoba cf, cd malaga, granada cf, ud las palmas, recreativo de huelva, levante ud, hercules cf, real murcia, real jaen, cadiz cf, cd cartagena, cd mestalla, albacete balompie, cd san fernando, atletico ceuta, cd villarrobledo"
+        },
+        {
+            "id": "nt-11649",
+            "annotator": 0,
+            "position": 1,
+            "question": "of these, which teams had any losses?",
+            "question_and_history": [
+                "what are all the names of the teams?",
+                "of these, which teams had any losses?"
+            ],
+            "table_file": "table_csv/204_135.csv",
+            "table_header": [
+                "Position",
+                "Club",
+                "Played",
+                "Points",
+                "Wins",
+                "Draws",
+                "Losses",
+                "Goals for",
+                "Goals against",
+                "Goal Difference"
+            ],
+            "table_data": [
+                [
+                    "1",
+                    "Cordoba CF",
+                    "30",
+                    "40",
+                    "16",
+                    "8",
+                    "6",
+                    "48",
+                    "22",
+                    "26"
+                ],
+                [
+                    "2",
+                    "CD Malaga",
+                    "30",
+                    "38",
+                    "14",
+                    "10",
+                    "6",
+                    "52",
+                    "36",
+                    "16"
+                ],
+                [
+                    "3",
+                    "Granada CF",
+                    "30",
+                    "36",
+                    "15",
+                    "6",
+                    "9",
+                    "48",
+                    "34",
+                    "14"
+                ],
+                [
+                    "4",
+                    "UD Las Palmas",
+                    "30",
+                    "35",
+                    "15",
+                    "5",
+                    "10",
+                    "47",
+                    "39",
+                    "8"
+                ],
+                [
+                    "5",
+                    "Recreativo de Huelva",
+                    "30",
+                    "33",
+                    "13",
+                    "7",
+                    "10",
+                    "43",
+                    "42",
+                    "1"
+                ],
+                [
+                    "6",
+                    "Levante UD",
+                    "30",
+                    "32",
+                    "14",
+                    "4",
+                    "12",
+                    "49",
+                    "42",
+                    "7"
+                ],
+                [
+                    "7",
+                    "Hercules CF",
+                    "30",
+                    "32",
+                    "14",
+                    "4",
+                    "12",
+                    "55",
+                    "46",
+                    "9"
+                ],
+                [
+                    "8",
+                    "Real Murcia",
+                    "30",
+                    "31",
+                    "12",
+                    "7",
+                    "11",
+                    "40",
+                    "35",
+                    "5"
+                ],
+                [
+                    "9",
+                    "Real Jaen",
+                    "30",
+                    "31",
+                    "14",
+                    "3",
+                    "13",
+                    "58",
+                    "42",
+                    "16"
+                ],
+                [
+                    "10",
+                    "Cadiz CF",
+                    "30",
+                    "28",
+                    "12",
+                    "4",
+                    "14",
+                    "43",
+                    "52",
+                    "-9"
+                ],
+                [
+                    "11",
+                    "CD Cartagena",
+                    "30",
+                    "28",
+                    "13",
+                    "2",
+                    "15",
+                    "45",
+                    "56",
+                    "-11"
+                ],
+                [
+                    "12",
+                    "CD Mestalla",
+                    "30",
+                    "27",
+                    "11",
+                    "5",
+                    "14",
+                    "50",
+                    "49",
+                    "1"
+                ],
+                [
+                    "13",
+                    "Albacete Balompie",
+                    "30",
+                    "27",
+                    "10",
+                    "7",
+                    "13",
+                    "27",
+                    "32",
+                    "-5"
+                ],
+                [
+                    "14",
+                    "CD San Fernando",
+                    "30",
+                    "27",
+                    "11",
+                    "5",
+                    "14",
+                    "37",
+                    "47",
+                    "-10"
+                ],
+                [
+                    "15",
+                    "Atletico Ceuta",
+                    "30",
+                    "23",
+                    "8",
+                    "7",
+                    "15",
+                    "33",
+                    "48",
+                    "-15"
+                ],
+                [
+                    "16",
+                    "CD Villarrobledo",
+                    "30",
+                    "12",
+                    "4",
+                    "4",
+                    "22",
+                    "26",
+                    "79",
+                    "-53"
+                ]
+            ],
+            "answer_coordinates": {
+                "row_index": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15
+                ],
+                "column_index": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            "answer_text": [
+                "Cordoba CF",
+                "CD Malaga",
+                "Granada CF",
+                "UD Las Palmas",
+                "Recreativo de Huelva",
+                "Levante UD",
+                "Hercules CF",
+                "Real Murcia",
+                "Real Jaen",
+                "Cadiz CF",
+                "CD Cartagena",
+                "CD Mestalla",
+                "Albacete Balompie",
+                "CD San Fernando",
+                "Atletico Ceuta",
+                "CD Villarrobledo"
+            ],
+            "struct_in": "col : position | club | played | points | wins | draws | losses | goals for | goals against | goal difference row 1 : 1 | cordoba cf | 30 | 40 | 16 | 8 | 6 | 48 | 22 | 26 row 2 : 2 | cd malaga | 30 | 38 | 14 | 10 | 6 | 52 | 36 | 16 row 3 : 3 | granada cf | 30 | 36 | 15 | 6 | 9 | 48 | 34 | 14 row 4 : 4 | ud las palmas | 30 | 35 | 15 | 5 | 10 | 47 | 39 | 8 row 5 : 5 | recreativo de huelva | 30 | 33 | 13 | 7 | 10 | 43 | 42 | 1 row 6 : 6 | levante ud | 30 | 32 | 14 | 4 | 12 | 49 | 42 | 7 row 7 : 7 | hercules cf | 30 | 32 | 14 | 4 | 12 | 55 | 46 | 9 row 8 : 8 | real murcia | 30 | 31 | 12 | 7 | 11 | 40 | 35 | 5 row 9 : 9 | real jaen | 30 | 31 | 14 | 3 | 13 | 58 | 42 | 16 row 10 : 10 | cadiz cf | 30 | 28 | 12 | 4 | 14 | 43 | 52 | -9 row 11 : 11 | cd cartagena | 30 | 28 | 13 | 2 | 15 | 45 | 56 | -11 row 12 : 12 | cd mestalla | 30 | 27 | 11 | 5 | 14 | 50 | 49 | 1 row 13 : 13 | albacete balompie | 30 | 27 | 10 | 7 | 13 | 27 | 32 | -5 row 14 : 14 | cd san fernando | 30 | 27 | 11 | 5 | 14 | 37 | 47 | -10 row 15 : 15 | atletico ceuta | 30 | 23 | 8 | 7 | 15 | 33 | 48 | -15 row 16 : 16 | cd villarrobledo | 30 | 12 | 4 | 4 | 22 | 26 | 79 | -53",
+            "text_in": "of these, which teams had any losses? || what are all the names of the teams?",
+            "seq_out": "cordoba cf, cd malaga, granada cf, ud las palmas, recreativo de huelva, levante ud, hercules cf, real murcia, real jaen, cadiz cf, cd cartagena, cd mestalla, albacete balompie, cd san fernando, atletico ceuta, cd villarrobledo"
+        },
+        {
+            "id": "nt-11649",
+            "annotator": 0,
+            "position": 2,
+            "question": "of these teams, which had more than 21 losses?",
+            "question_and_history": [
+                "what are all the names of the teams?",
+                "of these, which teams had any losses?",
+                "of these teams, which had more than 21 losses?"
+            ],
+            "table_file": "table_csv/204_135.csv",
+            "table_header": [
+                "Position",
+                "Club",
+                "Played",
+                "Points",
+                "Wins",
+                "Draws",
+                "Losses",
+                "Goals for",
+                "Goals against",
+                "Goal Difference"
+            ],
+            "table_data": [
+                [
+                    "1",
+                    "Cordoba CF",
+                    "30",
+                    "40",
+                    "16",
+                    "8",
+                    "6",
+                    "48",
+                    "22",
+                    "26"
+                ],
+                [
+                    "2",
+                    "CD Malaga",
+                    "30",
+                    "38",
+                    "14",
+                    "10",
+                    "6",
+                    "52",
+                    "36",
+                    "16"
+                ],
+                [
+                    "3",
+                    "Granada CF",
+                    "30",
+                    "36",
+                    "15",
+                    "6",
+                    "9",
+                    "48",
+                    "34",
+                    "14"
+                ],
+                [
+                    "4",
+                    "UD Las Palmas",
+                    "30",
+                    "35",
+                    "15",
+                    "5",
+                    "10",
+                    "47",
+                    "39",
+                    "8"
+                ],
+                [
+                    "5",
+                    "Recreativo de Huelva",
+                    "30",
+                    "33",
+                    "13",
+                    "7",
+                    "10",
+                    "43",
+                    "42",
+                    "1"
+                ],
+                [
+                    "6",
+                    "Levante UD",
+                    "30",
+                    "32",
+                    "14",
+                    "4",
+                    "12",
+                    "49",
+                    "42",
+                    "7"
+                ],
+                [
+                    "7",
+                    "Hercules CF",
+                    "30",
+                    "32",
+                    "14",
+                    "4",
+                    "12",
+                    "55",
+                    "46",
+                    "9"
+                ],
+                [
+                    "8",
+                    "Real Murcia",
+                    "30",
+                    "31",
+                    "12",
+                    "7",
+                    "11",
+                    "40",
+                    "35",
+                    "5"
+                ],
+                [
+                    "9",
+                    "Real Jaen",
+                    "30",
+                    "31",
+                    "14",
+                    "3",
+                    "13",
+                    "58",
+                    "42",
+                    "16"
+                ],
+                [
+                    "10",
+                    "Cadiz CF",
+                    "30",
+                    "28",
+                    "12",
+                    "4",
+                    "14",
+                    "43",
+                    "52",
+                    "-9"
+                ],
+                [
+                    "11",
+                    "CD Cartagena",
+                    "30",
+                    "28",
+                    "13",
+                    "2",
+                    "15",
+                    "45",
+                    "56",
+                    "-11"
+                ],
+                [
+                    "12",
+                    "CD Mestalla",
+                    "30",
+                    "27",
+                    "11",
+                    "5",
+                    "14",
+                    "50",
+                    "49",
+                    "1"
+                ],
+                [
+                    "13",
+                    "Albacete Balompie",
+                    "30",
+                    "27",
+                    "10",
+                    "7",
+                    "13",
+                    "27",
+                    "32",
+                    "-5"
+                ],
+                [
+                    "14",
+                    "CD San Fernando",
+                    "30",
+                    "27",
+                    "11",
+                    "5",
+                    "14",
+                    "37",
+                    "47",
+                    "-10"
+                ],
+                [
+                    "15",
+                    "Atletico Ceuta",
+                    "30",
+                    "23",
+                    "8",
+                    "7",
+                    "15",
+                    "33",
+                    "48",
+                    "-15"
+                ],
+                [
+                    "16",
+                    "CD Villarrobledo",
+                    "30",
+                    "12",
+                    "4",
+                    "4",
+                    "22",
+                    "26",
+                    "79",
+                    "-53"
+                ]
+            ],
+            "answer_coordinates": {
+                "row_index": [
+                    15
+                ],
+                "column_index": [
+                    1
+                ]
+            },
+            "answer_text": [
+                "CD Villarrobledo"
+            ],
+            "struct_in": "col : position | club | played | points | wins | draws | losses | goals for | goals against | goal difference row 1 : 1 | cordoba cf | 30 | 40 | 16 | 8 | 6 | 48 | 22 | 26 row 2 : 2 | cd malaga | 30 | 38 | 14 | 10 | 6 | 52 | 36 | 16 row 3 : 3 | granada cf | 30 | 36 | 15 | 6 | 9 | 48 | 34 | 14 row 4 : 4 | ud las palmas | 30 | 35 | 15 | 5 | 10 | 47 | 39 | 8 row 5 : 5 | recreativo de huelva | 30 | 33 | 13 | 7 | 10 | 43 | 42 | 1 row 6 : 6 | levante ud | 30 | 32 | 14 | 4 | 12 | 49 | 42 | 7 row 7 : 7 | hercules cf | 30 | 32 | 14 | 4 | 12 | 55 | 46 | 9 row 8 : 8 | real murcia | 30 | 31 | 12 | 7 | 11 | 40 | 35 | 5 row 9 : 9 | real jaen | 30 | 31 | 14 | 3 | 13 | 58 | 42 | 16 row 10 : 10 | cadiz cf | 30 | 28 | 12 | 4 | 14 | 43 | 52 | -9 row 11 : 11 | cd cartagena | 30 | 28 | 13 | 2 | 15 | 45 | 56 | -11 row 12 : 12 | cd mestalla | 30 | 27 | 11 | 5 | 14 | 50 | 49 | 1 row 13 : 13 | albacete balompie | 30 | 27 | 10 | 7 | 13 | 27 | 32 | -5 row 14 : 14 | cd san fernando | 30 | 27 | 11 | 5 | 14 | 37 | 47 | -10 row 15 : 15 | atletico ceuta | 30 | 23 | 8 | 7 | 15 | 33 | 48 | -15 row 16 : 16 | cd villarrobledo | 30 | 12 | 4 | 4 | 22 | 26 | 79 | -53",
+            "text_in": "of these teams, which had more than 21 losses? || of these, which teams had any losses? | what are all the names of the teams?",
+            "seq_out": "cd villarrobledo"
+        }
+    ],
+    [
+        {
+            "id": "nt-11649",
+            "annotator": 1,
+            "position": 0,
+            "question": "what are the losses?",
+            "question_and_history": [
+                "what are the losses?"
+            ],
+            "table_file": "table_csv/204_135.csv",
+            "table_header": [
+                "Position",
+                "Club",
+                "Played",
+                "Points",
+                "Wins",
+                "Draws",
+                "Losses",
+                "Goals for",
+                "Goals against",
+                "Goal Difference"
+            ],
+            "table_data": [
+                [
+                    "1",
+                    "Cordoba CF",
+                    "30",
+                    "40",
+                    "16",
+                    "8",
+                    "6",
+                    "48",
+                    "22",
+                    "26"
+                ],
+                [
+                    "2",
+                    "CD Malaga",
+                    "30",
+                    "38",
+                    "14",
+                    "10",
+                    "6",
+                    "52",
+                    "36",
+                    "16"
+                ],
+                [
+                    "3",
+                    "Granada CF",
+                    "30",
+                    "36",
+                    "15",
+                    "6",
+                    "9",
+                    "48",
+                    "34",
+                    "14"
+                ],
+                [
+                    "4",
+                    "UD Las Palmas",
+                    "30",
+                    "35",
+                    "15",
+                    "5",
+                    "10",
+                    "47",
+                    "39",
+                    "8"
+                ],
+                [
+                    "5",
+                    "Recreativo de Huelva",
+                    "30",
+                    "33",
+                    "13",
+                    "7",
+                    "10",
+                    "43",
+                    "42",
+                    "1"
+                ],
+                [
+                    "6",
+                    "Levante UD",
+                    "30",
+                    "32",
+                    "14",
+                    "4",
+                    "12",
+                    "49",
+                    "42",
+                    "7"
+                ],
+                [
+                    "7",
+                    "Hercules CF",
+                    "30",
+                    "32",
+                    "14",
+                    "4",
+                    "12",
+                    "55",
+                    "46",
+                    "9"
+                ],
+                [
+                    "8",
+                    "Real Murcia",
+                    "30",
+                    "31",
+                    "12",
+                    "7",
+                    "11",
+                    "40",
+                    "35",
+                    "5"
+                ],
+                [
+                    "9",
+                    "Real Jaen",
+                    "30",
+                    "31",
+                    "14",
+                    "3",
+                    "13",
+                    "58",
+                    "42",
+                    "16"
+                ],
+                [
+                    "10",
+                    "Cadiz CF",
+                    "30",
+                    "28",
+                    "12",
+                    "4",
+                    "14",
+                    "43",
+                    "52",
+                    "-9"
+                ],
+                [
+                    "11",
+                    "CD Cartagena",
+                    "30",
+                    "28",
+                    "13",
+                    "2",
+                    "15",
+                    "45",
+                    "56",
+                    "-11"
+                ],
+                [
+                    "12",
+                    "CD Mestalla",
+                    "30",
+                    "27",
+                    "11",
+                    "5",
+                    "14",
+                    "50",
+                    "49",
+                    "1"
+                ],
+                [
+                    "13",
+                    "Albacete Balompie",
+                    "30",
+                    "27",
+                    "10",
+                    "7",
+                    "13",
+                    "27",
+                    "32",
+                    "-5"
+                ],
+                [
+                    "14",
+                    "CD San Fernando",
+                    "30",
+                    "27",
+                    "11",
+                    "5",
+                    "14",
+                    "37",
+                    "47",
+                    "-10"
+                ],
+                [
+                    "15",
+                    "Atletico Ceuta",
+                    "30",
+                    "23",
+                    "8",
+                    "7",
+                    "15",
+                    "33",
+                    "48",
+                    "-15"
+                ],
+                [
+                    "16",
+                    "CD Villarrobledo",
+                    "30",
+                    "12",
+                    "4",
+                    "4",
+                    "22",
+                    "26",
+                    "79",
+                    "-53"
+                ]
+            ],
+            "answer_coordinates": {
+                "row_index": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15
+                ],
+                "column_index": [
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    6,
+                    6
+                ]
+            },
+            "answer_text": [
+                "6",
+                "6",
+                "9",
+                "10",
+                "10",
+                "12",
+                "12",
+                "11",
+                "13",
+                "14",
+                "15",
+                "14",
+                "13",
+                "14",
+                "15",
+                "22"
+            ],
+            "struct_in": "col : position | club | played | points | wins | draws | losses | goals for | goals against | goal difference row 1 : 1 | cordoba cf | 30 | 40 | 16 | 8 | 6 | 48 | 22 | 26 row 2 : 2 | cd malaga | 30 | 38 | 14 | 10 | 6 | 52 | 36 | 16 row 3 : 3 | granada cf | 30 | 36 | 15 | 6 | 9 | 48 | 34 | 14 row 4 : 4 | ud las palmas | 30 | 35 | 15 | 5 | 10 | 47 | 39 | 8 row 5 : 5 | recreativo de huelva | 30 | 33 | 13 | 7 | 10 | 43 | 42 | 1 row 6 : 6 | levante ud | 30 | 32 | 14 | 4 | 12 | 49 | 42 | 7 row 7 : 7 | hercules cf | 30 | 32 | 14 | 4 | 12 | 55 | 46 | 9 row 8 : 8 | real murcia | 30 | 31 | 12 | 7 | 11 | 40 | 35 | 5 row 9 : 9 | real jaen | 30 | 31 | 14 | 3 | 13 | 58 | 42 | 16 row 10 : 10 | cadiz cf | 30 | 28 | 12 | 4 | 14 | 43 | 52 | -9 row 11 : 11 | cd cartagena | 30 | 28 | 13 | 2 | 15 | 45 | 56 | -11 row 12 : 12 | cd mestalla | 30 | 27 | 11 | 5 | 14 | 50 | 49 | 1 row 13 : 13 | albacete balompie | 30 | 27 | 10 | 7 | 13 | 27 | 32 | -5 row 14 : 14 | cd san fernando | 30 | 27 | 11 | 5 | 14 | 37 | 47 | -10 row 15 : 15 | atletico ceuta | 30 | 23 | 8 | 7 | 15 | 33 | 48 | -15 row 16 : 16 | cd villarrobledo | 30 | 12 | 4 | 4 | 22 | 26 | 79 | -53",
+            "text_in": "what are the losses? || ",
+            "seq_out": "6, 6, 9, 10, 10, 12, 12, 11, 13, 14, 15, 14, 13, 14, 15, 22"
+        },
+        {
+            "id": "nt-11649",
+            "annotator": 1,
+            "position": 1,
+            "question": "what team had more than 21 losses?",
+            "question_and_history": [
+                "what are the losses?",
+                "what team had more than 21 losses?"
+            ],
+            "table_file": "table_csv/204_135.csv",
+            "table_header": [
+                "Position",
+                "Club",
+                "Played",
+                "Points",
+                "Wins",
+                "Draws",
+                "Losses",
+                "Goals for",
+                "Goals against",
+                "Goal Difference"
+            ],
+            "table_data": [
+                [
+                    "1",
+                    "Cordoba CF",
+                    "30",
+                    "40",
+                    "16",
+                    "8",
+                    "6",
+                    "48",
+                    "22",
+                    "26"
+                ],
+                [
+                    "2",
+                    "CD Malaga",
+                    "30",
+                    "38",
+                    "14",
+                    "10",
+                    "6",
+                    "52",
+                    "36",
+                    "16"
+                ],
+                [
+                    "3",
+                    "Granada CF",
+                    "30",
+                    "36",
+                    "15",
+                    "6",
+                    "9",
+                    "48",
+                    "34",
+                    "14"
+                ],
+                [
+                    "4",
+                    "UD Las Palmas",
+                    "30",
+                    "35",
+                    "15",
+                    "5",
+                    "10",
+                    "47",
+                    "39",
+                    "8"
+                ],
+                [
+                    "5",
+                    "Recreativo de Huelva",
+                    "30",
+                    "33",
+                    "13",
+                    "7",
+                    "10",
+                    "43",
+                    "42",
+                    "1"
+                ],
+                [
+                    "6",
+                    "Levante UD",
+                    "30",
+                    "32",
+                    "14",
+                    "4",
+                    "12",
+                    "49",
+                    "42",
+                    "7"
+                ],
+                [
+                    "7",
+                    "Hercules CF",
+                    "30",
+                    "32",
+                    "14",
+                    "4",
+                    "12",
+                    "55",
+                    "46",
+                    "9"
+                ],
+                [
+                    "8",
+                    "Real Murcia",
+                    "30",
+                    "31",
+                    "12",
+                    "7",
+                    "11",
+                    "40",
+                    "35",
+                    "5"
+                ],
+                [
+                    "9",
+                    "Real Jaen",
+                    "30",
+                    "31",
+                    "14",
+                    "3",
+                    "13",
+                    "58",
+                    "42",
+                    "16"
+                ],
+                [
+                    "10",
+                    "Cadiz CF",
+                    "30",
+                    "28",
+                    "12",
+                    "4",
+                    "14",
+                    "43",
+                    "52",
+                    "-9"
+                ],
+                [
+                    "11",
+                    "CD Cartagena",
+                    "30",
+                    "28",
+                    "13",
+                    "2",
+                    "15",
+                    "45",
+                    "56",
+                    "-11"
+                ],
+                [
+                    "12",
+                    "CD Mestalla",
+                    "30",
+                    "27",
+                    "11",
+                    "5",
+                    "14",
+                    "50",
+                    "49",
+                    "1"
+                ],
+                [
+                    "13",
+                    "Albacete Balompie",
+                    "30",
+                    "27",
+                    "10",
+                    "7",
+                    "13",
+                    "27",
+                    "32",
+                    "-5"
+                ],
+                [
+                    "14",
+                    "CD San Fernando",
+                    "30",
+                    "27",
+                    "11",
+                    "5",
+                    "14",
+                    "37",
+                    "47",
+                    "-10"
+                ],
+                [
+                    "15",
+                    "Atletico Ceuta",
+                    "30",
+                    "23",
+                    "8",
+                    "7",
+                    "15",
+                    "33",
+                    "48",
+                    "-15"
+                ],
+                [
+                    "16",
+                    "CD Villarrobledo",
+                    "30",
+                    "12",
+                    "4",
+                    "4",
+                    "22",
+                    "26",
+                    "79",
+                    "-53"
+                ]
+            ],
+            "answer_coordinates": {
+                "row_index": [
+                    15
+                ],
+                "column_index": [
+                    1
+                ]
+            },
+            "answer_text": [
+                "CD Villarrobledo"
+            ],
+            "struct_in": "col : position | club | played | points | wins | draws | losses | goals for | goals against | goal difference row 1 : 1 | cordoba cf | 30 | 40 | 16 | 8 | 6 | 48 | 22 | 26 row 2 : 2 | cd malaga | 30 | 38 | 14 | 10 | 6 | 52 | 36 | 16 row 3 : 3 | granada cf | 30 | 36 | 15 | 6 | 9 | 48 | 34 | 14 row 4 : 4 | ud las palmas | 30 | 35 | 15 | 5 | 10 | 47 | 39 | 8 row 5 : 5 | recreativo de huelva | 30 | 33 | 13 | 7 | 10 | 43 | 42 | 1 row 6 : 6 | levante ud | 30 | 32 | 14 | 4 | 12 | 49 | 42 | 7 row 7 : 7 | hercules cf | 30 | 32 | 14 | 4 | 12 | 55 | 46 | 9 row 8 : 8 | real murcia | 30 | 31 | 12 | 7 | 11 | 40 | 35 | 5 row 9 : 9 | real jaen | 30 | 31 | 14 | 3 | 13 | 58 | 42 | 16 row 10 : 10 | cadiz cf | 30 | 28 | 12 | 4 | 14 | 43 | 52 | -9 row 11 : 11 | cd cartagena | 30 | 28 | 13 | 2 | 15 | 45 | 56 | -11 row 12 : 12 | cd mestalla | 30 | 27 | 11 | 5 | 14 | 50 | 49 | 1 row 13 : 13 | albacete balompie | 30 | 27 | 10 | 7 | 13 | 27 | 32 | -5 row 14 : 14 | cd san fernando | 30 | 27 | 11 | 5 | 14 | 37 | 47 | -10 row 15 : 15 | atletico ceuta | 30 | 23 | 8 | 7 | 15 | 33 | 48 | -15 row 16 : 16 | cd villarrobledo | 30 | 12 | 4 | 4 | 22 | 26 | 79 | -53",
+            "text_in": "what team had more than 21 losses? || what are the losses?",
+            "seq_out": "cd villarrobledo"
+        }
+    ]
+]

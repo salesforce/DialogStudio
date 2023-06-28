@@ -1,0 +1,276 @@
+{
+    "ConvAI2--train--1": {
+        "original dialog id": "0xab38710",
+        "dialog index": 1,
+        "original dialog info": {
+            "id": "0xab38710",
+            "bot_profile": [
+                "i have amazing children and grandchildren.",
+                "i can sew my own clothes.",
+                "i had cancer but its gone now.",
+                "i am retired and living the great life.",
+                "i do not have a smartphone."
+            ],
+            "user_profile": [
+                "two dogs live with me.",
+                "i like doing the treadmill and rowing machine.",
+                "eating is something i do when i'm bored.",
+                "i have short hair.",
+                "i go to the gym regularly."
+            ],
+            "eval_score": 1,
+            "profile_match": 0
+        },
+        "log": [
+            {
+                "turn id": 1,
+                "user1 utterance": "I love iphone! i just bought new iphone!",
+                "user2 response": "Thats good for you, i'm not very into new tech",
+                "dialog history": "",
+                "original user1 side information": {
+                    "id": 0,
+                    "sender": "participant2",
+                    "sender_class": "Bot"
+                },
+                "original user2 side information": {
+                    "id": 1,
+                    "sender": "participant1",
+                    "sender_class": "Human"
+                }
+            },
+            {
+                "turn id": 2,
+                "user1 utterance": "I am a college student and i am a college student",
+                "user2 response": "I am go to gym and live on donations",
+                "dialog history": "<user1> I love iphone! i just bought new iphone! <user2> Thats good for you, i'm not very into new tech",
+                "original user1 side information": {
+                    "id": 2,
+                    "sender": "participant2",
+                    "sender_class": "Bot"
+                },
+                "original user2 side information": {
+                    "id": 3,
+                    "sender": "participant1",
+                    "sender_class": "Human"
+                }
+            },
+            {
+                "turn id": 3,
+                "user1 utterance": "I am a vegan and i am in the midwest",
+                "user2 response": "So vegan... i have dogs maybe i should told then that they may eat cheap salads insted of meat",
+                "dialog history": "<user1> I love iphone! i just bought new iphone! <user2> Thats good for you, i'm not very into new tech <user1> I am a college student and i am a college student <user2> I am go to gym and live on donations",
+                "original user1 side information": {
+                    "id": 4,
+                    "sender": "participant2",
+                    "sender_class": "Bot"
+                },
+                "original user2 side information": {
+                    "id": 5,
+                    "sender": "participant1",
+                    "sender_class": "Human"
+                }
+            },
+            {
+                "turn id": 4,
+                "user1 utterance": "I would not mind having them in the office that would be hard for me",
+                "user2 response": "Dogs or vegan in office?",
+                "dialog history": "<user1> I love iphone! i just bought new iphone! <user2> Thats good for you, i'm not very into new tech <user1> I am a college student and i am a college student <user2> I am go to gym and live on donations <user1> I am a vegan and i am in the midwest <user2> So vegan... i have dogs maybe i should told then that they may eat cheap salads insted of meat",
+                "original user1 side information": {
+                    "id": 6,
+                    "sender": "participant2",
+                    "sender_class": "Bot"
+                },
+                "original user2 side information": {
+                    "id": 7,
+                    "sender": "participant1",
+                    "sender_class": "Human"
+                }
+            },
+            {
+                "turn id": 5,
+                "user1 utterance": "I am a vegetarian so i am vegan",
+                "user2 response": "Strange answer",
+                "dialog history": "<user1> I love iphone! i just bought new iphone! <user2> Thats good for you, i'm not very into new tech <user1> I am a college student and i am a college student <user2> I am go to gym and live on donations <user1> I am a vegan and i am in the midwest <user2> So vegan... i have dogs maybe i should told then that they may eat cheap salads insted of meat <user1> I would not mind having them in the office that would be hard for me <user2> Dogs or vegan in office?",
+                "original user1 side information": {
+                    "id": 8,
+                    "sender": "participant2",
+                    "sender_class": "Bot"
+                },
+                "original user2 side information": {
+                    "id": 9,
+                    "sender": "participant1",
+                    "sender_class": "Human"
+                }
+            },
+            {
+                "turn id": 6,
+                "user1 utterance": "I guess i just do not know what to ps4 experience with.",
+                "user2 response": "",
+                "dialog history": "<user1> I love iphone! i just bought new iphone! <user2> Thats good for you, i'm not very into new tech <user1> I am a college student and i am a college student <user2> I am go to gym and live on donations <user1> I am a vegan and i am in the midwest <user2> So vegan... i have dogs maybe i should told then that they may eat cheap salads insted of meat <user1> I would not mind having them in the office that would be hard for me <user2> Dogs or vegan in office? <user1> I am a vegetarian so i am vegan <user2> Strange answer",
+                "original user1 side information": {
+                    "id": 10,
+                    "sender": "participant2",
+                    "sender_class": "Bot"
+                },
+                "original user2 side information": {}
+            }
+        ],
+        "prompt": []
+    },
+    "ConvAI2--train--2": {
+        "original dialog id": "0x223f6d5e",
+        "dialog index": 2,
+        "original dialog info": {
+            "id": "0x223f6d5e",
+            "bot_profile": [
+                "my father was a door to door salesman.",
+                "i've three dogs.",
+                "i am in an open polyamorous relationship.",
+                "i also have a dog walking business."
+            ],
+            "user_profile": [
+                "if i'm not cooking in the kitchen then i'm definitely on the water.",
+                "spiderman is my favorite.",
+                "hey my name is larry and i am a chef.",
+                "l also love comic books.",
+                "i love cooking but i also enjoy fishing."
+            ],
+            "eval_score": 1,
+            "profile_match": 1
+        },
+        "log": [
+            {
+                "turn id": 1,
+                "user1 utterance": "Hello",
+                "user2 response": "/test",
+                "dialog history": "",
+                "original user1 side information": {
+                    "id": 0,
+                    "sender": "participant1",
+                    "sender_class": "Human"
+                },
+                "original user2 side information": {
+                    "id": 1,
+                    "sender": "participant1",
+                    "sender_class": "Human"
+                }
+            }
+        ],
+        "prompt": []
+    },
+    "ConvAI2--train--3": {
+        "original dialog id": "0x6789b32a",
+        "dialog index": 3,
+        "original dialog info": {
+            "id": "0x6789b32a",
+            "bot_profile": [
+                "i am a gold medalist olympian.",
+                "i love italian food and garlic bread.",
+                "my favorite color is yellow.",
+                "gymnastics is my favorite sport.",
+                "i workout four hours a day."
+            ],
+            "user_profile": [
+                "i've a german shepherd dog.",
+                "i live is a rural farming community.",
+                "my husband is adopted.",
+                "i like to watch nhl hockey."
+            ],
+            "eval_score": 1,
+            "profile_match": 1
+        },
+        "log": [
+            {
+                "turn id": 1,
+                "user1 utterance": "Hey",
+                "user2 response": "What do you do?",
+                "dialog history": "",
+                "original user1 side information": {
+                    "id": 0,
+                    "sender": "participant1",
+                    "sender_class": "Human"
+                },
+                "original user2 side information": {
+                    "id": 1,
+                    "sender": "participant1",
+                    "sender_class": "Human"
+                }
+            }
+        ],
+        "prompt": []
+    },
+    "ConvAI2--train--4": {
+        "original dialog id": "0x7304a92a",
+        "dialog index": 4,
+        "original dialog info": {
+            "id": "0x7304a92a",
+            "bot_profile": [
+                "i fantasize about taking over the world.",
+                "i'm a 56 year old woman.",
+                "i have two grown children who never visit.",
+                "i used to be a painter but now i am a housekeeper."
+            ],
+            "user_profile": [
+                "i like watching war documentaries.",
+                "i volunteer at a soup kitchen.",
+                "cheeseburgers are my favorite food.",
+                "i was poor growing up.",
+                "i'm a retired gym teacher."
+            ],
+            "eval_score": 1,
+            "profile_match": 1
+        },
+        "log": [
+            {
+                "turn id": 1,
+                "user1 utterance": "I love painting, i love to paint",
+                "user2 response": "",
+                "dialog history": "",
+                "original user1 side information": {
+                    "id": 0,
+                    "sender": "participant2",
+                    "sender_class": "Bot"
+                },
+                "original user2 side information": {}
+            }
+        ],
+        "prompt": []
+    },
+    "ConvAI2--train--5": {
+        "original dialog id": "0x7470f02a",
+        "dialog index": 5,
+        "original dialog info": {
+            "id": "0x7470f02a",
+            "bot_profile": [
+                "i am 40 years old.",
+                "i work as a car salesman.",
+                "my wife spends all my money.",
+                "i hate my job.",
+                "i'm planning on getting a divorce."
+            ],
+            "user_profile": [
+                "i work for our local supermarket.",
+                "my favorite band is the who.",
+                "i have never been out of ohio.",
+                "my favorite food is pizza with black olives."
+            ],
+            "eval_score": 1,
+            "profile_match": 1
+        },
+        "log": [
+            {
+                "turn id": 1,
+                "user1 utterance": "Hello",
+                "user2 response": "",
+                "dialog history": "",
+                "original user1 side information": {
+                    "id": 0,
+                    "sender": "participant1",
+                    "sender_class": "Human"
+                },
+                "original user2 side information": {}
+            }
+        ],
+        "prompt": []
+    }
+}

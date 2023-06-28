@@ -1,0 +1,3944 @@
+{
+    "WebQSP--train--1": {
+        "original dialog id": "",
+        "dialog index": 1,
+        "original dialog info": {
+            "id": "WebQTrn-2550.P0",
+            "question": "what nationality is jermaine paul?",
+            "answers": [
+                [
+                    "ns:m.09c7w0",
+                    "United States of America"
+                ]
+            ],
+            "s_expression": "(JOIN (R people.person.nationality) m.02rxpxn)",
+            "kg_tuples": [
+                [
+                    "m.09c7w0",
+                    "location.location.contains",
+                    "m.0s4g4"
+                ],
+                [
+                    "m.09c7w0",
+                    "government.governmental_jurisdiction.governing_officials",
+                    "m.0jy0nvg"
+                ],
+                [
+                    "m.09c7w0",
+                    "location.location.contains",
+                    "m.02h_zx"
+                ],
+                [
+                    "m.05148p4",
+                    "common.topic.notable_types",
+                    "m.0kpv25"
+                ],
+                [
+                    "m.09c7w0",
+                    "location.location.people_born_here",
+                    "m.0krr5n"
+                ],
+                [
+                    "m.06j6l",
+                    "music.genre.albums",
+                    "m.06vzkfv"
+                ],
+                [
+                    "m.02rxpxn",
+                    "people.person.nationality",
+                    "m.09c7w0"
+                ],
+                [
+                    "m.09c7w0",
+                    "government.governmental_jurisdiction.governing_officials",
+                    "m.0nbxnvm"
+                ],
+                [
+                    "m.09c7w0",
+                    "location.location.contains",
+                    "m.0490dr7"
+                ],
+                [
+                    "m.09c7w0",
+                    "government.governmental_jurisdiction.governing_officials",
+                    "m.09rjyt1"
+                ],
+                [
+                    "m.09c7w0",
+                    "government.governmental_jurisdiction.governing_officials",
+                    "m.05kfggp"
+                ],
+                [
+                    "m.09c7w0",
+                    "location.location.contains",
+                    "m.0sc0h"
+                ],
+                [
+                    "m.09c7w0",
+                    "location.location.contains",
+                    "m.048_wfq"
+                ],
+                [
+                    "m.026t6",
+                    "music.instrument.family",
+                    "m.0l14md"
+                ],
+                [
+                    "m.09c7w0",
+                    "location.location.contains",
+                    "m.048_wj6"
+                ],
+                [
+                    "m.09c7w0",
+                    "location.location.contains",
+                    "m.0490wj4"
+                ],
+                [
+                    "m.09c7w0",
+                    "government.governmental_jurisdiction.governing_officials",
+                    "m.0nbwkcq"
+                ],
+                [
+                    "m.09c7w0",
+                    "location.location.contains",
+                    "m.02prgdr"
+                ],
+                [
+                    "m.09c7w0",
+                    "location.location.contains",
+                    "m.048_t8g"
+                ],
+                [
+                    "m.09c7w0",
+                    "location.location.contains",
+                    "m.0490srh"
+                ],
+                [
+                    "m.09c7w0",
+                    "location.location.people_born_here",
+                    "m.0262ldg"
+                ],
+                [
+                    "m.09c7w0",
+                    "location.location.contains",
+                    "m.02pq6s1"
+                ],
+                [
+                    "m.09c7w0",
+                    "location.location.contains",
+                    "m.0s58b"
+                ],
+                [
+                    "m.09c7w0",
+                    "location.location.contains",
+                    "m.0490w74"
+                ],
+                [
+                    "m.09c7w0",
+                    "government.governmental_jurisdiction.governing_officials",
+                    "m.05mkcpp"
+                ],
+                [
+                    "m.09c7w0",
+                    "location.location.contains",
+                    "m.0s9lz"
+                ],
+                [
+                    "m.09c7w0",
+                    "location.country.administrative_divisions",
+                    "m.03v0t"
+                ],
+                [
+                    "m.09c7w0",
+                    "government.governmental_jurisdiction.governing_officials",
+                    "m.05kfccr"
+                ],
+                [
+                    "m.09c7w0",
+                    "location.location.contains",
+                    "m.02mv6p"
+                ],
+                [
+                    "m.09c7w0",
+                    "government.governmental_jurisdiction.governing_officials",
+                    "m.09vq6p1"
+                ],
+                [
+                    "m.09c7w0",
+                    "location.location.contains",
+                    "m.0sb56"
+                ],
+                [
+                    "m.018vs",
+                    "music.instrument.family",
+                    "m.01vj9c"
+                ],
+                [
+                    "m.09c7w0",
+                    "location.location.contains",
+                    "m.04b4351"
+                ],
+                [
+                    "m.06by7",
+                    "music.genre.albums",
+                    "m.096y7s"
+                ],
+                [
+                    "m.09c7w0",
+                    "location.location.contains",
+                    "m.0s5f5"
+                ],
+                [
+                    "m.05r5c",
+                    "common.topic.notable_types",
+                    "m.0kpv25"
+                ],
+                [
+                    "m.0gywn",
+                    "music.genre.albums",
+                    "m.06w2bnf"
+                ],
+                [
+                    "m.09c7w0",
+                    "location.location.contains",
+                    "m.02pmgfs"
+                ],
+                [
+                    "m.09c7w0",
+                    "location.location.contains",
+                    "m.02v_1j2"
+                ],
+                [
+                    "m.02rxpxn",
+                    "music.artist.genre",
+                    "m.06by7"
+                ],
+                [
+                    "m.09c7w0",
+                    "government.governmental_jurisdiction.governing_officials",
+                    "m.05krm29"
+                ],
+                [
+                    "m.09c7w0",
+                    "location.location.contains",
+                    "m.0s4l_"
+                ],
+                [
+                    "m.09c7w0",
+                    "location.location.contains",
+                    "m.04dzzfl"
+                ],
+                [
+                    "m.09c7w0",
+                    "location.location.contains",
+                    "m.0sj4l"
+                ],
+                [
+                    "m.09c7w0",
+                    "location.location.contains",
+                    "m.076tsx_"
+                ],
+                [
+                    "m.09c7w0",
+                    "government.governmental_jurisdiction.governing_officials",
+                    "m.0cvj8yv"
+                ],
+                [
+                    "m.09c7w0",
+                    "government.governmental_jurisdiction.governing_officials",
+                    "m.09g3g04"
+                ],
+                [
+                    "m.09c7w0",
+                    "location.location.contains",
+                    "m.02q9c2n"
+                ],
+                [
+                    "m.09c7w0",
+                    "location.location.contains",
+                    "m.04ctk80"
+                ],
+                [
+                    "m.09c7w0",
+                    "book.book_subject.works",
+                    "m.04t31v_"
+                ]
+            ],
+            "entities": [
+                [
+                    "Jermaine Paul",
+                    "m.02rxpxn"
+                ]
+            ]
+        },
+        "log": {
+            "turn id": 1,
+            "user utterance": "what nationality is jermaine paul?",
+            "system response": "(JOIN (R people.person.nationality) m.02rxpxn)",
+            "dialog history": "",
+            "original user side information": {},
+            "original system side information": {},
+            "external knowledge": "Jermaine Paul: m.02rxpxn | m.09c7w0 location.location.contains m.0s4g4 | m.09c7w0 government.governmental_jurisdiction.governing_officials m.0jy0nvg | m.09c7w0 location.location.contains m.02h_zx | m.05148p4 common.topic.notable_types m.0kpv25 | m.09c7w0 location.location.people_born_here m.0krr5n | m.06j6l music.genre.albums m.06vzkfv | m.02rxpxn people.person.nationality m.09c7w0 | m.09c7w0 government.governmental_jurisdiction.governing_officials m.0nbxnvm | m.09c7w0 location.location.contains m.0490dr7 | m.09c7w0 government.governmental_jurisdiction.governing_officials m.09rjyt1 | m.09c7w0 government.governmental_jurisdiction.governing_officials m.05kfggp | m.09c7w0 location.location.contains m.0sc0h | m.09c7w0 location.location.contains m.048_wfq | m.026t6 music.instrument.family m.0l14md | m.09c7w0 location.location.contains m.048_wj6 | m.09c7w0 location.location.contains m.0490wj4 | m.09c7w0 government.governmental_jurisdiction.governing_officials m.0nbwkcq | m.09c7w0 location.location.contains m.02prgdr | m.09c7w0 location.location.contains m.048_t8g | m.09c7w0 location.location.contains m.0490srh | m.09c7w0 location.location.people_born_here m.0262ldg | m.09c7w0 location.location.contains m.02pq6s1 | m.09c7w0 location.location.contains m.0s58b | m.09c7w0 location.location.contains m.0490w74 | m.09c7w0 government.governmental_jurisdiction.governing_officials m.05mkcpp | m.09c7w0 location.location.contains m.0s9lz | m.09c7w0 location.country.administrative_divisions m.03v0t | m.09c7w0 government.governmental_jurisdiction.governing_officials m.05kfccr | m.09c7w0 location.location.contains m.02mv6p | m.09c7w0 government.governmental_jurisdiction.governing_officials m.09vq6p1 | m.09c7w0 location.location.contains m.0sb56 | m.018vs music.instrument.family m.01vj9c | m.09c7w0 location.location.contains m.04b4351 | m.06by7 music.genre.albums m.096y7s | m.09c7w0 location.location.contains m.0s5f5 | m.05r5c common.topic.notable_types m.0kpv25 | m.0gywn music.genre.albums m.06w2bnf | m.09c7w0 location.location.contains m.02pmgfs | m.09c7w0 location.location.contains m.02v_1j2 | m.02rxpxn music.artist.genre m.06by7 | m.09c7w0 government.governmental_jurisdiction.governing_officials m.05krm29 | m.09c7w0 location.location.contains m.0s4l_ | m.09c7w0 location.location.contains m.04dzzfl | m.09c7w0 location.location.contains m.0sj4l | m.09c7w0 location.location.contains m.076tsx_ | m.09c7w0 government.governmental_jurisdiction.governing_officials m.0cvj8yv | m.09c7w0 government.governmental_jurisdiction.governing_officials m.09g3g04 | m.09c7w0 location.location.contains m.02q9c2n | m.09c7w0 location.location.contains m.04ctk80 | m.09c7w0 book.book_subject.works m.04t31v_"
+        }
+    },
+    "WebQSP--train--2": {
+        "original dialog id": "",
+        "dialog index": 2,
+        "original dialog info": {
+            "id": "WebQTrn-116.P0",
+            "question": "what countries did queen victoria reign over?",
+            "answers": [
+                [
+                    "ns:m.07ssc",
+                    "United Kingdom"
+                ]
+            ],
+            "s_expression": "(JOIN (R government.government_position_held.jurisdiction_of_office) (JOIN (R government.politician.government_positions_held) m.0cw10))",
+            "kg_tuples": [
+                [
+                    "m.02vt04",
+                    "type.object.type",
+                    "\"education.university\""
+                ],
+                [
+                    "m.01xrzb",
+                    "travel.tourist_attraction.near_travel_destination",
+                    "m.04jpl"
+                ],
+                [
+                    "m.0g39h",
+                    "base.aareas.schema.administrative_area.capital",
+                    "m.01b8jj"
+                ],
+                [
+                    "m.047ksn4",
+                    "government.government_position_held.appointed_by",
+                    "m.0cw10"
+                ],
+                [
+                    "m.0bghvg1",
+                    "government.government_position_held.jurisdiction_of_office",
+                    "m.0jv32"
+                ],
+                [
+                    "m.047ksmv",
+                    "government.government_position_held.appointed_by",
+                    "m.0cw10"
+                ],
+                [
+                    "m.07kt7w",
+                    "location.location.containedby",
+                    "m.0d060g"
+                ],
+                [
+                    "m.0cm03",
+                    "people.deceased_person.place_of_death",
+                    "m.0198g"
+                ],
+                [
+                    "m.080yk",
+                    "location.location.containedby",
+                    "m.0h7h6"
+                ],
+                [
+                    "m.07ssc",
+                    "royalty.kingdom.rulers",
+                    "m.0cw10"
+                ],
+                [
+                    "m.0bghvfk",
+                    "government.government_position_held.jurisdiction_of_office",
+                    "m.0jv32"
+                ],
+                [
+                    "m.0b0vlw",
+                    "symbols.namesake.named_after",
+                    "m.0cw10"
+                ],
+                [
+                    "m.02kp9lp",
+                    "people.marriage.type_of_union",
+                    "m.04ztj"
+                ],
+                [
+                    "m.0dlbhd2",
+                    "government.government_position_held.appointed_by",
+                    "m.0cw10"
+                ],
+                [
+                    "m.07ssc",
+                    "location.location.contains",
+                    "m.01rwf6"
+                ],
+                [
+                    "m.0111f_sy",
+                    "government.government_position_held.jurisdiction_of_office",
+                    "m.07ssc"
+                ],
+                [
+                    "m.0bghvft",
+                    "government.government_position_held.from",
+                    "\"1839\""
+                ],
+                [
+                    "m.0cw10",
+                    "government.politician.government_positions_held",
+                    "m.0111f_sy"
+                ],
+                [
+                    "m.0fnx1",
+                    "travel.travel_destination.tourist_attractions",
+                    "m.03js8y"
+                ],
+                [
+                    "m.0dlbhb4",
+                    "government.government_position_held.appointed_by",
+                    "m.0cw10"
+                ],
+                [
+                    "m.07ssc",
+                    "location.location.contains",
+                    "m.0235n9"
+                ],
+                [
+                    "m.0p1tx",
+                    "common.topic.notable_types",
+                    "m.01y2hbz"
+                ],
+                [
+                    "m.027n4rz",
+                    "geography.mountain.mountain_range",
+                    "m.02bfpt"
+                ],
+                [
+                    "m.06b19",
+                    "education.educational_institution.colors",
+                    "m.01g5v"
+                ],
+                [
+                    "m.0dlbjtm",
+                    "government.government_position_held.appointed_by",
+                    "m.0cw10"
+                ],
+                [
+                    "m.07ypt",
+                    "location.location.contains",
+                    "m.0719fm"
+                ],
+                [
+                    "m.024_rh",
+                    "location.location.containedby",
+                    "m.0d060g"
+                ],
+                [
+                    "m.01njfs",
+                    "location.location.containedby",
+                    "m.0j0k"
+                ],
+                [
+                    "m.03cw5n8",
+                    "symbols.namesake.named_after",
+                    "m.0cw10"
+                ],
+                [
+                    "m.0dlbjv0",
+                    "government.government_position_held.appointed_by",
+                    "m.0cw10"
+                ],
+                [
+                    "m.0cmc2",
+                    "base.culturalevent.event.entity_involved",
+                    "m.01fmy9"
+                ],
+                [
+                    "m.02dktk",
+                    "location.location.containedby",
+                    "m.0h7h6"
+                ],
+                [
+                    "m.024hvp",
+                    "people.person.nationality",
+                    "m.0345h"
+                ],
+                [
+                    "m.01c50q",
+                    "symbols.name_source.namesakes",
+                    "m.05rh2"
+                ],
+                [
+                    "m.0dlbhg0",
+                    "government.government_position_held.appointed_by",
+                    "m.0cw10"
+                ],
+                [
+                    "m.0dlbh3d",
+                    "government.government_position_held.appointed_by",
+                    "m.0cw10"
+                ],
+                [
+                    "m.022zzp",
+                    "common.topic.notable_types",
+                    "m.01m9"
+                ],
+                [
+                    "m.0jmt7",
+                    "common.topic.notable_types",
+                    "m.01xs05r"
+                ],
+                [
+                    "m.0232xn",
+                    "common.topic.notable_types",
+                    "m.03yw861"
+                ],
+                [
+                    "m.0pmpl",
+                    "location.location.contains",
+                    "m.0cwc88j"
+                ],
+                [
+                    "m.0chgr2",
+                    "location.location.contains",
+                    "m.08mh4_"
+                ],
+                [
+                    "m.07ssc",
+                    "location.location.contains",
+                    "m.013vlv"
+                ],
+                [
+                    "m.014f5l",
+                    "location.location.contains",
+                    "m.06w16yc"
+                ],
+                [
+                    "m.0dlbhk3",
+                    "government.government_position_held.jurisdiction_of_office",
+                    "m.0bq0p9"
+                ],
+                [
+                    "m.05sfs",
+                    "religion.religion.founding_figures",
+                    "m.04yd_"
+                ],
+                [
+                    "m.0y5ms0r",
+                    "government.government_position_held.to",
+                    "\"1855\""
+                ],
+                [
+                    "m.0bq0p9",
+                    "government.governmental_jurisdiction.governing_officials",
+                    "m.0dlbjv0"
+                ],
+                [
+                    "m.01wp28",
+                    "location.location.people_born_here",
+                    "m.010lgn49"
+                ],
+                [
+                    "m.0cw10",
+                    "symbols.name_source.namesakes",
+                    "m.06b19"
+                ],
+                [
+                    "m.0j1x3",
+                    "location.location.containedby",
+                    "m.0d060g"
+                ]
+            ],
+            "entities": [
+                [
+                    "Queen Victoria",
+                    "m.0cw10"
+                ]
+            ]
+        },
+        "log": {
+            "turn id": 1,
+            "user utterance": "what countries did queen victoria reign over?",
+            "system response": "(JOIN (R government.government_position_held.jurisdiction_of_office) (JOIN (R government.politician.government_positions_held) m.0cw10))",
+            "dialog history": "",
+            "original user side information": {},
+            "original system side information": {},
+            "external knowledge": "Queen Victoria: m.0cw10 | m.02vt04 type.object.type \"education.university\" | m.01xrzb travel.tourist_attraction.near_travel_destination m.04jpl | m.0g39h base.aareas.schema.administrative_area.capital m.01b8jj | m.047ksn4 government.government_position_held.appointed_by m.0cw10 | m.0bghvg1 government.government_position_held.jurisdiction_of_office m.0jv32 | m.047ksmv government.government_position_held.appointed_by m.0cw10 | m.07kt7w location.location.containedby m.0d060g | m.0cm03 people.deceased_person.place_of_death m.0198g | m.080yk location.location.containedby m.0h7h6 | m.07ssc royalty.kingdom.rulers m.0cw10 | m.0bghvfk government.government_position_held.jurisdiction_of_office m.0jv32 | m.0b0vlw symbols.namesake.named_after m.0cw10 | m.02kp9lp people.marriage.type_of_union m.04ztj | m.0dlbhd2 government.government_position_held.appointed_by m.0cw10 | m.07ssc location.location.contains m.01rwf6 | m.0111f_sy government.government_position_held.jurisdiction_of_office m.07ssc | m.0bghvft government.government_position_held.from \"1839\" | m.0cw10 government.politician.government_positions_held m.0111f_sy | m.0fnx1 travel.travel_destination.tourist_attractions m.03js8y | m.0dlbhb4 government.government_position_held.appointed_by m.0cw10 | m.07ssc location.location.contains m.0235n9 | m.0p1tx common.topic.notable_types m.01y2hbz | m.027n4rz geography.mountain.mountain_range m.02bfpt | m.06b19 education.educational_institution.colors m.01g5v | m.0dlbjtm government.government_position_held.appointed_by m.0cw10 | m.07ypt location.location.contains m.0719fm | m.024_rh location.location.containedby m.0d060g | m.01njfs location.location.containedby m.0j0k | m.03cw5n8 symbols.namesake.named_after m.0cw10 | m.0dlbjv0 government.government_position_held.appointed_by m.0cw10 | m.0cmc2 base.culturalevent.event.entity_involved m.01fmy9 | m.02dktk location.location.containedby m.0h7h6 | m.024hvp people.person.nationality m.0345h | m.01c50q symbols.name_source.namesakes m.05rh2 | m.0dlbhg0 government.government_position_held.appointed_by m.0cw10 | m.0dlbh3d government.government_position_held.appointed_by m.0cw10 | m.022zzp common.topic.notable_types m.01m9 | m.0jmt7 common.topic.notable_types m.01xs05r | m.0232xn common.topic.notable_types m.03yw861 | m.0pmpl location.location.contains m.0cwc88j | m.0chgr2 location.location.contains m.08mh4_ | m.07ssc location.location.contains m.013vlv | m.014f5l location.location.contains m.06w16yc | m.0dlbhk3 government.government_position_held.jurisdiction_of_office m.0bq0p9 | m.05sfs religion.religion.founding_figures m.04yd_ | m.0y5ms0r government.government_position_held.to \"1855\" | m.0bq0p9 government.governmental_jurisdiction.governing_officials m.0dlbjv0 | m.01wp28 location.location.people_born_here m.010lgn49 | m.0cw10 symbols.name_source.namesakes m.06b19 | m.0j1x3 location.location.containedby m.0d060g"
+        }
+    },
+    "WebQSP--train--3": {
+        "original dialog id": "",
+        "dialog index": 3,
+        "original dialog info": {
+            "id": "WebQTrn-3343.P0",
+            "question": "what cities are included in maricopa county?",
+            "answers": [
+                [
+                    "ns:m.01z4l79",
+                    "Carefree"
+                ],
+                [
+                    "ns:m.01z50zj",
+                    "Fountain Hills"
+                ],
+                [
+                    "ns:m.01z54vh",
+                    "Goodyear"
+                ],
+                [
+                    "ns:m.01z5b2l",
+                    "Litchfield Park"
+                ],
+                [
+                    "ns:m.01z7g9n",
+                    "Queen Creek"
+                ],
+                [
+                    "ns:m.01z8362",
+                    "Surprise"
+                ],
+                [
+                    "ns:m.01z9g5l",
+                    "Youngtown"
+                ],
+                [
+                    "ns:m.02876z7",
+                    "Encanto"
+                ],
+                [
+                    "ns:m.028b5xq",
+                    "Waddell"
+                ],
+                [
+                    "ns:m.02pmjk0",
+                    "Morristown"
+                ],
+                [
+                    "ns:m.02pmjr6",
+                    "Palo Verde"
+                ],
+                [
+                    "ns:m.02pmjyr",
+                    "Liberty"
+                ],
+                [
+                    "ns:m.02q3dbc",
+                    "Wintersburg"
+                ],
+                [
+                    "ns:m.02qm9cc",
+                    "Camelback East"
+                ],
+                [
+                    "ns:m.02vmn86",
+                    "Komatke"
+                ],
+                [
+                    "ns:m.04139_9",
+                    "Central City"
+                ],
+                [
+                    "ns:m.04139y7",
+                    "Alhambra"
+                ],
+                [
+                    "ns:m.0413b2r",
+                    "Rio Vista"
+                ],
+                [
+                    "ns:m.0487__p",
+                    "Theba, Arizona"
+                ],
+                [
+                    "ns:m.0487_g2",
+                    "San Lucy Village"
+                ],
+                [
+                    "ns:m.0487_lb",
+                    "Santa Maria"
+                ],
+                [
+                    "ns:m.0487_mr",
+                    "Sentinel"
+                ],
+                [
+                    "ns:m.0487_sh",
+                    "Beardsley"
+                ],
+                [
+                    "ns:m.0487_th",
+                    "Sonora Town"
+                ],
+                [
+                    "ns:m.0487_y7",
+                    "Sundad"
+                ],
+                [
+                    "ns:m.0487_yw",
+                    "Sunnyslope, Arizona"
+                ],
+                [
+                    "ns:m.048805l",
+                    "Valencia"
+                ],
+                [
+                    "ns:m.04880bv",
+                    "Weedville"
+                ],
+                [
+                    "ns:m.04880d1",
+                    "White Tanks"
+                ],
+                [
+                    "ns:m.04880tw",
+                    "Dove Valley Ranch"
+                ],
+                [
+                    "ns:m.04880vc",
+                    "Lone Mountain Ranch"
+                ],
+                [
+                    "ns:m.04880vw",
+                    "Desert Wind"
+                ],
+                [
+                    "ns:m.04880wc",
+                    "Carefree Foothills"
+                ],
+                [
+                    "ns:m.04880ww",
+                    "Trovia"
+                ],
+                [
+                    "ns:m.04880xc",
+                    "Sincuidados"
+                ],
+                [
+                    "ns:m.04880xw",
+                    "Dixileta Verde"
+                ],
+                [
+                    "ns:m.04880yc",
+                    "McDowell Mountain Ranch"
+                ],
+                [
+                    "ns:m.04880yw",
+                    "DC Ranch"
+                ],
+                [
+                    "ns:m.04880zc",
+                    "Desert Highlands"
+                ],
+                [
+                    "ns:m.04880zw",
+                    "Troon Village"
+                ],
+                [
+                    "ns:m.048810f",
+                    "Bumstead, Arizona"
+                ],
+                [
+                    "ns:m.0488124",
+                    "Cactus"
+                ],
+                [
+                    "ns:m.048817f",
+                    "Agua Caliente, Arizona"
+                ],
+                [
+                    "ns:m.04881by",
+                    "Allah"
+                ],
+                [
+                    "ns:m.04881nh",
+                    "Big Horn"
+                ],
+                [
+                    "ns:m.04881w1",
+                    "Bosque"
+                ],
+                [
+                    "ns:m.04882_5",
+                    "Estrella Camp"
+                ],
+                [
+                    "ns:m.04882_p",
+                    "Falfa"
+                ],
+                [
+                    "ns:m.04882bw",
+                    "Chiulikam"
+                ],
+                [
+                    "ns:m.04882hp",
+                    "Conger"
+                ],
+                [
+                    "ns:m.04882l_",
+                    "Cotton Center"
+                ],
+                [
+                    "ns:m.04882pk",
+                    "Crag"
+                ],
+                [
+                    "ns:m.04882tl",
+                    "Dixie"
+                ],
+                [
+                    "ns:m.04882zp",
+                    "Estrella"
+                ],
+                [
+                    "ns:m.0488305",
+                    "Fennemore"
+                ],
+                [
+                    "ns:m.048832p",
+                    "Forepaugh"
+                ],
+                [
+                    "ns:m.0488355",
+                    "Freeman"
+                ],
+                [
+                    "ns:m.0488365",
+                    "Germann"
+                ],
+                [
+                    "ns:m.048837r",
+                    "Gillespie"
+                ],
+                [
+                    "ns:m.048838r",
+                    "Gladden"
+                ],
+                [
+                    "ns:m.0488397",
+                    "Goldbadge"
+                ],
+                [
+                    "ns:m.04883jr",
+                    "Hamilton Corner"
+                ],
+                [
+                    "ns:m.04883ls",
+                    "Hassayampa, Arizona"
+                ],
+                [
+                    "ns:m.04883p8",
+                    "Helena"
+                ],
+                [
+                    "ns:m.048846y",
+                    "Litchfield"
+                ],
+                [
+                    "ns:m.048847f",
+                    "Litchfield Junction"
+                ],
+                [
+                    "ns:m.048848f",
+                    "Lizard"
+                ],
+                [
+                    "ns:m.04884ff",
+                    "Matthie"
+                ],
+                [
+                    "ns:m.04884gy",
+                    "McMicken"
+                ],
+                [
+                    "ns:m.04884hf",
+                    "McQueen"
+                ],
+                [
+                    "ns:m.04884kf",
+                    "Midway"
+                ],
+                [
+                    "ns:m.04884lp",
+                    "Moivayi"
+                ],
+                [
+                    "ns:m.04884m5",
+                    "Montezuma"
+                ],
+                [
+                    "ns:m.04884ww",
+                    "Normal Junction"
+                ],
+                [
+                    "ns:m.0488530",
+                    "Papago"
+                ],
+                [
+                    "ns:m.048855j",
+                    "Peterson"
+                ],
+                [
+                    "ns:m.048857g",
+                    "Piedra"
+                ],
+                [
+                    "ns:m.04885c4",
+                    "Point of Rocks"
+                ],
+                [
+                    "ns:m.04885nh",
+                    "Rocky Point"
+                ],
+                [
+                    "ns:m.04885r1",
+                    "Saddle"
+                ],
+                [
+                    "ns:m.04885z5",
+                    "Serape"
+                ],
+                [
+                    "ns:m.04885zp",
+                    "Shawmut"
+                ],
+                [
+                    "ns:m.04886_4",
+                    "Webb"
+                ],
+                [
+                    "ns:m.0488635",
+                    "Smurr"
+                ],
+                [
+                    "ns:m.048866p",
+                    "Stanwix"
+                ],
+                [
+                    "ns:m.04886ft",
+                    "Tartron"
+                ],
+                [
+                    "ns:m.04886nj",
+                    "Totopitk"
+                ],
+                [
+                    "ns:m.04886p0",
+                    "Tovrea"
+                ],
+                [
+                    "ns:m.04886pj",
+                    "Tremaine"
+                ],
+                [
+                    "ns:m.04886zg",
+                    "Wayne"
+                ],
+                [
+                    "ns:m.04887_b",
+                    "Cambridge Heights"
+                ],
+                [
+                    "ns:m.04887_x",
+                    "Camel"
+                ],
+                [
+                    "ns:m.0488704",
+                    "West Chandler"
+                ],
+                [
+                    "ns:m.048870n",
+                    "West End"
+                ],
+                [
+                    "ns:m.0488783",
+                    "A and F Trailer Court"
+                ],
+                [
+                    "ns:m.048878m",
+                    "A and F Trailer Park"
+                ],
+                [
+                    "ns:m.0488794",
+                    "A-1 Trailer Park"
+                ],
+                [
+                    "ns:m.048879n",
+                    "Admiral Trailer Park"
+                ],
+                [
+                    "ns:m.04887b4",
+                    "Adobe Mountain Trailer Park"
+                ],
+                [
+                    "ns:m.04887c4",
+                    "Aire Libre Mobile Home Park"
+                ],
+                [
+                    "ns:m.04887cn",
+                    "Alma Gardens"
+                ],
+                [
+                    "ns:m.04887d9",
+                    "Alta Mira"
+                ],
+                [
+                    "ns:m.04887dt",
+                    "Ambassador Downs Mobile Home Park"
+                ],
+                [
+                    "ns:m.04887fd",
+                    "Amberwood"
+                ],
+                [
+                    "ns:m.04887fx",
+                    "Amberwood II"
+                ],
+                [
+                    "ns:m.04887gd",
+                    "Amberwood North"
+                ],
+                [
+                    "ns:m.04887gx",
+                    "Andalusia"
+                ],
+                [
+                    "ns:m.04887hd",
+                    "Apache West Mobile Village"
+                ],
+                [
+                    "ns:m.04887hx",
+                    "Apollo Mobile Home Park"
+                ],
+                [
+                    "ns:m.04887jd",
+                    "Aristocrat Trailer Park"
+                ],
+                [
+                    "ns:m.04887jx",
+                    "Arrowhead Ranch"
+                ],
+                [
+                    "ns:m.04887kd",
+                    "Autumn Ridge"
+                ],
+                [
+                    "ns:m.04887ky",
+                    "Basking Ridge"
+                ],
+                [
+                    "ns:m.04887l_",
+                    "Bethany Grand Mobile Home Park"
+                ],
+                [
+                    "ns:m.04887lg",
+                    "Belaire Manor"
+                ],
+                [
+                    "ns:m.04887m_",
+                    "Beverly Trailer Park"
+                ],
+                [
+                    "ns:m.04887mh",
+                    "Bethany Villa Adult Mobile Home Park"
+                ],
+                [
+                    "ns:m.04887np",
+                    "Big Palm Trailer Park"
+                ],
+                [
+                    "ns:m.04887p_",
+                    "Biltmore Gates"
+                ],
+                [
+                    "ns:m.04887pg",
+                    "Big Pine Mobile Home Park"
+                ],
+                [
+                    "ns:m.04887qh",
+                    "Blue Bell Mobile Home Park"
+                ],
+                [
+                    "ns:m.04887r1",
+                    "Bona Venture Mobile Home Park"
+                ],
+                [
+                    "ns:m.04887rk",
+                    "Bonds Trailer Park"
+                ],
+                [
+                    "ns:m.04887s1",
+                    "Braemar VII"
+                ],
+                [
+                    "ns:m.04887sk",
+                    "Brandywine"
+                ],
+                [
+                    "ns:m.04887t1",
+                    "Breckenridge Manor"
+                ],
+                [
+                    "ns:m.04887tk",
+                    "Brentwood Mobile Manor"
+                ],
+                [
+                    "ns:m.04887v1",
+                    "Bridgeport"
+                ],
+                [
+                    "ns:m.04887vk",
+                    "Brighton Place"
+                ],
+                [
+                    "ns:m.04887w1",
+                    "Bristol Square"
+                ],
+                [
+                    "ns:m.04887wk",
+                    "Broadway Trailer Court"
+                ],
+                [
+                    "ns:m.04887xb",
+                    "Bronze Boot"
+                ],
+                [
+                    "ns:m.04887xv",
+                    "Buenavante"
+                ],
+                [
+                    "ns:m.04887yb",
+                    "Burgundy Hill"
+                ],
+                [
+                    "ns:m.04887yv",
+                    "Byrds Mobile Park"
+                ],
+                [
+                    "ns:m.04887zb",
+                    "Cactus Gale V"
+                ],
+                [
+                    "ns:m.04887zv",
+                    "Cactus Villa"
+                ],
+                [
+                    "ns:m.04888_6",
+                    "Deer Creek"
+                ],
+                [
+                    "ns:m.04888_w",
+                    "Deer Valley"
+                ],
+                [
+                    "ns:m.048880d",
+                    "Camelback Estates IV"
+                ],
+                [
+                    "ns:m.048880x",
+                    "Camelback Trailer Ranch"
+                ],
+                [
+                    "ns:m.048881d",
+                    "Camelot Luxury Homes"
+                ],
+                [
+                    "ns:m.048881y",
+                    "Canyon Run"
+                ],
+                [
+                    "ns:m.048882g",
+                    "Canyon View"
+                ],
+                [
+                    "ns:m.048882z",
+                    "Canyon Village"
+                ],
+                [
+                    "ns:m.048883q",
+                    "Capri Village"
+                ],
+                [
+                    "ns:m.0488849",
+                    "Casa Linda"
+                ],
+                [
+                    "ns:m.048884t",
+                    "Casa Rica"
+                ],
+                [
+                    "ns:m.0488859",
+                    "Casa de Francisco Mobile Home Park"
+                ],
+                [
+                    "ns:m.0488861",
+                    "Casa del Sol Resorts"
+                ],
+                [
+                    "ns:m.048886k",
+                    "Casa del Sol Resorts Number One"
+                ],
+                [
+                    "ns:m.0488871",
+                    "Casas del Campo Mobile Home Park"
+                ],
+                [
+                    "ns:m.048887k",
+                    "Cedar Ridge"
+                ],
+                [
+                    "ns:m.0488881",
+                    "Central Ridge"
+                ],
+                [
+                    "ns:m.048888k",
+                    "Centura West"
+                ],
+                [
+                    "ns:m.0488891",
+                    "Chador Mobile Home Park"
+                ],
+                [
+                    "ns:m.048889n",
+                    "Chaparral"
+                ],
+                [
+                    "ns:m.04888b5",
+                    "Cheyenne Village"
+                ],
+                [
+                    "ns:m.04888bp",
+                    "Chimney Hill"
+                ],
+                [
+                    "ns:m.04888c5",
+                    "Chris-Town Travel Trailer and Mobile Home Park"
+                ],
+                [
+                    "ns:m.04888cz",
+                    "Cimarron"
+                ],
+                [
+                    "ns:m.04888dl",
+                    "Cinco Soles"
+                ],
+                [
+                    "ns:m.04888f2",
+                    "Citrus Grove Trailer Court"
+                ],
+                [
+                    "ns:m.04888fl",
+                    "Citrus Grove Trailer Park"
+                ],
+                [
+                    "ns:m.04888g2",
+                    "Citrus Hills"
+                ],
+                [
+                    "ns:m.04888gn",
+                    "Claremont Place"
+                ],
+                [
+                    "ns:m.04888h4",
+                    "Clearview Hills"
+                ],
+                [
+                    "ns:m.04888hn",
+                    "Cloverleaf"
+                ],
+                [
+                    "ns:m.04888jh",
+                    "Cobblestone Square"
+                ],
+                [
+                    "ns:m.04888k0",
+                    "College Park"
+                ],
+                [
+                    "ns:m.04888kj",
+                    "Colonial Coronita"
+                ],
+                [
+                    "ns:m.04888l0",
+                    "Colony South"
+                ],
+                [
+                    "ns:m.04888lj",
+                    "Contempo Tempe"
+                ],
+                [
+                    "ns:m.04888m0",
+                    "Continental Tempe"
+                ],
+                [
+                    "ns:m.04888n0",
+                    "Continental Village"
+                ],
+                [
+                    "ns:m.04888nj",
+                    "Copper Kettle Trailer Villa"
+                ],
+                [
+                    "ns:m.04888p0",
+                    "Corona Village"
+                ],
+                [
+                    "ns:m.04888pj",
+                    "Cottonwood Ranch"
+                ],
+                [
+                    "ns:m.04888q3",
+                    "Country Club Trailer Grove"
+                ],
+                [
+                    "ns:m.04888qm",
+                    "Country Club Village Mobile Home Park"
+                ],
+                [
+                    "ns:m.04888r_",
+                    "Country Greens at Villa de Paz"
+                ],
+                [
+                    "ns:m.04888rg",
+                    "Country Cousins Mobile Mecca"
+                ],
+                [
+                    "ns:m.04888sh",
+                    "Country Hills Mobile Estates"
+                ],
+                [
+                    "ns:m.04888t5",
+                    "Country Horizons"
+                ],
+                [
+                    "ns:m.04888tp",
+                    "Country Meadows"
+                ],
+                [
+                    "ns:m.04888v5",
+                    "Country Ridge"
+                ],
+                [
+                    "ns:m.04888vp",
+                    "Country Trace"
+                ],
+                [
+                    "ns:m.04888w6",
+                    "Country Villa"
+                ],
+                [
+                    "ns:m.04888x2",
+                    "Countryside Mobile Home Park"
+                ],
+                [
+                    "ns:m.04888xn",
+                    "Crestview"
+                ],
+                [
+                    "ns:m.04888y4",
+                    "Cypress Estates"
+                ],
+                [
+                    "ns:m.04888z5",
+                    "DeLuxe Trailer Court"
+                ],
+                [
+                    "ns:m.04889_0",
+                    "Heritage Terrace"
+                ],
+                [
+                    "ns:m.04889_j",
+                    "Hi View Mobile Home Park"
+                ],
+                [
+                    "ns:m.048890c",
+                    "Desert Bell Estates II"
+                ],
+                [
+                    "ns:m.048890w",
+                    "Desert Gem Mobile Home Park"
+                ],
+                [
+                    "ns:m.048891c",
+                    "Desert Pines"
+                ],
+                [
+                    "ns:m.0488926",
+                    "Desert Sage Mobile Manor"
+                ],
+                [
+                    "ns:m.048892q",
+                    "Desert Valley Estates"
+                ],
+                [
+                    "ns:m.0488937",
+                    "Desert Villas"
+                ],
+                [
+                    "ns:m.048893x",
+                    "Desert Wind II"
+                ],
+                [
+                    "ns:m.048894y",
+                    "Dobson Shores"
+                ],
+                [
+                    "ns:m.048895f",
+                    "Doubletree Canyon"
+                ],
+                [
+                    "ns:m.048896d",
+                    "Dunhill Meadows"
+                ],
+                [
+                    "ns:m.0488970",
+                    "Dunhill Place"
+                ],
+                [
+                    "ns:m.048897j",
+                    "Dusk File"
+                ],
+                [
+                    "ns:m.0488980",
+                    "Eighteen Bells Mobile Home Park"
+                ],
+                [
+                    "ns:m.048898j",
+                    "El Dorado Mobile Home Resort"
+                ],
+                [
+                    "ns:m.0488990",
+                    "El Mar Trailer Court"
+                ],
+                [
+                    "ns:m.04889b0",
+                    "El Paseo"
+                ],
+                [
+                    "ns:m.04889bj",
+                    "El San Juan Trailer Park"
+                ],
+                [
+                    "ns:m.04889c0",
+                    "El Sereno-La Rosa Trailer Inn"
+                ],
+                [
+                    "ns:m.04889cj",
+                    "Elmwood Trailer Park"
+                ],
+                [
+                    "ns:m.04889d0",
+                    "Ensenada del Oro"
+                ],
+                [
+                    "ns:m.04889dj",
+                    "Esplanada"
+                ],
+                [
+                    "ns:m.04889fj",
+                    "Estados de La Mancha II"
+                ],
+                [
+                    "ns:m.04889g0",
+                    "Estate Monterra"
+                ],
+                [
+                    "ns:m.04889gq",
+                    "Estates La Colina"
+                ],
+                [
+                    "ns:m.04889h6",
+                    "Estrella Estates Family Park"
+                ],
+                [
+                    "ns:m.04889hw",
+                    "Evergreen Villa Mobile Home Park"
+                ],
+                [
+                    "ns:m.04889jc",
+                    "Fairwood VIII"
+                ],
+                [
+                    "ns:m.04889kc",
+                    "Firebrand Ranch"
+                ],
+                [
+                    "ns:m.04889kw",
+                    "Flamingo Mobile Home Resort"
+                ],
+                [
+                    "ns:m.04889lc",
+                    "Fox Glen"
+                ],
+                [
+                    "ns:m.04889lx",
+                    "Fuller Ranch"
+                ],
+                [
+                    "ns:m.04889md",
+                    "Gainey Ranch"
+                ],
+                [
+                    "ns:m.04889my",
+                    "Glen Canyon Trailer Park"
+                ],
+                [
+                    "ns:m.04889ng",
+                    "Glenview Estates"
+                ],
+                [
+                    "ns:m.04889nz",
+                    "Golden West Estates"
+                ],
+                [
+                    "ns:m.04889pt",
+                    "Grandview Mobile Home Park"
+                ],
+                [
+                    "ns:m.04889q9",
+                    "Green Acres Trailer Court"
+                ],
+                [
+                    "ns:m.04889qt",
+                    "Green Tree Mobile Home Park"
+                ],
+                [
+                    "ns:m.04889r9",
+                    "Green Valley Trailer Park"
+                ],
+                [
+                    "ns:m.04889rt",
+                    "Greenbriar"
+                ],
+                [
+                    "ns:m.04889s9",
+                    "Greenbrier East"
+                ],
+                [
+                    "ns:m.04889t9",
+                    "Greenhaven Mobile Park"
+                ],
+                [
+                    "ns:m.04889tt",
+                    "Greentrails"
+                ],
+                [
+                    "ns:m.04889v9",
+                    "Greenway Park V"
+                ],
+                [
+                    "ns:m.04889vt",
+                    "Hacienda Solano Park"
+                ],
+                [
+                    "ns:m.04889wb",
+                    "Haciendas del Lago"
+                ],
+                [
+                    "ns:m.04889wv",
+                    "Happy Valley Ranch"
+                ],
+                [
+                    "ns:m.04889xc",
+                    "Harqua"
+                ],
+                [
+                    "ns:m.04889xy",
+                    "Heatherbrook"
+                ],
+                [
+                    "ns:m.04889y_",
+                    "Heritage Highlands"
+                ],
+                [
+                    "ns:m.04889yf",
+                    "Heritage Court"
+                ],
+                [
+                    "ns:m.04889zh",
+                    "Heritage North Ranch"
+                ],
+                [
+                    "ns:m.0488b_b",
+                    "Oakhurst"
+                ],
+                [
+                    "ns:m.0488b_v",
+                    "Olive West"
+                ],
+                [
+                    "ns:m.0488b00",
+                    "Hidden Acres Mobile Home Park"
+                ],
+                [
+                    "ns:m.0488b0k",
+                    "Highland Terrace Mobile Home Park"
+                ],
+                [
+                    "ns:m.0488b11",
+                    "Hohokam Village"
+                ],
+                [
+                    "ns:m.0488b1k",
+                    "Hoka Tiki Mobile Village"
+                ],
+                [
+                    "ns:m.0488b21",
+                    "Holiday Spa Mobile Home Park"
+                ],
+                [
+                    "ns:m.0488b2k",
+                    "Holiday Village Mobile Home Park"
+                ],
+                [
+                    "ns:m.0488b31",
+                    "Homestead"
+                ],
+                [
+                    "ns:m.0488b3k",
+                    "Horseshoe Mobile Home Park"
+                ],
+                [
+                    "ns:m.0488b42",
+                    "Hyde Park"
+                ],
+                [
+                    "ns:m.0488b4m",
+                    "Indian Springs"
+                ],
+                [
+                    "ns:m.0488b58",
+                    "Ironwood Terrace"
+                ],
+                [
+                    "ns:m.0488b5s",
+                    "J and M Trailer Park"
+                ],
+                [
+                    "ns:m.0488b68",
+                    "Karmella Mobile Home Park"
+                ],
+                [
+                    "ns:m.0488b6t",
+                    "Keats Crossing"
+                ],
+                [
+                    "ns:m.0488b7b",
+                    "Kensington"
+                ],
+                [
+                    "ns:m.0488b7w",
+                    "Kingsgate"
+                ],
+                [
+                    "ns:m.0488b8c",
+                    "Knoell East"
+                ],
+                [
+                    "ns:m.0488b8w",
+                    "Knoell Mesa"
+                ],
+                [
+                    "ns:m.0488b9c",
+                    "Kon Tiki Mobile Home Park"
+                ],
+                [
+                    "ns:m.0488b9w",
+                    "La Fontana Heights"
+                ],
+                [
+                    "ns:m.0488bbd",
+                    "La Montana del Sur"
+                ],
+                [
+                    "ns:m.0488bbx",
+                    "La Terraza"
+                ],
+                [
+                    "ns:m.0488bcd",
+                    "Lake Biltmore Estates"
+                ],
+                [
+                    "ns:m.0488bd5",
+                    "Las Villas"
+                ],
+                [
+                    "ns:m.0488bdp",
+                    "Lazona Trailer Court"
+                ],
+                [
+                    "ns:m.0488bf5",
+                    "Lazy D Trailer Ranch"
+                ],
+                [
+                    "ns:m.0488bfp",
+                    "Lazy Daze Mobile Home Park"
+                ],
+                [
+                    "ns:m.0488bg5",
+                    "Lazy J Trailer Lodge"
+                ],
+                [
+                    "ns:m.0488bgp",
+                    "Legante Paseo"
+                ],
+                [
+                    "ns:m.0488bh5",
+                    "Legend Estates"
+                ],
+                [
+                    "ns:m.0488bhp",
+                    "Leisure Time Mobile Park"
+                ],
+                [
+                    "ns:m.0488bj5",
+                    "Lexington Place"
+                ],
+                [
+                    "ns:m.0488bjp",
+                    "Liberty Village"
+                ],
+                [
+                    "ns:m.0488bk5",
+                    "Links Point"
+                ],
+                [
+                    "ns:m.0488bkp",
+                    "Longhaven West"
+                ],
+                [
+                    "ns:m.0488bl5",
+                    "Longhorn Ranch II"
+                ],
+                [
+                    "ns:m.0488blp",
+                    "Lookout Mountain"
+                ],
+                [
+                    "ns:m.0488bm5",
+                    "Los Maderas"
+                ],
+                [
+                    "ns:m.0488bmp",
+                    "Los Tesoros"
+                ],
+                [
+                    "ns:m.0488bn5",
+                    "Marlborough Meadows"
+                ],
+                [
+                    "ns:m.0488bnp",
+                    "Marlborough Mesa"
+                ],
+                [
+                    "ns:m.0488bp5",
+                    "Maryland West Mobile Home Park"
+                ],
+                [
+                    "ns:m.0488bpp",
+                    "Maryvale Terrace"
+                ],
+                [
+                    "ns:m.0488bq5",
+                    "Mayflower Terrace"
+                ],
+                [
+                    "ns:m.0488bqp",
+                    "McClintock Manor"
+                ],
+                [
+                    "ns:m.0488brp",
+                    "Meadowvale"
+                ],
+                [
+                    "ns:m.0488bs5",
+                    "Mesa Grande Trailer Ranch"
+                ],
+                [
+                    "ns:m.0488bss",
+                    "Midges Court"
+                ],
+                [
+                    "ns:m.0488bt8",
+                    "Minnesota Court"
+                ],
+                [
+                    "ns:m.0488bts",
+                    "Mirador"
+                ],
+                [
+                    "ns:m.0488bv8",
+                    "Mission Monterey"
+                ],
+                [
+                    "ns:m.0488bvs",
+                    "Montara"
+                ],
+                [
+                    "ns:m.0488bw8",
+                    "Montclair Terrace"
+                ],
+                [
+                    "ns:m.0488bws",
+                    "Montecito Mobile Home Estates"
+                ],
+                [
+                    "ns:m.0488bx9",
+                    "Moon Valley Canyon"
+                ],
+                [
+                    "ns:m.0488bxt",
+                    "Morado Encanto"
+                ],
+                [
+                    "ns:m.0488by9",
+                    "Mountain View Meadows"
+                ],
+                [
+                    "ns:m.0488byt",
+                    "Mountain View Mobile Home Park"
+                ],
+                [
+                    "ns:m.0488bz9",
+                    "Mountain Vista"
+                ],
+                [
+                    "ns:m.0488bzv",
+                    "New Horizons"
+                ],
+                [
+                    "ns:m.0488c_8",
+                    "Rancho de Arboleda"
+                ],
+                [
+                    "ns:m.0488c_s",
+                    "Rancho de Chandler"
+                ],
+                [
+                    "ns:m.0488c0b",
+                    "Cartwright"
+                ],
+                [
+                    "ns:m.0488c0v",
+                    "Orangetree"
+                ],
+                [
+                    "ns:m.0488c1b",
+                    "Orangetree Estates"
+                ],
+                [
+                    "ns:m.0488c20",
+                    "Orangewood Village Mobilehome Park"
+                ],
+                [
+                    "ns:m.0488c2k",
+                    "Overland Trail"
+                ],
+                [
+                    "ns:m.0488c31",
+                    "Palm Lakes Village"
+                ],
+                [
+                    "ns:m.0488c3k",
+                    "Palm Shadows Mobile Home Park"
+                ],
+                [
+                    "ns:m.0488c4_",
+                    "Palmas Royale"
+                ],
+                [
+                    "ns:m.0488c4h",
+                    "Palmaritas"
+                ],
+                [
+                    "ns:m.0488c5j",
+                    "Palms Trailer Park"
+                ],
+                [
+                    "ns:m.0488c6_",
+                    "Paradise City"
+                ],
+                [
+                    "ns:m.0488c6h",
+                    "Papago Peaks Village"
+                ],
+                [
+                    "ns:m.0488c7h",
+                    "Paradise Grove Family Park"
+                ],
+                [
+                    "ns:m.0488c80",
+                    "Paradise Grove Trailer Park"
+                ],
+                [
+                    "ns:m.0488c8l",
+                    "Paradise Palms Trailer Resorts"
+                ],
+                [
+                    "ns:m.0488c93",
+                    "Paradise Valley Miranda"
+                ],
+                [
+                    "ns:m.0488c9q",
+                    "Paradise Valley Oasis"
+                ],
+                [
+                    "ns:m.0488cb6",
+                    "Paradise Village North II"
+                ],
+                [
+                    "ns:m.0488cbr",
+                    "Parkside"
+                ],
+                [
+                    "ns:m.0488cc8",
+                    "Parkview Estates"
+                ],
+                [
+                    "ns:m.0488ccs",
+                    "Parkview Mesa"
+                ],
+                [
+                    "ns:m.0488cdh",
+                    "Parkview North"
+                ],
+                [
+                    "ns:m.0488cfl",
+                    "Parkview Village Mobile Home and Recreational Vehicle Park"
+                ],
+                [
+                    "ns:m.0488cg2",
+                    "Parkwood"
+                ],
+                [
+                    "ns:m.0488cgl",
+                    "Parque Vista Estates"
+                ],
+                [
+                    "ns:m.0488ch2",
+                    "Peacock Village"
+                ],
+                [
+                    "ns:m.0488chl",
+                    "Pensfield Place"
+                ],
+                [
+                    "ns:m.0488cj6",
+                    "Pepper Ridge"
+                ],
+                [
+                    "ns:m.0488cjq",
+                    "Pepper Tree Mobile Home Park"
+                ],
+                [
+                    "ns:m.0488ck6",
+                    "Pepperwood"
+                ],
+                [
+                    "ns:m.0488cks",
+                    "Pinnacle Paradise"
+                ],
+                [
+                    "ns:m.0488cl8",
+                    "Pinnacle Peak Estates I"
+                ],
+                [
+                    "ns:m.0488cls",
+                    "Pinnacle Peak Estates III"
+                ],
+                [
+                    "ns:m.0488cm8",
+                    "Pinnacle Peak Shadows"
+                ],
+                [
+                    "ns:m.0488cmw",
+                    "Pinnacle Peak Village"
+                ],
+                [
+                    "ns:m.0488cnc",
+                    "Pioneer Estates"
+                ],
+                [
+                    "ns:m.0488cnw",
+                    "Pioneer Village II"
+                ],
+                [
+                    "ns:m.0488cpd",
+                    "Pony Acres Mobile Home Park"
+                ],
+                [
+                    "ns:m.0488cpx",
+                    "Prado del Sol"
+                ],
+                [
+                    "ns:m.0488cql",
+                    "Preston Hills"
+                ],
+                [
+                    "ns:m.0488cr3",
+                    "Pueblo Sereno Mobile Home Park"
+                ],
+                [
+                    "ns:m.0488crm",
+                    "Purple Sage Mobile Home Park"
+                ],
+                [
+                    "ns:m.0488cs3",
+                    "Quail Country Place"
+                ],
+                [
+                    "ns:m.0488csm",
+                    "Quail Lane"
+                ],
+                [
+                    "ns:m.0488ct3",
+                    "Quail Place"
+                ],
+                [
+                    "ns:m.0488ctn",
+                    "Quail Valley"
+                ],
+                [
+                    "ns:m.0488cvn",
+                    "Raintree"
+                ],
+                [
+                    "ns:m.0488cw4",
+                    "Raintree Luxury Homes"
+                ],
+                [
+                    "ns:m.0488cwp",
+                    "Rambling Rons Mobile Home Park"
+                ],
+                [
+                    "ns:m.0488cx5",
+                    "Rancho Encanto"
+                ],
+                [
+                    "ns:m.0488cxp",
+                    "Rancho Hermoso"
+                ],
+                [
+                    "ns:m.0488cy5",
+                    "Rancho Mobile Estates"
+                ],
+                [
+                    "ns:m.0488cyp",
+                    "Rancho Rio Vista Mobile Home Park"
+                ],
+                [
+                    "ns:m.0488cz6",
+                    "Rancho San Carlos"
+                ],
+                [
+                    "ns:m.0488czr",
+                    "Rancho Santa Fe"
+                ],
+                [
+                    "ns:m.0488d__",
+                    "Suncrest Villas West"
+                ],
+                [
+                    "ns:m.0488d_h",
+                    "Suncrest Villas Mesa"
+                ],
+                [
+                    "ns:m.0488d08",
+                    "Redwood Gardens Mobile Home Park"
+                ],
+                [
+                    "ns:m.0488d0s",
+                    "Renaissance"
+                ],
+                [
+                    "ns:m.0488d18",
+                    "Reynolds Trailer Court"
+                ],
+                [
+                    "ns:m.0488d1s",
+                    "Ridgegate"
+                ],
+                [
+                    "ns:m.0488d2v",
+                    "Roadrunner Mobile Home Park"
+                ],
+                [
+                    "ns:m.0488d3b",
+                    "Roles Inn of America"
+                ],
+                [
+                    "ns:m.0488d3v",
+                    "Rollin W Mobile Home Ranch"
+                ],
+                [
+                    "ns:m.0488d4b",
+                    "Rose Garden Place"
+                ],
+                [
+                    "ns:m.0488d51",
+                    "Rose Garden Place III"
+                ],
+                [
+                    "ns:m.0488d5k",
+                    "Royal Estates West"
+                ],
+                [
+                    "ns:m.0488d61",
+                    "Royal Palm Travel Trailer and Mobile Home Park"
+                ],
+                [
+                    "ns:m.0488d6k",
+                    "Saddlehorn Ranch"
+                ],
+                [
+                    "ns:m.0488d71",
+                    "Sagewood"
+                ],
+                [
+                    "ns:m.0488d7k",
+                    "Saint Johns Mission"
+                ],
+                [
+                    "ns:m.0488d81",
+                    "San Carlos"
+                ],
+                [
+                    "ns:m.0488d8k",
+                    "San Gabriel"
+                ],
+                [
+                    "ns:m.0488d91",
+                    "San Miguel"
+                ],
+                [
+                    "ns:m.0488d9m",
+                    "San Tan Mobile Village"
+                ],
+                [
+                    "ns:m.0488db3",
+                    "Sandalwood"
+                ],
+                [
+                    "ns:m.0488dbm",
+                    "Sanokai Village"
+                ],
+                [
+                    "ns:m.0488dcd",
+                    "Santiago"
+                ],
+                [
+                    "ns:m.0488dcx",
+                    "Santo Tomas"
+                ],
+                [
+                    "ns:m.0488ddg",
+                    "Scottsdale Ranch"
+                ],
+                [
+                    "ns:m.0488ddz",
+                    "Scottsdale Trailer Corral"
+                ],
+                [
+                    "ns:m.0488dfg",
+                    "Shadow Canyon"
+                ],
+                [
+                    "ns:m.0488dfz",
+                    "Shadow Hills"
+                ],
+                [
+                    "ns:m.0488dg_",
+                    "Shadow Mountain Village Scottsdale"
+                ],
+                [
+                    "ns:m.0488dgh",
+                    "Shadow Mountain"
+                ],
+                [
+                    "ns:m.0488dhh",
+                    "Shadow Ridge II"
+                ],
+                [
+                    "ns:m.0488dj_",
+                    "Shamrock Mobile Home Park"
+                ],
+                [
+                    "ns:m.0488djh",
+                    "Shady Ranch Trailer Lodge"
+                ],
+                [
+                    "ns:m.0488dk_",
+                    "Shiloh Canyon"
+                ],
+                [
+                    "ns:m.0488dkh",
+                    "Sheffield Place"
+                ],
+                [
+                    "ns:m.0488dlv",
+                    "Silvergate II"
+                ],
+                [
+                    "ns:m.0488dmc",
+                    "Silvergate Trails"
+                ],
+                [
+                    "ns:m.0488dmw",
+                    "Singing Spur Mobile Park"
+                ],
+                [
+                    "ns:m.0488dng",
+                    "Skyline Heights"
+                ],
+                [
+                    "ns:m.0488dnz",
+                    "Sleepy Hollow Trailer Village"
+                ],
+                [
+                    "ns:m.0488dpn",
+                    "Southern Acres Mobile Home Park"
+                ],
+                [
+                    "ns:m.0488dq4",
+                    "Southern Palms Trailer Park"
+                ],
+                [
+                    "ns:m.0488dqn",
+                    "Squaw Peak Terrace"
+                ],
+                [
+                    "ns:m.0488dr4",
+                    "Stagecoach Trailer Park"
+                ],
+                [
+                    "ns:m.0488drv",
+                    "Starlite Trailer Park"
+                ],
+                [
+                    "ns:m.0488dsb",
+                    "Steeplechase"
+                ],
+                [
+                    "ns:m.0488dsv",
+                    "Stonegate Crossing"
+                ],
+                [
+                    "ns:m.0488dtp",
+                    "Stony Mountain Villas"
+                ],
+                [
+                    "ns:m.0488dv5",
+                    "Summer Place Trails"
+                ],
+                [
+                    "ns:m.0488dvp",
+                    "Summer Place Village"
+                ],
+                [
+                    "ns:m.0488dw5",
+                    "Summerplace Green"
+                ],
+                [
+                    "ns:m.0488dwq",
+                    "Sun Grove Mobile Home Park"
+                ],
+                [
+                    "ns:m.0488dx7",
+                    "Sun Tech"
+                ],
+                [
+                    "ns:m.0488dxv",
+                    "Sun Valley Mobile Home Park"
+                ],
+                [
+                    "ns:m.0488dyq",
+                    "Sunburst Homes"
+                ],
+                [
+                    "ns:m.0488dzn",
+                    "Suncrest Villas East"
+                ],
+                [
+                    "ns:m.0488f_5",
+                    "Villa Novena"
+                ],
+                [
+                    "ns:m.0488f_p",
+                    "Villa Vista"
+                ],
+                [
+                    "ns:m.0488f1m",
+                    "Sunny Slope Mobile Home Park"
+                ],
+                [
+                    "ns:m.0488f23",
+                    "Sunray Manor"
+                ],
+                [
+                    "ns:m.0488f2z",
+                    "Sunridge IV"
+                ],
+                [
+                    "ns:m.0488f3g",
+                    "Sunrise Terrace"
+                ],
+                [
+                    "ns:m.0488f41",
+                    "Sunscape Homes"
+                ],
+                [
+                    "ns:m.0488f4k",
+                    "Sunset Hills"
+                ],
+                [
+                    "ns:m.0488f51",
+                    "Sunset North"
+                ],
+                [
+                    "ns:m.0488f5k",
+                    "Sunset Village"
+                ],
+                [
+                    "ns:m.0488f62",
+                    "Sunset Vista"
+                ],
+                [
+                    "ns:m.0488f6t",
+                    "Sunshine Valley Mobile Home Park"
+                ],
+                [
+                    "ns:m.0488f7b",
+                    "Suntrails"
+                ],
+                [
+                    "ns:m.0488f7v",
+                    "Suntree"
+                ],
+                [
+                    "ns:m.0488f8b",
+                    "Sunview"
+                ],
+                [
+                    "ns:m.0488f8v",
+                    "Sweetwater Garden"
+                ],
+                [
+                    "ns:m.0488f9m",
+                    "Sweetwater Ranch"
+                ],
+                [
+                    "ns:m.0488fbk",
+                    "Taliverde"
+                ],
+                [
+                    "ns:m.0488fc1",
+                    "Tempe Cascade"
+                ],
+                [
+                    "ns:m.0488fck",
+                    "Tempe Royal Palms"
+                ],
+                [
+                    "ns:m.0488fd4",
+                    "The Citadel"
+                ],
+                [
+                    "ns:m.0488fdn",
+                    "The Covey"
+                ],
+                [
+                    "ns:m.0488ff4",
+                    "The Haciendas"
+                ],
+                [
+                    "ns:m.0488ffq",
+                    "The Home Place"
+                ],
+                [
+                    "ns:m.0488fgf",
+                    "The Lakes"
+                ],
+                [
+                    "ns:m.0488fgy",
+                    "The Landings"
+                ],
+                [
+                    "ns:m.0488fj8",
+                    "The Pointe"
+                ],
+                [
+                    "ns:m.0488fjt",
+                    "The Pointe at South Mountain"
+                ],
+                [
+                    "ns:m.0488fkb",
+                    "The Preserve"
+                ],
+                [
+                    "ns:m.0488fkv",
+                    "The Town Square"
+                ],
+                [
+                    "ns:m.0488fll",
+                    "The Trails III"
+                ],
+                [
+                    "ns:m.0488fm2",
+                    "The West Winds Trailer Court"
+                ],
+                [
+                    "ns:m.0488fn3",
+                    "Thomas Trailer Court"
+                ],
+                [
+                    "ns:m.0488fnm",
+                    "Three Fountains"
+                ],
+                [
+                    "ns:m.0488fp3",
+                    "Thunderbird Palms II"
+                ],
+                [
+                    "ns:m.0488fpm",
+                    "Thunderbird Valley Number Two"
+                ],
+                [
+                    "ns:m.0488fq4",
+                    "Tiburon"
+                ],
+                [
+                    "ns:m.0488fqn",
+                    "Tiki Tai Village"
+                ],
+                [
+                    "ns:m.0488fr7",
+                    "Trail Inn Lodge"
+                ],
+                [
+                    "ns:m.0488frr",
+                    "Trail-R-Dale Mobile Home Park"
+                ],
+                [
+                    "ns:m.0488fs7",
+                    "Trailer Corral"
+                ],
+                [
+                    "ns:m.0488fsr",
+                    "Triple T Mobilcity"
+                ],
+                [
+                    "ns:m.0488ft1",
+                    "Turf Mobile Manor"
+                ],
+                [
+                    "ns:m.0488fty",
+                    "Turf Trailer Lodge"
+                ],
+                [
+                    "ns:m.0488fvk",
+                    "Turtle Creek"
+                ],
+                [
+                    "ns:m.0488fw1",
+                    "Union Hills Manor"
+                ],
+                [
+                    "ns:m.0488fwk",
+                    "University Mobile Home Park"
+                ],
+                [
+                    "ns:m.0488fx1",
+                    "Val Vista Trailer Park"
+                ],
+                [
+                    "ns:m.0488fxp",
+                    "Valley Mobile Homes Estate"
+                ],
+                [
+                    "ns:m.0488fy5",
+                    "Valley View"
+                ],
+                [
+                    "ns:m.0488fyp",
+                    "Verde Real"
+                ],
+                [
+                    "ns:m.0488fz5",
+                    "Villa Monte Vista"
+                ],
+                [
+                    "ns:m.0488g05",
+                    "Village Fairways"
+                ],
+                [
+                    "ns:m.0488g0p",
+                    "Village Park"
+                ],
+                [
+                    "ns:m.0488g15",
+                    "Village of Gila Springs"
+                ],
+                [
+                    "ns:m.0488g1p",
+                    "Village on the Lakes"
+                ],
+                [
+                    "ns:m.0488g2f",
+                    "Villas Plaza"
+                ],
+                [
+                    "ns:m.0488g2y",
+                    "Vista Alegre"
+                ],
+                [
+                    "ns:m.0488g3f",
+                    "Vista del Cerro"
+                ],
+                [
+                    "ns:m.0488g3y",
+                    "Wabash Trailer Court"
+                ],
+                [
+                    "ns:m.0488g4f",
+                    "Wagon Wheel Mobile Ranch"
+                ],
+                [
+                    "ns:m.0488g4z",
+                    "Warner Park"
+                ],
+                [
+                    "ns:m.0488g5k",
+                    "Wellington Court"
+                ],
+                [
+                    "ns:m.0488g61",
+                    "West Mesa Trailer Court"
+                ],
+                [
+                    "ns:m.0488g6k",
+                    "Westbriar"
+                ],
+                [
+                    "ns:m.0488g71",
+                    "Westbrook Village"
+                ],
+                [
+                    "ns:m.0488g7k",
+                    "Westcliff Park"
+                ],
+                [
+                    "ns:m.0488g81",
+                    "Western Acres Mobile Home Park"
+                ],
+                [
+                    "ns:m.0488g8k",
+                    "Western Palms Mobile Home Community"
+                ],
+                [
+                    "ns:m.0488g91",
+                    "Westerra"
+                ],
+                [
+                    "ns:m.0488g9k",
+                    "Westgreen Estates"
+                ],
+                [
+                    "ns:m.0488gb1",
+                    "Westridge Park"
+                ],
+                [
+                    "ns:m.0488gbl",
+                    "Westwind"
+                ],
+                [
+                    "ns:m.0488gc2",
+                    "Wheel Inn Ranch"
+                ],
+                [
+                    "ns:m.0488gcl",
+                    "Wigwam Villa Mobile Home Park"
+                ],
+                [
+                    "ns:m.0488gcx",
+                    "Wild Flower"
+                ],
+                [
+                    "ns:m.0488gdd",
+                    "WillowBrook II"
+                ],
+                [
+                    "ns:m.0488gdx",
+                    "Willows West"
+                ],
+                [
+                    "ns:m.0488gfd",
+                    "Windemere"
+                ],
+                [
+                    "ns:m.0488gfx",
+                    "Windmill"
+                ],
+                [
+                    "ns:m.0488ggd",
+                    "Windsong"
+                ],
+                [
+                    "ns:m.0488ggx",
+                    "Windsor Square"
+                ],
+                [
+                    "ns:m.0488ghd",
+                    "Winnwood Homes"
+                ],
+                [
+                    "ns:m.0488ghx",
+                    "Wishing Well Trailer Park"
+                ],
+                [
+                    "ns:m.0488gjd",
+                    "Womack East"
+                ],
+                [
+                    "ns:m.0488gjx",
+                    "Wonder Rift"
+                ],
+                [
+                    "ns:m.0488gkd",
+                    "Woodbridge Crossing"
+                ],
+                [
+                    "ns:m.0488gl2",
+                    "Woodcreek"
+                ],
+                [
+                    "ns:m.0488gll",
+                    "Woodglen"
+                ],
+                [
+                    "ns:m.0488gm2",
+                    "Woodland Heights"
+                ],
+                [
+                    "ns:m.0488gml",
+                    "Woodleaf"
+                ],
+                [
+                    "ns:m.0488gn2",
+                    "Woodleaf II"
+                ],
+                [
+                    "ns:m.0488gnl",
+                    "Woodridge Lakes"
+                ],
+                [
+                    "ns:m.0488gp2",
+                    "Woodridge VI"
+                ],
+                [
+                    "ns:m.0488gpl",
+                    "Woodside"
+                ],
+                [
+                    "ns:m.0488gq2",
+                    "Young America Homes"
+                ],
+                [
+                    "ns:m.0488j94",
+                    "Ambrosia Mill"
+                ],
+                [
+                    "ns:m.0488jnc",
+                    "Buckhorn"
+                ],
+                [
+                    "ns:m.0488jr7",
+                    "Camp Creek"
+                ],
+                [
+                    "ns:m.0488jy0",
+                    "Chandler Heights, Arizona"
+                ],
+                [
+                    "ns:m.0488k_g",
+                    "Horse Mesa"
+                ],
+                [
+                    "ns:m.0488kr0",
+                    "Granite Reef Estates"
+                ],
+                [
+                    "ns:m.0488kv1",
+                    "Citrus Park"
+                ],
+                [
+                    "ns:m.0488kwx",
+                    "Harmony Villa"
+                ],
+                [
+                    "ns:m.0488l20",
+                    "Co-op Village"
+                ],
+                [
+                    "ns:m.0488m4v",
+                    "Reata Pass"
+                ],
+                [
+                    "ns:m.0488m6c",
+                    "Road Junction Windmill"
+                ],
+                [
+                    "ns:m.0488mmw",
+                    "Sunflower, Arizona"
+                ],
+                [
+                    "ns:m.0488mnw",
+                    "Sunshine Acres"
+                ],
+                [
+                    "ns:m.0488n27",
+                    "Wranglers Roost"
+                ],
+                [
+                    "ns:m.0488n3t",
+                    "Currys Corner"
+                ],
+                [
+                    "ns:m.0488n6g",
+                    "Apache Acres Trailer Park"
+                ],
+                [
+                    "ns:m.0488n6z",
+                    "Apache Wells"
+                ],
+                [
+                    "ns:m.0488n7m",
+                    "Arizona Acres Mobile Home Resort"
+                ],
+                [
+                    "ns:m.0488n8j",
+                    "Cherokee Mobile Village"
+                ],
+                [
+                    "ns:m.0488n90",
+                    "Citrus Gardens"
+                ],
+                [
+                    "ns:m.0488n9j",
+                    "Coral Sands Mobile Estates"
+                ],
+                [
+                    "ns:m.0488nb6",
+                    "Desert Vista Estates III"
+                ],
+                [
+                    "ns:m.0488nbq",
+                    "Dollbeer Mobile Home Ranch"
+                ],
+                [
+                    "ns:m.0488nc6",
+                    "Dreamland Villa"
+                ],
+                [
+                    "ns:m.0488ncq",
+                    "East Mesa"
+                ],
+                [
+                    "ns:m.0488nd6",
+                    "Fiesta Park"
+                ],
+                [
+                    "ns:m.0488ndq",
+                    "Fountain East"
+                ],
+                [
+                    "ns:m.0488nf6",
+                    "Fountain of the Sun"
+                ],
+                [
+                    "ns:m.0488nfq",
+                    "Greenfield Estates"
+                ],
+                [
+                    "ns:m.0488ng6",
+                    "Greenfield Park"
+                ],
+                [
+                    "ns:m.0488ngw",
+                    "Hacienda de Valencia"
+                ],
+                [
+                    "ns:m.0488nhc",
+                    "La Casa Trail Mobile Villa"
+                ],
+                [
+                    "ns:m.0488nhw",
+                    "Las Alegres"
+                ],
+                [
+                    "ns:m.0488njc",
+                    "Lemontree"
+                ],
+                [
+                    "ns:m.0488nk9",
+                    "New Hope Trailer Park"
+                ],
+                [
+                    "ns:m.0488nkt",
+                    "Pacific Mobile Manor"
+                ],
+                [
+                    "ns:m.0488nl9",
+                    "Palmas del Sol"
+                ],
+                [
+                    "ns:m.0488nlt",
+                    "Park Place Travel Resort"
+                ],
+                [
+                    "ns:m.0488nm9",
+                    "Pinnacle Peak Heights"
+                ],
+                [
+                    "ns:m.0488nmt",
+                    "Pinnacle Peak Heights IV"
+                ],
+                [
+                    "ns:m.0488nnr",
+                    "Royal Palm Village"
+                ],
+                [
+                    "ns:m.0488np7",
+                    "Silver Spur Ranch"
+                ],
+                [
+                    "ns:m.0488npr",
+                    "Silver Spur Village"
+                ],
+                [
+                    "ns:m.0488nqf",
+                    "Stewart Mountain Trailer Park"
+                ],
+                [
+                    "ns:m.0488nqy",
+                    "Summer Mesa"
+                ],
+                [
+                    "ns:m.0488nrf",
+                    "Sunny Acres Trailer Village"
+                ],
+                [
+                    "ns:m.0488nry",
+                    "Sunrise Village Mobile Home Park"
+                ],
+                [
+                    "ns:m.0488nsf",
+                    "Sunset Trail Ranch"
+                ],
+                [
+                    "ns:m.0488nsy",
+                    "Superstition Country Subdivision"
+                ],
+                [
+                    "ns:m.0488ntf",
+                    "Twin Knolls"
+                ],
+                [
+                    "ns:m.0488nty",
+                    "Velda Rose Estates"
+                ],
+                [
+                    "ns:m.0488nvf",
+                    "Velda Rose Gardens"
+                ],
+                [
+                    "ns:m.0488nvy",
+                    "Venture Out"
+                ],
+                [
+                    "ns:m.0488q_8",
+                    "Salt River"
+                ],
+                [
+                    "ns:m.0488qd1",
+                    "Tonto Hills Subdivision"
+                ],
+                [
+                    "ns:m.0488qgc",
+                    "Marlborough Park"
+                ],
+                [
+                    "ns:m.0488qw4",
+                    "Leisure World, Arizona"
+                ],
+                [
+                    "ns:m.0488qwv",
+                    "Mission Valley"
+                ],
+                [
+                    "ns:m.0488r2h",
+                    "Fowler"
+                ],
+                [
+                    "ns:m.0488r6b",
+                    "Gila Crossing, Arizona"
+                ],
+                [
+                    "ns:m.0488r7y",
+                    "Agua Fria"
+                ],
+                [
+                    "ns:m.0488rj6",
+                    "Hightown"
+                ],
+                [
+                    "ns:m.0488rn8",
+                    "Allenville"
+                ],
+                [
+                    "ns:m.0488rsx",
+                    "Kaka"
+                ],
+                [
+                    "ns:m.0488rxv",
+                    "Kyrene"
+                ],
+                [
+                    "ns:m.0488ry_",
+                    "LaLoma Ranch"
+                ],
+                [
+                    "ns:m.0488rzk",
+                    "Lehi, Mesa"
+                ],
+                [
+                    "ns:m.0488s0b",
+                    "Lone Butte Ranch"
+                ],
+                [
+                    "ns:m.0488s45",
+                    "Maricopa Village"
+                ],
+                [
+                    "ns:m.0488s9l",
+                    "Nortons Corner"
+                ],
+                [
+                    "ns:m.0488sbz",
+                    "Ocotillo"
+                ],
+                [
+                    "ns:m.0488sj1",
+                    "Perryville"
+                ],
+                [
+                    "ns:m.0488srv",
+                    "Pozo"
+                ],
+                [
+                    "ns:m.04mkpz",
+                    "Tonopah"
+                ],
+                [
+                    "ns:m.04vsr9",
+                    "Anthem"
+                ],
+                [
+                    "ns:m.051bms",
+                    "Sun City Grand"
+                ],
+                [
+                    "ns:m.054xqk",
+                    "Tortilla Flat"
+                ],
+                [
+                    "ns:m.05n_79h",
+                    "Deer Valley, Phoenix, Arizona"
+                ],
+                [
+                    "ns:m.05nzw2h",
+                    "North Mountain, Phoenix, Arizona"
+                ],
+                [
+                    "ns:m.05p29l7",
+                    "Desert View, Phoenix, Arizona"
+                ],
+                [
+                    "ns:m.05p816c",
+                    "South Mountain, Phoenix, Arizona"
+                ],
+                [
+                    "ns:m.05p9qsl",
+                    "North Gateway, Phoenix, Arizona"
+                ],
+                [
+                    "ns:m.05pb182",
+                    "Paradise Valley, Phoenix, Arizona"
+                ],
+                [
+                    "ns:m.05pcp7b",
+                    "Estrella, Phoenix, Arizona"
+                ],
+                [
+                    "ns:m.05q4128",
+                    "Maryvale Village"
+                ],
+                [
+                    "ns:m.083zy8",
+                    "Mobile"
+                ],
+                [
+                    "ns:m.092ry8",
+                    "Laveen"
+                ],
+                [
+                    "ns:m.098t2h",
+                    "McCormick Ranch"
+                ],
+                [
+                    "ns:m.0bmffll",
+                    "Marinette, Arizona"
+                ],
+                [
+                    "ns:m.0c7btt",
+                    "Wittmann"
+                ],
+                [
+                    "ns:m.0ch20dp",
+                    "Fort McDowell, Arizona"
+                ],
+                [
+                    "ns:m.0d35y",
+                    "Phoenix"
+                ],
+                [
+                    "ns:m.0dk8ky",
+                    "Aguila"
+                ],
+                [
+                    "ns:m.0dk8np",
+                    "Arlington"
+                ],
+                [
+                    "ns:m.0dk8pq",
+                    "Cashion"
+                ],
+                [
+                    "ns:m.0dk8r2",
+                    "Circle City"
+                ],
+                [
+                    "ns:m.0fyw2g",
+                    "Higley"
+                ],
+                [
+                    "ns:m.0qpgy",
+                    "Apache Junction"
+                ],
+                [
+                    "ns:m.0qph9",
+                    "Avondale"
+                ],
+                [
+                    "ns:m.0qphp",
+                    "Buckeye"
+                ],
+                [
+                    "ns:m.0qpjf",
+                    "Cave Creek"
+                ],
+                [
+                    "ns:m.0qpjt",
+                    "Chandler"
+                ],
+                [
+                    "ns:m.0qpk6",
+                    "El Mirage"
+                ],
+                [
+                    "ns:m.0qpkz",
+                    "Gila Bend"
+                ],
+                [
+                    "ns:m.0qpl9",
+                    "Gilbert"
+                ],
+                [
+                    "ns:m.0qplq",
+                    "Glendale"
+                ],
+                [
+                    "ns:m.0qpmk",
+                    "Guadalupe"
+                ],
+                [
+                    "ns:m.0qpn9",
+                    "Mesa"
+                ],
+                [
+                    "ns:m.0qpp3",
+                    "Paradise Valley"
+                ],
+                [
+                    "ns:m.0qpph",
+                    "Peoria"
+                ],
+                [
+                    "ns:m.0qpqn",
+                    "Scottsdale"
+                ],
+                [
+                    "ns:m.0qpsn",
+                    "Tempe"
+                ],
+                [
+                    "ns:m.0qpt1",
+                    "Tolleson"
+                ],
+                [
+                    "ns:m.0qptf",
+                    "Wickenburg"
+                ]
+            ],
+            "s_expression": "(AND (JOIN common.topic.notable_types m.01m9) (JOIN (R location.location.contains) m.0m27n))",
+            "kg_tuples": [
+                [
+                    "m.0m27n",
+                    "location.location.contains",
+                    "m.04881nh"
+                ],
+                [
+                    "m.0487_lb",
+                    "location.location.containedby",
+                    "m.0m27n"
+                ],
+                [
+                    "m.0488njc",
+                    "location.location.containedby",
+                    "m.0vmt"
+                ],
+                [
+                    "m.04888f2",
+                    "location.location.containedby",
+                    "m.0m27n"
+                ],
+                [
+                    "m.04884ff",
+                    "location.location.containedby",
+                    "m.0m27n"
+                ],
+                [
+                    "m.04889wv",
+                    "location.location.containedby",
+                    "m.0m27n"
+                ],
+                [
+                    "m.0488n90",
+                    "common.topic.notable_types",
+                    "m.01m9"
+                ],
+                [
+                    "m.0488b2k",
+                    "location.location.containedby",
+                    "m.0vmt"
+                ],
+                [
+                    "m.04889g0",
+                    "common.topic.notable_types",
+                    "m.01m9"
+                ],
+                [
+                    "m.0488nhc",
+                    "location.location.containedby",
+                    "m.0m27n"
+                ],
+                [
+                    "m.0488nrf",
+                    "common.topic.notable_types",
+                    "m.01m9"
+                ],
+                [
+                    "m.0m27n",
+                    "location.location.contains",
+                    "m.048891c"
+                ],
+                [
+                    "m.0488bss",
+                    "location.location.gnis_feature_id",
+                    "\"24950\""
+                ],
+                [
+                    "m.05p9qsl",
+                    "location.location.containedby",
+                    "m.0vmt"
+                ],
+                [
+                    "m.0m27n",
+                    "location.location.contains",
+                    "m.04887m_"
+                ],
+                [
+                    "m.04887cn",
+                    "common.topic.notable_types",
+                    "m.01m9"
+                ],
+                [
+                    "m.04887l_",
+                    "common.topic.notable_types",
+                    "m.01m9"
+                ],
+                [
+                    "m.04887_b",
+                    "common.topic.notable_types",
+                    "m.01m9"
+                ],
+                [
+                    "m.0488g7k",
+                    "location.location.containedby",
+                    "m.0vmt"
+                ],
+                [
+                    "m.04882bw",
+                    "location.location.containedby",
+                    "m.09c7w0"
+                ],
+                [
+                    "m.0488fsr",
+                    "common.topic.notable_types",
+                    "m.01m9"
+                ],
+                [
+                    "m.0488jnc",
+                    "location.location.containedby",
+                    "m.0m27n"
+                ],
+                [
+                    "m.0488nd6",
+                    "location.location.containedby",
+                    "m.0m27n"
+                ],
+                [
+                    "m.0qpgy",
+                    "location.location.containedby",
+                    "m.09c7w0"
+                ],
+                [
+                    "m.0488bp5",
+                    "common.topic.notable_types",
+                    "m.01m9"
+                ],
+                [
+                    "m.04887vk",
+                    "common.topic.notable_types",
+                    "m.01m9"
+                ],
+                [
+                    "m.0488dnz",
+                    "common.topic.notable_types",
+                    "m.01m9"
+                ],
+                [
+                    "m.02qm9cc",
+                    "location.location.containedby",
+                    "m.0d35y"
+                ],
+                [
+                    "m.0488b4m",
+                    "common.topic.notable_types",
+                    "m.01m9"
+                ],
+                [
+                    "m.0488d51",
+                    "location.location.containedby",
+                    "m.0m27n"
+                ],
+                [
+                    "m.0m27n",
+                    "location.location.contains",
+                    "m.0488gjx"
+                ],
+                [
+                    "m.0488fdn",
+                    "common.topic.notable_types",
+                    "m.01m9"
+                ],
+                [
+                    "m.05n_79h",
+                    "common.topic.notable_types",
+                    "m.01m9"
+                ],
+                [
+                    "m.0m27n",
+                    "location.location.contains",
+                    "m.0488g6k"
+                ],
+                [
+                    "m.0488dcx",
+                    "common.topic.notable_types",
+                    "m.01m9"
+                ],
+                [
+                    "m.0m27n",
+                    "location.location.contains",
+                    "m.04888jh"
+                ],
+                [
+                    "m.0d35y",
+                    "sports.sports_team_location.teams",
+                    "m.0x0d"
+                ],
+                [
+                    "m.0m27n",
+                    "location.location.contains",
+                    "m.0qpph"
+                ],
+                [
+                    "m.0488d9m",
+                    "common.topic.notable_types",
+                    "m.01m9"
+                ],
+                [
+                    "m.0488ghd",
+                    "location.location.containedby",
+                    "m.0vmt"
+                ],
+                [
+                    "m.0qpkz",
+                    "topic_server.population_number",
+                    "\"1922\""
+                ],
+                [
+                    "m.0m27n",
+                    "location.location.contains",
+                    "m.04889gq"
+                ],
+                [
+                    "m.0m27n",
+                    "location.location.contains",
+                    "m.0488dw5"
+                ],
+                [
+                    "m.0488nk9",
+                    "location.location.containedby",
+                    "m.0m27n"
+                ],
+                [
+                    "m.0m27n",
+                    "location.location.contains",
+                    "m.0488fsr"
+                ],
+                [
+                    "m.0qptf",
+                    "topic_server.population_number",
+                    "\"5939\""
+                ],
+                [
+                    "m.04889bj",
+                    "common.topic.notable_types",
+                    "m.01m9"
+                ],
+                [
+                    "m.0qpn9",
+                    "location.location.contains",
+                    "m.0qpqn"
+                ],
+                [
+                    "m.04880d1",
+                    "location.location.containedby",
+                    "m.09c7w0"
+                ],
+                [
+                    "m.0487_sh",
+                    "location.location.gnis_feature_id",
+                    "\"1154\""
+                ]
+            ],
+            "entities": [
+                [
+                    "Maricopa County",
+                    "m.0m27n"
+                ]
+            ]
+        },
+        "log": {
+            "turn id": 1,
+            "user utterance": "what cities are included in maricopa county?",
+            "system response": "(AND (JOIN common.topic.notable_types m.01m9) (JOIN (R location.location.contains) m.0m27n))",
+            "dialog history": "",
+            "original user side information": {},
+            "original system side information": {},
+            "external knowledge": "Maricopa County: m.0m27n | m.0m27n location.location.contains m.04881nh | m.0487_lb location.location.containedby m.0m27n | m.0488njc location.location.containedby m.0vmt | m.04888f2 location.location.containedby m.0m27n | m.04884ff location.location.containedby m.0m27n | m.04889wv location.location.containedby m.0m27n | m.0488n90 common.topic.notable_types m.01m9 | m.0488b2k location.location.containedby m.0vmt | m.04889g0 common.topic.notable_types m.01m9 | m.0488nhc location.location.containedby m.0m27n | m.0488nrf common.topic.notable_types m.01m9 | m.0m27n location.location.contains m.048891c | m.0488bss location.location.gnis_feature_id \"24950\" | m.05p9qsl location.location.containedby m.0vmt | m.0m27n location.location.contains m.04887m_ | m.04887cn common.topic.notable_types m.01m9 | m.04887l_ common.topic.notable_types m.01m9 | m.04887_b common.topic.notable_types m.01m9 | m.0488g7k location.location.containedby m.0vmt | m.04882bw location.location.containedby m.09c7w0 | m.0488fsr common.topic.notable_types m.01m9 | m.0488jnc location.location.containedby m.0m27n | m.0488nd6 location.location.containedby m.0m27n | m.0qpgy location.location.containedby m.09c7w0 | m.0488bp5 common.topic.notable_types m.01m9 | m.04887vk common.topic.notable_types m.01m9 | m.0488dnz common.topic.notable_types m.01m9 | m.02qm9cc location.location.containedby m.0d35y | m.0488b4m common.topic.notable_types m.01m9 | m.0488d51 location.location.containedby m.0m27n | m.0m27n location.location.contains m.0488gjx | m.0488fdn common.topic.notable_types m.01m9 | m.05n_79h common.topic.notable_types m.01m9 | m.0m27n location.location.contains m.0488g6k | m.0488dcx common.topic.notable_types m.01m9 | m.0m27n location.location.contains m.04888jh | m.0d35y sports.sports_team_location.teams m.0x0d | m.0m27n location.location.contains m.0qpph | m.0488d9m common.topic.notable_types m.01m9 | m.0488ghd location.location.containedby m.0vmt | m.0qpkz topic_server.population_number \"1922\" | m.0m27n location.location.contains m.04889gq | m.0m27n location.location.contains m.0488dw5 | m.0488nk9 location.location.containedby m.0m27n | m.0m27n location.location.contains m.0488fsr | m.0qptf topic_server.population_number \"5939\" | m.04889bj common.topic.notable_types m.01m9 | m.0qpn9 location.location.contains m.0qpqn | m.04880d1 location.location.containedby m.09c7w0 | m.0487_sh location.location.gnis_feature_id \"1154\""
+        }
+    },
+    "WebQSP--train--4": {
+        "original dialog id": "",
+        "dialog index": 4,
+        "original dialog info": {
+            "id": "WebQTrn-2509.P0",
+            "question": "where did robert hooke get his education?",
+            "answers": [
+                [
+                    "ns:m.01722w",
+                    "Westminster School"
+                ],
+                [
+                    "ns:m.07tgn",
+                    "University of Oxford"
+                ],
+                [
+                    "ns:m.0yls9",
+                    "Christ Church, Oxford"
+                ],
+                [
+                    "ns:m.0ymff",
+                    "Wadham College, Oxford"
+                ]
+            ],
+            "s_expression": "(JOIN (R education.education.institution) (JOIN (R people.person.education) m.0d6j4))",
+            "kg_tuples": [
+                [
+                    "m.0d6j4",
+                    "people.person.education",
+                    "m.04q1fkm"
+                ],
+                [
+                    "m.040gbq",
+                    "architecture.structure.opened",
+                    "\"1846\""
+                ],
+                [
+                    "m.08w10t",
+                    "tv.tv_character.appeared_in_tv_program",
+                    "m.0nfmdl9"
+                ],
+                [
+                    "m.0d2sc5",
+                    "people.person.gender",
+                    "m.05zppz"
+                ],
+                [
+                    "m.02wn0_t",
+                    "education.education.institution",
+                    "m.0yls9"
+                ],
+                [
+                    "m.0y47jzs",
+                    "people.person.place_of_birth",
+                    "m.0154gx"
+                ],
+                [
+                    "m.08dsz7",
+                    "fictional_universe.fictional_character.character_created_by",
+                    "m.079vf"
+                ],
+                [
+                    "m.03c_s1w",
+                    "people.person.gender",
+                    "m.05zppz"
+                ],
+                [
+                    "m.02ws5y4",
+                    "people.person.gender",
+                    "m.05zppz"
+                ],
+                [
+                    "m.02pvrd0",
+                    "people.person.nationality",
+                    "m.07ssc"
+                ],
+                [
+                    "m.0d6j4",
+                    "people.person.education",
+                    "m.02wn0_t"
+                ],
+                [
+                    "m.04q3r_h",
+                    "people.person.gender",
+                    "m.05zppz"
+                ],
+                [
+                    "m.02rjxm_",
+                    "people.person.nationality",
+                    "m.09c7w0"
+                ],
+                [
+                    "m.09_l4r",
+                    "people.person.place_of_birth",
+                    "m.04f_d"
+                ],
+                [
+                    "m.0261kmp",
+                    "people.person.nationality",
+                    "m.09c7w0"
+                ],
+                [
+                    "m.0dzy2v",
+                    "government.politician.government_positions_held",
+                    "m.05kh7ts"
+                ],
+                [
+                    "m.0ch2sg_",
+                    "sports.pro_athlete.teams",
+                    "m.0lr25pn"
+                ],
+                [
+                    "m.0fqnztc",
+                    "people.person.gender",
+                    "m.05zppz"
+                ],
+                [
+                    "m.0n1d6hr",
+                    "education.education.institution",
+                    "m.07tgn"
+                ],
+                [
+                    "m.0266lw0",
+                    "government.politician.government_positions_held",
+                    "m.0mvw1d9"
+                ],
+                [
+                    "m.03g9m8",
+                    "book.written_work.date_of_first_publication",
+                    "\"1854\""
+                ],
+                [
+                    "m.024p7j",
+                    "government.politician.government_positions_held",
+                    "m.05kl5rn"
+                ],
+                [
+                    "m.0d_3d1b",
+                    "book.written_work.author",
+                    "m.01lwx"
+                ],
+                [
+                    "m.096tz0",
+                    "people.deceased_person.place_of_death",
+                    "m.071vr"
+                ],
+                [
+                    "m.07cprm",
+                    "people.person.gender",
+                    "m.05zppz"
+                ],
+                [
+                    "m.010r2yzx",
+                    "people.person.place_of_birth",
+                    "m.0162v"
+                ],
+                [
+                    "m.0v8yr1x",
+                    "people.person.gender",
+                    "m.05zppz"
+                ],
+                [
+                    "m.043q0f2",
+                    "people.person.gender",
+                    "m.05zppz"
+                ],
+                [
+                    "m.03r6qf",
+                    "government.politician.government_positions_held",
+                    "m.04_30st"
+                ],
+                [
+                    "m.0gjsjz",
+                    "people.person.gender",
+                    "m.05zppz"
+                ],
+                [
+                    "m.043mxr",
+                    "travel.tourist_attraction.near_travel_destination",
+                    "m.04jpl"
+                ],
+                [
+                    "m.07vl4h",
+                    "people.person.place_of_birth",
+                    "m.05k7sb"
+                ],
+                [
+                    "m.07s5nz6",
+                    "people.deceased_person.date_of_death",
+                    "\"1979\""
+                ],
+                [
+                    "m.018mts",
+                    "government.politician.government_positions_held",
+                    "m.04j8y4v"
+                ],
+                [
+                    "m.03d5w05",
+                    "people.person.place_of_birth",
+                    "m.06mkj"
+                ],
+                [
+                    "m.0283v6h",
+                    "people.person.gender",
+                    "m.05zppz"
+                ],
+                [
+                    "m.04q1fkm",
+                    "education.education.institution",
+                    "m.01722w"
+                ],
+                [
+                    "m.076xsqc",
+                    "film.actor.film",
+                    "m.0pbw5rw"
+                ],
+                [
+                    "m.0h1bwvn",
+                    "people.person.place_of_birth",
+                    "m.06mkj"
+                ],
+                [
+                    "m.08t7kg",
+                    "people.person.profession",
+                    "m.0fj9f"
+                ],
+                [
+                    "m.03m73t1",
+                    "people.person.gender",
+                    "m.05zppz"
+                ],
+                [
+                    "m.052_2mk",
+                    "people.person.profession",
+                    "m.02h664g"
+                ],
+                [
+                    "m.07snmv",
+                    "people.person.gender",
+                    "m.05zppz"
+                ],
+                [
+                    "m.0d6j4",
+                    "people.person.education",
+                    "m.0n1d6hr"
+                ],
+                [
+                    "m.0n1mfj9",
+                    "education.education.institution",
+                    "m.0ymff"
+                ],
+                [
+                    "m.02rhm_l",
+                    "people.person.gender",
+                    "m.05zppz"
+                ],
+                [
+                    "m.0d6j4",
+                    "people.person.education",
+                    "m.0n1mfj9"
+                ],
+                [
+                    "m.0c4_3",
+                    "common.topic.notable_types",
+                    "m.02h77nv"
+                ],
+                [
+                    "m.07f6pb",
+                    "people.person.nationality",
+                    "m.09c7w0"
+                ],
+                [
+                    "m.052m1x",
+                    "people.person.gender",
+                    "m.05zppz"
+                ]
+            ],
+            "entities": [
+                [
+                    "Robert Hooke",
+                    "m.0d6j4"
+                ]
+            ]
+        },
+        "log": {
+            "turn id": 1,
+            "user utterance": "where did robert hooke get his education?",
+            "system response": "(JOIN (R education.education.institution) (JOIN (R people.person.education) m.0d6j4))",
+            "dialog history": "",
+            "original user side information": {},
+            "original system side information": {},
+            "external knowledge": "Robert Hooke: m.0d6j4 | m.0d6j4 people.person.education m.04q1fkm | m.040gbq architecture.structure.opened \"1846\" | m.08w10t tv.tv_character.appeared_in_tv_program m.0nfmdl9 | m.0d2sc5 people.person.gender m.05zppz | m.02wn0_t education.education.institution m.0yls9 | m.0y47jzs people.person.place_of_birth m.0154gx | m.08dsz7 fictional_universe.fictional_character.character_created_by m.079vf | m.03c_s1w people.person.gender m.05zppz | m.02ws5y4 people.person.gender m.05zppz | m.02pvrd0 people.person.nationality m.07ssc | m.0d6j4 people.person.education m.02wn0_t | m.04q3r_h people.person.gender m.05zppz | m.02rjxm_ people.person.nationality m.09c7w0 | m.09_l4r people.person.place_of_birth m.04f_d | m.0261kmp people.person.nationality m.09c7w0 | m.0dzy2v government.politician.government_positions_held m.05kh7ts | m.0ch2sg_ sports.pro_athlete.teams m.0lr25pn | m.0fqnztc people.person.gender m.05zppz | m.0n1d6hr education.education.institution m.07tgn | m.0266lw0 government.politician.government_positions_held m.0mvw1d9 | m.03g9m8 book.written_work.date_of_first_publication \"1854\" | m.024p7j government.politician.government_positions_held m.05kl5rn | m.0d_3d1b book.written_work.author m.01lwx | m.096tz0 people.deceased_person.place_of_death m.071vr | m.07cprm people.person.gender m.05zppz | m.010r2yzx people.person.place_of_birth m.0162v | m.0v8yr1x people.person.gender m.05zppz | m.043q0f2 people.person.gender m.05zppz | m.03r6qf government.politician.government_positions_held m.04_30st | m.0gjsjz people.person.gender m.05zppz | m.043mxr travel.tourist_attraction.near_travel_destination m.04jpl | m.07vl4h people.person.place_of_birth m.05k7sb | m.07s5nz6 people.deceased_person.date_of_death \"1979\" | m.018mts government.politician.government_positions_held m.04j8y4v | m.03d5w05 people.person.place_of_birth m.06mkj | m.0283v6h people.person.gender m.05zppz | m.04q1fkm education.education.institution m.01722w | m.076xsqc film.actor.film m.0pbw5rw | m.0h1bwvn people.person.place_of_birth m.06mkj | m.08t7kg people.person.profession m.0fj9f | m.03m73t1 people.person.gender m.05zppz | m.052_2mk people.person.profession m.02h664g | m.07snmv people.person.gender m.05zppz | m.0d6j4 people.person.education m.0n1d6hr | m.0n1mfj9 education.education.institution m.0ymff | m.02rhm_l people.person.gender m.05zppz | m.0d6j4 people.person.education m.0n1mfj9 | m.0c4_3 common.topic.notable_types m.02h77nv | m.07f6pb people.person.nationality m.09c7w0 | m.052m1x people.person.gender m.05zppz"
+        }
+    },
+    "WebQSP--train--5": {
+        "original dialog id": "",
+        "dialog index": 5,
+        "original dialog info": {
+            "id": "WebQTrn-1020.P0",
+            "question": "where is isthmus of panama located?",
+            "answers": [
+                [
+                    "ns:m.06n3y",
+                    "South America"
+                ]
+            ],
+            "s_expression": "(JOIN (R location.location.containedby) m.04zwft)",
+            "kg_tuples": [
+                [
+                    "m.06n3y",
+                    "location.location.contains",
+                    "m.06w99sr"
+                ],
+                [
+                    "m.06n3y",
+                    "location.location.contains",
+                    "m.0cn1d6"
+                ],
+                [
+                    "m.06n3y",
+                    "location.location.contains",
+                    "m.0c_ys"
+                ],
+                [
+                    "m.06n3y",
+                    "location.location.contains",
+                    "m.037l8t"
+                ],
+                [
+                    "m.06n3y",
+                    "location.location.contains",
+                    "m.0w_hmnw"
+                ],
+                [
+                    "m.06n3y",
+                    "location.location.contains",
+                    "m.0c4rq4"
+                ],
+                [
+                    "m.06n3y",
+                    "location.location.contains",
+                    "m.02t1x0"
+                ],
+                [
+                    "m.06n3y",
+                    "location.location.contains",
+                    "m.05w5vr"
+                ],
+                [
+                    "m.04zwft",
+                    "common.topic.notable_types",
+                    "m.01nt"
+                ],
+                [
+                    "m.06n3y",
+                    "location.location.contains",
+                    "m.09vgjp"
+                ],
+                [
+                    "m.06n3y",
+                    "location.location.contains",
+                    "m.0b2ft5"
+                ],
+                [
+                    "m.06n3y",
+                    "location.location.contains",
+                    "m.07twz"
+                ],
+                [
+                    "m.06n3y",
+                    "location.location.contains",
+                    "m.0cqy3y"
+                ],
+                [
+                    "m.04zwft",
+                    "location.location.containedby",
+                    "m.06n3y"
+                ],
+                [
+                    "m.06n3y",
+                    "location.location.contains",
+                    "m.02x1y_b"
+                ],
+                [
+                    "m.06n3y",
+                    "location.location.contains",
+                    "m.03t3qb"
+                ],
+                [
+                    "m.06n3y",
+                    "location.location.contains",
+                    "m.06w57th"
+                ],
+                [
+                    "m.06n3y",
+                    "location.location.contains",
+                    "m.06w9q8y"
+                ],
+                [
+                    "m.06n3y",
+                    "location.location.contains",
+                    "m.0cpbxws"
+                ],
+                [
+                    "m.06n3y",
+                    "location.location.contains",
+                    "m.07t1sw"
+                ],
+                [
+                    "m.06n3y",
+                    "location.location.contains",
+                    "m.01nr2h"
+                ],
+                [
+                    "m.06n3y",
+                    "location.location.contains",
+                    "m.06gldq"
+                ],
+                [
+                    "m.06n3y",
+                    "location.location.contains",
+                    "m.034m8"
+                ],
+                [
+                    "m.06n3y",
+                    "location.location.contains",
+                    "m.0dkz7x"
+                ],
+                [
+                    "m.06n3y",
+                    "location.location.contains",
+                    "m.0c7r4h"
+                ],
+                [
+                    "m.06n3y",
+                    "location.location.contains",
+                    "m.025vjdw"
+                ],
+                [
+                    "m.06n3y",
+                    "location.location.contains",
+                    "m.02qbjjz"
+                ],
+                [
+                    "m.06n3y",
+                    "location.location.contains",
+                    "m.0wq95z_"
+                ],
+                [
+                    "m.06n3y",
+                    "location.location.contains",
+                    "m.0sd7"
+                ],
+                [
+                    "m.06n3y",
+                    "location.location.contains",
+                    "m.06bf8s"
+                ],
+                [
+                    "m.06n3y",
+                    "location.location.contains",
+                    "m.027d7t4"
+                ],
+                [
+                    "m.06n3y",
+                    "location.location.contains",
+                    "m.0cn1vs"
+                ],
+                [
+                    "m.06n3y",
+                    "location.location.contains",
+                    "m.076ycbb"
+                ],
+                [
+                    "m.06n3y",
+                    "location.location.contains",
+                    "m.061b7x"
+                ],
+                [
+                    "m.06n3y",
+                    "location.location.contains",
+                    "m.0p2n"
+                ],
+                [
+                    "m.06n3y",
+                    "location.location.contains",
+                    "m.0w_j2g5"
+                ],
+                [
+                    "m.06n3y",
+                    "location.location.contains",
+                    "m.015fr"
+                ],
+                [
+                    "m.06n3y",
+                    "location.location.contains",
+                    "m.02xsr6"
+                ],
+                [
+                    "m.06n3y",
+                    "location.location.contains",
+                    "m.02z722h"
+                ],
+                [
+                    "m.06n3y",
+                    "location.location.contains",
+                    "m.06w3qq8"
+                ],
+                [
+                    "m.06n3y",
+                    "location.location.contains",
+                    "m.0cn1k1"
+                ],
+                [
+                    "m.06n3y",
+                    "location.location.contains",
+                    "m.02vrgz0"
+                ],
+                [
+                    "m.06n3y",
+                    "location.location.contains",
+                    "m.0g61h6"
+                ],
+                [
+                    "m.06n3y",
+                    "location.location.contains",
+                    "m.0w_j7px"
+                ],
+                [
+                    "m.06n3y",
+                    "location.location.contains",
+                    "m.05fzj6"
+                ],
+                [
+                    "m.06n3y",
+                    "location.location.contains",
+                    "m.026h5zg"
+                ],
+                [
+                    "m.06n3y",
+                    "location.location.contains",
+                    "m.0jgd"
+                ],
+                [
+                    "m.06n3y",
+                    "location.location.contains",
+                    "m.03qjmgc"
+                ],
+                [
+                    "m.06n3y",
+                    "location.location.contains",
+                    "m.01ls2"
+                ],
+                [
+                    "m.06n3y",
+                    "location.location.containedby",
+                    "m.07c5l"
+                ]
+            ],
+            "entities": [
+                [
+                    "Isthmus of Panama",
+                    "m.04zwft"
+                ]
+            ]
+        },
+        "log": {
+            "turn id": 1,
+            "user utterance": "where is isthmus of panama located?",
+            "system response": "(JOIN (R location.location.containedby) m.04zwft)",
+            "dialog history": "",
+            "original user side information": {},
+            "original system side information": {},
+            "external knowledge": "Isthmus of Panama: m.04zwft | m.06n3y location.location.contains m.06w99sr | m.06n3y location.location.contains m.0cn1d6 | m.06n3y location.location.contains m.0c_ys | m.06n3y location.location.contains m.037l8t | m.06n3y location.location.contains m.0w_hmnw | m.06n3y location.location.contains m.0c4rq4 | m.06n3y location.location.contains m.02t1x0 | m.06n3y location.location.contains m.05w5vr | m.04zwft common.topic.notable_types m.01nt | m.06n3y location.location.contains m.09vgjp | m.06n3y location.location.contains m.0b2ft5 | m.06n3y location.location.contains m.07twz | m.06n3y location.location.contains m.0cqy3y | m.04zwft location.location.containedby m.06n3y | m.06n3y location.location.contains m.02x1y_b | m.06n3y location.location.contains m.03t3qb | m.06n3y location.location.contains m.06w57th | m.06n3y location.location.contains m.06w9q8y | m.06n3y location.location.contains m.0cpbxws | m.06n3y location.location.contains m.07t1sw | m.06n3y location.location.contains m.01nr2h | m.06n3y location.location.contains m.06gldq | m.06n3y location.location.contains m.034m8 | m.06n3y location.location.contains m.0dkz7x | m.06n3y location.location.contains m.0c7r4h | m.06n3y location.location.contains m.025vjdw | m.06n3y location.location.contains m.02qbjjz | m.06n3y location.location.contains m.0wq95z_ | m.06n3y location.location.contains m.0sd7 | m.06n3y location.location.contains m.06bf8s | m.06n3y location.location.contains m.027d7t4 | m.06n3y location.location.contains m.0cn1vs | m.06n3y location.location.contains m.076ycbb | m.06n3y location.location.contains m.061b7x | m.06n3y location.location.contains m.0p2n | m.06n3y location.location.contains m.0w_j2g5 | m.06n3y location.location.contains m.015fr | m.06n3y location.location.contains m.02xsr6 | m.06n3y location.location.contains m.02z722h | m.06n3y location.location.contains m.06w3qq8 | m.06n3y location.location.contains m.0cn1k1 | m.06n3y location.location.contains m.02vrgz0 | m.06n3y location.location.contains m.0g61h6 | m.06n3y location.location.contains m.0w_j7px | m.06n3y location.location.contains m.05fzj6 | m.06n3y location.location.contains m.026h5zg | m.06n3y location.location.contains m.0jgd | m.06n3y location.location.contains m.03qjmgc | m.06n3y location.location.contains m.01ls2 | m.06n3y location.location.containedby m.07c5l"
+        }
+    }
+}

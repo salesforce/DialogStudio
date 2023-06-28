@@ -1,0 +1,637 @@
+[
+    {
+        "id": "00009b9649d0dd0a",
+        "question": "Who were the builders of the mosque in Herat with fire temples ?",
+        "table_id": "List_of_mosques_in_Afghanistan_0",
+        "table": {
+            "header": [
+                "Name",
+                "Province",
+                "City",
+                "Year",
+                "Remarks"
+            ],
+            "rows": [
+                [
+                    "Abdul Rahman Mosque",
+                    "Kabul Province",
+                    "Kabul",
+                    "2009",
+                    "Largest mosque in Afghanistan"
+                ],
+                [
+                    "Friday Mosque of Kandahar",
+                    "Kandahar Province",
+                    "Kandahar",
+                    "1750",
+                    "Houses the cloak of the Islamic prophet Muhammad"
+                ],
+                [
+                    "Omar Al-Farooq Mosque",
+                    "Kandahar Province",
+                    "Kandahar",
+                    "2014",
+                    "Built on the site that was a popular cinema of Kandahar . [ 1 ]"
+                ],
+                [
+                    "Great Mosque of Herat",
+                    "Herat Province",
+                    "Herat",
+                    "1446",
+                    "The mosque was the city 's first congregational mosque , built on the former site of two smaller Zoroastrian Fire temples destroyed by earthquake and fire"
+                ],
+                [
+                    "Shrine of Ali",
+                    "Balkh Province",
+                    "Mazar-i-Sharif",
+                    "?",
+                    "Also known as the Blue Mosque of Mazar-i-Sharif"
+                ],
+                [
+                    "Sakhi Shrine ( Ziarat-e Sakhi )",
+                    "Kabul Province",
+                    "Kabul",
+                    "?",
+                    "Also known as Karte Sakhi Shrine"
+                ],
+                [
+                    "Mosque of Jalalabad",
+                    "Nangarhar Province",
+                    "Jalalabad",
+                    "?",
+                    ""
+                ],
+                [
+                    "Lashkargah Mosque",
+                    "Helmand Province",
+                    "Lashkar Gah",
+                    "?",
+                    ""
+                ],
+                [
+                    "Khost Mosque",
+                    "Khost Province",
+                    "Khost",
+                    "2000",
+                    ""
+                ],
+                [
+                    "Amir Ali Shernway Mosque",
+                    "Jowzjan Province",
+                    "Sheberghan",
+                    "2017",
+                    "Built by Turkey [ 2 ]"
+                ]
+            ]
+        },
+        "passage": "passages: Kabul: Located at crossroads in Asia - roughly halfway between Istanbul in the west and Hanoi in the east - it is in a strategic location along the trade routes of South and Central Asia , and a key location of the ancient Silk Road . It has been part of the Achaemenids followed by the Seleucids , Mauryans , Kushans , Kabul Shahis , Saffarids , Samanids , Ghaznavids , Ghurids , Khwarazmians , Qarlughids , Khaljis , Timurids , Mughals , and Hotaks , until finally becoming part of the Durrani Empire ( also known as the Afghan Empire ) in 1747 . | Great Mosque of Herat: The Great Mosque of Herat ( Persian : \u0645\u0633\u062c\u062f \u062c\u0627\u0645\u0639 \u0647\u0631\u0627\u062a , Masjid-i J\u0101mi-i Her\u0101t ) or Jami Masjid of Herat , is a mosque in the city of Herat , in the Herat Province of north-western Afghanistan . It was built by the Ghurids , under the rule of the Sultan Ghiyath al-Din Muhammad Ghori , who laid its foundation in 1200 CE , and later extended by several rulers as Herat changed rulers down the centuries from the Timurids to the Safavids , Mughals and then the Uzbeks , all of whom supported the mosque . | Mazar-i-Sharif: [ citation needed ] This is however rejected by other Muslims , as the majority believe he is buried in Najaf , Iraq . The region around Mazar-i-Sharif has been historically part of Greater Khorasan and was controlled by the Tahirids followed by the Saffarids , Samanids , Ghaznavids , Ghurids , Ilkhanates , Timurids , and Khanate of Bukhara until the mid-18th century when it became part of the Durrani Empire after a friendship treaty was signed between emirs Murad Beg and Ahmad Shah Durrani . | ",
+        "context": "List of mosques in Afghanistan |  |  | The following is an incomplete list of large mosques in Afghanistan:",
+        "answer_text": "Ghurids",
+        "struct_in": "col : name | province | city | year | remarks row 1 : abdul rahman mosque | kabul province | kabul | 2009 | largest mosque in afghanistan row 2 : friday mosque of kandahar | kandahar province | kandahar | 1750 | houses the cloak of the islamic prophet muhammad row 3 : omar al-farooq mosque | kandahar province | kandahar | 2014 | built on the site that was a popular cinema of kandahar . [ 1 ] row 4 : great mosque of herat | herat province | herat | 1446 | the mosque was the city 's first congregational mosque , built on the former site of two smaller zoroastrian fire temple row 5 : shrine of ali | balkh province | mazar-i-sharif | ? | also known as the blue mosque of mazar-i-sharif row 6 : sakhi shrine ( ziarat-e sakhi ) | kabul province | kabul | ? | also known as karte sakhi shrine row 7 : mosque of jalalabad | nangarhar province | jalalabad | ? |  row 8 : lashkargah mosque | helmand province | lashkar gah | ? |  row 9 : khost mosque | khost province | khost | 2000 |  row 10 : amir ali shernway mosque | jowzjan province | sheberghan | 2017 | built by turkey [ 2 ]passages: kabul: located at crossroads in asia - roughly halfway between istanbul in the west and hanoi in the east - it is in a strategic location along the trade routes of south and central asia , and a key location of the ancient silk road . it has been part of the achaemenids followed by the seleucids , mauryans , kushans , kabul shahis , saffarids , samanids , ghaznavids , ghurids , khwarazmians , qarlughids , khaljis , timurids , mughals , and hotaks , until finally becoming part of the durrani empire ( also known as the afghan empire ) in 1747 . | great mosque of herat: the great mosque of herat ( persian : \u0645\u0633\u062c\u062f \u062c\u0627\u0645\u0639 \u0647\u0631\u0627\u062a , masjid-i j\u0101mi-i her\u0101t ) or jami masjid of herat , is a mosque in the city of herat , in the herat province of north-western afghanistan . it was built by the ghurids , under the rule of the sultan ghiyath al-din muhammad ghori , who laid its foundation in 1200 ce , and later extended by several rulers as herat changed rulers down the centuries from the timurids to the safavids , mughals and then the uzbeks , all of whom supported the mosque . | mazar-i-sharif: [ citation needed ] this is however rejected by other muslims , as the majority believe he is buried in najaf , iraq . the region around mazar-i-sharif has been historically part of greater khorasan and was controlled by the tahirids followed by the saffarids , samanids , ghaznavids , ghurids , ilkhanates , timurids , and khanate of bukhara until the mid-18th century when it became part of the durrani empire after a friendship treaty was signed between emirs murad beg and ahmad shah durrani . | ",
+        "text_in": "who were the builders of the mosque in herat with fire temples ?",
+        "seq_out": "ghurids"
+    },
+    {
+        "id": "00013190d4370f73",
+        "question": "After what season did the number 7 competitor retire ?",
+        "table_id": "1999_Kyalami_Superbike_World_Championship_round_0",
+        "table": {
+            "header": [
+                "No",
+                "Rider",
+                "Team",
+                "Motorcycle"
+            ],
+            "rows": [
+                [
+                    "1",
+                    "Carl Fogarty",
+                    "Ducati Performance",
+                    "Ducati 996"
+                ],
+                [
+                    "4",
+                    "Akira Yanagawa",
+                    "Kawasaki Racing Team",
+                    "Kawasaki ZX-7RR"
+                ],
+                [
+                    "5",
+                    "Colin Edwards",
+                    "Castrol Honda",
+                    "Honda RC45"
+                ],
+                [
+                    "6",
+                    "Gregorio Lavilla",
+                    "Kawasaki Racing Team",
+                    "Kawasaki ZX-7RR"
+                ],
+                [
+                    "7",
+                    "Pierfrancesco Chili",
+                    "Suzuki Alstare F.S",
+                    "Suzuki GSX-R750"
+                ],
+                [
+                    "9",
+                    "Peter Goddard",
+                    "Aprilia Rac.De Cecco",
+                    "Aprilia RSV1000"
+                ],
+                [
+                    "11",
+                    "Troy Corser",
+                    "Ducati Performance",
+                    "Ducati 996"
+                ],
+                [
+                    "15",
+                    "Igor Jerman",
+                    "Kawasaki Bertocchi",
+                    "Kawasaki ZX-7RR"
+                ],
+                [
+                    "16",
+                    "Andreas Meklau",
+                    "Remus Racing Austria",
+                    "Ducati 996"
+                ],
+                [
+                    "18",
+                    "Carlos Macias",
+                    "Capill France Racing",
+                    "Ducati 916"
+                ],
+                [
+                    "19",
+                    "Lucio Pedercini",
+                    "Team Pedercini",
+                    "Ducati 916"
+                ],
+                [
+                    "20",
+                    "Doriano Romboni",
+                    "R & D Racing Team",
+                    "Ducati 996"
+                ],
+                [
+                    "21",
+                    "Katsuaki Fujiwara",
+                    "Suzuki Alstare F.S",
+                    "Suzuki GSX-R750"
+                ],
+                [
+                    "22",
+                    "Vittoriano Guareschi",
+                    "Yamaha WSBK Team",
+                    "Yamaha R7"
+                ],
+                [
+                    "23",
+                    "Ji\u0159\u00ed Mrk\u00fdvka",
+                    "JM SBK Team",
+                    "Ducati 916"
+                ],
+                [
+                    "24",
+                    "Vladim\u00edr Karban",
+                    "Karban Racing Team",
+                    "Suzuki GSX-R750"
+                ],
+                [
+                    "26",
+                    "Jean-Pierre Jeandat",
+                    "White Endurance",
+                    "Honda RC45"
+                ],
+                [
+                    "33",
+                    "Robert Ulm",
+                    "Kawasaki Bertocchi",
+                    "Kawasaki ZX-7RR"
+                ],
+                [
+                    "38",
+                    "Lance Isaacs",
+                    "Team Ducati NCR",
+                    "Ducati 996"
+                ],
+                [
+                    "39",
+                    "Alessandro Gramigni",
+                    "Team Valli Moto",
+                    "Yamaha R7"
+                ]
+            ]
+        },
+        "passage": "passages: Pierfrancesco Chili: In World Superbike he had a record number of starts , as well as 10 poles and 17 wins . He retired at the end of the 2006 season . | ",
+        "context": "1999 Kyalami Superbike World Championship round | Superbike -- Entry list |  | The 1999 Kyalami Superbike World Championship round was the opening round of the 1999 Superbike World Championship season and the 1999 Supersport World Championship season. It took place on the weekend of 26-28 March 1999 at the 4.26km Kyalami Circuit in South Africa. The round was marred by the death of Brett MacLeod after a crash in the Supersport race.",
+        "answer_text": "2006",
+        "struct_in": "col : no | rider | team | motorcycle row 1 : 1 | carl fogarty | ducati performance | ducati 996 row 2 : 4 | akira yanagawa | kawasaki racing team | kawasaki zx-7rr row 3 : 5 | colin edwards | castrol honda | honda rc45 row 4 : 6 | gregorio lavilla | kawasaki racing team | kawasaki zx-7rr row 5 : 7 | pierfrancesco chili | suzuki alstare f.s | suzuki gsx-r750 row 6 : 9 | peter goddard | aprilia rac.de cecco | aprilia rsv1000 row 7 : 11 | troy corser | ducati performance | ducati 996 row 8 : 15 | igor jerman | kawasaki bertocchi | kawasaki zx-7rr row 9 : 16 | andreas meklau | remus racing austria | ducati 996 row 10 : 18 | carlos macias | capill france racing | ducati 916 row 11 : 19 | lucio pedercini | team pedercini | ducati 916 row 12 : 20 | doriano romboni | r & d racing team | ducati 996 row 13 : 21 | katsuaki fujiwara | suzuki alstare f.s | suzuki gsx-r750 row 14 : 22 | vittoriano guareschi | yamaha wsbk team | yamaha r7 row 15 : 23 | ji\u0159\u00ed mrk\u00fdvka | jm sbk team | ducati 916 row 16 : 24 | vladim\u00edr karban | karban racing team | suzuki gsx-r750 row 17 : 26 | jean-pierre jeandat | white endurance | honda rc45 row 18 : 33 | robert ulm | kawasaki bertocchi | kawasaki zx-7rr row 19 : 38 | lance isaacs | team ducati ncr | ducati 996 row 20 : 39 | alessandro gramigni | team valli moto | yamaha r7passages: pierfrancesco chili: in world superbike he had a record number of starts , as well as 10 poles and 17 wins . he retired at the end of the 2006 season . | ",
+        "text_in": "after what season did the number 7 competitor retire ?",
+        "seq_out": "2006"
+    },
+    {
+        "id": "00023988273478d0",
+        "question": "What year was the 1971-72 ECAC Hockey Player of the Year born ?",
+        "table_id": "List_of_ECAC_Hockey_Player_of_the_Year_0",
+        "table": {
+            "header": [
+                "Year",
+                "Winner",
+                "Position",
+                "School"
+            ],
+            "rows": [
+                [
+                    "1961-62",
+                    "Ron Ryan",
+                    "Right wing",
+                    "Colby"
+                ],
+                [
+                    "1962-63",
+                    "Bob Brinkworth",
+                    "Center",
+                    "Rensselaer"
+                ],
+                [
+                    "1963-64",
+                    "Bob Brinkworth",
+                    "Center",
+                    "Rensselaer"
+                ],
+                [
+                    "1964-65",
+                    "John Cunniff",
+                    "Left wing",
+                    "Boston College"
+                ],
+                [
+                    "1965-66",
+                    "Terry Yurkiewicz",
+                    "Goaltender",
+                    "Clarkson"
+                ],
+                [
+                    "1966-67",
+                    "Doug Ferguson",
+                    "Center",
+                    "Cornell"
+                ],
+                [
+                    "1967-68",
+                    "Wayne Small",
+                    "Forward",
+                    "Brown"
+                ],
+                [
+                    "1968-69",
+                    "Ken Dryden",
+                    "Goaltender",
+                    "Cornell"
+                ],
+                [
+                    "1969-70",
+                    "Tim Sheehy",
+                    "Center",
+                    "Boston College"
+                ],
+                [
+                    "1970-71",
+                    "Bruce Bullock",
+                    "Goaltender",
+                    "Clarkson"
+                ],
+                [
+                    "1971-72",
+                    "Bob Brown",
+                    "Defenceman",
+                    "Boston University"
+                ],
+                [
+                    "1972-73",
+                    "Tom Mellor",
+                    "Defenceman",
+                    "Boston College"
+                ],
+                [
+                    "1973-74",
+                    "Randy Roth",
+                    "Forward",
+                    "Harvard"
+                ],
+                [
+                    "1974-75",
+                    "Ron Wilson",
+                    "Defenceman",
+                    "Providence"
+                ],
+                [
+                    "1975-76",
+                    "Peter Brown",
+                    "Defenceman",
+                    "Boston University"
+                ],
+                [
+                    "1976-77",
+                    "Dave Taylor",
+                    "Right wing",
+                    "Clarkson"
+                ],
+                [
+                    "1977-78",
+                    "Lance Nethery",
+                    "Center",
+                    "Cornell"
+                ],
+                [
+                    "1978-79",
+                    "Ralph Cox",
+                    "Center",
+                    "New Hampshire"
+                ],
+                [
+                    "1979-80",
+                    "Craig Homola",
+                    "Center",
+                    "Vermont"
+                ],
+                [
+                    "1980-81",
+                    "Ed Small",
+                    "Defenceman",
+                    "Clarkson"
+                ]
+            ]
+        },
+        "passage": "passages: Bob Brown (ice hockey): Robert Bob Brown ( born December 18 , 1950 ) is a Canadian former professional ice hockey player who played in the World Hockey Association ( WHA ) . | Tom Mellor:  | ",
+        "context": "List of ECAC Hockey Player of the Year |  |  | The ECAC Hockey Player of the Year is an annual award given out at the conclusion of the ECAC Hockey regular season to the best player in the conference as voted by the coaches of each ECAC team. The Player of the Year was first awarded in 1962 and every year thereafter. Four players (Bob Brinkworth, Scott Fusco, Chase Polacek and Jimmy Vesey) have received the award two separate times, each doing so in consecutive years. The award has been split twice in its history, 2002-03 and 2013-14.",
+        "answer_text": "1950",
+        "struct_in": "col : year | winner | position | school row 1 : 1961-62 | ron ryan | right wing | colby row 2 : 1962-63 | bob brinkworth | center | rensselaer row 3 : 1963-64 | bob brinkworth | center | rensselaer row 4 : 1964-65 | john cunniff | left wing | boston college row 5 : 1965-66 | terry yurkiewicz | goaltender | clarkson row 6 : 1966-67 | doug ferguson | center | cornell row 7 : 1967-68 | wayne small | forward | brown row 8 : 1968-69 | ken dryden | goaltender | cornell row 9 : 1969-70 | tim sheehy | center | boston college row 10 : 1970-71 | bruce bullock | goaltender | clarkson row 11 : 1971-72 | bob brown | defenceman | boston university row 12 : 1972-73 | tom mellor | defenceman | boston college row 13 : 1973-74 | randy roth | forward | harvard row 14 : 1974-75 | ron wilson | defenceman | providence row 15 : 1975-76 | peter brown | defenceman | boston university row 16 : 1976-77 | dave taylor | right wing | clarkson row 17 : 1977-78 | lance nethery | center | cornell row 18 : 1978-79 | ralph cox | center | new hampshire row 19 : 1979-80 | craig homola | center | vermont row 20 : 1980-81 | ed small | defenceman | clarksonpassages: bob brown (ice hockey): robert bob brown ( born december 18 , 1950 ) is a canadian former professional ice hockey player who played in the world hockey association ( wha ) . | tom mellor:  | ",
+        "text_in": "what year was the 1971-72 ecac hockey player of the year born ?",
+        "seq_out": "1950"
+    },
+    {
+        "id": "000356071ebf888a",
+        "question": "What battle did the man born on 7 December 1839 fight in ?",
+        "table_id": "List_of_Zulu_War_Victoria_Cross_recipients_0",
+        "table": {
+            "header": [
+                "Name",
+                "Unit",
+                "Date of action",
+                "Place of action"
+            ],
+            "rows": [
+                [
+                    "William Allan",
+                    "024 24th Regiment of Foot",
+                    "1879-02-22 22-23 January 1879",
+                    "Battle of Rorke 's Drift , Natal Colony"
+                ],
+                [
+                    "William Beresford",
+                    "009 9th Lancers",
+                    "1879-07-03 3 July 1879",
+                    "White Umfolozi River ( near Ulundi ) , Zululand"
+                ],
+                [
+                    "Anthony Booth",
+                    "080 80th Regiment of Foot",
+                    "1879-03-12 12 March 1879",
+                    "Battle of Intombe , Transvaal"
+                ],
+                [
+                    "Gonville Bromhead",
+                    "024 24th Regiment of Foot",
+                    "1879-02-22 22-23 January 1879",
+                    "Battle of Rorke 's Drift , Natal Colony"
+                ],
+                [
+                    "Edward Browne",
+                    "024 24th Regiment of Foot",
+                    "1879-03-28 28 March 1879",
+                    "Battle of Kambula , Zululand"
+                ],
+                [
+                    "Redvers Buller",
+                    "060 60th Rifles",
+                    "1879-03-28 28 March 1879",
+                    "Battle of Hlobane , Zululand"
+                ],
+                [
+                    "John Chard",
+                    "Royal Engineers",
+                    "1879-02-22 22-23 January 1879",
+                    "Battle of Rorke 's Drift , Natal Colony"
+                ],
+                [
+                    "Nevill Coghill",
+                    "024 24th Regiment of Foot",
+                    "1879-01-22 22 January 1879*",
+                    "Battle of Isandlwana , Zululand"
+                ],
+                [
+                    "James Dalton",
+                    "Commissariat Department Commissariat and Transport Department",
+                    "1879-02-22 22-23 January 1879",
+                    "Battle of Rorke 's Drift , Natal Colony"
+                ],
+                [
+                    "Henry D'Arcy",
+                    "Frontier Light Horse",
+                    "1879-07-03 3 July 1879",
+                    "White Umfolozi River ( near Ulundi ) , Zululand"
+                ],
+                [
+                    "Edmund Fowler",
+                    "026 90th Regiment of Foot",
+                    "1879-03-28 28 March 1879",
+                    "Battle of Hlobane , Zululand"
+                ],
+                [
+                    "Frederick Hitch",
+                    "024 24th Regiment of Foot",
+                    "1879-02-22 22-23 January 1879",
+                    "Battle of Rorke 's Drift , Natal Colony"
+                ],
+                [
+                    "Alfred Hook",
+                    "024 24th Regiment of Foot",
+                    "1879-02-22 22-23 January 1879",
+                    "Battle of Rorke 's Drift , Natal Colony"
+                ],
+                [
+                    "Robert Jones",
+                    "024 24th Regiment of Foot",
+                    "1879-02-22 22-23 January 1879",
+                    "Battle of Rorke 's Drift , Natal Colony"
+                ],
+                [
+                    "William Jones",
+                    "024 24th Regiment of Foot",
+                    "1879-02-22 22-23 January 1879",
+                    "Battle of Rorke 's Drift , Natal Colony"
+                ],
+                [
+                    "William Leet",
+                    "013 13th Regiment of Foot",
+                    "1879-03-28 28 March 1879",
+                    "Battle of Hlobane , Zululand"
+                ],
+                [
+                    "Henry Lysons",
+                    "026 90th Regiment of Foot",
+                    "1879-03-28 28 March 1879",
+                    "Battle of Hlobane , Zululand"
+                ],
+                [
+                    "Teignmouth Melvill",
+                    "024 24th Regiment of Foot",
+                    "1879-01-22 22 January 1879*",
+                    "Battle of Isandlwana , Zululand"
+                ],
+                [
+                    "Edmund O'Toole",
+                    "Frontier Light Horse",
+                    "1879-07-03 3 July 1879",
+                    "White Umfolozi River ( near Ulundi ) , Zululand"
+                ],
+                [
+                    "James Reynolds",
+                    "Army Medical Department Army Medical Department",
+                    "1879-02-22 22-23 January 1879",
+                    "Battle of Rorke 's Drift , Natal Colony"
+                ]
+            ]
+        },
+        "passage": "passages: Battle of Kambula: The Battle of Kambula took place on 29 March 1879 , during the Anglo-Zulu War , when a Zulu Army attacked the British camp at Kambula , having routed the mounted element of the British force at the Battle of Hlobane the day before . | William Knox Leet: Leet was 45 years old , and a Major in the 1st Bn. | ",
+        "context": "List of Zulu War Victoria Cross recipients | Recipients |  | The Victoria Cross (VC) was awarded to 23 members of the British Armed Forces and colonial forces for actions performed during the Anglo-Zulu War of 1879. The Victoria Cross is a military decoration awarded for valour in the face of the enemy to members of the armed forces of some Commonwealth countries and previous British Empire territories. The VC was introduced in Great Britain on 29 January 1856 by Queen Victoria to reward acts of valour during the Crimean War, and takes precedence over all other orders, decorations and medals. It may be awarded to a person of any rank in any service and to civilians under military command. The first ceremony was held on 26 June 1857, when Queen Victoria invested 62 of the 111 Crimean recipients in Hyde Park. The Anglo-Zulu War (also known as the Zulu War) was fought in 1879 between the British Empire and the Zulu Kingdom (Zululand; part of modern KwaZulu-Natal, South Africa). Although British and colonial forces under General Lord Chelmsford entered Zululand unopposed, on 11 January 1879, the Zulu army soon inflicted a heavy defeat on them at the Battle of Isandlwana, in which more than 1,300 British and colonial forces were killed. Immediately after the battle, Zulu troops moved onto the small garrison at Rorke's Drift. Here, just over 150 British and colonial soldiers defended the outpost against 4,000 Zulu warriors. The action was later made famous by the film Zulu. The defence of Rorke's Drift is considered by historians as a masterly defensive action and an example of heroism against overwhelming numbers. Eleven VC recipients received their awards for deeds performed during the defence of the small garrison - one of the largest number awarded for a single action, and the largest number (7) awarded to a single unit (the 2nd/24th Foot) for a single action.",
+        "answer_text": "Battle of Hlobane",
+        "struct_in": "col : name | unit | date of action | place of action row 1 : william beresford | 009 9th lancers | 1879-07-03 3 july 1879 | white umfolozi river ( near ulundi ) , zululand row 2 : anthony booth | 080 80th regiment of foot | 1879-03-12 12 march 1879 | battle of intombe , transvaal row 3 : edward browne | 024 24th regiment of foot | 1879-03-28 28 march 1879 | battle of kambula , zululand row 4 : john chard | royal engineers | 1879-02-22 22-23 january 1879 | battle of rorke 's drift , natal colony row 5 : james dalton | commissariat department commissariat and transport department | 1879-02-22 22-23 january 1879 | battle of rorke 's drift , natal colony row 6 : henry d'arcy | frontier light horse | 1879-07-03 3 july 1879 | white umfolozi river ( near ulundi ) , zululand row 7 : frederick hitch | 024 24th regiment of foot | 1879-02-22 22-23 january 1879 | battle of rorke 's drift , natal colony row 8 : alfred hook | 024 24th regiment of foot | 1879-02-22 22-23 january 1879 | battle of rorke 's drift , natal colony row 9 : robert jones | 024 24th regiment of foot | 1879-02-22 22-23 january 1879 | battle of rorke 's drift , natal colony row 10 : teignmouth melvill | 024 24th regiment of foot | 1879-01-22 22 january 1879* | battle of isandlwana , zululandpassages: battle of kambula: the battle of kambula took place on 29 march 1879 , during the anglo-zulu war , when a zulu army attacked the british camp at kambula , having routed the mounted element of the british force at the battle of hlobane the day before . | william knox leet: leet was 45 years old , and a major in the 1st bn. | ",
+        "text_in": "what battle did the man born on 7 december 1839 fight in ?",
+        "seq_out": "battle of hlobane"
+    },
+    {
+        "id": "0003d159df86ed53",
+        "question": "What is the borough in which Kia Oval is located ?",
+        "table_id": "List_of_sports_venues_with_sole_naming_rights_36",
+        "table": {
+            "header": [
+                "Name",
+                "Location",
+                "Type"
+            ],
+            "rows": [
+                [
+                    "Allianz Park",
+                    "Hendon , London",
+                    "Rugby union and athletics stadium"
+                ],
+                [
+                    "Kia Oval",
+                    "Kennington",
+                    "Cricket stadium"
+                ],
+                [
+                    "Banks 's Stadium",
+                    "Walsall",
+                    "Football stadium"
+                ],
+                [
+                    "American Express Community Stadium",
+                    "Falmer",
+                    "Football stadium"
+                ],
+                [
+                    "The Balfour Webnet Darlington Arena",
+                    "Darlington",
+                    "Football stadium"
+                ],
+                [
+                    "Bargain Booze Stadium",
+                    "Northwich",
+                    "Football stadium"
+                ],
+                [
+                    "Coral Windows Stadium",
+                    "Bradford",
+                    "Football stadium"
+                ],
+                [
+                    "Bright Finance Stadium",
+                    "Sheffield",
+                    "Football stadium"
+                ],
+                [
+                    "Bet 365 Stadium",
+                    "Stoke-on-Trent",
+                    "Football stadium"
+                ],
+                [
+                    "EBB Stadium",
+                    "Aldershot",
+                    "Football stadium"
+                ],
+                [
+                    "The Cherry Red Records Stadium",
+                    "Kingston upon Thames",
+                    "Football stadium"
+                ],
+                [
+                    "DW Stadium",
+                    "Wigan",
+                    "Football and rugby league stadium"
+                ],
+                [
+                    "Echo Arena Liverpool",
+                    "Liverpool",
+                    "Multi-purpose indoor arena"
+                ],
+                [
+                    "Emirates Riverside",
+                    "Chester-le-Street , County Durham",
+                    "Cricket stadium"
+                ],
+                [
+                    "Emirates Old Trafford",
+                    "Manchester",
+                    "Cricket stadium"
+                ],
+                [
+                    "Emirates Stadium",
+                    "Holloway , London",
+                    "Football stadium"
+                ],
+                [
+                    "Etihad Stadium",
+                    "Manchester",
+                    "Football Stadium"
+                ],
+                [
+                    "Exacta Stadium",
+                    "Chester",
+                    "Football stadium"
+                ],
+                [
+                    "Galpharm Stadium",
+                    "Huddersfield",
+                    "Football and rugby league stadium"
+                ],
+                [
+                    "Genting Arena",
+                    "Birmingham",
+                    "Multi-purpose indoor arena"
+                ]
+            ]
+        },
+        "passage": "passages: The Oval: The Oval , known for sponsorship reasons as the Kia Oval , is an international cricket ground in Kennington , in the London Borough of Lambeth , in south London . | Kennington: It is located 1.4 miles ( 2.3 km ) south of Charing Cross in Inner London and is identified as a local centre in the London Plan . It was a royal manor in the parish of St Mary , Lambeth in the county of Surrey and was the administrative centre of the parish from 1853 . | ",
+        "context": "List of sponsored sports venues | Present naming rights -- United Kingdom | Each outdoor stadium is listed by the sports or football codes that primarily use it . `` Football '' here refers to association football . Many stadiums are occasionally used to host matches in codes other than their primary ones . | The following is a list of sports venues with sole naming rights:",
+        "answer_text": "Lambeth",
+        "struct_in": "col : name | location | type row 1 : allianz park | hendon , london | rugby union and athletics stadium row 2 : kia oval | kennington | cricket stadium row 3 : banks 's stadium | walsall | football stadium row 4 : american express community stadium | falmer | football stadium row 5 : the balfour webnet darlington arena | darlington | football stadium row 6 : bargain booze stadium | northwich | football stadium row 7 : coral windows stadium | bradford | football stadium row 8 : bright finance stadium | sheffield | football stadium row 9 : bet 365 stadium | stoke-on-trent | football stadium row 10 : ebb stadium | aldershot | football stadium row 11 : the cherry red records stadium | kingston upon thames | football stadium row 12 : dw stadium | wigan | football and rugby league stadium row 13 : echo arena liverpool | liverpool | multi-purpose indoor arena row 14 : emirates riverside | chester-le-street , county durham | cricket stadium row 15 : emirates old trafford | manchester | cricket stadium row 16 : emirates stadium | holloway , london | football stadium row 17 : etihad stadium | manchester | football stadium row 18 : exacta stadium | chester | football stadium row 19 : galpharm stadium | huddersfield | football and rugby league stadium row 20 : genting arena | birmingham | multi-purpose indoor arenapassages: the oval: the oval , known for sponsorship reasons as the kia oval , is an international cricket ground in kennington , in the london borough of lambeth , in south london . | kennington: it is located 1.4 miles ( 2.3 km ) south of charing cross in inner london and is identified as a local centre in the london plan . it was a royal manor in the parish of st mary , lambeth in the county of surrey and was the administrative centre of the parish from 1853 . | ",
+        "text_in": "what is the borough in which kia oval is located ?",
+        "seq_out": "lambeth"
+    }
+]

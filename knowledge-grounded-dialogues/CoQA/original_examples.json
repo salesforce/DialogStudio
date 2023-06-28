@@ -1,0 +1,885 @@
+[
+    {
+        "source": "wikipedia",
+        "id": "3zotghdk5ibi9cex97fepx7jetpso7",
+        "filename": "Vatican_Library.txt",
+        "story": "The Vatican Apostolic Library (), more commonly called the Vatican Library or simply the Vat, is the library of the Holy See, located in Vatican City. Formally established in 1475, although it is much older, it is one of the oldest libraries in the world and contains one of the most significant collections of historical texts. It has 75,000 codices from throughout history, as well as 1.1 million printed books, which include some 8,500 incunabula. \n\nThe Vatican Library is a research library for history, law, philosophy, science and theology. The Vatican Library is open to anyone who can document their qualifications and research needs. Photocopies for private study of pages from books published between 1801 and 1990 can be requested in person or by mail. \n\nIn March 2014, the Vatican Library began an initial four-year project of digitising its collection of manuscripts, to be made available online. \n\nThe Vatican Secret Archives were separated from the library at the beginning of the 17th century; they contain another 150,000 items. \n\nScholars have traditionally divided the history of the library into five periods, Pre-Lateran, Lateran, Avignon, Pre-Vatican and Vatican. \n\nThe Pre-Lateran period, comprising the initial days of the library, dated from the earliest days of the Church. Only a handful of volumes survive from this period, though some are very significant.",
+        "questions": [
+            {
+                "input_text": "When was the Vat formally opened?",
+                "turn_id": 1
+            },
+            {
+                "input_text": "what is the library for?",
+                "turn_id": 2
+            },
+            {
+                "input_text": "for what subjects?",
+                "turn_id": 3
+            },
+            {
+                "input_text": "and?",
+                "turn_id": 4
+            },
+            {
+                "input_text": "what was started in 2014?",
+                "turn_id": 5
+            },
+            {
+                "input_text": "how do scholars divide the library?",
+                "turn_id": 6
+            },
+            {
+                "input_text": "how many?",
+                "turn_id": 7
+            },
+            {
+                "input_text": "what is the official name of the Vat?",
+                "turn_id": 8
+            },
+            {
+                "input_text": "where is it?",
+                "turn_id": 9
+            },
+            {
+                "input_text": "how many printed books does it contain?",
+                "turn_id": 10
+            },
+            {
+                "input_text": "when were the Secret Archives moved from the rest of the library?",
+                "turn_id": 11
+            },
+            {
+                "input_text": "how many items are in this secret collection?",
+                "turn_id": 12
+            },
+            {
+                "input_text": "Can anyone use this library?",
+                "turn_id": 13
+            },
+            {
+                "input_text": "what must be requested to view?",
+                "turn_id": 14
+            },
+            {
+                "input_text": "what must be requested in person or by mail?",
+                "turn_id": 15
+            },
+            {
+                "input_text": "of what books?",
+                "turn_id": 16
+            },
+            {
+                "input_text": "What is the Vat the library of?",
+                "turn_id": 17
+            },
+            {
+                "input_text": "How many books survived the Pre Lateran period?",
+                "turn_id": 18
+            },
+            {
+                "input_text": "what is the point of the project started in 2014?",
+                "turn_id": 19
+            },
+            {
+                "input_text": "what will this allow?",
+                "turn_id": 20
+            }
+        ],
+        "answers": [
+            {
+                "span_start": 151,
+                "span_end": 179,
+                "span_text": "Formally established in 1475",
+                "input_text": "It was formally established in 1475",
+                "turn_id": 1
+            },
+            {
+                "span_start": 454,
+                "span_end": 494,
+                "span_text": "he Vatican Library is a research library",
+                "input_text": "research",
+                "turn_id": 2
+            },
+            {
+                "span_start": 457,
+                "span_end": 511,
+                "span_text": "Vatican Library is a research library for history, law",
+                "input_text": "history, and law",
+                "turn_id": 3
+            },
+            {
+                "span_start": 457,
+                "span_end": 545,
+                "span_text": "Vatican Library is a research library for history, law, philosophy, science and theology",
+                "input_text": "philosophy, science and theology",
+                "turn_id": 4
+            },
+            {
+                "span_start": 769,
+                "span_end": 879,
+                "span_text": "March 2014, the Vatican Library began an initial four-year project of digitising its collection of manuscripts",
+                "input_text": "a  project",
+                "turn_id": 5
+            },
+            {
+                "span_start": 1048,
+                "span_end": 1127,
+                "span_text": "Scholars have traditionally divided the history of the library into five period",
+                "input_text": "into periods",
+                "turn_id": 6
+            },
+            {
+                "span_start": 1048,
+                "span_end": 1128,
+                "span_text": "Scholars have traditionally divided the history of the library into five periods",
+                "input_text": "five",
+                "turn_id": 7
+            },
+            {
+                "span_start": 4,
+                "span_end": 94,
+                "span_text": "Vatican Apostolic Library (), more commonly called the Vatican Library or simply the Vat, ",
+                "input_text": "The Vatican Apostolic Library",
+                "turn_id": 8
+            },
+            {
+                "span_start": 94,
+                "span_end": 150,
+                "span_text": "is the library of the Holy See, located in Vatican City.",
+                "input_text": "in Vatican City",
+                "turn_id": 9
+            },
+            {
+                "span_start": 328,
+                "span_end": 412,
+                "span_text": " It has 75,000 codices from throughout history, as well as 1.1 million printed books",
+                "input_text": "1.1 million",
+                "turn_id": 10
+            },
+            {
+                "span_start": 917,
+                "span_end": 1009,
+                "span_text": "atican Secret Archives were separated from the library at the beginning of the 17th century;",
+                "input_text": "at the beginning of the 17th century;",
+                "turn_id": 11
+            },
+            {
+                "span_start": 915,
+                "span_end": 1046,
+                "span_text": " Vatican Secret Archives were separated from the library at the beginning of the 17th century; they contain another 150,000 items. ",
+                "input_text": "150,000",
+                "turn_id": 12
+            },
+            {
+                "span_start": 546,
+                "span_end": 643,
+                "span_text": " The Vatican Library is open to anyone who can document their qualifications and research needs. ",
+                "input_text": "anyone who can document their qualifications and research needs.",
+                "turn_id": 13
+            },
+            {
+                "span_start": -1,
+                "span_end": -1,
+                "span_text": "unknown",
+                "input_text": "unknown",
+                "turn_id": 14,
+                "bad_turn": "true"
+            },
+            {
+                "span_start": 643,
+                "span_end": 764,
+                "span_text": "Photocopies for private study of pages from books published between 1801 and 1990 can be requested in person or by mail. ",
+                "input_text": "Photocopies",
+                "turn_id": 15
+            },
+            {
+                "span_start": 644,
+                "span_end": 724,
+                "span_text": "hotocopies for private study of pages from books published between 1801 and 1990",
+                "input_text": "only books published between 1801 and 1990",
+                "turn_id": 16
+            },
+            {
+                "span_start": 78,
+                "span_end": 125,
+                "span_text": "simply the Vat, is the library of the Holy See,",
+                "input_text": "the Holy See",
+                "turn_id": 17
+            },
+            {
+                "span_start": 1192,
+                "span_end": 1384,
+                "span_text": "Pre-Lateran period, comprising the initial days of the library, dated from the earliest days of the Church. Only a handful of volumes survive from this period, though some are very significant",
+                "input_text": "a handful of volumes",
+                "turn_id": 18
+            },
+            {
+                "span_start": 785,
+                "span_end": 881,
+                "span_text": "Vatican Library began an initial four-year project of digitising its collection of manuscripts, ",
+                "input_text": "digitising manuscripts",
+                "turn_id": 19
+            },
+            {
+                "span_start": 868,
+                "span_end": 910,
+                "span_text": "manuscripts, to be made available online. ",
+                "input_text": "them to be viewed online.",
+                "turn_id": 20
+            }
+        ],
+        "name": "Vatican_Library.txt"
+    },
+    {
+        "source": "cnn",
+        "id": "3wj1oxy92agboo5nlq4r7bndc3t8a8",
+        "filename": "cnn_fe05c61a7e48461f7883cdec387567029614f07b.story",
+        "story": "New York (CNN) -- More than 80 Michael Jackson collectibles -- including the late pop star's famous rhinestone-studded glove from a 1983 performance -- were auctioned off Saturday, reaping a total $2 million. \n\nProfits from the auction at the Hard Rock Cafe in New York's Times Square crushed pre-sale expectations of only $120,000 in sales. \n\nThe highly prized memorabilia, which included items spanning the many stages of Jackson's career, came from more than 30 fans, associates and family members, who contacted Julien's Auctions to sell their gifts and mementos of the singer. \n\nJackson's flashy glove was the big-ticket item of the night, fetching $420,000 from a buyer in Hong Kong, China. Jackson wore the glove at a 1983 performance during \"Motown 25,\" an NBC special where he debuted his revolutionary moonwalk. \n\nFellow Motown star Walter \"Clyde\" Orange of the Commodores, who also performed in the special 26 years ago, said he asked for Jackson's autograph at the time, but Jackson gave him the glove instead. \n\n\"The legacy that [Jackson] left behind is bigger than life for me,\" Orange said. \"I hope that through that glove people can see what he was trying to say in his music and what he said in his music.\" \n\nOrange said he plans to give a portion of the proceeds to charity. \n\nHoffman Ma, who bought the glove on behalf of Ponte 16 Resort in Macau, paid a 25 percent buyer's premium, which was tacked onto all final sales over $50,000. Winners of items less than $50,000 paid a 20 percent premium. ",
+        "questions": [
+            {
+                "input_text": "Where was the Auction held?",
+                "turn_id": 1
+            },
+            {
+                "input_text": "How much did they make?",
+                "turn_id": 2
+            },
+            {
+                "input_text": "How much did they expected?",
+                "turn_id": 3
+            },
+            {
+                "input_text": "WHo buy the Jackson Glove",
+                "turn_id": 4
+            },
+            {
+                "input_text": "Where was the buyer of the glove from?",
+                "turn_id": 5
+            }
+        ],
+        "answers": [
+            {
+                "span_start": 243,
+                "span_end": 284,
+                "span_text": "Hard Rock Cafe in New York's Times Square",
+                "input_text": "Hard Rock Cafe",
+                "turn_id": 1
+            },
+            {
+                "span_start": 180,
+                "span_end": 210,
+                "span_text": " reaping a total $2 million. \n",
+                "input_text": "$2 million.",
+                "turn_id": 2
+            },
+            {
+                "span_start": 292,
+                "span_end": 342,
+                "span_text": " pre-sale expectations of only $120,000 in sales. ",
+                "input_text": "$120,000",
+                "turn_id": 3
+            },
+            {
+                "span_start": 1295,
+                "span_end": 1365,
+                "span_text": "Hoffman Ma, who bought the glove on behalf of Ponte 16 Resort in Macau",
+                "input_text": "Hoffman Ma",
+                "turn_id": 4
+            },
+            {
+                "span_start": 1331,
+                "span_end": 1366,
+                "span_text": "behalf of Ponte 16 Resort in Macau,",
+                "input_text": "Macau",
+                "turn_id": 5,
+                "bad_turn": "true"
+            }
+        ],
+        "name": "cnn_fe05c61a7e48461f7883cdec387567029614f07b.story"
+    },
+    {
+        "source": "gutenberg",
+        "id": "3bdcf01ogxu7zdn9vlrbf2rqzwplyf",
+        "filename": "data/gutenberg/txt/Zane Grey___Riders of the Purple Sage.txt/CHAPTER VII_78c077ef5e268383edbec1f1c9d644b1423f889d258d95ff055aa92",
+        "story": "CHAPTER VII. THE DAUGHTER OF WITHERSTEEN \n\n\"Lassiter, will you be my rider?\" Jane had asked him. \n\n\"I reckon so,\" he had replied. \n\nFew as the words were, Jane knew how infinitely much they implied. She wanted him to take charge of her cattle and horse and ranges, and save them if that were possible. Yet, though she could not have spoken aloud all she meant, she was perfectly honest with herself. Whatever the price to be paid, she must keep Lassiter close to her; she must shield from him the man who had led Milly Erne to Cottonwoods. In her fear she so controlled her mind that she did not whisper this Mormon's name to her own soul, she did not even think it. Besides, beyond this thing she regarded as a sacred obligation thrust upon her, was the need of a helper, of a friend, of a champion in this critical time. If she could rule this gun-man, as Venters had called him, if she could even keep him from shedding blood, what strategy to play his flame and his presence against the game of oppression her churchmen were waging against her? Never would she forget the effect on Tull and his men when Venters shouted Lassiter's name. If she could not wholly control Lassiter, then what she could do might put off the fatal day. \n\nOne of her safe racers was a dark bay, and she called him Bells because of the way he struck his iron shoes on the stones. When Jerd led out this slender, beautifully built horse Lassiter suddenly became all eyes. A rider's love of a thoroughbred shone in them. Round and round Bells he walked, plainly weakening all the time in his determination not to take one of Jane's favorite racers. ",
+        "questions": [
+            {
+                "input_text": "What did Venters call Lassiter?",
+                "turn_id": 1
+            },
+            {
+                "input_text": "Who asked Lassiter to be their rider?",
+                "turn_id": 2
+            },
+            {
+                "input_text": "Did he agree?",
+                "turn_id": 3
+            },
+            {
+                "input_text": "Why did she ask him?",
+                "turn_id": 4
+            },
+            {
+                "input_text": "Did she tell him as much?",
+                "turn_id": 5
+            },
+            {
+                "input_text": "What was she willing to give up?",
+                "turn_id": 6
+            },
+            {
+                "input_text": "Where was Milly led to?",
+                "turn_id": 7
+            },
+            {
+                "input_text": "Who took her there?",
+                "turn_id": 8
+            },
+            {
+                "input_text": "Whose name would Jane not speak?",
+                "turn_id": 9
+            },
+            {
+                "input_text": "Did she allow herself to even think it?",
+                "turn_id": 10
+            },
+            {
+                "input_text": "What was Jane hoping Lassiter would become to her?",
+                "turn_id": 11
+            },
+            {
+                "input_text": "Who was oppressing her?",
+                "turn_id": 12
+            },
+            {
+                "input_text": "What was she hoping she could keep from happening to him?",
+                "turn_id": 13
+            },
+            {
+                "input_text": "Who had shouted Lassiter's name?",
+                "turn_id": 14
+            },
+            {
+                "input_text": "Who did that affect?",
+                "turn_id": 15
+            },
+            {
+                "input_text": "Did Jane think she could control Lassiter?",
+                "turn_id": 16
+            },
+            {
+                "input_text": "Who is Bells?",
+                "turn_id": 17
+            },
+            {
+                "input_text": "How did he get his name?",
+                "turn_id": 18
+            },
+            {
+                "input_text": "Was Lassiter impressed with the horse?",
+                "turn_id": 19
+            },
+            {
+                "input_text": "Did he want to take him for himself?",
+                "turn_id": 20
+            }
+        ],
+        "answers": [
+            {
+                "span_start": 841,
+                "span_end": 880,
+                "span_text": "this gun-man, as Venters had called him",
+                "input_text": "gun-man",
+                "turn_id": 1
+            },
+            {
+                "span_start": 43,
+                "span_end": 97,
+                "span_text": "\"Lassiter, will you be my rider?\" Jane had asked him. ",
+                "input_text": "Jane",
+                "turn_id": 2
+            },
+            {
+                "span_start": 99,
+                "span_end": 129,
+                "span_text": "\"I reckon so,\" he had replied.",
+                "input_text": "Yes",
+                "turn_id": 3
+            },
+            {
+                "span_start": 199,
+                "span_end": 301,
+                "span_text": "She wanted him to take charge of her cattle and horse and ranges, and save them if that were possible.",
+                "input_text": "to take charge of her cattle and horse and ranges, and save them",
+                "turn_id": 4
+            },
+            {
+                "span_start": 307,
+                "span_end": 360,
+                "span_text": "though she could not have spoken aloud all she meant,",
+                "input_text": "No",
+                "turn_id": 5
+            },
+            {
+                "span_start": 400,
+                "span_end": 429,
+                "span_text": "Whatever the price to be paid",
+                "input_text": "Whatever the price to be paid",
+                "turn_id": 6
+            },
+            {
+                "span_start": 509,
+                "span_end": 538,
+                "span_text": "led Milly Erne to Cottonwoods",
+                "input_text": "Cottonwoods",
+                "turn_id": 7
+            },
+            {
+                "span_start": 493,
+                "span_end": 538,
+                "span_text": "the man who had led Milly Erne to Cottonwoods",
+                "input_text": "A man",
+                "turn_id": 8
+            },
+            {
+                "span_start": 604,
+                "span_end": 622,
+                "span_text": "this Mormon's name",
+                "input_text": "this Mormon's name",
+                "turn_id": 9
+            },
+            {
+                "span_start": 640,
+                "span_end": 666,
+                "span_text": "she did not even think it.",
+                "input_text": "No",
+                "turn_id": 10
+            },
+            {
+                "span_start": 751,
+                "span_end": 798,
+                "span_text": "the need of a helper, of a friend, of a champio",
+                "input_text": "a helper, of a friend, of a champion",
+                "turn_id": 11
+            },
+            {
+                "span_start": 991,
+                "span_end": 1047,
+                "span_text": "game of oppression her churchmen were waging against her",
+                "input_text": "her churchmen",
+                "turn_id": 12
+            },
+            {
+                "span_start": 885,
+                "span_end": 928,
+                "span_text": "she could even keep him from shedding blood",
+                "input_text": "shedding blood",
+                "turn_id": 13
+            },
+            {
+                "span_start": 1108,
+                "span_end": 1140,
+                "span_text": "Venters shouted Lassiter's name.",
+                "input_text": "Venters",
+                "turn_id": 14
+            },
+            {
+                "span_start": 1071,
+                "span_end": 1140,
+                "span_text": " the effect on Tull and his men when Venters shouted Lassiter's name.",
+                "input_text": "Tull and his men",
+                "turn_id": 15
+            },
+            {
+                "span_start": 1141,
+                "span_end": 1205,
+                "span_text": "If she could not wholly control Lassiter, then what she could do",
+                "input_text": "No",
+                "turn_id": 16
+            },
+            {
+                "span_start": 1237,
+                "span_end": 1300,
+                "span_text": "One of her safe racers was a dark bay, and she called him Bells",
+                "input_text": "One of her safe racers",
+                "turn_id": 17
+            },
+            {
+                "span_start": 1280,
+                "span_end": 1360,
+                "span_text": "she called him Bells because of the way he struck his iron shoes on the stones. ",
+                "input_text": "because of the way he struck his iron shoes on the stones.",
+                "turn_id": 18
+            },
+            {
+                "span_start": 1360,
+                "span_end": 1450,
+                "span_text": "When Jerd led out this slender, beautifully built horse Lassiter suddenly became all eyes.",
+                "input_text": "Yes",
+                "turn_id": 19
+            },
+            {
+                "span_start": 1532,
+                "span_end": 1625,
+                "span_text": "plainly weakening all the time in his determination not to take one of Jane's favorite racers",
+                "input_text": "Yes",
+                "turn_id": 20
+            }
+        ],
+        "name": "data/gutenberg/txt/Zane Grey___Riders of the Purple Sage.txt/CHAPTER VII_78c077ef5e268383edbec1f1c9d644b1423f889d258d95ff055aa92"
+    },
+    {
+        "source": "cnn",
+        "id": "3ewijtffvo7wwchw6rtyaf7mfwte0p",
+        "filename": "cnn_0c518067e0df811501e46b2e1cd1ce511f1645b7.story",
+        "story": "(CNN) -- The longest-running holiday special still has a very shiny nose. \n\n\"Rudolph the Red-Nosed Reindeer\" premiered on television December 6, 1964, and is now one of the holiday season's perennial favorites. The story of the reindeer who saves Christmas is beloved among children and adults alike. \n\nThe Rankin-Bass animated film production company used Japanese puppets and stop motion to tell the tale, bolstered by a soundtrack featuring Burl Ives' rendition of the theme song. \n\nIn the story, Santa's reindeer Donner and his wife have a son, Rudolph, who has the distinction of a nose that glows. He runs away after being made to feel an outcast and links up with an elf who dreams of becoming a dentist and an adventurer seeking silver and gold. \n\nAfter ending up on the Island of Misfit Toys and wandering for a while, Rudolph goes on to save his loved ones from the Abominable Snow Monster and guides Santa through a blizzard that threatens to ruin Christmas. \n\nIn 2006, the New York Times reported that fans drove for miles to see the Rudolph and Santa Claus puppets at the Center for Puppetry Arts in Atlanta. The pair were thought to be the last of the surviving production puppets. They had been taken home by a production company employee and given to her children after filming was completed. \n\n\"In 2005, the nephew of the original rescuer found the puppets in a family attic and brought them to be appraised on the PBS series 'Antiques Roadshow,' \" the Times said. \"Created for about $5,000 each in 1964, they were valued at $8,000 to $10,000 for the pair. The family sold both figures to Kevin A. Kriess, the president of TimeandSpaceToys.com and a lifelong fan of the Rankin-Bass films.\" ",
+        "questions": [
+            {
+                "input_text": "Who is Rudolph's father?",
+                "turn_id": 1
+            },
+            {
+                "input_text": "Why does Rudolph run away?",
+                "turn_id": 2
+            },
+            {
+                "input_text": "What makes him different from the other reindeer?",
+                "turn_id": 3
+            },
+            {
+                "input_text": "Who does he save during a snow storm?",
+                "turn_id": 4
+            },
+            {
+                "input_text": "Does he save Christmas?",
+                "turn_id": 5
+            },
+            {
+                "input_text": "What Island does he travel to?",
+                "turn_id": 6
+            },
+            {
+                "input_text": "Which company produced the movie?",
+                "turn_id": 7
+            },
+            {
+                "input_text": "When did it premiere?",
+                "turn_id": 8
+            },
+            {
+                "input_text": "What methods were used in filming the movie?",
+                "turn_id": 9
+            },
+            {
+                "input_text": "Are all of the puppets still in existence?",
+                "turn_id": 10
+            },
+            {
+                "input_text": "How many remain?",
+                "turn_id": 11
+            },
+            {
+                "input_text": "Which?",
+                "turn_id": 12
+            },
+            {
+                "input_text": "Where had they been stored since their use in the show?",
+                "turn_id": 13
+            },
+            {
+                "input_text": "When were they rediscovered?",
+                "turn_id": 14
+            },
+            {
+                "input_text": "When were they put on display?",
+                "turn_id": 15
+            },
+            {
+                "input_text": "Where?",
+                "turn_id": 16
+            },
+            {
+                "input_text": "How much did they appraise for in 2005?",
+                "turn_id": 17
+            },
+            {
+                "input_text": "How much did they originally cost to produce?",
+                "turn_id": 18
+            },
+            {
+                "input_text": "What year were they made?",
+                "turn_id": 19
+            },
+            {
+                "input_text": "Who bought them?",
+                "turn_id": 20
+            }
+        ],
+        "answers": [
+            {
+                "span_start": 500,
+                "span_end": 557,
+                "span_text": "Santa's reindeer Donner and his wife have a son, Rudolph,",
+                "input_text": "Donner",
+                "turn_id": 1
+            },
+            {
+                "span_start": 604,
+                "span_end": 653,
+                "span_text": "He runs away after being made to feel an outcast ",
+                "input_text": "he felt like an outcast",
+                "turn_id": 2
+            },
+            {
+                "span_start": 548,
+                "span_end": 602,
+                "span_text": " Rudolph, who has the distinction of a nose that glows",
+                "input_text": "his nose glows",
+                "turn_id": 3
+            },
+            {
+                "span_start": 828,
+                "span_end": 970,
+                "span_text": "Rudolph goes on to save his loved ones from the Abominable Snow Monster and guides Santa through a blizzard that threatens to ruin Christmas. ",
+                "input_text": "his loved ones",
+                "turn_id": 4
+            },
+            {
+                "span_start": 904,
+                "span_end": 970,
+                "span_text": "guides Santa through a blizzard that threatens to ruin Christmas. ",
+                "input_text": "yes",
+                "turn_id": 5
+            },
+            {
+                "span_start": 756,
+                "span_end": 800,
+                "span_text": "After ending up on the Island of Misfit Toys",
+                "input_text": "the Island of Misfit Toys",
+                "turn_id": 6
+            },
+            {
+                "span_start": 303,
+                "span_end": 406,
+                "span_text": "The Rankin-Bass animated film production company used Japanese puppets and stop motion to tell the tale",
+                "input_text": "Rankin-Bass",
+                "turn_id": 7
+            },
+            {
+                "span_start": 76,
+                "span_end": 149,
+                "span_text": "\"Rudolph the Red-Nosed Reindeer\" premiered on television December 6, 1964",
+                "input_text": "December 6, 1964",
+                "turn_id": 8
+            },
+            {
+                "span_start": 303,
+                "span_end": 406,
+                "span_text": "The Rankin-Bass animated film production company used Japanese puppets and stop motion to tell the tale",
+                "input_text": "Japanese puppets and stop motion",
+                "turn_id": 9
+            },
+            {
+                "span_start": 1122,
+                "span_end": 1196,
+                "span_text": "The pair were thought to be the last of the surviving production puppets. ",
+                "input_text": "no",
+                "turn_id": 10
+            },
+            {
+                "span_start": 1122,
+                "span_end": 1196,
+                "span_text": "The pair were thought to be the last of the surviving production puppets. ",
+                "input_text": "two",
+                "turn_id": 11
+            },
+            {
+                "span_start": 1041,
+                "span_end": 1158,
+                "span_text": " the Rudolph and Santa Claus puppets at the Center for Puppetry Arts in Atlanta. The pair were thought to be the last",
+                "input_text": "Rudolph and Santa Claus",
+                "turn_id": 12
+            },
+            {
+                "span_start": 1320,
+                "span_end": 1392,
+                "span_text": " the nephew of the original rescuer found the puppets in a family attic ",
+                "input_text": "in a family attic",
+                "turn_id": 13
+            },
+            {
+                "span_start": 1312,
+                "span_end": 1374,
+                "span_text": "In 2005, the nephew of the original rescuer found the puppets ",
+                "input_text": "In 2005",
+                "turn_id": 14
+            },
+            {
+                "span_start": 972,
+                "span_end": 1042,
+                "span_text": "In 2006, the New York Times reported that fans drove for miles to see ",
+                "input_text": "In 2006",
+                "turn_id": 15
+            },
+            {
+                "span_start": 972,
+                "span_end": 1120,
+                "span_text": "In 2006, the New York Times reported that fans drove for miles to see the Rudolph and Santa Claus puppets at the Center for Puppetry Arts in Atlanta",
+                "input_text": "the Center for Puppetry Arts",
+                "turn_id": 16
+            },
+            {
+                "span_start": 1521,
+                "span_end": 1572,
+                "span_text": " they were valued at $8,000 to $10,000 for the pair",
+                "input_text": "$8,000 to $10,000 for the pair",
+                "turn_id": 17
+            },
+            {
+                "span_start": 1482,
+                "span_end": 1512,
+                "span_text": "\"Created for about $5,000 each",
+                "input_text": "about $5,000 each",
+                "turn_id": 18
+            },
+            {
+                "span_start": 1483,
+                "span_end": 1520,
+                "span_text": "Created for about $5,000 each in 1964",
+                "input_text": "1964",
+                "turn_id": 19
+            },
+            {
+                "span_start": 1573,
+                "span_end": 1621,
+                "span_text": " The family sold both figures to Kevin A. Kriess",
+                "input_text": "Kevin A. Kriess",
+                "turn_id": 20
+            }
+        ],
+        "name": "cnn_0c518067e0df811501e46b2e1cd1ce511f1645b7.story"
+    },
+    {
+        "source": "gutenberg",
+        "id": "3urfvvm165iantk80llvkwwbjs7uzh",
+        "filename": "data/gutenberg/txt/Rafael Sabatini___Love-at-Arms.txt/CHAPTER XXIV_fda8193c6ee1bb314fcc5db76d39750371ceb652ccc85aeb5be1cf5",
+        "story": "CHAPTER XXIV. THE INTERRUPTED MASS \n\nThe morning of that Wednesday of Corpus Christi, fateful to all concerned in this chronicle, dawned misty and grey, and the air was chilled by the wind that blew from the sea. The chapel bell tinkled out its summons, and the garrison trooped faithfully to Mass. \n\nPresently came Monna Valentina, followed by her ladies, her pages, and lastly, Peppe, wearing under his thin mask of piety an air of eager anxiety and unrest. Valentina was very pale, and round her eyes there were dark circles that told of sleeplessness, and as she bowed her head in prayer, her ladies observed that tears were falling on the illuminated Mass-book over which she bent. And now came Fra Domenico from the sacristy in the white chasuble that the Church ordains for the Corpus Christi feast, followed by a page in a clerkly gown of black, and the Mass commenced. \n\nThere were absent only from the gathering Gonzaga and Fortemani, besides a sentry and the three prisoners. Francesco and his two followers. \n\nGonzaga had presented himself to Valentina with the plausible tale that, as the events of which Fanfulla's letter had given them knowledge might lead Gian Maria at any moment to desperate measures, it might be well that he should reinforce the single man-at-arms patrolling the walls. Valentina, little recking now whether the castle held or fell, and still less such trifles as Gonzaga's attendance at Mass, had assented without heeding the import of what he said. \n\nAnd so, his face drawn and his body quivering with the excitement of what he was about to do, Gonzaga had repaired to the ramparts so soon as he had seen them all safely into chapel. The sentinel was that same clerkly youth Aventano, who had read to the soldiers that letter Gian Maria had sent Gonzaga. This the courtier accepted as a good omen. If a man there was among the soldiery at Roccaleone with whom he deemed that he had an account to settle, that man was Aventano. ",
+        "questions": [
+            {
+                "input_text": "Who arrived at the church?",
+                "turn_id": 1
+            },
+            {
+                "input_text": "Who was followed by a clerk dressed in black?",
+                "turn_id": 2
+            },
+            {
+                "input_text": "Who was crying?",
+                "turn_id": 3
+            },
+            {
+                "input_text": "Who noticed it?",
+                "turn_id": 4
+            },
+            {
+                "input_text": "Did any others arrive with her?",
+                "turn_id": 5
+            },
+            {
+                "input_text": "What other group of people were in her group?",
+                "turn_id": 6
+            },
+            {
+                "input_text": "And who in the group was anxious?",
+                "turn_id": 7
+            },
+            {
+                "input_text": "Was she well-rested?",
+                "turn_id": 8
+            },
+            {
+                "input_text": "Who should be reinforced?",
+                "turn_id": 9
+            },
+            {
+                "input_text": "Who thought these measures were required?",
+                "turn_id": 10
+            }
+        ],
+        "answers": [
+            {
+                "span_start": 254,
+                "span_end": 297,
+                "span_text": "and the garrison trooped faithfully to Mass",
+                "input_text": "the garrison first",
+                "turn_id": 1
+            },
+            {
+                "span_start": 687,
+                "span_end": 853,
+                "span_text": "And now came Fra Domenico from the sacristy in the white chasuble that the Church ordains for the Corpus Christi feast, followed by a page in a clerkly gown of black,",
+                "input_text": "Fra. Domenico",
+                "turn_id": 2
+            },
+            {
+                "span_start": 459,
+                "span_end": 684,
+                "span_text": " Valentina was very pale, and round her eyes there were dark circles that told of sleeplessness, and as she bowed her head in prayer, her ladies observed that tears were falling on the illuminated Mass-book over which she ben",
+                "input_text": "Valentina",
+                "turn_id": 3
+            },
+            {
+                "span_start": 592,
+                "span_end": 665,
+                "span_text": " her ladies observed that tears were falling on the illuminated Mass-book",
+                "input_text": "her ladies",
+                "turn_id": 4
+            },
+            {
+                "span_start": 301,
+                "span_end": 386,
+                "span_text": "Presently came Monna Valentina, followed by her ladies, her pages, and lastly, Peppe,",
+                "input_text": "yes",
+                "turn_id": 5
+            },
+            {
+                "span_start": 311,
+                "span_end": 386,
+                "span_text": "came Monna Valentina, followed by her ladies, her pages, and lastly, Peppe,",
+                "input_text": "her pages",
+                "turn_id": 6
+            },
+            {
+                "span_start": 378,
+                "span_end": 460,
+                "span_text": ", Peppe, wearing under his thin mask of piety an air of eager anxiety and unrest. ",
+                "input_text": ", Peppe",
+                "turn_id": 7
+            },
+            {
+                "span_start": 490,
+                "span_end": 553,
+                "span_text": "ound her eyes there were dark circles that told of sleeplessnes",
+                "input_text": "no",
+                "turn_id": 8
+            },
+            {
+                "span_start": 1221,
+                "span_end": 1307,
+                "span_text": "t might be well that he should reinforce the single man-at-arms patrolling the walls. ",
+                "input_text": "the single man-at-arms patrolling the walls.",
+                "turn_id": 9
+            },
+            {
+                "span_start": 1172,
+                "span_end": 1304,
+                "span_text": "Gian Maria at any moment to desperate measures, it might be well that he should reinforce the single man-at-arms patrolling the wall",
+                "input_text": "Gian Maria",
+                "turn_id": 10,
+                "bad_turn": "true"
+            }
+        ],
+        "name": "data/gutenberg/txt/Rafael Sabatini___Love-at-Arms.txt/CHAPTER XXIV_fda8193c6ee1bb314fcc5db76d39750371ceb652ccc85aeb5be1cf5"
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "input": "what movies star bruce willis",
+        "output": "O O O B-ACTOR I-ACTOR"
+    },
+    {
+        "input": "show me films with drew barrymore from the 1980s",
+        "output": "O O O O B-ACTOR I-ACTOR O O B-YEAR"
+    },
+    {
+        "input": "what movies starred both al pacino and robert deniro",
+        "output": "O O O O B-ACTOR I-ACTOR O B-ACTOR I-ACTOR"
+    },
+    {
+        "input": "find me all of the movies that starred harold ramis and bill murray",
+        "output": "O O O O O O O O B-ACTOR I-ACTOR O B-ACTOR I-ACTOR"
+    },
+    {
+        "input": "find me a movie with a quote about baseball in it",
+        "output": "O O O O O O O O O O O"
+    }
+]

@@ -1,0 +1,592 @@
+{
+    "WikiSQL--train--1": {
+        "original dialog id": "",
+        "dialog index": 1,
+        "original dialog info": {
+            "phase": 1,
+            "question": "Tell me what the notes are for South Australia ",
+            "table": {
+                "header": [
+                    "State/territory",
+                    "Text/background colour",
+                    "Format",
+                    "Current slogan",
+                    "Current series",
+                    "Notes"
+                ],
+                "page_title": "",
+                "page_id": "",
+                "types": [
+                    "text",
+                    "text",
+                    "text",
+                    "text",
+                    "text",
+                    "text"
+                ],
+                "id": "1-1000181-1",
+                "section_title": "",
+                "caption": "",
+                "rows": [
+                    [
+                        "Australian Capital Territory",
+                        "blue/white",
+                        "Yaa\u00b7nna",
+                        "ACT \u00b7 CELEBRATION OF A CENTURY 2013",
+                        "YIL\u00b700A",
+                        "Slogan screenprinted on plate"
+                    ],
+                    [
+                        "New South Wales",
+                        "black/yellow",
+                        "aa\u00b7nn\u00b7aa",
+                        "NEW SOUTH WALES",
+                        "BX\u00b799\u00b7HI",
+                        "No slogan on current series"
+                    ],
+                    [
+                        "New South Wales",
+                        "black/white",
+                        "aaa\u00b7nna",
+                        "NSW",
+                        "CPX\u00b712A",
+                        "Optional white slimline series"
+                    ],
+                    [
+                        "Northern Territory",
+                        "ochre/white",
+                        "Ca\u00b7nn\u00b7aa",
+                        "NT \u00b7 OUTBACK AUSTRALIA",
+                        "CB\u00b706\u00b7ZZ",
+                        "New series began in June 2011"
+                    ],
+                    [
+                        "Queensland",
+                        "maroon/white",
+                        "nnn\u00b7aaa",
+                        "QUEENSLAND \u00b7 SUNSHINE STATE",
+                        "999\u00b7TLG",
+                        "Slogan embossed on plate"
+                    ],
+                    [
+                        "South Australia",
+                        "black/white",
+                        "Snnn\u00b7aaa",
+                        "SOUTH AUSTRALIA",
+                        "S000\u00b7AZD",
+                        "No slogan on current series"
+                    ],
+                    [
+                        "Victoria",
+                        "blue/white",
+                        "aaa\u00b7nnn",
+                        "VICTORIA - THE PLACE TO BE",
+                        "ZZZ\u00b7562",
+                        "Current series will be exhausted this year"
+                    ]
+                ],
+                "name": "table_1000181_1"
+            },
+            "sql": {
+                "human_readable": "SELECT Notes FROM table WHERE Current slogan = SOUTH AUSTRALIA",
+                "sel": 5,
+                "agg": 0,
+                "conds": {
+                    "column_index": [
+                        3
+                    ],
+                    "operator_index": [
+                        0
+                    ],
+                    "condition": [
+                        "SOUTH AUSTRALIA"
+                    ]
+                }
+            },
+            "answer_text": [
+                "No slogan on current series"
+            ]
+        },
+        "log": {
+            "turn id": 1,
+            "user utterance": "tell me what the notes are for south australia",
+            "system response": "no slogan on current series",
+            "dialog history": "",
+            "original user side information": {},
+            "original system side information": {},
+            "external knowledge": "col : state/territory | text/background colour | format | current slogan | current series | notes row 1 : australian capital territory | blue/white | yaa\u00b7nna | act \u00b7 celebration of a century 2013 | yil\u00b700a | slogan screenprinted on plate row 2 : new south wales | black/yellow | aa\u00b7nn\u00b7aa | new south wales | bx\u00b799\u00b7hi | no slogan on current series row 3 : new south wales | black/white | aaa\u00b7nna | nsw | cpx\u00b712a | optional white slimline series row 4 : northern territory | ochre/white | ca\u00b7nn\u00b7aa | nt \u00b7 outback australia | cb\u00b706\u00b7zz | new series began in june 2011 row 5 : queensland | maroon/white | nnn\u00b7aaa | queensland \u00b7 sunshine state | 999\u00b7tlg | slogan embossed on plate row 6 : south australia | black/white | snnn\u00b7aaa | south australia | s000\u00b7azd | no slogan on current series row 7 : victoria | blue/white | aaa\u00b7nnn | victoria - the place to be | zzz\u00b7562 | current series will be exhausted this year"
+        }
+    },
+    "WikiSQL--train--2": {
+        "original dialog id": "",
+        "dialog index": 2,
+        "original dialog info": {
+            "phase": 1,
+            "question": "What is the current series where the new series began in June 2011?",
+            "table": {
+                "header": [
+                    "State/territory",
+                    "Text/background colour",
+                    "Format",
+                    "Current slogan",
+                    "Current series",
+                    "Notes"
+                ],
+                "page_title": "",
+                "page_id": "",
+                "types": [
+                    "text",
+                    "text",
+                    "text",
+                    "text",
+                    "text",
+                    "text"
+                ],
+                "id": "1-1000181-1",
+                "section_title": "",
+                "caption": "",
+                "rows": [
+                    [
+                        "Australian Capital Territory",
+                        "blue/white",
+                        "Yaa\u00b7nna",
+                        "ACT \u00b7 CELEBRATION OF A CENTURY 2013",
+                        "YIL\u00b700A",
+                        "Slogan screenprinted on plate"
+                    ],
+                    [
+                        "New South Wales",
+                        "black/yellow",
+                        "aa\u00b7nn\u00b7aa",
+                        "NEW SOUTH WALES",
+                        "BX\u00b799\u00b7HI",
+                        "No slogan on current series"
+                    ],
+                    [
+                        "New South Wales",
+                        "black/white",
+                        "aaa\u00b7nna",
+                        "NSW",
+                        "CPX\u00b712A",
+                        "Optional white slimline series"
+                    ],
+                    [
+                        "Northern Territory",
+                        "ochre/white",
+                        "Ca\u00b7nn\u00b7aa",
+                        "NT \u00b7 OUTBACK AUSTRALIA",
+                        "CB\u00b706\u00b7ZZ",
+                        "New series began in June 2011"
+                    ],
+                    [
+                        "Queensland",
+                        "maroon/white",
+                        "nnn\u00b7aaa",
+                        "QUEENSLAND \u00b7 SUNSHINE STATE",
+                        "999\u00b7TLG",
+                        "Slogan embossed on plate"
+                    ],
+                    [
+                        "South Australia",
+                        "black/white",
+                        "Snnn\u00b7aaa",
+                        "SOUTH AUSTRALIA",
+                        "S000\u00b7AZD",
+                        "No slogan on current series"
+                    ],
+                    [
+                        "Victoria",
+                        "blue/white",
+                        "aaa\u00b7nnn",
+                        "VICTORIA - THE PLACE TO BE",
+                        "ZZZ\u00b7562",
+                        "Current series will be exhausted this year"
+                    ]
+                ],
+                "name": "table_1000181_1"
+            },
+            "sql": {
+                "human_readable": "SELECT Current series FROM table WHERE Notes = New series began in June 2011",
+                "sel": 4,
+                "agg": 0,
+                "conds": {
+                    "column_index": [
+                        5
+                    ],
+                    "operator_index": [
+                        0
+                    ],
+                    "condition": [
+                        "New series began in June 2011"
+                    ]
+                }
+            },
+            "answer_text": [
+                "CB\u00b706\u00b7ZZ"
+            ]
+        },
+        "log": {
+            "turn id": 1,
+            "user utterance": "what is the current series where the new series began in june 2011?",
+            "system response": "cb\u00b706\u00b7zz",
+            "dialog history": "",
+            "original user side information": {},
+            "original system side information": {},
+            "external knowledge": "col : state/territory | text/background colour | format | current slogan | current series | notes row 1 : australian capital territory | blue/white | yaa\u00b7nna | act \u00b7 celebration of a century 2013 | yil\u00b700a | slogan screenprinted on plate row 2 : new south wales | black/yellow | aa\u00b7nn\u00b7aa | new south wales | bx\u00b799\u00b7hi | no slogan on current series row 3 : new south wales | black/white | aaa\u00b7nna | nsw | cpx\u00b712a | optional white slimline series row 4 : northern territory | ochre/white | ca\u00b7nn\u00b7aa | nt \u00b7 outback australia | cb\u00b706\u00b7zz | new series began in june 2011 row 5 : queensland | maroon/white | nnn\u00b7aaa | queensland \u00b7 sunshine state | 999\u00b7tlg | slogan embossed on plate row 6 : south australia | black/white | snnn\u00b7aaa | south australia | s000\u00b7azd | no slogan on current series row 7 : victoria | blue/white | aaa\u00b7nnn | victoria - the place to be | zzz\u00b7562 | current series will be exhausted this year"
+        }
+    },
+    "WikiSQL--train--3": {
+        "original dialog id": "",
+        "dialog index": 3,
+        "original dialog info": {
+            "phase": 1,
+            "question": "What is the format for South Australia?",
+            "table": {
+                "header": [
+                    "State/territory",
+                    "Text/background colour",
+                    "Format",
+                    "Current slogan",
+                    "Current series",
+                    "Notes"
+                ],
+                "page_title": "",
+                "page_id": "",
+                "types": [
+                    "text",
+                    "text",
+                    "text",
+                    "text",
+                    "text",
+                    "text"
+                ],
+                "id": "1-1000181-1",
+                "section_title": "",
+                "caption": "",
+                "rows": [
+                    [
+                        "Australian Capital Territory",
+                        "blue/white",
+                        "Yaa\u00b7nna",
+                        "ACT \u00b7 CELEBRATION OF A CENTURY 2013",
+                        "YIL\u00b700A",
+                        "Slogan screenprinted on plate"
+                    ],
+                    [
+                        "New South Wales",
+                        "black/yellow",
+                        "aa\u00b7nn\u00b7aa",
+                        "NEW SOUTH WALES",
+                        "BX\u00b799\u00b7HI",
+                        "No slogan on current series"
+                    ],
+                    [
+                        "New South Wales",
+                        "black/white",
+                        "aaa\u00b7nna",
+                        "NSW",
+                        "CPX\u00b712A",
+                        "Optional white slimline series"
+                    ],
+                    [
+                        "Northern Territory",
+                        "ochre/white",
+                        "Ca\u00b7nn\u00b7aa",
+                        "NT \u00b7 OUTBACK AUSTRALIA",
+                        "CB\u00b706\u00b7ZZ",
+                        "New series began in June 2011"
+                    ],
+                    [
+                        "Queensland",
+                        "maroon/white",
+                        "nnn\u00b7aaa",
+                        "QUEENSLAND \u00b7 SUNSHINE STATE",
+                        "999\u00b7TLG",
+                        "Slogan embossed on plate"
+                    ],
+                    [
+                        "South Australia",
+                        "black/white",
+                        "Snnn\u00b7aaa",
+                        "SOUTH AUSTRALIA",
+                        "S000\u00b7AZD",
+                        "No slogan on current series"
+                    ],
+                    [
+                        "Victoria",
+                        "blue/white",
+                        "aaa\u00b7nnn",
+                        "VICTORIA - THE PLACE TO BE",
+                        "ZZZ\u00b7562",
+                        "Current series will be exhausted this year"
+                    ]
+                ],
+                "name": "table_1000181_1"
+            },
+            "sql": {
+                "human_readable": "SELECT Format FROM table WHERE State/territory = South Australia",
+                "sel": 2,
+                "agg": 0,
+                "conds": {
+                    "column_index": [
+                        0
+                    ],
+                    "operator_index": [
+                        0
+                    ],
+                    "condition": [
+                        "South Australia"
+                    ]
+                }
+            },
+            "answer_text": [
+                "Snnn\u00b7aaa"
+            ]
+        },
+        "log": {
+            "turn id": 1,
+            "user utterance": "what is the format for south australia?",
+            "system response": "snnn\u00b7aaa",
+            "dialog history": "",
+            "original user side information": {},
+            "original system side information": {},
+            "external knowledge": "col : state/territory | text/background colour | format | current slogan | current series | notes row 1 : australian capital territory | blue/white | yaa\u00b7nna | act \u00b7 celebration of a century 2013 | yil\u00b700a | slogan screenprinted on plate row 2 : new south wales | black/yellow | aa\u00b7nn\u00b7aa | new south wales | bx\u00b799\u00b7hi | no slogan on current series row 3 : new south wales | black/white | aaa\u00b7nna | nsw | cpx\u00b712a | optional white slimline series row 4 : northern territory | ochre/white | ca\u00b7nn\u00b7aa | nt \u00b7 outback australia | cb\u00b706\u00b7zz | new series began in june 2011 row 5 : queensland | maroon/white | nnn\u00b7aaa | queensland \u00b7 sunshine state | 999\u00b7tlg | slogan embossed on plate row 6 : south australia | black/white | snnn\u00b7aaa | south australia | s000\u00b7azd | no slogan on current series row 7 : victoria | blue/white | aaa\u00b7nnn | victoria - the place to be | zzz\u00b7562 | current series will be exhausted this year"
+        }
+    },
+    "WikiSQL--train--4": {
+        "original dialog id": "",
+        "dialog index": 4,
+        "original dialog info": {
+            "phase": 1,
+            "question": "Name the background colour for the Australian Capital Territory",
+            "table": {
+                "header": [
+                    "State/territory",
+                    "Text/background colour",
+                    "Format",
+                    "Current slogan",
+                    "Current series",
+                    "Notes"
+                ],
+                "page_title": "",
+                "page_id": "",
+                "types": [
+                    "text",
+                    "text",
+                    "text",
+                    "text",
+                    "text",
+                    "text"
+                ],
+                "id": "1-1000181-1",
+                "section_title": "",
+                "caption": "",
+                "rows": [
+                    [
+                        "Australian Capital Territory",
+                        "blue/white",
+                        "Yaa\u00b7nna",
+                        "ACT \u00b7 CELEBRATION OF A CENTURY 2013",
+                        "YIL\u00b700A",
+                        "Slogan screenprinted on plate"
+                    ],
+                    [
+                        "New South Wales",
+                        "black/yellow",
+                        "aa\u00b7nn\u00b7aa",
+                        "NEW SOUTH WALES",
+                        "BX\u00b799\u00b7HI",
+                        "No slogan on current series"
+                    ],
+                    [
+                        "New South Wales",
+                        "black/white",
+                        "aaa\u00b7nna",
+                        "NSW",
+                        "CPX\u00b712A",
+                        "Optional white slimline series"
+                    ],
+                    [
+                        "Northern Territory",
+                        "ochre/white",
+                        "Ca\u00b7nn\u00b7aa",
+                        "NT \u00b7 OUTBACK AUSTRALIA",
+                        "CB\u00b706\u00b7ZZ",
+                        "New series began in June 2011"
+                    ],
+                    [
+                        "Queensland",
+                        "maroon/white",
+                        "nnn\u00b7aaa",
+                        "QUEENSLAND \u00b7 SUNSHINE STATE",
+                        "999\u00b7TLG",
+                        "Slogan embossed on plate"
+                    ],
+                    [
+                        "South Australia",
+                        "black/white",
+                        "Snnn\u00b7aaa",
+                        "SOUTH AUSTRALIA",
+                        "S000\u00b7AZD",
+                        "No slogan on current series"
+                    ],
+                    [
+                        "Victoria",
+                        "blue/white",
+                        "aaa\u00b7nnn",
+                        "VICTORIA - THE PLACE TO BE",
+                        "ZZZ\u00b7562",
+                        "Current series will be exhausted this year"
+                    ]
+                ],
+                "name": "table_1000181_1"
+            },
+            "sql": {
+                "human_readable": "SELECT Text/background colour FROM table WHERE State/territory = Australian Capital Territory",
+                "sel": 1,
+                "agg": 0,
+                "conds": {
+                    "column_index": [
+                        0
+                    ],
+                    "operator_index": [
+                        0
+                    ],
+                    "condition": [
+                        "Australian Capital Territory"
+                    ]
+                }
+            },
+            "answer_text": [
+                "blue/white"
+            ]
+        },
+        "log": {
+            "turn id": 1,
+            "user utterance": "name the background colour for the australian capital territory",
+            "system response": "blue/white",
+            "dialog history": "",
+            "original user side information": {},
+            "original system side information": {},
+            "external knowledge": "col : state/territory | text/background colour | format | current slogan | current series | notes row 1 : australian capital territory | blue/white | yaa\u00b7nna | act \u00b7 celebration of a century 2013 | yil\u00b700a | slogan screenprinted on plate row 2 : new south wales | black/yellow | aa\u00b7nn\u00b7aa | new south wales | bx\u00b799\u00b7hi | no slogan on current series row 3 : new south wales | black/white | aaa\u00b7nna | nsw | cpx\u00b712a | optional white slimline series row 4 : northern territory | ochre/white | ca\u00b7nn\u00b7aa | nt \u00b7 outback australia | cb\u00b706\u00b7zz | new series began in june 2011 row 5 : queensland | maroon/white | nnn\u00b7aaa | queensland \u00b7 sunshine state | 999\u00b7tlg | slogan embossed on plate row 6 : south australia | black/white | snnn\u00b7aaa | south australia | s000\u00b7azd | no slogan on current series row 7 : victoria | blue/white | aaa\u00b7nnn | victoria - the place to be | zzz\u00b7562 | current series will be exhausted this year"
+        }
+    },
+    "WikiSQL--train--5": {
+        "original dialog id": "",
+        "dialog index": 5,
+        "original dialog info": {
+            "phase": 1,
+            "question": "how many times is the fuel propulsion is cng?",
+            "table": {
+                "header": [
+                    "Order Year",
+                    "Manufacturer",
+                    "Model",
+                    "Fleet Series (Quantity)",
+                    "Powertrain (Engine/Transmission)",
+                    "Fuel Propulsion"
+                ],
+                "page_title": "Torrance Transit",
+                "page_id": "",
+                "types": [
+                    "text",
+                    "text",
+                    "text",
+                    "text",
+                    "text",
+                    "text"
+                ],
+                "id": "1-10007452-3",
+                "section_title": "Fleet",
+                "caption": "Fleet",
+                "rows": [
+                    [
+                        "1992-93",
+                        "Gillig",
+                        "Phantom (High Floor)",
+                        "444-464 (21)",
+                        "DD S50EGR Allison WB-400R",
+                        "Diesel"
+                    ],
+                    [
+                        "1996",
+                        "Gillig",
+                        "Phantom (High Floor)",
+                        "465-467 (3)",
+                        "DD S50 Allison WB-400R",
+                        "Diesel"
+                    ],
+                    [
+                        "1998",
+                        "Gillig",
+                        "Phantom (High Floor)",
+                        "468-473 (6)",
+                        "DD S50 Allison WB-400R",
+                        "Diesel"
+                    ],
+                    [
+                        "2000",
+                        "Gillig",
+                        "Advantage (Low Floor)",
+                        "474-481 (8)",
+                        "Cummins ISC Allison WB-400R",
+                        "Diesel"
+                    ],
+                    [
+                        "2002",
+                        "Gillig",
+                        "Advantage (Low Floor)",
+                        "482-492 (11)",
+                        "Cummins ISL Allison WB-400R",
+                        "Diesel"
+                    ],
+                    [
+                        "2010",
+                        "NFI",
+                        "GE40LFR",
+                        "300-309 (10)",
+                        "Ford Triton V10 ISE-Thundervolt TB40",
+                        "Hybrid"
+                    ],
+                    [
+                        "2011",
+                        "NFI",
+                        "C40LFR",
+                        "310-329 (20)",
+                        "Cummins Westport ISL-G Allison WB-400R",
+                        "CNG"
+                    ]
+                ],
+                "name": "table_10007452_3"
+            },
+            "sql": {
+                "human_readable": "SELECT COUNT Fleet Series (Quantity) FROM table WHERE Fuel Propulsion = CNG",
+                "sel": 3,
+                "agg": 3,
+                "conds": {
+                    "column_index": [
+                        5
+                    ],
+                    "operator_index": [
+                        0
+                    ],
+                    "condition": [
+                        "CNG"
+                    ]
+                }
+            },
+            "answer_text": [
+                "1.0"
+            ]
+        },
+        "log": {
+            "turn id": 1,
+            "user utterance": "how many times is the fuel propulsion is cng?",
+            "system response": "1.0",
+            "dialog history": "",
+            "original user side information": {},
+            "original system side information": {},
+            "external knowledge": "col : order year | manufacturer | model | fleet series (quantity) | powertrain (engine/transmission) | fuel propulsion row 1 : 1992-93 | gillig | phantom (high floor) | 444-464 (21) | dd s50egr allison wb-400r | diesel row 2 : 1996 | gillig | phantom (high floor) | 465-467 (3) | dd s50 allison wb-400r | diesel row 3 : 1998 | gillig | phantom (high floor) | 468-473 (6) | dd s50 allison wb-400r | diesel row 4 : 2000 | gillig | advantage (low floor) | 474-481 (8) | cummins isc allison wb-400r | diesel row 5 : 2002 | gillig | advantage (low floor) | 482-492 (11) | cummins isl allison wb-400r | diesel row 6 : 2010 | nfi | ge40lfr | 300-309 (10) | ford triton v10 ise-thundervolt tb40 | hybrid row 7 : 2011 | nfi | c40lfr | 310-329 (20) | cummins westport isl-g allison wb-400r | cng"
+        }
+    }
+}

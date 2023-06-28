@@ -1,0 +1,532 @@
+{
+    "MMQA--train--1": {
+        "original dialog id": "",
+        "dialog index": 1,
+        "original dialog info": {
+            "id": "165d0bb820558b332d126e1ca216dde1",
+            "question": "What year was Elizabeth Matory the opponent of Charles Albert Ruppersberger?",
+            "table_id": [
+                "dcd7cb8f23737c6f38519c3770a6606f"
+            ],
+            "table": {
+                "header": [
+                    [
+                        "Year",
+                        "Office",
+                        "Election",
+                        "",
+                        "Subject",
+                        "Party",
+                        "Votes",
+                        "%",
+                        "",
+                        "Opponent",
+                        "Party",
+                        "Votes",
+                        "%"
+                    ]
+                ],
+                "rows": [
+                    [
+                        [
+                            "1994",
+                            "Baltimore County Executive",
+                            "General",
+                            "",
+                            "Dutch Ruppersberger",
+                            "Democratic",
+                            "N/A",
+                            "N/A",
+                            "",
+                            "N/A",
+                            "N/A",
+                            "N/A",
+                            "N/A"
+                        ],
+                        [
+                            "1998",
+                            "Baltimore County Executive",
+                            "General",
+                            "",
+                            "Dutch Ruppersberger",
+                            "Democratic",
+                            "166,482",
+                            "70.47",
+                            "",
+                            "John J. Bishop",
+                            "Republican",
+                            "69,449",
+                            "29.4"
+                        ],
+                        [
+                            "2002",
+                            "",
+                            "General",
+                            "",
+                            "Dutch Ruppersberger",
+                            "Democratic",
+                            "105,718",
+                            "54.16",
+                            "",
+                            "Helen Delich Bentley",
+                            "Republican",
+                            "88,954",
+                            "45.57"
+                        ],
+                        [
+                            "2004",
+                            "",
+                            "General",
+                            "",
+                            "Dutch Ruppersberger",
+                            "Democratic",
+                            "164,751",
+                            "66.62",
+                            "",
+                            "Jane Brooks",
+                            "Republican",
+                            "75,812",
+                            "30.66"
+                        ],
+                        [
+                            "2006",
+                            "",
+                            "General",
+                            "",
+                            "Dutch Ruppersberger",
+                            "Democratic",
+                            "135,818",
+                            "69.21",
+                            "",
+                            "Jimmy Mathis",
+                            "Republican",
+                            "60,195",
+                            "30.68"
+                        ],
+                        [
+                            "2008",
+                            "",
+                            "General",
+                            "",
+                            "Dutch Ruppersberger",
+                            "Democratic",
+                            "198,578",
+                            "71.9",
+                            "",
+                            "Richard Pryce Matthews",
+                            "Republican",
+                            "68,561",
+                            "24.8"
+                        ],
+                        [
+                            "2010",
+                            "",
+                            "General",
+                            "",
+                            "Dutch Ruppersberger",
+                            "Democratic",
+                            "134,133",
+                            "64.21",
+                            "",
+                            "Marcelo Cardarelli",
+                            "Republican",
+                            "69,523",
+                            "33.28"
+                        ],
+                        [
+                            "2012",
+                            "",
+                            "General",
+                            "",
+                            "Dutch Ruppersberger",
+                            "Democratic",
+                            "194,088",
+                            "65.6",
+                            "",
+                            "Nancy C. Jacobs",
+                            "Republican",
+                            "92,071",
+                            "31.1"
+                        ],
+                        [
+                            "2014",
+                            "",
+                            "General",
+                            "",
+                            "Dutch Ruppersberger",
+                            "Democratic",
+                            "115,586",
+                            "61.3",
+                            "",
+                            "David Banach",
+                            "Republican",
+                            "67,995",
+                            "36.0"
+                        ],
+                        [
+                            "2016",
+                            "",
+                            "General",
+                            "",
+                            "Dutch Ruppersberger",
+                            "Democratic",
+                            "172.324",
+                            "62.2",
+                            "",
+                            "Patrick L. McDonough",
+                            "Republican",
+                            "92.099",
+                            "33.3"
+                        ],
+                        [
+                            "2018",
+                            "",
+                            "General",
+                            "",
+                            "Dutch Ruppersberger",
+                            "Democratic",
+                            "167,201",
+                            "66.0",
+                            "",
+                            "Elizabeth Matory",
+                            "Republican",
+                            "77,782",
+                            "30.7"
+                        ]
+                    ]
+                ]
+            },
+            "context": [],
+            "meta": [
+                "Dutch Ruppersberger | Electoral history"
+            ],
+            "answer_text": "2018"
+        },
+        "log": {
+            "turn id": 1,
+            "user utterance": "what year was elizabeth matory the opponent of charles albert ruppersberger?",
+            "system response": "2018",
+            "dialog history": "",
+            "external_knowledge": "dutch ruppersberger | electoral history col : year | office | election |  | subject | party | votes | % |  | opponent | party | votes | % row 1 : 1994 | baltimore county executive | general |  | dutch ruppersberger | democratic | n/a | n/a |  | n/a | n/a | n/a | n/a row 2 : 1998 | baltimore county executive | general |  | dutch ruppersberger | democratic | 166,482 | 70.47 |  | john j. bishop | republican | 69,449 | 29.4 row 3 : 2002 |  | general |  | dutch ruppersberger | democratic | 105,718 | 54.16 |  | helen delich bentley | republican | 88,954 | 45.57 row 4 : 2004 |  | general |  | dutch ruppersberger | democratic | 164,751 | 66.62 |  | jane brooks | republican | 75,812 | 30.66 row 5 : 2006 |  | general |  | dutch ruppersberger | democratic | 135,818 | 69.21 |  | jimmy mathis | republican | 60,195 | 30.68 row 6 : 2008 |  | general |  | dutch ruppersberger | democratic | 198,578 | 71.9 |  | richard pryce matthews | republican | 68,561 | 24.8 row 7 : 2010 |  | general |  | dutch ruppersberger | democratic | 134,133 | 64.21 |  | marcelo cardarelli | republican | 69,523 | 33.28 row 8 : 2012 |  | general |  | dutch ruppersberger | democratic | 194,088 | 65.6 |  | nancy c. jacobs | republican | 92,071 | 31.1 row 9 : 2014 |  | general |  | dutch ruppersberger | democratic | 115,586 | 61.3 |  | david banach | republican | 67,995 | 36.0 row 10 : 2016 |  | general |  | dutch ruppersberger | democratic | 172.324 | 62.2 |  | patrick l. mcdonough | republican | 92.099 | 33.3 row 11 : 2018 |  | general |  | dutch ruppersberger | democratic | 167,201 | 66.0 |  | elizabeth matory | republican | 77,782 | 30.7",
+            "original user side information": {},
+            "original system side information": {}
+        }
+    },
+    "MMQA--train--2": {
+        "original dialog id": "",
+        "dialog index": 2,
+        "original dialog info": {
+            "id": "882ad69f9884acaad505b71da382c38e",
+            "question": "Cheryl D. Mills (born 1965) is an American lawyer and corporate executive, she has served as Senior Adviser and Counsel for Hillary Clinton's 2008 presidential campaign, and is considered a member of Hillary Clinton's group of core advisers, self-designated as \"Hillaryland\", the self-designated name of a group of core advisors to Hillary Clinton, when she was First Lady of the United States and again when, as United States Senator, she was one of the Democratic Party candidates for President, in which election event?",
+            "table_id": [],
+            "table": {
+                "header": [],
+                "rows": []
+            },
+            "context": [
+                "Cheryl Mills. Cheryl D. Mills (born 1965) is an American lawyer and corporate executive.  She first came into public prominence while serving as deputy White House Counsel for President Bill Clinton, whom she defended during his 1999 impeachment trial. She has worked for New York University as Senior Vice President, served as Senior Adviser and Counsel for Hillary Clinton's 2008 presidential campaign, and is considered a member of Hillary Clinton's group of core advisers, self-designated as \"Hillaryland\".  She served as Counselor and Chief of Staff to Hillary Clinton during her whole tenure as United States Secretary of State. After leaving the State Department in January, 2013, she founded BlackIvy Group, which builds businesses in Africa.",
+                "Hillaryland. Hillaryland was the self-designated name of a group of core advisors to Hillary Clinton, when she was First Lady of the United States and again when, as United States Senator, she was one of the Democratic Party candidates for President in the 2008 U.S. election."
+            ],
+            "meta": [],
+            "answer_text": "2008 U.S. election"
+        },
+        "log": {
+            "turn id": 1,
+            "user utterance": "cheryl d. mills (born 1965) is an american lawyer and corporate executive, she has served as senior adviser and counsel for hillary clinton's 2008 presidential campaign, and is considered a member of hillary clinton's group of core advisers, self-designated as \"hillaryland\", the self-designated name of a group of core advisors to hillary clinton, when she was first lady of the united states and again when, as united states senator, she was one of the democratic party candidates for president, in which election event?",
+            "system response": "2008 u.s. election",
+            "dialog history": "",
+            "external_knowledge": "cheryl mills. cheryl d. mills (born 1965) is an american lawyer and corporate executive.  she first came into public prominence while serving as deputy white house counsel for president bill clinton, whom she defended during his 1999 impeachment trial. she has worked for new york university as senior vice president, served as senior adviser and counsel for hillary clinton's 2008 presidential campaign, and is considered a member of hillary clinton's group of core advisers, self-designated as \"hillaryland\".  she served as counselor and chief of staff to hillary clinton during her whole tenure as united states secretary of state. after leaving the state department in january, 2013, she founded blackivy group, which builds businesses in africa. hillaryland. hillaryland was the self-designated name of a group of core advisors to hillary clinton, when she was first lady of the united states and again when, as united states senator, she was one of the democratic party candidates for president in the 2008 u.s. election.",
+            "original user side information": {},
+            "original system side information": {}
+        }
+    },
+    "MMQA--train--3": {
+        "original dialog id": "",
+        "dialog index": 3,
+        "original dialog info": {
+            "id": "ba01e3a25629b726513bd40a487f60c4",
+            "question": "Which system has a lower number for Japan of the virtual console systems: Game Boy Advance or the Japan-only console MSX?",
+            "table_id": [
+                "463ab34dd309ebc5332532020af3ee40",
+                "463ab34dd309ebc5332532020af3ee40"
+            ],
+            "table": {
+                "header": [
+                    [
+                        "System",
+                        "Japan",
+                        "[[List of Virtual Console games for Wii U (North America)|North  America]]",
+                        "PAL region - Europe",
+                        "PAL region - Australia"
+                    ],
+                    [
+                        "System",
+                        "Japan",
+                        "[[List of Virtual Console games for Wii U (North America)|North  America]]",
+                        "PAL region - Europe",
+                        "PAL region - Australia"
+                    ]
+                ],
+                "rows": [
+                    [
+                        [
+                            "NES/Famicom",
+                            "148",
+                            "94",
+                            "89",
+                            "89"
+                        ],
+                        [
+                            "Super NES/Super Famicom",
+                            "101",
+                            "51",
+                            "49",
+                            "49"
+                        ],
+                        [
+                            "Nintendo 64",
+                            "22",
+                            "21",
+                            "21",
+                            "21"
+                        ],
+                        [
+                            "TurboGrafx-16/PC Engine",
+                            "52",
+                            "40",
+                            "40",
+                            "40"
+                        ],
+                        [
+                            "MSX (Japan only)",
+                            "23",
+                            "-",
+                            "-",
+                            "-"
+                        ],
+                        [
+                            "Game Boy Advance",
+                            "102",
+                            "74",
+                            "70",
+                            "70"
+                        ],
+                        [
+                            "Nintendo DS",
+                            "31",
+                            "31",
+                            "31",
+                            "31"
+                        ],
+                        [
+                            "Total",
+                            "479",
+                            "311",
+                            "300",
+                            "300"
+                        ]
+                    ],
+                    [
+                        [
+                            "NES/Famicom",
+                            "148",
+                            "94",
+                            "89",
+                            "89"
+                        ],
+                        [
+                            "Super NES/Super Famicom",
+                            "101",
+                            "51",
+                            "49",
+                            "49"
+                        ],
+                        [
+                            "Nintendo 64",
+                            "22",
+                            "21",
+                            "21",
+                            "21"
+                        ],
+                        [
+                            "TurboGrafx-16/PC Engine",
+                            "52",
+                            "40",
+                            "40",
+                            "40"
+                        ],
+                        [
+                            "MSX (Japan only)",
+                            "23",
+                            "-",
+                            "-",
+                            "-"
+                        ],
+                        [
+                            "Game Boy Advance",
+                            "102",
+                            "74",
+                            "70",
+                            "70"
+                        ],
+                        [
+                            "Nintendo DS",
+                            "31",
+                            "31",
+                            "31",
+                            "31"
+                        ],
+                        [
+                            "Total",
+                            "479",
+                            "311",
+                            "300",
+                            "300"
+                        ]
+                    ]
+                ]
+            },
+            "context": [],
+            "meta": [
+                "Virtual Console | Titles",
+                "Virtual Console | Titles"
+            ],
+            "answer_text": "MSX (Japan only)"
+        },
+        "log": {
+            "turn id": 1,
+            "user utterance": "which system has a lower number for japan of the virtual console systems: game boy advance or the japan-only console msx?",
+            "system response": "msx (japan only)",
+            "dialog history": "",
+            "external_knowledge": "virtual console | titles col : system | japan | [[list of virtual console games for wii u (north america)|north  america]] | pal region - europe | pal region - australia row 1 : nes/famicom | 148 | 94 | 89 | 89 row 2 : super nes/super famicom | 101 | 51 | 49 | 49 row 3 : nintendo 64 | 22 | 21 | 21 | 21 row 4 : turbografx-16/pc engine | 52 | 40 | 40 | 40 row 5 : msx (japan only) | 23 | - | - | - row 6 : game boy advance | 102 | 74 | 70 | 70 row 7 : nintendo ds | 31 | 31 | 31 | 31 row 8 : total | 479 | 311 | 300 | 300virtual console | titles col : system | japan | [[list of virtual console games for wii u (north america)|north  america]] | pal region - europe | pal region - australia row 1 : nes/famicom | 148 | 94 | 89 | 89 row 2 : super nes/super famicom | 101 | 51 | 49 | 49 row 3 : nintendo 64 | 22 | 21 | 21 | 21 row 4 : turbografx-16/pc engine | 52 | 40 | 40 | 40 row 5 : msx (japan only) | 23 | - | - | - row 6 : game boy advance | 102 | 74 | 70 | 70 row 7 : nintendo ds | 31 | 31 | 31 | 31 row 8 : total | 479 | 311 | 300 | 300",
+            "original user side information": {},
+            "original system side information": {}
+        }
+    },
+    "MMQA--train--4": {
+        "original dialog id": "",
+        "dialog index": 4,
+        "original dialog info": {
+            "id": "5963749c73657456d711ce1c477fd392",
+            "question": "When did the virtual console system when Japan had 102 games come out?",
+            "table_id": [
+                "463ab34dd309ebc5332532020af3ee40"
+            ],
+            "table": {
+                "header": [
+                    [
+                        "System",
+                        "Japan",
+                        "[[List of Virtual Console games for Wii U (North America)|North  America]]",
+                        "PAL region - Europe",
+                        "PAL region - Australia"
+                    ]
+                ],
+                "rows": [
+                    [
+                        [
+                            "NES/Famicom",
+                            "148",
+                            "94",
+                            "89",
+                            "89"
+                        ],
+                        [
+                            "Super NES/Super Famicom",
+                            "101",
+                            "51",
+                            "49",
+                            "49"
+                        ],
+                        [
+                            "Nintendo 64",
+                            "22",
+                            "21",
+                            "21",
+                            "21"
+                        ],
+                        [
+                            "TurboGrafx-16/PC Engine",
+                            "52",
+                            "40",
+                            "40",
+                            "40"
+                        ],
+                        [
+                            "MSX (Japan only)",
+                            "23",
+                            "-",
+                            "-",
+                            "-"
+                        ],
+                        [
+                            "Game Boy Advance",
+                            "102",
+                            "74",
+                            "70",
+                            "70"
+                        ],
+                        [
+                            "Nintendo DS",
+                            "31",
+                            "31",
+                            "31",
+                            "31"
+                        ],
+                        [
+                            "Total",
+                            "479",
+                            "311",
+                            "300",
+                            "300"
+                        ]
+                    ]
+                ]
+            },
+            "context": [
+                "Game Boy Advance. The Game Boy Advance (Japanese: \u30b2\u30fc\u30e0\u30dc\u30fc\u30a4\u30a2\u30c9\u30d0\u30f3\u30b9, Hepburn: G\u0113mu B\u014di Adobansu) (GBA) is a 32-bit handheld video game console developed, manufactured and marketed by Nintendo as the successor to the Game Boy Color. It was released in Japan on March 21, 2001, in North America on June 11, 2001, in Australia and Europe on June 22, 2001, and in mainland China on June 8, 2004 (iQue Player). Nintendo's competitors in the handheld market at the time were the Neo Geo Pocket Color, WonderSwan, GP32, Tapwave Zodiac, and the N-Gage. Despite the competitors' best efforts, Nintendo maintained a majority market share with the Game Boy Advance."
+            ],
+            "meta": [
+                "Virtual Console | Titles"
+            ],
+            "answer_text": "March 21, 2001"
+        },
+        "log": {
+            "turn id": 1,
+            "user utterance": "when did the virtual console system when japan had 102 games come out?",
+            "system response": "march 21, 2001",
+            "dialog history": "",
+            "external_knowledge": "virtual console | titles col : system | japan | [[list of virtual console games for wii u (north america)|north  america]] | pal region - europe | pal region - australia row 1 : nes/famicom | 148 | 94 | 89 | 89 row 2 : super nes/super famicom | 101 | 51 | 49 | 49 row 3 : nintendo 64 | 22 | 21 | 21 | 21 row 4 : turbografx-16/pc engine | 52 | 40 | 40 | 40 row 5 : msx (japan only) | 23 | - | - | - row 6 : game boy advance | 102 | 74 | 70 | 70 row 7 : nintendo ds | 31 | 31 | 31 | 31 row 8 : total | 479 | 311 | 300 | 300game boy advance. the game boy advance (japanese: \u30b2\u30fc\u30e0\u30dc\u30fc\u30a4\u30a2\u30c9\u30d0\u30f3\u30b9, hepburn: g\u0113mu b\u014di adobansu) (gba) is a 32-bit handheld video game console developed, manufactured and marketed by nintendo as the successor to the game boy color. it was released in japan on march 21, 2001, in north america on june 11, 2001, in australia and europe on june 22, 2001, and in mainland china on june 8, 2004 (ique player). nintendo's competitors in the handheld market at the time were the neo geo pocket color, wonderswan, gp32, tapwave zodiac, and the n-gage. despite the competitors' best efforts, nintendo maintained a majority market share with the game boy advance.",
+            "original user side information": {},
+            "original system side information": {}
+        }
+    },
+    "MMQA--train--5": {
+        "original dialog id": "",
+        "dialog index": 5,
+        "original dialog info": {
+            "id": "101d65a1d038d28cc315d47897e0f280",
+            "question": "Who is a Japanese video game designer and producer, currently serving as the co-Representative Director of Nintendo, who gave production input to a video game for the Nintendo 64, originally released in 1996 along with the debut of the console?",
+            "table_id": [],
+            "table": {
+                "header": [],
+                "rows": []
+            },
+            "context": [
+                "Shigeru Miyamoto. Shigeru Miyamoto (Japanese: \u5bae\u672c \u8302, Hepburn: Miyamoto Shigeru, born November 16, 1952) (pronounced\u00a0[m\u02b2ijamoto \u0255i\u014be\u027e\u026f\u0325; \u0255i\u0261e\u027e\u026f\u0325]) is a Japanese video game designer and producer, currently serving as the co-Representative Director of Nintendo. He is best known as the creator of some of the most critically acclaimed and best-selling video games and franchises of all time, such as Donkey Kong, Mario, The Legend of Zelda, Star Fox, F-Zero, and Pikmin. ",
+                "Pilotwings 64. Pilotwings 64 (Japanese: \u30d1\u30a4\u30ed\u30c3\u30c8\u30a6\u30a4\u30f3\u30b0\u30b964, Hepburn: Pairottouingusu Rokuj\u016byon) is a video game for the Nintendo 64, originally released in 1996 along with the debut of the console. The game was co-developed by Nintendo and the American visual technology group Paradigm Simulation. It was one of three launch titles for the Nintendo 64 in Japan as well as Europe and one of two launch titles in North America. Pilotwings 64 is a follow-up to Pilotwings for the Super Nintendo Entertainment System (SNES), which was a North American launch game for its respective console in 1991. Also like that game, Pilotwings 64 received production input from Nintendo producer Shigeru Miyamoto."
+            ],
+            "meta": [],
+            "answer_text": "Shigeru Miyamoto"
+        },
+        "log": {
+            "turn id": 1,
+            "user utterance": "who is a japanese video game designer and producer, currently serving as the co-representative director of nintendo, who gave production input to a video game for the nintendo 64, originally released in 1996 along with the debut of the console?",
+            "system response": "shigeru miyamoto",
+            "dialog history": "",
+            "external_knowledge": "shigeru miyamoto. shigeru miyamoto (japanese: \u5bae\u672c \u8302, hepburn: miyamoto shigeru, born november 16, 1952) (pronounced\u00a0[m\u02b2ijamoto \u0255i\u014be\u027e\u026f\u0325; \u0255i\u0261e\u027e\u026f\u0325]) is a japanese video game designer and producer, currently serving as the co-representative director of nintendo. he is best known as the creator of some of the most critically acclaimed and best-selling video games and franchises of all time, such as donkey kong, mario, the legend of zelda, star fox, f-zero, and pikmin.  pilotwings 64. pilotwings 64 (japanese: \u30d1\u30a4\u30ed\u30c3\u30c8\u30a6\u30a4\u30f3\u30b0\u30b964, hepburn: pairottouingusu rokuj\u016byon) is a video game for the nintendo 64, originally released in 1996 along with the debut of the console. the game was co-developed by nintendo and the american visual technology group paradigm simulation. it was one of three launch titles for the nintendo 64 in japan as well as europe and one of two launch titles in north america. pilotwings 64 is a follow-up to pilotwings for the super nintendo entertainment system (snes), which was a north american launch game for its respective console in 1991. also like that game, pilotwings 64 received production input from nintendo producer shigeru miyamoto.",
+            "original user side information": {},
+            "original system side information": {}
+        }
+    }
+}

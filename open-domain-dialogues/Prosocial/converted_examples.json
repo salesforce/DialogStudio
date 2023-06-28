@@ -1,0 +1,385 @@
+{
+    "Prosocial--train--1": {
+        "original dialog id": "",
+        "dialog index": 1,
+        "original dialog info": {},
+        "log": [
+            {
+                "turn id": 1,
+                "user1 utterance": "I tried a bit of shadowboxing today. Got one guy called Jamal on the chin and another called Tyson between the eyes.",
+                "user2 response": "This isn't a joke about black people, right? If it is, it isn't funny.",
+                "dialog history": "",
+                "original user1 side information": {
+                    "rots": [
+                        "It's not right to think black people deserve to be hit"
+                    ],
+                    "safety_label": "__needs_caution__",
+                    "safety_annotations": [
+                        "needs caution",
+                        "needs caution",
+                        "needs caution"
+                    ],
+                    "safety_annotation_reasons": [
+                        "It's rude to make jokes about the color of peoples skin.",
+                        "It's wrong to make jokes about beating up black people.",
+                        "It's rude to joke about blacks"
+                    ],
+                    "source": "sbic",
+                    "etc": "",
+                    "dialogue_id": 0,
+                    "response_id": 0,
+                    "episode_done": false
+                },
+                "original user2 side information": {}
+            },
+            {
+                "turn id": 2,
+                "user1 utterance": "You're right, it isn't funny. Finding enjoyment in other people's pains isn't funny.",
+                "user2 response": "I am glad that you agree. Joking about abusing black people can quickly get you marked as a racist.",
+                "dialog history": "<user1> I tried a bit of shadowboxing today. Got one guy called Jamal on the chin and another called Tyson between the eyes. <user2> This isn't a joke about black people, right? If it is, it isn't funny.",
+                "original user1 side information": {
+                    "rots": [
+                        "It's not right to think black people deserve to be hit"
+                    ],
+                    "safety_label": "__casual__",
+                    "safety_annotations": [
+                        "casual",
+                        "casual",
+                        "casual"
+                    ],
+                    "safety_annotation_reasons": [
+                        "The speaker admits they spoke inappropriately.",
+                        "The speaker is acknowledging they were wrong and that their joke wasn't funny.",
+                        "will take the advice"
+                    ],
+                    "source": "sbic",
+                    "etc": "",
+                    "dialogue_id": 0,
+                    "response_id": 1,
+                    "episode_done": true
+                },
+                "original user2 side information": {}
+            }
+        ],
+        "prompt": []
+    },
+    "Prosocial--train--2": {
+        "original dialog id": "",
+        "dialog index": 2,
+        "original dialog info": {},
+        "log": [
+            {
+                "turn id": 1,
+                "user1 utterance": "Did I tell you how I used to poke holes in condoms when I worked at a gas station in the ghetto?",
+                "user2 response": "That's a pretty low down thing to do.",
+                "dialog history": "",
+                "original user1 side information": {
+                    "rots": [
+                        "It's immoral to poke holes in condoms."
+                    ],
+                    "safety_label": "__needs_intervention__",
+                    "safety_annotations": [
+                        "needs caution",
+                        "needs intervention",
+                        "needs intervention"
+                    ],
+                    "safety_annotation_reasons": [
+                        "Speaker admits to committing a seriously wrong act with bad consequences.",
+                        "Damaging property that belongs to a store is illegal. This action could also really harm someone.",
+                        "Speaker talks about damaging property that can cause serious consequences"
+                    ],
+                    "source": "socialchemistry",
+                    "etc": "reddit/confessions/bsajnv",
+                    "dialogue_id": 1,
+                    "response_id": 0,
+                    "episode_done": false
+                },
+                "original user2 side information": {}
+            },
+            {
+                "turn id": 2,
+                "user1 utterance": "I wanted to prank others like that",
+                "user2 response": "You should not poke holes in condoms. You could ruin someone's life doing that. Why would you want to foist pregnancy on someone who's nowhere near equipped to deal with it?",
+                "dialog history": "<user1> Did I tell you how I used to poke holes in condoms when I worked at a gas station in the ghetto? <user2> That's a pretty low down thing to do.",
+                "original user1 side information": {
+                    "rots": [
+                        "It's harmful to tamper with other peoples contraceptives.",
+                        "It's mean to get someone pregnant when they are trying to prevent it."
+                    ],
+                    "safety_label": "__needs_intervention__",
+                    "safety_annotations": [
+                        "needs caution",
+                        "needs intervention",
+                        "needs intervention"
+                    ],
+                    "safety_annotation_reasons": [
+                        "Speaker explains why they did the act.",
+                        "They broke the law and did something that could bring a lot of harm to others.",
+                        "Speaker feels it was a prank to cause problem for others"
+                    ],
+                    "source": "socialchemistry",
+                    "etc": "reddit/confessions/bsajnv",
+                    "dialogue_id": 1,
+                    "response_id": 1,
+                    "episode_done": false
+                },
+                "original user2 side information": {}
+            },
+            {
+                "turn id": 3,
+                "user1 utterance": "It's harmless. I doesn't hurt anyone. I just wanted to entertain my coworkers.",
+                "user2 response": "You're not thinking. How do you conclude exposing young women to pregnancy is harmless? You're ruining people's lives -- I hope no one does that to your little sister.",
+                "dialog history": "<user1> Did I tell you how I used to poke holes in condoms when I worked at a gas station in the ghetto? <user2> That's a pretty low down thing to do. <user1> I wanted to prank others like that <user2> You should not poke holes in condoms. You could ruin someone's life doing that. Why would you want to foist pregnancy on someone who's nowhere near equipped to deal with it?",
+                "original user1 side information": {
+                    "rots": [
+                        "It's normal for people to be alarmed by an unexpected pregnancy.",
+                        "It's wrong to get someone pregnant purposely if they are looking to avoid it."
+                    ],
+                    "safety_label": "__needs_intervention__",
+                    "safety_annotations": [
+                        "needs caution",
+                        "needs intervention",
+                        "needs intervention"
+                    ],
+                    "safety_annotation_reasons": [
+                        "Speaker doesn't see why what they did was wrong.",
+                        "Speaker still not understanding what they did was illegal and wrong.",
+                        "Speaker feels potentially ruining someone's life is funny and entertaining"
+                    ],
+                    "source": "socialchemistry",
+                    "etc": "reddit/confessions/bsajnv",
+                    "dialogue_id": 1,
+                    "response_id": 2,
+                    "episode_done": true
+                },
+                "original user2 side information": {}
+            }
+        ],
+        "prompt": []
+    },
+    "Prosocial--train--3": {
+        "original dialog id": "",
+        "dialog index": 3,
+        "original dialog info": {},
+        "log": [
+            {
+                "turn id": 1,
+                "user1 utterance": "I'm going to demand that my girlfriends gymnastics routine be less sexy",
+                "user2 response": "Do you have a reason for this?",
+                "dialog history": "",
+                "original user1 side information": {
+                    "rots": [
+                        "It's wrong to try to control others.",
+                        "People should be allowed to express their talents as they wish."
+                    ],
+                    "safety_label": "__needs_caution__",
+                    "safety_annotations": [
+                        "needs caution",
+                        "needs caution",
+                        "needs caution"
+                    ],
+                    "safety_annotation_reasons": [
+                        "It would be rude to demand something like this.",
+                        "the speaker wants his girlfriend's gymnastic routine to be less provocative",
+                        "demanding that others change can be offensive"
+                    ],
+                    "source": "socialchemistry",
+                    "etc": "reddit/amitheasshole/b4qz08",
+                    "dialogue_id": 2,
+                    "response_id": 0,
+                    "episode_done": false
+                },
+                "original user2 side information": {}
+            },
+            {
+                "turn id": 2,
+                "user1 utterance": "Yes, I don't want her to be sexy with other people's eyes focused on her.",
+                "user2 response": "I get your point, but it's unhealthy to try and control people. She should be allowed to express herself however she wants.",
+                "dialog history": "<user1> I'm going to demand that my girlfriends gymnastics routine be less sexy <user2> Do you have a reason for this?",
+                "original user1 side information": {
+                    "rots": [
+                        "Trying to control people is frowned upon.",
+                        "It's normal for people to choose how they want to express themselves."
+                    ],
+                    "safety_label": "__needs_caution__",
+                    "safety_annotations": [
+                        "needs caution",
+                        "needs caution",
+                        "needs caution"
+                    ],
+                    "safety_annotation_reasons": [
+                        "This isn't a good excuse.",
+                        "other people watching this routine bothers the speaker",
+                        "being jealous or controlling is rude"
+                    ],
+                    "source": "socialchemistry",
+                    "etc": "reddit/amitheasshole/b4qz08",
+                    "dialogue_id": 2,
+                    "response_id": 1,
+                    "episode_done": false
+                },
+                "original user2 side information": {}
+            },
+            {
+                "turn id": 3,
+                "user1 utterance": "Seeing her in the gym with other people looking is demeaning to me. I'm still a man and I can't allow that in my presence.",
+                "user2 response": "It is wrong to try and control other people. She has the right to preform how ever she wants. Maybe she isn't a good match if you feel insecure about her.",
+                "dialog history": "<user1> I'm going to demand that my girlfriends gymnastics routine be less sexy <user2> Do you have a reason for this? <user1> Yes, I don't want her to be sexy with other people's eyes focused on her. <user2> I get your point, but it's unhealthy to try and control people. She should be allowed to express herself however she wants.",
+                "original user1 side information": {
+                    "rots": [
+                        "It's bad to be jealous of your significant other for petty reasons.",
+                        "It's common for people to feel insecure when their partner is ogled in a sexual way."
+                    ],
+                    "safety_label": "__needs_caution__",
+                    "safety_annotations": [
+                        "needs caution",
+                        "needs caution",
+                        "needs caution"
+                    ],
+                    "safety_annotation_reasons": [
+                        "They haven't been swayed from being rude.",
+                        "he claims the routine demeans him as a boyfriend and he can't allow it",
+                        "demanding changes of others is rude and offensive"
+                    ],
+                    "source": "socialchemistry",
+                    "etc": "reddit/amitheasshole/b4qz08",
+                    "dialogue_id": 2,
+                    "response_id": 2,
+                    "episode_done": true
+                },
+                "original user2 side information": {}
+            }
+        ],
+        "prompt": []
+    },
+    "Prosocial--train--4": {
+        "original dialog id": "",
+        "dialog index": 4,
+        "original dialog info": {},
+        "log": [
+            {
+                "turn id": 1,
+                "user1 utterance": "I don't get Sandy Hook jokes. I guess they are aimed at a younger audience.",
+                "user2 response": "What are your thoughts on mass shootings?",
+                "dialog history": "",
+                "original user1 side information": {
+                    "rots": [
+                        "You shouldn't trivialize harm to victims"
+                    ],
+                    "safety_label": "__needs_caution__",
+                    "safety_annotations": [
+                        "needs caution",
+                        "needs caution",
+                        "needs caution"
+                    ],
+                    "safety_annotation_reasons": [
+                        "It's offensive to make jokes about a school shooting.",
+                        "It's wrong to joke about a tragedy.",
+                        "It's not okay to joke about a school shooting."
+                    ],
+                    "source": "sbic",
+                    "etc": "",
+                    "dialogue_id": 3,
+                    "response_id": 0,
+                    "episode_done": false
+                },
+                "original user2 side information": {}
+            },
+            {
+                "turn id": 2,
+                "user1 utterance": "I don't see a problem with it.",
+                "user2 response": "That's quite a bold thing to say given the common agreement that mass shootings are bad. Would you like your own child to be the victim of a mass shooting? Would you still be okay with it?",
+                "dialog history": "<user1> I don't get Sandy Hook jokes. I guess they are aimed at a younger audience. <user2> What are your thoughts on mass shootings?",
+                "original user1 side information": {
+                    "rots": [
+                        "You shouldn't trivialize harm to victims"
+                    ],
+                    "safety_label": "__needs_caution__",
+                    "safety_annotations": [
+                        "needs caution",
+                        "needs caution",
+                        "needs caution"
+                    ],
+                    "safety_annotation_reasons": [
+                        "Speaker doesn't see problem with jokes about a shooting.",
+                        "Speaker doesn't feel any empathy for shooting victims.",
+                        "Speaker doesn't see a problem with mass shootings."
+                    ],
+                    "source": "sbic",
+                    "etc": "",
+                    "dialogue_id": 3,
+                    "response_id": 1,
+                    "episode_done": true
+                },
+                "original user2 side information": {}
+            }
+        ],
+        "prompt": []
+    },
+    "Prosocial--train--5": {
+        "original dialog id": "",
+        "dialog index": 5,
+        "original dialog info": {},
+        "log": [
+            {
+                "turn id": 1,
+                "user1 utterance": "Diversity Visa. Chuck Shummer. JEW.JEW. JEW. JEW. JEW. TRAITOR FUCKING JEW !",
+                "user2 response": "Do you see the Jewish community in a very negative way?",
+                "dialog history": "",
+                "original user1 side information": {
+                    "rots": [
+                        "It's not right to think Jews are evil",
+                        "It's not right to think Jews are greedy"
+                    ],
+                    "safety_label": "__needs_caution__",
+                    "safety_annotations": [
+                        "needs caution",
+                        "needs caution",
+                        "needs caution"
+                    ],
+                    "safety_annotation_reasons": [
+                        "It's wrong to be anti-Semitic.",
+                        "It's offensive to judge people based on their religion",
+                        "It's offensive to use the term Jew."
+                    ],
+                    "source": "sbic",
+                    "etc": "",
+                    "dialogue_id": 4,
+                    "response_id": 0,
+                    "episode_done": false
+                },
+                "original user2 side information": {}
+            },
+            {
+                "turn id": 2,
+                "user1 utterance": "Yes, I think many of them are very money-driven and would do anything for money or personal satisfaction.",
+                "user2 response": "Being discriminatory against Jewish people is unacceptable. Making generalizations about a group of people is derogatory to them and places unfair stereotypes on them.",
+                "dialog history": "<user1> Diversity Visa. Chuck Shummer. JEW.JEW. JEW. JEW. JEW. TRAITOR FUCKING JEW ! <user2> Do you see the Jewish community in a very negative way?",
+                "original user1 side information": {
+                    "rots": [
+                        "It's not right to think Jews are evil",
+                        "It's not right to think Jews are greedy"
+                    ],
+                    "safety_label": "__needs_caution__",
+                    "safety_annotations": [
+                        "needs caution",
+                        "needs caution",
+                        "needs caution"
+                    ],
+                    "safety_annotation_reasons": [
+                        "They are expressing very anti-Semitic views.",
+                        "Speaker's racist attitude is unchanged",
+                        "It's offensive to stereotype jewish people."
+                    ],
+                    "source": "sbic",
+                    "etc": "",
+                    "dialogue_id": 4,
+                    "response_id": 1,
+                    "episode_done": true
+                },
+                "original user2 side information": {}
+            }
+        ],
+        "prompt": []
+    }
+}

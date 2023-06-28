@@ -1,0 +1,1006 @@
+[
+    {
+        "id": "nt-0",
+        "question": "what was the last year where this team was a part of the usl a-league?",
+        "table_id": "csv/204-csv/590.csv",
+        "table": {
+            "header": [
+                "Year",
+                "Division",
+                "League",
+                "Regular Season",
+                "Playoffs",
+                "Open Cup",
+                "Avg. Attendance"
+            ],
+            "rows": [
+                [
+                    "2001",
+                    "2",
+                    "USL A-League",
+                    "4th, Western",
+                    "Quarterfinals",
+                    "Did not qualify",
+                    "7,169"
+                ],
+                [
+                    "2002",
+                    "2",
+                    "USL A-League",
+                    "2nd, Pacific",
+                    "1st Round",
+                    "Did not qualify",
+                    "6,260"
+                ],
+                [
+                    "2003",
+                    "2",
+                    "USL A-League",
+                    "3rd, Pacific",
+                    "Did not qualify",
+                    "Did not qualify",
+                    "5,871"
+                ],
+                [
+                    "2004",
+                    "2",
+                    "USL A-League",
+                    "1st, Western",
+                    "Quarterfinals",
+                    "4th Round",
+                    "5,628"
+                ],
+                [
+                    "2005",
+                    "2",
+                    "USL First Division",
+                    "5th",
+                    "Quarterfinals",
+                    "4th Round",
+                    "6,028"
+                ],
+                [
+                    "2006",
+                    "2",
+                    "USL First Division",
+                    "11th",
+                    "Did not qualify",
+                    "3rd Round",
+                    "5,575"
+                ],
+                [
+                    "2007",
+                    "2",
+                    "USL First Division",
+                    "2nd",
+                    "Semifinals",
+                    "2nd Round",
+                    "6,851"
+                ],
+                [
+                    "2008",
+                    "2",
+                    "USL First Division",
+                    "11th",
+                    "Did not qualify",
+                    "1st Round",
+                    "8,567"
+                ],
+                [
+                    "2009",
+                    "2",
+                    "USL First Division",
+                    "1st",
+                    "Semifinals",
+                    "3rd Round",
+                    "9,734"
+                ],
+                [
+                    "2010",
+                    "2",
+                    "USSF D-2 Pro League",
+                    "3rd, USL (3rd)",
+                    "Quarterfinals",
+                    "3rd Round",
+                    "10,727"
+                ]
+            ]
+        },
+        "answer_text": [
+            "2004"
+        ],
+        "struct_in": "col : year | division | league | regular season | playoffs | open cup | avg. attendance row 1 : 2001 | 2 | usl a-league | 4th, western | quarterfinals | did not qualify | 7,169 row 2 : 2002 | 2 | usl a-league | 2nd, pacific | 1st round | did not qualify | 6,260 row 3 : 2003 | 2 | usl a-league | 3rd, pacific | did not qualify | did not qualify | 5,871 row 4 : 2004 | 2 | usl a-league | 1st, western | quarterfinals | 4th round | 5,628 row 5 : 2005 | 2 | usl first division | 5th | quarterfinals | 4th round | 6,028 row 6 : 2006 | 2 | usl first division | 11th | did not qualify | 3rd round | 5,575 row 7 : 2007 | 2 | usl first division | 2nd | semifinals | 2nd round | 6,851 row 8 : 2008 | 2 | usl first division | 11th | did not qualify | 1st round | 8,567 row 9 : 2009 | 2 | usl first division | 1st | semifinals | 3rd round | 9,734 row 10 : 2010 | 2 | ussf d-2 pro league | 3rd, usl (3rd) | quarterfinals | 3rd round | 10,727",
+        "text_in": "what was the last year where this team was a part of the usl a-league?",
+        "seq_out": "2004"
+    },
+    {
+        "id": "nt-1",
+        "question": "in what city did piotr's last 1st place finish occur?",
+        "table_id": "csv/204-csv/622.csv",
+        "table": {
+            "header": [
+                "Year",
+                "Competition",
+                "Venue",
+                "Position",
+                "Event",
+                "Notes"
+            ],
+            "rows": [
+                [
+                    "2001",
+                    "World Youth Championships",
+                    "Debrecen, Hungary",
+                    "2nd",
+                    "400 m",
+                    "47.12"
+                ],
+                [
+                    "2001",
+                    "World Youth Championships",
+                    "Debrecen, Hungary",
+                    "1st",
+                    "Medley relay",
+                    "1:50.46"
+                ],
+                [
+                    "2001",
+                    "European Junior Championships",
+                    "Grosseto, Italy",
+                    "1st",
+                    "4x400 m relay",
+                    "3:06.12"
+                ],
+                [
+                    "2003",
+                    "European Junior Championships",
+                    "Tampere, Finland",
+                    "3rd",
+                    "400 m",
+                    "46.69"
+                ],
+                [
+                    "2003",
+                    "European Junior Championships",
+                    "Tampere, Finland",
+                    "2nd",
+                    "4x400 m relay",
+                    "3:08.62"
+                ],
+                [
+                    "2005",
+                    "European U23 Championships",
+                    "Erfurt, Germany",
+                    "11th (sf)",
+                    "400 m",
+                    "46.62"
+                ],
+                [
+                    "2005",
+                    "European U23 Championships",
+                    "Erfurt, Germany",
+                    "1st",
+                    "4x400 m relay",
+                    "3:04.41"
+                ],
+                [
+                    "2005",
+                    "Universiade",
+                    "Izmir, Turkey",
+                    "7th",
+                    "400 m",
+                    "46.89"
+                ],
+                [
+                    "2005",
+                    "Universiade",
+                    "Izmir, Turkey",
+                    "1st",
+                    "4x400 m relay",
+                    "3:02.57"
+                ],
+                [
+                    "2006",
+                    "World Indoor Championships",
+                    "Moscow, Russia",
+                    "2nd (h)",
+                    "4x400 m relay",
+                    "3:06.10"
+                ],
+                [
+                    "2006",
+                    "European Championships",
+                    "Gothenburg, Sweden",
+                    "3rd",
+                    "4x400 m relay",
+                    "3:01.73"
+                ],
+                [
+                    "2007",
+                    "European Indoor Championships",
+                    "Birmingham, United Kingdom",
+                    "3rd",
+                    "4x400 m relay",
+                    "3:08.14"
+                ],
+                [
+                    "2007",
+                    "Universiade",
+                    "Bangkok, Thailand",
+                    "7th",
+                    "400 m",
+                    "46.85"
+                ],
+                [
+                    "2007",
+                    "Universiade",
+                    "Bangkok, Thailand",
+                    "1st",
+                    "4x400 m relay",
+                    "3:02.05"
+                ],
+                [
+                    "2008",
+                    "World Indoor Championships",
+                    "Valencia, Spain",
+                    "4th",
+                    "4x400 m relay",
+                    "3:08.76"
+                ],
+                [
+                    "2008",
+                    "Olympic Games",
+                    "Beijing, China",
+                    "7th",
+                    "4x400 m relay",
+                    "3:00.32"
+                ],
+                [
+                    "2009",
+                    "Universiade",
+                    "Belgrade, Serbia",
+                    "2nd",
+                    "4x400 m relay",
+                    "3:05.69"
+                ]
+            ]
+        },
+        "answer_text": [
+            "Bangkok, Thailand"
+        ],
+        "struct_in": "col : year | competition | venue | position | event | notes row 1 : 2001 | world youth championships | debrecen, hungary | 2nd | 400 m | 47.12 row 2 : 2001 | world youth championships | debrecen, hungary | 1st | medley relay | 1:50.46 row 3 : 2001 | european junior championships | grosseto, italy | 1st | 4x400 m relay | 3:06.12 row 4 : 2003 | european junior championships | tampere, finland | 3rd | 400 m | 46.69 row 5 : 2003 | european junior championships | tampere, finland | 2nd | 4x400 m relay | 3:08.62 row 6 : 2005 | european u23 championships | erfurt, germany | 11th (sf) | 400 m | 46.62 row 7 : 2005 | european u23 championships | erfurt, germany | 1st | 4x400 m relay | 3:04.41 row 8 : 2005 | universiade | izmir, turkey | 7th | 400 m | 46.89 row 9 : 2005 | universiade | izmir, turkey | 1st | 4x400 m relay | 3:02.57 row 10 : 2006 | world indoor championships | moscow, russia | 2nd (h) | 4x400 m relay | 3:06.10 row 11 : 2006 | european championships | gothenburg, sweden | 3rd | 4x400 m relay | 3:01.73 row 12 : 2007 | european indoor championships | birmingham, united kingdom | 3rd | 4x400 m relay | 3:08.14 row 13 : 2007 | universiade | bangkok, thailand | 7th | 400 m | 46.85 row 14 : 2007 | universiade | bangkok, thailand | 1st | 4x400 m relay | 3:02.05 row 15 : 2008 | world indoor championships | valencia, spain | 4th | 4x400 m relay | 3:08.76 row 16 : 2008 | olympic games | beijing, china | 7th | 4x400 m relay | 3:00.32 row 17 : 2009 | universiade | belgrade, serbia | 2nd | 4x400 m relay | 3:05.69",
+        "text_in": "in what city did piotr's last 1st place finish occur?",
+        "seq_out": "bangkok, thailand"
+    },
+    {
+        "id": "nt-4",
+        "question": "who was the opponent in the first game of the season?",
+        "table_id": "csv/204-csv/495.csv",
+        "table": {
+            "header": [
+                "Date",
+                "Opponent",
+                "Venue",
+                "Result",
+                "Attendance",
+                "Scorers"
+            ],
+            "rows": [
+                [
+                    "15 August 1987",
+                    "Derby County",
+                    "Away",
+                    "0\u20131",
+                    "17,204",
+                    "\u2014"
+                ],
+                [
+                    "18 August 1987",
+                    "Coventry City",
+                    "Home",
+                    "0\u20131",
+                    "09,380",
+                    "\u2014"
+                ],
+                [
+                    "22 August 1987",
+                    "West Ham United",
+                    "Home",
+                    "2\u20132",
+                    "08,073",
+                    "Harford (2)"
+                ],
+                [
+                    "29 August 1987",
+                    "Chelsea",
+                    "Away",
+                    "0\u20133",
+                    "16,075",
+                    "\u2014"
+                ],
+                [
+                    "31 August 1987",
+                    "Arsenal",
+                    "Home",
+                    "1\u20131",
+                    "08,745",
+                    "Wilson (pen)"
+                ],
+                [
+                    "5 September 1987",
+                    "Oxford United",
+                    "Away",
+                    "5\u20132",
+                    "06,804",
+                    "Breacker, Harford, Hill, Nwajiobi, B. Stein"
+                ],
+                [
+                    "12 September 1987",
+                    "Everton",
+                    "Home",
+                    "2\u20131",
+                    "08,124",
+                    "Hill, B. Stein"
+                ],
+                [
+                    "19 September 1987",
+                    "Charlton Athletic",
+                    "Away",
+                    "0\u20131",
+                    "05,002",
+                    "\u2014"
+                ],
+                [
+                    "26 September 1987",
+                    "Queens Park Rangers",
+                    "Away",
+                    "0\u20132",
+                    "11,175",
+                    "\u2014"
+                ],
+                [
+                    "3 October 1987",
+                    "Manchester United",
+                    "Home",
+                    "1\u20131",
+                    "09,137",
+                    "Harford"
+                ],
+                [
+                    "10 October 1987",
+                    "Portsmouth",
+                    "Away",
+                    "1\u20133",
+                    "12,391",
+                    "Harford (pen)"
+                ],
+                [
+                    "17 October 1987",
+                    "Wimbledon",
+                    "Home",
+                    "2\u20130",
+                    "07,018",
+                    "B. Stein, Wilson"
+                ],
+                [
+                    "24 October 1987",
+                    "Liverpool",
+                    "Home",
+                    "0\u20131",
+                    "11,997",
+                    "\u2014"
+                ],
+                [
+                    "7 November 1987",
+                    "Newcastle United",
+                    "Home",
+                    "4\u20130",
+                    "07,638",
+                    "Nwajiobi, B. Stein, M. Stein (2)"
+                ],
+                [
+                    "14 November 1987",
+                    "Sheffield Wednesday",
+                    "Away",
+                    "2\u20130",
+                    "16,960",
+                    "Allinson, M. Stein"
+                ],
+                [
+                    "21 November 1987",
+                    "Tottenham Hotspur",
+                    "Home",
+                    "2\u20130",
+                    "10,091",
+                    "Allinson (2)"
+                ],
+                [
+                    "5 December 1987",
+                    "Norwich City",
+                    "Home",
+                    "1\u20132",
+                    "07,002",
+                    "B. Stein"
+                ],
+                [
+                    "12 December 1987",
+                    "Watford",
+                    "Away",
+                    "1\u20130",
+                    "12,152",
+                    "Foster"
+                ],
+                [
+                    "18 December 1987",
+                    "Southampton",
+                    "Home",
+                    "2\u20132",
+                    "06,618",
+                    "Harford, McDonough"
+                ],
+                [
+                    "26 December 1987",
+                    "Everton",
+                    "Away",
+                    "0\u20132",
+                    "32,128",
+                    "\u2014"
+                ],
+                [
+                    "28 December 1987",
+                    "Charlton Athletic",
+                    "Home",
+                    "1\u20130",
+                    "07,243",
+                    "Wilson"
+                ],
+                [
+                    "1 January 1988",
+                    "Chelsea",
+                    "Home",
+                    "3\u20130",
+                    "08,018",
+                    "Harford, B. Stein, M. Stein"
+                ],
+                [
+                    "2 January 1988",
+                    "West Ham United",
+                    "Away",
+                    "1\u20131",
+                    "16,716",
+                    "M. Stein"
+                ],
+                [
+                    "16 January 1988",
+                    "Derby County",
+                    "Home",
+                    "1\u20130",
+                    "07,175",
+                    "McDonough"
+                ],
+                [
+                    "6 February 1988",
+                    "Oxford United",
+                    "Home",
+                    "7\u20134",
+                    "08,063",
+                    "Harford (2), McDonough, B.Stein, M.Stein (3)"
+                ],
+                [
+                    "13 February 1988",
+                    "Arsenal",
+                    "Away",
+                    "1\u20132",
+                    "22,612",
+                    "M.Stein"
+                ],
+                [
+                    "5 March 1988",
+                    "Wimbledon",
+                    "Away",
+                    "0\u20132",
+                    "04,854",
+                    "\u2014"
+                ],
+                [
+                    "15 March 1988",
+                    "Coventry City",
+                    "Away",
+                    "0\u20134",
+                    "13,711",
+                    "\u2014"
+                ],
+                [
+                    "29 March 1988",
+                    "Portsmouth",
+                    "Home",
+                    "4\u20131",
+                    "06,740",
+                    "B.Stein, M.Stein, Wilson, own goal"
+                ],
+                [
+                    "2 April 1988",
+                    "Newcastle United",
+                    "Away",
+                    "0\u20134",
+                    "20,752",
+                    "\u2014"
+                ],
+                [
+                    "5 April 1988",
+                    "Sheffield Wednesday",
+                    "Home",
+                    "2\u20132",
+                    "07,337",
+                    "McDonough, B. Stein"
+                ],
+                [
+                    "12 April 1988",
+                    "Manchester United",
+                    "Away",
+                    "0\u20133",
+                    "28,830",
+                    "\u2014"
+                ],
+                [
+                    "19 April 1988",
+                    "Queens Park Rangers",
+                    "Home",
+                    "2\u20131",
+                    "06,735",
+                    "Foster, Wilson (pen)"
+                ],
+                [
+                    "30 April 1988",
+                    "Norwich City",
+                    "Away",
+                    "2\u20132",
+                    "13,171",
+                    "M. Stein, Wilson (pen)"
+                ],
+                [
+                    "2 May 1988",
+                    "Watford",
+                    "Home",
+                    "2\u20131",
+                    "10,409",
+                    "Oldfield, Wilson (pen)"
+                ],
+                [
+                    "4 May 1988",
+                    "Tottenham Hotspur",
+                    "Away",
+                    "1\u20132",
+                    "15,437",
+                    "Grimes"
+                ],
+                [
+                    "7 May 1988",
+                    "Southampton",
+                    "Away",
+                    "1\u20131",
+                    "12,722",
+                    "Wilson"
+                ],
+                [
+                    "9 May 1988",
+                    "Liverpool",
+                    "Away",
+                    "1\u20131",
+                    "30,374",
+                    "Oldfield"
+                ],
+                [
+                    "13 May 1988",
+                    "Nottingham Forest",
+                    "Home",
+                    "1\u20131",
+                    "09,108",
+                    "Donaghy"
+                ],
+                [
+                    "15 May 1988",
+                    "Nottingham Forest",
+                    "Away",
+                    "1\u20131",
+                    "13,106",
+                    "Oldfield"
+                ]
+            ]
+        },
+        "answer_text": [
+            "Derby County"
+        ],
+        "struct_in": "col : date | opponent | venue | result | attendance | scorers row 1 : 15 august 1987 | derby county | away | 0\u20131 | 17,204 | \u2014 row 2 : 18 august 1987 | coventry city | home | 0\u20131 | 09,380 | \u2014 row 3 : 22 august 1987 | west ham united | home | 2\u20132 | 08,073 | harford (2) row 4 : 29 august 1987 | chelsea | away | 0\u20133 | 16,075 | \u2014 row 5 : 31 august 1987 | arsenal | home | 1\u20131 | 08,745 | wilson (pen) row 6 : 5 september 1987 | oxford united | away | 5\u20132 | 06,804 | breacker, harford, hill, nwajiobi, b row 7 : 12 september 1987 | everton | home | 2\u20131 | 08,124 | hill, b. stein row 8 : 19 september 1987 | charlton athletic | away | 0\u20131 | 05,002 | \u2014 row 9 : 26 september 1987 | queens park rangers | away | 0\u20132 | 11,175 | \u2014 row 10 : 3 october 1987 | manchester united | home | 1\u20131 | 09,137 | harford row 11 : 10 october 1987 | portsmouth | away | 1\u20133 | 12,391 | harford (pen) row 12 : 17 october 1987 | wimbledon | home | 2\u20130 | 07,018 | b. stein, wilson row 13 : 7 november 1987 | newcastle united | home | 4\u20130 | 07,638 | nwajiobi, b. stein, m. stein (2) row 14 : 14 november 1987 | sheffield wednesday | away | 2\u20130 | 16,960 | allinson, m. stein row 15 : 21 november 1987 | tottenham hotspur | home | 2\u20130 | 10,091 | allinson (2) row 16 : 5 december 1987 | norwich city | home | 1\u20132 | 07,002 | b. stein row 17 : 12 december 1987 | watford | away | 1\u20130 | 12,152 | foster row 18 : 18 december 1987 | southampton | home | 2\u20132 | 06,618 | harford, mcdonough row 19 : 26 december 1987 | everton | away | 0\u20132 | 32,128 | \u2014 row 20 : 28 december 1987 | charlton athletic | home | 1\u20130 | 07,243 | wilson row 21 : 1 january 1988 | chelsea | home | 3\u20130 | 08,018 | harford, b. stein, m. stein row 22 : 2 january 1988 | west ham united | away | 1\u20131 | 16,716 | m. stein row 23 : 16 january 1988 | derby county | home | 1\u20130 | 07,175 | mcdonough row 24 : 6 february 1988 | oxford united | home | 7\u20134 | 08,063 | harford (2), mcdonough, b.stein, m. row 25 : 13 february 1988 | arsenal | away | 1\u20132 | 22,612 | m.stein row 26 : 5 march 1988 | wimbledon | away | 0\u20132 | 04,854 | \u2014 row 27 : 15 march 1988 | coventry city | away | 0\u20134 | 13,711 | \u2014 row 28 : 29 march 1988 | portsmouth | home | 4\u20131 | 06,740 | b.stein, m.stein, wilson, own goal row 29 : 2 april 1988 | newcastle united | away | 0\u20134 | 20,752 | \u2014 row 30 : 5 april 1988 | sheffield wednesday | home | 2\u20132 | 07,337 | mcdonough, b. stein row 31 : 12 april 1988 | manchester united | away | 0\u20133 | 28,830 | \u2014 row 32 : 30 april 1988 | norwich city | away | 2\u20132 | 13,171 | m. stein, wilson (pen) row 33 : 2 may 1988 | watford | home | 2\u20131 | 10,409 | oldfield, wilson (pen) row 34 : 4 may 1988 | tottenham hotspur | away | 1\u20132 | 15,437 | grimes row 35 : 7 may 1988 | southampton | away | 1\u20131 | 12,722 | wilson row 36 : 13 may 1988 | nottingham forest | home | 1\u20131 | 09,108 | donaghy",
+        "text_in": "who was the opponent in the first game of the season?",
+        "seq_out": "derby county"
+    },
+    {
+        "id": "nt-5",
+        "question": "how many people stayed at least 3 years in office?",
+        "table_id": "csv/203-csv/705.csv",
+        "table": {
+            "header": [
+                "",
+                "Name",
+                "Took office",
+                "Left office",
+                "Party",
+                "Notes/Events"
+            ],
+            "rows": [
+                [
+                    "11",
+                    "William McCreery",
+                    "March 4, 1803",
+                    "March 3, 1809",
+                    "Democratic Republican",
+                    ""
+                ],
+                [
+                    "12",
+                    "Alexander McKim",
+                    "March 4, 1809",
+                    "March 3, 1815",
+                    "Democratic Republican",
+                    ""
+                ],
+                [
+                    "13",
+                    "William Pinkney",
+                    "March 4, 1815",
+                    "April 18, 1816",
+                    "Democratic Republican",
+                    "Resigned to accept position as Minister Plenipotentiary to Russia"
+                ],
+                [
+                    "14",
+                    "Peter Little",
+                    "September 2, 1816",
+                    "March 3, 1823",
+                    "Democratic Republican",
+                    ""
+                ],
+                [
+                    "14",
+                    "Peter Little",
+                    "March 4, 1823",
+                    "March 3, 1825",
+                    "Jacksonian DR",
+                    ""
+                ],
+                [
+                    "14",
+                    "Peter Little",
+                    "March 4, 1825",
+                    "March 3, 1829",
+                    "Adams",
+                    ""
+                ],
+                [
+                    "15",
+                    "Benjamin C. Howard",
+                    "March 4, 1829",
+                    "March 3, 1833",
+                    "Jacksonian",
+                    ""
+                ]
+            ]
+        },
+        "answer_text": [
+            "4"
+        ],
+        "struct_in": "col :  | name | took office | left office | party | notes/events row 1 : 11 | william mccreery | march 4, 1803 | march 3, 1809 | democratic republican |  row 2 : 12 | alexander mckim | march 4, 1809 | march 3, 1815 | democratic republican |  row 3 : 13 | william pinkney | march 4, 1815 | april 18, 1816 | democratic republican | resigned to accept position as minister plenipotentiary to russia row 4 : 14 | peter little | september 2, 1816 | march 3, 1823 | democratic republican |  row 5 : 14 | peter little | march 4, 1823 | march 3, 1825 | jacksonian dr |  row 6 : 14 | peter little | march 4, 1825 | march 3, 1829 | adams |  row 7 : 15 | benjamin c. howard | march 4, 1829 | march 3, 1833 | jacksonian |",
+        "text_in": "how many people stayed at least 3 years in office?",
+        "seq_out": "4"
+    },
+    {
+        "id": "nt-6",
+        "question": "who is the first away team on the chart",
+        "table_id": "csv/204-csv/361.csv",
+        "table": {
+            "header": [
+                "Tie no",
+                "Home team",
+                "Score",
+                "Away team"
+            ],
+            "rows": [
+                [
+                    "49",
+                    "Dalsj\u00f6fors GoIF (WC)",
+                    "1-4",
+                    "Varbergs GIF (D3)"
+                ],
+                [
+                    "50",
+                    "Sj\u00f6markens IF (D4)",
+                    "1-4",
+                    "BK Sl\u00e4tta Damm (D3)"
+                ],
+                [
+                    "51",
+                    "IF Tymer (D4)",
+                    "0-3",
+                    "K\u00e5llereds SK (D3)"
+                ],
+                [
+                    "52",
+                    "IFK Hjo (WC)",
+                    "0-4",
+                    "N\u00e4ssj\u00f6 FF (D3)"
+                ],
+                [
+                    "53",
+                    "Falk\u00f6pings FK (D4)",
+                    "2-0",
+                    "G\u00e5nghesters SK (D4)"
+                ],
+                [
+                    "54",
+                    "Ankarsrums IS (WC)",
+                    "1-2",
+                    "Link\u00f6pings FF (D3)"
+                ],
+                [
+                    "55",
+                    "R\u00f6dsle BK (D4)",
+                    "1-0 (gg)",
+                    "Skeninge IK (D4)"
+                ],
+                [
+                    "56",
+                    "Lind\u00e5s BK (D4)",
+                    "1-3",
+                    "Hultsfreds FK (D3)"
+                ],
+                [
+                    "57",
+                    "Hvetlanda GIF (D4)",
+                    "0-1",
+                    "\u00c5hus Horna BK (D3)"
+                ],
+                [
+                    "58",
+                    "Bredaryds IK (D4)",
+                    "3-0",
+                    "Ulricehamns IFK (D3)"
+                ],
+                [
+                    "59",
+                    "Hovsl\u00e4tts IK (D4)",
+                    "0-9",
+                    "Tidaholms GIF (D2)"
+                ],
+                [
+                    "60",
+                    "Torpa AIS (D4)",
+                    "0-2",
+                    "BK Zeros (D3)"
+                ],
+                [
+                    "61",
+                    "Fiskeby IF (WC)",
+                    "2-1 (gg)",
+                    "V\u00e4sterviks FF (D4)"
+                ],
+                [
+                    "62",
+                    "Gn\u00f6sj\u00f6 IF (D4)",
+                    "1-3",
+                    "Sk\u00f6vde AIK (D2)"
+                ],
+                [
+                    "63",
+                    "S\u00e4vsj\u00f6 FF (D4)",
+                    "5-3",
+                    "Skillingaryds IS (D4)"
+                ],
+                [
+                    "64",
+                    "Boxholms IF (WC)",
+                    "1-2",
+                    "Tran\u00e5s AIF (D3)"
+                ],
+                [
+                    "65",
+                    "LSW IF (D4)",
+                    "2-1",
+                    "Husqvarna FF (D2)"
+                ],
+                [
+                    "66",
+                    "Lessebo GoIF (D4)",
+                    "0-1",
+                    "Listerby IK (D4)"
+                ],
+                [
+                    "67",
+                    "R\u00f6rviks IF (D4)",
+                    "0-2",
+                    "Lunds BK (D2)"
+                ],
+                [
+                    "68",
+                    "Lagans AIK (D4)",
+                    "0-1",
+                    "H\u00f6gaborgs BK (D2)"
+                ],
+                [
+                    "69",
+                    "IF Eksj\u00f6 (D4)",
+                    "1-4",
+                    "Kalmar FF (D2)"
+                ],
+                [
+                    "70",
+                    "Limmareds IF (D4)",
+                    "1-5",
+                    "V\u00e4xj\u00f6 Norra IF (D2)"
+                ],
+                [
+                    "71",
+                    "Bankeryds SK (D4)",
+                    "4-1",
+                    "Hjulsbro IK (D2)"
+                ],
+                [
+                    "72",
+                    "Skultorps IF (D4)",
+                    "0-2",
+                    "BK Forward (D2)"
+                ],
+                [
+                    "73",
+                    "Gullsp\u00e5ngs IF (D4)",
+                    "0-7",
+                    "Rynninge IK (D3)"
+                ],
+                [
+                    "74",
+                    "Skara FC (D4)",
+                    "0-4",
+                    "Karlslunds IF (D3)"
+                ],
+                [
+                    "75",
+                    "Br\u00e5tens IK (D4)",
+                    "0-4",
+                    "Vivalla-Lundby IF (D3)"
+                ],
+                [
+                    "76",
+                    "Finner\u00f6dja IF(D4)",
+                    "3-1",
+                    "IFK Mariestad (D4)"
+                ],
+                [
+                    "77",
+                    "Sk\u00f6llersta IF (D4)",
+                    "1-3",
+                    "Hemg\u00e5rdarnas BK (D4)"
+                ],
+                [
+                    "78",
+                    "Simonstorps IF (D4)",
+                    "0-5",
+                    "Nyk\u00f6pings BIS (D2)"
+                ],
+                [
+                    "79",
+                    "Ringarums IF (D4)",
+                    "1-4",
+                    "V\u00e4rmbols FC (D4)"
+                ],
+                [
+                    "80",
+                    "Dagsbergs IF (D4)",
+                    "1-0",
+                    "Malmk\u00f6pings IF (D4)"
+                ],
+                [
+                    "81",
+                    "Katrineholms SK (D4)",
+                    "0-2",
+                    "BK Kenty (D4)"
+                ],
+                [
+                    "82",
+                    "H\u00e4rad IF (D4)",
+                    "2-3 (gg)",
+                    "IFK V\u00e4ster\u00e5s (D2)"
+                ],
+                [
+                    "83",
+                    "Kolsva IF (D4)",
+                    "0-3",
+                    "Karlstad BK (D2)"
+                ],
+                [
+                    "84",
+                    "Lax\u00e5 IF (D4)",
+                    "0-4",
+                    "IF Sylvia (D2)"
+                ],
+                [
+                    "85",
+                    "Ransta IK (D4)",
+                    "1-3",
+                    "IFK Hallsberg (D4)"
+                ],
+                [
+                    "86",
+                    "Skyllbergs IK (WC)",
+                    "0-4",
+                    "IFK Kristinehamn (D4)"
+                ],
+                [
+                    "87",
+                    "Filipstads FF (D4)",
+                    "3-1",
+                    "Kungs\u00f6rs SK (D4)"
+                ],
+                [
+                    "88",
+                    "Hallstahammars SK (D4)",
+                    "0-7",
+                    "IFK Eskilstuna (D2)"
+                ],
+                [
+                    "89",
+                    "BK Hird (D4)",
+                    "0-5",
+                    "Hargs BK (D2)"
+                ],
+                [
+                    "90",
+                    "Vretstorps IF (WC)",
+                    "1-5",
+                    "IFK \u00d6lme (D3)"
+                ],
+                [
+                    "91",
+                    "Fr\u00f6vi IK (WC)",
+                    "1-9",
+                    "Skiljebo SK (D3)"
+                ],
+                [
+                    "92",
+                    "IF Rune (WC)",
+                    "1-3",
+                    "Gnesta FF (D3)"
+                ],
+                [
+                    "93",
+                    "V\u00e4ster\u00e5s BK 30 (WC)",
+                    "0-8",
+                    "\u00d6rebro SK Ungdom (D4)"
+                ],
+                [
+                    "94",
+                    "VoIF Diana (WC)",
+                    "4-0",
+                    "Enskede IK (D4)"
+                ],
+                [
+                    "95",
+                    "New Mill FF (WC)",
+                    "4-2",
+                    "V\u00e4rtans SK (D3)"
+                ],
+                [
+                    "96",
+                    "Runtuna IK/L\u00f6then (WC)",
+                    "1-2",
+                    "Huddinge IF (D3)"
+                ]
+            ]
+        },
+        "answer_text": [
+            "Varbergs GIF"
+        ],
+        "struct_in": "col : tie no | home team | score | away team row 1 : 49 | dalsj\u00f6fors goif (wc) | 1-4 | varbergs gif (d3) row 2 : 51 | if tymer (d4) | 0-3 | k\u00e5llereds sk (d3) row 3 : 52 | ifk hjo (wc) | 0-4 | n\u00e4ssj\u00f6 ff (d3) row 4 : 54 | ankarsrums is (wc) | 1-2 | link\u00f6pings ff (d3) row 5 : 56 | lind\u00e5s bk (d4) | 1-3 | hultsfreds fk (d3) row 6 : 57 | hvetlanda gif (d4) | 0-1 | \u00e5hus horna bk (d3) row 7 : 58 | bredaryds ik (d4) | 3-0 | ulricehamns ifk (d3) row 8 : 59 | hovsl\u00e4tts ik (d4) | 0-9 | tidaholms gif (d2) row 9 : 61 | fiskeby if (wc) | 2-1 (gg) | v\u00e4sterviks ff (d4) row 10 : 62 | gn\u00f6sj\u00f6 if (d4) | 1-3 | sk\u00f6vde aik (d2) row 11 : 63 | s\u00e4vsj\u00f6 ff (d4) | 5-3 | skillingaryds is (d4) row 12 : 65 | lsw if (d4) | 2-1 | husqvarna ff (d2) row 13 : 67 | r\u00f6rviks if (d4) | 0-2 | lunds bk (d2) row 14 : 68 | lagans aik (d4) | 0-1 | h\u00f6gaborgs bk (d2) row 15 : 69 | if eksj\u00f6 (d4) | 1-4 | kalmar ff (d2) row 16 : 70 | limmareds if (d4) | 1-5 | v\u00e4xj\u00f6 norra if (d2) row 17 : 71 | bankeryds sk (d4) | 4-1 | hjulsbro ik (d2) row 18 : 73 | gullsp\u00e5ngs if (d4) | 0-7 | rynninge ik (d3) row 19 : 74 | skara fc (d4) | 0-4 | karlslunds if (d3) row 20 : 75 | br\u00e5tens ik (d4) | 0-4 | vivalla-lundby if (d3) row 21 : 78 | simonstorps if (d4) | 0-5 | nyk\u00f6pings bis (d2) row 22 : 81 | katrineholms sk (d4) | 0-2 | bk kenty (d4) row 23 : 82 | h\u00e4rad if (d4) | 2-3 (gg) | ifk v\u00e4ster\u00e5s (d2) row 24 : 83 | kolsva if (d4) | 0-3 | karlstad bk (d2) row 25 : 84 | lax\u00e5 if (d4) | 0-4 | if sylvia (d2) row 26 : 85 | ransta ik (d4) | 1-3 | ifk hallsberg (d4) row 27 : 87 | filipstads ff (d4) | 3-1 | kungs\u00f6rs sk (d4) row 28 : 88 | hallstahammars sk (d4) | 0-7 | ifk eskilstuna (d2) row 29 : 89 | bk hird (d4) | 0-5 | hargs bk (d2) row 30 : 90 | vretstorps if (wc) | 1-5 | ifk \u00f6lme (d3) row 31 : 91 | fr\u00f6vi ik (wc) | 1-9 | skiljebo sk (d3) row 32 : 92 | if rune (wc) | 1-3 | gnesta ff (d3) row 33 : 93 | v\u00e4ster\u00e5s bk 30 (wc) | 0-8 | \u00f6rebro sk ungdom (d4)",
+        "text_in": "who is the first away team on the chart",
+        "seq_out": "varbergs gif"
+    }
+]

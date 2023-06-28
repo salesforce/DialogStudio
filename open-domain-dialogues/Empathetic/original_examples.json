@@ -1,0 +1,58 @@
+{
+    "conv_id": [
+        "hit:0_conv:0",
+        "hit:0_conv:0",
+        "hit:0_conv:0",
+        "hit:0_conv:0",
+        "hit:0_conv:0"
+    ],
+    "utterance_idx": [
+        1,
+        2,
+        3,
+        4,
+        5
+    ],
+    "context": [
+        "guilty",
+        "guilty",
+        "guilty",
+        "guilty",
+        "guilty"
+    ],
+    "prompt": [
+        "I felt guilty when I was driving home one night and a person tried to fly into my lane_comma_ and didn't see me. I honked and they swerved back into their lane_comma_ slammed on their brakes_comma_ and hit the water cones.",
+        "I felt guilty when I was driving home one night and a person tried to fly into my lane_comma_ and didn't see me. I honked and they swerved back into their lane_comma_ slammed on their brakes_comma_ and hit the water cones.",
+        "I felt guilty when I was driving home one night and a person tried to fly into my lane_comma_ and didn't see me. I honked and they swerved back into their lane_comma_ slammed on their brakes_comma_ and hit the water cones.",
+        "I felt guilty when I was driving home one night and a person tried to fly into my lane_comma_ and didn't see me. I honked and they swerved back into their lane_comma_ slammed on their brakes_comma_ and hit the water cones.",
+        "I felt guilty when I was driving home one night and a person tried to fly into my lane_comma_ and didn't see me. I honked and they swerved back into their lane_comma_ slammed on their brakes_comma_ and hit the water cones."
+    ],
+    "speaker_idx": [
+        0,
+        1,
+        0,
+        1,
+        0
+    ],
+    "utterance": [
+        "Yeah about 10 years ago I had a horrifying experience. It was 100% their fault but they hit the water barrels and survived. They had no injuries but they almost ran me off the road.",
+        "Did you suffer any injuries?",
+        "No I wasn't hit. It turned out they were drunk. I felt guilty but realized it was his fault.",
+        "Why did you feel guilty? People really shouldn't drive drunk.",
+        "I don't know I was new to driving and hadn't experienced anything like that. I felt like my horn made him swerve into the water barrels."
+    ],
+    "selfeval": [
+        "2|2|5_5|5|5",
+        "2|2|5_5|5|5",
+        "2|2|5_5|5|5",
+        "2|2|5_5|5|5",
+        "2|2|5_5|5|5"
+    ],
+    "tags": [
+        "",
+        "",
+        "",
+        "",
+        ""
+    ]
+}

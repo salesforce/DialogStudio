@@ -3,159 +3,7 @@
         "original dialog id": "dlg-0010a9d6-91c2-4b9b-ad73-33b44a8b5d42",
         "dialog index": 1,
         "original dialog info": {
-            "instruction_id": "hotel-2",
-            "slots and values": {
-                "hotel": {
-                    "sub_location": [
-                        "5-minute walk from both the Civic Center and a Bart rail station",
-                        "Possibly downtown",
-                        "0.5 blocks from the Port Authority Bus Terminal",
-                        "5-minute walk from Times Square",
-                        "3 miles from both the Audubon Zoo and Jackson Square"
-                    ],
-                    "location": [
-                        "downtown St. Louis Missouri",
-                        "in Salem",
-                        "Charles California",
-                        "Lake Helms New Orleans",
-                        "Los Angeles California"
-                    ],
-                    "price_range": [
-                        "don't want to spend anymore than $300 per night",
-                        "don't want to spend more than $300 a night",
-                        "from $150 per night to $250 per night",
-                        "one's cheaper",
-                        "$3000 or less"
-                    ],
-                    "amenity": [
-                        "a sophisticated Scandinavian-inspired bar",
-                        "to have a highly rated restaurant on site",
-                        "a TV LCD",
-                        "Some rooms will have a view of the city",
-                        "a modern business center"
-                    ],
-                    "date_range": [
-                        "May 7th to May 10th",
-                        "between September 22 2017 to September 24 2017",
-                        "coming month end of February",
-                        "May 15 to May 18th",
-                        "March 8th to March 15th"
-                    ],
-                    "name": [
-                        "Dauphine Orleans Hotel",
-                        "Windsor Court hotel",
-                        "SpringHill Suites by Marriott New Orleans downtown/convention Center",
-                        "the Laguna Beach Inn",
-                        "San Francisco Downtown Hotel"
-                    ],
-                    "price_per_night": [
-                        "$134 and a night",
-                        "around $212 per night",
-                        "$1566 per night",
-                        "$194 a night",
-                        "$96"
-                    ],
-                    "customer_rating": [
-                        "4.3-stars",
-                        "At least a four-star hotel rating",
-                        "3.7 ratings",
-                        "highest customer review",
-                        "5 star rating from Green Google reviews"
-                    ],
-                    "other_detail": [
-                        "and a breakfast buffet served in a modern dining room",
-                        "Casual beachfront hotel offering relaxed rooms",
-                        "it is located in the city of Palm Springs near Downtown",
-                        "There's also a stylish restaurant/bar serving locally inspired cuisine plus a business center and event space",
-                        "2 miles from Fisherman's Wharf"
-                    ],
-                    "other_request": [
-                        "There's any better steam but one that had whatever they're called to 200 you like",
-                        "I want a hotel with good ratings good reviews",
-                        "near the beach or beachfront",
-                        "the hotel grounds have a restaurant and full bar",
-                        "Within 10 miles"
-                    ],
-                    "beds_ num": [
-                        "two queen beds",
-                        "two beds in each",
-                        "single bed",
-                        "One bed",
-                        "one king size"
-                    ],
-                    "bed_type": [
-                        "bunk bed",
-                        "pull-out couches",
-                        "a pullout sofa-bed",
-                        "Single bed",
-                        "a queen size"
-                    ],
-                    "guests_num": [
-                        "two members with me",
-                        "my wife",
-                        "a single person",
-                        "more than 2 people",
-                        "3 guests"
-                    ],
-                    "star_rating": [
-                        "Five",
-                        "three star",
-                        "3 star hotels",
-                        "Four and a half stars",
-                        "3 star Hotel"
-                    ],
-                    "room_type": [
-                        "Modern rooms",
-                        "Chic suites",
-                        "the king bed room",
-                        "simple rooms",
-                        "full"
-                    ],
-                    "hotel_booked": [
-                        "I'll send you the information now",
-                        "you're all booked up",
-                        "The booking is confirmed",
-                        "Booking Hotel",
-                        "I will send you the booking information via email"
-                    ],
-                    "check-in_date": [
-                        "July 4th",
-                        "Feb 25th",
-                        "25th of February",
-                        "This Thursday",
-                        "on 23rd"
-                    ],
-                    "check-out_date": [
-                        "February 25th",
-                        "14th",
-                        "until the Sunday which is August 10th",
-                        "20th June",
-                        "October 5th"
-                    ],
-                    "rooms_num": [
-                        "two beds per room",
-                        "two-bedroom",
-                        "a one-room",
-                        "2 beds",
-                        "Three"
-                    ],
-                    "customer_review": [
-                        "that it is a great location between Royal Street and Bourbon Street the staff was friendly and quick to help with anything five star the room was very welcome and comfortable the hotel was just exceptional the pool with the light we are very pleased we chose the hotel can't wait to visit again",
-                        "Easily accessible by car guests noted the free parking Near the city center Shopping Restaurants & bars nearby public transit. Guests appreciated the friendly Professional staff Guests spoke highly of the reception staff",
-                        "373 google reviews",
-                        "over 250 reviews",
-                        "162 reviews"
-                    ],
-                    "total_fare": [
-                        "$225 a night",
-                        "$209 a night",
-                        "$194",
-                        "$245",
-                        "Keurig coffeemakers"
-                    ]
-                }
-            },
-            "intents": {}
+            "instruction_id": "hotel-2"
         },
         "log": [
             {
@@ -172,7 +20,11 @@
                 },
                 "dst": "",
                 "dst accumulated": "",
-                "external knowledge": "( speaker : ASSISTANT | segments : ())"
+                "external knowledge": "( speaker : ASSISTANT | segments : ())",
+                "external knowledge non-flat": {
+                    "speaker": "ASSISTANT",
+                    "segments": []
+                }
             },
             {
                 "turn id": 2,
@@ -211,7 +63,22 @@
                 },
                 "dst": "hotel sub_location near the beachfront",
                 "dst accumulated": "hotel sub_location near the beachfront",
-                "external knowledge": "( speaker : ASSISTANT | segments : (( start_index : 5 | end_index : 15 | text : beachfront | annotations : (( name : hotel_search.sub_location.hotel )))))"
+                "external knowledge": "( speaker : ASSISTANT | segments : (( start_index : 5 | end_index : 15 | text : beachfront | annotations : (( name : hotel_search.sub_location.hotel )))))",
+                "external knowledge non-flat": {
+                    "speaker": "ASSISTANT",
+                    "segments": [
+                        {
+                            "start_index": 5,
+                            "end_index": 15,
+                            "text": "beachfront",
+                            "annotations": [
+                                {
+                                    "name": "hotel_search.sub_location.hotel"
+                                }
+                            ]
+                        }
+                    ]
+                }
             },
             {
                 "turn id": 3,
@@ -239,7 +106,11 @@
                 },
                 "dst": "hotel location Oxnard California",
                 "dst accumulated": "hotel sub_location near the beachfront, hotel location Oxnard California",
-                "external knowledge": "( speaker : ASSISTANT | segments : ())"
+                "external knowledge": "( speaker : ASSISTANT | segments : ())",
+                "external knowledge non-flat": {
+                    "speaker": "ASSISTANT",
+                    "segments": []
+                }
             },
             {
                 "turn id": 4,
@@ -267,7 +138,11 @@
                 },
                 "dst": "hotel price_range $300 for a night",
                 "dst accumulated": "hotel sub_location near the beachfront, hotel location Oxnard California, hotel price_range $300 for a night",
-                "external knowledge": "( speaker : ASSISTANT | segments : ())"
+                "external knowledge": "( speaker : ASSISTANT | segments : ())",
+                "external knowledge non-flat": {
+                    "speaker": "ASSISTANT",
+                    "segments": []
+                }
             },
             {
                 "turn id": 5,
@@ -295,7 +170,11 @@
                 },
                 "dst": "hotel amenity a balcony",
                 "dst accumulated": "hotel sub_location near the beachfront, hotel location Oxnard California, hotel price_range $300 for a night, hotel amenity a balcony",
-                "external knowledge": "( speaker : ASSISTANT | segments : ())"
+                "external knowledge": "( speaker : ASSISTANT | segments : ())",
+                "external knowledge non-flat": {
+                    "speaker": "ASSISTANT",
+                    "segments": []
+                }
             },
             {
                 "turn id": 6,
@@ -484,7 +363,172 @@
                 },
                 "dst": "hotel date_range next year June 16th to 19th 2017",
                 "dst accumulated": "hotel sub_location near the beachfront, hotel location Oxnard California, hotel price_range $300 for a night, hotel amenity a balcony, hotel date_range next year June 16th to 19th 2017",
-                "external knowledge": "( speaker : ASSISTANT | segments : (( start_index : 0 | end_index : 26 | text : Staybridge Suites Carlsbad | annotations : (( name : hotel1_detail.name.hotel ))) | ( start_index : 33 | end_index : 47 | text : $145 per night | annotations : (( name : hotel1_detail.price_per_night ))) | ( start_index : 60 | end_index : 69 | text : 4.5 stars | annotations : (( name : hotel1_detail.customer_rating ))) | ( start_index : 71 | end_index : 164 | text : Warm suites with kitchens in a relaxed property featuring an outdoor pool | a gym & a BBQ area | annotations : (( name : hotel1_detail.other_detail ))) | ( start_index : 129 | end_index : 144 | text : an outdoor pool | annotations : (( name : hotel1_detail.amenity ))) | ( start_index : 146 | end_index : 151 | text : a gym | annotations : (( name : hotel1_detail.amenity ))) | ( start_index : 154 | end_index : 164 | text : a BBQ area | annotations : (( name : hotel1_detail.amenity ))) | ( start_index : 0 | end_index : 42 | text : Park Hyatt Aviara resort Golf Club and Spa | annotations : (( name : hotel2_detail.name.hotel ))) | ( start_index : 49 | end_index : 63 | text : $279 per night | annotations : (( name : hotel2_detail.price_per_night ))) | ( start_index : 76 | end_index : 85 | text : 4.8 stars | annotations : (( name : hotel2_detail.customer_rating ))) | ( start_index : 87 | end_index : 183 | text : Resort offering an 18-hole golf course | an outdoor pool & tennis courts plus a spa & fine dining | annotations : (( name : hotel2_detail.other_detail ))) | ( start_index : 103 | end_index : 125 | text : an 18-hole golf course | annotations : (( name : hotel2_detail.amenity ))) | ( start_index : 127 | end_index : 142 | text : an outdoor pool | annotations : (( name : hotel2_detail.amenity ))) | ( start_index : 145 | end_index : 158 | text : tennis courts | annotations : (( name : hotel2_detail.amenity ))) | ( start_index : 164 | end_index : 169 | text : a spa | annotations : (( name : hotel2_detail.amenity ))) | ( start_index : 172 | end_index : 183 | text : fine dining | annotations : (( name : hotel2_detail.amenity )))))"
+                "external knowledge": "( speaker : ASSISTANT | segments : (( start_index : 0 | end_index : 26 | text : Staybridge Suites Carlsbad | annotations : (( name : hotel1_detail.name.hotel ))) | ( start_index : 33 | end_index : 47 | text : $145 per night | annotations : (( name : hotel1_detail.price_per_night ))) | ( start_index : 60 | end_index : 69 | text : 4.5 stars | annotations : (( name : hotel1_detail.customer_rating ))) | ( start_index : 71 | end_index : 164 | text : Warm suites with kitchens in a relaxed property featuring an outdoor pool | a gym & a BBQ area | annotations : (( name : hotel1_detail.other_detail ))) | ( start_index : 129 | end_index : 144 | text : an outdoor pool | annotations : (( name : hotel1_detail.amenity ))) | ( start_index : 146 | end_index : 151 | text : a gym | annotations : (( name : hotel1_detail.amenity ))) | ( start_index : 154 | end_index : 164 | text : a BBQ area | annotations : (( name : hotel1_detail.amenity ))) | ( start_index : 0 | end_index : 42 | text : Park Hyatt Aviara resort Golf Club and Spa | annotations : (( name : hotel2_detail.name.hotel ))) | ( start_index : 49 | end_index : 63 | text : $279 per night | annotations : (( name : hotel2_detail.price_per_night ))) | ( start_index : 76 | end_index : 85 | text : 4.8 stars | annotations : (( name : hotel2_detail.customer_rating ))) | ( start_index : 87 | end_index : 183 | text : Resort offering an 18-hole golf course | an outdoor pool & tennis courts plus a spa & fine dining | annotations : (( name : hotel2_detail.other_detail ))) | ( start_index : 103 | end_index : 125 | text : an 18-hole golf course | annotations : (( name : hotel2_detail.amenity ))) | ( start_index : 127 | end_index : 142 | text : an outdoor pool | annotations : (( name : hotel2_detail.amenity ))) | ( start_index : 145 | end_index : 158 | text : tennis courts | annotations : (( name : hotel2_detail.amenity ))) | ( start_index : 164 | end_index : 169 | text : a spa | annotations : (( name : hotel2_detail.amenity ))) | ( start_index : 172 | end_index : 183 | text : fine dining | annotations : (( name : hotel2_detail.amenity )))))",
+                "external knowledge non-flat": {
+                    "speaker": "ASSISTANT",
+                    "segments": [
+                        {
+                            "start_index": 0,
+                            "end_index": 26,
+                            "text": "Staybridge Suites Carlsbad",
+                            "annotations": [
+                                {
+                                    "name": "hotel1_detail.name.hotel"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 33,
+                            "end_index": 47,
+                            "text": "$145 per night",
+                            "annotations": [
+                                {
+                                    "name": "hotel1_detail.price_per_night"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 60,
+                            "end_index": 69,
+                            "text": "4.5 stars",
+                            "annotations": [
+                                {
+                                    "name": "hotel1_detail.customer_rating"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 71,
+                            "end_index": 164,
+                            "text": "Warm suites with kitchens in a relaxed property featuring an outdoor pool, a gym & a BBQ area",
+                            "annotations": [
+                                {
+                                    "name": "hotel1_detail.other_detail"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 129,
+                            "end_index": 144,
+                            "text": "an outdoor pool",
+                            "annotations": [
+                                {
+                                    "name": "hotel1_detail.amenity"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 146,
+                            "end_index": 151,
+                            "text": "a gym",
+                            "annotations": [
+                                {
+                                    "name": "hotel1_detail.amenity"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 154,
+                            "end_index": 164,
+                            "text": "a BBQ area",
+                            "annotations": [
+                                {
+                                    "name": "hotel1_detail.amenity"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 0,
+                            "end_index": 42,
+                            "text": "Park Hyatt Aviara resort Golf Club and Spa",
+                            "annotations": [
+                                {
+                                    "name": "hotel2_detail.name.hotel"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 49,
+                            "end_index": 63,
+                            "text": "$279 per night",
+                            "annotations": [
+                                {
+                                    "name": "hotel2_detail.price_per_night"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 76,
+                            "end_index": 85,
+                            "text": "4.8 stars",
+                            "annotations": [
+                                {
+                                    "name": "hotel2_detail.customer_rating"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 87,
+                            "end_index": 183,
+                            "text": "Resort offering an 18-hole golf course, an outdoor pool & tennis courts plus a spa & fine dining",
+                            "annotations": [
+                                {
+                                    "name": "hotel2_detail.other_detail"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 103,
+                            "end_index": 125,
+                            "text": "an 18-hole golf course",
+                            "annotations": [
+                                {
+                                    "name": "hotel2_detail.amenity"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 127,
+                            "end_index": 142,
+                            "text": "an outdoor pool",
+                            "annotations": [
+                                {
+                                    "name": "hotel2_detail.amenity"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 145,
+                            "end_index": 158,
+                            "text": "tennis courts",
+                            "annotations": [
+                                {
+                                    "name": "hotel2_detail.amenity"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 164,
+                            "end_index": 169,
+                            "text": "a spa",
+                            "annotations": [
+                                {
+                                    "name": "hotel2_detail.amenity"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 172,
+                            "end_index": 183,
+                            "text": "fine dining",
+                            "annotations": [
+                                {
+                                    "name": "hotel2_detail.amenity"
+                                }
+                            ]
+                        }
+                    ]
+                }
             },
             {
                 "turn id": 7,
@@ -500,7 +544,11 @@
                 },
                 "dst": "",
                 "dst accumulated": "hotel sub_location near the beachfront, hotel location Oxnard California, hotel price_range $300 for a night, hotel amenity a balcony, hotel date_range next year June 16th to 19th 2017",
-                "external knowledge": "( speaker : ASSISTANT | segments : ())"
+                "external knowledge": "( speaker : ASSISTANT | segments : ())",
+                "external knowledge non-flat": {
+                    "speaker": "ASSISTANT",
+                    "segments": []
+                }
             },
             {
                 "turn id": 8,
@@ -516,7 +564,11 @@
                 },
                 "dst": "",
                 "dst accumulated": "hotel sub_location near the beachfront, hotel location Oxnard California, hotel price_range $300 for a night, hotel amenity a balcony, hotel date_range next year June 16th to 19th 2017",
-                "external knowledge": "( speaker : ASSISTANT | segments : ())"
+                "external knowledge": "( speaker : ASSISTANT | segments : ())",
+                "external knowledge non-flat": {
+                    "speaker": "ASSISTANT",
+                    "segments": []
+                }
             },
             {
                 "turn id": 9,
@@ -544,176 +596,184 @@
                 },
                 "dst": "hotel amenity a fitness center",
                 "dst accumulated": "hotel sub_location near the beachfront, hotel location Oxnard California, hotel price_range $300 for a night, hotel amenity a fitness center, hotel date_range next year June 16th to 19th 2017",
-                "external knowledge": "( speaker : ASSISTANT | segments : ())"
+                "external knowledge": "( speaker : ASSISTANT | segments : ())",
+                "external knowledge non-flat": {
+                    "speaker": "ASSISTANT",
+                    "segments": []
+                }
             }
         ],
-        "dst knowledge": "( hotel : ( sub_location : ( 5-minute walk from both the Civic Center and a Bart rail station | Possibly downtown | 0.5 blocks from the Port Authority Bus Terminal | 5-minute walk from Times Square | 3 miles from both the Audubon Zoo and Jackson Square ) | location : ( downtown St. Louis Missouri | in Salem | Charles California | Lake Helms New Orleans | Los Angeles California ) | price_range : (\"don t want to spend anymore than $300 per night\" | \"don t want to spend more than $300 a night\" | from $150 per night to $250 per night | \"one s cheaper\" | $3000 or less ) | amenity : ( a sophisticated Scandinavian-inspired bar | to have a highly rated restaurant on site | a TV LCD | Some rooms will have a view of the city | a modern business center ) | date_range : ( May 7th to May 10th | between September 22 2017 to September 24 2017 | coming month end of February | May 15 to May 18th | March 8th to March 15th ) | name : ( Dauphine Orleans Hotel | Windsor Court hotel | SpringHill Suites by Marriott New Orleans downtown/convention Center | the Laguna Beach Inn | San Francisco Downtown Hotel ) | price_per_night : ( $134 and a night | around $212 per night | $1566 per night | $194 a night | $96 ) | customer_rating : ( 4.3-stars | At least a four-star hotel rating | 3.7 ratings | highest customer review | 5 star rating from Green Google reviews ) | other_detail : ( and a breakfast buffet served in a modern dining room | Casual beachfront hotel offering relaxed rooms | it is located in the city of Palm Springs near Downtown | \"There s also a stylish restaurant/bar serving locally inspired cuisine plus a business center and event space\" | \"2 miles from Fisherman s Wharf\") | other_request : (\"There s any better steam but one that had whatever they re called to 200 you like\" | I want a hotel with good ratings good reviews | near the beach or beachfront | the hotel grounds have a restaurant and full bar | Within 10 miles ) | beds_ num : ( two queen beds | two beds in each | single bed | One bed | one king size ) | bed_type : ( bunk bed | pull-out couches | a pullout sofa-bed | Single bed | a queen size ) | guests_num : ( two members with me | my wife | a single person | more than 2 people | 3 guests ) | star_rating : ( Five | three star | 3 star hotels | Four and a half stars | 3 star Hotel ) | room_type : ( Modern rooms | Chic suites | the king bed room | simple rooms | full ) | hotel_booked : (\"I ll send you the information now\" | \"you re all booked up\" | The booking is confirmed | Booking Hotel | I will send you the booking information via email ) | check-in_date : ( July 4th | Feb 25th | 25th of February | This Thursday | on 23rd ) | check-out_date : ( February 25th | 14th | until the Sunday which is August 10th | 20th June | October 5th ) | rooms_num : ( two beds per room | two-bedroom | a one-room | 2 beds | Three ) | customer_review : (\"that it is a great location between Royal Street and Bourbon Street the staff was friendly and quick to help with anything five star the room was very welcome and comfortable the hotel was just exceptional the pool with the light we are very pleased we chose the hotel can t wait to visit again\" | Easily accessible by car guests noted the free parking Near the city center Shopping Restaurants & bars nearby public transit. Guests appreciated the friendly Professional staff Guests spoke highly of the reception staff | 373 google reviews | over 250 reviews | 162 reviews ) | total_fare : ( $225 a night | $209 a night | $194 | $245 | Keurig coffeemakers )))",
+        "external knowledge non-flat": {
+            "metadata": {},
+            "slots and values": {
+                "hotel": {
+                    "sub_location": [
+                        "an 8-minute walk from St. Louis Cathedral",
+                        "Near the water",
+                        "less than 5 minutes from the beach",
+                        "3 blocks from the French Quarter",
+                        "8 miles from the San Diego zoo"
+                    ],
+                    "location": [
+                        "165 Steuart St San Francisco CA 94105",
+                        "Park City is in Utah",
+                        "717 Orleans Street",
+                        "3720 N Sundial Ct Park City UT 84098",
+                        "Highway 1"
+                    ],
+                    "price_range": [
+                        "Maximum $300 per night",
+                        "Up to $300",
+                        "around $206 per night",
+                        "Less than $150 a night",
+                        "less than $400 per night"
+                    ],
+                    "amenity": [
+                        "dining venues",
+                        "colorful accents",
+                        "a half",
+                        "flat screen TVs",
+                        "a lap pool"
+                    ],
+                    "date_range": [
+                        "March 15th and March 20th",
+                        "on being over June 29th to July 6th",
+                        "April the 15th through the 17th",
+                        "from June 16th to 19th",
+                        "April 1st through the April 5th"
+                    ],
+                    "name": [
+                        "Renaissance New orleans arts warehouse district",
+                        "the Fair field Inn & Suites by Marriott New Orleans Downtown/French Quarter Area",
+                        "The Sheraton hotel",
+                        "ity Peaks Hotel Park",
+                        "the Naples Grand Beach Resort"
+                    ],
+                    "price_per_night": [
+                        "$143",
+                        "$122 per night",
+                        "$113 a night",
+                        "$207 a night",
+                        "$136 a night"
+                    ],
+                    "customer_rating": [
+                        "less than four",
+                        "2.5 stars or better",
+                        "high reviews",
+                        "four hotel star ratings or above",
+                        "four stars and more"
+                    ],
+                    "other_detail": [
+                        "(415) 626-0200",
+                        "(760) 722-6666",
+                        "overlooking the French Quarter or the courtyard",
+                        "This place offers modern suites in a sleek hotel",
+                        "about 5 minutes"
+                    ],
+                    "other_request": [
+                        "I want a place with an atmosphere that has a lodge-style and relaxed area",
+                        "a traditional Hot",
+                        "out in the woods",
+                        "middle class",
+                        "one bedroom"
+                    ],
+                    "beds_ num": [
+                        "two queen-size bed",
+                        "2 queen beds",
+                        "one",
+                        "two beds per room",
+                        "two queen-size bed"
+                    ],
+                    "bed_type": [
+                        "king sized bed",
+                        "Queen-sized bed",
+                        "A king-sized bed",
+                        "Queen-size bed",
+                        "twin"
+                    ],
+                    "guests_num": [
+                        "my husband and me",
+                        "Two adults and two kids",
+                        "3 guests",
+                        "me and one other person",
+                        "my wife and our two kids"
+                    ],
+                    "star_rating": [
+                        "three stars and above",
+                        "above two",
+                        "the best star rating",
+                        "4-stars",
+                        "4.7"
+                    ],
+                    "room_type": [
+                        "Sleek modern rooms",
+                        "villas",
+                        "Standard Queen size rooms with guest room",
+                        "double bed standard suite",
+                        "Standard room"
+                    ],
+                    "hotel_booked": [
+                        "it's done and I emailed you the receipt",
+                        "I will do that",
+                        "I will book this hotel",
+                        "Your booking details sent to your email",
+                        "will send you the confirmation"
+                    ],
+                    "check-in_date": [
+                        "on Saturday very early morning",
+                        "Friday June 16th",
+                        "Friday March the 24th",
+                        "Monday March 27th",
+                        "next year June 16th 2019"
+                    ],
+                    "check-out_date": [
+                        "February 19th",
+                        "May 17th",
+                        "Sunday night",
+                        "July 21st",
+                        "on May 7th"
+                    ],
+                    "rooms_num": [
+                        "2 beds",
+                        "one bedroom",
+                        "1 bedroom",
+                        "1 bedroom",
+                        "two beds"
+                    ],
+                    "customer_review": [
+                        "598 Google reviews",
+                        "over 250 reviews",
+                        "14 reviews",
+                        "4.4 stars",
+                        "162 reviews"
+                    ],
+                    "total_fare": [
+                        "$169 per room",
+                        "$4088",
+                        "$318",
+                        "$45",
+                        "$212"
+                    ]
+                }
+            },
+            "intents": {}
+        },
+        "external knowledge": "()",
+        "dst knowledge": "( hotel : ( sub_location : ( an 8-minute walk from St. Louis Cathedral | Near the water | less than 5 minutes from the beach | 3 blocks from the French Quarter | 8 miles from the San Diego zoo ) | location : ( 165 Steuart St San Francisco CA 94105 | Park City is in Utah | 717 Orleans Street | 3720 N Sundial Ct Park City UT 84098 | Highway 1 ) | price_range : ( Maximum $300 per night | Up to $300 | around $206 per night | Less than $150 a night | less than $400 per night ) | amenity : ( dining venues | colorful accents | a half | flat screen TVs | a lap pool ) | date_range : ( March 15th and March 20th | on being over June 29th to July 6th | April the 15th through the 17th | from June 16th to 19th | April 1st through the April 5th ) | name : ( Renaissance New orleans arts warehouse district | the Fair field Inn & Suites by Marriott New Orleans Downtown/French Quarter Area | The Sheraton hotel | ity Peaks Hotel Park | the Naples Grand Beach Resort ) | price_per_night : ( $143 | $122 per night | $113 a night | $207 a night | $136 a night ) | customer_rating : ( less than four | 2.5 stars or better | high reviews | four hotel star ratings or above | four stars and more ) | other_detail : ( (415) 626-0200 | (760) 722-6666 | overlooking the French Quarter or the courtyard | This place offers modern suites in a sleek hotel | about 5 minutes ) | other_request : ( I want a place with an atmosphere that has a lodge-style and relaxed area | a traditional Hot | out in the woods | middle class | one bedroom ) | beds_ num : ( two queen-size bed | 2 queen beds | one | two beds per room | two queen-size bed ) | bed_type : ( king sized bed | Queen-sized bed | A king-sized bed | Queen-size bed | twin ) | guests_num : ( my husband and me | Two adults and two kids | 3 guests | me and one other person | my wife and our two kids ) | star_rating : ( three stars and above | above two | the best star rating | 4-stars | 4.7 ) | room_type : ( Sleek modern rooms | villas | Standard Queen size rooms with guest room | double bed standard suite | Standard room ) | hotel_booked : (\"it s done and I emailed you the receipt\" | I will do that | I will book this hotel | Your booking details sent to your email | will send you the confirmation ) | check-in_date : ( on Saturday very early morning | Friday June 16th | Friday March the 24th | Monday March 27th | next year June 16th 2019 ) | check-out_date : ( February 19th | May 17th | Sunday night | July 21st | on May 7th ) | rooms_num : ( 2 beds | one bedroom | 1 bedroom | 1 bedroom | two beds ) | customer_review : ( 598 Google reviews | over 250 reviews | 14 reviews | 4.4 stars | 162 reviews ) | total_fare : ( $169 per room | $4088 | $318 | $45 | $212 )))",
         "intent knowledge": "()",
         "prompt": [
             "This is a bot helping users to find a hotel. Given the dialog context and external database, please generate a relevant system response for the user.",
             "This bot assists users to find a hotel. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
-            "This bot helps users to find a hotel. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
-            "The purpose of this bot is to assist users to find a hotel. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
-            "This bot is designed to help users find a hotel. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+            "This bot helps users to find a hotel. Based on the conversation history and available external data, please generate a relevant system response for the user.",
+            "The purpose of this bot is to assist users to find a hotel. Considering the dialogue context and the information available in the external database, please provide a fitting response for the user.",
+            "This bot is designed to help users find a hotel. By utilizing the current dialog context and external resources, generate a fitting response for the user."
         ]
     },
     "Taskmaster2--train--2": {
         "original dialog id": "dlg-00131332-f7b3-4227-9672-652dd3a2c39e",
         "dialog index": 2,
         "original dialog info": {
-            "instruction_id": "hotel-1b",
-            "slots and values": {
-                "hotel": {
-                    "sub_location": [
-                        "5-minute walk from both the Civic Center and a Bart rail station",
-                        "Possibly downtown",
-                        "0.5 blocks from the Port Authority Bus Terminal",
-                        "5-minute walk from Times Square",
-                        "3 miles from both the Audubon Zoo and Jackson Square"
-                    ],
-                    "location": [
-                        "downtown St. Louis Missouri",
-                        "in Salem",
-                        "Charles California",
-                        "Lake Helms New Orleans",
-                        "Los Angeles California"
-                    ],
-                    "price_range": [
-                        "don't want to spend anymore than $300 per night",
-                        "don't want to spend more than $300 a night",
-                        "from $150 per night to $250 per night",
-                        "one's cheaper",
-                        "$3000 or less"
-                    ],
-                    "amenity": [
-                        "a sophisticated Scandinavian-inspired bar",
-                        "to have a highly rated restaurant on site",
-                        "a TV LCD",
-                        "Some rooms will have a view of the city",
-                        "a modern business center"
-                    ],
-                    "date_range": [
-                        "May 7th to May 10th",
-                        "between September 22 2017 to September 24 2017",
-                        "coming month end of February",
-                        "May 15 to May 18th",
-                        "March 8th to March 15th"
-                    ],
-                    "name": [
-                        "Dauphine Orleans Hotel",
-                        "Windsor Court hotel",
-                        "SpringHill Suites by Marriott New Orleans downtown/convention Center",
-                        "the Laguna Beach Inn",
-                        "San Francisco Downtown Hotel"
-                    ],
-                    "price_per_night": [
-                        "$134 and a night",
-                        "around $212 per night",
-                        "$1566 per night",
-                        "$194 a night",
-                        "$96"
-                    ],
-                    "customer_rating": [
-                        "4.3-stars",
-                        "At least a four-star hotel rating",
-                        "3.7 ratings",
-                        "highest customer review",
-                        "5 star rating from Green Google reviews"
-                    ],
-                    "other_detail": [
-                        "and a breakfast buffet served in a modern dining room",
-                        "Casual beachfront hotel offering relaxed rooms",
-                        "it is located in the city of Palm Springs near Downtown",
-                        "There's also a stylish restaurant/bar serving locally inspired cuisine plus a business center and event space",
-                        "2 miles from Fisherman's Wharf"
-                    ],
-                    "other_request": [
-                        "There's any better steam but one that had whatever they're called to 200 you like",
-                        "I want a hotel with good ratings good reviews",
-                        "near the beach or beachfront",
-                        "the hotel grounds have a restaurant and full bar",
-                        "Within 10 miles"
-                    ],
-                    "beds_ num": [
-                        "two queen beds",
-                        "two beds in each",
-                        "single bed",
-                        "One bed",
-                        "one king size"
-                    ],
-                    "bed_type": [
-                        "bunk bed",
-                        "pull-out couches",
-                        "a pullout sofa-bed",
-                        "Single bed",
-                        "a queen size"
-                    ],
-                    "guests_num": [
-                        "two members with me",
-                        "my wife",
-                        "a single person",
-                        "more than 2 people",
-                        "3 guests"
-                    ],
-                    "star_rating": [
-                        "Five",
-                        "three star",
-                        "3 star hotels",
-                        "Four and a half stars",
-                        "3 star Hotel"
-                    ],
-                    "room_type": [
-                        "Modern rooms",
-                        "Chic suites",
-                        "the king bed room",
-                        "simple rooms",
-                        "full"
-                    ],
-                    "hotel_booked": [
-                        "I'll send you the information now",
-                        "you're all booked up",
-                        "The booking is confirmed",
-                        "Booking Hotel",
-                        "I will send you the booking information via email"
-                    ],
-                    "check-in_date": [
-                        "July 4th",
-                        "Feb 25th",
-                        "25th of February",
-                        "This Thursday",
-                        "on 23rd"
-                    ],
-                    "check-out_date": [
-                        "February 25th",
-                        "14th",
-                        "until the Sunday which is August 10th",
-                        "20th June",
-                        "October 5th"
-                    ],
-                    "rooms_num": [
-                        "two beds per room",
-                        "two-bedroom",
-                        "a one-room",
-                        "2 beds",
-                        "Three"
-                    ],
-                    "customer_review": [
-                        "that it is a great location between Royal Street and Bourbon Street the staff was friendly and quick to help with anything five star the room was very welcome and comfortable the hotel was just exceptional the pool with the light we are very pleased we chose the hotel can't wait to visit again",
-                        "Easily accessible by car guests noted the free parking Near the city center Shopping Restaurants & bars nearby public transit. Guests appreciated the friendly Professional staff Guests spoke highly of the reception staff",
-                        "373 google reviews",
-                        "over 250 reviews",
-                        "162 reviews"
-                    ],
-                    "total_fare": [
-                        "$225 a night",
-                        "$209 a night",
-                        "$194",
-                        "$245",
-                        "Keurig coffeemakers"
-                    ]
-                }
-            },
-            "intents": {}
+            "instruction_id": "hotel-1b"
         },
         "log": [
             {
@@ -730,7 +790,11 @@
                 },
                 "dst": "",
                 "dst accumulated": "",
-                "external knowledge": "( speaker : ASSISTANT | segments : ())"
+                "external knowledge": "( speaker : ASSISTANT | segments : ())",
+                "external knowledge non-flat": {
+                    "speaker": "ASSISTANT",
+                    "segments": []
+                }
             },
             {
                 "turn id": 2,
@@ -778,7 +842,11 @@
                 },
                 "dst": "",
                 "dst accumulated": "hotel name Park City Peaks Hotel, hotel location Park City Utah, hotel date_range from December 20th to December 27th 2016",
-                "external knowledge": "( speaker : ASSISTANT | segments : ())"
+                "external knowledge": "( speaker : ASSISTANT | segments : ())",
+                "external knowledge non-flat": {
+                    "speaker": "ASSISTANT",
+                    "segments": []
+                }
             },
             {
                 "turn id": 3,
@@ -806,7 +874,11 @@
                 },
                 "dst": "hotel sub_location near ski slopes",
                 "dst accumulated": "hotel name Park City Peaks Hotel, hotel location Park City Utah, hotel date_range from December 20th to December 27th 2016, hotel sub_location near ski slopes",
-                "external knowledge": "( speaker : ASSISTANT | segments : ())"
+                "external knowledge": "( speaker : ASSISTANT | segments : ())",
+                "external knowledge non-flat": {
+                    "speaker": "ASSISTANT",
+                    "segments": []
+                }
             },
             {
                 "turn id": 4,
@@ -865,7 +937,22 @@
                 },
                 "dst": "hotel amenity full bar, hotel amenity kid friendly, hotel other_request it formal or casual",
                 "dst accumulated": "hotel name Park City Peaks Hotel, hotel location Park City Utah, hotel date_range from December 20th to December 27th 2016, hotel sub_location near ski slopes, hotel amenity kid friendly, hotel other_request it formal or casual",
-                "external knowledge": "( speaker : ASSISTANT | segments : (( start_index : 98 | end_index : 108 | text : sports bar | annotations : (( name : hotel_search.amenity )))))"
+                "external knowledge": "( speaker : ASSISTANT | segments : (( start_index : 98 | end_index : 108 | text : sports bar | annotations : (( name : hotel_search.amenity )))))",
+                "external knowledge non-flat": {
+                    "speaker": "ASSISTANT",
+                    "segments": [
+                        {
+                            "start_index": 98,
+                            "end_index": 108,
+                            "text": "sports bar",
+                            "annotations": [
+                                {
+                                    "name": "hotel_search.amenity"
+                                }
+                            ]
+                        }
+                    ]
+                }
             },
             {
                 "turn id": 5,
@@ -953,176 +1040,184 @@
                 },
                 "dst": "hotel amenity sport bar, hotel amenity balcony, hotel amenity cable TV, hotel amenity mini-fridge, hotel amenity coffee, hotel amenity honor bar, hotel amenity fireplace",
                 "dst accumulated": "hotel name Park City Peaks Hotel, hotel location Park City Utah, hotel date_range from December 20th to December 27th 2016, hotel sub_location near ski slopes, hotel amenity fireplace, hotel other_request it formal or casual",
-                "external knowledge": "( speaker : ASSISTANT | segments : ())"
+                "external knowledge": "( speaker : ASSISTANT | segments : ())",
+                "external knowledge non-flat": {
+                    "speaker": "ASSISTANT",
+                    "segments": []
+                }
             }
         ],
-        "dst knowledge": "( hotel : ( sub_location : ( 5-minute walk from both the Civic Center and a Bart rail station | Possibly downtown | 0.5 blocks from the Port Authority Bus Terminal | 5-minute walk from Times Square | 3 miles from both the Audubon Zoo and Jackson Square ) | location : ( downtown St. Louis Missouri | in Salem | Charles California | Lake Helms New Orleans | Los Angeles California ) | price_range : (\"don t want to spend anymore than $300 per night\" | \"don t want to spend more than $300 a night\" | from $150 per night to $250 per night | \"one s cheaper\" | $3000 or less ) | amenity : ( a sophisticated Scandinavian-inspired bar | to have a highly rated restaurant on site | a TV LCD | Some rooms will have a view of the city | a modern business center ) | date_range : ( May 7th to May 10th | between September 22 2017 to September 24 2017 | coming month end of February | May 15 to May 18th | March 8th to March 15th ) | name : ( Dauphine Orleans Hotel | Windsor Court hotel | SpringHill Suites by Marriott New Orleans downtown/convention Center | the Laguna Beach Inn | San Francisco Downtown Hotel ) | price_per_night : ( $134 and a night | around $212 per night | $1566 per night | $194 a night | $96 ) | customer_rating : ( 4.3-stars | At least a four-star hotel rating | 3.7 ratings | highest customer review | 5 star rating from Green Google reviews ) | other_detail : ( and a breakfast buffet served in a modern dining room | Casual beachfront hotel offering relaxed rooms | it is located in the city of Palm Springs near Downtown | \"There s also a stylish restaurant/bar serving locally inspired cuisine plus a business center and event space\" | \"2 miles from Fisherman s Wharf\") | other_request : (\"There s any better steam but one that had whatever they re called to 200 you like\" | I want a hotel with good ratings good reviews | near the beach or beachfront | the hotel grounds have a restaurant and full bar | Within 10 miles ) | beds_ num : ( two queen beds | two beds in each | single bed | One bed | one king size ) | bed_type : ( bunk bed | pull-out couches | a pullout sofa-bed | Single bed | a queen size ) | guests_num : ( two members with me | my wife | a single person | more than 2 people | 3 guests ) | star_rating : ( Five | three star | 3 star hotels | Four and a half stars | 3 star Hotel ) | room_type : ( Modern rooms | Chic suites | the king bed room | simple rooms | full ) | hotel_booked : (\"I ll send you the information now\" | \"you re all booked up\" | The booking is confirmed | Booking Hotel | I will send you the booking information via email ) | check-in_date : ( July 4th | Feb 25th | 25th of February | This Thursday | on 23rd ) | check-out_date : ( February 25th | 14th | until the Sunday which is August 10th | 20th June | October 5th ) | rooms_num : ( two beds per room | two-bedroom | a one-room | 2 beds | Three ) | customer_review : (\"that it is a great location between Royal Street and Bourbon Street the staff was friendly and quick to help with anything five star the room was very welcome and comfortable the hotel was just exceptional the pool with the light we are very pleased we chose the hotel can t wait to visit again\" | Easily accessible by car guests noted the free parking Near the city center Shopping Restaurants & bars nearby public transit. Guests appreciated the friendly Professional staff Guests spoke highly of the reception staff | 373 google reviews | over 250 reviews | 162 reviews ) | total_fare : ( $225 a night | $209 a night | $194 | $245 | Keurig coffeemakers )))",
+        "external knowledge non-flat": {
+            "metadata": {},
+            "slots and values": {
+                "hotel": {
+                    "sub_location": [
+                        "an 8-minute walk from St. Louis Cathedral",
+                        "Near the water",
+                        "less than 5 minutes from the beach",
+                        "3 blocks from the French Quarter",
+                        "8 miles from the San Diego zoo"
+                    ],
+                    "location": [
+                        "165 Steuart St San Francisco CA 94105",
+                        "Park City is in Utah",
+                        "717 Orleans Street",
+                        "3720 N Sundial Ct Park City UT 84098",
+                        "Highway 1"
+                    ],
+                    "price_range": [
+                        "Maximum $300 per night",
+                        "Up to $300",
+                        "around $206 per night",
+                        "Less than $150 a night",
+                        "less than $400 per night"
+                    ],
+                    "amenity": [
+                        "dining venues",
+                        "colorful accents",
+                        "a half",
+                        "flat screen TVs",
+                        "a lap pool"
+                    ],
+                    "date_range": [
+                        "March 15th and March 20th",
+                        "on being over June 29th to July 6th",
+                        "April the 15th through the 17th",
+                        "from June 16th to 19th",
+                        "April 1st through the April 5th"
+                    ],
+                    "name": [
+                        "Renaissance New orleans arts warehouse district",
+                        "the Fair field Inn & Suites by Marriott New Orleans Downtown/French Quarter Area",
+                        "The Sheraton hotel",
+                        "ity Peaks Hotel Park",
+                        "the Naples Grand Beach Resort"
+                    ],
+                    "price_per_night": [
+                        "$143",
+                        "$122 per night",
+                        "$113 a night",
+                        "$207 a night",
+                        "$136 a night"
+                    ],
+                    "customer_rating": [
+                        "less than four",
+                        "2.5 stars or better",
+                        "high reviews",
+                        "four hotel star ratings or above",
+                        "four stars and more"
+                    ],
+                    "other_detail": [
+                        "(415) 626-0200",
+                        "(760) 722-6666",
+                        "overlooking the French Quarter or the courtyard",
+                        "This place offers modern suites in a sleek hotel",
+                        "about 5 minutes"
+                    ],
+                    "other_request": [
+                        "I want a place with an atmosphere that has a lodge-style and relaxed area",
+                        "a traditional Hot",
+                        "out in the woods",
+                        "middle class",
+                        "one bedroom"
+                    ],
+                    "beds_ num": [
+                        "two queen-size bed",
+                        "2 queen beds",
+                        "one",
+                        "two beds per room",
+                        "two queen-size bed"
+                    ],
+                    "bed_type": [
+                        "king sized bed",
+                        "Queen-sized bed",
+                        "A king-sized bed",
+                        "Queen-size bed",
+                        "twin"
+                    ],
+                    "guests_num": [
+                        "my husband and me",
+                        "Two adults and two kids",
+                        "3 guests",
+                        "me and one other person",
+                        "my wife and our two kids"
+                    ],
+                    "star_rating": [
+                        "three stars and above",
+                        "above two",
+                        "the best star rating",
+                        "4-stars",
+                        "4.7"
+                    ],
+                    "room_type": [
+                        "Sleek modern rooms",
+                        "villas",
+                        "Standard Queen size rooms with guest room",
+                        "double bed standard suite",
+                        "Standard room"
+                    ],
+                    "hotel_booked": [
+                        "it's done and I emailed you the receipt",
+                        "I will do that",
+                        "I will book this hotel",
+                        "Your booking details sent to your email",
+                        "will send you the confirmation"
+                    ],
+                    "check-in_date": [
+                        "on Saturday very early morning",
+                        "Friday June 16th",
+                        "Friday March the 24th",
+                        "Monday March 27th",
+                        "next year June 16th 2019"
+                    ],
+                    "check-out_date": [
+                        "February 19th",
+                        "May 17th",
+                        "Sunday night",
+                        "July 21st",
+                        "on May 7th"
+                    ],
+                    "rooms_num": [
+                        "2 beds",
+                        "one bedroom",
+                        "1 bedroom",
+                        "1 bedroom",
+                        "two beds"
+                    ],
+                    "customer_review": [
+                        "598 Google reviews",
+                        "over 250 reviews",
+                        "14 reviews",
+                        "4.4 stars",
+                        "162 reviews"
+                    ],
+                    "total_fare": [
+                        "$169 per room",
+                        "$4088",
+                        "$318",
+                        "$45",
+                        "$212"
+                    ]
+                }
+            },
+            "intents": {}
+        },
+        "external knowledge": "()",
+        "dst knowledge": "( hotel : ( sub_location : ( an 8-minute walk from St. Louis Cathedral | Near the water | less than 5 minutes from the beach | 3 blocks from the French Quarter | 8 miles from the San Diego zoo ) | location : ( 165 Steuart St San Francisco CA 94105 | Park City is in Utah | 717 Orleans Street | 3720 N Sundial Ct Park City UT 84098 | Highway 1 ) | price_range : ( Maximum $300 per night | Up to $300 | around $206 per night | Less than $150 a night | less than $400 per night ) | amenity : ( dining venues | colorful accents | a half | flat screen TVs | a lap pool ) | date_range : ( March 15th and March 20th | on being over June 29th to July 6th | April the 15th through the 17th | from June 16th to 19th | April 1st through the April 5th ) | name : ( Renaissance New orleans arts warehouse district | the Fair field Inn & Suites by Marriott New Orleans Downtown/French Quarter Area | The Sheraton hotel | ity Peaks Hotel Park | the Naples Grand Beach Resort ) | price_per_night : ( $143 | $122 per night | $113 a night | $207 a night | $136 a night ) | customer_rating : ( less than four | 2.5 stars or better | high reviews | four hotel star ratings or above | four stars and more ) | other_detail : ( (415) 626-0200 | (760) 722-6666 | overlooking the French Quarter or the courtyard | This place offers modern suites in a sleek hotel | about 5 minutes ) | other_request : ( I want a place with an atmosphere that has a lodge-style and relaxed area | a traditional Hot | out in the woods | middle class | one bedroom ) | beds_ num : ( two queen-size bed | 2 queen beds | one | two beds per room | two queen-size bed ) | bed_type : ( king sized bed | Queen-sized bed | A king-sized bed | Queen-size bed | twin ) | guests_num : ( my husband and me | Two adults and two kids | 3 guests | me and one other person | my wife and our two kids ) | star_rating : ( three stars and above | above two | the best star rating | 4-stars | 4.7 ) | room_type : ( Sleek modern rooms | villas | Standard Queen size rooms with guest room | double bed standard suite | Standard room ) | hotel_booked : (\"it s done and I emailed you the receipt\" | I will do that | I will book this hotel | Your booking details sent to your email | will send you the confirmation ) | check-in_date : ( on Saturday very early morning | Friday June 16th | Friday March the 24th | Monday March 27th | next year June 16th 2019 ) | check-out_date : ( February 19th | May 17th | Sunday night | July 21st | on May 7th ) | rooms_num : ( 2 beds | one bedroom | 1 bedroom | 1 bedroom | two beds ) | customer_review : ( 598 Google reviews | over 250 reviews | 14 reviews | 4.4 stars | 162 reviews ) | total_fare : ( $169 per room | $4088 | $318 | $45 | $212 )))",
         "intent knowledge": "()",
         "prompt": [
             "This is a bot helping users to find a hotel. Given the dialog context and external database, please generate a relevant system response for the user.",
             "This bot assists users to find a hotel. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
-            "This bot helps users to find a hotel. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
-            "The purpose of this bot is to assist users to find a hotel. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
-            "This bot is designed to help users find a hotel. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+            "This bot helps users to find a hotel. Based on the conversation history and available external data, please generate a relevant system response for the user.",
+            "The purpose of this bot is to assist users to find a hotel. Considering the dialogue context and the information available in the external database, please provide a fitting response for the user.",
+            "This bot is designed to help users find a hotel. By utilizing the current dialog context and external resources, generate a fitting response for the user."
         ]
     },
     "Taskmaster2--train--3": {
         "original dialog id": "dlg-00258574-83c8-4bb0-a0f0-4f744715cb27",
         "dialog index": 3,
         "original dialog info": {
-            "instruction_id": "hotel-1c",
-            "slots and values": {
-                "hotel": {
-                    "sub_location": [
-                        "5-minute walk from both the Civic Center and a Bart rail station",
-                        "Possibly downtown",
-                        "0.5 blocks from the Port Authority Bus Terminal",
-                        "5-minute walk from Times Square",
-                        "3 miles from both the Audubon Zoo and Jackson Square"
-                    ],
-                    "location": [
-                        "downtown St. Louis Missouri",
-                        "in Salem",
-                        "Charles California",
-                        "Lake Helms New Orleans",
-                        "Los Angeles California"
-                    ],
-                    "price_range": [
-                        "don't want to spend anymore than $300 per night",
-                        "don't want to spend more than $300 a night",
-                        "from $150 per night to $250 per night",
-                        "one's cheaper",
-                        "$3000 or less"
-                    ],
-                    "amenity": [
-                        "a sophisticated Scandinavian-inspired bar",
-                        "to have a highly rated restaurant on site",
-                        "a TV LCD",
-                        "Some rooms will have a view of the city",
-                        "a modern business center"
-                    ],
-                    "date_range": [
-                        "May 7th to May 10th",
-                        "between September 22 2017 to September 24 2017",
-                        "coming month end of February",
-                        "May 15 to May 18th",
-                        "March 8th to March 15th"
-                    ],
-                    "name": [
-                        "Dauphine Orleans Hotel",
-                        "Windsor Court hotel",
-                        "SpringHill Suites by Marriott New Orleans downtown/convention Center",
-                        "the Laguna Beach Inn",
-                        "San Francisco Downtown Hotel"
-                    ],
-                    "price_per_night": [
-                        "$134 and a night",
-                        "around $212 per night",
-                        "$1566 per night",
-                        "$194 a night",
-                        "$96"
-                    ],
-                    "customer_rating": [
-                        "4.3-stars",
-                        "At least a four-star hotel rating",
-                        "3.7 ratings",
-                        "highest customer review",
-                        "5 star rating from Green Google reviews"
-                    ],
-                    "other_detail": [
-                        "and a breakfast buffet served in a modern dining room",
-                        "Casual beachfront hotel offering relaxed rooms",
-                        "it is located in the city of Palm Springs near Downtown",
-                        "There's also a stylish restaurant/bar serving locally inspired cuisine plus a business center and event space",
-                        "2 miles from Fisherman's Wharf"
-                    ],
-                    "other_request": [
-                        "There's any better steam but one that had whatever they're called to 200 you like",
-                        "I want a hotel with good ratings good reviews",
-                        "near the beach or beachfront",
-                        "the hotel grounds have a restaurant and full bar",
-                        "Within 10 miles"
-                    ],
-                    "beds_ num": [
-                        "two queen beds",
-                        "two beds in each",
-                        "single bed",
-                        "One bed",
-                        "one king size"
-                    ],
-                    "bed_type": [
-                        "bunk bed",
-                        "pull-out couches",
-                        "a pullout sofa-bed",
-                        "Single bed",
-                        "a queen size"
-                    ],
-                    "guests_num": [
-                        "two members with me",
-                        "my wife",
-                        "a single person",
-                        "more than 2 people",
-                        "3 guests"
-                    ],
-                    "star_rating": [
-                        "Five",
-                        "three star",
-                        "3 star hotels",
-                        "Four and a half stars",
-                        "3 star Hotel"
-                    ],
-                    "room_type": [
-                        "Modern rooms",
-                        "Chic suites",
-                        "the king bed room",
-                        "simple rooms",
-                        "full"
-                    ],
-                    "hotel_booked": [
-                        "I'll send you the information now",
-                        "you're all booked up",
-                        "The booking is confirmed",
-                        "Booking Hotel",
-                        "I will send you the booking information via email"
-                    ],
-                    "check-in_date": [
-                        "July 4th",
-                        "Feb 25th",
-                        "25th of February",
-                        "This Thursday",
-                        "on 23rd"
-                    ],
-                    "check-out_date": [
-                        "February 25th",
-                        "14th",
-                        "until the Sunday which is August 10th",
-                        "20th June",
-                        "October 5th"
-                    ],
-                    "rooms_num": [
-                        "two beds per room",
-                        "two-bedroom",
-                        "a one-room",
-                        "2 beds",
-                        "Three"
-                    ],
-                    "customer_review": [
-                        "that it is a great location between Royal Street and Bourbon Street the staff was friendly and quick to help with anything five star the room was very welcome and comfortable the hotel was just exceptional the pool with the light we are very pleased we chose the hotel can't wait to visit again",
-                        "Easily accessible by car guests noted the free parking Near the city center Shopping Restaurants & bars nearby public transit. Guests appreciated the friendly Professional staff Guests spoke highly of the reception staff",
-                        "373 google reviews",
-                        "over 250 reviews",
-                        "162 reviews"
-                    ],
-                    "total_fare": [
-                        "$225 a night",
-                        "$209 a night",
-                        "$194",
-                        "$245",
-                        "Keurig coffeemakers"
-                    ]
-                }
-            },
-            "intents": {}
+            "instruction_id": "hotel-1c"
         },
         "log": [
             {
@@ -1139,7 +1234,11 @@
                 },
                 "dst": "",
                 "dst accumulated": "",
-                "external knowledge": "( speaker : ASSISTANT | segments : ())"
+                "external knowledge": "( speaker : ASSISTANT | segments : ())",
+                "external knowledge non-flat": {
+                    "speaker": "ASSISTANT",
+                    "segments": []
+                }
             },
             {
                 "turn id": 2,
@@ -1177,7 +1276,11 @@
                 },
                 "dst": "hotel name Squaw Valley, hotel location California",
                 "dst accumulated": "hotel name Squaw Valley, hotel location California",
-                "external knowledge": "( speaker : ASSISTANT | segments : ())"
+                "external knowledge": "( speaker : ASSISTANT | segments : ())",
+                "external knowledge non-flat": {
+                    "speaker": "ASSISTANT",
+                    "segments": []
+                }
             },
             {
                 "turn id": 3,
@@ -1205,7 +1308,11 @@
                 },
                 "dst": "hotel date_range between 22-24 December",
                 "dst accumulated": "hotel name Squaw Valley, hotel location California, hotel date_range between 22-24 December",
-                "external knowledge": "( speaker : ASSISTANT | segments : ())"
+                "external knowledge": "( speaker : ASSISTANT | segments : ())",
+                "external knowledge non-flat": {
+                    "speaker": "ASSISTANT",
+                    "segments": []
+                }
             },
             {
                 "turn id": 4,
@@ -1244,7 +1351,22 @@
                 },
                 "dst": "hotel sub_location near to downtown",
                 "dst accumulated": "hotel name Squaw Valley, hotel location California, hotel date_range between 22-24 December, hotel sub_location near to downtown",
-                "external knowledge": "( speaker : ASSISTANT | segments : (( start_index : 18 | end_index : 31 | text : near downtown | annotations : (( name : hotel_search.sub_location.hotel )))))"
+                "external knowledge": "( speaker : ASSISTANT | segments : (( start_index : 18 | end_index : 31 | text : near downtown | annotations : (( name : hotel_search.sub_location.hotel )))))",
+                "external knowledge non-flat": {
+                    "speaker": "ASSISTANT",
+                    "segments": [
+                        {
+                            "start_index": 18,
+                            "end_index": 31,
+                            "text": "near downtown",
+                            "annotations": [
+                                {
+                                    "name": "hotel_search.sub_location.hotel"
+                                }
+                            ]
+                        }
+                    ]
+                }
             },
             {
                 "turn id": 5,
@@ -1260,7 +1382,11 @@
                 },
                 "dst": "",
                 "dst accumulated": "hotel name Squaw Valley, hotel location California, hotel date_range between 22-24 December, hotel sub_location near to downtown",
-                "external knowledge": "( speaker : ASSISTANT | segments : ())"
+                "external knowledge": "( speaker : ASSISTANT | segments : ())",
+                "external knowledge non-flat": {
+                    "speaker": "ASSISTANT",
+                    "segments": []
+                }
             },
             {
                 "turn id": 6,
@@ -1276,7 +1402,11 @@
                 },
                 "dst": "",
                 "dst accumulated": "hotel name Squaw Valley, hotel location California, hotel date_range between 22-24 December, hotel sub_location near to downtown",
-                "external knowledge": "( speaker : ASSISTANT | segments : ())"
+                "external knowledge": "( speaker : ASSISTANT | segments : ())",
+                "external knowledge non-flat": {
+                    "speaker": "ASSISTANT",
+                    "segments": []
+                }
             },
             {
                 "turn id": 7,
@@ -1335,7 +1465,32 @@
                 },
                 "dst": "hotel amenity pool with hot tub, hotel amenity fitness center",
                 "dst accumulated": "hotel name Squaw Valley, hotel location California, hotel date_range between 22-24 December, hotel sub_location near to downtown, hotel amenity fitness center",
-                "external knowledge": "( speaker : ASSISTANT | segments : (( start_index : 19 | end_index : 28 | text : a hot tub | annotations : (( name : hotel1_detail.amenity ))) | ( start_index : 33 | end_index : 49 | text : a fitness center | annotations : (( name : hotel1_detail.amenity )))))"
+                "external knowledge": "( speaker : ASSISTANT | segments : (( start_index : 19 | end_index : 28 | text : a hot tub | annotations : (( name : hotel1_detail.amenity ))) | ( start_index : 33 | end_index : 49 | text : a fitness center | annotations : (( name : hotel1_detail.amenity )))))",
+                "external knowledge non-flat": {
+                    "speaker": "ASSISTANT",
+                    "segments": [
+                        {
+                            "start_index": 19,
+                            "end_index": 28,
+                            "text": "a hot tub",
+                            "annotations": [
+                                {
+                                    "name": "hotel1_detail.amenity"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 33,
+                            "end_index": 49,
+                            "text": "a fitness center",
+                            "annotations": [
+                                {
+                                    "name": "hotel1_detail.amenity"
+                                }
+                            ]
+                        }
+                    ]
+                }
             },
             {
                 "turn id": 8,
@@ -1384,7 +1539,22 @@
                 },
                 "dst": "hotel amenity balcony, hotel amenity a terrace",
                 "dst accumulated": "hotel name Squaw Valley, hotel location California, hotel date_range between 22-24 December, hotel sub_location near to downtown, hotel amenity a terrace",
-                "external knowledge": "( speaker : ASSISTANT | segments : (( start_index : 20 | end_index : 29 | text : a balcony | annotations : (( name : hotel1_detail.amenity )))))"
+                "external knowledge": "( speaker : ASSISTANT | segments : (( start_index : 20 | end_index : 29 | text : a balcony | annotations : (( name : hotel1_detail.amenity )))))",
+                "external knowledge non-flat": {
+                    "speaker": "ASSISTANT",
+                    "segments": [
+                        {
+                            "start_index": 20,
+                            "end_index": 29,
+                            "text": "a balcony",
+                            "annotations": [
+                                {
+                                    "name": "hotel1_detail.amenity"
+                                }
+                            ]
+                        }
+                    ]
+                }
             },
             {
                 "turn id": 9,
@@ -1433,7 +1603,22 @@
                 },
                 "dst": "hotel amenity mini fridge, hotel amenity coffee maker",
                 "dst accumulated": "hotel name Squaw Valley, hotel location California, hotel date_range between 22-24 December, hotel sub_location near to downtown, hotel amenity coffee maker",
-                "external knowledge": "( speaker : ASSISTANT | segments : (( start_index : 15 | end_index : 27 | text : mini fridges | annotations : (( name : hotel1_detail.amenity )))))"
+                "external knowledge": "( speaker : ASSISTANT | segments : (( start_index : 15 | end_index : 27 | text : mini fridges | annotations : (( name : hotel1_detail.amenity )))))",
+                "external knowledge non-flat": {
+                    "speaker": "ASSISTANT",
+                    "segments": [
+                        {
+                            "start_index": 15,
+                            "end_index": 27,
+                            "text": "mini fridges",
+                            "annotations": [
+                                {
+                                    "name": "hotel1_detail.amenity"
+                                }
+                            ]
+                        }
+                    ]
+                }
             },
             {
                 "turn id": 10,
@@ -1460,7 +1645,22 @@
                 },
                 "dst": "",
                 "dst accumulated": "hotel name Squaw Valley, hotel location California, hotel date_range between 22-24 December, hotel sub_location near to downtown, hotel amenity coffee maker",
-                "external knowledge": "( speaker : ASSISTANT | segments : (( start_index : 24 | end_index : 45 | text : around $349 per night | annotations : (( name : hotel_search.price_range )))))"
+                "external knowledge": "( speaker : ASSISTANT | segments : (( start_index : 24 | end_index : 45 | text : around $349 per night | annotations : (( name : hotel_search.price_range )))))",
+                "external knowledge non-flat": {
+                    "speaker": "ASSISTANT",
+                    "segments": [
+                        {
+                            "start_index": 24,
+                            "end_index": 45,
+                            "text": "around $349 per night",
+                            "annotations": [
+                                {
+                                    "name": "hotel_search.price_range"
+                                }
+                            ]
+                        }
+                    ]
+                }
             },
             {
                 "turn id": 11,
@@ -1487,7 +1687,22 @@
                 },
                 "dst": "",
                 "dst accumulated": "hotel name Squaw Valley, hotel location California, hotel date_range between 22-24 December, hotel sub_location near to downtown, hotel amenity coffee maker",
-                "external knowledge": "( speaker : ASSISTANT | segments : (( start_index : 25 | end_index : 37 | text : Squaw Valley | annotations : (( name : hotel_search.name.hotel )))))"
+                "external knowledge": "( speaker : ASSISTANT | segments : (( start_index : 25 | end_index : 37 | text : Squaw Valley | annotations : (( name : hotel_search.name.hotel )))))",
+                "external knowledge non-flat": {
+                    "speaker": "ASSISTANT",
+                    "segments": [
+                        {
+                            "start_index": 25,
+                            "end_index": 37,
+                            "text": "Squaw Valley",
+                            "annotations": [
+                                {
+                                    "name": "hotel_search.name.hotel"
+                                }
+                            ]
+                        }
+                    ]
+                }
             },
             {
                 "turn id": 12,
@@ -1514,7 +1729,22 @@
                 },
                 "dst": "",
                 "dst accumulated": "hotel name Squaw Valley, hotel location California, hotel date_range between 22-24 December, hotel sub_location near to downtown, hotel amenity coffee maker",
-                "external knowledge": "( speaker : ASSISTANT | segments : (( start_index : 25 | end_index : 37 | text : Squaw Valley | annotations : (( name : hotel_search.name.hotel )))))"
+                "external knowledge": "( speaker : ASSISTANT | segments : (( start_index : 25 | end_index : 37 | text : Squaw Valley | annotations : (( name : hotel_search.name.hotel )))))",
+                "external knowledge non-flat": {
+                    "speaker": "ASSISTANT",
+                    "segments": [
+                        {
+                            "start_index": 25,
+                            "end_index": 37,
+                            "text": "Squaw Valley",
+                            "annotations": [
+                                {
+                                    "name": "hotel_search.name.hotel"
+                                }
+                            ]
+                        }
+                    ]
+                }
             },
             {
                 "turn id": 13,
@@ -1530,7 +1760,11 @@
                 },
                 "dst": "",
                 "dst accumulated": "hotel name Squaw Valley, hotel location California, hotel date_range between 22-24 December, hotel sub_location near to downtown, hotel amenity coffee maker",
-                "external knowledge": "( speaker : ASSISTANT | segments : ())"
+                "external knowledge": "( speaker : ASSISTANT | segments : ())",
+                "external knowledge non-flat": {
+                    "speaker": "ASSISTANT",
+                    "segments": []
+                }
             },
             {
                 "turn id": 14,
@@ -1546,7 +1780,11 @@
                 },
                 "dst": "",
                 "dst accumulated": "hotel name Squaw Valley, hotel location California, hotel date_range between 22-24 December, hotel sub_location near to downtown, hotel amenity coffee maker",
-                "external knowledge": "( speaker : ASSISTANT | segments : ())"
+                "external knowledge": "( speaker : ASSISTANT | segments : ())",
+                "external knowledge non-flat": {
+                    "speaker": "ASSISTANT",
+                    "segments": []
+                }
             },
             {
                 "turn id": 15,
@@ -1562,7 +1800,11 @@
                 },
                 "dst": "",
                 "dst accumulated": "hotel name Squaw Valley, hotel location California, hotel date_range between 22-24 December, hotel sub_location near to downtown, hotel amenity coffee maker",
-                "external knowledge": "( speaker : ASSISTANT | segments : ())"
+                "external knowledge": "( speaker : ASSISTANT | segments : ())",
+                "external knowledge non-flat": {
+                    "speaker": "ASSISTANT",
+                    "segments": []
+                }
             },
             {
                 "turn id": 16,
@@ -1578,7 +1820,11 @@
                 },
                 "dst": "",
                 "dst accumulated": "hotel name Squaw Valley, hotel location California, hotel date_range between 22-24 December, hotel sub_location near to downtown, hotel amenity coffee maker",
-                "external knowledge": "( speaker : ASSISTANT | segments : ())"
+                "external knowledge": "( speaker : ASSISTANT | segments : ())",
+                "external knowledge non-flat": {
+                    "speaker": "ASSISTANT",
+                    "segments": []
+                }
             },
             {
                 "turn id": 17,
@@ -1594,7 +1840,11 @@
                 },
                 "dst": "",
                 "dst accumulated": "hotel name Squaw Valley, hotel location California, hotel date_range between 22-24 December, hotel sub_location near to downtown, hotel amenity coffee maker",
-                "external knowledge": "( speaker : ASSISTANT | segments : ())"
+                "external knowledge": "( speaker : ASSISTANT | segments : ())",
+                "external knowledge non-flat": {
+                    "speaker": "ASSISTANT",
+                    "segments": []
+                }
             },
             {
                 "turn id": 18,
@@ -1613,173 +1863,177 @@
                 "external knowledge": "()"
             }
         ],
-        "dst knowledge": "( hotel : ( sub_location : ( 5-minute walk from both the Civic Center and a Bart rail station | Possibly downtown | 0.5 blocks from the Port Authority Bus Terminal | 5-minute walk from Times Square | 3 miles from both the Audubon Zoo and Jackson Square ) | location : ( downtown St. Louis Missouri | in Salem | Charles California | Lake Helms New Orleans | Los Angeles California ) | price_range : (\"don t want to spend anymore than $300 per night\" | \"don t want to spend more than $300 a night\" | from $150 per night to $250 per night | \"one s cheaper\" | $3000 or less ) | amenity : ( a sophisticated Scandinavian-inspired bar | to have a highly rated restaurant on site | a TV LCD | Some rooms will have a view of the city | a modern business center ) | date_range : ( May 7th to May 10th | between September 22 2017 to September 24 2017 | coming month end of February | May 15 to May 18th | March 8th to March 15th ) | name : ( Dauphine Orleans Hotel | Windsor Court hotel | SpringHill Suites by Marriott New Orleans downtown/convention Center | the Laguna Beach Inn | San Francisco Downtown Hotel ) | price_per_night : ( $134 and a night | around $212 per night | $1566 per night | $194 a night | $96 ) | customer_rating : ( 4.3-stars | At least a four-star hotel rating | 3.7 ratings | highest customer review | 5 star rating from Green Google reviews ) | other_detail : ( and a breakfast buffet served in a modern dining room | Casual beachfront hotel offering relaxed rooms | it is located in the city of Palm Springs near Downtown | \"There s also a stylish restaurant/bar serving locally inspired cuisine plus a business center and event space\" | \"2 miles from Fisherman s Wharf\") | other_request : (\"There s any better steam but one that had whatever they re called to 200 you like\" | I want a hotel with good ratings good reviews | near the beach or beachfront | the hotel grounds have a restaurant and full bar | Within 10 miles ) | beds_ num : ( two queen beds | two beds in each | single bed | One bed | one king size ) | bed_type : ( bunk bed | pull-out couches | a pullout sofa-bed | Single bed | a queen size ) | guests_num : ( two members with me | my wife | a single person | more than 2 people | 3 guests ) | star_rating : ( Five | three star | 3 star hotels | Four and a half stars | 3 star Hotel ) | room_type : ( Modern rooms | Chic suites | the king bed room | simple rooms | full ) | hotel_booked : (\"I ll send you the information now\" | \"you re all booked up\" | The booking is confirmed | Booking Hotel | I will send you the booking information via email ) | check-in_date : ( July 4th | Feb 25th | 25th of February | This Thursday | on 23rd ) | check-out_date : ( February 25th | 14th | until the Sunday which is August 10th | 20th June | October 5th ) | rooms_num : ( two beds per room | two-bedroom | a one-room | 2 beds | Three ) | customer_review : (\"that it is a great location between Royal Street and Bourbon Street the staff was friendly and quick to help with anything five star the room was very welcome and comfortable the hotel was just exceptional the pool with the light we are very pleased we chose the hotel can t wait to visit again\" | Easily accessible by car guests noted the free parking Near the city center Shopping Restaurants & bars nearby public transit. Guests appreciated the friendly Professional staff Guests spoke highly of the reception staff | 373 google reviews | over 250 reviews | 162 reviews ) | total_fare : ( $225 a night | $209 a night | $194 | $245 | Keurig coffeemakers )))",
+        "external knowledge non-flat": {
+            "metadata": {},
+            "slots and values": {
+                "hotel": {
+                    "sub_location": [
+                        "an 8-minute walk from St. Louis Cathedral",
+                        "Near the water",
+                        "less than 5 minutes from the beach",
+                        "3 blocks from the French Quarter",
+                        "8 miles from the San Diego zoo"
+                    ],
+                    "location": [
+                        "165 Steuart St San Francisco CA 94105",
+                        "Park City is in Utah",
+                        "717 Orleans Street",
+                        "3720 N Sundial Ct Park City UT 84098",
+                        "Highway 1"
+                    ],
+                    "price_range": [
+                        "Maximum $300 per night",
+                        "Up to $300",
+                        "around $206 per night",
+                        "Less than $150 a night",
+                        "less than $400 per night"
+                    ],
+                    "amenity": [
+                        "dining venues",
+                        "colorful accents",
+                        "a half",
+                        "flat screen TVs",
+                        "a lap pool"
+                    ],
+                    "date_range": [
+                        "March 15th and March 20th",
+                        "on being over June 29th to July 6th",
+                        "April the 15th through the 17th",
+                        "from June 16th to 19th",
+                        "April 1st through the April 5th"
+                    ],
+                    "name": [
+                        "Renaissance New orleans arts warehouse district",
+                        "the Fair field Inn & Suites by Marriott New Orleans Downtown/French Quarter Area",
+                        "The Sheraton hotel",
+                        "ity Peaks Hotel Park",
+                        "the Naples Grand Beach Resort"
+                    ],
+                    "price_per_night": [
+                        "$143",
+                        "$122 per night",
+                        "$113 a night",
+                        "$207 a night",
+                        "$136 a night"
+                    ],
+                    "customer_rating": [
+                        "less than four",
+                        "2.5 stars or better",
+                        "high reviews",
+                        "four hotel star ratings or above",
+                        "four stars and more"
+                    ],
+                    "other_detail": [
+                        "(415) 626-0200",
+                        "(760) 722-6666",
+                        "overlooking the French Quarter or the courtyard",
+                        "This place offers modern suites in a sleek hotel",
+                        "about 5 minutes"
+                    ],
+                    "other_request": [
+                        "I want a place with an atmosphere that has a lodge-style and relaxed area",
+                        "a traditional Hot",
+                        "out in the woods",
+                        "middle class",
+                        "one bedroom"
+                    ],
+                    "beds_ num": [
+                        "two queen-size bed",
+                        "2 queen beds",
+                        "one",
+                        "two beds per room",
+                        "two queen-size bed"
+                    ],
+                    "bed_type": [
+                        "king sized bed",
+                        "Queen-sized bed",
+                        "A king-sized bed",
+                        "Queen-size bed",
+                        "twin"
+                    ],
+                    "guests_num": [
+                        "my husband and me",
+                        "Two adults and two kids",
+                        "3 guests",
+                        "me and one other person",
+                        "my wife and our two kids"
+                    ],
+                    "star_rating": [
+                        "three stars and above",
+                        "above two",
+                        "the best star rating",
+                        "4-stars",
+                        "4.7"
+                    ],
+                    "room_type": [
+                        "Sleek modern rooms",
+                        "villas",
+                        "Standard Queen size rooms with guest room",
+                        "double bed standard suite",
+                        "Standard room"
+                    ],
+                    "hotel_booked": [
+                        "it's done and I emailed you the receipt",
+                        "I will do that",
+                        "I will book this hotel",
+                        "Your booking details sent to your email",
+                        "will send you the confirmation"
+                    ],
+                    "check-in_date": [
+                        "on Saturday very early morning",
+                        "Friday June 16th",
+                        "Friday March the 24th",
+                        "Monday March 27th",
+                        "next year June 16th 2019"
+                    ],
+                    "check-out_date": [
+                        "February 19th",
+                        "May 17th",
+                        "Sunday night",
+                        "July 21st",
+                        "on May 7th"
+                    ],
+                    "rooms_num": [
+                        "2 beds",
+                        "one bedroom",
+                        "1 bedroom",
+                        "1 bedroom",
+                        "two beds"
+                    ],
+                    "customer_review": [
+                        "598 Google reviews",
+                        "over 250 reviews",
+                        "14 reviews",
+                        "4.4 stars",
+                        "162 reviews"
+                    ],
+                    "total_fare": [
+                        "$169 per room",
+                        "$4088",
+                        "$318",
+                        "$45",
+                        "$212"
+                    ]
+                }
+            },
+            "intents": {}
+        },
+        "external knowledge": "()",
+        "dst knowledge": "( hotel : ( sub_location : ( an 8-minute walk from St. Louis Cathedral | Near the water | less than 5 minutes from the beach | 3 blocks from the French Quarter | 8 miles from the San Diego zoo ) | location : ( 165 Steuart St San Francisco CA 94105 | Park City is in Utah | 717 Orleans Street | 3720 N Sundial Ct Park City UT 84098 | Highway 1 ) | price_range : ( Maximum $300 per night | Up to $300 | around $206 per night | Less than $150 a night | less than $400 per night ) | amenity : ( dining venues | colorful accents | a half | flat screen TVs | a lap pool ) | date_range : ( March 15th and March 20th | on being over June 29th to July 6th | April the 15th through the 17th | from June 16th to 19th | April 1st through the April 5th ) | name : ( Renaissance New orleans arts warehouse district | the Fair field Inn & Suites by Marriott New Orleans Downtown/French Quarter Area | The Sheraton hotel | ity Peaks Hotel Park | the Naples Grand Beach Resort ) | price_per_night : ( $143 | $122 per night | $113 a night | $207 a night | $136 a night ) | customer_rating : ( less than four | 2.5 stars or better | high reviews | four hotel star ratings or above | four stars and more ) | other_detail : ( (415) 626-0200 | (760) 722-6666 | overlooking the French Quarter or the courtyard | This place offers modern suites in a sleek hotel | about 5 minutes ) | other_request : ( I want a place with an atmosphere that has a lodge-style and relaxed area | a traditional Hot | out in the woods | middle class | one bedroom ) | beds_ num : ( two queen-size bed | 2 queen beds | one | two beds per room | two queen-size bed ) | bed_type : ( king sized bed | Queen-sized bed | A king-sized bed | Queen-size bed | twin ) | guests_num : ( my husband and me | Two adults and two kids | 3 guests | me and one other person | my wife and our two kids ) | star_rating : ( three stars and above | above two | the best star rating | 4-stars | 4.7 ) | room_type : ( Sleek modern rooms | villas | Standard Queen size rooms with guest room | double bed standard suite | Standard room ) | hotel_booked : (\"it s done and I emailed you the receipt\" | I will do that | I will book this hotel | Your booking details sent to your email | will send you the confirmation ) | check-in_date : ( on Saturday very early morning | Friday June 16th | Friday March the 24th | Monday March 27th | next year June 16th 2019 ) | check-out_date : ( February 19th | May 17th | Sunday night | July 21st | on May 7th ) | rooms_num : ( 2 beds | one bedroom | 1 bedroom | 1 bedroom | two beds ) | customer_review : ( 598 Google reviews | over 250 reviews | 14 reviews | 4.4 stars | 162 reviews ) | total_fare : ( $169 per room | $4088 | $318 | $45 | $212 )))",
         "intent knowledge": "()",
         "prompt": [
             "This is a bot helping users to find a hotel. Given the dialog context and external database, please generate a relevant system response for the user.",
             "This bot assists users to find a hotel. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
-            "This bot helps users to find a hotel. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
-            "The purpose of this bot is to assist users to find a hotel. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
-            "This bot is designed to help users find a hotel. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+            "This bot helps users to find a hotel. Based on the conversation history and available external data, please generate a relevant system response for the user.",
+            "The purpose of this bot is to assist users to find a hotel. Considering the dialogue context and the information available in the external database, please provide a fitting response for the user.",
+            "This bot is designed to help users find a hotel. By utilizing the current dialog context and external resources, generate a fitting response for the user."
         ]
     },
     "Taskmaster2--train--4": {
         "original dialog id": "dlg-0032fc41-9845-4be6-b9f5-0e6d898fda57",
         "dialog index": 4,
         "original dialog info": {
-            "instruction_id": "hotel-8",
-            "slots and values": {
-                "hotel": {
-                    "sub_location": [
-                        "5-minute walk from both the Civic Center and a Bart rail station",
-                        "Possibly downtown",
-                        "0.5 blocks from the Port Authority Bus Terminal",
-                        "5-minute walk from Times Square",
-                        "3 miles from both the Audubon Zoo and Jackson Square"
-                    ],
-                    "location": [
-                        "downtown St. Louis Missouri",
-                        "in Salem",
-                        "Charles California",
-                        "Lake Helms New Orleans",
-                        "Los Angeles California"
-                    ],
-                    "price_range": [
-                        "don't want to spend anymore than $300 per night",
-                        "don't want to spend more than $300 a night",
-                        "from $150 per night to $250 per night",
-                        "one's cheaper",
-                        "$3000 or less"
-                    ],
-                    "amenity": [
-                        "a sophisticated Scandinavian-inspired bar",
-                        "to have a highly rated restaurant on site",
-                        "a TV LCD",
-                        "Some rooms will have a view of the city",
-                        "a modern business center"
-                    ],
-                    "date_range": [
-                        "May 7th to May 10th",
-                        "between September 22 2017 to September 24 2017",
-                        "coming month end of February",
-                        "May 15 to May 18th",
-                        "March 8th to March 15th"
-                    ],
-                    "name": [
-                        "Dauphine Orleans Hotel",
-                        "Windsor Court hotel",
-                        "SpringHill Suites by Marriott New Orleans downtown/convention Center",
-                        "the Laguna Beach Inn",
-                        "San Francisco Downtown Hotel"
-                    ],
-                    "price_per_night": [
-                        "$134 and a night",
-                        "around $212 per night",
-                        "$1566 per night",
-                        "$194 a night",
-                        "$96"
-                    ],
-                    "customer_rating": [
-                        "4.3-stars",
-                        "At least a four-star hotel rating",
-                        "3.7 ratings",
-                        "highest customer review",
-                        "5 star rating from Green Google reviews"
-                    ],
-                    "other_detail": [
-                        "and a breakfast buffet served in a modern dining room",
-                        "Casual beachfront hotel offering relaxed rooms",
-                        "it is located in the city of Palm Springs near Downtown",
-                        "There's also a stylish restaurant/bar serving locally inspired cuisine plus a business center and event space",
-                        "2 miles from Fisherman's Wharf"
-                    ],
-                    "other_request": [
-                        "There's any better steam but one that had whatever they're called to 200 you like",
-                        "I want a hotel with good ratings good reviews",
-                        "near the beach or beachfront",
-                        "the hotel grounds have a restaurant and full bar",
-                        "Within 10 miles"
-                    ],
-                    "beds_ num": [
-                        "two queen beds",
-                        "two beds in each",
-                        "single bed",
-                        "One bed",
-                        "one king size"
-                    ],
-                    "bed_type": [
-                        "bunk bed",
-                        "pull-out couches",
-                        "a pullout sofa-bed",
-                        "Single bed",
-                        "a queen size"
-                    ],
-                    "guests_num": [
-                        "two members with me",
-                        "my wife",
-                        "a single person",
-                        "more than 2 people",
-                        "3 guests"
-                    ],
-                    "star_rating": [
-                        "Five",
-                        "three star",
-                        "3 star hotels",
-                        "Four and a half stars",
-                        "3 star Hotel"
-                    ],
-                    "room_type": [
-                        "Modern rooms",
-                        "Chic suites",
-                        "the king bed room",
-                        "simple rooms",
-                        "full"
-                    ],
-                    "hotel_booked": [
-                        "I'll send you the information now",
-                        "you're all booked up",
-                        "The booking is confirmed",
-                        "Booking Hotel",
-                        "I will send you the booking information via email"
-                    ],
-                    "check-in_date": [
-                        "July 4th",
-                        "Feb 25th",
-                        "25th of February",
-                        "This Thursday",
-                        "on 23rd"
-                    ],
-                    "check-out_date": [
-                        "February 25th",
-                        "14th",
-                        "until the Sunday which is August 10th",
-                        "20th June",
-                        "October 5th"
-                    ],
-                    "rooms_num": [
-                        "two beds per room",
-                        "two-bedroom",
-                        "a one-room",
-                        "2 beds",
-                        "Three"
-                    ],
-                    "customer_review": [
-                        "that it is a great location between Royal Street and Bourbon Street the staff was friendly and quick to help with anything five star the room was very welcome and comfortable the hotel was just exceptional the pool with the light we are very pleased we chose the hotel can't wait to visit again",
-                        "Easily accessible by car guests noted the free parking Near the city center Shopping Restaurants & bars nearby public transit. Guests appreciated the friendly Professional staff Guests spoke highly of the reception staff",
-                        "373 google reviews",
-                        "over 250 reviews",
-                        "162 reviews"
-                    ],
-                    "total_fare": [
-                        "$225 a night",
-                        "$209 a night",
-                        "$194",
-                        "$245",
-                        "Keurig coffeemakers"
-                    ]
-                }
-            },
-            "intents": {}
+            "instruction_id": "hotel-8"
         },
         "log": [
             {
@@ -1818,7 +2072,11 @@
                 },
                 "dst": "hotel sub_location Laguna Beach, hotel location California",
                 "dst accumulated": "hotel sub_location Laguna Beach, hotel location California",
-                "external knowledge": "( speaker : ASSISTANT | segments : ())"
+                "external knowledge": "( speaker : ASSISTANT | segments : ())",
+                "external knowledge non-flat": {
+                    "speaker": "ASSISTANT",
+                    "segments": []
+                }
             },
             {
                 "turn id": 2,
@@ -1846,7 +2104,11 @@
                 },
                 "dst": "hotel date_range June 7th to the 13th",
                 "dst accumulated": "hotel sub_location Laguna Beach, hotel location California, hotel date_range June 7th to the 13th",
-                "external knowledge": "( speaker : ASSISTANT | segments : ())"
+                "external knowledge": "( speaker : ASSISTANT | segments : ())",
+                "external knowledge non-flat": {
+                    "speaker": "ASSISTANT",
+                    "segments": []
+                }
             },
             {
                 "turn id": 3,
@@ -1885,7 +2147,22 @@
                 },
                 "dst": "hotel date_range June 7th to the 13th",
                 "dst accumulated": "hotel sub_location Laguna Beach, hotel location California, hotel date_range June 7th to the 13th",
-                "external knowledge": "( speaker : ASSISTANT | segments : (( start_index : 6 | end_index : 26 | text : June 7th to the 13th | annotations : (( name : hotel_search.date_range )))))"
+                "external knowledge": "( speaker : ASSISTANT | segments : (( start_index : 6 | end_index : 26 | text : June 7th to the 13th | annotations : (( name : hotel_search.date_range )))))",
+                "external knowledge non-flat": {
+                    "speaker": "ASSISTANT",
+                    "segments": [
+                        {
+                            "start_index": 6,
+                            "end_index": 26,
+                            "text": "June 7th to the 13th",
+                            "annotations": [
+                                {
+                                    "name": "hotel_search.date_range"
+                                }
+                            ]
+                        }
+                    ]
+                }
             },
             {
                 "turn id": 4,
@@ -1913,7 +2190,11 @@
                 },
                 "dst": "hotel customer_rating at least three stars",
                 "dst accumulated": "hotel sub_location Laguna Beach, hotel location California, hotel date_range June 7th to the 13th, hotel customer_rating at least three stars",
-                "external knowledge": "( speaker : ASSISTANT | segments : ())"
+                "external knowledge": "( speaker : ASSISTANT | segments : ())",
+                "external knowledge non-flat": {
+                    "speaker": "ASSISTANT",
+                    "segments": []
+                }
             },
             {
                 "turn id": 5,
@@ -1941,7 +2222,11 @@
                 },
                 "dst": "hotel price_range $200 a night",
                 "dst accumulated": "hotel sub_location Laguna Beach, hotel location California, hotel date_range June 7th to the 13th, hotel customer_rating at least three stars, hotel price_range $200 a night",
-                "external knowledge": "( speaker : ASSISTANT | segments : ())"
+                "external knowledge": "( speaker : ASSISTANT | segments : ())",
+                "external knowledge non-flat": {
+                    "speaker": "ASSISTANT",
+                    "segments": []
+                }
             },
             {
                 "turn id": 6,
@@ -1999,7 +2284,11 @@
                 },
                 "dst": "hotel beds_ num two, hotel bed_type double beds, hotel amenity parking, hotel sub_location near the beach",
                 "dst accumulated": "hotel sub_location near the beach, hotel location California, hotel date_range June 7th to the 13th, hotel customer_rating at least three stars, hotel price_range $200 a night, hotel beds_ num two, hotel bed_type double beds, hotel amenity parking",
-                "external knowledge": "( speaker : ASSISTANT | segments : ())"
+                "external knowledge": "( speaker : ASSISTANT | segments : ())",
+                "external knowledge non-flat": {
+                    "speaker": "ASSISTANT",
+                    "segments": []
+                }
             },
             {
                 "turn id": 7,
@@ -2048,7 +2337,32 @@
                 },
                 "dst": "hotel customer_rating best customer reviews",
                 "dst accumulated": "hotel sub_location near the beach, hotel location California, hotel date_range June 7th to the 13th, hotel customer_rating best customer reviews, hotel price_range $200 a night, hotel beds_ num two, hotel bed_type double beds, hotel amenity parking",
-                "external knowledge": "( speaker : ASSISTANT | segments : (( start_index : 24 | end_index : 45 | text : best customer reviews | annotations : (( name : hotel_search.customer_rating ))) | ( start_index : 58 | end_index : 78 | text : the Laguna Beach Inn | annotations : (( name : hotel1_detail.name.hotel )))))"
+                "external knowledge": "( speaker : ASSISTANT | segments : (( start_index : 24 | end_index : 45 | text : best customer reviews | annotations : (( name : hotel_search.customer_rating ))) | ( start_index : 58 | end_index : 78 | text : the Laguna Beach Inn | annotations : (( name : hotel1_detail.name.hotel )))))",
+                "external knowledge non-flat": {
+                    "speaker": "ASSISTANT",
+                    "segments": [
+                        {
+                            "start_index": 24,
+                            "end_index": 45,
+                            "text": "best customer reviews",
+                            "annotations": [
+                                {
+                                    "name": "hotel_search.customer_rating"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 58,
+                            "end_index": 78,
+                            "text": "the Laguna Beach Inn",
+                            "annotations": [
+                                {
+                                    "name": "hotel1_detail.name.hotel"
+                                }
+                            ]
+                        }
+                    ]
+                }
             },
             {
                 "turn id": 8,
@@ -2097,7 +2411,32 @@
                 },
                 "dst": "hotel sub_location beach",
                 "dst accumulated": "hotel sub_location beach, hotel location California, hotel date_range June 7th to the 13th, hotel customer_rating best customer reviews, hotel price_range $200 a night, hotel beds_ num two, hotel bed_type double beds, hotel amenity parking",
-                "external knowledge": "( speaker : ASSISTANT | segments : (( start_index : 0 | end_index : 41 | text : The beach is three minutes from the hotel | annotations : (( name : hotel1_detail.other_detail ))) | ( start_index : 4 | end_index : 9 | text : beach | annotations : (( name : hotel_search.sub_location.hotel )))))"
+                "external knowledge": "( speaker : ASSISTANT | segments : (( start_index : 0 | end_index : 41 | text : The beach is three minutes from the hotel | annotations : (( name : hotel1_detail.other_detail ))) | ( start_index : 4 | end_index : 9 | text : beach | annotations : (( name : hotel_search.sub_location.hotel )))))",
+                "external knowledge non-flat": {
+                    "speaker": "ASSISTANT",
+                    "segments": [
+                        {
+                            "start_index": 0,
+                            "end_index": 41,
+                            "text": "The beach is three minutes from the hotel",
+                            "annotations": [
+                                {
+                                    "name": "hotel1_detail.other_detail"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 4,
+                            "end_index": 9,
+                            "text": "beach",
+                            "annotations": [
+                                {
+                                    "name": "hotel_search.sub_location.hotel"
+                                }
+                            ]
+                        }
+                    ]
+                }
             },
             {
                 "turn id": 9,
@@ -2166,7 +2505,42 @@
                 },
                 "dst": "hotel amenity restaurant, hotel amenity bars",
                 "dst accumulated": "hotel sub_location beach, hotel location California, hotel date_range June 7th to the 13th, hotel customer_rating best customer reviews, hotel price_range $200 a night, hotel beds_ num two, hotel bed_type double beds, hotel amenity bars",
-                "external knowledge": "( speaker : ASSISTANT | segments : (( start_index : 45 | end_index : 88 | text : This hotel is within 10 minutes of downtown | annotations : (( name : hotel1_detail.other_detail ))) | ( start_index : 80 | end_index : 88 | text : downtown | annotations : (( name : hotel_search.sub_location.hotel ))) | ( start_index : 114 | end_index : 125 | text : restaurants | annotations : (( name : hotel1_detail.amenity )))))"
+                "external knowledge": "( speaker : ASSISTANT | segments : (( start_index : 45 | end_index : 88 | text : This hotel is within 10 minutes of downtown | annotations : (( name : hotel1_detail.other_detail ))) | ( start_index : 80 | end_index : 88 | text : downtown | annotations : (( name : hotel_search.sub_location.hotel ))) | ( start_index : 114 | end_index : 125 | text : restaurants | annotations : (( name : hotel1_detail.amenity )))))",
+                "external knowledge non-flat": {
+                    "speaker": "ASSISTANT",
+                    "segments": [
+                        {
+                            "start_index": 45,
+                            "end_index": 88,
+                            "text": "This hotel is within 10 minutes of downtown",
+                            "annotations": [
+                                {
+                                    "name": "hotel1_detail.other_detail"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 80,
+                            "end_index": 88,
+                            "text": "downtown",
+                            "annotations": [
+                                {
+                                    "name": "hotel_search.sub_location.hotel"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 114,
+                            "end_index": 125,
+                            "text": "restaurants",
+                            "annotations": [
+                                {
+                                    "name": "hotel1_detail.amenity"
+                                }
+                            ]
+                        }
+                    ]
+                }
             },
             {
                 "turn id": 10,
@@ -2193,7 +2567,22 @@
                 },
                 "dst": "",
                 "dst accumulated": "hotel sub_location beach, hotel location California, hotel date_range June 7th to the 13th, hotel customer_rating best customer reviews, hotel price_range $200 a night, hotel beds_ num two, hotel bed_type double beds, hotel amenity bars",
-                "external knowledge": "( speaker : ASSISTANT | segments : (( start_index : 35 | end_index : 75 | text : 2020 s Coast Hwy | Laguna Beach | CA 92651 | annotations : (( name : hotel1_detail.location )))))"
+                "external knowledge": "( speaker : ASSISTANT | segments : (( start_index : 35 | end_index : 75 | text : 2020 s Coast Hwy | Laguna Beach | CA 92651 | annotations : (( name : hotel1_detail.location )))))",
+                "external knowledge non-flat": {
+                    "speaker": "ASSISTANT",
+                    "segments": [
+                        {
+                            "start_index": 35,
+                            "end_index": 75,
+                            "text": "2020 s Coast Hwy, Laguna Beach, CA 92651",
+                            "annotations": [
+                                {
+                                    "name": "hotel1_detail.location"
+                                }
+                            ]
+                        }
+                    ]
+                }
             },
             {
                 "turn id": 11,
@@ -2209,7 +2598,11 @@
                 },
                 "dst": "",
                 "dst accumulated": "hotel sub_location beach, hotel location California, hotel date_range June 7th to the 13th, hotel customer_rating best customer reviews, hotel price_range $200 a night, hotel beds_ num two, hotel bed_type double beds, hotel amenity bars",
-                "external knowledge": "( speaker : ASSISTANT | segments : ())"
+                "external knowledge": "( speaker : ASSISTANT | segments : ())",
+                "external knowledge non-flat": {
+                    "speaker": "ASSISTANT",
+                    "segments": []
+                }
             },
             {
                 "turn id": 12,
@@ -2228,173 +2621,177 @@
                 "external knowledge": "()"
             }
         ],
-        "dst knowledge": "( hotel : ( sub_location : ( 5-minute walk from both the Civic Center and a Bart rail station | Possibly downtown | 0.5 blocks from the Port Authority Bus Terminal | 5-minute walk from Times Square | 3 miles from both the Audubon Zoo and Jackson Square ) | location : ( downtown St. Louis Missouri | in Salem | Charles California | Lake Helms New Orleans | Los Angeles California ) | price_range : (\"don t want to spend anymore than $300 per night\" | \"don t want to spend more than $300 a night\" | from $150 per night to $250 per night | \"one s cheaper\" | $3000 or less ) | amenity : ( a sophisticated Scandinavian-inspired bar | to have a highly rated restaurant on site | a TV LCD | Some rooms will have a view of the city | a modern business center ) | date_range : ( May 7th to May 10th | between September 22 2017 to September 24 2017 | coming month end of February | May 15 to May 18th | March 8th to March 15th ) | name : ( Dauphine Orleans Hotel | Windsor Court hotel | SpringHill Suites by Marriott New Orleans downtown/convention Center | the Laguna Beach Inn | San Francisco Downtown Hotel ) | price_per_night : ( $134 and a night | around $212 per night | $1566 per night | $194 a night | $96 ) | customer_rating : ( 4.3-stars | At least a four-star hotel rating | 3.7 ratings | highest customer review | 5 star rating from Green Google reviews ) | other_detail : ( and a breakfast buffet served in a modern dining room | Casual beachfront hotel offering relaxed rooms | it is located in the city of Palm Springs near Downtown | \"There s also a stylish restaurant/bar serving locally inspired cuisine plus a business center and event space\" | \"2 miles from Fisherman s Wharf\") | other_request : (\"There s any better steam but one that had whatever they re called to 200 you like\" | I want a hotel with good ratings good reviews | near the beach or beachfront | the hotel grounds have a restaurant and full bar | Within 10 miles ) | beds_ num : ( two queen beds | two beds in each | single bed | One bed | one king size ) | bed_type : ( bunk bed | pull-out couches | a pullout sofa-bed | Single bed | a queen size ) | guests_num : ( two members with me | my wife | a single person | more than 2 people | 3 guests ) | star_rating : ( Five | three star | 3 star hotels | Four and a half stars | 3 star Hotel ) | room_type : ( Modern rooms | Chic suites | the king bed room | simple rooms | full ) | hotel_booked : (\"I ll send you the information now\" | \"you re all booked up\" | The booking is confirmed | Booking Hotel | I will send you the booking information via email ) | check-in_date : ( July 4th | Feb 25th | 25th of February | This Thursday | on 23rd ) | check-out_date : ( February 25th | 14th | until the Sunday which is August 10th | 20th June | October 5th ) | rooms_num : ( two beds per room | two-bedroom | a one-room | 2 beds | Three ) | customer_review : (\"that it is a great location between Royal Street and Bourbon Street the staff was friendly and quick to help with anything five star the room was very welcome and comfortable the hotel was just exceptional the pool with the light we are very pleased we chose the hotel can t wait to visit again\" | Easily accessible by car guests noted the free parking Near the city center Shopping Restaurants & bars nearby public transit. Guests appreciated the friendly Professional staff Guests spoke highly of the reception staff | 373 google reviews | over 250 reviews | 162 reviews ) | total_fare : ( $225 a night | $209 a night | $194 | $245 | Keurig coffeemakers )))",
+        "external knowledge non-flat": {
+            "metadata": {},
+            "slots and values": {
+                "hotel": {
+                    "sub_location": [
+                        "an 8-minute walk from St. Louis Cathedral",
+                        "Near the water",
+                        "less than 5 minutes from the beach",
+                        "3 blocks from the French Quarter",
+                        "8 miles from the San Diego zoo"
+                    ],
+                    "location": [
+                        "165 Steuart St San Francisco CA 94105",
+                        "Park City is in Utah",
+                        "717 Orleans Street",
+                        "3720 N Sundial Ct Park City UT 84098",
+                        "Highway 1"
+                    ],
+                    "price_range": [
+                        "Maximum $300 per night",
+                        "Up to $300",
+                        "around $206 per night",
+                        "Less than $150 a night",
+                        "less than $400 per night"
+                    ],
+                    "amenity": [
+                        "dining venues",
+                        "colorful accents",
+                        "a half",
+                        "flat screen TVs",
+                        "a lap pool"
+                    ],
+                    "date_range": [
+                        "March 15th and March 20th",
+                        "on being over June 29th to July 6th",
+                        "April the 15th through the 17th",
+                        "from June 16th to 19th",
+                        "April 1st through the April 5th"
+                    ],
+                    "name": [
+                        "Renaissance New orleans arts warehouse district",
+                        "the Fair field Inn & Suites by Marriott New Orleans Downtown/French Quarter Area",
+                        "The Sheraton hotel",
+                        "ity Peaks Hotel Park",
+                        "the Naples Grand Beach Resort"
+                    ],
+                    "price_per_night": [
+                        "$143",
+                        "$122 per night",
+                        "$113 a night",
+                        "$207 a night",
+                        "$136 a night"
+                    ],
+                    "customer_rating": [
+                        "less than four",
+                        "2.5 stars or better",
+                        "high reviews",
+                        "four hotel star ratings or above",
+                        "four stars and more"
+                    ],
+                    "other_detail": [
+                        "(415) 626-0200",
+                        "(760) 722-6666",
+                        "overlooking the French Quarter or the courtyard",
+                        "This place offers modern suites in a sleek hotel",
+                        "about 5 minutes"
+                    ],
+                    "other_request": [
+                        "I want a place with an atmosphere that has a lodge-style and relaxed area",
+                        "a traditional Hot",
+                        "out in the woods",
+                        "middle class",
+                        "one bedroom"
+                    ],
+                    "beds_ num": [
+                        "two queen-size bed",
+                        "2 queen beds",
+                        "one",
+                        "two beds per room",
+                        "two queen-size bed"
+                    ],
+                    "bed_type": [
+                        "king sized bed",
+                        "Queen-sized bed",
+                        "A king-sized bed",
+                        "Queen-size bed",
+                        "twin"
+                    ],
+                    "guests_num": [
+                        "my husband and me",
+                        "Two adults and two kids",
+                        "3 guests",
+                        "me and one other person",
+                        "my wife and our two kids"
+                    ],
+                    "star_rating": [
+                        "three stars and above",
+                        "above two",
+                        "the best star rating",
+                        "4-stars",
+                        "4.7"
+                    ],
+                    "room_type": [
+                        "Sleek modern rooms",
+                        "villas",
+                        "Standard Queen size rooms with guest room",
+                        "double bed standard suite",
+                        "Standard room"
+                    ],
+                    "hotel_booked": [
+                        "it's done and I emailed you the receipt",
+                        "I will do that",
+                        "I will book this hotel",
+                        "Your booking details sent to your email",
+                        "will send you the confirmation"
+                    ],
+                    "check-in_date": [
+                        "on Saturday very early morning",
+                        "Friday June 16th",
+                        "Friday March the 24th",
+                        "Monday March 27th",
+                        "next year June 16th 2019"
+                    ],
+                    "check-out_date": [
+                        "February 19th",
+                        "May 17th",
+                        "Sunday night",
+                        "July 21st",
+                        "on May 7th"
+                    ],
+                    "rooms_num": [
+                        "2 beds",
+                        "one bedroom",
+                        "1 bedroom",
+                        "1 bedroom",
+                        "two beds"
+                    ],
+                    "customer_review": [
+                        "598 Google reviews",
+                        "over 250 reviews",
+                        "14 reviews",
+                        "4.4 stars",
+                        "162 reviews"
+                    ],
+                    "total_fare": [
+                        "$169 per room",
+                        "$4088",
+                        "$318",
+                        "$45",
+                        "$212"
+                    ]
+                }
+            },
+            "intents": {}
+        },
+        "external knowledge": "()",
+        "dst knowledge": "( hotel : ( sub_location : ( an 8-minute walk from St. Louis Cathedral | Near the water | less than 5 minutes from the beach | 3 blocks from the French Quarter | 8 miles from the San Diego zoo ) | location : ( 165 Steuart St San Francisco CA 94105 | Park City is in Utah | 717 Orleans Street | 3720 N Sundial Ct Park City UT 84098 | Highway 1 ) | price_range : ( Maximum $300 per night | Up to $300 | around $206 per night | Less than $150 a night | less than $400 per night ) | amenity : ( dining venues | colorful accents | a half | flat screen TVs | a lap pool ) | date_range : ( March 15th and March 20th | on being over June 29th to July 6th | April the 15th through the 17th | from June 16th to 19th | April 1st through the April 5th ) | name : ( Renaissance New orleans arts warehouse district | the Fair field Inn & Suites by Marriott New Orleans Downtown/French Quarter Area | The Sheraton hotel | ity Peaks Hotel Park | the Naples Grand Beach Resort ) | price_per_night : ( $143 | $122 per night | $113 a night | $207 a night | $136 a night ) | customer_rating : ( less than four | 2.5 stars or better | high reviews | four hotel star ratings or above | four stars and more ) | other_detail : ( (415) 626-0200 | (760) 722-6666 | overlooking the French Quarter or the courtyard | This place offers modern suites in a sleek hotel | about 5 minutes ) | other_request : ( I want a place with an atmosphere that has a lodge-style and relaxed area | a traditional Hot | out in the woods | middle class | one bedroom ) | beds_ num : ( two queen-size bed | 2 queen beds | one | two beds per room | two queen-size bed ) | bed_type : ( king sized bed | Queen-sized bed | A king-sized bed | Queen-size bed | twin ) | guests_num : ( my husband and me | Two adults and two kids | 3 guests | me and one other person | my wife and our two kids ) | star_rating : ( three stars and above | above two | the best star rating | 4-stars | 4.7 ) | room_type : ( Sleek modern rooms | villas | Standard Queen size rooms with guest room | double bed standard suite | Standard room ) | hotel_booked : (\"it s done and I emailed you the receipt\" | I will do that | I will book this hotel | Your booking details sent to your email | will send you the confirmation ) | check-in_date : ( on Saturday very early morning | Friday June 16th | Friday March the 24th | Monday March 27th | next year June 16th 2019 ) | check-out_date : ( February 19th | May 17th | Sunday night | July 21st | on May 7th ) | rooms_num : ( 2 beds | one bedroom | 1 bedroom | 1 bedroom | two beds ) | customer_review : ( 598 Google reviews | over 250 reviews | 14 reviews | 4.4 stars | 162 reviews ) | total_fare : ( $169 per room | $4088 | $318 | $45 | $212 )))",
         "intent knowledge": "()",
         "prompt": [
             "This is a bot helping users to find a hotel. Given the dialog context and external database, please generate a relevant system response for the user.",
             "This bot assists users to find a hotel. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
-            "This bot helps users to find a hotel. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
-            "The purpose of this bot is to assist users to find a hotel. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
-            "This bot is designed to help users find a hotel. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+            "This bot helps users to find a hotel. Based on the conversation history and available external data, please generate a relevant system response for the user.",
+            "The purpose of this bot is to assist users to find a hotel. Considering the dialogue context and the information available in the external database, please provide a fitting response for the user.",
+            "This bot is designed to help users find a hotel. By utilizing the current dialog context and external resources, generate a fitting response for the user."
         ]
     },
     "Taskmaster2--train--5": {
         "original dialog id": "dlg-003fa5f0-3457-464b-b22b-e74194fe172a",
         "dialog index": 5,
         "original dialog info": {
-            "instruction_id": "hotel-10",
-            "slots and values": {
-                "hotel": {
-                    "sub_location": [
-                        "5-minute walk from both the Civic Center and a Bart rail station",
-                        "Possibly downtown",
-                        "0.5 blocks from the Port Authority Bus Terminal",
-                        "5-minute walk from Times Square",
-                        "3 miles from both the Audubon Zoo and Jackson Square"
-                    ],
-                    "location": [
-                        "downtown St. Louis Missouri",
-                        "in Salem",
-                        "Charles California",
-                        "Lake Helms New Orleans",
-                        "Los Angeles California"
-                    ],
-                    "price_range": [
-                        "don't want to spend anymore than $300 per night",
-                        "don't want to spend more than $300 a night",
-                        "from $150 per night to $250 per night",
-                        "one's cheaper",
-                        "$3000 or less"
-                    ],
-                    "amenity": [
-                        "a sophisticated Scandinavian-inspired bar",
-                        "to have a highly rated restaurant on site",
-                        "a TV LCD",
-                        "Some rooms will have a view of the city",
-                        "a modern business center"
-                    ],
-                    "date_range": [
-                        "May 7th to May 10th",
-                        "between September 22 2017 to September 24 2017",
-                        "coming month end of February",
-                        "May 15 to May 18th",
-                        "March 8th to March 15th"
-                    ],
-                    "name": [
-                        "Dauphine Orleans Hotel",
-                        "Windsor Court hotel",
-                        "SpringHill Suites by Marriott New Orleans downtown/convention Center",
-                        "the Laguna Beach Inn",
-                        "San Francisco Downtown Hotel"
-                    ],
-                    "price_per_night": [
-                        "$134 and a night",
-                        "around $212 per night",
-                        "$1566 per night",
-                        "$194 a night",
-                        "$96"
-                    ],
-                    "customer_rating": [
-                        "4.3-stars",
-                        "At least a four-star hotel rating",
-                        "3.7 ratings",
-                        "highest customer review",
-                        "5 star rating from Green Google reviews"
-                    ],
-                    "other_detail": [
-                        "and a breakfast buffet served in a modern dining room",
-                        "Casual beachfront hotel offering relaxed rooms",
-                        "it is located in the city of Palm Springs near Downtown",
-                        "There's also a stylish restaurant/bar serving locally inspired cuisine plus a business center and event space",
-                        "2 miles from Fisherman's Wharf"
-                    ],
-                    "other_request": [
-                        "There's any better steam but one that had whatever they're called to 200 you like",
-                        "I want a hotel with good ratings good reviews",
-                        "near the beach or beachfront",
-                        "the hotel grounds have a restaurant and full bar",
-                        "Within 10 miles"
-                    ],
-                    "beds_ num": [
-                        "two queen beds",
-                        "two beds in each",
-                        "single bed",
-                        "One bed",
-                        "one king size"
-                    ],
-                    "bed_type": [
-                        "bunk bed",
-                        "pull-out couches",
-                        "a pullout sofa-bed",
-                        "Single bed",
-                        "a queen size"
-                    ],
-                    "guests_num": [
-                        "two members with me",
-                        "my wife",
-                        "a single person",
-                        "more than 2 people",
-                        "3 guests"
-                    ],
-                    "star_rating": [
-                        "Five",
-                        "three star",
-                        "3 star hotels",
-                        "Four and a half stars",
-                        "3 star Hotel"
-                    ],
-                    "room_type": [
-                        "Modern rooms",
-                        "Chic suites",
-                        "the king bed room",
-                        "simple rooms",
-                        "full"
-                    ],
-                    "hotel_booked": [
-                        "I'll send you the information now",
-                        "you're all booked up",
-                        "The booking is confirmed",
-                        "Booking Hotel",
-                        "I will send you the booking information via email"
-                    ],
-                    "check-in_date": [
-                        "July 4th",
-                        "Feb 25th",
-                        "25th of February",
-                        "This Thursday",
-                        "on 23rd"
-                    ],
-                    "check-out_date": [
-                        "February 25th",
-                        "14th",
-                        "until the Sunday which is August 10th",
-                        "20th June",
-                        "October 5th"
-                    ],
-                    "rooms_num": [
-                        "two beds per room",
-                        "two-bedroom",
-                        "a one-room",
-                        "2 beds",
-                        "Three"
-                    ],
-                    "customer_review": [
-                        "that it is a great location between Royal Street and Bourbon Street the staff was friendly and quick to help with anything five star the room was very welcome and comfortable the hotel was just exceptional the pool with the light we are very pleased we chose the hotel can't wait to visit again",
-                        "Easily accessible by car guests noted the free parking Near the city center Shopping Restaurants & bars nearby public transit. Guests appreciated the friendly Professional staff Guests spoke highly of the reception staff",
-                        "373 google reviews",
-                        "over 250 reviews",
-                        "162 reviews"
-                    ],
-                    "total_fare": [
-                        "$225 a night",
-                        "$209 a night",
-                        "$194",
-                        "$245",
-                        "Keurig coffeemakers"
-                    ]
-                }
-            },
-            "intents": {}
+            "instruction_id": "hotel-10"
         },
         "log": [
             {
@@ -2423,7 +2820,11 @@
                 },
                 "dst": "hotel location San Francisco",
                 "dst accumulated": "hotel location San Francisco",
-                "external knowledge": "( speaker : ASSISTANT | segments : ())"
+                "external knowledge": "( speaker : ASSISTANT | segments : ())",
+                "external knowledge non-flat": {
+                    "speaker": "ASSISTANT",
+                    "segments": []
+                }
             },
             {
                 "turn id": 2,
@@ -2451,7 +2852,11 @@
                 },
                 "dst": "hotel date_range March 7th to the 10th",
                 "dst accumulated": "hotel location San Francisco, hotel date_range March 7th to the 10th",
-                "external knowledge": "( speaker : ASSISTANT | segments : ())"
+                "external knowledge": "( speaker : ASSISTANT | segments : ())",
+                "external knowledge non-flat": {
+                    "speaker": "ASSISTANT",
+                    "segments": []
+                }
             },
             {
                 "turn id": 3,
@@ -2479,7 +2884,11 @@
                 },
                 "dst": "hotel guests_num One",
                 "dst accumulated": "hotel location San Francisco, hotel date_range March 7th to the 10th, hotel guests_num One",
-                "external knowledge": "( speaker : ASSISTANT | segments : ())"
+                "external knowledge": "( speaker : ASSISTANT | segments : ())",
+                "external knowledge non-flat": {
+                    "speaker": "ASSISTANT",
+                    "segments": []
+                }
             },
             {
                 "turn id": 4,
@@ -2507,7 +2916,11 @@
                 },
                 "dst": "hotel star_rating Three stars or better",
                 "dst accumulated": "hotel location San Francisco, hotel date_range March 7th to the 10th, hotel guests_num One, hotel star_rating Three stars or better",
-                "external knowledge": "( speaker : ASSISTANT | segments : ())"
+                "external knowledge": "( speaker : ASSISTANT | segments : ())",
+                "external knowledge non-flat": {
+                    "speaker": "ASSISTANT",
+                    "segments": []
+                }
             },
             {
                 "turn id": 5,
@@ -2535,7 +2948,11 @@
                 },
                 "dst": "hotel price_range less than $200 a night",
                 "dst accumulated": "hotel location San Francisco, hotel date_range March 7th to the 10th, hotel guests_num One, hotel star_rating Three stars or better, hotel price_range less than $200 a night",
-                "external knowledge": "( speaker : ASSISTANT | segments : ())"
+                "external knowledge": "( speaker : ASSISTANT | segments : ())",
+                "external knowledge non-flat": {
+                    "speaker": "ASSISTANT",
+                    "segments": []
+                }
             },
             {
                 "turn id": 6,
@@ -2563,7 +2980,11 @@
                 },
                 "dst": "hotel sub_location Closest to the baseball stadium",
                 "dst accumulated": "hotel location San Francisco, hotel date_range March 7th to the 10th, hotel guests_num One, hotel star_rating Three stars or better, hotel price_range less than $200 a night, hotel sub_location Closest to the baseball stadium",
-                "external knowledge": "( speaker : ASSISTANT | segments : ())"
+                "external knowledge": "( speaker : ASSISTANT | segments : ())",
+                "external knowledge non-flat": {
+                    "speaker": "ASSISTANT",
+                    "segments": []
+                }
             },
             {
                 "turn id": 7,
@@ -2600,7 +3021,32 @@
                 },
                 "dst": "",
                 "dst accumulated": "hotel location San Francisco, hotel date_range March 7th to the 10th, hotel guests_num One, hotel star_rating Three stars or better, hotel price_range less than $200 a night, hotel sub_location Closest to the baseball stadium",
-                "external knowledge": "( speaker : ASSISTANT | segments : (( start_index : 0 | end_index : 44 | text : Courtyard by Marriott San Francisco Downtown | annotations : (( name : hotel1_detail.name.hotel ))) | ( start_index : 61 | end_index : 65 | text : $179 | annotations : (( name : hotel1_detail.price_per_night )))))"
+                "external knowledge": "( speaker : ASSISTANT | segments : (( start_index : 0 | end_index : 44 | text : Courtyard by Marriott San Francisco Downtown | annotations : (( name : hotel1_detail.name.hotel ))) | ( start_index : 61 | end_index : 65 | text : $179 | annotations : (( name : hotel1_detail.price_per_night )))))",
+                "external knowledge non-flat": {
+                    "speaker": "ASSISTANT",
+                    "segments": [
+                        {
+                            "start_index": 0,
+                            "end_index": 44,
+                            "text": "Courtyard by Marriott San Francisco Downtown",
+                            "annotations": [
+                                {
+                                    "name": "hotel1_detail.name.hotel"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 61,
+                            "end_index": 65,
+                            "text": "$179",
+                            "annotations": [
+                                {
+                                    "name": "hotel1_detail.price_per_night"
+                                }
+                            ]
+                        }
+                    ]
+                }
             },
             {
                 "turn id": 8,
@@ -2679,7 +3125,62 @@
                 },
                 "dst": "hotel amenity free breakfast",
                 "dst accumulated": "hotel location San Francisco, hotel date_range March 7th to the 10th, hotel guests_num One, hotel star_rating Three stars or better, hotel price_range less than $200 a night, hotel sub_location Closest to the baseball stadium, hotel amenity free breakfast",
-                "external knowledge": "( speaker : ASSISTANT | segments : (( start_index : 21 | end_index : 32 | text : indoor pool | annotations : (( name : hotel1_detail.amenity ))) | ( start_index : 36 | end_index : 46 | text : restaurant | annotations : (( name : hotel1_detail.amenity ))) | ( start_index : 51 | end_index : 62 | text : coffee shop | annotations : (( name : hotel1_detail.amenity ))) | ( start_index : 69 | end_index : 78 | text : free WiFi | annotations : (( name : hotel1_detail.amenity ))) | ( start_index : 0 | end_index : 78 | text : Modern hotel with an indoor pool | a restaurant & a coffee shop | plus free WiFi | annotations : (( name : hotel1_detail.other_detail )))))"
+                "external knowledge": "( speaker : ASSISTANT | segments : (( start_index : 21 | end_index : 32 | text : indoor pool | annotations : (( name : hotel1_detail.amenity ))) | ( start_index : 36 | end_index : 46 | text : restaurant | annotations : (( name : hotel1_detail.amenity ))) | ( start_index : 51 | end_index : 62 | text : coffee shop | annotations : (( name : hotel1_detail.amenity ))) | ( start_index : 69 | end_index : 78 | text : free WiFi | annotations : (( name : hotel1_detail.amenity ))) | ( start_index : 0 | end_index : 78 | text : Modern hotel with an indoor pool | a restaurant & a coffee shop | plus free WiFi | annotations : (( name : hotel1_detail.other_detail )))))",
+                "external knowledge non-flat": {
+                    "speaker": "ASSISTANT",
+                    "segments": [
+                        {
+                            "start_index": 21,
+                            "end_index": 32,
+                            "text": "indoor pool",
+                            "annotations": [
+                                {
+                                    "name": "hotel1_detail.amenity"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 36,
+                            "end_index": 46,
+                            "text": "restaurant",
+                            "annotations": [
+                                {
+                                    "name": "hotel1_detail.amenity"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 51,
+                            "end_index": 62,
+                            "text": "coffee shop",
+                            "annotations": [
+                                {
+                                    "name": "hotel1_detail.amenity"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 69,
+                            "end_index": 78,
+                            "text": "free WiFi",
+                            "annotations": [
+                                {
+                                    "name": "hotel1_detail.amenity"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 0,
+                            "end_index": 78,
+                            "text": "Modern hotel with an indoor pool, a restaurant & a coffee shop, plus free WiFi",
+                            "annotations": [
+                                {
+                                    "name": "hotel1_detail.other_detail"
+                                }
+                            ]
+                        }
+                    ]
+                }
             },
             {
                 "turn id": 9,
@@ -2886,7 +3387,202 @@
                 },
                 "dst": "",
                 "dst accumulated": "hotel location San Francisco, hotel date_range March 7th to the 10th, hotel guests_num One, hotel star_rating Three stars or better, hotel price_range less than $200 a night, hotel sub_location Closest to the baseball stadium, hotel amenity free breakfast",
-                "external knowledge": "( speaker : ASSISTANT | segments : (( start_index : 0 | end_index : 18 | text : Contemporary rooms | annotations : (( name : hotel1_detail.type.room ))) | ( start_index : 25 | end_index : 34 | text : free WiFi | annotations : (( name : hotel1_detail.amenity ))) | ( start_index : 39 | end_index : 54 | text : flat-screen TVs | annotations : (( name : hotel1_detail.amenity ))) | ( start_index : 61 | end_index : 66 | text : desks | annotations : (( name : hotel1_detail.amenity ))) | ( start_index : 68 | end_index : 80 | text : mini fridges | annotations : (( name : hotel1_detail.amenity ))) | ( start_index : 85 | end_index : 97 | text : coffeemakers | annotations : (( name : hotel1_detail.amenity ))) | ( start_index : 99 | end_index : 105 | text : Suites | annotations : (( name : hotel1_detail.type.room ))) | ( start_index : 110 | end_index : 124 | text : upgraded rooms | annotations : (( name : hotel1_detail.type.room ))) | ( start_index : 129 | end_index : 143 | text : pull-out sofas | annotations : (( name : hotel1_detail.amenity ))) | ( start_index : 149 | end_index : 176 | text : some feature whirlpool tubs | annotations : (( name : hotel1_detail.other_detail ))) | ( start_index : 162 | end_index : 176 | text : whirlpool tubs | annotations : (( name : hotel1_detail.amenity ))) | ( start_index : 178 | end_index : 267 | text : Social spaces include a living room-style lobby with fire pits | plus an outdoor courtyard | annotations : (( name : hotel1_detail.other_detail ))) | ( start_index : 202 | end_index : 240 | text : living room-style lobby with fire pits | annotations : (( name : hotel1_detail.amenity ))) | ( start_index : 250 | end_index : 267 | text : outdoor courtyard | annotations : (( name : hotel1_detail.amenity ))) | ( start_index : 137 | end_index : 148 | text : indoor pool | annotations : (( name : hotel1_detail.amenity ))) | ( start_index : 156 | end_index : 169 | text : exercise room | annotations : (( name : hotel1_detail.amenity ))) | ( start_index : 178 | end_index : 193 | text : business center | annotations : (( name : hotel1_detail.amenity ))) | ( start_index : 198 | end_index : 214 | text : 20 meeting rooms | annotations : (( name : hotel1_detail.amenity ))) | ( start_index : 0 | end_index : 214 | text : \"The American restaurant serves breakfast | a grill restaurant serves dinner | and there s an on-site Starbucks. Other amenities include an indoor pool and an exercise room | plus a business center and 20 meeting rooms\" | annotations : (( name : hotel1_detail.other_detail )))))"
+                "external knowledge": "( speaker : ASSISTANT | segments : (( start_index : 0 | end_index : 18 | text : Contemporary rooms | annotations : (( name : hotel1_detail.type.room ))) | ( start_index : 25 | end_index : 34 | text : free WiFi | annotations : (( name : hotel1_detail.amenity ))) | ( start_index : 39 | end_index : 54 | text : flat-screen TVs | annotations : (( name : hotel1_detail.amenity ))) | ( start_index : 61 | end_index : 66 | text : desks | annotations : (( name : hotel1_detail.amenity ))) | ( start_index : 68 | end_index : 80 | text : mini fridges | annotations : (( name : hotel1_detail.amenity ))) | ( start_index : 85 | end_index : 97 | text : coffeemakers | annotations : (( name : hotel1_detail.amenity ))) | ( start_index : 99 | end_index : 105 | text : Suites | annotations : (( name : hotel1_detail.type.room ))) | ( start_index : 110 | end_index : 124 | text : upgraded rooms | annotations : (( name : hotel1_detail.type.room ))) | ( start_index : 129 | end_index : 143 | text : pull-out sofas | annotations : (( name : hotel1_detail.amenity ))) | ( start_index : 149 | end_index : 176 | text : some feature whirlpool tubs | annotations : (( name : hotel1_detail.other_detail ))) | ( start_index : 162 | end_index : 176 | text : whirlpool tubs | annotations : (( name : hotel1_detail.amenity ))) | ( start_index : 178 | end_index : 267 | text : Social spaces include a living room-style lobby with fire pits | plus an outdoor courtyard | annotations : (( name : hotel1_detail.other_detail ))) | ( start_index : 202 | end_index : 240 | text : living room-style lobby with fire pits | annotations : (( name : hotel1_detail.amenity ))) | ( start_index : 250 | end_index : 267 | text : outdoor courtyard | annotations : (( name : hotel1_detail.amenity ))) | ( start_index : 137 | end_index : 148 | text : indoor pool | annotations : (( name : hotel1_detail.amenity ))) | ( start_index : 156 | end_index : 169 | text : exercise room | annotations : (( name : hotel1_detail.amenity ))) | ( start_index : 178 | end_index : 193 | text : business center | annotations : (( name : hotel1_detail.amenity ))) | ( start_index : 198 | end_index : 214 | text : 20 meeting rooms | annotations : (( name : hotel1_detail.amenity ))) | ( start_index : 0 | end_index : 214 | text : \"The American restaurant serves breakfast | a grill restaurant serves dinner | and there s an on-site Starbucks. Other amenities include an indoor pool and an exercise room | plus a business center and 20 meeting rooms\" | annotations : (( name : hotel1_detail.other_detail )))))",
+                "external knowledge non-flat": {
+                    "speaker": "ASSISTANT",
+                    "segments": [
+                        {
+                            "start_index": 0,
+                            "end_index": 18,
+                            "text": "Contemporary rooms",
+                            "annotations": [
+                                {
+                                    "name": "hotel1_detail.type.room"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 25,
+                            "end_index": 34,
+                            "text": "free WiFi",
+                            "annotations": [
+                                {
+                                    "name": "hotel1_detail.amenity"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 39,
+                            "end_index": 54,
+                            "text": "flat-screen TVs",
+                            "annotations": [
+                                {
+                                    "name": "hotel1_detail.amenity"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 61,
+                            "end_index": 66,
+                            "text": "desks",
+                            "annotations": [
+                                {
+                                    "name": "hotel1_detail.amenity"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 68,
+                            "end_index": 80,
+                            "text": "mini fridges",
+                            "annotations": [
+                                {
+                                    "name": "hotel1_detail.amenity"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 85,
+                            "end_index": 97,
+                            "text": "coffeemakers",
+                            "annotations": [
+                                {
+                                    "name": "hotel1_detail.amenity"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 99,
+                            "end_index": 105,
+                            "text": "Suites",
+                            "annotations": [
+                                {
+                                    "name": "hotel1_detail.type.room"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 110,
+                            "end_index": 124,
+                            "text": "upgraded rooms",
+                            "annotations": [
+                                {
+                                    "name": "hotel1_detail.type.room"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 129,
+                            "end_index": 143,
+                            "text": "pull-out sofas",
+                            "annotations": [
+                                {
+                                    "name": "hotel1_detail.amenity"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 149,
+                            "end_index": 176,
+                            "text": "some feature whirlpool tubs",
+                            "annotations": [
+                                {
+                                    "name": "hotel1_detail.other_detail"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 162,
+                            "end_index": 176,
+                            "text": "whirlpool tubs",
+                            "annotations": [
+                                {
+                                    "name": "hotel1_detail.amenity"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 178,
+                            "end_index": 267,
+                            "text": "Social spaces include a living room-style lobby with fire pits, plus an outdoor courtyard",
+                            "annotations": [
+                                {
+                                    "name": "hotel1_detail.other_detail"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 202,
+                            "end_index": 240,
+                            "text": "living room-style lobby with fire pits",
+                            "annotations": [
+                                {
+                                    "name": "hotel1_detail.amenity"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 250,
+                            "end_index": 267,
+                            "text": "outdoor courtyard",
+                            "annotations": [
+                                {
+                                    "name": "hotel1_detail.amenity"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 137,
+                            "end_index": 148,
+                            "text": "indoor pool",
+                            "annotations": [
+                                {
+                                    "name": "hotel1_detail.amenity"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 156,
+                            "end_index": 169,
+                            "text": "exercise room",
+                            "annotations": [
+                                {
+                                    "name": "hotel1_detail.amenity"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 178,
+                            "end_index": 193,
+                            "text": "business center",
+                            "annotations": [
+                                {
+                                    "name": "hotel1_detail.amenity"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 198,
+                            "end_index": 214,
+                            "text": "20 meeting rooms",
+                            "annotations": [
+                                {
+                                    "name": "hotel1_detail.amenity"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 0,
+                            "end_index": 214,
+                            "text": "The American restaurant serves breakfast, a grill restaurant serves dinner, and there's an on-site Starbucks. Other amenities include an indoor pool and an exercise room, plus a business center and 20 meeting rooms",
+                            "annotations": [
+                                {
+                                    "name": "hotel1_detail.other_detail"
+                                }
+                            ]
+                        }
+                    ]
+                }
             },
             {
                 "turn id": 10,
@@ -2925,7 +3621,22 @@
                 },
                 "dst": "hotel beds_ num two beds",
                 "dst accumulated": "hotel location San Francisco, hotel date_range March 7th to the 10th, hotel guests_num One, hotel star_rating Three stars or better, hotel price_range less than $200 a night, hotel sub_location Closest to the baseball stadium, hotel amenity free breakfast, hotel beds_ num two beds",
-                "external knowledge": "( speaker : ASSISTANT | segments : (( start_index : 0 | end_index : 4 | text : 179$ | annotations : (( name : hotel1_detail.price_per_night )))))"
+                "external knowledge": "( speaker : ASSISTANT | segments : (( start_index : 0 | end_index : 4 | text : 179$ | annotations : (( name : hotel1_detail.price_per_night )))))",
+                "external knowledge non-flat": {
+                    "speaker": "ASSISTANT",
+                    "segments": [
+                        {
+                            "start_index": 0,
+                            "end_index": 4,
+                            "text": "179$",
+                            "annotations": [
+                                {
+                                    "name": "hotel1_detail.price_per_night"
+                                }
+                            ]
+                        }
+                    ]
+                }
             },
             {
                 "turn id": 11,
@@ -2962,7 +3673,32 @@
                 },
                 "dst": "",
                 "dst accumulated": "hotel location San Francisco, hotel date_range March 7th to the 10th, hotel guests_num One, hotel star_rating Three stars or better, hotel price_range less than $200 a night, hotel sub_location Closest to the baseball stadium, hotel amenity free breakfast, hotel beds_ num two beds",
-                "external knowledge": "( speaker : ASSISTANT | segments : (( start_index : 8 | end_index : 20 | text : Hotel Triton | annotations : (( name : hotel2_detail.name.hotel ))) | ( start_index : 25 | end_index : 29 | text : $139 | annotations : (( name : hotel2_detail.price_per_night )))))"
+                "external knowledge": "( speaker : ASSISTANT | segments : (( start_index : 8 | end_index : 20 | text : Hotel Triton | annotations : (( name : hotel2_detail.name.hotel ))) | ( start_index : 25 | end_index : 29 | text : $139 | annotations : (( name : hotel2_detail.price_per_night )))))",
+                "external knowledge non-flat": {
+                    "speaker": "ASSISTANT",
+                    "segments": [
+                        {
+                            "start_index": 8,
+                            "end_index": 20,
+                            "text": "Hotel Triton",
+                            "annotations": [
+                                {
+                                    "name": "hotel2_detail.name.hotel"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 25,
+                            "end_index": 29,
+                            "text": "$139",
+                            "annotations": [
+                                {
+                                    "name": "hotel2_detail.price_per_night"
+                                }
+                            ]
+                        }
+                    ]
+                }
             },
             {
                 "turn id": 12,
@@ -2989,7 +3725,22 @@
                 },
                 "dst": "",
                 "dst accumulated": "hotel location San Francisco, hotel date_range March 7th to the 10th, hotel guests_num One, hotel star_rating Three stars or better, hotel price_range less than $200 a night, hotel sub_location Closest to the baseball stadium, hotel amenity free breakfast, hotel beds_ num two beds",
-                "external knowledge": "( speaker : ASSISTANT | segments : (( start_index : 0 | end_index : 3 | text : 3.9 | annotations : (( name : hotel2_detail.customer_rating )))))"
+                "external knowledge": "( speaker : ASSISTANT | segments : (( start_index : 0 | end_index : 3 | text : 3.9 | annotations : (( name : hotel2_detail.customer_rating )))))",
+                "external knowledge non-flat": {
+                    "speaker": "ASSISTANT",
+                    "segments": [
+                        {
+                            "start_index": 0,
+                            "end_index": 3,
+                            "text": "3.9",
+                            "annotations": [
+                                {
+                                    "name": "hotel2_detail.customer_rating"
+                                }
+                            ]
+                        }
+                    ]
+                }
             },
             {
                 "turn id": 13,
@@ -3028,7 +3779,22 @@
                 },
                 "dst": "hotel sub_location from the baseball park",
                 "dst accumulated": "hotel location San Francisco, hotel date_range March 7th to the 10th, hotel guests_num One, hotel star_rating Three stars or better, hotel price_range less than $200 a night, hotel sub_location from the baseball park, hotel amenity free breakfast, hotel beds_ num two beds",
-                "external knowledge": "( speaker : ASSISTANT | segments : (( start_index : 0 | end_index : 29 | text : \"It s just a 15 min from there\" | annotations : (( name : hotel2_detail.other_detail )))))"
+                "external knowledge": "( speaker : ASSISTANT | segments : (( start_index : 0 | end_index : 29 | text : \"It s just a 15 min from there\" | annotations : (( name : hotel2_detail.other_detail )))))",
+                "external knowledge non-flat": {
+                    "speaker": "ASSISTANT",
+                    "segments": [
+                        {
+                            "start_index": 0,
+                            "end_index": 29,
+                            "text": "It's just a 15 min from there",
+                            "annotations": [
+                                {
+                                    "name": "hotel2_detail.other_detail"
+                                }
+                            ]
+                        }
+                    ]
+                }
             },
             {
                 "turn id": 14,
@@ -3055,7 +3821,22 @@
                 },
                 "dst": "",
                 "dst accumulated": "hotel location San Francisco, hotel date_range March 7th to the 10th, hotel guests_num One, hotel star_rating Three stars or better, hotel price_range less than $200 a night, hotel sub_location from the baseball park, hotel amenity free breakfast, hotel beds_ num two beds",
-                "external knowledge": "( speaker : ASSISTANT | segments : (( start_index : 0 | end_index : 29 | text : Driving 1.7 miles in distance | annotations : (( name : hotel2_detail.other_detail )))))"
+                "external knowledge": "( speaker : ASSISTANT | segments : (( start_index : 0 | end_index : 29 | text : Driving 1.7 miles in distance | annotations : (( name : hotel2_detail.other_detail )))))",
+                "external knowledge non-flat": {
+                    "speaker": "ASSISTANT",
+                    "segments": [
+                        {
+                            "start_index": 0,
+                            "end_index": 29,
+                            "text": "Driving 1.7 miles in distance",
+                            "annotations": [
+                                {
+                                    "name": "hotel2_detail.other_detail"
+                                }
+                            ]
+                        }
+                    ]
+                }
             },
             {
                 "turn id": 15,
@@ -3071,7 +3852,11 @@
                 },
                 "dst": "",
                 "dst accumulated": "hotel location San Francisco, hotel date_range March 7th to the 10th, hotel guests_num One, hotel star_rating Three stars or better, hotel price_range less than $200 a night, hotel sub_location from the baseball park, hotel amenity free breakfast, hotel beds_ num two beds",
-                "external knowledge": "( speaker : ASSISTANT | segments : ())"
+                "external knowledge": "( speaker : ASSISTANT | segments : ())",
+                "external knowledge non-flat": {
+                    "speaker": "ASSISTANT",
+                    "segments": []
+                }
             },
             {
                 "turn id": 16,
@@ -3087,7 +3872,11 @@
                 },
                 "dst": "",
                 "dst accumulated": "hotel location San Francisco, hotel date_range March 7th to the 10th, hotel guests_num One, hotel star_rating Three stars or better, hotel price_range less than $200 a night, hotel sub_location from the baseball park, hotel amenity free breakfast, hotel beds_ num two beds",
-                "external knowledge": "( speaker : ASSISTANT | segments : ())"
+                "external knowledge": "( speaker : ASSISTANT | segments : ())",
+                "external knowledge non-flat": {
+                    "speaker": "ASSISTANT",
+                    "segments": []
+                }
             },
             {
                 "turn id": 17,
@@ -3136,7 +3925,32 @@
                 },
                 "dst": "hotel date_range March 7th to 10th",
                 "dst accumulated": "hotel location San Francisco, hotel date_range March 7th to 10th, hotel guests_num One, hotel star_rating Three stars or better, hotel price_range less than $200 a night, hotel sub_location from the baseball park, hotel amenity free breakfast, hotel beds_ num two beds",
-                "external knowledge": "( speaker : ASSISTANT | segments : (( start_index : 5 | end_index : 20 | text : it is confirmed | annotations : (( name : hotel_booked.hotel_booked ))) | ( start_index : 21 | end_index : 43 | text : from march 7th to 10th | annotations : (( name : hotel_search.date_range )))))"
+                "external knowledge": "( speaker : ASSISTANT | segments : (( start_index : 5 | end_index : 20 | text : it is confirmed | annotations : (( name : hotel_booked.hotel_booked ))) | ( start_index : 21 | end_index : 43 | text : from march 7th to 10th | annotations : (( name : hotel_search.date_range )))))",
+                "external knowledge non-flat": {
+                    "speaker": "ASSISTANT",
+                    "segments": [
+                        {
+                            "start_index": 5,
+                            "end_index": 20,
+                            "text": "it is confirmed",
+                            "annotations": [
+                                {
+                                    "name": "hotel_booked.hotel_booked"
+                                }
+                            ]
+                        },
+                        {
+                            "start_index": 21,
+                            "end_index": 43,
+                            "text": "from march 7th to 10th",
+                            "annotations": [
+                                {
+                                    "name": "hotel_search.date_range"
+                                }
+                            ]
+                        }
+                    ]
+                }
             },
             {
                 "turn id": 18,
@@ -3152,17 +3966,177 @@
                 },
                 "dst": "",
                 "dst accumulated": "hotel location San Francisco, hotel date_range March 7th to 10th, hotel guests_num One, hotel star_rating Three stars or better, hotel price_range less than $200 a night, hotel sub_location from the baseball park, hotel amenity free breakfast, hotel beds_ num two beds",
-                "external knowledge": "( speaker : ASSISTANT | segments : ())"
+                "external knowledge": "( speaker : ASSISTANT | segments : ())",
+                "external knowledge non-flat": {
+                    "speaker": "ASSISTANT",
+                    "segments": []
+                }
             }
         ],
-        "dst knowledge": "( hotel : ( sub_location : ( 5-minute walk from both the Civic Center and a Bart rail station | Possibly downtown | 0.5 blocks from the Port Authority Bus Terminal | 5-minute walk from Times Square | 3 miles from both the Audubon Zoo and Jackson Square ) | location : ( downtown St. Louis Missouri | in Salem | Charles California | Lake Helms New Orleans | Los Angeles California ) | price_range : (\"don t want to spend anymore than $300 per night\" | \"don t want to spend more than $300 a night\" | from $150 per night to $250 per night | \"one s cheaper\" | $3000 or less ) | amenity : ( a sophisticated Scandinavian-inspired bar | to have a highly rated restaurant on site | a TV LCD | Some rooms will have a view of the city | a modern business center ) | date_range : ( May 7th to May 10th | between September 22 2017 to September 24 2017 | coming month end of February | May 15 to May 18th | March 8th to March 15th ) | name : ( Dauphine Orleans Hotel | Windsor Court hotel | SpringHill Suites by Marriott New Orleans downtown/convention Center | the Laguna Beach Inn | San Francisco Downtown Hotel ) | price_per_night : ( $134 and a night | around $212 per night | $1566 per night | $194 a night | $96 ) | customer_rating : ( 4.3-stars | At least a four-star hotel rating | 3.7 ratings | highest customer review | 5 star rating from Green Google reviews ) | other_detail : ( and a breakfast buffet served in a modern dining room | Casual beachfront hotel offering relaxed rooms | it is located in the city of Palm Springs near Downtown | \"There s also a stylish restaurant/bar serving locally inspired cuisine plus a business center and event space\" | \"2 miles from Fisherman s Wharf\") | other_request : (\"There s any better steam but one that had whatever they re called to 200 you like\" | I want a hotel with good ratings good reviews | near the beach or beachfront | the hotel grounds have a restaurant and full bar | Within 10 miles ) | beds_ num : ( two queen beds | two beds in each | single bed | One bed | one king size ) | bed_type : ( bunk bed | pull-out couches | a pullout sofa-bed | Single bed | a queen size ) | guests_num : ( two members with me | my wife | a single person | more than 2 people | 3 guests ) | star_rating : ( Five | three star | 3 star hotels | Four and a half stars | 3 star Hotel ) | room_type : ( Modern rooms | Chic suites | the king bed room | simple rooms | full ) | hotel_booked : (\"I ll send you the information now\" | \"you re all booked up\" | The booking is confirmed | Booking Hotel | I will send you the booking information via email ) | check-in_date : ( July 4th | Feb 25th | 25th of February | This Thursday | on 23rd ) | check-out_date : ( February 25th | 14th | until the Sunday which is August 10th | 20th June | October 5th ) | rooms_num : ( two beds per room | two-bedroom | a one-room | 2 beds | Three ) | customer_review : (\"that it is a great location between Royal Street and Bourbon Street the staff was friendly and quick to help with anything five star the room was very welcome and comfortable the hotel was just exceptional the pool with the light we are very pleased we chose the hotel can t wait to visit again\" | Easily accessible by car guests noted the free parking Near the city center Shopping Restaurants & bars nearby public transit. Guests appreciated the friendly Professional staff Guests spoke highly of the reception staff | 373 google reviews | over 250 reviews | 162 reviews ) | total_fare : ( $225 a night | $209 a night | $194 | $245 | Keurig coffeemakers )))",
+        "external knowledge non-flat": {
+            "metadata": {},
+            "slots and values": {
+                "hotel": {
+                    "sub_location": [
+                        "an 8-minute walk from St. Louis Cathedral",
+                        "Near the water",
+                        "less than 5 minutes from the beach",
+                        "3 blocks from the French Quarter",
+                        "8 miles from the San Diego zoo"
+                    ],
+                    "location": [
+                        "165 Steuart St San Francisco CA 94105",
+                        "Park City is in Utah",
+                        "717 Orleans Street",
+                        "3720 N Sundial Ct Park City UT 84098",
+                        "Highway 1"
+                    ],
+                    "price_range": [
+                        "Maximum $300 per night",
+                        "Up to $300",
+                        "around $206 per night",
+                        "Less than $150 a night",
+                        "less than $400 per night"
+                    ],
+                    "amenity": [
+                        "dining venues",
+                        "colorful accents",
+                        "a half",
+                        "flat screen TVs",
+                        "a lap pool"
+                    ],
+                    "date_range": [
+                        "March 15th and March 20th",
+                        "on being over June 29th to July 6th",
+                        "April the 15th through the 17th",
+                        "from June 16th to 19th",
+                        "April 1st through the April 5th"
+                    ],
+                    "name": [
+                        "Renaissance New orleans arts warehouse district",
+                        "the Fair field Inn & Suites by Marriott New Orleans Downtown/French Quarter Area",
+                        "The Sheraton hotel",
+                        "ity Peaks Hotel Park",
+                        "the Naples Grand Beach Resort"
+                    ],
+                    "price_per_night": [
+                        "$143",
+                        "$122 per night",
+                        "$113 a night",
+                        "$207 a night",
+                        "$136 a night"
+                    ],
+                    "customer_rating": [
+                        "less than four",
+                        "2.5 stars or better",
+                        "high reviews",
+                        "four hotel star ratings or above",
+                        "four stars and more"
+                    ],
+                    "other_detail": [
+                        "(415) 626-0200",
+                        "(760) 722-6666",
+                        "overlooking the French Quarter or the courtyard",
+                        "This place offers modern suites in a sleek hotel",
+                        "about 5 minutes"
+                    ],
+                    "other_request": [
+                        "I want a place with an atmosphere that has a lodge-style and relaxed area",
+                        "a traditional Hot",
+                        "out in the woods",
+                        "middle class",
+                        "one bedroom"
+                    ],
+                    "beds_ num": [
+                        "two queen-size bed",
+                        "2 queen beds",
+                        "one",
+                        "two beds per room",
+                        "two queen-size bed"
+                    ],
+                    "bed_type": [
+                        "king sized bed",
+                        "Queen-sized bed",
+                        "A king-sized bed",
+                        "Queen-size bed",
+                        "twin"
+                    ],
+                    "guests_num": [
+                        "my husband and me",
+                        "Two adults and two kids",
+                        "3 guests",
+                        "me and one other person",
+                        "my wife and our two kids"
+                    ],
+                    "star_rating": [
+                        "three stars and above",
+                        "above two",
+                        "the best star rating",
+                        "4-stars",
+                        "4.7"
+                    ],
+                    "room_type": [
+                        "Sleek modern rooms",
+                        "villas",
+                        "Standard Queen size rooms with guest room",
+                        "double bed standard suite",
+                        "Standard room"
+                    ],
+                    "hotel_booked": [
+                        "it's done and I emailed you the receipt",
+                        "I will do that",
+                        "I will book this hotel",
+                        "Your booking details sent to your email",
+                        "will send you the confirmation"
+                    ],
+                    "check-in_date": [
+                        "on Saturday very early morning",
+                        "Friday June 16th",
+                        "Friday March the 24th",
+                        "Monday March 27th",
+                        "next year June 16th 2019"
+                    ],
+                    "check-out_date": [
+                        "February 19th",
+                        "May 17th",
+                        "Sunday night",
+                        "July 21st",
+                        "on May 7th"
+                    ],
+                    "rooms_num": [
+                        "2 beds",
+                        "one bedroom",
+                        "1 bedroom",
+                        "1 bedroom",
+                        "two beds"
+                    ],
+                    "customer_review": [
+                        "598 Google reviews",
+                        "over 250 reviews",
+                        "14 reviews",
+                        "4.4 stars",
+                        "162 reviews"
+                    ],
+                    "total_fare": [
+                        "$169 per room",
+                        "$4088",
+                        "$318",
+                        "$45",
+                        "$212"
+                    ]
+                }
+            },
+            "intents": {}
+        },
+        "external knowledge": "()",
+        "dst knowledge": "( hotel : ( sub_location : ( an 8-minute walk from St. Louis Cathedral | Near the water | less than 5 minutes from the beach | 3 blocks from the French Quarter | 8 miles from the San Diego zoo ) | location : ( 165 Steuart St San Francisco CA 94105 | Park City is in Utah | 717 Orleans Street | 3720 N Sundial Ct Park City UT 84098 | Highway 1 ) | price_range : ( Maximum $300 per night | Up to $300 | around $206 per night | Less than $150 a night | less than $400 per night ) | amenity : ( dining venues | colorful accents | a half | flat screen TVs | a lap pool ) | date_range : ( March 15th and March 20th | on being over June 29th to July 6th | April the 15th through the 17th | from June 16th to 19th | April 1st through the April 5th ) | name : ( Renaissance New orleans arts warehouse district | the Fair field Inn & Suites by Marriott New Orleans Downtown/French Quarter Area | The Sheraton hotel | ity Peaks Hotel Park | the Naples Grand Beach Resort ) | price_per_night : ( $143 | $122 per night | $113 a night | $207 a night | $136 a night ) | customer_rating : ( less than four | 2.5 stars or better | high reviews | four hotel star ratings or above | four stars and more ) | other_detail : ( (415) 626-0200 | (760) 722-6666 | overlooking the French Quarter or the courtyard | This place offers modern suites in a sleek hotel | about 5 minutes ) | other_request : ( I want a place with an atmosphere that has a lodge-style and relaxed area | a traditional Hot | out in the woods | middle class | one bedroom ) | beds_ num : ( two queen-size bed | 2 queen beds | one | two beds per room | two queen-size bed ) | bed_type : ( king sized bed | Queen-sized bed | A king-sized bed | Queen-size bed | twin ) | guests_num : ( my husband and me | Two adults and two kids | 3 guests | me and one other person | my wife and our two kids ) | star_rating : ( three stars and above | above two | the best star rating | 4-stars | 4.7 ) | room_type : ( Sleek modern rooms | villas | Standard Queen size rooms with guest room | double bed standard suite | Standard room ) | hotel_booked : (\"it s done and I emailed you the receipt\" | I will do that | I will book this hotel | Your booking details sent to your email | will send you the confirmation ) | check-in_date : ( on Saturday very early morning | Friday June 16th | Friday March the 24th | Monday March 27th | next year June 16th 2019 ) | check-out_date : ( February 19th | May 17th | Sunday night | July 21st | on May 7th ) | rooms_num : ( 2 beds | one bedroom | 1 bedroom | 1 bedroom | two beds ) | customer_review : ( 598 Google reviews | over 250 reviews | 14 reviews | 4.4 stars | 162 reviews ) | total_fare : ( $169 per room | $4088 | $318 | $45 | $212 )))",
         "intent knowledge": "()",
         "prompt": [
             "This is a bot helping users to find a hotel. Given the dialog context and external database, please generate a relevant system response for the user.",
             "This bot assists users to find a hotel. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
-            "This bot helps users to find a hotel. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
-            "The purpose of this bot is to assist users to find a hotel. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
-            "This bot is designed to help users find a hotel. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+            "This bot helps users to find a hotel. Based on the conversation history and available external data, please generate a relevant system response for the user.",
+            "The purpose of this bot is to assist users to find a hotel. Considering the dialogue context and the information available in the external database, please provide a fitting response for the user.",
+            "This bot is designed to help users find a hotel. By utilizing the current dialog context and external resources, generate a fitting response for the user."
         ]
     }
 }

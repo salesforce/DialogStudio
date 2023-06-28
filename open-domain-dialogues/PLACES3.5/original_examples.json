@@ -1,0 +1,111 @@
+[
+    {
+        "conversation": [
+            "Alice: How are you?",
+            "Bob: I'm doing well! What about you?",
+            "Alice: I'm doing great! What is your favorite part of history?",
+            "Bob: How about you?",
+            "Alice: My favorite part of history has to be the War of the Roses. It's so interesting to learn about how Thomas, Richard, and Edward rose to power.",
+            "Bob: I agree, it's crazy that so many princes could fight to be king and end up killing each other.",
+            "Alice: Yeah, it was so brutal! Which part of history are you most interested in?",
+            "Bob: That's a tough question. The American Revolution is really interesting. Do you have a favorite period?",
+            "Alice: I love the Renaissance - it's so fascinating to see how society evolved after the Dark Ages.",
+            "Bob: The Renaissance is pretty cool. Are you interested in anything other than history?",
+            "Alice: Well, I am an expert on wine - what do you like to drink?",
+            "Bob: I love spirits. I have a lot of bourbon and gin.",
+            "Alice: Oh wow, do you go to the distillery?",
+            "Bob: No, it's all from the store. I'm an alcoholic, I guess.",
+            "Alice: Oh my gosh! Have you ever visited a wine region?",
+            "Bob: I've never been on a trip like that. Have you?",
+            "Alice: Haha, yes! I have been to the South of France. I love the Limousin region, it's so beautiful.",
+            "Bob: Oh, I've heard that wine regions in France are amazing."
+        ],
+        "domain": "history",
+        "prompt_personality": "Alice is interested in the War of Roses.",
+        "in_context_examples": [
+            1,
+            3,
+            5
+        ]
+    },
+    {
+        "conversation": [
+            "Alice: How are you doing?",
+            "Bob: Good, I'm having fun figuring out how to make a simple pasta dish!",
+            "Alice: What kind of pasta did you make?",
+            "Bob: Well, I googled it. I found a recipe for penne with some garlic. It smells delicious!",
+            "Alice: I bet it does. That sounds really tasty.",
+            "Bob: Yeah, I'm looking forward to eating it. I've never cooked before, so I'm glad it is actually working out.",
+            "Alice: I can't wait to hear what you think!"
+        ],
+        "domain": "cooking",
+        "prompt_personality": "Alice likes cooking. Bob has never cooked before.",
+        "in_context_examples": [
+            8,
+            5,
+            6
+        ]
+    },
+    {
+        "conversation": [
+            "Alice: I feel like I'm falling behind on my reading. Do you think I could talk to the science department at my university about studying it?",
+            "Bob: Are you studying art at your university?",
+            "Alice: Yeah, I'm a junior.",
+            "Bob: Have you thought about getting a master's in art education?",
+            "Alice: I haven't thought about that at all actually! I've thought about being an art curator, but maybe you're right. I've been thinking a lot about science lately. I've learned about genetic engineering in college, and I've been reading a lot of news about it. I love how there are so many possibilities for the future.",
+            "Bob: Wow, do you want to try being an artist and a scientist?",
+            "Alice: That would be amazing! I think I could be the perfect artist to create pieces of art that really change the world.",
+            "Bob: I agree! Science is really cool too. It's nice how humans have created machines that can do so many things.",
+            "Alice: Definitely! I love artificial intelligence too. It's fascinating to see how the robots have learned to interact with the world.",
+            "Bob: Have you ever been to the Bay Area? I've heard the place is really cool.",
+            "Alice: Yeah, I used to live in San Francisco for a year. It was a lot of fun, but now I'm looking to move to California again.",
+            "Bob: What part of California are you looking to move to?",
+            "Alice: I'm thinking about the San Francisco Bay Area, but I'm open to other parts of California. I want to be closer to the ocean and California's wine country.",
+            "Bob: That would be great! How do you feel about studying science at the university level? Do you think you'll enjoy it?",
+            "Alice: I think it would be a really great idea to take some science classes while I'm still in college. Are you a scientist?",
+            "Bob: Actually, yes! I study evolutionary biology, but I also enjoy spending time working in a lab and doing other science experiments.",
+            "Alice: Oh, that's so interesting! I didn't know that you were interested in science too. I've always loved art, but I'm not sure how much I like science."
+        ],
+        "domain": "science",
+        "prompt_personality": "Alice likes turtles. Bob has been scuba diving.",
+        "in_context_examples": [
+            4,
+            5,
+            9
+        ]
+    },
+    {
+        "conversation": [
+            "Alice: I need to find a mechanic I can trust. Do you know anyone?",
+            "Bob: Well, my friend recommended a mechanic he used. Maybe you should go to him!",
+            "Alice: Thanks for the recommendation! I'll ask my friends and coworkers if anyone they know is good.",
+            "Bob: Well, I hope you find a good mechanic soon!"
+        ],
+        "domain": "cars",
+        "prompt_personality": "Alice is looking for help on car maintenance.",
+        "in_context_examples": [
+            3,
+            2,
+            1
+        ]
+    },
+    {
+        "conversation": [
+            "Alice: I'm planning to make hamburgers for dinner tonight. Do you want to have some?",
+            "Bob: I love hamburgers! Where do you like to eat?",
+            "Alice: I think In-N-Out makes the best burgers. What about you?",
+            "Bob: I haven't had In-N-Out yet, but I hear good things about it.",
+            "Alice: What burger do you usually order?",
+            "Bob: I like the Double-Double. That's two patties with a third slice of cheese, lettuce, and pickles on top.",
+            "Alice: Hm, I've never heard of that combination before. Do you like pickles?",
+            "Bob: Well, I'm not a huge fan of them. But I'd like to try it once."
+        ],
+        "domain": "cooking",
+        "prompt_personality": "Bob is hungry. Alice is thinking about cooking hamburgers.",
+        "in_context_examples": [
+            2,
+            9,
+            3
+        ]
+    }
+]

@@ -1,0 +1,1047 @@
+{
+    "chitchat-dataset--train--1": {
+        "original dialog id": "a07edb12-6b91-4138-b11e-02421888d699",
+        "dialog index": 1,
+        "original dialog info": {
+            "ratings": {
+                "witty": 10,
+                "upbeat": 10,
+                "interesting": 10
+            },
+            "start": "2018-05-03T01:38:01Z",
+            "prompt": "What's one thing your best friend doesn't know about you?"
+        },
+        "log": [
+            {
+                "turn id": 1,
+                "user1 utterance": "Hello How are you doing today?",
+                "user2 response": "whats up MD im doing good how are you doing?",
+                "dialog history": "",
+                "original user1 side information": {
+                    "sender": "720840be-e522-47ba-9e9f-143f66372673",
+                    "timestamp": [
+                        "2018-05-02T19:38:15Z",
+                        "2018-05-02T19:38:20Z"
+                    ]
+                },
+                "original user2 side information": {
+                    "sender": "549cc1d1-270e-4a53-b561-133a8d0086b4",
+                    "timestamp": [
+                        "2018-05-02T19:38:29Z",
+                        "2018-05-02T19:38:33Z",
+                        "2018-05-02T19:38:35Z"
+                    ]
+                }
+            },
+            {
+                "turn id": 2,
+                "user1 utterance": "Im alright, I just took a nap. But it was one of those naps that doesnt help anything. It just makes everything worse and you question all your life choices",
+                "user2 response": "oh wow haha so you still feel tired huh?",
+                "dialog history": "<user1> Hello How are you doing today? <user2> whats up MD im doing good how are you doing?",
+                "original user1 side information": {
+                    "sender": "720840be-e522-47ba-9e9f-143f66372673",
+                    "timestamp": [
+                        "2018-05-02T19:39:21Z"
+                    ]
+                },
+                "original user2 side information": {
+                    "sender": "549cc1d1-270e-4a53-b561-133a8d0086b4",
+                    "timestamp": [
+                        "2018-05-02T19:39:58Z",
+                        "2018-05-02T19:40:07Z"
+                    ]
+                }
+            },
+            {
+                "turn id": 3,
+                "user1 utterance": "Yeah",
+                "user2 response": "did you go to bed late?",
+                "dialog history": "<user1> Hello How are you doing today? <user2> whats up MD im doing good how are you doing? <user1> Im alright, I just took a nap. But it was one of those naps that doesnt help anything. It just makes everything worse and you question all your life choices <user2> oh wow haha so you still feel tired huh?",
+                "original user1 side information": {
+                    "sender": "720840be-e522-47ba-9e9f-143f66372673",
+                    "timestamp": [
+                        "2018-05-02T19:40:29Z"
+                    ]
+                },
+                "original user2 side information": {
+                    "sender": "549cc1d1-270e-4a53-b561-133a8d0086b4",
+                    "timestamp": [
+                        "2018-05-02T19:40:39Z"
+                    ]
+                }
+            },
+            {
+                "turn id": 4,
+                "user1 utterance": "I have more of a head ache than anything else",
+                "user2 response": "dude thats terrible",
+                "dialog history": "<user1> Hello How are you doing today? <user2> whats up MD im doing good how are you doing? <user1> Im alright, I just took a nap. But it was one of those naps that doesnt help anything. It just makes everything worse and you question all your life choices <user2> oh wow haha so you still feel tired huh? <user1> Yeah <user2> did you go to bed late?",
+                "original user1 side information": {
+                    "sender": "720840be-e522-47ba-9e9f-143f66372673",
+                    "timestamp": [
+                        "2018-05-02T19:40:40Z"
+                    ]
+                },
+                "original user2 side information": {
+                    "sender": "549cc1d1-270e-4a53-b561-133a8d0086b4",
+                    "timestamp": [
+                        "2018-05-02T19:40:53Z"
+                    ]
+                }
+            },
+            {
+                "turn id": 5,
+                "user1 utterance": "No, Its just adjusting to a time change But enough about me What are you up to?",
+                "user2 response": "im refining my skills on Sketch App have you heard of Sketch?",
+                "dialog history": "<user1> Hello How are you doing today? <user2> whats up MD im doing good how are you doing? <user1> Im alright, I just took a nap. But it was one of those naps that doesnt help anything. It just makes everything worse and you question all your life choices <user2> oh wow haha so you still feel tired huh? <user1> Yeah <user2> did you go to bed late? <user1> I have more of a head ache than anything else <user2> dude thats terrible",
+                "original user1 side information": {
+                    "sender": "720840be-e522-47ba-9e9f-143f66372673",
+                    "timestamp": [
+                        "2018-05-02T19:40:55Z",
+                        "2018-05-02T19:40:59Z",
+                        "2018-05-02T19:41:04Z"
+                    ]
+                },
+                "original user2 side information": {
+                    "sender": "549cc1d1-270e-4a53-b561-133a8d0086b4",
+                    "timestamp": [
+                        "2018-05-02T19:41:34Z",
+                        "2018-05-02T19:41:45Z"
+                    ]
+                }
+            },
+            {
+                "turn id": 6,
+                "user1 utterance": "I havent What is it?",
+                "user2 response": "you know what adobe illustrator is right?",
+                "dialog history": "<user1> Hello How are you doing today? <user2> whats up MD im doing good how are you doing? <user1> Im alright, I just took a nap. But it was one of those naps that doesnt help anything. It just makes everything worse and you question all your life choices <user2> oh wow haha so you still feel tired huh? <user1> Yeah <user2> did you go to bed late? <user1> I have more of a head ache than anything else <user2> dude thats terrible <user1> No, Its just adjusting to a time change But enough about me What are you up to? <user2> im refining my skills on Sketch App have you heard of Sketch?",
+                "original user1 side information": {
+                    "sender": "720840be-e522-47ba-9e9f-143f66372673",
+                    "timestamp": [
+                        "2018-05-02T19:42:06Z",
+                        "2018-05-02T19:42:10Z"
+                    ]
+                },
+                "original user2 side information": {
+                    "sender": "549cc1d1-270e-4a53-b561-133a8d0086b4",
+                    "timestamp": [
+                        "2018-05-02T19:43:03Z"
+                    ]
+                }
+            },
+            {
+                "turn id": 7,
+                "user1 utterance": "Yes",
+                "user2 response": "its a vector graphic editor like illustrator but its a lot more light weight and its for UX designers to design UI",
+                "dialog history": "<user1> Hello How are you doing today? <user2> whats up MD im doing good how are you doing? <user1> Im alright, I just took a nap. But it was one of those naps that doesnt help anything. It just makes everything worse and you question all your life choices <user2> oh wow haha so you still feel tired huh? <user1> Yeah <user2> did you go to bed late? <user1> I have more of a head ache than anything else <user2> dude thats terrible <user1> No, Its just adjusting to a time change But enough about me What are you up to? <user2> im refining my skills on Sketch App have you heard of Sketch? <user1> I havent What is it? <user2> you know what adobe illustrator is right?",
+                "original user1 side information": {
+                    "sender": "720840be-e522-47ba-9e9f-143f66372673",
+                    "timestamp": [
+                        "2018-05-02T19:43:09Z"
+                    ]
+                },
+                "original user2 side information": {
+                    "sender": "549cc1d1-270e-4a53-b561-133a8d0086b4",
+                    "timestamp": [
+                        "2018-05-02T19:43:42Z"
+                    ]
+                }
+            },
+            {
+                "turn id": 8,
+                "user1 utterance": "Oh nice! What have you been practicing designing",
+                "user2 response": "Ive been trying to learn more tools on sketch and just get faster at it] Im doing a free lance job for a professor for his app idea and he needs a mockup of what the app will look like for his pitch",
+                "dialog history": "<user1> Hello How are you doing today? <user2> whats up MD im doing good how are you doing? <user1> Im alright, I just took a nap. But it was one of those naps that doesnt help anything. It just makes everything worse and you question all your life choices <user2> oh wow haha so you still feel tired huh? <user1> Yeah <user2> did you go to bed late? <user1> I have more of a head ache than anything else <user2> dude thats terrible <user1> No, Its just adjusting to a time change But enough about me What are you up to? <user2> im refining my skills on Sketch App have you heard of Sketch? <user1> I havent What is it? <user2> you know what adobe illustrator is right? <user1> Yes <user2> its a vector graphic editor like illustrator but its a lot more light weight and its for UX designers to design UI",
+                "original user1 side information": {
+                    "sender": "720840be-e522-47ba-9e9f-143f66372673",
+                    "timestamp": [
+                        "2018-05-02T19:45:31Z",
+                        "2018-05-02T19:45:41Z"
+                    ]
+                },
+                "original user2 side information": {
+                    "sender": "549cc1d1-270e-4a53-b561-133a8d0086b4",
+                    "timestamp": [
+                        "2018-05-02T19:47:11Z",
+                        "2018-05-02T19:47:44Z"
+                    ]
+                }
+            },
+            {
+                "turn id": 9,
+                "user1 utterance": "Wow that is cool! When is that all due by?",
+                "user2 response": "this weekend haha",
+                "dialog history": "<user1> Hello How are you doing today? <user2> whats up MD im doing good how are you doing? <user1> Im alright, I just took a nap. But it was one of those naps that doesnt help anything. It just makes everything worse and you question all your life choices <user2> oh wow haha so you still feel tired huh? <user1> Yeah <user2> did you go to bed late? <user1> I have more of a head ache than anything else <user2> dude thats terrible <user1> No, Its just adjusting to a time change But enough about me What are you up to? <user2> im refining my skills on Sketch App have you heard of Sketch? <user1> I havent What is it? <user2> you know what adobe illustrator is right? <user1> Yes <user2> its a vector graphic editor like illustrator but its a lot more light weight and its for UX designers to design UI <user1> Oh nice! What have you been practicing designing <user2> Ive been trying to learn more tools on sketch and just get faster at it] Im doing a free lance job for a professor for his app idea and he needs a mockup of what the app will look like for his pitch",
+                "original user1 side information": {
+                    "sender": "720840be-e522-47ba-9e9f-143f66372673",
+                    "timestamp": [
+                        "2018-05-02T19:48:28Z"
+                    ]
+                },
+                "original user2 side information": {
+                    "sender": "549cc1d1-270e-4a53-b561-133a8d0086b4",
+                    "timestamp": [
+                        "2018-05-02T19:48:44Z"
+                    ]
+                }
+            },
+            {
+                "turn id": 10,
+                "user1 utterance": "Do you think you will finish or is that a pushy deadline?",
+                "user2 response": "its a deadline I set haha but I think Ill be able to finish I hope... if not I can push it back a little",
+                "dialog history": "<user1> Hello How are you doing today? <user2> whats up MD im doing good how are you doing? <user1> Im alright, I just took a nap. But it was one of those naps that doesnt help anything. It just makes everything worse and you question all your life choices <user2> oh wow haha so you still feel tired huh? <user1> Yeah <user2> did you go to bed late? <user1> I have more of a head ache than anything else <user2> dude thats terrible <user1> No, Its just adjusting to a time change But enough about me What are you up to? <user2> im refining my skills on Sketch App have you heard of Sketch? <user1> I havent What is it? <user2> you know what adobe illustrator is right? <user1> Yes <user2> its a vector graphic editor like illustrator but its a lot more light weight and its for UX designers to design UI <user1> Oh nice! What have you been practicing designing <user2> Ive been trying to learn more tools on sketch and just get faster at it] Im doing a free lance job for a professor for his app idea and he needs a mockup of what the app will look like for his pitch <user1> Wow that is cool! When is that all due by? <user2> this weekend haha",
+                "original user1 side information": {
+                    "sender": "720840be-e522-47ba-9e9f-143f66372673",
+                    "timestamp": [
+                        "2018-05-02T19:50:18Z"
+                    ]
+                },
+                "original user2 side information": {
+                    "sender": "549cc1d1-270e-4a53-b561-133a8d0086b4",
+                    "timestamp": [
+                        "2018-05-02T19:51:26Z",
+                        "2018-05-02T19:51:32Z",
+                        "2018-05-02T19:51:35Z",
+                        "2018-05-02T19:51:40Z"
+                    ]
+                }
+            },
+            {
+                "turn id": 11,
+                "user1 utterance": "Well I wish you the best of luck with that deadline",
+                "user2 response": "thanks do you have any personal projects you are working on\"?",
+                "dialog history": "<user1> Hello How are you doing today? <user2> whats up MD im doing good how are you doing? <user1> Im alright, I just took a nap. But it was one of those naps that doesnt help anything. It just makes everything worse and you question all your life choices <user2> oh wow haha so you still feel tired huh? <user1> Yeah <user2> did you go to bed late? <user1> I have more of a head ache than anything else <user2> dude thats terrible <user1> No, Its just adjusting to a time change But enough about me What are you up to? <user2> im refining my skills on Sketch App have you heard of Sketch? <user1> I havent What is it? <user2> you know what adobe illustrator is right? <user1> Yes <user2> its a vector graphic editor like illustrator but its a lot more light weight and its for UX designers to design UI <user1> Oh nice! What have you been practicing designing <user2> Ive been trying to learn more tools on sketch and just get faster at it] Im doing a free lance job for a professor for his app idea and he needs a mockup of what the app will look like for his pitch <user1> Wow that is cool! When is that all due by? <user2> this weekend haha <user1> Do you think you will finish or is that a pushy deadline? <user2> its a deadline I set haha but I think Ill be able to finish I hope... if not I can push it back a little",
+                "original user1 side information": {
+                    "sender": "720840be-e522-47ba-9e9f-143f66372673",
+                    "timestamp": [
+                        "2018-05-02T19:52:05Z"
+                    ]
+                },
+                "original user2 side information": {
+                    "sender": "549cc1d1-270e-4a53-b561-133a8d0086b4",
+                    "timestamp": [
+                        "2018-05-02T19:52:58Z",
+                        "2018-05-02T19:53:05Z"
+                    ]
+                }
+            },
+            {
+                "turn id": 12,
+                "user1 utterance": "Not really projects. I finished editing a bunch of engagement pictures. So now all I am really doing is just practicing some sketching I can always practice and improve that skill",
+                "user2 response": "oh coooool! was this a paid photoshoot?",
+                "dialog history": "<user1> Hello How are you doing today? <user2> whats up MD im doing good how are you doing? <user1> Im alright, I just took a nap. But it was one of those naps that doesnt help anything. It just makes everything worse and you question all your life choices <user2> oh wow haha so you still feel tired huh? <user1> Yeah <user2> did you go to bed late? <user1> I have more of a head ache than anything else <user2> dude thats terrible <user1> No, Its just adjusting to a time change But enough about me What are you up to? <user2> im refining my skills on Sketch App have you heard of Sketch? <user1> I havent What is it? <user2> you know what adobe illustrator is right? <user1> Yes <user2> its a vector graphic editor like illustrator but its a lot more light weight and its for UX designers to design UI <user1> Oh nice! What have you been practicing designing <user2> Ive been trying to learn more tools on sketch and just get faster at it] Im doing a free lance job for a professor for his app idea and he needs a mockup of what the app will look like for his pitch <user1> Wow that is cool! When is that all due by? <user2> this weekend haha <user1> Do you think you will finish or is that a pushy deadline? <user2> its a deadline I set haha but I think Ill be able to finish I hope... if not I can push it back a little <user1> Well I wish you the best of luck with that deadline <user2> thanks do you have any personal projects you are working on\"?",
+                "original user1 side information": {
+                    "sender": "720840be-e522-47ba-9e9f-143f66372673",
+                    "timestamp": [
+                        "2018-05-02T19:54:43Z",
+                        "2018-05-02T19:57:20Z"
+                    ]
+                },
+                "original user2 side information": {
+                    "sender": "549cc1d1-270e-4a53-b561-133a8d0086b4",
+                    "timestamp": [
+                        "2018-05-02T19:58:26Z",
+                        "2018-05-02T19:58:38Z"
+                    ]
+                }
+            },
+            {
+                "turn id": 13,
+                "user1 utterance": "Yep, I had a few that I did before I went home for the summer",
+                "user2 response": "engagement shoots or weddings are goooood money but i hear in utah its super competitive",
+                "dialog history": "<user1> Hello How are you doing today? <user2> whats up MD im doing good how are you doing? <user1> Im alright, I just took a nap. But it was one of those naps that doesnt help anything. It just makes everything worse and you question all your life choices <user2> oh wow haha so you still feel tired huh? <user1> Yeah <user2> did you go to bed late? <user1> I have more of a head ache than anything else <user2> dude thats terrible <user1> No, Its just adjusting to a time change But enough about me What are you up to? <user2> im refining my skills on Sketch App have you heard of Sketch? <user1> I havent What is it? <user2> you know what adobe illustrator is right? <user1> Yes <user2> its a vector graphic editor like illustrator but its a lot more light weight and its for UX designers to design UI <user1> Oh nice! What have you been practicing designing <user2> Ive been trying to learn more tools on sketch and just get faster at it] Im doing a free lance job for a professor for his app idea and he needs a mockup of what the app will look like for his pitch <user1> Wow that is cool! When is that all due by? <user2> this weekend haha <user1> Do you think you will finish or is that a pushy deadline? <user2> its a deadline I set haha but I think Ill be able to finish I hope... if not I can push it back a little <user1> Well I wish you the best of luck with that deadline <user2> thanks do you have any personal projects you are working on\"? <user1> Not really projects. I finished editing a bunch of engagement pictures. So now all I am really doing is just practicing some sketching I can always practice and improve that skill <user2> oh coooool! was this a paid photoshoot?",
+                "original user1 side information": {
+                    "sender": "720840be-e522-47ba-9e9f-143f66372673",
+                    "timestamp": [
+                        "2018-05-02T19:59:55Z"
+                    ]
+                },
+                "original user2 side information": {
+                    "sender": "549cc1d1-270e-4a53-b561-133a8d0086b4",
+                    "timestamp": [
+                        "2018-05-02T20:00:24Z",
+                        "2018-05-02T20:01:01Z"
+                    ]
+                }
+            },
+            {
+                "turn id": 14,
+                "user1 utterance": "Yeah there are so many, every other person takes pictures Its easy to do it for friends and people you know but past that it is hard to get more business",
+                "user2 response": "yeah true do you think if you wanted to pursue your photography you wuold have to move out of utah?",
+                "dialog history": "<user1> Hello How are you doing today? <user2> whats up MD im doing good how are you doing? <user1> Im alright, I just took a nap. But it was one of those naps that doesnt help anything. It just makes everything worse and you question all your life choices <user2> oh wow haha so you still feel tired huh? <user1> Yeah <user2> did you go to bed late? <user1> I have more of a head ache than anything else <user2> dude thats terrible <user1> No, Its just adjusting to a time change But enough about me What are you up to? <user2> im refining my skills on Sketch App have you heard of Sketch? <user1> I havent What is it? <user2> you know what adobe illustrator is right? <user1> Yes <user2> its a vector graphic editor like illustrator but its a lot more light weight and its for UX designers to design UI <user1> Oh nice! What have you been practicing designing <user2> Ive been trying to learn more tools on sketch and just get faster at it] Im doing a free lance job for a professor for his app idea and he needs a mockup of what the app will look like for his pitch <user1> Wow that is cool! When is that all due by? <user2> this weekend haha <user1> Do you think you will finish or is that a pushy deadline? <user2> its a deadline I set haha but I think Ill be able to finish I hope... if not I can push it back a little <user1> Well I wish you the best of luck with that deadline <user2> thanks do you have any personal projects you are working on\"? <user1> Not really projects. I finished editing a bunch of engagement pictures. So now all I am really doing is just practicing some sketching I can always practice and improve that skill <user2> oh coooool! was this a paid photoshoot? <user1> Yep, I had a few that I did before I went home for the summer <user2> engagement shoots or weddings are goooood money but i hear in utah its super competitive",
+                "original user1 side information": {
+                    "sender": "720840be-e522-47ba-9e9f-143f66372673",
+                    "timestamp": [
+                        "2018-05-02T20:03:47Z",
+                        "2018-05-02T20:04:10Z"
+                    ]
+                },
+                "original user2 side information": {
+                    "sender": "549cc1d1-270e-4a53-b561-133a8d0086b4",
+                    "timestamp": [
+                        "2018-05-02T20:06:27Z",
+                        "2018-05-02T20:06:53Z"
+                    ]
+                }
+            },
+            {
+                "turn id": 15,
+                "user1 utterance": "Um maybe, People need pictures everywhere But I dont really want to do that, its fine for the side, but too hard to make a living on Remind me what you want to do career wise?",
+                "user2 response": "I want to become a UX desiner if you werent Christian what religion would you be in if at all?",
+                "dialog history": "<user1> Hello How are you doing today? <user2> whats up MD im doing good how are you doing? <user1> Im alright, I just took a nap. But it was one of those naps that doesnt help anything. It just makes everything worse and you question all your life choices <user2> oh wow haha so you still feel tired huh? <user1> Yeah <user2> did you go to bed late? <user1> I have more of a head ache than anything else <user2> dude thats terrible <user1> No, Its just adjusting to a time change But enough about me What are you up to? <user2> im refining my skills on Sketch App have you heard of Sketch? <user1> I havent What is it? <user2> you know what adobe illustrator is right? <user1> Yes <user2> its a vector graphic editor like illustrator but its a lot more light weight and its for UX designers to design UI <user1> Oh nice! What have you been practicing designing <user2> Ive been trying to learn more tools on sketch and just get faster at it] Im doing a free lance job for a professor for his app idea and he needs a mockup of what the app will look like for his pitch <user1> Wow that is cool! When is that all due by? <user2> this weekend haha <user1> Do you think you will finish or is that a pushy deadline? <user2> its a deadline I set haha but I think Ill be able to finish I hope... if not I can push it back a little <user1> Well I wish you the best of luck with that deadline <user2> thanks do you have any personal projects you are working on\"? <user1> Not really projects. I finished editing a bunch of engagement pictures. So now all I am really doing is just practicing some sketching I can always practice and improve that skill <user2> oh coooool! was this a paid photoshoot? <user1> Yep, I had a few that I did before I went home for the summer <user2> engagement shoots or weddings are goooood money but i hear in utah its super competitive <user1> Yeah there are so many, every other person takes pictures Its easy to do it for friends and people you know but past that it is hard to get more business <user2> yeah true do you think if you wanted to pursue your photography you wuold have to move out of utah?",
+                "original user1 side information": {
+                    "sender": "720840be-e522-47ba-9e9f-143f66372673",
+                    "timestamp": [
+                        "2018-05-02T20:07:21Z",
+                        "2018-05-02T20:07:45Z",
+                        "2018-05-02T20:13:39Z"
+                    ]
+                },
+                "original user2 side information": {
+                    "sender": "549cc1d1-270e-4a53-b561-133a8d0086b4",
+                    "timestamp": [
+                        "2018-05-02T20:13:55Z",
+                        "2018-05-02T20:20:16Z"
+                    ]
+                }
+            },
+            {
+                "turn id": 16,
+                "user1 utterance": "Hm Maybe Buddhist What about you? I think its  a really peaceful practice and it would match my personality",
+                "user2 response": "I probably would be buddhist culturally because IM korean but if i had a choice I wouldn't label myself as any religion egnostic? is that the term?",
+                "dialog history": "<user1> Hello How are you doing today? <user2> whats up MD im doing good how are you doing? <user1> Im alright, I just took a nap. But it was one of those naps that doesnt help anything. It just makes everything worse and you question all your life choices <user2> oh wow haha so you still feel tired huh? <user1> Yeah <user2> did you go to bed late? <user1> I have more of a head ache than anything else <user2> dude thats terrible <user1> No, Its just adjusting to a time change But enough about me What are you up to? <user2> im refining my skills on Sketch App have you heard of Sketch? <user1> I havent What is it? <user2> you know what adobe illustrator is right? <user1> Yes <user2> its a vector graphic editor like illustrator but its a lot more light weight and its for UX designers to design UI <user1> Oh nice! What have you been practicing designing <user2> Ive been trying to learn more tools on sketch and just get faster at it] Im doing a free lance job for a professor for his app idea and he needs a mockup of what the app will look like for his pitch <user1> Wow that is cool! When is that all due by? <user2> this weekend haha <user1> Do you think you will finish or is that a pushy deadline? <user2> its a deadline I set haha but I think Ill be able to finish I hope... if not I can push it back a little <user1> Well I wish you the best of luck with that deadline <user2> thanks do you have any personal projects you are working on\"? <user1> Not really projects. I finished editing a bunch of engagement pictures. So now all I am really doing is just practicing some sketching I can always practice and improve that skill <user2> oh coooool! was this a paid photoshoot? <user1> Yep, I had a few that I did before I went home for the summer <user2> engagement shoots or weddings are goooood money but i hear in utah its super competitive <user1> Yeah there are so many, every other person takes pictures Its easy to do it for friends and people you know but past that it is hard to get more business <user2> yeah true do you think if you wanted to pursue your photography you wuold have to move out of utah? <user1> Um maybe, People need pictures everywhere But I dont really want to do that, its fine for the side, but too hard to make a living on Remind me what you want to do career wise? <user2> I want to become a UX desiner if you werent Christian what religion would you be in if at all?",
+                "original user1 side information": {
+                    "sender": "720840be-e522-47ba-9e9f-143f66372673",
+                    "timestamp": [
+                        "2018-05-02T20:21:50Z",
+                        "2018-05-02T20:22:19Z",
+                        "2018-05-02T20:22:23Z",
+                        "2018-05-02T20:26:38Z"
+                    ]
+                },
+                "original user2 side information": {
+                    "sender": "549cc1d1-270e-4a53-b561-133a8d0086b4",
+                    "timestamp": [
+                        "2018-05-02T20:29:40Z",
+                        "2018-05-02T20:29:53Z",
+                        "2018-05-02T20:30:04Z"
+                    ]
+                }
+            },
+            {
+                "turn id": 17,
+                "user1 utterance": "I think that is a term but I dont know exactly what it means Thats really cool",
+                "user2 response": "I need to go. Thanks for chatting!",
+                "dialog history": "<user1> Hello How are you doing today? <user2> whats up MD im doing good how are you doing? <user1> Im alright, I just took a nap. But it was one of those naps that doesnt help anything. It just makes everything worse and you question all your life choices <user2> oh wow haha so you still feel tired huh? <user1> Yeah <user2> did you go to bed late? <user1> I have more of a head ache than anything else <user2> dude thats terrible <user1> No, Its just adjusting to a time change But enough about me What are you up to? <user2> im refining my skills on Sketch App have you heard of Sketch? <user1> I havent What is it? <user2> you know what adobe illustrator is right? <user1> Yes <user2> its a vector graphic editor like illustrator but its a lot more light weight and its for UX designers to design UI <user1> Oh nice! What have you been practicing designing <user2> Ive been trying to learn more tools on sketch and just get faster at it] Im doing a free lance job for a professor for his app idea and he needs a mockup of what the app will look like for his pitch <user1> Wow that is cool! When is that all due by? <user2> this weekend haha <user1> Do you think you will finish or is that a pushy deadline? <user2> its a deadline I set haha but I think Ill be able to finish I hope... if not I can push it back a little <user1> Well I wish you the best of luck with that deadline <user2> thanks do you have any personal projects you are working on\"? <user1> Not really projects. I finished editing a bunch of engagement pictures. So now all I am really doing is just practicing some sketching I can always practice and improve that skill <user2> oh coooool! was this a paid photoshoot? <user1> Yep, I had a few that I did before I went home for the summer <user2> engagement shoots or weddings are goooood money but i hear in utah its super competitive <user1> Yeah there are so many, every other person takes pictures Its easy to do it for friends and people you know but past that it is hard to get more business <user2> yeah true do you think if you wanted to pursue your photography you wuold have to move out of utah? <user1> Um maybe, People need pictures everywhere But I dont really want to do that, its fine for the side, but too hard to make a living on Remind me what you want to do career wise? <user2> I want to become a UX desiner if you werent Christian what religion would you be in if at all? <user1> Hm Maybe Buddhist What about you? I think its  a really peaceful practice and it would match my personality <user2> I probably would be buddhist culturally because IM korean but if i had a choice I wouldn't label myself as any religion egnostic? is that the term?",
+                "original user1 side information": {
+                    "sender": "720840be-e522-47ba-9e9f-143f66372673",
+                    "timestamp": [
+                        "2018-05-02T20:30:16Z",
+                        "2018-05-02T20:30:20Z"
+                    ]
+                },
+                "original user2 side information": {
+                    "sender": "549cc1d1-270e-4a53-b561-133a8d0086b4",
+                    "timestamp": [
+                        "2018-05-02T20:30:56Z"
+                    ]
+                }
+            }
+        ],
+        "prompt": []
+    },
+    "chitchat-dataset--train--2": {
+        "original dialog id": "58a21226-302d-4d83-a7f8-8e6ade072c84",
+        "dialog index": 2,
+        "original dialog info": {
+            "ratings": {
+                "witty": 7,
+                "upbeat": 7,
+                "interesting": 8
+            },
+            "start": "2018-05-10T05:19:04Z",
+            "prompt": "Is there something that you don't know that you're embarrassed about not knowing?"
+        },
+        "log": [
+            {
+                "turn id": 1,
+                "user1 utterance": "hi anyone here",
+                "user2 response": "hey whats up yeah how are you",
+                "dialog history": "",
+                "original user1 side information": {
+                    "sender": "2cbc08d8-41dc-4372-af7d-781fbde3f2b1",
+                    "timestamp": [
+                        "2018-05-09T23:19:51Z",
+                        "2018-05-09T23:19:57Z"
+                    ]
+                },
+                "original user2 side information": {
+                    "sender": "31267496-e50f-4f91-a197-c5b1bfde803b",
+                    "timestamp": [
+                        "2018-05-09T23:19:58Z",
+                        "2018-05-09T23:20:01Z"
+                    ]
+                }
+            },
+            {
+                "turn id": 2,
+                "user1 utterance": "im good im an international student from nigeria,and aspiring freshman",
+                "user2 response": "thats awesome wow cool how did you feel when you got accepted?",
+                "dialog history": "<user1> hi anyone here <user2> hey whats up yeah how are you",
+                "original user1 side information": {
+                    "sender": "2cbc08d8-41dc-4372-af7d-781fbde3f2b1",
+                    "timestamp": [
+                        "2018-05-09T23:20:04Z",
+                        "2018-05-09T23:20:24Z"
+                    ]
+                },
+                "original user2 side information": {
+                    "sender": "31267496-e50f-4f91-a197-c5b1bfde803b",
+                    "timestamp": [
+                        "2018-05-09T23:20:27Z",
+                        "2018-05-09T23:21:11Z"
+                    ]
+                }
+            },
+            {
+                "turn id": 3,
+                "user1 utterance": "i was super excited,but  definitely not as much as my parents, they freaked out, its always been a dream to got to BYU and serve a mission im grateful to heavenly father",
+                "user2 response": "yeah byu is one of the best schools out there",
+                "dialog history": "<user1> hi anyone here <user2> hey whats up yeah how are you <user1> im good im an international student from nigeria,and aspiring freshman <user2> thats awesome wow cool how did you feel when you got accepted?",
+                "original user1 side information": {
+                    "sender": "2cbc08d8-41dc-4372-af7d-781fbde3f2b1",
+                    "timestamp": [
+                        "2018-05-09T23:22:21Z",
+                        "2018-05-09T23:22:33Z"
+                    ]
+                },
+                "original user2 side information": {
+                    "sender": "31267496-e50f-4f91-a197-c5b1bfde803b",
+                    "timestamp": [
+                        "2018-05-09T23:24:38Z",
+                        "2018-05-09T23:24:46Z"
+                    ]
+                }
+            },
+            {
+                "turn id": 4,
+                "user1 utterance": "i know rightttt, its sooo cool, i love it, cant wait to get in and meet new people",
+                "user2 response": "yeah i have been here for a while and i love it",
+                "dialog history": "<user1> hi anyone here <user2> hey whats up yeah how are you <user1> im good im an international student from nigeria,and aspiring freshman <user2> thats awesome wow cool how did you feel when you got accepted? <user1> i was super excited,but  definitely not as much as my parents, they freaked out, its always been a dream to got to BYU and serve a mission im grateful to heavenly father <user2> yeah byu is one of the best schools out there",
+                "original user1 side information": {
+                    "sender": "2cbc08d8-41dc-4372-af7d-781fbde3f2b1",
+                    "timestamp": [
+                        "2018-05-09T23:25:12Z"
+                    ]
+                },
+                "original user2 side information": {
+                    "sender": "31267496-e50f-4f91-a197-c5b1bfde803b",
+                    "timestamp": [
+                        "2018-05-09T23:26:48Z"
+                    ]
+                }
+            },
+            {
+                "turn id": 5,
+                "user1 utterance": "what year are you in?",
+                "user2 response": "this is my sophomore year",
+                "dialog history": "<user1> hi anyone here <user2> hey whats up yeah how are you <user1> im good im an international student from nigeria,and aspiring freshman <user2> thats awesome wow cool how did you feel when you got accepted? <user1> i was super excited,but  definitely not as much as my parents, they freaked out, its always been a dream to got to BYU and serve a mission im grateful to heavenly father <user2> yeah byu is one of the best schools out there <user1> i know rightttt, its sooo cool, i love it, cant wait to get in and meet new people <user2> yeah i have been here for a while and i love it",
+                "original user1 side information": {
+                    "sender": "2cbc08d8-41dc-4372-af7d-781fbde3f2b1",
+                    "timestamp": [
+                        "2018-05-09T23:27:06Z"
+                    ]
+                },
+                "original user2 side information": {
+                    "sender": "31267496-e50f-4f91-a197-c5b1bfde803b",
+                    "timestamp": [
+                        "2018-05-09T23:28:19Z"
+                    ]
+                }
+            },
+            {
+                "turn id": 6,
+                "user1 utterance": "oh..nicee, did you serve a mission ?",
+                "user2 response": "yeah in nebraska",
+                "dialog history": "<user1> hi anyone here <user2> hey whats up yeah how are you <user1> im good im an international student from nigeria,and aspiring freshman <user2> thats awesome wow cool how did you feel when you got accepted? <user1> i was super excited,but  definitely not as much as my parents, they freaked out, its always been a dream to got to BYU and serve a mission im grateful to heavenly father <user2> yeah byu is one of the best schools out there <user1> i know rightttt, its sooo cool, i love it, cant wait to get in and meet new people <user2> yeah i have been here for a while and i love it <user1> what year are you in? <user2> this is my sophomore year",
+                "original user1 side information": {
+                    "sender": "2cbc08d8-41dc-4372-af7d-781fbde3f2b1",
+                    "timestamp": [
+                        "2018-05-09T23:28:52Z"
+                    ]
+                },
+                "original user2 side information": {
+                    "sender": "31267496-e50f-4f91-a197-c5b1bfde803b",
+                    "timestamp": [
+                        "2018-05-09T23:31:19Z",
+                        "2018-05-09T23:31:22Z"
+                    ]
+                }
+            },
+            {
+                "turn id": 7,
+                "user1 utterance": "thats cool,are you an american?",
+                "user2 response": "yeah i am from america have you ever been?",
+                "dialog history": "<user1> hi anyone here <user2> hey whats up yeah how are you <user1> im good im an international student from nigeria,and aspiring freshman <user2> thats awesome wow cool how did you feel when you got accepted? <user1> i was super excited,but  definitely not as much as my parents, they freaked out, its always been a dream to got to BYU and serve a mission im grateful to heavenly father <user2> yeah byu is one of the best schools out there <user1> i know rightttt, its sooo cool, i love it, cant wait to get in and meet new people <user2> yeah i have been here for a while and i love it <user1> what year are you in? <user2> this is my sophomore year <user1> oh..nicee, did you serve a mission ? <user2> yeah in nebraska",
+                "original user1 side information": {
+                    "sender": "2cbc08d8-41dc-4372-af7d-781fbde3f2b1",
+                    "timestamp": [
+                        "2018-05-09T23:31:55Z"
+                    ]
+                },
+                "original user2 side information": {
+                    "sender": "31267496-e50f-4f91-a197-c5b1bfde803b",
+                    "timestamp": [
+                        "2018-05-09T23:32:05Z",
+                        "2018-05-09T23:33:17Z"
+                    ]
+                }
+            },
+            {
+                "turn id": 8,
+                "user1 utterance": "yeah, twice, my uncles live in texas",
+                "user2 response": "wow that is cool do you have any other family in america?",
+                "dialog history": "<user1> hi anyone here <user2> hey whats up yeah how are you <user1> im good im an international student from nigeria,and aspiring freshman <user2> thats awesome wow cool how did you feel when you got accepted? <user1> i was super excited,but  definitely not as much as my parents, they freaked out, its always been a dream to got to BYU and serve a mission im grateful to heavenly father <user2> yeah byu is one of the best schools out there <user1> i know rightttt, its sooo cool, i love it, cant wait to get in and meet new people <user2> yeah i have been here for a while and i love it <user1> what year are you in? <user2> this is my sophomore year <user1> oh..nicee, did you serve a mission ? <user2> yeah in nebraska <user1> thats cool,are you an american? <user2> yeah i am from america have you ever been?",
+                "original user1 side information": {
+                    "sender": "2cbc08d8-41dc-4372-af7d-781fbde3f2b1",
+                    "timestamp": [
+                        "2018-05-09T23:34:12Z"
+                    ]
+                },
+                "original user2 side information": {
+                    "sender": "31267496-e50f-4f91-a197-c5b1bfde803b",
+                    "timestamp": [
+                        "2018-05-09T23:35:10Z",
+                        "2018-05-09T23:35:21Z"
+                    ]
+                }
+            },
+            {
+                "turn id": 9,
+                "user1 utterance": "yeah so,what do you like doing for fun?",
+                "user2 response": "i like to play volleyball what about you?",
+                "dialog history": "<user1> hi anyone here <user2> hey whats up yeah how are you <user1> im good im an international student from nigeria,and aspiring freshman <user2> thats awesome wow cool how did you feel when you got accepted? <user1> i was super excited,but  definitely not as much as my parents, they freaked out, its always been a dream to got to BYU and serve a mission im grateful to heavenly father <user2> yeah byu is one of the best schools out there <user1> i know rightttt, its sooo cool, i love it, cant wait to get in and meet new people <user2> yeah i have been here for a while and i love it <user1> what year are you in? <user2> this is my sophomore year <user1> oh..nicee, did you serve a mission ? <user2> yeah in nebraska <user1> thats cool,are you an american? <user2> yeah i am from america have you ever been? <user1> yeah, twice, my uncles live in texas <user2> wow that is cool do you have any other family in america?",
+                "original user1 side information": {
+                    "sender": "2cbc08d8-41dc-4372-af7d-781fbde3f2b1",
+                    "timestamp": [
+                        "2018-05-09T23:35:24Z",
+                        "2018-05-09T23:35:35Z"
+                    ]
+                },
+                "original user2 side information": {
+                    "sender": "31267496-e50f-4f91-a197-c5b1bfde803b",
+                    "timestamp": [
+                        "2018-05-09T23:36:06Z"
+                    ]
+                }
+            },
+            {
+                "turn id": 10,
+                "user1 utterance": "i like soccer,table tennis,tennis,and badmington i wanna workout and preactice then try out for the BYU football team after my mission",
+                "user2 response": "oh that is a good goal! Where are you going on your mission?",
+                "dialog history": "<user1> hi anyone here <user2> hey whats up yeah how are you <user1> im good im an international student from nigeria,and aspiring freshman <user2> thats awesome wow cool how did you feel when you got accepted? <user1> i was super excited,but  definitely not as much as my parents, they freaked out, its always been a dream to got to BYU and serve a mission im grateful to heavenly father <user2> yeah byu is one of the best schools out there <user1> i know rightttt, its sooo cool, i love it, cant wait to get in and meet new people <user2> yeah i have been here for a while and i love it <user1> what year are you in? <user2> this is my sophomore year <user1> oh..nicee, did you serve a mission ? <user2> yeah in nebraska <user1> thats cool,are you an american? <user2> yeah i am from america have you ever been? <user1> yeah, twice, my uncles live in texas <user2> wow that is cool do you have any other family in america? <user1> yeah so,what do you like doing for fun? <user2> i like to play volleyball what about you?",
+                "original user1 side information": {
+                    "sender": "2cbc08d8-41dc-4372-af7d-781fbde3f2b1",
+                    "timestamp": [
+                        "2018-05-09T23:36:52Z",
+                        "2018-05-09T23:37:11Z"
+                    ]
+                },
+                "original user2 side information": {
+                    "sender": "31267496-e50f-4f91-a197-c5b1bfde803b",
+                    "timestamp": [
+                        "2018-05-09T23:37:37Z"
+                    ]
+                }
+            },
+            {
+                "turn id": 11,
+                "user1 utterance": "i dont know yet im not of age, ill go after one year in BYU",
+                "user2 response": "oh ok how old are you 17?",
+                "dialog history": "<user1> hi anyone here <user2> hey whats up yeah how are you <user1> im good im an international student from nigeria,and aspiring freshman <user2> thats awesome wow cool how did you feel when you got accepted? <user1> i was super excited,but  definitely not as much as my parents, they freaked out, its always been a dream to got to BYU and serve a mission im grateful to heavenly father <user2> yeah byu is one of the best schools out there <user1> i know rightttt, its sooo cool, i love it, cant wait to get in and meet new people <user2> yeah i have been here for a while and i love it <user1> what year are you in? <user2> this is my sophomore year <user1> oh..nicee, did you serve a mission ? <user2> yeah in nebraska <user1> thats cool,are you an american? <user2> yeah i am from america have you ever been? <user1> yeah, twice, my uncles live in texas <user2> wow that is cool do you have any other family in america? <user1> yeah so,what do you like doing for fun? <user2> i like to play volleyball what about you? <user1> i like soccer,table tennis,tennis,and badmington i wanna workout and preactice then try out for the BYU football team after my mission <user2> oh that is a good goal! Where are you going on your mission?",
+                "original user1 side information": {
+                    "sender": "2cbc08d8-41dc-4372-af7d-781fbde3f2b1",
+                    "timestamp": [
+                        "2018-05-09T23:37:51Z",
+                        "2018-05-09T23:38:07Z"
+                    ]
+                },
+                "original user2 side information": {
+                    "sender": "31267496-e50f-4f91-a197-c5b1bfde803b",
+                    "timestamp": [
+                        "2018-05-09T23:38:43Z",
+                        "2018-05-09T23:38:47Z"
+                    ]
+                }
+            },
+            {
+                "turn id": 12,
+                "user1 utterance": "turning 17 june 20 you?",
+                "user2 response": "oh wow so you have a while btw it isnt a good idea to use your actual birthday just year and i am 21",
+                "dialog history": "<user1> hi anyone here <user2> hey whats up yeah how are you <user1> im good im an international student from nigeria,and aspiring freshman <user2> thats awesome wow cool how did you feel when you got accepted? <user1> i was super excited,but  definitely not as much as my parents, they freaked out, its always been a dream to got to BYU and serve a mission im grateful to heavenly father <user2> yeah byu is one of the best schools out there <user1> i know rightttt, its sooo cool, i love it, cant wait to get in and meet new people <user2> yeah i have been here for a while and i love it <user1> what year are you in? <user2> this is my sophomore year <user1> oh..nicee, did you serve a mission ? <user2> yeah in nebraska <user1> thats cool,are you an american? <user2> yeah i am from america have you ever been? <user1> yeah, twice, my uncles live in texas <user2> wow that is cool do you have any other family in america? <user1> yeah so,what do you like doing for fun? <user2> i like to play volleyball what about you? <user1> i like soccer,table tennis,tennis,and badmington i wanna workout and preactice then try out for the BYU football team after my mission <user2> oh that is a good goal! Where are you going on your mission? <user1> i dont know yet im not of age, ill go after one year in BYU <user2> oh ok how old are you 17?",
+                "original user1 side information": {
+                    "sender": "2cbc08d8-41dc-4372-af7d-781fbde3f2b1",
+                    "timestamp": [
+                        "2018-05-09T23:39:02Z",
+                        "2018-05-09T23:39:09Z"
+                    ]
+                },
+                "original user2 side information": {
+                    "sender": "31267496-e50f-4f91-a197-c5b1bfde803b",
+                    "timestamp": [
+                        "2018-05-09T23:39:14Z",
+                        "2018-05-09T23:39:25Z",
+                        "2018-05-09T23:39:26Z",
+                        "2018-05-09T23:39:28Z"
+                    ]
+                }
+            },
+            {
+                "turn id": 13,
+                "user1 utterance": "ohhhh..ok thanks for the info thats cool",
+                "user2 response": "where would you go if money werent an object?",
+                "dialog history": "<user1> hi anyone here <user2> hey whats up yeah how are you <user1> im good im an international student from nigeria,and aspiring freshman <user2> thats awesome wow cool how did you feel when you got accepted? <user1> i was super excited,but  definitely not as much as my parents, they freaked out, its always been a dream to got to BYU and serve a mission im grateful to heavenly father <user2> yeah byu is one of the best schools out there <user1> i know rightttt, its sooo cool, i love it, cant wait to get in and meet new people <user2> yeah i have been here for a while and i love it <user1> what year are you in? <user2> this is my sophomore year <user1> oh..nicee, did you serve a mission ? <user2> yeah in nebraska <user1> thats cool,are you an american? <user2> yeah i am from america have you ever been? <user1> yeah, twice, my uncles live in texas <user2> wow that is cool do you have any other family in america? <user1> yeah so,what do you like doing for fun? <user2> i like to play volleyball what about you? <user1> i like soccer,table tennis,tennis,and badmington i wanna workout and preactice then try out for the BYU football team after my mission <user2> oh that is a good goal! Where are you going on your mission? <user1> i dont know yet im not of age, ill go after one year in BYU <user2> oh ok how old are you 17? <user1> turning 17 june 20 you? <user2> oh wow so you have a while btw it isnt a good idea to use your actual birthday just year and i am 21",
+                "original user1 side information": {
+                    "sender": "2cbc08d8-41dc-4372-af7d-781fbde3f2b1",
+                    "timestamp": [
+                        "2018-05-09T23:40:40Z",
+                        "2018-05-09T23:40:49Z",
+                        "2018-05-09T23:40:54Z"
+                    ]
+                },
+                "original user2 side information": {
+                    "sender": "31267496-e50f-4f91-a197-c5b1bfde803b",
+                    "timestamp": [
+                        "2018-05-09T23:41:51Z"
+                    ]
+                }
+            },
+            {
+                "turn id": 14,
+                "user1 utterance": "hmmmm ive honestly never thought of that but i have always wanted to visit brazil",
+                "user2 response": "that would be cool",
+                "dialog history": "<user1> hi anyone here <user2> hey whats up yeah how are you <user1> im good im an international student from nigeria,and aspiring freshman <user2> thats awesome wow cool how did you feel when you got accepted? <user1> i was super excited,but  definitely not as much as my parents, they freaked out, its always been a dream to got to BYU and serve a mission im grateful to heavenly father <user2> yeah byu is one of the best schools out there <user1> i know rightttt, its sooo cool, i love it, cant wait to get in and meet new people <user2> yeah i have been here for a while and i love it <user1> what year are you in? <user2> this is my sophomore year <user1> oh..nicee, did you serve a mission ? <user2> yeah in nebraska <user1> thats cool,are you an american? <user2> yeah i am from america have you ever been? <user1> yeah, twice, my uncles live in texas <user2> wow that is cool do you have any other family in america? <user1> yeah so,what do you like doing for fun? <user2> i like to play volleyball what about you? <user1> i like soccer,table tennis,tennis,and badmington i wanna workout and preactice then try out for the BYU football team after my mission <user2> oh that is a good goal! Where are you going on your mission? <user1> i dont know yet im not of age, ill go after one year in BYU <user2> oh ok how old are you 17? <user1> turning 17 june 20 you? <user2> oh wow so you have a while btw it isnt a good idea to use your actual birthday just year and i am 21 <user1> ohhhh..ok thanks for the info thats cool <user2> where would you go if money werent an object?",
+                "original user1 side information": {
+                    "sender": "2cbc08d8-41dc-4372-af7d-781fbde3f2b1",
+                    "timestamp": [
+                        "2018-05-09T23:43:08Z",
+                        "2018-05-09T23:43:17Z",
+                        "2018-05-09T23:43:28Z"
+                    ]
+                },
+                "original user2 side information": {
+                    "sender": "31267496-e50f-4f91-a197-c5b1bfde803b",
+                    "timestamp": [
+                        "2018-05-09T23:45:25Z"
+                    ]
+                }
+            },
+            {
+                "turn id": 15,
+                "user1 utterance": "yeah and you? where would you like to visit?",
+                "user2 response": "i think it would be cool to visit europe i think i would want to go to europe",
+                "dialog history": "<user1> hi anyone here <user2> hey whats up yeah how are you <user1> im good im an international student from nigeria,and aspiring freshman <user2> thats awesome wow cool how did you feel when you got accepted? <user1> i was super excited,but  definitely not as much as my parents, they freaked out, its always been a dream to got to BYU and serve a mission im grateful to heavenly father <user2> yeah byu is one of the best schools out there <user1> i know rightttt, its sooo cool, i love it, cant wait to get in and meet new people <user2> yeah i have been here for a while and i love it <user1> what year are you in? <user2> this is my sophomore year <user1> oh..nicee, did you serve a mission ? <user2> yeah in nebraska <user1> thats cool,are you an american? <user2> yeah i am from america have you ever been? <user1> yeah, twice, my uncles live in texas <user2> wow that is cool do you have any other family in america? <user1> yeah so,what do you like doing for fun? <user2> i like to play volleyball what about you? <user1> i like soccer,table tennis,tennis,and badmington i wanna workout and preactice then try out for the BYU football team after my mission <user2> oh that is a good goal! Where are you going on your mission? <user1> i dont know yet im not of age, ill go after one year in BYU <user2> oh ok how old are you 17? <user1> turning 17 june 20 you? <user2> oh wow so you have a while btw it isnt a good idea to use your actual birthday just year and i am 21 <user1> ohhhh..ok thanks for the info thats cool <user2> where would you go if money werent an object? <user1> hmmmm ive honestly never thought of that but i have always wanted to visit brazil <user2> that would be cool",
+                "original user1 side information": {
+                    "sender": "2cbc08d8-41dc-4372-af7d-781fbde3f2b1",
+                    "timestamp": [
+                        "2018-05-09T23:46:29Z",
+                        "2018-05-09T23:46:34Z",
+                        "2018-05-09T23:46:48Z"
+                    ]
+                },
+                "original user2 side information": {
+                    "sender": "31267496-e50f-4f91-a197-c5b1bfde803b",
+                    "timestamp": [
+                        "2018-05-09T23:47:09Z",
+                        "2018-05-09T23:50:27Z"
+                    ]
+                }
+            },
+            {
+                "turn id": 16,
+                "user1 utterance": "oh,,,why?",
+                "user2 response": "i want to go check out the people and the culture i mean america kind of started of in europe you know what i mean?",
+                "dialog history": "<user1> hi anyone here <user2> hey whats up yeah how are you <user1> im good im an international student from nigeria,and aspiring freshman <user2> thats awesome wow cool how did you feel when you got accepted? <user1> i was super excited,but  definitely not as much as my parents, they freaked out, its always been a dream to got to BYU and serve a mission im grateful to heavenly father <user2> yeah byu is one of the best schools out there <user1> i know rightttt, its sooo cool, i love it, cant wait to get in and meet new people <user2> yeah i have been here for a while and i love it <user1> what year are you in? <user2> this is my sophomore year <user1> oh..nicee, did you serve a mission ? <user2> yeah in nebraska <user1> thats cool,are you an american? <user2> yeah i am from america have you ever been? <user1> yeah, twice, my uncles live in texas <user2> wow that is cool do you have any other family in america? <user1> yeah so,what do you like doing for fun? <user2> i like to play volleyball what about you? <user1> i like soccer,table tennis,tennis,and badmington i wanna workout and preactice then try out for the BYU football team after my mission <user2> oh that is a good goal! Where are you going on your mission? <user1> i dont know yet im not of age, ill go after one year in BYU <user2> oh ok how old are you 17? <user1> turning 17 june 20 you? <user2> oh wow so you have a while btw it isnt a good idea to use your actual birthday just year and i am 21 <user1> ohhhh..ok thanks for the info thats cool <user2> where would you go if money werent an object? <user1> hmmmm ive honestly never thought of that but i have always wanted to visit brazil <user2> that would be cool <user1> yeah and you? where would you like to visit? <user2> i think it would be cool to visit europe i think i would want to go to europe",
+                "original user1 side information": {
+                    "sender": "2cbc08d8-41dc-4372-af7d-781fbde3f2b1",
+                    "timestamp": [
+                        "2018-05-09T23:51:45Z"
+                    ]
+                },
+                "original user2 side information": {
+                    "sender": "31267496-e50f-4f91-a197-c5b1bfde803b",
+                    "timestamp": [
+                        "2018-05-09T23:52:27Z",
+                        "2018-05-09T23:52:35Z"
+                    ]
+                }
+            },
+            {
+                "turn id": 17,
+                "user1 utterance": "yeah,i understand, i think your reason is kinda cool, i eanna go to brazil cause of soccer,nigerians love soccer, and brazillians are really good i would like to play with some of them.",
+                "user2 response": "yeah they are really good i think that is probably the most fanatic country when it comes to soccer",
+                "dialog history": "<user1> hi anyone here <user2> hey whats up yeah how are you <user1> im good im an international student from nigeria,and aspiring freshman <user2> thats awesome wow cool how did you feel when you got accepted? <user1> i was super excited,but  definitely not as much as my parents, they freaked out, its always been a dream to got to BYU and serve a mission im grateful to heavenly father <user2> yeah byu is one of the best schools out there <user1> i know rightttt, its sooo cool, i love it, cant wait to get in and meet new people <user2> yeah i have been here for a while and i love it <user1> what year are you in? <user2> this is my sophomore year <user1> oh..nicee, did you serve a mission ? <user2> yeah in nebraska <user1> thats cool,are you an american? <user2> yeah i am from america have you ever been? <user1> yeah, twice, my uncles live in texas <user2> wow that is cool do you have any other family in america? <user1> yeah so,what do you like doing for fun? <user2> i like to play volleyball what about you? <user1> i like soccer,table tennis,tennis,and badmington i wanna workout and preactice then try out for the BYU football team after my mission <user2> oh that is a good goal! Where are you going on your mission? <user1> i dont know yet im not of age, ill go after one year in BYU <user2> oh ok how old are you 17? <user1> turning 17 june 20 you? <user2> oh wow so you have a while btw it isnt a good idea to use your actual birthday just year and i am 21 <user1> ohhhh..ok thanks for the info thats cool <user2> where would you go if money werent an object? <user1> hmmmm ive honestly never thought of that but i have always wanted to visit brazil <user2> that would be cool <user1> yeah and you? where would you like to visit? <user2> i think it would be cool to visit europe i think i would want to go to europe <user1> oh,,,why? <user2> i want to go check out the people and the culture i mean america kind of started of in europe you know what i mean?",
+                "original user1 side information": {
+                    "sender": "2cbc08d8-41dc-4372-af7d-781fbde3f2b1",
+                    "timestamp": [
+                        "2018-05-09T23:56:07Z",
+                        "2018-05-09T23:56:21Z"
+                    ]
+                },
+                "original user2 side information": {
+                    "sender": "31267496-e50f-4f91-a197-c5b1bfde803b",
+                    "timestamp": [
+                        "2018-05-09T23:58:56Z",
+                        "2018-05-09T23:59:11Z"
+                    ]
+                }
+            },
+            {
+                "turn id": 18,
+                "user1 utterance": "yes,i think it is south americans love soccer a lot",
+                "user2 response": "yeah i can certainly believe that",
+                "dialog history": "<user1> hi anyone here <user2> hey whats up yeah how are you <user1> im good im an international student from nigeria,and aspiring freshman <user2> thats awesome wow cool how did you feel when you got accepted? <user1> i was super excited,but  definitely not as much as my parents, they freaked out, its always been a dream to got to BYU and serve a mission im grateful to heavenly father <user2> yeah byu is one of the best schools out there <user1> i know rightttt, its sooo cool, i love it, cant wait to get in and meet new people <user2> yeah i have been here for a while and i love it <user1> what year are you in? <user2> this is my sophomore year <user1> oh..nicee, did you serve a mission ? <user2> yeah in nebraska <user1> thats cool,are you an american? <user2> yeah i am from america have you ever been? <user1> yeah, twice, my uncles live in texas <user2> wow that is cool do you have any other family in america? <user1> yeah so,what do you like doing for fun? <user2> i like to play volleyball what about you? <user1> i like soccer,table tennis,tennis,and badmington i wanna workout and preactice then try out for the BYU football team after my mission <user2> oh that is a good goal! Where are you going on your mission? <user1> i dont know yet im not of age, ill go after one year in BYU <user2> oh ok how old are you 17? <user1> turning 17 june 20 you? <user2> oh wow so you have a while btw it isnt a good idea to use your actual birthday just year and i am 21 <user1> ohhhh..ok thanks for the info thats cool <user2> where would you go if money werent an object? <user1> hmmmm ive honestly never thought of that but i have always wanted to visit brazil <user2> that would be cool <user1> yeah and you? where would you like to visit? <user2> i think it would be cool to visit europe i think i would want to go to europe <user1> oh,,,why? <user2> i want to go check out the people and the culture i mean america kind of started of in europe you know what i mean? <user1> yeah,i understand, i think your reason is kinda cool, i eanna go to brazil cause of soccer,nigerians love soccer, and brazillians are really good i would like to play with some of them. <user2> yeah they are really good i think that is probably the most fanatic country when it comes to soccer",
+                "original user1 side information": {
+                    "sender": "2cbc08d8-41dc-4372-af7d-781fbde3f2b1",
+                    "timestamp": [
+                        "2018-05-09T23:59:36Z",
+                        "2018-05-09T23:59:48Z"
+                    ]
+                },
+                "original user2 side information": {
+                    "sender": "31267496-e50f-4f91-a197-c5b1bfde803b",
+                    "timestamp": [
+                        "2018-05-10T00:00:06Z"
+                    ]
+                }
+            },
+            {
+                "turn id": 19,
+                "user1 utterance": "lol",
+                "user2 response": "is soccer your favorite sport?",
+                "dialog history": "<user1> hi anyone here <user2> hey whats up yeah how are you <user1> im good im an international student from nigeria,and aspiring freshman <user2> thats awesome wow cool how did you feel when you got accepted? <user1> i was super excited,but  definitely not as much as my parents, they freaked out, its always been a dream to got to BYU and serve a mission im grateful to heavenly father <user2> yeah byu is one of the best schools out there <user1> i know rightttt, its sooo cool, i love it, cant wait to get in and meet new people <user2> yeah i have been here for a while and i love it <user1> what year are you in? <user2> this is my sophomore year <user1> oh..nicee, did you serve a mission ? <user2> yeah in nebraska <user1> thats cool,are you an american? <user2> yeah i am from america have you ever been? <user1> yeah, twice, my uncles live in texas <user2> wow that is cool do you have any other family in america? <user1> yeah so,what do you like doing for fun? <user2> i like to play volleyball what about you? <user1> i like soccer,table tennis,tennis,and badmington i wanna workout and preactice then try out for the BYU football team after my mission <user2> oh that is a good goal! Where are you going on your mission? <user1> i dont know yet im not of age, ill go after one year in BYU <user2> oh ok how old are you 17? <user1> turning 17 june 20 you? <user2> oh wow so you have a while btw it isnt a good idea to use your actual birthday just year and i am 21 <user1> ohhhh..ok thanks for the info thats cool <user2> where would you go if money werent an object? <user1> hmmmm ive honestly never thought of that but i have always wanted to visit brazil <user2> that would be cool <user1> yeah and you? where would you like to visit? <user2> i think it would be cool to visit europe i think i would want to go to europe <user1> oh,,,why? <user2> i want to go check out the people and the culture i mean america kind of started of in europe you know what i mean? <user1> yeah,i understand, i think your reason is kinda cool, i eanna go to brazil cause of soccer,nigerians love soccer, and brazillians are really good i would like to play with some of them. <user2> yeah they are really good i think that is probably the most fanatic country when it comes to soccer <user1> yes,i think it is south americans love soccer a lot <user2> yeah i can certainly believe that",
+                "original user1 side information": {
+                    "sender": "2cbc08d8-41dc-4372-af7d-781fbde3f2b1",
+                    "timestamp": [
+                        "2018-05-10T00:00:26Z"
+                    ]
+                },
+                "original user2 side information": {
+                    "sender": "31267496-e50f-4f91-a197-c5b1bfde803b",
+                    "timestamp": [
+                        "2018-05-10T00:01:51Z"
+                    ]
+                }
+            },
+            {
+                "turn id": 20,
+                "user1 utterance": "nooooo i really like table tennis",
+                "user2 response": "oh i really like it too are you good?",
+                "dialog history": "<user1> hi anyone here <user2> hey whats up yeah how are you <user1> im good im an international student from nigeria,and aspiring freshman <user2> thats awesome wow cool how did you feel when you got accepted? <user1> i was super excited,but  definitely not as much as my parents, they freaked out, its always been a dream to got to BYU and serve a mission im grateful to heavenly father <user2> yeah byu is one of the best schools out there <user1> i know rightttt, its sooo cool, i love it, cant wait to get in and meet new people <user2> yeah i have been here for a while and i love it <user1> what year are you in? <user2> this is my sophomore year <user1> oh..nicee, did you serve a mission ? <user2> yeah in nebraska <user1> thats cool,are you an american? <user2> yeah i am from america have you ever been? <user1> yeah, twice, my uncles live in texas <user2> wow that is cool do you have any other family in america? <user1> yeah so,what do you like doing for fun? <user2> i like to play volleyball what about you? <user1> i like soccer,table tennis,tennis,and badmington i wanna workout and preactice then try out for the BYU football team after my mission <user2> oh that is a good goal! Where are you going on your mission? <user1> i dont know yet im not of age, ill go after one year in BYU <user2> oh ok how old are you 17? <user1> turning 17 june 20 you? <user2> oh wow so you have a while btw it isnt a good idea to use your actual birthday just year and i am 21 <user1> ohhhh..ok thanks for the info thats cool <user2> where would you go if money werent an object? <user1> hmmmm ive honestly never thought of that but i have always wanted to visit brazil <user2> that would be cool <user1> yeah and you? where would you like to visit? <user2> i think it would be cool to visit europe i think i would want to go to europe <user1> oh,,,why? <user2> i want to go check out the people and the culture i mean america kind of started of in europe you know what i mean? <user1> yeah,i understand, i think your reason is kinda cool, i eanna go to brazil cause of soccer,nigerians love soccer, and brazillians are really good i would like to play with some of them. <user2> yeah they are really good i think that is probably the most fanatic country when it comes to soccer <user1> yes,i think it is south americans love soccer a lot <user2> yeah i can certainly believe that <user1> lol <user2> is soccer your favorite sport?",
+                "original user1 side information": {
+                    "sender": "2cbc08d8-41dc-4372-af7d-781fbde3f2b1",
+                    "timestamp": [
+                        "2018-05-10T00:04:59Z",
+                        "2018-05-10T00:05:06Z"
+                    ]
+                },
+                "original user2 side information": {
+                    "sender": "31267496-e50f-4f91-a197-c5b1bfde803b",
+                    "timestamp": [
+                        "2018-05-10T00:05:11Z",
+                        "2018-05-10T00:05:13Z"
+                    ]
+                }
+            },
+            {
+                "turn id": 21,
+                "user1 utterance": "what bout you yeah,i am good but not like asian good, those guys are amazing, im self taught though",
+                "user2 response": "yeah i am pretty good but not  a master",
+                "dialog history": "<user1> hi anyone here <user2> hey whats up yeah how are you <user1> im good im an international student from nigeria,and aspiring freshman <user2> thats awesome wow cool how did you feel when you got accepted? <user1> i was super excited,but  definitely not as much as my parents, they freaked out, its always been a dream to got to BYU and serve a mission im grateful to heavenly father <user2> yeah byu is one of the best schools out there <user1> i know rightttt, its sooo cool, i love it, cant wait to get in and meet new people <user2> yeah i have been here for a while and i love it <user1> what year are you in? <user2> this is my sophomore year <user1> oh..nicee, did you serve a mission ? <user2> yeah in nebraska <user1> thats cool,are you an american? <user2> yeah i am from america have you ever been? <user1> yeah, twice, my uncles live in texas <user2> wow that is cool do you have any other family in america? <user1> yeah so,what do you like doing for fun? <user2> i like to play volleyball what about you? <user1> i like soccer,table tennis,tennis,and badmington i wanna workout and preactice then try out for the BYU football team after my mission <user2> oh that is a good goal! Where are you going on your mission? <user1> i dont know yet im not of age, ill go after one year in BYU <user2> oh ok how old are you 17? <user1> turning 17 june 20 you? <user2> oh wow so you have a while btw it isnt a good idea to use your actual birthday just year and i am 21 <user1> ohhhh..ok thanks for the info thats cool <user2> where would you go if money werent an object? <user1> hmmmm ive honestly never thought of that but i have always wanted to visit brazil <user2> that would be cool <user1> yeah and you? where would you like to visit? <user2> i think it would be cool to visit europe i think i would want to go to europe <user1> oh,,,why? <user2> i want to go check out the people and the culture i mean america kind of started of in europe you know what i mean? <user1> yeah,i understand, i think your reason is kinda cool, i eanna go to brazil cause of soccer,nigerians love soccer, and brazillians are really good i would like to play with some of them. <user2> yeah they are really good i think that is probably the most fanatic country when it comes to soccer <user1> yes,i think it is south americans love soccer a lot <user2> yeah i can certainly believe that <user1> lol <user2> is soccer your favorite sport? <user1> nooooo i really like table tennis <user2> oh i really like it too are you good?",
+                "original user1 side information": {
+                    "sender": "2cbc08d8-41dc-4372-af7d-781fbde3f2b1",
+                    "timestamp": [
+                        "2018-05-10T00:05:16Z",
+                        "2018-05-10T00:05:21Z",
+                        "2018-05-10T00:05:45Z"
+                    ]
+                },
+                "original user2 side information": {
+                    "sender": "31267496-e50f-4f91-a197-c5b1bfde803b",
+                    "timestamp": [
+                        "2018-05-10T00:05:46Z"
+                    ]
+                }
+            },
+            {
+                "turn id": 22,
+                "user1 utterance": "same here' i would like to play you sometime",
+                "user2 response": "that would be awesome",
+                "dialog history": "<user1> hi anyone here <user2> hey whats up yeah how are you <user1> im good im an international student from nigeria,and aspiring freshman <user2> thats awesome wow cool how did you feel when you got accepted? <user1> i was super excited,but  definitely not as much as my parents, they freaked out, its always been a dream to got to BYU and serve a mission im grateful to heavenly father <user2> yeah byu is one of the best schools out there <user1> i know rightttt, its sooo cool, i love it, cant wait to get in and meet new people <user2> yeah i have been here for a while and i love it <user1> what year are you in? <user2> this is my sophomore year <user1> oh..nicee, did you serve a mission ? <user2> yeah in nebraska <user1> thats cool,are you an american? <user2> yeah i am from america have you ever been? <user1> yeah, twice, my uncles live in texas <user2> wow that is cool do you have any other family in america? <user1> yeah so,what do you like doing for fun? <user2> i like to play volleyball what about you? <user1> i like soccer,table tennis,tennis,and badmington i wanna workout and preactice then try out for the BYU football team after my mission <user2> oh that is a good goal! Where are you going on your mission? <user1> i dont know yet im not of age, ill go after one year in BYU <user2> oh ok how old are you 17? <user1> turning 17 june 20 you? <user2> oh wow so you have a while btw it isnt a good idea to use your actual birthday just year and i am 21 <user1> ohhhh..ok thanks for the info thats cool <user2> where would you go if money werent an object? <user1> hmmmm ive honestly never thought of that but i have always wanted to visit brazil <user2> that would be cool <user1> yeah and you? where would you like to visit? <user2> i think it would be cool to visit europe i think i would want to go to europe <user1> oh,,,why? <user2> i want to go check out the people and the culture i mean america kind of started of in europe you know what i mean? <user1> yeah,i understand, i think your reason is kinda cool, i eanna go to brazil cause of soccer,nigerians love soccer, and brazillians are really good i would like to play with some of them. <user2> yeah they are really good i think that is probably the most fanatic country when it comes to soccer <user1> yes,i think it is south americans love soccer a lot <user2> yeah i can certainly believe that <user1> lol <user2> is soccer your favorite sport? <user1> nooooo i really like table tennis <user2> oh i really like it too are you good? <user1> what bout you yeah,i am good but not like asian good, those guys are amazing, im self taught though <user2> yeah i am pretty good but not  a master",
+                "original user1 side information": {
+                    "sender": "2cbc08d8-41dc-4372-af7d-781fbde3f2b1",
+                    "timestamp": [
+                        "2018-05-10T00:05:53Z",
+                        "2018-05-10T00:06:05Z"
+                    ]
+                },
+                "original user2 side information": {
+                    "sender": "31267496-e50f-4f91-a197-c5b1bfde803b",
+                    "timestamp": [
+                        "2018-05-10T00:06:27Z"
+                    ]
+                }
+            },
+            {
+                "turn id": 23,
+                "user1 utterance": "too bad we cant exchange contact information",
+                "user2 response": "unfortunately i know",
+                "dialog history": "<user1> hi anyone here <user2> hey whats up yeah how are you <user1> im good im an international student from nigeria,and aspiring freshman <user2> thats awesome wow cool how did you feel when you got accepted? <user1> i was super excited,but  definitely not as much as my parents, they freaked out, its always been a dream to got to BYU and serve a mission im grateful to heavenly father <user2> yeah byu is one of the best schools out there <user1> i know rightttt, its sooo cool, i love it, cant wait to get in and meet new people <user2> yeah i have been here for a while and i love it <user1> what year are you in? <user2> this is my sophomore year <user1> oh..nicee, did you serve a mission ? <user2> yeah in nebraska <user1> thats cool,are you an american? <user2> yeah i am from america have you ever been? <user1> yeah, twice, my uncles live in texas <user2> wow that is cool do you have any other family in america? <user1> yeah so,what do you like doing for fun? <user2> i like to play volleyball what about you? <user1> i like soccer,table tennis,tennis,and badmington i wanna workout and preactice then try out for the BYU football team after my mission <user2> oh that is a good goal! Where are you going on your mission? <user1> i dont know yet im not of age, ill go after one year in BYU <user2> oh ok how old are you 17? <user1> turning 17 june 20 you? <user2> oh wow so you have a while btw it isnt a good idea to use your actual birthday just year and i am 21 <user1> ohhhh..ok thanks for the info thats cool <user2> where would you go if money werent an object? <user1> hmmmm ive honestly never thought of that but i have always wanted to visit brazil <user2> that would be cool <user1> yeah and you? where would you like to visit? <user2> i think it would be cool to visit europe i think i would want to go to europe <user1> oh,,,why? <user2> i want to go check out the people and the culture i mean america kind of started of in europe you know what i mean? <user1> yeah,i understand, i think your reason is kinda cool, i eanna go to brazil cause of soccer,nigerians love soccer, and brazillians are really good i would like to play with some of them. <user2> yeah they are really good i think that is probably the most fanatic country when it comes to soccer <user1> yes,i think it is south americans love soccer a lot <user2> yeah i can certainly believe that <user1> lol <user2> is soccer your favorite sport? <user1> nooooo i really like table tennis <user2> oh i really like it too are you good? <user1> what bout you yeah,i am good but not like asian good, those guys are amazing, im self taught though <user2> yeah i am pretty good but not  a master <user1> same here' i would like to play you sometime <user2> that would be awesome",
+                "original user1 side information": {
+                    "sender": "2cbc08d8-41dc-4372-af7d-781fbde3f2b1",
+                    "timestamp": [
+                        "2018-05-10T00:06:27Z"
+                    ]
+                },
+                "original user2 side information": {
+                    "sender": "31267496-e50f-4f91-a197-c5b1bfde803b",
+                    "timestamp": [
+                        "2018-05-10T00:06:31Z",
+                        "2018-05-10T00:06:32Z"
+                    ]
+                }
+            },
+            {
+                "turn id": 24,
+                "user1 utterance": ":( :( :(",
+                "user2 response": "what else do you like to do?",
+                "dialog history": "<user1> hi anyone here <user2> hey whats up yeah how are you <user1> im good im an international student from nigeria,and aspiring freshman <user2> thats awesome wow cool how did you feel when you got accepted? <user1> i was super excited,but  definitely not as much as my parents, they freaked out, its always been a dream to got to BYU and serve a mission im grateful to heavenly father <user2> yeah byu is one of the best schools out there <user1> i know rightttt, its sooo cool, i love it, cant wait to get in and meet new people <user2> yeah i have been here for a while and i love it <user1> what year are you in? <user2> this is my sophomore year <user1> oh..nicee, did you serve a mission ? <user2> yeah in nebraska <user1> thats cool,are you an american? <user2> yeah i am from america have you ever been? <user1> yeah, twice, my uncles live in texas <user2> wow that is cool do you have any other family in america? <user1> yeah so,what do you like doing for fun? <user2> i like to play volleyball what about you? <user1> i like soccer,table tennis,tennis,and badmington i wanna workout and preactice then try out for the BYU football team after my mission <user2> oh that is a good goal! Where are you going on your mission? <user1> i dont know yet im not of age, ill go after one year in BYU <user2> oh ok how old are you 17? <user1> turning 17 june 20 you? <user2> oh wow so you have a while btw it isnt a good idea to use your actual birthday just year and i am 21 <user1> ohhhh..ok thanks for the info thats cool <user2> where would you go if money werent an object? <user1> hmmmm ive honestly never thought of that but i have always wanted to visit brazil <user2> that would be cool <user1> yeah and you? where would you like to visit? <user2> i think it would be cool to visit europe i think i would want to go to europe <user1> oh,,,why? <user2> i want to go check out the people and the culture i mean america kind of started of in europe you know what i mean? <user1> yeah,i understand, i think your reason is kinda cool, i eanna go to brazil cause of soccer,nigerians love soccer, and brazillians are really good i would like to play with some of them. <user2> yeah they are really good i think that is probably the most fanatic country when it comes to soccer <user1> yes,i think it is south americans love soccer a lot <user2> yeah i can certainly believe that <user1> lol <user2> is soccer your favorite sport? <user1> nooooo i really like table tennis <user2> oh i really like it too are you good? <user1> what bout you yeah,i am good but not like asian good, those guys are amazing, im self taught though <user2> yeah i am pretty good but not  a master <user1> same here' i would like to play you sometime <user2> that would be awesome <user1> too bad we cant exchange contact information <user2> unfortunately i know",
+                "original user1 side information": {
+                    "sender": "2cbc08d8-41dc-4372-af7d-781fbde3f2b1",
+                    "timestamp": [
+                        "2018-05-10T00:06:44Z"
+                    ]
+                },
+                "original user2 side information": {
+                    "sender": "31267496-e50f-4f91-a197-c5b1bfde803b",
+                    "timestamp": [
+                        "2018-05-10T00:10:05Z"
+                    ]
+                }
+            },
+            {
+                "turn id": 25,
+                "user1 utterance": "video games, read,workout",
+                "user2 response": "what is your favorite video game?\\",
+                "dialog history": "<user1> hi anyone here <user2> hey whats up yeah how are you <user1> im good im an international student from nigeria,and aspiring freshman <user2> thats awesome wow cool how did you feel when you got accepted? <user1> i was super excited,but  definitely not as much as my parents, they freaked out, its always been a dream to got to BYU and serve a mission im grateful to heavenly father <user2> yeah byu is one of the best schools out there <user1> i know rightttt, its sooo cool, i love it, cant wait to get in and meet new people <user2> yeah i have been here for a while and i love it <user1> what year are you in? <user2> this is my sophomore year <user1> oh..nicee, did you serve a mission ? <user2> yeah in nebraska <user1> thats cool,are you an american? <user2> yeah i am from america have you ever been? <user1> yeah, twice, my uncles live in texas <user2> wow that is cool do you have any other family in america? <user1> yeah so,what do you like doing for fun? <user2> i like to play volleyball what about you? <user1> i like soccer,table tennis,tennis,and badmington i wanna workout and preactice then try out for the BYU football team after my mission <user2> oh that is a good goal! Where are you going on your mission? <user1> i dont know yet im not of age, ill go after one year in BYU <user2> oh ok how old are you 17? <user1> turning 17 june 20 you? <user2> oh wow so you have a while btw it isnt a good idea to use your actual birthday just year and i am 21 <user1> ohhhh..ok thanks for the info thats cool <user2> where would you go if money werent an object? <user1> hmmmm ive honestly never thought of that but i have always wanted to visit brazil <user2> that would be cool <user1> yeah and you? where would you like to visit? <user2> i think it would be cool to visit europe i think i would want to go to europe <user1> oh,,,why? <user2> i want to go check out the people and the culture i mean america kind of started of in europe you know what i mean? <user1> yeah,i understand, i think your reason is kinda cool, i eanna go to brazil cause of soccer,nigerians love soccer, and brazillians are really good i would like to play with some of them. <user2> yeah they are really good i think that is probably the most fanatic country when it comes to soccer <user1> yes,i think it is south americans love soccer a lot <user2> yeah i can certainly believe that <user1> lol <user2> is soccer your favorite sport? <user1> nooooo i really like table tennis <user2> oh i really like it too are you good? <user1> what bout you yeah,i am good but not like asian good, those guys are amazing, im self taught though <user2> yeah i am pretty good but not  a master <user1> same here' i would like to play you sometime <user2> that would be awesome <user1> too bad we cant exchange contact information <user2> unfortunately i know <user1> :( :( :( <user2> what else do you like to do?",
+                "original user1 side information": {
+                    "sender": "2cbc08d8-41dc-4372-af7d-781fbde3f2b1",
+                    "timestamp": [
+                        "2018-05-10T00:11:07Z"
+                    ]
+                },
+                "original user2 side information": {
+                    "sender": "31267496-e50f-4f91-a197-c5b1bfde803b",
+                    "timestamp": [
+                        "2018-05-10T00:11:32Z"
+                    ]
+                }
+            },
+            {
+                "turn id": 26,
+                "user1 utterance": "you? i like uncharted,and soccer",
+                "user2 response": "i have never played either but i used to be really big into eve online",
+                "dialog history": "<user1> hi anyone here <user2> hey whats up yeah how are you <user1> im good im an international student from nigeria,and aspiring freshman <user2> thats awesome wow cool how did you feel when you got accepted? <user1> i was super excited,but  definitely not as much as my parents, they freaked out, its always been a dream to got to BYU and serve a mission im grateful to heavenly father <user2> yeah byu is one of the best schools out there <user1> i know rightttt, its sooo cool, i love it, cant wait to get in and meet new people <user2> yeah i have been here for a while and i love it <user1> what year are you in? <user2> this is my sophomore year <user1> oh..nicee, did you serve a mission ? <user2> yeah in nebraska <user1> thats cool,are you an american? <user2> yeah i am from america have you ever been? <user1> yeah, twice, my uncles live in texas <user2> wow that is cool do you have any other family in america? <user1> yeah so,what do you like doing for fun? <user2> i like to play volleyball what about you? <user1> i like soccer,table tennis,tennis,and badmington i wanna workout and preactice then try out for the BYU football team after my mission <user2> oh that is a good goal! Where are you going on your mission? <user1> i dont know yet im not of age, ill go after one year in BYU <user2> oh ok how old are you 17? <user1> turning 17 june 20 you? <user2> oh wow so you have a while btw it isnt a good idea to use your actual birthday just year and i am 21 <user1> ohhhh..ok thanks for the info thats cool <user2> where would you go if money werent an object? <user1> hmmmm ive honestly never thought of that but i have always wanted to visit brazil <user2> that would be cool <user1> yeah and you? where would you like to visit? <user2> i think it would be cool to visit europe i think i would want to go to europe <user1> oh,,,why? <user2> i want to go check out the people and the culture i mean america kind of started of in europe you know what i mean? <user1> yeah,i understand, i think your reason is kinda cool, i eanna go to brazil cause of soccer,nigerians love soccer, and brazillians are really good i would like to play with some of them. <user2> yeah they are really good i think that is probably the most fanatic country when it comes to soccer <user1> yes,i think it is south americans love soccer a lot <user2> yeah i can certainly believe that <user1> lol <user2> is soccer your favorite sport? <user1> nooooo i really like table tennis <user2> oh i really like it too are you good? <user1> what bout you yeah,i am good but not like asian good, those guys are amazing, im self taught though <user2> yeah i am pretty good but not  a master <user1> same here' i would like to play you sometime <user2> that would be awesome <user1> too bad we cant exchange contact information <user2> unfortunately i know <user1> :( :( :( <user2> what else do you like to do? <user1> video games, read,workout <user2> what is your favorite video game?\\",
+                "original user1 side information": {
+                    "sender": "2cbc08d8-41dc-4372-af7d-781fbde3f2b1",
+                    "timestamp": [
+                        "2018-05-10T00:12:46Z",
+                        "2018-05-10T00:12:46Z"
+                    ]
+                },
+                "original user2 side information": {
+                    "sender": "31267496-e50f-4f91-a197-c5b1bfde803b",
+                    "timestamp": [
+                        "2018-05-10T00:12:53Z",
+                        "2018-05-10T00:12:59Z"
+                    ]
+                }
+            },
+            {
+                "turn id": 27,
+                "user1 utterance": "uncharted is amazing i have never played that do you play fortnite",
+                "user2 response": "i dont play fort nite a lot but my brother does and he is really good",
+                "dialog history": "<user1> hi anyone here <user2> hey whats up yeah how are you <user1> im good im an international student from nigeria,and aspiring freshman <user2> thats awesome wow cool how did you feel when you got accepted? <user1> i was super excited,but  definitely not as much as my parents, they freaked out, its always been a dream to got to BYU and serve a mission im grateful to heavenly father <user2> yeah byu is one of the best schools out there <user1> i know rightttt, its sooo cool, i love it, cant wait to get in and meet new people <user2> yeah i have been here for a while and i love it <user1> what year are you in? <user2> this is my sophomore year <user1> oh..nicee, did you serve a mission ? <user2> yeah in nebraska <user1> thats cool,are you an american? <user2> yeah i am from america have you ever been? <user1> yeah, twice, my uncles live in texas <user2> wow that is cool do you have any other family in america? <user1> yeah so,what do you like doing for fun? <user2> i like to play volleyball what about you? <user1> i like soccer,table tennis,tennis,and badmington i wanna workout and preactice then try out for the BYU football team after my mission <user2> oh that is a good goal! Where are you going on your mission? <user1> i dont know yet im not of age, ill go after one year in BYU <user2> oh ok how old are you 17? <user1> turning 17 june 20 you? <user2> oh wow so you have a while btw it isnt a good idea to use your actual birthday just year and i am 21 <user1> ohhhh..ok thanks for the info thats cool <user2> where would you go if money werent an object? <user1> hmmmm ive honestly never thought of that but i have always wanted to visit brazil <user2> that would be cool <user1> yeah and you? where would you like to visit? <user2> i think it would be cool to visit europe i think i would want to go to europe <user1> oh,,,why? <user2> i want to go check out the people and the culture i mean america kind of started of in europe you know what i mean? <user1> yeah,i understand, i think your reason is kinda cool, i eanna go to brazil cause of soccer,nigerians love soccer, and brazillians are really good i would like to play with some of them. <user2> yeah they are really good i think that is probably the most fanatic country when it comes to soccer <user1> yes,i think it is south americans love soccer a lot <user2> yeah i can certainly believe that <user1> lol <user2> is soccer your favorite sport? <user1> nooooo i really like table tennis <user2> oh i really like it too are you good? <user1> what bout you yeah,i am good but not like asian good, those guys are amazing, im self taught though <user2> yeah i am pretty good but not  a master <user1> same here' i would like to play you sometime <user2> that would be awesome <user1> too bad we cant exchange contact information <user2> unfortunately i know <user1> :( :( :( <user2> what else do you like to do? <user1> video games, read,workout <user2> what is your favorite video game?\\ <user1> you? i like uncharted,and soccer <user2> i have never played either but i used to be really big into eve online",
+                "original user1 side information": {
+                    "sender": "2cbc08d8-41dc-4372-af7d-781fbde3f2b1",
+                    "timestamp": [
+                        "2018-05-10T00:13:04Z",
+                        "2018-05-10T00:13:32Z"
+                    ]
+                },
+                "original user2 side information": {
+                    "sender": "31267496-e50f-4f91-a197-c5b1bfde803b",
+                    "timestamp": [
+                        "2018-05-10T00:14:01Z"
+                    ]
+                }
+            },
+            {
+                "turn id": 28,
+                "user1 utterance": "well,its like 1 am here,i should get to bed, it was nice talking to you, have a great day.",
+                "user2 response": "ok it was nice talking have a good day!",
+                "dialog history": "<user1> hi anyone here <user2> hey whats up yeah how are you <user1> im good im an international student from nigeria,and aspiring freshman <user2> thats awesome wow cool how did you feel when you got accepted? <user1> i was super excited,but  definitely not as much as my parents, they freaked out, its always been a dream to got to BYU and serve a mission im grateful to heavenly father <user2> yeah byu is one of the best schools out there <user1> i know rightttt, its sooo cool, i love it, cant wait to get in and meet new people <user2> yeah i have been here for a while and i love it <user1> what year are you in? <user2> this is my sophomore year <user1> oh..nicee, did you serve a mission ? <user2> yeah in nebraska <user1> thats cool,are you an american? <user2> yeah i am from america have you ever been? <user1> yeah, twice, my uncles live in texas <user2> wow that is cool do you have any other family in america? <user1> yeah so,what do you like doing for fun? <user2> i like to play volleyball what about you? <user1> i like soccer,table tennis,tennis,and badmington i wanna workout and preactice then try out for the BYU football team after my mission <user2> oh that is a good goal! Where are you going on your mission? <user1> i dont know yet im not of age, ill go after one year in BYU <user2> oh ok how old are you 17? <user1> turning 17 june 20 you? <user2> oh wow so you have a while btw it isnt a good idea to use your actual birthday just year and i am 21 <user1> ohhhh..ok thanks for the info thats cool <user2> where would you go if money werent an object? <user1> hmmmm ive honestly never thought of that but i have always wanted to visit brazil <user2> that would be cool <user1> yeah and you? where would you like to visit? <user2> i think it would be cool to visit europe i think i would want to go to europe <user1> oh,,,why? <user2> i want to go check out the people and the culture i mean america kind of started of in europe you know what i mean? <user1> yeah,i understand, i think your reason is kinda cool, i eanna go to brazil cause of soccer,nigerians love soccer, and brazillians are really good i would like to play with some of them. <user2> yeah they are really good i think that is probably the most fanatic country when it comes to soccer <user1> yes,i think it is south americans love soccer a lot <user2> yeah i can certainly believe that <user1> lol <user2> is soccer your favorite sport? <user1> nooooo i really like table tennis <user2> oh i really like it too are you good? <user1> what bout you yeah,i am good but not like asian good, those guys are amazing, im self taught though <user2> yeah i am pretty good but not  a master <user1> same here' i would like to play you sometime <user2> that would be awesome <user1> too bad we cant exchange contact information <user2> unfortunately i know <user1> :( :( :( <user2> what else do you like to do? <user1> video games, read,workout <user2> what is your favorite video game?\\ <user1> you? i like uncharted,and soccer <user2> i have never played either but i used to be really big into eve online <user1> uncharted is amazing i have never played that do you play fortnite <user2> i dont play fort nite a lot but my brother does and he is really good",
+                "original user1 side information": {
+                    "sender": "2cbc08d8-41dc-4372-af7d-781fbde3f2b1",
+                    "timestamp": [
+                        "2018-05-10T00:14:11Z"
+                    ]
+                },
+                "original user2 side information": {
+                    "sender": "31267496-e50f-4f91-a197-c5b1bfde803b",
+                    "timestamp": [
+                        "2018-05-10T00:14:21Z"
+                    ]
+                }
+            }
+        ],
+        "prompt": []
+    },
+    "chitchat-dataset--train--3": {
+        "original dialog id": "cdf96a2c-1ba5-4375-a65e-917b151ce04e",
+        "dialog index": 3,
+        "original dialog info": {
+            "ratings": {
+                "witty": 1,
+                "upbeat": 1,
+                "interesting": 1
+            },
+            "start": "2018-05-11T02:16:37Z",
+            "prompt": "Do you think computers will ever be given the right to vote?"
+        },
+        "log": [
+            {
+                "turn id": 1,
+                "user1 utterance": "good afternoon!",
+                "user2 response": "Heyoo",
+                "dialog history": "",
+                "original user1 side information": {
+                    "sender": "549cc1d1-270e-4a53-b561-133a8d0086b4",
+                    "timestamp": [
+                        "2018-05-10T20:16:57Z"
+                    ]
+                },
+                "original user2 side information": {
+                    "sender": "6dd41fff-8b63-44be-bae7-524ce4ca5796",
+                    "timestamp": [
+                        "2018-05-10T20:17:03Z"
+                    ]
+                }
+            },
+            {
+                "turn id": 2,
+                "user1 utterance": "hey I can't see my chat bubble.....",
+                "user2 response": "Finally someone is on",
+                "dialog history": "<user1> good afternoon! <user2> Heyoo",
+                "original user1 side information": {
+                    "sender": "549cc1d1-270e-4a53-b561-133a8d0086b4",
+                    "timestamp": [
+                        "2018-05-10T20:17:14Z"
+                    ]
+                },
+                "original user2 side information": {
+                    "sender": "6dd41fff-8b63-44be-bae7-524ce4ca5796",
+                    "timestamp": [
+                        "2018-05-10T20:17:21Z"
+                    ]
+                }
+            }
+        ],
+        "prompt": []
+    },
+    "chitchat-dataset--train--4": {
+        "original dialog id": "ebe2fe21-3835-48c5-b744-12d00ca67843",
+        "dialog index": 4,
+        "original dialog info": {
+            "ratings": {
+                "witty": 5,
+                "upbeat": 5,
+                "interesting": 5
+            },
+            "start": "2018-05-07T06:34:19Z",
+            "prompt": "Who is your modern-day hero?"
+        },
+        "log": [
+            {
+                "turn id": 1,
+                "user1 utterance": "president nelson!! he's such an incredible example and i love how young he still acts!",
+                "user2 response": "He totally is a hero!  He is amazing!",
+                "dialog history": "",
+                "original user1 side information": {
+                    "sender": "272980b1-a2aa-4f8f-a527-bcb8da4fbc45",
+                    "timestamp": [
+                        "2018-05-07T00:34:43Z"
+                    ]
+                },
+                "original user2 side information": {
+                    "sender": "60576dcf-5b39-4420-a850-33ff7d108047",
+                    "timestamp": [
+                        "2018-05-07T00:35:01Z"
+                    ]
+                }
+            },
+            {
+                "turn id": 2,
+                "user1 utterance": "I'm pretty sure we've talked like 3 times now haha",
+                "user2 response": "Hello?",
+                "dialog history": "<user1> president nelson!! he's such an incredible example and i love how young he still acts! <user2> He totally is a hero!  He is amazing!",
+                "original user1 side information": {
+                    "sender": "272980b1-a2aa-4f8f-a527-bcb8da4fbc45",
+                    "timestamp": [
+                        "2018-05-07T00:35:26Z"
+                    ]
+                },
+                "original user2 side information": {
+                    "sender": "60576dcf-5b39-4420-a850-33ff7d108047",
+                    "timestamp": [
+                        "2018-05-07T00:36:17Z"
+                    ]
+                }
+            }
+        ],
+        "prompt": []
+    },
+    "chitchat-dataset--train--5": {
+        "original dialog id": "14852eed-2d7d-42a0-95e2-61bca8c2ed1e",
+        "dialog index": 5,
+        "original dialog info": {
+            "ratings": {
+                "interesting": 5,
+                "witty": 5,
+                "upbeat": 5
+            },
+            "prompt": "What if computers started asking not to be turned off?",
+            "start": "2018-10-27T07:35:45Z"
+        },
+        "log": [
+            {
+                "turn id": 1,
+                "user1 utterance": "Don't they need sleep too?",
+                "user2 response": "I guess. *shrug*",
+                "dialog history": "",
+                "original user1 side information": {
+                    "sender": "caca1cd6-0c22-49c3-b3d7-082637715b44",
+                    "timestamp": [
+                        "2018-10-27T01:36:23Z"
+                    ]
+                },
+                "original user2 side information": {
+                    "sender": "02d74a15-9452-4136-95ad-a328f6ac7304",
+                    "timestamp": [
+                        "2018-10-27T02:07:45Z"
+                    ]
+                }
+            }
+        ],
+        "prompt": []
+    }
+}

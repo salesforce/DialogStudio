@@ -1,0 +1,737 @@
+[
+    {
+        "id": 18162,
+        "question": "Who won the 1982 Illinois gubernatorial election, and how many votes was the margin?",
+        "table_id": "totto_source/train_json/example-10461.json",
+        "table": {
+            "header": [
+                "Party",
+                "Party",
+                "Candidate",
+                "Votes",
+                "%",
+                "\u00b1"
+            ],
+            "rows": [
+                [
+                    "-",
+                    "Republican",
+                    "James R. Thompson (incumbent)",
+                    "1,816,101",
+                    "49.44",
+                    "-"
+                ],
+                [
+                    "-",
+                    "Democratic",
+                    "Adlai Stevenson III",
+                    "1,811,027",
+                    "49.30",
+                    "-"
+                ],
+                [
+                    "-",
+                    "Libertarian",
+                    "Bea Armstrong",
+                    "24,417",
+                    "0.66",
+                    "-"
+                ],
+                [
+                    "-",
+                    "Taxpayers",
+                    "John E. Roche",
+                    "22,001",
+                    "0.60",
+                    "-"
+                ],
+                [
+                    "-",
+                    "N/A",
+                    "write-ins",
+                    "161",
+                    "0.00",
+                    "n-a"
+                ],
+                [
+                    "Majority",
+                    "Majority",
+                    "Majority",
+                    "5,074",
+                    "0.14",
+                    "-"
+                ],
+                [
+                    "Turnout",
+                    "Turnout",
+                    "Turnout",
+                    "3,673,707",
+                    "-",
+                    "-"
+                ],
+                [
+                    "-",
+                    "Republican hold",
+                    "Republican hold",
+                    "Swing",
+                    "-",
+                    "-"
+                ]
+            ]
+        },
+        "meta": "1982 Illinois gubernatorial election | Results",
+        "answer_text": "Thompson prevailed in the 1982 Illinois gubernatorial election by a 5,074 vote margin.",
+        "struct_in": "1982 illinois gubernatorial election | results col : party | party | candidate | votes | % | \u00b1 row 1 : - | republican | james r. thompson (incumbent) | 1,816,101 | 49.44 | - row 2 : - | democratic | adlai stevenson iii | 1,811,027 | 49.30 | - row 3 : - | libertarian | bea armstrong | 24,417 | 0.66 | - row 4 : - | taxpayers | john e. roche | 22,001 | 0.60 | - row 5 : - | n/a | write-ins | 161 | 0.00 | n-a row 6 : majority | majority | majority | 5,074 | 0.14 | - row 7 : turnout | turnout | turnout | 3,673,707 | - | - row 8 : - | republican hold | republican hold | swing | - | -",
+        "text_in": "who won the 1982 illinois gubernatorial election, and how many votes was the margin?",
+        "seq_out": "thompson prevailed in the 1982 illinois gubernatorial election by a 5,074 vote margin."
+    },
+    {
+        "id": 11292,
+        "question": "How did Michael and Mario Andretti do?",
+        "table_id": "totto_source/train_json/example-3591.json",
+        "table": {
+            "header": [
+                "Finish",
+                "Start",
+                "No",
+                "Name",
+                "Qual",
+                "Laps",
+                "Status"
+            ],
+            "rows": [
+                [
+                    "1",
+                    "4",
+                    "3",
+                    "United States Bobby Rahal",
+                    "213.550",
+                    "200",
+                    "170.722 mph"
+                ],
+                [
+                    "2",
+                    "6",
+                    "7",
+                    "United States Kevin Cogan",
+                    "211.922",
+                    "200",
+                    "+1.441 seconds"
+                ],
+                [
+                    "3",
+                    "1",
+                    "4",
+                    "United States Rick Mears (W)",
+                    "216.828",
+                    "200",
+                    "+1.881 seconds"
+                ],
+                [
+                    "4",
+                    "8",
+                    "5",
+                    "Colombia Roberto Guerrero",
+                    "211.576",
+                    "200",
+                    "+10.558 seconds"
+                ],
+                [
+                    "5",
+                    "9",
+                    "30",
+                    "United States Al Unser, Jr.",
+                    "211.533",
+                    "199",
+                    "Flagged"
+                ],
+                [
+                    "6",
+                    "3",
+                    "18",
+                    "United States Michael Andretti",
+                    "214.522",
+                    "199",
+                    "Flagged"
+                ],
+                [
+                    "7",
+                    "11",
+                    "20",
+                    "Brazil Emerson Fittipaldi",
+                    "210.237",
+                    "199",
+                    "Flagged"
+                ],
+                [
+                    "8",
+                    "12",
+                    "21",
+                    "United States Johnny Rutherford (W)",
+                    "210.220",
+                    "198",
+                    "Flagged"
+                ],
+                [
+                    "9",
+                    "2",
+                    "1",
+                    "United States Danny Sullivan (W)",
+                    "215.382",
+                    "197",
+                    "Flagged"
+                ],
+                [
+                    "10",
+                    "13",
+                    "12",
+                    "United States Randy Lanier (R)",
+                    "209.964",
+                    "195",
+                    "Flagged"
+                ],
+                [
+                    "11",
+                    "29",
+                    "24",
+                    "United States Gary Bettenhausen",
+                    "209.756",
+                    "193",
+                    "Flagged"
+                ],
+                [
+                    "12",
+                    "20",
+                    "8",
+                    "Australia Geoff Brabham",
+                    "207.082",
+                    "193",
+                    "Flagged"
+                ],
+                [
+                    "13",
+                    "22",
+                    "22",
+                    "Brazil Raul Boesel",
+                    "211.202",
+                    "192",
+                    "Flagged"
+                ],
+                [
+                    "14",
+                    "33",
+                    "23",
+                    "United States Dick Simon",
+                    "204.978",
+                    "189",
+                    "Flagged"
+                ],
+                [
+                    "15",
+                    "19",
+                    "61",
+                    "Netherlands Arie Luyendyk",
+                    "207.811",
+                    "188",
+                    "Crash T4"
+                ],
+                [
+                    "16",
+                    "14",
+                    "15",
+                    "United States Pancho Carter",
+                    "209.635",
+                    "179",
+                    "Wheel Bearing"
+                ],
+                [
+                    "17",
+                    "10",
+                    "66",
+                    "United States Ed Pimm",
+                    "210.874",
+                    "168",
+                    "Electrical"
+                ],
+                [
+                    "18",
+                    "17",
+                    "55",
+                    "Mexico Josele Garza",
+                    "208.939",
+                    "167",
+                    "Flagged"
+                ],
+                [
+                    "19",
+                    "32",
+                    "9",
+                    "Brazil Roberto Moreno (R)",
+                    "209.469",
+                    "158",
+                    "Stalled"
+                ],
+                [
+                    "20",
+                    "15",
+                    "81",
+                    "Canada Jacques Villeneuve (R)",
+                    "209.397",
+                    "154",
+                    "Main Bearing"
+                ],
+                [
+                    "21",
+                    "25",
+                    "59",
+                    "United States Chip Ganassi",
+                    "207.590",
+                    "151",
+                    "Engine"
+                ],
+                [
+                    "22",
+                    "5",
+                    "11",
+                    "United States Al Unser (W)",
+                    "212.295",
+                    "149",
+                    "Vibration"
+                ],
+                [
+                    "23",
+                    "16",
+                    "25",
+                    "United States Danny Ongais",
+                    "209.158",
+                    "136",
+                    "Ignition"
+                ],
+                [
+                    "24",
+                    "21",
+                    "14",
+                    "United States A. J. Foyt (W)",
+                    "213.212",
+                    "135",
+                    "Spun in pits"
+                ],
+                [
+                    "25",
+                    "27",
+                    "6",
+                    "United States Rich Vogler",
+                    "209.089",
+                    "132",
+                    "Crash T3"
+                ],
+                [
+                    "26",
+                    "31",
+                    "84",
+                    "United States George Snider",
+                    "209.025",
+                    "110",
+                    "Ignition"
+                ],
+                [
+                    "27",
+                    "28",
+                    "95",
+                    "United States Johnny Parsons",
+                    "207.894",
+                    "100",
+                    "CV Joint"
+                ],
+                [
+                    "28",
+                    "18",
+                    "16",
+                    "United States Tony Bettenhausen, Jr.",
+                    "208.933",
+                    "77",
+                    "Valve Spring"
+                ],
+                [
+                    "29",
+                    "26",
+                    "31",
+                    "United Kingdom Jim Crawford",
+                    "208.911",
+                    "70",
+                    "Head Gasket"
+                ],
+                [
+                    "30",
+                    "23",
+                    "71",
+                    "United States Scott Brayton",
+                    "208.079",
+                    "69",
+                    "Engine"
+                ],
+                [
+                    "31",
+                    "24",
+                    "42",
+                    "United States Phil Krueger (R)",
+                    "207.948",
+                    "67",
+                    "Engine"
+                ],
+                [
+                    "32",
+                    "30",
+                    "2",
+                    "United States Mario Andretti (W)",
+                    "212.300",
+                    "19",
+                    "Ignition"
+                ],
+                [
+                    "33",
+                    "7",
+                    "33",
+                    "United States Tom Sneva (W)",
+                    "211.878",
+                    "0",
+                    "Crash T2"
+                ]
+            ]
+        },
+        "meta": "1986 Indianapolis 500 | Race box score",
+        "answer_text": "Michael Andretti finished with a run of 214.522 mph, faster than Mario.",
+        "struct_in": "1986 indianapolis 500 | race box score col : finish | start | no | name | qual | laps | status row 1 : 1 | 4 | 3 | united states bobby rahal | 213.550 | 200 | 170.722 mph row 2 : 2 | 6 | 7 | united states kevin cogan | 211.922 | 200 | +1.441 seconds row 3 : 3 | 1 | 4 | united states rick mears (w) | 216.828 | 200 | +1.881 seconds row 4 : 4 | 8 | 5 | colombia roberto guerrero | 211.576 | 200 | +10.558 seconds row 5 : 5 | 9 | 30 | united states al unser, jr. | 211.533 | 199 | flagged row 6 : 6 | 3 | 18 | united states michael andretti | 214.522 | 199 | flagged row 7 : 7 | 11 | 20 | brazil emerson fittipaldi | 210.237 | 199 | flagged row 8 : 8 | 12 | 21 | united states johnny rutherford (w) | 210.220 | 198 | flagged row 9 : 9 | 2 | 1 | united states danny sullivan (w) | 215.382 | 197 | flagged row 10 : 10 | 13 | 12 | united states randy lanier (r) | 209.964 | 195 | flagged row 11 : 11 | 29 | 24 | united states gary bettenhausen | 209.756 | 193 | flagged row 12 : 12 | 20 | 8 | australia geoff brabham | 207.082 | 193 | flagged row 13 : 13 | 22 | 22 | brazil raul boesel | 211.202 | 192 | flagged row 14 : 14 | 33 | 23 | united states dick simon | 204.978 | 189 | flagged row 15 : 15 | 19 | 61 | netherlands arie luyendyk | 207.811 | 188 | crash t4 row 16 : 16 | 14 | 15 | united states pancho carter | 209.635 | 179 | wheel bearing row 17 : 17 | 10 | 66 | united states ed pimm | 210.874 | 168 | electrical row 18 : 18 | 17 | 55 | mexico josele garza | 208.939 | 167 | flagged row 19 : 19 | 32 | 9 | brazil roberto moreno (r) | 209.469 | 158 | stalled row 20 : 20 | 15 | 81 | canada jacques villeneuve (r) | 209.397 | 154 | main bearing row 21 : 21 | 25 | 59 | united states chip ganassi | 207.590 | 151 | engine row 22 : 22 | 5 | 11 | united states al unser (w) | 212.295 | 149 | vibration row 23 : 23 | 16 | 25 | united states danny ongais | 209.158 | 136 | ignition row 24 : 24 | 21 | 14 | united states a. j. foyt (w) | 213.212 | 135 | spun in pits row 25 : 25 | 27 | 6 | united states rich vogler | 209.089 | 132 | crash t3 row 26 : 26 | 31 | 84 | united states george snider | 209.025 | 110 | ignition row 27 : 27 | 28 | 95 | united states johnny parsons | 207.894 | 100 | cv joint row 28 : 28 | 18 | 16 | united states tony bettenhausen, jr. | 208.933 | 77 | valve spring row 29 : 29 | 26 | 31 | united kingdom jim crawford | 208.911 | 70 | head gasket row 30 : 30 | 23 | 71 | united states scott brayton | 208.079 | 69 | engine row 31 : 31 | 24 | 42 | united states phil krueger (r) | 207.948 | 67 | engine row 32 : 32 | 30 | 2 | united states mario andretti (w) | 212.300 | 19 | ignition row 33 : 33 | 7 | 33 | united states tom sneva (w) | 211.878 | 0 | crash t2",
+        "text_in": "how did michael and mario andretti do?",
+        "seq_out": "michael andretti finished with a run of 214.522 mph, faster than mario."
+    },
+    {
+        "id": 11734,
+        "question": "How many copies did \"Pleasure\" sell in 1998 alone, and how long was it the best selling album in Japan?",
+        "table_id": "totto_source/train_json/example-4033.json",
+        "table": {
+            "header": [
+                "No.",
+                "Album",
+                "Artist",
+                "Released",
+                "Chart",
+                "Sales"
+            ],
+            "rows": [
+                [
+                    "1",
+                    "First Love",
+                    "Hikaru Utada",
+                    "10 March 1999",
+                    "1",
+                    "7,672,000"
+                ],
+                [
+                    "2",
+                    "B'z The Best \"Pleasure\"",
+                    "B'z",
+                    "20 May 1998",
+                    "1",
+                    "5,136,000"
+                ],
+                [
+                    "3",
+                    "Review",
+                    "Glay",
+                    "1 October 1997",
+                    "1",
+                    "4,876,000"
+                ],
+                [
+                    "4",
+                    "Distance",
+                    "Hikaru Utada",
+                    "28 March 2001",
+                    "1",
+                    "4,472,000"
+                ],
+                [
+                    "5",
+                    "B'z The Best \"Treasure\"",
+                    "B'z",
+                    "20 September 1998",
+                    "1",
+                    "4,439,000"
+                ],
+                [
+                    "6",
+                    "A Best",
+                    "Ayumi Hamasaki",
+                    "28 March 2001",
+                    "1",
+                    "4,312,000"
+                ],
+                [
+                    "7",
+                    "Globe",
+                    "Globe",
+                    "31 March 1996",
+                    "1",
+                    "4,136,000"
+                ],
+                [
+                    "8",
+                    "Deep River",
+                    "Hikaru Utada",
+                    "19 June 2002",
+                    "1",
+                    "3,605,000"
+                ],
+                [
+                    "9",
+                    "Umi no Yeah!!",
+                    "Southern All Stars",
+                    "25 June 1998",
+                    "1",
+                    "3,592,000"
+                ],
+                [
+                    "10",
+                    "Delicious Way",
+                    "Mai Kuraki",
+                    "28 June 2000",
+                    "1",
+                    "3,530,000"
+                ],
+                [
+                    "11",
+                    "Time to Destination",
+                    "Every Little Thing",
+                    "15 April 1998",
+                    "1",
+                    "3,520,000"
+                ],
+                [
+                    "12",
+                    "Atomic Heart",
+                    "Mr. Children",
+                    "1 September 1994",
+                    "1",
+                    "3,430,000"
+                ],
+                [
+                    "13",
+                    "Sweet 19 Blues",
+                    "Namie Amuro",
+                    "22 July 1996",
+                    "1",
+                    "3,359,000"
+                ],
+                [
+                    "14",
+                    "Bolero",
+                    "Mr. Children",
+                    "5 March 1997",
+                    "1",
+                    "3,283,000"
+                ],
+                [
+                    "15",
+                    "Neue Musik",
+                    "Yumi Matsutoya",
+                    "6 November 1998",
+                    "1",
+                    "3,252,000"
+                ],
+                [
+                    "16",
+                    "Faces Places",
+                    "Globe",
+                    "12 March 1997",
+                    "1",
+                    "3,239,000"
+                ],
+                [
+                    "17",
+                    "The Swinging Star",
+                    "Dreams Come True",
+                    "14 November 1992",
+                    "1",
+                    "3,227,000"
+                ],
+                [
+                    "18",
+                    "Impressions",
+                    "Mariya Takeuchi",
+                    "25 July 1994",
+                    "1",
+                    "3,067,000"
+                ],
+                [
+                    "19",
+                    "Zard Best the Single Collection \uff5e\u8ecc\u8de1\uff5e",
+                    "Zard",
+                    "28 May 1999",
+                    "1",
+                    "3,034,000"
+                ],
+                [
+                    "20",
+                    "All Singles Best",
+                    "Kobukuro",
+                    "27 September 2006",
+                    "1",
+                    "3,018,000"
+                ]
+            ]
+        },
+        "meta": "List of best-selling albums in Japan | List of best-selling albums by domestic acts",
+        "answer_text": "B'z The Best \"Pleasure\" sold more than 5 million copies in 1998 alone, making it a temporary best-selling album in Japanese music history, until being surpassed by Utada Hikaru's First Love in 1999.",
+        "struct_in": "list of best-selling albums in japan | list of best-selling albums by domestic acts col : no. | album | artist | released | chart | sales row 1 : 1 | first love | hikaru utada | 10 march 1999 | 1 | 7,672,000 row 2 : 2 | b'z the best \"pleasure\" | b'z | 20 may 1998 | 1 | 5,136,000 row 3 : 3 | review | glay | 1 october 1997 | 1 | 4,876,000 row 4 : 4 | distance | hikaru utada | 28 march 2001 | 1 | 4,472,000 row 5 : 5 | b'z the best \"treasure\" | b'z | 20 september 1998 | 1 | 4,439,000 row 6 : 6 | a best | ayumi hamasaki | 28 march 2001 | 1 | 4,312,000 row 7 : 7 | globe | globe | 31 march 1996 | 1 | 4,136,000 row 8 : 8 | deep river | hikaru utada | 19 june 2002 | 1 | 3,605,000 row 9 : 9 | umi no yeah!! | southern all stars | 25 june 1998 | 1 | 3,592,000 row 10 : 10 | delicious way | mai kuraki | 28 june 2000 | 1 | 3,530,000 row 11 : 11 | time to destination | every little thing | 15 april 1998 | 1 | 3,520,000 row 12 : 12 | atomic heart | mr. children | 1 september 1994 | 1 | 3,430,000 row 13 : 13 | sweet 19 blues | namie amuro | 22 july 1996 | 1 | 3,359,000 row 14 : 14 | bolero | mr. children | 5 march 1997 | 1 | 3,283,000 row 15 : 15 | neue musik | yumi matsutoya | 6 november 1998 | 1 | 3,252,000 row 16 : 16 | faces places | globe | 12 march 1997 | 1 | 3,239,000 row 17 : 17 | the swinging star | dreams come true | 14 november 1992 | 1 | 3,227,000 row 18 : 18 | impressions | mariya takeuchi | 25 july 1994 | 1 | 3,067,000 row 19 : 19 | zard best the single collection \uff5e\u8ecc\u8de1\uff5e | zard | 28 may 1999 | 1 | 3,034,000 row 20 : 20 | all singles best | kobukuro | 27 september 2006 | 1 | 3,018,000",
+        "text_in": "how many copies did \"pleasure\" sell in 1998 alone, and how long was it the best selling album in japan?",
+        "seq_out": "b'z the best \"pleasure\" sold more than 5 million copies in 1998 alone, making it a temporary best-selling album in japanese music history, until being surpassed by utada hikaru's first love in 1999."
+    },
+    {
+        "id": 12843,
+        "question": "How many passengers can that plane hold?",
+        "table_id": "totto_source/train_json/example-5142.json",
+        "table": {
+            "header": [
+                "Aircraft",
+                "In Service",
+                "Orders",
+                "Passengers",
+                "Notes"
+            ],
+            "rows": [
+                [
+                    "Airbus A320-200",
+                    "10",
+                    "\u2014",
+                    "180",
+                    "All to be replaced by Boeing 737-800. Aircraft to be transferred to Virgin Australia Regional Airlines."
+                ],
+                [
+                    "Boeing 737-800",
+                    "5",
+                    "\u2014",
+                    "186",
+                    "Aircraft transferred from Virgin Australia"
+                ],
+                [
+                    "Total",
+                    "15",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ]
+        },
+        "meta": "Tigerair Australia | Fleet",
+        "answer_text": "The Tigerair Australia fleet consists of the following aircraft and Virgin Australia announced that the entire A320 fleet will be replaced with Boeing 737-800 aircraft.",
+        "struct_in": "tigerair australia | fleet col : aircraft | in service | orders | passengers | notes row 1 : airbus a320-200 | 10 | \u2014 | 180 | all to be replaced by boeing 737-800. aircraft to be row 2 : boeing 737-800 | 5 | \u2014 | 186 | aircraft transferred from virgin australia row 3 : total | 15 | - | - | -",
+        "text_in": "how many passengers can that plane hold?",
+        "seq_out": "the tigerair australia fleet consists of the following aircraft and virgin australia announced that the entire a320 fleet will be replaced with boeing 737-800 aircraft."
+    },
+    {
+        "id": 14717,
+        "question": "When and in what play did Platt appear at the Music Box Theatre?",
+        "table_id": "totto_source/train_json/example-7016.json",
+        "table": {
+            "header": [
+                "Year",
+                "Production",
+                "Role",
+                "Venue",
+                "Notes"
+            ],
+            "rows": [
+                [
+                    "2002",
+                    "The Music Man",
+                    "Winthrop Paroo",
+                    "Hollywood Bowl",
+                    "Los Angeles"
+                ],
+                [
+                    "2004",
+                    "Caroline, or Change",
+                    "Noah Gellman",
+                    "Ahmanson Theatre",
+                    "National tour"
+                ],
+                [
+                    "2005",
+                    "Dead End",
+                    "Philip Griswald",
+                    "Ahmanson Theatre",
+                    "Regional"
+                ],
+                [
+                    "2012",
+                    "The Power of Duff",
+                    "Ricky Duff",
+                    "Powerhouse Theatre",
+                    "Regional"
+                ],
+                [
+                    "2012",
+                    "The Black Suits",
+                    "Chris Thurser",
+                    "Center Theatre Group",
+                    "Regional"
+                ],
+                [
+                    "2012\u20132013",
+                    "The Book of Mormon",
+                    "Elder Arnold Cunningham",
+                    "PrivateBank Theatre",
+                    "Chicago"
+                ],
+                [
+                    "2014\u20132015",
+                    "The Book of Mormon",
+                    "Elder Arnold Cunningham",
+                    "Eugene O'Neill Theatre",
+                    "Broadway"
+                ],
+                [
+                    "2015",
+                    "Dear Evan Hansen",
+                    "Evan Hansen",
+                    "Arena Stage",
+                    "Washington, D.C."
+                ],
+                [
+                    "2016",
+                    "The Secret Garden",
+                    "Dickon",
+                    "David Geffen Hall",
+                    "25th anniversary concert"
+                ],
+                [
+                    "2016",
+                    "Dear Evan Hansen",
+                    "Evan Hansen",
+                    "Second Stage Theatre",
+                    "Off-Broadway"
+                ],
+                [
+                    "2016\u20132017",
+                    "Dear Evan Hansen",
+                    "Evan Hansen",
+                    "Music Box Theatre",
+                    "Broadway"
+                ],
+                [
+                    "2018",
+                    "Parade",
+                    "Leo Frank",
+                    "-",
+                    "Workshop"
+                ]
+            ]
+        },
+        "meta": "Ben Platt (actor) | Theatre credits",
+        "answer_text": "In 2016 and 2017, Platt played in Dear Evan Hansen on Broadway at the Music Box Theatre.",
+        "struct_in": "ben platt (actor) | theatre credits col : year | production | role | venue | notes row 1 : 2002 | the music man | winthrop paroo | hollywood bowl | los angeles row 2 : 2004 | caroline, or change | noah gellman | ahmanson theatre | national tour row 3 : 2005 | dead end | philip griswald | ahmanson theatre | regional row 4 : 2012 | the power of duff | ricky duff | powerhouse theatre | regional row 5 : 2012 | the black suits | chris thurser | center theatre group | regional row 6 : 2012\u20132013 | the book of mormon | elder arnold cunningham | privatebank theatre | chicago row 7 : 2014\u20132015 | the book of mormon | elder arnold cunningham | eugene o'neill theatre | broadway row 8 : 2015 | dear evan hansen | evan hansen | arena stage | washington, d.c. row 9 : 2016 | the secret garden | dickon | david geffen hall | 25th anniversary concert row 10 : 2016 | dear evan hansen | evan hansen | second stage theatre | off-broadway row 11 : 2016\u20132017 | dear evan hansen | evan hansen | music box theatre | broadway row 12 : 2018 | parade | leo frank | - | workshop",
+        "text_in": "when and in what play did platt appear at the music box theatre?",
+        "seq_out": "in 2016 and 2017, platt played in dear evan hansen on broadway at the music box theatre."
+    }
+]

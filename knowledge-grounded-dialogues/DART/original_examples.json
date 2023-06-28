@@ -1,0 +1,137 @@
+[
+    {
+        "tripleset": [
+            [
+                "First Clearing",
+                "LOCATION",
+                "On NYS 52 1 Mi. Youngsville"
+            ],
+            [
+                "On NYS 52 1 Mi. Youngsville",
+                "CITY_OR_TOWN",
+                "Callicoon, New York"
+            ]
+        ],
+        "subtree_was_extended": false,
+        "annotations": {
+            "source": [
+                "WikiTableQuestions_mturk"
+            ],
+            "text": [
+                "First Clearing\tbased on Callicoon, New York and location at On NYS 52 1 Mi. Youngsville"
+            ]
+        },
+        "struct_in": "First Clearing : location : On NYS 52 1 Mi. Youngsville | On NYS 52 1 Mi. Youngsville : city_or_town : Callicoon, New York",
+        "text_in": "",
+        "seq_out": "First Clearing\tbased on Callicoon, New York and location at On NYS 52 1 Mi. Youngsville"
+    },
+    {
+        "tripleset": [
+            [
+                "[TABLECONTEXT]",
+                "MARKER_NAME",
+                "Old Turnpike"
+            ],
+            [
+                "[TABLECONTEXT]",
+                "[TITLE]",
+                "List of New York State Historic Markers in Sullivan County, New York"
+            ]
+        ],
+        "subtree_was_extended": true,
+        "annotations": {
+            "source": [
+                "WikiTableQuestions_mturk"
+            ],
+            "text": [
+                "Old Turnpike is a Historic Marker in Sullivan County, New York."
+            ]
+        },
+        "struct_in": "[TABLECONTEXT] : marker_name : Old Turnpike | [TABLECONTEXT] : [title] : List of New York State Historic Markers in Sullivan County, New York",
+        "text_in": "",
+        "seq_out": "Old Turnpike is a Historic Marker in Sullivan County, New York."
+    },
+    {
+        "tripleset": [
+            [
+                "Antalya 15, Turkey",
+                "SURFACE",
+                "Hard"
+            ],
+            [
+                "Antalya 15, Turkey",
+                "OPPONENT",
+                "Tereza Martincov\u00e1"
+            ],
+            [
+                "Antalya 15, Turkey",
+                "SCORE",
+                "6-4, 6-3"
+            ],
+            [
+                "15 April 2013",
+                "TOURNAMENT",
+                "Antalya 15, Turkey"
+            ]
+        ],
+        "subtree_was_extended": false,
+        "annotations": {
+            "source": [
+                "WikiTableQuestions_mturk"
+            ],
+            "text": [
+                "Tereza Martincov\u00e1"
+            ]
+        },
+        "struct_in": "Antalya 15, Turkey : surface : Hard | Antalya 15, Turkey : opponent : Tereza Martincov\u00e1 | Antalya 15, Turkey : score : 6-4, 6-3 | 15 April 2013 : tournament : Antalya 15, Turkey",
+        "text_in": "",
+        "seq_out": "Tereza Martincov\u00e1"
+    },
+    {
+        "tripleset": [
+            [
+                "2 April 2012",
+                "TOURNAMENT",
+                "Ribeir\u00e3o Preto, Brazil"
+            ],
+            [
+                "Ribeir\u00e3o Preto, Brazil",
+                "SURFACE",
+                "Hard"
+            ]
+        ],
+        "subtree_was_extended": false,
+        "annotations": {
+            "source": [
+                "WikiTableQuestions_mturk"
+            ],
+            "text": [
+                "Beatriz Haddad Maia played on 2 April 2012\tin Ribeir\u00e3o Preto, Brazil\ton a hard surface."
+            ]
+        },
+        "struct_in": "2 April 2012 : tournament : Ribeir\u00e3o Preto, Brazil | Ribeir\u00e3o Preto, Brazil : surface : Hard",
+        "text_in": "",
+        "seq_out": "Beatriz Haddad Maia played on 2 April 2012\tin Ribeir\u00e3o Preto, Brazil\ton a hard surface."
+    },
+    {
+        "tripleset": [
+            [
+                "5",
+                "STADIUM",
+                "shea stadium"
+            ]
+        ],
+        "subtree_was_extended": false,
+        "annotations": {
+            "source": [
+                "WikiSQL_decl_sents"
+            ],
+            "text": [
+                "The week 5 game is played in Shea Stadium."
+            ]
+        },
+        "struct_in": "5 : stadium : shea stadium",
+        "text_in": "",
+        "seq_out": "The week 5 game is played in Shea Stadium."
+    }
+]

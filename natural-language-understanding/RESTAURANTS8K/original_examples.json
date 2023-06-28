@@ -1,0 +1,88 @@
+[
+    {
+        "userInput": {
+            "text": "There will be 5 adults and 1 child."
+        },
+        "context": {
+            "requestedSlots": [
+                "people"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "people",
+                "valueSpan": {
+                    "startIndex": 14,
+                    "endIndex": 34
+                }
+            }
+        ]
+    },
+    {
+        "userInput": {
+            "text": "We will require and outside table to seat 9 people on August 23rd"
+        },
+        "labels": [
+            {
+                "slot": "people",
+                "valueSpan": {
+                    "startIndex": 42,
+                    "endIndex": 50
+                }
+            },
+            {
+                "slot": "date",
+                "valueSpan": {
+                    "startIndex": 54,
+                    "endIndex": 65
+                }
+            }
+        ]
+    },
+    {
+        "userInput": {
+            "text": "Do you have room for 11 of us?"
+        },
+        "labels": [
+            {
+                "slot": "people",
+                "valueSpan": {
+                    "startIndex": 21,
+                    "endIndex": 23
+                }
+            }
+        ]
+    },
+    {
+        "userInput": {
+            "text": "We are 13 and have a table."
+        },
+        "labels": [
+            {
+                "slot": "people",
+                "valueSpan": {
+                    "startIndex": 7,
+                    "endIndex": 9
+                }
+            }
+        ]
+    },
+    {
+        "userInput": {
+            "text": "6 a.m."
+        },
+        "context": {
+            "requestedSlots": [
+                "time"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "time",
+                "valueSpan": {
+                    "endIndex": 6
+                }
+            }
+        ]
+    }
+]

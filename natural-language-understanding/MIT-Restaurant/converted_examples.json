@@ -1,0 +1,82 @@
+{
+    "MIT-Restaurant--train--1": {
+        "original dialog id": "",
+        "dialog index": 1,
+        "original dialog info": {
+            "task": "BIO tag for Named Entity Recognition. The system response is the corresponding BIO format."
+        },
+        "log": {
+            "turn id": 1,
+            "user utterance": "2 start restaurants with inside dining",
+            "system response": "B-Rating I-Rating O O B-Amenity I-Amenity",
+            "dialog history": "",
+            "original user side information": {},
+            "original system side information": {},
+            "external knowledge": ""
+        }
+    },
+    "MIT-Restaurant--train--2": {
+        "original dialog id": "",
+        "dialog index": 2,
+        "original dialog info": {
+            "task": "BIO tag for Named Entity Recognition. The system response is the corresponding BIO format."
+        },
+        "log": {
+            "turn id": 1,
+            "user utterance": "34",
+            "system response": "O",
+            "dialog history": "",
+            "original user side information": {},
+            "original system side information": {},
+            "external knowledge": ""
+        }
+    },
+    "MIT-Restaurant--train--3": {
+        "original dialog id": "",
+        "dialog index": 3,
+        "original dialog info": {
+            "task": "BIO tag for Named Entity Recognition. The system response is the corresponding BIO format."
+        },
+        "log": {
+            "turn id": 1,
+            "user utterance": "5 star resturants in my town",
+            "system response": "B-Rating I-Rating O B-Location I-Location I-Location",
+            "dialog history": "",
+            "original user side information": {},
+            "original system side information": {},
+            "external knowledge": ""
+        }
+    },
+    "MIT-Restaurant--train--4": {
+        "original dialog id": "",
+        "dialog index": 4,
+        "original dialog info": {
+            "task": "BIO tag for Named Entity Recognition. The system response is the corresponding BIO format."
+        },
+        "log": {
+            "turn id": 1,
+            "user utterance": "98 hong kong restaurant reasonable prices",
+            "system response": "O B-Restaurant_Name I-Restaurant_Name O B-Price O",
+            "dialog history": "",
+            "original user side information": {},
+            "original system side information": {},
+            "external knowledge": ""
+        }
+    },
+    "MIT-Restaurant--train--5": {
+        "original dialog id": "",
+        "dialog index": 5,
+        "original dialog info": {
+            "task": "BIO tag for Named Entity Recognition. The system response is the corresponding BIO format."
+        },
+        "log": {
+            "turn id": 1,
+            "user utterance": "a great lunch spot but open till 2 a m passims kitchen",
+            "system response": "O O O O O B-Hours I-Hours I-Hours I-Hours I-Hours B-Restaurant_Name I-Restaurant_Name",
+            "dialog history": "",
+            "original user side information": {},
+            "original system side information": {},
+            "external knowledge": ""
+        }
+    }
+}

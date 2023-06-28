@@ -1,0 +1,518 @@
+[
+    {
+        "qid": "2101535001000",
+        "question": "oxybutynin chloride 5 extended release film coated tablet is the ingredients of what routed drug?",
+        "answer": {
+            "answer_type": [
+                "Entity",
+                "Entity"
+            ],
+            "answer_argument": [
+                "m.0z3xfvs",
+                "m.0z3xm0m"
+            ],
+            "entity_name": [
+                "Oxybutynin Oral",
+                "Oxybutynin Chloride Oral"
+            ]
+        },
+        "function": "none",
+        "num_node": 2,
+        "num_edge": 1,
+        "graph_query": {
+            "nodes": {
+                "nid": [
+                    0,
+                    1
+                ],
+                "node_type": [
+                    "class",
+                    "entity"
+                ],
+                "id": [
+                    "medicine.routed_drug",
+                    "m.0hqs1x_"
+                ],
+                "class": [
+                    "medicine.routed_drug",
+                    "medicine.drug_formulation"
+                ],
+                "friendly_name": [
+                    "Routed drug",
+                    "Oxybutynin chloride 5 extended release film coated tablet"
+                ],
+                "question_node": [
+                    1,
+                    0
+                ],
+                "function": [
+                    "none",
+                    "none"
+                ]
+            },
+            "edges": {
+                "start": [
+                    0
+                ],
+                "end": [
+                    1
+                ],
+                "relation": [
+                    "medicine.routed_drug.marketed_formulations"
+                ],
+                "friendly_name": [
+                    "Marketed formulations"
+                ]
+            }
+        },
+        "sparql_query": "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> PREFIX : <http://rdf.freebase.com/ns/> \nSELECT (?x0 AS ?value) WHERE {\nSELECT DISTINCT ?x0  WHERE { \n?x0 :type.object.type :medicine.routed_drug . \nVALUES ?x1 { :m.0hqs1x_ } \n?x0 :medicine.routed_drug.marketed_formulations ?x1 . \nFILTER ( ?x0 != ?x1  )\n}\n}",
+        "domains": [
+            "medicine"
+        ],
+        "level": "",
+        "s_expression": "(AND medicine.routed_drug (JOIN medicine.routed_drug.marketed_formulations m.0hqs1x_))",
+        "retrieved_schema": [
+            "film.film",
+            "medicine.drug_mechanism_of_action.drugs_with_this_mechanism_of_action",
+            "medicine.drug_ingredient.active_moiety_of_formulation",
+            "medicine.drug_formulation.routed_drug",
+            "common.topic.subject_of",
+            "medicine.drug_formulation.formulation_of",
+            "medicine.manufactured_drug_form.manufactured_form_of",
+            "medicine.drug.routed_drugs",
+            "medicine.routed_drug.route_of_administration",
+            "medicine.drug_administration_route.route_of",
+            "medicine.routed_drug.routed_drug_of",
+            "medicine.routed_drug.marketed_formulations",
+            "film.film_subject.films",
+            "medicine.drug_formulation.active_ingredients",
+            "medicine.drug_ingredient.active_ingredient_of_formulation",
+            "medicine.drug.route_of_administration",
+            "medicine.drug_mechanism_of_action",
+            "medicine.routed_drug",
+            "medicine.drug.mechanism_of_action",
+            "medicine.drug_ingredient.active_moiety_of_drug",
+            "film.film.subjects"
+        ],
+        "text_in": "oxybutynin chloride 5 extended release film coated tablet is the ingredients of what routed drug?",
+        "struct_in": "oxybutynin chloride 5 extended release film coated tablet: m.0hqs1x_ | medicine.drug_ingredient.active_moiety_of_formulation medicine.routed_drug.route_of_administration medicine.drug_ingredient.active_ingredient_of_formulation medicine.drug_ingredient.active_moiety_of_drug medicine.drug_mechanism_of_action medicine.drug_administration_route.route_of medicine.routed_drug medicine.drug.route_of_administration medicine.drug.routed_drugs medicine.routed_drug.marketed_formulations common.topic.subject_of film.film.subjects medicine.drug_mechanism_of_action.drugs_with_this_mechanism_of_action medicine.drug.mechanism_of_action medicine.routed_drug.routed_drug_of medicine.drug_formulation.formulation_of film.film medicine.drug_formulation.active_ingredients film.film_subject.films medicine.manufactured_drug_form.manufactured_form_of",
+        "seq_out": "(AND medicine.routed_drug (JOIN medicine.routed_drug.marketed_formulations m.0hqs1x_))"
+    },
+    {
+        "qid": "2100954014000",
+        "question": "the type single-sex school are in which institutions?",
+        "answer": {
+            "answer_type": [
+                "Entity",
+                "Entity",
+                "Entity",
+                "Entity",
+                "Entity",
+                "Entity",
+                "Entity",
+                "Entity",
+                "Entity",
+                "Entity",
+                "Entity"
+            ],
+            "answer_argument": [
+                "m.011ll0cm",
+                "m.02r4qt_",
+                "m.0dddwj",
+                "m.028bvkv",
+                "m.09h5p0",
+                "m.08mm5p",
+                "m.07m0s2",
+                "m.0866rr",
+                "m.07w008",
+                "m.0c3d54",
+                "m.0ftt89"
+            ],
+            "entity_name": [
+                "\u00c9cole sup\u00e9rieure de jeunes filles",
+                "Penrhos College, Perth",
+                "Methodist Ladies' College, Perth",
+                "Crest Girls' Academy",
+                "Forest School",
+                "Branksome Hall",
+                "Oxford High School, Oxford",
+                "Christ Church Grammar School",
+                "Guildford Grammar School",
+                "Academy of the Holy Angels",
+                "Jakarta Canisius College"
+            ]
+        },
+        "function": "none",
+        "num_node": 2,
+        "num_edge": 1,
+        "graph_query": {
+            "nodes": {
+                "nid": [
+                    0,
+                    1
+                ],
+                "node_type": [
+                    "class",
+                    "entity"
+                ],
+                "id": [
+                    "education.educational_institution",
+                    "m.086fjj"
+                ],
+                "class": [
+                    "education.educational_institution",
+                    "education.school_category"
+                ],
+                "friendly_name": [
+                    "Educational Institution",
+                    "Single-sex school"
+                ],
+                "question_node": [
+                    1,
+                    0
+                ],
+                "function": [
+                    "none",
+                    "none"
+                ]
+            },
+            "edges": {
+                "start": [
+                    0
+                ],
+                "end": [
+                    1
+                ],
+                "relation": [
+                    "education.educational_institution.school_type"
+                ],
+                "friendly_name": [
+                    "School type"
+                ]
+            }
+        },
+        "sparql_query": "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> PREFIX : <http://rdf.freebase.com/ns/> \nSELECT (?x0 AS ?value) WHERE {\nSELECT DISTINCT ?x0  WHERE { \n?x0 :type.object.type :education.educational_institution . \nVALUES ?x1 { :m.086fjj } \n?x0 :education.educational_institution.school_type ?x1 . \nFILTER ( ?x0 != ?x1  )\n}\n}",
+        "domains": [
+            "education"
+        ],
+        "level": "",
+        "s_expression": "(AND education.educational_institution (JOIN education.educational_institution.school_type m.086fjj))",
+        "retrieved_schema": [
+            "education.school_mascot.school",
+            "type.type",
+            "common.image.appears_in_topic_gallery",
+            "time.time_zone.locations_in_this_time_zone",
+            "education.educational_institution.school_type",
+            "education.school_mascot",
+            "type.float",
+            "education.school_category",
+            "education.school.lowest_grade_taught",
+            "education.school.class_size",
+            "type.datetime",
+            "education.school_category.schools_of_this_kind",
+            "education.school.highest_grade_taught"
+        ],
+        "text_in": "the type single-sex school are in which institutions?",
+        "struct_in": "single-sex school: m.086fjj | education.school.lowest_grade_taught education.educational_institution.school_type type.float type.datetime common.image.appears_in_topic_gallery education.school.class_size education.school_category education.school_mascot education.school_category.schools_of_this_kind education.school.highest_grade_taught education.educational_institution type.type education.school_mascot.school time.time_zone.locations_in_this_time_zone",
+        "seq_out": "(AND education.educational_institution (JOIN education.educational_institution.school_type m.086fjj))"
+    },
+    {
+        "qid": "3206374001000",
+        "question": "the leaders of the earliest established religious organization are given what title?",
+        "answer": {
+            "answer_type": [
+                "Entity"
+            ],
+            "answer_argument": [
+                "m.05rd8"
+            ],
+            "entity_name": [
+                "Pope"
+            ]
+        },
+        "function": "argmin",
+        "num_node": 3,
+        "num_edge": 2,
+        "graph_query": {
+            "nodes": {
+                "nid": [
+                    0,
+                    1,
+                    2
+                ],
+                "node_type": [
+                    "class",
+                    "class",
+                    "literal"
+                ],
+                "id": [
+                    "religion.religious_leadership_title",
+                    "religion.religious_organization_leadership",
+                    "0^^http://www.w3.org/2001/XMLSchema#int"
+                ],
+                "class": [
+                    "religion.religious_leadership_title",
+                    "religion.religious_organization_leadership",
+                    "type.datetime"
+                ],
+                "friendly_name": [
+                    "Religious Leadership Title",
+                    "Religious Organization Leadership",
+                    "0"
+                ],
+                "question_node": [
+                    1,
+                    0,
+                    0
+                ],
+                "function": [
+                    "none",
+                    "none",
+                    "argmin"
+                ]
+            },
+            "edges": {
+                "start": [
+                    0,
+                    1
+                ],
+                "end": [
+                    1,
+                    2
+                ],
+                "relation": [
+                    "religion.religious_leadership_title.leaders",
+                    "religion.religious_organization_leadership.start_date"
+                ],
+                "friendly_name": [
+                    "Leaders",
+                    "Start Date"
+                ]
+            }
+        },
+        "sparql_query": "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> PREFIX : <http://rdf.freebase.com/ns/> \nSELECT (?x0 AS ?value) WHERE {\nSELECT DISTINCT ?x0  WHERE { \n?x0 :type.object.type :religion.religious_leadership_title . \n?x1 :type.object.type :religion.religious_organization_leadership . \n{\nSELECT (MIN(?y2) AS ?x2)  WHERE { \n?y0 :type.object.type :religion.religious_leadership_title . \n?y1 :type.object.type :religion.religious_organization_leadership . \n?y0 :religion.religious_leadership_title.leaders ?y1 . \n?y1 :religion.religious_organization_leadership.start_date ?y2 . \nFILTER ( ?y0 != ?y1 && ?y0 != ?y2 && ?y1 != ?y2  )\n}\n}\n?x0 :religion.religious_leadership_title.leaders ?x1 . \n?x1 :religion.religious_organization_leadership.start_date ?x2 . \nFILTER ( ?x0 != ?x1 && ?x0 != ?x2 && ?x1 != ?x2  )\n}\n}",
+        "domains": [
+            "religion"
+        ],
+        "level": "",
+        "s_expression": "(ARGMIN religion.religious_leadership_title (JOIN religion.religious_leadership_title.leaders religion.religious_organization_leadership.start_date))",
+        "retrieved_schema": [],
+        "text_in": "the leaders of the earliest established religious organization are given what title?",
+        "struct_in": " | religion.religious_leadership_title religion.religious_organization_leadership.start_date religion.religious_leadership_title.leaders",
+        "seq_out": "(ARGMIN religion.religious_leadership_title (JOIN religion.religious_leadership_title.leaders religion.religious_organization_leadership.start_date))"
+    },
+    {
+        "qid": "2100735000000",
+        "question": "on 07/01/1970, which warship v1.1 was hit?",
+        "answer": {
+            "answer_type": [
+                "Entity"
+            ],
+            "answer_argument": [
+                "m.05wfjz"
+            ],
+            "entity_name": [
+                "USS Cobia"
+            ]
+        },
+        "function": "none",
+        "num_node": 2,
+        "num_edge": 1,
+        "graph_query": {
+            "nodes": {
+                "nid": [
+                    0,
+                    1
+                ],
+                "node_type": [
+                    "class",
+                    "literal"
+                ],
+                "id": [
+                    "user.patrick.default_domain.warship_v1_1",
+                    "1970-07-01^^http://www.w3.org/2001/XMLSchema#date"
+                ],
+                "class": [
+                    "user.patrick.default_domain.warship_v1_1",
+                    "type.datetime"
+                ],
+                "friendly_name": [
+                    "Warship v1.1",
+                    "07/01/1970"
+                ],
+                "question_node": [
+                    1,
+                    0
+                ],
+                "function": [
+                    "none",
+                    "none"
+                ]
+            },
+            "edges": {
+                "start": [
+                    0
+                ],
+                "end": [
+                    1
+                ],
+                "relation": [
+                    "user.patrick.default_domain.warship_v1_1.struck"
+                ],
+                "friendly_name": [
+                    "Struck"
+                ]
+            }
+        },
+        "sparql_query": "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> PREFIX : <http://rdf.freebase.com/ns/> \nSELECT (?x0 AS ?value) WHERE {\nSELECT DISTINCT ?x0  WHERE { \n?x0 :type.object.type :user.patrick.default_domain.warship_v1_1 . \nVALUES ?x1 { \"1970-07-01-08:00\"^^<http://www.w3.org/2001/XMLSchema#date> } \n?x0 :user.patrick.default_domain.warship_v1_1.struck ?x1 . \nFILTER ( ?x0 != ?x1  )\n}\n}",
+        "domains": [
+            "user.patrick.default_domain"
+        ],
+        "level": "",
+        "s_expression": "(AND user.patrick.default_domain.warship_v1_1 (JOIN user.patrick.default_domain.warship_v1_1.struck 1970-07-01^^http://www.w3.org/2001/XMLSchema#date))",
+        "retrieved_schema": [],
+        "text_in": "on 07/01/1970, which warship v1.1 was hit?",
+        "struct_in": " | user.patrick.default_domain.warship_v1_1 user.patrick.default_domain.warship_v1_1.struck",
+        "seq_out": "(AND user.patrick.default_domain.warship_v1_1 (JOIN user.patrick.default_domain.warship_v1_1.struck 1970-07-01^^http://www.w3.org/2001/XMLSchema#date))"
+    },
+    {
+        "qid": "2102770001000",
+        "question": "what is the language regulator of basque?",
+        "answer": {
+            "answer_type": [
+                "Entity"
+            ],
+            "answer_argument": [
+                "m.057xsn"
+            ],
+            "entity_name": [
+                "Euskaltzaindia"
+            ]
+        },
+        "function": "none",
+        "num_node": 2,
+        "num_edge": 1,
+        "graph_query": {
+            "nodes": {
+                "nid": [
+                    0,
+                    1
+                ],
+                "node_type": [
+                    "class",
+                    "entity"
+                ],
+                "id": [
+                    "language.language_regulator",
+                    "m.017k6"
+                ],
+                "class": [
+                    "language.language_regulator",
+                    "language.human_language"
+                ],
+                "friendly_name": [
+                    "Language Regulator",
+                    "basque"
+                ],
+                "question_node": [
+                    1,
+                    0
+                ],
+                "function": [
+                    "none",
+                    "none"
+                ]
+            },
+            "edges": {
+                "start": [
+                    0
+                ],
+                "end": [
+                    1
+                ],
+                "relation": [
+                    "language.language_regulator.language"
+                ],
+                "friendly_name": [
+                    "Language"
+                ]
+            }
+        },
+        "sparql_query": "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> PREFIX : <http://rdf.freebase.com/ns/> \nSELECT (?x0 AS ?value) WHERE {\nSELECT DISTINCT ?x0  WHERE { \n?x0 :type.object.type :language.language_regulator . \nVALUES ?x1 { :m.017k6 } \n?x0 :language.language_regulator.language ?x1 . \nFILTER ( ?x0 != ?x1  )\n}\n}",
+        "domains": [
+            "language"
+        ],
+        "level": "",
+        "s_expression": "(AND language.language_regulator (JOIN language.language_regulator.language m.017k6))",
+        "retrieved_schema": [
+            "military.military_unit.place_of_origin",
+            "language.human_language",
+            "location.country.official_language",
+            "biology.animal_breed.place_of_origin",
+            "language.human_language.main_country",
+            "government.form_of_government.countries",
+            "royalty.system_of_nobility.titles",
+            "theater.play.country_of_origin",
+            "location.statistical_region.health_expenditure_as_percent_of_gdp",
+            "fictional_universe.work_of_fiction.setting",
+            "language.language_regulator",
+            "film.film.language",
+            "internet.blog.language",
+            "location.country.form_of_government",
+            "location.statistical_region.trade_balance_as_percent_of_gdp",
+            "book.book_edition.place_of_publication",
+            "book.periodical.language",
+            "location.administrative_division.first_level_division_of",
+            "people.marriage.location_of_ceremony",
+            "fictional_universe.ethnicity_in_fiction.characters_of_this_ethnicity",
+            "people.deceased_person.place_of_death",
+            "location.statistical_region.size_of_armed_forces",
+            "location.statistical_region.gross_savings_as_percent_of_gdp",
+            "people.deceased_person.date_of_death",
+            "biology.organism.place_of_birth",
+            "location.statistical_region.market_cap_of_listed_companies_as_percent_of_gdp",
+            "book.written_work.date_of_first_publication",
+            "music.composition.language",
+            "location.administrative_division.second_level_division_of",
+            "fictional_universe.fictional_character.place_of_birth",
+            "dining.cuisine.region_of_origin",
+            "book.place_of_publication_period",
+            "location.location.contains_major_portion_of",
+            "government.government_position_held.jurisdiction_of_office",
+            "tv.the_colbert_report_episode.intro_topics",
+            "tv.the_colbert_report_episode",
+            "language.language_family.geographic_distribution",
+            "book.written_work.original_language",
+            "language.language_regulator.language",
+            "language.human_language.countries_spoken_in",
+            "food.cheese.country_of_origin",
+            "government.form_of_government",
+            "tv.tv_program.country_of_origin",
+            "language.language_family",
+            "government.national_anthem_of_a_country",
+            "language.human_language.region",
+            "government.national_anthem_of_a_country.country",
+            "spaceflight.rocket.country_of_origin",
+            "book.translation.language",
+            "language.language_family.member_of_language_families",
+            "location.statistical_region.merchandise_trade_percent_of_gdp",
+            "location.statistical_region.agriculture_as_percent_of_gdp",
+            "location.statistical_region.high_tech_as_percent_of_manufactured_exports",
+            "common.topic.subject_of",
+            "language.language_family.sub_families",
+            "visual_art.art_subject.artwork_on_the_subject",
+            "people.person.place_of_birth",
+            "people.person.date_of_birth",
+            "language.human_language.language_family",
+            "fictional_universe.work_of_fiction",
+            "book.place_of_publication_period.place_of_publication",
+            "language.language_family.languages",
+            "military.military_unit_place_of_origin.military_units",
+            "organization.organization_member.member_of",
+            "location.statistical_region.gender_balance_members_of_parliament"
+        ],
+        "text_in": "what is the language regulator of basque?",
+        "struct_in": "basque: m.017k6 | book.written_work.original_language government.form_of_government.countries location.statistical_region.size_of_armed_forces location.location.contains_major_portion_of royalty.system_of_nobility.titles common.topic.subject_of language.language_family.sub_families tv.tv_program.country_of_origin language.language_regulator.language location.statistical_region.merchandise_trade_percent_of_gdp location.statistical_region.high_tech_as_percent_of_manufactured_exports internet.blog.language language.language_regulator food.cheese.country_of_origin people.deceased_person.date_of_death language.human_language.countries_spoken_in music.composition.language book.place_of_publication_period.place_of_publication location.statistical_region.health_expenditure_as_percent_of_gdp book.written_work.date_of_first_publication",
+        "seq_out": "(AND language.language_regulator (JOIN language.language_regulator.language m.017k6))"
+    }
+]
