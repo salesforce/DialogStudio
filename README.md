@@ -26,6 +26,39 @@ Below figure shows the general DialogStudio statistics. Please refer the folder 
 
 
 
+### Load dataset
+The datasets are split into several categories in HuggingFace 
+```
+Datasets/
+├── Knowledge-Grounded-Dialogues
+├── Natural-Language-Understanding
+├── Open-Domain-Dialogues
+├── Task-Oriented-Dialogues
+├── Dialogue-Summarization
+├── Conversational-Recommendation-Dialogs
+```
+
+You can load the dataset from the HuggingFace hub, where `data_dir={category}/{dataset_name}`. Below is one example to load the CoSQL dataset:
+
+```python
+from datasets import load_dataset
+
+dataset = load_dataset("jianguozhang/DialogStudio", data_dir='Knowledge-Grounded-Dialogues/CoSQL')
+```
+Here is the output structure of CoSQL
+```python
+DatasetDict({
+    train: Dataset({
+        features: ['original dialog id', 'dialog index', 'original dialog info', 'log', 'key'],
+        num_rows: 4318
+    })
+    validation: Dataset({
+        features: ['original dialog id', 'dialog index', 'original dialog info', 'log', 'key'],
+        num_rows: 4904
+    })
+})
+```
+
 # License
 
 Our project follows the following structure with respect to licensing:
