@@ -38,12 +38,12 @@ Datasets/
 ├── Conversational-Recommendation-Dialogs
 ```
 
-You can load the dataset from the HuggingFace hub, where `data_dir={category}/{dataset_name}`. Below is one example to load the CoSQL dataset:
+You can load any dataset in the DialogStudio from the HuggingFace hub by claiming the `{dataset_name}`. Below is one example to load the CoSQL dataset:
 
 ```python
 from datasets import load_dataset
 
-dataset = load_dataset("jianguozhang/DialogStudio", data_dir='Knowledge-Grounded-Dialogues/CoSQL')
+dataset = load_dataset("qbetterk/dialogstudio", 'CoSQL')
 ```
 Here is the output structure of CoSQL
 ```python
