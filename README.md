@@ -43,7 +43,7 @@ You can load any dataset in the DialogStudio from the HuggingFace hub by claimin
 ```python
 from datasets import load_dataset
 
-dataset = load_dataset("qbetterk/dialogstudio", 'CoSQL')
+dataset = load_dataset("Salesforce/dialogstudio", 'CoSQL')
 ```
 Here is the output structure of CoSQL
 ```python
