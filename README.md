@@ -16,7 +16,7 @@
 
 ### Datasets
 <!-- Check [DialogStudio_datasets.csv](https://docs.google.com/spreadsheets/d/10U9I4GoHFTYxl3OlzbbV0gmXerMT9Itn2MZs8t6AIK0/edit#gid=461625820) for all supported datasets. -->
-Below figure shows the general DialogStudio statistics. Please refer the folder of each category for more details.
+The figure below provides a summary of the general statistics associated with DialogStudio.  For more granular and category-specific details, please refer to the individual folders corresponding to each category within the DialogStudio collection. 
 <p align="center">
     <br>
     <img src="figures/DialogStudio_Stats.png" width="700"/>
@@ -41,7 +41,7 @@ Given the vast number of datasets incorporated into DialogStudio, we utilized 'g
 The results of our dialogue quality assessment are presented below. 
 <p align="center">
     <br>
-    <img src="figures/DialogStudio_Quality_Scores.png" width="700"/>
+    <img src="figures/DialogStudio_Quality_Scores.png" width="750"/>
     <br>
 <p>
 
