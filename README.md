@@ -34,8 +34,6 @@ Datasets/
 ├── Conversational-Recommendation-Dialogs
 ```
 
-We assess dialogue quality based on six criterias, i.e., Understanding, Relevance, Correctness, Coherence, Completeness and Overall quality. The score is from range 1-5, and higher score only gives to exceptional dialogues. Since there are a lots of datasets in DialogStudio, we employ `gpt-3.5-turbo` to evaluate 33 datasets, and[dialog_quality_evaluation.py](https://github.com/salesforce/DialogStudio/blob/main/code/openai_dialog_quality_evaluation.py) shows the corresponding script. 
-
 DialogStudio evaluates dialogue quality based on six critical criteria, namely Understanding, Relevance, Correctness, Coherence, Completeness, and Overall Quality. Each criterion is scored on a scale of 1 to 5, with the highest scores reserved for exceptional dialogues.
 
 Given the vast number of datasets incorporated into DialogStudio, we utilized 'gpt-3.5-turbo' to assess 33 distinct datasets. The corresponding script used for this evaluation can be accessed through the [link](https://github.com/salesforce/DialogStudio/blob/main/code/openai_dialog_quality_evaluation.py)
