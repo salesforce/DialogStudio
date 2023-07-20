@@ -1,16 +1,17 @@
 <p align="center">
     <br>
-    <img src="figures/logo.png" width="500"/>
+    <img src="figures/logo.png" width="520"/>
     <br>
-<p>
-<div align="center">
-<a href="https://arxiv.org/abs/2307.10172">Paper</a>,
-<a href="#datasets">Datasets</a>,
-<a href="#documentation">Documentation</a>,
-<a href="#model">Model</a>,
-<!-- <a href="#blog">Blog</a> -->
-</div>
-
+<!-- <p>
+<div align="center"> -->
+<a href="https://arxiv.org/abs/2307.10172" style="font-size:19px;">Paper</a>,
+<a href="#datasets" style="font-size:19px;">Datasets</a>,
+<a href="#documentation" style="font-size:19px;">Documentation</a>,
+<a href="#model" style="font-size:19px;">Model</a>
+<!-- <a href="#blog" style="font-size:19px;">Blog</a> -->
+<!-- </div> -->
+ <p>
+ 
 # DialogStudio: Towards Richest and Most Diverse Unified Dataset Collection for Conversational AI
 
 
@@ -20,7 +21,7 @@
 The figure below provides a summary of the general statistics associated with DialogStudio.  For more granular and category-specific details, please refer to the individual folders corresponding to each category within the DialogStudio collection. 
 <p align="center">
     <br>
-    <img src="figures/DialogStudio_Stats.png" width="700"/>
+    <img src="figures/DialogStudio_Stats.png" width="730"/>
     <br>
 <p>
 
