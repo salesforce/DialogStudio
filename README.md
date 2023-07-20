@@ -88,6 +88,19 @@ We've rolled out version 1.0 of models trained on a few selected DialogStudio da
 # Contributing
 We enthusiastically invite contributions from the community! Join us in our shared mission to propel the field of conversational AI forward!
 
+# Citation
+The data and code in this repository is mostly developed for or derived from the paper below. Please cite it if you find the repository helpful.
+```
+@misc{zhang2023dialogstudio,
+      title={DialogStudio: Towards Richest and Most Diverse Unified Dataset Collection for Conversational AI}, 
+      author={Jianguo Zhang and Kun Qian and Zhiwei Liu and Shelby Heinecke and Rui Meng and Ye Liu and Zhou Yu and Silvio Savarese and Caiming Xiong},
+      year={2023},
+      eprint={2307.10172},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
+
 # License
 
 Our project follows the following structure with respect to licensing:
