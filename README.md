@@ -1,17 +1,17 @@
 <p align="center">
     <br>
-    <img src="figures/logo.png" width="520"/>
+    <img src="figures/logo.png" width="510"/>
     <br>
 <!-- <p>
 <div align="center"> -->
-<a href="https://arxiv.org/abs/2307.10172" style="font-size:19px;">Paper</a>,
-<a href="#datasets" style="font-size:19px;">Datasets</a>,
-<a href="#documentation" style="font-size:19px;">Documentation</a>,
-<a href="#model" style="font-size:19px;">Model</a>
-<!-- <a href="#blog" style="font-size:19px;">Blog</a> -->
+<a href="https://arxiv.org/abs/2307.10172" style="font-size:20px;">Paper</a>,
+<a href="#datasets" style="font-size:20px;">Datasets</a>,
+<a href="#documentation" style="font-size:20px;">Documentation</a>,
+<a href="#model" style="font-size:20px;">Model</a>
+<!-- <a href="#blog" style="font-size:20px;">Blog</a> -->
 <!-- </div> -->
  <p>
- 
+
 # DialogStudio: Towards Richest and Most Diverse Unified Dataset Collection for Conversational AI
 
 
@@ -27,9 +27,9 @@ The figure below provides a summary of the general statistics associated with Di
 
 DialogStudio evaluates dialogue quality based on six critical criteria, namely Understanding, Relevance, Correctness, Coherence, Completeness, and Overall Quality. Each criterion is scored on a scale of 1 to 5, with the highest scores reserved for exceptional dialogues.
 
-Given the vast number of datasets incorporated into DialogStudio, we utilized 'gpt-3.5-turbo' to assess 33 distinct datasets. The corresponding script used for this evaluation can be accessed through the [link](https://github.com/salesforce/DialogStudio/blob/main/code/openai_dialog_quality_evaluation.py). We plan to release evaluation scores of selected dialogs soon.
+Given the vast number of datasets incorporated into DialogStudio, we utilized 'gpt-3.5-turbo' to assess 33 distinct datasets. The corresponding script used for this evaluation can be accessed through the [link](https://github.com/salesforce/DialogStudio/blob/main/code/openai_dialog_quality_evaluation.py). 
 
-The results of our dialogue quality assessment are presented below.
+The results of our dialogue quality assessment are presented below. We intend to release evaluation scores for individual selected dialogues in the upcoming period.
 <p align="center">
     <br>
     <img src="figures/DialogStudio_Quality_Scores.png" width="750"/>
