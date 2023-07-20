@@ -5,13 +5,14 @@
 <p>
 <div align="center">
 <a href="https://arxiv.org/abs/2307.10172">Paper</a>,
-<a href="">[Datasets](#datasets)</a>,
-<a href="">[Documentation](#documentation)</a>,
-<a href="">[Model](#model)</a>,
-<!-- <a href="">Blog</a> -->
+<a href="#datasets">Datasets</a>,
+<a href="#documentation">Documentation</a>,
+<a href="#model">Model</a>,
+<!-- <a href="#blog">Blog</a> -->
 </div>
 
-# DialogStudio: Unified Dialog Datasets and Instruction-Aware Models for Conversational AI
+# DialogStudio: Towards Richest and Most Diverse Unified Dataset Collection for Conversational AI
+
 
 
 ### Datasets
