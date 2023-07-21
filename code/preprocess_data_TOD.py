@@ -2545,7 +2545,7 @@ class PreProcessData(object):
         data_name = "GECOR"
         exp_list = []
         for filename in os.listdir(os.path.join(self.data_dir, data_name)):
-            if filename in ["LICENSE", "README.md"]: continue
+            if filename in ["LICENSE", "readme.txt"]: continue
             exp_list.append(filename)
 
         data = self._load_json(os.path.join(self.data_dir, data_name, "CamRest676_for_coreference_and_ellipsis_resolution/CamRest676_annotated.json"))
@@ -2983,7 +2983,7 @@ class PreProcessData(object):
     def copy_example(self):
         source_dir = self.save_dir
         target_dir = "/home/qkun/projs/TOD-Project/Datasets/Task-Oriented_PROCESSED/"
-        file_list = ["converted_examples.json", "original_examples.json", "README.md", "LICENSE"]
+        file_list = ["converted_examples.json", "original_examples.json", "readme.txt", "LICENSE"]
         for dir_name in sorted(os.listdir(source_dir)):
             if os.path.isfile(os.path.join(source_dir, dir_name)): continue
             if not os.path.exists(os.path.join(target_dir, dir_name)): os.makedirs(os.path.join(target_dir, dir_name))

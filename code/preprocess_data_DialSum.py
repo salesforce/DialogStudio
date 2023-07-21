@@ -515,7 +515,7 @@ class PreProcessData(object):
         data_name = "CRD3"
         exp_list = []
         for filename in os.listdir(os.path.join(self.data_dir, data_name)):
-            if filename == "README.md": continue
+            if filename == "readme.txt": continue
             if filename == "LICENSE": continue
             exp_list.append(filename)
         for mode in ["train", "val", "test"]:
@@ -589,7 +589,7 @@ class PreProcessData(object):
     def copy_example(self):
         source_dir = self.save_dir
         target_dir = "/home/qkun/projs/TOD-Project/Datasets/Dialogue-Summarization_PROCESSED/"
-        file_list = ["converted_examples.json", "original_examples.json", "README.md", "LICENSE"]
+        file_list = ["converted_examples.json", "original_examples.json", "readme.txt", "LICENSE"]
         for dir_name in sorted(os.listdir(source_dir)):
             if os.path.isfile(os.path.join(source_dir, dir_name)): continue
             if not os.path.exists(os.path.join(target_dir, dir_name)): os.makedirs(os.path.join(target_dir, dir_name))

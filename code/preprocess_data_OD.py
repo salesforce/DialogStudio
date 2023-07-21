@@ -547,7 +547,7 @@ class PreProcessData(object):
         for target_dir in [ "/home/qkun/projs/TOD-Project/Datasets/Open-Domain_PROCESSED/", "/home/qkun/projs/DialogStudio-Release/open-domain-dialogues/"]:
             # target_dir = "/home/qkun/projs/TOD-Project/Datasets/Open-Domain_PROCESSED/"
             # target_dir2 = "/home/qkun/projs/DialogStudio-Release/open-domain-dialogues/"
-            file_list = ["converted_examples.json", "original_examples.json", "README.md", "LICENSE"]
+            file_list = ["converted_examples.json", "original_examples.json", "readme.txt", "LICENSE"]
             for dir_name in sorted(os.listdir(source_dir)):
                 if os.path.isfile(os.path.join(source_dir, dir_name)): continue
                 if not os.path.exists(os.path.join(target_dir, dir_name)): os.makedirs(os.path.join(target_dir, dir_name))
