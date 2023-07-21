@@ -1,0 +1,105 @@
+,Datasets,,Year,Paper,GitHub,License
+,BANKING77-OOS,2,,,,
+,BANKING77,3,ACL 2020 NLP4ConvAI,BANKING77,,
+,RESTAURANTS8K ,4,ACL 2020,RESTAURANTS8K,,
+,CLINC150,5,EMNLP 2019,CLINC150,GitHub,CC BY 3.0
+,CLINC-Single-Domain-OOS-banking,6,,Paper,GitHub,CC BY 3.0
+,CLINC-Single-Domain-OOS-credit_cards,7,,Paper,GitHub,CC BY 3.0
+,HWU64,8,IWSDS 2019,HWU64,GitHub,CC BY 4.0
+,SNIPS,9,ArXiv 2018,SNIPS,GitHub,Apache License 2.0
+,SNIPS-NER,10,ArXiv 2018,SNIPS,GitHub,Apache License 2.0
+,DSTC8-SGD ,11,ACL 2020,DSTC8,GitHub,CC BY-SA 4.0
+,TOP ,12,EMNLP 2018,TOP,GitHub,CC-BY-SA
+,TOP-NER,13,EMNLP 2018,TOP,GitHub,CC-BY-SA
+,ATIS-NER,14,EMNLP 2018,TOP,GitHub,CC-BY-SA
+,ATIS,15,Speed and NLP 1990,Paper,GitHub,No License
+,MIT-MOVIE,16,ICASSP 2013,Paper,Corpus,BSD license
+,MIT-RESTAURANT,17,,,,
+Task-Oriented Dialog,MultiWOZ 2.2,1,ACL NLP4CONV AI,MultiWOZ 2.2,GitHub,Mit License
+,KVRET,2,SIGDIAL 2017,KVRET,Data Webpage,No License
+,WOZ 2.0,3,ACL 2017,WOZ 2.0,Github,Apache License 2.0
+,DSTC2-CLEAN,4,,DSTC2-CLEAN,Dataset,"GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007"
+,FRAMES,5,SIGDIAL 2017,FRAMES,"Dataset Code
+USR-USR-SYS-USR-USR","GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007"
+,SGD,6,AAAI 2020,SGD,GitHub,CC BY-SA 4.0
+,MulDoGo,7,EMNLP 2019,MulDoGo,GitHub Further processing,Community Data License Agreement – Permissive – Version 1.0
+,TaskMaster1,8,EMNLP 2019,Github Datasets,Github Datasets,Attribution 4.0 International (CC BY 4.0)
+,TaskMaster2,9,,,,Creative Commons Attribution 4.0 License (CC BY 4.0)
+,TaskMaster3,10,,,,Creative Commons Attribution 4.0 License (CC BY 4.0)
+,BiTOD,11,NeurIPS 2021 Workshop,BITOD,GitHub,Apache License 2.0
+,SimJoint-Movie,12,NAACL 2018,SimJoint,Github (GALAXY also uses the valid/test datasets),No license
+,SimJoint-Restaurant,13,,,,
+,SimJoint-GEN,14,,,,
+,AirDialogue v1_2,15,EMNLP 2018,Paper,GitHub,Apache License Version 2.0
+,MetaLWOz,18,Sigdial 2019,Paper/download_link/github,Github,MICROSOFT RESEARCH OPEN DATA LICENSE TERMS
+,STAR,19,CL 2020,STAR,GitHub,MIT License
+,SalesBot,20,ACL 2022,Paper,Github,No License
+,KETOD,21,NAACL 2022,Paper,Github,MiT License
+,CraigslistBargains,22,EMNLP 2018,Paper,GitHub,MIT License
+,MS-DC,23,Arxiv 2018,Paper,GitHub,MICROSOFT LICENSE TERMS (Not allowed to distrubute)
+,CaSiNo,25,NAACL 2021,Paper,Github,CC BY 4.0
+,ABCD,26,NAACL 2021,Paper,github,MIT License
+,HDSA-Dialog,28,ACL 2019,Paper,GitHub,MIT License
+,GECOR,29,EMNLP 2019,Paper,GitHub,CC BY 4.0
+,MuDoCo,30,LREC 2020,Paper,Data Github,Attribution-NonCommercial 4.0 International
+,Disambiguation,,NAACL 2022,Paper,Github,MiT License
+,MultiWOZ 2.1,,,,,
+DialogSummarization,TweetSumm,,COLING20,paper,github,Creative Commons Legal CodeCC0 1.0 Universal
+,SAMSum,,EMNLP19,paper,HF,non-commercial licence: CC BY-NC-ND 4.0
+,DialogSum,,Findings of ACL21,paper,github,MIT License
+,AMI,,-,paper,github,Creative Commons Attribution 4.0 International Licence (CC BY 4.0)
+,ICSI,,ICASSP 2005,paper,github,Creative Commons Attribution 4.0 International Licence (CC BY 4.0)
+,QMSum,,NAACL 2021,Paper,Github,MIT License
+,MediaSum,,NAACL 2021,Paper,GitHub,No license
+,ECTSum,,EMNLP 2022,ECTSum: A New Benchmark Dataset For Bullet Point Summarization of Long Earnings Call Transcripts,GitHub,No License
+,SummScreen_ForeverDreaming,,ACL 2022,Paper,GitHub,No License
+,SummScreen_TVMegaSite,,ACL 2022,,,
+,CRD3,,ACL 2020,Paper,GitHub,CC BY-SA 4.0
+,ConvoSumm,,ACL2021,ConvoSumm: Conversation Summarization Benchmark and Improved Abstractive Summarization with Argument Mining,GitHub,CC BY-SA 4.0
+Conversational Recommendation,Redial,,NeurIPS 2018,Paper,Data Website,CC BY 4.0
+,OpenDialKG,,ACL 2019,Paper,Data Github,CC-BY-NC-4.0
+,DuRecDial 2.0,,EMNLP 2021,Paper,Data Github,"Apache License 2.0,"
+,INSPIRED,,EMNLP 2020,Paper,Data Github,No License
+Open-domain Dialog,SODA,,Arxiv 2023,Paper,GitHub,Mit License
+,Prosocial,,EMNLP 2022,Paper,GitHub,MiT License
+,HH-RLHF,,Arxiv 2022,Paper,Hugginface,MiT License
+,ChitCHAT,,ICAART 2020,Paper,GitHub,MiT License
+,Empathetic,,ACL 2019,Paper,Github,cc-by-nc-4.0
+,PLACES3.5,,EACL 2023,Paper,GIthub,CC BY-NC 4.0
+,antiscam,,AAAI 2020,Paper,Gitlab,MiT License
+,ConvAI2,,DSTC 2019,Paper,Github,Apache 2.0
+,CoQA,,TACL 2019,Paper,Github,MiT License
+,Wizard_of_Wikipedia,,ICLR 2019,Paper,GitHub,CC BY 4.0
+,Wizard_of_Internet,,ACL 2022,Paper,GitHub,CC BY 4.0
+,Spider,,EMNLP 2018,Paper,GitHub,CC BY-SA 4.0
+,GrailQA,,WWW 2021,Paper,GitHub,Apache License 2.0
+,WebQSP,,ACL 2016,Paper,Data Website,No License
+,MTOP,,EACL 2021,Paper,GitHub,CC BY-SA 4.0
+,WikiSQL,,ArXiv 2017,Paper,GitHub,BSD 3-Clause License
+,WikiTQ,,ACL 2015,Paper,GitHub,CC BY-SA 4.0
+,CompWebQ,,NAACL 2018,Paper,Data Website,"GNU General Public License, version 2"
+,HybridQA,,EMNLP 2020,Paper,GitHub,MIT License
+,MultiModalQA,,ICLR 2021,Paper,GitHub,No License
+,FeTaQA,,TACL 2022,Paper,GitHub,CC BY-SA 4.0
+,DART,,NAACL 2021,Paper,GitHub,MIT License
+,ToTTo,,EMNLP 2020,Paper,GitHub,CC BY-SA 3.0
+,SParC,,ACL 2019,Paper,Data Website,CC BY-SA 4.0
+,CoSQL,,EMNLP 2019,Paper,Data Website,CC BY-SA 4.0
+,SQA,,ACL 2017,Paper,Data Website,CC BY-SA 4.0
+,UnifiedQA,Maybe we don't need to add it to main table as the datasets are too common and can be found in many places,,,,
+,SQuAD,,,,Squad,CC BY 4.0
+,SQuAD 2.0,,,,HuggingFace,CC BY-SA 4.0
+,NewsQA,,,,Huggingface,MiT License
+,Quoref,,,,Huggingface,CC BY 4.0
+,ROPES,,,,Huggingface,CC BY 4.0
+,NarrativeQA,,,,Huggingface,Apache License 2.0
+,Drop,,,,Huggingface,CC BY-SA 4.0
+,MCtest,,,,Huggingface,No License
+,NaturalQuestions,,,,Huggingface,CC BY-SA 3.0
+,RACE,,,,GitHub,MiT License
+,OpenBook QA,,EMNLP 2018,Paper,GitHub,Aoache License 2.0
+,QASC,,,,Huggingface,CC BY 4.0
+,PhysicalIQA,,,,Huggingface,No License
+,SocialIQA,,EMNLP 2019,Paper,Webpage,No License
+,MultiRC,,,,Webpage,No License
+,CommensenseQA,,NAACL 2019,Paper,Webpage,MIT license
