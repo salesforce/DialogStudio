@@ -18,7 +18,9 @@
 
 ### Datasets
 <!-- Check [DialogStudio_datasets.csv](https://docs.google.com/spreadsheets/d/10U9I4GoHFTYxl3OlzbbV0gmXerMT9Itn2MZs8t6AIK0/edit#gid=461625820) for all supported datasets. -->
-The figure below provides a summary of the general statistics associated with DialogStudio.  For more granular and category-specific details, please refer to the individual folders corresponding to each category within the DialogStudio collection. 
+The figure below provides a summary of the general statistics associated with DialogStudio. DialogStudio unified each dataset while preserving their original information, and this aids in supporting research on both individual datasets and Large Language Model (LLM) training. 
+
+For more granular and category-specific details, please refer to the individual folders corresponding to each category within the DialogStudio collection. 
 <p align="center">
     <br>
     <img src="figures/DialogStudio_Stats.png" width="730"/>
@@ -83,7 +85,7 @@ DatasetDict({
 ```
 
 # Model
-We've rolled out version 1.0 of models trained on a few selected DialogStudio datasets. Built on small-scale pre-trained models, this version does not incorporate datasets utilized for training large-scale models (>=7B) like Alpaca, ShareGPT, GPT4ALL, UltraChat from OpenAI's 'GPT-3.5/4', or other datasets such as OASST1 and WizardCoder. As a result, it has certain limitations in terms of writing and creative capabilities. Our initial focus is to update the model versions to enhance existing abilities. Further improvements, including expansion of other capabilities, are part of our roadmap and will be responsive to community requests.
+We've rolled out version 1.0 of models trained on a few selected DialogStudio datasets. Built on small-scale pre-trained models, this version does not incorporate datasets utilized for training large-scale models (>=7B) like Alpaca, ShareGPT, GPT4ALL, UltraChat from OpenAI's 'GPT-3.5/4', or other datasets such as OASST1 and WizardCoder (Note that DialogStudio has unified such datasets).  As a result, it has certain limitations in terms of writing and creative capabilities. Our initial focus is to update the model versions to enhance existing abilities. Further improvements, including expansion of other capabilities, are part of our roadmap and will be responsive to community requests.
 
 # Contributing
 We enthusiastically invite contributions from the community! Join us in our shared mission to propel the field of conversational AI forward!
@@ -101,10 +103,11 @@ Our project follows the following structure with respect to licensing:
 2. Original dataset licenses: For reference, we also put the original available licenses for each dataset into their respective dataset folders.
 3. Code: Our codebase is under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0).
 
-For detailed licensing information, please refer to the specific licenses accompanying the datasets. If you utilize datasets from DialogStudio, we kindly request that you cite our work.
+For detailed licensing information, please refer to the specific licenses accompanying the datasets. It is important to familiarize yourself with these terms as we do not assume responsibility for licensing issues.
 
 # Citation
-The data and code in this repository is mostly developed for or derived from the paper below. Please cite it if you find the repository helpful.
+The data and code in this repository is mostly developed for or derived from the paper below. If you utilize datasets from DialogStudio, we kindly request that you cite both the original work and our own.
+
 ```
 @misc{zhang2023dialogstudio,
       title={DialogStudio: Towards Richest and Most Diverse Unified Dataset Collection for Conversational AI}, 
