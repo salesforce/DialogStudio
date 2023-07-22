@@ -106,6 +106,7 @@ Datasets/
 
 
 ## Model
+(Will update soon)
 
 We've rolled out version 1.0 of models trained on a few selected DialogStudio datasets. Built on small-scale pre-trained models, this version does not incorporate datasets utilized for training large-scale models (>=7B) like Alpaca, ShareGPT, GPT4ALL, UltraChat from OpenAI's 'GPT-3.5/4', or other datasets such as OASST1 and WizardCoder (Note that DialogStudio has unified such datasets).  As a result, it has certain limitations in terms of writing and creative capabilities. Our initial focus is to update the model versions to enhance existing abilities. Further improvements, including expansion of other capabilities, are part of our roadmap and will be responsive to community requests.
 
