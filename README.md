@@ -16,7 +16,7 @@
 
 ## News!
 
-* [Initial Release] July 2023, initial release of a largest unified Dialog dataset collection. The full list of all avaialbel datasets is [here](./DialogOhana.csv)
+* [Initial Release] July 2023, the initial release of the largest unified Dialog dataset collection. The full list of all available datasets is [here](./Dataset_Stats.csv)
 
 ## Contents
 
@@ -31,7 +31,7 @@
 
 <!-- Check [DialogStudio_datasets.csv](https://docs.google.com/spreadsheets/d/10U9I4GoHFTYxl3OlzbbV0gmXerMT9Itn2MZs8t6AIK0/edit#gid=461625820) for all supported datasets. -->
 DialogStudio is a large collection and unified dialog datasets. 
-The figure below provides a summary of the general statistics associated with DialogStudio. DialogStudio unified each dataset while preserving their original information, and this aids in supporting research on both individual datasets and Large Language Model (LLM) training. The full list of all avaialbel datasets is [here](./DialogOhana.csv).
+The figure below provides a summary of the general statistics associated with DialogStudio. DialogStudio unified each dataset while preserving its original information, and this aids in supporting research on both individual datasets and Large Language Model (LLM) training. The full list of all available datasets is [here](./DialogOhana.csv).
 
 The data are downloadable through Huggingface as introduced in [Loading Data](#loading-data). We also provide examples for each dataset in this repo. For more granular and category-specific details, please refer to the individual folders corresponding to each category within the DialogStudio collection, e.g. [MULTIWOZ_2_2](./task-oriented-dialogues/MULTIWOZ2_2/) dataset under the [task-oriented-dialogues](./task-oriented-dialogues/) category. 
 <p align="center">
@@ -44,7 +44,7 @@ DialogStudio evaluates dialogue quality based on six critical criteria, namely U
 
 Given the vast number of datasets incorporated into DialogStudio, we utilized 'gpt-3.5-turbo' to assess 33 distinct datasets. The corresponding script used for this evaluation can be accessed through the [link](https://github.com/salesforce/DialogStudio/blob/main/code/openai_dialog_quality_evaluation.py). 
 
-The results of our dialogue quality assessment are presented below. We intend to release evaluation scores for individual selected dialogues in the upcoming period.
+The results of our dialogue quality assessment are presented below. We intend to release evaluation scores for individually selected dialogues in the upcoming period.
 <p align="center">
     <br>
     <img src="figures/DialogStudio_Quality_Scores.png" width="700"/>
@@ -54,7 +54,7 @@ The results of our dialogue quality assessment are presented below. We intend to
 
 ## Loading Data
 
-You can load any dataset in the DialogStudio from the [HuggingFace hub](https://huggingface.co/datasets/Salesforce/dialogstudio) by claiming the `{dataset_name}`, which are exactly the dataset folder name. All available datasets are described in [dataset content](./DialogOhana.csv).
+You can load any dataset in the DialogStudio from the [HuggingFace hub](https://huggingface.co/datasets/Salesforce/dialogstudio) by claiming the `{dataset_name}`, which is exactly the dataset folder name. All available datasets are described in [dataset content](./DialogOhana.csv).
 
 Below is one example to load the [MULTIWOZ_2_2](./task-oriented-dialogues/MULTIWOZ2_2/) dataset under the [task-oriented-dialogues](./task-oriented-dialogues/) category:
 
@@ -117,7 +117,7 @@ Our project follows the following structure with respect to licensing:
    - A portion of these datasets is under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0).
    - Some retain their original licenses even after modification.
    - For a few datasets that lacked a license, we have cited the relevant papers.
-2. Original dataset licenses: For reference, we also put the original available licenses for each dataset into their respective dataset folders.
+2. Original dataset licenses: For reference, we also put the originally available licenses for each dataset into their respective dataset folders.
 3. Code: Our codebase is under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0).
 
 For detailed licensing information, please refer to the specific licenses accompanying the datasets. It is important to familiarize yourself with these terms as we do not assume responsibility for licensing issues.
