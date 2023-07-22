@@ -18,6 +18,7 @@
 
 * [Initial Release] July 2023, we're thrilled to the initial release of the largest unified Dialog dataset collection. The full list of all available datasets is [here](./Dataset_Stats.csv). You can also view our temporary [Google Sheets](https://docs.google.com/spreadsheets/d/1P6bjureUcVtYGNnKOhKpcAV3nmPGpB6Lp_MqXC-q3wY/edit?pli=1#gid=0) for a color-coded overview. 
 
+* [TODO]: Prompts for selected KG-Dial and NLU datasets will be uploaded from local on Next Monday.
 
 ## Contents
 
