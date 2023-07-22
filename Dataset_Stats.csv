@@ -1,0 +1,87 @@
+Category,Data_name,Index,Year,License,Train,Validation,Test,Total
+Natural Language Understanding,ATIS,1,Speed and NLP 1990,No License,4478,500,893,5871
+Natural Language Understanding,ATIS-NER,2,EMNLP 2018,CC-BY-SA,4478,500,893,5871
+Natural Language Understanding,BANKING77,3,ACL 2020 NLP4ConvAI,CC BY 4.0,8622,1540,3080,13242
+Natural Language Understanding,BANKING77-OOS,4,ACL 2020 NLP4ConvAI,CC BY 4.0,5905,1506,2000,9411
+Natural Language Understanding,CLINC-Single-Domain-OOS-banking,5,EMNLP 2020,CC BY 3.0,500,500,500,1500
+Natural Language Understanding,CLINC-Single-Domain-OOS-credit_cards,6,EMNLP 2021,CC BY 3.0,500,500,500,1500
+Natural Language Understanding,CLINC150,7,EMNLP 2019,CC BY 3.0,15000,3000,4500,22500
+Natural Language Understanding,DSTC8-SGD,8,ACL 2020,CC BY-SA 4.0,1402,0,481,1883
+Natural Language Understanding,HWU64,9,IWSDS 2019,CC BY 4.0,8954,1076,1076,11106
+Natural Language Understanding,MIT-Movie,10,ICASSP 2013,BSD license,17590,0,4395,21985
+Natural Language Understanding,MIT-Restaurant,11,ICASSP 2014,BSD license,7660,0,1521,9181
+Natural Language Understanding,RESTAURANTS8K,12,ACL 2020,CC BY 4.0,4613,0,2379,6992
+Natural Language Understanding,SNIPS,13,ArXiv 2018,Apache License 2.0,13084,700,700,14484
+Natural Language Understanding,SNIPS-NER,14,ArXiv 2018,Apache License 2.0,13084,700,700,14484
+Natural Language Understanding,TOP,15,EMNLP 2018,CC-BY-SA,31279,0,9042,40321
+Natural Language Understanding,TOP-NER,16,EMNLP 2018,CC-BY-SA,31279,0,9042,40321
+Task Oriented Dialogue,ABCD,17,NAACL 2021,MIT License,8034,1004,1004,10042
+Task Oriented Dialogue,AirDialogue,18,EMNLP 2018,Apache License Version 2.0,321459,40363,0,361822
+Task Oriented Dialogue,BiTOD,19,NeurIPS 2021 Workshop,Apache License 2.0,2952,295,442,3689
+Task Oriented Dialogue,CaSiNo,20,NAACL 2021,CC BY 4.0,900,30,100,1030
+Task Oriented Dialogue,CraigslistBargains,21,EMNLP 2018,MIT License,4000,570,803,5373
+Task Oriented Dialogue,Disambiguation,22,NAACL 2022,MiT License,8433,999,1000,10432
+Task Oriented Dialogue,DSTC2-Clean,23,ACL 2018,"GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007",1612,506,1117,3235
+Task Oriented Dialogue,FRAMES,24,SIGDIAL 2017,"GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007",1329,0,40,1369
+Task Oriented Dialogue,GECOR,25,EMNLP 2019,CC BY 4.0,676,0,0,676
+Task Oriented Dialogue,HDSA-Dialog,26,ACL 2019,MIT License,8438,1000,1000,10438
+Task Oriented Dialogue,KETOD,27,NAACL 2022,MiT License,4247,545,532,5324
+Task Oriented Dialogue,KVRET,28,SIGDIAL 2017,No License,2425,302,304,3031
+Task Oriented Dialogue,MetaLWOZ,29,Sigdial 2019,MICROSOFT RESEARCH OPEN DATA LICENSE TERMS,37884,0,2319,40203
+Task Oriented Dialogue,MS-DC,30,Arxiv 2018,MICROSOFT LICENSE TERMS (Not allowed to distrubute),10000,0,0,10000
+Task Oriented Dialogue,MuDoCo,31,LREC 2020,Attribution-NonCommercial 4.0 International,6058,691,749,7498
+Task Oriented Dialogue,MulDoGO,32,EMNLP 2019,Community Data License Agreement – Permissive – Version 1.0,59939,1150,2319,63408
+Task Oriented Dialogue,MultiWOZ_2.1,33,LREC 2020,MiT License,8434,999,1000,10433
+Task Oriented Dialogue,MULTIWOZ2_2,34,ACL NLP4CONV AI,Mit License,8437,1000,1000,10437
+Task Oriented Dialogue,SGD,35,AAAI 2020,CC BY-SA 4.0,16142,2482,4201,22825
+Task Oriented Dialogue,SimJointGEN,36,NAACL 2020,No license,100000,10000,10000,120000
+Task Oriented Dialogue,SimJointMovie,37,NAACL 2018,No license,384,120,264,768
+Task Oriented Dialogue,SimJointRestaurant,38,NAACL 2019,No license,1116,349,775,2240
+Task Oriented Dialogue,STAR,39,CL 2020,MIT License,6652,0,0,6652
+Task Oriented Dialogue,Taskmaster1,40,EMNLP 2019,Attribution 4.0 International (CC BY 4.0),6170,769,769,7708
+Task Oriented Dialogue,Taskmaster2,41,,Creative Commons Attribution 4.0 License (CC BY 4.0),17304,0,0,17304
+Task Oriented Dialogue,Taskmaster3,42,,Creative Commons Attribution 4.0 License (CC BY 4.0),22724,17019,17903,57646
+Task Oriented Dialogue,WOZ2_0,43,ACL 2017,Apache License 2.0,600,200,400,1200
+Dialogue Summarization,AMI,44,ICASSP 2005,Creative Commons Attribution 4.0 International Licence (CC BY 4.0),117054,0,0,117054
+Dialogue Summarization,CRD3,45,ACL2021,CC BY-SA 4.0,108,16,16,140
+Dialogue Summarization,DialogSum,46,ACL 2020,CC BY-SA 4.0,12460,500,500,13460
+Dialogue Summarization,ECTSum,47,Findings of ACL21,MIT License,1681,249,495,2425
+Dialogue Summarization,ICSI,48,EMNLP 2022,No License,110254,0,0,110254
+Dialogue Summarization,MediaSum,49,ICASSP 2005,Creative Commons Attribution 4.0 International Licence (CC BY 4.0),443596,10000,10000,463596
+Dialogue Summarization,QMSum,50,NAACL 2021,No license,162,35,35,232
+Dialogue Summarization,SAMSum,51,NAACL 2021,MIT License,14732,818,819,16369
+Dialogue Summarization,TweetSumm,52,EMNLP19,non-commercial licence: CC BY-NC-ND 4.0,879,110,110,1099
+Dialogue Summarization,ConvoSumm,53,ACL 2022,No License,821,200,1000,2021
+Dialogue Summarization,SummScreen_ForeverDreaming,54,ACL 2022,No License,3673,338,337,4348
+Dialogue Summarization,SummScreen_TVMegaSite,55,COLING20,Creative Commons Legal CodeCC0 1.0 Universal,18915,1795,1793,22503
+Conversational Recommendation,Redial,56,EMNLP 2021,"Apache License 2.0,",10006,0,1342,11348
+Conversational Recommendation,INSPIRED,57,EMNLP 2020,No License,800,100,100,1000
+Conversational Recommendation,DuRecDial-2.0,58,ACL 2019,CC-BY-NC-4.0,5678,811,1752,8241
+Conversational Recommendation,OpenDialKG,59,NeurIPS 2018,CC BY 4.0,12302,0,0,12302
+Conversational Recommendation,SalesBot,60,ACL 2022,No License,10277,0,0,10277
+Open Domain Dialogue,AntiScam,61,AAAI 2020,MiT License,220,0,0,220
+Open Domain Dialogue,chitchat-dataset,62,ICAART 2020,MiT License,4018,0,0,4018
+Open Domain Dialogue,ConvAI2,63,DSTC 2019,Apache 2.0,2423,0,0,2423
+Open Domain Dialogue,Empathetic,64,ACL 2019,cc-by-nc-4.0,17802,2761,2541,23104
+Open Domain Dialogue,HH-RLHF,65,Arxiv 2022,MiT License,160800,0,8552,169352
+Open Domain Dialogue,PLACES3.5,66,EACL 2023,CC BY-NC 4.0,5591,0,0,5591
+Open Domain Dialogue,Prosocial,67,EMNLP 2022,MiT License,42304,7132,8701,58137
+Open Domain Dialogue,SODA,68,Arxiv 2023,Mit License,1191582,146346,148968,1486896
+Knowledge Grounded Dialogue,CompWebQ,69,NAACL 2018,"GNU General Public License, version 2",27639,703,2816,31158
+Knowledge Grounded Dialogue,CoQA,70,TACL 2019,MiT License,7199,500,0,7699
+Knowledge Grounded Dialogue,CoSQL,71,EMNLP 2019,CC BY-SA 4.0,4318,586,0,4904
+Knowledge Grounded Dialogue,DART,72,NAACL 2021,MIT License,62659,2768,5097,70524
+Knowledge Grounded Dialogue,FeTaQA,73,TACL 2022,CC BY-SA 4.0,7326,1001,2003,10330
+Knowledge Grounded Dialogue,GrailQA,74,WWW 2021,Apache License 2.0,44337,300,6463,51100
+Knowledge Grounded Dialogue,HybridQA,75,EMNLP 2020,MIT License,62682,3466,0,66148
+Knowledge Grounded Dialogue,MTOP,76,EACL 2021,CC BY-SA 4.0,15667,2235,4386,22288
+Knowledge Grounded Dialogue,MultiModalQA,77,ICLR 2021,No License,15688,1501,0,17189
+Knowledge Grounded Dialogue,SParC,78,ACL 2019,CC BY-SA 4.0,6064,844,0,6908
+Knowledge Grounded Dialogue,Spider,79,EMNLP 2018,CC BY-SA 4.0,7000,1034,0,8034
+Knowledge Grounded Dialogue,SQA,80,ACL 2017,CC BY-SA 4.0,4257,784,1025,6066
+Knowledge Grounded Dialogue,ToTTo,81,EMNLP 2020,CC BY-SA 3.0,120761,7700,0,128461
+Knowledge Grounded Dialogue,WebQSP,82,ACL 2016,No License,2673,309,1639,4621
+Knowledge Grounded Dialogue,WikiSQL,83,ArXiv 2017,BSD 3-Clause License,56355,8421,15878,80654
+Knowledge Grounded Dialogue,WikiTQ,84,ACL 2015,CC BY-SA 4.0,11321,2831,4344,18496
+Knowledge Grounded Dialogue,wizard_of_internet,85,ACL 2022,CC BY 4.0,8614,0,503,9117
+Knowledge Grounded Dialogue,wizard_of_wikipedia,86,ICLR 2019,CC BY 4.0,18430,967,968,20365
