@@ -16,7 +16,8 @@
 
 ## News!
 
-* [Initial Release] July 2023, the initial release of the largest unified Dialog dataset collection. The full list of all available datasets is [here](./Dataset_Stats.csv)
+* [Initial Release] July 2023, we're thrilled to the initial release of the largest unified Dialog dataset collection. The full list of all available datasets is [here](./Dataset_Stats.csv). You can also view our temporary [Google Sheets](https://docs.google.com/spreadsheets/d/1P6bjureUcVtYGNnKOhKpcAV3nmPGpB6Lp_MqXC-q3wY/edit?pli=1#gid=0) for a color-coded overview. 
+
 
 ## Contents
 
@@ -31,7 +32,7 @@
 
 <!-- Check [DialogStudio_datasets.csv](https://docs.google.com/spreadsheets/d/10U9I4GoHFTYxl3OlzbbV0gmXerMT9Itn2MZs8t6AIK0/edit#gid=461625820) for all supported datasets. -->
 DialogStudio is a large collection and unified dialog datasets. 
-The figure below provides a summary of the general statistics associated with DialogStudio. DialogStudio unified each dataset while preserving its original information, and this aids in supporting research on both individual datasets and Large Language Model (LLM) training. The full list of all available datasets is [here](./DialogOhana.csv).
+The figure below provides a summary of the general statistics associated with DialogStudio. DialogStudio unified each dataset while preserving its original information, and this aids in supporting research on both individual datasets and Large Language Model (LLM) training. The full list of all available datasets is [here](./Dataset_Stats.csv).
 
 The data are downloadable through Huggingface as introduced in [Loading Data](#loading-data). We also provide examples for each dataset in this repo. For more granular and category-specific details, please refer to the individual folders corresponding to each category within the DialogStudio collection, e.g. [MULTIWOZ_2_2](./task-oriented-dialogues/MULTIWOZ2_2/) dataset under the [task-oriented-dialogues](./task-oriented-dialogues/) category. 
 <p align="center">
