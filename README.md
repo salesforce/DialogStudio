@@ -12,7 +12,7 @@
 <!-- </div> -->
 <p>
 
-# DialogStudio: Towards Richest and Most Diverse Unified Dataset Collection for Conversational AI
+# DialogStudio: Towards Richest and Most Diverse Unified Dataset Collection and Instruction-Aware Models for Conversational AI
 
 ## News!
 
