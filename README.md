@@ -47,7 +47,7 @@ Given the vast number of datasets incorporated into DialogStudio, we utilized 'g
 The results of our dialogue quality assessment are presented below. We intend to release evaluation scores for individual selected dialogues in the upcoming period.
 <p align="center">
     <br>
-    <img src="figures/DialogStudio_Quality_Scores.png" width="750"/>
+    <img src="figures/DialogStudio_Quality_Scores.png" width="700"/>
     <br>
 <p>
 
@@ -84,7 +84,7 @@ DatasetDict({
 
 ## Datasets
 
-The datasets are split into several categories in this GitHub repository and [HuggingFace hub](https://huggingface.co/datasets/Salesforce/dialogstudio). You can check the [table of dataset](./DialogOhana.csv) for more information. And you can click into each folder to check a few examples:
+The datasets are split into several categories in this GitHub repository and [HuggingFace hub](https://huggingface.co/datasets/Salesforce/dialogstudio). You can check the [table of dataset](./Dataset_Stats.csv) for more information. And you can click into each folder to check a few examples:
 
 - [Knowledge-Grounded-Dialogues](./knowledge-grounded-dialogues/)
 - [Natural-Language-Understanding](./natural-language-understanding/)
