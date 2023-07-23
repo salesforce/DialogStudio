@@ -63,7 +63,7 @@ Below is one example to load the [MULTIWOZ_2_2](./task-oriented-dialogues/MULTIW
 ```python
 from datasets import load_dataset
 
-dataset = load_dataset('Salesforce/dialogstudio', 'MULTIWOZ_2_2')
+dataset = load_dataset('Salesforce/dialogstudio', 'MULTIWOZ2_2')
 ```
 Here is the output structure of MultiWOZ 2.2
 ```python
