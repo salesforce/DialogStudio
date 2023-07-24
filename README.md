@@ -56,7 +56,7 @@ The results of our dialogue quality assessment are presented below. We intend to
 
 ## Loading Data
 
-You can load any dataset in the DialogStudio from the [HuggingFace hub](https://huggingface.co/datasets/Salesforce/dialogstudio) by claiming the `{dataset_name}`, which is exactly the dataset folder name. All available datasets are described in [dataset content](./DialogOhana.csv).
+You can load any dataset in the DialogStudio from the [HuggingFace hub](https://huggingface.co/datasets/Salesforce/dialogstudio) by claiming the `{dataset_name}`, which is exactly the dataset folder name. All available datasets are described in [dataset content](./Dataset_Stats.csv).
 
 Below is one example to load the [MULTIWOZ_2_2](./task-oriented-dialogues/MULTIWOZ2_2/) dataset under the [task-oriented-dialogues](./task-oriented-dialogues/) category:
 
