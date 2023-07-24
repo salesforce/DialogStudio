@@ -123,11 +123,11 @@ We've rolled out version 1.0 of models trained on a few selected DialogStudio da
 Our project follows the following structure with respect to licensing:
 
 1. For all the modified datasets in DialogStudio: 
-   - A portion of these datasets is under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0).
+   - A portion of these datasets is under the [Apache License 2.0](LICENSE.txt).
    - Some retain their original licenses even after modification.
    - For a few datasets that lacked a license, we have cited the relevant papers.
 2. Original dataset licenses: For reference, we also put the originally available licenses for each dataset into their respective dataset folders.
-3. Code: Our codebase is under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0).
+3. Code: Our codebase is under the [Apache License 2.0](LICENSE.txt).
 
 For detailed licensing information, please refer to the specific licenses accompanying the datasets. It is important to familiarize yourself with these terms as we do not assume responsibility for licensing issues.
 
