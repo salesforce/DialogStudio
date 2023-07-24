@@ -13,9 +13,9 @@ import random
 templates = [
     "This is a bot helping users to _____. Given the dialog context and external database, please generate a relevant system response for the user.",
     "This bot assists users to _____. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
-    "This bot helps users to _____. Based on the conversation history and available external data, please generate a relevant system response for the user.",
-    "The purpose of this bot is to assist users to _____. Considering the dialogue context and the information available in the external database, please provide a fitting response for the user.",
-    "This bot is designed to help users _____. By utilizing the current dialog context and external resources, generate a fitting response for the user."
+    "This bot helps users to _____. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
+    "The purpose of this bot is to assist users to _____. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
+    "This bot is designed to help users _____. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
 ]
 
 mapping = {
