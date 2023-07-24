@@ -20,7 +20,7 @@ from collections import defaultdict
 class EvaluateDialogs(object):
     """ Evaluate Dialogs based on OpenAI. To run this:
         pip install openai
-        pip intall langchain
+        pip install langchain
     """
     def __init__(self):
         self.data_dir = "/Users/jianguozhang/TOD-Family/TOD-Studio/open-source/"
