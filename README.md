@@ -130,6 +130,9 @@ Our project follows the following structure with respect to licensing:
 
 For detailed licensing information, please refer to the specific licenses accompanying the datasets. It is important to familiarize yourself with these terms as we do not assume responsibility for licensing issues.
 
+## Acknowledgement
+We sincerely thank all dataset authors who have contributed to the Conversational AI field. Despite careful efforts, inaccuracies in our citations or references may occur. If you spot any errors or omissions, please raise an issue or submit a pull request to help us improve. Thank you!
+
 ## Citation
 
 The data and code in this repository is mostly developed for or derived from the paper below. If you utilize datasets from DialogStudio, we kindly request you cite both the original work and our own.
