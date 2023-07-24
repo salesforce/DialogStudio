@@ -25,3 +25,7 @@ Below is a general format for knowledge-grounded dialogues:
 }
 ```
 Please refer to each dataset folder for more details.
+
+
+Acknowledgement: Under this folder, a portion of the datasets has been further refined based on the work done by [UnifiedSKG](https://github.com/HKUNLP/UnifiedSKG). We extend our profound appreciation for their valuable work. If you use their work, please also give them due citation. Thank you!
+
