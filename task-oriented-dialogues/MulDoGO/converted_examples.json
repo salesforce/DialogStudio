@@ -2,7 +2,9 @@
     "MulDoGO--train--1": {
         "original dialog id": "0db9fadd-de84-43cd-a92f-a61da85844ec",
         "dialog index": 1,
-        "original dialog info": {},
+        "original dialog info": {
+            "domain": "airline"
+        },
         "log": [
             {
                 "turn id": 1,
@@ -17,7 +19,9 @@
                         "openinggreeting"
                     ]
                 },
-                "original system side information": {}
+                "original system side information": {},
+                "dst": "adsf",
+                "dst accumulated": ""
             },
             {
                 "turn id": 2,
@@ -32,7 +36,9 @@
                         "getseatinfo"
                     ]
                 },
-                "original system side information": {}
+                "original system side information": {},
+                "dst": "adsf",
+                "dst accumulated": ""
             },
             {
                 "turn id": 3,
@@ -47,7 +53,9 @@
                         "contentonly"
                     ]
                 },
-                "original system side information": {}
+                "original system side information": {},
+                "dst": "adsf",
+                "dst accumulated": ""
             },
             {
                 "turn id": 4,
@@ -62,7 +70,9 @@
                         "confirmation"
                     ]
                 },
-                "original system side information": {}
+                "original system side information": {},
+                "dst": "adsf",
+                "dst accumulated": ""
             },
             {
                 "turn id": 5,
@@ -77,7 +87,9 @@
                         "confirmation"
                     ]
                 },
-                "original system side information": {}
+                "original system side information": {},
+                "dst": "adsf",
+                "dst accumulated": ""
             }
         ],
         "external knowledge non-flat": {
@@ -91,15 +103,17 @@
         "prompt": [
             "This is a bot helping users to book a flight ticket. Given the dialog context and external database, please generate a relevant system response for the user.",
             "This bot assists users to book a flight ticket. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
-            "This bot helps users to book a flight ticket. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
-            "The purpose of this bot is to assist users to book a flight ticket. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
-            "This bot is designed to help users book a flight ticket. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+            "This bot helps users to book a flight ticket. Based on the conversation history and available external data, please generate a relevant system response for the user.",
+            "The purpose of this bot is to assist users to book a flight ticket. Considering the dialogue context and the information available in the external database, please provide a fitting response for the user.",
+            "This bot is designed to help users book a flight ticket. By utilizing the current dialog context and external resources, generate a fitting response for the user."
         ]
     },
     "MulDoGO--train--2": {
         "original dialog id": "bfe535ee-26cf-43c0-a0b1-52a578b4fc06",
         "dialog index": 2,
-        "original dialog info": {},
+        "original dialog info": {
+            "domain": "airline"
+        },
         "log": [
             {
                 "turn id": 1,
@@ -114,7 +128,9 @@
                         "openinggreeting"
                     ]
                 },
-                "original system side information": {}
+                "original system side information": {},
+                "dst": "adsf",
+                "dst accumulated": ""
             },
             {
                 "turn id": 2,
@@ -129,7 +145,9 @@
                         "changeseatassignment"
                     ]
                 },
-                "original system side information": {}
+                "original system side information": {},
+                "dst": "adsf",
+                "dst accumulated": ""
             },
             {
                 "turn id": 3,
@@ -144,7 +162,9 @@
                         "contentonly"
                     ]
                 },
-                "original system side information": {}
+                "original system side information": {},
+                "dst": "adsf",
+                "dst accumulated": ""
             },
             {
                 "turn id": 4,
@@ -159,7 +179,9 @@
                         "changeseatassignment"
                     ]
                 },
-                "original system side information": {}
+                "original system side information": {},
+                "dst": "adsf",
+                "dst accumulated": ""
             },
             {
                 "turn id": 5,
@@ -174,7 +196,9 @@
                         "contentonly"
                     ]
                 },
-                "original system side information": {}
+                "original system side information": {},
+                "dst": "adsf",
+                "dst accumulated": ""
             },
             {
                 "turn id": 6,
@@ -189,7 +213,9 @@
                         "changeseatassignment"
                     ]
                 },
-                "original system side information": {}
+                "original system side information": {},
+                "dst": "adsf",
+                "dst accumulated": ""
             },
             {
                 "turn id": 7,
@@ -204,7 +230,9 @@
                         "thankyou"
                     ]
                 },
-                "original system side information": {}
+                "original system side information": {},
+                "dst": "adsf",
+                "dst accumulated": ""
             },
             {
                 "turn id": 8,
@@ -219,7 +247,9 @@
                         "rejection"
                     ]
                 },
-                "original system side information": {}
+                "original system side information": {},
+                "dst": "adsf",
+                "dst accumulated": ""
             }
         ],
         "external knowledge non-flat": {
@@ -233,15 +263,17 @@
         "prompt": [
             "This is a bot helping users to book a flight ticket. Given the dialog context and external database, please generate a relevant system response for the user.",
             "This bot assists users to book a flight ticket. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
-            "This bot helps users to book a flight ticket. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
-            "The purpose of this bot is to assist users to book a flight ticket. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
-            "This bot is designed to help users book a flight ticket. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+            "This bot helps users to book a flight ticket. Based on the conversation history and available external data, please generate a relevant system response for the user.",
+            "The purpose of this bot is to assist users to book a flight ticket. Considering the dialogue context and the information available in the external database, please provide a fitting response for the user.",
+            "This bot is designed to help users book a flight ticket. By utilizing the current dialog context and external resources, generate a fitting response for the user."
         ]
     },
     "MulDoGO--train--3": {
         "original dialog id": "16103afa-cb12-4b73-b0a8-59502b1e3f06",
         "dialog index": 3,
-        "original dialog info": {},
+        "original dialog info": {
+            "domain": "airline"
+        },
         "log": [
             {
                 "turn id": 1,
@@ -256,7 +288,9 @@
                         "openinggreeting"
                     ]
                 },
-                "original system side information": {}
+                "original system side information": {},
+                "dst": "adsf",
+                "dst accumulated": ""
             },
             {
                 "turn id": 2,
@@ -271,7 +305,9 @@
                         "changeseatassignment"
                     ]
                 },
-                "original system side information": {}
+                "original system side information": {},
+                "dst": "adsf",
+                "dst accumulated": ""
             },
             {
                 "turn id": 3,
@@ -286,7 +322,9 @@
                         "contentonly"
                     ]
                 },
-                "original system side information": {}
+                "original system side information": {},
+                "dst": "adsf",
+                "dst accumulated": ""
             },
             {
                 "turn id": 4,
@@ -301,7 +339,9 @@
                         "confirmation"
                     ]
                 },
-                "original system side information": {}
+                "original system side information": {},
+                "dst": "adsf",
+                "dst accumulated": ""
             },
             {
                 "turn id": 5,
@@ -316,7 +356,9 @@
                         "confirmation"
                     ]
                 },
-                "original system side information": {}
+                "original system side information": {},
+                "dst": "adsf",
+                "dst accumulated": ""
             },
             {
                 "turn id": 6,
@@ -331,7 +373,9 @@
                         "rejection"
                     ]
                 },
-                "original system side information": {}
+                "original system side information": {},
+                "dst": "adsf",
+                "dst accumulated": ""
             }
         ],
         "external knowledge non-flat": {
@@ -345,15 +389,17 @@
         "prompt": [
             "This is a bot helping users to book a flight ticket. Given the dialog context and external database, please generate a relevant system response for the user.",
             "This bot assists users to book a flight ticket. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
-            "This bot helps users to book a flight ticket. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
-            "The purpose of this bot is to assist users to book a flight ticket. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
-            "This bot is designed to help users book a flight ticket. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+            "This bot helps users to book a flight ticket. Based on the conversation history and available external data, please generate a relevant system response for the user.",
+            "The purpose of this bot is to assist users to book a flight ticket. Considering the dialogue context and the information available in the external database, please provide a fitting response for the user.",
+            "This bot is designed to help users book a flight ticket. By utilizing the current dialog context and external resources, generate a fitting response for the user."
         ]
     },
     "MulDoGO--train--4": {
         "original dialog id": "622ea2fb-aec8-4ecd-aa41-8c274579422b",
         "dialog index": 4,
-        "original dialog info": {},
+        "original dialog info": {
+            "domain": "airline"
+        },
         "log": [
             {
                 "turn id": 1,
@@ -368,7 +414,9 @@
                         "openinggreeting"
                     ]
                 },
-                "original system side information": {}
+                "original system side information": {},
+                "dst": "adsf",
+                "dst accumulated": ""
             },
             {
                 "turn id": 2,
@@ -383,7 +431,9 @@
                         "getseatinfo"
                     ]
                 },
-                "original system side information": {}
+                "original system side information": {},
+                "dst": "adsf",
+                "dst accumulated": ""
             },
             {
                 "turn id": 3,
@@ -398,7 +448,9 @@
                         "contentonly"
                     ]
                 },
-                "original system side information": {}
+                "original system side information": {},
+                "dst": "adsf",
+                "dst accumulated": ""
             },
             {
                 "turn id": 4,
@@ -413,7 +465,9 @@
                         "contentonly"
                     ]
                 },
-                "original system side information": {}
+                "original system side information": {},
+                "dst": "adsf",
+                "dst accumulated": ""
             },
             {
                 "turn id": 5,
@@ -428,7 +482,9 @@
                         "confirmation"
                     ]
                 },
-                "original system side information": {}
+                "original system side information": {},
+                "dst": "adsf",
+                "dst accumulated": ""
             },
             {
                 "turn id": 6,
@@ -439,7 +495,9 @@
                     "slot-labels": [],
                     "intent": []
                 },
-                "original system side information": {}
+                "original system side information": {},
+                "dst": "adsf",
+                "dst accumulated": ""
             },
             {
                 "turn id": 7,
@@ -454,7 +512,9 @@
                         "confirmation"
                     ]
                 },
-                "original system side information": {}
+                "original system side information": {},
+                "dst": "adsf",
+                "dst accumulated": ""
             },
             {
                 "turn id": 8,
@@ -469,7 +529,9 @@
                         "confirmation"
                     ]
                 },
-                "original system side information": {}
+                "original system side information": {},
+                "dst": "adsf",
+                "dst accumulated": ""
             },
             {
                 "turn id": 9,
@@ -484,7 +546,9 @@
                         "getboardingpass"
                     ]
                 },
-                "original system side information": {}
+                "original system side information": {},
+                "dst": "adsf",
+                "dst accumulated": ""
             },
             {
                 "turn id": 10,
@@ -499,7 +563,9 @@
                         "contentonly"
                     ]
                 },
-                "original system side information": {}
+                "original system side information": {},
+                "dst": "adsf",
+                "dst accumulated": ""
             },
             {
                 "turn id": 11,
@@ -514,7 +580,9 @@
                         "confirmation"
                     ]
                 },
-                "original system side information": {}
+                "original system side information": {},
+                "dst": "adsf",
+                "dst accumulated": ""
             },
             {
                 "turn id": 12,
@@ -529,7 +597,9 @@
                         "rejection"
                     ]
                 },
-                "original system side information": {}
+                "original system side information": {},
+                "dst": "adsf",
+                "dst accumulated": ""
             }
         ],
         "external knowledge non-flat": {
@@ -543,15 +613,17 @@
         "prompt": [
             "This is a bot helping users to book a flight ticket. Given the dialog context and external database, please generate a relevant system response for the user.",
             "This bot assists users to book a flight ticket. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
-            "This bot helps users to book a flight ticket. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
-            "The purpose of this bot is to assist users to book a flight ticket. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
-            "This bot is designed to help users book a flight ticket. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+            "This bot helps users to book a flight ticket. Based on the conversation history and available external data, please generate a relevant system response for the user.",
+            "The purpose of this bot is to assist users to book a flight ticket. Considering the dialogue context and the information available in the external database, please provide a fitting response for the user.",
+            "This bot is designed to help users book a flight ticket. By utilizing the current dialog context and external resources, generate a fitting response for the user."
         ]
     },
     "MulDoGO--train--5": {
         "original dialog id": "b2f8257a-e58d-4107-b497-a5de53cbf1b4",
         "dialog index": 5,
-        "original dialog info": {},
+        "original dialog info": {
+            "domain": "airline"
+        },
         "log": [
             {
                 "turn id": 1,
@@ -566,7 +638,9 @@
                         "openinggreeting"
                     ]
                 },
-                "original system side information": {}
+                "original system side information": {},
+                "dst": "adsf",
+                "dst accumulated": ""
             },
             {
                 "turn id": 2,
@@ -581,7 +655,9 @@
                         "getseatinfo"
                     ]
                 },
-                "original system side information": {}
+                "original system side information": {},
+                "dst": "adsf",
+                "dst accumulated": ""
             },
             {
                 "turn id": 3,
@@ -596,7 +672,9 @@
                         "contentonly"
                     ]
                 },
-                "original system side information": {}
+                "original system side information": {},
+                "dst": "adsf",
+                "dst accumulated": ""
             },
             {
                 "turn id": 4,
@@ -611,7 +689,9 @@
                         "contentonly"
                     ]
                 },
-                "original system side information": {}
+                "original system side information": {},
+                "dst": "adsf",
+                "dst accumulated": ""
             },
             {
                 "turn id": 5,
@@ -626,7 +706,9 @@
                         "thankyou"
                     ]
                 },
-                "original system side information": {}
+                "original system side information": {},
+                "dst": "adsf",
+                "dst accumulated": ""
             },
             {
                 "turn id": 6,
@@ -641,7 +723,9 @@
                         "rejection"
                     ]
                 },
-                "original system side information": {}
+                "original system side information": {},
+                "dst": "adsf",
+                "dst accumulated": ""
             }
         ],
         "external knowledge non-flat": {
@@ -655,9 +739,9 @@
         "prompt": [
             "This is a bot helping users to book a flight ticket. Given the dialog context and external database, please generate a relevant system response for the user.",
             "This bot assists users to book a flight ticket. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
-            "This bot helps users to book a flight ticket. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
-            "The purpose of this bot is to assist users to book a flight ticket. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
-            "This bot is designed to help users book a flight ticket. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+            "This bot helps users to book a flight ticket. Based on the conversation history and available external data, please generate a relevant system response for the user.",
+            "The purpose of this bot is to assist users to book a flight ticket. Considering the dialogue context and the information available in the external database, please provide a fitting response for the user.",
+            "This bot is designed to help users book a flight ticket. By utilizing the current dialog context and external resources, generate a fitting response for the user."
         ]
     }
 }

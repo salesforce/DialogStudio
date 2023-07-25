@@ -1,47 +1,172 @@
 [
     {
-        "id": "simulateTOD_0001",
+        "id": "merge_0000",
         "dialog": [
-            "It's a Toyota Corolla.  I love it.  How about you?",
-            "I drive a Honda Civic. It's the best car I've ever owned.",
-            "I love Hondas.  They're so reliable.  Do you have any hobbies?",
-            "I like to write poetry and donate my old clothes. What do you like to do?",
-            "I love to read Stephen King books.  He's one of my favorite authors.",
-            "I haven't read any of his books, but I've heard good things. What's your favorite book of his?",
-            "My favorite of his is The Shining.  Have you seen the movie?  It came out in 1997.",
-            "I've seen it, but it's been so long that I don't remember much about it.",
-            "Is there anything else I can do for you?",
-            "Yes, I'd like to find an Adventure movie.",
-            "I found [count] movie you might like. How about [title]?",
-            "The Aftermath sounds great. That's all I need for now.",
-            "Okay, have a great day. I hope you enjoy the movie. Bye.!."
+            "Guitar is a great instrument. I like to play the piano. What kind of music do you play?",
+            "I play a little bit of everything, but my favorite is jazz. What about you?",
+            "Jazz is great. I love listening to it while traveling. Do you travel much?",
+            "No, I don't travel much. I'd like to travel more, though. Where have you traveled to?",
+            "I've been to a lot of places in Europe and Asia. Where would you like to go?",
+            "You might like to visit places such as Europe?",
+            "Thanks. What are some attractions there?",
+            "[attraction_name] is a place of worship.",
+            "That's interesting.",
+            "What else do you need?",
+            "That was it. Thanks",
+            "Have a nice day!"
+        ],
+        "intent": {
+            "type": [
+                "FindAttractions"
+            ],
+            "position": 4
+        },
+        "transition_candidates": [
+            "You might like to visit places such as Europe?",
+            "There are some great places and places for you, too,, and I find you might like more travel. I think I've ever seen a tourist attraction. I'm pretty sure I'd appreciate it.",
+            "Would you like to see it?",
+            "Where would you like to go?"
+        ],
+        "filename": "Merge_SGD"
+    },
+    {
+        "id": "merge_0001",
+        "dialog": [
+            "Yes, I do. I work as a camp counselor. What do you do for a living?",
+            "I work at a grocery store as a cashier. It's not much, but it pays the bills.",
+            "That's a good job to have. Do you like it? I love camping, so it works for me.",
+            "I do like it. The pay isn't great, but I get to spend time with my family.",
+            "That's great. Family is important. I don't get to see mine very often.",
+            "What do you do for a living?",
+            "Iain softley mitchell nguyen-mccormick",
+            "[count] movie [title] [aggregate_rating]",
+            "baseball is good",
+            "any certain preference?",
+            "games in phoenix, az",
+            "[event_name] [event_location] [date] [time]",
+            "tell me the address",
+            "[address_of_location]",
+            "that sounds good",
+            "have a good one"
         ],
         "intent": {
             "type": [
                 "FindMovies"
             ],
+            "position": 4
+        },
+        "transition_candidates": [
+            "What do you do for a living?",
+            "My dad, not not at all",
+            "i am a scientist. Do you have any of your hobbies?",
+            "I love being outdoors. Is this right? I don't love animals. I don't like to talk about people."
+        ],
+        "filename": "Merge_SGD"
+    },
+    {
+        "id": "merge_0002",
+        "dialog": [
+            "That would be nice. I love to cook. What do you like to do in your spare time?",
+            "I enjoy dressing up and going out to eat. I think I'll be famous someday.",
+            "That sounds like a lot of fun. What kind of food do you dress up as? I love Italian.",
+            "I love italian as well. I usually dress up in costumes for Halloween.",
+            "That sounds fun. Do you have a favorite costume that you've dressed up as before?",
+            "I love dressing as a pirate. What is your favorite holiday? Mine is christmas.",
+            "I love christmas too. I also love halloween. It's my favorite time of year.",
+            "It is a great time of the year. What else do you enjoy doing in your free time?",
+            "You like the time you're staying there. How about the theatre?",
+            "Could you tell me several attractions to go to, preferably in SFO?",
+            "There are [count] attractions you might like. I recommend going to [attraction_name], which is a [category].",
+            "Is the location child-friendly? Can you tell me its contact number?",
+            "The contact number is [phone_number], and the location is not friendly to children.",
+            "Alright, fine. I'd like to watch a film near there.",
+            "I discovered [count] films. What is your opinion about [movie_name], [movie_name], or [movie_name]?",
+            "I'd love captain MArvel. I'd like to see a film I can watch online.",
+            "What sort of films do you enjoy?",
+            "I'd love drama films.",
+            "There are [count] films you may enjoy. Do you enjoy [title], [title], or [title]?",
+            "Do you have other alternatives? I enjoy films directed by Tina Gordon. Comedy films would be wonderful.",
+            "There is [count] film you may enjoy; what do you think about [title]?",
+            "I'd love Little. I'd like to watch the film now.",
+            "Please verify the following information: play [title] with no subtitles.",
+            "Alright, please do so.",
+            "The film began playing",
+            "Thank you for your help.",
+            "Is there anything else I can assist with?",
+            "Nope, thank you for your help.",
+            "Have a pleasant afternoon."
+        ],
+        "intent": {
+            "type": [
+                "FindAttractions"
+            ],
             "position": 7
         },
         "transition_candidates": [
-            "Is there anything else I can do for you?",
-            "What do you think of the movie?",
-            "Are you planning on buying tickets now?",
-            "Could you please confirm that you like to play it. Can I tell you anything else? Is there anything else I can help you with?"
+            "You like the time you're staying there. How about the theatre?",
+            "At least at a lot of times. It is also great.",
+            "What else do you enjoy doing in your free time in your free time?",
+            "It is a lot of fun in your free time. Which city do you like in?"
         ],
-        "filename": "TOD_Simulators"
+        "filename": "Merge_SGD"
     },
     {
-        "id": "simulateTOD_0002",
+        "id": "merge_0003",
         "dialog": [
-            "I'm going surfing. I love it. What do you like to do on your free time?",
-            "I like to garden and spend time with my family. Do you have a favorite place to surf?",
-            "Where would you like to surf?",
-            "I'd like to find a garden in San Francisco.",
-            "I found [count] attractions you might like. How about a park called [attraction_name]?",
-            "Sure, that sounds good.",
-            "You should check out the [category] known as the park, called the Attractionname.",
-            "Okay, great. That's all I need for now.",
-            "Okay, have a nice day. Goodbye for the day. Bye for now!"
+            "I gained a lot of weight. I am trying to get back in shape. How about you?",
+            "I'm trying to lose weight as well. It's hard when you have diabetes.",
+            "I am sorry to hear that. Do you have any hobbies to keep your mind off of it?",
+            "I like to listen to rock music and go to the gym. What do you like to do?",
+            "I enjoy sewing my own clothes. It is relaxing. What kind of music do you listen to?",
+            "I like all kinds of music. My favorite band is the rolling stones. What is your favorite band?",
+            "Your music will work for you! You like the rolling stones. You can find the song!",
+            "Thanks for your help. Now help me find a song to listen to, maybe something throwback from nine years ago, I wanna hear an Electropop song from the album Free Wired",
+            "I found [count] song by [artist] called [track] from their album [album]",
+            "Yup that's good, play it on my living room speaker",
+            "Please confirm you want to play [track] in your living room",
+            "Yes that's good for now",
+            "Enjoy the song!",
+            "Thanks so much",
+            "What else can I do",
+            "Nothing else for now, thanks agian",
+            "Sure thing, have a wonderful day"
+        ],
+        "intent": {
+            "type": [
+                "LookupMusic"
+            ],
+            "position": 5
+        },
+        "transition_candidates": [
+            "Your music will work for you! You like the rolling stones. You can find the song!",
+            "Yes you prefer music from the guitarist is the rolling stones. And what is your favorite music?",
+            "No. You are not playing in the wwba, you may have a favorite playing the wwwma. Your first song has hit many other, the rolling stones awwnns. You could play it in the ww mvba.",
+            "your band is the rolling stones, the rock band is a rock band, a band that's a classic - that's my favorite band,."
+        ],
+        "filename": "Merge_SGD"
+    },
+    {
+        "id": "merge_0004",
+        "dialog": [
+            "I've never been to Chicago, but I've always wanted to go. It's the most populous city in the United States.",
+            "Chicago is a great place to visit. It is the third-largest metropolitan area in the US.",
+            "You want to visit [attraction_name]",
+            "show me good attractions",
+            "where should I look for attractions?",
+            "Look for Chicago attractions",
+            "Look for [attraction_name] which is a tourist attraction",
+            "is it child friendly and what is their phone?",
+            "The number is [phone_number] and it's nice.",
+            "How is the weather on 9th of March?",
+            "Average temperature is [temperature] degrees and [precipitation] percent chance of rain",
+            "I need a cab for two",
+            "Confirm [destination] for [number_of_riders] people and I need a cab.",
+            "Yes, how long and how much?",
+            "Ride for [ride_fare] is booked and it will be [approximate_ride_duration] minutes.",
+            "Thank you very much",
+            "Do you really need anything else?",
+            "No thank you",
+            "Have a good one"
         ],
         "intent": {
             "type": [
@@ -50,107 +175,11 @@
             "position": 1
         },
         "transition_candidates": [
-            "Where would you like to surf?",
-            "What is your favorite city on your calendar?",
-            "What is your location? I found [count] beaches that may be your closest. There are [count] beaches. What do you think about that?",
-            "No, I would recommend a good place for you to search, or a beach you like?"
+            "You want to visit [attraction_name]",
+            "How about that? What city?",
+            "Sure, there are, there are a few things that people love that. I didn't go to the city, but I found it to be quite touristy.",
+            "I thought I had to check out a city that had a city, though, that was not really the city I envisioned it."
         ],
-        "filename": "TOD_Simulators"
-    },
-    {
-        "id": "simulateTOD_0004",
-        "dialog": [
-            "No, I've never played any of those. I'm more of an Xbox gamer myself.",
-            "I used to play a lot of video games when I was younger, but I haven't in a while.",
-            "What kind of games do you like to play? I'm a big fan of first-person shooters.",
-            "I like first person shooters as well. I also like RPGs and adventure games.",
-            "Adventure games are fun. Do you have a favorite adventure game that you've played recently?",
-            "I recently played the Legend of Zelda: Breath of the Wild. Have you played it?",
-            "You may like to play the title in your kitchen. Do you like to play the title on the soundboard?",
-            "Yeah, I'd like to play it on the speaker in the kitchen.",
-            "Please confirm: playing [song_name] on the [playback_device].",
-            "Yes, that's right.",
-            "Okay, so you want to play [title] with no subtitles?",
-            "Yes, please. Who directed it?",
-            "[directed_by] is the director. I will start the movie now.",
-            "Thank you. That's all I need.",
-            "You're welcome. Have a good day. Bye.  [title] is now playing."
-        ],
-        "intent": {
-            "type": [
-                "PlaySong"
-            ],
-            "position": 5
-        },
-        "transition_candidates": [
-            "You may like to play the title in your kitchen. Do you like to play the title on the soundboard?",
-            "I've recently played it. You might like [event_name], [event_name] or [event_name]?",
-            "It was played in a kitchen game.",
-            "I've just started playing the game, though I haven't played it. I haven't. I am also playing the game."
-        ],
-        "filename": "TOD_Simulators"
-    },
-    {
-        "id": "simulateTOD_0005",
-        "dialog": [
-            "I would love to read it.  I love hiking.  What else do you like to do?",
-            "I like to hike too. I also like to travel. I've been to Ireland and Australia.",
-            "I have never been to either of those places.  Have you ever been to New Zealand?",
-            "What do you do for a trip? Whenever you do, you would like to go to New York to visit the famous attractions.",
-            "Yes, I want to go to New York City. I'd like to visit some attractions there.",
-            "I found [count] attractions for you. How about the [attraction_name]? It's a [category].",
-            "Okay, that sounds good.",
-            "Okay, let's confirm the details: You want me to go to [event_location] on [date] at [time], and you want [party_size] people.",
-            "Yes, that's right.",
-            "I'll play [song_name] on the [playback_device], is that okay?",
-            "Yes, please do.",
-            "Sure, please confirm your request to play [title] with no subtitles."
-        ],
-        "intent": {
-            "type": [
-                "FindAttractions"
-            ],
-            "position": 2
-        },
-        "transition_candidates": [
-            "What do you do for a trip? Whenever you do, you would like to go to New York to visit the famous attractions.",
-            "There's a certain trip I would recommend. Is that a trip of interest to a different city?",
-            "I found [count] places to visit. What about you? A nice trip to [destination]. You would have a trip to [destination]. What are you looking for? You'd like to see a visit to [attraction_name].",
-            "So you want to travel.. you have never been to the place."
-        ],
-        "filename": "TOD_Simulators"
-    },
-    {
-        "id": "simulateTOD_0006",
-        "dialog": [
-            "I'm sorry to hear that. Do you have any other pets that you can take with you?",
-            "I don't have any pets right now, but I used to have a dog when I was younger.",
-            "Oh, I see. What kind of dog did you have when you were younger? I love dogs!",
-            "I had a Labrador Retriever. He was the best dog ever.",
-            "Aww, I love labradors! They're so sweet and gentle. What do you like to do for fun?",
-            "I like to watch movies and play video games. I also like to read. What about you?",
-            "Are you looking for another movie?",
-            "I really like fantasy movies. I'd like to find something directed by Hiroyasu Ishida.",
-            "I found [count] movie you might like. How about [title]?",
-            "The Poseidon Adventure sounds great. I want to watch it now.",
-            "Please confirm the following: Play the movie titled Poseodon with subtitles.",
-            "Yes, that's right.",
-            "Please confirm: Playing [title] with sub titles: Enjoy the movie.",
-            "Yes, thank you.",
-            "The movie has started playing. Enjoy your movie. Hope you enjoy the same. Bye."
-        ],
-        "intent": {
-            "type": [
-                "FindMovies"
-            ],
-            "position": 5
-        },
-        "transition_candidates": [
-            "Are you looking for another movie?",
-            "Do you have any other hobbies?",
-            "Do you like movies? I like to watch them. I like to watch them in real time. I like watching them.",
-            "Is there anything else I can help you with?"
-        ],
-        "filename": "TOD_Simulators"
+        "filename": "Merge_SGD"
     }
 ]

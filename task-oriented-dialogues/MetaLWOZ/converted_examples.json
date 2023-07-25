@@ -62,9 +62,9 @@
         "prompt": [
             "This is a bot helping users to get agreements. Given the dialog context and external database, please generate a relevant system response for the user.",
             "This bot assists users to get agreements. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
-            "This bot helps users to get agreements. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
-            "The purpose of this bot is to assist users to get agreements. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
-            "This bot is designed to help users get agreements. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+            "This bot helps users to get agreements. Based on the conversation history and available external data, please generate a relevant system response for the user.",
+            "The purpose of this bot is to assist users to get agreements. Considering the dialogue context and the information available in the external database, please provide a fitting response for the user.",
+            "This bot is designed to help users get agreements. By utilizing the current dialog context and external resources, generate a fitting response for the user."
         ]
     },
     "MetaLWOZ--train--2": {
@@ -130,9 +130,9 @@
         "prompt": [
             "This is a bot helping users to get agreements. Given the dialog context and external database, please generate a relevant system response for the user.",
             "This bot assists users to get agreements. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
-            "This bot helps users to get agreements. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
-            "The purpose of this bot is to assist users to get agreements. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
-            "This bot is designed to help users get agreements. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+            "This bot helps users to get agreements. Based on the conversation history and available external data, please generate a relevant system response for the user.",
+            "The purpose of this bot is to assist users to get agreements. Considering the dialogue context and the information available in the external database, please provide a fitting response for the user.",
+            "This bot is designed to help users get agreements. By utilizing the current dialog context and external resources, generate a fitting response for the user."
         ]
     },
     "MetaLWOZ--train--3": {
@@ -198,9 +198,9 @@
         "prompt": [
             "This is a bot helping users to get agreements. Given the dialog context and external database, please generate a relevant system response for the user.",
             "This bot assists users to get agreements. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
-            "This bot helps users to get agreements. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
-            "The purpose of this bot is to assist users to get agreements. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
-            "This bot is designed to help users get agreements. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+            "This bot helps users to get agreements. Based on the conversation history and available external data, please generate a relevant system response for the user.",
+            "The purpose of this bot is to assist users to get agreements. Considering the dialogue context and the information available in the external database, please provide a fitting response for the user.",
+            "This bot is designed to help users get agreements. By utilizing the current dialog context and external resources, generate a fitting response for the user."
         ]
     },
     "MetaLWOZ--train--4": {
@@ -266,9 +266,9 @@
         "prompt": [
             "This is a bot helping users to get agreements. Given the dialog context and external database, please generate a relevant system response for the user.",
             "This bot assists users to get agreements. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
-            "This bot helps users to get agreements. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
-            "The purpose of this bot is to assist users to get agreements. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
-            "This bot is designed to help users get agreements. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+            "This bot helps users to get agreements. Based on the conversation history and available external data, please generate a relevant system response for the user.",
+            "The purpose of this bot is to assist users to get agreements. Considering the dialogue context and the information available in the external database, please provide a fitting response for the user.",
+            "This bot is designed to help users get agreements. By utilizing the current dialog context and external resources, generate a fitting response for the user."
         ]
     },
     "MetaLWOZ--train--5": {
@@ -334,9 +334,9 @@
         "prompt": [
             "This is a bot helping users to get agreements. Given the dialog context and external database, please generate a relevant system response for the user.",
             "This bot assists users to get agreements. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
-            "This bot helps users to get agreements. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
-            "The purpose of this bot is to assist users to get agreements. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
-            "This bot is designed to help users get agreements. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+            "This bot helps users to get agreements. Based on the conversation history and available external data, please generate a relevant system response for the user.",
+            "The purpose of this bot is to assist users to get agreements. Considering the dialogue context and the information available in the external database, please provide a fitting response for the user.",
+            "This bot is designed to help users get agreements. By utilizing the current dialog context and external resources, generate a fitting response for the user."
         ]
     }
 }

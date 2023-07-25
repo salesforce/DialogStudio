@@ -1,5 +1,5 @@
 {
-    "Tweetsumm--train--1": {
+    "TweetSumm--train--1": {
         "original dialog id": "b065262210783596c1fe79466b8f8985",
         "dialog index": 1,
         "original dialog info": {
@@ -85,39 +85,40 @@
         "log": [
             {
                 "turn id": 1,
-                "user utterance": " So neither my iPhone nor my Apple Watch are recording my steps/activity, and Health doesn\u2019t recognise either source anymore for some reason. Any ideas? please read the above.",
-                "system response": " Let\u2019s investigate this together. To start, can you tell us the software versions your iPhone and Apple Watch are running currently?",
+                "user utterance": "So neither my iPhone nor my Apple Watch are recording my steps/activity, and Health doesn\u2019t recognise either source anymore for some reason. Any ideas? https://t.co/m9DPQbkftD @AppleSupport please read the above.",
+                "system response": "@135060 Let\u2019s investigate this together. To start, can you tell us the software versions your iPhone and Apple Watch are running currently?",
                 "dialog history": "",
                 "original user side information": {},
                 "original system side information": {}
             },
             {
                 "turn id": 2,
-                "user utterance": " My iPhone is on 11.1.2, and my watch is on 4.1.",
-                "system response": " Thank you. Have you tried restarting both devices since this started happening?",
-                "dialog history": "<USR>  So neither my iPhone nor my Apple Watch are recording my steps/activity, and Health doesn\u2019t recognise either source anymore for some reason. Any ideas? please read the above. <SYS>  Let\u2019s investigate this together. To start, can you tell us the software versions your iPhone and Apple Watch are running currently?",
+                "user utterance": "@AppleSupport My iPhone is on 11.1.2, and my watch is on 4.1.",
+                "system response": "@135060 Thank you. Have you tried restarting both devices since this started happening?",
+                "dialog history": "<USER> So neither my iPhone nor my Apple Watch are recording my steps/activity, and Health doesn\u2019t recognise either source anymore for some reason. Any ideas? https://t.co/m9DPQbkftD @AppleSupport please read the above. <SYSTEM> @135060 Let\u2019s investigate this together. To start, can you tell us the software versions your iPhone and Apple Watch are running currently?",
                 "original user side information": {},
                 "original system side information": {}
             },
             {
                 "turn id": 3,
-                "user utterance": " I\u2019ve restarted both, also un-paired then re-paired the watch.",
-                "system response": " Got it. When did you first notice that the two devices were not talking to each other. Do the two devices communicate through other apps such as Messages?",
-                "dialog history": "<USR>  So neither my iPhone nor my Apple Watch are recording my steps/activity, and Health doesn\u2019t recognise either source anymore for some reason. Any ideas? please read the above. <SYS>  Let\u2019s investigate this together. To start, can you tell us the software versions your iPhone and Apple Watch are running currently? <USR>  My iPhone is on 11.1.2, and my watch is on 4.1. <SYS>  Thank you. Have you tried restarting both devices since this started happening?",
+                "user utterance": "@AppleSupport I\u2019ve restarted both, also un-paired then re-paired the watch.",
+                "system response": "@135060 Got it. When did you first notice that the two devices were not talking to each other. Do the two devices communicate through other apps such as Messages?",
+                "dialog history": "<USER> So neither my iPhone nor my Apple Watch are recording my steps/activity, and Health doesn\u2019t recognise either source anymore for some reason. Any ideas? https://t.co/m9DPQbkftD @AppleSupport please read the above. <SYSTEM> @135060 Let\u2019s investigate this together. To start, can you tell us the software versions your iPhone and Apple Watch are running currently? <USER> @AppleSupport My iPhone is on 11.1.2, and my watch is on 4.1. <SYSTEM> @135060 Thank you. Have you tried restarting both devices since this started happening?",
                 "original user side information": {},
                 "original system side information": {}
             },
             {
                 "turn id": 4,
-                "user utterance": " Yes, everything seems fine, it\u2019s just Health and activity.",
-                "system response": " Let\u2019s move to DM and look into this a bit more. When reaching out in DM, let us know when this first started happening please. For example, did it start after an update or after installing a certain app?",
-                "dialog history": "<USR>  So neither my iPhone nor my Apple Watch are recording my steps/activity, and Health doesn\u2019t recognise either source anymore for some reason. Any ideas? please read the above. <SYS>  Let\u2019s investigate this together. To start, can you tell us the software versions your iPhone and Apple Watch are running currently? <USR>  My iPhone is on 11.1.2, and my watch is on 4.1. <SYS>  Thank you. Have you tried restarting both devices since this started happening? <USR>  I\u2019ve restarted both, also un-paired then re-paired the watch. <SYS>  Got it. When did you first notice that the two devices were not talking to each other. Do the two devices communicate through other apps such as Messages?",
+                "user utterance": "@AppleSupport Yes, everything seems fine, it\u2019s just Health and activity.",
+                "system response": "@135060 Let\u2019s move to DM and look into this a bit more. When reaching out in DM, let us know when this first started happening please. For example, did it start after an update or after installing a certain app? https://t.co/GDrqU22YpT",
+                "dialog history": "<USER> So neither my iPhone nor my Apple Watch are recording my steps/activity, and Health doesn\u2019t recognise either source anymore for some reason. Any ideas? https://t.co/m9DPQbkftD @AppleSupport please read the above. <SYSTEM> @135060 Let\u2019s investigate this together. To start, can you tell us the software versions your iPhone and Apple Watch are running currently? <USER> @AppleSupport My iPhone is on 11.1.2, and my watch is on 4.1. <SYSTEM> @135060 Thank you. Have you tried restarting both devices since this started happening? <USER> @AppleSupport I\u2019ve restarted both, also un-paired then re-paired the watch. <SYSTEM> @135060 Got it. When did you first notice that the two devices were not talking to each other. Do the two devices communicate through other apps such as Messages?",
                 "original user side information": {},
                 "original system side information": {}
             }
-        ]
+        ],
+        "prompt": []
     },
-    "Tweetsumm--train--2": {
+    "TweetSumm--train--2": {
         "original dialog id": "1e1d8fd4f95c984fb78687c9e946dc97",
         "dialog index": 2,
         "original dialog info": {
@@ -205,39 +206,40 @@
         "log": [
             {
                 "turn id": 1,
-                "user utterance": " hi team! i m planning to get Apple AirPods ! it shows on the website it has 10 days replacement warranty, can u explain me what is it ?",
-                "system response": " Weve a 10days replacement policy if the item you received is damaged or defective.",
+                "user utterance": "@115850 hi team! i m planning to get Apple AirPods ! it shows on the website it has 10 days replacement warranty, can u explain me what is it ?",
+                "system response": "@264322 We've a 10days replacement policy if the item you received is damaged or defective. ^SH",
                 "dialog history": "",
                 "original user side information": {},
                 "original system side information": {}
             },
             {
                 "turn id": 2,
-                "user utterance": " Ok ! But what if i didn\u2019t like the product and want to return it",
-                "system response": " We wouldnt be able to accept the remorse returns. For more information on mobile returns policy. Kindly click on the link shared here: Appreciate your understanding.",
-                "dialog history": "<USR>  hi team! i m planning to get Apple AirPods ! it shows on the website it has 10 days replacement warranty, can u explain me what is it ? <SYS>  Weve a 10days replacement policy if the item you received is damaged or defective.",
+                "user utterance": "@AmazonHelp Ok ! But what if i didn\u2019t like the product and want to return it",
+                "system response": "@264322 We wouldn't be able to accept the remorse returns. For more information on mobile returns policy. Kindly click on the link shared here: https://t.co/gYYDFKUNPY. Appreciate your understanding.",
+                "dialog history": "<USER> @115850 hi team! i m planning to get Apple AirPods ! it shows on the website it has 10 days replacement warranty, can u explain me what is it ? <SYSTEM> @264322 We've a 10days replacement policy if the item you received is damaged or defective. ^SH",
                 "original user side information": {},
                 "original system side information": {}
             },
             {
                 "turn id": 3,
-                "user utterance": " Ok thanks ! But these are earphones so does it mean same policy apply for these as well",
-                "system response": " Yes, headsets/ earphones are not eligible for remorse returns. In case of any damage/ defect you can reach out to us, well check and help you accordingly.",
-                "dialog history": "<USR>  hi team! i m planning to get Apple AirPods ! it shows on the website it has 10 days replacement warranty, can u explain me what is it ? <SYS>  Weve a 10days replacement policy if the item you received is damaged or defective. <USR>  Ok ! But what if i didn\u2019t like the product and want to return it <SYS>  We wouldnt be able to accept the remorse returns. For more information on mobile returns policy. Kindly click on the link shared here: Appreciate your understanding.",
+                "user utterance": "@AmazonHelp Ok thanks ! But these are earphones so does it mean same policy apply for these as well",
+                "system response": "@264322 Yes, headsets/ earphones are not eligible for remorse returns. In case of any damage/ defect you can reach out to us, we'll check and help you accordingly. ^VN",
+                "dialog history": "<USER> @115850 hi team! i m planning to get Apple AirPods ! it shows on the website it has 10 days replacement warranty, can u explain me what is it ? <SYSTEM> @264322 We've a 10days replacement policy if the item you received is damaged or defective. ^SH <USER> @AmazonHelp Ok ! But what if i didn\u2019t like the product and want to return it <SYSTEM> @264322 We wouldn't be able to accept the remorse returns. For more information on mobile returns policy. Kindly click on the link shared here: https://t.co/gYYDFKUNPY. Appreciate your understanding.",
                 "original user side information": {},
                 "original system side information": {}
             },
             {
                 "turn id": 4,
-                "user utterance": " Oh ok ! Thanks for the help ! Much appreciated :)",
-                "system response": " Thanks to you too for understanding. Do keep us posted for any further concerns. Well be happy to help. \ud83d\ude0a",
-                "dialog history": "<USR>  hi team! i m planning to get Apple AirPods ! it shows on the website it has 10 days replacement warranty, can u explain me what is it ? <SYS>  Weve a 10days replacement policy if the item you received is damaged or defective. <USR>  Ok ! But what if i didn\u2019t like the product and want to return it <SYS>  We wouldnt be able to accept the remorse returns. For more information on mobile returns policy. Kindly click on the link shared here: Appreciate your understanding. <USR>  Ok thanks ! But these are earphones so does it mean same policy apply for these as well <SYS>  Yes, headsets/ earphones are not eligible for remorse returns. In case of any damage/ defect you can reach out to us, well check and help you accordingly.",
+                "user utterance": "@AmazonHelp Oh ok ! Thanks for the help ! Much appreciated :)",
+                "system response": "@264322 Thanks to you too for understanding. Do keep us posted for any further concerns. We'll be happy to help. \ud83d\ude0a ^VN",
+                "dialog history": "<USER> @115850 hi team! i m planning to get Apple AirPods ! it shows on the website it has 10 days replacement warranty, can u explain me what is it ? <SYSTEM> @264322 We've a 10days replacement policy if the item you received is damaged or defective. ^SH <USER> @AmazonHelp Ok ! But what if i didn\u2019t like the product and want to return it <SYSTEM> @264322 We wouldn't be able to accept the remorse returns. For more information on mobile returns policy. Kindly click on the link shared here: https://t.co/gYYDFKUNPY. Appreciate your understanding. <USER> @AmazonHelp Ok thanks ! But these are earphones so does it mean same policy apply for these as well <SYSTEM> @264322 Yes, headsets/ earphones are not eligible for remorse returns. In case of any damage/ defect you can reach out to us, we'll check and help you accordingly. ^VN",
                 "original user side information": {},
                 "original system side information": {}
             }
-        ]
+        ],
+        "prompt": []
     },
-    "Tweetsumm--train--3": {
+    "TweetSumm--train--3": {
         "original dialog id": "b5773077fa55c381260390472deff4c2",
         "dialog index": 3,
         "original dialog info": {
@@ -303,31 +305,32 @@
         "log": [
             {
                 "turn id": 1,
-                "user utterance": " Where do I write to address a customer service issue to higher management?",
-                "system response": " Hi Chris. Which U.S. based card is this concerning? Please do not release any personal or card information. Hi I never heard back from you. Let me know if I can assist. All the best.",
+                "user utterance": "@AskAmex Where do I write to address a customer service issue to higher management?",
+                "system response": "@216929 Hi Chris. Which U.S. based card is this concerning? Please do not release any personal or card information. ^Clarissa @216929 Hi I never heard back from you. Let me know if I can assist. All the best. ^Clarissa",
                 "dialog history": "",
                 "original user side information": {},
                 "original system side information": {}
             },
             {
                 "turn id": 2,
-                "user utterance": " It was the Delta sky miles card.",
-                "system response": " Good Morning. What is this concerning and I may be able to help?",
-                "dialog history": "<USR>  Where do I write to address a customer service issue to higher management? <SYS>  Hi Chris. Which U.S. based card is this concerning? Please do not release any personal or card information. Hi I never heard back from you. Let me know if I can assist. All the best.",
+                "user utterance": "@AskAmex It was the Delta sky miles card.",
+                "system response": "@216929 Good Morning. What is this concerning and I may be able to help? ^RK",
+                "dialog history": "<USER> @AskAmex Where do I write to address a customer service issue to higher management? <SYSTEM> @216929 Hi Chris. Which U.S. based card is this concerning? Please do not release any personal or card information. ^Clarissa @216929 Hi I never heard back from you. Let me know if I can assist. All the best. ^Clarissa",
                 "original user side information": {},
                 "original system side information": {}
             },
             {
                 "turn id": 3,
-                "user utterance": " Signed up for new card with Delta to book immediately book tix. Card number didnt come up. Customer svce refused to help.",
-                "system response": " Good morning, thanks for reaching out. Please call our New Accounts Team at 877-399-3086, for assistance. Theyre available, Monday - Friday 8:00 AM to 12:00 AM (ET); Saturday 10:00 AM to 6:00 PM (ET). Sorry for the",
-                "dialog history": "<USR>  Where do I write to address a customer service issue to higher management? <SYS>  Hi Chris. Which U.S. based card is this concerning? Please do not release any personal or card information. Hi I never heard back from you. Let me know if I can assist. All the best. <USR>  It was the Delta sky miles card. <SYS>  Good Morning. What is this concerning and I may be able to help?",
+                "user utterance": "@AskAmex Signed up for new card with Delta to book immediately book tix. Card number didn't come up. Customer svce refused to help.",
+                "system response": "@216929 Good morning, thanks for reaching out. Please call our New Accounts Team at 877-399-3086, for assistance. They're available, @216929 Monday - Friday 8:00 AM to 12:00 AM (ET); Saturday 10:00 AM to 6:00 PM (ET). Sorry for the inconvenience.^In",
+                "dialog history": "<USER> @AskAmex Where do I write to address a customer service issue to higher management? <SYSTEM> @216929 Hi Chris. Which U.S. based card is this concerning? Please do not release any personal or card information. ^Clarissa @216929 Hi I never heard back from you. Let me know if I can assist. All the best. ^Clarissa <USER> @AskAmex It was the Delta sky miles card. <SYSTEM> @216929 Good Morning. What is this concerning and I may be able to help? ^RK",
                 "original user side information": {},
                 "original system side information": {}
             }
-        ]
+        ],
+        "prompt": []
     },
-    "Tweetsumm--train--4": {
+    "TweetSumm--train--4": {
         "original dialog id": "3574d6b4418cb546a90d1561bacd66a2",
         "dialog index": 4,
         "original dialog info": {
@@ -399,31 +402,32 @@
         "log": [
             {
                 "turn id": 1,
-                "user utterance": " Wow, expected 4 packages yesterday, but only 2 showed up. 50% failure rate-not impressed. Glad I paid for fast shipping. Last month driver delivered box, sat in van for 10 min on phone, and drove off. Then got notice that package was \"lost in transit\".",
-                "system response": " Im sorry you only received two of the orders. Is this happening with the same carrier each time? We can see what options are available for the lost items, reach us by phone or chat here:",
+                "user utterance": "@AmazonHelp @115821 Wow, expected 4 packages yesterday, but only 2 showed up. 50% failure rate-not impressed. Glad I paid for fast shipping. @AmazonHelp @115821 Last month driver delivered box, sat in van for 10 min on phone, and drove off. Then got notice that package was \"lost in transit\".",
+                "system response": "@258930 I'm sorry you only received two of the orders. Is this happening with the same carrier each time? We can see what options are available for the lost items, reach us by phone or chat here: https://t.co/hApLpMlfHN ^MG",
                 "dialog history": "",
                 "original user side information": {},
                 "original system side information": {}
             },
             {
                 "turn id": 2,
-                "user utterance": " Problems are mostly with AMZL US delivery, but this time its UPS. UPS is usually pretty good. Also, the item isnt lost. I watched them deliver it. Status still says \"lost in transit\", though. No big deal, but it makes Amzn look silly",
-                "system response": " Okay, thanks for that info, Dave. Have you received any updates via e-mail for the last two packages you were expecting? Let us know. Wed like to help in any way we can!",
-                "dialog history": "<USR>  Wow, expected 4 packages yesterday, but only 2 showed up. 50% failure rate-not impressed. Glad I paid for fast shipping. Last month driver delivered box, sat in van for 10 min on phone, and drove off. Then got notice that package was \"lost in transit\". <SYS>  Im sorry you only received two of the orders. Is this happening with the same carrier each time? We can see what options are available for the lost items, reach us by phone or chat here:",
+                "user utterance": "@AmazonHelp Problems are mostly with AMZL US delivery, but this time it's UPS. UPS is usually pretty good. @AmazonHelp Also, the item isn't lost. I watched them deliver it. Status still says \"lost in transit\", though. No big deal, but it makes Amzn look silly",
+                "system response": "@258930 Okay, thanks for that info, Dave. Have you received any updates via e-mail for the last two packages you were expecting? Let us know. We'd like to help in any way we can! ^SM",
+                "dialog history": "<USER> @AmazonHelp @115821 Wow, expected 4 packages yesterday, but only 2 showed up. 50% failure rate-not impressed. Glad I paid for fast shipping. @AmazonHelp @115821 Last month driver delivered box, sat in van for 10 min on phone, and drove off. Then got notice that package was \"lost in transit\". <SYSTEM> @258930 I'm sorry you only received two of the orders. Is this happening with the same carrier each time? We can see what options are available for the lost items, reach us by phone or chat here: https://t.co/hApLpMlfHN ^MG",
                 "original user side information": {},
                 "original system side information": {}
             },
             {
                 "turn id": 3,
-                "user utterance": " Got shipping refunded via chat, and packages will be here when they get here. Thanks for letting me vent.",
-                "system response": " Keep us posted, Dave!",
-                "dialog history": "<USR>  Wow, expected 4 packages yesterday, but only 2 showed up. 50% failure rate-not impressed. Glad I paid for fast shipping. Last month driver delivered box, sat in van for 10 min on phone, and drove off. Then got notice that package was \"lost in transit\". <SYS>  Im sorry you only received two of the orders. Is this happening with the same carrier each time? We can see what options are available for the lost items, reach us by phone or chat here: <USR>  Problems are mostly with AMZL US delivery, but this time its UPS. UPS is usually pretty good. Also, the item isnt lost. I watched them deliver it. Status still says \"lost in transit\", though. No big deal, but it makes Amzn look silly <SYS>  Okay, thanks for that info, Dave. Have you received any updates via e-mail for the last two packages you were expecting? Let us know. Wed like to help in any way we can!",
+                "user utterance": "@AmazonHelp Got shipping refunded via chat, and packages will be here when they get here. Thanks for letting me vent.",
+                "system response": "@258930 Keep us posted, Dave! ^SM",
+                "dialog history": "<USER> @AmazonHelp @115821 Wow, expected 4 packages yesterday, but only 2 showed up. 50% failure rate-not impressed. Glad I paid for fast shipping. @AmazonHelp @115821 Last month driver delivered box, sat in van for 10 min on phone, and drove off. Then got notice that package was \"lost in transit\". <SYSTEM> @258930 I'm sorry you only received two of the orders. Is this happening with the same carrier each time? We can see what options are available for the lost items, reach us by phone or chat here: https://t.co/hApLpMlfHN ^MG <USER> @AmazonHelp Problems are mostly with AMZL US delivery, but this time it's UPS. UPS is usually pretty good. @AmazonHelp Also, the item isn't lost. I watched them deliver it. Status still says \"lost in transit\", though. No big deal, but it makes Amzn look silly <SYSTEM> @258930 Okay, thanks for that info, Dave. Have you received any updates via e-mail for the last two packages you were expecting? Let us know. We'd like to help in any way we can! ^SM",
                 "original user side information": {},
                 "original system side information": {}
             }
-        ]
+        ],
+        "prompt": []
     },
-    "Tweetsumm--train--5": {
+    "TweetSumm--train--5": {
         "original dialog id": "f30d2bbc15e7ff32244761b38b67d160",
         "dialog index": 5,
         "original dialog info": {
@@ -477,52 +481,53 @@
         "log": [
             {
                 "turn id": 1,
-                "user utterance": " Id rather you spent some time making your app &amp; website work properly rather than spending millions on pointless new advertising.",
-                "system response": " Hi. We are in the middle of huge \u00a37.5bn investment with new trains due soon. It\u2019s important to tell this story to as many people as possible",
+                "user utterance": "@GWRHelp I'd rather you spent some time making your app &amp; website work properly rather than spending millions on pointless new advertising.",
+                "system response": "@324537 Hi. We are in the middle of huge \u00a37.5bn investment with new trains due soon. It\u2019s important to tell this story to as many people as possible",
                 "dialog history": "",
                 "original user side information": {},
                 "original system side information": {}
             },
             {
                 "turn id": 2,
-                "user utterance": " This is what comes up no matter what I do on your website after the homepage. 24/7 for 5 days.",
-                "system response": " Hi Drayton. The websites been working. Have you tried clearing your cache or using a different browser? Lewis",
-                "dialog history": "<USR>  Id rather you spent some time making your app &amp; website work properly rather than spending millions on pointless new advertising. <SYS>  Hi. We are in the middle of huge \u00a37.5bn investment with new trains due soon. It\u2019s important to tell this story to as many people as possible",
+                "user utterance": "@GWRHelp This is what comes up no matter what I do on your website after the homepage... 24/7 for 5 days. https://t.co/v6gvoDuMnq",
+                "system response": "@324537 Hi Drayton. The websites been working. Have you tried clearing your cache or using a different browser? Lewis",
+                "dialog history": "<USER> @GWRHelp I'd rather you spent some time making your app &amp; website work properly rather than spending millions on pointless new advertising. <SYSTEM> @324537 Hi. We are in the middle of huge \u00a37.5bn investment with new trains due soon. It\u2019s important to tell this story to as many people as possible",
                 "original user side information": {},
                 "original system side information": {}
             },
             {
                 "turn id": 3,
-                "user utterance": " Tried to buy a ticket 6 times in half an hour. Every time greeted with this. Not even 30 seconds between choosing a ticket and signing in.",
-                "system response": " Sorry to see this Drayton. To confirm, is this on the app or mobile site? Phil.",
-                "dialog history": "<USR>  Id rather you spent some time making your app &amp; website work properly rather than spending millions on pointless new advertising. <SYS>  Hi. We are in the middle of huge \u00a37.5bn investment with new trains due soon. It\u2019s important to tell this story to as many people as possible <USR>  This is what comes up no matter what I do on your website after the homepage. 24/7 for 5 days. <SYS>  Hi Drayton. The websites been working. Have you tried clearing your cache or using a different browser? Lewis",
+                "user utterance": "@GWRHelp Tried to buy a ticket 6 times in half an hour. Every time greeted with this. Not even 30 seconds between choosing a ticket and signing in. https://t.co/Ul43v8Rrna",
+                "system response": "@324537 Sorry to see this Drayton. To confirm, is this on the app or mobile site? Phil.",
+                "dialog history": "<USER> @GWRHelp I'd rather you spent some time making your app &amp; website work properly rather than spending millions on pointless new advertising. <SYSTEM> @324537 Hi. We are in the middle of huge \u00a37.5bn investment with new trains due soon. It\u2019s important to tell this story to as many people as possible <USER> @GWRHelp This is what comes up no matter what I do on your website after the homepage... 24/7 for 5 days. https://t.co/v6gvoDuMnq <SYSTEM> @324537 Hi Drayton. The websites been working. Have you tried clearing your cache or using a different browser? Lewis",
                 "original user side information": {},
                 "original system side information": {}
             },
             {
                 "turn id": 4,
-                "user utterance": " Literally irrelevant if ppl cant buy tix for the new trains. Ive never hated a website so much that I physically dread having 2 use it. App. I havent been able to purchase a ticket since your insane revamp. It worked perfectly before and now its an absolute sh*tshow.",
-                "system response": " Sorry for the difficulty youve had, can you try un/reinstalling and booking again? Phil.",
-                "dialog history": "<USR>  Id rather you spent some time making your app &amp; website work properly rather than spending millions on pointless new advertising. <SYS>  Hi. We are in the middle of huge \u00a37.5bn investment with new trains due soon. It\u2019s important to tell this story to as many people as possible <USR>  This is what comes up no matter what I do on your website after the homepage. 24/7 for 5 days. <SYS>  Hi Drayton. The websites been working. Have you tried clearing your cache or using a different browser? Lewis <USR>  Tried to buy a ticket 6 times in half an hour. Every time greeted with this. Not even 30 seconds between choosing a ticket and signing in. <SYS>  Sorry to see this Drayton. To confirm, is this on the app or mobile site? Phil.",
+                "user utterance": "@GWRHelp Literally irrelevant if ppl can't buy tix for the new trains. I've never hated a website so much that I physically dread having 2 use it. @GWRHelp App. I havent been able to purchase a ticket since your insane revamp. It worked perfectly before and now it's an absolute sh*tshow.",
+                "system response": "@324537 Sorry for the difficulty you've had, can you try un/reinstalling and booking again? Phil.",
+                "dialog history": "<USER> @GWRHelp I'd rather you spent some time making your app &amp; website work properly rather than spending millions on pointless new advertising. <SYSTEM> @324537 Hi. We are in the middle of huge \u00a37.5bn investment with new trains due soon. It\u2019s important to tell this story to as many people as possible <USER> @GWRHelp This is what comes up no matter what I do on your website after the homepage... 24/7 for 5 days. https://t.co/v6gvoDuMnq <SYSTEM> @324537 Hi Drayton. The websites been working. Have you tried clearing your cache or using a different browser? Lewis <USER> @GWRHelp Tried to buy a ticket 6 times in half an hour. Every time greeted with this. Not even 30 seconds between choosing a ticket and signing in. https://t.co/Ul43v8Rrna <SYSTEM> @324537 Sorry to see this Drayton. To confirm, is this on the app or mobile site? Phil.",
                 "original user side information": {},
                 "original system side information": {}
             },
             {
                 "turn id": 5,
-                "user utterance": " Believe me Phil Ive tried every trick in the book. Off and on again in all sense of the word.",
-                "system response": " Sorry to see this - Ill report to our Development team. Can you use mobile or desktop site in the meantime? Phil.",
-                "dialog history": "<USR>  Id rather you spent some time making your app &amp; website work properly rather than spending millions on pointless new advertising. <SYS>  Hi. We are in the middle of huge \u00a37.5bn investment with new trains due soon. It\u2019s important to tell this story to as many people as possible <USR>  This is what comes up no matter what I do on your website after the homepage. 24/7 for 5 days. <SYS>  Hi Drayton. The websites been working. Have you tried clearing your cache or using a different browser? Lewis <USR>  Tried to buy a ticket 6 times in half an hour. Every time greeted with this. Not even 30 seconds between choosing a ticket and signing in. <SYS>  Sorry to see this Drayton. To confirm, is this on the app or mobile site? Phil. <USR>  Literally irrelevant if ppl cant buy tix for the new trains. Ive never hated a website so much that I physically dread having 2 use it. App. I havent been able to purchase a ticket since your insane revamp. It worked perfectly before and now its an absolute sh*tshow. <SYS>  Sorry for the difficulty youve had, can you try un/reinstalling and booking again? Phil.",
+                "user utterance": "@GWRHelp Believe me Phil I've tried every trick in the book. Off and on again in all sense of the word.",
+                "system response": "@324537 Sorry to see this - I'll report to our Development team. Can you use mobile or desktop site in the meantime? Phil.",
+                "dialog history": "<USER> @GWRHelp I'd rather you spent some time making your app &amp; website work properly rather than spending millions on pointless new advertising. <SYSTEM> @324537 Hi. We are in the middle of huge \u00a37.5bn investment with new trains due soon. It\u2019s important to tell this story to as many people as possible <USER> @GWRHelp This is what comes up no matter what I do on your website after the homepage... 24/7 for 5 days. https://t.co/v6gvoDuMnq <SYSTEM> @324537 Hi Drayton. The websites been working. Have you tried clearing your cache or using a different browser? Lewis <USER> @GWRHelp Tried to buy a ticket 6 times in half an hour. Every time greeted with this. Not even 30 seconds between choosing a ticket and signing in. https://t.co/Ul43v8Rrna <SYSTEM> @324537 Sorry to see this Drayton. To confirm, is this on the app or mobile site? Phil. <USER> @GWRHelp Literally irrelevant if ppl can't buy tix for the new trains. I've never hated a website so much that I physically dread having 2 use it. @GWRHelp App. I havent been able to purchase a ticket since your insane revamp. It worked perfectly before and now it's an absolute sh*tshow. <SYSTEM> @324537 Sorry for the difficulty you've had, can you try un/reinstalling and booking again? Phil.",
                 "original user side information": {},
                 "original system side information": {}
             },
             {
                 "turn id": 6,
-                "user utterance": " No Phil, am going to get the bus instead app works flawlessly.",
-                "system response": " Apologies again for the difficulty youve had today Drayton, I appreciate this is frustrating. Phil.",
-                "dialog history": "<USR>  Id rather you spent some time making your app &amp; website work properly rather than spending millions on pointless new advertising. <SYS>  Hi. We are in the middle of huge \u00a37.5bn investment with new trains due soon. It\u2019s important to tell this story to as many people as possible <USR>  This is what comes up no matter what I do on your website after the homepage. 24/7 for 5 days. <SYS>  Hi Drayton. The websites been working. Have you tried clearing your cache or using a different browser? Lewis <USR>  Tried to buy a ticket 6 times in half an hour. Every time greeted with this. Not even 30 seconds between choosing a ticket and signing in. <SYS>  Sorry to see this Drayton. To confirm, is this on the app or mobile site? Phil. <USR>  Literally irrelevant if ppl cant buy tix for the new trains. Ive never hated a website so much that I physically dread having 2 use it. App. I havent been able to purchase a ticket since your insane revamp. It worked perfectly before and now its an absolute sh*tshow. <SYS>  Sorry for the difficulty youve had, can you try un/reinstalling and booking again? Phil. <USR>  Believe me Phil Ive tried every trick in the book. Off and on again in all sense of the word. <SYS>  Sorry to see this - Ill report to our Development team. Can you use mobile or desktop site in the meantime? Phil.",
+                "user utterance": "@GWRHelp No Phil, am going to get the bus instead @151960 app works flawlessly.",
+                "system response": "@324537 @151960 Apologies again for the difficulty you've had today Drayton, I appreciate this is frustrating. Phil.",
+                "dialog history": "<USER> @GWRHelp I'd rather you spent some time making your app &amp; website work properly rather than spending millions on pointless new advertising. <SYSTEM> @324537 Hi. We are in the middle of huge \u00a37.5bn investment with new trains due soon. It\u2019s important to tell this story to as many people as possible <USER> @GWRHelp This is what comes up no matter what I do on your website after the homepage... 24/7 for 5 days. https://t.co/v6gvoDuMnq <SYSTEM> @324537 Hi Drayton. The websites been working. Have you tried clearing your cache or using a different browser? Lewis <USER> @GWRHelp Tried to buy a ticket 6 times in half an hour. Every time greeted with this. Not even 30 seconds between choosing a ticket and signing in. https://t.co/Ul43v8Rrna <SYSTEM> @324537 Sorry to see this Drayton. To confirm, is this on the app or mobile site? Phil. <USER> @GWRHelp Literally irrelevant if ppl can't buy tix for the new trains. I've never hated a website so much that I physically dread having 2 use it. @GWRHelp App. I havent been able to purchase a ticket since your insane revamp. It worked perfectly before and now it's an absolute sh*tshow. <SYSTEM> @324537 Sorry for the difficulty you've had, can you try un/reinstalling and booking again? Phil. <USER> @GWRHelp Believe me Phil I've tried every trick in the book. Off and on again in all sense of the word. <SYSTEM> @324537 Sorry to see this - I'll report to our Development team. Can you use mobile or desktop site in the meantime? Phil.",
                 "original user side information": {},
                 "original system side information": {}
             }
-        ]
+        ],
+        "prompt": []
     }
 }

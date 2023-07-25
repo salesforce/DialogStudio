@@ -2,72 +2,7 @@
     "SimJointGEN--train--1": {
         "original dialog id": "sim_movies_dev_000000",
         "dialog index": 1,
-        "original dialog info": {
-            "slots and values": {
-                "movie": {
-                    "date": [
-                        "DontCare",
-                        "base_date_plus_0",
-                        "base_date_plus_1",
-                        "base_date_plus_2",
-                        "base_date_plus_3",
-                        "base_date_plus_4",
-                        "base_date_plus_5",
-                        "base_date_plus_6"
-                    ],
-                    "movie": [
-                        "Doctor_Who_(Animated)",
-                        "The_Love_Witch",
-                        "Kevin_Hart",
-                        "Ouija",
-                        "The_Love_Witch",
-                        "Chaar_Sahibzaade",
-                        "Desierto",
-                        "Ae_Dil_Hai_Mushkil",
-                        "The_Accountant",
-                        "Sully"
-                    ],
-                    "num_tickets": [
-                        "2",
-                        "3",
-                        "4",
-                        "5",
-                        "6"
-                    ],
-                    "theatre_name": [
-                        "AMC_Cupertino_Square_16",
-                        "AMC_Mercado_20",
-                        "AMC_Newpark_12",
-                        "AMC_Saratoga_14",
-                        "Camera_7",
-                        "Century_20_Great_Mall",
-                        "Century_25_Union_City_and_XD",
-                        "Century_Cinemas_16",
-                        "Century_at_Pacific_Commons",
-                        "CineArts_@_Santana_Row",
-                        "CineLux_Almaden_Cafe_&_Lounge",
-                        "CineLux_Plaza_Theatre",
-                        "Cinemark_12_Downtown_San_Mateo",
-                        "Cinemark_Redwood_Downtown_20_and_XD",
-                        "DontCare"
-                    ],
-                    "time": [
-                        "10:00_am",
-                        "10:00_pm",
-                        "12:00_pm",
-                        "1:00_pm",
-                        "2:00_pm",
-                        "4:00_pm",
-                        "6:00_pm",
-                        "7:15_pm",
-                        "8:00_am",
-                        "8:00_pm",
-                        "DontCare"
-                    ]
-                }
-            },
-            "intents": {}
-        },
+        "original dialog info": {},
         "log": [
             {
                 "turn id": 1,
@@ -81,25 +16,13 @@
                             "name": "greeting"
                         }
                     ]
-                },
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "original system side information": {
-                            "system_acts": [
-                                {
-                                    "name": "greeting"
-                                }
-                            ]
-                        }
-                    }
-                },
-                "external knowledge": "System side information: {'system_acts': [{'name': 'greeting'}]}"
+                }
             },
             {
                 "turn id": 2,
                 "user utterance": "can you get 2 tickets for 8 00 pm ?",
                 "system response": "Ok, 2 tickets. What day would you prefer?",
-                "dialog history": "<SYSTEM> Hi, how can I help you?",
+                "dialog history": "<SYSTEM> Hi, how can I help you? <USER> ",
                 "original user side information": {
                     "dialogue_state": {
                         "num_tickets": "2",
@@ -133,34 +56,13 @@
                     ]
                 },
                 "dst accumulated": "movie num_tickets 2, movie time 8:00_pm",
-                "dst": "movie num_tickets 2, movie time 8:00_pm",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "original system side information": {
-                            "system_acts": [
-                                {
-                                    "name": "impl_confirm",
-                                    "slot_values": {
-                                        "num_tickets": "2"
-                                    }
-                                },
-                                {
-                                    "name": "request",
-                                    "slot_values": {
-                                        "date": "REQUESTED"
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                },
-                "external knowledge": "System side information: {'system_acts': [{'name': 'impl_confirm', 'slot_values': {'num_tickets': '2'}}, {'name': 'request', 'slot_values': {'date': 'REQUESTED'}}]}"
+                "dst": "movie num_tickets 2, movie time 8:00_pm"
             },
             {
                 "turn id": 3,
                 "user utterance": "for base_date_plus_2",
                 "system response": "Ok. Which movie would you like to see?",
-                "dialog history": "<SYSTEM> Hi, how can I help you? <USER> can you get 2 tickets for 8 00 pm ? <SYSTEM> Ok, 2 tickets. What day would you prefer?",
+                "dialog history": "<SYSTEM> Hi, how can I help you? <USER>  <SYSTEM> Ok, 2 tickets. What day would you prefer? <USER> can you get 2 tickets for 8 00 pm ?",
                 "original user side information": {
                     "dialogue_state": {
                         "date": "base_date_plus_2",
@@ -192,31 +94,13 @@
                     ]
                 },
                 "dst accumulated": "movie date base_date_plus_2, movie num_tickets 2, movie time 8:00_pm",
-                "dst": "movie date base_date_plus_2",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "original system side information": {
-                            "system_acts": [
-                                {
-                                    "name": "ack"
-                                },
-                                {
-                                    "name": "request",
-                                    "slot_values": {
-                                        "movie": "REQUESTED"
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                },
-                "external knowledge": "System side information: {'system_acts': [{'name': 'ack'}, {'name': 'request', 'slot_values': {'movie': 'REQUESTED'}}]}"
+                "dst": "movie date base_date_plus_2"
             },
             {
                 "turn id": 4,
                 "user utterance": "bakit lahat ng guwapo may boyfriend ? !",
                 "system response": "Ok. Which movie theater would you prefer?",
-                "dialog history": "<SYSTEM> Hi, how can I help you? <USER> can you get 2 tickets for 8 00 pm ? <SYSTEM> Ok, 2 tickets. What day would you prefer? <USER> for base_date_plus_2 <SYSTEM> Ok. Which movie would you like to see?",
+                "dialog history": "<SYSTEM> Hi, how can I help you? <USER>  <SYSTEM> Ok, 2 tickets. What day would you prefer? <USER> can you get 2 tickets for 8 00 pm ? <SYSTEM> Ok. Which movie would you like to see? <USER> for base_date_plus_2",
                 "original user side information": {
                     "dialogue_state": {
                         "date": "base_date_plus_2",
@@ -249,31 +133,13 @@
                     ]
                 },
                 "dst accumulated": "movie date base_date_plus_2, movie movie Bakit_lahat_ng_guwapo_may_boyfriend?!, movie num_tickets 2, movie time 8:00_pm",
-                "dst": "movie movie Bakit_lahat_ng_guwapo_may_boyfriend?!, movie num_tickets 2, movie time 8:00_pm",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "original system side information": {
-                            "system_acts": [
-                                {
-                                    "name": "ack"
-                                },
-                                {
-                                    "name": "request",
-                                    "slot_values": {
-                                        "theatre_name": "REQUESTED"
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                },
-                "external knowledge": "System side information: {'system_acts': [{'name': 'ack'}, {'name': 'request', 'slot_values': {'theatre_name': 'REQUESTED'}}]}"
+                "dst": "movie movie Bakit_lahat_ng_guwapo_may_boyfriend?!, movie num_tickets 2, movie time 8:00_pm"
             },
             {
                 "turn id": 5,
                 "user utterance": "can you suggest me a theater ?",
                 "system response": "Would AMC Saratoga 14|CineLux Plaza Theatre|Century at Pacific Commons|CineLux Almaden Cafe & Lounge work for you?",
-                "dialog history": "<SYSTEM> Hi, how can I help you? <USER> can you get 2 tickets for 8 00 pm ? <SYSTEM> Ok, 2 tickets. What day would you prefer? <USER> for base_date_plus_2 <SYSTEM> Ok. Which movie would you like to see? <USER> bakit lahat ng guwapo may boyfriend ? ! <SYSTEM> Ok. Which movie theater would you prefer?",
+                "dialog history": "<SYSTEM> Hi, how can I help you? <USER>  <SYSTEM> Ok, 2 tickets. What day would you prefer? <USER> can you get 2 tickets for 8 00 pm ? <SYSTEM> Ok. Which movie would you like to see? <USER> for base_date_plus_2 <SYSTEM> Ok. Which movie theater would you prefer? <USER> bakit lahat ng guwapo may boyfriend ? !",
                 "original user side information": {
                     "dialogue_state": {
                         "date": "base_date_plus_2",
@@ -303,28 +169,13 @@
                     ]
                 },
                 "dst accumulated": "movie date base_date_plus_2, movie movie Bakit_lahat_ng_guwapo_may_boyfriend?!, movie num_tickets 2, movie time 8:00_pm",
-                "dst": "movie date base_date_plus_2",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "original system side information": {
-                            "system_acts": [
-                                {
-                                    "name": "select",
-                                    "slot_values": {
-                                        "theatre_name": "AMC_Saratoga_14|CineLux_Plaza_Theatre|Century_at_Pacific_Commons|CineLux_Almaden_Cafe_&_Lounge"
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                },
-                "external knowledge": "System side information: {'system_acts': [{'name': 'select', 'slot_values': {'theatre_name': 'AMC_Saratoga_14|CineLux_Plaza_Theatre|Century_at_Pacific_Commons|CineLux_Almaden_Cafe_&_Lounge'}}]}"
+                "dst": "movie date base_date_plus_2"
             },
             {
                 "turn id": 6,
                 "user utterance": "yes , century at pacific commons .",
                 "system response": "To confirm, you want 2 tickets to see Bakit lahat ng guwapo may boyfriend?! at Century at Pacific Commons at 8:00 pm base_date_plus_2, right?",
-                "dialog history": "<SYSTEM> Hi, how can I help you? <USER> can you get 2 tickets for 8 00 pm ? <SYSTEM> Ok, 2 tickets. What day would you prefer? <USER> for base_date_plus_2 <SYSTEM> Ok. Which movie would you like to see? <USER> bakit lahat ng guwapo may boyfriend ? ! <SYSTEM> Ok. Which movie theater would you prefer? <USER> can you suggest me a theater ? <SYSTEM> Would AMC Saratoga 14|CineLux Plaza Theatre|Century at Pacific Commons|CineLux Almaden Cafe & Lounge work for you?",
+                "dialog history": "<SYSTEM> Hi, how can I help you? <USER>  <SYSTEM> Ok, 2 tickets. What day would you prefer? <USER> can you get 2 tickets for 8 00 pm ? <SYSTEM> Ok. Which movie would you like to see? <USER> for base_date_plus_2 <SYSTEM> Ok. Which movie theater would you prefer? <USER> bakit lahat ng guwapo may boyfriend ? ! <SYSTEM> Would AMC Saratoga 14|CineLux Plaza Theatre|Century at Pacific Commons|CineLux Almaden Cafe & Lounge work for you? <USER> can you suggest me a theater ?",
                 "original user side information": {
                     "dialogue_state": {
                         "date": "base_date_plus_2",
@@ -358,32 +209,13 @@
                     ]
                 },
                 "dst accumulated": "movie date base_date_plus_2, movie movie Bakit_lahat_ng_guwapo_may_boyfriend?!, movie num_tickets 2, movie theatre_name Century_at_Pacific_Commons, movie time 8:00_pm",
-                "dst": "movie movie Bakit_lahat_ng_guwapo_may_boyfriend?!, movie num_tickets 2, movie theatre_name Century_at_Pacific_Commons, movie time 8:00_pm",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "original system side information": {
-                            "system_acts": [
-                                {
-                                    "name": "confirm",
-                                    "slot_values": {
-                                        "date": "base_date_plus_2",
-                                        "movie": "Bakit_lahat_ng_guwapo_may_boyfriend?!",
-                                        "num_tickets": "2",
-                                        "theatre_name": "Century_at_Pacific_Commons",
-                                        "time": "8:00_pm"
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                },
-                "external knowledge": "System side information: {'system_acts': [{'name': 'confirm', 'slot_values': {'date': 'base_date_plus_2', 'movie': 'Bakit_lahat_ng_guwapo_may_boyfriend?!', 'num_tickets': '2', 'theatre_name': 'Century_at_Pacific_Commons', 'time': '8:00_pm'}}]}"
+                "dst": "movie movie Bakit_lahat_ng_guwapo_may_boyfriend?!, movie num_tickets 2, movie theatre_name Century_at_Pacific_Commons, movie time 8:00_pm"
             },
             {
                 "turn id": 7,
                 "user utterance": "yes 2 tickets for bakit lahat ng guwapo may boyfriend ? ! at 8 00 pm base_date_plus_2 please no , i do n't want century at pacific commons cinemark 12 downtown san mateo .",
                 "system response": "To confirm, you want 2 tickets to see Bakit lahat ng guwapo may boyfriend?! at Century at Pacific Commons at 8:00 pm base_date_plus_2, right?",
-                "dialog history": "<SYSTEM> Hi, how can I help you? <USER> can you get 2 tickets for 8 00 pm ? <SYSTEM> Ok, 2 tickets. What day would you prefer? <USER> for base_date_plus_2 <SYSTEM> Ok. Which movie would you like to see? <USER> bakit lahat ng guwapo may boyfriend ? ! <SYSTEM> Ok. Which movie theater would you prefer? <USER> can you suggest me a theater ? <SYSTEM> Would AMC Saratoga 14|CineLux Plaza Theatre|Century at Pacific Commons|CineLux Almaden Cafe & Lounge work for you? <USER> yes , century at pacific commons . <SYSTEM> To confirm, you want 2 tickets to see Bakit lahat ng guwapo may boyfriend?! at Century at Pacific Commons at 8:00 pm base_date_plus_2, right?",
+                "dialog history": "<SYSTEM> Hi, how can I help you? <USER>  <SYSTEM> Ok, 2 tickets. What day would you prefer? <USER> can you get 2 tickets for 8 00 pm ? <SYSTEM> Ok. Which movie would you like to see? <USER> for base_date_plus_2 <SYSTEM> Ok. Which movie theater would you prefer? <USER> bakit lahat ng guwapo may boyfriend ? ! <SYSTEM> Would AMC Saratoga 14|CineLux Plaza Theatre|Century at Pacific Commons|CineLux Almaden Cafe & Lounge work for you? <USER> can you suggest me a theater ? <SYSTEM> To confirm, you want 2 tickets to see Bakit lahat ng guwapo may boyfriend?! at Century at Pacific Commons at 8:00 pm base_date_plus_2, right? <USER> yes , century at pacific commons .",
                 "original user side information": {
                     "dialogue_state": {
                         "date": "base_date_plus_2",
@@ -417,32 +249,13 @@
                     ]
                 },
                 "dst accumulated": "movie date base_date_plus_2, movie movie Bakit_lahat_ng_guwapo_may_boyfriend?!, movie num_tickets 2, movie theatre_name Cinemark_12_Downtown_San_Mateo, movie time 8:00_pm",
-                "dst": "movie date base_date_plus_2, movie theatre_name Cinemark_12_Downtown_San_Mateo",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "original system side information": {
-                            "system_acts": [
-                                {
-                                    "name": "confirm",
-                                    "slot_values": {
-                                        "date": "base_date_plus_2",
-                                        "movie": "Bakit_lahat_ng_guwapo_may_boyfriend?!",
-                                        "num_tickets": "2",
-                                        "theatre_name": "Century_at_Pacific_Commons",
-                                        "time": "8:00_pm"
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                },
-                "external knowledge": "System side information: {'system_acts': [{'name': 'confirm', 'slot_values': {'date': 'base_date_plus_2', 'movie': 'Bakit_lahat_ng_guwapo_may_boyfriend?!', 'num_tickets': '2', 'theatre_name': 'Century_at_Pacific_Commons', 'time': '8:00_pm'}}]}"
+                "dst": "movie date base_date_plus_2, movie theatre_name Cinemark_12_Downtown_San_Mateo"
             },
             {
                 "turn id": 8,
                 "user utterance": "yes 2 tickets for bakit lahat ng guwapo may boyfriend ? ! at 8 00 pm base_date_plus_2 please no , i do n't want century at pacific commons cinemark 12 downtown san mateo",
                 "system response": "To confirm, you want 2 tickets to see Bakit lahat ng guwapo may boyfriend?! at Century at Pacific Commons at 8:00 pm base_date_plus_2, right?",
-                "dialog history": "<SYSTEM> Hi, how can I help you? <USER> can you get 2 tickets for 8 00 pm ? <SYSTEM> Ok, 2 tickets. What day would you prefer? <USER> for base_date_plus_2 <SYSTEM> Ok. Which movie would you like to see? <USER> bakit lahat ng guwapo may boyfriend ? ! <SYSTEM> Ok. Which movie theater would you prefer? <USER> can you suggest me a theater ? <SYSTEM> Would AMC Saratoga 14|CineLux Plaza Theatre|Century at Pacific Commons|CineLux Almaden Cafe & Lounge work for you? <USER> yes , century at pacific commons . <SYSTEM> To confirm, you want 2 tickets to see Bakit lahat ng guwapo may boyfriend?! at Century at Pacific Commons at 8:00 pm base_date_plus_2, right? <USER> yes 2 tickets for bakit lahat ng guwapo may boyfriend ? ! at 8 00 pm base_date_plus_2 please no , i do n't want century at pacific commons cinemark 12 downtown san mateo . <SYSTEM> To confirm, you want 2 tickets to see Bakit lahat ng guwapo may boyfriend?! at Century at Pacific Commons at 8:00 pm base_date_plus_2, right?",
+                "dialog history": "<SYSTEM> Hi, how can I help you? <USER>  <SYSTEM> Ok, 2 tickets. What day would you prefer? <USER> can you get 2 tickets for 8 00 pm ? <SYSTEM> Ok. Which movie would you like to see? <USER> for base_date_plus_2 <SYSTEM> Ok. Which movie theater would you prefer? <USER> bakit lahat ng guwapo may boyfriend ? ! <SYSTEM> Would AMC Saratoga 14|CineLux Plaza Theatre|Century at Pacific Commons|CineLux Almaden Cafe & Lounge work for you? <USER> can you suggest me a theater ? <SYSTEM> To confirm, you want 2 tickets to see Bakit lahat ng guwapo may boyfriend?! at Century at Pacific Commons at 8:00 pm base_date_plus_2, right? <USER> yes , century at pacific commons . <SYSTEM> To confirm, you want 2 tickets to see Bakit lahat ng guwapo may boyfriend?! at Century at Pacific Commons at 8:00 pm base_date_plus_2, right? <USER> yes 2 tickets for bakit lahat ng guwapo may boyfriend ? ! at 8 00 pm base_date_plus_2 please no , i do n't want century at pacific commons cinemark 12 downtown san mateo .",
                 "original user side information": {
                     "dialogue_state": {
                         "date": "base_date_plus_2",
@@ -476,32 +289,13 @@
                     ]
                 },
                 "dst accumulated": "movie date base_date_plus_2, movie movie Bakit_lahat_ng_guwapo_may_boyfriend?!, movie num_tickets 2, movie theatre_name Cinemark_12_Downtown_San_Mateo, movie time 8:00_pm",
-                "dst": "movie movie Bakit_lahat_ng_guwapo_may_boyfriend?!, movie num_tickets 2, movie time 8:00_pm",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "original system side information": {
-                            "system_acts": [
-                                {
-                                    "name": "confirm",
-                                    "slot_values": {
-                                        "date": "base_date_plus_2",
-                                        "movie": "Bakit_lahat_ng_guwapo_may_boyfriend?!",
-                                        "num_tickets": "2",
-                                        "theatre_name": "Century_at_Pacific_Commons",
-                                        "time": "8:00_pm"
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                },
-                "external knowledge": "System side information: {'system_acts': [{'name': 'confirm', 'slot_values': {'date': 'base_date_plus_2', 'movie': 'Bakit_lahat_ng_guwapo_may_boyfriend?!', 'num_tickets': '2', 'theatre_name': 'Century_at_Pacific_Commons', 'time': '8:00_pm'}}]}"
+                "dst": "movie movie Bakit_lahat_ng_guwapo_may_boyfriend?!, movie num_tickets 2, movie time 8:00_pm"
             },
             {
                 "turn id": 9,
                 "user utterance": "yes 2 tickets for bakit lahat ng guwapo may boyfriend ? ! at 8 00 pm base_date_plus_2 please no , century at pacific commons will not work for me cinemark 12 downtown san mateo theatre",
                 "system response": "To confirm, you want 2 tickets to see Bakit lahat ng guwapo may boyfriend?! at Century at Pacific Commons at 8:00 pm base_date_plus_2, right?",
-                "dialog history": "<SYSTEM> Hi, how can I help you? <USER> can you get 2 tickets for 8 00 pm ? <SYSTEM> Ok, 2 tickets. What day would you prefer? <USER> for base_date_plus_2 <SYSTEM> Ok. Which movie would you like to see? <USER> bakit lahat ng guwapo may boyfriend ? ! <SYSTEM> Ok. Which movie theater would you prefer? <USER> can you suggest me a theater ? <SYSTEM> Would AMC Saratoga 14|CineLux Plaza Theatre|Century at Pacific Commons|CineLux Almaden Cafe & Lounge work for you? <USER> yes , century at pacific commons . <SYSTEM> To confirm, you want 2 tickets to see Bakit lahat ng guwapo may boyfriend?! at Century at Pacific Commons at 8:00 pm base_date_plus_2, right? <USER> yes 2 tickets for bakit lahat ng guwapo may boyfriend ? ! at 8 00 pm base_date_plus_2 please no , i do n't want century at pacific commons cinemark 12 downtown san mateo . <SYSTEM> To confirm, you want 2 tickets to see Bakit lahat ng guwapo may boyfriend?! at Century at Pacific Commons at 8:00 pm base_date_plus_2, right? <USER> yes 2 tickets for bakit lahat ng guwapo may boyfriend ? ! at 8 00 pm base_date_plus_2 please no , i do n't want century at pacific commons cinemark 12 downtown san mateo <SYSTEM> To confirm, you want 2 tickets to see Bakit lahat ng guwapo may boyfriend?! at Century at Pacific Commons at 8:00 pm base_date_plus_2, right?",
+                "dialog history": "<SYSTEM> Hi, how can I help you? <USER>  <SYSTEM> Ok, 2 tickets. What day would you prefer? <USER> can you get 2 tickets for 8 00 pm ? <SYSTEM> Ok. Which movie would you like to see? <USER> for base_date_plus_2 <SYSTEM> Ok. Which movie theater would you prefer? <USER> bakit lahat ng guwapo may boyfriend ? ! <SYSTEM> Would AMC Saratoga 14|CineLux Plaza Theatre|Century at Pacific Commons|CineLux Almaden Cafe & Lounge work for you? <USER> can you suggest me a theater ? <SYSTEM> To confirm, you want 2 tickets to see Bakit lahat ng guwapo may boyfriend?! at Century at Pacific Commons at 8:00 pm base_date_plus_2, right? <USER> yes , century at pacific commons . <SYSTEM> To confirm, you want 2 tickets to see Bakit lahat ng guwapo may boyfriend?! at Century at Pacific Commons at 8:00 pm base_date_plus_2, right? <USER> yes 2 tickets for bakit lahat ng guwapo may boyfriend ? ! at 8 00 pm base_date_plus_2 please no , i do n't want century at pacific commons cinemark 12 downtown san mateo . <SYSTEM> To confirm, you want 2 tickets to see Bakit lahat ng guwapo may boyfriend?! at Century at Pacific Commons at 8:00 pm base_date_plus_2, right? <USER> yes 2 tickets for bakit lahat ng guwapo may boyfriend ? ! at 8 00 pm base_date_plus_2 please no , i do n't want century at pacific commons cinemark 12 downtown san mateo",
                 "original user side information": {
                     "dialogue_state": {
                         "date": "base_date_plus_2",
@@ -535,32 +329,13 @@
                     ]
                 },
                 "dst accumulated": "movie date base_date_plus_2, movie movie Bakit_lahat_ng_guwapo_may_boyfriend?!, movie num_tickets 2, movie theatre_name Cinemark_12_Downtown_San_Mateo, movie time 8:00_pm",
-                "dst": "movie date base_date_plus_2, movie theatre_name Cinemark_12_Downtown_San_Mateo",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "original system side information": {
-                            "system_acts": [
-                                {
-                                    "name": "confirm",
-                                    "slot_values": {
-                                        "date": "base_date_plus_2",
-                                        "movie": "Bakit_lahat_ng_guwapo_may_boyfriend?!",
-                                        "num_tickets": "2",
-                                        "theatre_name": "Century_at_Pacific_Commons",
-                                        "time": "8:00_pm"
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                },
-                "external knowledge": "System side information: {'system_acts': [{'name': 'confirm', 'slot_values': {'date': 'base_date_plus_2', 'movie': 'Bakit_lahat_ng_guwapo_may_boyfriend?!', 'num_tickets': '2', 'theatre_name': 'Century_at_Pacific_Commons', 'time': '8:00_pm'}}]}"
+                "dst": "movie date base_date_plus_2, movie theatre_name Cinemark_12_Downtown_San_Mateo"
             },
             {
                 "turn id": 10,
                 "user utterance": "yes",
                 "system response": "I just bought you 2 tickets to see Bakit lahat ng guwapo may boyfriend?! at Century at Pacific Commons at 8:00 pm base_date_plus_2. Is there anything else I can do for you?",
-                "dialog history": "<SYSTEM> Hi, how can I help you? <USER> can you get 2 tickets for 8 00 pm ? <SYSTEM> Ok, 2 tickets. What day would you prefer? <USER> for base_date_plus_2 <SYSTEM> Ok. Which movie would you like to see? <USER> bakit lahat ng guwapo may boyfriend ? ! <SYSTEM> Ok. Which movie theater would you prefer? <USER> can you suggest me a theater ? <SYSTEM> Would AMC Saratoga 14|CineLux Plaza Theatre|Century at Pacific Commons|CineLux Almaden Cafe & Lounge work for you? <USER> yes , century at pacific commons . <SYSTEM> To confirm, you want 2 tickets to see Bakit lahat ng guwapo may boyfriend?! at Century at Pacific Commons at 8:00 pm base_date_plus_2, right? <USER> yes 2 tickets for bakit lahat ng guwapo may boyfriend ? ! at 8 00 pm base_date_plus_2 please no , i do n't want century at pacific commons cinemark 12 downtown san mateo . <SYSTEM> To confirm, you want 2 tickets to see Bakit lahat ng guwapo may boyfriend?! at Century at Pacific Commons at 8:00 pm base_date_plus_2, right? <USER> yes 2 tickets for bakit lahat ng guwapo may boyfriend ? ! at 8 00 pm base_date_plus_2 please no , i do n't want century at pacific commons cinemark 12 downtown san mateo <SYSTEM> To confirm, you want 2 tickets to see Bakit lahat ng guwapo may boyfriend?! at Century at Pacific Commons at 8:00 pm base_date_plus_2, right? <USER> yes 2 tickets for bakit lahat ng guwapo may boyfriend ? ! at 8 00 pm base_date_plus_2 please no , century at pacific commons will not work for me cinemark 12 downtown san mateo theatre <SYSTEM> To confirm, you want 2 tickets to see Bakit lahat ng guwapo may boyfriend?! at Century at Pacific Commons at 8:00 pm base_date_plus_2, right?",
+                "dialog history": "<SYSTEM> Hi, how can I help you? <USER>  <SYSTEM> Ok, 2 tickets. What day would you prefer? <USER> can you get 2 tickets for 8 00 pm ? <SYSTEM> Ok. Which movie would you like to see? <USER> for base_date_plus_2 <SYSTEM> Ok. Which movie theater would you prefer? <USER> bakit lahat ng guwapo may boyfriend ? ! <SYSTEM> Would AMC Saratoga 14|CineLux Plaza Theatre|Century at Pacific Commons|CineLux Almaden Cafe & Lounge work for you? <USER> can you suggest me a theater ? <SYSTEM> To confirm, you want 2 tickets to see Bakit lahat ng guwapo may boyfriend?! at Century at Pacific Commons at 8:00 pm base_date_plus_2, right? <USER> yes , century at pacific commons . <SYSTEM> To confirm, you want 2 tickets to see Bakit lahat ng guwapo may boyfriend?! at Century at Pacific Commons at 8:00 pm base_date_plus_2, right? <USER> yes 2 tickets for bakit lahat ng guwapo may boyfriend ? ! at 8 00 pm base_date_plus_2 please no , i do n't want century at pacific commons cinemark 12 downtown san mateo . <SYSTEM> To confirm, you want 2 tickets to see Bakit lahat ng guwapo may boyfriend?! at Century at Pacific Commons at 8:00 pm base_date_plus_2, right? <USER> yes 2 tickets for bakit lahat ng guwapo may boyfriend ? ! at 8 00 pm base_date_plus_2 please no , i do n't want century at pacific commons cinemark 12 downtown san mateo <SYSTEM> To confirm, you want 2 tickets to see Bakit lahat ng guwapo may boyfriend?! at Century at Pacific Commons at 8:00 pm base_date_plus_2, right? <USER> yes 2 tickets for bakit lahat ng guwapo may boyfriend ? ! at 8 00 pm base_date_plus_2 please no , century at pacific commons will not work for me cinemark 12 downtown san mateo theatre",
                 "original user side information": {
                     "dialogue_state": {
                         "date": "base_date_plus_2",
@@ -597,35 +372,13 @@
                     ]
                 },
                 "dst accumulated": "movie date base_date_plus_2, movie movie Bakit_lahat_ng_guwapo_may_boyfriend?!, movie num_tickets 2, movie theatre_name Century_at_Pacific_Commons, movie time 8:00_pm",
-                "dst": "movie movie Bakit_lahat_ng_guwapo_may_boyfriend?!, movie num_tickets 2, movie theatre_name Century_at_Pacific_Commons, movie time 8:00_pm",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "original system side information": {
-                            "system_acts": [
-                                {
-                                    "name": "notify_success",
-                                    "slot_values": {
-                                        "date": "base_date_plus_2",
-                                        "movie": "Bakit_lahat_ng_guwapo_may_boyfriend?!",
-                                        "num_tickets": "2",
-                                        "theatre_name": "Century_at_Pacific_Commons",
-                                        "time": "8:00_pm"
-                                    }
-                                },
-                                {
-                                    "name": "request_more"
-                                }
-                            ]
-                        }
-                    }
-                },
-                "external knowledge": "System side information: {'system_acts': [{'name': 'notify_success', 'slot_values': {'date': 'base_date_plus_2', 'movie': 'Bakit_lahat_ng_guwapo_may_boyfriend?!', 'num_tickets': '2', 'theatre_name': 'Century_at_Pacific_Commons', 'time': '8:00_pm'}}, {'name': 'request_more'}]}"
+                "dst": "movie movie Bakit_lahat_ng_guwapo_may_boyfriend?!, movie num_tickets 2, movie theatre_name Century_at_Pacific_Commons, movie time 8:00_pm"
             },
             {
                 "turn id": 11,
                 "user utterance": "see ya",
                 "system response": "",
-                "dialog history": "<SYSTEM> Hi, how can I help you? <USER> can you get 2 tickets for 8 00 pm ? <SYSTEM> Ok, 2 tickets. What day would you prefer? <USER> for base_date_plus_2 <SYSTEM> Ok. Which movie would you like to see? <USER> bakit lahat ng guwapo may boyfriend ? ! <SYSTEM> Ok. Which movie theater would you prefer? <USER> can you suggest me a theater ? <SYSTEM> Would AMC Saratoga 14|CineLux Plaza Theatre|Century at Pacific Commons|CineLux Almaden Cafe & Lounge work for you? <USER> yes , century at pacific commons . <SYSTEM> To confirm, you want 2 tickets to see Bakit lahat ng guwapo may boyfriend?! at Century at Pacific Commons at 8:00 pm base_date_plus_2, right? <USER> yes 2 tickets for bakit lahat ng guwapo may boyfriend ? ! at 8 00 pm base_date_plus_2 please no , i do n't want century at pacific commons cinemark 12 downtown san mateo . <SYSTEM> To confirm, you want 2 tickets to see Bakit lahat ng guwapo may boyfriend?! at Century at Pacific Commons at 8:00 pm base_date_plus_2, right? <USER> yes 2 tickets for bakit lahat ng guwapo may boyfriend ? ! at 8 00 pm base_date_plus_2 please no , i do n't want century at pacific commons cinemark 12 downtown san mateo <SYSTEM> To confirm, you want 2 tickets to see Bakit lahat ng guwapo may boyfriend?! at Century at Pacific Commons at 8:00 pm base_date_plus_2, right? <USER> yes 2 tickets for bakit lahat ng guwapo may boyfriend ? ! at 8 00 pm base_date_plus_2 please no , century at pacific commons will not work for me cinemark 12 downtown san mateo theatre <SYSTEM> To confirm, you want 2 tickets to see Bakit lahat ng guwapo may boyfriend?! at Century at Pacific Commons at 8:00 pm base_date_plus_2, right? <USER> yes <SYSTEM> I just bought you 2 tickets to see Bakit lahat ng guwapo may boyfriend?! at Century at Pacific Commons at 8:00 pm base_date_plus_2. Is there anything else I can do for you?",
+                "dialog history": "<SYSTEM> Hi, how can I help you? <USER>  <SYSTEM> Ok, 2 tickets. What day would you prefer? <USER> can you get 2 tickets for 8 00 pm ? <SYSTEM> Ok. Which movie would you like to see? <USER> for base_date_plus_2 <SYSTEM> Ok. Which movie theater would you prefer? <USER> bakit lahat ng guwapo may boyfriend ? ! <SYSTEM> Would AMC Saratoga 14|CineLux Plaza Theatre|Century at Pacific Commons|CineLux Almaden Cafe & Lounge work for you? <USER> can you suggest me a theater ? <SYSTEM> To confirm, you want 2 tickets to see Bakit lahat ng guwapo may boyfriend?! at Century at Pacific Commons at 8:00 pm base_date_plus_2, right? <USER> yes , century at pacific commons . <SYSTEM> To confirm, you want 2 tickets to see Bakit lahat ng guwapo may boyfriend?! at Century at Pacific Commons at 8:00 pm base_date_plus_2, right? <USER> yes 2 tickets for bakit lahat ng guwapo may boyfriend ? ! at 8 00 pm base_date_plus_2 please no , i do n't want century at pacific commons cinemark 12 downtown san mateo . <SYSTEM> To confirm, you want 2 tickets to see Bakit lahat ng guwapo may boyfriend?! at Century at Pacific Commons at 8:00 pm base_date_plus_2, right? <USER> yes 2 tickets for bakit lahat ng guwapo may boyfriend ? ! at 8 00 pm base_date_plus_2 please no , i do n't want century at pacific commons cinemark 12 downtown san mateo <SYSTEM> To confirm, you want 2 tickets to see Bakit lahat ng guwapo may boyfriend?! at Century at Pacific Commons at 8:00 pm base_date_plus_2, right? <USER> yes 2 tickets for bakit lahat ng guwapo may boyfriend ? ! at 8 00 pm base_date_plus_2 please no , century at pacific commons will not work for me cinemark 12 downtown san mateo theatre <SYSTEM> I just bought you 2 tickets to see Bakit lahat ng guwapo may boyfriend?! at Century at Pacific Commons at 8:00 pm base_date_plus_2. Is there anything else I can do for you? <USER> yes",
                 "original user side information": {
                     "dialogue_state": {
                         "date": "base_date_plus_2",
@@ -646,29 +399,11 @@
                 },
                 "original system side information": {},
                 "dst accumulated": "movie date base_date_plus_2, movie movie Bakit_lahat_ng_guwapo_may_boyfriend?!, movie num_tickets 2, movie theatre_name Century_at_Pacific_Commons, movie time 8:00_pm",
-                "dst": "movie date base_date_plus_2",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "original system side information": {}
-                    }
-                },
-                "external knowledge": "System side information: {}"
+                "dst": "movie date base_date_plus_2"
             }
         ],
-        "dst knowledge": "( movie : ( date : ( DontCare | base_date_plus_0 | base_date_plus_1 | base_date_plus_2 | base_date_plus_3 | base_date_plus_4 | base_date_plus_5 | base_date_plus_6 ) | movie : ( Doctor_Who_(Animated) | The_Love_Witch | Kevin_Hart | Ouija | The_Love_Witch | Chaar_Sahibzaade | Desierto | Ae_Dil_Hai_Mushkil | The_Accountant | Sully ) | num_tickets : ( 2 | 3 | 4 | 5 | 6 ) | theatre_name : ( AMC_Cupertino_Square_16 | AMC_Mercado_20 | AMC_Newpark_12 | AMC_Saratoga_14 | Camera_7 | Century_20_Great_Mall | Century_25_Union_City_and_XD | Century_Cinemas_16 | Century_at_Pacific_Commons | CineArts_@_Santana_Row | CineLux_Almaden_Cafe_&_Lounge | CineLux_Plaza_Theatre | Cinemark_12_Downtown_San_Mateo | Cinemark_Redwood_Downtown_20_and_XD | DontCare ) | time : ( 10:00_am | 10:00_pm | 12:00_pm | 1:00_pm | 2:00_pm | 4:00_pm | 6:00_pm | 7:15_pm | 8:00_am | 8:00_pm | DontCare )))",
-        "intent knowledge": "()",
-        "prompt": [
-            "This is a bot helping users to book a movie ticket. Given the dialog context and external database, please generate a relevant system response for the user.",
-            "This bot assists users to book a movie ticket. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
-            "This bot helps users to book a movie ticket. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
-            "The purpose of this bot is to assist users to book a movie ticket. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
-            "This bot is designed to help users book a movie ticket. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
-        ]
-    },
-    "SimJointGEN--train--2": {
-        "original dialog id": "sim_movies_dev_000001",
-        "dialog index": 2,
-        "original dialog info": {
+        "external knowledge non-flat": {
+            "metadata": {},
             "slots and values": {
                 "movie": {
                     "date": [
@@ -682,16 +417,16 @@
                         "base_date_plus_6"
                     ],
                     "movie": [
-                        "Doctor_Who_(Animated)",
-                        "The_Love_Witch",
-                        "Kevin_Hart",
-                        "Ouija",
-                        "The_Love_Witch",
-                        "Chaar_Sahibzaade",
-                        "Desierto",
-                        "Ae_Dil_Hai_Mushkil",
-                        "The_Accountant",
-                        "Sully"
+                        "Boo!_A_Madea_Halloween",
+                        "Inferno",
+                        "Deepwater_Horizon",
+                        "Aquarius",
+                        "The_Handmaiden",
+                        "Mad_Max",
+                        "Arrival",
+                        "Aquarius",
+                        "Keeping_Up_with_the_Joneses",
+                        "Kubo_and_the_Two_Strings"
                     ],
                     "num_tickets": [
                         "2",
@@ -734,6 +469,21 @@
             },
             "intents": {}
         },
+        "external knowledge": "()",
+        "dst knowledge": "( movie : ( date : ( DontCare | base_date_plus_0 | base_date_plus_1 | base_date_plus_2 | base_date_plus_3 | base_date_plus_4 | base_date_plus_5 | base_date_plus_6 ) | movie : ( Boo!_A_Madea_Halloween | Inferno | Deepwater_Horizon | Aquarius | The_Handmaiden | Mad_Max | Arrival | Aquarius | Keeping_Up_with_the_Joneses | Kubo_and_the_Two_Strings ) | num_tickets : ( 2 | 3 | 4 | 5 | 6 ) | theatre_name : ( AMC_Cupertino_Square_16 | AMC_Mercado_20 | AMC_Newpark_12 | AMC_Saratoga_14 | Camera_7 | Century_20_Great_Mall | Century_25_Union_City_and_XD | Century_Cinemas_16 | Century_at_Pacific_Commons | CineArts_@_Santana_Row | CineLux_Almaden_Cafe_&_Lounge | CineLux_Plaza_Theatre | Cinemark_12_Downtown_San_Mateo | Cinemark_Redwood_Downtown_20_and_XD | DontCare ) | time : ( 10:00_am | 10:00_pm | 12:00_pm | 1:00_pm | 2:00_pm | 4:00_pm | 6:00_pm | 7:15_pm | 8:00_am | 8:00_pm | DontCare )))",
+        "intent knowledge": "()",
+        "prompt": [
+            "This is a bot helping users to book a movie ticket. Given the dialog context and external database, please generate a relevant system response for the user.",
+            "This bot assists users to book a movie ticket. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
+            "This bot helps users to book a movie ticket. Based on the conversation history and available external data, please generate a relevant system response for the user.",
+            "The purpose of this bot is to assist users to book a movie ticket. Considering the dialogue context and the information available in the external database, please provide a fitting response for the user.",
+            "This bot is designed to help users book a movie ticket. By utilizing the current dialog context and external resources, generate a fitting response for the user."
+        ]
+    },
+    "SimJointGEN--train--2": {
+        "original dialog id": "sim_movies_dev_000001",
+        "dialog index": 2,
+        "original dialog info": {},
         "log": [
             {
                 "turn id": 1,
@@ -747,25 +497,13 @@
                             "name": "greeting"
                         }
                     ]
-                },
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "original system side information": {
-                            "system_acts": [
-                                {
-                                    "name": "greeting"
-                                }
-                            ]
-                        }
-                    }
-                },
-                "external knowledge": "System side information: {'system_acts': [{'name': 'greeting'}]}"
+                }
             },
             {
                 "turn id": 2,
                 "user utterance": "you want me to buy movie tickets for aquarius showing at cinelux plaza theatre ? . any time would work for me .",
                 "system response": "Sure, tickets for Aquarius at CineLux Plaza Theatre. What day would you prefer?",
-                "dialog history": "<SYSTEM> Hi, how can I help you?",
+                "dialog history": "<SYSTEM> Hi, how can I help you? <USER> ",
                 "original user side information": {
                     "dialogue_state": {
                         "movie": "Aquarius",
@@ -801,35 +539,13 @@
                     ]
                 },
                 "dst accumulated": "movie movie Aquarius, movie theatre_name CineLux_Plaza_Theatre, movie time DontCare",
-                "dst": "movie movie Aquarius, movie theatre_name CineLux_Plaza_Theatre, movie time DontCare",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "original system side information": {
-                            "system_acts": [
-                                {
-                                    "name": "impl_confirm",
-                                    "slot_values": {
-                                        "movie": "Aquarius",
-                                        "theatre_name": "CineLux_Plaza_Theatre"
-                                    }
-                                },
-                                {
-                                    "name": "request",
-                                    "slot_values": {
-                                        "date": "REQUESTED"
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                },
-                "external knowledge": "System side information: {'system_acts': [{'name': 'impl_confirm', 'slot_values': {'movie': 'Aquarius', 'theatre_name': 'CineLux_Plaza_Theatre'}}, {'name': 'request', 'slot_values': {'date': 'REQUESTED'}}]}"
+                "dst": "movie movie Aquarius, movie theatre_name CineLux_Plaza_Theatre, movie time DontCare"
             },
             {
                 "turn id": 3,
                 "user utterance": "3 tickets for base_date_plus_0",
                 "system response": "Ok, 3 tickets. Would 2:00 pm work for you?",
-                "dialog history": "<SYSTEM> Hi, how can I help you? <USER> you want me to buy movie tickets for aquarius showing at cinelux plaza theatre ? . any time would work for me . <SYSTEM> Sure, tickets for Aquarius at CineLux Plaza Theatre. What day would you prefer?",
+                "dialog history": "<SYSTEM> Hi, how can I help you? <USER>  <SYSTEM> Sure, tickets for Aquarius at CineLux Plaza Theatre. What day would you prefer? <USER> you want me to buy movie tickets for aquarius showing at cinelux plaza theatre ? . any time would work for me .",
                 "original user side information": {
                     "dialogue_state": {
                         "date": "base_date_plus_0",
@@ -865,34 +581,13 @@
                     ]
                 },
                 "dst accumulated": "movie date base_date_plus_0, movie movie Aquarius, movie num_tickets 3, movie theatre_name CineLux_Plaza_Theatre, movie time DontCare",
-                "dst": "movie date base_date_plus_0, movie num_tickets 3",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "original system side information": {
-                            "system_acts": [
-                                {
-                                    "name": "impl_confirm",
-                                    "slot_values": {
-                                        "num_tickets": "3"
-                                    }
-                                },
-                                {
-                                    "name": "offer",
-                                    "slot_values": {
-                                        "time": "2:00_pm"
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                },
-                "external knowledge": "System side information: {'system_acts': [{'name': 'impl_confirm', 'slot_values': {'num_tickets': '3'}}, {'name': 'offer', 'slot_values': {'time': '2:00_pm'}}]}"
+                "dst": "movie date base_date_plus_0, movie num_tickets 3"
             },
             {
                 "turn id": 4,
                 "user utterance": "no",
                 "system response": "Would 8:00 pm work for you?",
-                "dialog history": "<SYSTEM> Hi, how can I help you? <USER> you want me to buy movie tickets for aquarius showing at cinelux plaza theatre ? . any time would work for me . <SYSTEM> Sure, tickets for Aquarius at CineLux Plaza Theatre. What day would you prefer? <USER> 3 tickets for base_date_plus_0 <SYSTEM> Ok, 3 tickets. Would 2:00 pm work for you?",
+                "dialog history": "<SYSTEM> Hi, how can I help you? <USER>  <SYSTEM> Sure, tickets for Aquarius at CineLux Plaza Theatre. What day would you prefer? <USER> you want me to buy movie tickets for aquarius showing at cinelux plaza theatre ? . any time would work for me . <SYSTEM> Ok, 3 tickets. Would 2:00 pm work for you? <USER> 3 tickets for base_date_plus_0",
                 "original user side information": {
                     "dialogue_state": {
                         "date": "base_date_plus_0",
@@ -922,28 +617,13 @@
                     ]
                 },
                 "dst accumulated": "movie date base_date_plus_0, movie movie Aquarius, movie num_tickets 3, movie theatre_name CineLux_Plaza_Theatre, movie time DontCare",
-                "dst": "movie movie Aquarius, movie theatre_name CineLux_Plaza_Theatre, movie time DontCare",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "original system side information": {
-                            "system_acts": [
-                                {
-                                    "name": "offer",
-                                    "slot_values": {
-                                        "time": "8:00_pm"
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                },
-                "external knowledge": "System side information: {'system_acts': [{'name': 'offer', 'slot_values': {'time': '8:00_pm'}}]}"
+                "dst": "movie movie Aquarius, movie theatre_name CineLux_Plaza_Theatre, movie time DontCare"
             },
             {
                 "turn id": 5,
                 "user utterance": "yes , 8 00 pm .",
                 "system response": "To confirm, you want 3 tickets to see Aquarius at CineLux Plaza Theatre at 8:00 pm base_date_plus_0, right?",
-                "dialog history": "<SYSTEM> Hi, how can I help you? <USER> you want me to buy movie tickets for aquarius showing at cinelux plaza theatre ? . any time would work for me . <SYSTEM> Sure, tickets for Aquarius at CineLux Plaza Theatre. What day would you prefer? <USER> 3 tickets for base_date_plus_0 <SYSTEM> Ok, 3 tickets. Would 2:00 pm work for you? <USER> no <SYSTEM> Would 8:00 pm work for you?",
+                "dialog history": "<SYSTEM> Hi, how can I help you? <USER>  <SYSTEM> Sure, tickets for Aquarius at CineLux Plaza Theatre. What day would you prefer? <USER> you want me to buy movie tickets for aquarius showing at cinelux plaza theatre ? . any time would work for me . <SYSTEM> Ok, 3 tickets. Would 2:00 pm work for you? <USER> 3 tickets for base_date_plus_0 <SYSTEM> Would 8:00 pm work for you? <USER> no",
                 "original user side information": {
                     "dialogue_state": {
                         "date": "base_date_plus_0",
@@ -977,32 +657,13 @@
                     ]
                 },
                 "dst accumulated": "movie date base_date_plus_0, movie movie Aquarius, movie num_tickets 3, movie theatre_name CineLux_Plaza_Theatre, movie time 8:00_pm",
-                "dst": "movie date base_date_plus_0, movie num_tickets 3, movie time 8:00_pm",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "original system side information": {
-                            "system_acts": [
-                                {
-                                    "name": "confirm",
-                                    "slot_values": {
-                                        "date": "base_date_plus_0",
-                                        "movie": "Aquarius",
-                                        "num_tickets": "3",
-                                        "theatre_name": "CineLux_Plaza_Theatre",
-                                        "time": "8:00_pm"
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                },
-                "external knowledge": "System side information: {'system_acts': [{'name': 'confirm', 'slot_values': {'date': 'base_date_plus_0', 'movie': 'Aquarius', 'num_tickets': '3', 'theatre_name': 'CineLux_Plaza_Theatre', 'time': '8:00_pm'}}]}"
+                "dst": "movie date base_date_plus_0, movie num_tickets 3, movie time 8:00_pm"
             },
             {
                 "turn id": 6,
                 "user utterance": "yep",
                 "system response": "I just bought you 3 tickets to see Aquarius at CineLux Plaza Theatre at 8:00 pm base_date_plus_0. Is there anything else I can do for you?",
-                "dialog history": "<SYSTEM> Hi, how can I help you? <USER> you want me to buy movie tickets for aquarius showing at cinelux plaza theatre ? . any time would work for me . <SYSTEM> Sure, tickets for Aquarius at CineLux Plaza Theatre. What day would you prefer? <USER> 3 tickets for base_date_plus_0 <SYSTEM> Ok, 3 tickets. Would 2:00 pm work for you? <USER> no <SYSTEM> Would 8:00 pm work for you? <USER> yes , 8 00 pm . <SYSTEM> To confirm, you want 3 tickets to see Aquarius at CineLux Plaza Theatre at 8:00 pm base_date_plus_0, right?",
+                "dialog history": "<SYSTEM> Hi, how can I help you? <USER>  <SYSTEM> Sure, tickets for Aquarius at CineLux Plaza Theatre. What day would you prefer? <USER> you want me to buy movie tickets for aquarius showing at cinelux plaza theatre ? . any time would work for me . <SYSTEM> Ok, 3 tickets. Would 2:00 pm work for you? <USER> 3 tickets for base_date_plus_0 <SYSTEM> Would 8:00 pm work for you? <USER> no <SYSTEM> To confirm, you want 3 tickets to see Aquarius at CineLux Plaza Theatre at 8:00 pm base_date_plus_0, right? <USER> yes , 8 00 pm .",
                 "original user side information": {
                     "dialogue_state": {
                         "date": "base_date_plus_0",
@@ -1039,35 +700,13 @@
                     ]
                 },
                 "dst accumulated": "movie date base_date_plus_0, movie movie Aquarius, movie num_tickets 3, movie theatre_name CineLux_Plaza_Theatre, movie time 8:00_pm",
-                "dst": "movie movie Aquarius, movie theatre_name CineLux_Plaza_Theatre",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "original system side information": {
-                            "system_acts": [
-                                {
-                                    "name": "notify_success",
-                                    "slot_values": {
-                                        "date": "base_date_plus_0",
-                                        "movie": "Aquarius",
-                                        "num_tickets": "3",
-                                        "theatre_name": "CineLux_Plaza_Theatre",
-                                        "time": "8:00_pm"
-                                    }
-                                },
-                                {
-                                    "name": "request_more"
-                                }
-                            ]
-                        }
-                    }
-                },
-                "external knowledge": "System side information: {'system_acts': [{'name': 'notify_success', 'slot_values': {'date': 'base_date_plus_0', 'movie': 'Aquarius', 'num_tickets': '3', 'theatre_name': 'CineLux_Plaza_Theatre', 'time': '8:00_pm'}}, {'name': 'request_more'}]}"
+                "dst": "movie movie Aquarius, movie theatre_name CineLux_Plaza_Theatre"
             },
             {
                 "turn id": 7,
                 "user utterance": "see ya .",
                 "system response": "",
-                "dialog history": "<SYSTEM> Hi, how can I help you? <USER> you want me to buy movie tickets for aquarius showing at cinelux plaza theatre ? . any time would work for me . <SYSTEM> Sure, tickets for Aquarius at CineLux Plaza Theatre. What day would you prefer? <USER> 3 tickets for base_date_plus_0 <SYSTEM> Ok, 3 tickets. Would 2:00 pm work for you? <USER> no <SYSTEM> Would 8:00 pm work for you? <USER> yes , 8 00 pm . <SYSTEM> To confirm, you want 3 tickets to see Aquarius at CineLux Plaza Theatre at 8:00 pm base_date_plus_0, right? <USER> yep <SYSTEM> I just bought you 3 tickets to see Aquarius at CineLux Plaza Theatre at 8:00 pm base_date_plus_0. Is there anything else I can do for you?",
+                "dialog history": "<SYSTEM> Hi, how can I help you? <USER>  <SYSTEM> Sure, tickets for Aquarius at CineLux Plaza Theatre. What day would you prefer? <USER> you want me to buy movie tickets for aquarius showing at cinelux plaza theatre ? . any time would work for me . <SYSTEM> Ok, 3 tickets. Would 2:00 pm work for you? <USER> 3 tickets for base_date_plus_0 <SYSTEM> Would 8:00 pm work for you? <USER> no <SYSTEM> To confirm, you want 3 tickets to see Aquarius at CineLux Plaza Theatre at 8:00 pm base_date_plus_0, right? <USER> yes , 8 00 pm . <SYSTEM> I just bought you 3 tickets to see Aquarius at CineLux Plaza Theatre at 8:00 pm base_date_plus_0. Is there anything else I can do for you? <USER> yep",
                 "original user side information": {
                     "dialogue_state": {
                         "date": "base_date_plus_0",
@@ -1088,29 +727,11 @@
                 },
                 "original system side information": {},
                 "dst accumulated": "movie date base_date_plus_0, movie movie Aquarius, movie num_tickets 3, movie theatre_name CineLux_Plaza_Theatre, movie time 8:00_pm",
-                "dst": "movie date base_date_plus_0, movie num_tickets 3, movie time 8:00_pm",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "original system side information": {}
-                    }
-                },
-                "external knowledge": "System side information: {}"
+                "dst": "movie date base_date_plus_0, movie num_tickets 3, movie time 8:00_pm"
             }
         ],
-        "dst knowledge": "( movie : ( date : ( DontCare | base_date_plus_0 | base_date_plus_1 | base_date_plus_2 | base_date_plus_3 | base_date_plus_4 | base_date_plus_5 | base_date_plus_6 ) | movie : ( Doctor_Who_(Animated) | The_Love_Witch | Kevin_Hart | Ouija | The_Love_Witch | Chaar_Sahibzaade | Desierto | Ae_Dil_Hai_Mushkil | The_Accountant | Sully ) | num_tickets : ( 2 | 3 | 4 | 5 | 6 ) | theatre_name : ( AMC_Cupertino_Square_16 | AMC_Mercado_20 | AMC_Newpark_12 | AMC_Saratoga_14 | Camera_7 | Century_20_Great_Mall | Century_25_Union_City_and_XD | Century_Cinemas_16 | Century_at_Pacific_Commons | CineArts_@_Santana_Row | CineLux_Almaden_Cafe_&_Lounge | CineLux_Plaza_Theatre | Cinemark_12_Downtown_San_Mateo | Cinemark_Redwood_Downtown_20_and_XD | DontCare ) | time : ( 10:00_am | 10:00_pm | 12:00_pm | 1:00_pm | 2:00_pm | 4:00_pm | 6:00_pm | 7:15_pm | 8:00_am | 8:00_pm | DontCare )))",
-        "intent knowledge": "()",
-        "prompt": [
-            "This is a bot helping users to book a movie ticket. Given the dialog context and external database, please generate a relevant system response for the user.",
-            "This bot assists users to book a movie ticket. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
-            "This bot helps users to book a movie ticket. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
-            "The purpose of this bot is to assist users to book a movie ticket. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
-            "This bot is designed to help users book a movie ticket. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
-        ]
-    },
-    "SimJointGEN--train--3": {
-        "original dialog id": "sim_movies_dev_000002",
-        "dialog index": 3,
-        "original dialog info": {
+        "external knowledge non-flat": {
+            "metadata": {},
             "slots and values": {
                 "movie": {
                     "date": [
@@ -1124,16 +745,16 @@
                         "base_date_plus_6"
                     ],
                     "movie": [
-                        "Doctor_Who_(Animated)",
-                        "The_Love_Witch",
-                        "Kevin_Hart",
-                        "Ouija",
-                        "The_Love_Witch",
-                        "Chaar_Sahibzaade",
-                        "Desierto",
-                        "Ae_Dil_Hai_Mushkil",
-                        "The_Accountant",
-                        "Sully"
+                        "Boo!_A_Madea_Halloween",
+                        "Inferno",
+                        "Deepwater_Horizon",
+                        "Aquarius",
+                        "The_Handmaiden",
+                        "Mad_Max",
+                        "Arrival",
+                        "Aquarius",
+                        "Keeping_Up_with_the_Joneses",
+                        "Kubo_and_the_Two_Strings"
                     ],
                     "num_tickets": [
                         "2",
@@ -1176,6 +797,21 @@
             },
             "intents": {}
         },
+        "external knowledge": "()",
+        "dst knowledge": "( movie : ( date : ( DontCare | base_date_plus_0 | base_date_plus_1 | base_date_plus_2 | base_date_plus_3 | base_date_plus_4 | base_date_plus_5 | base_date_plus_6 ) | movie : ( Boo!_A_Madea_Halloween | Inferno | Deepwater_Horizon | Aquarius | The_Handmaiden | Mad_Max | Arrival | Aquarius | Keeping_Up_with_the_Joneses | Kubo_and_the_Two_Strings ) | num_tickets : ( 2 | 3 | 4 | 5 | 6 ) | theatre_name : ( AMC_Cupertino_Square_16 | AMC_Mercado_20 | AMC_Newpark_12 | AMC_Saratoga_14 | Camera_7 | Century_20_Great_Mall | Century_25_Union_City_and_XD | Century_Cinemas_16 | Century_at_Pacific_Commons | CineArts_@_Santana_Row | CineLux_Almaden_Cafe_&_Lounge | CineLux_Plaza_Theatre | Cinemark_12_Downtown_San_Mateo | Cinemark_Redwood_Downtown_20_and_XD | DontCare ) | time : ( 10:00_am | 10:00_pm | 12:00_pm | 1:00_pm | 2:00_pm | 4:00_pm | 6:00_pm | 7:15_pm | 8:00_am | 8:00_pm | DontCare )))",
+        "intent knowledge": "()",
+        "prompt": [
+            "This is a bot helping users to book a movie ticket. Given the dialog context and external database, please generate a relevant system response for the user.",
+            "This bot assists users to book a movie ticket. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
+            "This bot helps users to book a movie ticket. Based on the conversation history and available external data, please generate a relevant system response for the user.",
+            "The purpose of this bot is to assist users to book a movie ticket. Considering the dialogue context and the information available in the external database, please provide a fitting response for the user.",
+            "This bot is designed to help users book a movie ticket. By utilizing the current dialog context and external resources, generate a fitting response for the user."
+        ]
+    },
+    "SimJointGEN--train--3": {
+        "original dialog id": "sim_movies_dev_000002",
+        "dialog index": 3,
+        "original dialog info": {},
         "log": [
             {
                 "turn id": 1,
@@ -1189,25 +825,13 @@
                             "name": "greeting"
                         }
                     ]
-                },
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "original system side information": {
-                            "system_acts": [
-                                {
-                                    "name": "greeting"
-                                }
-                            ]
-                        }
-                    }
-                },
-                "external knowledge": "System side information: {'system_acts': [{'name': 'greeting'}]}"
+                }
             },
             {
                 "turn id": 2,
                 "user utterance": "hello . i want to buy 3 movie tickets .",
                 "system response": "Ok, 3 tickets. What time and day would you prefer?",
-                "dialog history": "<SYSTEM> Hi, how can I help you?",
+                "dialog history": "<SYSTEM> Hi, how can I help you? <USER> ",
                 "original user side information": {
                     "dialogue_state": {
                         "num_tickets": "3"
@@ -1241,35 +865,13 @@
                     ]
                 },
                 "dst accumulated": "movie num_tickets 3",
-                "dst": "movie num_tickets 3",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "original system side information": {
-                            "system_acts": [
-                                {
-                                    "name": "impl_confirm",
-                                    "slot_values": {
-                                        "num_tickets": "3"
-                                    }
-                                },
-                                {
-                                    "name": "request",
-                                    "slot_values": {
-                                        "date": "REQUESTED",
-                                        "time": "REQUESTED"
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                },
-                "external knowledge": "System side information: {'system_acts': [{'name': 'impl_confirm', 'slot_values': {'num_tickets': '3'}}, {'name': 'request', 'slot_values': {'date': 'REQUESTED', 'time': 'REQUESTED'}}]}"
+                "dst": "movie num_tickets 3"
             },
             {
                 "turn id": 3,
                 "user utterance": "6 00 pm , please . . any day is ok .",
                 "system response": "Ok. Which movie theater would you prefer?",
-                "dialog history": "<SYSTEM> Hi, how can I help you? <USER> hello . i want to buy 3 movie tickets . <SYSTEM> Ok, 3 tickets. What time and day would you prefer?",
+                "dialog history": "<SYSTEM> Hi, how can I help you? <USER>  <SYSTEM> Ok, 3 tickets. What time and day would you prefer? <USER> hello . i want to buy 3 movie tickets .",
                 "original user side information": {
                     "dialogue_state": {
                         "date": "DontCare",
@@ -1301,31 +903,13 @@
                     ]
                 },
                 "dst accumulated": "movie date DontCare, movie num_tickets 3, movie time 6:00_pm",
-                "dst": "movie date DontCare, movie time 6:00_pm",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "original system side information": {
-                            "system_acts": [
-                                {
-                                    "name": "ack"
-                                },
-                                {
-                                    "name": "request",
-                                    "slot_values": {
-                                        "theatre_name": "REQUESTED"
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                },
-                "external knowledge": "System side information: {'system_acts': [{'name': 'ack'}, {'name': 'request', 'slot_values': {'theatre_name': 'REQUESTED'}}]}"
+                "dst": "movie date DontCare, movie time 6:00_pm"
             },
             {
                 "turn id": 4,
                 "user utterance": "cinelux plaza theatre",
                 "system response": "Ok. Which movie would you like to see?",
-                "dialog history": "<SYSTEM> Hi, how can I help you? <USER> hello . i want to buy 3 movie tickets . <SYSTEM> Ok, 3 tickets. What time and day would you prefer? <USER> 6 00 pm , please . . any day is ok . <SYSTEM> Ok. Which movie theater would you prefer?",
+                "dialog history": "<SYSTEM> Hi, how can I help you? <USER>  <SYSTEM> Ok, 3 tickets. What time and day would you prefer? <USER> hello . i want to buy 3 movie tickets . <SYSTEM> Ok. Which movie theater would you prefer? <USER> 6 00 pm , please . . any day is ok .",
                 "original user side information": {
                     "dialogue_state": {
                         "date": "DontCare",
@@ -1358,31 +942,13 @@
                     ]
                 },
                 "dst accumulated": "movie date DontCare, movie num_tickets 3, movie theatre_name CineLux_Plaza_Theatre, movie time 6:00_pm",
-                "dst": "movie num_tickets 3, movie theatre_name CineLux_Plaza_Theatre",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "original system side information": {
-                            "system_acts": [
-                                {
-                                    "name": "ack"
-                                },
-                                {
-                                    "name": "request",
-                                    "slot_values": {
-                                        "movie": "REQUESTED"
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                },
-                "external knowledge": "System side information: {'system_acts': [{'name': 'ack'}, {'name': 'request', 'slot_values': {'movie': 'REQUESTED'}}]}"
+                "dst": "movie num_tickets 3, movie theatre_name CineLux_Plaza_Theatre"
             },
             {
                 "turn id": 5,
                 "user utterance": "any movie would be fine .",
                 "system response": "Ok. Would you like to see Disney Junior at the Movies with Mickey! at 6:00 pm base_date_plus_0?",
-                "dialog history": "<SYSTEM> Hi, how can I help you? <USER> hello . i want to buy 3 movie tickets . <SYSTEM> Ok, 3 tickets. What time and day would you prefer? <USER> 6 00 pm , please . . any day is ok . <SYSTEM> Ok. Which movie theater would you prefer? <USER> cinelux plaza theatre <SYSTEM> Ok. Which movie would you like to see?",
+                "dialog history": "<SYSTEM> Hi, how can I help you? <USER>  <SYSTEM> Ok, 3 tickets. What time and day would you prefer? <USER> hello . i want to buy 3 movie tickets . <SYSTEM> Ok. Which movie theater would you prefer? <USER> 6 00 pm , please . . any day is ok . <SYSTEM> Ok. Which movie would you like to see? <USER> cinelux plaza theatre",
                 "original user side information": {
                     "dialogue_state": {
                         "date": "DontCare",
@@ -1418,33 +984,13 @@
                     ]
                 },
                 "dst accumulated": "movie date DontCare, movie movie DontCare, movie num_tickets 3, movie theatre_name CineLux_Plaza_Theatre, movie time 6:00_pm",
-                "dst": "movie date DontCare, movie movie DontCare, movie time 6:00_pm",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "original system side information": {
-                            "system_acts": [
-                                {
-                                    "name": "ack"
-                                },
-                                {
-                                    "name": "offer",
-                                    "slot_values": {
-                                        "date": "base_date_plus_0",
-                                        "movie": "Disney_Junior_at_the_Movies_with_Mickey!",
-                                        "time": "6:00_pm"
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                },
-                "external knowledge": "System side information: {'system_acts': [{'name': 'ack'}, {'name': 'offer', 'slot_values': {'date': 'base_date_plus_0', 'movie': 'Disney_Junior_at_the_Movies_with_Mickey!', 'time': '6:00_pm'}}]}"
+                "dst": "movie date DontCare, movie movie DontCare, movie time 6:00_pm"
             },
             {
                 "turn id": 6,
                 "user utterance": "thats correct",
                 "system response": "To confirm, you want 3 tickets to see Disney Junior at the Movies with Mickey! at CineLux Plaza Theatre at 6:00 pm base_date_plus_0, right?",
-                "dialog history": "<SYSTEM> Hi, how can I help you? <USER> hello . i want to buy 3 movie tickets . <SYSTEM> Ok, 3 tickets. What time and day would you prefer? <USER> 6 00 pm , please . . any day is ok . <SYSTEM> Ok. Which movie theater would you prefer? <USER> cinelux plaza theatre <SYSTEM> Ok. Which movie would you like to see? <USER> any movie would be fine . <SYSTEM> Ok. Would you like to see Disney Junior at the Movies with Mickey! at 6:00 pm base_date_plus_0?",
+                "dialog history": "<SYSTEM> Hi, how can I help you? <USER>  <SYSTEM> Ok, 3 tickets. What time and day would you prefer? <USER> hello . i want to buy 3 movie tickets . <SYSTEM> Ok. Which movie theater would you prefer? <USER> 6 00 pm , please . . any day is ok . <SYSTEM> Ok. Which movie would you like to see? <USER> cinelux plaza theatre <SYSTEM> Ok. Would you like to see Disney Junior at the Movies with Mickey! at 6:00 pm base_date_plus_0? <USER> any movie would be fine .",
                 "original user side information": {
                     "dialogue_state": {
                         "date": "base_date_plus_0",
@@ -1478,32 +1024,13 @@
                     ]
                 },
                 "dst accumulated": "movie date base_date_plus_0, movie movie Disney_Junior_at_the_Movies_with_Mickey!, movie num_tickets 3, movie theatre_name CineLux_Plaza_Theatre, movie time 6:00_pm",
-                "dst": "movie date base_date_plus_0, movie movie Disney_Junior_at_the_Movies_with_Mickey!, movie num_tickets 3, movie theatre_name CineLux_Plaza_Theatre",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "original system side information": {
-                            "system_acts": [
-                                {
-                                    "name": "confirm",
-                                    "slot_values": {
-                                        "date": "base_date_plus_0",
-                                        "movie": "Disney_Junior_at_the_Movies_with_Mickey!",
-                                        "num_tickets": "3",
-                                        "theatre_name": "CineLux_Plaza_Theatre",
-                                        "time": "6:00_pm"
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                },
-                "external knowledge": "System side information: {'system_acts': [{'name': 'confirm', 'slot_values': {'date': 'base_date_plus_0', 'movie': 'Disney_Junior_at_the_Movies_with_Mickey!', 'num_tickets': '3', 'theatre_name': 'CineLux_Plaza_Theatre', 'time': '6:00_pm'}}]}"
+                "dst": "movie date base_date_plus_0, movie movie Disney_Junior_at_the_Movies_with_Mickey!, movie num_tickets 3, movie theatre_name CineLux_Plaza_Theatre"
             },
             {
                 "turn id": 7,
                 "user utterance": "yes",
                 "system response": "I just bought you 3 tickets to see Disney Junior at the Movies with Mickey! at CineLux Plaza Theatre at 6:00 pm base_date_plus_0. Is there anything else I can do for you?",
-                "dialog history": "<SYSTEM> Hi, how can I help you? <USER> hello . i want to buy 3 movie tickets . <SYSTEM> Ok, 3 tickets. What time and day would you prefer? <USER> 6 00 pm , please . . any day is ok . <SYSTEM> Ok. Which movie theater would you prefer? <USER> cinelux plaza theatre <SYSTEM> Ok. Which movie would you like to see? <USER> any movie would be fine . <SYSTEM> Ok. Would you like to see Disney Junior at the Movies with Mickey! at 6:00 pm base_date_plus_0? <USER> thats correct <SYSTEM> To confirm, you want 3 tickets to see Disney Junior at the Movies with Mickey! at CineLux Plaza Theatre at 6:00 pm base_date_plus_0, right?",
+                "dialog history": "<SYSTEM> Hi, how can I help you? <USER>  <SYSTEM> Ok, 3 tickets. What time and day would you prefer? <USER> hello . i want to buy 3 movie tickets . <SYSTEM> Ok. Which movie theater would you prefer? <USER> 6 00 pm , please . . any day is ok . <SYSTEM> Ok. Which movie would you like to see? <USER> cinelux plaza theatre <SYSTEM> Ok. Would you like to see Disney Junior at the Movies with Mickey! at 6:00 pm base_date_plus_0? <USER> any movie would be fine . <SYSTEM> To confirm, you want 3 tickets to see Disney Junior at the Movies with Mickey! at CineLux Plaza Theatre at 6:00 pm base_date_plus_0, right? <USER> thats correct",
                 "original user side information": {
                     "dialogue_state": {
                         "date": "base_date_plus_0",
@@ -1540,35 +1067,13 @@
                     ]
                 },
                 "dst accumulated": "movie date base_date_plus_0, movie movie Disney_Junior_at_the_Movies_with_Mickey!, movie num_tickets 3, movie theatre_name CineLux_Plaza_Theatre, movie time 6:00_pm",
-                "dst": "movie time 6:00_pm",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "original system side information": {
-                            "system_acts": [
-                                {
-                                    "name": "notify_success",
-                                    "slot_values": {
-                                        "date": "base_date_plus_0",
-                                        "movie": "Disney_Junior_at_the_Movies_with_Mickey!",
-                                        "num_tickets": "3",
-                                        "theatre_name": "CineLux_Plaza_Theatre",
-                                        "time": "6:00_pm"
-                                    }
-                                },
-                                {
-                                    "name": "request_more"
-                                }
-                            ]
-                        }
-                    }
-                },
-                "external knowledge": "System side information: {'system_acts': [{'name': 'notify_success', 'slot_values': {'date': 'base_date_plus_0', 'movie': 'Disney_Junior_at_the_Movies_with_Mickey!', 'num_tickets': '3', 'theatre_name': 'CineLux_Plaza_Theatre', 'time': '6:00_pm'}}, {'name': 'request_more'}]}"
+                "dst": "movie time 6:00_pm"
             },
             {
                 "turn id": 8,
                 "user utterance": "thanks . bye",
                 "system response": "",
-                "dialog history": "<SYSTEM> Hi, how can I help you? <USER> hello . i want to buy 3 movie tickets . <SYSTEM> Ok, 3 tickets. What time and day would you prefer? <USER> 6 00 pm , please . . any day is ok . <SYSTEM> Ok. Which movie theater would you prefer? <USER> cinelux plaza theatre <SYSTEM> Ok. Which movie would you like to see? <USER> any movie would be fine . <SYSTEM> Ok. Would you like to see Disney Junior at the Movies with Mickey! at 6:00 pm base_date_plus_0? <USER> thats correct <SYSTEM> To confirm, you want 3 tickets to see Disney Junior at the Movies with Mickey! at CineLux Plaza Theatre at 6:00 pm base_date_plus_0, right? <USER> yes <SYSTEM> I just bought you 3 tickets to see Disney Junior at the Movies with Mickey! at CineLux Plaza Theatre at 6:00 pm base_date_plus_0. Is there anything else I can do for you?",
+                "dialog history": "<SYSTEM> Hi, how can I help you? <USER>  <SYSTEM> Ok, 3 tickets. What time and day would you prefer? <USER> hello . i want to buy 3 movie tickets . <SYSTEM> Ok. Which movie theater would you prefer? <USER> 6 00 pm , please . . any day is ok . <SYSTEM> Ok. Which movie would you like to see? <USER> cinelux plaza theatre <SYSTEM> Ok. Would you like to see Disney Junior at the Movies with Mickey! at 6:00 pm base_date_plus_0? <USER> any movie would be fine . <SYSTEM> To confirm, you want 3 tickets to see Disney Junior at the Movies with Mickey! at CineLux Plaza Theatre at 6:00 pm base_date_plus_0, right? <USER> thats correct <SYSTEM> I just bought you 3 tickets to see Disney Junior at the Movies with Mickey! at CineLux Plaza Theatre at 6:00 pm base_date_plus_0. Is there anything else I can do for you? <USER> yes",
                 "original user side information": {
                     "dialogue_state": {
                         "date": "base_date_plus_0",
@@ -1589,29 +1094,11 @@
                 },
                 "original system side information": {},
                 "dst accumulated": "movie date base_date_plus_0, movie movie Disney_Junior_at_the_Movies_with_Mickey!, movie num_tickets 3, movie theatre_name CineLux_Plaza_Theatre, movie time 6:00_pm",
-                "dst": "movie date base_date_plus_0, movie movie Disney_Junior_at_the_Movies_with_Mickey!, movie num_tickets 3, movie theatre_name CineLux_Plaza_Theatre",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "original system side information": {}
-                    }
-                },
-                "external knowledge": "System side information: {}"
+                "dst": "movie date base_date_plus_0, movie movie Disney_Junior_at_the_Movies_with_Mickey!, movie num_tickets 3, movie theatre_name CineLux_Plaza_Theatre"
             }
         ],
-        "dst knowledge": "( movie : ( date : ( DontCare | base_date_plus_0 | base_date_plus_1 | base_date_plus_2 | base_date_plus_3 | base_date_plus_4 | base_date_plus_5 | base_date_plus_6 ) | movie : ( Doctor_Who_(Animated) | The_Love_Witch | Kevin_Hart | Ouija | The_Love_Witch | Chaar_Sahibzaade | Desierto | Ae_Dil_Hai_Mushkil | The_Accountant | Sully ) | num_tickets : ( 2 | 3 | 4 | 5 | 6 ) | theatre_name : ( AMC_Cupertino_Square_16 | AMC_Mercado_20 | AMC_Newpark_12 | AMC_Saratoga_14 | Camera_7 | Century_20_Great_Mall | Century_25_Union_City_and_XD | Century_Cinemas_16 | Century_at_Pacific_Commons | CineArts_@_Santana_Row | CineLux_Almaden_Cafe_&_Lounge | CineLux_Plaza_Theatre | Cinemark_12_Downtown_San_Mateo | Cinemark_Redwood_Downtown_20_and_XD | DontCare ) | time : ( 10:00_am | 10:00_pm | 12:00_pm | 1:00_pm | 2:00_pm | 4:00_pm | 6:00_pm | 7:15_pm | 8:00_am | 8:00_pm | DontCare )))",
-        "intent knowledge": "()",
-        "prompt": [
-            "This is a bot helping users to book a movie ticket. Given the dialog context and external database, please generate a relevant system response for the user.",
-            "This bot assists users to book a movie ticket. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
-            "This bot helps users to book a movie ticket. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
-            "The purpose of this bot is to assist users to book a movie ticket. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
-            "This bot is designed to help users book a movie ticket. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
-        ]
-    },
-    "SimJointGEN--train--4": {
-        "original dialog id": "sim_movies_dev_000003",
-        "dialog index": 4,
-        "original dialog info": {
+        "external knowledge non-flat": {
+            "metadata": {},
             "slots and values": {
                 "movie": {
                     "date": [
@@ -1625,16 +1112,16 @@
                         "base_date_plus_6"
                     ],
                     "movie": [
-                        "Doctor_Who_(Animated)",
-                        "The_Love_Witch",
-                        "Kevin_Hart",
-                        "Ouija",
-                        "The_Love_Witch",
-                        "Chaar_Sahibzaade",
-                        "Desierto",
-                        "Ae_Dil_Hai_Mushkil",
-                        "The_Accountant",
-                        "Sully"
+                        "Boo!_A_Madea_Halloween",
+                        "Inferno",
+                        "Deepwater_Horizon",
+                        "Aquarius",
+                        "The_Handmaiden",
+                        "Mad_Max",
+                        "Arrival",
+                        "Aquarius",
+                        "Keeping_Up_with_the_Joneses",
+                        "Kubo_and_the_Two_Strings"
                     ],
                     "num_tickets": [
                         "2",
@@ -1677,6 +1164,21 @@
             },
             "intents": {}
         },
+        "external knowledge": "()",
+        "dst knowledge": "( movie : ( date : ( DontCare | base_date_plus_0 | base_date_plus_1 | base_date_plus_2 | base_date_plus_3 | base_date_plus_4 | base_date_plus_5 | base_date_plus_6 ) | movie : ( Boo!_A_Madea_Halloween | Inferno | Deepwater_Horizon | Aquarius | The_Handmaiden | Mad_Max | Arrival | Aquarius | Keeping_Up_with_the_Joneses | Kubo_and_the_Two_Strings ) | num_tickets : ( 2 | 3 | 4 | 5 | 6 ) | theatre_name : ( AMC_Cupertino_Square_16 | AMC_Mercado_20 | AMC_Newpark_12 | AMC_Saratoga_14 | Camera_7 | Century_20_Great_Mall | Century_25_Union_City_and_XD | Century_Cinemas_16 | Century_at_Pacific_Commons | CineArts_@_Santana_Row | CineLux_Almaden_Cafe_&_Lounge | CineLux_Plaza_Theatre | Cinemark_12_Downtown_San_Mateo | Cinemark_Redwood_Downtown_20_and_XD | DontCare ) | time : ( 10:00_am | 10:00_pm | 12:00_pm | 1:00_pm | 2:00_pm | 4:00_pm | 6:00_pm | 7:15_pm | 8:00_am | 8:00_pm | DontCare )))",
+        "intent knowledge": "()",
+        "prompt": [
+            "This is a bot helping users to book a movie ticket. Given the dialog context and external database, please generate a relevant system response for the user.",
+            "This bot assists users to book a movie ticket. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
+            "This bot helps users to book a movie ticket. Based on the conversation history and available external data, please generate a relevant system response for the user.",
+            "The purpose of this bot is to assist users to book a movie ticket. Considering the dialogue context and the information available in the external database, please provide a fitting response for the user.",
+            "This bot is designed to help users book a movie ticket. By utilizing the current dialog context and external resources, generate a fitting response for the user."
+        ]
+    },
+    "SimJointGEN--train--4": {
+        "original dialog id": "sim_movies_dev_000003",
+        "dialog index": 4,
+        "original dialog info": {},
         "log": [
             {
                 "turn id": 1,
@@ -1690,25 +1192,13 @@
                             "name": "greeting"
                         }
                     ]
-                },
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "original system side information": {
-                            "system_acts": [
-                                {
-                                    "name": "greeting"
-                                }
-                            ]
-                        }
-                    }
-                },
-                "external knowledge": "System side information: {'system_acts': [{'name': 'greeting'}]}"
+                }
             },
             {
                 "turn id": 2,
                 "user utterance": "i need to buy tickets to see the girl on the train at cinemark redwood downtown 20 and xd . . i 'm flexible on the time .",
                 "system response": "Sure, tickets for The Girl on the Train at Cinemark Redwood Downtown 20 and XD. What day would you prefer?",
-                "dialog history": "<SYSTEM> Hi, how can I help you?",
+                "dialog history": "<SYSTEM> Hi, how can I help you? <USER> ",
                 "original user side information": {
                     "dialogue_state": {
                         "movie": "The_Girl_on_the_Train",
@@ -1744,35 +1234,13 @@
                     ]
                 },
                 "dst accumulated": "movie movie The_Girl_on_the_Train, movie theatre_name Cinemark_Redwood_Downtown_20_and_XD, movie time DontCare",
-                "dst": "movie movie The_Girl_on_the_Train, movie theatre_name Cinemark_Redwood_Downtown_20_and_XD, movie time DontCare",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "original system side information": {
-                            "system_acts": [
-                                {
-                                    "name": "impl_confirm",
-                                    "slot_values": {
-                                        "movie": "The_Girl_on_the_Train",
-                                        "theatre_name": "Cinemark_Redwood_Downtown_20_and_XD"
-                                    }
-                                },
-                                {
-                                    "name": "request",
-                                    "slot_values": {
-                                        "date": "REQUESTED"
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                },
-                "external knowledge": "System side information: {'system_acts': [{'name': 'impl_confirm', 'slot_values': {'movie': 'The_Girl_on_the_Train', 'theatre_name': 'Cinemark_Redwood_Downtown_20_and_XD'}}, {'name': 'request', 'slot_values': {'date': 'REQUESTED'}}]}"
+                "dst": "movie movie The_Girl_on_the_Train, movie theatre_name Cinemark_Redwood_Downtown_20_and_XD, movie time DontCare"
             },
             {
                 "turn id": 3,
                 "user utterance": "what did you just say ?",
                 "system response": "Sure, tickets for The Girl on the Train at Cinemark Redwood Downtown 20 and XD. What day would you prefer?",
-                "dialog history": "<SYSTEM> Hi, how can I help you? <USER> i need to buy tickets to see the girl on the train at cinemark redwood downtown 20 and xd . . i 'm flexible on the time . <SYSTEM> Sure, tickets for The Girl on the Train at Cinemark Redwood Downtown 20 and XD. What day would you prefer?",
+                "dialog history": "<SYSTEM> Hi, how can I help you? <USER>  <SYSTEM> Sure, tickets for The Girl on the Train at Cinemark Redwood Downtown 20 and XD. What day would you prefer? <USER> i need to buy tickets to see the girl on the train at cinemark redwood downtown 20 and xd . . i 'm flexible on the time .",
                 "original user side information": {
                     "dialogue_state": {
                         "movie": "The_Girl_on_the_Train",
@@ -1808,35 +1276,13 @@
                     ]
                 },
                 "dst accumulated": "movie movie The_Girl_on_the_Train, movie theatre_name Cinemark_Redwood_Downtown_20_and_XD, movie time DontCare",
-                "dst": "",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "original system side information": {
-                            "system_acts": [
-                                {
-                                    "name": "impl_confirm",
-                                    "slot_values": {
-                                        "movie": "The_Girl_on_the_Train",
-                                        "theatre_name": "Cinemark_Redwood_Downtown_20_and_XD"
-                                    }
-                                },
-                                {
-                                    "name": "request",
-                                    "slot_values": {
-                                        "date": "REQUESTED"
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                },
-                "external knowledge": "System side information: {'system_acts': [{'name': 'impl_confirm', 'slot_values': {'movie': 'The_Girl_on_the_Train', 'theatre_name': 'Cinemark_Redwood_Downtown_20_and_XD'}}, {'name': 'request', 'slot_values': {'date': 'REQUESTED'}}]}"
+                "dst": ""
             },
             {
                 "turn id": 4,
                 "user utterance": "4 for base_date_plus_2 .",
                 "system response": "Ok, 4 tickets. Would 12:00 pm work for you?",
-                "dialog history": "<SYSTEM> Hi, how can I help you? <USER> i need to buy tickets to see the girl on the train at cinemark redwood downtown 20 and xd . . i 'm flexible on the time . <SYSTEM> Sure, tickets for The Girl on the Train at Cinemark Redwood Downtown 20 and XD. What day would you prefer? <USER> what did you just say ? <SYSTEM> Sure, tickets for The Girl on the Train at Cinemark Redwood Downtown 20 and XD. What day would you prefer?",
+                "dialog history": "<SYSTEM> Hi, how can I help you? <USER>  <SYSTEM> Sure, tickets for The Girl on the Train at Cinemark Redwood Downtown 20 and XD. What day would you prefer? <USER> i need to buy tickets to see the girl on the train at cinemark redwood downtown 20 and xd . . i 'm flexible on the time . <SYSTEM> Sure, tickets for The Girl on the Train at Cinemark Redwood Downtown 20 and XD. What day would you prefer? <USER> what did you just say ?",
                 "original user side information": {
                     "dialogue_state": {
                         "date": "base_date_plus_2",
@@ -1872,34 +1318,13 @@
                     ]
                 },
                 "dst accumulated": "movie date base_date_plus_2, movie movie The_Girl_on_the_Train, movie num_tickets 4, movie theatre_name Cinemark_Redwood_Downtown_20_and_XD, movie time DontCare",
-                "dst": "movie date base_date_plus_2, movie movie The_Girl_on_the_Train, movie num_tickets 4, movie theatre_name Cinemark_Redwood_Downtown_20_and_XD, movie time DontCare",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "original system side information": {
-                            "system_acts": [
-                                {
-                                    "name": "impl_confirm",
-                                    "slot_values": {
-                                        "num_tickets": "4"
-                                    }
-                                },
-                                {
-                                    "name": "offer",
-                                    "slot_values": {
-                                        "time": "12:00_pm"
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                },
-                "external knowledge": "System side information: {'system_acts': [{'name': 'impl_confirm', 'slot_values': {'num_tickets': '4'}}, {'name': 'offer', 'slot_values': {'time': '12:00_pm'}}]}"
+                "dst": "movie date base_date_plus_2, movie movie The_Girl_on_the_Train, movie num_tickets 4, movie theatre_name Cinemark_Redwood_Downtown_20_and_XD, movie time DontCare"
             },
             {
                 "turn id": 5,
                 "user utterance": "yes",
                 "system response": "That is 4 tickets to see The Girl on the Train at Cinemark Redwood Downtown 20 and XD at 12:00 pm base_date_plus_2, right?",
-                "dialog history": "<SYSTEM> Hi, how can I help you? <USER> i need to buy tickets to see the girl on the train at cinemark redwood downtown 20 and xd . . i 'm flexible on the time . <SYSTEM> Sure, tickets for The Girl on the Train at Cinemark Redwood Downtown 20 and XD. What day would you prefer? <USER> what did you just say ? <SYSTEM> Sure, tickets for The Girl on the Train at Cinemark Redwood Downtown 20 and XD. What day would you prefer? <USER> 4 for base_date_plus_2 . <SYSTEM> Ok, 4 tickets. Would 12:00 pm work for you?",
+                "dialog history": "<SYSTEM> Hi, how can I help you? <USER>  <SYSTEM> Sure, tickets for The Girl on the Train at Cinemark Redwood Downtown 20 and XD. What day would you prefer? <USER> i need to buy tickets to see the girl on the train at cinemark redwood downtown 20 and xd . . i 'm flexible on the time . <SYSTEM> Sure, tickets for The Girl on the Train at Cinemark Redwood Downtown 20 and XD. What day would you prefer? <USER> what did you just say ? <SYSTEM> Ok, 4 tickets. Would 12:00 pm work for you? <USER> 4 for base_date_plus_2 .",
                 "original user side information": {
                     "dialogue_state": {
                         "date": "base_date_plus_2",
@@ -1933,32 +1358,13 @@
                     ]
                 },
                 "dst accumulated": "movie date base_date_plus_2, movie movie The_Girl_on_the_Train, movie num_tickets 4, movie theatre_name Cinemark_Redwood_Downtown_20_and_XD, movie time 12:00_pm",
-                "dst": "movie time 12:00_pm",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "original system side information": {
-                            "system_acts": [
-                                {
-                                    "name": "confirm",
-                                    "slot_values": {
-                                        "date": "base_date_plus_2",
-                                        "movie": "The_Girl_on_the_Train",
-                                        "num_tickets": "4",
-                                        "theatre_name": "Cinemark_Redwood_Downtown_20_and_XD",
-                                        "time": "12:00_pm"
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                },
-                "external knowledge": "System side information: {'system_acts': [{'name': 'confirm', 'slot_values': {'date': 'base_date_plus_2', 'movie': 'The_Girl_on_the_Train', 'num_tickets': '4', 'theatre_name': 'Cinemark_Redwood_Downtown_20_and_XD', 'time': '12:00_pm'}}]}"
+                "dst": "movie time 12:00_pm"
             },
             {
                 "turn id": 6,
                 "user utterance": "yes",
                 "system response": "I just bought you 4 tickets to see The Girl on the Train at Cinemark Redwood Downtown 20 and XD at 12:00 pm base_date_plus_2. Is there anything else I can do for you?",
-                "dialog history": "<SYSTEM> Hi, how can I help you? <USER> i need to buy tickets to see the girl on the train at cinemark redwood downtown 20 and xd . . i 'm flexible on the time . <SYSTEM> Sure, tickets for The Girl on the Train at Cinemark Redwood Downtown 20 and XD. What day would you prefer? <USER> what did you just say ? <SYSTEM> Sure, tickets for The Girl on the Train at Cinemark Redwood Downtown 20 and XD. What day would you prefer? <USER> 4 for base_date_plus_2 . <SYSTEM> Ok, 4 tickets. Would 12:00 pm work for you? <USER> yes <SYSTEM> That is 4 tickets to see The Girl on the Train at Cinemark Redwood Downtown 20 and XD at 12:00 pm base_date_plus_2, right?",
+                "dialog history": "<SYSTEM> Hi, how can I help you? <USER>  <SYSTEM> Sure, tickets for The Girl on the Train at Cinemark Redwood Downtown 20 and XD. What day would you prefer? <USER> i need to buy tickets to see the girl on the train at cinemark redwood downtown 20 and xd . . i 'm flexible on the time . <SYSTEM> Sure, tickets for The Girl on the Train at Cinemark Redwood Downtown 20 and XD. What day would you prefer? <USER> what did you just say ? <SYSTEM> Ok, 4 tickets. Would 12:00 pm work for you? <USER> 4 for base_date_plus_2 . <SYSTEM> That is 4 tickets to see The Girl on the Train at Cinemark Redwood Downtown 20 and XD at 12:00 pm base_date_plus_2, right? <USER> yes",
                 "original user side information": {
                     "dialogue_state": {
                         "date": "base_date_plus_2",
@@ -1995,35 +1401,13 @@
                     ]
                 },
                 "dst accumulated": "movie date base_date_plus_2, movie movie The_Girl_on_the_Train, movie num_tickets 4, movie theatre_name Cinemark_Redwood_Downtown_20_and_XD, movie time 12:00_pm",
-                "dst": "movie date base_date_plus_2, movie movie The_Girl_on_the_Train, movie num_tickets 4, movie theatre_name Cinemark_Redwood_Downtown_20_and_XD",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "original system side information": {
-                            "system_acts": [
-                                {
-                                    "name": "notify_success",
-                                    "slot_values": {
-                                        "date": "base_date_plus_2",
-                                        "movie": "The_Girl_on_the_Train",
-                                        "num_tickets": "4",
-                                        "theatre_name": "Cinemark_Redwood_Downtown_20_and_XD",
-                                        "time": "12:00_pm"
-                                    }
-                                },
-                                {
-                                    "name": "request_more"
-                                }
-                            ]
-                        }
-                    }
-                },
-                "external knowledge": "System side information: {'system_acts': [{'name': 'notify_success', 'slot_values': {'date': 'base_date_plus_2', 'movie': 'The_Girl_on_the_Train', 'num_tickets': '4', 'theatre_name': 'Cinemark_Redwood_Downtown_20_and_XD', 'time': '12:00_pm'}}, {'name': 'request_more'}]}"
+                "dst": "movie date base_date_plus_2, movie movie The_Girl_on_the_Train, movie num_tickets 4, movie theatre_name Cinemark_Redwood_Downtown_20_and_XD"
             },
             {
                 "turn id": 7,
                 "user utterance": "good bye .",
                 "system response": "",
-                "dialog history": "<SYSTEM> Hi, how can I help you? <USER> i need to buy tickets to see the girl on the train at cinemark redwood downtown 20 and xd . . i 'm flexible on the time . <SYSTEM> Sure, tickets for The Girl on the Train at Cinemark Redwood Downtown 20 and XD. What day would you prefer? <USER> what did you just say ? <SYSTEM> Sure, tickets for The Girl on the Train at Cinemark Redwood Downtown 20 and XD. What day would you prefer? <USER> 4 for base_date_plus_2 . <SYSTEM> Ok, 4 tickets. Would 12:00 pm work for you? <USER> yes <SYSTEM> That is 4 tickets to see The Girl on the Train at Cinemark Redwood Downtown 20 and XD at 12:00 pm base_date_plus_2, right? <USER> yes <SYSTEM> I just bought you 4 tickets to see The Girl on the Train at Cinemark Redwood Downtown 20 and XD at 12:00 pm base_date_plus_2. Is there anything else I can do for you?",
+                "dialog history": "<SYSTEM> Hi, how can I help you? <USER>  <SYSTEM> Sure, tickets for The Girl on the Train at Cinemark Redwood Downtown 20 and XD. What day would you prefer? <USER> i need to buy tickets to see the girl on the train at cinemark redwood downtown 20 and xd . . i 'm flexible on the time . <SYSTEM> Sure, tickets for The Girl on the Train at Cinemark Redwood Downtown 20 and XD. What day would you prefer? <USER> what did you just say ? <SYSTEM> Ok, 4 tickets. Would 12:00 pm work for you? <USER> 4 for base_date_plus_2 . <SYSTEM> That is 4 tickets to see The Girl on the Train at Cinemark Redwood Downtown 20 and XD at 12:00 pm base_date_plus_2, right? <USER> yes <SYSTEM> I just bought you 4 tickets to see The Girl on the Train at Cinemark Redwood Downtown 20 and XD at 12:00 pm base_date_plus_2. Is there anything else I can do for you? <USER> yes",
                 "original user side information": {
                     "dialogue_state": {
                         "date": "base_date_plus_2",
@@ -2044,29 +1428,11 @@
                 },
                 "original system side information": {},
                 "dst accumulated": "movie date base_date_plus_2, movie movie The_Girl_on_the_Train, movie num_tickets 4, movie theatre_name Cinemark_Redwood_Downtown_20_and_XD, movie time 12:00_pm",
-                "dst": "movie time 12:00_pm",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "original system side information": {}
-                    }
-                },
-                "external knowledge": "System side information: {}"
+                "dst": "movie time 12:00_pm"
             }
         ],
-        "dst knowledge": "( movie : ( date : ( DontCare | base_date_plus_0 | base_date_plus_1 | base_date_plus_2 | base_date_plus_3 | base_date_plus_4 | base_date_plus_5 | base_date_plus_6 ) | movie : ( Doctor_Who_(Animated) | The_Love_Witch | Kevin_Hart | Ouija | The_Love_Witch | Chaar_Sahibzaade | Desierto | Ae_Dil_Hai_Mushkil | The_Accountant | Sully ) | num_tickets : ( 2 | 3 | 4 | 5 | 6 ) | theatre_name : ( AMC_Cupertino_Square_16 | AMC_Mercado_20 | AMC_Newpark_12 | AMC_Saratoga_14 | Camera_7 | Century_20_Great_Mall | Century_25_Union_City_and_XD | Century_Cinemas_16 | Century_at_Pacific_Commons | CineArts_@_Santana_Row | CineLux_Almaden_Cafe_&_Lounge | CineLux_Plaza_Theatre | Cinemark_12_Downtown_San_Mateo | Cinemark_Redwood_Downtown_20_and_XD | DontCare ) | time : ( 10:00_am | 10:00_pm | 12:00_pm | 1:00_pm | 2:00_pm | 4:00_pm | 6:00_pm | 7:15_pm | 8:00_am | 8:00_pm | DontCare )))",
-        "intent knowledge": "()",
-        "prompt": [
-            "This is a bot helping users to book a movie ticket. Given the dialog context and external database, please generate a relevant system response for the user.",
-            "This bot assists users to book a movie ticket. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
-            "This bot helps users to book a movie ticket. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
-            "The purpose of this bot is to assist users to book a movie ticket. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
-            "This bot is designed to help users book a movie ticket. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
-        ]
-    },
-    "SimJointGEN--train--5": {
-        "original dialog id": "sim_movies_dev_000004",
-        "dialog index": 5,
-        "original dialog info": {
+        "external knowledge non-flat": {
+            "metadata": {},
             "slots and values": {
                 "movie": {
                     "date": [
@@ -2080,16 +1446,16 @@
                         "base_date_plus_6"
                     ],
                     "movie": [
-                        "Doctor_Who_(Animated)",
-                        "The_Love_Witch",
-                        "Kevin_Hart",
-                        "Ouija",
-                        "The_Love_Witch",
-                        "Chaar_Sahibzaade",
-                        "Desierto",
-                        "Ae_Dil_Hai_Mushkil",
-                        "The_Accountant",
-                        "Sully"
+                        "Boo!_A_Madea_Halloween",
+                        "Inferno",
+                        "Deepwater_Horizon",
+                        "Aquarius",
+                        "The_Handmaiden",
+                        "Mad_Max",
+                        "Arrival",
+                        "Aquarius",
+                        "Keeping_Up_with_the_Joneses",
+                        "Kubo_and_the_Two_Strings"
                     ],
                     "num_tickets": [
                         "2",
@@ -2132,6 +1498,21 @@
             },
             "intents": {}
         },
+        "external knowledge": "()",
+        "dst knowledge": "( movie : ( date : ( DontCare | base_date_plus_0 | base_date_plus_1 | base_date_plus_2 | base_date_plus_3 | base_date_plus_4 | base_date_plus_5 | base_date_plus_6 ) | movie : ( Boo!_A_Madea_Halloween | Inferno | Deepwater_Horizon | Aquarius | The_Handmaiden | Mad_Max | Arrival | Aquarius | Keeping_Up_with_the_Joneses | Kubo_and_the_Two_Strings ) | num_tickets : ( 2 | 3 | 4 | 5 | 6 ) | theatre_name : ( AMC_Cupertino_Square_16 | AMC_Mercado_20 | AMC_Newpark_12 | AMC_Saratoga_14 | Camera_7 | Century_20_Great_Mall | Century_25_Union_City_and_XD | Century_Cinemas_16 | Century_at_Pacific_Commons | CineArts_@_Santana_Row | CineLux_Almaden_Cafe_&_Lounge | CineLux_Plaza_Theatre | Cinemark_12_Downtown_San_Mateo | Cinemark_Redwood_Downtown_20_and_XD | DontCare ) | time : ( 10:00_am | 10:00_pm | 12:00_pm | 1:00_pm | 2:00_pm | 4:00_pm | 6:00_pm | 7:15_pm | 8:00_am | 8:00_pm | DontCare )))",
+        "intent knowledge": "()",
+        "prompt": [
+            "This is a bot helping users to book a movie ticket. Given the dialog context and external database, please generate a relevant system response for the user.",
+            "This bot assists users to book a movie ticket. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
+            "This bot helps users to book a movie ticket. Based on the conversation history and available external data, please generate a relevant system response for the user.",
+            "The purpose of this bot is to assist users to book a movie ticket. Considering the dialogue context and the information available in the external database, please provide a fitting response for the user.",
+            "This bot is designed to help users book a movie ticket. By utilizing the current dialog context and external resources, generate a fitting response for the user."
+        ]
+    },
+    "SimJointGEN--train--5": {
+        "original dialog id": "sim_movies_dev_000004",
+        "dialog index": 5,
+        "original dialog info": {},
         "log": [
             {
                 "turn id": 1,
@@ -2145,25 +1526,13 @@
                             "name": "greeting"
                         }
                     ]
-                },
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "original system side information": {
-                            "system_acts": [
-                                {
-                                    "name": "greeting"
-                                }
-                            ]
-                        }
-                    }
-                },
-                "external knowledge": "System side information: {'system_acts': [{'name': 'greeting'}]}"
+                }
             },
             {
                 "turn id": 2,
                 "user utterance": "can you get tickets for me for a movie showing on base_date_plus_2 ?",
                 "system response": "OK, looking for shows on base_date_plus_2. What time would work for you?",
-                "dialog history": "<SYSTEM> Hi, how can I help you?",
+                "dialog history": "<SYSTEM> Hi, how can I help you? <USER> ",
                 "original user side information": {
                     "dialogue_state": {
                         "date": "base_date_plus_2"
@@ -2196,34 +1565,13 @@
                     ]
                 },
                 "dst accumulated": "movie date base_date_plus_2",
-                "dst": "movie date base_date_plus_2",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "original system side information": {
-                            "system_acts": [
-                                {
-                                    "name": "impl_confirm",
-                                    "slot_values": {
-                                        "date": "base_date_plus_2"
-                                    }
-                                },
-                                {
-                                    "name": "request",
-                                    "slot_values": {
-                                        "time": "REQUESTED"
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                },
-                "external knowledge": "System side information: {'system_acts': [{'name': 'impl_confirm', 'slot_values': {'date': 'base_date_plus_2'}}, {'name': 'request', 'slot_values': {'time': 'REQUESTED'}}]}"
+                "dst": "movie date base_date_plus_2"
             },
             {
                 "turn id": 3,
                 "user utterance": "how about 6 00 pm then",
                 "system response": "Which movie theater would you prefer?",
-                "dialog history": "<SYSTEM> Hi, how can I help you? <USER> can you get tickets for me for a movie showing on base_date_plus_2 ? <SYSTEM> OK, looking for shows on base_date_plus_2. What time would work for you?",
+                "dialog history": "<SYSTEM> Hi, how can I help you? <USER>  <SYSTEM> OK, looking for shows on base_date_plus_2. What time would work for you? <USER> can you get tickets for me for a movie showing on base_date_plus_2 ?",
                 "original user side information": {
                     "dialogue_state": {
                         "date": "base_date_plus_2",
@@ -2251,28 +1599,13 @@
                     ]
                 },
                 "dst accumulated": "movie date base_date_plus_2, movie time 6:00_pm",
-                "dst": "movie time 6:00_pm",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "original system side information": {
-                            "system_acts": [
-                                {
-                                    "name": "request",
-                                    "slot_values": {
-                                        "theatre_name": "REQUESTED"
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                },
-                "external knowledge": "System side information: {'system_acts': [{'name': 'request', 'slot_values': {'theatre_name': 'REQUESTED'}}]}"
+                "dst": "movie time 6:00_pm"
             },
             {
                 "turn id": 4,
                 "user utterance": "any movie theater would be fine .",
                 "system response": "Ok. Which movie would you like to see?",
-                "dialog history": "<SYSTEM> Hi, how can I help you? <USER> can you get tickets for me for a movie showing on base_date_plus_2 ? <SYSTEM> OK, looking for shows on base_date_plus_2. What time would work for you? <USER> how about 6 00 pm then <SYSTEM> Which movie theater would you prefer?",
+                "dialog history": "<SYSTEM> Hi, how can I help you? <USER>  <SYSTEM> OK, looking for shows on base_date_plus_2. What time would work for you? <USER> can you get tickets for me for a movie showing on base_date_plus_2 ? <SYSTEM> Which movie theater would you prefer? <USER> how about 6 00 pm then",
                 "original user side information": {
                     "dialogue_state": {
                         "date": "base_date_plus_2",
@@ -2304,31 +1637,13 @@
                     ]
                 },
                 "dst accumulated": "movie date base_date_plus_2, movie theatre_name DontCare, movie time 6:00_pm",
-                "dst": "movie date base_date_plus_2, movie theatre_name DontCare",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "original system side information": {
-                            "system_acts": [
-                                {
-                                    "name": "ack"
-                                },
-                                {
-                                    "name": "request",
-                                    "slot_values": {
-                                        "movie": "REQUESTED"
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                },
-                "external knowledge": "System side information: {'system_acts': [{'name': 'ack'}, {'name': 'request', 'slot_values': {'movie': 'REQUESTED'}}]}"
+                "dst": "movie date base_date_plus_2, movie theatre_name DontCare"
             },
             {
                 "turn id": 5,
                 "user utterance": "almost christmas",
                 "system response": "Sure. How many tickets would you want?",
-                "dialog history": "<SYSTEM> Hi, how can I help you? <USER> can you get tickets for me for a movie showing on base_date_plus_2 ? <SYSTEM> OK, looking for shows on base_date_plus_2. What time would work for you? <USER> how about 6 00 pm then <SYSTEM> Which movie theater would you prefer? <USER> any movie theater would be fine . <SYSTEM> Ok. Which movie would you like to see?",
+                "dialog history": "<SYSTEM> Hi, how can I help you? <USER>  <SYSTEM> OK, looking for shows on base_date_plus_2. What time would work for you? <USER> can you get tickets for me for a movie showing on base_date_plus_2 ? <SYSTEM> Which movie theater would you prefer? <USER> how about 6 00 pm then <SYSTEM> Ok. Which movie would you like to see? <USER> any movie theater would be fine .",
                 "original user side information": {
                     "dialogue_state": {
                         "date": "base_date_plus_2",
@@ -2361,31 +1676,13 @@
                     ]
                 },
                 "dst accumulated": "movie date base_date_plus_2, movie movie Almost_Christmas, movie theatre_name DontCare, movie time 6:00_pm",
-                "dst": "movie movie Almost_Christmas, movie time 6:00_pm",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "original system side information": {
-                            "system_acts": [
-                                {
-                                    "name": "ack"
-                                },
-                                {
-                                    "name": "request",
-                                    "slot_values": {
-                                        "num_tickets": "REQUESTED"
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                },
-                "external knowledge": "System side information: {'system_acts': [{'name': 'ack'}, {'name': 'request', 'slot_values': {'num_tickets': 'REQUESTED'}}]}"
+                "dst": "movie movie Almost_Christmas, movie time 6:00_pm"
             },
             {
                 "turn id": 6,
                 "user utterance": "2 tickets please .",
                 "system response": "Sure. Would you like to see it at 6:00 pm at AMC Mercado 20?",
-                "dialog history": "<SYSTEM> Hi, how can I help you? <USER> can you get tickets for me for a movie showing on base_date_plus_2 ? <SYSTEM> OK, looking for shows on base_date_plus_2. What time would work for you? <USER> how about 6 00 pm then <SYSTEM> Which movie theater would you prefer? <USER> any movie theater would be fine . <SYSTEM> Ok. Which movie would you like to see? <USER> almost christmas <SYSTEM> Sure. How many tickets would you want?",
+                "dialog history": "<SYSTEM> Hi, how can I help you? <USER>  <SYSTEM> OK, looking for shows on base_date_plus_2. What time would work for you? <USER> can you get tickets for me for a movie showing on base_date_plus_2 ? <SYSTEM> Which movie theater would you prefer? <USER> how about 6 00 pm then <SYSTEM> Ok. Which movie would you like to see? <USER> any movie theater would be fine . <SYSTEM> Sure. How many tickets would you want? <USER> almost christmas",
                 "original user side information": {
                     "dialogue_state": {
                         "date": "base_date_plus_2",
@@ -2420,32 +1717,13 @@
                     ]
                 },
                 "dst accumulated": "movie date base_date_plus_2, movie movie Almost_Christmas, movie num_tickets 2, movie theatre_name DontCare, movie time 6:00_pm",
-                "dst": "movie date base_date_plus_2, movie num_tickets 2, movie theatre_name DontCare",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "original system side information": {
-                            "system_acts": [
-                                {
-                                    "name": "ack"
-                                },
-                                {
-                                    "name": "offer",
-                                    "slot_values": {
-                                        "theatre_name": "AMC_Mercado_20",
-                                        "time": "6:00_pm"
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                },
-                "external knowledge": "System side information: {'system_acts': [{'name': 'ack'}, {'name': 'offer', 'slot_values': {'theatre_name': 'AMC_Mercado_20', 'time': '6:00_pm'}}]}"
+                "dst": "movie date base_date_plus_2, movie num_tickets 2, movie theatre_name DontCare"
             },
             {
                 "turn id": 7,
                 "user utterance": "can you help me with what to say ?",
                 "system response": "Sure. Would you like to see it at 6:00 pm at AMC Mercado 20?",
-                "dialog history": "<SYSTEM> Hi, how can I help you? <USER> can you get tickets for me for a movie showing on base_date_plus_2 ? <SYSTEM> OK, looking for shows on base_date_plus_2. What time would work for you? <USER> how about 6 00 pm then <SYSTEM> Which movie theater would you prefer? <USER> any movie theater would be fine . <SYSTEM> Ok. Which movie would you like to see? <USER> almost christmas <SYSTEM> Sure. How many tickets would you want? <USER> 2 tickets please . <SYSTEM> Sure. Would you like to see it at 6:00 pm at AMC Mercado 20?",
+                "dialog history": "<SYSTEM> Hi, how can I help you? <USER>  <SYSTEM> OK, looking for shows on base_date_plus_2. What time would work for you? <USER> can you get tickets for me for a movie showing on base_date_plus_2 ? <SYSTEM> Which movie theater would you prefer? <USER> how about 6 00 pm then <SYSTEM> Ok. Which movie would you like to see? <USER> any movie theater would be fine . <SYSTEM> Sure. How many tickets would you want? <USER> almost christmas <SYSTEM> Sure. Would you like to see it at 6:00 pm at AMC Mercado 20? <USER> 2 tickets please .",
                 "original user side information": {
                     "dialogue_state": {
                         "date": "base_date_plus_2",
@@ -2480,32 +1758,13 @@
                     ]
                 },
                 "dst accumulated": "movie date base_date_plus_2, movie movie Almost_Christmas, movie num_tickets 2, movie theatre_name DontCare, movie time 6:00_pm",
-                "dst": "movie movie Almost_Christmas, movie time 6:00_pm",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "original system side information": {
-                            "system_acts": [
-                                {
-                                    "name": "ack"
-                                },
-                                {
-                                    "name": "offer",
-                                    "slot_values": {
-                                        "theatre_name": "AMC_Mercado_20",
-                                        "time": "6:00_pm"
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                },
-                "external knowledge": "System side information: {'system_acts': [{'name': 'ack'}, {'name': 'offer', 'slot_values': {'theatre_name': 'AMC_Mercado_20', 'time': '6:00_pm'}}]}"
+                "dst": "movie movie Almost_Christmas, movie time 6:00_pm"
             },
             {
                 "turn id": 8,
                 "user utterance": "what ?",
                 "system response": "Sure. Would you like to see it at 6:00 pm at AMC Mercado 20?",
-                "dialog history": "<SYSTEM> Hi, how can I help you? <USER> can you get tickets for me for a movie showing on base_date_plus_2 ? <SYSTEM> OK, looking for shows on base_date_plus_2. What time would work for you? <USER> how about 6 00 pm then <SYSTEM> Which movie theater would you prefer? <USER> any movie theater would be fine . <SYSTEM> Ok. Which movie would you like to see? <USER> almost christmas <SYSTEM> Sure. How many tickets would you want? <USER> 2 tickets please . <SYSTEM> Sure. Would you like to see it at 6:00 pm at AMC Mercado 20? <USER> can you help me with what to say ? <SYSTEM> Sure. Would you like to see it at 6:00 pm at AMC Mercado 20?",
+                "dialog history": "<SYSTEM> Hi, how can I help you? <USER>  <SYSTEM> OK, looking for shows on base_date_plus_2. What time would work for you? <USER> can you get tickets for me for a movie showing on base_date_plus_2 ? <SYSTEM> Which movie theater would you prefer? <USER> how about 6 00 pm then <SYSTEM> Ok. Which movie would you like to see? <USER> any movie theater would be fine . <SYSTEM> Sure. How many tickets would you want? <USER> almost christmas <SYSTEM> Sure. Would you like to see it at 6:00 pm at AMC Mercado 20? <USER> 2 tickets please . <SYSTEM> Sure. Would you like to see it at 6:00 pm at AMC Mercado 20? <USER> can you help me with what to say ?",
                 "original user side information": {
                     "dialogue_state": {
                         "date": "base_date_plus_2",
@@ -2540,32 +1799,13 @@
                     ]
                 },
                 "dst accumulated": "movie date base_date_plus_2, movie movie Almost_Christmas, movie num_tickets 2, movie theatre_name DontCare, movie time 6:00_pm",
-                "dst": "movie date base_date_plus_2, movie num_tickets 2, movie theatre_name DontCare",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "original system side information": {
-                            "system_acts": [
-                                {
-                                    "name": "ack"
-                                },
-                                {
-                                    "name": "offer",
-                                    "slot_values": {
-                                        "theatre_name": "AMC_Mercado_20",
-                                        "time": "6:00_pm"
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                },
-                "external knowledge": "System side information: {'system_acts': [{'name': 'ack'}, {'name': 'offer', 'slot_values': {'theatre_name': 'AMC_Mercado_20', 'time': '6:00_pm'}}]}"
+                "dst": "movie date base_date_plus_2, movie num_tickets 2, movie theatre_name DontCare"
             },
             {
                 "turn id": 9,
                 "user utterance": "yes",
                 "system response": "To confirm, you want 2 tickets to see Almost Christmas at AMC Mercado 20 at 6:00 pm base_date_plus_2, right?",
-                "dialog history": "<SYSTEM> Hi, how can I help you? <USER> can you get tickets for me for a movie showing on base_date_plus_2 ? <SYSTEM> OK, looking for shows on base_date_plus_2. What time would work for you? <USER> how about 6 00 pm then <SYSTEM> Which movie theater would you prefer? <USER> any movie theater would be fine . <SYSTEM> Ok. Which movie would you like to see? <USER> almost christmas <SYSTEM> Sure. How many tickets would you want? <USER> 2 tickets please . <SYSTEM> Sure. Would you like to see it at 6:00 pm at AMC Mercado 20? <USER> can you help me with what to say ? <SYSTEM> Sure. Would you like to see it at 6:00 pm at AMC Mercado 20? <USER> what ? <SYSTEM> Sure. Would you like to see it at 6:00 pm at AMC Mercado 20?",
+                "dialog history": "<SYSTEM> Hi, how can I help you? <USER>  <SYSTEM> OK, looking for shows on base_date_plus_2. What time would work for you? <USER> can you get tickets for me for a movie showing on base_date_plus_2 ? <SYSTEM> Which movie theater would you prefer? <USER> how about 6 00 pm then <SYSTEM> Ok. Which movie would you like to see? <USER> any movie theater would be fine . <SYSTEM> Sure. How many tickets would you want? <USER> almost christmas <SYSTEM> Sure. Would you like to see it at 6:00 pm at AMC Mercado 20? <USER> 2 tickets please . <SYSTEM> Sure. Would you like to see it at 6:00 pm at AMC Mercado 20? <USER> can you help me with what to say ? <SYSTEM> Sure. Would you like to see it at 6:00 pm at AMC Mercado 20? <USER> what ?",
                 "original user side information": {
                     "dialogue_state": {
                         "date": "base_date_plus_2",
@@ -2599,32 +1839,13 @@
                     ]
                 },
                 "dst accumulated": "movie date base_date_plus_2, movie movie Almost_Christmas, movie num_tickets 2, movie theatre_name AMC_Mercado_20, movie time 6:00_pm",
-                "dst": "movie movie Almost_Christmas, movie theatre_name AMC_Mercado_20, movie time 6:00_pm",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "original system side information": {
-                            "system_acts": [
-                                {
-                                    "name": "confirm",
-                                    "slot_values": {
-                                        "date": "base_date_plus_2",
-                                        "movie": "Almost_Christmas",
-                                        "num_tickets": "2",
-                                        "theatre_name": "AMC_Mercado_20",
-                                        "time": "6:00_pm"
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                },
-                "external knowledge": "System side information: {'system_acts': [{'name': 'confirm', 'slot_values': {'date': 'base_date_plus_2', 'movie': 'Almost_Christmas', 'num_tickets': '2', 'theatre_name': 'AMC_Mercado_20', 'time': '6:00_pm'}}]}"
+                "dst": "movie movie Almost_Christmas, movie theatre_name AMC_Mercado_20, movie time 6:00_pm"
             },
             {
                 "turn id": 10,
                 "user utterance": "yes 2 tickets for almost christmas at 6 00 pm base_date_plus_2 at amc mercado 20 please .",
                 "system response": "I just bought you 2 tickets to see Almost Christmas at AMC Mercado 20 at 6:00 pm base_date_plus_2. Is there anything else I can do for you?",
-                "dialog history": "<SYSTEM> Hi, how can I help you? <USER> can you get tickets for me for a movie showing on base_date_plus_2 ? <SYSTEM> OK, looking for shows on base_date_plus_2. What time would work for you? <USER> how about 6 00 pm then <SYSTEM> Which movie theater would you prefer? <USER> any movie theater would be fine . <SYSTEM> Ok. Which movie would you like to see? <USER> almost christmas <SYSTEM> Sure. How many tickets would you want? <USER> 2 tickets please . <SYSTEM> Sure. Would you like to see it at 6:00 pm at AMC Mercado 20? <USER> can you help me with what to say ? <SYSTEM> Sure. Would you like to see it at 6:00 pm at AMC Mercado 20? <USER> what ? <SYSTEM> Sure. Would you like to see it at 6:00 pm at AMC Mercado 20? <USER> yes <SYSTEM> To confirm, you want 2 tickets to see Almost Christmas at AMC Mercado 20 at 6:00 pm base_date_plus_2, right?",
+                "dialog history": "<SYSTEM> Hi, how can I help you? <USER>  <SYSTEM> OK, looking for shows on base_date_plus_2. What time would work for you? <USER> can you get tickets for me for a movie showing on base_date_plus_2 ? <SYSTEM> Which movie theater would you prefer? <USER> how about 6 00 pm then <SYSTEM> Ok. Which movie would you like to see? <USER> any movie theater would be fine . <SYSTEM> Sure. How many tickets would you want? <USER> almost christmas <SYSTEM> Sure. Would you like to see it at 6:00 pm at AMC Mercado 20? <USER> 2 tickets please . <SYSTEM> Sure. Would you like to see it at 6:00 pm at AMC Mercado 20? <USER> can you help me with what to say ? <SYSTEM> Sure. Would you like to see it at 6:00 pm at AMC Mercado 20? <USER> what ? <SYSTEM> To confirm, you want 2 tickets to see Almost Christmas at AMC Mercado 20 at 6:00 pm base_date_plus_2, right? <USER> yes",
                 "original user side information": {
                     "dialogue_state": {
                         "date": "base_date_plus_2",
@@ -2661,35 +1882,13 @@
                     ]
                 },
                 "dst accumulated": "movie date base_date_plus_2, movie movie Almost_Christmas, movie num_tickets 2, movie theatre_name AMC_Mercado_20, movie time 6:00_pm",
-                "dst": "movie date base_date_plus_2, movie num_tickets 2",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "original system side information": {
-                            "system_acts": [
-                                {
-                                    "name": "notify_success",
-                                    "slot_values": {
-                                        "date": "base_date_plus_2",
-                                        "movie": "Almost_Christmas",
-                                        "num_tickets": "2",
-                                        "theatre_name": "AMC_Mercado_20",
-                                        "time": "6:00_pm"
-                                    }
-                                },
-                                {
-                                    "name": "request_more"
-                                }
-                            ]
-                        }
-                    }
-                },
-                "external knowledge": "System side information: {'system_acts': [{'name': 'notify_success', 'slot_values': {'date': 'base_date_plus_2', 'movie': 'Almost_Christmas', 'num_tickets': '2', 'theatre_name': 'AMC_Mercado_20', 'time': '6:00_pm'}}, {'name': 'request_more'}]}"
+                "dst": "movie date base_date_plus_2, movie num_tickets 2"
             },
             {
                 "turn id": 11,
                 "user utterance": "thank you . goodbye",
                 "system response": "",
-                "dialog history": "<SYSTEM> Hi, how can I help you? <USER> can you get tickets for me for a movie showing on base_date_plus_2 ? <SYSTEM> OK, looking for shows on base_date_plus_2. What time would work for you? <USER> how about 6 00 pm then <SYSTEM> Which movie theater would you prefer? <USER> any movie theater would be fine . <SYSTEM> Ok. Which movie would you like to see? <USER> almost christmas <SYSTEM> Sure. How many tickets would you want? <USER> 2 tickets please . <SYSTEM> Sure. Would you like to see it at 6:00 pm at AMC Mercado 20? <USER> can you help me with what to say ? <SYSTEM> Sure. Would you like to see it at 6:00 pm at AMC Mercado 20? <USER> what ? <SYSTEM> Sure. Would you like to see it at 6:00 pm at AMC Mercado 20? <USER> yes <SYSTEM> To confirm, you want 2 tickets to see Almost Christmas at AMC Mercado 20 at 6:00 pm base_date_plus_2, right? <USER> yes 2 tickets for almost christmas at 6 00 pm base_date_plus_2 at amc mercado 20 please . <SYSTEM> I just bought you 2 tickets to see Almost Christmas at AMC Mercado 20 at 6:00 pm base_date_plus_2. Is there anything else I can do for you?",
+                "dialog history": "<SYSTEM> Hi, how can I help you? <USER>  <SYSTEM> OK, looking for shows on base_date_plus_2. What time would work for you? <USER> can you get tickets for me for a movie showing on base_date_plus_2 ? <SYSTEM> Which movie theater would you prefer? <USER> how about 6 00 pm then <SYSTEM> Ok. Which movie would you like to see? <USER> any movie theater would be fine . <SYSTEM> Sure. How many tickets would you want? <USER> almost christmas <SYSTEM> Sure. Would you like to see it at 6:00 pm at AMC Mercado 20? <USER> 2 tickets please . <SYSTEM> Sure. Would you like to see it at 6:00 pm at AMC Mercado 20? <USER> can you help me with what to say ? <SYSTEM> Sure. Would you like to see it at 6:00 pm at AMC Mercado 20? <USER> what ? <SYSTEM> To confirm, you want 2 tickets to see Almost Christmas at AMC Mercado 20 at 6:00 pm base_date_plus_2, right? <USER> yes <SYSTEM> I just bought you 2 tickets to see Almost Christmas at AMC Mercado 20 at 6:00 pm base_date_plus_2. Is there anything else I can do for you? <USER> yes 2 tickets for almost christmas at 6 00 pm base_date_plus_2 at amc mercado 20 please .",
                 "original user side information": {
                     "dialogue_state": {
                         "date": "base_date_plus_2",
@@ -2710,23 +1909,85 @@
                 },
                 "original system side information": {},
                 "dst accumulated": "movie date base_date_plus_2, movie movie Almost_Christmas, movie num_tickets 2, movie theatre_name AMC_Mercado_20, movie time 6:00_pm",
-                "dst": "movie movie Almost_Christmas, movie theatre_name AMC_Mercado_20, movie time 6:00_pm",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "original system side information": {}
-                    }
-                },
-                "external knowledge": "System side information: {}"
+                "dst": "movie movie Almost_Christmas, movie theatre_name AMC_Mercado_20, movie time 6:00_pm"
             }
         ],
-        "dst knowledge": "( movie : ( date : ( DontCare | base_date_plus_0 | base_date_plus_1 | base_date_plus_2 | base_date_plus_3 | base_date_plus_4 | base_date_plus_5 | base_date_plus_6 ) | movie : ( Doctor_Who_(Animated) | The_Love_Witch | Kevin_Hart | Ouija | The_Love_Witch | Chaar_Sahibzaade | Desierto | Ae_Dil_Hai_Mushkil | The_Accountant | Sully ) | num_tickets : ( 2 | 3 | 4 | 5 | 6 ) | theatre_name : ( AMC_Cupertino_Square_16 | AMC_Mercado_20 | AMC_Newpark_12 | AMC_Saratoga_14 | Camera_7 | Century_20_Great_Mall | Century_25_Union_City_and_XD | Century_Cinemas_16 | Century_at_Pacific_Commons | CineArts_@_Santana_Row | CineLux_Almaden_Cafe_&_Lounge | CineLux_Plaza_Theatre | Cinemark_12_Downtown_San_Mateo | Cinemark_Redwood_Downtown_20_and_XD | DontCare ) | time : ( 10:00_am | 10:00_pm | 12:00_pm | 1:00_pm | 2:00_pm | 4:00_pm | 6:00_pm | 7:15_pm | 8:00_am | 8:00_pm | DontCare )))",
+        "external knowledge non-flat": {
+            "metadata": {},
+            "slots and values": {
+                "movie": {
+                    "date": [
+                        "DontCare",
+                        "base_date_plus_0",
+                        "base_date_plus_1",
+                        "base_date_plus_2",
+                        "base_date_plus_3",
+                        "base_date_plus_4",
+                        "base_date_plus_5",
+                        "base_date_plus_6"
+                    ],
+                    "movie": [
+                        "Boo!_A_Madea_Halloween",
+                        "Inferno",
+                        "Deepwater_Horizon",
+                        "Aquarius",
+                        "The_Handmaiden",
+                        "Mad_Max",
+                        "Arrival",
+                        "Aquarius",
+                        "Keeping_Up_with_the_Joneses",
+                        "Kubo_and_the_Two_Strings"
+                    ],
+                    "num_tickets": [
+                        "2",
+                        "3",
+                        "4",
+                        "5",
+                        "6"
+                    ],
+                    "theatre_name": [
+                        "AMC_Cupertino_Square_16",
+                        "AMC_Mercado_20",
+                        "AMC_Newpark_12",
+                        "AMC_Saratoga_14",
+                        "Camera_7",
+                        "Century_20_Great_Mall",
+                        "Century_25_Union_City_and_XD",
+                        "Century_Cinemas_16",
+                        "Century_at_Pacific_Commons",
+                        "CineArts_@_Santana_Row",
+                        "CineLux_Almaden_Cafe_&_Lounge",
+                        "CineLux_Plaza_Theatre",
+                        "Cinemark_12_Downtown_San_Mateo",
+                        "Cinemark_Redwood_Downtown_20_and_XD",
+                        "DontCare"
+                    ],
+                    "time": [
+                        "10:00_am",
+                        "10:00_pm",
+                        "12:00_pm",
+                        "1:00_pm",
+                        "2:00_pm",
+                        "4:00_pm",
+                        "6:00_pm",
+                        "7:15_pm",
+                        "8:00_am",
+                        "8:00_pm",
+                        "DontCare"
+                    ]
+                }
+            },
+            "intents": {}
+        },
+        "external knowledge": "()",
+        "dst knowledge": "( movie : ( date : ( DontCare | base_date_plus_0 | base_date_plus_1 | base_date_plus_2 | base_date_plus_3 | base_date_plus_4 | base_date_plus_5 | base_date_plus_6 ) | movie : ( Boo!_A_Madea_Halloween | Inferno | Deepwater_Horizon | Aquarius | The_Handmaiden | Mad_Max | Arrival | Aquarius | Keeping_Up_with_the_Joneses | Kubo_and_the_Two_Strings ) | num_tickets : ( 2 | 3 | 4 | 5 | 6 ) | theatre_name : ( AMC_Cupertino_Square_16 | AMC_Mercado_20 | AMC_Newpark_12 | AMC_Saratoga_14 | Camera_7 | Century_20_Great_Mall | Century_25_Union_City_and_XD | Century_Cinemas_16 | Century_at_Pacific_Commons | CineArts_@_Santana_Row | CineLux_Almaden_Cafe_&_Lounge | CineLux_Plaza_Theatre | Cinemark_12_Downtown_San_Mateo | Cinemark_Redwood_Downtown_20_and_XD | DontCare ) | time : ( 10:00_am | 10:00_pm | 12:00_pm | 1:00_pm | 2:00_pm | 4:00_pm | 6:00_pm | 7:15_pm | 8:00_am | 8:00_pm | DontCare )))",
         "intent knowledge": "()",
         "prompt": [
             "This is a bot helping users to book a movie ticket. Given the dialog context and external database, please generate a relevant system response for the user.",
             "This bot assists users to book a movie ticket. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
-            "This bot helps users to book a movie ticket. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
-            "The purpose of this bot is to assist users to book a movie ticket. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
-            "This bot is designed to help users book a movie ticket. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+            "This bot helps users to book a movie ticket. Based on the conversation history and available external data, please generate a relevant system response for the user.",
+            "The purpose of this bot is to assist users to book a movie ticket. Considering the dialogue context and the information available in the external database, please provide a fitting response for the user.",
+            "This bot is designed to help users book a movie ticket. By utilizing the current dialog context and external resources, generate a fitting response for the user."
         ]
     }
 }

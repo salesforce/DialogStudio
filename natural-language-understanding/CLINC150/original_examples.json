@@ -1,22 +1,7 @@
 [
-    {
-        "input": "what expression would i use to say i love you if i were an italian",
-        "output": "translate"
-    },
-    {
-        "input": "can you tell me how to say 'i do not speak much spanish', in spanish",
-        "output": "translate"
-    },
-    {
-        "input": "what is the equivalent of, 'life is good' in french",
-        "output": "translate"
-    },
-    {
-        "input": "tell me how to say, 'it is a beautiful morning' in italian",
-        "output": "translate"
-    },
-    {
-        "input": "if i were mongolian, how would i say that i am a tourist",
-        "output": "translate"
-    }
+    "what expression would i use to say i love you if i were an italian",
+    "can you tell me how to say 'i do not speak much spanish', in spanish",
+    "what is the equivalent of, 'life is good' in french",
+    "tell me how to say, 'it is a beautiful morning' in italian",
+    "if i were mongolian, how would i say that i am a tourist"
 ]

@@ -706,92 +706,92 @@
             "slots and values": {
                 "book": {
                     "dst_city": [
-                        "Indianapolis",
-                        "St. Loius",
-                        "Le Paz",
-                        "new york",
-                        "phoenix",
-                        "Santo domingo",
-                        "Barcelonna",
-                        "Essen",
-                        "los angeles",
-                        "Hogsmead"
+                        "Ulsan",
+                        "calgary",
+                        "chicago",
+                        "Asian",
+                        "busan",
+                        "Burlingtonian",
+                        "Toluca",
+                        "baltimore",
+                        "Sendai",
+                        "Kocchi"
                     ],
                     "or_city": [
-                        "PUebla",
-                        "sf",
-                        "toluca",
-                        "San Francisco",
-                        "MonTErrey",
-                        "melbourne",
-                        "recife",
-                        "Porto Alegre",
-                        "Indianapolis",
-                        "sf"
+                        "London, England",
+                        "diagon alley",
+                        "St. Petersburg",
+                        "montreal",
+                        "PORTO",
+                        "rome",
+                        "Puebla",
+                        "san jose",
+                        "campinas",
+                        "osaka"
                     ],
                     "str_date": [
-                        "September 16",
-                        "AUGUST 16",
-                        "september 7",
-                        "august 18th",
-                        "SEPTEMBER 8",
-                        "september 10th",
-                        "27th of august",
-                        "sept 4",
-                        "september 5",
-                        "8"
+                        "6TH",
+                        "today",
+                        "August 31st",
+                        "Monday, the 12th",
+                        "AUGUST TWENTY FIFTH",
+                        "August 31st",
+                        "August 27th",
+                        "September 8th",
+                        "17",
+                        "friday sept 2 2016"
                     ],
                     "n_adults": [
-                        "I'm bringing a friend",
-                        "I will be with 4 other adults",
-                        "my husband and I",
-                        "six",
-                        "one",
-                        "wife",
-                        "just me",
-                        "me and Madonna",
-                        "with my mother",
-                        "parents"
+                        "My lover, Juliette, rides out with me",
+                        "14 adults with me",
+                        "my three best friends and myself",
+                        "a date I wanted to bring",
+                        "friend tagging along",
+                        "a couple",
+                        "Two",
+                        "I will also be traveling with my assistant",
+                        "me and ma gurls",
+                        "husband"
                     ],
                     "budget": [
-                        "increase my budget by about $1500",
-                        "extra $1000",
-                        "$9500",
-                        "$5700",
-                        "4900",
-                        "$1300",
-                        "$1,200",
-                        "10300",
-                        "3500 dollars",
-                        "16400"
+                        "35400",
+                        "3100",
+                        "$6400",
+                        "$5000",
+                        "18600",
+                        "13100 dollars",
+                        "7000",
+                        "4500",
+                        "free",
+                        "14700"
                     ],
                     "flex": [
                         false,
                         true
                     ],
                     "n_children": [
-                        "14",
-                        "14",
-                        "with my son",
+                        "grandson",
+                        "darling little munchkins",
+                        "darling little munchkins",
                         "set of twins",
-                        "14",
-                        "baby",
-                        "one",
+                        "three",
+                        "our son",
+                        "5",
+                        "7",
                         "six of us with myself included",
-                        "grandchildren",
-                        "my child"
+                        "three"
                     ],
                     "end_date": [
-                        "9/15",
-                        "Sept 1",
-                        "6th",
-                        "1",
-                        "sept 18",
-                        "Saturday October 1st",
-                        "sept 5",
-                        "september 23",
-                        "September 11th",
-                        "august 25"
+                        "13",
+                        "24",
+                        "September 5th",
+                        "august 30th",
+                        "following Tuesday",
+                        "12 September",
+                        "Twenty Fourth Day Of September",
+                        "Sep 16",
+                        "september 17",
+                        "29th"
                     ],
                     "arr_time_or": [
                         "1:00 am"
@@ -808,28 +808,28 @@
                         "Business"
                     ],
                     "max_duration": [
-                        "longer",
-                        "9 day",
-                        "a couple days",
-                        "however long the money will keep me there for",
-                        "-1",
-                        "6 weeks",
+                        "8 day",
                         "under ten days",
-                        "six day",
-                        "9",
-                        "4 day"
+                        "15",
+                        "12",
+                        "6",
+                        "18",
+                        "18 days",
+                        "shortened my trip by one day",
+                        "week-long",
+                        "one night"
                     ],
                     "category": [
                         "nice",
-                        "3",
-                        "lower",
-                        "-1",
-                        "stronger",
-                        "higher",
                         "Highest",
-                        "higher end",
+                        "highly rated",
+                        "PAMPERED",
                         "nice",
-                        "LUXURY"
+                        "Higher",
+                        "better than 3",
+                        "3.0",
+                        "BETTER",
+                        "3"
                     ],
                     "breakfast": [
                         false,
@@ -839,40 +839,40 @@
                         true
                     ],
                     "duration": [
+                        "the longer",
+                        "11 days",
+                        "8-day",
                         "6 day",
-                        "9 day",
-                        "13day",
-                        "shorter than 11 days",
+                        "15 days",
+                        "15 day",
+                        "longer",
                         "not really long",
-                        "20",
-                        "shorter",
-                        "4 days",
-                        "10 day",
-                        "shortened"
+                        "the longer",
+                        "the longer"
                     ],
                     "price": [
-                        "6000.00 more",
-                        "1725.59",
+                        "1808.68USD",
+                        "too expensive",
+                        "better value",
                         "1651. 40 USD",
                         "pricey",
-                        "over budget",
-                        "1725.59",
-                        "1397",
+                        "too expensive",
                         "under $400",
-                        "the cheapest option",
-                        "$7573.39"
+                        "$2866.11",
+                        "7146.39",
+                        "$2866.11"
                     ],
                     "name": [
-                        "sunny wolf",
-                        "Kirei",
-                        "Las Flores",
-                        "Peter",
-                        "Golden Keep hotel",
+                        "serene garden",
+                        "Hotel Vanilla",
+                        "Echo",
+                        "Glacier",
+                        "tower hotel",
+                        "brass",
                         "Majesty Hotel",
-                        "Hotel Emerald Legacy",
-                        "Hotel Royal",
-                        "celestial",
-                        "Hotel Vanilla"
+                        "plaza serene",
+                        "Traveller",
+                        "the Kirei"
                     ],
                     "downtown": [
                         true
@@ -881,16 +881,16 @@
                         true
                     ],
                     "min_duration": [
-                        "one week",
-                        "13 days",
+                        "four days",
+                        "longer period",
+                        "9 days",
                         "10 days",
-                        "at least 6 days",
-                        "week long",
-                        "4 days",
-                        "13",
-                        "12 days",
                         "5 days",
-                        "4"
+                        "13",
+                        "4",
+                        "9 days",
+                        "longest",
+                        "longer period"
                     ],
                     "wifi": [
                         false,
@@ -948,16 +948,16 @@
                         "only choice"
                     ],
                     "gst_rating": [
-                        "8.22",
-                        "8.49/10",
-                        "0",
                         "unrated",
-                        "8.8/10",
-                        "7.15",
-                        "lower",
-                        "decent",
+                        "9.32",
+                        "10",
+                        "8.98/10",
                         "6.91/10",
-                        "0"
+                        "0/10",
+                        "unrated",
+                        "8.37",
+                        "highest",
+                        "8.8"
                     ],
                     "park": [
                         false,
@@ -1028,14 +1028,14 @@
             }
         },
         "external knowledge": "( travel : (( trip : ( returning : ( duration : ( hours : 0 | min : 51) | arrival : ( hour : 10 | year : 2016 | day : 24 | min : 51 | month : 8) | departure : ( hour : 10 | year : 2016 | day : 24 | min : 0 | month : 8)) | seat : ECONOMY | leaving : ( duration : ( hours : 0 | min : 51) | arrival : ( hour : 0 | year : 2016 | day : 16 | min : 51 | month : 8) | departure : ( hour : 0 | year : 2016 | day : 16 | min : 0 | month : 8)) | or_city : Porto Alegre | duration_days : 9) | price : 2118.81 | hotel : ( gst_rating : 7.15 | vicinity : () | name : Scarlet Palms Resort | country : Brazil | amenities : ( FREE_BREAKFAST | FREE_PARKING | FREE_WIFI ) | dst_city : Goiania | category : 3.5 star hotel )) | ( trip : ( returning : ( duration : ( hours : 2 | min : 37) | arrival : ( hour : 12 | year : 2016 | day : 10 | min : 37 | month : 8) | departure : ( hour : 10 | year : 2016 | day : 10 | min : 0 | month : 8)) | seat : ECONOMY | leaving : ( duration : ( hours : 2 | min : 37) | arrival : ( hour : 0 | year : 2016 | day : 4 | min : 37 | month : 8) | departure : ( hour : 22 | year : 2016 | day : 3 | min : 0 | month : 8)) | or_city : Porto Alegre | duration_days : 7) | price : 2369.83 | hotel : ( gst_rating : 0 | vicinity : () | name : Sunway Hostel | country : Argentina | amenities : ( FREE_BREAKFAST | FREE_WIFI ) | dst_city : Rosario | category : 2.0 star hotel )) | ( trip : ( returning : ( duration : ( hours : 0 | min : 51) | arrival : ( hour : 10 | year : 2016 | day : 24 | min : 51 | month : 8) | departure : ( hour : 10 | year : 2016 | day : 24 | min : 0 | month : 8)) | seat : BUSINESS | leaving : ( duration : ( hours : 0 | min : 51) | arrival : ( hour : 0 | year : 2016 | day : 16 | min : 51 | month : 8) | departure : ( hour : 0 | year : 2016 | day : 16 | min : 0 | month : 8)) | or_city : Porto Alegre | duration_days : 9) | price : 2375.72 | hotel : ( gst_rating : 7.15 | vicinity : () | name : Scarlet Palms Resort | country : Brazil | amenities : ( FREE_BREAKFAST | FREE_PARKING | FREE_WIFI ) | dst_city : Goiania | category : 3.5 star hotel )) | ( trip : ( returning : ( duration : ( hours : 1 | min : 30) | arrival : ( hour : 11 | year : 2016 | day : 1 | min : 30 | month : 9) | departure : ( hour : 10 | year : 2016 | day : 1 | min : 0 | month : 9)) | seat : BUSINESS | leaving : ( duration : ( hours : 1 | min : 30) | arrival : ( hour : 18 | year : 2016 | day : 19 | min : 30 | month : 8) | departure : ( hour : 17 | year : 2016 | day : 19 | min : 0 | month : 8)) | or_city : Porto Alegre | duration_days : 13) | price : 2492.95 | hotel : ( gst_rating : 0 | vicinity : () | name : Hotel Mundo | country : Brazil | amenities : ( FREE_BREAKFAST | FREE_WIFI | FREE_PARKING ) | dst_city : Manaus | category : 2.5 star hotel )) | ( trip : ( returning : ( duration : ( hours : 0 | min : 51) | arrival : ( hour : 10 | year : 2016 | day : 31 | min : 51 | month : 8) | departure : ( hour : 10 | year : 2016 | day : 31 | min : 0 | month : 8)) | seat : ECONOMY | leaving : ( duration : ( hours : 0 | min : 51) | arrival : ( hour : 19 | year : 2016 | day : 27 | min : 51 | month : 8) | departure : ( hour : 19 | year : 2016 | day : 27 | min : 0 | month : 8)) | or_city : Porto Alegre | duration_days : 4) | price : 2538.0 | hotel : ( gst_rating : 8.22 | vicinity : () | name : The Glee | country : Brazil | amenities : ( FREE_BREAKFAST | FREE_WIFI ) | dst_city : Recife | category : 4.0 star hotel ))))",
-        "dst knowledge": "( book : ( dst_city : ( Indianapolis | St. Loius | Le Paz | new york | phoenix | Santo domingo | Barcelonna | Essen | los angeles | Hogsmead ) | or_city : ( PUebla | sf | toluca | San Francisco | MonTErrey | melbourne | recife | Porto Alegre | Indianapolis | sf ) | str_date : ( September 16 | AUGUST 16 | september 7 | august 18th | SEPTEMBER 8 | september 10th | 27th of august | sept 4 | september 5 | 8 ) | n_adults : (\"I m bringing a friend\" | I will be with 4 other adults | my husband and I | six | one | wife | just me | me and Madonna | with my mother | parents ) | budget : ( increase my budget by about $1500 | extra $1000 | $9500 | $5700 | 4900 | $1300 | $1,200 | 10300 | 3500 dollars | 16400 ) | flex : (False | True) | n_children : ( 14 | 14 | with my son | set of twins | 14 | baby | one | six of us with myself included | grandchildren | my child ) | end_date : ( 9/15 | Sept 1 | 6th | 1 | sept 18 | Saturday October 1st | sept 5 | september 23 | September 11th | august 25 ) | arr_time_or : ( 1:00 am ) | seat : ( BIZ | business | biz | First class | Economy | first class | upgrade | economy | Business ) | max_duration : ( longer | 9 day | a couple days | however long the money will keep me there for | -1 | 6 weeks | under ten days | six day | 9 | 4 day ) | category : ( nice | 3 | lower | -1 | stronger | higher | Highest | higher end | nice | LUXURY ) | breakfast : (False | True) | seat_ok : (True) | duration : ( 6 day | 9 day | 13day | shorter than 11 days | not really long | 20 | shorter | 4 days | 10 day | shortened ) | price : ( 6000.00 more | 1725.59 | 1651. 40 USD | pricey | over budget | 1725.59 | 1397 | under $400 | the cheapest option | $7573.39 ) | name : ( sunny wolf | Kirei | Las Flores | Peter | Golden Keep hotel | Majesty Hotel | Hotel Emerald Legacy | Hotel Royal | celestial | Hotel Vanilla ) | downtown : (True) | spa : (True) | min_duration : ( one week | 13 days | 10 days | at least 6 days | week long | 4 days | 13 | 12 days | 5 days | 4 ) | wifi : (False | True) | action : ( book ) | count : ( No other choices | ONE | the only options | two | only thing | only | all you have | none at all ) | budget_ok : (True) | intent_ok : (True) | dep_time_dst : ( 3:00am | 1:00am | 3 am ) | parking : (True | -1 ) | dep_time_or : ( 7:00 am | 10 am ) | museum : (False | True) | beach : (False | True) | count_name : ( one | two | EVERYTHING | only thing | only | all | all 4 | 3 | only choice ) | gst_rating : ( 8.22 | 8.49/10 | 0 | unrated | 8.8/10 | 7.15 | lower | decent | 6.91/10 | 0 ) | park : (False | True) | airport : (True) | impl_anaphora : ( category | price ) | mall : (True) | amenities : ( -1 ) | vicinity : ( -1 ) | palace : (True) | shopping : (False | True) | count_dst_city : ( several | all | a few | two ) | cathedral : (True) | university : (True) | n_adults_ok : (True) | count_seat : ( two ) | market : (True)))",
+        "dst knowledge": "( book : ( dst_city : ( Ulsan | calgary | chicago | Asian | busan | Burlingtonian | Toluca | baltimore | Sendai | Kocchi ) | or_city : ( London | England | diagon alley | St. Petersburg | montreal | PORTO | rome | Puebla | san jose | campinas | osaka ) | str_date : ( 6TH | today | August 31st | Monday | the 12th | AUGUST TWENTY FIFTH | August 31st | August 27th | September 8th | 17 | friday sept 2 2016 ) | n_adults : ( My lover | Juliette | rides out with me | 14 adults with me | my three best friends and myself | a date I wanted to bring | friend tagging along | a couple | Two | I will also be traveling with my assistant | me and ma gurls | husband ) | budget : ( 35400 | 3100 | $6400 | $5000 | 18600 | 13100 dollars | 7000 | 4500 | free | 14700 ) | flex : (False | True) | n_children : ( grandson | darling little munchkins | darling little munchkins | set of twins | three | our son | 5 | 7 | six of us with myself included | three ) | end_date : ( 13 | 24 | September 5th | august 30th | following Tuesday | 12 September | Twenty Fourth Day Of September | Sep 16 | september 17 | 29th ) | arr_time_or : ( 1:00 am ) | seat : ( BIZ | business | biz | First class | Economy | first class | upgrade | economy | Business ) | max_duration : ( 8 day | under ten days | 15 | 12 | 6 | 18 | 18 days | shortened my trip by one day | week-long | one night ) | category : ( nice | Highest | highly rated | PAMPERED | nice | Higher | better than 3 | 3.0 | BETTER | 3 ) | breakfast : (False | True) | seat_ok : (True) | duration : ( the longer | 11 days | 8-day | 6 day | 15 days | 15 day | longer | not really long | the longer | the longer ) | price : ( 1808.68USD | too expensive | better value | 1651. 40 USD | pricey | too expensive | under $400 | $2866.11 | 7146.39 | $2866.11 ) | name : ( serene garden | Hotel Vanilla | Echo | Glacier | tower hotel | brass | Majesty Hotel | plaza serene | Traveller | the Kirei ) | downtown : (True) | spa : (True) | min_duration : ( four days | longer period | 9 days | 10 days | 5 days | 13 | 4 | 9 days | longest | longer period ) | wifi : (False | True) | action : ( book ) | count : ( No other choices | ONE | the only options | two | only thing | only | all you have | none at all ) | budget_ok : (True) | intent_ok : (True) | dep_time_dst : ( 3:00am | 1:00am | 3 am ) | parking : (True | -1 ) | dep_time_or : ( 7:00 am | 10 am ) | museum : (False | True) | beach : (False | True) | count_name : ( one | two | EVERYTHING | only thing | only | all | all 4 | 3 | only choice ) | gst_rating : ( unrated | 9.32 | 10 | 8.98/10 | 6.91/10 | 0/10 | unrated | 8.37 | highest | 8.8 ) | park : (False | True) | airport : (True) | impl_anaphora : ( category | price ) | mall : (True) | amenities : ( -1 ) | vicinity : ( -1 ) | palace : (True) | shopping : (False | True) | count_dst_city : ( several | all | a few | two ) | cathedral : (True) | university : (True) | n_adults_ok : (True) | count_seat : ( two ) | market : (True)))",
         "intent knowledge": "( book : ( null | negate | request | goodbye | affirm | switch_frame | inform | moreinfo | request_compare | thankyou | greeting | confirm | request_alts ))",
         "prompt": [
             "This is a bot helping users to book a trip. Given the dialog context and external database, please generate a relevant system response for the user.",
             "This bot assists users to book a trip. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
-            "This bot helps users to book a trip. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
-            "The purpose of this bot is to assist users to book a trip. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
-            "This bot is designed to help users book a trip. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+            "This bot helps users to book a trip. Based on the conversation history and available external data, please generate a relevant system response for the user.",
+            "The purpose of this bot is to assist users to book a trip. Considering the dialogue context and the information available in the external database, please provide a fitting response for the user.",
+            "This bot is designed to help users book a trip. By utilizing the current dialog context and external resources, generate a fitting response for the user."
         ]
     },
     "FRAMES--train--2": {
@@ -1598,92 +1598,92 @@
             "slots and values": {
                 "book": {
                     "dst_city": [
-                        "Indianapolis",
-                        "St. Loius",
-                        "Le Paz",
-                        "new york",
-                        "phoenix",
-                        "Santo domingo",
-                        "Barcelonna",
-                        "Essen",
-                        "los angeles",
-                        "Hogsmead"
+                        "Ulsan",
+                        "calgary",
+                        "chicago",
+                        "Asian",
+                        "busan",
+                        "Burlingtonian",
+                        "Toluca",
+                        "baltimore",
+                        "Sendai",
+                        "Kocchi"
                     ],
                     "or_city": [
-                        "PUebla",
-                        "sf",
-                        "toluca",
-                        "San Francisco",
-                        "MonTErrey",
-                        "melbourne",
-                        "recife",
-                        "Porto Alegre",
-                        "Indianapolis",
-                        "sf"
+                        "London, England",
+                        "diagon alley",
+                        "St. Petersburg",
+                        "montreal",
+                        "PORTO",
+                        "rome",
+                        "Puebla",
+                        "san jose",
+                        "campinas",
+                        "osaka"
                     ],
                     "str_date": [
-                        "September 16",
-                        "AUGUST 16",
-                        "september 7",
-                        "august 18th",
-                        "SEPTEMBER 8",
-                        "september 10th",
-                        "27th of august",
-                        "sept 4",
-                        "september 5",
-                        "8"
+                        "6TH",
+                        "today",
+                        "August 31st",
+                        "Monday, the 12th",
+                        "AUGUST TWENTY FIFTH",
+                        "August 31st",
+                        "August 27th",
+                        "September 8th",
+                        "17",
+                        "friday sept 2 2016"
                     ],
                     "n_adults": [
-                        "I'm bringing a friend",
-                        "I will be with 4 other adults",
-                        "my husband and I",
-                        "six",
-                        "one",
-                        "wife",
-                        "just me",
-                        "me and Madonna",
-                        "with my mother",
-                        "parents"
+                        "My lover, Juliette, rides out with me",
+                        "14 adults with me",
+                        "my three best friends and myself",
+                        "a date I wanted to bring",
+                        "friend tagging along",
+                        "a couple",
+                        "Two",
+                        "I will also be traveling with my assistant",
+                        "me and ma gurls",
+                        "husband"
                     ],
                     "budget": [
-                        "increase my budget by about $1500",
-                        "extra $1000",
-                        "$9500",
-                        "$5700",
-                        "4900",
-                        "$1300",
-                        "$1,200",
-                        "10300",
-                        "3500 dollars",
-                        "16400"
+                        "35400",
+                        "3100",
+                        "$6400",
+                        "$5000",
+                        "18600",
+                        "13100 dollars",
+                        "7000",
+                        "4500",
+                        "free",
+                        "14700"
                     ],
                     "flex": [
                         false,
                         true
                     ],
                     "n_children": [
-                        "14",
-                        "14",
-                        "with my son",
+                        "grandson",
+                        "darling little munchkins",
+                        "darling little munchkins",
                         "set of twins",
-                        "14",
-                        "baby",
-                        "one",
+                        "three",
+                        "our son",
+                        "5",
+                        "7",
                         "six of us with myself included",
-                        "grandchildren",
-                        "my child"
+                        "three"
                     ],
                     "end_date": [
-                        "9/15",
-                        "Sept 1",
-                        "6th",
-                        "1",
-                        "sept 18",
-                        "Saturday October 1st",
-                        "sept 5",
-                        "september 23",
-                        "September 11th",
-                        "august 25"
+                        "13",
+                        "24",
+                        "September 5th",
+                        "august 30th",
+                        "following Tuesday",
+                        "12 September",
+                        "Twenty Fourth Day Of September",
+                        "Sep 16",
+                        "september 17",
+                        "29th"
                     ],
                     "arr_time_or": [
                         "1:00 am"
@@ -1700,28 +1700,28 @@
                         "Business"
                     ],
                     "max_duration": [
-                        "longer",
-                        "9 day",
-                        "a couple days",
-                        "however long the money will keep me there for",
-                        "-1",
-                        "6 weeks",
+                        "8 day",
                         "under ten days",
-                        "six day",
-                        "9",
-                        "4 day"
+                        "15",
+                        "12",
+                        "6",
+                        "18",
+                        "18 days",
+                        "shortened my trip by one day",
+                        "week-long",
+                        "one night"
                     ],
                     "category": [
                         "nice",
-                        "3",
-                        "lower",
-                        "-1",
-                        "stronger",
-                        "higher",
                         "Highest",
-                        "higher end",
+                        "highly rated",
+                        "PAMPERED",
                         "nice",
-                        "LUXURY"
+                        "Higher",
+                        "better than 3",
+                        "3.0",
+                        "BETTER",
+                        "3"
                     ],
                     "breakfast": [
                         false,
@@ -1731,40 +1731,40 @@
                         true
                     ],
                     "duration": [
+                        "the longer",
+                        "11 days",
+                        "8-day",
                         "6 day",
-                        "9 day",
-                        "13day",
-                        "shorter than 11 days",
+                        "15 days",
+                        "15 day",
+                        "longer",
                         "not really long",
-                        "20",
-                        "shorter",
-                        "4 days",
-                        "10 day",
-                        "shortened"
+                        "the longer",
+                        "the longer"
                     ],
                     "price": [
-                        "6000.00 more",
-                        "1725.59",
+                        "1808.68USD",
+                        "too expensive",
+                        "better value",
                         "1651. 40 USD",
                         "pricey",
-                        "over budget",
-                        "1725.59",
-                        "1397",
+                        "too expensive",
                         "under $400",
-                        "the cheapest option",
-                        "$7573.39"
+                        "$2866.11",
+                        "7146.39",
+                        "$2866.11"
                     ],
                     "name": [
-                        "sunny wolf",
-                        "Kirei",
-                        "Las Flores",
-                        "Peter",
-                        "Golden Keep hotel",
+                        "serene garden",
+                        "Hotel Vanilla",
+                        "Echo",
+                        "Glacier",
+                        "tower hotel",
+                        "brass",
                         "Majesty Hotel",
-                        "Hotel Emerald Legacy",
-                        "Hotel Royal",
-                        "celestial",
-                        "Hotel Vanilla"
+                        "plaza serene",
+                        "Traveller",
+                        "the Kirei"
                     ],
                     "downtown": [
                         true
@@ -1773,16 +1773,16 @@
                         true
                     ],
                     "min_duration": [
-                        "one week",
-                        "13 days",
+                        "four days",
+                        "longer period",
+                        "9 days",
                         "10 days",
-                        "at least 6 days",
-                        "week long",
-                        "4 days",
-                        "13",
-                        "12 days",
                         "5 days",
-                        "4"
+                        "13",
+                        "4",
+                        "9 days",
+                        "longest",
+                        "longer period"
                     ],
                     "wifi": [
                         false,
@@ -1840,16 +1840,16 @@
                         "only choice"
                     ],
                     "gst_rating": [
-                        "8.22",
-                        "8.49/10",
-                        "0",
                         "unrated",
-                        "8.8/10",
-                        "7.15",
-                        "lower",
-                        "decent",
+                        "9.32",
+                        "10",
+                        "8.98/10",
                         "6.91/10",
-                        "0"
+                        "0/10",
+                        "unrated",
+                        "8.37",
+                        "highest",
+                        "8.8"
                     ],
                     "park": [
                         false,
@@ -1920,14 +1920,14 @@
             }
         },
         "external knowledge": "( travel : (( trip : ( returning : ( duration : ( hours : 1 | min : 2) | arrival : ( hour : 5 | year : 2016 | day : 24 | min : 2 | month : 8) | departure : ( hour : 4 | year : 2016 | day : 24 | min : 0 | month : 8)) | seat : ECONOMY | leaving : ( duration : ( hours : 1 | min : 2) | arrival : ( hour : 12 | year : 2016 | day : 17 | min : 2 | month : 8) | departure : ( hour : 11 | year : 2016 | day : 17 | min : 0 | month : 8)) | or_city : Toronto | duration_days : 7) | price : 1864.38 | hotel : ( gst_rating : 0 | vicinity : () | name : Amusement | country : Canada | amenities : ( FREE_PARKING | FREE_WIFI ) | dst_city : Calgary | category : 4.0 star hotel )) | ( trip : ( returning : ( duration : ( hours : 1 | min : 8) | arrival : ( hour : 6 | year : 2016 | day : 31 | min : 8 | month : 8) | departure : ( hour : 5 | year : 2016 | day : 31 | min : 0 | month : 8)) | seat : ECONOMY | leaving : ( duration : ( hours : 1 | min : 8) | arrival : ( hour : 12 | year : 2016 | day : 24 | min : 8 | month : 8) | departure : ( hour : 11 | year : 2016 | day : 24 | min : 0 | month : 8)) | or_city : Melbourne | duration_days : 7) | price : 2038.8 | hotel : ( gst_rating : 0 | vicinity : () | name : El Mar | country : Dominican Republic | amenities : () | dst_city : Punta Cana | category : 2.5 star hotel )) | ( trip : ( returning : ( duration : ( hours : 0 | min : 57) | arrival : ( hour : 11 | year : 2016 | day : 6 | min : 57 | month : 9) | departure : ( hour : 11 | year : 2016 | day : 6 | min : 0 | month : 9)) | seat : ECONOMY | leaving : ( duration : ( hours : 0 | min : 57) | arrival : ( hour : 17 | year : 2016 | day : 24 | min : 57 | month : 8) | departure : ( hour : 17 | year : 2016 | day : 24 | min : 0 | month : 8)) | or_city : Tampa | duration_days : 13) | price : 2081.2 | hotel : ( gst_rating : 0 | vicinity : () | name : El Mar | country : Dominican Republic | amenities : () | dst_city : Punta Cana | category : 2.5 star hotel ))))",
-        "dst knowledge": "( book : ( dst_city : ( Indianapolis | St. Loius | Le Paz | new york | phoenix | Santo domingo | Barcelonna | Essen | los angeles | Hogsmead ) | or_city : ( PUebla | sf | toluca | San Francisco | MonTErrey | melbourne | recife | Porto Alegre | Indianapolis | sf ) | str_date : ( September 16 | AUGUST 16 | september 7 | august 18th | SEPTEMBER 8 | september 10th | 27th of august | sept 4 | september 5 | 8 ) | n_adults : (\"I m bringing a friend\" | I will be with 4 other adults | my husband and I | six | one | wife | just me | me and Madonna | with my mother | parents ) | budget : ( increase my budget by about $1500 | extra $1000 | $9500 | $5700 | 4900 | $1300 | $1,200 | 10300 | 3500 dollars | 16400 ) | flex : (False | True) | n_children : ( 14 | 14 | with my son | set of twins | 14 | baby | one | six of us with myself included | grandchildren | my child ) | end_date : ( 9/15 | Sept 1 | 6th | 1 | sept 18 | Saturday October 1st | sept 5 | september 23 | September 11th | august 25 ) | arr_time_or : ( 1:00 am ) | seat : ( BIZ | business | biz | First class | Economy | first class | upgrade | economy | Business ) | max_duration : ( longer | 9 day | a couple days | however long the money will keep me there for | -1 | 6 weeks | under ten days | six day | 9 | 4 day ) | category : ( nice | 3 | lower | -1 | stronger | higher | Highest | higher end | nice | LUXURY ) | breakfast : (False | True) | seat_ok : (True) | duration : ( 6 day | 9 day | 13day | shorter than 11 days | not really long | 20 | shorter | 4 days | 10 day | shortened ) | price : ( 6000.00 more | 1725.59 | 1651. 40 USD | pricey | over budget | 1725.59 | 1397 | under $400 | the cheapest option | $7573.39 ) | name : ( sunny wolf | Kirei | Las Flores | Peter | Golden Keep hotel | Majesty Hotel | Hotel Emerald Legacy | Hotel Royal | celestial | Hotel Vanilla ) | downtown : (True) | spa : (True) | min_duration : ( one week | 13 days | 10 days | at least 6 days | week long | 4 days | 13 | 12 days | 5 days | 4 ) | wifi : (False | True) | action : ( book ) | count : ( No other choices | ONE | the only options | two | only thing | only | all you have | none at all ) | budget_ok : (True) | intent_ok : (True) | dep_time_dst : ( 3:00am | 1:00am | 3 am ) | parking : (True | -1 ) | dep_time_or : ( 7:00 am | 10 am ) | museum : (False | True) | beach : (False | True) | count_name : ( one | two | EVERYTHING | only thing | only | all | all 4 | 3 | only choice ) | gst_rating : ( 8.22 | 8.49/10 | 0 | unrated | 8.8/10 | 7.15 | lower | decent | 6.91/10 | 0 ) | park : (False | True) | airport : (True) | impl_anaphora : ( category | price ) | mall : (True) | amenities : ( -1 ) | vicinity : ( -1 ) | palace : (True) | shopping : (False | True) | count_dst_city : ( several | all | a few | two ) | cathedral : (True) | university : (True) | n_adults_ok : (True) | count_seat : ( two ) | market : (True)))",
+        "dst knowledge": "( book : ( dst_city : ( Ulsan | calgary | chicago | Asian | busan | Burlingtonian | Toluca | baltimore | Sendai | Kocchi ) | or_city : ( London | England | diagon alley | St. Petersburg | montreal | PORTO | rome | Puebla | san jose | campinas | osaka ) | str_date : ( 6TH | today | August 31st | Monday | the 12th | AUGUST TWENTY FIFTH | August 31st | August 27th | September 8th | 17 | friday sept 2 2016 ) | n_adults : ( My lover | Juliette | rides out with me | 14 adults with me | my three best friends and myself | a date I wanted to bring | friend tagging along | a couple | Two | I will also be traveling with my assistant | me and ma gurls | husband ) | budget : ( 35400 | 3100 | $6400 | $5000 | 18600 | 13100 dollars | 7000 | 4500 | free | 14700 ) | flex : (False | True) | n_children : ( grandson | darling little munchkins | darling little munchkins | set of twins | three | our son | 5 | 7 | six of us with myself included | three ) | end_date : ( 13 | 24 | September 5th | august 30th | following Tuesday | 12 September | Twenty Fourth Day Of September | Sep 16 | september 17 | 29th ) | arr_time_or : ( 1:00 am ) | seat : ( BIZ | business | biz | First class | Economy | first class | upgrade | economy | Business ) | max_duration : ( 8 day | under ten days | 15 | 12 | 6 | 18 | 18 days | shortened my trip by one day | week-long | one night ) | category : ( nice | Highest | highly rated | PAMPERED | nice | Higher | better than 3 | 3.0 | BETTER | 3 ) | breakfast : (False | True) | seat_ok : (True) | duration : ( the longer | 11 days | 8-day | 6 day | 15 days | 15 day | longer | not really long | the longer | the longer ) | price : ( 1808.68USD | too expensive | better value | 1651. 40 USD | pricey | too expensive | under $400 | $2866.11 | 7146.39 | $2866.11 ) | name : ( serene garden | Hotel Vanilla | Echo | Glacier | tower hotel | brass | Majesty Hotel | plaza serene | Traveller | the Kirei ) | downtown : (True) | spa : (True) | min_duration : ( four days | longer period | 9 days | 10 days | 5 days | 13 | 4 | 9 days | longest | longer period ) | wifi : (False | True) | action : ( book ) | count : ( No other choices | ONE | the only options | two | only thing | only | all you have | none at all ) | budget_ok : (True) | intent_ok : (True) | dep_time_dst : ( 3:00am | 1:00am | 3 am ) | parking : (True | -1 ) | dep_time_or : ( 7:00 am | 10 am ) | museum : (False | True) | beach : (False | True) | count_name : ( one | two | EVERYTHING | only thing | only | all | all 4 | 3 | only choice ) | gst_rating : ( unrated | 9.32 | 10 | 8.98/10 | 6.91/10 | 0/10 | unrated | 8.37 | highest | 8.8 ) | park : (False | True) | airport : (True) | impl_anaphora : ( category | price ) | mall : (True) | amenities : ( -1 ) | vicinity : ( -1 ) | palace : (True) | shopping : (False | True) | count_dst_city : ( several | all | a few | two ) | cathedral : (True) | university : (True) | n_adults_ok : (True) | count_seat : ( two ) | market : (True)))",
         "intent knowledge": "( book : ( null | negate | request | goodbye | affirm | switch_frame | inform | moreinfo | request_compare | thankyou | greeting | confirm | request_alts ))",
         "prompt": [
             "This is a bot helping users to book a trip. Given the dialog context and external database, please generate a relevant system response for the user.",
             "This bot assists users to book a trip. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
-            "This bot helps users to book a trip. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
-            "The purpose of this bot is to assist users to book a trip. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
-            "This bot is designed to help users book a trip. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+            "This bot helps users to book a trip. Based on the conversation history and available external data, please generate a relevant system response for the user.",
+            "The purpose of this bot is to assist users to book a trip. Considering the dialogue context and the information available in the external database, please provide a fitting response for the user.",
+            "This bot is designed to help users book a trip. By utilizing the current dialog context and external resources, generate a fitting response for the user."
         ]
     },
     "FRAMES--train--3": {
@@ -2930,92 +2930,92 @@
             "slots and values": {
                 "book": {
                     "dst_city": [
-                        "Indianapolis",
-                        "St. Loius",
-                        "Le Paz",
-                        "new york",
-                        "phoenix",
-                        "Santo domingo",
-                        "Barcelonna",
-                        "Essen",
-                        "los angeles",
-                        "Hogsmead"
+                        "Ulsan",
+                        "calgary",
+                        "chicago",
+                        "Asian",
+                        "busan",
+                        "Burlingtonian",
+                        "Toluca",
+                        "baltimore",
+                        "Sendai",
+                        "Kocchi"
                     ],
                     "or_city": [
-                        "PUebla",
-                        "sf",
-                        "toluca",
-                        "San Francisco",
-                        "MonTErrey",
-                        "melbourne",
-                        "recife",
-                        "Porto Alegre",
-                        "Indianapolis",
-                        "sf"
+                        "London, England",
+                        "diagon alley",
+                        "St. Petersburg",
+                        "montreal",
+                        "PORTO",
+                        "rome",
+                        "Puebla",
+                        "san jose",
+                        "campinas",
+                        "osaka"
                     ],
                     "str_date": [
-                        "September 16",
-                        "AUGUST 16",
-                        "september 7",
-                        "august 18th",
-                        "SEPTEMBER 8",
-                        "september 10th",
-                        "27th of august",
-                        "sept 4",
-                        "september 5",
-                        "8"
+                        "6TH",
+                        "today",
+                        "August 31st",
+                        "Monday, the 12th",
+                        "AUGUST TWENTY FIFTH",
+                        "August 31st",
+                        "August 27th",
+                        "September 8th",
+                        "17",
+                        "friday sept 2 2016"
                     ],
                     "n_adults": [
-                        "I'm bringing a friend",
-                        "I will be with 4 other adults",
-                        "my husband and I",
-                        "six",
-                        "one",
-                        "wife",
-                        "just me",
-                        "me and Madonna",
-                        "with my mother",
-                        "parents"
+                        "My lover, Juliette, rides out with me",
+                        "14 adults with me",
+                        "my three best friends and myself",
+                        "a date I wanted to bring",
+                        "friend tagging along",
+                        "a couple",
+                        "Two",
+                        "I will also be traveling with my assistant",
+                        "me and ma gurls",
+                        "husband"
                     ],
                     "budget": [
-                        "increase my budget by about $1500",
-                        "extra $1000",
-                        "$9500",
-                        "$5700",
-                        "4900",
-                        "$1300",
-                        "$1,200",
-                        "10300",
-                        "3500 dollars",
-                        "16400"
+                        "35400",
+                        "3100",
+                        "$6400",
+                        "$5000",
+                        "18600",
+                        "13100 dollars",
+                        "7000",
+                        "4500",
+                        "free",
+                        "14700"
                     ],
                     "flex": [
                         false,
                         true
                     ],
                     "n_children": [
-                        "14",
-                        "14",
-                        "with my son",
+                        "grandson",
+                        "darling little munchkins",
+                        "darling little munchkins",
                         "set of twins",
-                        "14",
-                        "baby",
-                        "one",
+                        "three",
+                        "our son",
+                        "5",
+                        "7",
                         "six of us with myself included",
-                        "grandchildren",
-                        "my child"
+                        "three"
                     ],
                     "end_date": [
-                        "9/15",
-                        "Sept 1",
-                        "6th",
-                        "1",
-                        "sept 18",
-                        "Saturday October 1st",
-                        "sept 5",
-                        "september 23",
-                        "September 11th",
-                        "august 25"
+                        "13",
+                        "24",
+                        "September 5th",
+                        "august 30th",
+                        "following Tuesday",
+                        "12 September",
+                        "Twenty Fourth Day Of September",
+                        "Sep 16",
+                        "september 17",
+                        "29th"
                     ],
                     "arr_time_or": [
                         "1:00 am"
@@ -3032,28 +3032,28 @@
                         "Business"
                     ],
                     "max_duration": [
-                        "longer",
-                        "9 day",
-                        "a couple days",
-                        "however long the money will keep me there for",
-                        "-1",
-                        "6 weeks",
+                        "8 day",
                         "under ten days",
-                        "six day",
-                        "9",
-                        "4 day"
+                        "15",
+                        "12",
+                        "6",
+                        "18",
+                        "18 days",
+                        "shortened my trip by one day",
+                        "week-long",
+                        "one night"
                     ],
                     "category": [
                         "nice",
-                        "3",
-                        "lower",
-                        "-1",
-                        "stronger",
-                        "higher",
                         "Highest",
-                        "higher end",
+                        "highly rated",
+                        "PAMPERED",
                         "nice",
-                        "LUXURY"
+                        "Higher",
+                        "better than 3",
+                        "3.0",
+                        "BETTER",
+                        "3"
                     ],
                     "breakfast": [
                         false,
@@ -3063,40 +3063,40 @@
                         true
                     ],
                     "duration": [
+                        "the longer",
+                        "11 days",
+                        "8-day",
                         "6 day",
-                        "9 day",
-                        "13day",
-                        "shorter than 11 days",
+                        "15 days",
+                        "15 day",
+                        "longer",
                         "not really long",
-                        "20",
-                        "shorter",
-                        "4 days",
-                        "10 day",
-                        "shortened"
+                        "the longer",
+                        "the longer"
                     ],
                     "price": [
-                        "6000.00 more",
-                        "1725.59",
+                        "1808.68USD",
+                        "too expensive",
+                        "better value",
                         "1651. 40 USD",
                         "pricey",
-                        "over budget",
-                        "1725.59",
-                        "1397",
+                        "too expensive",
                         "under $400",
-                        "the cheapest option",
-                        "$7573.39"
+                        "$2866.11",
+                        "7146.39",
+                        "$2866.11"
                     ],
                     "name": [
-                        "sunny wolf",
-                        "Kirei",
-                        "Las Flores",
-                        "Peter",
-                        "Golden Keep hotel",
+                        "serene garden",
+                        "Hotel Vanilla",
+                        "Echo",
+                        "Glacier",
+                        "tower hotel",
+                        "brass",
                         "Majesty Hotel",
-                        "Hotel Emerald Legacy",
-                        "Hotel Royal",
-                        "celestial",
-                        "Hotel Vanilla"
+                        "plaza serene",
+                        "Traveller",
+                        "the Kirei"
                     ],
                     "downtown": [
                         true
@@ -3105,16 +3105,16 @@
                         true
                     ],
                     "min_duration": [
-                        "one week",
-                        "13 days",
+                        "four days",
+                        "longer period",
+                        "9 days",
                         "10 days",
-                        "at least 6 days",
-                        "week long",
-                        "4 days",
-                        "13",
-                        "12 days",
                         "5 days",
-                        "4"
+                        "13",
+                        "4",
+                        "9 days",
+                        "longest",
+                        "longer period"
                     ],
                     "wifi": [
                         false,
@@ -3172,16 +3172,16 @@
                         "only choice"
                     ],
                     "gst_rating": [
-                        "8.22",
-                        "8.49/10",
-                        "0",
                         "unrated",
-                        "8.8/10",
-                        "7.15",
-                        "lower",
-                        "decent",
+                        "9.32",
+                        "10",
+                        "8.98/10",
                         "6.91/10",
-                        "0"
+                        "0/10",
+                        "unrated",
+                        "8.37",
+                        "highest",
+                        "8.8"
                     ],
                     "park": [
                         false,
@@ -3252,14 +3252,14 @@
             }
         },
         "external knowledge": "( travel : (( trip : ( returning : ( duration : ( hours : 12 | min : 4) | arrival : ( hour : 13 | year : 2016 | day : 29 | min : 4 | month : 8) | departure : ( hour : 1 | year : 2016 | day : 29 | min : 0 | month : 8)) | seat : ECONOMY | leaving : ( duration : ( hours : 12 | min : 4) | arrival : ( hour : 21 | year : 2016 | day : 24 | min : 4 | month : 8) | departure : ( hour : 9 | year : 2016 | day : 24 | min : 0 | month : 8)) | or_city : Busan | duration_days : 6) | price : 5482.15 | hotel : ( gst_rating : 8.86 | vicinity : () | name : Hotel Richard | country : Canada | amenities : ( FREE_BREAKFAST | FREE_PARKING | FREE_WIFI ) | dst_city : Toronto | category : 3.0 star hotel )) | ( trip : ( returning : ( duration : ( hours : 12 | min : 14) | arrival : ( hour : 13 | year : 2016 | day : 27 | min : 14 | month : 8) | departure : ( hour : 1 | year : 2016 | day : 27 | min : 0 | month : 8)) | seat : ECONOMY | leaving : ( duration : ( hours : 12 | min : 14) | arrival : ( hour : 19 | year : 2016 | day : 24 | min : 14 | month : 8) | departure : ( hour : 7 | year : 2016 | day : 24 | min : 0 | month : 8)) | or_city : Busan | duration_days : 4) | price : 5648.4 | hotel : ( gst_rating : 6.37 | vicinity : () | name : Cosmos Inn | country : Canada | amenities : ( FREE_BREAKFAST | FREE_PARKING | FREE_WIFI ) | dst_city : Kingston | category : 2.5 star hotel )) | ( trip : ( returning : ( duration : ( hours : 9 | min : 36) | arrival : ( hour : 10 | year : 2016 | day : 30 | min : 36 | month : 8) | departure : ( hour : 1 | year : 2016 | day : 30 | min : 0 | month : 8)) | seat : ECONOMY | leaving : ( duration : ( hours : 9 | min : 36) | arrival : ( hour : 16 | year : 2016 | day : 27 | min : 36 | month : 8) | departure : ( hour : 7 | year : 2016 | day : 27 | min : 0 | month : 8)) | or_city : Busan | duration_days : 4) | price : 5851.61 | hotel : ( gst_rating : 8.98 | vicinity : () | name : The Regal Resort | country : Germany | amenities : ( FREE_WIFI | SPA ) | dst_city : Mannheim | category : 5.0 star hotel )) | ( trip : ( returning : ( duration : ( hours : 12 | min : 4) | arrival : ( hour : 13 | year : 2016 | day : 29 | min : 4 | month : 8) | departure : ( hour : 1 | year : 2016 | day : 29 | min : 0 | month : 8)) | seat : BUSINESS | leaving : ( duration : ( hours : 12 | min : 4) | arrival : ( hour : 21 | year : 2016 | day : 24 | min : 4 | month : 8) | departure : ( hour : 9 | year : 2016 | day : 24 | min : 0 | month : 8)) | or_city : Busan | duration_days : 6) | price : 7081.11 | hotel : ( gst_rating : 8.86 | vicinity : () | name : Hotel Richard | country : Canada | amenities : ( FREE_BREAKFAST | FREE_PARKING | FREE_WIFI ) | dst_city : Toronto | category : 3.0 star hotel )) | ( trip : ( returning : ( duration : ( hours : 12 | min : 14) | arrival : ( hour : 13 | year : 2016 | day : 28 | min : 14 | month : 8) | departure : ( hour : 1 | year : 2016 | day : 28 | min : 0 | month : 8)) | seat : ECONOMY | leaving : ( duration : ( hours : 12 | min : 14) | arrival : ( hour : 19 | year : 2016 | day : 25 | min : 14 | month : 8) | departure : ( hour : 7 | year : 2016 | day : 25 | min : 0 | month : 8)) | or_city : Busan | duration_days : 4) | price : 7089.29 | hotel : ( gst_rating : 8.22 | vicinity : () | name : Ebony Manor Inn & Suites | country : Canada | amenities : ( FREE_BREAKFAST | FREE_WIFI | FREE_PARKING ) | dst_city : Kingston | category : 4.0 star hotel )) | ( trip : ( returning : ( duration : ( hours : 12 | min : 24) | arrival : ( hour : 13 | year : 2016 | day : 28 | min : 24 | month : 8) | departure : ( hour : 1 | year : 2016 | day : 28 | min : 0 | month : 8)) | seat : ECONOMY | leaving : ( duration : ( hours : 12 | min : 24) | arrival : ( hour : 23 | year : 2016 | day : 21 | min : 24 | month : 8) | departure : ( hour : 11 | year : 2016 | day : 21 | min : 0 | month : 8)) | or_city : Busan | duration_days : 8) | price : 8445.37 | hotel : ( gst_rating : 7.15 | vicinity : () | name : Vertex Inn | country : United States | amenities : ( FREE_BREAKFAST | FREE_PARKING | FREE_WIFI ) | dst_city : San Antonio | category : 2.0 star hotel )) | ( trip : ( returning : ( duration : ( hours : 12 | min : 24) | arrival : ( hour : 13 | year : 2016 | day : 28 | min : 24 | month : 8) | departure : ( hour : 1 | year : 2016 | day : 28 | min : 0 | month : 8)) | seat : BUSINESS | leaving : ( duration : ( hours : 12 | min : 24) | arrival : ( hour : 23 | year : 2016 | day : 21 | min : 24 | month : 8) | departure : ( hour : 11 | year : 2016 | day : 21 | min : 0 | month : 8)) | or_city : Busan | duration_days : 8) | price : 10960.45 | hotel : ( gst_rating : 7.15 | vicinity : () | name : Vertex Inn | country : United States | amenities : ( FREE_BREAKFAST | FREE_PARKING | FREE_WIFI ) | dst_city : San Antonio | category : 2.0 star hotel ))))",
-        "dst knowledge": "( book : ( dst_city : ( Indianapolis | St. Loius | Le Paz | new york | phoenix | Santo domingo | Barcelonna | Essen | los angeles | Hogsmead ) | or_city : ( PUebla | sf | toluca | San Francisco | MonTErrey | melbourne | recife | Porto Alegre | Indianapolis | sf ) | str_date : ( September 16 | AUGUST 16 | september 7 | august 18th | SEPTEMBER 8 | september 10th | 27th of august | sept 4 | september 5 | 8 ) | n_adults : (\"I m bringing a friend\" | I will be with 4 other adults | my husband and I | six | one | wife | just me | me and Madonna | with my mother | parents ) | budget : ( increase my budget by about $1500 | extra $1000 | $9500 | $5700 | 4900 | $1300 | $1,200 | 10300 | 3500 dollars | 16400 ) | flex : (False | True) | n_children : ( 14 | 14 | with my son | set of twins | 14 | baby | one | six of us with myself included | grandchildren | my child ) | end_date : ( 9/15 | Sept 1 | 6th | 1 | sept 18 | Saturday October 1st | sept 5 | september 23 | September 11th | august 25 ) | arr_time_or : ( 1:00 am ) | seat : ( BIZ | business | biz | First class | Economy | first class | upgrade | economy | Business ) | max_duration : ( longer | 9 day | a couple days | however long the money will keep me there for | -1 | 6 weeks | under ten days | six day | 9 | 4 day ) | category : ( nice | 3 | lower | -1 | stronger | higher | Highest | higher end | nice | LUXURY ) | breakfast : (False | True) | seat_ok : (True) | duration : ( 6 day | 9 day | 13day | shorter than 11 days | not really long | 20 | shorter | 4 days | 10 day | shortened ) | price : ( 6000.00 more | 1725.59 | 1651. 40 USD | pricey | over budget | 1725.59 | 1397 | under $400 | the cheapest option | $7573.39 ) | name : ( sunny wolf | Kirei | Las Flores | Peter | Golden Keep hotel | Majesty Hotel | Hotel Emerald Legacy | Hotel Royal | celestial | Hotel Vanilla ) | downtown : (True) | spa : (True) | min_duration : ( one week | 13 days | 10 days | at least 6 days | week long | 4 days | 13 | 12 days | 5 days | 4 ) | wifi : (False | True) | action : ( book ) | count : ( No other choices | ONE | the only options | two | only thing | only | all you have | none at all ) | budget_ok : (True) | intent_ok : (True) | dep_time_dst : ( 3:00am | 1:00am | 3 am ) | parking : (True | -1 ) | dep_time_or : ( 7:00 am | 10 am ) | museum : (False | True) | beach : (False | True) | count_name : ( one | two | EVERYTHING | only thing | only | all | all 4 | 3 | only choice ) | gst_rating : ( 8.22 | 8.49/10 | 0 | unrated | 8.8/10 | 7.15 | lower | decent | 6.91/10 | 0 ) | park : (False | True) | airport : (True) | impl_anaphora : ( category | price ) | mall : (True) | amenities : ( -1 ) | vicinity : ( -1 ) | palace : (True) | shopping : (False | True) | count_dst_city : ( several | all | a few | two ) | cathedral : (True) | university : (True) | n_adults_ok : (True) | count_seat : ( two ) | market : (True)))",
+        "dst knowledge": "( book : ( dst_city : ( Ulsan | calgary | chicago | Asian | busan | Burlingtonian | Toluca | baltimore | Sendai | Kocchi ) | or_city : ( London | England | diagon alley | St. Petersburg | montreal | PORTO | rome | Puebla | san jose | campinas | osaka ) | str_date : ( 6TH | today | August 31st | Monday | the 12th | AUGUST TWENTY FIFTH | August 31st | August 27th | September 8th | 17 | friday sept 2 2016 ) | n_adults : ( My lover | Juliette | rides out with me | 14 adults with me | my three best friends and myself | a date I wanted to bring | friend tagging along | a couple | Two | I will also be traveling with my assistant | me and ma gurls | husband ) | budget : ( 35400 | 3100 | $6400 | $5000 | 18600 | 13100 dollars | 7000 | 4500 | free | 14700 ) | flex : (False | True) | n_children : ( grandson | darling little munchkins | darling little munchkins | set of twins | three | our son | 5 | 7 | six of us with myself included | three ) | end_date : ( 13 | 24 | September 5th | august 30th | following Tuesday | 12 September | Twenty Fourth Day Of September | Sep 16 | september 17 | 29th ) | arr_time_or : ( 1:00 am ) | seat : ( BIZ | business | biz | First class | Economy | first class | upgrade | economy | Business ) | max_duration : ( 8 day | under ten days | 15 | 12 | 6 | 18 | 18 days | shortened my trip by one day | week-long | one night ) | category : ( nice | Highest | highly rated | PAMPERED | nice | Higher | better than 3 | 3.0 | BETTER | 3 ) | breakfast : (False | True) | seat_ok : (True) | duration : ( the longer | 11 days | 8-day | 6 day | 15 days | 15 day | longer | not really long | the longer | the longer ) | price : ( 1808.68USD | too expensive | better value | 1651. 40 USD | pricey | too expensive | under $400 | $2866.11 | 7146.39 | $2866.11 ) | name : ( serene garden | Hotel Vanilla | Echo | Glacier | tower hotel | brass | Majesty Hotel | plaza serene | Traveller | the Kirei ) | downtown : (True) | spa : (True) | min_duration : ( four days | longer period | 9 days | 10 days | 5 days | 13 | 4 | 9 days | longest | longer period ) | wifi : (False | True) | action : ( book ) | count : ( No other choices | ONE | the only options | two | only thing | only | all you have | none at all ) | budget_ok : (True) | intent_ok : (True) | dep_time_dst : ( 3:00am | 1:00am | 3 am ) | parking : (True | -1 ) | dep_time_or : ( 7:00 am | 10 am ) | museum : (False | True) | beach : (False | True) | count_name : ( one | two | EVERYTHING | only thing | only | all | all 4 | 3 | only choice ) | gst_rating : ( unrated | 9.32 | 10 | 8.98/10 | 6.91/10 | 0/10 | unrated | 8.37 | highest | 8.8 ) | park : (False | True) | airport : (True) | impl_anaphora : ( category | price ) | mall : (True) | amenities : ( -1 ) | vicinity : ( -1 ) | palace : (True) | shopping : (False | True) | count_dst_city : ( several | all | a few | two ) | cathedral : (True) | university : (True) | n_adults_ok : (True) | count_seat : ( two ) | market : (True)))",
         "intent knowledge": "( book : ( null | negate | request | goodbye | affirm | switch_frame | inform | moreinfo | request_compare | thankyou | greeting | confirm | request_alts ))",
         "prompt": [
             "This is a bot helping users to book a trip. Given the dialog context and external database, please generate a relevant system response for the user.",
             "This bot assists users to book a trip. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
-            "This bot helps users to book a trip. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
-            "The purpose of this bot is to assist users to book a trip. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
-            "This bot is designed to help users book a trip. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+            "This bot helps users to book a trip. Based on the conversation history and available external data, please generate a relevant system response for the user.",
+            "The purpose of this bot is to assist users to book a trip. Considering the dialogue context and the information available in the external database, please provide a fitting response for the user.",
+            "This bot is designed to help users book a trip. By utilizing the current dialog context and external resources, generate a fitting response for the user."
         ]
     },
     "FRAMES--train--4": {
@@ -4819,75 +4819,14 @@
                         "trip": {
                             "returning": {
                                 "duration": {
-                                    "hours": 11,
-                                    "min": 8
+                                    "hours": 1,
+                                    "min": 2
                                 },
                                 "arrival": {
-                                    "hour": 19,
-                                    "year": 2016,
-                                    "day": 30,
-                                    "min": 8,
-                                    "month": 8
-                                },
-                                "departure": {
-                                    "hour": 8,
-                                    "year": 2016,
-                                    "day": 30,
-                                    "min": 0,
-                                    "month": 8
-                                }
-                            },
-                            "seat": "BUSINESS",
-                            "leaving": {
-                                "duration": {
-                                    "hours": 11,
-                                    "min": 8
-                                },
-                                "arrival": {
-                                    "hour": 6,
-                                    "year": 2016,
-                                    "day": 27,
-                                    "min": 8,
-                                    "month": 8
-                                },
-                                "departure": {
-                                    "hour": 19,
-                                    "year": 2016,
-                                    "day": 26,
-                                    "min": 0,
-                                    "month": 8
-                                }
-                            },
-                            "or_city": "Rosario",
-                            "duration_days": 5
-                        },
-                        "price": 4073.12,
-                        "hotel": {
-                            "gst_rating": 9.16,
-                            "vicinity": [],
-                            "name": "Palacio Tranquila",
-                            "country": "United States",
-                            "amenities": [
-                                "FREE_BREAKFAST",
-                                "FREE_PARKING",
-                                "FREE_WIFI"
-                            ],
-                            "dst_city": "St. Louis",
-                            "category": "3.5 star hotel"
-                        }
-                    },
-                    {
-                        "trip": {
-                            "returning": {
-                                "duration": {
-                                    "hours": 10,
-                                    "min": 31
-                                },
-                                "arrival": {
-                                    "hour": 14,
+                                    "hour": 5,
                                     "year": 2016,
                                     "day": 6,
-                                    "min": 31,
+                                    "min": 2,
                                     "month": 9
                                 },
                                 "departure": {
@@ -4898,17 +4837,17 @@
                                     "month": 9
                                 }
                             },
-                            "seat": "BUSINESS",
+                            "seat": "ECONOMY",
                             "leaving": {
                                 "duration": {
-                                    "hours": 10,
-                                    "min": 31
+                                    "hours": 1,
+                                    "min": 2
                                 },
                                 "arrival": {
-                                    "hour": 1,
+                                    "hour": 16,
                                     "year": 2016,
-                                    "day": 27,
-                                    "min": 31,
+                                    "day": 26,
+                                    "min": 2,
                                     "month": 8
                                 },
                                 "departure": {
@@ -4919,10 +4858,10 @@
                                     "month": 8
                                 }
                             },
-                            "or_city": "Campinas",
+                            "or_city": "Baltimore",
                             "duration_days": 11
                         },
-                        "price": 3874.24,
+                        "price": 692.14,
                         "hotel": {
                             "gst_rating": 9.16,
                             "vicinity": [],
@@ -4941,49 +4880,49 @@
                         "trip": {
                             "returning": {
                                 "duration": {
-                                    "hours": 3,
-                                    "min": 9
+                                    "hours": 8,
+                                    "min": 26
                                 },
                                 "arrival": {
                                     "hour": 10,
                                     "year": 2016,
-                                    "day": 29,
-                                    "min": 9,
-                                    "month": 8
+                                    "day": 4,
+                                    "min": 26,
+                                    "month": 9
                                 },
                                 "departure": {
-                                    "hour": 7,
+                                    "hour": 2,
                                     "year": 2016,
-                                    "day": 29,
+                                    "day": 4,
                                     "min": 0,
-                                    "month": 8
+                                    "month": 9
                                 }
                             },
                             "seat": "BUSINESS",
                             "leaving": {
                                 "duration": {
-                                    "hours": 3,
-                                    "min": 9
+                                    "hours": 8,
+                                    "min": 26
                                 },
                                 "arrival": {
                                     "hour": 21,
                                     "year": 2016,
                                     "day": 26,
-                                    "min": 9,
+                                    "min": 26,
                                     "month": 8
                                 },
                                 "departure": {
-                                    "hour": 18,
+                                    "hour": 13,
                                     "year": 2016,
                                     "day": 26,
                                     "min": 0,
                                     "month": 8
                                 }
                             },
-                            "or_city": "Los Angeles",
-                            "duration_days": 3
+                            "or_city": "Fortaleza",
+                            "duration_days": 9
                         },
-                        "price": 1649.55,
+                        "price": 3767.8,
                         "hotel": {
                             "gst_rating": 9.16,
                             "vicinity": [],
@@ -5063,49 +5002,49 @@
                         "trip": {
                             "returning": {
                                 "duration": {
-                                    "hours": 4,
-                                    "min": 41
+                                    "hours": 11,
+                                    "min": 12
                                 },
                                 "arrival": {
-                                    "hour": 12,
+                                    "hour": 13,
                                     "year": 2016,
-                                    "day": 30,
-                                    "min": 41,
-                                    "month": 8
+                                    "day": 4,
+                                    "min": 12,
+                                    "month": 9
                                 },
                                 "departure": {
-                                    "hour": 8,
+                                    "hour": 2,
                                     "year": 2016,
-                                    "day": 30,
+                                    "day": 4,
                                     "min": 0,
-                                    "month": 8
+                                    "month": 9
                                 }
                             },
-                            "seat": "BUSINESS",
+                            "seat": "ECONOMY",
                             "leaving": {
                                 "duration": {
-                                    "hours": 4,
-                                    "min": 41
+                                    "hours": 11,
+                                    "min": 12
                                 },
                                 "arrival": {
-                                    "hour": 23,
+                                    "hour": 0,
                                     "year": 2016,
-                                    "day": 26,
-                                    "min": 41,
+                                    "day": 27,
+                                    "min": 12,
                                     "month": 8
                                 },
                                 "departure": {
-                                    "hour": 19,
+                                    "hour": 13,
                                     "year": 2016,
                                     "day": 26,
                                     "min": 0,
                                     "month": 8
                                 }
                             },
-                            "or_city": "Houston",
-                            "duration_days": 4
+                            "or_city": "Brasilia",
+                            "duration_days": 10
                         },
-                        "price": 1968.72,
+                        "price": 3757.5,
                         "hotel": {
                             "gst_rating": 9.16,
                             "vicinity": [],
@@ -5184,20 +5123,20 @@
                         "trip": {
                             "returning": {
                                 "duration": {
-                                    "hours": 3,
-                                    "min": 9
+                                    "hours": 4,
+                                    "min": 17
                                 },
                                 "arrival": {
-                                    "hour": 10,
+                                    "hour": 7,
                                     "year": 2016,
-                                    "day": 29,
-                                    "min": 9,
+                                    "day": 28,
+                                    "min": 17,
                                     "month": 8
                                 },
                                 "departure": {
-                                    "hour": 7,
+                                    "hour": 3,
                                     "year": 2016,
-                                    "day": 29,
+                                    "day": 28,
                                     "min": 0,
                                     "month": 8
                                 }
@@ -5205,89 +5144,88 @@
                             "seat": "ECONOMY",
                             "leaving": {
                                 "duration": {
-                                    "hours": 3,
-                                    "min": 9
+                                    "hours": 4,
+                                    "min": 17
                                 },
                                 "arrival": {
-                                    "hour": 21,
+                                    "hour": 18,
                                     "year": 2016,
-                                    "day": 26,
-                                    "min": 9,
+                                    "day": 18,
+                                    "min": 17,
                                     "month": 8
                                 },
                                 "departure": {
-                                    "hour": 18,
+                                    "hour": 14,
                                     "year": 2016,
-                                    "day": 26,
+                                    "day": 18,
                                     "min": 0,
                                     "month": 8
                                 }
                             },
-                            "or_city": "Los Angeles",
-                            "duration_days": 3
+                            "or_city": "Calgary",
+                            "duration_days": 10
                         },
-                        "price": 1359.74,
+                        "price": 1558.2,
                         "hotel": {
-                            "gst_rating": 9.16,
+                            "gst_rating": 8.98,
                             "vicinity": [],
-                            "name": "Palacio Tranquila",
+                            "name": "Lunar",
                             "country": "United States",
                             "amenities": [
                                 "FREE_BREAKFAST",
-                                "FREE_PARKING",
                                 "FREE_WIFI"
                             ],
                             "dst_city": "St. Louis",
-                            "category": "3.5 star hotel"
+                            "category": "5.0 star hotel"
                         }
                     },
                     {
                         "trip": {
                             "returning": {
                                 "duration": {
-                                    "hours": 3,
-                                    "min": 12
+                                    "hours": 10,
+                                    "min": 31
                                 },
                                 "arrival": {
-                                    "hour": 10,
+                                    "hour": 14,
                                     "year": 2016,
-                                    "day": 29,
-                                    "min": 12,
-                                    "month": 8
+                                    "day": 6,
+                                    "min": 31,
+                                    "month": 9
                                 },
                                 "departure": {
-                                    "hour": 7,
+                                    "hour": 4,
                                     "year": 2016,
-                                    "day": 29,
+                                    "day": 6,
                                     "min": 0,
-                                    "month": 8
+                                    "month": 9
                                 }
                             },
                             "seat": "BUSINESS",
                             "leaving": {
                                 "duration": {
-                                    "hours": 3,
-                                    "min": 12
+                                    "hours": 10,
+                                    "min": 31
                                 },
                                 "arrival": {
-                                    "hour": 21,
+                                    "hour": 1,
                                     "year": 2016,
-                                    "day": 26,
-                                    "min": 12,
+                                    "day": 27,
+                                    "min": 31,
                                     "month": 8
                                 },
                                 "departure": {
-                                    "hour": 18,
+                                    "hour": 15,
                                     "year": 2016,
                                     "day": 26,
                                     "min": 0,
                                     "month": 8
                                 }
                             },
-                            "or_city": "Puebla",
-                            "duration_days": 3
+                            "or_city": "Campinas",
+                            "duration_days": 11
                         },
-                        "price": 1664.8,
+                        "price": 3874.24,
                         "hotel": {
                             "gst_rating": 9.16,
                             "vicinity": [],
@@ -5324,7 +5262,7 @@
                                     "month": 8
                                 }
                             },
-                            "seat": "BUSINESS",
+                            "seat": "ECONOMY",
                             "leaving": {
                                 "duration": {
                                     "hours": 4,
@@ -5348,38 +5286,38 @@
                             "or_city": "Calgary",
                             "duration_days": 10
                         },
-                        "price": 1926.57,
+                        "price": 1489.77,
                         "hotel": {
-                            "gst_rating": 8.98,
+                            "gst_rating": 7.15,
                             "vicinity": [],
-                            "name": "Lunar",
+                            "name": "Glorious Cloak Inn",
                             "country": "United States",
                             "amenities": [
                                 "FREE_BREAKFAST",
                                 "FREE_WIFI"
                             ],
                             "dst_city": "St. Louis",
-                            "category": "5.0 star hotel"
+                            "category": "3.0 star hotel"
                         }
                     },
                     {
                         "trip": {
                             "returning": {
                                 "duration": {
-                                    "hours": 11,
-                                    "min": 12
+                                    "hours": 10,
+                                    "min": 55
                                 },
                                 "arrival": {
-                                    "hour": 13,
+                                    "hour": 14,
                                     "year": 2016,
-                                    "day": 4,
-                                    "min": 12,
+                                    "day": 6,
+                                    "min": 55,
                                     "month": 9
                                 },
                                 "departure": {
-                                    "hour": 2,
+                                    "hour": 4,
                                     "year": 2016,
-                                    "day": 4,
+                                    "day": 6,
                                     "min": 0,
                                     "month": 9
                                 }
@@ -5387,28 +5325,89 @@
                             "seat": "ECONOMY",
                             "leaving": {
                                 "duration": {
-                                    "hours": 11,
-                                    "min": 12
+                                    "hours": 10,
+                                    "min": 55
                                 },
                                 "arrival": {
-                                    "hour": 0,
+                                    "hour": 1,
                                     "year": 2016,
                                     "day": 27,
-                                    "min": 12,
+                                    "min": 55,
                                     "month": 8
                                 },
                                 "departure": {
-                                    "hour": 13,
+                                    "hour": 15,
                                     "year": 2016,
                                     "day": 26,
                                     "min": 0,
                                     "month": 8
                                 }
                             },
-                            "or_city": "Brasilia",
-                            "duration_days": 10
+                            "or_city": "Leon",
+                            "duration_days": 11
                         },
-                        "price": 3757.5,
+                        "price": 3114.41,
+                        "hotel": {
+                            "gst_rating": 9.16,
+                            "vicinity": [],
+                            "name": "Palacio Tranquila",
+                            "country": "United States",
+                            "amenities": [
+                                "FREE_BREAKFAST",
+                                "FREE_PARKING",
+                                "FREE_WIFI"
+                            ],
+                            "dst_city": "St. Louis",
+                            "category": "3.5 star hotel"
+                        }
+                    },
+                    {
+                        "trip": {
+                            "returning": {
+                                "duration": {
+                                    "hours": 3,
+                                    "min": 38
+                                },
+                                "arrival": {
+                                    "hour": 11,
+                                    "year": 2016,
+                                    "day": 30,
+                                    "min": 38,
+                                    "month": 8
+                                },
+                                "departure": {
+                                    "hour": 8,
+                                    "year": 2016,
+                                    "day": 30,
+                                    "min": 0,
+                                    "month": 8
+                                }
+                            },
+                            "seat": "BUSINESS",
+                            "leaving": {
+                                "duration": {
+                                    "hours": 3,
+                                    "min": 38
+                                },
+                                "arrival": {
+                                    "hour": 22,
+                                    "year": 2016,
+                                    "day": 26,
+                                    "min": 38,
+                                    "month": 8
+                                },
+                                "departure": {
+                                    "hour": 19,
+                                    "year": 2016,
+                                    "day": 26,
+                                    "min": 0,
+                                    "month": 8
+                                }
+                            },
+                            "or_city": "New York",
+                            "duration_days": 4
+                        },
+                        "price": 1628.75,
                         "hotel": {
                             "gst_rating": 9.16,
                             "vicinity": [],
@@ -5428,92 +5427,92 @@
             "slots and values": {
                 "book": {
                     "dst_city": [
-                        "Indianapolis",
-                        "St. Loius",
-                        "Le Paz",
-                        "new york",
-                        "phoenix",
-                        "Santo domingo",
-                        "Barcelonna",
-                        "Essen",
-                        "los angeles",
-                        "Hogsmead"
+                        "Ulsan",
+                        "calgary",
+                        "chicago",
+                        "Asian",
+                        "busan",
+                        "Burlingtonian",
+                        "Toluca",
+                        "baltimore",
+                        "Sendai",
+                        "Kocchi"
                     ],
                     "or_city": [
-                        "PUebla",
-                        "sf",
-                        "toluca",
-                        "San Francisco",
-                        "MonTErrey",
-                        "melbourne",
-                        "recife",
-                        "Porto Alegre",
-                        "Indianapolis",
-                        "sf"
+                        "London, England",
+                        "diagon alley",
+                        "St. Petersburg",
+                        "montreal",
+                        "PORTO",
+                        "rome",
+                        "Puebla",
+                        "san jose",
+                        "campinas",
+                        "osaka"
                     ],
                     "str_date": [
-                        "September 16",
-                        "AUGUST 16",
-                        "september 7",
-                        "august 18th",
-                        "SEPTEMBER 8",
-                        "september 10th",
-                        "27th of august",
-                        "sept 4",
-                        "september 5",
-                        "8"
+                        "6TH",
+                        "today",
+                        "August 31st",
+                        "Monday, the 12th",
+                        "AUGUST TWENTY FIFTH",
+                        "August 31st",
+                        "August 27th",
+                        "September 8th",
+                        "17",
+                        "friday sept 2 2016"
                     ],
                     "n_adults": [
-                        "I'm bringing a friend",
-                        "I will be with 4 other adults",
-                        "my husband and I",
-                        "six",
-                        "one",
-                        "wife",
-                        "just me",
-                        "me and Madonna",
-                        "with my mother",
-                        "parents"
+                        "My lover, Juliette, rides out with me",
+                        "14 adults with me",
+                        "my three best friends and myself",
+                        "a date I wanted to bring",
+                        "friend tagging along",
+                        "a couple",
+                        "Two",
+                        "I will also be traveling with my assistant",
+                        "me and ma gurls",
+                        "husband"
                     ],
                     "budget": [
-                        "increase my budget by about $1500",
-                        "extra $1000",
-                        "$9500",
-                        "$5700",
-                        "4900",
-                        "$1300",
-                        "$1,200",
-                        "10300",
-                        "3500 dollars",
-                        "16400"
+                        "35400",
+                        "3100",
+                        "$6400",
+                        "$5000",
+                        "18600",
+                        "13100 dollars",
+                        "7000",
+                        "4500",
+                        "free",
+                        "14700"
                     ],
                     "flex": [
                         false,
                         true
                     ],
                     "n_children": [
-                        "14",
-                        "14",
-                        "with my son",
+                        "grandson",
+                        "darling little munchkins",
+                        "darling little munchkins",
                         "set of twins",
-                        "14",
-                        "baby",
-                        "one",
+                        "three",
+                        "our son",
+                        "5",
+                        "7",
                         "six of us with myself included",
-                        "grandchildren",
-                        "my child"
+                        "three"
                     ],
                     "end_date": [
-                        "9/15",
-                        "Sept 1",
-                        "6th",
-                        "1",
-                        "sept 18",
-                        "Saturday October 1st",
-                        "sept 5",
-                        "september 23",
-                        "September 11th",
-                        "august 25"
+                        "13",
+                        "24",
+                        "September 5th",
+                        "august 30th",
+                        "following Tuesday",
+                        "12 September",
+                        "Twenty Fourth Day Of September",
+                        "Sep 16",
+                        "september 17",
+                        "29th"
                     ],
                     "arr_time_or": [
                         "1:00 am"
@@ -5530,28 +5529,28 @@
                         "Business"
                     ],
                     "max_duration": [
-                        "longer",
-                        "9 day",
-                        "a couple days",
-                        "however long the money will keep me there for",
-                        "-1",
-                        "6 weeks",
+                        "8 day",
                         "under ten days",
-                        "six day",
-                        "9",
-                        "4 day"
+                        "15",
+                        "12",
+                        "6",
+                        "18",
+                        "18 days",
+                        "shortened my trip by one day",
+                        "week-long",
+                        "one night"
                     ],
                     "category": [
                         "nice",
-                        "3",
-                        "lower",
-                        "-1",
-                        "stronger",
-                        "higher",
                         "Highest",
-                        "higher end",
+                        "highly rated",
+                        "PAMPERED",
                         "nice",
-                        "LUXURY"
+                        "Higher",
+                        "better than 3",
+                        "3.0",
+                        "BETTER",
+                        "3"
                     ],
                     "breakfast": [
                         false,
@@ -5561,40 +5560,40 @@
                         true
                     ],
                     "duration": [
+                        "the longer",
+                        "11 days",
+                        "8-day",
                         "6 day",
-                        "9 day",
-                        "13day",
-                        "shorter than 11 days",
+                        "15 days",
+                        "15 day",
+                        "longer",
                         "not really long",
-                        "20",
-                        "shorter",
-                        "4 days",
-                        "10 day",
-                        "shortened"
+                        "the longer",
+                        "the longer"
                     ],
                     "price": [
-                        "6000.00 more",
-                        "1725.59",
+                        "1808.68USD",
+                        "too expensive",
+                        "better value",
                         "1651. 40 USD",
                         "pricey",
-                        "over budget",
-                        "1725.59",
-                        "1397",
+                        "too expensive",
                         "under $400",
-                        "the cheapest option",
-                        "$7573.39"
+                        "$2866.11",
+                        "7146.39",
+                        "$2866.11"
                     ],
                     "name": [
-                        "sunny wolf",
-                        "Kirei",
-                        "Las Flores",
-                        "Peter",
-                        "Golden Keep hotel",
+                        "serene garden",
+                        "Hotel Vanilla",
+                        "Echo",
+                        "Glacier",
+                        "tower hotel",
+                        "brass",
                         "Majesty Hotel",
-                        "Hotel Emerald Legacy",
-                        "Hotel Royal",
-                        "celestial",
-                        "Hotel Vanilla"
+                        "plaza serene",
+                        "Traveller",
+                        "the Kirei"
                     ],
                     "downtown": [
                         true
@@ -5603,16 +5602,16 @@
                         true
                     ],
                     "min_duration": [
-                        "one week",
-                        "13 days",
+                        "four days",
+                        "longer period",
+                        "9 days",
                         "10 days",
-                        "at least 6 days",
-                        "week long",
-                        "4 days",
-                        "13",
-                        "12 days",
                         "5 days",
-                        "4"
+                        "13",
+                        "4",
+                        "9 days",
+                        "longest",
+                        "longer period"
                     ],
                     "wifi": [
                         false,
@@ -5670,16 +5669,16 @@
                         "only choice"
                     ],
                     "gst_rating": [
-                        "8.22",
-                        "8.49/10",
-                        "0",
                         "unrated",
-                        "8.8/10",
-                        "7.15",
-                        "lower",
-                        "decent",
+                        "9.32",
+                        "10",
+                        "8.98/10",
                         "6.91/10",
-                        "0"
+                        "0/10",
+                        "unrated",
+                        "8.37",
+                        "highest",
+                        "8.8"
                     ],
                     "park": [
                         false,
@@ -5749,15 +5748,15 @@
                 ]
             }
         },
-        "external knowledge": "( travel : (( trip : ( returning : ( duration : ( hours : 11 | min : 8) | arrival : ( hour : 19 | year : 2016 | day : 30 | min : 8 | month : 8) | departure : ( hour : 8 | year : 2016 | day : 30 | min : 0 | month : 8)) | seat : BUSINESS | leaving : ( duration : ( hours : 11 | min : 8) | arrival : ( hour : 6 | year : 2016 | day : 27 | min : 8 | month : 8) | departure : ( hour : 19 | year : 2016 | day : 26 | min : 0 | month : 8)) | or_city : Rosario | duration_days : 5) | price : 4073.12 | hotel : ( gst_rating : 9.16 | vicinity : () | name : Palacio Tranquila | country : United States | amenities : ( FREE_BREAKFAST | FREE_PARKING | FREE_WIFI ) | dst_city : St. Louis | category : 3.5 star hotel )) | ( trip : ( returning : ( duration : ( hours : 10 | min : 31) | arrival : ( hour : 14 | year : 2016 | day : 6 | min : 31 | month : 9) | departure : ( hour : 4 | year : 2016 | day : 6 | min : 0 | month : 9)) | seat : BUSINESS | leaving : ( duration : ( hours : 10 | min : 31) | arrival : ( hour : 1 | year : 2016 | day : 27 | min : 31 | month : 8) | departure : ( hour : 15 | year : 2016 | day : 26 | min : 0 | month : 8)) | or_city : Campinas | duration_days : 11) | price : 3874.24 | hotel : ( gst_rating : 9.16 | vicinity : () | name : Palacio Tranquila | country : United States | amenities : ( FREE_BREAKFAST | FREE_PARKING | FREE_WIFI ) | dst_city : St. Louis | category : 3.5 star hotel )) | ( trip : ( returning : ( duration : ( hours : 3 | min : 9) | arrival : ( hour : 10 | year : 2016 | day : 29 | min : 9 | month : 8) | departure : ( hour : 7 | year : 2016 | day : 29 | min : 0 | month : 8)) | seat : BUSINESS | leaving : ( duration : ( hours : 3 | min : 9) | arrival : ( hour : 21 | year : 2016 | day : 26 | min : 9 | month : 8) | departure : ( hour : 18 | year : 2016 | day : 26 | min : 0 | month : 8)) | or_city : Los Angeles | duration_days : 3) | price : 1649.55 | hotel : ( gst_rating : 9.16 | vicinity : () | name : Palacio Tranquila | country : United States | amenities : ( FREE_BREAKFAST | FREE_PARKING | FREE_WIFI ) | dst_city : St. Louis | category : 3.5 star hotel )) | ( trip : ( returning : ( duration : ( hours : 3 | min : 38) | arrival : ( hour : 11 | year : 2016 | day : 30 | min : 38 | month : 8) | departure : ( hour : 8 | year : 2016 | day : 30 | min : 0 | month : 8)) | seat : ECONOMY | leaving : ( duration : ( hours : 3 | min : 38) | arrival : ( hour : 22 | year : 2016 | day : 26 | min : 38 | month : 8) | departure : ( hour : 19 | year : 2016 | day : 26 | min : 0 | month : 8)) | or_city : New York | duration_days : 4) | price : 1331.28 | hotel : ( gst_rating : 9.16 | vicinity : () | name : Palacio Tranquila | country : United States | amenities : ( FREE_BREAKFAST | FREE_PARKING | FREE_WIFI ) | dst_city : St. Louis | category : 3.5 star hotel )) | ( trip : ( returning : ( duration : ( hours : 4 | min : 41) | arrival : ( hour : 12 | year : 2016 | day : 30 | min : 41 | month : 8) | departure : ( hour : 8 | year : 2016 | day : 30 | min : 0 | month : 8)) | seat : BUSINESS | leaving : ( duration : ( hours : 4 | min : 41) | arrival : ( hour : 23 | year : 2016 | day : 26 | min : 41 | month : 8) | departure : ( hour : 19 | year : 2016 | day : 26 | min : 0 | month : 8)) | or_city : Houston | duration_days : 4) | price : 1968.72 | hotel : ( gst_rating : 9.16 | vicinity : () | name : Palacio Tranquila | country : United States | amenities : ( FREE_BREAKFAST | FREE_PARKING | FREE_WIFI ) | dst_city : St. Louis | category : 3.5 star hotel )) | ( trip : ( returning : ( duration : ( hours : 4 | min : 17) | arrival : ( hour : 7 | year : 2016 | day : 28 | min : 17 | month : 8) | departure : ( hour : 3 | year : 2016 | day : 28 | min : 0 | month : 8)) | seat : BUSINESS | leaving : ( duration : ( hours : 4 | min : 17) | arrival : ( hour : 18 | year : 2016 | day : 18 | min : 17 | month : 8) | departure : ( hour : 14 | year : 2016 | day : 18 | min : 0 | month : 8)) | or_city : Calgary | duration_days : 10) | price : 1858.14 | hotel : ( gst_rating : 7.15 | vicinity : () | name : Glorious Cloak Inn | country : United States | amenities : ( FREE_BREAKFAST | FREE_WIFI ) | dst_city : St. Louis | category : 3.0 star hotel )) | ( trip : ( returning : ( duration : ( hours : 3 | min : 9) | arrival : ( hour : 10 | year : 2016 | day : 29 | min : 9 | month : 8) | departure : ( hour : 7 | year : 2016 | day : 29 | min : 0 | month : 8)) | seat : ECONOMY | leaving : ( duration : ( hours : 3 | min : 9) | arrival : ( hour : 21 | year : 2016 | day : 26 | min : 9 | month : 8) | departure : ( hour : 18 | year : 2016 | day : 26 | min : 0 | month : 8)) | or_city : Los Angeles | duration_days : 3) | price : 1359.74 | hotel : ( gst_rating : 9.16 | vicinity : () | name : Palacio Tranquila | country : United States | amenities : ( FREE_BREAKFAST | FREE_PARKING | FREE_WIFI ) | dst_city : St. Louis | category : 3.5 star hotel )) | ( trip : ( returning : ( duration : ( hours : 3 | min : 12) | arrival : ( hour : 10 | year : 2016 | day : 29 | min : 12 | month : 8) | departure : ( hour : 7 | year : 2016 | day : 29 | min : 0 | month : 8)) | seat : BUSINESS | leaving : ( duration : ( hours : 3 | min : 12) | arrival : ( hour : 21 | year : 2016 | day : 26 | min : 12 | month : 8) | departure : ( hour : 18 | year : 2016 | day : 26 | min : 0 | month : 8)) | or_city : Puebla | duration_days : 3) | price : 1664.8 | hotel : ( gst_rating : 9.16 | vicinity : () | name : Palacio Tranquila | country : United States | amenities : ( FREE_BREAKFAST | FREE_PARKING | FREE_WIFI ) | dst_city : St. Louis | category : 3.5 star hotel )) | ( trip : ( returning : ( duration : ( hours : 4 | min : 17) | arrival : ( hour : 7 | year : 2016 | day : 28 | min : 17 | month : 8) | departure : ( hour : 3 | year : 2016 | day : 28 | min : 0 | month : 8)) | seat : BUSINESS | leaving : ( duration : ( hours : 4 | min : 17) | arrival : ( hour : 18 | year : 2016 | day : 18 | min : 17 | month : 8) | departure : ( hour : 14 | year : 2016 | day : 18 | min : 0 | month : 8)) | or_city : Calgary | duration_days : 10) | price : 1926.57 | hotel : ( gst_rating : 8.98 | vicinity : () | name : Lunar | country : United States | amenities : ( FREE_BREAKFAST | FREE_WIFI ) | dst_city : St. Louis | category : 5.0 star hotel )) | ( trip : ( returning : ( duration : ( hours : 11 | min : 12) | arrival : ( hour : 13 | year : 2016 | day : 4 | min : 12 | month : 9) | departure : ( hour : 2 | year : 2016 | day : 4 | min : 0 | month : 9)) | seat : ECONOMY | leaving : ( duration : ( hours : 11 | min : 12) | arrival : ( hour : 0 | year : 2016 | day : 27 | min : 12 | month : 8) | departure : ( hour : 13 | year : 2016 | day : 26 | min : 0 | month : 8)) | or_city : Brasilia | duration_days : 10) | price : 3757.5 | hotel : ( gst_rating : 9.16 | vicinity : () | name : Palacio Tranquila | country : United States | amenities : ( FREE_BREAKFAST | FREE_PARKING | FREE_WIFI ) | dst_city : St. Louis | category : 3.5 star hotel ))))",
-        "dst knowledge": "( book : ( dst_city : ( Indianapolis | St. Loius | Le Paz | new york | phoenix | Santo domingo | Barcelonna | Essen | los angeles | Hogsmead ) | or_city : ( PUebla | sf | toluca | San Francisco | MonTErrey | melbourne | recife | Porto Alegre | Indianapolis | sf ) | str_date : ( September 16 | AUGUST 16 | september 7 | august 18th | SEPTEMBER 8 | september 10th | 27th of august | sept 4 | september 5 | 8 ) | n_adults : (\"I m bringing a friend\" | I will be with 4 other adults | my husband and I | six | one | wife | just me | me and Madonna | with my mother | parents ) | budget : ( increase my budget by about $1500 | extra $1000 | $9500 | $5700 | 4900 | $1300 | $1,200 | 10300 | 3500 dollars | 16400 ) | flex : (False | True) | n_children : ( 14 | 14 | with my son | set of twins | 14 | baby | one | six of us with myself included | grandchildren | my child ) | end_date : ( 9/15 | Sept 1 | 6th | 1 | sept 18 | Saturday October 1st | sept 5 | september 23 | September 11th | august 25 ) | arr_time_or : ( 1:00 am ) | seat : ( BIZ | business | biz | First class | Economy | first class | upgrade | economy | Business ) | max_duration : ( longer | 9 day | a couple days | however long the money will keep me there for | -1 | 6 weeks | under ten days | six day | 9 | 4 day ) | category : ( nice | 3 | lower | -1 | stronger | higher | Highest | higher end | nice | LUXURY ) | breakfast : (False | True) | seat_ok : (True) | duration : ( 6 day | 9 day | 13day | shorter than 11 days | not really long | 20 | shorter | 4 days | 10 day | shortened ) | price : ( 6000.00 more | 1725.59 | 1651. 40 USD | pricey | over budget | 1725.59 | 1397 | under $400 | the cheapest option | $7573.39 ) | name : ( sunny wolf | Kirei | Las Flores | Peter | Golden Keep hotel | Majesty Hotel | Hotel Emerald Legacy | Hotel Royal | celestial | Hotel Vanilla ) | downtown : (True) | spa : (True) | min_duration : ( one week | 13 days | 10 days | at least 6 days | week long | 4 days | 13 | 12 days | 5 days | 4 ) | wifi : (False | True) | action : ( book ) | count : ( No other choices | ONE | the only options | two | only thing | only | all you have | none at all ) | budget_ok : (True) | intent_ok : (True) | dep_time_dst : ( 3:00am | 1:00am | 3 am ) | parking : (True | -1 ) | dep_time_or : ( 7:00 am | 10 am ) | museum : (False | True) | beach : (False | True) | count_name : ( one | two | EVERYTHING | only thing | only | all | all 4 | 3 | only choice ) | gst_rating : ( 8.22 | 8.49/10 | 0 | unrated | 8.8/10 | 7.15 | lower | decent | 6.91/10 | 0 ) | park : (False | True) | airport : (True) | impl_anaphora : ( category | price ) | mall : (True) | amenities : ( -1 ) | vicinity : ( -1 ) | palace : (True) | shopping : (False | True) | count_dst_city : ( several | all | a few | two ) | cathedral : (True) | university : (True) | n_adults_ok : (True) | count_seat : ( two ) | market : (True)))",
+        "external knowledge": "( travel : (( trip : ( returning : ( duration : ( hours : 1 | min : 2) | arrival : ( hour : 5 | year : 2016 | day : 6 | min : 2 | month : 9) | departure : ( hour : 4 | year : 2016 | day : 6 | min : 0 | month : 9)) | seat : ECONOMY | leaving : ( duration : ( hours : 1 | min : 2) | arrival : ( hour : 16 | year : 2016 | day : 26 | min : 2 | month : 8) | departure : ( hour : 15 | year : 2016 | day : 26 | min : 0 | month : 8)) | or_city : Baltimore | duration_days : 11) | price : 692.14 | hotel : ( gst_rating : 9.16 | vicinity : () | name : Palacio Tranquila | country : United States | amenities : ( FREE_BREAKFAST | FREE_PARKING | FREE_WIFI ) | dst_city : St. Louis | category : 3.5 star hotel )) | ( trip : ( returning : ( duration : ( hours : 8 | min : 26) | arrival : ( hour : 10 | year : 2016 | day : 4 | min : 26 | month : 9) | departure : ( hour : 2 | year : 2016 | day : 4 | min : 0 | month : 9)) | seat : BUSINESS | leaving : ( duration : ( hours : 8 | min : 26) | arrival : ( hour : 21 | year : 2016 | day : 26 | min : 26 | month : 8) | departure : ( hour : 13 | year : 2016 | day : 26 | min : 0 | month : 8)) | or_city : Fortaleza | duration_days : 9) | price : 3767.8 | hotel : ( gst_rating : 9.16 | vicinity : () | name : Palacio Tranquila | country : United States | amenities : ( FREE_BREAKFAST | FREE_PARKING | FREE_WIFI ) | dst_city : St. Louis | category : 3.5 star hotel )) | ( trip : ( returning : ( duration : ( hours : 3 | min : 38) | arrival : ( hour : 11 | year : 2016 | day : 30 | min : 38 | month : 8) | departure : ( hour : 8 | year : 2016 | day : 30 | min : 0 | month : 8)) | seat : ECONOMY | leaving : ( duration : ( hours : 3 | min : 38) | arrival : ( hour : 22 | year : 2016 | day : 26 | min : 38 | month : 8) | departure : ( hour : 19 | year : 2016 | day : 26 | min : 0 | month : 8)) | or_city : New York | duration_days : 4) | price : 1331.28 | hotel : ( gst_rating : 9.16 | vicinity : () | name : Palacio Tranquila | country : United States | amenities : ( FREE_BREAKFAST | FREE_PARKING | FREE_WIFI ) | dst_city : St. Louis | category : 3.5 star hotel )) | ( trip : ( returning : ( duration : ( hours : 11 | min : 12) | arrival : ( hour : 13 | year : 2016 | day : 4 | min : 12 | month : 9) | departure : ( hour : 2 | year : 2016 | day : 4 | min : 0 | month : 9)) | seat : ECONOMY | leaving : ( duration : ( hours : 11 | min : 12) | arrival : ( hour : 0 | year : 2016 | day : 27 | min : 12 | month : 8) | departure : ( hour : 13 | year : 2016 | day : 26 | min : 0 | month : 8)) | or_city : Brasilia | duration_days : 10) | price : 3757.5 | hotel : ( gst_rating : 9.16 | vicinity : () | name : Palacio Tranquila | country : United States | amenities : ( FREE_BREAKFAST | FREE_PARKING | FREE_WIFI ) | dst_city : St. Louis | category : 3.5 star hotel )) | ( trip : ( returning : ( duration : ( hours : 4 | min : 17) | arrival : ( hour : 7 | year : 2016 | day : 28 | min : 17 | month : 8) | departure : ( hour : 3 | year : 2016 | day : 28 | min : 0 | month : 8)) | seat : BUSINESS | leaving : ( duration : ( hours : 4 | min : 17) | arrival : ( hour : 18 | year : 2016 | day : 18 | min : 17 | month : 8) | departure : ( hour : 14 | year : 2016 | day : 18 | min : 0 | month : 8)) | or_city : Calgary | duration_days : 10) | price : 1858.14 | hotel : ( gst_rating : 7.15 | vicinity : () | name : Glorious Cloak Inn | country : United States | amenities : ( FREE_BREAKFAST | FREE_WIFI ) | dst_city : St. Louis | category : 3.0 star hotel )) | ( trip : ( returning : ( duration : ( hours : 4 | min : 17) | arrival : ( hour : 7 | year : 2016 | day : 28 | min : 17 | month : 8) | departure : ( hour : 3 | year : 2016 | day : 28 | min : 0 | month : 8)) | seat : ECONOMY | leaving : ( duration : ( hours : 4 | min : 17) | arrival : ( hour : 18 | year : 2016 | day : 18 | min : 17 | month : 8) | departure : ( hour : 14 | year : 2016 | day : 18 | min : 0 | month : 8)) | or_city : Calgary | duration_days : 10) | price : 1558.2 | hotel : ( gst_rating : 8.98 | vicinity : () | name : Lunar | country : United States | amenities : ( FREE_BREAKFAST | FREE_WIFI ) | dst_city : St. Louis | category : 5.0 star hotel )) | ( trip : ( returning : ( duration : ( hours : 10 | min : 31) | arrival : ( hour : 14 | year : 2016 | day : 6 | min : 31 | month : 9) | departure : ( hour : 4 | year : 2016 | day : 6 | min : 0 | month : 9)) | seat : BUSINESS | leaving : ( duration : ( hours : 10 | min : 31) | arrival : ( hour : 1 | year : 2016 | day : 27 | min : 31 | month : 8) | departure : ( hour : 15 | year : 2016 | day : 26 | min : 0 | month : 8)) | or_city : Campinas | duration_days : 11) | price : 3874.24 | hotel : ( gst_rating : 9.16 | vicinity : () | name : Palacio Tranquila | country : United States | amenities : ( FREE_BREAKFAST | FREE_PARKING | FREE_WIFI ) | dst_city : St. Louis | category : 3.5 star hotel )) | ( trip : ( returning : ( duration : ( hours : 4 | min : 17) | arrival : ( hour : 7 | year : 2016 | day : 28 | min : 17 | month : 8) | departure : ( hour : 3 | year : 2016 | day : 28 | min : 0 | month : 8)) | seat : ECONOMY | leaving : ( duration : ( hours : 4 | min : 17) | arrival : ( hour : 18 | year : 2016 | day : 18 | min : 17 | month : 8) | departure : ( hour : 14 | year : 2016 | day : 18 | min : 0 | month : 8)) | or_city : Calgary | duration_days : 10) | price : 1489.77 | hotel : ( gst_rating : 7.15 | vicinity : () | name : Glorious Cloak Inn | country : United States | amenities : ( FREE_BREAKFAST | FREE_WIFI ) | dst_city : St. Louis | category : 3.0 star hotel )) | ( trip : ( returning : ( duration : ( hours : 10 | min : 55) | arrival : ( hour : 14 | year : 2016 | day : 6 | min : 55 | month : 9) | departure : ( hour : 4 | year : 2016 | day : 6 | min : 0 | month : 9)) | seat : ECONOMY | leaving : ( duration : ( hours : 10 | min : 55) | arrival : ( hour : 1 | year : 2016 | day : 27 | min : 55 | month : 8) | departure : ( hour : 15 | year : 2016 | day : 26 | min : 0 | month : 8)) | or_city : Leon | duration_days : 11) | price : 3114.41 | hotel : ( gst_rating : 9.16 | vicinity : () | name : Palacio Tranquila | country : United States | amenities : ( FREE_BREAKFAST | FREE_PARKING | FREE_WIFI ) | dst_city : St. Louis | category : 3.5 star hotel )) | ( trip : ( returning : ( duration : ( hours : 3 | min : 38) | arrival : ( hour : 11 | year : 2016 | day : 30 | min : 38 | month : 8) | departure : ( hour : 8 | year : 2016 | day : 30 | min : 0 | month : 8)) | seat : BUSINESS | leaving : ( duration : ( hours : 3 | min : 38) | arrival : ( hour : 22 | year : 2016 | day : 26 | min : 38 | month : 8) | departure : ( hour : 19 | year : 2016 | day : 26 | min : 0 | month : 8)) | or_city : New York | duration_days : 4) | price : 1628.75 | hotel : ( gst_rating : 9.16 | vicinity : () | name : Palacio Tranquila | country : United States | amenities : ( FREE_BREAKFAST | FREE_PARKING | FREE_WIFI ) | dst_city : St. Louis | category : 3.5 star hotel ))))",
+        "dst knowledge": "( book : ( dst_city : ( Ulsan | calgary | chicago | Asian | busan | Burlingtonian | Toluca | baltimore | Sendai | Kocchi ) | or_city : ( London | England | diagon alley | St. Petersburg | montreal | PORTO | rome | Puebla | san jose | campinas | osaka ) | str_date : ( 6TH | today | August 31st | Monday | the 12th | AUGUST TWENTY FIFTH | August 31st | August 27th | September 8th | 17 | friday sept 2 2016 ) | n_adults : ( My lover | Juliette | rides out with me | 14 adults with me | my three best friends and myself | a date I wanted to bring | friend tagging along | a couple | Two | I will also be traveling with my assistant | me and ma gurls | husband ) | budget : ( 35400 | 3100 | $6400 | $5000 | 18600 | 13100 dollars | 7000 | 4500 | free | 14700 ) | flex : (False | True) | n_children : ( grandson | darling little munchkins | darling little munchkins | set of twins | three | our son | 5 | 7 | six of us with myself included | three ) | end_date : ( 13 | 24 | September 5th | august 30th | following Tuesday | 12 September | Twenty Fourth Day Of September | Sep 16 | september 17 | 29th ) | arr_time_or : ( 1:00 am ) | seat : ( BIZ | business | biz | First class | Economy | first class | upgrade | economy | Business ) | max_duration : ( 8 day | under ten days | 15 | 12 | 6 | 18 | 18 days | shortened my trip by one day | week-long | one night ) | category : ( nice | Highest | highly rated | PAMPERED | nice | Higher | better than 3 | 3.0 | BETTER | 3 ) | breakfast : (False | True) | seat_ok : (True) | duration : ( the longer | 11 days | 8-day | 6 day | 15 days | 15 day | longer | not really long | the longer | the longer ) | price : ( 1808.68USD | too expensive | better value | 1651. 40 USD | pricey | too expensive | under $400 | $2866.11 | 7146.39 | $2866.11 ) | name : ( serene garden | Hotel Vanilla | Echo | Glacier | tower hotel | brass | Majesty Hotel | plaza serene | Traveller | the Kirei ) | downtown : (True) | spa : (True) | min_duration : ( four days | longer period | 9 days | 10 days | 5 days | 13 | 4 | 9 days | longest | longer period ) | wifi : (False | True) | action : ( book ) | count : ( No other choices | ONE | the only options | two | only thing | only | all you have | none at all ) | budget_ok : (True) | intent_ok : (True) | dep_time_dst : ( 3:00am | 1:00am | 3 am ) | parking : (True | -1 ) | dep_time_or : ( 7:00 am | 10 am ) | museum : (False | True) | beach : (False | True) | count_name : ( one | two | EVERYTHING | only thing | only | all | all 4 | 3 | only choice ) | gst_rating : ( unrated | 9.32 | 10 | 8.98/10 | 6.91/10 | 0/10 | unrated | 8.37 | highest | 8.8 ) | park : (False | True) | airport : (True) | impl_anaphora : ( category | price ) | mall : (True) | amenities : ( -1 ) | vicinity : ( -1 ) | palace : (True) | shopping : (False | True) | count_dst_city : ( several | all | a few | two ) | cathedral : (True) | university : (True) | n_adults_ok : (True) | count_seat : ( two ) | market : (True)))",
         "intent knowledge": "( book : ( null | negate | request | goodbye | affirm | switch_frame | inform | moreinfo | request_compare | thankyou | greeting | confirm | request_alts ))",
         "prompt": [
             "This is a bot helping users to book a trip. Given the dialog context and external database, please generate a relevant system response for the user.",
             "This bot assists users to book a trip. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
-            "This bot helps users to book a trip. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
-            "The purpose of this bot is to assist users to book a trip. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
-            "This bot is designed to help users book a trip. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+            "This bot helps users to book a trip. Based on the conversation history and available external data, please generate a relevant system response for the user.",
+            "The purpose of this bot is to assist users to book a trip. Considering the dialogue context and the information available in the external database, please provide a fitting response for the user.",
+            "This bot is designed to help users book a trip. By utilizing the current dialog context and external resources, generate a fitting response for the user."
         ]
     },
     "FRAMES--train--5": {
@@ -7070,92 +7069,92 @@
             "slots and values": {
                 "book": {
                     "dst_city": [
-                        "Indianapolis",
-                        "St. Loius",
-                        "Le Paz",
-                        "new york",
-                        "phoenix",
-                        "Santo domingo",
-                        "Barcelonna",
-                        "Essen",
-                        "los angeles",
-                        "Hogsmead"
+                        "Ulsan",
+                        "calgary",
+                        "chicago",
+                        "Asian",
+                        "busan",
+                        "Burlingtonian",
+                        "Toluca",
+                        "baltimore",
+                        "Sendai",
+                        "Kocchi"
                     ],
                     "or_city": [
-                        "PUebla",
-                        "sf",
-                        "toluca",
-                        "San Francisco",
-                        "MonTErrey",
-                        "melbourne",
-                        "recife",
-                        "Porto Alegre",
-                        "Indianapolis",
-                        "sf"
+                        "London, England",
+                        "diagon alley",
+                        "St. Petersburg",
+                        "montreal",
+                        "PORTO",
+                        "rome",
+                        "Puebla",
+                        "san jose",
+                        "campinas",
+                        "osaka"
                     ],
                     "str_date": [
-                        "September 16",
-                        "AUGUST 16",
-                        "september 7",
-                        "august 18th",
-                        "SEPTEMBER 8",
-                        "september 10th",
-                        "27th of august",
-                        "sept 4",
-                        "september 5",
-                        "8"
+                        "6TH",
+                        "today",
+                        "August 31st",
+                        "Monday, the 12th",
+                        "AUGUST TWENTY FIFTH",
+                        "August 31st",
+                        "August 27th",
+                        "September 8th",
+                        "17",
+                        "friday sept 2 2016"
                     ],
                     "n_adults": [
-                        "I'm bringing a friend",
-                        "I will be with 4 other adults",
-                        "my husband and I",
-                        "six",
-                        "one",
-                        "wife",
-                        "just me",
-                        "me and Madonna",
-                        "with my mother",
-                        "parents"
+                        "My lover, Juliette, rides out with me",
+                        "14 adults with me",
+                        "my three best friends and myself",
+                        "a date I wanted to bring",
+                        "friend tagging along",
+                        "a couple",
+                        "Two",
+                        "I will also be traveling with my assistant",
+                        "me and ma gurls",
+                        "husband"
                     ],
                     "budget": [
-                        "increase my budget by about $1500",
-                        "extra $1000",
-                        "$9500",
-                        "$5700",
-                        "4900",
-                        "$1300",
-                        "$1,200",
-                        "10300",
-                        "3500 dollars",
-                        "16400"
+                        "35400",
+                        "3100",
+                        "$6400",
+                        "$5000",
+                        "18600",
+                        "13100 dollars",
+                        "7000",
+                        "4500",
+                        "free",
+                        "14700"
                     ],
                     "flex": [
                         false,
                         true
                     ],
                     "n_children": [
-                        "14",
-                        "14",
-                        "with my son",
+                        "grandson",
+                        "darling little munchkins",
+                        "darling little munchkins",
                         "set of twins",
-                        "14",
-                        "baby",
-                        "one",
+                        "three",
+                        "our son",
+                        "5",
+                        "7",
                         "six of us with myself included",
-                        "grandchildren",
-                        "my child"
+                        "three"
                     ],
                     "end_date": [
-                        "9/15",
-                        "Sept 1",
-                        "6th",
-                        "1",
-                        "sept 18",
-                        "Saturday October 1st",
-                        "sept 5",
-                        "september 23",
-                        "September 11th",
-                        "august 25"
+                        "13",
+                        "24",
+                        "September 5th",
+                        "august 30th",
+                        "following Tuesday",
+                        "12 September",
+                        "Twenty Fourth Day Of September",
+                        "Sep 16",
+                        "september 17",
+                        "29th"
                     ],
                     "arr_time_or": [
                         "1:00 am"
@@ -7172,28 +7171,28 @@
                         "Business"
                     ],
                     "max_duration": [
-                        "longer",
-                        "9 day",
-                        "a couple days",
-                        "however long the money will keep me there for",
-                        "-1",
-                        "6 weeks",
+                        "8 day",
                         "under ten days",
-                        "six day",
-                        "9",
-                        "4 day"
+                        "15",
+                        "12",
+                        "6",
+                        "18",
+                        "18 days",
+                        "shortened my trip by one day",
+                        "week-long",
+                        "one night"
                     ],
                     "category": [
                         "nice",
-                        "3",
-                        "lower",
-                        "-1",
-                        "stronger",
-                        "higher",
                         "Highest",
-                        "higher end",
+                        "highly rated",
+                        "PAMPERED",
                         "nice",
-                        "LUXURY"
+                        "Higher",
+                        "better than 3",
+                        "3.0",
+                        "BETTER",
+                        "3"
                     ],
                     "breakfast": [
                         false,
@@ -7203,40 +7202,40 @@
                         true
                     ],
                     "duration": [
+                        "the longer",
+                        "11 days",
+                        "8-day",
                         "6 day",
-                        "9 day",
-                        "13day",
-                        "shorter than 11 days",
+                        "15 days",
+                        "15 day",
+                        "longer",
                         "not really long",
-                        "20",
-                        "shorter",
-                        "4 days",
-                        "10 day",
-                        "shortened"
+                        "the longer",
+                        "the longer"
                     ],
                     "price": [
-                        "6000.00 more",
-                        "1725.59",
+                        "1808.68USD",
+                        "too expensive",
+                        "better value",
                         "1651. 40 USD",
                         "pricey",
-                        "over budget",
-                        "1725.59",
-                        "1397",
+                        "too expensive",
                         "under $400",
-                        "the cheapest option",
-                        "$7573.39"
+                        "$2866.11",
+                        "7146.39",
+                        "$2866.11"
                     ],
                     "name": [
-                        "sunny wolf",
-                        "Kirei",
-                        "Las Flores",
-                        "Peter",
-                        "Golden Keep hotel",
+                        "serene garden",
+                        "Hotel Vanilla",
+                        "Echo",
+                        "Glacier",
+                        "tower hotel",
+                        "brass",
                         "Majesty Hotel",
-                        "Hotel Emerald Legacy",
-                        "Hotel Royal",
-                        "celestial",
-                        "Hotel Vanilla"
+                        "plaza serene",
+                        "Traveller",
+                        "the Kirei"
                     ],
                     "downtown": [
                         true
@@ -7245,16 +7244,16 @@
                         true
                     ],
                     "min_duration": [
-                        "one week",
-                        "13 days",
+                        "four days",
+                        "longer period",
+                        "9 days",
                         "10 days",
-                        "at least 6 days",
-                        "week long",
-                        "4 days",
-                        "13",
-                        "12 days",
                         "5 days",
-                        "4"
+                        "13",
+                        "4",
+                        "9 days",
+                        "longest",
+                        "longer period"
                     ],
                     "wifi": [
                         false,
@@ -7312,16 +7311,16 @@
                         "only choice"
                     ],
                     "gst_rating": [
-                        "8.22",
-                        "8.49/10",
-                        "0",
                         "unrated",
-                        "8.8/10",
-                        "7.15",
-                        "lower",
-                        "decent",
+                        "9.32",
+                        "10",
+                        "8.98/10",
                         "6.91/10",
-                        "0"
+                        "0/10",
+                        "unrated",
+                        "8.37",
+                        "highest",
+                        "8.8"
                     ],
                     "park": [
                         false,
@@ -7392,14 +7391,14 @@
             }
         },
         "external knowledge": "( travel : (( trip : ( returning : ( duration : ( hours : 1 | min : 1) | arrival : ( hour : 9 | year : 2016 | day : 31 | min : 1 | month : 8) | departure : ( hour : 8 | year : 2016 | day : 31 | min : 0 | month : 8)) | seat : ECONOMY | leaving : ( duration : ( hours : 1 | min : 1) | arrival : ( hour : 17 | year : 2016 | day : 19 | min : 1 | month : 8) | departure : ( hour : 16 | year : 2016 | day : 19 | min : 0 | month : 8)) | or_city : Houston | duration_days : 12) | price : 1607.78 | hotel : ( gst_rating : 8.8 | vicinity : () | name : Obsidian Gem Inn | country : Canada | amenities : ( FREE_BREAKFAST | FREE_PARKING | FREE_WIFI ) | dst_city : Vancouver | category : 4.0 star hotel )) | ( trip : ( returning : ( duration : ( hours : 1 | min : 1) | arrival : ( hour : 9 | year : 2016 | day : 31 | min : 1 | month : 8) | departure : ( hour : 8 | year : 2016 | day : 31 | min : 0 | month : 8)) | seat : BUSINESS | leaving : ( duration : ( hours : 1 | min : 1) | arrival : ( hour : 17 | year : 2016 | day : 19 | min : 1 | month : 8) | departure : ( hour : 16 | year : 2016 | day : 19 | min : 0 | month : 8)) | or_city : Houston | duration_days : 12) | price : 1810.76 | hotel : ( gst_rating : 8.8 | vicinity : () | name : Obsidian Gem Inn | country : Canada | amenities : ( FREE_BREAKFAST | FREE_PARKING | FREE_WIFI ) | dst_city : Vancouver | category : 4.0 star hotel )) | ( trip : ( returning : ( duration : ( hours : 1 | min : 16) | arrival : ( hour : 1 | year : 2016 | day : 31 | min : 16 | month : 8) | departure : ( hour : 0 | year : 2016 | day : 31 | min : 0 | month : 8)) | seat : ECONOMY | leaving : ( duration : ( hours : 1 | min : 16) | arrival : ( hour : 9 | year : 2016 | day : 27 | min : 16 | month : 8) | departure : ( hour : 8 | year : 2016 | day : 27 | min : 0 | month : 8)) | or_city : Minneapolis | duration_days : 4) | price : 1852.59 | hotel : ( gst_rating : 8.8 | vicinity : () | name : Obsidian Gem Inn | country : Canada | amenities : ( FREE_BREAKFAST | FREE_PARKING | FREE_WIFI ) | dst_city : Vancouver | category : 4.0 star hotel )) | ( trip : ( returning : ( duration : ( hours : 0 | min : 55) | arrival : ( hour : 2 | year : 2016 | day : 25 | min : 55 | month : 8) | departure : ( hour : 2 | year : 2016 | day : 25 | min : 0 | month : 8)) | seat : BUSINESS | leaving : ( duration : ( hours : 0 | min : 55) | arrival : ( hour : 10 | year : 2016 | day : 19 | min : 55 | month : 8) | departure : ( hour : 10 | year : 2016 | day : 19 | min : 0 | month : 8)) | or_city : London | duration_days : 6) | price : 2132.26 | hotel : ( gst_rating : 8.8 | vicinity : () | name : Obsidian Gem Inn | country : Canada | amenities : ( FREE_BREAKFAST | FREE_PARKING | FREE_WIFI ) | dst_city : Vancouver | category : 4.0 star hotel )) | ( trip : ( returning : ( duration : ( hours : 0 | min : 48) | arrival : ( hour : 4 | year : 2016 | day : 27 | min : 48 | month : 8) | departure : ( hour : 4 | year : 2016 | day : 27 | min : 0 | month : 8)) | seat : ECONOMY | leaving : ( duration : ( hours : 0 | min : 48) | arrival : ( hour : 12 | year : 2016 | day : 19 | min : 48 | month : 8) | departure : ( hour : 12 | year : 2016 | day : 19 | min : 0 | month : 8)) | or_city : Toronto | duration_days : 8) | price : 2154.91 | hotel : ( gst_rating : 8.8 | vicinity : () | name : Obsidian Gem Inn | country : Canada | amenities : ( FREE_BREAKFAST | FREE_PARKING | FREE_WIFI ) | dst_city : Vancouver | category : 4.0 star hotel )) | ( trip : ( returning : ( duration : ( hours : 0 | min : 41) | arrival : ( hour : 2 | year : 2016 | day : 22 | min : 41 | month : 8) | departure : ( hour : 2 | year : 2016 | day : 22 | min : 0 | month : 8)) | seat : ECONOMY | leaving : ( duration : ( hours : 0 | min : 41) | arrival : ( hour : 9 | year : 2016 | day : 17 | min : 41 | month : 8) | departure : ( hour : 9 | year : 2016 | day : 17 | min : 0 | month : 8)) | or_city : London | duration_days : 5) | price : 1897.54 | hotel : ( gst_rating : 0 | vicinity : () | name : Amusement | country : Canada | amenities : ( FREE_PARKING | FREE_WIFI ) | dst_city : Calgary | category : 4.0 star hotel )) | ( trip : ( returning : ( duration : ( hours : 0 | min : 44) | arrival : ( hour : 4 | year : 2016 | day : 24 | min : 44 | month : 8) | departure : ( hour : 4 | year : 2016 | day : 24 | min : 0 | month : 8)) | seat : BUSINESS | leaving : ( duration : ( hours : 0 | min : 44) | arrival : ( hour : 11 | year : 2016 | day : 17 | min : 44 | month : 8) | departure : ( hour : 11 | year : 2016 | day : 17 | min : 0 | month : 8)) | or_city : Vancouver | duration_days : 7) | price : 1990.24 | hotel : ( gst_rating : 0 | vicinity : () | name : Amusement | country : Canada | amenities : ( FREE_PARKING | FREE_WIFI ) | dst_city : Calgary | category : 4.0 star hotel )) | ( trip : ( returning : ( duration : ( hours : 1 | min : 2) | arrival : ( hour : 5 | year : 2016 | day : 24 | min : 2 | month : 8) | departure : ( hour : 4 | year : 2016 | day : 24 | min : 0 | month : 8)) | seat : ECONOMY | leaving : ( duration : ( hours : 1 | min : 2) | arrival : ( hour : 12 | year : 2016 | day : 17 | min : 2 | month : 8) | departure : ( hour : 11 | year : 2016 | day : 17 | min : 0 | month : 8)) | or_city : Toronto | duration_days : 7) | price : 2102.23 | hotel : ( gst_rating : 0 | vicinity : () | name : Amusement | country : Canada | amenities : ( FREE_PARKING | FREE_WIFI ) | dst_city : Calgary | category : 4.0 star hotel )) | ( trip : ( returning : ( duration : ( hours : 0 | min : 52) | arrival : ( hour : 5 | year : 2016 | day : 25 | min : 52 | month : 8) | departure : ( hour : 5 | year : 2016 | day : 25 | min : 0 | month : 8)) | seat : ECONOMY | leaving : ( duration : ( hours : 0 | min : 52) | arrival : ( hour : 12 | year : 2016 | day : 17 | min : 52 | month : 8) | departure : ( hour : 12 | year : 2016 | day : 17 | min : 0 | month : 8)) | or_city : Las Vegas | duration_days : 8) | price : 2139.87 | hotel : ( gst_rating : 0 | vicinity : () | name : Amusement | country : Canada | amenities : ( FREE_PARKING | FREE_WIFI ) | dst_city : Calgary | category : 4.0 star hotel )) | ( trip : ( returning : ( duration : ( hours : 1 | min : 4) | arrival : ( hour : 5 | year : 2016 | day : 24 | min : 4 | month : 8) | departure : ( hour : 4 | year : 2016 | day : 24 | min : 0 | month : 8)) | seat : ECONOMY | leaving : ( duration : ( hours : 1 | min : 4) | arrival : ( hour : 12 | year : 2016 | day : 17 | min : 4 | month : 8) | departure : ( hour : 11 | year : 2016 | day : 17 | min : 0 | month : 8)) | or_city : Pittsburgh | duration_days : 7) | price : 2158.23 | hotel : ( gst_rating : 0 | vicinity : () | name : Amusement | country : Canada | amenities : ( FREE_PARKING | FREE_WIFI ) | dst_city : Calgary | category : 4.0 star hotel ))))",
-        "dst knowledge": "( book : ( dst_city : ( Indianapolis | St. Loius | Le Paz | new york | phoenix | Santo domingo | Barcelonna | Essen | los angeles | Hogsmead ) | or_city : ( PUebla | sf | toluca | San Francisco | MonTErrey | melbourne | recife | Porto Alegre | Indianapolis | sf ) | str_date : ( September 16 | AUGUST 16 | september 7 | august 18th | SEPTEMBER 8 | september 10th | 27th of august | sept 4 | september 5 | 8 ) | n_adults : (\"I m bringing a friend\" | I will be with 4 other adults | my husband and I | six | one | wife | just me | me and Madonna | with my mother | parents ) | budget : ( increase my budget by about $1500 | extra $1000 | $9500 | $5700 | 4900 | $1300 | $1,200 | 10300 | 3500 dollars | 16400 ) | flex : (False | True) | n_children : ( 14 | 14 | with my son | set of twins | 14 | baby | one | six of us with myself included | grandchildren | my child ) | end_date : ( 9/15 | Sept 1 | 6th | 1 | sept 18 | Saturday October 1st | sept 5 | september 23 | September 11th | august 25 ) | arr_time_or : ( 1:00 am ) | seat : ( BIZ | business | biz | First class | Economy | first class | upgrade | economy | Business ) | max_duration : ( longer | 9 day | a couple days | however long the money will keep me there for | -1 | 6 weeks | under ten days | six day | 9 | 4 day ) | category : ( nice | 3 | lower | -1 | stronger | higher | Highest | higher end | nice | LUXURY ) | breakfast : (False | True) | seat_ok : (True) | duration : ( 6 day | 9 day | 13day | shorter than 11 days | not really long | 20 | shorter | 4 days | 10 day | shortened ) | price : ( 6000.00 more | 1725.59 | 1651. 40 USD | pricey | over budget | 1725.59 | 1397 | under $400 | the cheapest option | $7573.39 ) | name : ( sunny wolf | Kirei | Las Flores | Peter | Golden Keep hotel | Majesty Hotel | Hotel Emerald Legacy | Hotel Royal | celestial | Hotel Vanilla ) | downtown : (True) | spa : (True) | min_duration : ( one week | 13 days | 10 days | at least 6 days | week long | 4 days | 13 | 12 days | 5 days | 4 ) | wifi : (False | True) | action : ( book ) | count : ( No other choices | ONE | the only options | two | only thing | only | all you have | none at all ) | budget_ok : (True) | intent_ok : (True) | dep_time_dst : ( 3:00am | 1:00am | 3 am ) | parking : (True | -1 ) | dep_time_or : ( 7:00 am | 10 am ) | museum : (False | True) | beach : (False | True) | count_name : ( one | two | EVERYTHING | only thing | only | all | all 4 | 3 | only choice ) | gst_rating : ( 8.22 | 8.49/10 | 0 | unrated | 8.8/10 | 7.15 | lower | decent | 6.91/10 | 0 ) | park : (False | True) | airport : (True) | impl_anaphora : ( category | price ) | mall : (True) | amenities : ( -1 ) | vicinity : ( -1 ) | palace : (True) | shopping : (False | True) | count_dst_city : ( several | all | a few | two ) | cathedral : (True) | university : (True) | n_adults_ok : (True) | count_seat : ( two ) | market : (True)))",
+        "dst knowledge": "( book : ( dst_city : ( Ulsan | calgary | chicago | Asian | busan | Burlingtonian | Toluca | baltimore | Sendai | Kocchi ) | or_city : ( London | England | diagon alley | St. Petersburg | montreal | PORTO | rome | Puebla | san jose | campinas | osaka ) | str_date : ( 6TH | today | August 31st | Monday | the 12th | AUGUST TWENTY FIFTH | August 31st | August 27th | September 8th | 17 | friday sept 2 2016 ) | n_adults : ( My lover | Juliette | rides out with me | 14 adults with me | my three best friends and myself | a date I wanted to bring | friend tagging along | a couple | Two | I will also be traveling with my assistant | me and ma gurls | husband ) | budget : ( 35400 | 3100 | $6400 | $5000 | 18600 | 13100 dollars | 7000 | 4500 | free | 14700 ) | flex : (False | True) | n_children : ( grandson | darling little munchkins | darling little munchkins | set of twins | three | our son | 5 | 7 | six of us with myself included | three ) | end_date : ( 13 | 24 | September 5th | august 30th | following Tuesday | 12 September | Twenty Fourth Day Of September | Sep 16 | september 17 | 29th ) | arr_time_or : ( 1:00 am ) | seat : ( BIZ | business | biz | First class | Economy | first class | upgrade | economy | Business ) | max_duration : ( 8 day | under ten days | 15 | 12 | 6 | 18 | 18 days | shortened my trip by one day | week-long | one night ) | category : ( nice | Highest | highly rated | PAMPERED | nice | Higher | better than 3 | 3.0 | BETTER | 3 ) | breakfast : (False | True) | seat_ok : (True) | duration : ( the longer | 11 days | 8-day | 6 day | 15 days | 15 day | longer | not really long | the longer | the longer ) | price : ( 1808.68USD | too expensive | better value | 1651. 40 USD | pricey | too expensive | under $400 | $2866.11 | 7146.39 | $2866.11 ) | name : ( serene garden | Hotel Vanilla | Echo | Glacier | tower hotel | brass | Majesty Hotel | plaza serene | Traveller | the Kirei ) | downtown : (True) | spa : (True) | min_duration : ( four days | longer period | 9 days | 10 days | 5 days | 13 | 4 | 9 days | longest | longer period ) | wifi : (False | True) | action : ( book ) | count : ( No other choices | ONE | the only options | two | only thing | only | all you have | none at all ) | budget_ok : (True) | intent_ok : (True) | dep_time_dst : ( 3:00am | 1:00am | 3 am ) | parking : (True | -1 ) | dep_time_or : ( 7:00 am | 10 am ) | museum : (False | True) | beach : (False | True) | count_name : ( one | two | EVERYTHING | only thing | only | all | all 4 | 3 | only choice ) | gst_rating : ( unrated | 9.32 | 10 | 8.98/10 | 6.91/10 | 0/10 | unrated | 8.37 | highest | 8.8 ) | park : (False | True) | airport : (True) | impl_anaphora : ( category | price ) | mall : (True) | amenities : ( -1 ) | vicinity : ( -1 ) | palace : (True) | shopping : (False | True) | count_dst_city : ( several | all | a few | two ) | cathedral : (True) | university : (True) | n_adults_ok : (True) | count_seat : ( two ) | market : (True)))",
         "intent knowledge": "( book : ( null | negate | request | goodbye | affirm | switch_frame | inform | moreinfo | request_compare | thankyou | greeting | confirm | request_alts ))",
         "prompt": [
             "This is a bot helping users to book a trip. Given the dialog context and external database, please generate a relevant system response for the user.",
             "This bot assists users to book a trip. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
-            "This bot helps users to book a trip. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
-            "The purpose of this bot is to assist users to book a trip. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
-            "This bot is designed to help users book a trip. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+            "This bot helps users to book a trip. Based on the conversation history and available external data, please generate a relevant system response for the user.",
+            "The purpose of this bot is to assist users to book a trip. Considering the dialogue context and the information available in the external database, please provide a fitting response for the user.",
+            "This bot is designed to help users book a trip. By utilizing the current dialog context and external resources, generate a fitting response for the user."
         ]
     }
 }

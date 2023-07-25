@@ -1,0 +1,982 @@
+[
+    {
+        "dial": [
+            {
+                "turn": 0,
+                "usr": {
+                    "transcript": "I need to find an expensive restauant that's in the south section of the city.",
+                    "slu": [
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "pricerange",
+                                    "expensive"
+                                ]
+                            ]
+                        },
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "area",
+                                    "south"
+                                ]
+                            ]
+                        }
+                    ],
+                    "transcript_complete": "I need to find an expensive restaurant that's in the south section of the city.",
+                    "transcript_with_ellipsis": "",
+                    "transcript_with_coreference": ""
+                },
+                "sys": {
+                    "sent": "There are several restaurants in the south part of town that serve expensive food. Do you have a cuisine preference?",
+                    "DA": [
+                        "food"
+                    ]
+                }
+            },
+            {
+                "turn": 1,
+                "usr": {
+                    "transcript": "No I don't care about the type of cuisine.",
+                    "slu": [
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "pricerange",
+                                    "expensive"
+                                ]
+                            ]
+                        },
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "food",
+                                    "dontcare"
+                                ]
+                            ]
+                        },
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "area",
+                                    "south"
+                                ]
+                            ]
+                        }
+                    ],
+                    "transcript_complete": "No I don't care about the type of cuisine.",
+                    "transcript_with_ellipsis": "No I don't care.",
+                    "transcript_with_coreference": "No I don't care about it."
+                },
+                "sys": {
+                    "sent": "Chiquito Restaurant Bar is a Mexican restaurant located in the south part of town.",
+                    "DA": []
+                }
+            },
+            {
+                "turn": 2,
+                "usr": {
+                    "transcript": "What is their address?",
+                    "slu": [
+                        {
+                            "act": "request",
+                            "slots": [
+                                [
+                                    "slot",
+                                    "address"
+                                ]
+                            ]
+                        },
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "pricerange",
+                                    "expensive"
+                                ]
+                            ]
+                        },
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "area",
+                                    "south"
+                                ]
+                            ]
+                        },
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "food",
+                                    "dontcare"
+                                ]
+                            ]
+                        }
+                    ],
+                    "transcript_complete": "What is the address of Chiquito Restaurant Bar?",
+                    "transcript_with_ellipsis": "",
+                    "transcript_with_coreference": "What is their address?"
+                },
+                "sys": {
+                    "sent": "There address is 2G Cambridge Leisure Park Cherry Hinton Road Cherry Hinton, it there anything else I can help you with?",
+                    "DA": []
+                }
+            },
+            {
+                "turn": 3,
+                "usr": {
+                    "transcript": "What is the food type they serve ?",
+                    "slu": [
+                        {
+                            "act": "request",
+                            "slots": [
+                                [
+                                    "slot",
+                                    "food"
+                                ]
+                            ]
+                        },
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "area",
+                                    "south"
+                                ]
+                            ]
+                        },
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "food",
+                                    "dontcare"
+                                ]
+                            ]
+                        },
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "pricerange",
+                                    "expensive"
+                                ]
+                            ]
+                        }
+                    ],
+                    "transcript_complete": "What is the food type Chiquito Restaurant Bar serve ?",
+                    "transcript_with_ellipsis": "What is the food type ?",
+                    "transcript_with_coreference": "What is the food type they serve ?"
+                },
+                "sys": {
+                    "sent": "They serve Mexican food .",
+                    "DA": []
+                }
+            },
+            {
+                "turn": 4,
+                "usr": {
+                    "transcript": "Nope, that's what I was looking for. Thanks a lot!",
+                    "slu": [
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "food",
+                                    "dontcare"
+                                ]
+                            ]
+                        },
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "pricerange",
+                                    "expensive"
+                                ]
+                            ]
+                        },
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "area",
+                                    "south"
+                                ]
+                            ]
+                        }
+                    ],
+                    "transcript_complete": "Nope, Mexican food is what I was looking for. Thanks a lot!",
+                    "transcript_with_ellipsis": "",
+                    "transcript_with_coreference": "Nope, that's what I was looking for. Thanks a lot!"
+                },
+                "sys": {
+                    "sent": "Thank you very much for using the Cambridge Restaurant System.",
+                    "DA": []
+                }
+            }
+        ],
+        "dialogue_id": 0,
+        "finished": true,
+        "goal": {
+            "constraints": [
+                [
+                    "pricerange",
+                    "expensive"
+                ],
+                [
+                    "area",
+                    "south"
+                ]
+            ],
+            "request-slots": [
+                "address"
+            ],
+            "text": "Task 11193: You are looking for an expensive restaurant and it should be in the south part of town. Make sure you get the address of the venue."
+        }
+    },
+    {
+        "dial": [
+            {
+                "turn": 0,
+                "usr": {
+                    "transcript": "I am looking for a restaurant that is moderately priced and serves Cantonese food.",
+                    "slu": [
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "food",
+                                    "cantonese"
+                                ]
+                            ]
+                        },
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "pricerange",
+                                    "moderate"
+                                ]
+                            ]
+                        }
+                    ],
+                    "transcript_complete": "I am looking for a restaurant that is moderately priced and serves Cantonese food.",
+                    "transcript_with_ellipsis": "",
+                    "transcript_with_coreference": ""
+                },
+                "sys": {
+                    "sent": "There are no restaurants that serve Cantonese food in the moderate price range.",
+                    "DA": []
+                }
+            },
+            {
+                "turn": 1,
+                "usr": {
+                    "transcript": "How about chinese type of food?",
+                    "slu": [
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "food",
+                                    "chinese"
+                                ]
+                            ]
+                        },
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "pricerange",
+                                    "moderate"
+                                ]
+                            ]
+                        }
+                    ],
+                    "transcript_complete": "How about moderately priced chinese type of food?",
+                    "transcript_with_ellipsis": "How about chinese type of food?",
+                    "transcript_with_coreference": ""
+                },
+                "sys": {
+                    "sent": "the Golden wok serves chinese food and is in the moderate price range.  Would you like their location? ",
+                    "DA": [
+                        "area"
+                    ]
+                }
+            },
+            {
+                "turn": 2,
+                "usr": {
+                    "transcript": "Their phone number please.",
+                    "slu": [
+                        {
+                            "act": "request",
+                            "slots": [
+                                [
+                                    "slot",
+                                    "phone"
+                                ]
+                            ]
+                        },
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "food",
+                                    "chinese"
+                                ]
+                            ]
+                        },
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "pricerange",
+                                    "moderate"
+                                ]
+                            ]
+                        }
+                    ],
+                    "transcript_complete": "I would like the phone number of the Golden wok please.",
+                    "transcript_with_ellipsis": "phone number please.",
+                    "transcript_with_coreference": "Their phone number please."
+                },
+                "sys": {
+                    "sent": "Their phone number is 01223 350688.",
+                    "DA": []
+                }
+            },
+            {
+                "turn": 3,
+                "usr": {
+                    "transcript": "What is the area?",
+                    "slu": [
+                        {
+                            "act": "request",
+                            "slots": [
+                                [
+                                    "slot",
+                                    "area"
+                                ]
+                            ]
+                        },
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "food",
+                                    "chinese"
+                                ]
+                            ]
+                        },
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "pricerange",
+                                    "moderate"
+                                ]
+                            ]
+                        }
+                    ],
+                    "transcript_complete": "What is the area of the Golden wok?",
+                    "transcript_with_ellipsis": "What is the area?",
+                    "transcript_with_coreference": "What is their area?"
+                },
+                "sys": {
+                    "sent": "it is located in the north part of town",
+                    "DA": []
+                }
+            },
+            {
+                "turn": 4,
+                "usr": {
+                    "transcript": "Thank you for your help. Good bye.",
+                    "slu": [
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "food",
+                                    "chinese"
+                                ]
+                            ]
+                        },
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "pricerange",
+                                    "moderate"
+                                ]
+                            ]
+                        }
+                    ],
+                    "transcript_complete": "Thank you for your help. goodbye.",
+                    "transcript_with_ellipsis": "",
+                    "transcript_with_coreference": ""
+                },
+                "sys": {
+                    "sent": "Goodbye.",
+                    "DA": []
+                }
+            }
+        ],
+        "dialogue_id": 1,
+        "finished": true,
+        "goal": {
+            "constraints": [
+                [
+                    "food",
+                    "chinese"
+                ],
+                [
+                    "pricerange",
+                    "moderate"
+                ]
+            ],
+            "request-slots": [
+                "phone"
+            ],
+            "text": "Task 02790: You want to find a moderately priced restaurant and it should serve cantonese food. If there is no such venue how about chinese type of food. You want to know the phone number of the venue."
+        }
+    },
+    {
+        "dial": [
+            {
+                "turn": 0,
+                "usr": {
+                    "transcript": "Hello, I am looking for an expensive restaurant that serves Australian food. ",
+                    "slu": [
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "food",
+                                    "australian"
+                                ]
+                            ]
+                        },
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "pricerange",
+                                    "expensive"
+                                ]
+                            ]
+                        }
+                    ],
+                    "transcript_complete": "Hello, I am looking for an expensive restaurant that serves Australian food. ",
+                    "transcript_with_ellipsis": "",
+                    "transcript_with_coreference": ""
+                },
+                "sys": {
+                    "sent": "There are no records matching your request for an expensive restaurant serving Australian food. May I help you find a different restaurant? ",
+                    "DA": [
+                        "food"
+                    ]
+                }
+            },
+            {
+                "turn": 1,
+                "usr": {
+                    "transcript": "What about British food?",
+                    "slu": [
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "food",
+                                    "british"
+                                ]
+                            ]
+                        },
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "pricerange",
+                                    "expensive"
+                                ]
+                            ]
+                        }
+                    ],
+                    "transcript_complete": "What about an expensive restaurant that serves British food?",
+                    "transcript_with_ellipsis": "What about British food?",
+                    "transcript_with_coreference": ""
+                },
+                "sys": {
+                    "sent": "There are six restaurants matching your query. One of them is travellers rest.",
+                    "DA": []
+                }
+            },
+            {
+                "turn": 2,
+                "usr": {
+                    "transcript": "Could I have the phone number for one of the restaurants?",
+                    "slu": [
+                        {
+                            "act": "request",
+                            "slots": [
+                                [
+                                    "slot",
+                                    "phone"
+                                ]
+                            ]
+                        },
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "food",
+                                    "british"
+                                ]
+                            ]
+                        },
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "pricerange",
+                                    "expensive"
+                                ]
+                            ]
+                        }
+                    ],
+                    "transcript_complete": "Could I have the phone number for one of the restaurants?",
+                    "transcript_with_ellipsis": "Could I have the phone number ?",
+                    "transcript_with_coreference": "Could I have the phone number for one of them?"
+                },
+                "sys": {
+                    "sent": "there phone number is 01223352500 is there anything else i can help you with?",
+                    "DA": []
+                }
+            },
+            {
+                "turn": 3,
+                "usr": {
+                    "transcript": "Thanks, goodbye.",
+                    "slu": [
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "food",
+                                    "british"
+                                ]
+                            ]
+                        },
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "pricerange",
+                                    "expensive"
+                                ]
+                            ]
+                        }
+                    ],
+                    "transcript_complete": "Thanks, goodbye.",
+                    "transcript_with_ellipsis": "",
+                    "transcript_with_coreference": ""
+                },
+                "sys": {
+                    "sent": "Thank you, goodbye.",
+                    "DA": []
+                }
+            }
+        ],
+        "dialogue_id": 2,
+        "finished": true,
+        "goal": {
+            "constraints": [
+                [
+                    "food",
+                    "british"
+                ],
+                [
+                    "pricerange",
+                    "expensive"
+                ]
+            ],
+            "request-slots": [
+                "phone"
+            ],
+            "text": "Task 10230: You are looking for an expensive restaurant and it should serve australian food. If there is no such venue how about british type of food. You want to know the phone number of the venue."
+        }
+    },
+    {
+        "dial": [
+            {
+                "turn": 0,
+                "usr": {
+                    "transcript": "I am wanting an expensive restaurant that offers African food. What is their number?",
+                    "slu": [
+                        {
+                            "act": "request",
+                            "slots": [
+                                [
+                                    "slot",
+                                    "phone"
+                                ]
+                            ]
+                        },
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "food",
+                                    "african"
+                                ]
+                            ]
+                        },
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "pricerange",
+                                    "expensive"
+                                ]
+                            ]
+                        }
+                    ],
+                    "transcript_complete": "I am wanting an expensive restaurant that offers African food. What is their number?",
+                    "transcript_with_ellipsis": "",
+                    "transcript_with_coreference": ""
+                },
+                "sys": {
+                    "sent": "Where are you located? I see two that might work but Id like to offer the closest.",
+                    "DA": [
+                        "area"
+                    ]
+                }
+            },
+            {
+                "turn": 1,
+                "usr": {
+                    "transcript": "I do not care about the area of town.",
+                    "slu": [
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "food",
+                                    "african"
+                                ]
+                            ]
+                        },
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "area",
+                                    "dontcare"
+                                ]
+                            ]
+                        },
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "pricerange",
+                                    "expensive"
+                                ]
+                            ]
+                        }
+                    ],
+                    "transcript_complete": "I do not care about the area of town.",
+                    "transcript_with_ellipsis": "I do not care.",
+                    "transcript_with_coreference": "I do not care about it."
+                },
+                "sys": {
+                    "sent": "Bedouin is an expensive African restaurant in the city centre. ",
+                    "DA": []
+                }
+            },
+            {
+                "turn": 2,
+                "usr": {
+                    "transcript": "That sounds good, what is their number so that I can ring them?",
+                    "slu": [
+                        {
+                            "act": "request",
+                            "slots": [
+                                [
+                                    "slot",
+                                    "phone"
+                                ]
+                            ]
+                        },
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "food",
+                                    "african"
+                                ]
+                            ]
+                        },
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "pricerange",
+                                    "expensive"
+                                ]
+                            ]
+                        },
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "area",
+                                    "dontcare"
+                                ]
+                            ]
+                        }
+                    ],
+                    "transcript_complete": "That sounds good, what is Bedouin's number so that I can ring them?",
+                    "transcript_with_ellipsis": "That sounds good, what is the number so that I can ring ?",
+                    "transcript_with_coreference": "That sounds good, what is their number so that I can ring them?"
+                },
+                "sys": {
+                    "sent": "Their phone number is 01223 367660.",
+                    "DA": []
+                }
+            },
+            {
+                "turn": 3,
+                "usr": {
+                    "transcript": "Great! Thank you. Good Bye. ",
+                    "slu": [
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "food",
+                                    "african"
+                                ]
+                            ]
+                        },
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "pricerange",
+                                    "expensive"
+                                ]
+                            ]
+                        },
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "area",
+                                    "dontcare"
+                                ]
+                            ]
+                        }
+                    ],
+                    "transcript_complete": "Great! Thank you. goodbye. ",
+                    "transcript_with_ellipsis": "",
+                    "transcript_with_coreference": ""
+                },
+                "sys": {
+                    "sent": "You're welcome, goodbye.",
+                    "DA": []
+                }
+            }
+        ],
+        "dialogue_id": 3,
+        "finished": true,
+        "goal": {
+            "constraints": [
+                [
+                    "food",
+                    "african"
+                ],
+                [
+                    "pricerange",
+                    "expensive"
+                ]
+            ],
+            "request-slots": [
+                "phone"
+            ],
+            "text": "Task 01215: You want to find an expensive restaurant and it should serve african food. You want to know the phone number."
+        }
+    },
+    {
+        "dial": [
+            {
+                "turn": 0,
+                "usr": {
+                    "transcript": "I would like a moderately priced restaurant in the north part of town.",
+                    "slu": [
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "pricerange",
+                                    "moderate"
+                                ]
+                            ]
+                        },
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "area",
+                                    "north"
+                                ]
+                            ]
+                        }
+                    ],
+                    "transcript_complete": "I would like a moderately priced restaurant in the north part of town.",
+                    "transcript_with_ellipsis": "",
+                    "transcript_with_coreference": ""
+                },
+                "sys": {
+                    "sent": "Golden Wok is a moderately priced restaurant in the north side of town. ",
+                    "DA": []
+                }
+            },
+            {
+                "turn": 1,
+                "usr": {
+                    "transcript": "What type of food does Golden Wok serve?",
+                    "slu": [
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "pricerange",
+                                    "moderate"
+                                ]
+                            ]
+                        },
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "area",
+                                    "north"
+                                ]
+                            ]
+                        }
+                    ],
+                    "transcript_complete": "What type of food does Golden Wok serve?",
+                    "transcript_with_ellipsis": "What type of food ?",
+                    "transcript_with_coreference": "What type of food does it serve?"
+                },
+                "sys": {
+                    "sent": "The Golden Wok serves Chinese food.  Would you like more information?",
+                    "DA": []
+                }
+            },
+            {
+                "turn": 2,
+                "usr": {
+                    "transcript": "Yes what is the address for the business?",
+                    "slu": [
+                        {
+                            "act": "request",
+                            "slots": [
+                                [
+                                    "slot",
+                                    "address"
+                                ]
+                            ]
+                        },
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "pricerange",
+                                    "moderate"
+                                ]
+                            ]
+                        },
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "area",
+                                    "north"
+                                ]
+                            ]
+                        }
+                    ],
+                    "transcript_complete": "Yes, what is the address of Golden Wok for the business?",
+                    "transcript_with_ellipsis": "Yes, what is the address ?",
+                    "transcript_with_coreference": "Yes, what is the address of it for the business?"
+                },
+                "sys": {
+                    "sent": "They are located at 191 Histon Road Chesterton",
+                    "DA": []
+                }
+            },
+            {
+                "turn": 3,
+                "usr": {
+                    "transcript": "Great. I have everything I need, Thank you  ",
+                    "slu": [
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "pricerange",
+                                    "moderate"
+                                ]
+                            ]
+                        },
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "area",
+                                    "north"
+                                ]
+                            ]
+                        }
+                    ],
+                    "transcript_complete": "Great. I have everything I need, Thank you",
+                    "transcript_with_ellipsis": "",
+                    "transcript_with_coreference": ""
+                },
+                "sys": {
+                    "sent": "You're welcome",
+                    "DA": []
+                }
+            }
+        ],
+        "dialogue_id": 4,
+        "finished": true,
+        "goal": {
+            "constraints": [
+                [
+                    "pricerange",
+                    "moderate"
+                ],
+                [
+                    "area",
+                    "north"
+                ]
+            ],
+            "request-slots": [
+                "address",
+                "food"
+            ],
+            "text": "Task 07173: You are looking for a moderately priced restaurant and it should be in the north part of town. Make sure you get the address and type of food."
+        }
+    }
+]

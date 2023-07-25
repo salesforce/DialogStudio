@@ -1,0 +1,848 @@
+[
+    {
+        "movieMentions": {
+            "203371": "Final Fantasy: The Spirits Within (2001)",
+            "84779": "The Triplets of Belleville (2003)",
+            "122159": "Mary and Max (2009)",
+            "151313": "A Scanner Darkly  (2006)",
+            "191602": "Waking Life (2001)",
+            "165710": "The Boss Baby (2017)"
+        },
+        "respondentQuestions": {
+            "203371": {
+                "suggested": 1,
+                "seen": 0,
+                "liked": 1
+            },
+            "84779": {
+                "suggested": 0,
+                "seen": 1,
+                "liked": 1
+            },
+            "122159": {
+                "suggested": 0,
+                "seen": 1,
+                "liked": 1
+            },
+            "151313": {
+                "suggested": 0,
+                "seen": 1,
+                "liked": 1
+            },
+            "191602": {
+                "suggested": 0,
+                "seen": 1,
+                "liked": 1
+            },
+            "165710": {
+                "suggested": 1,
+                "seen": 0,
+                "liked": 1
+            }
+        },
+        "messages": [
+            {
+                "timeOffset": 0,
+                "text": "Hi there, how are you? I'm looking for movie recommendations.",
+                "senderWorkerId": 0,
+                "messageId": 1021
+            },
+            {
+                "timeOffset": 15,
+                "text": "I am doing okay. What kind of movies do you like?",
+                "senderWorkerId": 1,
+                "messageId": 1022
+            },
+            {
+                "timeOffset": 66,
+                "text": "I like animations like @84779 and @191602.",
+                "senderWorkerId": 0,
+                "messageId": 1023
+            },
+            {
+                "timeOffset": 86,
+                "text": "I also enjoy @122159.",
+                "senderWorkerId": 0,
+                "messageId": 1024
+            },
+            {
+                "timeOffset": 95,
+                "text": "Anything artistic.",
+                "senderWorkerId": 0,
+                "messageId": 1025
+            },
+            {
+                "timeOffset": 135,
+                "text": "You might like @165710 that was a good movie.",
+                "senderWorkerId": 1,
+                "messageId": 1026
+            },
+            {
+                "timeOffset": 151,
+                "text": "What's it about?",
+                "senderWorkerId": 0,
+                "messageId": 1027
+            },
+            {
+                "timeOffset": 207,
+                "text": "It has Alec Baldwin it is about a baby that works for a company and gets adopted it is very funny.",
+                "senderWorkerId": 1,
+                "messageId": 1028
+            },
+            {
+                "timeOffset": 238,
+                "text": "That seems like a nice comedy.",
+                "senderWorkerId": 0,
+                "messageId": 1029
+            },
+            {
+                "timeOffset": 272,
+                "text": "Do you have any animated recommendations that are a bit more dramatic? Like @151313 for example.",
+                "senderWorkerId": 0,
+                "messageId": 1030
+            },
+            {
+                "timeOffset": 327,
+                "text": "I like comedies but I prefer films with a little more depth.",
+                "senderWorkerId": 0,
+                "messageId": 1031
+            },
+            {
+                "timeOffset": 467,
+                "text": "That is a tough one but I will remember something.",
+                "senderWorkerId": 1,
+                "messageId": 1032
+            },
+            {
+                "timeOffset": 509,
+                "text": "@203371 was a good one.",
+                "senderWorkerId": 1,
+                "messageId": 1033
+            },
+            {
+                "timeOffset": 564,
+                "text": "Ooh that seems cool! Thanks for the input. I'm ready to submit if you are.",
+                "senderWorkerId": 0,
+                "messageId": 1034
+            },
+            {
+                "timeOffset": 571,
+                "text": "It is animated, sci fi, and has action.",
+                "senderWorkerId": 1,
+                "messageId": 1035
+            },
+            {
+                "timeOffset": 579,
+                "text": "Glad I could help.",
+                "senderWorkerId": 1,
+                "messageId": 1036
+            },
+            {
+                "timeOffset": 581,
+                "text": "Nice.",
+                "senderWorkerId": 0,
+                "messageId": 1037
+            },
+            {
+                "timeOffset": 591,
+                "text": "Take care, cheers!",
+                "senderWorkerId": 0,
+                "messageId": 1038
+            },
+            {
+                "timeOffset": 608,
+                "text": "bye.",
+                "senderWorkerId": 1,
+                "messageId": 1039
+            }
+        ],
+        "conversationId": "391",
+        "respondentWorkerId": 1,
+        "initiatorWorkerId": 0,
+        "initiatorQuestions": {
+            "203371": {
+                "suggested": 1,
+                "seen": 0,
+                "liked": 1
+            },
+            "84779": {
+                "suggested": 0,
+                "seen": 1,
+                "liked": 1
+            },
+            "122159": {
+                "suggested": 0,
+                "seen": 1,
+                "liked": 1
+            },
+            "151313": {
+                "suggested": 0,
+                "seen": 1,
+                "liked": 1
+            },
+            "191602": {
+                "suggested": 0,
+                "seen": 1,
+                "liked": 1
+            },
+            "165710": {
+                "suggested": 1,
+                "seen": 0,
+                "liked": 1
+            }
+        }
+    },
+    {
+        "movieMentions": {
+            "196336": "Scarface  (1983)",
+            "204322": "South Park",
+            "145455": "Twilight Zone: The Movie (1983)",
+            "114851": "The Godfather ",
+            "128905": "From Dusk till Dawn (1996)",
+            "143189": "Star Wars: Episode II \u2013 Attack of the Clones (2002)",
+            "152242": "Enemy of the State  (1998)",
+            "204292": "Star Wars"
+        },
+        "respondentQuestions": {
+            "196336": {
+                "suggested": 0,
+                "seen": 1,
+                "liked": 1
+            },
+            "204322": {
+                "suggested": 0,
+                "seen": 1,
+                "liked": 1
+            },
+            "145455": {
+                "suggested": 1,
+                "seen": 1,
+                "liked": 0
+            },
+            "114851": {
+                "suggested": 0,
+                "seen": 1,
+                "liked": 1
+            },
+            "128905": {
+                "suggested": 1,
+                "seen": 1,
+                "liked": 1
+            },
+            "143189": {
+                "suggested": 1,
+                "seen": 1,
+                "liked": 1
+            },
+            "152242": {
+                "suggested": 1,
+                "seen": 1,
+                "liked": 1
+            },
+            "204292": {
+                "suggested": 0,
+                "seen": 1,
+                "liked": 1
+            }
+        },
+        "messages": [
+            {
+                "timeOffset": 0,
+                "text": "Hi, did you see @196336 ?",
+                "senderWorkerId": 2,
+                "messageId": 1040
+            },
+            {
+                "timeOffset": 19,
+                "text": "Yes it was a pretty good movie.",
+                "senderWorkerId": 1,
+                "messageId": 1041
+            },
+            {
+                "timeOffset": 69,
+                "text": "Then you would like @114851 if you haven't seen it.",
+                "senderWorkerId": 2,
+                "messageId": 1042
+            },
+            {
+                "timeOffset": 102,
+                "text": "You like Sci Fi stuff like @204292 ?",
+                "senderWorkerId": 2,
+                "messageId": 1043
+            },
+            {
+                "timeOffset": 113,
+                "text": "I am more of a @143189 kind of person.",
+                "senderWorkerId": 1,
+                "messageId": 1044
+            },
+            {
+                "timeOffset": 193,
+                "text": "Did you see any of the Star Wars parody movies? @143189 was pretty funny?",
+                "senderWorkerId": 2,
+                "messageId": 1045
+            },
+            {
+                "timeOffset": 231,
+                "text": "I do not think I have seen that one. Who is in it?",
+                "senderWorkerId": 1,
+                "messageId": 1046
+            },
+            {
+                "timeOffset": 243,
+                "text": "Have you seen any cartoon movies like @204322 ?",
+                "senderWorkerId": 2,
+                "messageId": 1047
+            },
+            {
+                "timeOffset": 278,
+                "text": "Yes those are really funny. I think I will watch @143189.",
+                "senderWorkerId": 1,
+                "messageId": 1048
+            },
+            {
+                "timeOffset": 290,
+                "text": "Thanks for the recommendation.",
+                "senderWorkerId": 1,
+                "messageId": 1049
+            },
+            {
+                "timeOffset": 307,
+                "text": "@143189 r Wars Clones is a claymation movie.",
+                "senderWorkerId": 2,
+                "messageId": 1050
+            },
+            {
+                "timeOffset": 326,
+                "text": "That sounds great.",
+                "senderWorkerId": 1,
+                "messageId": 1051
+            },
+            {
+                "timeOffset": 379,
+                "text": "It is. You like blood and gore movies? If so, you might like @128905 .",
+                "senderWorkerId": 2,
+                "messageId": 1052
+            },
+            {
+                "timeOffset": 418,
+                "text": "No I do not like that genre of movie. The star wars movie is perfect for me.",
+                "senderWorkerId": 1,
+                "messageId": 1053
+            },
+            {
+                "timeOffset": 462,
+                "text": "You not a @145455 fan are you? Those films creep me out.",
+                "senderWorkerId": 2,
+                "messageId": 1054
+            },
+            {
+                "timeOffset": 521,
+                "text": "I found the movie I would like to watch. Thanks for all the help.",
+                "senderWorkerId": 1,
+                "messageId": 1055
+            },
+            {
+                "timeOffset": 545,
+                "text": "Oh okay. @152242 was a good tech film if you're into that genre.",
+                "senderWorkerId": 2,
+                "messageId": 1056
+            },
+            {
+                "timeOffset": 570,
+                "text": "How do we submit?",
+                "senderWorkerId": 2,
+                "messageId": 1057
+            },
+            {
+                "timeOffset": 609,
+                "text": "click the hide/show movie forms and fill the movie questions rows then it will let you submit.",
+                "senderWorkerId": 1,
+                "messageId": 1058
+            },
+            {
+                "timeOffset": 623,
+                "text": "I hope you have a great night. bye.",
+                "senderWorkerId": 1,
+                "messageId": 1059
+            },
+            {
+                "timeOffset": 628,
+                "text": "Thanks.",
+                "senderWorkerId": 2,
+                "messageId": 1060
+            }
+        ],
+        "conversationId": "395",
+        "respondentWorkerId": 1,
+        "initiatorWorkerId": 2,
+        "initiatorQuestions": []
+    },
+    {
+        "movieMentions": {
+            "79320": "Contact  (2009)",
+            "84001": "Donnie Darko (2001)",
+            "155969": "The Martian  (2015)",
+            "90950": "Avatar  (2009)",
+            "163606": "Avatar ",
+            "147598": "Indiana Jones and the Kingdom of the Crystal Skull (2008)",
+            "204292": "Star Wars"
+        },
+        "respondentQuestions": {
+            "79320": {
+                "suggested": 0,
+                "seen": 1,
+                "liked": 1
+            },
+            "84001": {
+                "suggested": 1,
+                "seen": 1,
+                "liked": 1
+            },
+            "155969": {
+                "suggested": 1,
+                "seen": 1,
+                "liked": 1
+            },
+            "90950": {
+                "suggested": 0,
+                "seen": 1,
+                "liked": 1
+            },
+            "163606": {
+                "suggested": 0,
+                "seen": 1,
+                "liked": 1
+            },
+            "147598": {
+                "suggested": 0,
+                "seen": 0,
+                "liked": 1
+            },
+            "204292": {
+                "suggested": 0,
+                "seen": 1,
+                "liked": 1
+            }
+        },
+        "messages": [
+            {
+                "timeOffset": 0,
+                "text": "@163606 It is a nice movie. What say?",
+                "senderWorkerId": 3,
+                "messageId": 1061
+            },
+            {
+                "timeOffset": 31,
+                "text": "@90950 Was a marvelous 3D experience personally for me.",
+                "senderWorkerId": 3,
+                "messageId": 1062
+            },
+            {
+                "timeOffset": 56,
+                "text": "I really liked that movie but haven't seen it in a while. Are you a Michelle Rodriquez fan?",
+                "senderWorkerId": 1,
+                "messageId": 1063
+            },
+            {
+                "timeOffset": 110,
+                "text": "No. I am not. I like sci-fi movies. Have you watched @155969.",
+                "senderWorkerId": 3,
+                "messageId": 1064
+            },
+            {
+                "timeOffset": 146,
+                "text": "My another favorite sci-fi movies are @79320 and @84001.",
+                "senderWorkerId": 3,
+                "messageId": 1065
+            },
+            {
+                "timeOffset": 159,
+                "text": "No I have not seen that one but have seen all the @204292 movies. Do you like those.",
+                "senderWorkerId": 1,
+                "messageId": 1066
+            },
+            {
+                "timeOffset": 181,
+                "text": "Yes, I love @204292 series.",
+                "senderWorkerId": 3,
+                "messageId": 1067
+            },
+            {
+                "timeOffset": 206,
+                "text": "In fact I am excited about the upcoming @204292.",
+                "senderWorkerId": 3,
+                "messageId": 1068
+            },
+            {
+                "timeOffset": 231,
+                "text": "What are you favorite movies?",
+                "senderWorkerId": 3,
+                "messageId": 1069
+            },
+            {
+                "timeOffset": 249,
+                "text": "I am too I think you will like @147598.",
+                "senderWorkerId": 1,
+                "messageId": 1070
+            },
+            {
+                "timeOffset": 275,
+                "text": "I have not seen @147598.",
+                "senderWorkerId": 3,
+                "messageId": 1071
+            },
+            {
+                "timeOffset": 283,
+                "text": "I will watch it soon.",
+                "senderWorkerId": 3,
+                "messageId": 1072
+            },
+            {
+                "timeOffset": 312,
+                "text": "It is a good movie if you like Star wars you should like it.",
+                "senderWorkerId": 1,
+                "messageId": 1073
+            },
+            {
+                "timeOffset": 344,
+                "text": "Great. I will watch those. Now, let us submit this. Nice talking to you, have a nice day!",
+                "senderWorkerId": 3,
+                "messageId": 1074
+            },
+            {
+                "timeOffset": 361,
+                "text": "Thanks it was nice talking to you too bye.",
+                "senderWorkerId": 1,
+                "messageId": 1075
+            }
+        ],
+        "conversationId": "397",
+        "respondentWorkerId": 1,
+        "initiatorWorkerId": 3,
+        "initiatorQuestions": {
+            "79320": {
+                "suggested": 0,
+                "seen": 0,
+                "liked": 1
+            },
+            "84001": {
+                "suggested": 0,
+                "seen": 0,
+                "liked": 1
+            },
+            "155969": {
+                "suggested": 0,
+                "seen": 0,
+                "liked": 1
+            },
+            "90950": {
+                "suggested": 0,
+                "seen": 0,
+                "liked": 1
+            },
+            "163606": {
+                "suggested": 0,
+                "seen": 0,
+                "liked": 0
+            },
+            "147598": {
+                "suggested": 1,
+                "seen": 1,
+                "liked": 1
+            },
+            "204292": {
+                "suggested": 1,
+                "seen": 1,
+                "liked": 1
+            }
+        }
+    },
+    {
+        "movieMentions": {
+            "188302": "Ever After (1998)",
+            "195904": "Charlie's Angels ",
+            "91313": "Blended  (2014)",
+            "157394": "The Wedding Singer (1998)",
+            "115908": "50 First Dates (2004)"
+        },
+        "respondentQuestions": [],
+        "messages": [
+            {
+                "timeOffset": 0,
+                "text": "I'm in the mood to watch a romantic comedy.  What do you suggest?",
+                "senderWorkerId": 4,
+                "messageId": 1076
+            },
+            {
+                "timeOffset": 20,
+                "text": "@115908.",
+                "senderWorkerId": 5,
+                "messageId": 1077
+            },
+            {
+                "timeOffset": 36,
+                "text": "Have you seen that one?",
+                "senderWorkerId": 5,
+                "messageId": 1078
+            },
+            {
+                "timeOffset": 91,
+                "text": "Oh, I've seen that one.  I really like Drew Barrymore.",
+                "senderWorkerId": 4,
+                "messageId": 1079
+            },
+            {
+                "timeOffset": 144,
+                "text": "Yes she is good, I am looking for a super hero movie myself.",
+                "senderWorkerId": 5,
+                "messageId": 1080
+            },
+            {
+                "timeOffset": 169,
+                "text": "Do you like @157394.",
+                "senderWorkerId": 5,
+                "messageId": 1081
+            },
+            {
+                "timeOffset": 188,
+                "text": "Drew Barrymore was in @195904.  Do you think that counts as a superhero movie?",
+                "senderWorkerId": 4,
+                "messageId": 1082
+            },
+            {
+                "timeOffset": 199,
+                "text": "Yeah, definitely. I liked that one.",
+                "senderWorkerId": 5,
+                "messageId": 1083
+            },
+            {
+                "timeOffset": 300,
+                "text": "Oh, @157394 is a good one.  Sandler and Barrymore are great together.  I'm very excited to finally see @91313.",
+                "senderWorkerId": 4,
+                "messageId": 1084
+            },
+            {
+                "timeOffset": 320,
+                "text": "Oh I have heard good things about that film.",
+                "senderWorkerId": 5,
+                "messageId": 1085
+            },
+            {
+                "timeOffset": 358,
+                "text": "I also liked Barrymore in @188302.",
+                "senderWorkerId": 4,
+                "messageId": 1086
+            },
+            {
+                "timeOffset": 458,
+                "text": "That is one film I should definitely check out.",
+                "senderWorkerId": 5,
+                "messageId": 1090
+            }
+        ],
+        "conversationId": "405",
+        "respondentWorkerId": 5,
+        "initiatorWorkerId": 4,
+        "initiatorQuestions": []
+    },
+    {
+        "movieMentions": {
+            "119144": "Wonder Woman  (2017)",
+            "125431": "Annabelle  (2014)",
+            "141788": "Fast & Furious  (2009)",
+            "204331": "Girls Trip (2017)",
+            "184418": "Get Out (2017)",
+            "136632": "Spider-Man: Homecoming (2017)"
+        },
+        "respondentQuestions": {
+            "119144": {
+                "suggested": 0,
+                "seen": 1,
+                "liked": 1
+            },
+            "125431": {
+                "suggested": 0,
+                "seen": 1,
+                "liked": 1
+            },
+            "141788": {
+                "suggested": 1,
+                "seen": 1,
+                "liked": 1
+            },
+            "204331": {
+                "suggested": 0,
+                "seen": 1,
+                "liked": 1
+            },
+            "184418": {
+                "suggested": 1,
+                "seen": 1,
+                "liked": 1
+            },
+            "136632": {
+                "suggested": 0,
+                "seen": 0,
+                "liked": 1
+            }
+        },
+        "messages": [
+            {
+                "timeOffset": 0,
+                "text": "Hello.",
+                "senderWorkerId": 6,
+                "messageId": 1087
+            },
+            {
+                "timeOffset": 24,
+                "text": "Hello.",
+                "senderWorkerId": 7,
+                "messageId": 1088
+            },
+            {
+                "timeOffset": 51,
+                "text": "What movie would you suggest to watch.",
+                "senderWorkerId": 7,
+                "messageId": 1089
+            },
+            {
+                "timeOffset": 116,
+                "text": "@184418.",
+                "senderWorkerId": 6,
+                "messageId": 1091
+            },
+            {
+                "timeOffset": 171,
+                "text": "Have you seen that movie before?",
+                "senderWorkerId": 6,
+                "messageId": 1092
+            },
+            {
+                "timeOffset": 171,
+                "text": "I love that scary movies. I love @125431.",
+                "senderWorkerId": 7,
+                "messageId": 1093
+            },
+            {
+                "timeOffset": 185,
+                "text": "Yes I love Annabelle as well.",
+                "senderWorkerId": 6,
+                "messageId": 1094
+            },
+            {
+                "timeOffset": 197,
+                "text": "That is a good movie.",
+                "senderWorkerId": 6,
+                "messageId": 1095
+            },
+            {
+                "timeOffset": 206,
+                "text": "I never knew a doll could be so scary.",
+                "senderWorkerId": 7,
+                "messageId": 1096
+            },
+            {
+                "timeOffset": 228,
+                "text": "Me either. But I love scary movies.",
+                "senderWorkerId": 6,
+                "messageId": 1097
+            },
+            {
+                "timeOffset": 237,
+                "text": "What other movies do you like to watch?",
+                "senderWorkerId": 6,
+                "messageId": 1098
+            },
+            {
+                "timeOffset": 312,
+                "text": "Funny movies! LIke @204331.",
+                "senderWorkerId": 7,
+                "messageId": 1099
+            },
+            {
+                "timeOffset": 319,
+                "text": "What about you.",
+                "senderWorkerId": 7,
+                "messageId": 1100
+            },
+            {
+                "timeOffset": 338,
+                "text": "Yes I love that movie. I never get tired of watching it.",
+                "senderWorkerId": 6,
+                "messageId": 1101
+            },
+            {
+                "timeOffset": 353,
+                "text": "I like certain action movies li-03i25.",
+                "senderWorkerId": 6,
+                "messageId": 1102
+            },
+            {
+                "timeOffset": 379,
+                "text": "I like certain action movies like @141788.",
+                "senderWorkerId": 6,
+                "messageId": 1103
+            },
+            {
+                "timeOffset": 419,
+                "text": "Me too! I love all those movies. I also like @119144.",
+                "senderWorkerId": 7,
+                "messageId": 1104
+            },
+            {
+                "timeOffset": 447,
+                "text": "Yes @119144 is a good movie too.",
+                "senderWorkerId": 6,
+                "messageId": 1105
+            },
+            {
+                "timeOffset": 486,
+                "text": "And also @136632.",
+                "senderWorkerId": 7,
+                "messageId": 1106
+            },
+            {
+                "timeOffset": 498,
+                "text": "I haven't seen that movie yet.",
+                "senderWorkerId": 6,
+                "messageId": 1107
+            }
+        ],
+        "conversationId": "407",
+        "respondentWorkerId": 6,
+        "initiatorWorkerId": 7,
+        "initiatorQuestions": {
+            "119144": {
+                "suggested": 0,
+                "seen": 1,
+                "liked": 1
+            },
+            "125431": {
+                "suggested": 1,
+                "seen": 1,
+                "liked": 1
+            },
+            "141788": {
+                "suggested": 0,
+                "seen": 1,
+                "liked": 1
+            },
+            "204331": {
+                "suggested": 1,
+                "seen": 1,
+                "liked": 1
+            },
+            "184418": {
+                "suggested": 0,
+                "seen": 1,
+                "liked": 1
+            },
+            "136632": {
+                "suggested": 0,
+                "seen": 1,
+                "liked": 1
+            }
+        }
+    }
+]

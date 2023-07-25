@@ -1,0 +1,1741 @@
+{
+    "GECOR--train--1": {
+        "original dialog id": 0,
+        "dialog index": 1,
+        "original dialog info": {
+            "finished": true,
+            "goal": {
+                "constraints": [
+                    [
+                        "pricerange",
+                        "expensive"
+                    ],
+                    [
+                        "area",
+                        "south"
+                    ]
+                ],
+                "request-slots": [
+                    "address"
+                ],
+                "text": "Task 11193: You are looking for an expensive restaurant and it should be in the south part of town. Make sure you get the address of the venue."
+            }
+        },
+        "log": [
+            {
+                "turn id": 0,
+                "user utterance": "I need to find an expensive restauant that's in the south section of the city.",
+                "system response": "There are several restaurants in the south part of town that serve expensive food. Do you have a cuisine preference?",
+                "dialog history": "",
+                "original user side information": {
+                    "slu": [
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "pricerange",
+                                    "expensive"
+                                ]
+                            ]
+                        },
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "area",
+                                    "south"
+                                ]
+                            ]
+                        }
+                    ],
+                    "transcript_complete": "I need to find an expensive restaurant that's in the south section of the city.",
+                    "transcript_with_ellipsis": "",
+                    "transcript_with_coreference": ""
+                },
+                "original system side information": {
+                    "DA": [
+                        "food"
+                    ]
+                },
+                "dst": "",
+                "dst accumulated": ""
+            },
+            {
+                "turn id": 1,
+                "user utterance": "No I don't care about the type of cuisine.",
+                "system response": "Chiquito Restaurant Bar is a Mexican restaurant located in the south part of town.",
+                "dialog history": "<USER> I need to find an expensive restauant that's in the south section of the city. <SYSTEM> There are several restaurants in the south part of town that serve expensive food. Do you have a cuisine preference?",
+                "original user side information": {
+                    "slu": [
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "pricerange",
+                                    "expensive"
+                                ]
+                            ]
+                        },
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "food",
+                                    "dontcare"
+                                ]
+                            ]
+                        },
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "area",
+                                    "south"
+                                ]
+                            ]
+                        }
+                    ],
+                    "transcript_complete": "No I don't care about the type of cuisine.",
+                    "transcript_with_ellipsis": "No I don't care.",
+                    "transcript_with_coreference": "No I don't care about it."
+                },
+                "original system side information": {
+                    "DA": []
+                },
+                "dst": "",
+                "dst accumulated": ""
+            },
+            {
+                "turn id": 2,
+                "user utterance": "What is their address?",
+                "system response": "There address is 2G Cambridge Leisure Park Cherry Hinton Road Cherry Hinton, it there anything else I can help you with?",
+                "dialog history": "<USER> I need to find an expensive restauant that's in the south section of the city. <SYSTEM> There are several restaurants in the south part of town that serve expensive food. Do you have a cuisine preference? <USER> No I don't care about the type of cuisine. <SYSTEM> Chiquito Restaurant Bar is a Mexican restaurant located in the south part of town.",
+                "original user side information": {
+                    "slu": [
+                        {
+                            "act": "request",
+                            "slots": [
+                                [
+                                    "slot",
+                                    "address"
+                                ]
+                            ]
+                        },
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "pricerange",
+                                    "expensive"
+                                ]
+                            ]
+                        },
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "area",
+                                    "south"
+                                ]
+                            ]
+                        },
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "food",
+                                    "dontcare"
+                                ]
+                            ]
+                        }
+                    ],
+                    "transcript_complete": "What is the address of Chiquito Restaurant Bar?",
+                    "transcript_with_ellipsis": "",
+                    "transcript_with_coreference": "What is their address?"
+                },
+                "original system side information": {
+                    "DA": []
+                },
+                "dst": "",
+                "dst accumulated": ""
+            },
+            {
+                "turn id": 3,
+                "user utterance": "What is the food type they serve ?",
+                "system response": "They serve Mexican food .",
+                "dialog history": "<USER> I need to find an expensive restauant that's in the south section of the city. <SYSTEM> There are several restaurants in the south part of town that serve expensive food. Do you have a cuisine preference? <USER> No I don't care about the type of cuisine. <SYSTEM> Chiquito Restaurant Bar is a Mexican restaurant located in the south part of town. <USER> What is their address? <SYSTEM> There address is 2G Cambridge Leisure Park Cherry Hinton Road Cherry Hinton, it there anything else I can help you with?",
+                "original user side information": {
+                    "slu": [
+                        {
+                            "act": "request",
+                            "slots": [
+                                [
+                                    "slot",
+                                    "food"
+                                ]
+                            ]
+                        },
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "area",
+                                    "south"
+                                ]
+                            ]
+                        },
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "food",
+                                    "dontcare"
+                                ]
+                            ]
+                        },
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "pricerange",
+                                    "expensive"
+                                ]
+                            ]
+                        }
+                    ],
+                    "transcript_complete": "What is the food type Chiquito Restaurant Bar serve ?",
+                    "transcript_with_ellipsis": "What is the food type ?",
+                    "transcript_with_coreference": "What is the food type they serve ?"
+                },
+                "original system side information": {
+                    "DA": []
+                },
+                "dst": "",
+                "dst accumulated": ""
+            },
+            {
+                "turn id": 4,
+                "user utterance": "Nope, that's what I was looking for. Thanks a lot!",
+                "system response": "Thank you very much for using the Cambridge Restaurant System.",
+                "dialog history": "<USER> I need to find an expensive restauant that's in the south section of the city. <SYSTEM> There are several restaurants in the south part of town that serve expensive food. Do you have a cuisine preference? <USER> No I don't care about the type of cuisine. <SYSTEM> Chiquito Restaurant Bar is a Mexican restaurant located in the south part of town. <USER> What is their address? <SYSTEM> There address is 2G Cambridge Leisure Park Cherry Hinton Road Cherry Hinton, it there anything else I can help you with? <USER> What is the food type they serve ? <SYSTEM> They serve Mexican food .",
+                "original user side information": {
+                    "slu": [
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "food",
+                                    "dontcare"
+                                ]
+                            ]
+                        },
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "pricerange",
+                                    "expensive"
+                                ]
+                            ]
+                        },
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "area",
+                                    "south"
+                                ]
+                            ]
+                        }
+                    ],
+                    "transcript_complete": "Nope, Mexican food is what I was looking for. Thanks a lot!",
+                    "transcript_with_ellipsis": "",
+                    "transcript_with_coreference": "Nope, that's what I was looking for. Thanks a lot!"
+                },
+                "original system side information": {
+                    "DA": []
+                },
+                "dst": "",
+                "dst accumulated": ""
+            }
+        ],
+        "external knowledge non-flat": {
+            "metadata": [
+                {
+                    "address": "82 Cherry Hinton Road Cherry Hinton",
+                    "area": "south",
+                    "food": "chinese",
+                    "location": "52.188528,0.140627",
+                    "phone": "01223 244149",
+                    "pricerange": "expensive",
+                    "postcode": "C.B 1, 7 A.G",
+                    "type": "restaurant",
+                    "id": "19192",
+                    "name": "the good luck chinese food takeaway"
+                },
+                {
+                    "address": "64 Cherry Hinton Road Cherry Hinton",
+                    "area": "south",
+                    "food": "indian",
+                    "location": "52.188747,0.138941",
+                    "phone": "01223 412299",
+                    "pricerange": "expensive",
+                    "postcode": "C.B 1, 7 A.A",
+                    "type": "restaurant",
+                    "id": "19191",
+                    "name": "taj tandoori"
+                },
+                {
+                    "address": "2G Cambridge Leisure Park Cherry Hinton Road Cherry Hinton",
+                    "area": "south",
+                    "food": "mexican",
+                    "location": "52.190176,0.13699",
+                    "phone": "01223 400170",
+                    "pricerange": "expensive",
+                    "postcode": "C.B 1, 7 D.Y",
+                    "type": "restaurant",
+                    "id": "19194",
+                    "name": "chiquito restaurant bar"
+                },
+                {
+                    "address": "10 Homerton Street City Centre",
+                    "area": "south",
+                    "food": "chinese",
+                    "location": "52.189484,0.135465",
+                    "phone": "01223 354755",
+                    "pricerange": "expensive",
+                    "postcode": "C.B 2, 8 N.X",
+                    "type": "restaurant",
+                    "id": "19246",
+                    "name": "peking restaurant"
+                },
+                {
+                    "address": "Cambridge Leisure Park Clifton Way Cherry Hinton",
+                    "area": "south",
+                    "food": "italian",
+                    "location": "52.190176,0.13699",
+                    "phone": "01223 412430",
+                    "pricerange": "expensive",
+                    "postcode": "C.B 1, 7 D.Y",
+                    "type": "restaurant",
+                    "id": "19195",
+                    "name": "frankie and bennys"
+                },
+                {
+                    "address": "Cambridge Leisure Park Clifton Way Cherry Hinton",
+                    "area": "south",
+                    "food": "chinese",
+                    "location": "52.190176,0.13699",
+                    "phone": "01223 244277",
+                    "pricerange": "cheap",
+                    "postcode": "C.B 1, 7 D.Y",
+                    "type": "restaurant",
+                    "id": "19197",
+                    "name": "the lucky star"
+                },
+                {
+                    "address": "12 Norfolk Street City Centre",
+                    "area": "centre",
+                    "food": "chinese",
+                    "location": "52.204609,0.137976",
+                    "phone": "01223 350420",
+                    "pricerange": "moderate",
+                    "postcode": "C.B 1, 2 L.F",
+                    "type": "restaurant",
+                    "id": "19186",
+                    "name": "lan hong house"
+                },
+                {
+                    "address": "31 Newnham Road Newnham",
+                    "area": "west",
+                    "food": "indian",
+                    "location": "52.199012,0.113196",
+                    "phone": "01223 461661",
+                    "pricerange": "expensive",
+                    "postcode": "C.B 3, 9 E.Y",
+                    "type": "restaurant",
+                    "id": "19254",
+                    "name": "india house"
+                },
+                {
+                    "address": "Cambridge Retail Park Newmarket Road Fen Ditton",
+                    "area": "east",
+                    "food": "italian",
+                    "location": "52.209742,0.146975",
+                    "phone": "01223 323737",
+                    "pricerange": "moderate",
+                    "postcode": "C.B 5, 8 W.R",
+                    "type": "restaurant",
+                    "id": "19275",
+                    "name": "pizza hut fen ditton"
+                },
+                {
+                    "address": "15 Magdalene Street City Centre",
+                    "area": "west",
+                    "food": "italian",
+                    "location": "52.210226,0.115646",
+                    "phone": "01223 315232",
+                    "pricerange": "cheap",
+                    "postcode": "C.B 3, 0 A.F",
+                    "type": "restaurant",
+                    "id": "19247",
+                    "name": "la margherita"
+                }
+            ],
+            "slots and values": {},
+            "intents": {}
+        },
+        "external knowledge": "(( address : 82 Cherry Hinton Road Cherry Hinton | area : south | food : chinese | location : 52.188528,0.140627 | phone : 01223 244149 | pricerange : expensive | postcode : C.B 1 | 7 A.G | type : restaurant | id : 19192 | name : the good luck chinese food takeaway ) | ( address : 64 Cherry Hinton Road Cherry Hinton | area : south | food : indian | location : 52.188747,0.138941 | phone : 01223 412299 | pricerange : expensive | postcode : C.B 1 | 7 A.A | type : restaurant | id : 19191 | name : taj tandoori ) | ( address : 2G Cambridge Leisure Park Cherry Hinton Road Cherry Hinton | area : south | food : mexican | location : 52.190176,0.13699 | phone : 01223 400170 | pricerange : expensive | postcode : C.B 1 | 7 D.Y | type : restaurant | id : 19194 | name : chiquito restaurant bar ) | ( address : 10 Homerton Street City Centre | area : south | food : chinese | location : 52.189484,0.135465 | phone : 01223 354755 | pricerange : expensive | postcode : C.B 2 | 8 N.X | type : restaurant | id : 19246 | name : peking restaurant ) | ( address : Cambridge Leisure Park Clifton Way Cherry Hinton | area : south | food : italian | location : 52.190176,0.13699 | phone : 01223 412430 | pricerange : expensive | postcode : C.B 1 | 7 D.Y | type : restaurant | id : 19195 | name : frankie and bennys ) | ( address : Cambridge Leisure Park Clifton Way Cherry Hinton | area : south | food : chinese | location : 52.190176,0.13699 | phone : 01223 244277 | pricerange : cheap | postcode : C.B 1 | 7 D.Y | type : restaurant | id : 19197 | name : the lucky star ) | ( address : 12 Norfolk Street City Centre | area : centre | food : chinese | location : 52.204609,0.137976 | phone : 01223 350420 | pricerange : moderate | postcode : C.B 1 | 2 L.F | type : restaurant | id : 19186 | name : lan hong house ) | ( address : 31 Newnham Road Newnham | area : west | food : indian | location : 52.199012,0.113196 | phone : 01223 461661 | pricerange : expensive | postcode : C.B 3 | 9 E.Y | type : restaurant | id : 19254 | name : india house ) | ( address : Cambridge Retail Park Newmarket Road Fen Ditton | area : east | food : italian | location : 52.209742,0.146975 | phone : 01223 323737 | pricerange : moderate | postcode : C.B 5 | 8 W.R | type : restaurant | id : 19275 | name : pizza hut fen ditton ) | ( address : 15 Magdalene Street City Centre | area : west | food : italian | location : 52.210226,0.115646 | phone : 01223 315232 | pricerange : cheap | postcode : C.B 3 | 0 A.F | type : restaurant | id : 19247 | name : la margherita ))",
+        "dst knowledge": "",
+        "intent knowledge": "",
+        "prompt": [
+            "This is a bot helping users to find a restaurant. Given the dialog context and external database, please generate a relevant system response for the user.",
+            "This bot assists users to find a restaurant. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
+            "This bot helps users to find a restaurant. Based on the conversation history and available external data, please generate a relevant system response for the user.",
+            "The purpose of this bot is to assist users to find a restaurant. Considering the dialogue context and the information available in the external database, please provide a fitting response for the user.",
+            "This bot is designed to help users find a restaurant. By utilizing the current dialog context and external resources, generate a fitting response for the user."
+        ]
+    },
+    "GECOR--train--2": {
+        "original dialog id": 1,
+        "dialog index": 2,
+        "original dialog info": {
+            "finished": true,
+            "goal": {
+                "constraints": [
+                    [
+                        "food",
+                        "chinese"
+                    ],
+                    [
+                        "pricerange",
+                        "moderate"
+                    ]
+                ],
+                "request-slots": [
+                    "phone"
+                ],
+                "text": "Task 02790: You want to find a moderately priced restaurant and it should serve cantonese food. If there is no such venue how about chinese type of food. You want to know the phone number of the venue."
+            }
+        },
+        "log": [
+            {
+                "turn id": 0,
+                "user utterance": "I am looking for a restaurant that is moderately priced and serves Cantonese food.",
+                "system response": "There are no restaurants that serve Cantonese food in the moderate price range.",
+                "dialog history": "",
+                "original user side information": {
+                    "slu": [
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "food",
+                                    "cantonese"
+                                ]
+                            ]
+                        },
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "pricerange",
+                                    "moderate"
+                                ]
+                            ]
+                        }
+                    ],
+                    "transcript_complete": "I am looking for a restaurant that is moderately priced and serves Cantonese food.",
+                    "transcript_with_ellipsis": "",
+                    "transcript_with_coreference": ""
+                },
+                "original system side information": {
+                    "DA": []
+                },
+                "dst": "",
+                "dst accumulated": ""
+            },
+            {
+                "turn id": 1,
+                "user utterance": "How about chinese type of food?",
+                "system response": "the Golden wok serves chinese food and is in the moderate price range.  Would you like their location? ",
+                "dialog history": "<USER> I am looking for a restaurant that is moderately priced and serves Cantonese food. <SYSTEM> There are no restaurants that serve Cantonese food in the moderate price range.",
+                "original user side information": {
+                    "slu": [
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "food",
+                                    "chinese"
+                                ]
+                            ]
+                        },
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "pricerange",
+                                    "moderate"
+                                ]
+                            ]
+                        }
+                    ],
+                    "transcript_complete": "How about moderately priced chinese type of food?",
+                    "transcript_with_ellipsis": "How about chinese type of food?",
+                    "transcript_with_coreference": ""
+                },
+                "original system side information": {
+                    "DA": [
+                        "area"
+                    ]
+                },
+                "dst": "",
+                "dst accumulated": ""
+            },
+            {
+                "turn id": 2,
+                "user utterance": "Their phone number please.",
+                "system response": "Their phone number is 01223 350688.",
+                "dialog history": "<USER> I am looking for a restaurant that is moderately priced and serves Cantonese food. <SYSTEM> There are no restaurants that serve Cantonese food in the moderate price range. <USER> How about chinese type of food? <SYSTEM> the Golden wok serves chinese food and is in the moderate price range.  Would you like their location? ",
+                "original user side information": {
+                    "slu": [
+                        {
+                            "act": "request",
+                            "slots": [
+                                [
+                                    "slot",
+                                    "phone"
+                                ]
+                            ]
+                        },
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "food",
+                                    "chinese"
+                                ]
+                            ]
+                        },
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "pricerange",
+                                    "moderate"
+                                ]
+                            ]
+                        }
+                    ],
+                    "transcript_complete": "I would like the phone number of the Golden wok please.",
+                    "transcript_with_ellipsis": "phone number please.",
+                    "transcript_with_coreference": "Their phone number please."
+                },
+                "original system side information": {
+                    "DA": []
+                },
+                "dst": "",
+                "dst accumulated": ""
+            },
+            {
+                "turn id": 3,
+                "user utterance": "What is the area?",
+                "system response": "it is located in the north part of town",
+                "dialog history": "<USER> I am looking for a restaurant that is moderately priced and serves Cantonese food. <SYSTEM> There are no restaurants that serve Cantonese food in the moderate price range. <USER> How about chinese type of food? <SYSTEM> the Golden wok serves chinese food and is in the moderate price range.  Would you like their location?  <USER> Their phone number please. <SYSTEM> Their phone number is 01223 350688.",
+                "original user side information": {
+                    "slu": [
+                        {
+                            "act": "request",
+                            "slots": [
+                                [
+                                    "slot",
+                                    "area"
+                                ]
+                            ]
+                        },
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "food",
+                                    "chinese"
+                                ]
+                            ]
+                        },
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "pricerange",
+                                    "moderate"
+                                ]
+                            ]
+                        }
+                    ],
+                    "transcript_complete": "What is the area of the Golden wok?",
+                    "transcript_with_ellipsis": "What is the area?",
+                    "transcript_with_coreference": "What is their area?"
+                },
+                "original system side information": {
+                    "DA": []
+                },
+                "dst": "",
+                "dst accumulated": ""
+            },
+            {
+                "turn id": 4,
+                "user utterance": "Thank you for your help. Good bye.",
+                "system response": "Goodbye.",
+                "dialog history": "<USER> I am looking for a restaurant that is moderately priced and serves Cantonese food. <SYSTEM> There are no restaurants that serve Cantonese food in the moderate price range. <USER> How about chinese type of food? <SYSTEM> the Golden wok serves chinese food and is in the moderate price range.  Would you like their location?  <USER> Their phone number please. <SYSTEM> Their phone number is 01223 350688. <USER> What is the area? <SYSTEM> it is located in the north part of town",
+                "original user side information": {
+                    "slu": [
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "food",
+                                    "chinese"
+                                ]
+                            ]
+                        },
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "pricerange",
+                                    "moderate"
+                                ]
+                            ]
+                        }
+                    ],
+                    "transcript_complete": "Thank you for your help. goodbye.",
+                    "transcript_with_ellipsis": "",
+                    "transcript_with_coreference": ""
+                },
+                "original system side information": {
+                    "DA": []
+                },
+                "dst": "",
+                "dst accumulated": ""
+            }
+        ],
+        "external knowledge non-flat": {
+            "metadata": [
+                {
+                    "address": "11 Peas Hill City Centre",
+                    "area": "centre",
+                    "food": "chinese",
+                    "location": "52.204453,0.118693",
+                    "phone": "01223 566188",
+                    "pricerange": "moderate",
+                    "postcode": "C.B 2, 3 P.P",
+                    "type": "restaurant",
+                    "id": "19242",
+                    "name": "jinling noodle bar"
+                },
+                {
+                    "address": "12 Norfolk Street City Centre",
+                    "area": "centre",
+                    "food": "chinese",
+                    "location": "52.204609,0.137976",
+                    "phone": "01223 350420",
+                    "pricerange": "moderate",
+                    "postcode": "C.B 1, 2 L.F",
+                    "type": "restaurant",
+                    "id": "19186",
+                    "name": "lan hong house"
+                },
+                {
+                    "address": "191 Histon Road Chesterton",
+                    "area": "north",
+                    "food": "chinese",
+                    "location": "52.220757,0.111564",
+                    "phone": "01223 350688",
+                    "pricerange": "moderate",
+                    "postcode": "C.B 4, 3 H.L",
+                    "type": "restaurant",
+                    "id": "19265",
+                    "name": "golden wok"
+                },
+                {
+                    "address": "39 Burleigh Street City Centre",
+                    "area": "centre",
+                    "food": "chinese",
+                    "location": "52.206111,0.132969",
+                    "phone": "01223 301761",
+                    "pricerange": "moderate",
+                    "postcode": "C.B 1, 1 D.G",
+                    "type": "restaurant",
+                    "id": "19173",
+                    "name": "shanghai family restaurant"
+                },
+                {
+                    "address": "2 Rose Crescent City Centre",
+                    "area": "centre",
+                    "food": "mediterranean",
+                    "location": "52.206098,0.118713",
+                    "phone": "01223 356354",
+                    "pricerange": "cheap",
+                    "postcode": "C.B 2, 3 L.L",
+                    "type": "restaurant",
+                    "id": "19238",
+                    "name": "the gardenia"
+                },
+                {
+                    "address": "Cambridge Lodge Hotel 139 Huntingdon Road City Centre",
+                    "area": "west",
+                    "food": "european",
+                    "location": "52.217736,0.102505",
+                    "phone": "01223 355166",
+                    "pricerange": "expensive",
+                    "postcode": "C.B 3, 0 D.Q",
+                    "type": "restaurant",
+                    "id": "19252",
+                    "name": "cambridge lodge restaurant"
+                },
+                {
+                    "address": "12 Market Hill City Centre",
+                    "area": "centre",
+                    "food": "italian",
+                    "location": "52.205442,0.119706",
+                    "phone": "01223 350106",
+                    "pricerange": "expensive",
+                    "postcode": "C.B 2, 3 N.J",
+                    "type": "restaurant",
+                    "id": "19239",
+                    "name": "don pasquale pizzeria"
+                },
+                {
+                    "address": "51 Trumpington Street City Centre",
+                    "area": "centre",
+                    "food": "british",
+                    "location": "52.202598,0.118342",
+                    "phone": "01223 352500",
+                    "pricerange": "expensive",
+                    "postcode": "C.B 2, 1 R.G",
+                    "type": "restaurant",
+                    "id": "19224",
+                    "name": "fitzbillies restaurant"
+                },
+                {
+                    "address": "Milton Road Chesterton",
+                    "area": "north",
+                    "food": "chinese",
+                    "location": "52.215311,0.12593",
+                    "phone": "01223 568988",
+                    "pricerange": "expensive",
+                    "postcode": "C.B 4, 1 J.Y",
+                    "type": "restaurant",
+                    "id": "19260",
+                    "name": "hakka"
+                },
+                {
+                    "address": "183 East Road City Centre",
+                    "area": "centre",
+                    "food": "british",
+                    "location": "52.204703,0.133238",
+                    "phone": "01223 302010",
+                    "pricerange": "moderate",
+                    "postcode": "C.B 1, 1 B.G",
+                    "type": "restaurant",
+                    "id": "19171",
+                    "name": "cotto"
+                }
+            ],
+            "slots and values": {},
+            "intents": {}
+        },
+        "external knowledge": "(( address : 11 Peas Hill City Centre | area : centre | food : chinese | location : 52.204453,0.118693 | phone : 01223 566188 | pricerange : moderate | postcode : C.B 2 | 3 P.P | type : restaurant | id : 19242 | name : jinling noodle bar ) | ( address : 12 Norfolk Street City Centre | area : centre | food : chinese | location : 52.204609,0.137976 | phone : 01223 350420 | pricerange : moderate | postcode : C.B 1 | 2 L.F | type : restaurant | id : 19186 | name : lan hong house ) | ( address : 191 Histon Road Chesterton | area : north | food : chinese | location : 52.220757,0.111564 | phone : 01223 350688 | pricerange : moderate | postcode : C.B 4 | 3 H.L | type : restaurant | id : 19265 | name : golden wok ) | ( address : 39 Burleigh Street City Centre | area : centre | food : chinese | location : 52.206111,0.132969 | phone : 01223 301761 | pricerange : moderate | postcode : C.B 1 | 1 D.G | type : restaurant | id : 19173 | name : shanghai family restaurant ) | ( address : 2 Rose Crescent City Centre | area : centre | food : mediterranean | location : 52.206098,0.118713 | phone : 01223 356354 | pricerange : cheap | postcode : C.B 2 | 3 L.L | type : restaurant | id : 19238 | name : the gardenia ) | ( address : Cambridge Lodge Hotel 139 Huntingdon Road City Centre | area : west | food : european | location : 52.217736,0.102505 | phone : 01223 355166 | pricerange : expensive | postcode : C.B 3 | 0 D.Q | type : restaurant | id : 19252 | name : cambridge lodge restaurant ) | ( address : 12 Market Hill City Centre | area : centre | food : italian | location : 52.205442,0.119706 | phone : 01223 350106 | pricerange : expensive | postcode : C.B 2 | 3 N.J | type : restaurant | id : 19239 | name : don pasquale pizzeria ) | ( address : 51 Trumpington Street City Centre | area : centre | food : british | location : 52.202598,0.118342 | phone : 01223 352500 | pricerange : expensive | postcode : C.B 2 | 1 R.G | type : restaurant | id : 19224 | name : fitzbillies restaurant ) | ( address : Milton Road Chesterton | area : north | food : chinese | location : 52.215311,0.12593 | phone : 01223 568988 | pricerange : expensive | postcode : C.B 4 | 1 J.Y | type : restaurant | id : 19260 | name : hakka ) | ( address : 183 East Road City Centre | area : centre | food : british | location : 52.204703,0.133238 | phone : 01223 302010 | pricerange : moderate | postcode : C.B 1 | 1 B.G | type : restaurant | id : 19171 | name : cotto ))",
+        "dst knowledge": "",
+        "intent knowledge": "",
+        "prompt": [
+            "This is a bot helping users to find a restaurant. Given the dialog context and external database, please generate a relevant system response for the user.",
+            "This bot assists users to find a restaurant. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
+            "This bot helps users to find a restaurant. Based on the conversation history and available external data, please generate a relevant system response for the user.",
+            "The purpose of this bot is to assist users to find a restaurant. Considering the dialogue context and the information available in the external database, please provide a fitting response for the user.",
+            "This bot is designed to help users find a restaurant. By utilizing the current dialog context and external resources, generate a fitting response for the user."
+        ]
+    },
+    "GECOR--train--3": {
+        "original dialog id": 2,
+        "dialog index": 3,
+        "original dialog info": {
+            "finished": true,
+            "goal": {
+                "constraints": [
+                    [
+                        "food",
+                        "british"
+                    ],
+                    [
+                        "pricerange",
+                        "expensive"
+                    ]
+                ],
+                "request-slots": [
+                    "phone"
+                ],
+                "text": "Task 10230: You are looking for an expensive restaurant and it should serve australian food. If there is no such venue how about british type of food. You want to know the phone number of the venue."
+            }
+        },
+        "log": [
+            {
+                "turn id": 0,
+                "user utterance": "Hello, I am looking for an expensive restaurant that serves Australian food. ",
+                "system response": "There are no records matching your request for an expensive restaurant serving Australian food. May I help you find a different restaurant? ",
+                "dialog history": "",
+                "original user side information": {
+                    "slu": [
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "food",
+                                    "australian"
+                                ]
+                            ]
+                        },
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "pricerange",
+                                    "expensive"
+                                ]
+                            ]
+                        }
+                    ],
+                    "transcript_complete": "Hello, I am looking for an expensive restaurant that serves Australian food. ",
+                    "transcript_with_ellipsis": "",
+                    "transcript_with_coreference": ""
+                },
+                "original system side information": {
+                    "DA": [
+                        "food"
+                    ]
+                },
+                "dst": "",
+                "dst accumulated": ""
+            },
+            {
+                "turn id": 1,
+                "user utterance": "What about British food?",
+                "system response": "There are six restaurants matching your query. One of them is travellers rest.",
+                "dialog history": "<USER> Hello, I am looking for an expensive restaurant that serves Australian food.  <SYSTEM> There are no records matching your request for an expensive restaurant serving Australian food. May I help you find a different restaurant? ",
+                "original user side information": {
+                    "slu": [
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "food",
+                                    "british"
+                                ]
+                            ]
+                        },
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "pricerange",
+                                    "expensive"
+                                ]
+                            ]
+                        }
+                    ],
+                    "transcript_complete": "What about an expensive restaurant that serves British food?",
+                    "transcript_with_ellipsis": "What about British food?",
+                    "transcript_with_coreference": ""
+                },
+                "original system side information": {
+                    "DA": []
+                },
+                "dst": "",
+                "dst accumulated": ""
+            },
+            {
+                "turn id": 2,
+                "user utterance": "Could I have the phone number for one of the restaurants?",
+                "system response": "there phone number is 01223352500 is there anything else i can help you with?",
+                "dialog history": "<USER> Hello, I am looking for an expensive restaurant that serves Australian food.  <SYSTEM> There are no records matching your request for an expensive restaurant serving Australian food. May I help you find a different restaurant?  <USER> What about British food? <SYSTEM> There are six restaurants matching your query. One of them is travellers rest.",
+                "original user side information": {
+                    "slu": [
+                        {
+                            "act": "request",
+                            "slots": [
+                                [
+                                    "slot",
+                                    "phone"
+                                ]
+                            ]
+                        },
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "food",
+                                    "british"
+                                ]
+                            ]
+                        },
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "pricerange",
+                                    "expensive"
+                                ]
+                            ]
+                        }
+                    ],
+                    "transcript_complete": "Could I have the phone number for one of the restaurants?",
+                    "transcript_with_ellipsis": "Could I have the phone number ?",
+                    "transcript_with_coreference": "Could I have the phone number for one of them?"
+                },
+                "original system side information": {
+                    "DA": []
+                },
+                "dst": "",
+                "dst accumulated": ""
+            },
+            {
+                "turn id": 3,
+                "user utterance": "Thanks, goodbye.",
+                "system response": "Thank you, goodbye.",
+                "dialog history": "<USER> Hello, I am looking for an expensive restaurant that serves Australian food.  <SYSTEM> There are no records matching your request for an expensive restaurant serving Australian food. May I help you find a different restaurant?  <USER> What about British food? <SYSTEM> There are six restaurants matching your query. One of them is travellers rest. <USER> Could I have the phone number for one of the restaurants? <SYSTEM> there phone number is 01223352500 is there anything else i can help you with?",
+                "original user side information": {
+                    "slu": [
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "food",
+                                    "british"
+                                ]
+                            ]
+                        },
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "pricerange",
+                                    "expensive"
+                                ]
+                            ]
+                        }
+                    ],
+                    "transcript_complete": "Thanks, goodbye.",
+                    "transcript_with_ellipsis": "",
+                    "transcript_with_coreference": ""
+                },
+                "original system side information": {
+                    "DA": []
+                },
+                "dst": "",
+                "dst accumulated": ""
+            }
+        ],
+        "external knowledge non-flat": {
+            "metadata": [
+                {
+                    "address": "51 Trumpington Street City Centre",
+                    "area": "centre",
+                    "food": "british",
+                    "location": "52.202598,0.118342",
+                    "phone": "01223 352500",
+                    "pricerange": "expensive",
+                    "postcode": "C.B 2, 1 R.G",
+                    "type": "restaurant",
+                    "id": "19224",
+                    "name": "fitzbillies restaurant"
+                },
+                {
+                    "address": "Cambridge City Football Club Milton Road Chesterton",
+                    "area": "north",
+                    "location": "52.215157,0.125015",
+                    "phone": "01223 363270",
+                    "pricerange": "expensive",
+                    "postcode": "C.B 4, 1 U.Y",
+                    "type": "restaurant",
+                    "id": "19262",
+                    "name": "city stop restaurant"
+                },
+                {
+                    "address": "Hotel Felix Whitehouse Lane Huntingdon Road",
+                    "area": "west",
+                    "food": "british",
+                    "location": "52.22414,0.09194",
+                    "phone": "01223 277977",
+                    "pricerange": "expensive",
+                    "postcode": "C.B 3, 0 L.X",
+                    "type": "restaurant",
+                    "id": "7492",
+                    "name": "graffiti"
+                },
+                {
+                    "address": "Grafton Hotel 619 Newmarket Road Fen Ditton",
+                    "area": "east",
+                    "food": "british",
+                    "location": "52.212992,0.157569",
+                    "phone": "01223 241387",
+                    "pricerange": "expensive",
+                    "postcode": "C.B 5, 8 P.A",
+                    "type": "restaurant",
+                    "id": "19271",
+                    "name": "grafton hotel restaurant"
+                },
+                {
+                    "address": "Huntingdon Road City Centre",
+                    "area": "west",
+                    "food": "british",
+                    "location": "52.214201,0.108588",
+                    "phone": "01223 276182",
+                    "pricerange": "expensive",
+                    "postcode": "C.B 3, 0 D.F",
+                    "type": "restaurant",
+                    "id": "19251",
+                    "name": "travellers rest"
+                },
+                {
+                    "address": "1 Kings Parade",
+                    "area": "centre",
+                    "food": "british",
+                    "location": "52.20439,0.11784",
+                    "phone": "01223 359506",
+                    "pricerange": "expensive",
+                    "postcode": "C.B 2, 1 S.J",
+                    "type": "restaurant",
+                    "id": "6941",
+                    "name": "the cambridge chop house"
+                },
+                {
+                    "address": "Midsummer Common",
+                    "area": "centre",
+                    "food": "british",
+                    "location": "52.21251,0.12774",
+                    "phone": "01223 369299",
+                    "pricerange": "expensive",
+                    "postcode": "C.B 4, 1 H.A",
+                    "type": "restaurant",
+                    "id": "508",
+                    "name": "midsummer house restaurant"
+                },
+                {
+                    "address": "12 St. Johns Street City Centre",
+                    "area": "centre",
+                    "food": "chinese",
+                    "location": "52.208055,0.118397",
+                    "pricerange": "expensive",
+                    "postcode": "C.B 2, 1 T.W",
+                    "type": "restaurant",
+                    "id": "19228",
+                    "name": "ugly duckling"
+                },
+                {
+                    "address": "35 Saint Andrews Street City Centre",
+                    "area": "centre",
+                    "food": "international",
+                    "location": "52.202793,0.123488",
+                    "phone": "01223 356060",
+                    "pricerange": "moderate",
+                    "postcode": "C.B 2, 3 A.R",
+                    "type": "restaurant",
+                    "id": "19235",
+                    "name": "the varsity restaurant"
+                },
+                {
+                    "address": "66 Chesterton Road Chesterton",
+                    "area": "north",
+                    "food": "chinese",
+                    "location": "52.214531,0.127298",
+                    "phone": "01223 366552",
+                    "pricerange": "expensive",
+                    "postcode": "C.B 4, 1 E.P",
+                    "type": "restaurant",
+                    "id": "19258",
+                    "name": "the hotpot"
+                }
+            ],
+            "slots and values": {},
+            "intents": {}
+        },
+        "external knowledge": "(( address : 51 Trumpington Street City Centre | area : centre | food : british | location : 52.202598,0.118342 | phone : 01223 352500 | pricerange : expensive | postcode : C.B 2 | 1 R.G | type : restaurant | id : 19224 | name : fitzbillies restaurant ) | ( address : Cambridge City Football Club Milton Road Chesterton | area : north | location : 52.215157,0.125015 | phone : 01223 363270 | pricerange : expensive | postcode : C.B 4 | 1 U.Y | type : restaurant | id : 19262 | name : city stop restaurant ) | ( address : Hotel Felix Whitehouse Lane Huntingdon Road | area : west | food : british | location : 52.22414,0.09194 | phone : 01223 277977 | pricerange : expensive | postcode : C.B 3 | 0 L.X | type : restaurant | id : 7492 | name : graffiti ) | ( address : Grafton Hotel 619 Newmarket Road Fen Ditton | area : east | food : british | location : 52.212992,0.157569 | phone : 01223 241387 | pricerange : expensive | postcode : C.B 5 | 8 P.A | type : restaurant | id : 19271 | name : grafton hotel restaurant ) | ( address : Huntingdon Road City Centre | area : west | food : british | location : 52.214201,0.108588 | phone : 01223 276182 | pricerange : expensive | postcode : C.B 3 | 0 D.F | type : restaurant | id : 19251 | name : travellers rest ) | ( address : 1 Kings Parade | area : centre | food : british | location : 52.20439,0.11784 | phone : 01223 359506 | pricerange : expensive | postcode : C.B 2 | 1 S.J | type : restaurant | id : 6941 | name : the cambridge chop house ) | ( address : Midsummer Common | area : centre | food : british | location : 52.21251,0.12774 | phone : 01223 369299 | pricerange : expensive | postcode : C.B 4 | 1 H.A | type : restaurant | id : 508 | name : midsummer house restaurant ) | ( address : 12 St. Johns Street City Centre | area : centre | food : chinese | location : 52.208055,0.118397 | pricerange : expensive | postcode : C.B 2 | 1 T.W | type : restaurant | id : 19228 | name : ugly duckling ) | ( address : 35 Saint Andrews Street City Centre | area : centre | food : international | location : 52.202793,0.123488 | phone : 01223 356060 | pricerange : moderate | postcode : C.B 2 | 3 A.R | type : restaurant | id : 19235 | name : the varsity restaurant ) | ( address : 66 Chesterton Road Chesterton | area : north | food : chinese | location : 52.214531,0.127298 | phone : 01223 366552 | pricerange : expensive | postcode : C.B 4 | 1 E.P | type : restaurant | id : 19258 | name : the hotpot ))",
+        "dst knowledge": "",
+        "intent knowledge": "",
+        "prompt": [
+            "This is a bot helping users to find a restaurant. Given the dialog context and external database, please generate a relevant system response for the user.",
+            "This bot assists users to find a restaurant. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
+            "This bot helps users to find a restaurant. Based on the conversation history and available external data, please generate a relevant system response for the user.",
+            "The purpose of this bot is to assist users to find a restaurant. Considering the dialogue context and the information available in the external database, please provide a fitting response for the user.",
+            "This bot is designed to help users find a restaurant. By utilizing the current dialog context and external resources, generate a fitting response for the user."
+        ]
+    },
+    "GECOR--train--4": {
+        "original dialog id": 3,
+        "dialog index": 4,
+        "original dialog info": {
+            "finished": true,
+            "goal": {
+                "constraints": [
+                    [
+                        "food",
+                        "african"
+                    ],
+                    [
+                        "pricerange",
+                        "expensive"
+                    ]
+                ],
+                "request-slots": [
+                    "phone"
+                ],
+                "text": "Task 01215: You want to find an expensive restaurant and it should serve african food. You want to know the phone number."
+            }
+        },
+        "log": [
+            {
+                "turn id": 0,
+                "user utterance": "I am wanting an expensive restaurant that offers African food. What is their number?",
+                "system response": "Where are you located? I see two that might work but Id like to offer the closest.",
+                "dialog history": "",
+                "original user side information": {
+                    "slu": [
+                        {
+                            "act": "request",
+                            "slots": [
+                                [
+                                    "slot",
+                                    "phone"
+                                ]
+                            ]
+                        },
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "food",
+                                    "african"
+                                ]
+                            ]
+                        },
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "pricerange",
+                                    "expensive"
+                                ]
+                            ]
+                        }
+                    ],
+                    "transcript_complete": "I am wanting an expensive restaurant that offers African food. What is their number?",
+                    "transcript_with_ellipsis": "",
+                    "transcript_with_coreference": ""
+                },
+                "original system side information": {
+                    "DA": [
+                        "area"
+                    ]
+                },
+                "dst": "",
+                "dst accumulated": ""
+            },
+            {
+                "turn id": 1,
+                "user utterance": "I do not care about the area of town.",
+                "system response": "Bedouin is an expensive African restaurant in the city centre. ",
+                "dialog history": "<USER> I am wanting an expensive restaurant that offers African food. What is their number? <SYSTEM> Where are you located? I see two that might work but Id like to offer the closest.",
+                "original user side information": {
+                    "slu": [
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "food",
+                                    "african"
+                                ]
+                            ]
+                        },
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "area",
+                                    "dontcare"
+                                ]
+                            ]
+                        },
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "pricerange",
+                                    "expensive"
+                                ]
+                            ]
+                        }
+                    ],
+                    "transcript_complete": "I do not care about the area of town.",
+                    "transcript_with_ellipsis": "I do not care.",
+                    "transcript_with_coreference": "I do not care about it."
+                },
+                "original system side information": {
+                    "DA": []
+                },
+                "dst": "",
+                "dst accumulated": ""
+            },
+            {
+                "turn id": 2,
+                "user utterance": "That sounds good, what is their number so that I can ring them?",
+                "system response": "Their phone number is 01223 367660.",
+                "dialog history": "<USER> I am wanting an expensive restaurant that offers African food. What is their number? <SYSTEM> Where are you located? I see two that might work but Id like to offer the closest. <USER> I do not care about the area of town. <SYSTEM> Bedouin is an expensive African restaurant in the city centre. ",
+                "original user side information": {
+                    "slu": [
+                        {
+                            "act": "request",
+                            "slots": [
+                                [
+                                    "slot",
+                                    "phone"
+                                ]
+                            ]
+                        },
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "food",
+                                    "african"
+                                ]
+                            ]
+                        },
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "pricerange",
+                                    "expensive"
+                                ]
+                            ]
+                        },
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "area",
+                                    "dontcare"
+                                ]
+                            ]
+                        }
+                    ],
+                    "transcript_complete": "That sounds good, what is Bedouin's number so that I can ring them?",
+                    "transcript_with_ellipsis": "That sounds good, what is the number so that I can ring ?",
+                    "transcript_with_coreference": "That sounds good, what is their number so that I can ring them?"
+                },
+                "original system side information": {
+                    "DA": []
+                },
+                "dst": "",
+                "dst accumulated": ""
+            },
+            {
+                "turn id": 3,
+                "user utterance": "Great! Thank you. Good Bye. ",
+                "system response": "You're welcome, goodbye.",
+                "dialog history": "<USER> I am wanting an expensive restaurant that offers African food. What is their number? <SYSTEM> Where are you located? I see two that might work but Id like to offer the closest. <USER> I do not care about the area of town. <SYSTEM> Bedouin is an expensive African restaurant in the city centre.  <USER> That sounds good, what is their number so that I can ring them? <SYSTEM> Their phone number is 01223 367660.",
+                "original user side information": {
+                    "slu": [
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "food",
+                                    "african"
+                                ]
+                            ]
+                        },
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "pricerange",
+                                    "expensive"
+                                ]
+                            ]
+                        },
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "area",
+                                    "dontcare"
+                                ]
+                            ]
+                        }
+                    ],
+                    "transcript_complete": "Great! Thank you. goodbye. ",
+                    "transcript_with_ellipsis": "",
+                    "transcript_with_coreference": ""
+                },
+                "original system side information": {
+                    "DA": []
+                },
+                "dst": "",
+                "dst accumulated": ""
+            }
+        ],
+        "external knowledge non-flat": {
+            "metadata": [
+                {
+                    "address": "100 Mill Road City Centre",
+                    "area": "centre",
+                    "food": "african",
+                    "location": "52.199332,0.138395",
+                    "phone": "01223 367660",
+                    "pricerange": "expensive",
+                    "postcode": "C.B 1, 2 B.D",
+                    "type": "restaurant",
+                    "id": "19183",
+                    "name": "bedouin"
+                },
+                {
+                    "address": "40428 King Street City Centre",
+                    "area": "centre",
+                    "food": "asian oriental",
+                    "location": "52.207446,0.122788",
+                    "phone": "01223 518111",
+                    "pricerange": "moderate",
+                    "postcode": "C.B 1, 1 L.H",
+                    "type": "restaurant",
+                    "id": "19175",
+                    "name": "yippee noodle bar"
+                },
+                {
+                    "address": "66 Chesterton Road Chesterton",
+                    "area": "north",
+                    "food": "chinese",
+                    "location": "52.214531,0.127298",
+                    "phone": "01223 366552",
+                    "pricerange": "expensive",
+                    "postcode": "C.B 4, 1 E.P",
+                    "type": "restaurant",
+                    "id": "19258",
+                    "name": "the hotpot"
+                },
+                {
+                    "address": "4 Kings Parade City Centre",
+                    "area": "centre",
+                    "food": "british",
+                    "location": "52.204387,0.117841",
+                    "phone": "01223 365068",
+                    "pricerange": "moderate",
+                    "postcode": "C.B 2, 1 S.J",
+                    "type": "restaurant",
+                    "id": "19226",
+                    "name": "the copper kettle"
+                },
+                {
+                    "address": "St. Michael's Church Trinity Street City Centre",
+                    "area": "centre",
+                    "food": "european",
+                    "location": "52.20608,0.118215",
+                    "phone": "01223 309147",
+                    "pricerange": "expensive",
+                    "postcode": "C.B 2, 1 S.U",
+                    "type": "restaurant",
+                    "id": "19227",
+                    "name": "michaelhouse cafe"
+                },
+                {
+                    "address": "66 Chesterton Road Chesterton",
+                    "area": "north",
+                    "food": "chinese",
+                    "location": "52.214531,0.127298",
+                    "phone": "01223 366552",
+                    "pricerange": "expensive",
+                    "postcode": "C.B 4, 1 E.P",
+                    "type": "restaurant",
+                    "id": "19258",
+                    "name": "the hotpot"
+                },
+                {
+                    "address": "Cambridge Lodge Hotel 139 Huntingdon Road City Centre",
+                    "area": "west",
+                    "food": "european",
+                    "location": "52.217736,0.102505",
+                    "phone": "01223 355166",
+                    "pricerange": "expensive",
+                    "postcode": "C.B 3, 0 D.Q",
+                    "type": "restaurant",
+                    "id": "19252",
+                    "name": "cambridge lodge restaurant"
+                },
+                {
+                    "address": "12 Market Hill City Centre",
+                    "area": "centre",
+                    "food": "italian",
+                    "location": "52.205442,0.119706",
+                    "phone": "01223 350106",
+                    "pricerange": "expensive",
+                    "postcode": "C.B 2, 3 N.J",
+                    "type": "restaurant",
+                    "id": "19239",
+                    "name": "don pasquale pizzeria"
+                },
+                {
+                    "address": "Mill Road City Centre",
+                    "area": "centre",
+                    "food": "indian",
+                    "location": "52.199289,0.13974",
+                    "phone": "01223 329432",
+                    "pricerange": "expensive",
+                    "postcode": "C.B 1, 2 A.Z",
+                    "type": "restaurant",
+                    "id": "19182",
+                    "name": "the golden curry"
+                },
+                {
+                    "address": "Regent Street City Centre",
+                    "area": "centre",
+                    "food": "italian",
+                    "location": "52.20103,0.126023",
+                    "phone": "01223 323737",
+                    "pricerange": "cheap",
+                    "postcode": "C.B 2, 1 A.B",
+                    "type": "restaurant",
+                    "id": "19210",
+                    "name": "pizza hut city centre"
+                }
+            ],
+            "slots and values": {},
+            "intents": {}
+        },
+        "external knowledge": "(( address : 100 Mill Road City Centre | area : centre | food : african | location : 52.199332,0.138395 | phone : 01223 367660 | pricerange : expensive | postcode : C.B 1 | 2 B.D | type : restaurant | id : 19183 | name : bedouin ) | ( address : 40428 King Street City Centre | area : centre | food : asian oriental | location : 52.207446,0.122788 | phone : 01223 518111 | pricerange : moderate | postcode : C.B 1 | 1 L.H | type : restaurant | id : 19175 | name : yippee noodle bar ) | ( address : 66 Chesterton Road Chesterton | area : north | food : chinese | location : 52.214531,0.127298 | phone : 01223 366552 | pricerange : expensive | postcode : C.B 4 | 1 E.P | type : restaurant | id : 19258 | name : the hotpot ) | ( address : 4 Kings Parade City Centre | area : centre | food : british | location : 52.204387,0.117841 | phone : 01223 365068 | pricerange : moderate | postcode : C.B 2 | 1 S.J | type : restaurant | id : 19226 | name : the copper kettle ) | ( address : \"St. Michael s Church Trinity Street City Centre\" | area : centre | food : european | location : 52.20608,0.118215 | phone : 01223 309147 | pricerange : expensive | postcode : C.B 2 | 1 S.U | type : restaurant | id : 19227 | name : michaelhouse cafe ) | ( address : 66 Chesterton Road Chesterton | area : north | food : chinese | location : 52.214531,0.127298 | phone : 01223 366552 | pricerange : expensive | postcode : C.B 4 | 1 E.P | type : restaurant | id : 19258 | name : the hotpot ) | ( address : Cambridge Lodge Hotel 139 Huntingdon Road City Centre | area : west | food : european | location : 52.217736,0.102505 | phone : 01223 355166 | pricerange : expensive | postcode : C.B 3 | 0 D.Q | type : restaurant | id : 19252 | name : cambridge lodge restaurant ) | ( address : 12 Market Hill City Centre | area : centre | food : italian | location : 52.205442,0.119706 | phone : 01223 350106 | pricerange : expensive | postcode : C.B 2 | 3 N.J | type : restaurant | id : 19239 | name : don pasquale pizzeria ) | ( address : Mill Road City Centre | area : centre | food : indian | location : 52.199289,0.13974 | phone : 01223 329432 | pricerange : expensive | postcode : C.B 1 | 2 A.Z | type : restaurant | id : 19182 | name : the golden curry ) | ( address : Regent Street City Centre | area : centre | food : italian | location : 52.20103,0.126023 | phone : 01223 323737 | pricerange : cheap | postcode : C.B 2 | 1 A.B | type : restaurant | id : 19210 | name : pizza hut city centre ))",
+        "dst knowledge": "",
+        "intent knowledge": "",
+        "prompt": [
+            "This is a bot helping users to find a restaurant. Given the dialog context and external database, please generate a relevant system response for the user.",
+            "This bot assists users to find a restaurant. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
+            "This bot helps users to find a restaurant. Based on the conversation history and available external data, please generate a relevant system response for the user.",
+            "The purpose of this bot is to assist users to find a restaurant. Considering the dialogue context and the information available in the external database, please provide a fitting response for the user.",
+            "This bot is designed to help users find a restaurant. By utilizing the current dialog context and external resources, generate a fitting response for the user."
+        ]
+    },
+    "GECOR--train--5": {
+        "original dialog id": 4,
+        "dialog index": 5,
+        "original dialog info": {
+            "finished": true,
+            "goal": {
+                "constraints": [
+                    [
+                        "pricerange",
+                        "moderate"
+                    ],
+                    [
+                        "area",
+                        "north"
+                    ]
+                ],
+                "request-slots": [
+                    "address",
+                    "food"
+                ],
+                "text": "Task 07173: You are looking for a moderately priced restaurant and it should be in the north part of town. Make sure you get the address and type of food."
+            }
+        },
+        "log": [
+            {
+                "turn id": 0,
+                "user utterance": "I would like a moderately priced restaurant in the north part of town.",
+                "system response": "Golden Wok is a moderately priced restaurant in the north side of town. ",
+                "dialog history": "",
+                "original user side information": {
+                    "slu": [
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "pricerange",
+                                    "moderate"
+                                ]
+                            ]
+                        },
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "area",
+                                    "north"
+                                ]
+                            ]
+                        }
+                    ],
+                    "transcript_complete": "I would like a moderately priced restaurant in the north part of town.",
+                    "transcript_with_ellipsis": "",
+                    "transcript_with_coreference": ""
+                },
+                "original system side information": {
+                    "DA": []
+                },
+                "dst": "",
+                "dst accumulated": ""
+            },
+            {
+                "turn id": 1,
+                "user utterance": "What type of food does Golden Wok serve?",
+                "system response": "The Golden Wok serves Chinese food.  Would you like more information?",
+                "dialog history": "<USER> I would like a moderately priced restaurant in the north part of town. <SYSTEM> Golden Wok is a moderately priced restaurant in the north side of town. ",
+                "original user side information": {
+                    "slu": [
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "pricerange",
+                                    "moderate"
+                                ]
+                            ]
+                        },
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "area",
+                                    "north"
+                                ]
+                            ]
+                        }
+                    ],
+                    "transcript_complete": "What type of food does Golden Wok serve?",
+                    "transcript_with_ellipsis": "What type of food ?",
+                    "transcript_with_coreference": "What type of food does it serve?"
+                },
+                "original system side information": {
+                    "DA": []
+                },
+                "dst": "",
+                "dst accumulated": ""
+            },
+            {
+                "turn id": 2,
+                "user utterance": "Yes what is the address for the business?",
+                "system response": "They are located at 191 Histon Road Chesterton",
+                "dialog history": "<USER> I would like a moderately priced restaurant in the north part of town. <SYSTEM> Golden Wok is a moderately priced restaurant in the north side of town.  <USER> What type of food does Golden Wok serve? <SYSTEM> The Golden Wok serves Chinese food.  Would you like more information?",
+                "original user side information": {
+                    "slu": [
+                        {
+                            "act": "request",
+                            "slots": [
+                                [
+                                    "slot",
+                                    "address"
+                                ]
+                            ]
+                        },
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "pricerange",
+                                    "moderate"
+                                ]
+                            ]
+                        },
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "area",
+                                    "north"
+                                ]
+                            ]
+                        }
+                    ],
+                    "transcript_complete": "Yes, what is the address of Golden Wok for the business?",
+                    "transcript_with_ellipsis": "Yes, what is the address ?",
+                    "transcript_with_coreference": "Yes, what is the address of it for the business?"
+                },
+                "original system side information": {
+                    "DA": []
+                },
+                "dst": "",
+                "dst accumulated": ""
+            },
+            {
+                "turn id": 3,
+                "user utterance": "Great. I have everything I need, Thank you  ",
+                "system response": "You're welcome",
+                "dialog history": "<USER> I would like a moderately priced restaurant in the north part of town. <SYSTEM> Golden Wok is a moderately priced restaurant in the north side of town.  <USER> What type of food does Golden Wok serve? <SYSTEM> The Golden Wok serves Chinese food.  Would you like more information? <USER> Yes what is the address for the business? <SYSTEM> They are located at 191 Histon Road Chesterton",
+                "original user side information": {
+                    "slu": [
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "pricerange",
+                                    "moderate"
+                                ]
+                            ]
+                        },
+                        {
+                            "act": "inform",
+                            "slots": [
+                                [
+                                    "area",
+                                    "north"
+                                ]
+                            ]
+                        }
+                    ],
+                    "transcript_complete": "Great. I have everything I need, Thank you",
+                    "transcript_with_ellipsis": "",
+                    "transcript_with_coreference": ""
+                },
+                "original system side information": {
+                    "DA": []
+                },
+                "dst": "",
+                "dst accumulated": ""
+            }
+        ],
+        "external knowledge non-flat": {
+            "metadata": [
+                {
+                    "address": "7 Milton Road Chesterton",
+                    "area": "north",
+                    "food": "indian",
+                    "location": "52.215157,0.125015",
+                    "phone": "01223 360966",
+                    "pricerange": "moderate",
+                    "postcode": "C.B 4, 1 U.Y",
+                    "type": "restaurant",
+                    "id": "19263",
+                    "name": "the nirala"
+                },
+                {
+                    "address": "108 Regent Street City Centre",
+                    "area": "centre",
+                    "food": "korean",
+                    "location": "52.200187,0.126407",
+                    "phone": "01223 308681",
+                    "pricerange": "expensive",
+                    "postcode": "C.B 2, 1 D.P",
+                    "type": "restaurant",
+                    "id": "19216",
+                    "name": "little seoul"
+                },
+                {
+                    "address": "Cambridge Lodge Hotel 139 Huntingdon Road City Centre",
+                    "area": "west",
+                    "food": "european",
+                    "location": "52.217736,0.102505",
+                    "phone": "01223 355166",
+                    "pricerange": "expensive",
+                    "postcode": "C.B 3, 0 D.Q",
+                    "type": "restaurant",
+                    "id": "19252",
+                    "name": "cambridge lodge restaurant"
+                },
+                {
+                    "address": "Market Hill City Centre",
+                    "area": "centre",
+                    "food": "italian",
+                    "location": "52.205442,0.119706",
+                    "phone": "01223 352607",
+                    "pricerange": "expensive",
+                    "postcode": "C.B 2, 3 N.J",
+                    "type": "restaurant",
+                    "id": "19240",
+                    "name": "stazione restaurant and coffee bar"
+                },
+                {
+                    "address": "Market Hill City Centre",
+                    "area": "centre",
+                    "food": "italian",
+                    "location": "52.205442,0.119706",
+                    "phone": "01223 352607",
+                    "pricerange": "expensive",
+                    "postcode": "C.B 2, 3 N.J",
+                    "type": "restaurant",
+                    "id": "19240",
+                    "name": "stazione restaurant and coffee bar"
+                },
+                {
+                    "address": "King Street City Centre",
+                    "area": "centre",
+                    "food": "turkish",
+                    "location": "52.207312,0.124201",
+                    "phone": "01223 500005",
+                    "pricerange": "moderate",
+                    "postcode": "C.B 1, 1 L.N",
+                    "type": "restaurant",
+                    "id": "19178",
+                    "name": "efes restaurant"
+                },
+                {
+                    "address": "Cambridge Retail Park Newmarket Road Fen Ditton",
+                    "area": "east",
+                    "food": "italian",
+                    "location": "52.209742,0.146975",
+                    "phone": "01223 323737",
+                    "pricerange": "moderate",
+                    "postcode": "C.B 5, 8 W.R",
+                    "type": "restaurant",
+                    "id": "19275",
+                    "name": "pizza hut fen ditton"
+                },
+                {
+                    "address": "Regent Street City Centre",
+                    "area": "centre",
+                    "food": "chinese",
+                    "location": "52.201743,0.124843",
+                    "phone": "01223 361763",
+                    "pricerange": "cheap",
+                    "postcode": "C.B 2, 1 D.B",
+                    "type": "restaurant",
+                    "id": "19212",
+                    "name": "charlie chan"
+                },
+                {
+                    "address": "Market Hill City Centre",
+                    "area": "centre",
+                    "food": "italian",
+                    "location": "52.205442,0.119706",
+                    "phone": "01223 352607",
+                    "pricerange": "expensive",
+                    "postcode": "C.B 2, 3 N.J",
+                    "type": "restaurant",
+                    "id": "19240",
+                    "name": "stazione restaurant and coffee bar"
+                },
+                {
+                    "address": "Corn Exchange Street",
+                    "area": "centre",
+                    "food": "gastropub",
+                    "location": "52.204424,0.12046",
+                    "phone": "01223 308871",
+                    "pricerange": "moderate",
+                    "postcode": "C.B 2, 3 Q.F",
+                    "type": "restaurant",
+                    "id": "31390",
+                    "name": "the cow pizza kitchen and bar"
+                }
+            ],
+            "slots and values": {},
+            "intents": {}
+        },
+        "external knowledge": "(( address : 7 Milton Road Chesterton | area : north | food : indian | location : 52.215157,0.125015 | phone : 01223 360966 | pricerange : moderate | postcode : C.B 4 | 1 U.Y | type : restaurant | id : 19263 | name : the nirala ) | ( address : 108 Regent Street City Centre | area : centre | food : korean | location : 52.200187,0.126407 | phone : 01223 308681 | pricerange : expensive | postcode : C.B 2 | 1 D.P | type : restaurant | id : 19216 | name : little seoul ) | ( address : Cambridge Lodge Hotel 139 Huntingdon Road City Centre | area : west | food : european | location : 52.217736,0.102505 | phone : 01223 355166 | pricerange : expensive | postcode : C.B 3 | 0 D.Q | type : restaurant | id : 19252 | name : cambridge lodge restaurant ) | ( address : Market Hill City Centre | area : centre | food : italian | location : 52.205442,0.119706 | phone : 01223 352607 | pricerange : expensive | postcode : C.B 2 | 3 N.J | type : restaurant | id : 19240 | name : stazione restaurant and coffee bar ) | ( address : Market Hill City Centre | area : centre | food : italian | location : 52.205442,0.119706 | phone : 01223 352607 | pricerange : expensive | postcode : C.B 2 | 3 N.J | type : restaurant | id : 19240 | name : stazione restaurant and coffee bar ) | ( address : King Street City Centre | area : centre | food : turkish | location : 52.207312,0.124201 | phone : 01223 500005 | pricerange : moderate | postcode : C.B 1 | 1 L.N | type : restaurant | id : 19178 | name : efes restaurant ) | ( address : Cambridge Retail Park Newmarket Road Fen Ditton | area : east | food : italian | location : 52.209742,0.146975 | phone : 01223 323737 | pricerange : moderate | postcode : C.B 5 | 8 W.R | type : restaurant | id : 19275 | name : pizza hut fen ditton ) | ( address : Regent Street City Centre | area : centre | food : chinese | location : 52.201743,0.124843 | phone : 01223 361763 | pricerange : cheap | postcode : C.B 2 | 1 D.B | type : restaurant | id : 19212 | name : charlie chan ) | ( address : Market Hill City Centre | area : centre | food : italian | location : 52.205442,0.119706 | phone : 01223 352607 | pricerange : expensive | postcode : C.B 2 | 3 N.J | type : restaurant | id : 19240 | name : stazione restaurant and coffee bar ) | ( address : Corn Exchange Street | area : centre | food : gastropub | location : 52.204424,0.12046 | phone : 01223 308871 | pricerange : moderate | postcode : C.B 2 | 3 Q.F | type : restaurant | id : 31390 | name : the cow pizza kitchen and bar ))",
+        "dst knowledge": "",
+        "intent knowledge": "",
+        "prompt": [
+            "This is a bot helping users to find a restaurant. Given the dialog context and external database, please generate a relevant system response for the user.",
+            "This bot assists users to find a restaurant. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
+            "This bot helps users to find a restaurant. Based on the conversation history and available external data, please generate a relevant system response for the user.",
+            "The purpose of this bot is to assist users to find a restaurant. Considering the dialogue context and the information available in the external database, please provide a fitting response for the user.",
+            "This bot is designed to help users find a restaurant. By utilizing the current dialog context and external resources, generate a fitting response for the user."
+        ]
+    }
+}

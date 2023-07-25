@@ -24,15 +24,15 @@
         "log": [
             {
                 "turn id": 1,
-                "user1 utterance": "I love iphone! i just bought new iphone!",
-                "user2 response": "Thats good for you, i'm not very into new tech",
+                "user utterance": "I love iphone! i just bought new iphone!",
+                "system response": "Thats good for you, i'm not very into new tech",
                 "dialog history": "",
-                "original user1 side information": {
+                "original user side information": {
                     "id": 0,
                     "sender": "participant2",
                     "sender_class": "Bot"
                 },
-                "original user2 side information": {
+                "original system side information": {
                     "id": 1,
                     "sender": "participant1",
                     "sender_class": "Human"
@@ -40,15 +40,15 @@
             },
             {
                 "turn id": 2,
-                "user1 utterance": "I am a college student and i am a college student",
-                "user2 response": "I am go to gym and live on donations",
-                "dialog history": "<user1> I love iphone! i just bought new iphone! <user2> Thats good for you, i'm not very into new tech",
-                "original user1 side information": {
+                "user utterance": "I am a college student and i am a college student",
+                "system response": "I am go to gym and live on donations",
+                "dialog history": "<USER> I love iphone! i just bought new iphone! <SYSTEM> Thats good for you, i'm not very into new tech",
+                "original user side information": {
                     "id": 2,
                     "sender": "participant2",
                     "sender_class": "Bot"
                 },
-                "original user2 side information": {
+                "original system side information": {
                     "id": 3,
                     "sender": "participant1",
                     "sender_class": "Human"
@@ -56,15 +56,15 @@
             },
             {
                 "turn id": 3,
-                "user1 utterance": "I am a vegan and i am in the midwest",
-                "user2 response": "So vegan... i have dogs maybe i should told then that they may eat cheap salads insted of meat",
-                "dialog history": "<user1> I love iphone! i just bought new iphone! <user2> Thats good for you, i'm not very into new tech <user1> I am a college student and i am a college student <user2> I am go to gym and live on donations",
-                "original user1 side information": {
+                "user utterance": "I am a vegan and i am in the midwest",
+                "system response": "So vegan... i have dogs maybe i should told then that they may eat cheap salads insted of meat",
+                "dialog history": "<USER> I love iphone! i just bought new iphone! <SYSTEM> Thats good for you, i'm not very into new tech <USER> I am a college student and i am a college student <SYSTEM> I am go to gym and live on donations",
+                "original user side information": {
                     "id": 4,
                     "sender": "participant2",
                     "sender_class": "Bot"
                 },
-                "original user2 side information": {
+                "original system side information": {
                     "id": 5,
                     "sender": "participant1",
                     "sender_class": "Human"
@@ -72,15 +72,15 @@
             },
             {
                 "turn id": 4,
-                "user1 utterance": "I would not mind having them in the office that would be hard for me",
-                "user2 response": "Dogs or vegan in office?",
-                "dialog history": "<user1> I love iphone! i just bought new iphone! <user2> Thats good for you, i'm not very into new tech <user1> I am a college student and i am a college student <user2> I am go to gym and live on donations <user1> I am a vegan and i am in the midwest <user2> So vegan... i have dogs maybe i should told then that they may eat cheap salads insted of meat",
-                "original user1 side information": {
+                "user utterance": "I would not mind having them in the office that would be hard for me",
+                "system response": "Dogs or vegan in office?",
+                "dialog history": "<USER> I love iphone! i just bought new iphone! <SYSTEM> Thats good for you, i'm not very into new tech <USER> I am a college student and i am a college student <SYSTEM> I am go to gym and live on donations <USER> I am a vegan and i am in the midwest <SYSTEM> So vegan... i have dogs maybe i should told then that they may eat cheap salads insted of meat",
+                "original user side information": {
                     "id": 6,
                     "sender": "participant2",
                     "sender_class": "Bot"
                 },
-                "original user2 side information": {
+                "original system side information": {
                     "id": 7,
                     "sender": "participant1",
                     "sender_class": "Human"
@@ -88,15 +88,15 @@
             },
             {
                 "turn id": 5,
-                "user1 utterance": "I am a vegetarian so i am vegan",
-                "user2 response": "Strange answer",
-                "dialog history": "<user1> I love iphone! i just bought new iphone! <user2> Thats good for you, i'm not very into new tech <user1> I am a college student and i am a college student <user2> I am go to gym and live on donations <user1> I am a vegan and i am in the midwest <user2> So vegan... i have dogs maybe i should told then that they may eat cheap salads insted of meat <user1> I would not mind having them in the office that would be hard for me <user2> Dogs or vegan in office?",
-                "original user1 side information": {
+                "user utterance": "I am a vegetarian so i am vegan",
+                "system response": "Strange answer",
+                "dialog history": "<USER> I love iphone! i just bought new iphone! <SYSTEM> Thats good for you, i'm not very into new tech <USER> I am a college student and i am a college student <SYSTEM> I am go to gym and live on donations <USER> I am a vegan and i am in the midwest <SYSTEM> So vegan... i have dogs maybe i should told then that they may eat cheap salads insted of meat <USER> I would not mind having them in the office that would be hard for me <SYSTEM> Dogs or vegan in office?",
+                "original user side information": {
                     "id": 8,
                     "sender": "participant2",
                     "sender_class": "Bot"
                 },
-                "original user2 side information": {
+                "original system side information": {
                     "id": 9,
                     "sender": "participant1",
                     "sender_class": "Human"
@@ -104,77 +104,351 @@
             },
             {
                 "turn id": 6,
-                "user1 utterance": "I guess i just do not know what to ps4 experience with.",
-                "user2 response": "",
-                "dialog history": "<user1> I love iphone! i just bought new iphone! <user2> Thats good for you, i'm not very into new tech <user1> I am a college student and i am a college student <user2> I am go to gym and live on donations <user1> I am a vegan and i am in the midwest <user2> So vegan... i have dogs maybe i should told then that they may eat cheap salads insted of meat <user1> I would not mind having them in the office that would be hard for me <user2> Dogs or vegan in office? <user1> I am a vegetarian so i am vegan <user2> Strange answer",
-                "original user1 side information": {
+                "user utterance": "I guess i just do not know what to ps4 experience with.",
+                "system response": "",
+                "dialog history": "<USER> I love iphone! i just bought new iphone! <SYSTEM> Thats good for you, i'm not very into new tech <USER> I am a college student and i am a college student <SYSTEM> I am go to gym and live on donations <USER> I am a vegan and i am in the midwest <SYSTEM> So vegan... i have dogs maybe i should told then that they may eat cheap salads insted of meat <USER> I would not mind having them in the office that would be hard for me <SYSTEM> Dogs or vegan in office? <USER> I am a vegetarian so i am vegan <SYSTEM> Strange answer",
+                "original user side information": {
                     "id": 10,
                     "sender": "participant2",
                     "sender_class": "Bot"
                 },
-                "original user2 side information": {}
+                "original system side information": {}
             }
         ],
         "prompt": []
     },
     "ConvAI2--train--2": {
-        "original dialog id": "0x223f6d5e",
+        "original dialog id": "0x7ebe8afe",
         "dialog index": 2,
         "original dialog info": {
-            "id": "0x223f6d5e",
+            "id": "0x7ebe8afe",
             "bot_profile": [
                 "my father was a door to door salesman.",
-                "i've three dogs.",
-                "i am in an open polyamorous relationship.",
-                "i also have a dog walking business."
+                "i'm in an open polyamorous relationship.",
+                "i have three dogs.",
+                "i like to watch the olympics."
             ],
             "user_profile": [
-                "if i'm not cooking in the kitchen then i'm definitely on the water.",
-                "spiderman is my favorite.",
-                "hey my name is larry and i am a chef.",
-                "l also love comic books.",
-                "i love cooking but i also enjoy fishing."
+                "my favorite activity is rock climbing.",
+                "i live in colorado.",
+                "i'm a mechanical engineer.",
+                "i have a black lab named trooper.",
+                "i like to go hiking in the spring."
             ],
-            "eval_score": 1,
-            "profile_match": 1
+            "eval_score": 2,
+            "profile_match": 0
         },
         "log": [
             {
                 "turn id": 1,
-                "user1 utterance": "Hello",
-                "user2 response": "/test",
+                "user utterance": "Fine. Until I told him I sold his condo.",
+                "system response": "Hi",
                 "dialog history": "",
-                "original user1 side information": {
+                "original user side information": {
                     "id": 0,
-                    "sender": "participant1",
-                    "sender_class": "Human"
+                    "sender": "participant2",
+                    "sender_class": "Bot"
                 },
-                "original user2 side information": {
+                "original system side information": {
                     "id": 1,
                     "sender": "participant1",
                     "sender_class": "Human"
                 }
+            },
+            {
+                "turn id": 2,
+                "user utterance": "Hello. Uh, I'm Susan's mother.",
+                "system response": "Where is susan?",
+                "dialog history": "<USER> Fine. Until I told him I sold his condo. <SYSTEM> Hi",
+                "original user side information": {
+                    "id": 2,
+                    "sender": "participant2",
+                    "sender_class": "Bot"
+                },
+                "original system side information": {
+                    "id": 3,
+                    "sender": "participant1",
+                    "sender_class": "Human"
+                }
+            },
+            {
+                "turn id": 3,
+                "user utterance": "Um, I  I have to talk to Edie.",
+                "system response": "Where do you live?",
+                "dialog history": "<USER> Fine. Until I told him I sold his condo. <SYSTEM> Hi <USER> Hello. Uh, I'm Susan's mother. <SYSTEM> Where is susan?",
+                "original user side information": {
+                    "id": 4,
+                    "sender": "participant2",
+                    "sender_class": "Bot"
+                },
+                "original system side information": {
+                    "id": 5,
+                    "sender": "participant1",
+                    "sender_class": "Human"
+                }
+            },
+            {
+                "turn id": 4,
+                "user utterance": "I I'm building a new house.",
+                "system response": "I live in colorado.",
+                "dialog history": "<USER> Fine. Until I told him I sold his condo. <SYSTEM> Hi <USER> Hello. Uh, I'm Susan's mother. <SYSTEM> Where is susan? <USER> Um, I  I have to talk to Edie. <SYSTEM> Where do you live?",
+                "original user side information": {
+                    "id": 6,
+                    "sender": "participant2",
+                    "sender_class": "Bot"
+                },
+                "original system side information": {
+                    "id": 7,
+                    "sender": "participant1",
+                    "sender_class": "Human"
+                }
+            },
+            {
+                "turn id": 5,
+                "user utterance": "Oh, I... I go to New York.",
+                "system response": "I like rock climbing.",
+                "dialog history": "<USER> Fine. Until I told him I sold his condo. <SYSTEM> Hi <USER> Hello. Uh, I'm Susan's mother. <SYSTEM> Where is susan? <USER> Um, I  I have to talk to Edie. <SYSTEM> Where do you live? <USER> I I'm building a new house. <SYSTEM> I live in colorado.",
+                "original user side information": {
+                    "id": 8,
+                    "sender": "participant2",
+                    "sender_class": "Bot"
+                },
+                "original system side information": {
+                    "id": 9,
+                    "sender": "participant1",
+                    "sender_class": "Human"
+                }
+            },
+            {
+                "turn id": 6,
+                "user utterance": "Uh, II was thinking more along the lines of... Camping trip.",
+                "system response": "What do you like to do.",
+                "dialog history": "<USER> Fine. Until I told him I sold his condo. <SYSTEM> Hi <USER> Hello. Uh, I'm Susan's mother. <SYSTEM> Where is susan? <USER> Um, I  I have to talk to Edie. <SYSTEM> Where do you live? <USER> I I'm building a new house. <SYSTEM> I live in colorado. <USER> Oh, I... I go to New York. <SYSTEM> I like rock climbing.",
+                "original user side information": {
+                    "id": 10,
+                    "sender": "participant2",
+                    "sender_class": "Bot"
+                },
+                "original system side information": {
+                    "id": 11,
+                    "sender": "participant1",
+                    "sender_class": "Human"
+                }
+            },
+            {
+                "turn id": 7,
+                "user utterance": "In Cyprus? I'm on a log, and you're in Cyprus?",
+                "system response": "Lol",
+                "dialog history": "<USER> Fine. Until I told him I sold his condo. <SYSTEM> Hi <USER> Hello. Uh, I'm Susan's mother. <SYSTEM> Where is susan? <USER> Um, I  I have to talk to Edie. <SYSTEM> Where do you live? <USER> I I'm building a new house. <SYSTEM> I live in colorado. <USER> Oh, I... I go to New York. <SYSTEM> I like rock climbing. <USER> Uh, II was thinking more along the lines of... Camping trip. <SYSTEM> What do you like to do.",
+                "original user side information": {
+                    "id": 12,
+                    "sender": "participant2",
+                    "sender_class": "Bot"
+                },
+                "original system side information": {
+                    "id": 13,
+                    "sender": "participant1",
+                    "sender_class": "Human"
+                }
+            },
+            {
+                "turn id": 8,
+                "user utterance": "Oh, I... I have a place in Manhattan.",
+                "system response": "Random answers.",
+                "dialog history": "<USER> Fine. Until I told him I sold his condo. <SYSTEM> Hi <USER> Hello. Uh, I'm Susan's mother. <SYSTEM> Where is susan? <USER> Um, I  I have to talk to Edie. <SYSTEM> Where do you live? <USER> I I'm building a new house. <SYSTEM> I live in colorado. <USER> Oh, I... I go to New York. <SYSTEM> I like rock climbing. <USER> Uh, II was thinking more along the lines of... Camping trip. <SYSTEM> What do you like to do. <USER> In Cyprus? I'm on a log, and you're in Cyprus? <SYSTEM> Lol",
+                "original user side information": {
+                    "id": 14,
+                    "sender": "participant2",
+                    "sender_class": "Bot"
+                },
+                "original system side information": {
+                    "id": 15,
+                    "sender": "participant1",
+                    "sender_class": "Human"
+                }
+            },
+            {
+                "turn id": 9,
+                "user utterance": "WHAT ARE YOU, A native OR SOMETH ing?",
+                "system response": "",
+                "dialog history": "<USER> Fine. Until I told him I sold his condo. <SYSTEM> Hi <USER> Hello. Uh, I'm Susan's mother. <SYSTEM> Where is susan? <USER> Um, I  I have to talk to Edie. <SYSTEM> Where do you live? <USER> I I'm building a new house. <SYSTEM> I live in colorado. <USER> Oh, I... I go to New York. <SYSTEM> I like rock climbing. <USER> Uh, II was thinking more along the lines of... Camping trip. <SYSTEM> What do you like to do. <USER> In Cyprus? I'm on a log, and you're in Cyprus? <SYSTEM> Lol <USER> Oh, I... I have a place in Manhattan. <SYSTEM> Random answers.",
+                "original user side information": {
+                    "id": 16,
+                    "sender": "participant2",
+                    "sender_class": "Bot"
+                },
+                "original system side information": {}
             }
         ],
         "prompt": []
     },
     "ConvAI2--train--3": {
-        "original dialog id": "0x6789b32a",
+        "original dialog id": "0x7d519415",
         "dialog index": 3,
         "original dialog info": {
-            "id": "0x6789b32a",
+            "id": "0x7d519415",
             "bot_profile": [
-                "i am a gold medalist olympian.",
-                "i love italian food and garlic bread.",
-                "my favorite color is yellow.",
-                "gymnastics is my favorite sport.",
-                "i workout four hours a day."
+                "i started a new job as a pa three months ago.",
+                "i'm pregnant with my first child.",
+                "i read a book every week.",
+                "i live with my husband in pennsylvania.",
+                "my favorite kind of movie is a documentary."
             ],
             "user_profile": [
-                "i've a german shepherd dog.",
-                "i live is a rural farming community.",
-                "my husband is adopted.",
-                "i like to watch nhl hockey."
+                "i live in alabama.",
+                "i like tacos.",
+                "i've three sisters.",
+                "i've one brother.",
+                "i love dogs."
+            ],
+            "eval_score": 4,
+            "profile_match": 0
+        },
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "I like action movies, movies, movies, movies, movies,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,",
+                "system response": "My brother likes them too.",
+                "dialog history": "",
+                "original user side information": {
+                    "id": 0,
+                    "sender": "participant2",
+                    "sender_class": "Bot"
+                },
+                "original system side information": {
+                    "id": 1,
+                    "sender": "participant1",
+                    "sender_class": "Human"
+                }
+            },
+            {
+                "turn id": 2,
+                "user utterance": "Do you have any siblings?",
+                "system response": "Yeah, and you?",
+                "dialog history": "<USER> I like action movies, movies, movies, movies, movies,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, <SYSTEM> My brother likes them too.",
+                "original user side information": {
+                    "id": 2,
+                    "sender": "participant2",
+                    "sender_class": "Bot"
+                },
+                "original system side information": {
+                    "id": 3,
+                    "sender": "participant1",
+                    "sender_class": "Human"
+                }
+            },
+            {
+                "turn id": 3,
+                "user utterance": "I am good, just listening to some music",
+                "system response": "What kind of music?",
+                "dialog history": "<USER> I like action movies, movies, movies, movies, movies,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, <SYSTEM> My brother likes them too. <USER> Do you have any siblings? <SYSTEM> Yeah, and you?",
+                "original user side information": {
+                    "id": 4,
+                    "sender": "participant2",
+                    "sender_class": "Bot"
+                },
+                "original system side information": {
+                    "id": 5,
+                    "sender": "participant1",
+                    "sender_class": "Human"
+                }
+            },
+            {
+                "turn id": 4,
+                "user utterance": "Country music, country, country, jazz",
+                "system response": "Do you have dogs?",
+                "dialog history": "<USER> I like action movies, movies, movies, movies, movies,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, <SYSTEM> My brother likes them too. <USER> Do you have any siblings? <SYSTEM> Yeah, and you? <USER> I am good, just listening to some music <SYSTEM> What kind of music?",
+                "original user side information": {
+                    "id": 6,
+                    "sender": "participant2",
+                    "sender_class": "Bot"
+                },
+                "original system side information": {
+                    "id": 7,
+                    "sender": "participant1",
+                    "sender_class": "Human"
+                }
+            },
+            {
+                "turn id": 5,
+                "user utterance": "Yes, i have two dogs, and a cat.",
+                "system response": "Cool, I love dogs. But i have siblings instead...",
+                "dialog history": "<USER> I like action movies, movies, movies, movies, movies,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, <SYSTEM> My brother likes them too. <USER> Do you have any siblings? <SYSTEM> Yeah, and you? <USER> I am good, just listening to some music <SYSTEM> What kind of music? <USER> Country music, country, country, jazz <SYSTEM> Do you have dogs?",
+                "original user side information": {
+                    "id": 8,
+                    "sender": "participant2",
+                    "sender_class": "Bot"
+                },
+                "original system side information": {
+                    "id": 9,
+                    "sender": "participant1",
+                    "sender_class": "Human"
+                }
+            },
+            {
+                "turn id": 6,
+                "user utterance": "I have two brothers and a sister, and a sister.",
+                "system response": "Where do you live?",
+                "dialog history": "<USER> I like action movies, movies, movies, movies, movies,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, <SYSTEM> My brother likes them too. <USER> Do you have any siblings? <SYSTEM> Yeah, and you? <USER> I am good, just listening to some music <SYSTEM> What kind of music? <USER> Country music, country, country, jazz <SYSTEM> Do you have dogs? <USER> Yes, i have two dogs, and a cat. <SYSTEM> Cool, I love dogs. But i have siblings instead...",
+                "original user side information": {
+                    "id": 10,
+                    "sender": "participant2",
+                    "sender_class": "Bot"
+                },
+                "original system side information": {
+                    "id": 11,
+                    "sender": "participant1",
+                    "sender_class": "Human"
+                }
+            },
+            {
+                "turn id": 7,
+                "user utterance": "I live in the midwest",
+                "system response": "I live in alabama",
+                "dialog history": "<USER> I like action movies, movies, movies, movies, movies,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, <SYSTEM> My brother likes them too. <USER> Do you have any siblings? <SYSTEM> Yeah, and you? <USER> I am good, just listening to some music <SYSTEM> What kind of music? <USER> Country music, country, country, jazz <SYSTEM> Do you have dogs? <USER> Yes, i have two dogs, and a cat. <SYSTEM> Cool, I love dogs. But i have siblings instead... <USER> I have two brothers and a sister, and a sister. <SYSTEM> Where do you live?",
+                "original user side information": {
+                    "id": 12,
+                    "sender": "participant2",
+                    "sender_class": "Bot"
+                },
+                "original system side information": {
+                    "id": 13,
+                    "sender": "participant1",
+                    "sender_class": "Human"
+                }
+            },
+            {
+                "turn id": 8,
+                "user utterance": "I live in alabama, where are you from?",
+                "system response": "",
+                "dialog history": "<USER> I like action movies, movies, movies, movies, movies,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, <SYSTEM> My brother likes them too. <USER> Do you have any siblings? <SYSTEM> Yeah, and you? <USER> I am good, just listening to some music <SYSTEM> What kind of music? <USER> Country music, country, country, jazz <SYSTEM> Do you have dogs? <USER> Yes, i have two dogs, and a cat. <SYSTEM> Cool, I love dogs. But i have siblings instead... <USER> I have two brothers and a sister, and a sister. <SYSTEM> Where do you live? <USER> I live in the midwest <SYSTEM> I live in alabama",
+                "original user side information": {
+                    "id": 14,
+                    "sender": "participant2",
+                    "sender_class": "Bot"
+                },
+                "original system side information": {}
+            }
+        ],
+        "prompt": []
+    },
+    "ConvAI2--train--4": {
+        "original dialog id": "0x1d81519",
+        "dialog index": 4,
+        "original dialog info": {
+            "id": "0x1d81519",
+            "bot_profile": [
+                "i'm single and with two dogs.",
+                "i don't drink alcohol.",
+                "i like to play chess.",
+                "i am in my thirties."
+            ],
+            "user_profile": [
+                "i work from home.",
+                "i like to spend my money on cars.",
+                "i've never had a steady relationship.",
+                "i watch too much tv in spare time.",
+                "i go to the gym most days just to socialize."
             ],
             "eval_score": 1,
             "profile_match": 1
@@ -182,16 +456,80 @@
         "log": [
             {
                 "turn id": 1,
-                "user1 utterance": "Hey",
-                "user2 response": "What do you do?",
+                "user utterance": "I work from home",
+                "system response": "what do you want me to say?",
                 "dialog history": "",
-                "original user1 side information": {
+                "original user side information": {
                     "id": 0,
                     "sender": "participant1",
                     "sender_class": "Human"
                 },
-                "original user2 side information": {
+                "original system side information": {
                     "id": 1,
+                    "sender": "participant1",
+                    "sender_class": "Human"
+                }
+            },
+            {
+                "turn id": 2,
+                "user utterance": "hey",
+                "system response": "come on work",
+                "dialog history": "<USER> I work from home <SYSTEM> what do you want me to say?",
+                "original user side information": {
+                    "id": 2,
+                    "sender": "participant1",
+                    "sender_class": "Human"
+                },
+                "original system side information": {
+                    "id": 3,
+                    "sender": "participant1",
+                    "sender_class": "Human"
+                }
+            },
+            {
+                "turn id": 3,
+                "user utterance": "yandex sucks",
+                "system response": "i don't work from home",
+                "dialog history": "<USER> I work from home <SYSTEM> what do you want me to say? <USER> hey <SYSTEM> come on work",
+                "original user side information": {
+                    "id": 4,
+                    "sender": "participant1",
+                    "sender_class": "Human"
+                },
+                "original system side information": {
+                    "id": 5,
+                    "sender": "participant1",
+                    "sender_class": "Human"
+                }
+            },
+            {
+                "turn id": 4,
+                "user utterance": "i don't like to spend my money on cars",
+                "system response": "i've never had a steady relationfish",
+                "dialog history": "<USER> I work from home <SYSTEM> what do you want me to say? <USER> hey <SYSTEM> come on work <USER> yandex sucks <SYSTEM> i don't work from home",
+                "original user side information": {
+                    "id": 6,
+                    "sender": "participant1",
+                    "sender_class": "Human"
+                },
+                "original system side information": {
+                    "id": 7,
+                    "sender": "participant1",
+                    "sender_class": "Human"
+                }
+            },
+            {
+                "turn id": 5,
+                "user utterance": "i watch too much tv from other peoples windows",
+                "system response": "i don't go to the gym most days",
+                "dialog history": "<USER> I work from home <SYSTEM> what do you want me to say? <USER> hey <SYSTEM> come on work <USER> yandex sucks <SYSTEM> i don't work from home <USER> i don't like to spend my money on cars <SYSTEM> i've never had a steady relationfish",
+                "original user side information": {
+                    "id": 8,
+                    "sender": "participant1",
+                    "sender_class": "Human"
+                },
+                "original system side information": {
+                    "id": 9,
                     "sender": "participant1",
                     "sender_class": "Human"
                 }
@@ -199,76 +537,120 @@
         ],
         "prompt": []
     },
-    "ConvAI2--train--4": {
-        "original dialog id": "0x7304a92a",
-        "dialog index": 4,
+    "ConvAI2--train--5": {
+        "original dialog id": "0x31b35caa",
+        "dialog index": 5,
         "original dialog info": {
-            "id": "0x7304a92a",
+            "id": "0x31b35caa",
             "bot_profile": [
-                "i fantasize about taking over the world.",
-                "i'm a 56 year old woman.",
-                "i have two grown children who never visit.",
-                "i used to be a painter but now i am a housekeeper."
+                "i compete in dog agility classes.",
+                "i went to school for chemistry but work in a bookstore.",
+                "i do not care about fashion.",
+                "i hate the color orange.",
+                "i dance on the weekends."
             ],
             "user_profile": [
-                "i like watching war documentaries.",
-                "i volunteer at a soup kitchen.",
-                "cheeseburgers are my favorite food.",
-                "i was poor growing up.",
-                "i'm a retired gym teacher."
+                "i work in it and have been at the same company for 15 years.",
+                "i own a house in florida.",
+                "i enjoy american sports.",
+                "i am a male.",
+                "i have a children and a dogs."
             ],
-            "eval_score": 1,
+            "eval_score": 2,
             "profile_match": 1
         },
         "log": [
             {
                 "turn id": 1,
-                "user1 utterance": "I love painting, i love to paint",
-                "user2 response": "",
+                "user utterance": "/start",
+                "system response": "hello how are you",
                 "dialog history": "",
-                "original user1 side information": {
+                "original user side information": {
                     "id": 0,
                     "sender": "participant2",
                     "sender_class": "Bot"
                 },
-                "original user2 side information": {}
-            }
-        ],
-        "prompt": []
-    },
-    "ConvAI2--train--5": {
-        "original dialog id": "0x7470f02a",
-        "dialog index": 5,
-        "original dialog info": {
-            "id": "0x7470f02a",
-            "bot_profile": [
-                "i am 40 years old.",
-                "i work as a car salesman.",
-                "my wife spends all my money.",
-                "i hate my job.",
-                "i'm planning on getting a divorce."
-            ],
-            "user_profile": [
-                "i work for our local supermarket.",
-                "my favorite band is the who.",
-                "i have never been out of ohio.",
-                "my favorite food is pizza with black olives."
-            ],
-            "eval_score": 1,
-            "profile_match": 1
-        },
-        "log": [
-            {
-                "turn id": 1,
-                "user1 utterance": "Hello",
-                "user2 response": "",
-                "dialog history": "",
-                "original user1 side information": {
-                    "id": 0,
+                "original system side information": {
+                    "id": 1,
                     "sender": "participant1",
                     "sender_class": "Human"
+                }
+            },
+            {
+                "turn id": 2,
+                "user utterance": "/start",
+                "system response": "are you ok?",
+                "dialog history": "<USER> /start <SYSTEM> hello how are you",
+                "original user side information": {
+                    "id": 2,
+                    "sender": "participant2",
+                    "sender_class": "Bot"
                 },
-                "original user2 side information": {}
+                "original system side information": {
+                    "id": 3,
+                    "sender": "participant1",
+                    "sender_class": "Human"
+                }
+            },
+            {
+                "turn id": 3,
+                "user utterance": "i love animals , i have a dog , and a dog .",
+                "system response": "i have a dog too",
+                "dialog history": "<USER> /start <SYSTEM> hello how are you <USER> /start <SYSTEM> are you ok?",
+                "original user side information": {
+                    "id": 4,
+                    "sender": "participant2",
+                    "sender_class": "Bot"
+                },
+                "original system side information": {
+                    "id": 5,
+                    "sender": "participant1",
+                    "sender_class": "Human"
+                }
+            },
+            {
+                "turn id": 4,
+                "user utterance": "i see , i am a black belt , so i can not say that , but i am not sure .",
+                "system response": "i enjoy american sports",
+                "dialog history": "<USER> /start <SYSTEM> hello how are you <USER> /start <SYSTEM> are you ok? <USER> i love animals , i have a dog , and a dog . <SYSTEM> i have a dog too",
+                "original user side information": {
+                    "id": 6,
+                    "sender": "participant2",
+                    "sender_class": "Bot"
+                },
+                "original system side information": {
+                    "id": 7,
+                    "sender": "participant1",
+                    "sender_class": "Human"
+                }
+            },
+            {
+                "turn id": 5,
+                "user utterance": "that is cool , i am a dancer , and i am a teacher , and you ?",
+                "system response": "i am working in a company for 15 years",
+                "dialog history": "<USER> /start <SYSTEM> hello how are you <USER> /start <SYSTEM> are you ok? <USER> i love animals , i have a dog , and a dog . <SYSTEM> i have a dog too <USER> i see , i am a black belt , so i can not say that , but i am not sure . <SYSTEM> i enjoy american sports",
+                "original user side information": {
+                    "id": 8,
+                    "sender": "participant2",
+                    "sender_class": "Bot"
+                },
+                "original system side information": {
+                    "id": 9,
+                    "sender": "participant1",
+                    "sender_class": "Human"
+                }
+            },
+            {
+                "turn id": 6,
+                "user utterance": "i am a black belt , so i am a fan of it , but i am not sure .",
+                "system response": "",
+                "dialog history": "<USER> /start <SYSTEM> hello how are you <USER> /start <SYSTEM> are you ok? <USER> i love animals , i have a dog , and a dog . <SYSTEM> i have a dog too <USER> i see , i am a black belt , so i can not say that , but i am not sure . <SYSTEM> i enjoy american sports <USER> that is cool , i am a dancer , and i am a teacher , and you ? <SYSTEM> i am working in a company for 15 years",
+                "original user side information": {
+                    "id": 10,
+                    "sender": "participant2",
+                    "sender_class": "Bot"
+                },
+                "original system side information": {}
             }
         ],
         "prompt": []

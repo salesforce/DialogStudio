@@ -14,75 +14,75 @@
         "log": [
             {
                 "turn id": 1,
-                "user1 utterance": "How are you?",
-                "user2 response": "I'm doing well! What about you?",
+                "user utterance": "How are you?",
+                "system response": "I'm doing well! What about you?",
                 "dialog history": "",
-                "original user1 side information": {},
-                "original user2 side information": {}
+                "original user side information": {},
+                "original system side information": {}
             },
             {
                 "turn id": 2,
-                "user1 utterance": "I'm doing great! What is your favorite part of history?",
-                "user2 response": "How about you?",
-                "dialog history": "<user1> How are you? <user2> I'm doing well! What about you?",
-                "original user1 side information": {},
-                "original user2 side information": {}
+                "user utterance": "I'm doing great! What is your favorite part of history?",
+                "system response": "How about you?",
+                "dialog history": "<USER> How are you? <SYSTEM> I'm doing well! What about you?",
+                "original user side information": {},
+                "original system side information": {}
             },
             {
                 "turn id": 3,
-                "user1 utterance": "My favorite part of history has to be the War of the Roses. It's so interesting to learn about how Thomas, Richard, and Edward rose to power.",
-                "user2 response": "I agree, it's crazy that so many princes could fight to be king and end up killing each other.",
-                "dialog history": "<user1> How are you? <user2> I'm doing well! What about you? <user1> I'm doing great! What is your favorite part of history? <user2> How about you?",
-                "original user1 side information": {},
-                "original user2 side information": {}
+                "user utterance": "My favorite part of history has to be the War of the Roses. It's so interesting to learn about how Thomas, Richard, and Edward rose to power.",
+                "system response": "I agree, it's crazy that so many princes could fight to be king and end up killing each other.",
+                "dialog history": "<USER> How are you? <SYSTEM> I'm doing well! What about you? <USER> I'm doing great! What is your favorite part of history? <SYSTEM> How about you?",
+                "original user side information": {},
+                "original system side information": {}
             },
             {
                 "turn id": 4,
-                "user1 utterance": "Yeah, it was so brutal! Which part of history are you most interested in?",
-                "user2 response": "That's a tough question. The American Revolution is really interesting. Do you have a favorite period?",
-                "dialog history": "<user1> How are you? <user2> I'm doing well! What about you? <user1> I'm doing great! What is your favorite part of history? <user2> How about you? <user1> My favorite part of history has to be the War of the Roses. It's so interesting to learn about how Thomas, Richard, and Edward rose to power. <user2> I agree, it's crazy that so many princes could fight to be king and end up killing each other.",
-                "original user1 side information": {},
-                "original user2 side information": {}
+                "user utterance": "Yeah, it was so brutal! Which part of history are you most interested in?",
+                "system response": "That's a tough question. The American Revolution is really interesting. Do you have a favorite period?",
+                "dialog history": "<USER> How are you? <SYSTEM> I'm doing well! What about you? <USER> I'm doing great! What is your favorite part of history? <SYSTEM> How about you? <USER> My favorite part of history has to be the War of the Roses. It's so interesting to learn about how Thomas, Richard, and Edward rose to power. <SYSTEM> I agree, it's crazy that so many princes could fight to be king and end up killing each other.",
+                "original user side information": {},
+                "original system side information": {}
             },
             {
                 "turn id": 5,
-                "user1 utterance": "I love the Renaissance - it's so fascinating to see how society evolved after the Dark Ages.",
-                "user2 response": "The Renaissance is pretty cool. Are you interested in anything other than history?",
-                "dialog history": "<user1> How are you? <user2> I'm doing well! What about you? <user1> I'm doing great! What is your favorite part of history? <user2> How about you? <user1> My favorite part of history has to be the War of the Roses. It's so interesting to learn about how Thomas, Richard, and Edward rose to power. <user2> I agree, it's crazy that so many princes could fight to be king and end up killing each other. <user1> Yeah, it was so brutal! Which part of history are you most interested in? <user2> That's a tough question. The American Revolution is really interesting. Do you have a favorite period?",
-                "original user1 side information": {},
-                "original user2 side information": {}
+                "user utterance": "I love the Renaissance - it's so fascinating to see how society evolved after the Dark Ages.",
+                "system response": "The Renaissance is pretty cool. Are you interested in anything other than history?",
+                "dialog history": "<USER> How are you? <SYSTEM> I'm doing well! What about you? <USER> I'm doing great! What is your favorite part of history? <SYSTEM> How about you? <USER> My favorite part of history has to be the War of the Roses. It's so interesting to learn about how Thomas, Richard, and Edward rose to power. <SYSTEM> I agree, it's crazy that so many princes could fight to be king and end up killing each other. <USER> Yeah, it was so brutal! Which part of history are you most interested in? <SYSTEM> That's a tough question. The American Revolution is really interesting. Do you have a favorite period?",
+                "original user side information": {},
+                "original system side information": {}
             },
             {
                 "turn id": 6,
-                "user1 utterance": "Well, I am an expert on wine - what do you like to drink?",
-                "user2 response": "I love spirits. I have a lot of bourbon and gin.",
-                "dialog history": "<user1> How are you? <user2> I'm doing well! What about you? <user1> I'm doing great! What is your favorite part of history? <user2> How about you? <user1> My favorite part of history has to be the War of the Roses. It's so interesting to learn about how Thomas, Richard, and Edward rose to power. <user2> I agree, it's crazy that so many princes could fight to be king and end up killing each other. <user1> Yeah, it was so brutal! Which part of history are you most interested in? <user2> That's a tough question. The American Revolution is really interesting. Do you have a favorite period? <user1> I love the Renaissance - it's so fascinating to see how society evolved after the Dark Ages. <user2> The Renaissance is pretty cool. Are you interested in anything other than history?",
-                "original user1 side information": {},
-                "original user2 side information": {}
+                "user utterance": "Well, I am an expert on wine - what do you like to drink?",
+                "system response": "I love spirits. I have a lot of bourbon and gin.",
+                "dialog history": "<USER> How are you? <SYSTEM> I'm doing well! What about you? <USER> I'm doing great! What is your favorite part of history? <SYSTEM> How about you? <USER> My favorite part of history has to be the War of the Roses. It's so interesting to learn about how Thomas, Richard, and Edward rose to power. <SYSTEM> I agree, it's crazy that so many princes could fight to be king and end up killing each other. <USER> Yeah, it was so brutal! Which part of history are you most interested in? <SYSTEM> That's a tough question. The American Revolution is really interesting. Do you have a favorite period? <USER> I love the Renaissance - it's so fascinating to see how society evolved after the Dark Ages. <SYSTEM> The Renaissance is pretty cool. Are you interested in anything other than history?",
+                "original user side information": {},
+                "original system side information": {}
             },
             {
                 "turn id": 7,
-                "user1 utterance": "Oh wow, do you go to the distillery?",
-                "user2 response": "No, it's all from the store. I'm an alcoholic, I guess.",
-                "dialog history": "<user1> How are you? <user2> I'm doing well! What about you? <user1> I'm doing great! What is your favorite part of history? <user2> How about you? <user1> My favorite part of history has to be the War of the Roses. It's so interesting to learn about how Thomas, Richard, and Edward rose to power. <user2> I agree, it's crazy that so many princes could fight to be king and end up killing each other. <user1> Yeah, it was so brutal! Which part of history are you most interested in? <user2> That's a tough question. The American Revolution is really interesting. Do you have a favorite period? <user1> I love the Renaissance - it's so fascinating to see how society evolved after the Dark Ages. <user2> The Renaissance is pretty cool. Are you interested in anything other than history? <user1> Well, I am an expert on wine - what do you like to drink? <user2> I love spirits. I have a lot of bourbon and gin.",
-                "original user1 side information": {},
-                "original user2 side information": {}
+                "user utterance": "Oh wow, do you go to the distillery?",
+                "system response": "No, it's all from the store. I'm an alcoholic, I guess.",
+                "dialog history": "<USER> How are you? <SYSTEM> I'm doing well! What about you? <USER> I'm doing great! What is your favorite part of history? <SYSTEM> How about you? <USER> My favorite part of history has to be the War of the Roses. It's so interesting to learn about how Thomas, Richard, and Edward rose to power. <SYSTEM> I agree, it's crazy that so many princes could fight to be king and end up killing each other. <USER> Yeah, it was so brutal! Which part of history are you most interested in? <SYSTEM> That's a tough question. The American Revolution is really interesting. Do you have a favorite period? <USER> I love the Renaissance - it's so fascinating to see how society evolved after the Dark Ages. <SYSTEM> The Renaissance is pretty cool. Are you interested in anything other than history? <USER> Well, I am an expert on wine - what do you like to drink? <SYSTEM> I love spirits. I have a lot of bourbon and gin.",
+                "original user side information": {},
+                "original system side information": {}
             },
             {
                 "turn id": 8,
-                "user1 utterance": "Oh my gosh! Have you ever visited a wine region?",
-                "user2 response": "I've never been on a trip like that. Have you?",
-                "dialog history": "<user1> How are you? <user2> I'm doing well! What about you? <user1> I'm doing great! What is your favorite part of history? <user2> How about you? <user1> My favorite part of history has to be the War of the Roses. It's so interesting to learn about how Thomas, Richard, and Edward rose to power. <user2> I agree, it's crazy that so many princes could fight to be king and end up killing each other. <user1> Yeah, it was so brutal! Which part of history are you most interested in? <user2> That's a tough question. The American Revolution is really interesting. Do you have a favorite period? <user1> I love the Renaissance - it's so fascinating to see how society evolved after the Dark Ages. <user2> The Renaissance is pretty cool. Are you interested in anything other than history? <user1> Well, I am an expert on wine - what do you like to drink? <user2> I love spirits. I have a lot of bourbon and gin. <user1> Oh wow, do you go to the distillery? <user2> No, it's all from the store. I'm an alcoholic, I guess.",
-                "original user1 side information": {},
-                "original user2 side information": {}
+                "user utterance": "Oh my gosh! Have you ever visited a wine region?",
+                "system response": "I've never been on a trip like that. Have you?",
+                "dialog history": "<USER> How are you? <SYSTEM> I'm doing well! What about you? <USER> I'm doing great! What is your favorite part of history? <SYSTEM> How about you? <USER> My favorite part of history has to be the War of the Roses. It's so interesting to learn about how Thomas, Richard, and Edward rose to power. <SYSTEM> I agree, it's crazy that so many princes could fight to be king and end up killing each other. <USER> Yeah, it was so brutal! Which part of history are you most interested in? <SYSTEM> That's a tough question. The American Revolution is really interesting. Do you have a favorite period? <USER> I love the Renaissance - it's so fascinating to see how society evolved after the Dark Ages. <SYSTEM> The Renaissance is pretty cool. Are you interested in anything other than history? <USER> Well, I am an expert on wine - what do you like to drink? <SYSTEM> I love spirits. I have a lot of bourbon and gin. <USER> Oh wow, do you go to the distillery? <SYSTEM> No, it's all from the store. I'm an alcoholic, I guess.",
+                "original user side information": {},
+                "original system side information": {}
             },
             {
                 "turn id": 9,
-                "user1 utterance": "Haha, yes! I have been to the South of France. I love the Limousin region, it's so beautiful.",
-                "user2 response": "Oh, I've heard that wine regions in France are amazing.",
-                "dialog history": "<user1> How are you? <user2> I'm doing well! What about you? <user1> I'm doing great! What is your favorite part of history? <user2> How about you? <user1> My favorite part of history has to be the War of the Roses. It's so interesting to learn about how Thomas, Richard, and Edward rose to power. <user2> I agree, it's crazy that so many princes could fight to be king and end up killing each other. <user1> Yeah, it was so brutal! Which part of history are you most interested in? <user2> That's a tough question. The American Revolution is really interesting. Do you have a favorite period? <user1> I love the Renaissance - it's so fascinating to see how society evolved after the Dark Ages. <user2> The Renaissance is pretty cool. Are you interested in anything other than history? <user1> Well, I am an expert on wine - what do you like to drink? <user2> I love spirits. I have a lot of bourbon and gin. <user1> Oh wow, do you go to the distillery? <user2> No, it's all from the store. I'm an alcoholic, I guess. <user1> Oh my gosh! Have you ever visited a wine region? <user2> I've never been on a trip like that. Have you?",
-                "original user1 side information": {},
-                "original user2 side information": {}
+                "user utterance": "Haha, yes! I have been to the South of France. I love the Limousin region, it's so beautiful.",
+                "system response": "Oh, I've heard that wine regions in France are amazing.",
+                "dialog history": "<USER> How are you? <SYSTEM> I'm doing well! What about you? <USER> I'm doing great! What is your favorite part of history? <SYSTEM> How about you? <USER> My favorite part of history has to be the War of the Roses. It's so interesting to learn about how Thomas, Richard, and Edward rose to power. <SYSTEM> I agree, it's crazy that so many princes could fight to be king and end up killing each other. <USER> Yeah, it was so brutal! Which part of history are you most interested in? <SYSTEM> That's a tough question. The American Revolution is really interesting. Do you have a favorite period? <USER> I love the Renaissance - it's so fascinating to see how society evolved after the Dark Ages. <SYSTEM> The Renaissance is pretty cool. Are you interested in anything other than history? <USER> Well, I am an expert on wine - what do you like to drink? <SYSTEM> I love spirits. I have a lot of bourbon and gin. <USER> Oh wow, do you go to the distillery? <SYSTEM> No, it's all from the store. I'm an alcoholic, I guess. <USER> Oh my gosh! Have you ever visited a wine region? <SYSTEM> I've never been on a trip like that. Have you?",
+                "original user side information": {},
+                "original system side information": {}
             }
         ],
         "prompt": []
@@ -102,27 +102,27 @@
         "log": [
             {
                 "turn id": 1,
-                "user1 utterance": "How are you doing?",
-                "user2 response": "Good, I'm having fun figuring out how to make a simple pasta dish!",
+                "user utterance": "How are you doing?",
+                "system response": "Good, I'm having fun figuring out how to make a simple pasta dish!",
                 "dialog history": "",
-                "original user1 side information": {},
-                "original user2 side information": {}
+                "original user side information": {},
+                "original system side information": {}
             },
             {
                 "turn id": 2,
-                "user1 utterance": "What kind of pasta did you make?",
-                "user2 response": "Well, I googled it. I found a recipe for penne with some garlic. It smells delicious!",
-                "dialog history": "<user1> How are you doing? <user2> Good, I'm having fun figuring out how to make a simple pasta dish!",
-                "original user1 side information": {},
-                "original user2 side information": {}
+                "user utterance": "What kind of pasta did you make?",
+                "system response": "Well, I googled it. I found a recipe for penne with some garlic. It smells delicious!",
+                "dialog history": "<USER> How are you doing? <SYSTEM> Good, I'm having fun figuring out how to make a simple pasta dish!",
+                "original user side information": {},
+                "original system side information": {}
             },
             {
                 "turn id": 3,
-                "user1 utterance": "I bet it does. That sounds really tasty.",
-                "user2 response": "Yeah, I'm looking forward to eating it. I've never cooked before, so I'm glad it is actually working out.",
-                "dialog history": "<user1> How are you doing? <user2> Good, I'm having fun figuring out how to make a simple pasta dish! <user1> What kind of pasta did you make? <user2> Well, I googled it. I found a recipe for penne with some garlic. It smells delicious!",
-                "original user1 side information": {},
-                "original user2 side information": {}
+                "user utterance": "I bet it does. That sounds really tasty.",
+                "system response": "Yeah, I'm looking forward to eating it. I've never cooked before, so I'm glad it is actually working out.",
+                "dialog history": "<USER> How are you doing? <SYSTEM> Good, I'm having fun figuring out how to make a simple pasta dish! <USER> What kind of pasta did you make? <SYSTEM> Well, I googled it. I found a recipe for penne with some garlic. It smells delicious!",
+                "original user side information": {},
+                "original system side information": {}
             }
         ],
         "prompt": []
@@ -142,67 +142,67 @@
         "log": [
             {
                 "turn id": 1,
-                "user1 utterance": "I feel like I'm falling behind on my reading. Do you think I could talk to the science department at my university about studying it?",
-                "user2 response": "Are you studying art at your university?",
+                "user utterance": "I feel like I'm falling behind on my reading. Do you think I could talk to the science department at my university about studying it?",
+                "system response": "Are you studying art at your university?",
                 "dialog history": "",
-                "original user1 side information": {},
-                "original user2 side information": {}
+                "original user side information": {},
+                "original system side information": {}
             },
             {
                 "turn id": 2,
-                "user1 utterance": "Yeah, I'm a junior.",
-                "user2 response": "Have you thought about getting a master's in art education?",
-                "dialog history": "<user1> I feel like I'm falling behind on my reading. Do you think I could talk to the science department at my university about studying it? <user2> Are you studying art at your university?",
-                "original user1 side information": {},
-                "original user2 side information": {}
+                "user utterance": "Yeah, I'm a junior.",
+                "system response": "Have you thought about getting a master's in art education?",
+                "dialog history": "<USER> I feel like I'm falling behind on my reading. Do you think I could talk to the science department at my university about studying it? <SYSTEM> Are you studying art at your university?",
+                "original user side information": {},
+                "original system side information": {}
             },
             {
                 "turn id": 3,
-                "user1 utterance": "I haven't thought about that at all actually! I've thought about being an art curator, but maybe you're right. I've been thinking a lot about science lately. I've learned about genetic engineering in college, and I've been reading a lot of news about it. I love how there are so many possibilities for the future.",
-                "user2 response": "Wow, do you want to try being an artist and a scientist?",
-                "dialog history": "<user1> I feel like I'm falling behind on my reading. Do you think I could talk to the science department at my university about studying it? <user2> Are you studying art at your university? <user1> Yeah, I'm a junior. <user2> Have you thought about getting a master's in art education?",
-                "original user1 side information": {},
-                "original user2 side information": {}
+                "user utterance": "I haven't thought about that at all actually! I've thought about being an art curator, but maybe you're right. I've been thinking a lot about science lately. I've learned about genetic engineering in college, and I've been reading a lot of news about it. I love how there are so many possibilities for the future.",
+                "system response": "Wow, do you want to try being an artist and a scientist?",
+                "dialog history": "<USER> I feel like I'm falling behind on my reading. Do you think I could talk to the science department at my university about studying it? <SYSTEM> Are you studying art at your university? <USER> Yeah, I'm a junior. <SYSTEM> Have you thought about getting a master's in art education?",
+                "original user side information": {},
+                "original system side information": {}
             },
             {
                 "turn id": 4,
-                "user1 utterance": "That would be amazing! I think I could be the perfect artist to create pieces of art that really change the world.",
-                "user2 response": "I agree! Science is really cool too. It's nice how humans have created machines that can do so many things.",
-                "dialog history": "<user1> I feel like I'm falling behind on my reading. Do you think I could talk to the science department at my university about studying it? <user2> Are you studying art at your university? <user1> Yeah, I'm a junior. <user2> Have you thought about getting a master's in art education? <user1> I haven't thought about that at all actually! I've thought about being an art curator, but maybe you're right. I've been thinking a lot about science lately. I've learned about genetic engineering in college, and I've been reading a lot of news about it. I love how there are so many possibilities for the future. <user2> Wow, do you want to try being an artist and a scientist?",
-                "original user1 side information": {},
-                "original user2 side information": {}
+                "user utterance": "That would be amazing! I think I could be the perfect artist to create pieces of art that really change the world.",
+                "system response": "I agree! Science is really cool too. It's nice how humans have created machines that can do so many things.",
+                "dialog history": "<USER> I feel like I'm falling behind on my reading. Do you think I could talk to the science department at my university about studying it? <SYSTEM> Are you studying art at your university? <USER> Yeah, I'm a junior. <SYSTEM> Have you thought about getting a master's in art education? <USER> I haven't thought about that at all actually! I've thought about being an art curator, but maybe you're right. I've been thinking a lot about science lately. I've learned about genetic engineering in college, and I've been reading a lot of news about it. I love how there are so many possibilities for the future. <SYSTEM> Wow, do you want to try being an artist and a scientist?",
+                "original user side information": {},
+                "original system side information": {}
             },
             {
                 "turn id": 5,
-                "user1 utterance": "Definitely! I love artificial intelligence too. It's fascinating to see how the robots have learned to interact with the world.",
-                "user2 response": "Have you ever been to the Bay Area? I've heard the place is really cool.",
-                "dialog history": "<user1> I feel like I'm falling behind on my reading. Do you think I could talk to the science department at my university about studying it? <user2> Are you studying art at your university? <user1> Yeah, I'm a junior. <user2> Have you thought about getting a master's in art education? <user1> I haven't thought about that at all actually! I've thought about being an art curator, but maybe you're right. I've been thinking a lot about science lately. I've learned about genetic engineering in college, and I've been reading a lot of news about it. I love how there are so many possibilities for the future. <user2> Wow, do you want to try being an artist and a scientist? <user1> That would be amazing! I think I could be the perfect artist to create pieces of art that really change the world. <user2> I agree! Science is really cool too. It's nice how humans have created machines that can do so many things.",
-                "original user1 side information": {},
-                "original user2 side information": {}
+                "user utterance": "Definitely! I love artificial intelligence too. It's fascinating to see how the robots have learned to interact with the world.",
+                "system response": "Have you ever been to the Bay Area? I've heard the place is really cool.",
+                "dialog history": "<USER> I feel like I'm falling behind on my reading. Do you think I could talk to the science department at my university about studying it? <SYSTEM> Are you studying art at your university? <USER> Yeah, I'm a junior. <SYSTEM> Have you thought about getting a master's in art education? <USER> I haven't thought about that at all actually! I've thought about being an art curator, but maybe you're right. I've been thinking a lot about science lately. I've learned about genetic engineering in college, and I've been reading a lot of news about it. I love how there are so many possibilities for the future. <SYSTEM> Wow, do you want to try being an artist and a scientist? <USER> That would be amazing! I think I could be the perfect artist to create pieces of art that really change the world. <SYSTEM> I agree! Science is really cool too. It's nice how humans have created machines that can do so many things.",
+                "original user side information": {},
+                "original system side information": {}
             },
             {
                 "turn id": 6,
-                "user1 utterance": "Yeah, I used to live in San Francisco for a year. It was a lot of fun, but now I'm looking to move to California again.",
-                "user2 response": "What part of California are you looking to move to?",
-                "dialog history": "<user1> I feel like I'm falling behind on my reading. Do you think I could talk to the science department at my university about studying it? <user2> Are you studying art at your university? <user1> Yeah, I'm a junior. <user2> Have you thought about getting a master's in art education? <user1> I haven't thought about that at all actually! I've thought about being an art curator, but maybe you're right. I've been thinking a lot about science lately. I've learned about genetic engineering in college, and I've been reading a lot of news about it. I love how there are so many possibilities for the future. <user2> Wow, do you want to try being an artist and a scientist? <user1> That would be amazing! I think I could be the perfect artist to create pieces of art that really change the world. <user2> I agree! Science is really cool too. It's nice how humans have created machines that can do so many things. <user1> Definitely! I love artificial intelligence too. It's fascinating to see how the robots have learned to interact with the world. <user2> Have you ever been to the Bay Area? I've heard the place is really cool.",
-                "original user1 side information": {},
-                "original user2 side information": {}
+                "user utterance": "Yeah, I used to live in San Francisco for a year. It was a lot of fun, but now I'm looking to move to California again.",
+                "system response": "What part of California are you looking to move to?",
+                "dialog history": "<USER> I feel like I'm falling behind on my reading. Do you think I could talk to the science department at my university about studying it? <SYSTEM> Are you studying art at your university? <USER> Yeah, I'm a junior. <SYSTEM> Have you thought about getting a master's in art education? <USER> I haven't thought about that at all actually! I've thought about being an art curator, but maybe you're right. I've been thinking a lot about science lately. I've learned about genetic engineering in college, and I've been reading a lot of news about it. I love how there are so many possibilities for the future. <SYSTEM> Wow, do you want to try being an artist and a scientist? <USER> That would be amazing! I think I could be the perfect artist to create pieces of art that really change the world. <SYSTEM> I agree! Science is really cool too. It's nice how humans have created machines that can do so many things. <USER> Definitely! I love artificial intelligence too. It's fascinating to see how the robots have learned to interact with the world. <SYSTEM> Have you ever been to the Bay Area? I've heard the place is really cool.",
+                "original user side information": {},
+                "original system side information": {}
             },
             {
                 "turn id": 7,
-                "user1 utterance": "I'm thinking about the San Francisco Bay Area, but I'm open to other parts of California. I want to be closer to the ocean and California's wine country.",
-                "user2 response": "That would be great! How do you feel about studying science at the university level? Do you think you'll enjoy it?",
-                "dialog history": "<user1> I feel like I'm falling behind on my reading. Do you think I could talk to the science department at my university about studying it? <user2> Are you studying art at your university? <user1> Yeah, I'm a junior. <user2> Have you thought about getting a master's in art education? <user1> I haven't thought about that at all actually! I've thought about being an art curator, but maybe you're right. I've been thinking a lot about science lately. I've learned about genetic engineering in college, and I've been reading a lot of news about it. I love how there are so many possibilities for the future. <user2> Wow, do you want to try being an artist and a scientist? <user1> That would be amazing! I think I could be the perfect artist to create pieces of art that really change the world. <user2> I agree! Science is really cool too. It's nice how humans have created machines that can do so many things. <user1> Definitely! I love artificial intelligence too. It's fascinating to see how the robots have learned to interact with the world. <user2> Have you ever been to the Bay Area? I've heard the place is really cool. <user1> Yeah, I used to live in San Francisco for a year. It was a lot of fun, but now I'm looking to move to California again. <user2> What part of California are you looking to move to?",
-                "original user1 side information": {},
-                "original user2 side information": {}
+                "user utterance": "I'm thinking about the San Francisco Bay Area, but I'm open to other parts of California. I want to be closer to the ocean and California's wine country.",
+                "system response": "That would be great! How do you feel about studying science at the university level? Do you think you'll enjoy it?",
+                "dialog history": "<USER> I feel like I'm falling behind on my reading. Do you think I could talk to the science department at my university about studying it? <SYSTEM> Are you studying art at your university? <USER> Yeah, I'm a junior. <SYSTEM> Have you thought about getting a master's in art education? <USER> I haven't thought about that at all actually! I've thought about being an art curator, but maybe you're right. I've been thinking a lot about science lately. I've learned about genetic engineering in college, and I've been reading a lot of news about it. I love how there are so many possibilities for the future. <SYSTEM> Wow, do you want to try being an artist and a scientist? <USER> That would be amazing! I think I could be the perfect artist to create pieces of art that really change the world. <SYSTEM> I agree! Science is really cool too. It's nice how humans have created machines that can do so many things. <USER> Definitely! I love artificial intelligence too. It's fascinating to see how the robots have learned to interact with the world. <SYSTEM> Have you ever been to the Bay Area? I've heard the place is really cool. <USER> Yeah, I used to live in San Francisco for a year. It was a lot of fun, but now I'm looking to move to California again. <SYSTEM> What part of California are you looking to move to?",
+                "original user side information": {},
+                "original system side information": {}
             },
             {
                 "turn id": 8,
-                "user1 utterance": "I think it would be a really great idea to take some science classes while I'm still in college. Are you a scientist?",
-                "user2 response": "Actually, yes! I study evolutionary biology, but I also enjoy spending time working in a lab and doing other science experiments.",
-                "dialog history": "<user1> I feel like I'm falling behind on my reading. Do you think I could talk to the science department at my university about studying it? <user2> Are you studying art at your university? <user1> Yeah, I'm a junior. <user2> Have you thought about getting a master's in art education? <user1> I haven't thought about that at all actually! I've thought about being an art curator, but maybe you're right. I've been thinking a lot about science lately. I've learned about genetic engineering in college, and I've been reading a lot of news about it. I love how there are so many possibilities for the future. <user2> Wow, do you want to try being an artist and a scientist? <user1> That would be amazing! I think I could be the perfect artist to create pieces of art that really change the world. <user2> I agree! Science is really cool too. It's nice how humans have created machines that can do so many things. <user1> Definitely! I love artificial intelligence too. It's fascinating to see how the robots have learned to interact with the world. <user2> Have you ever been to the Bay Area? I've heard the place is really cool. <user1> Yeah, I used to live in San Francisco for a year. It was a lot of fun, but now I'm looking to move to California again. <user2> What part of California are you looking to move to? <user1> I'm thinking about the San Francisco Bay Area, but I'm open to other parts of California. I want to be closer to the ocean and California's wine country. <user2> That would be great! How do you feel about studying science at the university level? Do you think you'll enjoy it?",
-                "original user1 side information": {},
-                "original user2 side information": {}
+                "user utterance": "I think it would be a really great idea to take some science classes while I'm still in college. Are you a scientist?",
+                "system response": "Actually, yes! I study evolutionary biology, but I also enjoy spending time working in a lab and doing other science experiments.",
+                "dialog history": "<USER> I feel like I'm falling behind on my reading. Do you think I could talk to the science department at my university about studying it? <SYSTEM> Are you studying art at your university? <USER> Yeah, I'm a junior. <SYSTEM> Have you thought about getting a master's in art education? <USER> I haven't thought about that at all actually! I've thought about being an art curator, but maybe you're right. I've been thinking a lot about science lately. I've learned about genetic engineering in college, and I've been reading a lot of news about it. I love how there are so many possibilities for the future. <SYSTEM> Wow, do you want to try being an artist and a scientist? <USER> That would be amazing! I think I could be the perfect artist to create pieces of art that really change the world. <SYSTEM> I agree! Science is really cool too. It's nice how humans have created machines that can do so many things. <USER> Definitely! I love artificial intelligence too. It's fascinating to see how the robots have learned to interact with the world. <SYSTEM> Have you ever been to the Bay Area? I've heard the place is really cool. <USER> Yeah, I used to live in San Francisco for a year. It was a lot of fun, but now I'm looking to move to California again. <SYSTEM> What part of California are you looking to move to? <USER> I'm thinking about the San Francisco Bay Area, but I'm open to other parts of California. I want to be closer to the ocean and California's wine country. <SYSTEM> That would be great! How do you feel about studying science at the university level? Do you think you'll enjoy it?",
+                "original user side information": {},
+                "original system side information": {}
             }
         ],
         "prompt": []
@@ -222,19 +222,19 @@
         "log": [
             {
                 "turn id": 1,
-                "user1 utterance": "I need to find a mechanic I can trust. Do you know anyone?",
-                "user2 response": "Well, my friend recommended a mechanic he used. Maybe you should go to him!",
+                "user utterance": "I need to find a mechanic I can trust. Do you know anyone?",
+                "system response": "Well, my friend recommended a mechanic he used. Maybe you should go to him!",
                 "dialog history": "",
-                "original user1 side information": {},
-                "original user2 side information": {}
+                "original user side information": {},
+                "original system side information": {}
             },
             {
                 "turn id": 2,
-                "user1 utterance": "Thanks for the recommendation! I'll ask my friends and coworkers if anyone they know is good.",
-                "user2 response": "Well, I hope you find a good mechanic soon!",
-                "dialog history": "<user1> I need to find a mechanic I can trust. Do you know anyone? <user2> Well, my friend recommended a mechanic he used. Maybe you should go to him!",
-                "original user1 side information": {},
-                "original user2 side information": {}
+                "user utterance": "Thanks for the recommendation! I'll ask my friends and coworkers if anyone they know is good.",
+                "system response": "Well, I hope you find a good mechanic soon!",
+                "dialog history": "<USER> I need to find a mechanic I can trust. Do you know anyone? <SYSTEM> Well, my friend recommended a mechanic he used. Maybe you should go to him!",
+                "original user side information": {},
+                "original system side information": {}
             }
         ],
         "prompt": []
@@ -254,35 +254,35 @@
         "log": [
             {
                 "turn id": 1,
-                "user1 utterance": "I'm planning to make hamburgers for dinner tonight. Do you want to have some?",
-                "user2 response": "I love hamburgers! Where do you like to eat?",
+                "user utterance": "I'm planning to make hamburgers for dinner tonight. Do you want to have some?",
+                "system response": "I love hamburgers! Where do you like to eat?",
                 "dialog history": "",
-                "original user1 side information": {},
-                "original user2 side information": {}
+                "original user side information": {},
+                "original system side information": {}
             },
             {
                 "turn id": 2,
-                "user1 utterance": "I think In-N-Out makes the best burgers. What about you?",
-                "user2 response": "I haven't had In-N-Out yet, but I hear good things about it.",
-                "dialog history": "<user1> I'm planning to make hamburgers for dinner tonight. Do you want to have some? <user2> I love hamburgers! Where do you like to eat?",
-                "original user1 side information": {},
-                "original user2 side information": {}
+                "user utterance": "I think In-N-Out makes the best burgers. What about you?",
+                "system response": "I haven't had In-N-Out yet, but I hear good things about it.",
+                "dialog history": "<USER> I'm planning to make hamburgers for dinner tonight. Do you want to have some? <SYSTEM> I love hamburgers! Where do you like to eat?",
+                "original user side information": {},
+                "original system side information": {}
             },
             {
                 "turn id": 3,
-                "user1 utterance": "What burger do you usually order?",
-                "user2 response": "I like the Double-Double. That's two patties with a third slice of cheese, lettuce, and pickles on top.",
-                "dialog history": "<user1> I'm planning to make hamburgers for dinner tonight. Do you want to have some? <user2> I love hamburgers! Where do you like to eat? <user1> I think In-N-Out makes the best burgers. What about you? <user2> I haven't had In-N-Out yet, but I hear good things about it.",
-                "original user1 side information": {},
-                "original user2 side information": {}
+                "user utterance": "What burger do you usually order?",
+                "system response": "I like the Double-Double. That's two patties with a third slice of cheese, lettuce, and pickles on top.",
+                "dialog history": "<USER> I'm planning to make hamburgers for dinner tonight. Do you want to have some? <SYSTEM> I love hamburgers! Where do you like to eat? <USER> I think In-N-Out makes the best burgers. What about you? <SYSTEM> I haven't had In-N-Out yet, but I hear good things about it.",
+                "original user side information": {},
+                "original system side information": {}
             },
             {
                 "turn id": 4,
-                "user1 utterance": "Hm, I've never heard of that combination before. Do you like pickles?",
-                "user2 response": "Well, I'm not a huge fan of them. But I'd like to try it once.",
-                "dialog history": "<user1> I'm planning to make hamburgers for dinner tonight. Do you want to have some? <user2> I love hamburgers! Where do you like to eat? <user1> I think In-N-Out makes the best burgers. What about you? <user2> I haven't had In-N-Out yet, but I hear good things about it. <user1> What burger do you usually order? <user2> I like the Double-Double. That's two patties with a third slice of cheese, lettuce, and pickles on top.",
-                "original user1 side information": {},
-                "original user2 side information": {}
+                "user utterance": "Hm, I've never heard of that combination before. Do you like pickles?",
+                "system response": "Well, I'm not a huge fan of them. But I'd like to try it once.",
+                "dialog history": "<USER> I'm planning to make hamburgers for dinner tonight. Do you want to have some? <SYSTEM> I love hamburgers! Where do you like to eat? <USER> I think In-N-Out makes the best burgers. What about you? <SYSTEM> I haven't had In-N-Out yet, but I hear good things about it. <USER> What burger do you usually order? <SYSTEM> I like the Double-Double. That's two patties with a third slice of cheese, lettuce, and pickles on top.",
+                "original user side information": {},
+                "original system side information": {}
             }
         ],
         "prompt": []

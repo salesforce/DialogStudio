@@ -1,0 +1,76 @@
+[
+    {
+        "userInput": {
+            "text": "Can you help me out and look for a bus for me?"
+        },
+        "context": {},
+        "id": "27_001080",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I want to visit New York."
+        },
+        "context": {
+            "requestedSlots": [
+                "to_location"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "to_location",
+                "valueSpan": {
+                    "startIndex": 16,
+                    "endIndex": 24
+                }
+            }
+        ],
+        "id": "27_001082",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "I am leaving out from Washington on the 11th of March."
+        },
+        "context": {
+            "requestedSlots": [
+                "leaving_date",
+                "from_location"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "leaving_date",
+                "valueSpan": {
+                    "startIndex": 40,
+                    "endIndex": 53
+                }
+            },
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "startIndex": 22,
+                    "endIndex": 32
+                }
+            }
+        ],
+        "id": "27_001084",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "What is the bus station that I will leave from and which station will I arrrive at?"
+        },
+        "context": {},
+        "id": "27_001086",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Sounds fine to me."
+        },
+        "context": {},
+        "id": "27_001088",
+        "splitKey": 1.0
+    }
+]

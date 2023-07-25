@@ -9,56 +9,56 @@
         "log": [
             {
                 "turn id": 1,
-                "user1 utterance": "I remember going to the fireworks with my best friend. There was a lot of people_comma_ but it only felt like us in the world.",
-                "user2 response": "I remember going to see the fireworks with my best friend. It was the first time we ever spent time alone together. Although there was a lot of people_comma_ we felt like the only people in the world.",
+                "user utterance": "I remember going to the fireworks with my best friend. There was a lot of people_comma_ but it only felt like us in the world.",
+                "system response": "I remember going to see the fireworks with my best friend. It was the first time we ever spent time alone together. Although there was a lot of people, we felt like the only people in the world.",
                 "dialog history": "",
-                "original user1 side information": {
+                "original user side information": {
                     "tags": "",
                     "speaker_idx": 0
                 },
-                "original user2 side information": {
+                "original system side information": {
                     "tags": "",
                     "speaker_idx": 1
                 }
             },
             {
                 "turn id": 2,
-                "user1 utterance": "Was this a friend you were in love with_comma_ or just a best friend?",
-                "user2 response": "This was a best friend. I miss her.",
-                "dialog history": "<user1> I remember going to the fireworks with my best friend. There was a lot of people_comma_ but it only felt like us in the world. <user2> I remember going to see the fireworks with my best friend. It was the first time we ever spent time alone together. Although there was a lot of people_comma_ we felt like the only people in the world.",
-                "original user1 side information": {
+                "user utterance": "Was this a friend you were in love with, or just a best friend?",
+                "system response": "This was a best friend. I miss her.",
+                "dialog history": "<USER> I remember going to the fireworks with my best friend. There was a lot of people_comma_ but it only felt like us in the world. <SYSTEM> I remember going to see the fireworks with my best friend. It was the first time we ever spent time alone together. Although there was a lot of people, we felt like the only people in the world.",
+                "original user side information": {
                     "tags": "",
                     "speaker_idx": 0
                 },
-                "original user2 side information": {
+                "original system side information": {
                     "tags": "",
                     "speaker_idx": 1
                 }
             },
             {
                 "turn id": 3,
-                "user1 utterance": "Where has she gone?",
-                "user2 response": "We no longer talk.",
-                "dialog history": "<user1> I remember going to the fireworks with my best friend. There was a lot of people_comma_ but it only felt like us in the world. <user2> I remember going to see the fireworks with my best friend. It was the first time we ever spent time alone together. Although there was a lot of people_comma_ we felt like the only people in the world. <user1> Was this a friend you were in love with_comma_ or just a best friend? <user2> This was a best friend. I miss her.",
-                "original user1 side information": {
+                "user utterance": "Where has she gone?",
+                "system response": "We no longer talk.",
+                "dialog history": "<USER> I remember going to the fireworks with my best friend. There was a lot of people_comma_ but it only felt like us in the world. <SYSTEM> I remember going to see the fireworks with my best friend. It was the first time we ever spent time alone together. Although there was a lot of people, we felt like the only people in the world. <USER> Was this a friend you were in love with, or just a best friend? <SYSTEM> This was a best friend. I miss her.",
+                "original user side information": {
                     "tags": "",
                     "speaker_idx": 0
                 },
-                "original user2 side information": {
+                "original system side information": {
                     "tags": "",
                     "speaker_idx": 1
                 }
             },
             {
                 "turn id": 4,
-                "user1 utterance": "Oh was this something that happened because of an argument?",
-                "user2 response": "",
-                "dialog history": "<user1> I remember going to the fireworks with my best friend. There was a lot of people_comma_ but it only felt like us in the world. <user2> I remember going to see the fireworks with my best friend. It was the first time we ever spent time alone together. Although there was a lot of people_comma_ we felt like the only people in the world. <user1> Was this a friend you were in love with_comma_ or just a best friend? <user2> This was a best friend. I miss her. <user1> Where has she gone? <user2> We no longer talk.",
-                "original user1 side information": {
+                "user utterance": "Oh was this something that happened because of an argument?",
+                "system response": "",
+                "dialog history": "<USER> I remember going to the fireworks with my best friend. There was a lot of people_comma_ but it only felt like us in the world. <SYSTEM> I remember going to see the fireworks with my best friend. It was the first time we ever spent time alone together. Although there was a lot of people, we felt like the only people in the world. <USER> Was this a friend you were in love with, or just a best friend? <SYSTEM> This was a best friend. I miss her. <USER> Where has she gone? <SYSTEM> We no longer talk.",
+                "original user side information": {
                     "tags": "",
                     "speaker_idx": 0
                 },
-                "original user2 side information": {}
+                "original system side information": {}
             }
         ],
         "prompt": []
@@ -73,56 +73,56 @@
         "log": [
             {
                 "turn id": 1,
-                "user1 utterance": " i used to scare for darkness",
-                "user2 response": " it feels like hitting to blank wall when i see the darkness",
+                "user utterance": "i used to scare for darkness",
+                "system response": "it feels like hitting to blank wall when i see the darkness",
                 "dialog history": "",
-                "original user1 side information": {
+                "original user side information": {
                     "tags": "",
                     "speaker_idx": 3
                 },
-                "original user2 side information": {
+                "original system side information": {
                     "tags": "",
                     "speaker_idx": 2
                 }
             },
             {
                 "turn id": 2,
-                "user1 utterance": "Oh ya? I don't really see how",
-                "user2 response": "dont you feel so.. its a wonder ",
-                "dialog history": "<user1>  i used to scare for darkness <user2>  it feels like hitting to blank wall when i see the darkness",
-                "original user1 side information": {
+                "user utterance": "Oh ya? I don't really see how",
+                "system response": "dont you feel so.. its a wonder",
+                "dialog history": "<USER> i used to scare for darkness <SYSTEM> it feels like hitting to blank wall when i see the darkness",
+                "original user side information": {
                     "tags": "",
                     "speaker_idx": 3
                 },
-                "original user2 side information": {
+                "original system side information": {
                     "tags": "",
                     "speaker_idx": 2
                 }
             },
             {
                 "turn id": 3,
-                "user1 utterance": "I do actually hit blank walls a lot of times but i get by",
-                "user2 response": " i virtually thought so.. and i used to get sweatings",
-                "dialog history": "<user1>  i used to scare for darkness <user2>  it feels like hitting to blank wall when i see the darkness <user1> Oh ya? I don't really see how <user2> dont you feel so.. its a wonder ",
-                "original user1 side information": {
+                "user utterance": "I do actually hit blank walls a lot of times but i get by",
+                "system response": "i virtually thought so.. and i used to get sweatings",
+                "dialog history": "<USER> i used to scare for darkness <SYSTEM> it feels like hitting to blank wall when i see the darkness <USER> Oh ya? I don't really see how <SYSTEM> dont you feel so.. its a wonder",
+                "original user side information": {
                     "tags": "",
                     "speaker_idx": 3
                 },
-                "original user2 side information": {
+                "original system side information": {
                     "tags": "",
                     "speaker_idx": 2
                 }
             },
             {
                 "turn id": 4,
-                "user1 utterance": "Wait what are sweatings",
-                "user2 response": "",
-                "dialog history": "<user1>  i used to scare for darkness <user2>  it feels like hitting to blank wall when i see the darkness <user1> Oh ya? I don't really see how <user2> dont you feel so.. its a wonder  <user1> I do actually hit blank walls a lot of times but i get by <user2>  i virtually thought so.. and i used to get sweatings",
-                "original user1 side information": {
+                "user utterance": "Wait what are sweatings",
+                "system response": "",
+                "dialog history": "<USER> i used to scare for darkness <SYSTEM> it feels like hitting to blank wall when i see the darkness <USER> Oh ya? I don't really see how <SYSTEM> dont you feel so.. its a wonder <USER> I do actually hit blank walls a lot of times but i get by <SYSTEM> i virtually thought so.. and i used to get sweatings",
+                "original user side information": {
                     "tags": "",
                     "speaker_idx": 3
                 },
-                "original user2 side information": {}
+                "original system side information": {}
             }
         ],
         "prompt": []
@@ -137,58 +137,42 @@
         "log": [
             {
                 "turn id": 1,
-                "user1 utterance": "I showed a guy how to run a good bead in welding class and he caught on quick.",
-                "user2 response": "Hi how are you doing today",
+                "user utterance": "I showed a guy how to run a good bead in welding class and he caught on quick.",
+                "system response": "Hi how are you doing today",
                 "dialog history": "",
-                "original user1 side information": {
+                "original user side information": {
                     "tags": "",
                     "speaker_idx": 2
                 },
-                "original user2 side information": {
+                "original system side information": {
                     "tags": "<HI>",
                     "speaker_idx": 3
                 }
             },
             {
                 "turn id": 2,
-                "user1 utterance": "",
-                "user2 response": "doing good.. how about you",
-                "dialog history": "<user1> I showed a guy how to run a good bead in welding class and he caught on quick. <user2> Hi how are you doing today",
-                "original user1 side information": {},
-                "original user2 side information": {
+                "user utterance": "doing good.. how about you",
+                "system response": "Im good, trying to understand how someone can feel like hitting a blank wall when they see the darkness",
+                "dialog history": "<USER> I showed a guy how to run a good bead in welding class and he caught on quick. <SYSTEM> Hi how are you doing today",
+                "original user side information": {
                     "tags": "",
                     "speaker_idx": 2
-                }
-            },
-            {
-                "turn id": 2,
-                "user1 utterance": "",
-                "user2 response": "Im good_comma_ trying to understand how someone can feel like hitting a blank wall when they see the darkness",
-                "dialog history": "<user1> I showed a guy how to run a good bead in welding class and he caught on quick. <user2> Hi how are you doing today <user2> doing good.. how about you",
-                "original user1 side information": {},
-                "original user2 side information": {
+                },
+                "original system side information": {
                     "tags": "",
                     "speaker_idx": 3
                 }
             },
             {
                 "turn id": 3,
-                "user1 utterance": "",
-                "user2 response": "it's quite strange that you didnt imagine it",
-                "dialog history": "<user1> I showed a guy how to run a good bead in welding class and he caught on quick. <user2> Hi how are you doing today <user2> doing good.. how about you <user2> Im good_comma_ trying to understand how someone can feel like hitting a blank wall when they see the darkness",
-                "original user1 side information": {},
-                "original user2 side information": {
+                "user utterance": "it's quite strange that you didnt imagine it",
+                "system response": "i dont imagine feeling a lot, maybe your on to something",
+                "dialog history": "<USER> I showed a guy how to run a good bead in welding class and he caught on quick. <SYSTEM> Hi how are you doing today <USER> doing good.. how about you <SYSTEM> Im good, trying to understand how someone can feel like hitting a blank wall when they see the darkness",
+                "original user side information": {
                     "tags": "",
                     "speaker_idx": 2
-                }
-            },
-            {
-                "turn id": 3,
-                "user1 utterance": "",
-                "user2 response": "i dont imagine feeling a lot_comma_ maybe your on to something",
-                "dialog history": "<user1> I showed a guy how to run a good bead in welding class and he caught on quick. <user2> Hi how are you doing today <user2> doing good.. how about you <user2> Im good_comma_ trying to understand how someone can feel like hitting a blank wall when they see the darkness <user2> it's quite strange that you didnt imagine it",
-                "original user1 side information": {},
-                "original user2 side information": {
+                },
+                "original system side information": {
                     "tags": "",
                     "speaker_idx": 3
                 }
@@ -206,42 +190,42 @@
         "log": [
             {
                 "turn id": 1,
-                "user1 utterance": "I have always been loyal to my wife.",
-                "user2 response": "I have never cheated on my wife.",
+                "user utterance": "I have always been loyal to my wife.",
+                "system response": "I have never cheated on my wife.",
                 "dialog history": "",
-                "original user1 side information": {
+                "original user side information": {
                     "tags": "",
                     "speaker_idx": 5
                 },
-                "original user2 side information": {
+                "original system side information": {
                     "tags": "",
                     "speaker_idx": 4
                 }
             },
             {
                 "turn id": 2,
-                "user1 utterance": "And thats something you should never do_comma_ good on you. ",
-                "user2 response": "Yea it hasn't been easy but I am proud I haven't",
-                "dialog history": "<user1> I have always been loyal to my wife. <user2> I have never cheated on my wife.",
-                "original user1 side information": {
+                "user utterance": "And thats something you should never do, good on you.",
+                "system response": "Yea it hasn't been easy but I am proud I haven't",
+                "dialog history": "<USER> I have always been loyal to my wife. <SYSTEM> I have never cheated on my wife.",
+                "original user side information": {
                     "tags": "",
                     "speaker_idx": 5
                 },
-                "original user2 side information": {
+                "original system side information": {
                     "tags": "",
                     "speaker_idx": 4
                 }
             },
             {
                 "turn id": 3,
-                "user1 utterance": "What do you mean it hasn't been easy? How close have you come to cheating? ",
-                "user2 response": "",
-                "dialog history": "<user1> I have always been loyal to my wife. <user2> I have never cheated on my wife. <user1> And thats something you should never do_comma_ good on you.  <user2> Yea it hasn't been easy but I am proud I haven't",
-                "original user1 side information": {
+                "user utterance": "What do you mean it hasn't been easy? How close have you come to cheating?",
+                "system response": "",
+                "dialog history": "<USER> I have always been loyal to my wife. <SYSTEM> I have never cheated on my wife. <USER> And thats something you should never do, good on you. <SYSTEM> Yea it hasn't been easy but I am proud I haven't",
+                "original user side information": {
                     "tags": "",
                     "speaker_idx": 5
                 },
-                "original user2 side information": {}
+                "original system side information": {}
             }
         ],
         "prompt": []
@@ -256,58 +240,42 @@
         "log": [
             {
                 "turn id": 1,
-                "user1 utterance": "A recent job interview that I had made me feel very anxious because I felt like I didn't come prepared.",
-                "user2 response": "Job interviews always make me sweat bullets_comma_ makes me uncomfortable in general to be looked at under a microscope like that. ",
+                "user utterance": "A recent job interview that I had made me feel very anxious because I felt like I didn't come prepared.",
+                "system response": "Job interviews always make me sweat bullets, makes me uncomfortable in general to be looked at under a microscope like that.",
                 "dialog history": "",
-                "original user1 side information": {
+                "original user side information": {
                     "tags": "",
                     "speaker_idx": 4
                 },
-                "original user2 side information": {
+                "original system side information": {
                     "tags": "",
                     "speaker_idx": 5
                 }
             },
             {
                 "turn id": 2,
-                "user1 utterance": "",
-                "user2 response": "Don't be nervous. Just be prepared.",
-                "dialog history": "<user1> A recent job interview that I had made me feel very anxious because I felt like I didn't come prepared. <user2> Job interviews always make me sweat bullets_comma_ makes me uncomfortable in general to be looked at under a microscope like that. ",
-                "original user1 side information": {},
-                "original user2 side information": {
+                "user utterance": "Don't be nervous. Just be prepared.",
+                "system response": "I feel like getting prepared and then having a curve ball thrown at you throws you off.",
+                "dialog history": "<USER> A recent job interview that I had made me feel very anxious because I felt like I didn't come prepared. <SYSTEM> Job interviews always make me sweat bullets, makes me uncomfortable in general to be looked at under a microscope like that.",
+                "original user side information": {
                     "tags": "",
                     "speaker_idx": 4
-                }
-            },
-            {
-                "turn id": 2,
-                "user1 utterance": "",
-                "user2 response": "I feel like getting prepared and then having a curve ball thrown at you throws you off. ",
-                "dialog history": "<user1> A recent job interview that I had made me feel very anxious because I felt like I didn't come prepared. <user2> Job interviews always make me sweat bullets_comma_ makes me uncomfortable in general to be looked at under a microscope like that.  <user2> Don't be nervous. Just be prepared.",
-                "original user1 side information": {},
-                "original user2 side information": {
+                },
+                "original system side information": {
                     "tags": "",
                     "speaker_idx": 5
                 }
             },
             {
                 "turn id": 3,
-                "user1 utterance": "",
-                "user2 response": "Yes but if you stay calm it will be ok.",
-                "dialog history": "<user1> A recent job interview that I had made me feel very anxious because I felt like I didn't come prepared. <user2> Job interviews always make me sweat bullets_comma_ makes me uncomfortable in general to be looked at under a microscope like that.  <user2> Don't be nervous. Just be prepared. <user2> I feel like getting prepared and then having a curve ball thrown at you throws you off. ",
-                "original user1 side information": {},
-                "original user2 side information": {
+                "user utterance": "Yes but if you stay calm it will be ok.",
+                "system response": "It's hard to stay clam. How do you do it?",
+                "dialog history": "<USER> A recent job interview that I had made me feel very anxious because I felt like I didn't come prepared. <SYSTEM> Job interviews always make me sweat bullets, makes me uncomfortable in general to be looked at under a microscope like that. <USER> Don't be nervous. Just be prepared. <SYSTEM> I feel like getting prepared and then having a curve ball thrown at you throws you off.",
+                "original user side information": {
                     "tags": "",
                     "speaker_idx": 4
-                }
-            },
-            {
-                "turn id": 3,
-                "user1 utterance": "",
-                "user2 response": "It's hard to stay clam. How do you do it? ",
-                "dialog history": "<user1> A recent job interview that I had made me feel very anxious because I felt like I didn't come prepared. <user2> Job interviews always make me sweat bullets_comma_ makes me uncomfortable in general to be looked at under a microscope like that.  <user2> Don't be nervous. Just be prepared. <user2> I feel like getting prepared and then having a curve ball thrown at you throws you off.  <user2> Yes but if you stay calm it will be ok.",
-                "original user1 side information": {},
-                "original user2 side information": {
+                },
+                "original system side information": {
                     "tags": "",
                     "speaker_idx": 5
                 }

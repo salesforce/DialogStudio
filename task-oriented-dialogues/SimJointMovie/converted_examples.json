@@ -2,96 +2,7 @@
     "SimJointMovie--train--1": {
         "original dialog id": "movies_00000004",
         "dialog index": 1,
-        "original dialog info": {
-            "slots and values": {
-                "movie": {
-                    "time": [
-                        "8 pm",
-                        "8:00 pm",
-                        "7.30 pm",
-                        "6 pm",
-                        "6.15 pm",
-                        "10:00 pm",
-                        "7 pm",
-                        "5 pm",
-                        "1 pm",
-                        "8.30 pm",
-                        "6:00 pm",
-                        "12 pm",
-                        "4:00 pm",
-                        "dontcare",
-                        "2 pm",
-                        "7.15 pm",
-                        "6.30 pm"
-                    ],
-                    "num_tickets": [
-                        "1",
-                        "4",
-                        "6",
-                        "3",
-                        "5",
-                        "2"
-                    ],
-                    "movie": [
-                        "sahasam swasaga sagipo",
-                        "mr. donkey",
-                        "storks",
-                        "achcham yenbadhu madamaiyada",
-                        "the magnificent seven",
-                        "storks",
-                        "storks",
-                        "gimme danger",
-                        "jack reacher",
-                        "max steel"
-                    ],
-                    "date": [
-                        "wednesday",
-                        "tomorrow",
-                        "tonight",
-                        "friday",
-                        "tuesday",
-                        "next monday",
-                        "sunday",
-                        "today",
-                        "saturday"
-                    ],
-                    "theatre_name": [
-                        "century 25 union city and xd",
-                        "amc newpark 12",
-                        "amc cupertino square 16",
-                        "shoreline theater",
-                        "camera 7",
-                        "angelika",
-                        "century cinemas 16",
-                        "amc mercado",
-                        "cinemark 12 downtown san mateo",
-                        "amc saratoga 14",
-                        "amc mercado 20",
-                        "century 20 great mall",
-                        "century at pacific commons",
-                        "cinelux plaza theatre",
-                        "cinemark redwood downtown 20 and xd",
-                        "aquarius",
-                        "lincoln square cinemas",
-                        "cinearts @ santana row",
-                        "cinelux almaden cafe & lounge",
-                        "the stanford theater"
-                    ]
-                }
-            },
-            "intents": {
-                "movie": [
-                    "GREETING",
-                    "OTHER",
-                    "CANT_UNDERSTAND",
-                    "NEGATE",
-                    "THANK_YOU",
-                    "GOOD_BYE",
-                    "INFORM",
-                    "AFFIRM"
-                ]
-            }
-        },
+        "original dialog info": {},
         "log": [
             {
                 "turn id": 1,
@@ -167,22 +78,7 @@
                 },
                 "dst": "movie time 6:00 pm",
                 "dst accumulated": "movie time 6:00 pm",
-                "intent": "INFORM",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "system_acts": [
-                            {
-                                "slot": "movie",
-                                "type": "REQUEST"
-                            },
-                            {
-                                "slot": "num_tickets",
-                                "type": "REQUEST"
-                            }
-                        ]
-                    }
-                },
-                "external knowledge": "System acts: [{'slot': 'movie', 'type': 'REQUEST'}, {'slot': 'num_tickets', 'type': 'REQUEST'}]"
+                "intent": "INFORM"
             },
             {
                 "turn id": 2,
@@ -269,22 +165,7 @@
                 },
                 "dst": "movie num_tickets 3, movie movie a man called ove",
                 "dst accumulated": "movie time 6:00 pm, movie num_tickets 3, movie movie a man called ove",
-                "intent": "INFORM",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "system_acts": [
-                            {
-                                "slot": "theatre_name",
-                                "type": "REQUEST"
-                            },
-                            {
-                                "slot": "date",
-                                "type": "REQUEST"
-                            }
-                        ]
-                    }
-                },
-                "external knowledge": "System acts: [{'slot': 'theatre_name', 'type': 'REQUEST'}, {'slot': 'date', 'type': 'REQUEST'}]"
+                "intent": "INFORM"
             },
             {
                 "turn id": 3,
@@ -377,19 +258,7 @@
                 },
                 "dst": "movie date wednesday, movie theatre_name camera 7",
                 "dst accumulated": "movie time 6:00 pm, movie num_tickets 3, movie movie a man called ove, movie date wednesday, movie theatre_name camera 7",
-                "intent": "INFORM",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "system_acts": [
-                            {
-                                "slot": "time",
-                                "type": "CONFIRM",
-                                "value": "6:00 pm"
-                            }
-                        ]
-                    }
-                },
-                "external knowledge": "System acts: [{'slot': 'time', 'type': 'CONFIRM', 'value': '6:00 pm'}]"
+                "intent": "INFORM"
             },
             {
                 "turn id": 4,
@@ -508,34 +377,7 @@
                 },
                 "dst": "",
                 "dst accumulated": "movie time 6:00 pm, movie num_tickets 3, movie movie a man called ove, movie date wednesday, movie theatre_name camera 7",
-                "intent": "AFFIRM",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "system_acts": [
-                            {
-                                "slot": "theatre_name",
-                                "type": "NOTIFY_SUCCESS",
-                                "value": "camera 7"
-                            },
-                            {
-                                "slot": "time",
-                                "type": "NOTIFY_SUCCESS",
-                                "value": "6:00 pm"
-                            },
-                            {
-                                "slot": "movie",
-                                "type": "NOTIFY_SUCCESS",
-                                "value": "a man called ove"
-                            },
-                            {
-                                "slot": "date",
-                                "type": "NOTIFY_SUCCESS",
-                                "value": "march 08"
-                            }
-                        ]
-                    }
-                },
-                "external knowledge": "System acts: [{'slot': 'theatre_name', 'type': 'NOTIFY_SUCCESS', 'value': 'camera 7'}, {'slot': 'time', 'type': 'NOTIFY_SUCCESS', 'value': '6:00 pm'}, {'slot': 'movie', 'type': 'NOTIFY_SUCCESS', 'value': 'a man called ove'}, {'slot': 'date', 'type': 'NOTIFY_SUCCESS', 'value': 'march 08'}]"
+                "intent": "AFFIRM"
             },
             {
                 "turn id": 5,
@@ -583,29 +425,11 @@
                 "original system side information": {},
                 "dst": "",
                 "dst accumulated": "movie time 6:00 pm, movie num_tickets 3, movie movie a man called ove, movie date wednesday, movie theatre_name camera 7",
-                "intent": "THANK_YOU",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "system_acts": ""
-                    }
-                },
-                "external knowledge": "System acts: "
+                "intent": "THANK_YOU"
             }
         ],
-        "dst knowledge": "( movie : ( time : ( 8 pm | 8:00 pm | 7.30 pm | 6 pm | 6.15 pm | 10:00 pm | 7 pm | 5 pm | 1 pm | 8.30 pm | 6:00 pm | 12 pm | 4:00 pm | dontcare | 2 pm | 7.15 pm | 6.30 pm ) | num_tickets : ( 1 | 4 | 6 | 3 | 5 | 2 ) | movie : ( sahasam swasaga sagipo | mr. donkey | storks | achcham yenbadhu madamaiyada | the magnificent seven | storks | storks | gimme danger | jack reacher | max steel ) | date : ( wednesday | tomorrow | tonight | friday | tuesday | next monday | sunday | today | saturday ) | theatre_name : ( century 25 union city and xd | amc newpark 12 | amc cupertino square 16 | shoreline theater | camera 7 | angelika | century cinemas 16 | amc mercado | cinemark 12 downtown san mateo | amc saratoga 14 | amc mercado 20 | century 20 great mall | century at pacific commons | cinelux plaza theatre | cinemark redwood downtown 20 and xd | aquarius | lincoln square cinemas | cinearts @ santana row | cinelux almaden cafe & lounge | the stanford theater )))",
-        "intent knowledge": "( movie : ( GREETING | OTHER | CANT_UNDERSTAND | NEGATE | THANK_YOU | GOOD_BYE | INFORM | AFFIRM ))",
-        "prompt": [
-            "This is a bot helping users to book a movie ticket. Given the dialog context and external database, please generate a relevant system response for the user.",
-            "This bot assists users to book a movie ticket. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
-            "This bot helps users to book a movie ticket. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
-            "The purpose of this bot is to assist users to book a movie ticket. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
-            "This bot is designed to help users book a movie ticket. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
-        ]
-    },
-    "SimJointMovie--train--2": {
-        "original dialog id": "movies_00000005",
-        "dialog index": 2,
-        "original dialog info": {
+        "external knowledge non-flat": {
+            "metadata": {},
             "slots and values": {
                 "movie": {
                     "time": [
@@ -636,16 +460,16 @@
                         "2"
                     ],
                     "movie": [
-                        "sahasam swasaga sagipo",
-                        "mr. donkey",
-                        "storks",
-                        "achcham yenbadhu madamaiyada",
+                        "hacksaw ridge",
+                        "max steel",
+                        "mad max",
+                        "the girl on the train",
+                        "inferno",
                         "the magnificent seven",
-                        "storks",
-                        "storks",
-                        "gimme danger",
-                        "jack reacher",
-                        "max steel"
+                        "kevin hart",
+                        "12 angry men",
+                        "ae dil hai mushkil",
+                        "chaar sahibzaade"
                     ],
                     "date": [
                         "wednesday",
@@ -695,6 +519,21 @@
                 ]
             }
         },
+        "external knowledge": "()",
+        "dst knowledge": "( movie : ( time : ( 8 pm | 8:00 pm | 7.30 pm | 6 pm | 6.15 pm | 10:00 pm | 7 pm | 5 pm | 1 pm | 8.30 pm | 6:00 pm | 12 pm | 4:00 pm | dontcare | 2 pm | 7.15 pm | 6.30 pm ) | num_tickets : ( 1 | 4 | 6 | 3 | 5 | 2 ) | movie : ( hacksaw ridge | max steel | mad max | the girl on the train | inferno | the magnificent seven | kevin hart | 12 angry men | ae dil hai mushkil | chaar sahibzaade ) | date : ( wednesday | tomorrow | tonight | friday | tuesday | next monday | sunday | today | saturday ) | theatre_name : ( century 25 union city and xd | amc newpark 12 | amc cupertino square 16 | shoreline theater | camera 7 | angelika | century cinemas 16 | amc mercado | cinemark 12 downtown san mateo | amc saratoga 14 | amc mercado 20 | century 20 great mall | century at pacific commons | cinelux plaza theatre | cinemark redwood downtown 20 and xd | aquarius | lincoln square cinemas | cinearts @ santana row | cinelux almaden cafe & lounge | the stanford theater )))",
+        "intent knowledge": "( movie : ( GREETING | OTHER | CANT_UNDERSTAND | NEGATE | THANK_YOU | GOOD_BYE | INFORM | AFFIRM ))",
+        "prompt": [
+            "This is a bot helping users to book a movie ticket. Given the dialog context and external database, please generate a relevant system response for the user.",
+            "This bot assists users to book a movie ticket. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
+            "This bot helps users to book a movie ticket. Based on the conversation history and available external data, please generate a relevant system response for the user.",
+            "The purpose of this bot is to assist users to book a movie ticket. Considering the dialogue context and the information available in the external database, please provide a fitting response for the user.",
+            "This bot is designed to help users book a movie ticket. By utilizing the current dialog context and external resources, generate a fitting response for the user."
+        ]
+    },
+    "SimJointMovie--train--2": {
+        "original dialog id": "movies_00000005",
+        "dialog index": 2,
+        "original dialog info": {},
         "log": [
             {
                 "turn id": 1,
@@ -798,22 +637,7 @@
                 },
                 "dst": "movie num_tickets 3, movie movie a man called ove, movie time 6:00 pm",
                 "dst accumulated": "movie num_tickets 3, movie movie a man called ove, movie time 6:00 pm",
-                "intent": "INFORM",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "system_acts": [
-                            {
-                                "slot": "theatre_name",
-                                "type": "REQUEST"
-                            },
-                            {
-                                "slot": "date",
-                                "type": "REQUEST"
-                            }
-                        ]
-                    }
-                },
-                "external knowledge": "System acts: [{'slot': 'theatre_name', 'type': 'REQUEST'}, {'slot': 'date', 'type': 'REQUEST'}]"
+                "intent": "INFORM"
             },
             {
                 "turn id": 2,
@@ -907,19 +731,7 @@
                 },
                 "dst": "movie date wednesday, movie theatre_name amc cupertino square 16",
                 "dst accumulated": "movie num_tickets 3, movie movie a man called ove, movie time 6:00 pm, movie date wednesday, movie theatre_name amc cupertino square 16",
-                "intent": "INFORM",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "system_acts": [
-                            {
-                                "slot": "time",
-                                "type": "CONFIRM",
-                                "value": "6:00 pm"
-                            }
-                        ]
-                    }
-                },
-                "external knowledge": "System acts: [{'slot': 'time', 'type': 'CONFIRM', 'value': '6:00 pm'}]"
+                "intent": "INFORM"
             },
             {
                 "turn id": 3,
@@ -1047,39 +859,7 @@
                 },
                 "dst": "",
                 "dst accumulated": "movie num_tickets 3, movie movie a man called ove, movie time 6:00 pm, movie date wednesday, movie theatre_name amc cupertino square 16",
-                "intent": "AFFIRM",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "system_acts": [
-                            {
-                                "slot": "movie",
-                                "type": "NOTIFY_SUCCESS",
-                                "value": "a man called ove"
-                            },
-                            {
-                                "slot": "num_tickets",
-                                "type": "NOTIFY_SUCCESS",
-                                "value": "3"
-                            },
-                            {
-                                "slot": "time",
-                                "type": "NOTIFY_SUCCESS",
-                                "value": "6:00 pm"
-                            },
-                            {
-                                "slot": "date",
-                                "type": "NOTIFY_SUCCESS",
-                                "value": "march 08"
-                            },
-                            {
-                                "slot": "theatre_name",
-                                "type": "NOTIFY_SUCCESS",
-                                "value": "amc cupertino square 16"
-                            }
-                        ]
-                    }
-                },
-                "external knowledge": "System acts: [{'slot': 'movie', 'type': 'NOTIFY_SUCCESS', 'value': 'a man called ove'}, {'slot': 'num_tickets', 'type': 'NOTIFY_SUCCESS', 'value': '3'}, {'slot': 'time', 'type': 'NOTIFY_SUCCESS', 'value': '6:00 pm'}, {'slot': 'date', 'type': 'NOTIFY_SUCCESS', 'value': 'march 08'}, {'slot': 'theatre_name', 'type': 'NOTIFY_SUCCESS', 'value': 'amc cupertino square 16'}]"
+                "intent": "AFFIRM"
             },
             {
                 "turn id": 4,
@@ -1126,29 +906,11 @@
                 "original system side information": {},
                 "dst": "",
                 "dst accumulated": "movie num_tickets 3, movie movie a man called ove, movie time 6:00 pm, movie date wednesday, movie theatre_name amc cupertino square 16",
-                "intent": "GOOD_BYE",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "system_acts": ""
-                    }
-                },
-                "external knowledge": "System acts: "
+                "intent": "GOOD_BYE"
             }
         ],
-        "dst knowledge": "( movie : ( time : ( 8 pm | 8:00 pm | 7.30 pm | 6 pm | 6.15 pm | 10:00 pm | 7 pm | 5 pm | 1 pm | 8.30 pm | 6:00 pm | 12 pm | 4:00 pm | dontcare | 2 pm | 7.15 pm | 6.30 pm ) | num_tickets : ( 1 | 4 | 6 | 3 | 5 | 2 ) | movie : ( sahasam swasaga sagipo | mr. donkey | storks | achcham yenbadhu madamaiyada | the magnificent seven | storks | storks | gimme danger | jack reacher | max steel ) | date : ( wednesday | tomorrow | tonight | friday | tuesday | next monday | sunday | today | saturday ) | theatre_name : ( century 25 union city and xd | amc newpark 12 | amc cupertino square 16 | shoreline theater | camera 7 | angelika | century cinemas 16 | amc mercado | cinemark 12 downtown san mateo | amc saratoga 14 | amc mercado 20 | century 20 great mall | century at pacific commons | cinelux plaza theatre | cinemark redwood downtown 20 and xd | aquarius | lincoln square cinemas | cinearts @ santana row | cinelux almaden cafe & lounge | the stanford theater )))",
-        "intent knowledge": "( movie : ( GREETING | OTHER | CANT_UNDERSTAND | NEGATE | THANK_YOU | GOOD_BYE | INFORM | AFFIRM ))",
-        "prompt": [
-            "This is a bot helping users to book a movie ticket. Given the dialog context and external database, please generate a relevant system response for the user.",
-            "This bot assists users to book a movie ticket. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
-            "This bot helps users to book a movie ticket. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
-            "The purpose of this bot is to assist users to book a movie ticket. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
-            "This bot is designed to help users book a movie ticket. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
-        ]
-    },
-    "SimJointMovie--train--3": {
-        "original dialog id": "movies_00000008",
-        "dialog index": 3,
-        "original dialog info": {
+        "external knowledge non-flat": {
+            "metadata": {},
             "slots and values": {
                 "movie": {
                     "time": [
@@ -1179,16 +941,16 @@
                         "2"
                     ],
                     "movie": [
-                        "sahasam swasaga sagipo",
-                        "mr. donkey",
-                        "storks",
-                        "achcham yenbadhu madamaiyada",
+                        "hacksaw ridge",
+                        "max steel",
+                        "mad max",
+                        "the girl on the train",
+                        "inferno",
                         "the magnificent seven",
-                        "storks",
-                        "storks",
-                        "gimme danger",
-                        "jack reacher",
-                        "max steel"
+                        "kevin hart",
+                        "12 angry men",
+                        "ae dil hai mushkil",
+                        "chaar sahibzaade"
                     ],
                     "date": [
                         "wednesday",
@@ -1238,6 +1000,21 @@
                 ]
             }
         },
+        "external knowledge": "()",
+        "dst knowledge": "( movie : ( time : ( 8 pm | 8:00 pm | 7.30 pm | 6 pm | 6.15 pm | 10:00 pm | 7 pm | 5 pm | 1 pm | 8.30 pm | 6:00 pm | 12 pm | 4:00 pm | dontcare | 2 pm | 7.15 pm | 6.30 pm ) | num_tickets : ( 1 | 4 | 6 | 3 | 5 | 2 ) | movie : ( hacksaw ridge | max steel | mad max | the girl on the train | inferno | the magnificent seven | kevin hart | 12 angry men | ae dil hai mushkil | chaar sahibzaade ) | date : ( wednesday | tomorrow | tonight | friday | tuesday | next monday | sunday | today | saturday ) | theatre_name : ( century 25 union city and xd | amc newpark 12 | amc cupertino square 16 | shoreline theater | camera 7 | angelika | century cinemas 16 | amc mercado | cinemark 12 downtown san mateo | amc saratoga 14 | amc mercado 20 | century 20 great mall | century at pacific commons | cinelux plaza theatre | cinemark redwood downtown 20 and xd | aquarius | lincoln square cinemas | cinearts @ santana row | cinelux almaden cafe & lounge | the stanford theater )))",
+        "intent knowledge": "( movie : ( GREETING | OTHER | CANT_UNDERSTAND | NEGATE | THANK_YOU | GOOD_BYE | INFORM | AFFIRM ))",
+        "prompt": [
+            "This is a bot helping users to book a movie ticket. Given the dialog context and external database, please generate a relevant system response for the user.",
+            "This bot assists users to book a movie ticket. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
+            "This bot helps users to book a movie ticket. Based on the conversation history and available external data, please generate a relevant system response for the user.",
+            "The purpose of this bot is to assist users to book a movie ticket. Considering the dialogue context and the information available in the external database, please provide a fitting response for the user.",
+            "This bot is designed to help users book a movie ticket. By utilizing the current dialog context and external resources, generate a fitting response for the user."
+        ]
+    },
+    "SimJointMovie--train--3": {
+        "original dialog id": "movies_00000008",
+        "dialog index": 3,
+        "original dialog info": {},
         "log": [
             {
                 "turn id": 1,
@@ -1311,26 +1088,7 @@
                 },
                 "dst": "movie num_tickets 5",
                 "dst accumulated": "movie num_tickets 5",
-                "intent": "INFORM",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "system_acts": [
-                            {
-                                "slot": "movie",
-                                "type": "REQUEST"
-                            },
-                            {
-                                "slot": "time",
-                                "type": "REQUEST"
-                            },
-                            {
-                                "slot": "theatre_name",
-                                "type": "REQUEST"
-                            }
-                        ]
-                    }
-                },
-                "external knowledge": "System acts: [{'slot': 'movie', 'type': 'REQUEST'}, {'slot': 'time', 'type': 'REQUEST'}, {'slot': 'theatre_name', 'type': 'REQUEST'}]"
+                "intent": "INFORM"
             },
             {
                 "turn id": 2,
@@ -1419,18 +1177,7 @@
                 },
                 "dst": "movie theatre_name cinelux almaden cafe & lounge, movie movie a man called ove, movie time 10:00 pm",
                 "dst accumulated": "movie num_tickets 5, movie theatre_name cinelux almaden cafe & lounge, movie movie a man called ove, movie time 10:00 pm",
-                "intent": "INFORM",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "system_acts": [
-                            {
-                                "slot": "date",
-                                "type": "REQUEST"
-                            }
-                        ]
-                    }
-                },
-                "external knowledge": "System acts: [{'slot': 'date', 'type': 'REQUEST'}]"
+                "intent": "INFORM"
             },
             {
                 "turn id": 3,
@@ -1517,19 +1264,7 @@
                 },
                 "dst": "movie date tuesday",
                 "dst accumulated": "movie num_tickets 5, movie theatre_name cinelux almaden cafe & lounge, movie movie a man called ove, movie time 10:00 pm, movie date tuesday",
-                "intent": "INFORM",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "system_acts": [
-                            {
-                                "slot": "time",
-                                "type": "CONFIRM",
-                                "value": "10:00 pm"
-                            }
-                        ]
-                    }
-                },
-                "external knowledge": "System acts: [{'slot': 'time', 'type': 'CONFIRM', 'value': '10:00 pm'}]"
+                "intent": "INFORM"
             },
             {
                 "turn id": 4,
@@ -1654,34 +1389,7 @@
                 },
                 "dst": "movie time 10:00 pm",
                 "dst accumulated": "movie num_tickets 5, movie theatre_name cinelux almaden cafe & lounge, movie movie a man called ove, movie time 10:00 pm, movie date tuesday",
-                "intent": "AFFIRM",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "system_acts": [
-                            {
-                                "slot": "movie",
-                                "type": "NOTIFY_SUCCESS",
-                                "value": "a man called ove"
-                            },
-                            {
-                                "slot": "time",
-                                "type": "NOTIFY_SUCCESS",
-                                "value": "10:00 pm"
-                            },
-                            {
-                                "slot": "date",
-                                "type": "NOTIFY_SUCCESS",
-                                "value": "march 07"
-                            },
-                            {
-                                "slot": "theatre_name",
-                                "type": "NOTIFY_SUCCESS",
-                                "value": "cinelux almaden cafe & lounge"
-                            }
-                        ]
-                    }
-                },
-                "external knowledge": "System acts: [{'slot': 'movie', 'type': 'NOTIFY_SUCCESS', 'value': 'a man called ove'}, {'slot': 'time', 'type': 'NOTIFY_SUCCESS', 'value': '10:00 pm'}, {'slot': 'date', 'type': 'NOTIFY_SUCCESS', 'value': 'march 07'}, {'slot': 'theatre_name', 'type': 'NOTIFY_SUCCESS', 'value': 'cinelux almaden cafe & lounge'}]"
+                "intent": "AFFIRM"
             },
             {
                 "turn id": 5,
@@ -1732,29 +1440,11 @@
                 "original system side information": {},
                 "dst": "",
                 "dst accumulated": "movie num_tickets 5, movie theatre_name cinelux almaden cafe & lounge, movie movie a man called ove, movie time 10:00 pm, movie date tuesday",
-                "intent": "THANK_YOU, GOOD_BYE",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "system_acts": ""
-                    }
-                },
-                "external knowledge": "System acts: "
+                "intent": "THANK_YOU, GOOD_BYE"
             }
         ],
-        "dst knowledge": "( movie : ( time : ( 8 pm | 8:00 pm | 7.30 pm | 6 pm | 6.15 pm | 10:00 pm | 7 pm | 5 pm | 1 pm | 8.30 pm | 6:00 pm | 12 pm | 4:00 pm | dontcare | 2 pm | 7.15 pm | 6.30 pm ) | num_tickets : ( 1 | 4 | 6 | 3 | 5 | 2 ) | movie : ( sahasam swasaga sagipo | mr. donkey | storks | achcham yenbadhu madamaiyada | the magnificent seven | storks | storks | gimme danger | jack reacher | max steel ) | date : ( wednesday | tomorrow | tonight | friday | tuesday | next monday | sunday | today | saturday ) | theatre_name : ( century 25 union city and xd | amc newpark 12 | amc cupertino square 16 | shoreline theater | camera 7 | angelika | century cinemas 16 | amc mercado | cinemark 12 downtown san mateo | amc saratoga 14 | amc mercado 20 | century 20 great mall | century at pacific commons | cinelux plaza theatre | cinemark redwood downtown 20 and xd | aquarius | lincoln square cinemas | cinearts @ santana row | cinelux almaden cafe & lounge | the stanford theater )))",
-        "intent knowledge": "( movie : ( GREETING | OTHER | CANT_UNDERSTAND | NEGATE | THANK_YOU | GOOD_BYE | INFORM | AFFIRM ))",
-        "prompt": [
-            "This is a bot helping users to book a movie ticket. Given the dialog context and external database, please generate a relevant system response for the user.",
-            "This bot assists users to book a movie ticket. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
-            "This bot helps users to book a movie ticket. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
-            "The purpose of this bot is to assist users to book a movie ticket. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
-            "This bot is designed to help users book a movie ticket. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
-        ]
-    },
-    "SimJointMovie--train--4": {
-        "original dialog id": "movies_00000009",
-        "dialog index": 4,
-        "original dialog info": {
+        "external knowledge non-flat": {
+            "metadata": {},
             "slots and values": {
                 "movie": {
                     "time": [
@@ -1785,16 +1475,16 @@
                         "2"
                     ],
                     "movie": [
-                        "sahasam swasaga sagipo",
-                        "mr. donkey",
-                        "storks",
-                        "achcham yenbadhu madamaiyada",
+                        "hacksaw ridge",
+                        "max steel",
+                        "mad max",
+                        "the girl on the train",
+                        "inferno",
                         "the magnificent seven",
-                        "storks",
-                        "storks",
-                        "gimme danger",
-                        "jack reacher",
-                        "max steel"
+                        "kevin hart",
+                        "12 angry men",
+                        "ae dil hai mushkil",
+                        "chaar sahibzaade"
                     ],
                     "date": [
                         "wednesday",
@@ -1844,6 +1534,21 @@
                 ]
             }
         },
+        "external knowledge": "()",
+        "dst knowledge": "( movie : ( time : ( 8 pm | 8:00 pm | 7.30 pm | 6 pm | 6.15 pm | 10:00 pm | 7 pm | 5 pm | 1 pm | 8.30 pm | 6:00 pm | 12 pm | 4:00 pm | dontcare | 2 pm | 7.15 pm | 6.30 pm ) | num_tickets : ( 1 | 4 | 6 | 3 | 5 | 2 ) | movie : ( hacksaw ridge | max steel | mad max | the girl on the train | inferno | the magnificent seven | kevin hart | 12 angry men | ae dil hai mushkil | chaar sahibzaade ) | date : ( wednesday | tomorrow | tonight | friday | tuesday | next monday | sunday | today | saturday ) | theatre_name : ( century 25 union city and xd | amc newpark 12 | amc cupertino square 16 | shoreline theater | camera 7 | angelika | century cinemas 16 | amc mercado | cinemark 12 downtown san mateo | amc saratoga 14 | amc mercado 20 | century 20 great mall | century at pacific commons | cinelux plaza theatre | cinemark redwood downtown 20 and xd | aquarius | lincoln square cinemas | cinearts @ santana row | cinelux almaden cafe & lounge | the stanford theater )))",
+        "intent knowledge": "( movie : ( GREETING | OTHER | CANT_UNDERSTAND | NEGATE | THANK_YOU | GOOD_BYE | INFORM | AFFIRM ))",
+        "prompt": [
+            "This is a bot helping users to book a movie ticket. Given the dialog context and external database, please generate a relevant system response for the user.",
+            "This bot assists users to book a movie ticket. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
+            "This bot helps users to book a movie ticket. Based on the conversation history and available external data, please generate a relevant system response for the user.",
+            "The purpose of this bot is to assist users to book a movie ticket. Considering the dialogue context and the information available in the external database, please provide a fitting response for the user.",
+            "This bot is designed to help users book a movie ticket. By utilizing the current dialog context and external resources, generate a fitting response for the user."
+        ]
+    },
+    "SimJointMovie--train--4": {
+        "original dialog id": "movies_00000009",
+        "dialog index": 4,
+        "original dialog info": {},
         "log": [
             {
                 "turn id": 1,
@@ -1945,26 +1650,7 @@
                 },
                 "dst": "movie theatre_name camera 7, movie time 6:00 pm",
                 "dst accumulated": "movie theatre_name camera 7, movie time 6:00 pm",
-                "intent": "INFORM",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "system_acts": [
-                            {
-                                "slot": "date",
-                                "type": "REQUEST"
-                            },
-                            {
-                                "slot": "num_tickets",
-                                "type": "REQUEST"
-                            },
-                            {
-                                "slot": "movie",
-                                "type": "REQUEST"
-                            }
-                        ]
-                    }
-                },
-                "external knowledge": "System acts: [{'slot': 'date', 'type': 'REQUEST'}, {'slot': 'num_tickets', 'type': 'REQUEST'}, {'slot': 'movie', 'type': 'REQUEST'}]"
+                "intent": "INFORM"
             },
             {
                 "turn id": 2,
@@ -2041,26 +1727,7 @@
                 },
                 "dst": "",
                 "dst accumulated": "movie theatre_name camera 7, movie time 6:00 pm",
-                "intent": "CANT_UNDERSTAND",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "system_acts": [
-                            {
-                                "slot": "movie",
-                                "type": "REQUEST"
-                            },
-                            {
-                                "slot": "num_tickets",
-                                "type": "REQUEST"
-                            },
-                            {
-                                "slot": "date",
-                                "type": "REQUEST"
-                            }
-                        ]
-                    }
-                },
-                "external knowledge": "System acts: [{'slot': 'movie', 'type': 'REQUEST'}, {'slot': 'num_tickets', 'type': 'REQUEST'}, {'slot': 'date', 'type': 'REQUEST'}]"
+                "intent": "CANT_UNDERSTAND"
             },
             {
                 "turn id": 3,
@@ -2163,19 +1830,7 @@
                 },
                 "dst": "movie num_tickets 2, movie movie a man called ove, movie date wednesday",
                 "dst accumulated": "movie theatre_name camera 7, movie time 6:00 pm, movie num_tickets 2, movie movie a man called ove, movie date wednesday",
-                "intent": "INFORM",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "system_acts": [
-                            {
-                                "slot": "time",
-                                "type": "CONFIRM",
-                                "value": "6:00 pm"
-                            }
-                        ]
-                    }
-                },
-                "external knowledge": "System acts: [{'slot': 'time', 'type': 'CONFIRM', 'value': '6:00 pm'}]"
+                "intent": "INFORM"
             },
             {
                 "turn id": 4,
@@ -2290,34 +1945,7 @@
                 },
                 "dst": "",
                 "dst accumulated": "movie theatre_name camera 7, movie time 6:00 pm, movie num_tickets 2, movie movie a man called ove, movie date wednesday",
-                "intent": "AFFIRM",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "system_acts": [
-                            {
-                                "slot": "num_tickets",
-                                "type": "NOTIFY_SUCCESS",
-                                "value": "2"
-                            },
-                            {
-                                "slot": "time",
-                                "type": "NOTIFY_SUCCESS",
-                                "value": "6:00 pm"
-                            },
-                            {
-                                "slot": "movie",
-                                "type": "NOTIFY_SUCCESS",
-                                "value": "a man called ove"
-                            },
-                            {
-                                "slot": "date",
-                                "type": "NOTIFY_SUCCESS",
-                                "value": "march 08"
-                            }
-                        ]
-                    }
-                },
-                "external knowledge": "System acts: [{'slot': 'num_tickets', 'type': 'NOTIFY_SUCCESS', 'value': '2'}, {'slot': 'time', 'type': 'NOTIFY_SUCCESS', 'value': '6:00 pm'}, {'slot': 'movie', 'type': 'NOTIFY_SUCCESS', 'value': 'a man called ove'}, {'slot': 'date', 'type': 'NOTIFY_SUCCESS', 'value': 'march 08'}]"
+                "intent": "AFFIRM"
             },
             {
                 "turn id": 5,
@@ -2369,29 +1997,11 @@
                 "original system side information": {},
                 "dst": "",
                 "dst accumulated": "movie theatre_name camera 7, movie time 6:00 pm, movie num_tickets 2, movie movie a man called ove, movie date wednesday",
-                "intent": "THANK_YOU, GOOD_BYE",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "system_acts": ""
-                    }
-                },
-                "external knowledge": "System acts: "
+                "intent": "THANK_YOU, GOOD_BYE"
             }
         ],
-        "dst knowledge": "( movie : ( time : ( 8 pm | 8:00 pm | 7.30 pm | 6 pm | 6.15 pm | 10:00 pm | 7 pm | 5 pm | 1 pm | 8.30 pm | 6:00 pm | 12 pm | 4:00 pm | dontcare | 2 pm | 7.15 pm | 6.30 pm ) | num_tickets : ( 1 | 4 | 6 | 3 | 5 | 2 ) | movie : ( sahasam swasaga sagipo | mr. donkey | storks | achcham yenbadhu madamaiyada | the magnificent seven | storks | storks | gimme danger | jack reacher | max steel ) | date : ( wednesday | tomorrow | tonight | friday | tuesday | next monday | sunday | today | saturday ) | theatre_name : ( century 25 union city and xd | amc newpark 12 | amc cupertino square 16 | shoreline theater | camera 7 | angelika | century cinemas 16 | amc mercado | cinemark 12 downtown san mateo | amc saratoga 14 | amc mercado 20 | century 20 great mall | century at pacific commons | cinelux plaza theatre | cinemark redwood downtown 20 and xd | aquarius | lincoln square cinemas | cinearts @ santana row | cinelux almaden cafe & lounge | the stanford theater )))",
-        "intent knowledge": "( movie : ( GREETING | OTHER | CANT_UNDERSTAND | NEGATE | THANK_YOU | GOOD_BYE | INFORM | AFFIRM ))",
-        "prompt": [
-            "This is a bot helping users to book a movie ticket. Given the dialog context and external database, please generate a relevant system response for the user.",
-            "This bot assists users to book a movie ticket. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
-            "This bot helps users to book a movie ticket. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
-            "The purpose of this bot is to assist users to book a movie ticket. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
-            "This bot is designed to help users book a movie ticket. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
-        ]
-    },
-    "SimJointMovie--train--5": {
-        "original dialog id": "movies_00000016",
-        "dialog index": 5,
-        "original dialog info": {
+        "external knowledge non-flat": {
+            "metadata": {},
             "slots and values": {
                 "movie": {
                     "time": [
@@ -2422,16 +2032,16 @@
                         "2"
                     ],
                     "movie": [
-                        "sahasam swasaga sagipo",
-                        "mr. donkey",
-                        "storks",
-                        "achcham yenbadhu madamaiyada",
+                        "hacksaw ridge",
+                        "max steel",
+                        "mad max",
+                        "the girl on the train",
+                        "inferno",
                         "the magnificent seven",
-                        "storks",
-                        "storks",
-                        "gimme danger",
-                        "jack reacher",
-                        "max steel"
+                        "kevin hart",
+                        "12 angry men",
+                        "ae dil hai mushkil",
+                        "chaar sahibzaade"
                     ],
                     "date": [
                         "wednesday",
@@ -2481,6 +2091,21 @@
                 ]
             }
         },
+        "external knowledge": "()",
+        "dst knowledge": "( movie : ( time : ( 8 pm | 8:00 pm | 7.30 pm | 6 pm | 6.15 pm | 10:00 pm | 7 pm | 5 pm | 1 pm | 8.30 pm | 6:00 pm | 12 pm | 4:00 pm | dontcare | 2 pm | 7.15 pm | 6.30 pm ) | num_tickets : ( 1 | 4 | 6 | 3 | 5 | 2 ) | movie : ( hacksaw ridge | max steel | mad max | the girl on the train | inferno | the magnificent seven | kevin hart | 12 angry men | ae dil hai mushkil | chaar sahibzaade ) | date : ( wednesday | tomorrow | tonight | friday | tuesday | next monday | sunday | today | saturday ) | theatre_name : ( century 25 union city and xd | amc newpark 12 | amc cupertino square 16 | shoreline theater | camera 7 | angelika | century cinemas 16 | amc mercado | cinemark 12 downtown san mateo | amc saratoga 14 | amc mercado 20 | century 20 great mall | century at pacific commons | cinelux plaza theatre | cinemark redwood downtown 20 and xd | aquarius | lincoln square cinemas | cinearts @ santana row | cinelux almaden cafe & lounge | the stanford theater )))",
+        "intent knowledge": "( movie : ( GREETING | OTHER | CANT_UNDERSTAND | NEGATE | THANK_YOU | GOOD_BYE | INFORM | AFFIRM ))",
+        "prompt": [
+            "This is a bot helping users to book a movie ticket. Given the dialog context and external database, please generate a relevant system response for the user.",
+            "This bot assists users to book a movie ticket. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
+            "This bot helps users to book a movie ticket. Based on the conversation history and available external data, please generate a relevant system response for the user.",
+            "The purpose of this bot is to assist users to book a movie ticket. Considering the dialogue context and the information available in the external database, please provide a fitting response for the user.",
+            "This bot is designed to help users book a movie ticket. By utilizing the current dialog context and external resources, generate a fitting response for the user."
+        ]
+    },
+    "SimJointMovie--train--5": {
+        "original dialog id": "movies_00000016",
+        "dialog index": 5,
+        "original dialog info": {},
         "log": [
             {
                 "turn id": 1,
@@ -2559,22 +2184,7 @@
                 },
                 "dst": "movie movie a man called ove",
                 "dst accumulated": "movie movie a man called ove",
-                "intent": "INFORM",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "system_acts": [
-                            {
-                                "slot": "time",
-                                "type": "REQUEST"
-                            },
-                            {
-                                "slot": "theatre_name",
-                                "type": "REQUEST"
-                            }
-                        ]
-                    }
-                },
-                "external knowledge": "System acts: [{'slot': 'time', 'type': 'REQUEST'}, {'slot': 'theatre_name', 'type': 'REQUEST'}]"
+                "intent": "INFORM"
             },
             {
                 "turn id": 2,
@@ -2669,18 +2279,7 @@
                 },
                 "dst": "movie date wednesday, movie time 6:00 pm, movie theatre_name amc saratoga 14",
                 "dst accumulated": "movie movie a man called ove, movie date wednesday, movie time 6:00 pm, movie theatre_name amc saratoga 14",
-                "intent": "INFORM",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "system_acts": [
-                            {
-                                "slot": "num_tickets",
-                                "type": "REQUEST"
-                            }
-                        ]
-                    }
-                },
-                "external knowledge": "System acts: [{'slot': 'num_tickets', 'type': 'REQUEST'}]"
+                "intent": "INFORM"
             },
             {
                 "turn id": 3,
@@ -2765,19 +2364,7 @@
                 },
                 "dst": "movie num_tickets 3",
                 "dst accumulated": "movie movie a man called ove, movie date wednesday, movie time 6:00 pm, movie theatre_name amc saratoga 14, movie num_tickets 3",
-                "intent": "INFORM",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "system_acts": [
-                            {
-                                "slot": "time",
-                                "type": "CONFIRM",
-                                "value": "6:00 pm"
-                            }
-                        ]
-                    }
-                },
-                "external knowledge": "System acts: [{'slot': 'time', 'type': 'CONFIRM', 'value': '6:00 pm'}]"
+                "intent": "INFORM"
             },
             {
                 "turn id": 4,
@@ -2933,39 +2520,7 @@
                 },
                 "dst": "movie time 6:00 pm",
                 "dst accumulated": "movie movie a man called ove, movie date wednesday, movie time 6:00 pm, movie theatre_name amc saratoga 14, movie num_tickets 3",
-                "intent": "AFFIRM",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "system_acts": [
-                            {
-                                "slot": "theatre_name",
-                                "type": "NOTIFY_SUCCESS",
-                                "value": "amc saratoga 14"
-                            },
-                            {
-                                "slot": "date",
-                                "type": "NOTIFY_SUCCESS",
-                                "value": "march 08"
-                            },
-                            {
-                                "slot": "time",
-                                "type": "NOTIFY_SUCCESS",
-                                "value": "6:00 pm"
-                            },
-                            {
-                                "slot": "num_tickets",
-                                "type": "NOTIFY_SUCCESS",
-                                "value": "3"
-                            },
-                            {
-                                "slot": "movie",
-                                "type": "NOTIFY_SUCCESS",
-                                "value": "a man called ove"
-                            }
-                        ]
-                    }
-                },
-                "external knowledge": "System acts: [{'slot': 'theatre_name', 'type': 'NOTIFY_SUCCESS', 'value': 'amc saratoga 14'}, {'slot': 'date', 'type': 'NOTIFY_SUCCESS', 'value': 'march 08'}, {'slot': 'time', 'type': 'NOTIFY_SUCCESS', 'value': '6:00 pm'}, {'slot': 'num_tickets', 'type': 'NOTIFY_SUCCESS', 'value': '3'}, {'slot': 'movie', 'type': 'NOTIFY_SUCCESS', 'value': 'a man called ove'}]"
+                "intent": "AFFIRM"
             },
             {
                 "turn id": 5,
@@ -3012,23 +2567,109 @@
                 "original system side information": {},
                 "dst": "",
                 "dst accumulated": "movie movie a man called ove, movie date wednesday, movie time 6:00 pm, movie theatre_name amc saratoga 14, movie num_tickets 3",
-                "intent": "GOOD_BYE",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "system_acts": ""
-                    }
-                },
-                "external knowledge": "System acts: "
+                "intent": "GOOD_BYE"
             }
         ],
-        "dst knowledge": "( movie : ( time : ( 8 pm | 8:00 pm | 7.30 pm | 6 pm | 6.15 pm | 10:00 pm | 7 pm | 5 pm | 1 pm | 8.30 pm | 6:00 pm | 12 pm | 4:00 pm | dontcare | 2 pm | 7.15 pm | 6.30 pm ) | num_tickets : ( 1 | 4 | 6 | 3 | 5 | 2 ) | movie : ( sahasam swasaga sagipo | mr. donkey | storks | achcham yenbadhu madamaiyada | the magnificent seven | storks | storks | gimme danger | jack reacher | max steel ) | date : ( wednesday | tomorrow | tonight | friday | tuesday | next monday | sunday | today | saturday ) | theatre_name : ( century 25 union city and xd | amc newpark 12 | amc cupertino square 16 | shoreline theater | camera 7 | angelika | century cinemas 16 | amc mercado | cinemark 12 downtown san mateo | amc saratoga 14 | amc mercado 20 | century 20 great mall | century at pacific commons | cinelux plaza theatre | cinemark redwood downtown 20 and xd | aquarius | lincoln square cinemas | cinearts @ santana row | cinelux almaden cafe & lounge | the stanford theater )))",
+        "external knowledge non-flat": {
+            "metadata": {},
+            "slots and values": {
+                "movie": {
+                    "time": [
+                        "8 pm",
+                        "8:00 pm",
+                        "7.30 pm",
+                        "6 pm",
+                        "6.15 pm",
+                        "10:00 pm",
+                        "7 pm",
+                        "5 pm",
+                        "1 pm",
+                        "8.30 pm",
+                        "6:00 pm",
+                        "12 pm",
+                        "4:00 pm",
+                        "dontcare",
+                        "2 pm",
+                        "7.15 pm",
+                        "6.30 pm"
+                    ],
+                    "num_tickets": [
+                        "1",
+                        "4",
+                        "6",
+                        "3",
+                        "5",
+                        "2"
+                    ],
+                    "movie": [
+                        "hacksaw ridge",
+                        "max steel",
+                        "mad max",
+                        "the girl on the train",
+                        "inferno",
+                        "the magnificent seven",
+                        "kevin hart",
+                        "12 angry men",
+                        "ae dil hai mushkil",
+                        "chaar sahibzaade"
+                    ],
+                    "date": [
+                        "wednesday",
+                        "tomorrow",
+                        "tonight",
+                        "friday",
+                        "tuesday",
+                        "next monday",
+                        "sunday",
+                        "today",
+                        "saturday"
+                    ],
+                    "theatre_name": [
+                        "century 25 union city and xd",
+                        "amc newpark 12",
+                        "amc cupertino square 16",
+                        "shoreline theater",
+                        "camera 7",
+                        "angelika",
+                        "century cinemas 16",
+                        "amc mercado",
+                        "cinemark 12 downtown san mateo",
+                        "amc saratoga 14",
+                        "amc mercado 20",
+                        "century 20 great mall",
+                        "century at pacific commons",
+                        "cinelux plaza theatre",
+                        "cinemark redwood downtown 20 and xd",
+                        "aquarius",
+                        "lincoln square cinemas",
+                        "cinearts @ santana row",
+                        "cinelux almaden cafe & lounge",
+                        "the stanford theater"
+                    ]
+                }
+            },
+            "intents": {
+                "movie": [
+                    "GREETING",
+                    "OTHER",
+                    "CANT_UNDERSTAND",
+                    "NEGATE",
+                    "THANK_YOU",
+                    "GOOD_BYE",
+                    "INFORM",
+                    "AFFIRM"
+                ]
+            }
+        },
+        "external knowledge": "()",
+        "dst knowledge": "( movie : ( time : ( 8 pm | 8:00 pm | 7.30 pm | 6 pm | 6.15 pm | 10:00 pm | 7 pm | 5 pm | 1 pm | 8.30 pm | 6:00 pm | 12 pm | 4:00 pm | dontcare | 2 pm | 7.15 pm | 6.30 pm ) | num_tickets : ( 1 | 4 | 6 | 3 | 5 | 2 ) | movie : ( hacksaw ridge | max steel | mad max | the girl on the train | inferno | the magnificent seven | kevin hart | 12 angry men | ae dil hai mushkil | chaar sahibzaade ) | date : ( wednesday | tomorrow | tonight | friday | tuesday | next monday | sunday | today | saturday ) | theatre_name : ( century 25 union city and xd | amc newpark 12 | amc cupertino square 16 | shoreline theater | camera 7 | angelika | century cinemas 16 | amc mercado | cinemark 12 downtown san mateo | amc saratoga 14 | amc mercado 20 | century 20 great mall | century at pacific commons | cinelux plaza theatre | cinemark redwood downtown 20 and xd | aquarius | lincoln square cinemas | cinearts @ santana row | cinelux almaden cafe & lounge | the stanford theater )))",
         "intent knowledge": "( movie : ( GREETING | OTHER | CANT_UNDERSTAND | NEGATE | THANK_YOU | GOOD_BYE | INFORM | AFFIRM ))",
         "prompt": [
             "This is a bot helping users to book a movie ticket. Given the dialog context and external database, please generate a relevant system response for the user.",
             "This bot assists users to book a movie ticket. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
-            "This bot helps users to book a movie ticket. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
-            "The purpose of this bot is to assist users to book a movie ticket. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
-            "This bot is designed to help users book a movie ticket. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+            "This bot helps users to book a movie ticket. Based on the conversation history and available external data, please generate a relevant system response for the user.",
+            "The purpose of this bot is to assist users to book a movie ticket. Considering the dialogue context and the information available in the external database, please provide a fitting response for the user.",
+            "This bot is designed to help users book a movie ticket. By utilizing the current dialog context and external resources, generate a fitting response for the user."
         ]
     }
 }

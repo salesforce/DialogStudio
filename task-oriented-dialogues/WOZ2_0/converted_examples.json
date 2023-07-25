@@ -46,7 +46,7 @@
                 "turn id": 2,
                 "user utterance": "How about Chinese food?",
                 "system response": "There is a wide variety of Chinese restaurants, do you have an area preference or a price preference to narrow it down?",
-                "dialog history": "<USER> Are there any eritrean restaurants in town? <SYSTEM> No, there are no eritrean restaurants in town. Would you like a different restaurant?",
+                "dialog history": "<USER> Are there any eritrean restaurants in town? <SYSTEM> No, there are no eritrean restaurants in town. Would you like a different restaurant? ",
                 "original user side information": {
                     "turn_label": [
                         [
@@ -86,7 +86,7 @@
                 "turn id": 3,
                 "user utterance": "I would like the East part of town.",
                 "system response": "Yu Garden is a chinese restaurant in the east area.",
-                "dialog history": "<USER> Are there any eritrean restaurants in town? <SYSTEM> No, there are no eritrean restaurants in town. Would you like a different restaurant? <USER> How about Chinese food? <SYSTEM> There is a wide variety of Chinese restaurants, do you have an area preference or a price preference to narrow it down?",
+                "dialog history": "<USER> Are there any eritrean restaurants in town? <SYSTEM> No, there are no eritrean restaurants in town. Would you like a different restaurant?  <USER> How about Chinese food? <SYSTEM> There is a wide variety of Chinese restaurants, do you have an area preference or a price preference to narrow it down?",
                 "original user side information": {
                     "turn_label": [
                         [
@@ -133,7 +133,7 @@
                 "turn id": 4,
                 "user utterance": "Could I get the address, phone number, and postcode of Yu Garden?",
                 "system response": "Phone is 01223 248882, address and postcode are 529 Newmarket Road Fen Ditton C.B 5, 8 P.A",
-                "dialog history": "<USER> Are there any eritrean restaurants in town? <SYSTEM> No, there are no eritrean restaurants in town. Would you like a different restaurant? <USER> How about Chinese food? <SYSTEM> There is a wide variety of Chinese restaurants, do you have an area preference or a price preference to narrow it down? <USER> I would like the East part of town. <SYSTEM> Yu Garden is a chinese restaurant in the east area.",
+                "dialog history": "<USER> Are there any eritrean restaurants in town? <SYSTEM> No, there are no eritrean restaurants in town. Would you like a different restaurant?  <USER> How about Chinese food? <SYSTEM> There is a wide variety of Chinese restaurants, do you have an area preference or a price preference to narrow it down? <USER> I would like the East part of town. <SYSTEM> Yu Garden is a chinese restaurant in the east area.",
                 "original user side information": {
                     "turn_label": [
                         [
@@ -215,7 +215,7 @@
                 "turn id": 5,
                 "user utterance": "Thank you.  That is all the information I needed.  Bye bye!",
                 "system response": "",
-                "dialog history": "<USER> Are there any eritrean restaurants in town? <SYSTEM> No, there are no eritrean restaurants in town. Would you like a different restaurant? <USER> How about Chinese food? <SYSTEM> There is a wide variety of Chinese restaurants, do you have an area preference or a price preference to narrow it down? <USER> I would like the East part of town. <SYSTEM> Yu Garden is a chinese restaurant in the east area. <USER> Could I get the address, phone number, and postcode of Yu Garden? <SYSTEM> Phone is 01223 248882, address and postcode are 529 Newmarket Road Fen Ditton C.B 5, 8 P.A",
+                "dialog history": "<USER> Are there any eritrean restaurants in town? <SYSTEM> No, there are no eritrean restaurants in town. Would you like a different restaurant?  <USER> How about Chinese food? <SYSTEM> There is a wide variety of Chinese restaurants, do you have an area preference or a price preference to narrow it down? <USER> I would like the East part of town. <SYSTEM> Yu Garden is a chinese restaurant in the east area. <USER> Could I get the address, phone number, and postcode of Yu Garden? <SYSTEM> Phone is 01223 248882, address and postcode are 529 Newmarket Road Fen Ditton C.B 5, 8 P.A",
                 "original user side information": {
                     "turn_label": [],
                     "asr": [
@@ -257,16 +257,16 @@
             "slots and values": {
                 "restaurant": {
                     "food": [
-                        "austrian",
-                        "austrian",
-                        "caribbean",
-                        "irish",
-                        "irish",
-                        "seafood",
-                        "tuscan",
-                        "christmas",
-                        "vietnamese",
-                        "british"
+                        "italian",
+                        "north american",
+                        "australian",
+                        "spanish",
+                        "persian",
+                        "greek",
+                        "corsica",
+                        "romanian",
+                        "singaporean",
+                        "traditional"
                     ],
                     "area": [
                         "north",
@@ -289,14 +289,14 @@
             "intents": {}
         },
         "external knowledge": "()",
-        "dst knowledge": "( restaurant : ( food : ( austrian | austrian | caribbean | irish | irish | seafood | tuscan | christmas | vietnamese | british ) | area : ( north | dontcare | centre | south | east side | east | center | west ) | price range : ( dontcare | cheap | expensive | moderate )))",
+        "dst knowledge": "( restaurant : ( food : ( italian | north american | australian | spanish | persian | greek | corsica | romanian | singaporean | traditional ) | area : ( north | dontcare | centre | south | east side | east | center | west ) | price range : ( dontcare | cheap | expensive | moderate )))",
         "intent knowledge": "()",
         "prompt": [
             "This is a bot helping users to find a restaurant. Given the dialog context and external database, please generate a relevant system response for the user.",
             "This bot assists users to find a restaurant. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
-            "This bot helps users to find a restaurant. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
-            "The purpose of this bot is to assist users to find a restaurant. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
-            "This bot is designed to help users find a restaurant. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+            "This bot helps users to find a restaurant. Based on the conversation history and available external data, please generate a relevant system response for the user.",
+            "The purpose of this bot is to assist users to find a restaurant. Considering the dialogue context and the information available in the external database, please provide a fitting response for the user.",
+            "This bot is designed to help users find a restaurant. By utilizing the current dialog context and external resources, generate a fitting response for the user."
         ]
     },
     "WOZ2_0--train--2": {
@@ -388,7 +388,7 @@
                 "turn id": 3,
                 "user utterance": "I don't care.",
                 "system response": "There are ten restaurants that fit that description. Do you have a price preference?",
-                "dialog history": "<USER> Hi, I'm looking for a nice German restaurant. <SYSTEM> There are no German restaurants listed, do you have another preference? <USER> How about European yeah? <SYSTEM> Which area of town?",
+                "dialog history": "<USER> Hi, I'm looking for a nice German restaurant. <SYSTEM> There are no German restaurants listed, do you have another preference? <USER> How about European yeah?  <SYSTEM> Which area of town?",
                 "original user side information": {
                     "turn_label": [
                         [
@@ -437,7 +437,7 @@
                 "turn id": 4,
                 "user utterance": "Can I have the address, phone number, and area for the most expensive one?",
                 "system response": "Cambridge Lodge Restaurant is listed as expensive in the west area located at \t Cambridge Lodge Hotel 139 Huntingdon Road City Centre. Their phone number is\t 01223 355166.  ",
-                "dialog history": "<USER> Hi, I'm looking for a nice German restaurant. <SYSTEM> There are no German restaurants listed, do you have another preference? <USER> How about European yeah? <SYSTEM> Which area of town? <USER> I don't care. <SYSTEM> There are ten restaurants that fit that description. Do you have a price preference?",
+                "dialog history": "<USER> Hi, I'm looking for a nice German restaurant. <SYSTEM> There are no German restaurants listed, do you have another preference? <USER> How about European yeah?  <SYSTEM> Which area of town? <USER> I don't care. <SYSTEM> There are ten restaurants that fit that description. Do you have a price preference?",
                 "original user side information": {
                     "turn_label": [
                         [
@@ -532,7 +532,7 @@
                 "turn id": 5,
                 "user utterance": "Thank you goodbye",
                 "system response": "",
-                "dialog history": "<USER> Hi, I'm looking for a nice German restaurant. <SYSTEM> There are no German restaurants listed, do you have another preference? <USER> How about European yeah? <SYSTEM> Which area of town? <USER> I don't care. <SYSTEM> There are ten restaurants that fit that description. Do you have a price preference? <USER> Can I have the address, phone number, and area for the most expensive one? <SYSTEM> Cambridge Lodge Restaurant is listed as expensive in the west area located at \t Cambridge Lodge Hotel 139 Huntingdon Road City Centre. Their phone number is\t 01223 355166.",
+                "dialog history": "<USER> Hi, I'm looking for a nice German restaurant. <SYSTEM> There are no German restaurants listed, do you have another preference? <USER> How about European yeah?  <SYSTEM> Which area of town? <USER> I don't care. <SYSTEM> There are ten restaurants that fit that description. Do you have a price preference? <USER> Can I have the address, phone number, and area for the most expensive one? <SYSTEM> Cambridge Lodge Restaurant is listed as expensive in the west area located at \t Cambridge Lodge Hotel 139 Huntingdon Road City Centre. Their phone number is\t 01223 355166.  ",
                 "original user side information": {
                     "turn_label": [],
                     "asr": [
@@ -583,16 +583,16 @@
             "slots and values": {
                 "restaurant": {
                     "food": [
-                        "austrian",
-                        "austrian",
-                        "caribbean",
-                        "irish",
-                        "irish",
-                        "seafood",
-                        "tuscan",
-                        "christmas",
-                        "vietnamese",
-                        "british"
+                        "italian",
+                        "north american",
+                        "australian",
+                        "spanish",
+                        "persian",
+                        "greek",
+                        "corsica",
+                        "romanian",
+                        "singaporean",
+                        "traditional"
                     ],
                     "area": [
                         "north",
@@ -615,14 +615,14 @@
             "intents": {}
         },
         "external knowledge": "()",
-        "dst knowledge": "( restaurant : ( food : ( austrian | austrian | caribbean | irish | irish | seafood | tuscan | christmas | vietnamese | british ) | area : ( north | dontcare | centre | south | east side | east | center | west ) | price range : ( dontcare | cheap | expensive | moderate )))",
+        "dst knowledge": "( restaurant : ( food : ( italian | north american | australian | spanish | persian | greek | corsica | romanian | singaporean | traditional ) | area : ( north | dontcare | centre | south | east side | east | center | west ) | price range : ( dontcare | cheap | expensive | moderate )))",
         "intent knowledge": "()",
         "prompt": [
             "This is a bot helping users to find a restaurant. Given the dialog context and external database, please generate a relevant system response for the user.",
             "This bot assists users to find a restaurant. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
-            "This bot helps users to find a restaurant. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
-            "The purpose of this bot is to assist users to find a restaurant. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
-            "This bot is designed to help users find a restaurant. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+            "This bot helps users to find a restaurant. Based on the conversation history and available external data, please generate a relevant system response for the user.",
+            "The purpose of this bot is to assist users to find a restaurant. Considering the dialogue context and the information available in the external database, please provide a fitting response for the user.",
+            "This bot is designed to help users find a restaurant. By utilizing the current dialog context and external resources, generate a fitting response for the user."
         ]
     },
     "WOZ2_0--train--3": {
@@ -687,7 +687,7 @@
                 "turn id": 2,
                 "user utterance": "I'd like to find some Mediterranean food and need to know their address and phone number.",
                 "system response": "There is an expensive restaurant that serves mediterranean food located at Thompsons Lane Fen Ditton. Their phone number is 01223 362525.",
-                "dialog history": "<USER> I am looking for a restaurant in the expensive price range that serves Australasian food. <SYSTEM> There are no restaurants matching your requests.  May I help you find a different type of restaurant?",
+                "dialog history": "<USER> I am looking for a restaurant in the expensive price range that serves Australasian food.  <SYSTEM> There are no restaurants matching your requests.  May I help you find a different type of restaurant? ",
                 "original user side information": {
                     "turn_label": [
                         [
@@ -760,7 +760,7 @@
                 "turn id": 3,
                 "user utterance": "Thank you!",
                 "system response": "",
-                "dialog history": "<USER> I am looking for a restaurant in the expensive price range that serves Australasian food. <SYSTEM> There are no restaurants matching your requests.  May I help you find a different type of restaurant? <USER> I'd like to find some Mediterranean food and need to know their address and phone number. <SYSTEM> There is an expensive restaurant that serves mediterranean food located at Thompsons Lane Fen Ditton. Their phone number is 01223 362525.",
+                "dialog history": "<USER> I am looking for a restaurant in the expensive price range that serves Australasian food.  <SYSTEM> There are no restaurants matching your requests.  May I help you find a different type of restaurant?  <USER> I'd like to find some Mediterranean food and need to know their address and phone number. <SYSTEM> There is an expensive restaurant that serves mediterranean food located at Thompsons Lane Fen Ditton. Their phone number is 01223 362525.",
                 "original user side information": {
                     "turn_label": [],
                     "asr": [
@@ -802,16 +802,16 @@
             "slots and values": {
                 "restaurant": {
                     "food": [
-                        "austrian",
-                        "austrian",
-                        "caribbean",
-                        "irish",
-                        "irish",
-                        "seafood",
-                        "tuscan",
-                        "christmas",
-                        "vietnamese",
-                        "british"
+                        "italian",
+                        "north american",
+                        "australian",
+                        "spanish",
+                        "persian",
+                        "greek",
+                        "corsica",
+                        "romanian",
+                        "singaporean",
+                        "traditional"
                     ],
                     "area": [
                         "north",
@@ -834,14 +834,14 @@
             "intents": {}
         },
         "external knowledge": "()",
-        "dst knowledge": "( restaurant : ( food : ( austrian | austrian | caribbean | irish | irish | seafood | tuscan | christmas | vietnamese | british ) | area : ( north | dontcare | centre | south | east side | east | center | west ) | price range : ( dontcare | cheap | expensive | moderate )))",
+        "dst knowledge": "( restaurant : ( food : ( italian | north american | australian | spanish | persian | greek | corsica | romanian | singaporean | traditional ) | area : ( north | dontcare | centre | south | east side | east | center | west ) | price range : ( dontcare | cheap | expensive | moderate )))",
         "intent knowledge": "()",
         "prompt": [
             "This is a bot helping users to find a restaurant. Given the dialog context and external database, please generate a relevant system response for the user.",
             "This bot assists users to find a restaurant. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
-            "This bot helps users to find a restaurant. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
-            "The purpose of this bot is to assist users to find a restaurant. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
-            "This bot is designed to help users find a restaurant. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+            "This bot helps users to find a restaurant. Based on the conversation history and available external data, please generate a relevant system response for the user.",
+            "The purpose of this bot is to assist users to find a restaurant. Considering the dialogue context and the information available in the external database, please provide a fitting response for the user.",
+            "This bot is designed to help users find a restaurant. By utilizing the current dialog context and external resources, generate a fitting response for the user."
         ]
     },
     "WOZ2_0--train--4": {
@@ -1055,16 +1055,16 @@
             "slots and values": {
                 "restaurant": {
                     "food": [
-                        "austrian",
-                        "austrian",
-                        "caribbean",
-                        "irish",
-                        "irish",
-                        "seafood",
-                        "tuscan",
-                        "christmas",
-                        "vietnamese",
-                        "british"
+                        "italian",
+                        "north american",
+                        "australian",
+                        "spanish",
+                        "persian",
+                        "greek",
+                        "corsica",
+                        "romanian",
+                        "singaporean",
+                        "traditional"
                     ],
                     "area": [
                         "north",
@@ -1087,14 +1087,14 @@
             "intents": {}
         },
         "external knowledge": "()",
-        "dst knowledge": "( restaurant : ( food : ( austrian | austrian | caribbean | irish | irish | seafood | tuscan | christmas | vietnamese | british ) | area : ( north | dontcare | centre | south | east side | east | center | west ) | price range : ( dontcare | cheap | expensive | moderate )))",
+        "dst knowledge": "( restaurant : ( food : ( italian | north american | australian | spanish | persian | greek | corsica | romanian | singaporean | traditional ) | area : ( north | dontcare | centre | south | east side | east | center | west ) | price range : ( dontcare | cheap | expensive | moderate )))",
         "intent knowledge": "()",
         "prompt": [
             "This is a bot helping users to find a restaurant. Given the dialog context and external database, please generate a relevant system response for the user.",
             "This bot assists users to find a restaurant. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
-            "This bot helps users to find a restaurant. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
-            "The purpose of this bot is to assist users to find a restaurant. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
-            "This bot is designed to help users find a restaurant. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+            "This bot helps users to find a restaurant. Based on the conversation history and available external data, please generate a relevant system response for the user.",
+            "The purpose of this bot is to assist users to find a restaurant. Considering the dialogue context and the information available in the external database, please provide a fitting response for the user.",
+            "This bot is designed to help users find a restaurant. By utilizing the current dialog context and external resources, generate a fitting response for the user."
         ]
     },
     "WOZ2_0--train--5": {
@@ -1162,7 +1162,7 @@
                 "turn id": 2,
                 "user utterance": "No thank you.  Is there a restaurant with italian food?",
                 "system response": "Prezzo is on the west side.",
-                "dialog history": "<USER> Hi I am looking for a persian restaurant in the west part of town. <SYSTEM> I'm sorry I do not have any Persian restaurants listed on the west side.  Should I try Persian restaurants in all locations?",
+                "dialog history": "<USER> Hi I am looking for a persian restaurant in the west part of town.  <SYSTEM> I'm sorry I do not have any Persian restaurants listed on the west side.  Should I try Persian restaurants in all locations?",
                 "original user side information": {
                     "turn_label": [
                         [
@@ -1209,7 +1209,7 @@
                 "turn id": 3,
                 "user utterance": "Great! May I have the phone number please?",
                 "system response": "The phone number is  01799 521260",
-                "dialog history": "<USER> Hi I am looking for a persian restaurant in the west part of town. <SYSTEM> I'm sorry I do not have any Persian restaurants listed on the west side.  Should I try Persian restaurants in all locations? <USER> No thank you.  Is there a restaurant with italian food? <SYSTEM> Prezzo is on the west side.",
+                "dialog history": "<USER> Hi I am looking for a persian restaurant in the west part of town.  <SYSTEM> I'm sorry I do not have any Persian restaurants listed on the west side.  Should I try Persian restaurants in all locations? <USER> No thank you.  Is there a restaurant with italian food? <SYSTEM> Prezzo is on the west side.",
                 "original user side information": {
                     "turn_label": [
                         [
@@ -1265,7 +1265,7 @@
                 "turn id": 4,
                 "user utterance": "Thanks, good night!",
                 "system response": "",
-                "dialog history": "<USER> Hi I am looking for a persian restaurant in the west part of town. <SYSTEM> I'm sorry I do not have any Persian restaurants listed on the west side.  Should I try Persian restaurants in all locations? <USER> No thank you.  Is there a restaurant with italian food? <SYSTEM> Prezzo is on the west side. <USER> Great! May I have the phone number please? <SYSTEM> The phone number is  01799 521260",
+                "dialog history": "<USER> Hi I am looking for a persian restaurant in the west part of town.  <SYSTEM> I'm sorry I do not have any Persian restaurants listed on the west side.  Should I try Persian restaurants in all locations? <USER> No thank you.  Is there a restaurant with italian food? <SYSTEM> Prezzo is on the west side. <USER> Great! May I have the phone number please? <SYSTEM> The phone number is  01799 521260",
                 "original user side information": {
                     "turn_label": [],
                     "asr": [
@@ -1307,16 +1307,16 @@
             "slots and values": {
                 "restaurant": {
                     "food": [
-                        "austrian",
-                        "austrian",
-                        "caribbean",
-                        "irish",
-                        "irish",
-                        "seafood",
-                        "tuscan",
-                        "christmas",
-                        "vietnamese",
-                        "british"
+                        "italian",
+                        "north american",
+                        "australian",
+                        "spanish",
+                        "persian",
+                        "greek",
+                        "corsica",
+                        "romanian",
+                        "singaporean",
+                        "traditional"
                     ],
                     "area": [
                         "north",
@@ -1339,14 +1339,14 @@
             "intents": {}
         },
         "external knowledge": "()",
-        "dst knowledge": "( restaurant : ( food : ( austrian | austrian | caribbean | irish | irish | seafood | tuscan | christmas | vietnamese | british ) | area : ( north | dontcare | centre | south | east side | east | center | west ) | price range : ( dontcare | cheap | expensive | moderate )))",
+        "dst knowledge": "( restaurant : ( food : ( italian | north american | australian | spanish | persian | greek | corsica | romanian | singaporean | traditional ) | area : ( north | dontcare | centre | south | east side | east | center | west ) | price range : ( dontcare | cheap | expensive | moderate )))",
         "intent knowledge": "()",
         "prompt": [
             "This is a bot helping users to find a restaurant. Given the dialog context and external database, please generate a relevant system response for the user.",
             "This bot assists users to find a restaurant. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
-            "This bot helps users to find a restaurant. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
-            "The purpose of this bot is to assist users to find a restaurant. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
-            "This bot is designed to help users find a restaurant. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+            "This bot helps users to find a restaurant. Based on the conversation history and available external data, please generate a relevant system response for the user.",
+            "The purpose of this bot is to assist users to find a restaurant. Considering the dialogue context and the information available in the external database, please provide a fitting response for the user.",
+            "This bot is designed to help users find a restaurant. By utilizing the current dialog context and external resources, generate a fitting response for the user."
         ]
     }
 }

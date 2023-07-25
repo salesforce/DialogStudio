@@ -35,31 +35,7 @@
                         "sender": "assistant",
                         "action_id": "kgwalk/choose_path"
                     }
-                },
-                "external knowledge non-flat": {
-                    "original system side information": {
-                        "type": "chat",
-                        "metadata": {
-                            "metadata": {
-                                "path": [
-                                    0.0,
-                                    [
-                                        [
-                                            "Iron Man",
-                                            "starred_actors",
-                                            "Robert Downey Jr."
-                                        ]
-                                    ],
-                                    "Iron Man is starring Robert Downey Jr."
-                                ]
-                            },
-                            "type": "action",
-                            "sender": "assistant",
-                            "action_id": "kgwalk/choose_path"
-                        }
-                    }
-                },
-                "external knowledge": "Metadata: {'metadata': {'path': [0.0, [['Iron Man', 'starred_actors', 'Robert Downey Jr.']], 'Iron Man is starring Robert Downey Jr.']}, 'type': 'action', 'sender': 'assistant', 'action_id': 'kgwalk/choose_path'}"
+                }
             },
             {
                 "turn id": 2,
@@ -89,31 +65,7 @@
                         "sender": "assistant",
                         "action_id": "kgwalk/choose_path"
                     }
-                },
-                "external knowledge non-flat": {
-                    "original system side information": {
-                        "type": "chat",
-                        "metadata": {
-                            "metadata": {
-                                "path": [
-                                    0.0,
-                                    [
-                                        [
-                                            "Zodiac (Crime Fiction Film)",
-                                            "starred_actors",
-                                            "Jake Gyllenhaal"
-                                        ]
-                                    ],
-                                    "Zodiac (Crime Fiction Film) is starring Jake Gyllenhaal"
-                                ]
-                            },
-                            "type": "action",
-                            "sender": "assistant",
-                            "action_id": "kgwalk/choose_path"
-                        }
-                    }
-                },
-                "external knowledge": "Metadata: {'metadata': {'path': [0.0, [['Zodiac (Crime Fiction Film)', 'starred_actors', 'Jake Gyllenhaal']], 'Zodiac (Crime Fiction Film) is starring Jake Gyllenhaal']}, 'type': 'action', 'sender': 'assistant', 'action_id': 'kgwalk/choose_path'}"
+                }
             },
             {
                 "turn id": 3,
@@ -143,31 +95,7 @@
                         "sender": "assistant",
                         "action_id": "kgwalk/choose_path"
                     }
-                },
-                "external knowledge non-flat": {
-                    "original system side information": {
-                        "type": "chat",
-                        "metadata": {
-                            "metadata": {
-                                "path": [
-                                    3.0,
-                                    [
-                                        [
-                                            "End of Watch",
-                                            "has_genre",
-                                            "Thriller"
-                                        ]
-                                    ],
-                                    "End of Watch has genre Thriller"
-                                ]
-                            },
-                            "type": "action",
-                            "sender": "assistant",
-                            "action_id": "kgwalk/choose_path"
-                        }
-                    }
-                },
-                "external knowledge": "Metadata: {'metadata': {'path': [3.0, [['End of Watch', 'has_genre', 'Thriller']], 'End of Watch has genre Thriller']}, 'type': 'action', 'sender': 'assistant', 'action_id': 'kgwalk/choose_path'}"
+                }
             },
             {
                 "turn id": 4,
@@ -179,13 +107,7 @@
                 },
                 "original system side information": {
                     "type": "chat"
-                },
-                "external knowledge non-flat": {
-                    "original system side information": {
-                        "type": "chat"
-                    }
-                },
-                "external knowledge": "Metadata: ()"
+                }
             },
             {
                 "turn id": 5,
@@ -197,21 +119,8 @@
                 },
                 "original system side information": {
                     "type": "chat"
-                },
-                "external knowledge non-flat": {
-                    "original system side information": {
-                        "type": "chat"
-                    }
-                },
-                "external knowledge": "Metadata: ()"
+                }
             }
-        ],
-        "prompt": [
-            "Pretend you're an AI assistant tasked with aiding users. Develop a fitting response or suggestion for the user, taking into account the conversation history and paths in the simple knowledge graph.",
-            "As a chatbot built to assist users, construct a suitable response or advice based on the dialog history and the connections within your short knowledge graph.",
-            "Envision yourself as a chatbot whose goal is to support users. Craft an appropriate response or recommendation for the user, considering previous interactions and the routes within your simple knowledge graph.",
-            "Assume the role of an AI conversationalist dedicated to helping users. Offer a relevant response or guidance for the user, based on past conversations and the pathways in your simple knowledge graph.",
-            "As a chatbot designed to provide user assistance, produce a fitting response or suggestion for the user, bearing in mind the dialog history and the links in your simple knowledge graph."
         ]
     },
     "OpenDialKG--train--2": {
@@ -255,36 +164,7 @@
                         "sender": "assistant",
                         "action_id": "kgwalk/choose_path"
                     }
-                },
-                "external knowledge non-flat": {
-                    "original system side information": {
-                        "type": "chat",
-                        "metadata": {
-                            "metadata": {
-                                "path": [
-                                    -1.5,
-                                    [
-                                        [
-                                            "The Secret Life of Bees",
-                                            "has_genre",
-                                            "Teen drama"
-                                        ],
-                                        [
-                                            "Teen drama",
-                                            "~has_genre",
-                                            "A Walk to Remember"
-                                        ]
-                                    ],
-                                    "The Secret Life of Bees has genre Teen drama. Teen drama has examples: A Walk to Remember"
-                                ]
-                            },
-                            "type": "action",
-                            "sender": "assistant",
-                            "action_id": "kgwalk/choose_path"
-                        }
-                    }
-                },
-                "external knowledge": "Metadata: {'metadata': {'path': [-1.5, [['The Secret Life of Bees', 'has_genre', 'Teen drama'], ['Teen drama', '~has_genre', 'A Walk to Remember']], 'The Secret Life of Bees has genre Teen drama. Teen drama has examples: A Walk to Remember']}, 'type': 'action', 'sender': 'assistant', 'action_id': 'kgwalk/choose_path'}"
+                }
             },
             {
                 "turn id": 2,
@@ -319,36 +199,7 @@
                         "sender": "assistant",
                         "action_id": "kgwalk/choose_path"
                     }
-                },
-                "external knowledge non-flat": {
-                    "original system side information": {
-                        "type": "chat",
-                        "metadata": {
-                            "metadata": {
-                                "path": [
-                                    -2,
-                                    [
-                                        [
-                                            "Hunt Lowry",
-                                            "~Produced by",
-                                            "A Walk to Remember"
-                                        ],
-                                        [
-                                            "A Walk to Remember",
-                                            "is-a",
-                                            "Film"
-                                        ]
-                                    ],
-                                    "Hunt Lowry produced A Walk to Remember. A Walk to Remember is a/an Film"
-                                ]
-                            },
-                            "type": "action",
-                            "sender": "assistant",
-                            "action_id": "kgwalk/choose_path"
-                        }
-                    }
-                },
-                "external knowledge": "Metadata: {'metadata': {'path': [-2, [['Hunt Lowry', '~Produced by', 'A Walk to Remember'], ['A Walk to Remember', 'is-a', 'Film']], 'Hunt Lowry produced A Walk to Remember. A Walk to Remember is a/an Film']}, 'type': 'action', 'sender': 'assistant', 'action_id': 'kgwalk/choose_path'}"
+                }
             },
             {
                 "turn id": 3,
@@ -360,13 +211,7 @@
                 },
                 "original system side information": {
                     "type": "chat"
-                },
-                "external knowledge non-flat": {
-                    "original system side information": {
-                        "type": "chat"
-                    }
-                },
-                "external knowledge": "Metadata: ()"
+                }
             },
             {
                 "turn id": 4,
@@ -378,13 +223,7 @@
                 },
                 "original system side information": {
                     "type": "chat"
-                },
-                "external knowledge non-flat": {
-                    "original system side information": {
-                        "type": "chat"
-                    }
-                },
-                "external knowledge": "Metadata: ()"
+                }
             },
             {
                 "turn id": 5,
@@ -404,29 +243,8 @@
                         "sender": "assistant",
                         "action_id": "meta_thread/send_meta_message"
                     }
-                },
-                "external knowledge non-flat": {
-                    "original system side information": {
-                        "type": "chat",
-                        "metadata": {
-                            "metadata": {
-                                "text": "only you can end this dialouge"
-                            },
-                            "type": "action",
-                            "sender": "assistant",
-                            "action_id": "meta_thread/send_meta_message"
-                        }
-                    }
-                },
-                "external knowledge": "Metadata: {'metadata': {'text': 'only you can end this dialouge'}, 'type': 'action', 'sender': 'assistant', 'action_id': 'meta_thread/send_meta_message'}"
+                }
             }
-        ],
-        "prompt": [
-            "Pretend you're an AI assistant tasked with aiding users. Develop a fitting response or suggestion for the user, taking into account the conversation history and paths in the simple knowledge graph.",
-            "As a chatbot built to assist users, construct a suitable response or advice based on the dialog history and the connections within your short knowledge graph.",
-            "Envision yourself as a chatbot whose goal is to support users. Craft an appropriate response or recommendation for the user, considering previous interactions and the routes within your simple knowledge graph.",
-            "Assume the role of an AI conversationalist dedicated to helping users. Offer a relevant response or guidance for the user, based on past conversations and the pathways in your simple knowledge graph.",
-            "As a chatbot designed to provide user assistance, produce a fitting response or suggestion for the user, bearing in mind the dialog history and the links in your simple knowledge graph."
         ]
     },
     "OpenDialKG--train--3": {
@@ -447,13 +265,7 @@
                 },
                 "original system side information": {
                     "type": "chat"
-                },
-                "external knowledge non-flat": {
-                    "original system side information": {
-                        "type": "chat"
-                    }
-                },
-                "external knowledge": "Metadata: ()"
+                }
             },
             {
                 "turn id": 2,
@@ -465,13 +277,7 @@
                 },
                 "original system side information": {
                     "type": "chat"
-                },
-                "external knowledge non-flat": {
-                    "original system side information": {
-                        "type": "chat"
-                    }
-                },
-                "external knowledge": "Metadata: ()"
+                }
             },
             {
                 "turn id": 3,
@@ -483,21 +289,8 @@
                 },
                 "original system side information": {
                     "type": "chat"
-                },
-                "external knowledge non-flat": {
-                    "original system side information": {
-                        "type": "chat"
-                    }
-                },
-                "external knowledge": "Metadata: ()"
+                }
             }
-        ],
-        "prompt": [
-            "Pretend you're an AI assistant tasked with aiding users. Develop a fitting response or suggestion for the user, taking into account the conversation history and paths in the simple knowledge graph.",
-            "As a chatbot built to assist users, construct a suitable response or advice based on the dialog history and the connections within your short knowledge graph.",
-            "Envision yourself as a chatbot whose goal is to support users. Craft an appropriate response or recommendation for the user, considering previous interactions and the routes within your simple knowledge graph.",
-            "Assume the role of an AI conversationalist dedicated to helping users. Offer a relevant response or guidance for the user, based on past conversations and the pathways in your simple knowledge graph.",
-            "As a chatbot designed to provide user assistance, produce a fitting response or suggestion for the user, bearing in mind the dialog history and the links in your simple knowledge graph."
         ]
     },
     "OpenDialKG--train--4": {
@@ -536,31 +329,7 @@
                         "sender": "assistant",
                         "action_id": "kgwalk/choose_path"
                     }
-                },
-                "external knowledge non-flat": {
-                    "original system side information": {
-                        "type": "chat",
-                        "metadata": {
-                            "metadata": {
-                                "path": [
-                                    -0.5,
-                                    [
-                                        [
-                                            "Michael Jackson",
-                                            "~written_by",
-                                            "Dancing the Dream"
-                                        ]
-                                    ],
-                                    "Michael Jackson wrote Dancing the Dream"
-                                ]
-                            },
-                            "type": "action",
-                            "sender": "assistant",
-                            "action_id": "kgwalk/choose_path"
-                        }
-                    }
-                },
-                "external knowledge": "Metadata: {'metadata': {'path': [-0.5, [['Michael Jackson', '~written_by', 'Dancing the Dream']], 'Michael Jackson wrote Dancing the Dream']}, 'type': 'action', 'sender': 'assistant', 'action_id': 'kgwalk/choose_path'}"
+                }
             },
             {
                 "turn id": 2,
@@ -590,31 +359,7 @@
                         "sender": "assistant",
                         "action_id": "kgwalk/choose_path"
                     }
-                },
-                "external knowledge non-flat": {
-                    "original system side information": {
-                        "type": "chat",
-                        "metadata": {
-                            "metadata": {
-                                "path": [
-                                    -1,
-                                    [
-                                        [
-                                            "Michael Jackson",
-                                            "~Lyricist",
-                                            "Heal the World"
-                                        ]
-                                    ],
-                                    "Michael Jackson : `~Lyricist`: Heal the World"
-                                ]
-                            },
-                            "type": "action",
-                            "sender": "assistant",
-                            "action_id": "kgwalk/choose_path"
-                        }
-                    }
-                },
-                "external knowledge": "Metadata: {'metadata': {'path': [-1, [['Michael Jackson', '~Lyricist', 'Heal the World']], 'Michael Jackson : `~Lyricist`: Heal the World']}, 'type': 'action', 'sender': 'assistant', 'action_id': 'kgwalk/choose_path'}"
+                }
             },
             {
                 "turn id": 3,
@@ -626,21 +371,8 @@
                 },
                 "original system side information": {
                     "type": "chat"
-                },
-                "external knowledge non-flat": {
-                    "original system side information": {
-                        "type": "chat"
-                    }
-                },
-                "external knowledge": "Metadata: ()"
+                }
             }
-        ],
-        "prompt": [
-            "Pretend you're an AI assistant tasked with aiding users. Develop a fitting response or suggestion for the user, taking into account the conversation history and paths in the simple knowledge graph.",
-            "As a chatbot built to assist users, construct a suitable response or advice based on the dialog history and the connections within your short knowledge graph.",
-            "Envision yourself as a chatbot whose goal is to support users. Craft an appropriate response or recommendation for the user, considering previous interactions and the routes within your simple knowledge graph.",
-            "Assume the role of an AI conversationalist dedicated to helping users. Offer a relevant response or guidance for the user, based on past conversations and the pathways in your simple knowledge graph.",
-            "As a chatbot designed to provide user assistance, produce a fitting response or suggestion for the user, bearing in mind the dialog history and the links in your simple knowledge graph."
         ]
     },
     "OpenDialKG--train--5": {
@@ -669,13 +401,7 @@
                 },
                 "original system side information": {
                     "type": "chat"
-                },
-                "external knowledge non-flat": {
-                    "original system side information": {
-                        "type": "chat"
-                    }
-                },
-                "external knowledge": "Metadata: ()"
+                }
             },
             {
                 "turn id": 2,
@@ -705,31 +431,7 @@
                         "sender": "assistant",
                         "action_id": "kgwalk/choose_path"
                     }
-                },
-                "external knowledge non-flat": {
-                    "original system side information": {
-                        "type": "chat",
-                        "metadata": {
-                            "metadata": {
-                                "path": [
-                                    0.0,
-                                    [
-                                        [
-                                            "The Southern Vampire Mysteries",
-                                            "written_by",
-                                            "Charlaine Harris"
-                                        ]
-                                    ],
-                                    "The Southern Vampire Mysteries is written by Charlaine Harris"
-                                ]
-                            },
-                            "type": "action",
-                            "sender": "assistant",
-                            "action_id": "kgwalk/choose_path"
-                        }
-                    }
-                },
-                "external knowledge": "Metadata: {'metadata': {'path': [0.0, [['The Southern Vampire Mysteries', 'written_by', 'Charlaine Harris']], 'The Southern Vampire Mysteries is written by Charlaine Harris']}, 'type': 'action', 'sender': 'assistant', 'action_id': 'kgwalk/choose_path'}"
+                }
             },
             {
                 "turn id": 3,
@@ -741,21 +443,8 @@
                 },
                 "original system side information": {
                     "type": "chat"
-                },
-                "external knowledge non-flat": {
-                    "original system side information": {
-                        "type": "chat"
-                    }
-                },
-                "external knowledge": "Metadata: ()"
+                }
             }
-        ],
-        "prompt": [
-            "Pretend you're an AI assistant tasked with aiding users. Develop a fitting response or suggestion for the user, taking into account the conversation history and paths in the simple knowledge graph.",
-            "As a chatbot built to assist users, construct a suitable response or advice based on the dialog history and the connections within your short knowledge graph.",
-            "Envision yourself as a chatbot whose goal is to support users. Craft an appropriate response or recommendation for the user, considering previous interactions and the routes within your simple knowledge graph.",
-            "Assume the role of an AI conversationalist dedicated to helping users. Offer a relevant response or guidance for the user, based on past conversations and the pathways in your simple knowledge graph.",
-            "As a chatbot designed to provide user assistance, produce a fitting response or suggestion for the user, bearing in mind the dialog history and the links in your simple knowledge graph."
         ]
     }
 }

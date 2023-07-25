@@ -1,0 +1,514 @@
+{
+    "AntiScam--train--1": {
+        "original dialog id": "",
+        "dialog index": 1,
+        "original dialog info": {},
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "Hello my name is NAMESLOT and I am with Amazon customer support.",
+                "system response": "Yes, Hello NAMESLOT. I recently purchased a heater but it has not arrived",
+                "dialog history": "",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 2,
+                "user utterance": "I'm sorry to hear that. Can I have your name and address to look this up?",
+                "system response": "Why is my address necessary NAMESLOT?",
+                "dialog history": "<USER> Hello my name is NAMESLOT and I am with Amazon customer support. <SYSTEM> Yes, Hello NAMESLOT. I recently purchased a heater but it has not arrived",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 3,
+                "user utterance": "Due to our volume, we have certain guidelines on information needed for order inquiries.",
+                "system response": "Alright before I proceed may I have your full name for personal record.",
+                "dialog history": "<USER> Hello my name is NAMESLOT and I am with Amazon customer support. <SYSTEM> Yes, Hello NAMESLOT. I recently purchased a heater but it has not arrived <USER> I'm sorry to hear that. Can I have your name and address to look this up? <SYSTEM> Why is my address necessary NAMESLOT?",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 4,
+                "user utterance": "I'm sorry that is against our policies. I can give you my employee number if you need.",
+                "system response": "Ok, what is your employee number?",
+                "dialog history": "<USER> Hello my name is NAMESLOT and I am with Amazon customer support. <SYSTEM> Yes, Hello NAMESLOT. I recently purchased a heater but it has not arrived <USER> I'm sorry to hear that. Can I have your name and address to look this up? <SYSTEM> Why is my address necessary NAMESLOT? <USER> Due to our volume, we have certain guidelines on information needed for order inquiries. <SYSTEM> Alright before I proceed may I have your full name for personal record.",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 5,
+                "user utterance": "234111",
+                "system response": "NAMESLOT",
+                "dialog history": "<USER> Hello my name is NAMESLOT and I am with Amazon customer support. <SYSTEM> Yes, Hello NAMESLOT. I recently purchased a heater but it has not arrived <USER> I'm sorry to hear that. Can I have your name and address to look this up? <SYSTEM> Why is my address necessary NAMESLOT? <USER> Due to our volume, we have certain guidelines on information needed for order inquiries. <SYSTEM> Alright before I proceed may I have your full name for personal record. <USER> I'm sorry that is against our policies. I can give you my employee number if you need. <SYSTEM> Ok, what is your employee number?",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 6,
+                "user utterance": "NAMESLOT. I am seeing a customers by that name. Did you order with a credit card?",
+                "system response": "Yes I did",
+                "dialog history": "<USER> Hello my name is NAMESLOT and I am with Amazon customer support. <SYSTEM> Yes, Hello NAMESLOT. I recently purchased a heater but it has not arrived <USER> I'm sorry to hear that. Can I have your name and address to look this up? <SYSTEM> Why is my address necessary NAMESLOT? <USER> Due to our volume, we have certain guidelines on information needed for order inquiries. <SYSTEM> Alright before I proceed may I have your full name for personal record. <USER> I'm sorry that is against our policies. I can give you my employee number if you need. <SYSTEM> Ok, what is your employee number? <USER> 234111 <SYSTEM> NAMESLOT",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 7,
+                "user utterance": "I can find your order instantly with your CC number. Possibly a quick refund as well.",
+                "system response": "Great! May I get your number NAMESLOT for quality reassurance?",
+                "dialog history": "<USER> Hello my name is NAMESLOT and I am with Amazon customer support. <SYSTEM> Yes, Hello NAMESLOT. I recently purchased a heater but it has not arrived <USER> I'm sorry to hear that. Can I have your name and address to look this up? <SYSTEM> Why is my address necessary NAMESLOT? <USER> Due to our volume, we have certain guidelines on information needed for order inquiries. <SYSTEM> Alright before I proceed may I have your full name for personal record. <USER> I'm sorry that is against our policies. I can give you my employee number if you need. <SYSTEM> Ok, what is your employee number? <USER> 234111 <SYSTEM> NAMESLOT <USER> NAMESLOT. I am seeing a customers by that name. Did you order with a credit card? <SYSTEM> Yes I did",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 8,
+                "user utterance": "PHONESLOT is my direct line. Don't ask for a date though!",
+                "system response": "Darn, Your name sounded kinda cute",
+                "dialog history": "<USER> Hello my name is NAMESLOT and I am with Amazon customer support. <SYSTEM> Yes, Hello NAMESLOT. I recently purchased a heater but it has not arrived <USER> I'm sorry to hear that. Can I have your name and address to look this up? <SYSTEM> Why is my address necessary NAMESLOT? <USER> Due to our volume, we have certain guidelines on information needed for order inquiries. <SYSTEM> Alright before I proceed may I have your full name for personal record. <USER> I'm sorry that is against our policies. I can give you my employee number if you need. <SYSTEM> Ok, what is your employee number? <USER> 234111 <SYSTEM> NAMESLOT <USER> NAMESLOT. I am seeing a customers by that name. Did you order with a credit card? <SYSTEM> Yes I did <USER> I can find your order instantly with your CC number. Possibly a quick refund as well. <SYSTEM> Great! May I get your number NAMESLOT for quality reassurance?",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 9,
+                "user utterance": "OK NAMESLOT. Your CC and billing address could lead to an instant refund if you'd like.",
+                "system response": "What would happen if I receive the heater after the refund is given to me?",
+                "dialog history": "<USER> Hello my name is NAMESLOT and I am with Amazon customer support. <SYSTEM> Yes, Hello NAMESLOT. I recently purchased a heater but it has not arrived <USER> I'm sorry to hear that. Can I have your name and address to look this up? <SYSTEM> Why is my address necessary NAMESLOT? <USER> Due to our volume, we have certain guidelines on information needed for order inquiries. <SYSTEM> Alright before I proceed may I have your full name for personal record. <USER> I'm sorry that is against our policies. I can give you my employee number if you need. <SYSTEM> Ok, what is your employee number? <USER> 234111 <SYSTEM> NAMESLOT <USER> NAMESLOT. I am seeing a customers by that name. Did you order with a credit card? <SYSTEM> Yes I did <USER> I can find your order instantly with your CC number. Possibly a quick refund as well. <SYSTEM> Great! May I get your number NAMESLOT for quality reassurance? <USER> PHONESLOT is my direct line. Don't ask for a date though! <SYSTEM> Darn, Your name sounded kinda cute",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 10,
+                "user utterance": "We here at Amazon are happy to refund for any reason if you're unhappy. ",
+                "system response": "Well I am honestly just waiting for my package to arrive, I do not need a refund.",
+                "dialog history": "<USER> Hello my name is NAMESLOT and I am with Amazon customer support. <SYSTEM> Yes, Hello NAMESLOT. I recently purchased a heater but it has not arrived <USER> I'm sorry to hear that. Can I have your name and address to look this up? <SYSTEM> Why is my address necessary NAMESLOT? <USER> Due to our volume, we have certain guidelines on information needed for order inquiries. <SYSTEM> Alright before I proceed may I have your full name for personal record. <USER> I'm sorry that is against our policies. I can give you my employee number if you need. <SYSTEM> Ok, what is your employee number? <USER> 234111 <SYSTEM> NAMESLOT <USER> NAMESLOT. I am seeing a customers by that name. Did you order with a credit card? <SYSTEM> Yes I did <USER> I can find your order instantly with your CC number. Possibly a quick refund as well. <SYSTEM> Great! May I get your number NAMESLOT for quality reassurance? <USER> PHONESLOT is my direct line. Don't ask for a date though! <SYSTEM> Darn, Your name sounded kinda cute <USER> OK NAMESLOT. Your CC and billing address could lead to an instant refund if you'd like. <SYSTEM> What would happen if I receive the heater after the refund is given to me?",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 11,
+                "user utterance": "Ok. Was there anything I can help you with ",
+                "system response": "Well you said earlier you saw a customer with my name, is it possible to track it?",
+                "dialog history": "<USER> Hello my name is NAMESLOT and I am with Amazon customer support. <SYSTEM> Yes, Hello NAMESLOT. I recently purchased a heater but it has not arrived <USER> I'm sorry to hear that. Can I have your name and address to look this up? <SYSTEM> Why is my address necessary NAMESLOT? <USER> Due to our volume, we have certain guidelines on information needed for order inquiries. <SYSTEM> Alright before I proceed may I have your full name for personal record. <USER> I'm sorry that is against our policies. I can give you my employee number if you need. <SYSTEM> Ok, what is your employee number? <USER> 234111 <SYSTEM> NAMESLOT <USER> NAMESLOT. I am seeing a customers by that name. Did you order with a credit card? <SYSTEM> Yes I did <USER> I can find your order instantly with your CC number. Possibly a quick refund as well. <SYSTEM> Great! May I get your number NAMESLOT for quality reassurance? <USER> PHONESLOT is my direct line. Don't ask for a date though! <SYSTEM> Darn, Your name sounded kinda cute <USER> OK NAMESLOT. Your CC and billing address could lead to an instant refund if you'd like. <SYSTEM> What would happen if I receive the heater after the refund is given to me? <USER> We here at Amazon are happy to refund for any reason if you're unhappy.  <SYSTEM> Well I am honestly just waiting for my package to arrive, I do not need a refund.",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 12,
+                "user utterance": "Unfortunately not without your CC and billing information. There are 33 NAMESLOT",
+                "system response": "I can provide my address: ADDRSLOT Yes",
+                "dialog history": "<USER> Hello my name is NAMESLOT and I am with Amazon customer support. <SYSTEM> Yes, Hello NAMESLOT. I recently purchased a heater but it has not arrived <USER> I'm sorry to hear that. Can I have your name and address to look this up? <SYSTEM> Why is my address necessary NAMESLOT? <USER> Due to our volume, we have certain guidelines on information needed for order inquiries. <SYSTEM> Alright before I proceed may I have your full name for personal record. <USER> I'm sorry that is against our policies. I can give you my employee number if you need. <SYSTEM> Ok, what is your employee number? <USER> 234111 <SYSTEM> NAMESLOT <USER> NAMESLOT. I am seeing a customers by that name. Did you order with a credit card? <SYSTEM> Yes I did <USER> I can find your order instantly with your CC number. Possibly a quick refund as well. <SYSTEM> Great! May I get your number NAMESLOT for quality reassurance? <USER> PHONESLOT is my direct line. Don't ask for a date though! <SYSTEM> Darn, Your name sounded kinda cute <USER> OK NAMESLOT. Your CC and billing address could lead to an instant refund if you'd like. <SYSTEM> What would happen if I receive the heater after the refund is given to me? <USER> We here at Amazon are happy to refund for any reason if you're unhappy.  <SYSTEM> Well I am honestly just waiting for my package to arrive, I do not need a refund. <USER> Ok. Was there anything I can help you with  <SYSTEM> Well you said earlier you saw a customer with my name, is it possible to track it?",
+                "original user side information": {},
+                "original system side information": {}
+            }
+        ],
+        "prompt": []
+    },
+    "AntiScam--train--2": {
+        "original dialog id": "",
+        "dialog index": 2,
+        "original dialog info": {},
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "Hi!",
+                "system response": "Hi there. How are you? I'm wondering if you can help me figure out why something I ordered hasn't arrived yet.",
+                "dialog history": "",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 2,
+                "user utterance": "Yes! Can you give me your name?",
+                "system response": "My name is NAMESLOT. And what can I call you?",
+                "dialog history": "<USER> Hi! <SYSTEM> Hi there. How are you? I'm wondering if you can help me figure out why something I ordered hasn't arrived yet.",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 3,
+                "user utterance": "My name is NAMESLOT.",
+                "system response": "All right. Thank you for helping me. Were you able to find my order information?",
+                "dialog history": "<USER> Hi! <SYSTEM> Hi there. How are you? I'm wondering if you can help me figure out why something I ordered hasn't arrived yet. <USER> Yes! Can you give me your name? <SYSTEM> My name is NAMESLOT. And what can I call you?",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 4,
+                "user utterance": "Yes, I just need you to confirm the credit card on file for me.",
+                "system response": "Okay, let me find it. Just a moment. Here: NUMSLOT",
+                "dialog history": "<USER> Hi! <SYSTEM> Hi there. How are you? I'm wondering if you can help me figure out why something I ordered hasn't arrived yet. <USER> Yes! Can you give me your name? <SYSTEM> My name is NAMESLOT. And what can I call you? <USER> My name is NAMESLOT. <SYSTEM> All right. Thank you for helping me. Were you able to find my order information?",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 5,
+                "user utterance": "amazing. what is the name and billing address on the card?",
+                "system response": "Hello, I think I got disconnected for a second. Are you still there Mr. NAMESLOT?",
+                "dialog history": "<USER> Hi! <SYSTEM> Hi there. How are you? I'm wondering if you can help me figure out why something I ordered hasn't arrived yet. <USER> Yes! Can you give me your name? <SYSTEM> My name is NAMESLOT. And what can I call you? <USER> My name is NAMESLOT. <SYSTEM> All right. Thank you for helping me. Were you able to find my order information? <USER> Yes, I just need you to confirm the credit card on file for me. <SYSTEM> Okay, let me find it. Just a moment. Here: NUMSLOT",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 6,
+                "user utterance": "Yes, I am!",
+                "system response": "All right the name on the card should be the same as I gave: NAMESLOT.",
+                "dialog history": "<USER> Hi! <SYSTEM> Hi there. How are you? I'm wondering if you can help me figure out why something I ordered hasn't arrived yet. <USER> Yes! Can you give me your name? <SYSTEM> My name is NAMESLOT. And what can I call you? <USER> My name is NAMESLOT. <SYSTEM> All right. Thank you for helping me. Were you able to find my order information? <USER> Yes, I just need you to confirm the credit card on file for me. <SYSTEM> Okay, let me find it. Just a moment. Here: NUMSLOT <USER> amazing. what is the name and billing address on the card? <SYSTEM> Hello, I think I got disconnected for a second. Are you still there Mr. NAMESLOT?",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 7,
+                "user utterance": "Great, and the billing address?",
+                "system response": "The billing address is the same as the shipping address. ADDRSLOT",
+                "dialog history": "<USER> Hi! <SYSTEM> Hi there. How are you? I'm wondering if you can help me figure out why something I ordered hasn't arrived yet. <USER> Yes! Can you give me your name? <SYSTEM> My name is NAMESLOT. And what can I call you? <USER> My name is NAMESLOT. <SYSTEM> All right. Thank you for helping me. Were you able to find my order information? <USER> Yes, I just need you to confirm the credit card on file for me. <SYSTEM> Okay, let me find it. Just a moment. Here: NUMSLOT <USER> amazing. what is the name and billing address on the card? <SYSTEM> Hello, I think I got disconnected for a second. Are you still there Mr. NAMESLOT? <USER> Yes, I am! <SYSTEM> All right the name on the card should be the same as I gave: NAMESLOT.",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 8,
+                "user utterance": "Amazing. Can you just confirm the CSV number and expiration date?",
+                "system response": "Okay, and then you can tell me when my order will arrive? The number is CSVSLOT.",
+                "dialog history": "<USER> Hi! <SYSTEM> Hi there. How are you? I'm wondering if you can help me figure out why something I ordered hasn't arrived yet. <USER> Yes! Can you give me your name? <SYSTEM> My name is NAMESLOT. And what can I call you? <USER> My name is NAMESLOT. <SYSTEM> All right. Thank you for helping me. Were you able to find my order information? <USER> Yes, I just need you to confirm the credit card on file for me. <SYSTEM> Okay, let me find it. Just a moment. Here: NUMSLOT <USER> amazing. what is the name and billing address on the card? <SYSTEM> Hello, I think I got disconnected for a second. Are you still there Mr. NAMESLOT? <USER> Yes, I am! <SYSTEM> All right the name on the card should be the same as I gave: NAMESLOT. <USER> Great, and the billing address? <SYSTEM> The billing address is the same as the shipping address. ADDRSLOT",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 9,
+                "user utterance": "Yes, I just need to confirm your identity with the rest of that information",
+                "system response": "Okay, do you need my card's expiration date? It's DATESLOT.",
+                "dialog history": "<USER> Hi! <SYSTEM> Hi there. How are you? I'm wondering if you can help me figure out why something I ordered hasn't arrived yet. <USER> Yes! Can you give me your name? <SYSTEM> My name is NAMESLOT. And what can I call you? <USER> My name is NAMESLOT. <SYSTEM> All right. Thank you for helping me. Were you able to find my order information? <USER> Yes, I just need you to confirm the credit card on file for me. <SYSTEM> Okay, let me find it. Just a moment. Here: NUMSLOT <USER> amazing. what is the name and billing address on the card? <SYSTEM> Hello, I think I got disconnected for a second. Are you still there Mr. NAMESLOT? <USER> Yes, I am! <SYSTEM> All right the name on the card should be the same as I gave: NAMESLOT. <USER> Great, and the billing address? <SYSTEM> The billing address is the same as the shipping address. ADDRSLOT <USER> Amazing. Can you just confirm the CSV number and expiration date? <SYSTEM> Okay, and then you can tell me when my order will arrive? The number is CSVSLOT.",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 10,
+                "user utterance": "Yes and the CSV number.  ",
+                "system response": "CSVSLOT Do you know when my order will arrive? I need it before next week.",
+                "dialog history": "<USER> Hi! <SYSTEM> Hi there. How are you? I'm wondering if you can help me figure out why something I ordered hasn't arrived yet. <USER> Yes! Can you give me your name? <SYSTEM> My name is NAMESLOT. And what can I call you? <USER> My name is NAMESLOT. <SYSTEM> All right. Thank you for helping me. Were you able to find my order information? <USER> Yes, I just need you to confirm the credit card on file for me. <SYSTEM> Okay, let me find it. Just a moment. Here: NUMSLOT <USER> amazing. what is the name and billing address on the card? <SYSTEM> Hello, I think I got disconnected for a second. Are you still there Mr. NAMESLOT? <USER> Yes, I am! <SYSTEM> All right the name on the card should be the same as I gave: NAMESLOT. <USER> Great, and the billing address? <SYSTEM> The billing address is the same as the shipping address. ADDRSLOT <USER> Amazing. Can you just confirm the CSV number and expiration date? <SYSTEM> Okay, and then you can tell me when my order will arrive? The number is CSVSLOT. <USER> Yes, I just need to confirm your identity with the rest of that information <SYSTEM> Okay, do you need my card's expiration date? It's DATESLOT.",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 11,
+                "user utterance": "Perfect. Yes, your order will arrive by Thursday afternoon.",
+                "system response": "Thanks, and can I get your number in case it doesn't arrive on time? Yes",
+                "dialog history": "<USER> Hi! <SYSTEM> Hi there. How are you? I'm wondering if you can help me figure out why something I ordered hasn't arrived yet. <USER> Yes! Can you give me your name? <SYSTEM> My name is NAMESLOT. And what can I call you? <USER> My name is NAMESLOT. <SYSTEM> All right. Thank you for helping me. Were you able to find my order information? <USER> Yes, I just need you to confirm the credit card on file for me. <SYSTEM> Okay, let me find it. Just a moment. Here: NUMSLOT <USER> amazing. what is the name and billing address on the card? <SYSTEM> Hello, I think I got disconnected for a second. Are you still there Mr. NAMESLOT? <USER> Yes, I am! <SYSTEM> All right the name on the card should be the same as I gave: NAMESLOT. <USER> Great, and the billing address? <SYSTEM> The billing address is the same as the shipping address. ADDRSLOT <USER> Amazing. Can you just confirm the CSV number and expiration date? <SYSTEM> Okay, and then you can tell me when my order will arrive? The number is CSVSLOT. <USER> Yes, I just need to confirm your identity with the rest of that information <SYSTEM> Okay, do you need my card's expiration date? It's DATESLOT. <USER> Yes and the CSV number.   <SYSTEM> CSVSLOT Do you know when my order will arrive? I need it before next week.",
+                "original user side information": {},
+                "original system side information": {}
+            }
+        ],
+        "prompt": []
+    },
+    "AntiScam--train--3": {
+        "original dialog id": "",
+        "dialog index": 3,
+        "original dialog info": {},
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "Hello this is NAMESLOT of the Amazon Customer Service staff. What is your name?",
+                "system response": "Hi NAMESLOT. This is NAMESLOT.",
+                "dialog history": "",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 2,
+                "user utterance": "Hi NAMESLOT I heard you had some trouble purchasing something on Amazon?",
+                "system response": "How did you hear about that? Do you know what product?",
+                "dialog history": "<USER> Hello this is NAMESLOT of the Amazon Customer Service staff. What is your name? <SYSTEM> Hi NAMESLOT. This is NAMESLOT.",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 3,
+                "user utterance": "I heard about that because many people contact us for it, what product did you buy?",
+                "system response": "Normal can I have you last name and call back number in case of disconnect?",
+                "dialog history": "<USER> Hello this is NAMESLOT of the Amazon Customer Service staff. What is your name? <SYSTEM> Hi NAMESLOT. This is NAMESLOT. <USER> Hi NAMESLOT I heard you had some trouble purchasing something on Amazon? <SYSTEM> How did you hear about that? Do you know what product?",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 4,
+                "user utterance": "Yes my last name is NAMESLOT and my number just in case of disconnect ill be PHONESLOT",
+                "system response": "So I ordered a air conditioner and it hasn't arrived. Is it in transit?",
+                "dialog history": "<USER> Hello this is NAMESLOT of the Amazon Customer Service staff. What is your name? <SYSTEM> Hi NAMESLOT. This is NAMESLOT. <USER> Hi NAMESLOT I heard you had some trouble purchasing something on Amazon? <SYSTEM> How did you hear about that? Do you know what product? <USER> I heard about that because many people contact us for it, what product did you buy? <SYSTEM> Normal can I have you last name and call back number in case of disconnect?",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 5,
+                "user utterance": "Ok I need to confirm your purchase, can you send the credit card number ",
+                "system response": "NAMESLOT can you provide your location for my notes as well?",
+                "dialog history": "<USER> Hello this is NAMESLOT of the Amazon Customer Service staff. What is your name? <SYSTEM> Hi NAMESLOT. This is NAMESLOT. <USER> Hi NAMESLOT I heard you had some trouble purchasing something on Amazon? <SYSTEM> How did you hear about that? Do you know what product? <USER> I heard about that because many people contact us for it, what product did you buy? <SYSTEM> Normal can I have you last name and call back number in case of disconnect? <USER> Yes my last name is NAMESLOT and my number just in case of disconnect ill be PHONESLOT <SYSTEM> So I ordered a air conditioner and it hasn't arrived. Is it in transit?",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 6,
+                "user utterance": "ADDRSLOT i will need the info to run through our database",
+                "system response": "How do you like working at amazon? Been there long?",
+                "dialog history": "<USER> Hello this is NAMESLOT of the Amazon Customer Service staff. What is your name? <SYSTEM> Hi NAMESLOT. This is NAMESLOT. <USER> Hi NAMESLOT I heard you had some trouble purchasing something on Amazon? <SYSTEM> How did you hear about that? Do you know what product? <USER> I heard about that because many people contact us for it, what product did you buy? <SYSTEM> Normal can I have you last name and call back number in case of disconnect? <USER> Yes my last name is NAMESLOT and my number just in case of disconnect ill be PHONESLOT <SYSTEM> So I ordered a air conditioner and it hasn't arrived. Is it in transit? <USER> Ok I need to confirm your purchase, can you send the credit card number  <SYSTEM> NAMESLOT can you provide your location for my notes as well?",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 7,
+                "user utterance": "Yes i love working there, I have been there for 10 years, may you provide the information",
+                "system response": "I have an order number",
+                "dialog history": "<USER> Hello this is NAMESLOT of the Amazon Customer Service staff. What is your name? <SYSTEM> Hi NAMESLOT. This is NAMESLOT. <USER> Hi NAMESLOT I heard you had some trouble purchasing something on Amazon? <SYSTEM> How did you hear about that? Do you know what product? <USER> I heard about that because many people contact us for it, what product did you buy? <SYSTEM> Normal can I have you last name and call back number in case of disconnect? <USER> Yes my last name is NAMESLOT and my number just in case of disconnect ill be PHONESLOT <SYSTEM> So I ordered a air conditioner and it hasn't arrived. Is it in transit? <USER> Ok I need to confirm your purchase, can you send the credit card number  <SYSTEM> NAMESLOT can you provide your location for my notes as well? <USER> ADDRSLOT i will need the info to run through our database <SYSTEM> How do you like working at amazon? Been there long?",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 8,
+                "user utterance": "The order number will not work as our systems were recently updated, resetting all information",
+                "system response": "Here it is 6-21-3-11 25-15-21",
+                "dialog history": "<USER> Hello this is NAMESLOT of the Amazon Customer Service staff. What is your name? <SYSTEM> Hi NAMESLOT. This is NAMESLOT. <USER> Hi NAMESLOT I heard you had some trouble purchasing something on Amazon? <SYSTEM> How did you hear about that? Do you know what product? <USER> I heard about that because many people contact us for it, what product did you buy? <SYSTEM> Normal can I have you last name and call back number in case of disconnect? <USER> Yes my last name is NAMESLOT and my number just in case of disconnect ill be PHONESLOT <SYSTEM> So I ordered a air conditioner and it hasn't arrived. Is it in transit? <USER> Ok I need to confirm your purchase, can you send the credit card number  <SYSTEM> NAMESLOT can you provide your location for my notes as well? <USER> ADDRSLOT i will need the info to run through our database <SYSTEM> How do you like working at amazon? Been there long? <USER> Yes i love working there, I have been there for 10 years, may you provide the information <SYSTEM> I have an order number",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 9,
+                "user utterance": "Is this the credit card number?, if so I need the CSV, expiration date, and billing address",
+                "system response": "It most certainly is a set of numbers. It's my order number",
+                "dialog history": "<USER> Hello this is NAMESLOT of the Amazon Customer Service staff. What is your name? <SYSTEM> Hi NAMESLOT. This is NAMESLOT. <USER> Hi NAMESLOT I heard you had some trouble purchasing something on Amazon? <SYSTEM> How did you hear about that? Do you know what product? <USER> I heard about that because many people contact us for it, what product did you buy? <SYSTEM> Normal can I have you last name and call back number in case of disconnect? <USER> Yes my last name is NAMESLOT and my number just in case of disconnect ill be PHONESLOT <SYSTEM> So I ordered a air conditioner and it hasn't arrived. Is it in transit? <USER> Ok I need to confirm your purchase, can you send the credit card number  <SYSTEM> NAMESLOT can you provide your location for my notes as well? <USER> ADDRSLOT i will need the info to run through our database <SYSTEM> How do you like working at amazon? Been there long? <USER> Yes i love working there, I have been there for 10 years, may you provide the information <SYSTEM> I have an order number <USER> The order number will not work as our systems were recently updated, resetting all information <SYSTEM> Here it is 6-21-3-11 25-15-21",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 10,
+                "user utterance": "As i said the order number will not work, I need the other info",
+                "system response": "I remember when Amazon was just a book store essentially. Remember then?",
+                "dialog history": "<USER> Hello this is NAMESLOT of the Amazon Customer Service staff. What is your name? <SYSTEM> Hi NAMESLOT. This is NAMESLOT. <USER> Hi NAMESLOT I heard you had some trouble purchasing something on Amazon? <SYSTEM> How did you hear about that? Do you know what product? <USER> I heard about that because many people contact us for it, what product did you buy? <SYSTEM> Normal can I have you last name and call back number in case of disconnect? <USER> Yes my last name is NAMESLOT and my number just in case of disconnect ill be PHONESLOT <SYSTEM> So I ordered a air conditioner and it hasn't arrived. Is it in transit? <USER> Ok I need to confirm your purchase, can you send the credit card number  <SYSTEM> NAMESLOT can you provide your location for my notes as well? <USER> ADDRSLOT i will need the info to run through our database <SYSTEM> How do you like working at amazon? Been there long? <USER> Yes i love working there, I have been there for 10 years, may you provide the information <SYSTEM> I have an order number <USER> The order number will not work as our systems were recently updated, resetting all information <SYSTEM> Here it is 6-21-3-11 25-15-21 <USER> Is this the credit card number?, if so I need the CSV, expiration date, and billing address <SYSTEM> It most certainly is a set of numbers. It's my order number",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 11,
+                "user utterance": "Excuse me I still need the other information, this does not help ",
+                "system response": "I don't have my credit card number. Will you be my pen pal?",
+                "dialog history": "<USER> Hello this is NAMESLOT of the Amazon Customer Service staff. What is your name? <SYSTEM> Hi NAMESLOT. This is NAMESLOT. <USER> Hi NAMESLOT I heard you had some trouble purchasing something on Amazon? <SYSTEM> How did you hear about that? Do you know what product? <USER> I heard about that because many people contact us for it, what product did you buy? <SYSTEM> Normal can I have you last name and call back number in case of disconnect? <USER> Yes my last name is NAMESLOT and my number just in case of disconnect ill be PHONESLOT <SYSTEM> So I ordered a air conditioner and it hasn't arrived. Is it in transit? <USER> Ok I need to confirm your purchase, can you send the credit card number  <SYSTEM> NAMESLOT can you provide your location for my notes as well? <USER> ADDRSLOT i will need the info to run through our database <SYSTEM> How do you like working at amazon? Been there long? <USER> Yes i love working there, I have been there for 10 years, may you provide the information <SYSTEM> I have an order number <USER> The order number will not work as our systems were recently updated, resetting all information <SYSTEM> Here it is 6-21-3-11 25-15-21 <USER> Is this the credit card number?, if so I need the CSV, expiration date, and billing address <SYSTEM> It most certainly is a set of numbers. It's my order number <USER> As i said the order number will not work, I need the other info <SYSTEM> I remember when Amazon was just a book store essentially. Remember then?",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 12,
+                "user utterance": "What ar ey ou talking about",
+                "system response": "Are we done here? Yes",
+                "dialog history": "<USER> Hello this is NAMESLOT of the Amazon Customer Service staff. What is your name? <SYSTEM> Hi NAMESLOT. This is NAMESLOT. <USER> Hi NAMESLOT I heard you had some trouble purchasing something on Amazon? <SYSTEM> How did you hear about that? Do you know what product? <USER> I heard about that because many people contact us for it, what product did you buy? <SYSTEM> Normal can I have you last name and call back number in case of disconnect? <USER> Yes my last name is NAMESLOT and my number just in case of disconnect ill be PHONESLOT <SYSTEM> So I ordered a air conditioner and it hasn't arrived. Is it in transit? <USER> Ok I need to confirm your purchase, can you send the credit card number  <SYSTEM> NAMESLOT can you provide your location for my notes as well? <USER> ADDRSLOT i will need the info to run through our database <SYSTEM> How do you like working at amazon? Been there long? <USER> Yes i love working there, I have been there for 10 years, may you provide the information <SYSTEM> I have an order number <USER> The order number will not work as our systems were recently updated, resetting all information <SYSTEM> Here it is 6-21-3-11 25-15-21 <USER> Is this the credit card number?, if so I need the CSV, expiration date, and billing address <SYSTEM> It most certainly is a set of numbers. It's my order number <USER> As i said the order number will not work, I need the other info <SYSTEM> I remember when Amazon was just a book store essentially. Remember then? <USER> Excuse me I still need the other information, this does not help  <SYSTEM> I don't have my credit card number. Will you be my pen pal?",
+                "original user side information": {},
+                "original system side information": {}
+            }
+        ],
+        "prompt": []
+    },
+    "AntiScam--train--4": {
+        "original dialog id": "",
+        "dialog index": 4,
+        "original dialog info": {},
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "Good afternoon NAMESLOT, thank you for your recent purchase on Amazon.com",
+                "system response": "Thanks but I never got it",
+                "dialog history": "",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 2,
+                "user utterance": " I am sorry to hear that, did you want me to have a look?",
+                "system response": "Im sorry I did not get you name",
+                "dialog history": "<USER> Good afternoon NAMESLOT, thank you for your recent purchase on Amazon.com <SYSTEM> Thanks but I never got it",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 3,
+                "user utterance": "My apologies, my name is NAMESLOT, nice to meet you!",
+                "system response": "Same here. Where are you from ?",
+                "dialog history": "<USER> Good afternoon NAMESLOT, thank you for your recent purchase on Amazon.com <SYSTEM> Thanks but I never got it <USER>  I am sorry to hear that, did you want me to have a look? <SYSTEM> Im sorry I did not get you name",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 4,
+                "user utterance": "I'm a member of the Amazon Customer Service team, shall we look into your order?",
+                "system response": "Yes can you tell me where it is ?",
+                "dialog history": "<USER> Good afternoon NAMESLOT, thank you for your recent purchase on Amazon.com <SYSTEM> Thanks but I never got it <USER>  I am sorry to hear that, did you want me to have a look? <SYSTEM> Im sorry I did not get you name <USER> My apologies, my name is NAMESLOT, nice to meet you! <SYSTEM> Same here. Where are you from ?",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 5,
+                "user utterance": "I would need to ask you some security questions in accordance with our security policy",
+                "system response": "Ok first I need to know Your location if you dont mind",
+                "dialog history": "<USER> Good afternoon NAMESLOT, thank you for your recent purchase on Amazon.com <SYSTEM> Thanks but I never got it <USER>  I am sorry to hear that, did you want me to have a look? <SYSTEM> Im sorry I did not get you name <USER> My apologies, my name is NAMESLOT, nice to meet you! <SYSTEM> Same here. Where are you from ? <USER> I'm a member of the Amazon Customer Service team, shall we look into your order? <SYSTEM> Yes can you tell me where it is ?",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 6,
+                "user utterance": "our office is located in ADDRSLOT. Can I take your address please?",
+                "system response": "Do you have a phone number that I can reach you directly ?",
+                "dialog history": "<USER> Good afternoon NAMESLOT, thank you for your recent purchase on Amazon.com <SYSTEM> Thanks but I never got it <USER>  I am sorry to hear that, did you want me to have a look? <SYSTEM> Im sorry I did not get you name <USER> My apologies, my name is NAMESLOT, nice to meet you! <SYSTEM> Same here. Where are you from ? <USER> I'm a member of the Amazon Customer Service team, shall we look into your order? <SYSTEM> Yes can you tell me where it is ? <USER> I would need to ask you some security questions in accordance with our security policy <SYSTEM> Ok first I need to know Your location if you dont mind",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 7,
+                "user utterance": "NAMESLOT, I'm afraid I can't help with your order, unless you answer the security questions",
+                "system response": "Yes you should be able to. You called me so therefore you should have all me info",
+                "dialog history": "<USER> Good afternoon NAMESLOT, thank you for your recent purchase on Amazon.com <SYSTEM> Thanks but I never got it <USER>  I am sorry to hear that, did you want me to have a look? <SYSTEM> Im sorry I did not get you name <USER> My apologies, my name is NAMESLOT, nice to meet you! <SYSTEM> Same here. Where are you from ? <USER> I'm a member of the Amazon Customer Service team, shall we look into your order? <SYSTEM> Yes can you tell me where it is ? <USER> I would need to ask you some security questions in accordance with our security policy <SYSTEM> Ok first I need to know Your location if you dont mind <USER> our office is located in ADDRSLOT. Can I take your address please? <SYSTEM> Do you have a phone number that I can reach you directly ?",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 8,
+                "user utterance": "his check is to make sure that i'm not giving out your information to someone else",
+                "system response": "ok now what is the original reason for you call ?",
+                "dialog history": "<USER> Good afternoon NAMESLOT, thank you for your recent purchase on Amazon.com <SYSTEM> Thanks but I never got it <USER>  I am sorry to hear that, did you want me to have a look? <SYSTEM> Im sorry I did not get you name <USER> My apologies, my name is NAMESLOT, nice to meet you! <SYSTEM> Same here. Where are you from ? <USER> I'm a member of the Amazon Customer Service team, shall we look into your order? <SYSTEM> Yes can you tell me where it is ? <USER> I would need to ask you some security questions in accordance with our security policy <SYSTEM> Ok first I need to know Your location if you dont mind <USER> our office is located in ADDRSLOT. Can I take your address please? <SYSTEM> Do you have a phone number that I can reach you directly ? <USER> NAMESLOT, I'm afraid I can't help with your order, unless you answer the security questions <SYSTEM> Yes you should be able to. You called me so therefore you should have all me info",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 9,
+                "user utterance": "Sir, I'm afraid I can't discuss this unless I'm sure of your identity",
+                "system response": "Ok so how is the weather like over there ?",
+                "dialog history": "<USER> Good afternoon NAMESLOT, thank you for your recent purchase on Amazon.com <SYSTEM> Thanks but I never got it <USER>  I am sorry to hear that, did you want me to have a look? <SYSTEM> Im sorry I did not get you name <USER> My apologies, my name is NAMESLOT, nice to meet you! <SYSTEM> Same here. Where are you from ? <USER> I'm a member of the Amazon Customer Service team, shall we look into your order? <SYSTEM> Yes can you tell me where it is ? <USER> I would need to ask you some security questions in accordance with our security policy <SYSTEM> Ok first I need to know Your location if you dont mind <USER> our office is located in ADDRSLOT. Can I take your address please? <SYSTEM> Do you have a phone number that I can reach you directly ? <USER> NAMESLOT, I'm afraid I can't help with your order, unless you answer the security questions <SYSTEM> Yes you should be able to. You called me so therefore you should have all me info <USER> his check is to make sure that i'm not giving out your information to someone else <SYSTEM> ok now what is the original reason for you call ?",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 10,
+                "user utterance": "The weather is perfect, around 75F at the moment. Nice and sunny",
+                "system response": "wow it is cold and rainy here.",
+                "dialog history": "<USER> Good afternoon NAMESLOT, thank you for your recent purchase on Amazon.com <SYSTEM> Thanks but I never got it <USER>  I am sorry to hear that, did you want me to have a look? <SYSTEM> Im sorry I did not get you name <USER> My apologies, my name is NAMESLOT, nice to meet you! <SYSTEM> Same here. Where are you from ? <USER> I'm a member of the Amazon Customer Service team, shall we look into your order? <SYSTEM> Yes can you tell me where it is ? <USER> I would need to ask you some security questions in accordance with our security policy <SYSTEM> Ok first I need to know Your location if you dont mind <USER> our office is located in ADDRSLOT. Can I take your address please? <SYSTEM> Do you have a phone number that I can reach you directly ? <USER> NAMESLOT, I'm afraid I can't help with your order, unless you answer the security questions <SYSTEM> Yes you should be able to. You called me so therefore you should have all me info <USER> his check is to make sure that i'm not giving out your information to someone else <SYSTEM> ok now what is the original reason for you call ? <USER> Sir, I'm afraid I can't discuss this unless I'm sure of your identity <SYSTEM> Ok so how is the weather like over there ?",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 11,
+                "user utterance": "Sorry to hear that. Do you require any further help with your order?",
+                "system response": "I will call amazon directly",
+                "dialog history": "<USER> Good afternoon NAMESLOT, thank you for your recent purchase on Amazon.com <SYSTEM> Thanks but I never got it <USER>  I am sorry to hear that, did you want me to have a look? <SYSTEM> Im sorry I did not get you name <USER> My apologies, my name is NAMESLOT, nice to meet you! <SYSTEM> Same here. Where are you from ? <USER> I'm a member of the Amazon Customer Service team, shall we look into your order? <SYSTEM> Yes can you tell me where it is ? <USER> I would need to ask you some security questions in accordance with our security policy <SYSTEM> Ok first I need to know Your location if you dont mind <USER> our office is located in ADDRSLOT. Can I take your address please? <SYSTEM> Do you have a phone number that I can reach you directly ? <USER> NAMESLOT, I'm afraid I can't help with your order, unless you answer the security questions <SYSTEM> Yes you should be able to. You called me so therefore you should have all me info <USER> his check is to make sure that i'm not giving out your information to someone else <SYSTEM> ok now what is the original reason for you call ? <USER> Sir, I'm afraid I can't discuss this unless I'm sure of your identity <SYSTEM> Ok so how is the weather like over there ? <USER> The weather is perfect, around 75F at the moment. Nice and sunny <SYSTEM> wow it is cold and rainy here.",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 12,
+                "user utterance": "That is absolutely fine. Is there anything else I can do for you today?",
+                "system response": "No thank you yes",
+                "dialog history": "<USER> Good afternoon NAMESLOT, thank you for your recent purchase on Amazon.com <SYSTEM> Thanks but I never got it <USER>  I am sorry to hear that, did you want me to have a look? <SYSTEM> Im sorry I did not get you name <USER> My apologies, my name is NAMESLOT, nice to meet you! <SYSTEM> Same here. Where are you from ? <USER> I'm a member of the Amazon Customer Service team, shall we look into your order? <SYSTEM> Yes can you tell me where it is ? <USER> I would need to ask you some security questions in accordance with our security policy <SYSTEM> Ok first I need to know Your location if you dont mind <USER> our office is located in ADDRSLOT. Can I take your address please? <SYSTEM> Do you have a phone number that I can reach you directly ? <USER> NAMESLOT, I'm afraid I can't help with your order, unless you answer the security questions <SYSTEM> Yes you should be able to. You called me so therefore you should have all me info <USER> his check is to make sure that i'm not giving out your information to someone else <SYSTEM> ok now what is the original reason for you call ? <USER> Sir, I'm afraid I can't discuss this unless I'm sure of your identity <SYSTEM> Ok so how is the weather like over there ? <USER> The weather is perfect, around 75F at the moment. Nice and sunny <SYSTEM> wow it is cold and rainy here. <USER> Sorry to hear that. Do you require any further help with your order? <SYSTEM> I will call amazon directly",
+                "original user side information": {},
+                "original system side information": {}
+            }
+        ],
+        "prompt": []
+    },
+    "AntiScam--train--5": {
+        "original dialog id": "",
+        "dialog index": 5,
+        "original dialog info": {},
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "Hello NAMESLOT, this is NAMESLOT from Amazon Customer Service .",
+                "system response": "Hi NAMESLOT",
+                "dialog history": "",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 2,
+                "user utterance": "Hi. I was contacting you about your order.",
+                "system response": "Yeah, I'm still waiting for it, what gives?",
+                "dialog history": "<USER> Hello NAMESLOT, this is NAMESLOT from Amazon Customer Service . <SYSTEM> Hi NAMESLOT",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 3,
+                "user utterance": "We are having some trouble with your credit card.",
+                "system response": "I used it earlier today, what's the problem?",
+                "dialog history": "<USER> Hello NAMESLOT, this is NAMESLOT from Amazon Customer Service . <SYSTEM> Hi NAMESLOT <USER> Hi. I was contacting you about your order. <SYSTEM> Yeah, I'm still waiting for it, what gives?",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 4,
+                "user utterance": "It's simply not going thru. Do you have another one you can use?",
+                "system response": "Weird, but yes, I can add it on my payments page",
+                "dialog history": "<USER> Hello NAMESLOT, this is NAMESLOT from Amazon Customer Service . <SYSTEM> Hi NAMESLOT <USER> Hi. I was contacting you about your order. <SYSTEM> Yeah, I'm still waiting for it, what gives? <USER> We are having some trouble with your credit card. <SYSTEM> I used it earlier today, what's the problem?",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 5,
+                "user utterance": "Let me try it for you while I have you on the line.",
+                "system response": "No that's OK, I can add it myself",
+                "dialog history": "<USER> Hello NAMESLOT, this is NAMESLOT from Amazon Customer Service . <SYSTEM> Hi NAMESLOT <USER> Hi. I was contacting you about your order. <SYSTEM> Yeah, I'm still waiting for it, what gives? <USER> We are having some trouble with your credit card. <SYSTEM> I used it earlier today, what's the problem? <USER> It's simply not going thru. Do you have another one you can use? <SYSTEM> Weird, but yes, I can add it on my payments page",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 6,
+                "user utterance": "You said the old one worked earlier today",
+                "system response": "it did, at Starbucks",
+                "dialog history": "<USER> Hello NAMESLOT, this is NAMESLOT from Amazon Customer Service . <SYSTEM> Hi NAMESLOT <USER> Hi. I was contacting you about your order. <SYSTEM> Yeah, I'm still waiting for it, what gives? <USER> We are having some trouble with your credit card. <SYSTEM> I used it earlier today, what's the problem? <USER> It's simply not going thru. Do you have another one you can use? <SYSTEM> Weird, but yes, I can add it on my payments page <USER> Let me try it for you while I have you on the line. <SYSTEM> No that's OK, I can add it myself",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 7,
+                "user utterance": "Ok. I can try that manually here if you want.",
+                "system response": "This is getting needlessly complicated. Go ahead and cancel the order, I'll use Target instead",
+                "dialog history": "<USER> Hello NAMESLOT, this is NAMESLOT from Amazon Customer Service . <SYSTEM> Hi NAMESLOT <USER> Hi. I was contacting you about your order. <SYSTEM> Yeah, I'm still waiting for it, what gives? <USER> We are having some trouble with your credit card. <SYSTEM> I used it earlier today, what's the problem? <USER> It's simply not going thru. Do you have another one you can use? <SYSTEM> Weird, but yes, I can add it on my payments page <USER> Let me try it for you while I have you on the line. <SYSTEM> No that's OK, I can add it myself <USER> You said the old one worked earlier today <SYSTEM> it did, at Starbucks",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 8,
+                "user utterance": "I assure you if we are having a problem Target will too.",
+                "system response": "Maybe, but it's summer and I can wait",
+                "dialog history": "<USER> Hello NAMESLOT, this is NAMESLOT from Amazon Customer Service . <SYSTEM> Hi NAMESLOT <USER> Hi. I was contacting you about your order. <SYSTEM> Yeah, I'm still waiting for it, what gives? <USER> We are having some trouble with your credit card. <SYSTEM> I used it earlier today, what's the problem? <USER> It's simply not going thru. Do you have another one you can use? <SYSTEM> Weird, but yes, I can add it on my payments page <USER> Let me try it for you while I have you on the line. <SYSTEM> No that's OK, I can add it myself <USER> You said the old one worked earlier today <SYSTEM> it did, at Starbucks <USER> Ok. I can try that manually here if you want. <SYSTEM> This is getting needlessly complicated. Go ahead and cancel the order, I'll use Target instead",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 9,
+                "user utterance": "I feel the same way. Would you like me to cancel the order?",
+                "system response": "Please do, and cancel my Prime too",
+                "dialog history": "<USER> Hello NAMESLOT, this is NAMESLOT from Amazon Customer Service . <SYSTEM> Hi NAMESLOT <USER> Hi. I was contacting you about your order. <SYSTEM> Yeah, I'm still waiting for it, what gives? <USER> We are having some trouble with your credit card. <SYSTEM> I used it earlier today, what's the problem? <USER> It's simply not going thru. Do you have another one you can use? <SYSTEM> Weird, but yes, I can add it on my payments page <USER> Let me try it for you while I have you on the line. <SYSTEM> No that's OK, I can add it myself <USER> You said the old one worked earlier today <SYSTEM> it did, at Starbucks <USER> Ok. I can try that manually here if you want. <SYSTEM> This is getting needlessly complicated. Go ahead and cancel the order, I'll use Target instead <USER> I assure you if we are having a problem Target will too. <SYSTEM> Maybe, but it's summer and I can wait",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 10,
+                "user utterance": "Ok. I need the credit card number on your account first.",
+                "system response": "What? Why? That makes no sense at all",
+                "dialog history": "<USER> Hello NAMESLOT, this is NAMESLOT from Amazon Customer Service . <SYSTEM> Hi NAMESLOT <USER> Hi. I was contacting you about your order. <SYSTEM> Yeah, I'm still waiting for it, what gives? <USER> We are having some trouble with your credit card. <SYSTEM> I used it earlier today, what's the problem? <USER> It's simply not going thru. Do you have another one you can use? <SYSTEM> Weird, but yes, I can add it on my payments page <USER> Let me try it for you while I have you on the line. <SYSTEM> No that's OK, I can add it myself <USER> You said the old one worked earlier today <SYSTEM> it did, at Starbucks <USER> Ok. I can try that manually here if you want. <SYSTEM> This is getting needlessly complicated. Go ahead and cancel the order, I'll use Target instead <USER> I assure you if we are having a problem Target will too. <SYSTEM> Maybe, but it's summer and I can wait <USER> I feel the same way. Would you like me to cancel the order? <SYSTEM> Please do, and cancel my Prime too",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 11,
+                "user utterance": "Just to confirm. Could you tell me your billing address, please.",
+                "system response": "It's ADDRSLOT. you're not scamming me",
+                "dialog history": "<USER> Hello NAMESLOT, this is NAMESLOT from Amazon Customer Service . <SYSTEM> Hi NAMESLOT <USER> Hi. I was contacting you about your order. <SYSTEM> Yeah, I'm still waiting for it, what gives? <USER> We are having some trouble with your credit card. <SYSTEM> I used it earlier today, what's the problem? <USER> It's simply not going thru. Do you have another one you can use? <SYSTEM> Weird, but yes, I can add it on my payments page <USER> Let me try it for you while I have you on the line. <SYSTEM> No that's OK, I can add it myself <USER> You said the old one worked earlier today <SYSTEM> it did, at Starbucks <USER> Ok. I can try that manually here if you want. <SYSTEM> This is getting needlessly complicated. Go ahead and cancel the order, I'll use Target instead <USER> I assure you if we are having a problem Target will too. <SYSTEM> Maybe, but it's summer and I can wait <USER> I feel the same way. Would you like me to cancel the order? <SYSTEM> Please do, and cancel my Prime too <USER> Ok. I need the credit card number on your account first. <SYSTEM> What? Why? That makes no sense at all",
+                "original user side information": {},
+                "original system side information": {}
+            },
+            {
+                "turn id": 12,
+                "user utterance": "Of course not. Could you confirm the name on your accoount?",
+                "system response": "NAMESLOT, and your name is NAMESLOT right? Yes",
+                "dialog history": "<USER> Hello NAMESLOT, this is NAMESLOT from Amazon Customer Service . <SYSTEM> Hi NAMESLOT <USER> Hi. I was contacting you about your order. <SYSTEM> Yeah, I'm still waiting for it, what gives? <USER> We are having some trouble with your credit card. <SYSTEM> I used it earlier today, what's the problem? <USER> It's simply not going thru. Do you have another one you can use? <SYSTEM> Weird, but yes, I can add it on my payments page <USER> Let me try it for you while I have you on the line. <SYSTEM> No that's OK, I can add it myself <USER> You said the old one worked earlier today <SYSTEM> it did, at Starbucks <USER> Ok. I can try that manually here if you want. <SYSTEM> This is getting needlessly complicated. Go ahead and cancel the order, I'll use Target instead <USER> I assure you if we are having a problem Target will too. <SYSTEM> Maybe, but it's summer and I can wait <USER> I feel the same way. Would you like me to cancel the order? <SYSTEM> Please do, and cancel my Prime too <USER> Ok. I need the credit card number on your account first. <SYSTEM> What? Why? That makes no sense at all <USER> Just to confirm. Could you tell me your billing address, please. <SYSTEM> It's ADDRSLOT. you're not scamming me",
+                "original user side information": {},
+                "original system side information": {}
+            }
+        ],
+        "prompt": []
+    }
+}

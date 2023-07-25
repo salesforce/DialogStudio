@@ -1,22 +1,7 @@
 [
-    {
-        "input": "what alarms do i have set right now",
-        "output": "alarm_query"
-    },
-    {
-        "input": "checkout today alarm of meeting",
-        "output": "alarm_query"
-    },
-    {
-        "input": "report alarm settings",
-        "output": "alarm_query"
-    },
-    {
-        "input": "see see for me the alarms that you have set tomorrow morning",
-        "output": "alarm_query"
-    },
-    {
-        "input": "is there an alarm for ten am",
-        "output": "alarm_query"
-    }
+    "what alarms do i have set right now",
+    "checkout today alarm of meeting",
+    "report alarm settings",
+    "see see for me the alarms that you have set tomorrow morning",
+    "is there an alarm for ten am"
 ]

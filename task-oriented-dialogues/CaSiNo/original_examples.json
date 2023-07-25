@@ -5,7 +5,7 @@
             {
                 "text": "Hello!, how are you doing?",
                 "task_data": {
-                    "speaker": "mturk_agent_1"
+                    "speakere": "mturk_agent_1"
                 },
                 "id": "mturk_agent_1"
             },
@@ -19,7 +19,7 @@
             {
                 "text": "\ud83d\ude42 super!, ... so you are going camping too?",
                 "task_data": {
-                    "speaker": "mturk_agent_1"
+                    "speakere": "mturk_agent_1"
                 },
                 "id": "mturk_agent_1"
             },
@@ -33,7 +33,7 @@
             {
                 "text": "oh, I'm sorry to hear about that... I think I can help with the water, but you need firewood as well?",
                 "task_data": {
-                    "speaker": "mturk_agent_1"
+                    "speakere": "mturk_agent_1"
                 },
                 "id": "mturk_agent_1"
             },
@@ -47,7 +47,7 @@
             {
                 "text": "The reason I am asking, is because it gets very cold in the desert at night...and I may need that... but if all you need is one, I don't see why we couldn't make a deal",
                 "task_data": {
-                    "speaker": "mturk_agent_1"
+                    "speakere": "mturk_agent_1"
                 },
                 "id": "mturk_agent_1"
             },
@@ -61,7 +61,7 @@
             {
                 "text": "Once again, really sad to hear about your condition\u2639\ufe0f..., but perhaps being in the great outdoors would be beneficial for your immune system?\ud83d\ude2e... So you need 3 water and 1 firewood?",
                 "task_data": {
-                    "speaker": "mturk_agent_1"
+                    "speakere": "mturk_agent_1"
                 },
                 "id": "mturk_agent_1"
             },
@@ -75,7 +75,7 @@
             {
                 "text": "Yep, I mostly need the firewood, but I can do with 2 packages... So let's make it happen!\ud83d\ude42",
                 "task_data": {
-                    "speaker": "mturk_agent_1"
+                    "speakere": "mturk_agent_1"
                 },
                 "id": "mturk_agent_1"
             },
@@ -179,7 +179,7 @@
             {
                 "text": "Hi there!  This is my first time camping so I would prefer 3 firewood, 2 food, and 1 water.  What are your thoughts?",
                 "task_data": {
-                    "speaker": "mturk_agent_2"
+                    "speakere": "mturk_agent_2"
                 },
                 "id": "mturk_agent_2"
             },
@@ -193,7 +193,7 @@
             {
                 "text": "Well I would really prefer the 3 firewood.  I am really worried about getting lyme disease from mosquitos so the fire would keep away the bugs.  Also, this is silly, but I am a little scared of the dark!  So the fire would make me feel better at night.\ud83d\ude2e",
                 "task_data": {
-                    "speaker": "mturk_agent_2"
+                    "speakere": "mturk_agent_2"
                 },
                 "id": "mturk_agent_2"
             },
@@ -207,7 +207,7 @@
             {
                 "text": "I appreciate your offer of 2 firewood.  Why do you need 3 food?",
                 "task_data": {
-                    "speaker": "mturk_agent_2"
+                    "speakere": "mturk_agent_2"
                 },
                 "id": "mturk_agent_2"
             },
@@ -221,7 +221,7 @@
             {
                 "text": "Oh ok so you would want extra food for the other person.  That makes sense.  Would you be willing to take 2 food and 1 water if I get 3 firewood?",
                 "task_data": {
-                    "speaker": "mturk_agent_2"
+                    "speakere": "mturk_agent_2"
                 },
                 "id": "mturk_agent_2"
             },
@@ -235,7 +235,7 @@
             {
                 "text": "I am happy with the 2 firewood and 1 water, but would then prefer 2 food also if that if ok.",
                 "task_data": {
-                    "speaker": "mturk_agent_2"
+                    "speakere": "mturk_agent_2"
                 },
                 "id": "mturk_agent_2"
             },
@@ -249,7 +249,7 @@
             {
                 "text": "Hmmm ok.  If you are getting 2 food and 2 water, then if would be fair for me to get the 3 firewood because I really am scared of the bugs.",
                 "task_data": {
-                    "speaker": "mturk_agent_2"
+                    "speakere": "mturk_agent_2"
                 },
                 "id": "mturk_agent_2"
             },
@@ -353,7 +353,7 @@
             {
                 "text": "hello!",
                 "task_data": {
-                    "speaker": "mturk_agent_1"
+                    "speakere": "mturk_agent_1"
                 },
                 "id": "mturk_agent_1"
             },
@@ -367,7 +367,7 @@
             {
                 "text": "Am fine what about you?",
                 "task_data": {
-                    "speaker": "mturk_agent_1"
+                    "speakere": "mturk_agent_1"
                 },
                 "id": "mturk_agent_1"
             },
@@ -381,7 +381,7 @@
             {
                 "text": "wow great",
                 "task_data": {
-                    "speaker": "mturk_agent_1"
+                    "speakere": "mturk_agent_1"
                 },
                 "id": "mturk_agent_1"
             },
@@ -395,7 +395,7 @@
             {
                 "text": "yeah i can give you 1 firewood and 3 waters in exchange for 3 foods and 2 firewood",
                 "task_data": {
-                    "speaker": "mturk_agent_1"
+                    "speakere": "mturk_agent_1"
                 },
                 "id": "mturk_agent_1"
             },
@@ -409,7 +409,7 @@
             {
                 "text": "you cant have it all.Is either you give 3 and gain 3.I will give yo 3 food and you give 2 firewood and all water",
                 "task_data": {
-                    "speaker": "mturk_agent_1"
+                    "speakere": "mturk_agent_1"
                 },
                 "id": "mturk_agent_1"
             },
@@ -520,7 +520,7 @@
             {
                 "text": "Hello I need a lot of water to survive",
                 "task_data": {
-                    "speaker": "mturk_agent_1"
+                    "speakere": "mturk_agent_1"
                 },
                 "id": "mturk_agent_1"
             },
@@ -534,7 +534,7 @@
             {
                 "text": "Ok nice I will give you 3 food if you give me 3 water",
                 "task_data": {
-                    "speaker": "mturk_agent_1"
+                    "speakere": "mturk_agent_1"
                 },
                 "id": "mturk_agent_1"
             },
@@ -548,7 +548,7 @@
             {
                 "text": "Ok I will give you 2 firewood ",
                 "task_data": {
-                    "speaker": "mturk_agent_1"
+                    "speakere": "mturk_agent_1"
                 },
                 "id": "mturk_agent_1"
             },
@@ -562,7 +562,7 @@
             {
                 "text": "yes does that sound good to you?",
                 "task_data": {
-                    "speaker": "mturk_agent_1"
+                    "speakere": "mturk_agent_1"
                 },
                 "id": "mturk_agent_1"
             },
@@ -576,7 +576,7 @@
             {
                 "text": "Alright so let us finalize",
                 "task_data": {
-                    "speaker": "mturk_agent_1"
+                    "speakere": "mturk_agent_1"
                 },
                 "id": "mturk_agent_1"
             },
@@ -728,7 +728,7 @@
             {
                 "text": "Hi I would like to let you know that I could really use some extra firewood and food.  I was wondering if we could split it up with me receiving 3 firewood and 3 food and you get 3 water?\ud83d\ude42\ud83d\ude42\ud83d\ude42",
                 "task_data": {
-                    "speaker": "mturk_agent_2"
+                    "speakere": "mturk_agent_2"
                 },
                 "id": "mturk_agent_2"
             },
@@ -742,7 +742,7 @@
             {
                 "text": "Firewood is really my most needed item as I need it for several reasons.  Could we do 3 firewood for me, 3 water for you and then 2 food for me and 1 food for you?  This would really help me out.",
                 "task_data": {
-                    "speaker": "mturk_agent_2"
+                    "speakere": "mturk_agent_2"
                 },
                 "id": "mturk_agent_2"
             },
@@ -756,7 +756,7 @@
             {
                 "text": "Yes it is highest priority as I need it to scare off animals as well as cooking food and using to purify water.  If you feel food is most important how about 3 Firewood, 1 food and 2 water for me and 2 food 1 water for you?\ud83d\ude42",
                 "task_data": {
-                    "speaker": "mturk_agent_2"
+                    "speakere": "mturk_agent_2"
                 },
                 "id": "mturk_agent_2"
             },
@@ -770,7 +770,7 @@
             {
                 "text": "I can understand why you would need 1 firewood.  I think i would need a water though, you don't want to let a fire just go in the wild.  So i think what about 2 firewood, 2 food, and 1 water for me and 1 firewood 1 food and 2 water for you and your family.  \ud83d\ude42",
                 "task_data": {
-                    "speaker": "mturk_agent_2"
+                    "speakere": "mturk_agent_2"
                 },
                 "id": "mturk_agent_2"
             },
@@ -784,7 +784,7 @@
             {
                 "text": "Ok it sounds like we have an agreement.  For me I would get 2 firewood, 2 food and 1 water.  You would receive 1 firewood, 1 food and and 2 water.  This sounds like a good deal for both of us.\ud83d\ude42",
                 "task_data": {
-                    "speaker": "mturk_agent_2"
+                    "speakere": "mturk_agent_2"
                 },
                 "id": "mturk_agent_2"
             },

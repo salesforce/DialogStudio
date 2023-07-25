@@ -2,106 +2,7 @@
     "SimJointRestaurant--train--1": {
         "original dialog id": "restaurant_00000000",
         "dialog index": 1,
-        "original dialog info": {
-            "slots and values": {
-                "restaurant": {
-                    "num_people": [
-                        "4",
-                        "6",
-                        "3",
-                        "5",
-                        "2"
-                    ],
-                    "restaurant_name": [
-                        "boats",
-                        "amarin",
-                        "oren",
-                        "sweet greens",
-                        "amarin",
-                        "ephesus",
-                        "cheese cake factory",
-                        "amarin",
-                        "il fornaio",
-                        "the view"
-                    ],
-                    "date": [
-                        "wednesday",
-                        "tomorrow",
-                        "tonight",
-                        "friday",
-                        "next monday"
-                    ],
-                    "time": [
-                        "8 pm",
-                        "6.15 pm",
-                        "7.30 pm",
-                        "6 pm",
-                        "5 pm",
-                        "7 pm",
-                        "5.30 pm",
-                        "8.30 pm",
-                        "dontcare",
-                        "7.15 pm",
-                        "6.30 pm"
-                    ],
-                    "meal": [
-                        "dinner",
-                        "brunch",
-                        "breakfast",
-                        "dontcare",
-                        "lunch"
-                    ],
-                    "location": [
-                        "redmond",
-                        "madison",
-                        "morristown",
-                        "orlando",
-                        "kirkland",
-                        "yorktown heights",
-                        "middletown",
-                        "los altos",
-                        "mountain view"
-                    ],
-                    "price_range": [
-                        "moderately priced",
-                        "dontcare",
-                        "inexpensive",
-                        "expensive"
-                    ],
-                    "category": [
-                        "mediterranean",
-                        "italian",
-                        "thai",
-                        "dontcare",
-                        "taiwanese",
-                        "french",
-                        "indian",
-                        "greek",
-                        "vietnamese",
-                        "chinese"
-                    ],
-                    "rating": [
-                        "good",
-                        "zagat rated",
-                        "dontcare",
-                        "michelin rated"
-                    ]
-                }
-            },
-            "intents": {
-                "restaurant": [
-                    "GREETING",
-                    "REQUEST_ALTS",
-                    "OTHER",
-                    "CANT_UNDERSTAND",
-                    "NEGATE",
-                    "THANK_YOU",
-                    "GOOD_BYE",
-                    "INFORM",
-                    "AFFIRM"
-                ]
-            }
-        },
+        "original dialog info": {},
         "log": [
             {
                 "turn id": 1,
@@ -172,22 +73,7 @@
                 },
                 "dst": "",
                 "dst accumulated": "",
-                "intent": "GREETING",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "system_acts": [
-                            {
-                                "slot": "restaurant_name",
-                                "type": "REQUEST"
-                            },
-                            {
-                                "slot": "num_people",
-                                "type": "REQUEST"
-                            }
-                        ]
-                    }
-                },
-                "external knowledge": "System acts: [{'slot': 'restaurant_name', 'type': 'REQUEST'}, {'slot': 'num_people', 'type': 'REQUEST'}]"
+                "intent": "GREETING"
             },
             {
                 "turn id": 2,
@@ -254,18 +140,7 @@
                 },
                 "dst": "restaurant restaurant_name sushi boat, restaurant num_people 6",
                 "dst accumulated": "restaurant restaurant_name sushi boat, restaurant num_people 6",
-                "intent": "INFORM",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "system_acts": [
-                            {
-                                "slot": "date",
-                                "type": "REQUEST"
-                            }
-                        ]
-                    }
-                },
-                "external knowledge": "System acts: [{'slot': 'date', 'type': 'REQUEST'}]"
+                "intent": "INFORM"
             },
             {
                 "turn id": 3,
@@ -328,18 +203,7 @@
                 },
                 "dst": "restaurant date friday",
                 "dst accumulated": "restaurant restaurant_name sushi boat, restaurant num_people 6, restaurant date friday",
-                "intent": "INFORM",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "system_acts": [
-                            {
-                                "slot": "time",
-                                "type": "REQUEST"
-                            }
-                        ]
-                    }
-                },
-                "external knowledge": "System acts: [{'slot': 'time', 'type': 'REQUEST'}]"
+                "intent": "INFORM"
             },
             {
                 "turn id": 4,
@@ -458,34 +322,7 @@
                 },
                 "dst": "restaurant time 7 pm",
                 "dst accumulated": "restaurant restaurant_name sushi boat, restaurant num_people 6, restaurant date friday, restaurant time 7 pm",
-                "intent": "INFORM",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "system_acts": [
-                            {
-                                "slot": "date",
-                                "type": "CONFIRM",
-                                "value": "friday"
-                            },
-                            {
-                                "slot": "time",
-                                "type": "CONFIRM",
-                                "value": "7 pm"
-                            },
-                            {
-                                "slot": "num_people",
-                                "type": "CONFIRM",
-                                "value": "6"
-                            },
-                            {
-                                "slot": "restaurant_name",
-                                "type": "CONFIRM",
-                                "value": "sushi boat"
-                            }
-                        ]
-                    }
-                },
-                "external knowledge": "System acts: [{'slot': 'date', 'type': 'CONFIRM', 'value': 'friday'}, {'slot': 'time', 'type': 'CONFIRM', 'value': '7 pm'}, {'slot': 'num_people', 'type': 'CONFIRM', 'value': '6'}, {'slot': 'restaurant_name', 'type': 'CONFIRM', 'value': 'sushi boat'}]"
+                "intent": "INFORM"
             },
             {
                 "turn id": 5,
@@ -599,34 +436,7 @@
                 },
                 "dst": "",
                 "dst accumulated": "restaurant restaurant_name sushi boat, restaurant num_people 6, restaurant date friday, restaurant time 7 pm",
-                "intent": "AFFIRM",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "system_acts": [
-                            {
-                                "slot": "restaurant_name",
-                                "type": "NOTIFY_SUCCESS",
-                                "value": "sushi boat"
-                            },
-                            {
-                                "slot": "time",
-                                "type": "NOTIFY_SUCCESS",
-                                "value": "7 pm"
-                            },
-                            {
-                                "slot": "num_people",
-                                "type": "NOTIFY_SUCCESS",
-                                "value": "6"
-                            },
-                            {
-                                "slot": "date",
-                                "type": "NOTIFY_SUCCESS",
-                                "value": "friday"
-                            }
-                        ]
-                    }
-                },
-                "external knowledge": "System acts: [{'slot': 'restaurant_name', 'type': 'NOTIFY_SUCCESS', 'value': 'sushi boat'}, {'slot': 'time', 'type': 'NOTIFY_SUCCESS', 'value': '7 pm'}, {'slot': 'num_people', 'type': 'NOTIFY_SUCCESS', 'value': '6'}, {'slot': 'date', 'type': 'NOTIFY_SUCCESS', 'value': 'friday'}]"
+                "intent": "AFFIRM"
             },
             {
                 "turn id": 6,
@@ -669,29 +479,11 @@
                 "original system side information": {},
                 "dst": "",
                 "dst accumulated": "restaurant restaurant_name sushi boat, restaurant num_people 6, restaurant date friday, restaurant time 7 pm",
-                "intent": "THANK_YOU",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "system_acts": ""
-                    }
-                },
-                "external knowledge": "System acts: "
+                "intent": "THANK_YOU"
             }
         ],
-        "dst knowledge": "( restaurant : ( num_people : ( 4 | 6 | 3 | 5 | 2 ) | restaurant_name : ( boats | amarin | oren | sweet greens | amarin | ephesus | cheese cake factory | amarin | il fornaio | the view ) | date : ( wednesday | tomorrow | tonight | friday | next monday ) | time : ( 8 pm | 6.15 pm | 7.30 pm | 6 pm | 5 pm | 7 pm | 5.30 pm | 8.30 pm | dontcare | 7.15 pm | 6.30 pm ) | meal : ( dinner | brunch | breakfast | dontcare | lunch ) | location : ( redmond | madison | morristown | orlando | kirkland | yorktown heights | middletown | los altos | mountain view ) | price_range : ( moderately priced | dontcare | inexpensive | expensive ) | category : ( mediterranean | italian | thai | dontcare | taiwanese | french | indian | greek | vietnamese | chinese ) | rating : ( good | zagat rated | dontcare | michelin rated )))",
-        "intent knowledge": "( restaurant : ( GREETING | REQUEST_ALTS | OTHER | CANT_UNDERSTAND | NEGATE | THANK_YOU | GOOD_BYE | INFORM | AFFIRM ))",
-        "prompt": [
-            "This is a bot helping users to reserve a restaurant. Given the dialog context and external database, please generate a relevant system response for the user.",
-            "This bot assists users to reserve a restaurant. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
-            "This bot helps users to reserve a restaurant. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
-            "The purpose of this bot is to assist users to reserve a restaurant. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
-            "This bot is designed to help users reserve a restaurant. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
-        ]
-    },
-    "SimJointRestaurant--train--2": {
-        "original dialog id": "restaurant_00000002",
-        "dialog index": 2,
-        "original dialog info": {
+        "external knowledge non-flat": {
+            "metadata": {},
             "slots and values": {
                 "restaurant": {
                     "num_people": [
@@ -702,16 +494,16 @@
                         "2"
                     ],
                     "restaurant_name": [
-                        "boats",
-                        "amarin",
+                        "los altos grill",
+                        "the nest",
+                        "high rooftop lounge",
+                        "the view",
+                        "high rooftop lounge",
+                        "the nest",
+                        "amber india",
                         "oren",
-                        "sweet greens",
-                        "amarin",
-                        "ephesus",
-                        "cheese cake factory",
-                        "amarin",
-                        "il fornaio",
-                        "the view"
+                        "acorn",
+                        "acorn"
                     ],
                     "date": [
                         "wednesday",
@@ -791,6 +583,21 @@
                 ]
             }
         },
+        "external knowledge": "()",
+        "dst knowledge": "( restaurant : ( num_people : ( 4 | 6 | 3 | 5 | 2 ) | restaurant_name : ( los altos grill | the nest | high rooftop lounge | the view | high rooftop lounge | the nest | amber india | oren | acorn | acorn ) | date : ( wednesday | tomorrow | tonight | friday | next monday ) | time : ( 8 pm | 6.15 pm | 7.30 pm | 6 pm | 5 pm | 7 pm | 5.30 pm | 8.30 pm | dontcare | 7.15 pm | 6.30 pm ) | meal : ( dinner | brunch | breakfast | dontcare | lunch ) | location : ( redmond | madison | morristown | orlando | kirkland | yorktown heights | middletown | los altos | mountain view ) | price_range : ( moderately priced | dontcare | inexpensive | expensive ) | category : ( mediterranean | italian | thai | dontcare | taiwanese | french | indian | greek | vietnamese | chinese ) | rating : ( good | zagat rated | dontcare | michelin rated )))",
+        "intent knowledge": "( restaurant : ( GREETING | REQUEST_ALTS | OTHER | CANT_UNDERSTAND | NEGATE | THANK_YOU | GOOD_BYE | INFORM | AFFIRM ))",
+        "prompt": [
+            "This is a bot helping users to reserve a restaurant. Given the dialog context and external database, please generate a relevant system response for the user.",
+            "This bot assists users to reserve a restaurant. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
+            "This bot helps users to reserve a restaurant. Based on the conversation history and available external data, please generate a relevant system response for the user.",
+            "The purpose of this bot is to assist users to reserve a restaurant. Considering the dialogue context and the information available in the external database, please provide a fitting response for the user.",
+            "This bot is designed to help users reserve a restaurant. By utilizing the current dialog context and external resources, generate a fitting response for the user."
+        ]
+    },
+    "SimJointRestaurant--train--2": {
+        "original dialog id": "restaurant_00000002",
+        "dialog index": 2,
+        "original dialog info": {},
         "log": [
             {
                 "turn id": 1,
@@ -858,22 +665,7 @@
                 },
                 "dst": "restaurant time 6 pm",
                 "dst accumulated": "restaurant time 6 pm",
-                "intent": "",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "system_acts": [
-                            {
-                                "slot": "restaurant_name",
-                                "type": "REQUEST"
-                            },
-                            {
-                                "slot": "date",
-                                "type": "REQUEST"
-                            }
-                        ]
-                    }
-                },
-                "external knowledge": "System acts: [{'slot': 'restaurant_name', 'type': 'REQUEST'}, {'slot': 'date', 'type': 'REQUEST'}]"
+                "intent": ""
             },
             {
                 "turn id": 2,
@@ -950,18 +742,7 @@
                 },
                 "dst": "restaurant date next monday, restaurant restaurant_name il fornaio",
                 "dst accumulated": "restaurant time 6 pm, restaurant date next monday, restaurant restaurant_name il fornaio",
-                "intent": "INFORM",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "system_acts": [
-                            {
-                                "slot": "num_people",
-                                "type": "REQUEST"
-                            }
-                        ]
-                    }
-                },
-                "external knowledge": "System acts: [{'slot': 'num_people', 'type': 'REQUEST'}]"
+                "intent": "INFORM"
             },
             {
                 "turn id": 3,
@@ -1020,18 +801,7 @@
                 },
                 "dst": "",
                 "dst accumulated": "restaurant time 6 pm, restaurant date next monday, restaurant restaurant_name il fornaio",
-                "intent": "CANT_UNDERSTAND",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "system_acts": [
-                            {
-                                "slot": "num_people",
-                                "type": "REQUEST"
-                            }
-                        ]
-                    }
-                },
-                "external knowledge": "System acts: [{'slot': 'num_people', 'type': 'REQUEST'}]"
+                "intent": "CANT_UNDERSTAND"
             },
             {
                 "turn id": 4,
@@ -1135,29 +905,7 @@
                 },
                 "dst": "restaurant num_people 6",
                 "dst accumulated": "restaurant time 6 pm, restaurant date next monday, restaurant restaurant_name il fornaio, restaurant num_people 6",
-                "intent": "INFORM",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "system_acts": [
-                            {
-                                "slot": "time",
-                                "type": "NEGATE",
-                                "value": "6 pm"
-                            },
-                            {
-                                "slot": "time",
-                                "type": "SELECT",
-                                "value": "6.15 pm"
-                            },
-                            {
-                                "slot": "time",
-                                "type": "SELECT",
-                                "value": "6.30 pm"
-                            }
-                        ]
-                    }
-                },
-                "external knowledge": "System acts: [{'slot': 'time', 'type': 'NEGATE', 'value': '6 pm'}, {'slot': 'time', 'type': 'SELECT', 'value': '6.15 pm'}, {'slot': 'time', 'type': 'SELECT', 'value': '6.30 pm'}]"
+                "intent": "INFORM"
             },
             {
                 "turn id": 5,
@@ -1239,24 +987,7 @@
                 },
                 "dst": "",
                 "dst accumulated": "restaurant time 6 pm, restaurant date next monday, restaurant restaurant_name il fornaio, restaurant num_people 6",
-                "intent": "NEGATE",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "system_acts": [
-                            {
-                                "slot": "time",
-                                "type": "SELECT",
-                                "value": "7 pm"
-                            },
-                            {
-                                "slot": "time",
-                                "type": "SELECT",
-                                "value": "8 pm"
-                            }
-                        ]
-                    }
-                },
-                "external knowledge": "System acts: [{'slot': 'time', 'type': 'SELECT', 'value': '7 pm'}, {'slot': 'time', 'type': 'SELECT', 'value': '8 pm'}]"
+                "intent": "NEGATE"
             },
             {
                 "turn id": 6,
@@ -1376,34 +1107,7 @@
                 },
                 "dst": "restaurant time 8 pm",
                 "dst accumulated": "restaurant time 8 pm, restaurant date next monday, restaurant restaurant_name il fornaio, restaurant num_people 6",
-                "intent": "AFFIRM",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "system_acts": [
-                            {
-                                "slot": "restaurant_name",
-                                "type": "NOTIFY_SUCCESS",
-                                "value": "il fornaio"
-                            },
-                            {
-                                "slot": "time",
-                                "type": "NOTIFY_SUCCESS",
-                                "value": "8 pm"
-                            },
-                            {
-                                "slot": "num_people",
-                                "type": "NOTIFY_SUCCESS",
-                                "value": "6"
-                            },
-                            {
-                                "slot": "date",
-                                "type": "NOTIFY_SUCCESS",
-                                "value": "next monday"
-                            }
-                        ]
-                    }
-                },
-                "external knowledge": "System acts: [{'slot': 'restaurant_name', 'type': 'NOTIFY_SUCCESS', 'value': 'il fornaio'}, {'slot': 'time', 'type': 'NOTIFY_SUCCESS', 'value': '8 pm'}, {'slot': 'num_people', 'type': 'NOTIFY_SUCCESS', 'value': '6'}, {'slot': 'date', 'type': 'NOTIFY_SUCCESS', 'value': 'next monday'}]"
+                "intent": "AFFIRM"
             },
             {
                 "turn id": 7,
@@ -1446,29 +1150,11 @@
                 "original system side information": {},
                 "dst": "",
                 "dst accumulated": "restaurant time 8 pm, restaurant date next monday, restaurant restaurant_name il fornaio, restaurant num_people 6",
-                "intent": "GOOD_BYE",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "system_acts": ""
-                    }
-                },
-                "external knowledge": "System acts: "
+                "intent": "GOOD_BYE"
             }
         ],
-        "dst knowledge": "( restaurant : ( num_people : ( 4 | 6 | 3 | 5 | 2 ) | restaurant_name : ( boats | amarin | oren | sweet greens | amarin | ephesus | cheese cake factory | amarin | il fornaio | the view ) | date : ( wednesday | tomorrow | tonight | friday | next monday ) | time : ( 8 pm | 6.15 pm | 7.30 pm | 6 pm | 5 pm | 7 pm | 5.30 pm | 8.30 pm | dontcare | 7.15 pm | 6.30 pm ) | meal : ( dinner | brunch | breakfast | dontcare | lunch ) | location : ( redmond | madison | morristown | orlando | kirkland | yorktown heights | middletown | los altos | mountain view ) | price_range : ( moderately priced | dontcare | inexpensive | expensive ) | category : ( mediterranean | italian | thai | dontcare | taiwanese | french | indian | greek | vietnamese | chinese ) | rating : ( good | zagat rated | dontcare | michelin rated )))",
-        "intent knowledge": "( restaurant : ( GREETING | REQUEST_ALTS | OTHER | CANT_UNDERSTAND | NEGATE | THANK_YOU | GOOD_BYE | INFORM | AFFIRM ))",
-        "prompt": [
-            "This is a bot helping users to reserve a restaurant. Given the dialog context and external database, please generate a relevant system response for the user.",
-            "This bot assists users to reserve a restaurant. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
-            "This bot helps users to reserve a restaurant. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
-            "The purpose of this bot is to assist users to reserve a restaurant. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
-            "This bot is designed to help users reserve a restaurant. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
-        ]
-    },
-    "SimJointRestaurant--train--3": {
-        "original dialog id": "restaurant_00000003",
-        "dialog index": 3,
-        "original dialog info": {
+        "external knowledge non-flat": {
+            "metadata": {},
             "slots and values": {
                 "restaurant": {
                     "num_people": [
@@ -1479,16 +1165,16 @@
                         "2"
                     ],
                     "restaurant_name": [
-                        "boats",
-                        "amarin",
+                        "los altos grill",
+                        "the nest",
+                        "high rooftop lounge",
+                        "the view",
+                        "high rooftop lounge",
+                        "the nest",
+                        "amber india",
                         "oren",
-                        "sweet greens",
-                        "amarin",
-                        "ephesus",
-                        "cheese cake factory",
-                        "amarin",
-                        "il fornaio",
-                        "the view"
+                        "acorn",
+                        "acorn"
                     ],
                     "date": [
                         "wednesday",
@@ -1568,6 +1254,21 @@
                 ]
             }
         },
+        "external knowledge": "()",
+        "dst knowledge": "( restaurant : ( num_people : ( 4 | 6 | 3 | 5 | 2 ) | restaurant_name : ( los altos grill | the nest | high rooftop lounge | the view | high rooftop lounge | the nest | amber india | oren | acorn | acorn ) | date : ( wednesday | tomorrow | tonight | friday | next monday ) | time : ( 8 pm | 6.15 pm | 7.30 pm | 6 pm | 5 pm | 7 pm | 5.30 pm | 8.30 pm | dontcare | 7.15 pm | 6.30 pm ) | meal : ( dinner | brunch | breakfast | dontcare | lunch ) | location : ( redmond | madison | morristown | orlando | kirkland | yorktown heights | middletown | los altos | mountain view ) | price_range : ( moderately priced | dontcare | inexpensive | expensive ) | category : ( mediterranean | italian | thai | dontcare | taiwanese | french | indian | greek | vietnamese | chinese ) | rating : ( good | zagat rated | dontcare | michelin rated )))",
+        "intent knowledge": "( restaurant : ( GREETING | REQUEST_ALTS | OTHER | CANT_UNDERSTAND | NEGATE | THANK_YOU | GOOD_BYE | INFORM | AFFIRM ))",
+        "prompt": [
+            "This is a bot helping users to reserve a restaurant. Given the dialog context and external database, please generate a relevant system response for the user.",
+            "This bot assists users to reserve a restaurant. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
+            "This bot helps users to reserve a restaurant. Based on the conversation history and available external data, please generate a relevant system response for the user.",
+            "The purpose of this bot is to assist users to reserve a restaurant. Considering the dialogue context and the information available in the external database, please provide a fitting response for the user.",
+            "This bot is designed to help users reserve a restaurant. By utilizing the current dialog context and external resources, generate a fitting response for the user."
+        ]
+    },
+    "SimJointRestaurant--train--3": {
+        "original dialog id": "restaurant_00000003",
+        "dialog index": 3,
+        "original dialog info": {},
         "log": [
             {
                 "turn id": 1,
@@ -1649,26 +1350,7 @@
                 },
                 "dst": "restaurant time 6 pm",
                 "dst accumulated": "restaurant time 6 pm",
-                "intent": "GREETING",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "system_acts": [
-                            {
-                                "slot": "date",
-                                "type": "REQUEST"
-                            },
-                            {
-                                "slot": "num_people",
-                                "type": "REQUEST"
-                            },
-                            {
-                                "slot": "restaurant_name",
-                                "type": "REQUEST"
-                            }
-                        ]
-                    }
-                },
-                "external knowledge": "System acts: [{'slot': 'date', 'type': 'REQUEST'}, {'slot': 'num_people', 'type': 'REQUEST'}, {'slot': 'restaurant_name', 'type': 'REQUEST'}]"
+                "intent": "GREETING"
             },
             {
                 "turn id": 2,
@@ -1795,29 +1477,7 @@
                 },
                 "dst": "restaurant num_people 6, restaurant date friday, restaurant restaurant_name sushi boat",
                 "dst accumulated": "restaurant time 6 pm, restaurant num_people 6, restaurant date friday, restaurant restaurant_name sushi boat",
-                "intent": "INFORM",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "system_acts": [
-                            {
-                                "slot": "time",
-                                "type": "NEGATE",
-                                "value": "6 pm"
-                            },
-                            {
-                                "slot": "time",
-                                "type": "SELECT",
-                                "value": "6.15 pm"
-                            },
-                            {
-                                "slot": "time",
-                                "type": "SELECT",
-                                "value": "6.30 pm"
-                            }
-                        ]
-                    }
-                },
-                "external knowledge": "System acts: [{'slot': 'time', 'type': 'NEGATE', 'value': '6 pm'}, {'slot': 'time', 'type': 'SELECT', 'value': '6.15 pm'}, {'slot': 'time', 'type': 'SELECT', 'value': '6.30 pm'}]"
+                "intent": "INFORM"
             },
             {
                 "turn id": 3,
@@ -1940,34 +1600,7 @@
                 },
                 "dst": "restaurant time 6.30 pm",
                 "dst accumulated": "restaurant time 6.30 pm, restaurant num_people 6, restaurant date friday, restaurant restaurant_name sushi boat",
-                "intent": "AFFIRM",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "system_acts": [
-                            {
-                                "slot": "restaurant_name",
-                                "type": "NOTIFY_SUCCESS",
-                                "value": "sushi boat"
-                            },
-                            {
-                                "slot": "time",
-                                "type": "NOTIFY_SUCCESS",
-                                "value": "6.30 pm"
-                            },
-                            {
-                                "slot": "num_people",
-                                "type": "NOTIFY_SUCCESS",
-                                "value": "6"
-                            },
-                            {
-                                "slot": "date",
-                                "type": "NOTIFY_SUCCESS",
-                                "value": "friday"
-                            }
-                        ]
-                    }
-                },
-                "external knowledge": "System acts: [{'slot': 'restaurant_name', 'type': 'NOTIFY_SUCCESS', 'value': 'sushi boat'}, {'slot': 'time', 'type': 'NOTIFY_SUCCESS', 'value': '6.30 pm'}, {'slot': 'num_people', 'type': 'NOTIFY_SUCCESS', 'value': '6'}, {'slot': 'date', 'type': 'NOTIFY_SUCCESS', 'value': 'friday'}]"
+                "intent": "AFFIRM"
             },
             {
                 "turn id": 4,
@@ -2010,29 +1643,11 @@
                 "original system side information": {},
                 "dst": "",
                 "dst accumulated": "restaurant time 6.30 pm, restaurant num_people 6, restaurant date friday, restaurant restaurant_name sushi boat",
-                "intent": "GOOD_BYE",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "system_acts": ""
-                    }
-                },
-                "external knowledge": "System acts: "
+                "intent": "GOOD_BYE"
             }
         ],
-        "dst knowledge": "( restaurant : ( num_people : ( 4 | 6 | 3 | 5 | 2 ) | restaurant_name : ( boats | amarin | oren | sweet greens | amarin | ephesus | cheese cake factory | amarin | il fornaio | the view ) | date : ( wednesday | tomorrow | tonight | friday | next monday ) | time : ( 8 pm | 6.15 pm | 7.30 pm | 6 pm | 5 pm | 7 pm | 5.30 pm | 8.30 pm | dontcare | 7.15 pm | 6.30 pm ) | meal : ( dinner | brunch | breakfast | dontcare | lunch ) | location : ( redmond | madison | morristown | orlando | kirkland | yorktown heights | middletown | los altos | mountain view ) | price_range : ( moderately priced | dontcare | inexpensive | expensive ) | category : ( mediterranean | italian | thai | dontcare | taiwanese | french | indian | greek | vietnamese | chinese ) | rating : ( good | zagat rated | dontcare | michelin rated )))",
-        "intent knowledge": "( restaurant : ( GREETING | REQUEST_ALTS | OTHER | CANT_UNDERSTAND | NEGATE | THANK_YOU | GOOD_BYE | INFORM | AFFIRM ))",
-        "prompt": [
-            "This is a bot helping users to reserve a restaurant. Given the dialog context and external database, please generate a relevant system response for the user.",
-            "This bot assists users to reserve a restaurant. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
-            "This bot helps users to reserve a restaurant. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
-            "The purpose of this bot is to assist users to reserve a restaurant. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
-            "This bot is designed to help users reserve a restaurant. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
-        ]
-    },
-    "SimJointRestaurant--train--4": {
-        "original dialog id": "restaurant_00000007",
-        "dialog index": 4,
-        "original dialog info": {
+        "external knowledge non-flat": {
+            "metadata": {},
             "slots and values": {
                 "restaurant": {
                     "num_people": [
@@ -2043,16 +1658,16 @@
                         "2"
                     ],
                     "restaurant_name": [
-                        "boats",
-                        "amarin",
+                        "los altos grill",
+                        "the nest",
+                        "high rooftop lounge",
+                        "the view",
+                        "high rooftop lounge",
+                        "the nest",
+                        "amber india",
                         "oren",
-                        "sweet greens",
-                        "amarin",
-                        "ephesus",
-                        "cheese cake factory",
-                        "amarin",
-                        "il fornaio",
-                        "the view"
+                        "acorn",
+                        "acorn"
                     ],
                     "date": [
                         "wednesday",
@@ -2132,6 +1747,21 @@
                 ]
             }
         },
+        "external knowledge": "()",
+        "dst knowledge": "( restaurant : ( num_people : ( 4 | 6 | 3 | 5 | 2 ) | restaurant_name : ( los altos grill | the nest | high rooftop lounge | the view | high rooftop lounge | the nest | amber india | oren | acorn | acorn ) | date : ( wednesday | tomorrow | tonight | friday | next monday ) | time : ( 8 pm | 6.15 pm | 7.30 pm | 6 pm | 5 pm | 7 pm | 5.30 pm | 8.30 pm | dontcare | 7.15 pm | 6.30 pm ) | meal : ( dinner | brunch | breakfast | dontcare | lunch ) | location : ( redmond | madison | morristown | orlando | kirkland | yorktown heights | middletown | los altos | mountain view ) | price_range : ( moderately priced | dontcare | inexpensive | expensive ) | category : ( mediterranean | italian | thai | dontcare | taiwanese | french | indian | greek | vietnamese | chinese ) | rating : ( good | zagat rated | dontcare | michelin rated )))",
+        "intent knowledge": "( restaurant : ( GREETING | REQUEST_ALTS | OTHER | CANT_UNDERSTAND | NEGATE | THANK_YOU | GOOD_BYE | INFORM | AFFIRM ))",
+        "prompt": [
+            "This is a bot helping users to reserve a restaurant. Given the dialog context and external database, please generate a relevant system response for the user.",
+            "This bot assists users to reserve a restaurant. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
+            "This bot helps users to reserve a restaurant. Based on the conversation history and available external data, please generate a relevant system response for the user.",
+            "The purpose of this bot is to assist users to reserve a restaurant. Considering the dialogue context and the information available in the external database, please provide a fitting response for the user.",
+            "This bot is designed to help users reserve a restaurant. By utilizing the current dialog context and external resources, generate a fitting response for the user."
+        ]
+    },
+    "SimJointRestaurant--train--4": {
+        "original dialog id": "restaurant_00000007",
+        "dialog index": 4,
+        "original dialog info": {},
         "log": [
             {
                 "turn id": 1,
@@ -2186,18 +1816,7 @@
                 },
                 "dst": "",
                 "dst accumulated": "",
-                "intent": "GREETING",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "system_acts": [
-                            {
-                                "slot": "num_people",
-                                "type": "REQUEST"
-                            }
-                        ]
-                    }
-                },
-                "external knowledge": "System acts: [{'slot': 'num_people', 'type': 'REQUEST'}]"
+                "intent": "GREETING"
             },
             {
                 "turn id": 2,
@@ -2260,19 +1879,7 @@
                 },
                 "dst": "restaurant num_people 5",
                 "dst accumulated": "restaurant num_people 5",
-                "intent": "INFORM",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "system_acts": [
-                            {
-                                "slot": "num_people",
-                                "type": "CONFIRM",
-                                "value": "5"
-                            }
-                        ]
-                    }
-                },
-                "external knowledge": "System acts: [{'slot': 'num_people', 'type': 'CONFIRM', 'value': '5'}]"
+                "intent": "INFORM"
             },
             {
                 "turn id": 3,
@@ -2328,22 +1935,7 @@
                 },
                 "dst": "",
                 "dst accumulated": "restaurant num_people 5",
-                "intent": "AFFIRM",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "system_acts": [
-                            {
-                                "slot": "date",
-                                "type": "REQUEST"
-                            },
-                            {
-                                "slot": "restaurant_name",
-                                "type": "REQUEST"
-                            }
-                        ]
-                    }
-                },
-                "external knowledge": "System acts: [{'slot': 'date', 'type': 'REQUEST'}, {'slot': 'restaurant_name', 'type': 'REQUEST'}]"
+                "intent": "AFFIRM"
             },
             {
                 "turn id": 4,
@@ -2414,18 +2006,7 @@
                 },
                 "dst": "restaurant date wednesday, restaurant restaurant_name sushi boat",
                 "dst accumulated": "restaurant num_people 5, restaurant date wednesday, restaurant restaurant_name sushi boat",
-                "intent": "INFORM",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "system_acts": [
-                            {
-                                "slot": "time",
-                                "type": "REQUEST"
-                            }
-                        ]
-                    }
-                },
-                "external knowledge": "System acts: [{'slot': 'time', 'type': 'REQUEST'}]"
+                "intent": "INFORM"
             },
             {
                 "turn id": 5,
@@ -2499,19 +2080,7 @@
                 },
                 "dst": "restaurant time 7.15 pm",
                 "dst accumulated": "restaurant num_people 5, restaurant date wednesday, restaurant restaurant_name sushi boat, restaurant time 7.15 pm",
-                "intent": "INFORM",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "system_acts": [
-                            {
-                                "slot": "time",
-                                "type": "CONFIRM",
-                                "value": "7.15 pm"
-                            }
-                        ]
-                    }
-                },
-                "external knowledge": "System acts: [{'slot': 'time', 'type': 'CONFIRM', 'value': '7.15 pm'}]"
+                "intent": "INFORM"
             },
             {
                 "turn id": 6,
@@ -2593,24 +2162,7 @@
                 },
                 "dst": "",
                 "dst accumulated": "restaurant num_people 5, restaurant date wednesday, restaurant restaurant_name sushi boat, restaurant time 7.15 pm",
-                "intent": "AFFIRM",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "system_acts": [
-                            {
-                                "slot": "time",
-                                "type": "NEGATE",
-                                "value": "7.15 pm"
-                            },
-                            {
-                                "slot": "time",
-                                "type": "OFFER",
-                                "value": "6.15 pm"
-                            }
-                        ]
-                    }
-                },
-                "external knowledge": "System acts: [{'slot': 'time', 'type': 'NEGATE', 'value': '7.15 pm'}, {'slot': 'time', 'type': 'OFFER', 'value': '6.15 pm'}]"
+                "intent": "AFFIRM"
             },
             {
                 "turn id": 7,
@@ -2715,34 +2267,7 @@
                 },
                 "dst": "",
                 "dst accumulated": "restaurant num_people 5, restaurant date wednesday, restaurant restaurant_name sushi boat, restaurant time 7.15 pm",
-                "intent": "AFFIRM",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "system_acts": [
-                            {
-                                "slot": "restaurant_name",
-                                "type": "NOTIFY_SUCCESS",
-                                "value": "sushi boat"
-                            },
-                            {
-                                "slot": "time",
-                                "type": "NOTIFY_SUCCESS",
-                                "value": "6.15 pm"
-                            },
-                            {
-                                "slot": "num_people",
-                                "type": "NOTIFY_SUCCESS",
-                                "value": "5"
-                            },
-                            {
-                                "slot": "date",
-                                "type": "NOTIFY_SUCCESS",
-                                "value": "wednesday"
-                            }
-                        ]
-                    }
-                },
-                "external knowledge": "System acts: [{'slot': 'restaurant_name', 'type': 'NOTIFY_SUCCESS', 'value': 'sushi boat'}, {'slot': 'time', 'type': 'NOTIFY_SUCCESS', 'value': '6.15 pm'}, {'slot': 'num_people', 'type': 'NOTIFY_SUCCESS', 'value': '5'}, {'slot': 'date', 'type': 'NOTIFY_SUCCESS', 'value': 'wednesday'}]"
+                "intent": "AFFIRM"
             },
             {
                 "turn id": 8,
@@ -2788,29 +2313,11 @@
                 "original system side information": {},
                 "dst": "",
                 "dst accumulated": "restaurant num_people 5, restaurant date wednesday, restaurant restaurant_name sushi boat, restaurant time 7.15 pm",
-                "intent": "THANK_YOU, GOOD_BYE",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "system_acts": ""
-                    }
-                },
-                "external knowledge": "System acts: "
+                "intent": "THANK_YOU, GOOD_BYE"
             }
         ],
-        "dst knowledge": "( restaurant : ( num_people : ( 4 | 6 | 3 | 5 | 2 ) | restaurant_name : ( boats | amarin | oren | sweet greens | amarin | ephesus | cheese cake factory | amarin | il fornaio | the view ) | date : ( wednesday | tomorrow | tonight | friday | next monday ) | time : ( 8 pm | 6.15 pm | 7.30 pm | 6 pm | 5 pm | 7 pm | 5.30 pm | 8.30 pm | dontcare | 7.15 pm | 6.30 pm ) | meal : ( dinner | brunch | breakfast | dontcare | lunch ) | location : ( redmond | madison | morristown | orlando | kirkland | yorktown heights | middletown | los altos | mountain view ) | price_range : ( moderately priced | dontcare | inexpensive | expensive ) | category : ( mediterranean | italian | thai | dontcare | taiwanese | french | indian | greek | vietnamese | chinese ) | rating : ( good | zagat rated | dontcare | michelin rated )))",
-        "intent knowledge": "( restaurant : ( GREETING | REQUEST_ALTS | OTHER | CANT_UNDERSTAND | NEGATE | THANK_YOU | GOOD_BYE | INFORM | AFFIRM ))",
-        "prompt": [
-            "This is a bot helping users to reserve a restaurant. Given the dialog context and external database, please generate a relevant system response for the user.",
-            "This bot assists users to reserve a restaurant. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
-            "This bot helps users to reserve a restaurant. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
-            "The purpose of this bot is to assist users to reserve a restaurant. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
-            "This bot is designed to help users reserve a restaurant. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
-        ]
-    },
-    "SimJointRestaurant--train--5": {
-        "original dialog id": "restaurant_00000011",
-        "dialog index": 5,
-        "original dialog info": {
+        "external knowledge non-flat": {
+            "metadata": {},
             "slots and values": {
                 "restaurant": {
                     "num_people": [
@@ -2821,16 +2328,16 @@
                         "2"
                     ],
                     "restaurant_name": [
-                        "boats",
-                        "amarin",
+                        "los altos grill",
+                        "the nest",
+                        "high rooftop lounge",
+                        "the view",
+                        "high rooftop lounge",
+                        "the nest",
+                        "amber india",
                         "oren",
-                        "sweet greens",
-                        "amarin",
-                        "ephesus",
-                        "cheese cake factory",
-                        "amarin",
-                        "il fornaio",
-                        "the view"
+                        "acorn",
+                        "acorn"
                     ],
                     "date": [
                         "wednesday",
@@ -2910,6 +2417,21 @@
                 ]
             }
         },
+        "external knowledge": "()",
+        "dst knowledge": "( restaurant : ( num_people : ( 4 | 6 | 3 | 5 | 2 ) | restaurant_name : ( los altos grill | the nest | high rooftop lounge | the view | high rooftop lounge | the nest | amber india | oren | acorn | acorn ) | date : ( wednesday | tomorrow | tonight | friday | next monday ) | time : ( 8 pm | 6.15 pm | 7.30 pm | 6 pm | 5 pm | 7 pm | 5.30 pm | 8.30 pm | dontcare | 7.15 pm | 6.30 pm ) | meal : ( dinner | brunch | breakfast | dontcare | lunch ) | location : ( redmond | madison | morristown | orlando | kirkland | yorktown heights | middletown | los altos | mountain view ) | price_range : ( moderately priced | dontcare | inexpensive | expensive ) | category : ( mediterranean | italian | thai | dontcare | taiwanese | french | indian | greek | vietnamese | chinese ) | rating : ( good | zagat rated | dontcare | michelin rated )))",
+        "intent knowledge": "( restaurant : ( GREETING | REQUEST_ALTS | OTHER | CANT_UNDERSTAND | NEGATE | THANK_YOU | GOOD_BYE | INFORM | AFFIRM ))",
+        "prompt": [
+            "This is a bot helping users to reserve a restaurant. Given the dialog context and external database, please generate a relevant system response for the user.",
+            "This bot assists users to reserve a restaurant. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
+            "This bot helps users to reserve a restaurant. Based on the conversation history and available external data, please generate a relevant system response for the user.",
+            "The purpose of this bot is to assist users to reserve a restaurant. Considering the dialogue context and the information available in the external database, please provide a fitting response for the user.",
+            "This bot is designed to help users reserve a restaurant. By utilizing the current dialog context and external resources, generate a fitting response for the user."
+        ]
+    },
+    "SimJointRestaurant--train--5": {
+        "original dialog id": "restaurant_00000011",
+        "dialog index": 5,
+        "original dialog info": {},
         "log": [
             {
                 "turn id": 1,
@@ -2953,18 +2475,7 @@
                 },
                 "dst": "",
                 "dst accumulated": "",
-                "intent": "",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "system_acts": [
-                            {
-                                "slot": "time",
-                                "type": "REQUEST"
-                            }
-                        ]
-                    }
-                },
-                "external knowledge": "System acts: [{'slot': 'time', 'type': 'REQUEST'}]"
+                "intent": ""
             },
             {
                 "turn id": 2,
@@ -3036,22 +2547,7 @@
                 },
                 "dst": "restaurant time 8 pm, restaurant date tonight",
                 "dst accumulated": "restaurant time 8 pm, restaurant date tonight",
-                "intent": "INFORM",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "system_acts": [
-                            {
-                                "slot": "num_people",
-                                "type": "REQUEST"
-                            },
-                            {
-                                "slot": "restaurant_name",
-                                "type": "REQUEST"
-                            }
-                        ]
-                    }
-                },
-                "external knowledge": "System acts: [{'slot': 'num_people', 'type': 'REQUEST'}, {'slot': 'restaurant_name', 'type': 'REQUEST'}]"
+                "intent": "INFORM"
             },
             {
                 "turn id": 3,
@@ -3164,24 +2660,7 @@
                 },
                 "dst": "restaurant num_people 5, restaurant restaurant_name sakoon",
                 "dst accumulated": "restaurant time 8 pm, restaurant date tonight, restaurant num_people 5, restaurant restaurant_name sakoon",
-                "intent": "INFORM",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "system_acts": [
-                            {
-                                "slot": "time",
-                                "type": "NEGATE",
-                                "value": "8 pm"
-                            },
-                            {
-                                "slot": "time",
-                                "type": "OFFER",
-                                "value": "6.15 pm"
-                            }
-                        ]
-                    }
-                },
-                "external knowledge": "System acts: [{'slot': 'time', 'type': 'NEGATE', 'value': '8 pm'}, {'slot': 'time', 'type': 'OFFER', 'value': '6.15 pm'}]"
+                "intent": "INFORM"
             },
             {
                 "turn id": 4,
@@ -3280,29 +2759,7 @@
                 },
                 "dst": "",
                 "dst accumulated": "restaurant time 8 pm, restaurant date tonight, restaurant num_people 5, restaurant restaurant_name sakoon",
-                "intent": "NEGATE",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "system_acts": [
-                            {
-                                "slot": "date",
-                                "type": "NOTIFY_FAILURE",
-                                "value": "tonight"
-                            },
-                            {
-                                "slot": "num_people",
-                                "type": "NOTIFY_FAILURE",
-                                "value": "5"
-                            },
-                            {
-                                "slot": "restaurant_name",
-                                "type": "NOTIFY_FAILURE",
-                                "value": "sakoon"
-                            }
-                        ]
-                    }
-                },
-                "external knowledge": "System acts: [{'slot': 'date', 'type': 'NOTIFY_FAILURE', 'value': 'tonight'}, {'slot': 'num_people', 'type': 'NOTIFY_FAILURE', 'value': '5'}, {'slot': 'restaurant_name', 'type': 'NOTIFY_FAILURE', 'value': 'sakoon'}]"
+                "intent": "NEGATE"
             },
             {
                 "turn id": 5,
@@ -3408,29 +2865,7 @@
                 },
                 "dst": "restaurant restaurant_name sumiko",
                 "dst accumulated": "restaurant time 8 pm, restaurant date tonight, restaurant num_people 5, restaurant restaurant_name sumiko",
-                "intent": "INFORM",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "system_acts": [
-                            {
-                                "slot": "restaurant_name",
-                                "type": "NOTIFY_FAILURE",
-                                "value": "sumiko"
-                            },
-                            {
-                                "slot": "num_people",
-                                "type": "NOTIFY_FAILURE",
-                                "value": "5"
-                            },
-                            {
-                                "slot": "date",
-                                "type": "NOTIFY_FAILURE",
-                                "value": "tonight"
-                            }
-                        ]
-                    }
-                },
-                "external knowledge": "System acts: [{'slot': 'restaurant_name', 'type': 'NOTIFY_FAILURE', 'value': 'sumiko'}, {'slot': 'num_people', 'type': 'NOTIFY_FAILURE', 'value': '5'}, {'slot': 'date', 'type': 'NOTIFY_FAILURE', 'value': 'tonight'}]"
+                "intent": "INFORM"
             },
             {
                 "turn id": 6,
@@ -3478,23 +2913,119 @@
                 "original system side information": {},
                 "dst": "",
                 "dst accumulated": "restaurant time 8 pm, restaurant date tonight, restaurant num_people 5, restaurant restaurant_name sumiko",
-                "intent": "GOOD_BYE",
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "system_acts": ""
-                    }
-                },
-                "external knowledge": "System acts: "
+                "intent": "GOOD_BYE"
             }
         ],
-        "dst knowledge": "( restaurant : ( num_people : ( 4 | 6 | 3 | 5 | 2 ) | restaurant_name : ( boats | amarin | oren | sweet greens | amarin | ephesus | cheese cake factory | amarin | il fornaio | the view ) | date : ( wednesday | tomorrow | tonight | friday | next monday ) | time : ( 8 pm | 6.15 pm | 7.30 pm | 6 pm | 5 pm | 7 pm | 5.30 pm | 8.30 pm | dontcare | 7.15 pm | 6.30 pm ) | meal : ( dinner | brunch | breakfast | dontcare | lunch ) | location : ( redmond | madison | morristown | orlando | kirkland | yorktown heights | middletown | los altos | mountain view ) | price_range : ( moderately priced | dontcare | inexpensive | expensive ) | category : ( mediterranean | italian | thai | dontcare | taiwanese | french | indian | greek | vietnamese | chinese ) | rating : ( good | zagat rated | dontcare | michelin rated )))",
+        "external knowledge non-flat": {
+            "metadata": {},
+            "slots and values": {
+                "restaurant": {
+                    "num_people": [
+                        "4",
+                        "6",
+                        "3",
+                        "5",
+                        "2"
+                    ],
+                    "restaurant_name": [
+                        "los altos grill",
+                        "the nest",
+                        "high rooftop lounge",
+                        "the view",
+                        "high rooftop lounge",
+                        "the nest",
+                        "amber india",
+                        "oren",
+                        "acorn",
+                        "acorn"
+                    ],
+                    "date": [
+                        "wednesday",
+                        "tomorrow",
+                        "tonight",
+                        "friday",
+                        "next monday"
+                    ],
+                    "time": [
+                        "8 pm",
+                        "6.15 pm",
+                        "7.30 pm",
+                        "6 pm",
+                        "5 pm",
+                        "7 pm",
+                        "5.30 pm",
+                        "8.30 pm",
+                        "dontcare",
+                        "7.15 pm",
+                        "6.30 pm"
+                    ],
+                    "meal": [
+                        "dinner",
+                        "brunch",
+                        "breakfast",
+                        "dontcare",
+                        "lunch"
+                    ],
+                    "location": [
+                        "redmond",
+                        "madison",
+                        "morristown",
+                        "orlando",
+                        "kirkland",
+                        "yorktown heights",
+                        "middletown",
+                        "los altos",
+                        "mountain view"
+                    ],
+                    "price_range": [
+                        "moderately priced",
+                        "dontcare",
+                        "inexpensive",
+                        "expensive"
+                    ],
+                    "category": [
+                        "mediterranean",
+                        "italian",
+                        "thai",
+                        "dontcare",
+                        "taiwanese",
+                        "french",
+                        "indian",
+                        "greek",
+                        "vietnamese",
+                        "chinese"
+                    ],
+                    "rating": [
+                        "good",
+                        "zagat rated",
+                        "dontcare",
+                        "michelin rated"
+                    ]
+                }
+            },
+            "intents": {
+                "restaurant": [
+                    "GREETING",
+                    "REQUEST_ALTS",
+                    "OTHER",
+                    "CANT_UNDERSTAND",
+                    "NEGATE",
+                    "THANK_YOU",
+                    "GOOD_BYE",
+                    "INFORM",
+                    "AFFIRM"
+                ]
+            }
+        },
+        "external knowledge": "()",
+        "dst knowledge": "( restaurant : ( num_people : ( 4 | 6 | 3 | 5 | 2 ) | restaurant_name : ( los altos grill | the nest | high rooftop lounge | the view | high rooftop lounge | the nest | amber india | oren | acorn | acorn ) | date : ( wednesday | tomorrow | tonight | friday | next monday ) | time : ( 8 pm | 6.15 pm | 7.30 pm | 6 pm | 5 pm | 7 pm | 5.30 pm | 8.30 pm | dontcare | 7.15 pm | 6.30 pm ) | meal : ( dinner | brunch | breakfast | dontcare | lunch ) | location : ( redmond | madison | morristown | orlando | kirkland | yorktown heights | middletown | los altos | mountain view ) | price_range : ( moderately priced | dontcare | inexpensive | expensive ) | category : ( mediterranean | italian | thai | dontcare | taiwanese | french | indian | greek | vietnamese | chinese ) | rating : ( good | zagat rated | dontcare | michelin rated )))",
         "intent knowledge": "( restaurant : ( GREETING | REQUEST_ALTS | OTHER | CANT_UNDERSTAND | NEGATE | THANK_YOU | GOOD_BYE | INFORM | AFFIRM ))",
         "prompt": [
             "This is a bot helping users to reserve a restaurant. Given the dialog context and external database, please generate a relevant system response for the user.",
             "This bot assists users to reserve a restaurant. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
-            "This bot helps users to reserve a restaurant. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
-            "The purpose of this bot is to assist users to reserve a restaurant. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
-            "This bot is designed to help users reserve a restaurant. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+            "This bot helps users to reserve a restaurant. Based on the conversation history and available external data, please generate a relevant system response for the user.",
+            "The purpose of this bot is to assist users to reserve a restaurant. Considering the dialogue context and the information available in the external database, please provide a fitting response for the user.",
+            "This bot is designed to help users reserve a restaurant. By utilizing the current dialog context and external resources, generate a fitting response for the user."
         ]
     }
 }

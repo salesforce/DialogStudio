@@ -171,80 +171,19 @@
             }
         ],
         "external knowledge non-flat": {
-            "metadata": {
-                "participant_info": {
-                    "mturk_agent_2": {
-                        "value2issue": {
-                            "Low": "Food",
-                            "High": "Water",
-                            "Medium": "Firewood"
-                        },
-                        "value2reason": {
-                            "High": "i have health issues that necessitates this",
-                            "Medium": "it's really cold and my diabetes doesn't do well in cold",
-                            "Low": "i need to keep my sugars level"
-                        },
-                        "outcomes": {
-                            "points_scored": 19,
-                            "satisfaction": "Extremely satisfied",
-                            "opponent_likeness": "Extremely like"
-                        },
-                        "demographics": {
-                            "age": 47,
-                            "gender": "female",
-                            "ethnicity": "white american",
-                            "education": "some 2 year college, associate's degree"
-                        },
-                        "personality": {
-                            "svo": "prosocial",
-                            "big-five": {
-                                "extraversion": 6.0,
-                                "agreeableness": 6.5,
-                                "conscientiousness": 2.0,
-                                "emotional-stability": 4.0,
-                                "openness-to-experiences": 1.5
-                            }
-                        }
-                    }
-                },
-                "results": [
-                    {
-                        "text": "Submit-Deal",
-                        "task_data": {
-                            "issue2youget": {
-                                "Water": "3",
-                                "Firewood": "1",
-                                "Food": "0"
-                            },
-                            "issue2theyget": {
-                                "Water": "0",
-                                "Firewood": "2",
-                                "Food": "3"
-                            }
-                        },
-                        "id": "mturk_agent_2"
-                    },
-                    {
-                        "text": "Accept-Deal",
-                        "task_data": {
-                            "data": "accept_deal"
-                        },
-                        "id": "mturk_agent_1"
-                    }
-                ]
-            },
+            "metadata": {},
             "slots and values": {},
             "intents": {}
         },
-        "external knowledge": "Participant information: {'mturk_agent_2': {'value2issue': {'Low': 'Food', 'High': 'Water', 'Medium': 'Firewood'}, 'value2reason': {'High': 'i have health issues that necessitates this', 'Medium': \"it's really cold and my diabetes doesn't do well in cold\", 'Low': 'i need to keep my sugars level'}, 'outcomes': {'points_scored': 19, 'satisfaction': 'Extremely satisfied', 'opponent_likeness': 'Extremely like'}, 'demographics': {'age': 47, 'gender': 'female', 'ethnicity': 'white american', 'education': \"some 2 year college, associate's degree\"}, 'personality': {'svo': 'prosocial', 'big-five': {'extraversion': 6.0, 'agreeableness': 6.5, 'conscientiousness': 2.0, 'emotional-stability': 4.0, 'openness-to-experiences': 1.5}}}} Results: [{'text': 'Submit-Deal', 'task_data': {'issue2youget': {'Water': '3', 'Firewood': '1', 'Food': '0'}, 'issue2theyget': {'Water': '0', 'Firewood': '2', 'Food': '3'}}, 'id': 'mturk_agent_2'}, {'text': 'Accept-Deal', 'task_data': {'data': 'accept_deal'}, 'id': 'mturk_agent_1'}]",
+        "external knowledge": "",
         "dst knowledge": "",
         "intent knowledge": "",
         "prompt": [
             "This is a bot helping users to take the role of campsite neighbors and negotiate for food, water, and firewood. Given the dialog context and external database, please generate a relevant system response for the user.",
             "This bot assists users to take the role of campsite neighbors and negotiate for food, water, and firewood. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
-            "This bot helps users to take the role of campsite neighbors and negotiate for food, water, and firewood. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
-            "The purpose of this bot is to assist users to take the role of campsite neighbors and negotiate for food, water, and firewood. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
-            "This bot is designed to help users take the role of campsite neighbors and negotiate for food, water, and firewood. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+            "This bot helps users to take the role of campsite neighbors and negotiate for food, water, and firewood. Based on the conversation history and available external data, please generate a relevant system response for the user.",
+            "The purpose of this bot is to assist users to take the role of campsite neighbors and negotiate for food, water, and firewood. Considering the dialogue context and the information available in the external database, please provide a fitting response for the user.",
+            "This bot is designed to help users take the role of campsite neighbors and negotiate for food, water, and firewood. By utilizing the current dialog context and external resources, generate a fitting response for the user."
         ]
     },
     "CaSiNo--train--2": {
@@ -419,80 +358,19 @@
             }
         ],
         "external knowledge non-flat": {
-            "metadata": {
-                "participant_info": {
-                    "mturk_agent_1": {
-                        "value2issue": {
-                            "High": "Food",
-                            "Low": "Water",
-                            "Medium": "Firewood"
-                        },
-                        "value2reason": {
-                            "High": "I will need more as i came with two other people.",
-                            "Medium": "To keep warm in the evening.",
-                            "Low": "I will need more to take me through"
-                        },
-                        "outcomes": {
-                            "points_scored": 16,
-                            "satisfaction": "Extremely satisfied",
-                            "opponent_likeness": "Extremely like"
-                        },
-                        "demographics": {
-                            "age": 32,
-                            "gender": "female",
-                            "ethnicity": "black or african american",
-                            "education": "some 4 year college, bachelor's degree"
-                        },
-                        "personality": {
-                            "svo": "prosocial",
-                            "big-five": {
-                                "extraversion": 4.0,
-                                "agreeableness": 6.5,
-                                "conscientiousness": 6.5,
-                                "emotional-stability": 6.5,
-                                "openness-to-experiences": 6.5
-                            }
-                        }
-                    }
-                },
-                "results": [
-                    {
-                        "text": "Submit-Deal",
-                        "task_data": {
-                            "issue2youget": {
-                                "Food": "2",
-                                "Firewood": "0",
-                                "Water": "2"
-                            },
-                            "issue2theyget": {
-                                "Food": "1",
-                                "Firewood": "3",
-                                "Water": "1"
-                            }
-                        },
-                        "id": "mturk_agent_1"
-                    },
-                    {
-                        "text": "Accept-Deal",
-                        "task_data": {
-                            "data": "accept_deal"
-                        },
-                        "id": "mturk_agent_2"
-                    }
-                ]
-            },
+            "metadata": {},
             "slots and values": {},
             "intents": {}
         },
-        "external knowledge": "Participant information: {'mturk_agent_1': {'value2issue': {'High': 'Food', 'Low': 'Water', 'Medium': 'Firewood'}, 'value2reason': {'High': 'I will need more as i came with two other people.', 'Medium': 'To keep warm in the evening.', 'Low': 'I will need more to take me through'}, 'outcomes': {'points_scored': 16, 'satisfaction': 'Extremely satisfied', 'opponent_likeness': 'Extremely like'}, 'demographics': {'age': 32, 'gender': 'female', 'ethnicity': 'black or african american', 'education': \"some 4 year college, bachelor's degree\"}, 'personality': {'svo': 'prosocial', 'big-five': {'extraversion': 4.0, 'agreeableness': 6.5, 'conscientiousness': 6.5, 'emotional-stability': 6.5, 'openness-to-experiences': 6.5}}}} Results: [{'text': 'Submit-Deal', 'task_data': {'issue2youget': {'Food': '2', 'Firewood': '0', 'Water': '2'}, 'issue2theyget': {'Food': '1', 'Firewood': '3', 'Water': '1'}}, 'id': 'mturk_agent_1'}, {'text': 'Accept-Deal', 'task_data': {'data': 'accept_deal'}, 'id': 'mturk_agent_2'}]",
+        "external knowledge": "",
         "dst knowledge": "",
         "intent knowledge": "",
         "prompt": [
             "This is a bot helping users to take the role of campsite neighbors and negotiate for food, water, and firewood. Given the dialog context and external database, please generate a relevant system response for the user.",
             "This bot assists users to take the role of campsite neighbors and negotiate for food, water, and firewood. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
-            "This bot helps users to take the role of campsite neighbors and negotiate for food, water, and firewood. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
-            "The purpose of this bot is to assist users to take the role of campsite neighbors and negotiate for food, water, and firewood. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
-            "This bot is designed to help users take the role of campsite neighbors and negotiate for food, water, and firewood. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+            "This bot helps users to take the role of campsite neighbors and negotiate for food, water, and firewood. Based on the conversation history and available external data, please generate a relevant system response for the user.",
+            "The purpose of this bot is to assist users to take the role of campsite neighbors and negotiate for food, water, and firewood. Considering the dialogue context and the information available in the external database, please provide a fitting response for the user.",
+            "This bot is designed to help users take the role of campsite neighbors and negotiate for food, water, and firewood. By utilizing the current dialog context and external resources, generate a fitting response for the user."
         ]
     },
     "CaSiNo--train--3": {
@@ -657,80 +535,19 @@
             }
         ],
         "external knowledge non-flat": {
-            "metadata": {
-                "participant_info": {
-                    "mturk_agent_2": {
-                        "value2issue": {
-                            "Medium": "Food",
-                            "Low": "Water",
-                            "High": "Firewood"
-                        },
-                        "value2reason": {
-                            "High": "The weather changed at the last moment and it will be colder than expected, so I need some extra firewood.",
-                            "Medium": "My brother said that he might stop by, so I want some additional packages of food, just in case he is hungry.",
-                            "Low": "I could use some extra water, because if I build a bigger fire I will need more water to put it out."
-                        },
-                        "outcomes": {
-                            "points_scored": 20,
-                            "satisfaction": "Slightly satisfied",
-                            "opponent_likeness": "Slightly dislike"
-                        },
-                        "demographics": {
-                            "age": 37,
-                            "gender": "male",
-                            "ethnicity": "white american",
-                            "education": "master's degree"
-                        },
-                        "personality": {
-                            "svo": "proself",
-                            "big-five": {
-                                "extraversion": 6.0,
-                                "agreeableness": 7.0,
-                                "conscientiousness": 7.0,
-                                "emotional-stability": 7.0,
-                                "openness-to-experiences": 7.0
-                            }
-                        }
-                    }
-                },
-                "results": [
-                    {
-                        "text": "Submit-Deal",
-                        "task_data": {
-                            "issue2youget": {
-                                "Firewood": "2",
-                                "Food": "0",
-                                "Water": "2"
-                            },
-                            "issue2theyget": {
-                                "Firewood": "1",
-                                "Food": "3",
-                                "Water": "1"
-                            }
-                        },
-                        "id": "mturk_agent_1"
-                    },
-                    {
-                        "text": "Accept-Deal",
-                        "task_data": {
-                            "data": "accept_deal"
-                        },
-                        "id": "mturk_agent_2"
-                    }
-                ]
-            },
+            "metadata": {},
             "slots and values": {},
             "intents": {}
         },
-        "external knowledge": "Participant information: {'mturk_agent_2': {'value2issue': {'Medium': 'Food', 'Low': 'Water', 'High': 'Firewood'}, 'value2reason': {'High': 'The weather changed at the last moment and it will be colder than expected, so I need some extra firewood.', 'Medium': 'My brother said that he might stop by, so I want some additional packages of food, just in case he is hungry.', 'Low': 'I could use some extra water, because if I build a bigger fire I will need more water to put it out.'}, 'outcomes': {'points_scored': 20, 'satisfaction': 'Slightly satisfied', 'opponent_likeness': 'Slightly dislike'}, 'demographics': {'age': 37, 'gender': 'male', 'ethnicity': 'white american', 'education': \"master's degree\"}, 'personality': {'svo': 'proself', 'big-five': {'extraversion': 6.0, 'agreeableness': 7.0, 'conscientiousness': 7.0, 'emotional-stability': 7.0, 'openness-to-experiences': 7.0}}}} Results: [{'text': 'Submit-Deal', 'task_data': {'issue2youget': {'Firewood': '2', 'Food': '0', 'Water': '2'}, 'issue2theyget': {'Firewood': '1', 'Food': '3', 'Water': '1'}}, 'id': 'mturk_agent_1'}, {'text': 'Accept-Deal', 'task_data': {'data': 'accept_deal'}, 'id': 'mturk_agent_2'}]",
+        "external knowledge": "",
         "dst knowledge": "",
         "intent knowledge": "",
         "prompt": [
             "This is a bot helping users to take the role of campsite neighbors and negotiate for food, water, and firewood. Given the dialog context and external database, please generate a relevant system response for the user.",
             "This bot assists users to take the role of campsite neighbors and negotiate for food, water, and firewood. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
-            "This bot helps users to take the role of campsite neighbors and negotiate for food, water, and firewood. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
-            "The purpose of this bot is to assist users to take the role of campsite neighbors and negotiate for food, water, and firewood. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
-            "This bot is designed to help users take the role of campsite neighbors and negotiate for food, water, and firewood. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+            "This bot helps users to take the role of campsite neighbors and negotiate for food, water, and firewood. Based on the conversation history and available external data, please generate a relevant system response for the user.",
+            "The purpose of this bot is to assist users to take the role of campsite neighbors and negotiate for food, water, and firewood. Considering the dialogue context and the information available in the external database, please provide a fitting response for the user.",
+            "This bot is designed to help users take the role of campsite neighbors and negotiate for food, water, and firewood. By utilizing the current dialog context and external resources, generate a fitting response for the user."
         ]
     },
     "CaSiNo--train--4": {
@@ -914,7 +731,7 @@
                 "turn id": 4,
                 "user utterance": "yes does that sound good to you?",
                 "system response": "Yes, I am happy with that arrangement. ",
-                "dialog history": "<USER> Hello I need a lot of water to survive <SYSTEM> I have a lot of water around me I can use. So I can give you a lot of extra. <USER> Ok nice I will give you 3 food if you give me 3 water <SYSTEM> OK, that works for me. But I would like a lot of firewood. I like to hunt and cook what I kill. <USER> Ok I will give you 2 firewood <SYSTEM> So I get 3 food and 2 firewood? And you get all of the water?",
+                "dialog history": "<USER> Hello I need a lot of water to survive <SYSTEM> I have a lot of water around me I can use. So I can give you a lot of extra. <USER> Ok nice I will give you 3 food if you give me 3 water <SYSTEM> OK, that works for me. But I would like a lot of firewood. I like to hunt and cook what I kill. <USER> Ok I will give you 2 firewood  <SYSTEM> So I get 3 food and 2 firewood? And you get all of the water?",
                 "original user side information": {
                     "speakere": "mturk_agent_1"
                 },
@@ -926,7 +743,7 @@
                 "turn id": 5,
                 "user utterance": "Alright so let us finalize",
                 "system response": "Great, I hope your camping trip goes well!\ud83d\ude42",
-                "dialog history": "<USER> Hello I need a lot of water to survive <SYSTEM> I have a lot of water around me I can use. So I can give you a lot of extra. <USER> Ok nice I will give you 3 food if you give me 3 water <SYSTEM> OK, that works for me. But I would like a lot of firewood. I like to hunt and cook what I kill. <USER> Ok I will give you 2 firewood <SYSTEM> So I get 3 food and 2 firewood? And you get all of the water? <USER> yes does that sound good to you? <SYSTEM> Yes, I am happy with that arrangement.",
+                "dialog history": "<USER> Hello I need a lot of water to survive <SYSTEM> I have a lot of water around me I can use. So I can give you a lot of extra. <USER> Ok nice I will give you 3 food if you give me 3 water <SYSTEM> OK, that works for me. But I would like a lot of firewood. I like to hunt and cook what I kill. <USER> Ok I will give you 2 firewood  <SYSTEM> So I get 3 food and 2 firewood? And you get all of the water? <USER> yes does that sound good to you? <SYSTEM> Yes, I am happy with that arrangement. ",
                 "original user side information": {
                     "speakere": "mturk_agent_1"
                 },
@@ -936,80 +753,19 @@
             }
         ],
         "external knowledge non-flat": {
-            "metadata": {
-                "participant_info": {
-                    "mturk_agent_2": {
-                        "value2issue": {
-                            "Medium": "Food",
-                            "Low": "Water",
-                            "High": "Firewood"
-                        },
-                        "value2reason": {
-                            "High": "I have raw food that I am going to hunt and cook.",
-                            "Medium": "I may not hunt as successfully as I hope.",
-                            "Low": "There are freshwater springs in my area."
-                        },
-                        "outcomes": {
-                            "points_scored": 22,
-                            "satisfaction": "Slightly satisfied",
-                            "opponent_likeness": "Slightly like"
-                        },
-                        "demographics": {
-                            "age": 40,
-                            "gender": "male",
-                            "ethnicity": "white american",
-                            "education": "some 4 year college, bachelor's degree"
-                        },
-                        "personality": {
-                            "svo": "prosocial",
-                            "big-five": {
-                                "extraversion": 1.5,
-                                "agreeableness": 3.5,
-                                "conscientiousness": 4.5,
-                                "emotional-stability": 1.5,
-                                "openness-to-experiences": 6.0
-                            }
-                        }
-                    }
-                },
-                "results": [
-                    {
-                        "text": "Submit-Deal",
-                        "task_data": {
-                            "issue2youget": {
-                                "Water": "3",
-                                "Firewood": "1",
-                                "Food": "0"
-                            },
-                            "issue2theyget": {
-                                "Water": "0",
-                                "Firewood": "2",
-                                "Food": "3"
-                            }
-                        },
-                        "id": "mturk_agent_1"
-                    },
-                    {
-                        "text": "Accept-Deal",
-                        "task_data": {
-                            "data": "accept_deal"
-                        },
-                        "id": "mturk_agent_2"
-                    }
-                ]
-            },
+            "metadata": {},
             "slots and values": {},
             "intents": {}
         },
-        "external knowledge": "Participant information: {'mturk_agent_2': {'value2issue': {'Medium': 'Food', 'Low': 'Water', 'High': 'Firewood'}, 'value2reason': {'High': 'I have raw food that I am going to hunt and cook.', 'Medium': 'I may not hunt as successfully as I hope.', 'Low': 'There are freshwater springs in my area.'}, 'outcomes': {'points_scored': 22, 'satisfaction': 'Slightly satisfied', 'opponent_likeness': 'Slightly like'}, 'demographics': {'age': 40, 'gender': 'male', 'ethnicity': 'white american', 'education': \"some 4 year college, bachelor's degree\"}, 'personality': {'svo': 'prosocial', 'big-five': {'extraversion': 1.5, 'agreeableness': 3.5, 'conscientiousness': 4.5, 'emotional-stability': 1.5, 'openness-to-experiences': 6.0}}}} Results: [{'text': 'Submit-Deal', 'task_data': {'issue2youget': {'Water': '3', 'Firewood': '1', 'Food': '0'}, 'issue2theyget': {'Water': '0', 'Firewood': '2', 'Food': '3'}}, 'id': 'mturk_agent_1'}, {'text': 'Accept-Deal', 'task_data': {'data': 'accept_deal'}, 'id': 'mturk_agent_2'}]",
+        "external knowledge": "",
         "dst knowledge": "",
         "intent knowledge": "",
         "prompt": [
             "This is a bot helping users to take the role of campsite neighbors and negotiate for food, water, and firewood. Given the dialog context and external database, please generate a relevant system response for the user.",
             "This bot assists users to take the role of campsite neighbors and negotiate for food, water, and firewood. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
-            "This bot helps users to take the role of campsite neighbors and negotiate for food, water, and firewood. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
-            "The purpose of this bot is to assist users to take the role of campsite neighbors and negotiate for food, water, and firewood. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
-            "This bot is designed to help users take the role of campsite neighbors and negotiate for food, water, and firewood. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+            "This bot helps users to take the role of campsite neighbors and negotiate for food, water, and firewood. Based on the conversation history and available external data, please generate a relevant system response for the user.",
+            "The purpose of this bot is to assist users to take the role of campsite neighbors and negotiate for food, water, and firewood. Considering the dialogue context and the information available in the external database, please provide a fitting response for the user.",
+            "This bot is designed to help users take the role of campsite neighbors and negotiate for food, water, and firewood. By utilizing the current dialog context and external resources, generate a fitting response for the user."
         ]
     },
     "CaSiNo--train--5": {
@@ -1174,80 +930,19 @@
             }
         ],
         "external knowledge non-flat": {
-            "metadata": {
-                "participant_info": {
-                    "mturk_agent_1": {
-                        "value2issue": {
-                            "Medium": "Food",
-                            "High": "Water",
-                            "Low": "Firewood"
-                        },
-                        "value2reason": {
-                            "High": "3 I need to fill my hiking canteens.",
-                            "Medium": "1 a little extra never hurts.",
-                            "Low": "2 we cook every meal and  snacks in between "
-                        },
-                        "outcomes": {
-                            "points_scored": 17,
-                            "satisfaction": "Extremely satisfied",
-                            "opponent_likeness": "Extremely like"
-                        },
-                        "demographics": {
-                            "age": 44,
-                            "gender": "female",
-                            "ethnicity": "hispanic or latino",
-                            "education": "some 2 year college, associate's degree"
-                        },
-                        "personality": {
-                            "svo": "proself",
-                            "big-five": {
-                                "extraversion": 2.0,
-                                "agreeableness": 4.5,
-                                "conscientiousness": 3.0,
-                                "emotional-stability": 6.0,
-                                "openness-to-experiences": 4.5
-                            }
-                        }
-                    }
-                },
-                "results": [
-                    {
-                        "text": "Submit-Deal",
-                        "task_data": {
-                            "issue2youget": {
-                                "Firewood": "2",
-                                "Food": "2",
-                                "Water": "1"
-                            },
-                            "issue2theyget": {
-                                "Firewood": "1",
-                                "Food": "1",
-                                "Water": "2"
-                            }
-                        },
-                        "id": "mturk_agent_2"
-                    },
-                    {
-                        "text": "Accept-Deal",
-                        "task_data": {
-                            "data": "accept_deal"
-                        },
-                        "id": "mturk_agent_1"
-                    }
-                ]
-            },
+            "metadata": {},
             "slots and values": {},
             "intents": {}
         },
-        "external knowledge": "Participant information: {'mturk_agent_1': {'value2issue': {'Medium': 'Food', 'High': 'Water', 'Low': 'Firewood'}, 'value2reason': {'High': '3 I need to fill my hiking canteens.', 'Medium': '1 a little extra never hurts.', 'Low': '2 we cook every meal and  snacks in between '}, 'outcomes': {'points_scored': 17, 'satisfaction': 'Extremely satisfied', 'opponent_likeness': 'Extremely like'}, 'demographics': {'age': 44, 'gender': 'female', 'ethnicity': 'hispanic or latino', 'education': \"some 2 year college, associate's degree\"}, 'personality': {'svo': 'proself', 'big-five': {'extraversion': 2.0, 'agreeableness': 4.5, 'conscientiousness': 3.0, 'emotional-stability': 6.0, 'openness-to-experiences': 4.5}}}} Results: [{'text': 'Submit-Deal', 'task_data': {'issue2youget': {'Firewood': '2', 'Food': '2', 'Water': '1'}, 'issue2theyget': {'Firewood': '1', 'Food': '1', 'Water': '2'}}, 'id': 'mturk_agent_2'}, {'text': 'Accept-Deal', 'task_data': {'data': 'accept_deal'}, 'id': 'mturk_agent_1'}]",
+        "external knowledge": "",
         "dst knowledge": "",
         "intent knowledge": "",
         "prompt": [
             "This is a bot helping users to take the role of campsite neighbors and negotiate for food, water, and firewood. Given the dialog context and external database, please generate a relevant system response for the user.",
             "This bot assists users to take the role of campsite neighbors and negotiate for food, water, and firewood. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
-            "This bot helps users to take the role of campsite neighbors and negotiate for food, water, and firewood. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
-            "The purpose of this bot is to assist users to take the role of campsite neighbors and negotiate for food, water, and firewood. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
-            "This bot is designed to help users take the role of campsite neighbors and negotiate for food, water, and firewood. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+            "This bot helps users to take the role of campsite neighbors and negotiate for food, water, and firewood. Based on the conversation history and available external data, please generate a relevant system response for the user.",
+            "The purpose of this bot is to assist users to take the role of campsite neighbors and negotiate for food, water, and firewood. Considering the dialogue context and the information available in the external database, please provide a fitting response for the user.",
+            "This bot is designed to help users take the role of campsite neighbors and negotiate for food, water, and firewood. By utilizing the current dialog context and external resources, generate a fitting response for the user."
         ]
     }
 }

@@ -68,22 +68,7 @@
                     ],
                     "Agent": "Wizard",
                     "UnixTime": 1589375714
-                },
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "original system side information": {
-                            "Action": "pick_suggestion",
-                            "ActionLabel": "ask_name",
-                            "ActionLabelOptions": [
-                                "ask_name",
-                                "goodbye_1"
-                            ],
-                            "Agent": "Wizard",
-                            "UnixTime": 1589375714
-                        }
-                    }
-                },
-                "external knowledge": "System side information: {'Action': 'pick_suggestion', 'ActionLabel': 'ask_name', 'ActionLabelOptions': ['ask_name', 'goodbye_1'], 'Agent': 'Wizard', 'UnixTime': 1589375714}"
+                }
             },
             {
                 "turn id": 2,
@@ -108,26 +93,7 @@
                         "Message": "Take your medicine before you go to sleep. If you experience nausea, please contact your doctor immediately."
                     },
                     "UnixTime": 1589375820
-                },
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "original system side information": {
-                            "Action": "pick_suggestion",
-                            "ActionLabel": "doctor_inform_doctors_instructions",
-                            "ActionLabelOptions": [
-                                "doctor_inform_doctors_instructions",
-                                "doctor_inform_nothing_found"
-                            ],
-                            "Agent": "Wizard",
-                            "PrimaryItem": {
-                                "APIName": "doctor_followup",
-                                "Message": "Take your medicine before you go to sleep. If you experience nausea, please contact your doctor immediately."
-                            },
-                            "UnixTime": 1589375820
-                        }
-                    }
-                },
-                "external knowledge": "System side information: {'Action': 'pick_suggestion', 'ActionLabel': 'doctor_inform_doctors_instructions', 'ActionLabelOptions': ['doctor_inform_doctors_instructions', 'doctor_inform_nothing_found'], 'Agent': 'Wizard', 'PrimaryItem': {'APIName': 'doctor_followup', 'Message': 'Take your medicine before you go to sleep. If you experience nausea, please contact your doctor immediately.'}, 'UnixTime': 1589375820}"
+                }
             },
             {
                 "turn id": 3,
@@ -147,21 +113,7 @@
                         "Message": "Take your medicine before you go to sleep. If you experience nausea, please contact your doctor immediately."
                     },
                     "UnixTime": 1589375904
-                },
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "original system side information": {
-                            "Action": "utter",
-                            "Agent": "Wizard",
-                            "PrimaryItem": {
-                                "APIName": "doctor_followup",
-                                "Message": "Take your medicine before you go to sleep. If you experience nausea, please contact your doctor immediately."
-                            },
-                            "UnixTime": 1589375904
-                        }
-                    }
-                },
-                "external knowledge": "System side information: {'Action': 'utter', 'Agent': 'Wizard', 'PrimaryItem': {'APIName': 'doctor_followup', 'Message': 'Take your medicine before you go to sleep. If you experience nausea, please contact your doctor immediately.'}, 'UnixTime': 1589375904}"
+                }
             },
             {
                 "turn id": 4,
@@ -186,36 +138,23 @@
                         "Message": "Take your medicine before you go to sleep. If you experience nausea, please contact your doctor immediately."
                     },
                     "UnixTime": 1589375962
-                },
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "original system side information": {
-                            "Action": "pick_suggestion",
-                            "ActionLabel": "goodbye_1",
-                            "ActionLabelOptions": [
-                                "goodbye_1",
-                                "anything_else"
-                            ],
-                            "Agent": "Wizard",
-                            "PrimaryItem": {
-                                "APIName": "doctor_followup",
-                                "Message": "Take your medicine before you go to sleep. If you experience nausea, please contact your doctor immediately."
-                            },
-                            "UnixTime": 1589375962
-                        }
-                    }
-                },
-                "external knowledge": "System side information: {'Action': 'pick_suggestion', 'ActionLabel': 'goodbye_1', 'ActionLabelOptions': ['goodbye_1', 'anything_else'], 'Agent': 'Wizard', 'PrimaryItem': {'APIName': 'doctor_followup', 'Message': 'Take your medicine before you go to sleep. If you experience nausea, please contact your doctor immediately.'}, 'UnixTime': 1589375962}"
+                }
             }
         ],
+        "external knowledge non-flat": {
+            "metadata": {},
+            "slots and values": {},
+            "intents": {}
+        },
+        "external knowledge": "",
         "dst knowledge": "",
         "intent knowledge": "",
         "prompt": [
             "This is a bot helping users to make an appointment with a doctor. Given the dialog context and external database, please generate a relevant system response for the user.",
             "This bot assists users to make an appointment with a doctor. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
-            "This bot helps users to make an appointment with a doctor. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
-            "The purpose of this bot is to assist users to make an appointment with a doctor. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
-            "This bot is designed to help users make an appointment with a doctor. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+            "This bot helps users to make an appointment with a doctor. Based on the conversation history and available external data, please generate a relevant system response for the user.",
+            "The purpose of this bot is to assist users to make an appointment with a doctor. Considering the dialogue context and the information available in the external database, please provide a fitting response for the user.",
+            "This bot is designed to help users make an appointment with a doctor. By utilizing the current dialog context and external resources, generate a fitting response for the user."
         ]
     },
     "STAR--train--2": {
@@ -295,22 +234,7 @@
                     ],
                     "Agent": "Wizard",
                     "UnixTime": 1589375998
-                },
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "original system side information": {
-                            "Action": "pick_suggestion",
-                            "ActionLabel": "spaceship_ask_rank",
-                            "ActionLabelOptions": [
-                                "spaceship_ask_rank",
-                                "spaceship_ask_code_type"
-                            ],
-                            "Agent": "Wizard",
-                            "UnixTime": 1589375998
-                        }
-                    }
-                },
-                "external knowledge": "System side information: {'Action': 'pick_suggestion', 'ActionLabel': 'spaceship_ask_rank', 'ActionLabelOptions': ['spaceship_ask_rank', 'spaceship_ask_code_type'], 'Agent': 'Wizard', 'UnixTime': 1589375998}"
+                }
             },
             {
                 "turn id": 2,
@@ -331,22 +255,7 @@
                     ],
                     "Agent": "Wizard",
                     "UnixTime": 1589376047
-                },
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "original system side information": {
-                            "Action": "pick_suggestion",
-                            "ActionLabel": "ask_name",
-                            "ActionLabelOptions": [
-                                "ask_name",
-                                "spaceship_inform_nothing_found"
-                            ],
-                            "Agent": "Wizard",
-                            "UnixTime": 1589376047
-                        }
-                    }
-                },
-                "external knowledge": "System side information: {'Action': 'pick_suggestion', 'ActionLabel': 'ask_name', 'ActionLabelOptions': ['ask_name', 'spaceship_inform_nothing_found'], 'Agent': 'Wizard', 'UnixTime': 1589376047}"
+                }
             },
             {
                 "turn id": 3,
@@ -367,22 +276,7 @@
                     ],
                     "Agent": "Wizard",
                     "UnixTime": 1589376067
-                },
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "original system side information": {
-                            "Action": "pick_suggestion",
-                            "ActionLabel": "spaceship_ask_code",
-                            "ActionLabelOptions": [
-                                "spaceship_ask_code",
-                                "hello"
-                            ],
-                            "Agent": "Wizard",
-                            "UnixTime": 1589376067
-                        }
-                    }
-                },
-                "external knowledge": "System side information: {'Action': 'pick_suggestion', 'ActionLabel': 'spaceship_ask_code', 'ActionLabelOptions': ['spaceship_ask_code', 'hello'], 'Agent': 'Wizard', 'UnixTime': 1589376067}"
+                }
             },
             {
                 "turn id": 4,
@@ -403,22 +297,7 @@
                     ],
                     "Agent": "Wizard",
                     "UnixTime": 1589376086
-                },
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "original system side information": {
-                            "Action": "pick_suggestion",
-                            "ActionLabel": "spaceship_ask_code_type",
-                            "ActionLabelOptions": [
-                                "spaceship_ask_code_type",
-                                "spaceship_inform_nothing_found"
-                            ],
-                            "Agent": "Wizard",
-                            "UnixTime": 1589376086
-                        }
-                    }
-                },
-                "external knowledge": "System side information: {'Action': 'pick_suggestion', 'ActionLabel': 'spaceship_ask_code_type', 'ActionLabelOptions': ['spaceship_ask_code_type', 'spaceship_inform_nothing_found'], 'Agent': 'Wizard', 'UnixTime': 1589376086}"
+                }
             },
             {
                 "turn id": 5,
@@ -443,26 +322,7 @@
                         "Message": "Sorry, you are not authorized to unlock the door. Please obtain a clearance code from the Captain."
                     },
                     "UnixTime": 1589376226
-                },
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "original system side information": {
-                            "Action": "pick_suggestion",
-                            "ActionLabel": "spaceship_inform_outcome",
-                            "ActionLabelOptions": [
-                                "spaceship_inform_outcome",
-                                "anything_else"
-                            ],
-                            "Agent": "Wizard",
-                            "PrimaryItem": {
-                                "APIName": "spaceship_access_codes",
-                                "Message": "Sorry, you are not authorized to unlock the door. Please obtain a clearance code from the Captain."
-                            },
-                            "UnixTime": 1589376226
-                        }
-                    }
-                },
-                "external knowledge": "System side information: {'Action': 'pick_suggestion', 'ActionLabel': 'spaceship_inform_outcome', 'ActionLabelOptions': ['spaceship_inform_outcome', 'anything_else'], 'Agent': 'Wizard', 'PrimaryItem': {'APIName': 'spaceship_access_codes', 'Message': 'Sorry, you are not authorized to unlock the door. Please obtain a clearance code from the Captain.'}, 'UnixTime': 1589376226}"
+                }
             },
             {
                 "turn id": 6,
@@ -487,26 +347,7 @@
                         "Message": "The door is now unlocked."
                     },
                     "UnixTime": 1589376309
-                },
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "original system side information": {
-                            "Action": "pick_suggestion",
-                            "ActionLabel": "spaceship_inform_outcome",
-                            "ActionLabelOptions": [
-                                "spaceship_inform_outcome",
-                                "anything_else"
-                            ],
-                            "Agent": "Wizard",
-                            "PrimaryItem": {
-                                "APIName": "spaceship_access_codes",
-                                "Message": "The door is now unlocked."
-                            },
-                            "UnixTime": 1589376309
-                        }
-                    }
-                },
-                "external knowledge": "System side information: {'Action': 'pick_suggestion', 'ActionLabel': 'spaceship_inform_outcome', 'ActionLabelOptions': ['spaceship_inform_outcome', 'anything_else'], 'Agent': 'Wizard', 'PrimaryItem': {'APIName': 'spaceship_access_codes', 'Message': 'The door is now unlocked.'}, 'UnixTime': 1589376309}"
+                }
             },
             {
                 "turn id": 7,
@@ -531,26 +372,7 @@
                         "Message": "The door is now unlocked."
                     },
                     "UnixTime": 1589376330
-                },
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "original system side information": {
-                            "Action": "pick_suggestion",
-                            "ActionLabel": "anything_else",
-                            "ActionLabelOptions": [
-                                "anything_else",
-                                "spaceship_inform_nothing_found"
-                            ],
-                            "Agent": "Wizard",
-                            "PrimaryItem": {
-                                "APIName": "spaceship_access_codes",
-                                "Message": "The door is now unlocked."
-                            },
-                            "UnixTime": 1589376330
-                        }
-                    }
-                },
-                "external knowledge": "System side information: {'Action': 'pick_suggestion', 'ActionLabel': 'anything_else', 'ActionLabelOptions': ['anything_else', 'spaceship_inform_nothing_found'], 'Agent': 'Wizard', 'PrimaryItem': {'APIName': 'spaceship_access_codes', 'Message': 'The door is now unlocked.'}, 'UnixTime': 1589376330}"
+                }
             },
             {
                 "turn id": 8,
@@ -575,36 +397,23 @@
                         "Message": "The door is now unlocked."
                     },
                     "UnixTime": 1589376348
-                },
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "original system side information": {
-                            "Action": "pick_suggestion",
-                            "ActionLabel": "spaceship_bye",
-                            "ActionLabelOptions": [
-                                "spaceship_bye",
-                                "ask_name"
-                            ],
-                            "Agent": "Wizard",
-                            "PrimaryItem": {
-                                "APIName": "spaceship_access_codes",
-                                "Message": "The door is now unlocked."
-                            },
-                            "UnixTime": 1589376348
-                        }
-                    }
-                },
-                "external knowledge": "System side information: {'Action': 'pick_suggestion', 'ActionLabel': 'spaceship_bye', 'ActionLabelOptions': ['spaceship_bye', 'ask_name'], 'Agent': 'Wizard', 'PrimaryItem': {'APIName': 'spaceship_access_codes', 'Message': 'The door is now unlocked.'}, 'UnixTime': 1589376348}"
+                }
             }
         ],
+        "external knowledge non-flat": {
+            "metadata": {},
+            "slots and values": {},
+            "intents": {}
+        },
+        "external knowledge": "",
         "dst knowledge": "",
         "intent knowledge": "",
         "prompt": [
             "This is a bot helping users to solve issues with a spaceship. Given the dialog context and external database, please generate a relevant system response for the user.",
             "This bot assists users to solve issues with a spaceship. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
-            "This bot helps users to solve issues with a spaceship. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
-            "The purpose of this bot is to assist users to solve issues with a spaceship. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
-            "This bot is designed to help users solve issues with a spaceship. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+            "This bot helps users to solve issues with a spaceship. Based on the conversation history and available external data, please generate a relevant system response for the user.",
+            "The purpose of this bot is to assist users to solve issues with a spaceship. Considering the dialogue context and the information available in the external database, please provide a fitting response for the user.",
+            "This bot is designed to help users solve issues with a spaceship. By utilizing the current dialog context and external resources, generate a fitting response for the user."
         ]
     },
     "STAR--train--3": {
@@ -676,22 +485,7 @@
                     ],
                     "Agent": "Wizard",
                     "UnixTime": 1589375247
-                },
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "original system side information": {
-                            "Action": "pick_suggestion",
-                            "ActionLabel": "hello",
-                            "ActionLabelOptions": [
-                                "hello",
-                                "apartment_ask_balcony"
-                            ],
-                            "Agent": "Wizard",
-                            "UnixTime": 1589375247
-                        }
-                    }
-                },
-                "external knowledge": "System side information: {'Action': 'pick_suggestion', 'ActionLabel': 'hello', 'ActionLabelOptions': ['hello', 'apartment_ask_balcony'], 'Agent': 'Wizard', 'UnixTime': 1589375247}"
+                }
             },
             {
                 "turn id": 2,
@@ -712,22 +506,7 @@
                     ],
                     "Agent": "Wizard",
                     "UnixTime": 1589375298
-                },
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "original system side information": {
-                            "Action": "pick_suggestion",
-                            "ActionLabel": "apartment_ask_price",
-                            "ActionLabelOptions": [
-                                "anything_else",
-                                "apartment_ask_price"
-                            ],
-                            "Agent": "Wizard",
-                            "UnixTime": 1589375298
-                        }
-                    }
-                },
-                "external knowledge": "System side information: {'Action': 'pick_suggestion', 'ActionLabel': 'apartment_ask_price', 'ActionLabelOptions': ['anything_else', 'apartment_ask_price'], 'Agent': 'Wizard', 'UnixTime': 1589375298}"
+                }
             },
             {
                 "turn id": 3,
@@ -765,39 +544,7 @@
                         "id": 188
                     },
                     "UnixTime": 1589375444
-                },
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "original system side information": {
-                            "Action": "pick_suggestion",
-                            "ActionLabel": "apartment_inform_search_result",
-                            "ActionLabelOptions": [
-                                "apartment_inform_search_result",
-                                "apartment_inform_search_criteria"
-                            ],
-                            "Agent": "Wizard",
-                            "PrimaryItem": {
-                                "APIName": "apartment_search",
-                                "BalconySide": "south",
-                                "FloorSquareMeters": 26,
-                                "HasBalcony": true,
-                                "HasElevator": true,
-                                "Level": 15,
-                                "MaxLevel": 15,
-                                "Name": "One on Center Apartments",
-                                "NearbyPOIs": [
-                                    "School",
-                                    "University"
-                                ],
-                                "NumRooms": 1,
-                                "Price": 460,
-                                "id": 188
-                            },
-                            "UnixTime": 1589375444
-                        }
-                    }
-                },
-                "external knowledge": "System side information: {'Action': 'pick_suggestion', 'ActionLabel': 'apartment_inform_search_result', 'ActionLabelOptions': ['apartment_inform_search_result', 'apartment_inform_search_criteria'], 'Agent': 'Wizard', 'PrimaryItem': {'APIName': 'apartment_search', 'BalconySide': 'south', 'FloorSquareMeters': 26, 'HasBalcony': True, 'HasElevator': True, 'Level': 15, 'MaxLevel': 15, 'Name': 'One on Center Apartments', 'NearbyPOIs': ['School', 'University'], 'NumRooms': 1, 'Price': 460, 'id': 188}, 'UnixTime': 1589375444}"
+                }
             },
             {
                 "turn id": 4,
@@ -830,34 +577,7 @@
                         "id": 188
                     },
                     "UnixTime": 1589375515
-                },
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "original system side information": {
-                            "Action": "utter",
-                            "Agent": "Wizard",
-                            "PrimaryItem": {
-                                "APIName": "apartment_search",
-                                "BalconySide": "south",
-                                "FloorSquareMeters": 26,
-                                "HasBalcony": true,
-                                "HasElevator": true,
-                                "Level": 15,
-                                "MaxLevel": 15,
-                                "Name": "One on Center Apartments",
-                                "NearbyPOIs": [
-                                    "School",
-                                    "University"
-                                ],
-                                "NumRooms": 1,
-                                "Price": 460,
-                                "id": 188
-                            },
-                            "UnixTime": 1589375515
-                        }
-                    }
-                },
-                "external knowledge": "System side information: {'Action': 'utter', 'Agent': 'Wizard', 'PrimaryItem': {'APIName': 'apartment_search', 'BalconySide': 'south', 'FloorSquareMeters': 26, 'HasBalcony': True, 'HasElevator': True, 'Level': 15, 'MaxLevel': 15, 'Name': 'One on Center Apartments', 'NearbyPOIs': ['School', 'University'], 'NumRooms': 1, 'Price': 460, 'id': 188}, 'UnixTime': 1589375515}"
+                }
             },
             {
                 "turn id": 5,
@@ -895,39 +615,7 @@
                         "id": 188
                     },
                     "UnixTime": 1589375551
-                },
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "original system side information": {
-                            "Action": "pick_suggestion",
-                            "ActionLabel": "apartment_ask_search_more",
-                            "ActionLabelOptions": [
-                                "apartment_ask_search_more",
-                                "apartment_ask_elevator"
-                            ],
-                            "Agent": "Wizard",
-                            "PrimaryItem": {
-                                "APIName": "apartment_search",
-                                "BalconySide": "south",
-                                "FloorSquareMeters": 26,
-                                "HasBalcony": true,
-                                "HasElevator": true,
-                                "Level": 15,
-                                "MaxLevel": 15,
-                                "Name": "One on Center Apartments",
-                                "NearbyPOIs": [
-                                    "School",
-                                    "University"
-                                ],
-                                "NumRooms": 1,
-                                "Price": 460,
-                                "id": 188
-                            },
-                            "UnixTime": 1589375551
-                        }
-                    }
-                },
-                "external knowledge": "System side information: {'Action': 'pick_suggestion', 'ActionLabel': 'apartment_ask_search_more', 'ActionLabelOptions': ['apartment_ask_search_more', 'apartment_ask_elevator'], 'Agent': 'Wizard', 'PrimaryItem': {'APIName': 'apartment_search', 'BalconySide': 'south', 'FloorSquareMeters': 26, 'HasBalcony': True, 'HasElevator': True, 'Level': 15, 'MaxLevel': 15, 'Name': 'One on Center Apartments', 'NearbyPOIs': ['School', 'University'], 'NumRooms': 1, 'Price': 460, 'id': 188}, 'UnixTime': 1589375551}"
+                }
             },
             {
                 "turn id": 6,
@@ -965,49 +653,23 @@
                         "id": 188
                     },
                     "UnixTime": 1589375571
-                },
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "original system side information": {
-                            "Action": "pick_suggestion",
-                            "ActionLabel": "goodbye_2",
-                            "ActionLabelOptions": [
-                                "goodbye_2",
-                                "apartment_inform_nothing_found"
-                            ],
-                            "Agent": "Wizard",
-                            "PrimaryItem": {
-                                "APIName": "apartment_search",
-                                "BalconySide": "south",
-                                "FloorSquareMeters": 26,
-                                "HasBalcony": true,
-                                "HasElevator": true,
-                                "Level": 15,
-                                "MaxLevel": 15,
-                                "Name": "One on Center Apartments",
-                                "NearbyPOIs": [
-                                    "School",
-                                    "University"
-                                ],
-                                "NumRooms": 1,
-                                "Price": 460,
-                                "id": 188
-                            },
-                            "UnixTime": 1589375571
-                        }
-                    }
-                },
-                "external knowledge": "System side information: {'Action': 'pick_suggestion', 'ActionLabel': 'goodbye_2', 'ActionLabelOptions': ['goodbye_2', 'apartment_inform_nothing_found'], 'Agent': 'Wizard', 'PrimaryItem': {'APIName': 'apartment_search', 'BalconySide': 'south', 'FloorSquareMeters': 26, 'HasBalcony': True, 'HasElevator': True, 'Level': 15, 'MaxLevel': 15, 'Name': 'One on Center Apartments', 'NearbyPOIs': ['School', 'University'], 'NumRooms': 1, 'Price': 460, 'id': 188}, 'UnixTime': 1589375571}"
+                }
             }
         ],
+        "external knowledge non-flat": {
+            "metadata": {},
+            "slots and values": {},
+            "intents": {}
+        },
+        "external knowledge": "",
         "dst knowledge": "",
         "intent knowledge": "",
         "prompt": [
             "This is a bot helping users to find an apartment or schedule an apartment viewing. Given the dialog context and external database, please generate a relevant system response for the user.",
             "This bot assists users to find an apartment or schedule an apartment viewing. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
-            "This bot helps users to find an apartment or schedule an apartment viewing. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
-            "The purpose of this bot is to assist users to find an apartment or schedule an apartment viewing. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
-            "This bot is designed to help users find an apartment or schedule an apartment viewing. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+            "This bot helps users to find an apartment or schedule an apartment viewing. Based on the conversation history and available external data, please generate a relevant system response for the user.",
+            "The purpose of this bot is to assist users to find an apartment or schedule an apartment viewing. Considering the dialogue context and the information available in the external database, please provide a fitting response for the user.",
+            "This bot is designed to help users find an apartment or schedule an apartment viewing. By utilizing the current dialog context and external resources, generate a fitting response for the user."
         ]
     },
     "STAR--train--4": {
@@ -1087,22 +749,7 @@
                     ],
                     "Agent": "Wizard",
                     "UnixTime": 1589374313
-                },
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "original system side information": {
-                            "Action": "pick_suggestion",
-                            "ActionLabel": "hello",
-                            "ActionLabelOptions": [
-                                "hello",
-                                "out_of_scope"
-                            ],
-                            "Agent": "Wizard",
-                            "UnixTime": 1589374313
-                        }
-                    }
-                },
-                "external knowledge": "System side information: {'Action': 'pick_suggestion', 'ActionLabel': 'hello', 'ActionLabelOptions': ['hello', 'out_of_scope'], 'Agent': 'Wizard', 'UnixTime': 1589374313}"
+                }
             },
             {
                 "turn id": 2,
@@ -1131,30 +778,7 @@
                         "id": 537
                     },
                     "UnixTime": 1589374359
-                },
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "original system side information": {
-                            "Action": "pick_suggestion",
-                            "ActionLabel": "weather_inform_forecast",
-                            "ActionLabelOptions": [
-                                "weather_inform_forecast",
-                                "goodbye_1"
-                            ],
-                            "Agent": "Wizard",
-                            "PrimaryItem": {
-                                "APIName": "weather",
-                                "City": "Detroit",
-                                "Day": "Tuesday",
-                                "TemperatureCelsius": 30,
-                                "Weather": "Sunny",
-                                "id": 537
-                            },
-                            "UnixTime": 1589374359
-                        }
-                    }
-                },
-                "external knowledge": "System side information: {'Action': 'pick_suggestion', 'ActionLabel': 'weather_inform_forecast', 'ActionLabelOptions': ['weather_inform_forecast', 'goodbye_1'], 'Agent': 'Wizard', 'PrimaryItem': {'APIName': 'weather', 'City': 'Detroit', 'Day': 'Tuesday', 'TemperatureCelsius': 30, 'Weather': 'Sunny', 'id': 537}, 'UnixTime': 1589374359}"
+                }
             },
             {
                 "turn id": 3,
@@ -1183,30 +807,7 @@
                         "id": 537
                     },
                     "UnixTime": 1589374386
-                },
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "original system side information": {
-                            "Action": "pick_suggestion",
-                            "ActionLabel": "anything_else",
-                            "ActionLabelOptions": [
-                                "anything_else",
-                                "weather_inform_forecast"
-                            ],
-                            "Agent": "Wizard",
-                            "PrimaryItem": {
-                                "APIName": "weather",
-                                "City": "Detroit",
-                                "Day": "Tuesday",
-                                "TemperatureCelsius": 30,
-                                "Weather": "Sunny",
-                                "id": 537
-                            },
-                            "UnixTime": 1589374386
-                        }
-                    }
-                },
-                "external knowledge": "System side information: {'Action': 'pick_suggestion', 'ActionLabel': 'anything_else', 'ActionLabelOptions': ['anything_else', 'weather_inform_forecast'], 'Agent': 'Wizard', 'PrimaryItem': {'APIName': 'weather', 'City': 'Detroit', 'Day': 'Tuesday', 'TemperatureCelsius': 30, 'Weather': 'Sunny', 'id': 537}, 'UnixTime': 1589374386}"
+                }
             },
             {
                 "turn id": 4,
@@ -1235,40 +836,23 @@
                         "id": 537
                     },
                     "UnixTime": 1589374401
-                },
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "original system side information": {
-                            "Action": "pick_suggestion",
-                            "ActionLabel": "goodbye_1",
-                            "ActionLabelOptions": [
-                                "goodbye_1",
-                                "weather_inform_nothing_found"
-                            ],
-                            "Agent": "Wizard",
-                            "PrimaryItem": {
-                                "APIName": "weather",
-                                "City": "Detroit",
-                                "Day": "Tuesday",
-                                "TemperatureCelsius": 30,
-                                "Weather": "Sunny",
-                                "id": 537
-                            },
-                            "UnixTime": 1589374401
-                        }
-                    }
-                },
-                "external knowledge": "System side information: {'Action': 'pick_suggestion', 'ActionLabel': 'goodbye_1', 'ActionLabelOptions': ['goodbye_1', 'weather_inform_nothing_found'], 'Agent': 'Wizard', 'PrimaryItem': {'APIName': 'weather', 'City': 'Detroit', 'Day': 'Tuesday', 'TemperatureCelsius': 30, 'Weather': 'Sunny', 'id': 537}, 'UnixTime': 1589374401}"
+                }
             }
         ],
+        "external knowledge non-flat": {
+            "metadata": {},
+            "slots and values": {},
+            "intents": {}
+        },
+        "external knowledge": "",
         "dst knowledge": "",
         "intent knowledge": "",
         "prompt": [
             "This is a bot helping users to get weather information. Given the dialog context and external database, please generate a relevant system response for the user.",
             "This bot assists users to get weather information. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
-            "This bot helps users to get weather information. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
-            "The purpose of this bot is to assist users to get weather information. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
-            "This bot is designed to help users get weather information. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+            "This bot helps users to get weather information. Based on the conversation history and available external data, please generate a relevant system response for the user.",
+            "The purpose of this bot is to assist users to get weather information. Considering the dialogue context and the information available in the external database, please provide a fitting response for the user.",
+            "This bot is designed to help users get weather information. By utilizing the current dialog context and external resources, generate a fitting response for the user."
         ]
     },
     "STAR--train--5": {
@@ -1340,22 +924,7 @@
                     ],
                     "Agent": "Wizard",
                     "UnixTime": 1589376471
-                },
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "original system side information": {
-                            "Action": "pick_suggestion",
-                            "ActionLabel": "trip_ask_arrival_location",
-                            "ActionLabelOptions": [
-                                "trip_ask_travel_mode",
-                                "trip_ask_arrival_location"
-                            ],
-                            "Agent": "Wizard",
-                            "UnixTime": 1589376471
-                        }
-                    }
-                },
-                "external knowledge": "System side information: {'Action': 'pick_suggestion', 'ActionLabel': 'trip_ask_arrival_location', 'ActionLabelOptions': ['trip_ask_travel_mode', 'trip_ask_arrival_location'], 'Agent': 'Wizard', 'UnixTime': 1589376471}"
+                }
             },
             {
                 "turn id": 2,
@@ -1376,22 +945,7 @@
                     ],
                     "Agent": "Wizard",
                     "UnixTime": 1589376498
-                },
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "original system side information": {
-                            "Action": "pick_suggestion",
-                            "ActionLabel": "ask_departure_location",
-                            "ActionLabelOptions": [
-                                "ask_departure_location",
-                                "trip_ask_arrival_location"
-                            ],
-                            "Agent": "Wizard",
-                            "UnixTime": 1589376498
-                        }
-                    }
-                },
-                "external knowledge": "System side information: {'Action': 'pick_suggestion', 'ActionLabel': 'ask_departure_location', 'ActionLabelOptions': ['ask_departure_location', 'trip_ask_arrival_location'], 'Agent': 'Wizard', 'UnixTime': 1589376498}"
+                }
             },
             {
                 "turn id": 3,
@@ -1412,22 +966,7 @@
                     ],
                     "Agent": "Wizard",
                     "UnixTime": 1589376535
-                },
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "original system side information": {
-                            "Action": "pick_suggestion",
-                            "ActionLabel": "trip_ask_departure_time",
-                            "ActionLabelOptions": [
-                                "trip_ask_departure_time",
-                                "hello"
-                            ],
-                            "Agent": "Wizard",
-                            "UnixTime": 1589376535
-                        }
-                    }
-                },
-                "external knowledge": "System side information: {'Action': 'pick_suggestion', 'ActionLabel': 'trip_ask_departure_time', 'ActionLabelOptions': ['trip_ask_departure_time', 'hello'], 'Agent': 'Wizard', 'UnixTime': 1589376535}"
+                }
             },
             {
                 "turn id": 4,
@@ -1448,22 +987,7 @@
                     ],
                     "Agent": "Wizard",
                     "UnixTime": 1589376573
-                },
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "original system side information": {
-                            "Action": "pick_suggestion",
-                            "ActionLabel": "trip_ask_travel_mode",
-                            "ActionLabelOptions": [
-                                "trip_ask_travel_mode",
-                                "trip_inform_simple_step_ask_proceed"
-                            ],
-                            "Agent": "Wizard",
-                            "UnixTime": 1589376573
-                        }
-                    }
-                },
-                "external knowledge": "System side information: {'Action': 'pick_suggestion', 'ActionLabel': 'trip_ask_travel_mode', 'ActionLabelOptions': ['trip_ask_travel_mode', 'trip_inform_simple_step_ask_proceed'], 'Agent': 'Wizard', 'UnixTime': 1589376573}"
+                }
             },
             {
                 "turn id": 5,
@@ -1502,40 +1026,7 @@
                         "id": 53
                     },
                     "UnixTime": 1589376687
-                },
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "original system side information": {
-                            "Action": "pick_suggestion",
-                            "ActionLabel": "trip_inform_simple_step_ask_proceed",
-                            "ActionLabelOptions": [
-                                "trip_inform_detailed_step",
-                                "trip_inform_simple_step_ask_proceed"
-                            ],
-                            "Agent": "Wizard",
-                            "PrimaryItem": {
-                                "APIName": "trip_directions",
-                                "DetailedDrivingInstructions": [
-                                    "Drive east (towards the tall brown building) on Forbes towards Murray",
-                                    "Turn right at the Starbucks and drive for 1.6 kilometers. Once you see a brown church, turn left on Murray",
-                                    "Drive for 700 meters until you reach Wilkins Avenue. It will be the first traffic light you see.",
-                                    "Your destination will be on the right just after the fire station."
-                                ],
-                                "DrivingInstructions": [
-                                    "Go east on Forbes towards Murray",
-                                    "Turn right and drive for 1.6 kilometers and turn left on Murray",
-                                    "Drive for 700 meters until you reach Wilkins Avenue",
-                                    "Your destination will be on the right"
-                                ],
-                                "TravelMode": "Driving",
-                                "TripLengthMinutes": 76,
-                                "id": 53
-                            },
-                            "UnixTime": 1589376687
-                        }
-                    }
-                },
-                "external knowledge": "System side information: {'Action': 'pick_suggestion', 'ActionLabel': 'trip_inform_simple_step_ask_proceed', 'ActionLabelOptions': ['trip_inform_detailed_step', 'trip_inform_simple_step_ask_proceed'], 'Agent': 'Wizard', 'PrimaryItem': {'APIName': 'trip_directions', 'DetailedDrivingInstructions': ['Drive east (towards the tall brown building) on Forbes towards Murray', 'Turn right at the Starbucks and drive for 1.6 kilometers. Once you see a brown church, turn left on Murray', 'Drive for 700 meters until you reach Wilkins Avenue. It will be the first traffic light you see.', 'Your destination will be on the right just after the fire station.'], 'DrivingInstructions': ['Go east on Forbes towards Murray', 'Turn right and drive for 1.6 kilometers and turn left on Murray', 'Drive for 700 meters until you reach Wilkins Avenue', 'Your destination will be on the right'], 'TravelMode': 'Driving', 'TripLengthMinutes': 76, 'id': 53}, 'UnixTime': 1589376687}"
+                }
             },
             {
                 "turn id": 6,
@@ -1569,35 +1060,7 @@
                         "id": 53
                     },
                     "UnixTime": 1589376858
-                },
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "original system side information": {
-                            "Action": "utter",
-                            "Agent": "Wizard",
-                            "PrimaryItem": {
-                                "APIName": "trip_directions",
-                                "DetailedDrivingInstructions": [
-                                    "Drive east (towards the tall brown building) on Forbes towards Murray",
-                                    "Turn right at the Starbucks and drive for 1.6 kilometers. Once you see a brown church, turn left on Murray",
-                                    "Drive for 700 meters until you reach Wilkins Avenue. It will be the first traffic light you see.",
-                                    "Your destination will be on the right just after the fire station."
-                                ],
-                                "DrivingInstructions": [
-                                    "Go east on Forbes towards Murray",
-                                    "Turn right and drive for 1.6 kilometers and turn left on Murray",
-                                    "Drive for 700 meters until you reach Wilkins Avenue",
-                                    "Your destination will be on the right"
-                                ],
-                                "TravelMode": "Driving",
-                                "TripLengthMinutes": 76,
-                                "id": 53
-                            },
-                            "UnixTime": 1589376858
-                        }
-                    }
-                },
-                "external knowledge": "System side information: {'Action': 'utter', 'Agent': 'Wizard', 'PrimaryItem': {'APIName': 'trip_directions', 'DetailedDrivingInstructions': ['Drive east (towards the tall brown building) on Forbes towards Murray', 'Turn right at the Starbucks and drive for 1.6 kilometers. Once you see a brown church, turn left on Murray', 'Drive for 700 meters until you reach Wilkins Avenue. It will be the first traffic light you see.', 'Your destination will be on the right just after the fire station.'], 'DrivingInstructions': ['Go east on Forbes towards Murray', 'Turn right and drive for 1.6 kilometers and turn left on Murray', 'Drive for 700 meters until you reach Wilkins Avenue', 'Your destination will be on the right'], 'TravelMode': 'Driving', 'TripLengthMinutes': 76, 'id': 53}, 'UnixTime': 1589376858}"
+                }
             },
             {
                 "turn id": 7,
@@ -1631,35 +1094,7 @@
                         "id": 53
                     },
                     "UnixTime": 1589376934
-                },
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "original system side information": {
-                            "Action": "utter",
-                            "Agent": "Wizard",
-                            "PrimaryItem": {
-                                "APIName": "trip_directions",
-                                "DetailedDrivingInstructions": [
-                                    "Drive east (towards the tall brown building) on Forbes towards Murray",
-                                    "Turn right at the Starbucks and drive for 1.6 kilometers. Once you see a brown church, turn left on Murray",
-                                    "Drive for 700 meters until you reach Wilkins Avenue. It will be the first traffic light you see.",
-                                    "Your destination will be on the right just after the fire station."
-                                ],
-                                "DrivingInstructions": [
-                                    "Go east on Forbes towards Murray",
-                                    "Turn right and drive for 1.6 kilometers and turn left on Murray",
-                                    "Drive for 700 meters until you reach Wilkins Avenue",
-                                    "Your destination will be on the right"
-                                ],
-                                "TravelMode": "Driving",
-                                "TripLengthMinutes": 76,
-                                "id": 53
-                            },
-                            "UnixTime": 1589376934
-                        }
-                    }
-                },
-                "external knowledge": "System side information: {'Action': 'utter', 'Agent': 'Wizard', 'PrimaryItem': {'APIName': 'trip_directions', 'DetailedDrivingInstructions': ['Drive east (towards the tall brown building) on Forbes towards Murray', 'Turn right at the Starbucks and drive for 1.6 kilometers. Once you see a brown church, turn left on Murray', 'Drive for 700 meters until you reach Wilkins Avenue. It will be the first traffic light you see.', 'Your destination will be on the right just after the fire station.'], 'DrivingInstructions': ['Go east on Forbes towards Murray', 'Turn right and drive for 1.6 kilometers and turn left on Murray', 'Drive for 700 meters until you reach Wilkins Avenue', 'Your destination will be on the right'], 'TravelMode': 'Driving', 'TripLengthMinutes': 76, 'id': 53}, 'UnixTime': 1589376934}"
+                }
             },
             {
                 "turn id": 8,
@@ -1698,40 +1133,7 @@
                         "id": 53
                     },
                     "UnixTime": 1589376985
-                },
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "original system side information": {
-                            "Action": "pick_suggestion",
-                            "ActionLabel": "trip_inform_detailed_step",
-                            "ActionLabelOptions": [
-                                "trip_inform_detailed_step",
-                                "trip_instructions_done"
-                            ],
-                            "Agent": "Wizard",
-                            "PrimaryItem": {
-                                "APIName": "trip_directions",
-                                "DetailedDrivingInstructions": [
-                                    "Drive east (towards the tall brown building) on Forbes towards Murray",
-                                    "Turn right at the Starbucks and drive for 1.6 kilometers. Once you see a brown church, turn left on Murray",
-                                    "Drive for 700 meters until you reach Wilkins Avenue. It will be the first traffic light you see.",
-                                    "Your destination will be on the right just after the fire station."
-                                ],
-                                "DrivingInstructions": [
-                                    "Go east on Forbes towards Murray",
-                                    "Turn right and drive for 1.6 kilometers and turn left on Murray",
-                                    "Drive for 700 meters until you reach Wilkins Avenue",
-                                    "Your destination will be on the right"
-                                ],
-                                "TravelMode": "Driving",
-                                "TripLengthMinutes": 76,
-                                "id": 53
-                            },
-                            "UnixTime": 1589376985
-                        }
-                    }
-                },
-                "external knowledge": "System side information: {'Action': 'pick_suggestion', 'ActionLabel': 'trip_inform_detailed_step', 'ActionLabelOptions': ['trip_inform_detailed_step', 'trip_instructions_done'], 'Agent': 'Wizard', 'PrimaryItem': {'APIName': 'trip_directions', 'DetailedDrivingInstructions': ['Drive east (towards the tall brown building) on Forbes towards Murray', 'Turn right at the Starbucks and drive for 1.6 kilometers. Once you see a brown church, turn left on Murray', 'Drive for 700 meters until you reach Wilkins Avenue. It will be the first traffic light you see.', 'Your destination will be on the right just after the fire station.'], 'DrivingInstructions': ['Go east on Forbes towards Murray', 'Turn right and drive for 1.6 kilometers and turn left on Murray', 'Drive for 700 meters until you reach Wilkins Avenue', 'Your destination will be on the right'], 'TravelMode': 'Driving', 'TripLengthMinutes': 76, 'id': 53}, 'UnixTime': 1589376985}"
+                }
             },
             {
                 "turn id": 9,
@@ -1770,40 +1172,7 @@
                         "id": 53
                     },
                     "UnixTime": 1589377013
-                },
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "original system side information": {
-                            "Action": "pick_suggestion",
-                            "ActionLabel": "trip_inform_detailed_step",
-                            "ActionLabelOptions": [
-                                "trip_inform_detailed_step",
-                                "trip_ask_departure_time"
-                            ],
-                            "Agent": "Wizard",
-                            "PrimaryItem": {
-                                "APIName": "trip_directions",
-                                "DetailedDrivingInstructions": [
-                                    "Drive east (towards the tall brown building) on Forbes towards Murray",
-                                    "Turn right at the Starbucks and drive for 1.6 kilometers. Once you see a brown church, turn left on Murray",
-                                    "Drive for 700 meters until you reach Wilkins Avenue. It will be the first traffic light you see.",
-                                    "Your destination will be on the right just after the fire station."
-                                ],
-                                "DrivingInstructions": [
-                                    "Go east on Forbes towards Murray",
-                                    "Turn right and drive for 1.6 kilometers and turn left on Murray",
-                                    "Drive for 700 meters until you reach Wilkins Avenue",
-                                    "Your destination will be on the right"
-                                ],
-                                "TravelMode": "Driving",
-                                "TripLengthMinutes": 76,
-                                "id": 53
-                            },
-                            "UnixTime": 1589377013
-                        }
-                    }
-                },
-                "external knowledge": "System side information: {'Action': 'pick_suggestion', 'ActionLabel': 'trip_inform_detailed_step', 'ActionLabelOptions': ['trip_inform_detailed_step', 'trip_ask_departure_time'], 'Agent': 'Wizard', 'PrimaryItem': {'APIName': 'trip_directions', 'DetailedDrivingInstructions': ['Drive east (towards the tall brown building) on Forbes towards Murray', 'Turn right at the Starbucks and drive for 1.6 kilometers. Once you see a brown church, turn left on Murray', 'Drive for 700 meters until you reach Wilkins Avenue. It will be the first traffic light you see.', 'Your destination will be on the right just after the fire station.'], 'DrivingInstructions': ['Go east on Forbes towards Murray', 'Turn right and drive for 1.6 kilometers and turn left on Murray', 'Drive for 700 meters until you reach Wilkins Avenue', 'Your destination will be on the right'], 'TravelMode': 'Driving', 'TripLengthMinutes': 76, 'id': 53}, 'UnixTime': 1589377013}"
+                }
             },
             {
                 "turn id": 10,
@@ -1837,35 +1206,7 @@
                         "id": 53
                     },
                     "UnixTime": 1589377078
-                },
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "original system side information": {
-                            "Action": "utter",
-                            "Agent": "Wizard",
-                            "PrimaryItem": {
-                                "APIName": "trip_directions",
-                                "DetailedDrivingInstructions": [
-                                    "Drive east (towards the tall brown building) on Forbes towards Murray",
-                                    "Turn right at the Starbucks and drive for 1.6 kilometers. Once you see a brown church, turn left on Murray",
-                                    "Drive for 700 meters until you reach Wilkins Avenue. It will be the first traffic light you see.",
-                                    "Your destination will be on the right just after the fire station."
-                                ],
-                                "DrivingInstructions": [
-                                    "Go east on Forbes towards Murray",
-                                    "Turn right and drive for 1.6 kilometers and turn left on Murray",
-                                    "Drive for 700 meters until you reach Wilkins Avenue",
-                                    "Your destination will be on the right"
-                                ],
-                                "TravelMode": "Driving",
-                                "TripLengthMinutes": 76,
-                                "id": 53
-                            },
-                            "UnixTime": 1589377078
-                        }
-                    }
-                },
-                "external knowledge": "System side information: {'Action': 'utter', 'Agent': 'Wizard', 'PrimaryItem': {'APIName': 'trip_directions', 'DetailedDrivingInstructions': ['Drive east (towards the tall brown building) on Forbes towards Murray', 'Turn right at the Starbucks and drive for 1.6 kilometers. Once you see a brown church, turn left on Murray', 'Drive for 700 meters until you reach Wilkins Avenue. It will be the first traffic light you see.', 'Your destination will be on the right just after the fire station.'], 'DrivingInstructions': ['Go east on Forbes towards Murray', 'Turn right and drive for 1.6 kilometers and turn left on Murray', 'Drive for 700 meters until you reach Wilkins Avenue', 'Your destination will be on the right'], 'TravelMode': 'Driving', 'TripLengthMinutes': 76, 'id': 53}, 'UnixTime': 1589377078}"
+                }
             },
             {
                 "turn id": 11,
@@ -1904,40 +1245,7 @@
                         "id": 53
                     },
                     "UnixTime": 1589377101
-                },
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "original system side information": {
-                            "Action": "pick_suggestion",
-                            "ActionLabel": "goodbye_1",
-                            "ActionLabelOptions": [
-                                "goodbye_1",
-                                "out_of_scope"
-                            ],
-                            "Agent": "Wizard",
-                            "PrimaryItem": {
-                                "APIName": "trip_directions",
-                                "DetailedDrivingInstructions": [
-                                    "Drive east (towards the tall brown building) on Forbes towards Murray",
-                                    "Turn right at the Starbucks and drive for 1.6 kilometers. Once you see a brown church, turn left on Murray",
-                                    "Drive for 700 meters until you reach Wilkins Avenue. It will be the first traffic light you see.",
-                                    "Your destination will be on the right just after the fire station."
-                                ],
-                                "DrivingInstructions": [
-                                    "Go east on Forbes towards Murray",
-                                    "Turn right and drive for 1.6 kilometers and turn left on Murray",
-                                    "Drive for 700 meters until you reach Wilkins Avenue",
-                                    "Your destination will be on the right"
-                                ],
-                                "TravelMode": "Driving",
-                                "TripLengthMinutes": 76,
-                                "id": 53
-                            },
-                            "UnixTime": 1589377101
-                        }
-                    }
-                },
-                "external knowledge": "System side information: {'Action': 'pick_suggestion', 'ActionLabel': 'goodbye_1', 'ActionLabelOptions': ['goodbye_1', 'out_of_scope'], 'Agent': 'Wizard', 'PrimaryItem': {'APIName': 'trip_directions', 'DetailedDrivingInstructions': ['Drive east (towards the tall brown building) on Forbes towards Murray', 'Turn right at the Starbucks and drive for 1.6 kilometers. Once you see a brown church, turn left on Murray', 'Drive for 700 meters until you reach Wilkins Avenue. It will be the first traffic light you see.', 'Your destination will be on the right just after the fire station.'], 'DrivingInstructions': ['Go east on Forbes towards Murray', 'Turn right and drive for 1.6 kilometers and turn left on Murray', 'Drive for 700 meters until you reach Wilkins Avenue', 'Your destination will be on the right'], 'TravelMode': 'Driving', 'TripLengthMinutes': 76, 'id': 53}, 'UnixTime': 1589377101}"
+                }
             },
             {
                 "turn id": 12,
@@ -1976,50 +1284,23 @@
                         "id": 53
                     },
                     "UnixTime": 1589377162
-                },
-                "external knowledge non-flat": {
-                    "metadata": {
-                        "original system side information": {
-                            "Action": "pick_suggestion",
-                            "ActionLabel": "anything_else",
-                            "ActionLabelOptions": [
-                                "anything_else",
-                                "goodbye_1"
-                            ],
-                            "Agent": "Wizard",
-                            "PrimaryItem": {
-                                "APIName": "trip_directions",
-                                "DetailedDrivingInstructions": [
-                                    "Drive east (towards the tall brown building) on Forbes towards Murray",
-                                    "Turn right at the Starbucks and drive for 1.6 kilometers. Once you see a brown church, turn left on Murray",
-                                    "Drive for 700 meters until you reach Wilkins Avenue. It will be the first traffic light you see.",
-                                    "Your destination will be on the right just after the fire station."
-                                ],
-                                "DrivingInstructions": [
-                                    "Go east on Forbes towards Murray",
-                                    "Turn right and drive for 1.6 kilometers and turn left on Murray",
-                                    "Drive for 700 meters until you reach Wilkins Avenue",
-                                    "Your destination will be on the right"
-                                ],
-                                "TravelMode": "Driving",
-                                "TripLengthMinutes": 76,
-                                "id": 53
-                            },
-                            "UnixTime": 1589377162
-                        }
-                    }
-                },
-                "external knowledge": "System side information: {'Action': 'pick_suggestion', 'ActionLabel': 'anything_else', 'ActionLabelOptions': ['anything_else', 'goodbye_1'], 'Agent': 'Wizard', 'PrimaryItem': {'APIName': 'trip_directions', 'DetailedDrivingInstructions': ['Drive east (towards the tall brown building) on Forbes towards Murray', 'Turn right at the Starbucks and drive for 1.6 kilometers. Once you see a brown church, turn left on Murray', 'Drive for 700 meters until you reach Wilkins Avenue. It will be the first traffic light you see.', 'Your destination will be on the right just after the fire station.'], 'DrivingInstructions': ['Go east on Forbes towards Murray', 'Turn right and drive for 1.6 kilometers and turn left on Murray', 'Drive for 700 meters until you reach Wilkins Avenue', 'Your destination will be on the right'], 'TravelMode': 'Driving', 'TripLengthMinutes': 76, 'id': 53}, 'UnixTime': 1589377162}"
+                }
             }
         ],
+        "external knowledge non-flat": {
+            "metadata": {},
+            "slots and values": {},
+            "intents": {}
+        },
+        "external knowledge": "",
         "dst knowledge": "",
         "intent knowledge": "",
         "prompt": [
             "This is a bot helping users to get navigation. Given the dialog context and external database, please generate a relevant system response for the user.",
             "This bot assists users to get navigation. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
-            "This bot helps users to get navigation. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
-            "The purpose of this bot is to assist users to get navigation. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
-            "This bot is designed to help users get navigation. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+            "This bot helps users to get navigation. Based on the conversation history and available external data, please generate a relevant system response for the user.",
+            "The purpose of this bot is to assist users to get navigation. Considering the dialogue context and the information available in the external database, please provide a fitting response for the user.",
+            "This bot is designed to help users get navigation. By utilizing the current dialog context and external resources, generate a fitting response for the user."
         ]
     }
 }

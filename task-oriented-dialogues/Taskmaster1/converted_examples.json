@@ -1357,74 +1357,74 @@
             "slots and values": {
                 "coffee": {
                     "drink_name": [
-                        "an iced blonde black and white mocha",
-                        "Matcha Frappachino",
-                        "Vanilla Bean Cr\u00e8me Frappuccino",
-                        "Cappuccino?",
-                        "Iced Vanilla Bean Coconutmilk Lattes"
+                        "double chocolate chip Frap",
+                        "quad skinny vanilla latte",
+                        "Caramel Macchiato.",
+                        "Iced Skinny Mocha",
+                        "Mocha frappe"
                     ],
                     "store_location": [
-                        "Center city, Philadelphia",
-                        "Road 68 Starbucks",
-                        "4th Ave. in Dallas, Texas",
-                        "FM 3040 and Gerault location",
-                        "9th and L street"
+                        "Stony Hill Road location",
+                        "Orange City",
+                        "1600 Kennedy, in Tampa",
+                        "inside of Ingles on Weaver Blvd",
+                        "1820 W 9000 S, West Jordan, UT"
                     ],
                     "drink_size": [
-                        "trenta iced",
-                        "veinte",
-                        "small.",
-                        "shot",
-                        "the largest"
+                        "16 ounce",
+                        "Trenta Iced",
+                        "short",
+                        "one",
+                        "Soy Milk"
                     ],
                     "preference": [
-                        "Extra matcha",
-                        "extra whip,",
-                        "hot or cold",
-                        "shots of Espresso",
-                        "No foam"
+                        "Caramel",
+                        "BLENDED",
+                        "extra shot,",
+                        "no extra sugar",
+                        "and add c"
                     ],
                     "drink_num": [
-                        "rwo",
-                        "two drinks",
-                        "Cafe Mocha",
+                        "mocha",
                         "9",
-                        "just the coffee"
+                        "Frappuccino",
+                        "Quad",
+                        "Iced White Chocolate Mocha"
                     ],
                     "milk_type": [
-                        "6 types of milk",
-                        "hemp",
-                        "specialty milk",
-                        "so",
-                        "Non Fat"
+                        "low fat milk.",
+                        "soy.",
+                        "NonFat milk.",
+                        "Grande Vanilla Late",
+                        "nut milks such as almond milk"
                     ],
                     "accept_preference": [
-                        "Extra",
-                        "Extra whippe cream",
-                        "shot of hazelnut syrup",
-                        "whipped cream, and a couple pumps of french vanilla",
-                        "sugar packs on the side"
+                        "No whip cream",
+                        "two",
+                        "50% of sugar",
+                        "extra shot is 75 mg of caffeine",
+                        "extra chocolate and caramel topping"
                     ],
                     "coffee_ordering": [
-                        "I would like to order a coffee drink from Starbucks please for pick up",
-                        "Starbucks",
+                        "Starbucks coffee",
+                        "Starbucks and order a coffee",
+                        "starbucks",
                         "StarBucks",
-                        "starbucks Frappuccino",
-                        "I am ordering that for you right now"
+                        "Hi, I'd like to make an order at Starbucks."
                     ],
                     "accept_coffee_order": [
-                        "will be ready for pickup",
-                        "I already ordered your drink.",
-                        "OK - I fixed it",
-                        "Okay great. That will be ready for pick",
-                        "1 large iced latte with 2% milk and vanilla flavoring"
+                        "I am placing your order now.",
+                        "Ok order is confirmed.",
+                        "Your reciept will be sent to you via text.",
+                        "Grande Latte with skim milk and an extra shot of espresso",
+                        "Okay, I'll go ahead and order that drink for you."
                     ],
                     "reject_preference": [
-                        "mocha sauce",
-                        "Vanilla Flavor",
-                        "no toppings.",
-                        "no whip.",
-                        "want the liquid part of the drink"
+                        "Vegan Creamer,",
+                        "toffe nut syrup",
+                        "espresso",
+                        "hazelnut",
+                        "toppings"
                     ],
                     "guests_num": [
                         "all of my nieces and nephews",
@@ -1468,7 +1468,7 @@
             "intents": {}
         },
         "external knowledge": "()",
-        "dst knowledge": "( coffee : ( drink_name : ( an iced blonde black and white mocha | Matcha Frappachino | Vanilla Bean Cr\u00e8me Frappuccino | Cappuccino? | Iced Vanilla Bean Coconutmilk Lattes ) | store_location : ( Center city | Philadelphia | Road 68 Starbucks | 4th Ave. in Dallas | Texas | FM 3040 and Gerault location | 9th and L street ) | drink_size : ( trenta iced | veinte | small. | shot | the largest ) | preference : ( Extra matcha | extra whip | | hot or cold | shots of Espresso | No foam ) | drink_num : ( rwo | two drinks | Cafe Mocha | 9 | just the coffee ) | milk_type : ( 6 types of milk | hemp | specialty milk | so | Non Fat ) | accept_preference : ( Extra | Extra whippe cream | shot of hazelnut syrup | whipped cream | and a couple pumps of french vanilla | sugar packs on the side ) | coffee_ordering : ( I would like to order a coffee drink from Starbucks please for pick up | Starbucks | StarBucks | starbucks Frappuccino | I am ordering that for you right now ) | accept_coffee_order : ( will be ready for pickup | I already ordered your drink. | OK - I fixed it | Okay great. That will be ready for pick | 1 large iced latte with 2% milk and vanilla flavoring ) | reject_preference : ( mocha sauce | Vanilla Flavor | no toppings. | no whip. | want the liquid part of the drink ) | guests_num : ( all of my nieces and nephews | 1 | you and your (guest) ) | reject_coffee_order : (\"they can t do that\" | I will not going to be able to do it for you | hot coffee drink | ou | Your old order was cancelled ) | topping_type : ( extra foam | extra carmel ) | appt_reason : ( enhance the air conditioning ) | appt_date : ( Monday ) | appt_time : ( early in the morning | Monday of the coming week ) | restaurant_name : ( Shogun Restaurant. ) | reservation_time : ( 7:00 on Tuesday | ) | seating_type : ( four booster seats | window table | two high chairs )))",
+        "dst knowledge": "( coffee : ( drink_name : ( double chocolate chip Frap | quad skinny vanilla latte | Caramel Macchiato. | Iced Skinny Mocha | Mocha frappe ) | store_location : ( Stony Hill Road location | Orange City | 1600 Kennedy | in Tampa | inside of Ingles on Weaver Blvd | 1820 W 9000 S | West Jordan | UT ) | drink_size : ( 16 ounce | Trenta Iced | short | one | Soy Milk ) | preference : ( Caramel | BLENDED | extra shot | | no extra sugar | and add c ) | drink_num : ( mocha | 9 | Frappuccino | Quad | Iced White Chocolate Mocha ) | milk_type : ( low fat milk. | soy. | NonFat milk. | Grande Vanilla Late | nut milks such as almond milk ) | accept_preference : ( No whip cream | two | 50% of sugar | extra shot is 75 mg of caffeine | extra chocolate and caramel topping ) | coffee_ordering : ( Starbucks coffee | Starbucks and order a coffee | starbucks | StarBucks | \"Hi | I d like to make an order at Starbucks.\") | accept_coffee_order : ( I am placing your order now. | Ok order is confirmed. | Your reciept will be sent to you via text. | Grande Latte with skim milk and an extra shot of espresso | \"Okay | I ll go ahead and order that drink for you.\") | reject_preference : ( Vegan Creamer | | toffe nut syrup | espresso | hazelnut | toppings ) | guests_num : ( all of my nieces and nephews | 1 | you and your (guest) ) | reject_coffee_order : (\"they can t do that\" | I will not going to be able to do it for you | hot coffee drink | ou | Your old order was cancelled ) | topping_type : ( extra foam | extra carmel ) | appt_reason : ( enhance the air conditioning ) | appt_date : ( Monday ) | appt_time : ( early in the morning | Monday of the coming week ) | restaurant_name : ( Shogun Restaurant. ) | reservation_time : ( 7:00 on Tuesday | ) | seating_type : ( four booster seats | window table | two high chairs )))",
         "intent knowledge": "()",
         "prompt": [
             "This is a bot helping users to order coffee drinks. Given the dialog context and external database, please generate a relevant system response for the user.",
@@ -1979,74 +1979,74 @@
             "slots and values": {
                 "coffee": {
                     "drink_name": [
-                        "an iced blonde black and white mocha",
-                        "Matcha Frappachino",
-                        "Vanilla Bean Cr\u00e8me Frappuccino",
-                        "Cappuccino?",
-                        "Iced Vanilla Bean Coconutmilk Lattes"
+                        "double chocolate chip Frap",
+                        "quad skinny vanilla latte",
+                        "Caramel Macchiato.",
+                        "Iced Skinny Mocha",
+                        "Mocha frappe"
                     ],
                     "store_location": [
-                        "Center city, Philadelphia",
-                        "Road 68 Starbucks",
-                        "4th Ave. in Dallas, Texas",
-                        "FM 3040 and Gerault location",
-                        "9th and L street"
+                        "Stony Hill Road location",
+                        "Orange City",
+                        "1600 Kennedy, in Tampa",
+                        "inside of Ingles on Weaver Blvd",
+                        "1820 W 9000 S, West Jordan, UT"
                     ],
                     "drink_size": [
-                        "trenta iced",
-                        "veinte",
-                        "small.",
-                        "shot",
-                        "the largest"
+                        "16 ounce",
+                        "Trenta Iced",
+                        "short",
+                        "one",
+                        "Soy Milk"
                     ],
                     "preference": [
-                        "Extra matcha",
-                        "extra whip,",
-                        "hot or cold",
-                        "shots of Espresso",
-                        "No foam"
+                        "Caramel",
+                        "BLENDED",
+                        "extra shot,",
+                        "no extra sugar",
+                        "and add c"
                     ],
                     "drink_num": [
-                        "rwo",
-                        "two drinks",
-                        "Cafe Mocha",
+                        "mocha",
                         "9",
-                        "just the coffee"
+                        "Frappuccino",
+                        "Quad",
+                        "Iced White Chocolate Mocha"
                     ],
                     "milk_type": [
-                        "6 types of milk",
-                        "hemp",
-                        "specialty milk",
-                        "so",
-                        "Non Fat"
+                        "low fat milk.",
+                        "soy.",
+                        "NonFat milk.",
+                        "Grande Vanilla Late",
+                        "nut milks such as almond milk"
                     ],
                     "accept_preference": [
-                        "Extra",
-                        "Extra whippe cream",
-                        "shot of hazelnut syrup",
-                        "whipped cream, and a couple pumps of french vanilla",
-                        "sugar packs on the side"
+                        "No whip cream",
+                        "two",
+                        "50% of sugar",
+                        "extra shot is 75 mg of caffeine",
+                        "extra chocolate and caramel topping"
                     ],
                     "coffee_ordering": [
-                        "I would like to order a coffee drink from Starbucks please for pick up",
-                        "Starbucks",
+                        "Starbucks coffee",
+                        "Starbucks and order a coffee",
+                        "starbucks",
                         "StarBucks",
-                        "starbucks Frappuccino",
-                        "I am ordering that for you right now"
+                        "Hi, I'd like to make an order at Starbucks."
                     ],
                     "accept_coffee_order": [
-                        "will be ready for pickup",
-                        "I already ordered your drink.",
-                        "OK - I fixed it",
-                        "Okay great. That will be ready for pick",
-                        "1 large iced latte with 2% milk and vanilla flavoring"
+                        "I am placing your order now.",
+                        "Ok order is confirmed.",
+                        "Your reciept will be sent to you via text.",
+                        "Grande Latte with skim milk and an extra shot of espresso",
+                        "Okay, I'll go ahead and order that drink for you."
                     ],
                     "reject_preference": [
-                        "mocha sauce",
-                        "Vanilla Flavor",
-                        "no toppings.",
-                        "no whip.",
-                        "want the liquid part of the drink"
+                        "Vegan Creamer,",
+                        "toffe nut syrup",
+                        "espresso",
+                        "hazelnut",
+                        "toppings"
                     ],
                     "guests_num": [
                         "all of my nieces and nephews",
@@ -2090,7 +2090,7 @@
             "intents": {}
         },
         "external knowledge": "()",
-        "dst knowledge": "( coffee : ( drink_name : ( an iced blonde black and white mocha | Matcha Frappachino | Vanilla Bean Cr\u00e8me Frappuccino | Cappuccino? | Iced Vanilla Bean Coconutmilk Lattes ) | store_location : ( Center city | Philadelphia | Road 68 Starbucks | 4th Ave. in Dallas | Texas | FM 3040 and Gerault location | 9th and L street ) | drink_size : ( trenta iced | veinte | small. | shot | the largest ) | preference : ( Extra matcha | extra whip | | hot or cold | shots of Espresso | No foam ) | drink_num : ( rwo | two drinks | Cafe Mocha | 9 | just the coffee ) | milk_type : ( 6 types of milk | hemp | specialty milk | so | Non Fat ) | accept_preference : ( Extra | Extra whippe cream | shot of hazelnut syrup | whipped cream | and a couple pumps of french vanilla | sugar packs on the side ) | coffee_ordering : ( I would like to order a coffee drink from Starbucks please for pick up | Starbucks | StarBucks | starbucks Frappuccino | I am ordering that for you right now ) | accept_coffee_order : ( will be ready for pickup | I already ordered your drink. | OK - I fixed it | Okay great. That will be ready for pick | 1 large iced latte with 2% milk and vanilla flavoring ) | reject_preference : ( mocha sauce | Vanilla Flavor | no toppings. | no whip. | want the liquid part of the drink ) | guests_num : ( all of my nieces and nephews | 1 | you and your (guest) ) | reject_coffee_order : (\"they can t do that\" | I will not going to be able to do it for you | hot coffee drink | ou | Your old order was cancelled ) | topping_type : ( extra foam | extra carmel ) | appt_reason : ( enhance the air conditioning ) | appt_date : ( Monday ) | appt_time : ( early in the morning | Monday of the coming week ) | restaurant_name : ( Shogun Restaurant. ) | reservation_time : ( 7:00 on Tuesday | ) | seating_type : ( four booster seats | window table | two high chairs )))",
+        "dst knowledge": "( coffee : ( drink_name : ( double chocolate chip Frap | quad skinny vanilla latte | Caramel Macchiato. | Iced Skinny Mocha | Mocha frappe ) | store_location : ( Stony Hill Road location | Orange City | 1600 Kennedy | in Tampa | inside of Ingles on Weaver Blvd | 1820 W 9000 S | West Jordan | UT ) | drink_size : ( 16 ounce | Trenta Iced | short | one | Soy Milk ) | preference : ( Caramel | BLENDED | extra shot | | no extra sugar | and add c ) | drink_num : ( mocha | 9 | Frappuccino | Quad | Iced White Chocolate Mocha ) | milk_type : ( low fat milk. | soy. | NonFat milk. | Grande Vanilla Late | nut milks such as almond milk ) | accept_preference : ( No whip cream | two | 50% of sugar | extra shot is 75 mg of caffeine | extra chocolate and caramel topping ) | coffee_ordering : ( Starbucks coffee | Starbucks and order a coffee | starbucks | StarBucks | \"Hi | I d like to make an order at Starbucks.\") | accept_coffee_order : ( I am placing your order now. | Ok order is confirmed. | Your reciept will be sent to you via text. | Grande Latte with skim milk and an extra shot of espresso | \"Okay | I ll go ahead and order that drink for you.\") | reject_preference : ( Vegan Creamer | | toffe nut syrup | espresso | hazelnut | toppings ) | guests_num : ( all of my nieces and nephews | 1 | you and your (guest) ) | reject_coffee_order : (\"they can t do that\" | I will not going to be able to do it for you | hot coffee drink | ou | Your old order was cancelled ) | topping_type : ( extra foam | extra carmel ) | appt_reason : ( enhance the air conditioning ) | appt_date : ( Monday ) | appt_time : ( early in the morning | Monday of the coming week ) | restaurant_name : ( Shogun Restaurant. ) | reservation_time : ( 7:00 on Tuesday | ) | seating_type : ( four booster seats | window table | two high chairs )))",
         "intent knowledge": "()",
         "prompt": [
             "This is a bot helping users to order coffee drinks. Given the dialog context and external database, please generate a relevant system response for the user.",
@@ -3086,74 +3086,74 @@
             "slots and values": {
                 "movie": {
                     "name": [
-                        "Dang",
-                        "Mission: Impossible \u2013 Rogue Nation",
-                        "Missing Link",
-                        "five feet apar",
-                        "Bird Box"
+                        "A MADEA FAMILY FUNERAL",
+                        "Lego movie",
+                        "Blade Runner,",
+                        "Captain Marvel.",
+                        "twilight"
                     ],
                     "tickets_num": [
-                        "One for my friend and one for me.",
-                        "one adult and one child",
-                        "one",
-                        "My friend and I are going",
-                        "Two seats"
+                        "Two adults and three kids",
+                        "Two movie tickets",
+                        "one more ticket",
+                        "8 tickets",
+                        "Okay,"
                     ],
                     "start_time": [
-                        "3:25 pm",
-                        "10:40 PM",
-                        "8:50 pm",
-                        "9:45 pm.",
-                        "7 p.m."
+                        "nine",
+                        "09:45 pm",
+                        "near the 7pm",
+                        "11:15",
+                        "6pm showing"
                     ],
                     "ticket_price": [
-                        "$14.45",
-                        "$27 per ticket",
-                        "$10.43",
-                        "$28 dollars",
-                        "$9.59"
+                        "$2.25 each after tax.",
+                        "$15 dollars",
+                        "$12.98",
+                        "$30",
+                        "$23.89."
                     ],
                     "theater_location": [
-                        "Destin, Florida",
-                        "Riverfill 10 in Pikeville, Kentucky",
-                        "Allentown area",
-                        "Mt. Pleasant , Michigan",
-                        "Gaithersburg"
+                        "Rocklin",
+                        "New York.",
+                        "Brooklyn, New York",
+                        "1522 Parkway W, Festus, MO 63028",
+                        "Canyon Hill"
                     ],
                     "theater_name": [
-                        "CineMark Victorville 16 & XD",
-                        "Megaplex",
-                        "Majectic Bay",
-                        "Century Larkspur theater",
-                        "Bemidji Theatre"
+                        "the regal",
+                        "Regal Cinemas Natomas Marketplace 16 & RPX",
+                        "The Grand Haven 9",
+                        "Malco Paradiso Cinema Grill And IMAX",
+                        "entertainment cinemas"
                     ],
                     "accept_ticket_booking": [
-                        "the tickets have been sent to your mobile device as a text message and your receipt has been sent as well.",
-                        "ickets have been purchased",
-                        "Okay, your tickets should be in your email",
-                        "your order is confirmed",
-                        "All right, the reservations have been made."
+                        "Will do.  Tickets are being sent to your cell as a text message",
+                        "Okay. you will receive the receipt and ticket information in your email in just a few minutes.",
+                        "I am sending your tickets to your mobile device",
+                        "Processing, one moment, ok you are booked for this movie and the ticket is paid, I have sent your ticket confirmation to your cell phone, please check it is there",
+                        "I have bought the tickets for you"
                     ],
                     "screening_type": [
-                        "IMAX-",
-                        "Captions",
-                        "digital",
-                        "Dolby Stadium Cinema",
-                        "RPX 3d"
+                        "D-Box",
+                        "3d tickets",
+                        "Non-3D",
+                        "a standard showing",
+                        "standard format."
                     ],
                     "movie_ticket": [
-                        "Hi, I would like to go to a movie tonight.",
-                        "I wanted to purch",
-                        "get some movie tickets please",
+                        "tickets for a movie",
                         "ticket",
-                        "showtime"
+                        "order tickets",
+                        "ticket",
+                        "ticket"
                     ],
                     "duration_time": [
-                        "103 min",
-                        "around 2 hours",
-                        "11pm to 1am",
+                        "2 hours and 1 minute",
+                        "one hour and fifty-six minutes",
+                        "one hour and forty minutes",
                         "2 hours",
-                        "two and a half hours"
+                        "one hour or hour and half"
                     ],
                     "end_time": [
                         "around 10",
@@ -3186,7 +3186,7 @@
             "intents": {}
         },
         "external knowledge": "()",
-        "dst knowledge": "( movie : ( name : ( Dang | Mission: Impossible \u2013 Rogue Nation | Missing Link | five feet apar | Bird Box ) | tickets_num : ( One for my friend and one for me. | one adult and one child | one | My friend and I are going | Two seats ) | start_time : ( 3:25 pm | 10:40 PM | 8:50 pm | 9:45 pm. | 7 p.m. ) | ticket_price : ( $14.45 | $27 per ticket | $10.43 | $28 dollars | $9.59 ) | theater_location : ( Destin | Florida | Riverfill 10 in Pikeville | Kentucky | Allentown area | Mt. Pleasant | Michigan | Gaithersburg ) | theater_name : ( CineMark Victorville 16 & XD | Megaplex | Majectic Bay | Century Larkspur theater | Bemidji Theatre ) | accept_ticket_booking : ( the tickets have been sent to your mobile device as a text message and your receipt has been sent as well. | ickets have been purchased | Okay | your tickets should be in your email | your order is confirmed | All right | the reservations have been made. ) | screening_type : ( IMAX- | Captions | digital | Dolby Stadium Cinema | RPX 3d ) | movie_ticket : ( Hi | I would like to go to a movie tonight. | I wanted to purch | get some movie tickets please | ticket | showtime ) | duration_time : ( 103 min | around 2 hours | 11pm to 1am | 2 hours | two and a half hours ) | end_time : ( around 10 | 7:30 | be over by nine | something in the evening | 6pm | 10:00 pm | 4 pm | nine thirty ) | reject_ticket_booking : ( already sold out. | Okay | I have pla | \"Sorry you couldn t get tickets tonight\" | Your purchase request has been cancelled | \"It looks like we re sold out\") | estimate_price : ( 7 dollars ) | reservation_time : ( 7:00pm ) | restaurant_name : ( Busaba )))",
+        "dst knowledge": "( movie : ( name : ( A MADEA FAMILY FUNERAL | Lego movie | Blade Runner | | Captain Marvel. | twilight ) | tickets_num : ( Two adults and three kids | Two movie tickets | one more ticket | 8 tickets | Okay | ) | start_time : ( nine | 09:45 pm | near the 7pm | 11:15 | 6pm showing ) | ticket_price : ( $2.25 each after tax. | $15 dollars | $12.98 | $30 | $23.89. ) | theater_location : ( Rocklin | New York. | Brooklyn | New York | 1522 Parkway W | Festus | MO 63028 | Canyon Hill ) | theater_name : ( the regal | Regal Cinemas Natomas Marketplace 16 & RPX | The Grand Haven 9 | Malco Paradiso Cinema Grill And IMAX | entertainment cinemas ) | accept_ticket_booking : ( Will do. Tickets are being sent to your cell as a text message | Okay. you will receive the receipt and ticket information in your email in just a few minutes. | I am sending your tickets to your mobile device | Processing | one moment | ok you are booked for this movie and the ticket is paid | I have sent your ticket confirmation to your cell phone | please check it is there | I have bought the tickets for you ) | screening_type : ( D-Box | 3d tickets | Non-3D | a standard showing | standard format. ) | movie_ticket : ( tickets for a movie | ticket | order tickets | ticket | ticket ) | duration_time : ( 2 hours and 1 minute | one hour and fifty-six minutes | one hour and forty minutes | 2 hours | one hour or hour and half ) | end_time : ( around 10 | 7:30 | be over by nine | something in the evening | 6pm | 10:00 pm | 4 pm | nine thirty ) | reject_ticket_booking : ( already sold out. | Okay | I have pla | \"Sorry you couldn t get tickets tonight\" | Your purchase request has been cancelled | \"It looks like we re sold out\") | estimate_price : ( 7 dollars ) | reservation_time : ( 7:00pm ) | restaurant_name : ( Busaba )))",
         "intent knowledge": "()",
         "prompt": [
             "This is a bot helping users to book a movie ticket. Given the dialog context and external database, please generate a relevant system response for the user.",
@@ -3543,60 +3543,60 @@
             "slots and values": {
                 "restaurant": {
                     "location": [
-                        "Hudson",
-                        "taylor michigan",
-                        "Greater Los Angeles",
-                        "Pearl City, Hawai",
-                        "Moreland Ave."
+                        "downtown boise",
+                        "north side of the city",
+                        "In Kentwood, Michigan",
+                        "Capitol Hill",
+                        "Boca Raton/Boynton Beach Florida area"
                     ],
                     "name": [
-                        "Jefferys?",
-                        "Drunken Monkey",
-                        "Zona Rosa",
-                        "italiano pasta house",
-                        "Carmila's"
+                        "Marsigny",
+                        "Okay, what about",
+                        "St. Elmo's Steakhouse",
+                        "bistro",
+                        "Chez Panisse"
                     ],
                     "seating_type": [
-                        "dinner at the bar",
-                        "balcon",
-                        "The table will be away from the bar",
-                        "outdoor seating that is wheelchair accessible",
-                        "outside on the deck"
+                        "two tables next to each other",
+                        "in",
+                        "smoking section, at a table",
+                        "a table at the side or back",
+                        "booth available by the window"
                     ],
                     "reservation_time": [
-                        "ten p.m",
-                        "seven",
-                        "7:30 tomorrow",
-                        "Friday, March 8th at 6:00 pm",
-                        "1:00 pm today"
+                        "9 tonight",
+                        "between 4 and 7 pm",
+                        "Thursday at 8",
+                        "7:00Pm",
+                        "6pm."
                     ],
                     "guests_num": [
-                        "for 6",
-                        "ten",
-                        "Friday night at 7:00",
-                        "7.",
-                        "2 adults and 2 kids"
+                        "table for 6",
+                        "me and four",
+                        "four. And one child",
+                        "5 including myself.",
+                        "8 People"
                     ],
                     "accept_reservation": [
-                        "get me a reservation for tonight.",
-                        "you are booked",
-                        "Okay all is in order",
-                        "It's all set",
-                        "Great, you're all set have a wonderful anniversary dinner with your wife and her family"
+                        "Your booking has been confirmed and sent to your mobile phone",
+                        "I've reserved",
+                        "make a reservation",
+                        "you are welcome. Your reservation is confirmed",
+                        "made"
                     ],
                     "reservation_name": [
-                        "Chan's",
-                        "2",
-                        "8 pm tonight",
-                        "Michael R",
-                        "Totoraku"
+                        "Joe Smith",
+                        "Mr. Fost",
+                        "Greg",
+                        "Tami Lynn Brown",
+                        "Si Senor"
                     ],
                     "restaurant_reservation": [
-                        "steakhouse",
-                        "out for sushi tonight",
-                        "book a reservation with a restaurant",
-                        "lunch",
-                        "reserve a table"
+                        "a Thai cuisine restaurant with reservations",
+                        "a reservation at a restaurant",
+                        "Restaurant",
+                        "Dinner",
+                        "japanese restaurant"
                     ],
                     "reject_reservation": [
                         "I need to cancel that reservation",
@@ -3697,7 +3697,7 @@
             "intents": {}
         },
         "external knowledge": "()",
-        "dst knowledge": "( restaurant : ( location : ( Hudson | taylor michigan | Greater Los Angeles | Pearl City | Hawai | Moreland Ave. ) | name : ( Jefferys? | Drunken Monkey | Zona Rosa | italiano pasta house | \"Carmila s\") | seating_type : ( dinner at the bar | balcon | The table will be away from the bar | outdoor seating that is wheelchair accessible | outside on the deck ) | reservation_time : ( ten p.m | seven | 7:30 tomorrow | Friday | March 8th at 6:00 pm | 1:00 pm today ) | guests_num : ( for 6 | ten | Friday night at 7:00 | 7. | 2 adults and 2 kids ) | accept_reservation : ( get me a reservation for tonight. | you are booked | Okay all is in order | \"It s all set\" | \"Great | you re all set have a wonderful anniversary dinner with your wife and her family\") | reservation_name : (\"Chan s\" | 2 | 8 pm tonight | Michael R | Totoraku ) | restaurant_reservation : ( steakhouse | out for sushi tonight | book a reservation with a restaurant | lunch | reserve a table ) | reject_reservation : ( I need to cancel that reservation | \"They can t do a reservation\" | Ranch | Sorry | the reservation is not available ) | drink_name : ( caffichino | 2 ) | from_location : ( 123 twain street | Atalanta 30309 | my house | 123 twain street | home | the seattle downtoan area | seattle downtoan area | at home ) | to_location : ( Giordanos | 777 choo choo lane | Atlanta. zip is 30305 | tacos | Taco Junction | giordanos | airport | 777 choo choo lane ) | people_num : ( 2 of us | traveling alone ) | pickup_time : ( 3 pm today | 3 pm | 3pm today | 30 minutes | 3pm | 11:30am | 3 pm this afternoon ) | appt_reason : ( enhance the air conditioning | I would like to enhance the air conditioning ) | appt_date : ( Tuesday | Monday of the coming week ) | appt_time : ( as soon as possible | early in the morning | morning ) | pizza_size : ( medium | small | large | large pizza | 3 special ) | pizza_name : ( chocolate chip | Deep Dish pizza | deep dish pizza | chicken cheese pizza | chesse pizza | \"Chicago s Deep Dish pizza\" | \"Chicago s Deep Dish Pizza s\" | cinnamon pizza | traditional ) | accept_preference : ( without mushrooms ) | store_location : ( Peachtree city | near Atlanta | Atlanta | Peachtree city? | main and 3rd ) | topping_type : ( cardamon | pineapple ) | store_name : (\"Chicago s Deep Dish Pizza\" | Old Chicago | Pizza Hut ) | accept_pizza_order : ( yeah finished our order )))",
+        "dst knowledge": "( restaurant : ( location : ( downtown boise | north side of the city | In Kentwood | Michigan | Capitol Hill | Boca Raton/Boynton Beach Florida area ) | name : ( Marsigny | Okay | what about | \"St. Elmo s Steakhouse\" | bistro | Chez Panisse ) | seating_type : ( two tables next to each other | in | smoking section | at a table | a table at the side or back | booth available by the window ) | reservation_time : ( 9 tonight | between 4 and 7 pm | Thursday at 8 | 7:00Pm | 6pm. ) | guests_num : ( table for 6 | me and four | four. And one child | 5 including myself. | 8 People ) | accept_reservation : ( Your booking has been confirmed and sent to your mobile phone | \"I ve reserved\" | make a reservation | you are welcome. Your reservation is confirmed | made ) | reservation_name : ( Joe Smith | Mr. Fost | Greg | Tami Lynn Brown | Si Senor ) | restaurant_reservation : ( a Thai cuisine restaurant with reservations | a reservation at a restaurant | Restaurant | Dinner | japanese restaurant ) | reject_reservation : ( I need to cancel that reservation | \"They can t do a reservation\" | Ranch | Sorry | the reservation is not available ) | drink_name : ( caffichino | 2 ) | from_location : ( 123 twain street | Atalanta 30309 | my house | 123 twain street | home | the seattle downtoan area | seattle downtoan area | at home ) | to_location : ( Giordanos | 777 choo choo lane | Atlanta. zip is 30305 | tacos | Taco Junction | giordanos | airport | 777 choo choo lane ) | people_num : ( 2 of us | traveling alone ) | pickup_time : ( 3 pm today | 3 pm | 3pm today | 30 minutes | 3pm | 11:30am | 3 pm this afternoon ) | appt_reason : ( enhance the air conditioning | I would like to enhance the air conditioning ) | appt_date : ( Tuesday | Monday of the coming week ) | appt_time : ( as soon as possible | early in the morning | morning ) | pizza_size : ( medium | small | large | large pizza | 3 special ) | pizza_name : ( chocolate chip | Deep Dish pizza | deep dish pizza | chicken cheese pizza | chesse pizza | \"Chicago s Deep Dish pizza\" | \"Chicago s Deep Dish Pizza s\" | cinnamon pizza | traditional ) | accept_preference : ( without mushrooms ) | store_location : ( Peachtree city | near Atlanta | Atlanta | Peachtree city? | main and 3rd ) | topping_type : ( cardamon | pineapple ) | store_name : (\"Chicago s Deep Dish Pizza\" | Old Chicago | Pizza Hut ) | accept_pizza_order : ( yeah finished our order )))",
         "intent knowledge": "()",
         "prompt": [
             "This is a bot helping users to reserve a restaurant. Given the dialog context and external database, please generate a relevant system response for the user.",
@@ -4138,74 +4138,74 @@
             "slots and values": {
                 "auto": {
                     "store_name": [
+                        "intellingent auto repiar",
+                        "Intelligent Automotive",
                         "IAS",
-                        "Master's ca repair",
-                        "Hey Ted my cars acting up",
-                        "ntelligent Auto Services",
-                        "Loody's Lube"
+                        "Poseys",
+                        "Big B's family auto"
                     ],
                     "vehicle_year": [
+                        "2003",
                         "1972",
-                        "Chevrolet Tahoe 2016.",
-                        "1966",
-                        "1999",
-                        "l200"
+                        "2000",
+                        "2027",
+                        "1990,"
                     ],
                     "vehicle_name": [
-                        "A Chevy Cruze",
-                        "blue Volkswagen Passat.",
-                        "Outback",
-                        "Honda Accord LX",
-                        "volvo x90 suv"
+                        "Honda Civic SI",
+                        "Sure, 2018 it's a",
+                        "coupe",
+                        "Toyota Corolla's",
+                        "Jeep Grand Cherokee, LTD"
                     ],
                     "appt_reason": [
-                        "something dragging it down",
-                        "oil change but I'd also like them to check the brakes",
-                        "One of my headlights is broken",
-                        "brake work",
-                        "scraping sound when you brake"
+                        "I need a tune up.",
+                        "The breaks aren't stopping the car as they should.",
+                        "some of the buttons are not functioning unless I press them hard especially when I am on cruise. I don\u2019t know if I actually need to press them harder for them to function but I don\u2019t want to break them",
+                        "I'm leaking oil all over the driveway",
+                        "My battery seems to be dead I think."
                     ],
                     "appt_date": [
-                        "ASAP",
-                        "afternoon",
-                        "04/10/2019",
-                        "Thusday",
-                        "tonight March 4th"
+                        "1/22/2019",
+                        "11:00am",
+                        "next da",
+                        "next Friday",
+                        "3:30 pm"
                     ],
                     "appt_time": [
-                        "Thursday at 7:30 PM",
-                        "in the morning.",
-                        "11 am this morning.",
-                        "1030AM",
-                        "evening at 6:00 PM"
+                        "before 8AM",
+                        "As soon as possible",
+                        "That sounds excellen",
+                        "3 oclock",
+                        "betwen 5-6pm"
                     ],
                     "customer_name": [
-                        "Sarah Jones",
-                        "Rico Suave",
-                        "Fred",
-                        "JimBon",
-                        "Karl,"
+                        "Jim Titties",
+                        "Jim Cunningham",
+                        "Joe Robinson",
+                        "Tiphany Gracey",
+                        "Robert Starch"
                     ],
                     "store_location": [
-                        "1001 main st",
-                        "21 charley smith drive, mt Joy 11054",
-                        "Clark",
+                        "near my house",
+                        "Ramsey street",
+                        "Lewisville",
                         "west side",
-                        "Edmond"
+                        "Buffalo New York"
                     ],
                     "auto_repair": [
-                        "appointment",
-                        "I need my car fixed",
-                        "my car in for servicing",
-                        "to take my car in",
-                        "car repair job"
+                        "the auto repair shop",
+                        "the auto repair shop",
+                        "apointment",
+                        "car",
+                        "my car in to the shop"
                     ],
                     "accept_appointment": [
-                        "booked",
-                        ". I have made an appointment",
-                        "we will see you",
-                        "the appointment is booked",
-                        "Alright, I booked it for you."
+                        "yes, the appointment is set",
+                        "I have sent you a confirmation message",
+                        "i have booked appointment.",
+                        "I have you scheduled",
+                        "Your appointment is confirmed"
                     ],
                     "reject_appointment": [
                         "don't have any availabilities today"
@@ -4215,7 +4215,7 @@
             "intents": {}
         },
         "external knowledge": "()",
-        "dst knowledge": "( auto : ( store_name : ( IAS | \"Master s ca repair\" | Hey Ted my cars acting up | ntelligent Auto Services | \"Loody s Lube\") | vehicle_year : ( 1972 | Chevrolet Tahoe 2016. | 1966 | 1999 | l200 ) | vehicle_name : ( A Chevy Cruze | blue Volkswagen Passat. | Outback | Honda Accord LX | volvo x90 suv ) | appt_reason : ( something dragging it down | \"oil change but I d also like them to check the brakes\" | One of my headlights is broken | brake work | scraping sound when you brake ) | appt_date : ( ASAP | afternoon | 04/10/2019 | Thusday | tonight March 4th ) | appt_time : ( Thursday at 7:30 PM | in the morning. | 11 am this morning. | 1030AM | evening at 6:00 PM ) | customer_name : ( Sarah Jones | Rico Suave | Fred | JimBon | Karl | ) | store_location : ( 1001 main st | 21 charley smith drive | mt Joy 11054 | Clark | west side | Edmond ) | auto_repair : ( appointment | I need my car fixed | my car in for servicing | to take my car in | car repair job ) | accept_appointment : ( booked | . I have made an appointment | we will see you | the appointment is booked | Alright | I booked it for you. ) | reject_appointment : (\"don t have any availabilities today\")))",
+        "dst knowledge": "( auto : ( store_name : ( intellingent auto repiar | Intelligent Automotive | IAS | Poseys | \"Big B s family auto\") | vehicle_year : ( 2003 | 1972 | 2000 | 2027 | 1990 | ) | vehicle_name : ( Honda Civic SI | \"Sure | 2018 it s a\" | coupe | \"Toyota Corolla s\" | Jeep Grand Cherokee | LTD ) | appt_reason : ( I need a tune up. | \"The breaks aren t stopping the car as they should.\" | some of the buttons are not functioning unless I press them hard especially when I am on cruise. I don\u2019t know if I actually need to press them harder for them to function but I don\u2019t want to break them | \"I m leaking oil all over the driveway\" | My battery seems to be dead I think. ) | appt_date : ( 1/22/2019 | 11:00am | next da | next Friday | 3:30 pm ) | appt_time : ( before 8AM | As soon as possible | That sounds excellen | 3 oclock | betwen 5-6pm ) | customer_name : ( Jim Titties | Jim Cunningham | Joe Robinson | Tiphany Gracey | Robert Starch ) | store_location : ( near my house | Ramsey street | Lewisville | west side | Buffalo New York ) | auto_repair : ( the auto repair shop | the auto repair shop | apointment | car | my car in to the shop ) | accept_appointment : ( yes | the appointment is set | I have sent you a confirmation message | i have booked appointment. | I have you scheduled | Your appointment is confirmed ) | reject_appointment : (\"don t have any availabilities today\")))",
         "intent knowledge": "()",
         "prompt": [
             "This is a bot helping users to make appointment for auto repair. Given the dialog context and external database, please generate a relevant system response for the user.",

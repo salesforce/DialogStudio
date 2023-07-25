@@ -1,0 +1,954 @@
+{
+    "Redial--train--1": {
+        "original dialog id": "391",
+        "dialog index": 1,
+        "original dialog info": {
+            "movieMentions": {
+                "203371": "Final Fantasy: The Spirits Within (2001)",
+                "84779": "The Triplets of Belleville (2003)",
+                "122159": "Mary and Max (2009)",
+                "151313": "A Scanner Darkly  (2006)",
+                "191602": "Waking Life (2001)",
+                "165710": "The Boss Baby (2017)"
+            },
+            "respondentQuestions": {
+                "203371": {
+                    "suggested": 1,
+                    "seen": 0,
+                    "liked": 1
+                },
+                "84779": {
+                    "suggested": 0,
+                    "seen": 1,
+                    "liked": 1
+                },
+                "122159": {
+                    "suggested": 0,
+                    "seen": 1,
+                    "liked": 1
+                },
+                "151313": {
+                    "suggested": 0,
+                    "seen": 1,
+                    "liked": 1
+                },
+                "191602": {
+                    "suggested": 0,
+                    "seen": 1,
+                    "liked": 1
+                },
+                "165710": {
+                    "suggested": 1,
+                    "seen": 0,
+                    "liked": 1
+                }
+            },
+            "conversationId": "391",
+            "respondentWorkerId": 1,
+            "initiatorWorkerId": 0,
+            "initiatorQuestions": {
+                "203371": {
+                    "suggested": 1,
+                    "seen": 0,
+                    "liked": 1
+                },
+                "84779": {
+                    "suggested": 0,
+                    "seen": 1,
+                    "liked": 1
+                },
+                "122159": {
+                    "suggested": 0,
+                    "seen": 1,
+                    "liked": 1
+                },
+                "151313": {
+                    "suggested": 0,
+                    "seen": 1,
+                    "liked": 1
+                },
+                "191602": {
+                    "suggested": 0,
+                    "seen": 1,
+                    "liked": 1
+                },
+                "165710": {
+                    "suggested": 1,
+                    "seen": 0,
+                    "liked": 1
+                }
+            }
+        },
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "Hi there, how are you? I'm looking for movie recommendations.",
+                "system response": "I am doing okay. What kind of movies do you like?",
+                "dialog history": "",
+                "original user side information": {
+                    "user_utterance_raw": "Hi there, how are you? I'm looking for movie recommendations.",
+                    "dialog_history_raw": "",
+                    "messageId": 1021,
+                    "timeOffset": 0,
+                    "senderWorkerId": 0
+                },
+                "original system side information": {
+                    "sys_utterance_raw": "I am doing okay. What kind of movies do you like?",
+                    "messageId": 1022,
+                    "timeOffset": 15,
+                    "senderWorkerId": 1
+                }
+            },
+            {
+                "turn id": 2,
+                "user utterance": "I like animations like The Triplets of Belleville (2003) and Waking Life (2001). I also enjoy Mary and Max (2009). Anything artistic.",
+                "system response": "You might like The Boss Baby (2017) that was a good movie.",
+                "dialog history": "<USER> Hi there, how are you? I'm looking for movie recommendations. <SYSTEM> I am doing okay. What kind of movies do you like?",
+                "original user side information": {
+                    "user_utterance_raw": "I like animations like @84779 and @191602. I also enjoy @122159. Anything artistic.",
+                    "dialog_history_raw": "<USER> Hi there, how are you? I'm looking for movie recommendations. <SYSTEM> I am doing okay. What kind of movies do you like?",
+                    "messageId": 1025,
+                    "timeOffset": 95,
+                    "senderWorkerId": 0
+                },
+                "original system side information": {
+                    "sys_utterance_raw": "You might like @165710 that was a good movie.",
+                    "messageId": 1026,
+                    "timeOffset": 135,
+                    "senderWorkerId": 1
+                }
+            },
+            {
+                "turn id": 3,
+                "user utterance": "What's it about?",
+                "system response": "It has Alec Baldwin it is about a baby that works for a company and gets adopted it is very funny.",
+                "dialog history": "<USER> Hi there, how are you? I'm looking for movie recommendations. <SYSTEM> I am doing okay. What kind of movies do you like? <USER> I like animations like The Triplets of Belleville (2003) and Waking Life (2001). I also enjoy Mary and Max (2009). Anything artistic. <SYSTEM> You might like The Boss Baby (2017) that was a good movie.",
+                "original user side information": {
+                    "user_utterance_raw": "What's it about?",
+                    "dialog_history_raw": "<USER> Hi there, how are you? I'm looking for movie recommendations. <SYSTEM> I am doing okay. What kind of movies do you like? <USER> I like animations like @84779 and @191602. I also enjoy @122159. Anything artistic. <SYSTEM> You might like @165710 that was a good movie.",
+                    "messageId": 1027,
+                    "timeOffset": 151,
+                    "senderWorkerId": 0
+                },
+                "original system side information": {
+                    "sys_utterance_raw": "It has Alec Baldwin it is about a baby that works for a company and gets adopted it is very funny.",
+                    "messageId": 1028,
+                    "timeOffset": 207,
+                    "senderWorkerId": 1
+                }
+            },
+            {
+                "turn id": 4,
+                "user utterance": "That seems like a nice comedy. Do you have any animated recommendations that are a bit more dramatic? Like A Scanner Darkly  (2006) for example. I like comedies but I prefer films with a little more depth.",
+                "system response": "That is a tough one but I will remember something. Final Fantasy: The Spirits Within (2001) was a good one.",
+                "dialog history": "<USER> Hi there, how are you? I'm looking for movie recommendations. <SYSTEM> I am doing okay. What kind of movies do you like? <USER> I like animations like The Triplets of Belleville (2003) and Waking Life (2001). I also enjoy Mary and Max (2009). Anything artistic. <SYSTEM> You might like The Boss Baby (2017) that was a good movie. <USER> What's it about? <SYSTEM> It has Alec Baldwin it is about a baby that works for a company and gets adopted it is very funny.",
+                "original user side information": {
+                    "user_utterance_raw": "That seems like a nice comedy. Do you have any animated recommendations that are a bit more dramatic? Like @151313 for example. I like comedies but I prefer films with a little more depth.",
+                    "dialog_history_raw": "<USER> Hi there, how are you? I'm looking for movie recommendations. <SYSTEM> I am doing okay. What kind of movies do you like? <USER> I like animations like @84779 and @191602. I also enjoy @122159. Anything artistic. <SYSTEM> You might like @165710 that was a good movie. <USER> What's it about? <SYSTEM> It has Alec Baldwin it is about a baby that works for a company and gets adopted it is very funny.",
+                    "messageId": 1031,
+                    "timeOffset": 327,
+                    "senderWorkerId": 0
+                },
+                "original system side information": {
+                    "sys_utterance_raw": "That is a tough one but I will remember something. @203371 was a good one.",
+                    "messageId": 1033,
+                    "timeOffset": 509,
+                    "senderWorkerId": 1
+                }
+            },
+            {
+                "turn id": 5,
+                "user utterance": "Ooh that seems cool! Thanks for the input. I'm ready to submit if you are.",
+                "system response": "It is animated, sci fi, and has action. Glad I could help.",
+                "dialog history": "<USER> Hi there, how are you? I'm looking for movie recommendations. <SYSTEM> I am doing okay. What kind of movies do you like? <USER> I like animations like The Triplets of Belleville (2003) and Waking Life (2001). I also enjoy Mary and Max (2009). Anything artistic. <SYSTEM> You might like The Boss Baby (2017) that was a good movie. <USER> What's it about? <SYSTEM> It has Alec Baldwin it is about a baby that works for a company and gets adopted it is very funny. <USER> That seems like a nice comedy. Do you have any animated recommendations that are a bit more dramatic? Like A Scanner Darkly  (2006) for example. I like comedies but I prefer films with a little more depth. <SYSTEM> That is a tough one but I will remember something. Final Fantasy: The Spirits Within (2001) was a good one.",
+                "original user side information": {
+                    "user_utterance_raw": "Ooh that seems cool! Thanks for the input. I'm ready to submit if you are.",
+                    "dialog_history_raw": "<USER> Hi there, how are you? I'm looking for movie recommendations. <SYSTEM> I am doing okay. What kind of movies do you like? <USER> I like animations like @84779 and @191602. I also enjoy @122159. Anything artistic. <SYSTEM> You might like @165710 that was a good movie. <USER> What's it about? <SYSTEM> It has Alec Baldwin it is about a baby that works for a company and gets adopted it is very funny. <USER> That seems like a nice comedy. Do you have any animated recommendations that are a bit more dramatic? Like @151313 for example. I like comedies but I prefer films with a little more depth. <SYSTEM> That is a tough one but I will remember something. @203371 was a good one.",
+                    "messageId": 1034,
+                    "timeOffset": 564,
+                    "senderWorkerId": 0
+                },
+                "original system side information": {
+                    "sys_utterance_raw": "It is animated, sci fi, and has action. Glad I could help.",
+                    "messageId": 1036,
+                    "timeOffset": 579,
+                    "senderWorkerId": 1
+                }
+            },
+            {
+                "turn id": 6,
+                "user utterance": "Nice. Take care, cheers!",
+                "system response": "bye.",
+                "dialog history": "<USER> Hi there, how are you? I'm looking for movie recommendations. <SYSTEM> I am doing okay. What kind of movies do you like? <USER> I like animations like The Triplets of Belleville (2003) and Waking Life (2001). I also enjoy Mary and Max (2009). Anything artistic. <SYSTEM> You might like The Boss Baby (2017) that was a good movie. <USER> What's it about? <SYSTEM> It has Alec Baldwin it is about a baby that works for a company and gets adopted it is very funny. <USER> That seems like a nice comedy. Do you have any animated recommendations that are a bit more dramatic? Like A Scanner Darkly  (2006) for example. I like comedies but I prefer films with a little more depth. <SYSTEM> That is a tough one but I will remember something. Final Fantasy: The Spirits Within (2001) was a good one. <USER> Ooh that seems cool! Thanks for the input. I'm ready to submit if you are. <SYSTEM> It is animated, sci fi, and has action. Glad I could help.",
+                "original user side information": {
+                    "user_utterance_raw": "Nice. Take care, cheers!",
+                    "dialog_history_raw": "<USER> Hi there, how are you? I'm looking for movie recommendations. <SYSTEM> I am doing okay. What kind of movies do you like? <USER> I like animations like @84779 and @191602. I also enjoy @122159. Anything artistic. <SYSTEM> You might like @165710 that was a good movie. <USER> What's it about? <SYSTEM> It has Alec Baldwin it is about a baby that works for a company and gets adopted it is very funny. <USER> That seems like a nice comedy. Do you have any animated recommendations that are a bit more dramatic? Like @151313 for example. I like comedies but I prefer films with a little more depth. <SYSTEM> That is a tough one but I will remember something. @203371 was a good one. <USER> Ooh that seems cool! Thanks for the input. I'm ready to submit if you are. <SYSTEM> It is animated, sci fi, and has action. Glad I could help.",
+                    "messageId": 1038,
+                    "timeOffset": 591,
+                    "senderWorkerId": 0
+                },
+                "original system side information": {
+                    "sys_utterance_raw": "bye.",
+                    "messageId": 1039,
+                    "timeOffset": 608,
+                    "senderWorkerId": 1
+                }
+            }
+        ]
+    },
+    "Redial--train--2": {
+        "original dialog id": "395",
+        "dialog index": 2,
+        "original dialog info": {
+            "movieMentions": {
+                "196336": "Scarface  (1983)",
+                "204322": "South Park",
+                "145455": "Twilight Zone: The Movie (1983)",
+                "114851": "The Godfather ",
+                "128905": "From Dusk till Dawn (1996)",
+                "143189": "Star Wars: Episode II \u2013 Attack of the Clones (2002)",
+                "152242": "Enemy of the State  (1998)",
+                "204292": "Star Wars"
+            },
+            "respondentQuestions": {
+                "196336": {
+                    "suggested": 0,
+                    "seen": 1,
+                    "liked": 1
+                },
+                "204322": {
+                    "suggested": 0,
+                    "seen": 1,
+                    "liked": 1
+                },
+                "145455": {
+                    "suggested": 1,
+                    "seen": 1,
+                    "liked": 0
+                },
+                "114851": {
+                    "suggested": 0,
+                    "seen": 1,
+                    "liked": 1
+                },
+                "128905": {
+                    "suggested": 1,
+                    "seen": 1,
+                    "liked": 1
+                },
+                "143189": {
+                    "suggested": 1,
+                    "seen": 1,
+                    "liked": 1
+                },
+                "152242": {
+                    "suggested": 1,
+                    "seen": 1,
+                    "liked": 1
+                },
+                "204292": {
+                    "suggested": 0,
+                    "seen": 1,
+                    "liked": 1
+                }
+            },
+            "conversationId": "395",
+            "respondentWorkerId": 1,
+            "initiatorWorkerId": 2,
+            "initiatorQuestions": []
+        },
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "Hi, did you see Scarface  (1983) ?",
+                "system response": "Yes it was a pretty good movie.",
+                "dialog history": "",
+                "original user side information": {
+                    "user_utterance_raw": "Hi, did you see @196336 ?",
+                    "dialog_history_raw": "",
+                    "messageId": 1040,
+                    "timeOffset": 0,
+                    "senderWorkerId": 2
+                },
+                "original system side information": {
+                    "sys_utterance_raw": "Yes it was a pretty good movie.",
+                    "messageId": 1041,
+                    "timeOffset": 19,
+                    "senderWorkerId": 1
+                }
+            },
+            {
+                "turn id": 2,
+                "user utterance": "Then you would like The Godfather  if you haven't seen it. You like Sci Fi stuff like Star Wars ?",
+                "system response": "I am more of a Star Wars: Episode II \u2013 Attack of the Clones (2002) kind of person.",
+                "dialog history": "<USER> Hi, did you see Scarface  (1983) ? <SYSTEM> Yes it was a pretty good movie.",
+                "original user side information": {
+                    "user_utterance_raw": "Then you would like @114851 if you haven't seen it. You like Sci Fi stuff like @204292 ?",
+                    "dialog_history_raw": "<USER> Hi, did you see @196336 ? <SYSTEM> Yes it was a pretty good movie.",
+                    "messageId": 1043,
+                    "timeOffset": 102,
+                    "senderWorkerId": 2
+                },
+                "original system side information": {
+                    "sys_utterance_raw": "I am more of a @143189 kind of person.",
+                    "messageId": 1044,
+                    "timeOffset": 113,
+                    "senderWorkerId": 1
+                }
+            },
+            {
+                "turn id": 3,
+                "user utterance": "Did you see any of the Star Wars parody movies? Star Wars: Episode II \u2013 Attack of the Clones (2002) was pretty funny?",
+                "system response": "I do not think I have seen that one. Who is in it?",
+                "dialog history": "<USER> Hi, did you see Scarface  (1983) ? <SYSTEM> Yes it was a pretty good movie. <USER> Then you would like The Godfather  if you haven't seen it. You like Sci Fi stuff like Star Wars ? <SYSTEM> I am more of a Star Wars: Episode II \u2013 Attack of the Clones (2002) kind of person.",
+                "original user side information": {
+                    "user_utterance_raw": "Did you see any of the Star Wars parody movies? @143189 was pretty funny?",
+                    "dialog_history_raw": "<USER> Hi, did you see @196336 ? <SYSTEM> Yes it was a pretty good movie. <USER> Then you would like @114851 if you haven't seen it. You like Sci Fi stuff like @204292 ? <SYSTEM> I am more of a @143189 kind of person.",
+                    "messageId": 1045,
+                    "timeOffset": 193,
+                    "senderWorkerId": 2
+                },
+                "original system side information": {
+                    "sys_utterance_raw": "I do not think I have seen that one. Who is in it?",
+                    "messageId": 1046,
+                    "timeOffset": 231,
+                    "senderWorkerId": 1
+                }
+            },
+            {
+                "turn id": 4,
+                "user utterance": "Have you seen any cartoon movies like South Park ?",
+                "system response": "Yes those are really funny. I think I will watch Star Wars: Episode II \u2013 Attack of the Clones (2002). Thanks for the recommendation.",
+                "dialog history": "<USER> Hi, did you see Scarface  (1983) ? <SYSTEM> Yes it was a pretty good movie. <USER> Then you would like The Godfather  if you haven't seen it. You like Sci Fi stuff like Star Wars ? <SYSTEM> I am more of a Star Wars: Episode II \u2013 Attack of the Clones (2002) kind of person. <USER> Did you see any of the Star Wars parody movies? Star Wars: Episode II \u2013 Attack of the Clones (2002) was pretty funny? <SYSTEM> I do not think I have seen that one. Who is in it?",
+                "original user side information": {
+                    "user_utterance_raw": "Have you seen any cartoon movies like @204322 ?",
+                    "dialog_history_raw": "<USER> Hi, did you see @196336 ? <SYSTEM> Yes it was a pretty good movie. <USER> Then you would like @114851 if you haven't seen it. You like Sci Fi stuff like @204292 ? <SYSTEM> I am more of a @143189 kind of person. <USER> Did you see any of the Star Wars parody movies? @143189 was pretty funny? <SYSTEM> I do not think I have seen that one. Who is in it?",
+                    "messageId": 1047,
+                    "timeOffset": 243,
+                    "senderWorkerId": 2
+                },
+                "original system side information": {
+                    "sys_utterance_raw": "Yes those are really funny. I think I will watch @143189. Thanks for the recommendation.",
+                    "messageId": 1049,
+                    "timeOffset": 290,
+                    "senderWorkerId": 1
+                }
+            },
+            {
+                "turn id": 5,
+                "user utterance": "Star Wars: Episode II \u2013 Attack of the Clones (2002) r Wars Clones is a claymation movie.",
+                "system response": "That sounds great.",
+                "dialog history": "<USER> Hi, did you see Scarface  (1983) ? <SYSTEM> Yes it was a pretty good movie. <USER> Then you would like The Godfather  if you haven't seen it. You like Sci Fi stuff like Star Wars ? <SYSTEM> I am more of a Star Wars: Episode II \u2013 Attack of the Clones (2002) kind of person. <USER> Did you see any of the Star Wars parody movies? Star Wars: Episode II \u2013 Attack of the Clones (2002) was pretty funny? <SYSTEM> I do not think I have seen that one. Who is in it? <USER> Have you seen any cartoon movies like South Park ? <SYSTEM> Yes those are really funny. I think I will watch Star Wars: Episode II \u2013 Attack of the Clones (2002). Thanks for the recommendation.",
+                "original user side information": {
+                    "user_utterance_raw": "@143189 r Wars Clones is a claymation movie.",
+                    "dialog_history_raw": "<USER> Hi, did you see @196336 ? <SYSTEM> Yes it was a pretty good movie. <USER> Then you would like @114851 if you haven't seen it. You like Sci Fi stuff like @204292 ? <SYSTEM> I am more of a @143189 kind of person. <USER> Did you see any of the Star Wars parody movies? @143189 was pretty funny? <SYSTEM> I do not think I have seen that one. Who is in it? <USER> Have you seen any cartoon movies like @204322 ? <SYSTEM> Yes those are really funny. I think I will watch @143189. Thanks for the recommendation.",
+                    "messageId": 1050,
+                    "timeOffset": 307,
+                    "senderWorkerId": 2
+                },
+                "original system side information": {
+                    "sys_utterance_raw": "That sounds great.",
+                    "messageId": 1051,
+                    "timeOffset": 326,
+                    "senderWorkerId": 1
+                }
+            },
+            {
+                "turn id": 6,
+                "user utterance": "It is. You like blood and gore movies? If so, you might like From Dusk till Dawn (1996) .",
+                "system response": "No I do not like that genre of movie. The star wars movie is perfect for me.",
+                "dialog history": "<USER> Hi, did you see Scarface  (1983) ? <SYSTEM> Yes it was a pretty good movie. <USER> Then you would like The Godfather  if you haven't seen it. You like Sci Fi stuff like Star Wars ? <SYSTEM> I am more of a Star Wars: Episode II \u2013 Attack of the Clones (2002) kind of person. <USER> Did you see any of the Star Wars parody movies? Star Wars: Episode II \u2013 Attack of the Clones (2002) was pretty funny? <SYSTEM> I do not think I have seen that one. Who is in it? <USER> Have you seen any cartoon movies like South Park ? <SYSTEM> Yes those are really funny. I think I will watch Star Wars: Episode II \u2013 Attack of the Clones (2002). Thanks for the recommendation. <USER> Star Wars: Episode II \u2013 Attack of the Clones (2002) r Wars Clones is a claymation movie. <SYSTEM> That sounds great.",
+                "original user side information": {
+                    "user_utterance_raw": "It is. You like blood and gore movies? If so, you might like @128905 .",
+                    "dialog_history_raw": "<USER> Hi, did you see @196336 ? <SYSTEM> Yes it was a pretty good movie. <USER> Then you would like @114851 if you haven't seen it. You like Sci Fi stuff like @204292 ? <SYSTEM> I am more of a @143189 kind of person. <USER> Did you see any of the Star Wars parody movies? @143189 was pretty funny? <SYSTEM> I do not think I have seen that one. Who is in it? <USER> Have you seen any cartoon movies like @204322 ? <SYSTEM> Yes those are really funny. I think I will watch @143189. Thanks for the recommendation. <USER> @143189 r Wars Clones is a claymation movie. <SYSTEM> That sounds great.",
+                    "messageId": 1052,
+                    "timeOffset": 379,
+                    "senderWorkerId": 2
+                },
+                "original system side information": {
+                    "sys_utterance_raw": "No I do not like that genre of movie. The star wars movie is perfect for me.",
+                    "messageId": 1053,
+                    "timeOffset": 418,
+                    "senderWorkerId": 1
+                }
+            },
+            {
+                "turn id": 7,
+                "user utterance": "You not a Twilight Zone: The Movie (1983) fan are you? Those films creep me out.",
+                "system response": "I found the movie I would like to watch. Thanks for all the help.",
+                "dialog history": "<USER> Hi, did you see Scarface  (1983) ? <SYSTEM> Yes it was a pretty good movie. <USER> Then you would like The Godfather  if you haven't seen it. You like Sci Fi stuff like Star Wars ? <SYSTEM> I am more of a Star Wars: Episode II \u2013 Attack of the Clones (2002) kind of person. <USER> Did you see any of the Star Wars parody movies? Star Wars: Episode II \u2013 Attack of the Clones (2002) was pretty funny? <SYSTEM> I do not think I have seen that one. Who is in it? <USER> Have you seen any cartoon movies like South Park ? <SYSTEM> Yes those are really funny. I think I will watch Star Wars: Episode II \u2013 Attack of the Clones (2002). Thanks for the recommendation. <USER> Star Wars: Episode II \u2013 Attack of the Clones (2002) r Wars Clones is a claymation movie. <SYSTEM> That sounds great. <USER> It is. You like blood and gore movies? If so, you might like From Dusk till Dawn (1996) . <SYSTEM> No I do not like that genre of movie. The star wars movie is perfect for me.",
+                "original user side information": {
+                    "user_utterance_raw": "You not a @145455 fan are you? Those films creep me out.",
+                    "dialog_history_raw": "<USER> Hi, did you see @196336 ? <SYSTEM> Yes it was a pretty good movie. <USER> Then you would like @114851 if you haven't seen it. You like Sci Fi stuff like @204292 ? <SYSTEM> I am more of a @143189 kind of person. <USER> Did you see any of the Star Wars parody movies? @143189 was pretty funny? <SYSTEM> I do not think I have seen that one. Who is in it? <USER> Have you seen any cartoon movies like @204322 ? <SYSTEM> Yes those are really funny. I think I will watch @143189. Thanks for the recommendation. <USER> @143189 r Wars Clones is a claymation movie. <SYSTEM> That sounds great. <USER> It is. You like blood and gore movies? If so, you might like @128905 . <SYSTEM> No I do not like that genre of movie. The star wars movie is perfect for me.",
+                    "messageId": 1054,
+                    "timeOffset": 462,
+                    "senderWorkerId": 2
+                },
+                "original system side information": {
+                    "sys_utterance_raw": "I found the movie I would like to watch. Thanks for all the help.",
+                    "messageId": 1055,
+                    "timeOffset": 521,
+                    "senderWorkerId": 1
+                }
+            },
+            {
+                "turn id": 8,
+                "user utterance": "Oh okay. Enemy of the State  (1998) was a good tech film if you're into that genre. How do we submit?",
+                "system response": "click the hide/show movie forms and fill the movie questions rows then it will let you submit. I hope you have a great night. bye.",
+                "dialog history": "<USER> Hi, did you see Scarface  (1983) ? <SYSTEM> Yes it was a pretty good movie. <USER> Then you would like The Godfather  if you haven't seen it. You like Sci Fi stuff like Star Wars ? <SYSTEM> I am more of a Star Wars: Episode II \u2013 Attack of the Clones (2002) kind of person. <USER> Did you see any of the Star Wars parody movies? Star Wars: Episode II \u2013 Attack of the Clones (2002) was pretty funny? <SYSTEM> I do not think I have seen that one. Who is in it? <USER> Have you seen any cartoon movies like South Park ? <SYSTEM> Yes those are really funny. I think I will watch Star Wars: Episode II \u2013 Attack of the Clones (2002). Thanks for the recommendation. <USER> Star Wars: Episode II \u2013 Attack of the Clones (2002) r Wars Clones is a claymation movie. <SYSTEM> That sounds great. <USER> It is. You like blood and gore movies? If so, you might like From Dusk till Dawn (1996) . <SYSTEM> No I do not like that genre of movie. The star wars movie is perfect for me. <USER> You not a Twilight Zone: The Movie (1983) fan are you? Those films creep me out. <SYSTEM> I found the movie I would like to watch. Thanks for all the help.",
+                "original user side information": {
+                    "user_utterance_raw": "Oh okay. @152242 was a good tech film if you're into that genre. How do we submit?",
+                    "dialog_history_raw": "<USER> Hi, did you see @196336 ? <SYSTEM> Yes it was a pretty good movie. <USER> Then you would like @114851 if you haven't seen it. You like Sci Fi stuff like @204292 ? <SYSTEM> I am more of a @143189 kind of person. <USER> Did you see any of the Star Wars parody movies? @143189 was pretty funny? <SYSTEM> I do not think I have seen that one. Who is in it? <USER> Have you seen any cartoon movies like @204322 ? <SYSTEM> Yes those are really funny. I think I will watch @143189. Thanks for the recommendation. <USER> @143189 r Wars Clones is a claymation movie. <SYSTEM> That sounds great. <USER> It is. You like blood and gore movies? If so, you might like @128905 . <SYSTEM> No I do not like that genre of movie. The star wars movie is perfect for me. <USER> You not a @145455 fan are you? Those films creep me out. <SYSTEM> I found the movie I would like to watch. Thanks for all the help.",
+                    "messageId": 1057,
+                    "timeOffset": 570,
+                    "senderWorkerId": 2
+                },
+                "original system side information": {
+                    "sys_utterance_raw": "click the hide/show movie forms and fill the movie questions rows then it will let you submit. I hope you have a great night. bye.",
+                    "messageId": 1059,
+                    "timeOffset": 623,
+                    "senderWorkerId": 1
+                }
+            },
+            {
+                "turn id": 9,
+                "user utterance": "Thanks.",
+                "system response": "",
+                "dialog history": "<USER> Hi, did you see Scarface  (1983) ? <SYSTEM> Yes it was a pretty good movie. <USER> Then you would like The Godfather  if you haven't seen it. You like Sci Fi stuff like Star Wars ? <SYSTEM> I am more of a Star Wars: Episode II \u2013 Attack of the Clones (2002) kind of person. <USER> Did you see any of the Star Wars parody movies? Star Wars: Episode II \u2013 Attack of the Clones (2002) was pretty funny? <SYSTEM> I do not think I have seen that one. Who is in it? <USER> Have you seen any cartoon movies like South Park ? <SYSTEM> Yes those are really funny. I think I will watch Star Wars: Episode II \u2013 Attack of the Clones (2002). Thanks for the recommendation. <USER> Star Wars: Episode II \u2013 Attack of the Clones (2002) r Wars Clones is a claymation movie. <SYSTEM> That sounds great. <USER> It is. You like blood and gore movies? If so, you might like From Dusk till Dawn (1996) . <SYSTEM> No I do not like that genre of movie. The star wars movie is perfect for me. <USER> You not a Twilight Zone: The Movie (1983) fan are you? Those films creep me out. <SYSTEM> I found the movie I would like to watch. Thanks for all the help. <USER> Oh okay. Enemy of the State  (1998) was a good tech film if you're into that genre. How do we submit? <SYSTEM> click the hide/show movie forms and fill the movie questions rows then it will let you submit. I hope you have a great night. bye.",
+                "original user side information": {
+                    "user_utterance_raw": "Thanks.",
+                    "dialog_history_raw": "<USER> Hi, did you see @196336 ? <SYSTEM> Yes it was a pretty good movie. <USER> Then you would like @114851 if you haven't seen it. You like Sci Fi stuff like @204292 ? <SYSTEM> I am more of a @143189 kind of person. <USER> Did you see any of the Star Wars parody movies? @143189 was pretty funny? <SYSTEM> I do not think I have seen that one. Who is in it? <USER> Have you seen any cartoon movies like @204322 ? <SYSTEM> Yes those are really funny. I think I will watch @143189. Thanks for the recommendation. <USER> @143189 r Wars Clones is a claymation movie. <SYSTEM> That sounds great. <USER> It is. You like blood and gore movies? If so, you might like @128905 . <SYSTEM> No I do not like that genre of movie. The star wars movie is perfect for me. <USER> You not a @145455 fan are you? Those films creep me out. <SYSTEM> I found the movie I would like to watch. Thanks for all the help. <USER> Oh okay. @152242 was a good tech film if you're into that genre. How do we submit? <SYSTEM> click the hide/show movie forms and fill the movie questions rows then it will let you submit. I hope you have a great night. bye.",
+                    "messageId": 1060,
+                    "timeOffset": 628,
+                    "senderWorkerId": 2
+                },
+                "original system side information": {
+                    "sys_utterance_raw": "",
+                    "messageId": 1059,
+                    "timeOffset": 623,
+                    "senderWorkerId": 1
+                }
+            }
+        ]
+    },
+    "Redial--train--3": {
+        "original dialog id": "397",
+        "dialog index": 3,
+        "original dialog info": {
+            "movieMentions": {
+                "79320": "Contact  (2009)",
+                "84001": "Donnie Darko (2001)",
+                "155969": "The Martian  (2015)",
+                "90950": "Avatar  (2009)",
+                "163606": "Avatar ",
+                "147598": "Indiana Jones and the Kingdom of the Crystal Skull (2008)",
+                "204292": "Star Wars"
+            },
+            "respondentQuestions": {
+                "79320": {
+                    "suggested": 0,
+                    "seen": 1,
+                    "liked": 1
+                },
+                "84001": {
+                    "suggested": 1,
+                    "seen": 1,
+                    "liked": 1
+                },
+                "155969": {
+                    "suggested": 1,
+                    "seen": 1,
+                    "liked": 1
+                },
+                "90950": {
+                    "suggested": 0,
+                    "seen": 1,
+                    "liked": 1
+                },
+                "163606": {
+                    "suggested": 0,
+                    "seen": 1,
+                    "liked": 1
+                },
+                "147598": {
+                    "suggested": 0,
+                    "seen": 0,
+                    "liked": 1
+                },
+                "204292": {
+                    "suggested": 0,
+                    "seen": 1,
+                    "liked": 1
+                }
+            },
+            "conversationId": "397",
+            "respondentWorkerId": 1,
+            "initiatorWorkerId": 3,
+            "initiatorQuestions": {
+                "79320": {
+                    "suggested": 0,
+                    "seen": 0,
+                    "liked": 1
+                },
+                "84001": {
+                    "suggested": 0,
+                    "seen": 0,
+                    "liked": 1
+                },
+                "155969": {
+                    "suggested": 0,
+                    "seen": 0,
+                    "liked": 1
+                },
+                "90950": {
+                    "suggested": 0,
+                    "seen": 0,
+                    "liked": 1
+                },
+                "163606": {
+                    "suggested": 0,
+                    "seen": 0,
+                    "liked": 0
+                },
+                "147598": {
+                    "suggested": 1,
+                    "seen": 1,
+                    "liked": 1
+                },
+                "204292": {
+                    "suggested": 1,
+                    "seen": 1,
+                    "liked": 1
+                }
+            }
+        },
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "Avatar  It is a nice movie. What say? Avatar  (2009) Was a marvelous 3D experience personally for me.",
+                "system response": "I really liked that movie but haven't seen it in a while. Are you a Michelle Rodriquez fan?",
+                "dialog history": "",
+                "original user side information": {
+                    "user_utterance_raw": "@163606 It is a nice movie. What say? @90950 Was a marvelous 3D experience personally for me.",
+                    "dialog_history_raw": "",
+                    "messageId": 1062,
+                    "timeOffset": 31,
+                    "senderWorkerId": 3
+                },
+                "original system side information": {
+                    "sys_utterance_raw": "I really liked that movie but haven't seen it in a while. Are you a Michelle Rodriquez fan?",
+                    "messageId": 1063,
+                    "timeOffset": 56,
+                    "senderWorkerId": 1
+                }
+            },
+            {
+                "turn id": 2,
+                "user utterance": "No. I am not. I like sci-fi movies. Have you watched The Martian  (2015). My another favorite sci-fi movies are Contact  (2009) and Donnie Darko (2001).",
+                "system response": "No I have not seen that one but have seen all the Star Wars movies. Do you like those.",
+                "dialog history": "<USER> Avatar  It is a nice movie. What say? Avatar  (2009) Was a marvelous 3D experience personally for me. <SYSTEM> I really liked that movie but haven't seen it in a while. Are you a Michelle Rodriquez fan?",
+                "original user side information": {
+                    "user_utterance_raw": "No. I am not. I like sci-fi movies. Have you watched @155969. My another favorite sci-fi movies are @79320 and @84001.",
+                    "dialog_history_raw": "<USER> @163606 It is a nice movie. What say? @90950 Was a marvelous 3D experience personally for me. <SYSTEM> I really liked that movie but haven't seen it in a while. Are you a Michelle Rodriquez fan?",
+                    "messageId": 1065,
+                    "timeOffset": 146,
+                    "senderWorkerId": 3
+                },
+                "original system side information": {
+                    "sys_utterance_raw": "No I have not seen that one but have seen all the @204292 movies. Do you like those.",
+                    "messageId": 1066,
+                    "timeOffset": 159,
+                    "senderWorkerId": 1
+                }
+            },
+            {
+                "turn id": 3,
+                "user utterance": "Yes, I love Star Wars series. In fact I am excited about the upcoming Star Wars. What are you favorite movies?",
+                "system response": "I am too I think you will like Indiana Jones and the Kingdom of the Crystal Skull (2008).",
+                "dialog history": "<USER> Avatar  It is a nice movie. What say? Avatar  (2009) Was a marvelous 3D experience personally for me. <SYSTEM> I really liked that movie but haven't seen it in a while. Are you a Michelle Rodriquez fan? <USER> No. I am not. I like sci-fi movies. Have you watched The Martian  (2015). My another favorite sci-fi movies are Contact  (2009) and Donnie Darko (2001). <SYSTEM> No I have not seen that one but have seen all the Star Wars movies. Do you like those.",
+                "original user side information": {
+                    "user_utterance_raw": "Yes, I love @204292 series. In fact I am excited about the upcoming @204292. What are you favorite movies?",
+                    "dialog_history_raw": "<USER> @163606 It is a nice movie. What say? @90950 Was a marvelous 3D experience personally for me. <SYSTEM> I really liked that movie but haven't seen it in a while. Are you a Michelle Rodriquez fan? <USER> No. I am not. I like sci-fi movies. Have you watched @155969. My another favorite sci-fi movies are @79320 and @84001. <SYSTEM> No I have not seen that one but have seen all the @204292 movies. Do you like those.",
+                    "messageId": 1069,
+                    "timeOffset": 231,
+                    "senderWorkerId": 3
+                },
+                "original system side information": {
+                    "sys_utterance_raw": "I am too I think you will like @147598.",
+                    "messageId": 1070,
+                    "timeOffset": 249,
+                    "senderWorkerId": 1
+                }
+            },
+            {
+                "turn id": 4,
+                "user utterance": "I have not seen Indiana Jones and the Kingdom of the Crystal Skull (2008). I will watch it soon.",
+                "system response": "It is a good movie if you like Star wars you should like it.",
+                "dialog history": "<USER> Avatar  It is a nice movie. What say? Avatar  (2009) Was a marvelous 3D experience personally for me. <SYSTEM> I really liked that movie but haven't seen it in a while. Are you a Michelle Rodriquez fan? <USER> No. I am not. I like sci-fi movies. Have you watched The Martian  (2015). My another favorite sci-fi movies are Contact  (2009) and Donnie Darko (2001). <SYSTEM> No I have not seen that one but have seen all the Star Wars movies. Do you like those. <USER> Yes, I love Star Wars series. In fact I am excited about the upcoming Star Wars. What are you favorite movies? <SYSTEM> I am too I think you will like Indiana Jones and the Kingdom of the Crystal Skull (2008).",
+                "original user side information": {
+                    "user_utterance_raw": "I have not seen @147598. I will watch it soon.",
+                    "dialog_history_raw": "<USER> @163606 It is a nice movie. What say? @90950 Was a marvelous 3D experience personally for me. <SYSTEM> I really liked that movie but haven't seen it in a while. Are you a Michelle Rodriquez fan? <USER> No. I am not. I like sci-fi movies. Have you watched @155969. My another favorite sci-fi movies are @79320 and @84001. <SYSTEM> No I have not seen that one but have seen all the @204292 movies. Do you like those. <USER> Yes, I love @204292 series. In fact I am excited about the upcoming @204292. What are you favorite movies? <SYSTEM> I am too I think you will like @147598.",
+                    "messageId": 1072,
+                    "timeOffset": 283,
+                    "senderWorkerId": 3
+                },
+                "original system side information": {
+                    "sys_utterance_raw": "It is a good movie if you like Star wars you should like it.",
+                    "messageId": 1073,
+                    "timeOffset": 312,
+                    "senderWorkerId": 1
+                }
+            },
+            {
+                "turn id": 5,
+                "user utterance": "Great. I will watch those. Now, let us submit this. Nice talking to you, have a nice day!",
+                "system response": "Thanks it was nice talking to you too bye.",
+                "dialog history": "<USER> Avatar  It is a nice movie. What say? Avatar  (2009) Was a marvelous 3D experience personally for me. <SYSTEM> I really liked that movie but haven't seen it in a while. Are you a Michelle Rodriquez fan? <USER> No. I am not. I like sci-fi movies. Have you watched The Martian  (2015). My another favorite sci-fi movies are Contact  (2009) and Donnie Darko (2001). <SYSTEM> No I have not seen that one but have seen all the Star Wars movies. Do you like those. <USER> Yes, I love Star Wars series. In fact I am excited about the upcoming Star Wars. What are you favorite movies? <SYSTEM> I am too I think you will like Indiana Jones and the Kingdom of the Crystal Skull (2008). <USER> I have not seen Indiana Jones and the Kingdom of the Crystal Skull (2008). I will watch it soon. <SYSTEM> It is a good movie if you like Star wars you should like it.",
+                "original user side information": {
+                    "user_utterance_raw": "Great. I will watch those. Now, let us submit this. Nice talking to you, have a nice day!",
+                    "dialog_history_raw": "<USER> @163606 It is a nice movie. What say? @90950 Was a marvelous 3D experience personally for me. <SYSTEM> I really liked that movie but haven't seen it in a while. Are you a Michelle Rodriquez fan? <USER> No. I am not. I like sci-fi movies. Have you watched @155969. My another favorite sci-fi movies are @79320 and @84001. <SYSTEM> No I have not seen that one but have seen all the @204292 movies. Do you like those. <USER> Yes, I love @204292 series. In fact I am excited about the upcoming @204292. What are you favorite movies? <SYSTEM> I am too I think you will like @147598. <USER> I have not seen @147598. I will watch it soon. <SYSTEM> It is a good movie if you like Star wars you should like it.",
+                    "messageId": 1074,
+                    "timeOffset": 344,
+                    "senderWorkerId": 3
+                },
+                "original system side information": {
+                    "sys_utterance_raw": "Thanks it was nice talking to you too bye.",
+                    "messageId": 1075,
+                    "timeOffset": 361,
+                    "senderWorkerId": 1
+                }
+            }
+        ]
+    },
+    "Redial--train--4": {
+        "original dialog id": "405",
+        "dialog index": 4,
+        "original dialog info": {
+            "movieMentions": {
+                "188302": "Ever After (1998)",
+                "195904": "Charlie's Angels ",
+                "91313": "Blended  (2014)",
+                "157394": "The Wedding Singer (1998)",
+                "115908": "50 First Dates (2004)"
+            },
+            "respondentQuestions": [],
+            "conversationId": "405",
+            "respondentWorkerId": 5,
+            "initiatorWorkerId": 4,
+            "initiatorQuestions": []
+        },
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "I'm in the mood to watch a romantic comedy.  What do you suggest?",
+                "system response": "50 First Dates (2004). Have you seen that one?",
+                "dialog history": "",
+                "original user side information": {
+                    "user_utterance_raw": "I'm in the mood to watch a romantic comedy.  What do you suggest?",
+                    "dialog_history_raw": "",
+                    "messageId": 1076,
+                    "timeOffset": 0,
+                    "senderWorkerId": 4
+                },
+                "original system side information": {
+                    "sys_utterance_raw": "@115908. Have you seen that one?",
+                    "messageId": 1078,
+                    "timeOffset": 36,
+                    "senderWorkerId": 5
+                }
+            },
+            {
+                "turn id": 2,
+                "user utterance": "Oh, I've seen that one.  I really like Drew Barrymore.",
+                "system response": "Yes she is good, I am looking for a super hero movie myself. Do you like The Wedding Singer (1998).",
+                "dialog history": "<USER> I'm in the mood to watch a romantic comedy.  What do you suggest? <SYSTEM> 50 First Dates (2004). Have you seen that one?",
+                "original user side information": {
+                    "user_utterance_raw": "Oh, I've seen that one.  I really like Drew Barrymore.",
+                    "dialog_history_raw": "<USER> I'm in the mood to watch a romantic comedy.  What do you suggest? <SYSTEM> @115908. Have you seen that one?",
+                    "messageId": 1079,
+                    "timeOffset": 91,
+                    "senderWorkerId": 4
+                },
+                "original system side information": {
+                    "sys_utterance_raw": "Yes she is good, I am looking for a super hero movie myself. Do you like @157394.",
+                    "messageId": 1081,
+                    "timeOffset": 169,
+                    "senderWorkerId": 5
+                }
+            },
+            {
+                "turn id": 3,
+                "user utterance": "Drew Barrymore was in Charlie's Angels .  Do you think that counts as a superhero movie?",
+                "system response": "Yeah, definitely. I liked that one.",
+                "dialog history": "<USER> I'm in the mood to watch a romantic comedy.  What do you suggest? <SYSTEM> 50 First Dates (2004). Have you seen that one? <USER> Oh, I've seen that one.  I really like Drew Barrymore. <SYSTEM> Yes she is good, I am looking for a super hero movie myself. Do you like The Wedding Singer (1998).",
+                "original user side information": {
+                    "user_utterance_raw": "Drew Barrymore was in @195904.  Do you think that counts as a superhero movie?",
+                    "dialog_history_raw": "<USER> I'm in the mood to watch a romantic comedy.  What do you suggest? <SYSTEM> @115908. Have you seen that one? <USER> Oh, I've seen that one.  I really like Drew Barrymore. <SYSTEM> Yes she is good, I am looking for a super hero movie myself. Do you like @157394.",
+                    "messageId": 1082,
+                    "timeOffset": 188,
+                    "senderWorkerId": 4
+                },
+                "original system side information": {
+                    "sys_utterance_raw": "Yeah, definitely. I liked that one.",
+                    "messageId": 1083,
+                    "timeOffset": 199,
+                    "senderWorkerId": 5
+                }
+            },
+            {
+                "turn id": 4,
+                "user utterance": "Oh, The Wedding Singer (1998) is a good one.  Sandler and Barrymore are great together.  I'm very excited to finally see Blended  (2014).",
+                "system response": "Oh I have heard good things about that film.",
+                "dialog history": "<USER> I'm in the mood to watch a romantic comedy.  What do you suggest? <SYSTEM> 50 First Dates (2004). Have you seen that one? <USER> Oh, I've seen that one.  I really like Drew Barrymore. <SYSTEM> Yes she is good, I am looking for a super hero movie myself. Do you like The Wedding Singer (1998). <USER> Drew Barrymore was in Charlie's Angels .  Do you think that counts as a superhero movie? <SYSTEM> Yeah, definitely. I liked that one.",
+                "original user side information": {
+                    "user_utterance_raw": "Oh, @157394 is a good one.  Sandler and Barrymore are great together.  I'm very excited to finally see @91313.",
+                    "dialog_history_raw": "<USER> I'm in the mood to watch a romantic comedy.  What do you suggest? <SYSTEM> @115908. Have you seen that one? <USER> Oh, I've seen that one.  I really like Drew Barrymore. <SYSTEM> Yes she is good, I am looking for a super hero movie myself. Do you like @157394. <USER> Drew Barrymore was in @195904.  Do you think that counts as a superhero movie? <SYSTEM> Yeah, definitely. I liked that one.",
+                    "messageId": 1084,
+                    "timeOffset": 300,
+                    "senderWorkerId": 4
+                },
+                "original system side information": {
+                    "sys_utterance_raw": "Oh I have heard good things about that film.",
+                    "messageId": 1085,
+                    "timeOffset": 320,
+                    "senderWorkerId": 5
+                }
+            },
+            {
+                "turn id": 5,
+                "user utterance": "I also liked Barrymore in Ever After (1998).",
+                "system response": "That is one film I should definitely check out.",
+                "dialog history": "<USER> I'm in the mood to watch a romantic comedy.  What do you suggest? <SYSTEM> 50 First Dates (2004). Have you seen that one? <USER> Oh, I've seen that one.  I really like Drew Barrymore. <SYSTEM> Yes she is good, I am looking for a super hero movie myself. Do you like The Wedding Singer (1998). <USER> Drew Barrymore was in Charlie's Angels .  Do you think that counts as a superhero movie? <SYSTEM> Yeah, definitely. I liked that one. <USER> Oh, The Wedding Singer (1998) is a good one.  Sandler and Barrymore are great together.  I'm very excited to finally see Blended  (2014). <SYSTEM> Oh I have heard good things about that film.",
+                "original user side information": {
+                    "user_utterance_raw": "I also liked Barrymore in @188302.",
+                    "dialog_history_raw": "<USER> I'm in the mood to watch a romantic comedy.  What do you suggest? <SYSTEM> @115908. Have you seen that one? <USER> Oh, I've seen that one.  I really like Drew Barrymore. <SYSTEM> Yes she is good, I am looking for a super hero movie myself. Do you like @157394. <USER> Drew Barrymore was in @195904.  Do you think that counts as a superhero movie? <SYSTEM> Yeah, definitely. I liked that one. <USER> Oh, @157394 is a good one.  Sandler and Barrymore are great together.  I'm very excited to finally see @91313. <SYSTEM> Oh I have heard good things about that film.",
+                    "messageId": 1086,
+                    "timeOffset": 358,
+                    "senderWorkerId": 4
+                },
+                "original system side information": {
+                    "sys_utterance_raw": "That is one film I should definitely check out.",
+                    "messageId": 1090,
+                    "timeOffset": 458,
+                    "senderWorkerId": 5
+                }
+            }
+        ]
+    },
+    "Redial--train--5": {
+        "original dialog id": "407",
+        "dialog index": 5,
+        "original dialog info": {
+            "movieMentions": {
+                "119144": "Wonder Woman  (2017)",
+                "125431": "Annabelle  (2014)",
+                "141788": "Fast & Furious  (2009)",
+                "204331": "Girls Trip (2017)",
+                "184418": "Get Out (2017)",
+                "136632": "Spider-Man: Homecoming (2017)"
+            },
+            "respondentQuestions": {
+                "119144": {
+                    "suggested": 0,
+                    "seen": 1,
+                    "liked": 1
+                },
+                "125431": {
+                    "suggested": 0,
+                    "seen": 1,
+                    "liked": 1
+                },
+                "141788": {
+                    "suggested": 1,
+                    "seen": 1,
+                    "liked": 1
+                },
+                "204331": {
+                    "suggested": 0,
+                    "seen": 1,
+                    "liked": 1
+                },
+                "184418": {
+                    "suggested": 1,
+                    "seen": 1,
+                    "liked": 1
+                },
+                "136632": {
+                    "suggested": 0,
+                    "seen": 0,
+                    "liked": 1
+                }
+            },
+            "conversationId": "407",
+            "respondentWorkerId": 6,
+            "initiatorWorkerId": 7,
+            "initiatorQuestions": {
+                "119144": {
+                    "suggested": 0,
+                    "seen": 1,
+                    "liked": 1
+                },
+                "125431": {
+                    "suggested": 1,
+                    "seen": 1,
+                    "liked": 1
+                },
+                "141788": {
+                    "suggested": 0,
+                    "seen": 1,
+                    "liked": 1
+                },
+                "204331": {
+                    "suggested": 1,
+                    "seen": 1,
+                    "liked": 1
+                },
+                "184418": {
+                    "suggested": 0,
+                    "seen": 1,
+                    "liked": 1
+                },
+                "136632": {
+                    "suggested": 0,
+                    "seen": 1,
+                    "liked": 1
+                }
+            }
+        },
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "",
+                "system response": "Hello.",
+                "dialog history": "",
+                "original user side information": {
+                    "user_utterance_raw": "",
+                    "dialog_history_raw": "",
+                    "messageId": 1086,
+                    "timeOffset": 358,
+                    "senderWorkerId": 4
+                },
+                "original system side information": {
+                    "sys_utterance_raw": "Hello.",
+                    "messageId": 1087,
+                    "timeOffset": 0,
+                    "senderWorkerId": 6
+                }
+            },
+            {
+                "turn id": 2,
+                "user utterance": "Hello. What movie would you suggest to watch.",
+                "system response": "Get Out (2017). Have you seen that movie before?",
+                "dialog history": "<SYSTEM> Hello.",
+                "original user side information": {
+                    "user_utterance_raw": "Hello. What movie would you suggest to watch.",
+                    "dialog_history_raw": "<SYSTEM> Hello.",
+                    "messageId": 1089,
+                    "timeOffset": 51,
+                    "senderWorkerId": 7
+                },
+                "original system side information": {
+                    "sys_utterance_raw": "@184418. Have you seen that movie before?",
+                    "messageId": 1092,
+                    "timeOffset": 171,
+                    "senderWorkerId": 6
+                }
+            },
+            {
+                "turn id": 3,
+                "user utterance": "I love that scary movies. I love Annabelle  (2014).",
+                "system response": "Yes I love Annabelle as well. That is a good movie.",
+                "dialog history": "<SYSTEM> Hello. <USER> Hello. What movie would you suggest to watch. <SYSTEM> Get Out (2017). Have you seen that movie before?",
+                "original user side information": {
+                    "user_utterance_raw": "I love that scary movies. I love @125431.",
+                    "dialog_history_raw": "<SYSTEM> Hello. <USER> Hello. What movie would you suggest to watch. <SYSTEM> @184418. Have you seen that movie before?",
+                    "messageId": 1093,
+                    "timeOffset": 171,
+                    "senderWorkerId": 7
+                },
+                "original system side information": {
+                    "sys_utterance_raw": "Yes I love Annabelle as well. That is a good movie.",
+                    "messageId": 1095,
+                    "timeOffset": 197,
+                    "senderWorkerId": 6
+                }
+            },
+            {
+                "turn id": 4,
+                "user utterance": "I never knew a doll could be so scary.",
+                "system response": "Me either. But I love scary movies. What other movies do you like to watch?",
+                "dialog history": "<SYSTEM> Hello. <USER> Hello. What movie would you suggest to watch. <SYSTEM> Get Out (2017). Have you seen that movie before? <USER> I love that scary movies. I love Annabelle  (2014). <SYSTEM> Yes I love Annabelle as well. That is a good movie.",
+                "original user side information": {
+                    "user_utterance_raw": "I never knew a doll could be so scary.",
+                    "dialog_history_raw": "<SYSTEM> Hello. <USER> Hello. What movie would you suggest to watch. <SYSTEM> @184418. Have you seen that movie before? <USER> I love that scary movies. I love @125431. <SYSTEM> Yes I love Annabelle as well. That is a good movie.",
+                    "messageId": 1096,
+                    "timeOffset": 206,
+                    "senderWorkerId": 7
+                },
+                "original system side information": {
+                    "sys_utterance_raw": "Me either. But I love scary movies. What other movies do you like to watch?",
+                    "messageId": 1098,
+                    "timeOffset": 237,
+                    "senderWorkerId": 6
+                }
+            },
+            {
+                "turn id": 5,
+                "user utterance": "Funny movies! LIke Girls Trip (2017). What about you.",
+                "system response": "Yes I love that movie. I never get tired of watching it. I like certain action movies li-03i25. I like certain action movies like Fast & Furious  (2009).",
+                "dialog history": "<SYSTEM> Hello. <USER> Hello. What movie would you suggest to watch. <SYSTEM> Get Out (2017). Have you seen that movie before? <USER> I love that scary movies. I love Annabelle  (2014). <SYSTEM> Yes I love Annabelle as well. That is a good movie. <USER> I never knew a doll could be so scary. <SYSTEM> Me either. But I love scary movies. What other movies do you like to watch?",
+                "original user side information": {
+                    "user_utterance_raw": "Funny movies! LIke @204331. What about you.",
+                    "dialog_history_raw": "<SYSTEM> Hello. <USER> Hello. What movie would you suggest to watch. <SYSTEM> @184418. Have you seen that movie before? <USER> I love that scary movies. I love @125431. <SYSTEM> Yes I love Annabelle as well. That is a good movie. <USER> I never knew a doll could be so scary. <SYSTEM> Me either. But I love scary movies. What other movies do you like to watch?",
+                    "messageId": 1100,
+                    "timeOffset": 319,
+                    "senderWorkerId": 7
+                },
+                "original system side information": {
+                    "sys_utterance_raw": "Yes I love that movie. I never get tired of watching it. I like certain action movies li-03i25. I like certain action movies like @141788.",
+                    "messageId": 1103,
+                    "timeOffset": 379,
+                    "senderWorkerId": 6
+                }
+            },
+            {
+                "turn id": 6,
+                "user utterance": "Me too! I love all those movies. I also like Wonder Woman  (2017).",
+                "system response": "Yes Wonder Woman  (2017) is a good movie too.",
+                "dialog history": "<SYSTEM> Hello. <USER> Hello. What movie would you suggest to watch. <SYSTEM> Get Out (2017). Have you seen that movie before? <USER> I love that scary movies. I love Annabelle  (2014). <SYSTEM> Yes I love Annabelle as well. That is a good movie. <USER> I never knew a doll could be so scary. <SYSTEM> Me either. But I love scary movies. What other movies do you like to watch? <USER> Funny movies! LIke Girls Trip (2017). What about you. <SYSTEM> Yes I love that movie. I never get tired of watching it. I like certain action movies li-03i25. I like certain action movies like Fast & Furious  (2009).",
+                "original user side information": {
+                    "user_utterance_raw": "Me too! I love all those movies. I also like @119144.",
+                    "dialog_history_raw": "<SYSTEM> Hello. <USER> Hello. What movie would you suggest to watch. <SYSTEM> @184418. Have you seen that movie before? <USER> I love that scary movies. I love @125431. <SYSTEM> Yes I love Annabelle as well. That is a good movie. <USER> I never knew a doll could be so scary. <SYSTEM> Me either. But I love scary movies. What other movies do you like to watch? <USER> Funny movies! LIke @204331. What about you. <SYSTEM> Yes I love that movie. I never get tired of watching it. I like certain action movies li-03i25. I like certain action movies like @141788.",
+                    "messageId": 1104,
+                    "timeOffset": 419,
+                    "senderWorkerId": 7
+                },
+                "original system side information": {
+                    "sys_utterance_raw": "Yes @119144 is a good movie too.",
+                    "messageId": 1105,
+                    "timeOffset": 447,
+                    "senderWorkerId": 6
+                }
+            },
+            {
+                "turn id": 7,
+                "user utterance": "And also Spider-Man: Homecoming (2017).",
+                "system response": "I haven't seen that movie yet.",
+                "dialog history": "<SYSTEM> Hello. <USER> Hello. What movie would you suggest to watch. <SYSTEM> Get Out (2017). Have you seen that movie before? <USER> I love that scary movies. I love Annabelle  (2014). <SYSTEM> Yes I love Annabelle as well. That is a good movie. <USER> I never knew a doll could be so scary. <SYSTEM> Me either. But I love scary movies. What other movies do you like to watch? <USER> Funny movies! LIke Girls Trip (2017). What about you. <SYSTEM> Yes I love that movie. I never get tired of watching it. I like certain action movies li-03i25. I like certain action movies like Fast & Furious  (2009). <USER> Me too! I love all those movies. I also like Wonder Woman  (2017). <SYSTEM> Yes Wonder Woman  (2017) is a good movie too.",
+                "original user side information": {
+                    "user_utterance_raw": "And also @136632.",
+                    "dialog_history_raw": "<SYSTEM> Hello. <USER> Hello. What movie would you suggest to watch. <SYSTEM> @184418. Have you seen that movie before? <USER> I love that scary movies. I love @125431. <SYSTEM> Yes I love Annabelle as well. That is a good movie. <USER> I never knew a doll could be so scary. <SYSTEM> Me either. But I love scary movies. What other movies do you like to watch? <USER> Funny movies! LIke @204331. What about you. <SYSTEM> Yes I love that movie. I never get tired of watching it. I like certain action movies li-03i25. I like certain action movies like @141788. <USER> Me too! I love all those movies. I also like @119144. <SYSTEM> Yes @119144 is a good movie too.",
+                    "messageId": 1106,
+                    "timeOffset": 486,
+                    "senderWorkerId": 7
+                },
+                "original system side information": {
+                    "sys_utterance_raw": "I haven't seen that movie yet.",
+                    "messageId": 1107,
+                    "timeOffset": 498,
+                    "senderWorkerId": 6
+                }
+            }
+        ]
+    }
+}

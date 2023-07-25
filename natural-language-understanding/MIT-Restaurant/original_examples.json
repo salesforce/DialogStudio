@@ -1,22 +1,7 @@
 [
-    {
-        "input": "2 start restaurants with inside dining",
-        "output": "B-Rating I-Rating O O B-Amenity I-Amenity"
-    },
-    {
-        "input": "34",
-        "output": "O"
-    },
-    {
-        "input": "5 star resturants in my town",
-        "output": "B-Rating I-Rating O B-Location I-Location I-Location"
-    },
-    {
-        "input": "98 hong kong restaurant reasonable prices",
-        "output": "O B-Restaurant_Name I-Restaurant_Name O B-Price O"
-    },
-    {
-        "input": "a great lunch spot but open till 2 a m passims kitchen",
-        "output": "O O O O O B-Hours I-Hours I-Hours I-Hours I-Hours B-Restaurant_Name I-Restaurant_Name"
-    }
+    "2 start restaurants with inside dining",
+    "34",
+    "5 star resturants in my town",
+    "98 hong kong restaurant reasonable prices",
+    "a great lunch spot but open till 2 a m passims kitchen"
 ]

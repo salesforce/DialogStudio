@@ -1,0 +1,299 @@
+{
+    "SAMSum--train--1": {
+        "original dialog id": "13818513",
+        "dialog index": 1,
+        "original dialog info": {
+            "summary": "Amanda baked cookies and will bring Jerry some tomorrow."
+        },
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "I baked cookies. Do you want some?",
+                "system response": "Sure!",
+                "dialog history": "",
+                "original user side information": {
+                    "speaker": "Amanda"
+                },
+                "original system side information": {
+                    "speaker": "Jerry"
+                }
+            }
+        ]
+    },
+    "SAMSum--train--2": {
+        "original dialog id": "13728867",
+        "dialog index": 2,
+        "original dialog info": {
+            "summary": "Olivia and Olivier are voting for liberals in this election. "
+        },
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "Who are you voting for in this election?",
+                "system response": "Liberals as always.",
+                "dialog history": "",
+                "original user side information": {
+                    "speaker": "Olivia"
+                },
+                "original system side information": {
+                    "speaker": "Oliver"
+                }
+            },
+            {
+                "turn id": 2,
+                "user utterance": "Me too!!",
+                "system response": "Great",
+                "dialog history": "<USER> Who are you voting for in this election? <SYSTEM> Liberals as always.",
+                "original user side information": {
+                    "speaker": "Olivia"
+                },
+                "original system side information": {
+                    "speaker": "Oliver"
+                }
+            }
+        ]
+    },
+    "SAMSum--train--3": {
+        "original dialog id": "13681000",
+        "dialog index": 3,
+        "original dialog info": {
+            "summary": "Kim may try the pomodoro technique recommended by Tim to get more stuff done."
+        },
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "Hi, what's up?",
+                "system response": "Bad mood tbh, I was going to do lots of stuff but ended up procrastinating",
+                "dialog history": "",
+                "original user side information": {
+                    "speaker": "Tim"
+                },
+                "original system side information": {
+                    "speaker": "Kim"
+                }
+            },
+            {
+                "turn id": 2,
+                "user utterance": "What did you plan on doing?",
+                "system response": "Oh you know, uni stuff and unfucking my room",
+                "dialog history": "<USER> Hi, what's up? <SYSTEM> Bad mood tbh, I was going to do lots of stuff but ended up procrastinating",
+                "original user side information": {
+                    "speaker": "Tim"
+                },
+                "original system side information": {
+                    "speaker": "Kim"
+                }
+            },
+            {
+                "turn id": 3,
+                "user utterance": "Maybe tomorrow I'll move my ass and do everything",
+                "system response": "We were going to defrost a fridge so instead of shopping I'll eat some defrosted veggies",
+                "dialog history": "<USER> Hi, what's up? <SYSTEM> Bad mood tbh, I was going to do lots of stuff but ended up procrastinating <USER> What did you plan on doing? <SYSTEM> Oh you know, uni stuff and unfucking my room",
+                "original user side information": {
+                    "speaker": "Kim"
+                },
+                "original system side information": {
+                    "speaker": "Kim"
+                }
+            },
+            {
+                "turn id": 4,
+                "user utterance": "For doing stuff I recommend Pomodoro technique where u use breaks for doing chores",
+                "system response": "It really helps",
+                "dialog history": "<USER> Hi, what's up? <SYSTEM> Bad mood tbh, I was going to do lots of stuff but ended up procrastinating <USER> What did you plan on doing? <SYSTEM> Oh you know, uni stuff and unfucking my room <USER> Maybe tomorrow I'll move my ass and do everything <SYSTEM> We were going to defrost a fridge so instead of shopping I'll eat some defrosted veggies",
+                "original user side information": {
+                    "speaker": "Tim"
+                },
+                "original system side information": {
+                    "speaker": "Tim"
+                }
+            },
+            {
+                "turn id": 5,
+                "user utterance": "thanks, maybe I'll do that",
+                "system response": "I also like using post-its in kaban style",
+                "dialog history": "<USER> Hi, what's up? <SYSTEM> Bad mood tbh, I was going to do lots of stuff but ended up procrastinating <USER> What did you plan on doing? <SYSTEM> Oh you know, uni stuff and unfucking my room <USER> Maybe tomorrow I'll move my ass and do everything <SYSTEM> We were going to defrost a fridge so instead of shopping I'll eat some defrosted veggies <USER> For doing stuff I recommend Pomodoro technique where u use breaks for doing chores <SYSTEM> It really helps",
+                "original user side information": {
+                    "speaker": "Kim"
+                },
+                "original system side information": {
+                    "speaker": "Tim"
+                }
+            }
+        ]
+    },
+    "SAMSum--train--4": {
+        "original dialog id": "13730747",
+        "dialog index": 4,
+        "original dialog info": {
+            "summary": "Edward thinks he is in love with Bella. Rachel wants Edward to open his door. Rachel is outside. "
+        },
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "Rachel, I think I'm in ove with Bella..",
+                "system response": "Dont say anything else..",
+                "dialog history": "",
+                "original user side information": {
+                    "speaker": "Edward"
+                },
+                "original system side information": {
+                    "speaker": "rachel"
+                }
+            },
+            {
+                "turn id": 2,
+                "user utterance": "What do you mean??",
+                "system response": "Open your fu**ing door.. I'm outside",
+                "dialog history": "<USER> Rachel, I think I'm in ove with Bella.. <SYSTEM> Dont say anything else..",
+                "original user side information": {
+                    "speaker": "Edward"
+                },
+                "original system side information": {
+                    "speaker": "rachel"
+                }
+            }
+        ]
+    },
+    "SAMSum--train--5": {
+        "original dialog id": "13728094",
+        "dialog index": 5,
+        "original dialog info": {
+            "summary": "Sam is confused, because he overheard Rick complaining about him as a roommate. Naomi thinks Sam should talk to Rick. Sam is not sure what to do."
+        },
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "hey overheard rick say something",
+                "system response": "i don't know what to do :-/",
+                "dialog history": "",
+                "original user side information": {
+                    "speaker": "Sam"
+                },
+                "original system side information": {
+                    "speaker": "Sam"
+                }
+            },
+            {
+                "turn id": 2,
+                "user utterance": "what did he say??",
+                "system response": "he was talking on the phone with someone",
+                "dialog history": "<USER> hey overheard rick say something <SYSTEM> i don't know what to do :-/",
+                "original user side information": {
+                    "speaker": "Naomi"
+                },
+                "original system side information": {
+                    "speaker": "Sam"
+                }
+            },
+            {
+                "turn id": 3,
+                "user utterance": "i don't know who",
+                "system response": "and he was telling them that he wasn't very happy here",
+                "dialog history": "<USER> hey overheard rick say something <SYSTEM> i don't know what to do :-/ <USER> what did he say?? <SYSTEM> he was talking on the phone with someone",
+                "original user side information": {
+                    "speaker": "Sam"
+                },
+                "original system side information": {
+                    "speaker": "Sam"
+                }
+            },
+            {
+                "turn id": 4,
+                "user utterance": "damn!!!",
+                "system response": "he was saying he doesn't like being my roommate",
+                "dialog history": "<USER> hey overheard rick say something <SYSTEM> i don't know what to do :-/ <USER> what did he say?? <SYSTEM> he was talking on the phone with someone <USER> i don't know who <SYSTEM> and he was telling them that he wasn't very happy here",
+                "original user side information": {
+                    "speaker": "Naomi"
+                },
+                "original system side information": {
+                    "speaker": "Sam"
+                }
+            },
+            {
+                "turn id": 5,
+                "user utterance": "wow, how do you feel about it?",
+                "system response": "i thought i was a good rommate",
+                "dialog history": "<USER> hey overheard rick say something <SYSTEM> i don't know what to do :-/ <USER> what did he say?? <SYSTEM> he was talking on the phone with someone <USER> i don't know who <SYSTEM> and he was telling them that he wasn't very happy here <USER> damn!!! <SYSTEM> he was saying he doesn't like being my roommate",
+                "original user side information": {
+                    "speaker": "Naomi"
+                },
+                "original system side information": {
+                    "speaker": "Sam"
+                }
+            },
+            {
+                "turn id": 6,
+                "user utterance": "and that we have a nice place",
+                "system response": "that's true man!!!",
+                "dialog history": "<USER> hey overheard rick say something <SYSTEM> i don't know what to do :-/ <USER> what did he say?? <SYSTEM> he was talking on the phone with someone <USER> i don't know who <SYSTEM> and he was telling them that he wasn't very happy here <USER> damn!!! <SYSTEM> he was saying he doesn't like being my roommate <USER> wow, how do you feel about it? <SYSTEM> i thought i was a good rommate",
+                "original user side information": {
+                    "speaker": "Sam"
+                },
+                "original system side information": {
+                    "speaker": "Naomi"
+                }
+            },
+            {
+                "turn id": 7,
+                "user utterance": "i used to love living with you before i moved in with me boyfriend",
+                "system response": "i don't know why he's saying that",
+                "dialog history": "<USER> hey overheard rick say something <SYSTEM> i don't know what to do :-/ <USER> what did he say?? <SYSTEM> he was talking on the phone with someone <USER> i don't know who <SYSTEM> and he was telling them that he wasn't very happy here <USER> damn!!! <SYSTEM> he was saying he doesn't like being my roommate <USER> wow, how do you feel about it? <SYSTEM> i thought i was a good rommate <USER> and that we have a nice place <SYSTEM> that's true man!!!",
+                "original user side information": {
+                    "speaker": "Naomi"
+                },
+                "original system side information": {
+                    "speaker": "Naomi"
+                }
+            },
+            {
+                "turn id": 8,
+                "user utterance": "what should i do???",
+                "system response": "honestly if it's bothering you that much you should talk to him",
+                "dialog history": "<USER> hey overheard rick say something <SYSTEM> i don't know what to do :-/ <USER> what did he say?? <SYSTEM> he was talking on the phone with someone <USER> i don't know who <SYSTEM> and he was telling them that he wasn't very happy here <USER> damn!!! <SYSTEM> he was saying he doesn't like being my roommate <USER> wow, how do you feel about it? <SYSTEM> i thought i was a good rommate <USER> and that we have a nice place <SYSTEM> that's true man!!! <USER> i used to love living with you before i moved in with me boyfriend <SYSTEM> i don't know why he's saying that",
+                "original user side information": {
+                    "speaker": "Sam"
+                },
+                "original system side information": {
+                    "speaker": "Naomi"
+                }
+            },
+            {
+                "turn id": 9,
+                "user utterance": "see what's going on",
+                "system response": "i don't want to get in any kind of confrontation though",
+                "dialog history": "<USER> hey overheard rick say something <SYSTEM> i don't know what to do :-/ <USER> what did he say?? <SYSTEM> he was talking on the phone with someone <USER> i don't know who <SYSTEM> and he was telling them that he wasn't very happy here <USER> damn!!! <SYSTEM> he was saying he doesn't like being my roommate <USER> wow, how do you feel about it? <SYSTEM> i thought i was a good rommate <USER> and that we have a nice place <SYSTEM> that's true man!!! <USER> i used to love living with you before i moved in with me boyfriend <SYSTEM> i don't know why he's saying that <USER> what should i do??? <SYSTEM> honestly if it's bothering you that much you should talk to him",
+                "original user side information": {
+                    "speaker": "Naomi"
+                },
+                "original system side information": {
+                    "speaker": "Sam"
+                }
+            },
+            {
+                "turn id": 10,
+                "user utterance": "maybe i'll just let it go",
+                "system response": "and see how it goes in the future",
+                "dialog history": "<USER> hey overheard rick say something <SYSTEM> i don't know what to do :-/ <USER> what did he say?? <SYSTEM> he was talking on the phone with someone <USER> i don't know who <SYSTEM> and he was telling them that he wasn't very happy here <USER> damn!!! <SYSTEM> he was saying he doesn't like being my roommate <USER> wow, how do you feel about it? <SYSTEM> i thought i was a good rommate <USER> and that we have a nice place <SYSTEM> that's true man!!! <USER> i used to love living with you before i moved in with me boyfriend <SYSTEM> i don't know why he's saying that <USER> what should i do??? <SYSTEM> honestly if it's bothering you that much you should talk to him <USER> see what's going on <SYSTEM> i don't want to get in any kind of confrontation though",
+                "original user side information": {
+                    "speaker": "Sam"
+                },
+                "original system side information": {
+                    "speaker": "Sam"
+                }
+            },
+            {
+                "turn id": 11,
+                "user utterance": "it's your choice sam",
+                "system response": "if i were you i would just talk to him and clear the air",
+                "dialog history": "<USER> hey overheard rick say something <SYSTEM> i don't know what to do :-/ <USER> what did he say?? <SYSTEM> he was talking on the phone with someone <USER> i don't know who <SYSTEM> and he was telling them that he wasn't very happy here <USER> damn!!! <SYSTEM> he was saying he doesn't like being my roommate <USER> wow, how do you feel about it? <SYSTEM> i thought i was a good rommate <USER> and that we have a nice place <SYSTEM> that's true man!!! <USER> i used to love living with you before i moved in with me boyfriend <SYSTEM> i don't know why he's saying that <USER> what should i do??? <SYSTEM> honestly if it's bothering you that much you should talk to him <USER> see what's going on <SYSTEM> i don't want to get in any kind of confrontation though <USER> maybe i'll just let it go <SYSTEM> and see how it goes in the future",
+                "original user side information": {
+                    "speaker": "Naomi"
+                },
+                "original system side information": {
+                    "speaker": "Naomi"
+                }
+            }
+        ]
+    }
+}

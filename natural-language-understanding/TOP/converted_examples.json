@@ -1,0 +1,92 @@
+{
+    "TOP--train--1": {
+        "original dialog id": "",
+        "dialog index": 1,
+        "original dialog info": {},
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "How long will it take to drive from Chicago to Mississippi",
+                "system response": "",
+                "dialog history": "",
+                "original user side information": {
+                    "intent": "IN_GET_ESTIMATED_DURATION",
+                    "BOI format": "O O O O O O B-SL_METHOD_TRAVEL O B-SL_SOURCE O B-SL_DESTINATION"
+                },
+                "original system side information": {}
+            }
+        ]
+    },
+    "TOP--train--2": {
+        "original dialog id": "",
+        "dialog index": 2,
+        "original dialog info": {},
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "Will it take shorter to get to the White House by bus or taxi ?",
+                "system response": "",
+                "dialog history": "",
+                "original user side information": {
+                    "intent": "IN_UNSUPPORTED_NAVIGATION",
+                    "BOI format": "O O O O O O O O O O O O O O O"
+                },
+                "original system side information": {}
+            }
+        ]
+    },
+    "TOP--train--3": {
+        "original dialog id": "",
+        "dialog index": 3,
+        "original dialog info": {},
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "will I make it to the beach by noon if I leave now",
+                "system response": "",
+                "dialog history": "",
+                "original user side information": {
+                    "intent": "IN_GET_ESTIMATED_ARRIVAL",
+                    "BOI format": "O O O O O B-SL_DESTINATION_IN_GET_LOCATION_SL_CATEGORY_LOCATION I-SL_DESTINATION_IN_GET_LOCATION_SL_CATEGORY_LOCATION B-SL_DATE_TIME_ARRIVAL I-SL_DATE_TIME_ARRIVAL O O O B-SL_DATE_TIME_DEPARTURE"
+                },
+                "original system side information": {}
+            }
+        ]
+    },
+    "TOP--train--4": {
+        "original dialog id": "",
+        "dialog index": 4,
+        "original dialog info": {},
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "When should I leave my house to get to the Hamilton Mall right when it opens on Saturday",
+                "system response": "",
+                "dialog history": "",
+                "original user side information": {
+                    "intent": "IN_GET_ESTIMATED_DEPARTURE",
+                    "BOI format": "O O O O B-SL_SOURCE_IN_GET_LOCATION_HOME_SL_CONTACT I-SL_SOURCE_IN_GET_LOCATION_HOME O O O B-SL_DESTINATION_IN_GET_LOCATION_SL_POINT_ON_MAP I-SL_DESTINATION_IN_GET_LOCATION_SL_POINT_ON_MAP I-SL_DESTINATION_IN_GET_LOCATION_SL_POINT_ON_MAP B-SL_DATE_TIME_ARRIVAL I-SL_DATE_TIME_ARRIVAL I-SL_DATE_TIME_ARRIVAL I-SL_DATE_TIME_ARRIVAL I-SL_DATE_TIME_ARRIVAL I-SL_DATE_TIME_ARRIVAL"
+                },
+                "original system side information": {}
+            }
+        ]
+    },
+    "TOP--train--5": {
+        "original dialog id": "",
+        "dialog index": 5,
+        "original dialog info": {},
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "I need to know if there 's a lot of traffic on my way home",
+                "system response": "",
+                "dialog history": "",
+                "original user side information": {
+                    "intent": "IN_GET_INFO_TRAFFIC",
+                    "BOI format": "O O O O O O O O O O O O O O B-SL_DESTINATION_IN_GET_LOCATION_HOME"
+                },
+                "original system side information": {}
+            }
+        ]
+    }
+}

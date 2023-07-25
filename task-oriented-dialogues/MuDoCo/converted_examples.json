@@ -2,7 +2,10 @@
     "MuDoCo--train--1": {
         "original dialog id": "00159588-ac08-18ff-faef-eb21017affa3",
         "dialog index": 1,
-        "original dialog info": {},
+        "original dialog info": {
+            "split": "train",
+            "domain": "calling"
+        },
         "log": [
             {
                 "turn id": 1,
@@ -157,13 +160,29 @@
                             }
                         ]
                     ]
-                }
+                },
+                "dst": "",
+                "dst accumulated": ""
+            },
+            {
+                "turn id": 2,
+                "user utterance": "For how long ?",
+                "system response": "",
+                "dialog history": " <USR> I don't want to talk on the phone for awhile . <SYS> So should I decline all your calls ?",
+                "original user side information": {
+                    "name_entities": {},
+                    "references": {},
+                    "links": []
+                },
+                "original system side information": {},
+                "dst": "",
+                "dst accumulated": ""
             },
             {
                 "turn id": 2,
                 "user utterance": "For how long ?",
                 "system response": "Got it , no calls will be put through .",
-                "dialog history": "<USER> I don't want to talk on the phone for awhile . <SYSTEM> So should I decline all your calls ?",
+                "dialog history": " <USR> I don't want to talk on the phone for awhile . <SYS> So should I decline all your calls ?",
                 "original user side information": {
                     "name_entities": {},
                     "references": {},
@@ -173,14 +192,28 @@
                     "name_entities": {},
                     "references": {},
                     "links": []
-                }
+                },
+                "dst": "",
+                "dst accumulated": ""
             }
-        ]
+        ],
+        "external knowledge non-flat": {
+            "metadata": {},
+            "slots and values": {},
+            "intents": {}
+        },
+        "external knowledge": "",
+        "dst knowledge": "",
+        "intent knowledge": "",
+        "prompt": []
     },
     "MuDoCo--train--2": {
         "original dialog id": "003c9ab8-408f-909d-49b5-2160768a7a24",
         "dialog index": 2,
-        "original dialog info": {},
+        "original dialog info": {
+            "split": "train",
+            "domain": "calling"
+        },
         "log": [
             {
                 "turn id": 1,
@@ -237,14 +270,28 @@
                     "name_entities": {},
                     "references": {},
                     "links": []
-                }
+                },
+                "dst": "",
+                "dst accumulated": ""
             }
-        ]
+        ],
+        "external knowledge non-flat": {
+            "metadata": {},
+            "slots and values": {},
+            "intents": {}
+        },
+        "external knowledge": "",
+        "dst knowledge": "",
+        "intent knowledge": "",
+        "prompt": []
     },
     "MuDoCo--train--3": {
         "original dialog id": "006f86ef-6da7-0258-2037-1ca621523d9b",
         "dialog index": 3,
-        "original dialog info": {},
+        "original dialog info": {
+            "split": "train",
+            "domain": "calling"
+        },
         "log": [
             {
                 "turn id": 1,
@@ -271,13 +318,130 @@
                     },
                     "references": {},
                     "links": []
-                }
+                },
+                "dst": "",
+                "dst accumulated": ""
+            },
+            {
+                "turn id": 2,
+                "user utterance": "Decline and message him that I will call him back after 2 pm",
+                "system response": "",
+                "dialog history": " <USR> Who is calling <SYS> This is from Mr Valetta",
+                "original user side information": {
+                    "name_entities": {
+                        "person": [
+                            {
+                                "turn_id": 3,
+                                "span": {
+                                    "start": 20,
+                                    "end": 23
+                                },
+                                "text": "him"
+                            },
+                            {
+                                "turn_id": 3,
+                                "span": {
+                                    "start": 29,
+                                    "end": 30
+                                },
+                                "text": "I"
+                            },
+                            {
+                                "turn_id": 3,
+                                "span": {
+                                    "start": 41,
+                                    "end": 44
+                                },
+                                "text": "him"
+                            }
+                        ],
+                        "time": [
+                            {
+                                "turn_id": 3,
+                                "span": {
+                                    "start": 50,
+                                    "end": 60
+                                },
+                                "text": "after 2 pm"
+                            }
+                        ]
+                    },
+                    "references": {
+                        "personal_pronoun": [
+                            {
+                                "turn_id": 3,
+                                "span": {
+                                    "start": 20,
+                                    "end": 23
+                                },
+                                "text": "him"
+                            },
+                            {
+                                "turn_id": 3,
+                                "span": {
+                                    "start": 29,
+                                    "end": 30
+                                },
+                                "text": "I"
+                            },
+                            {
+                                "turn_id": 3,
+                                "span": {
+                                    "start": 41,
+                                    "end": 44
+                                },
+                                "text": "him"
+                            }
+                        ]
+                    },
+                    "links": [
+                        [
+                            {
+                                "turn_id": 2,
+                                "text": "Mr Valetta",
+                                "span": {
+                                    "start": 13,
+                                    "end": 23
+                                }
+                            },
+                            {
+                                "turn_id": 3,
+                                "text": "him",
+                                "span": {
+                                    "start": 20,
+                                    "end": 23
+                                }
+                            }
+                        ],
+                        [
+                            {
+                                "turn_id": 2,
+                                "text": "Mr Valetta",
+                                "span": {
+                                    "start": 13,
+                                    "end": 23
+                                }
+                            },
+                            {
+                                "turn_id": 3,
+                                "text": "him",
+                                "span": {
+                                    "start": 41,
+                                    "end": 44
+                                }
+                            }
+                        ]
+                    ]
+                },
+                "original system side information": {},
+                "dst": "",
+                "dst accumulated": ""
             },
             {
                 "turn id": 2,
                 "user utterance": "Decline and message him that I will call him back after 2 pm",
                 "system response": "I sent him the message",
-                "dialog history": "<USER> Who is calling <SYSTEM> This is from Mr Valetta",
+                "dialog history": " <USR> Who is calling <SYS> This is from Mr Valetta",
                 "original user side information": {
                     "name_entities": {
                         "person": [
@@ -475,14 +639,28 @@
                             }
                         ]
                     ]
-                }
+                },
+                "dst": "",
+                "dst accumulated": ""
             }
-        ]
+        ],
+        "external knowledge non-flat": {
+            "metadata": {},
+            "slots and values": {},
+            "intents": {}
+        },
+        "external knowledge": "",
+        "dst knowledge": "",
+        "intent knowledge": "",
+        "prompt": []
     },
     "MuDoCo--train--4": {
         "original dialog id": "00927551-4ead-ad6a-c5d6-a400e6b96d27",
         "dialog index": 4,
-        "original dialog info": {},
+        "original dialog info": {
+            "split": "train",
+            "domain": "calling"
+        },
         "log": [
             {
                 "turn id": 1,
@@ -647,13 +825,104 @@
                             }
                         ]
                     ]
-                }
+                },
+                "dst": "",
+                "dst accumulated": ""
+            },
+            {
+                "turn id": 2,
+                "user utterance": "I should probably call Tosha first to see if she has anything to add .",
+                "system response": "",
+                "dialog history": " <USR> Can you text everyone in AAROC and send them the meeting notes ? <SYS> Texting AAROC . . .",
+                "original user side information": {
+                    "name_entities": {
+                        "person": [
+                            {
+                                "turn_id": 3,
+                                "span": {
+                                    "start": 0,
+                                    "end": 1
+                                },
+                                "text": "I"
+                            },
+                            {
+                                "turn_id": 3,
+                                "span": {
+                                    "start": 23,
+                                    "end": 28
+                                },
+                                "text": "Tosha"
+                            },
+                            {
+                                "turn_id": 3,
+                                "span": {
+                                    "start": 45,
+                                    "end": 48
+                                },
+                                "text": "she"
+                            }
+                        ]
+                    },
+                    "references": {
+                        "personal_pronoun": [
+                            {
+                                "turn_id": 3,
+                                "span": {
+                                    "start": 0,
+                                    "end": 1
+                                },
+                                "text": "I"
+                            },
+                            {
+                                "turn_id": 3,
+                                "span": {
+                                    "start": 45,
+                                    "end": 48
+                                },
+                                "text": "she"
+                            }
+                        ],
+                        "ordinal_reference": [
+                            {
+                                "turn_id": 3,
+                                "span": {
+                                    "start": 29,
+                                    "end": 34
+                                },
+                                "text": "first"
+                            }
+                        ]
+                    },
+                    "links": [
+                        [
+                            {
+                                "turn_id": 3,
+                                "text": "Tosha",
+                                "span": {
+                                    "start": 23,
+                                    "end": 28
+                                }
+                            },
+                            {
+                                "turn_id": 3,
+                                "text": "she",
+                                "span": {
+                                    "start": 45,
+                                    "end": 48
+                                }
+                            }
+                        ]
+                    ]
+                },
+                "original system side information": {},
+                "dst": "",
+                "dst accumulated": ""
             },
             {
                 "turn id": 2,
                 "user utterance": "I should probably call Tosha first to see if she has anything to add .",
                 "system response": "Do you want to call her ?",
-                "dialog history": "<USER> Can you text everyone in AAROC and send them the meeting notes ? <SYSTEM> Texting AAROC . . .",
+                "dialog history": " <USR> Can you text everyone in AAROC and send them the meeting notes ? <SYS> Texting AAROC . . .",
                 "original user side information": {
                     "name_entities": {
                         "person": [
@@ -813,13 +1082,15 @@
                             }
                         ]
                     ]
-                }
+                },
+                "dst": "",
+                "dst accumulated": ""
             },
             {
                 "turn id": 3,
                 "user utterance": "Yes , call her before you text the other members .",
                 "system response": "Calling Tosha . . .",
-                "dialog history": "<USER> Can you text everyone in AAROC and send them the meeting notes ? <SYSTEM> Texting AAROC . . . <USER> I should probably call Tosha first to see if she has anything to add . <SYSTEM> Do you want to call her ?",
+                "dialog history": " <USR> Can you text everyone in AAROC and send them the meeting notes ? <SYS> Texting AAROC . . . <USR> I should probably call Tosha first to see if she has anything to add . <SYS> Do you want to call her ?",
                 "original user side information": {
                     "name_entities": {
                         "person": [
@@ -962,14 +1233,28 @@
                             }
                         ]
                     ]
-                }
+                },
+                "dst": "",
+                "dst accumulated": ""
             }
-        ]
+        ],
+        "external knowledge non-flat": {
+            "metadata": {},
+            "slots and values": {},
+            "intents": {}
+        },
+        "external knowledge": "",
+        "dst knowledge": "",
+        "intent knowledge": "",
+        "prompt": []
     },
     "MuDoCo--train--5": {
         "original dialog id": "00a84ea6-8155-0e8d-8c13-c4f46e9d8ba9",
         "dialog index": 5,
-        "original dialog info": {},
+        "original dialog info": {
+            "split": "train",
+            "domain": "calling"
+        },
         "log": [
             {
                 "turn id": 1,
@@ -1004,13 +1289,85 @@
                     },
                     "references": {},
                     "links": []
-                }
+                },
+                "dst": "",
+                "dst accumulated": ""
+            },
+            {
+                "turn id": 2,
+                "user utterance": "Is it a video call or voice call ?",
+                "system response": "",
+                "dialog history": " <USR> Who is calling ? <SYS> Alissa and Tony are calling .",
+                "original user side information": {
+                    "name_entities": {
+                        "entity": [
+                            {
+                                "turn_id": 3,
+                                "span": {
+                                    "start": 3,
+                                    "end": 5
+                                },
+                                "text": "it"
+                            },
+                            {
+                                "turn_id": 3,
+                                "span": {
+                                    "start": 14,
+                                    "end": 18
+                                },
+                                "text": "call"
+                            },
+                            {
+                                "turn_id": 3,
+                                "span": {
+                                    "start": 28,
+                                    "end": 32
+                                },
+                                "text": "call"
+                            }
+                        ]
+                    },
+                    "references": {
+                        "personal_pronoun": [
+                            {
+                                "turn_id": 3,
+                                "span": {
+                                    "start": 3,
+                                    "end": 5
+                                },
+                                "text": "it"
+                            }
+                        ],
+                        "content_reference": [
+                            {
+                                "turn_id": 3,
+                                "span": {
+                                    "start": 14,
+                                    "end": 18
+                                },
+                                "text": "call"
+                            },
+                            {
+                                "turn_id": 3,
+                                "span": {
+                                    "start": 28,
+                                    "end": 32
+                                },
+                                "text": "call"
+                            }
+                        ]
+                    },
+                    "links": []
+                },
+                "original system side information": {},
+                "dst": "",
+                "dst accumulated": ""
             },
             {
                 "turn id": 2,
                 "user utterance": "Is it a video call or voice call ?",
                 "system response": "Video call .",
-                "dialog history": "<USER> Who is calling ? <SYSTEM> Alissa and Tony are calling .",
+                "dialog history": " <USR> Who is calling ? <SYS> Alissa and Tony are calling .",
                 "original user side information": {
                     "name_entities": {
                         "entity": [
@@ -1106,13 +1463,15 @@
                             }
                         ]
                     ]
-                }
+                },
+                "dst": "",
+                "dst accumulated": ""
             },
             {
                 "turn id": 3,
                 "user utterance": "Answer the call but switch it to a voice call .",
                 "system response": "Done .",
-                "dialog history": "<USER> Who is calling ? <SYSTEM> Alissa and Tony are calling . <USER> Is it a video call or voice call ? <SYSTEM> Video call .",
+                "dialog history": " <USR> Who is calling ? <SYS> Alissa and Tony are calling . <USR> Is it a video call or voice call ? <SYS> Video call .",
                 "original user side information": {
                     "name_entities": {
                         "entity": [
@@ -1209,8 +1568,19 @@
                     "name_entities": {},
                     "references": {},
                     "links": []
-                }
+                },
+                "dst": "",
+                "dst accumulated": ""
             }
-        ]
+        ],
+        "external knowledge non-flat": {
+            "metadata": {},
+            "slots and values": {},
+            "intents": {}
+        },
+        "external knowledge": "",
+        "dst knowledge": "",
+        "intent knowledge": "",
+        "prompt": []
     }
 }

@@ -108,7 +108,7 @@
                 "turn id": 2,
                 "user utterance": "Yes, please set directions via a route that avoids all heavy traffic if possible. ",
                 "system response": "It looks like there is a road block being reported on the route but I will still find the quickest route to 550 Alester Ave. ",
-                "dialog history": "<USER> where's the nearest parking garage <SYSTEM> The nearest parking garage is Dish Parking at 550 Alester Ave. Would you like directions there?",
+                "dialog history": "<USER> where's the nearest parking garage <SYSTEM> The nearest parking garage is Dish Parking at 550 Alester Ave. Would you like directions there? ",
                 "original user side information": {
                     "end_dialogue": false
                 },
@@ -133,7 +133,7 @@
                 "turn id": 3,
                 "user utterance": "Thanks so much for your help. ",
                 "system response": "You're very welcome!",
-                "dialog history": "<USER> where's the nearest parking garage <SYSTEM> The nearest parking garage is Dish Parking at 550 Alester Ave. Would you like directions there? <USER> Yes, please set directions via a route that avoids all heavy traffic if possible. <SYSTEM> It looks like there is a road block being reported on the route but I will still find the quickest route to 550 Alester Ave.",
+                "dialog history": "<USER> where's the nearest parking garage <SYSTEM> The nearest parking garage is Dish Parking at 550 Alester Ave. Would you like directions there?  <USER> Yes, please set directions via a route that avoids all heavy traffic if possible.  <SYSTEM> It looks like there is a road block being reported on the route but I will still find the quickest route to 550 Alester Ave. ",
                 "original user side information": {
                     "end_dialogue": false
                 },
@@ -542,9 +542,9 @@
         "prompt": [
             "This is a bot helping users to get navigation. Given the dialog context and external database, please generate a relevant system response for the user.",
             "This bot assists users to get navigation. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
-            "This bot helps users to get navigation. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
-            "The purpose of this bot is to assist users to get navigation. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
-            "This bot is designed to help users get navigation. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+            "This bot helps users to get navigation. Based on the conversation history and available external data, please generate a relevant system response for the user.",
+            "The purpose of this bot is to assist users to get navigation. Considering the dialogue context and the information available in the external database, please provide a fitting response for the user.",
+            "This bot is designed to help users get navigation. By utilizing the current dialog context and external resources, generate a fitting response for the user."
         ]
     },
     "KVRET--train--2": {
@@ -1087,9 +1087,9 @@
         "prompt": [
             "This is a bot helping users to get navigation. Given the dialog context and external database, please generate a relevant system response for the user.",
             "This bot assists users to get navigation. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
-            "This bot helps users to get navigation. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
-            "The purpose of this bot is to assist users to get navigation. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
-            "This bot is designed to help users get navigation. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+            "This bot helps users to get navigation. Based on the conversation history and available external data, please generate a relevant system response for the user.",
+            "The purpose of this bot is to assist users to get navigation. Considering the dialogue context and the information available in the external database, please provide a fitting response for the user.",
+            "This bot is designed to help users get navigation. By utilizing the current dialog context and external resources, generate a fitting response for the user."
         ]
     },
     "KVRET--train--3": {
@@ -1201,7 +1201,7 @@
                 "turn id": 2,
                 "user utterance": "OK, please give me an address and directions via a route that avoids all heavy traffic. ",
                 "system response": "P.F. Changs route set to 669 El Camino Real with only moderate traffic noted. ",
-                "dialog history": "<USER> show me the closest location where i can get chinese food <SYSTEM> The closest chinese restaurant is PF Changs, located 5 miles away.",
+                "dialog history": "<USER> show me the closest location where i can get chinese food <SYSTEM> The closest chinese restaurant is PF Changs, located 5 miles away. ",
                 "original user side information": {
                     "end_dialogue": false
                 },
@@ -1225,7 +1225,7 @@
                 "turn id": 3,
                 "user utterance": "Thank you",
                 "system response": "You're welcome. Drive safely, and enjoy. ",
-                "dialog history": "<USER> show me the closest location where i can get chinese food <SYSTEM> The closest chinese restaurant is PF Changs, located 5 miles away. <USER> OK, please give me an address and directions via a route that avoids all heavy traffic. <SYSTEM> P.F. Changs route set to 669 El Camino Real with only moderate traffic noted.",
+                "dialog history": "<USER> show me the closest location where i can get chinese food <SYSTEM> The closest chinese restaurant is PF Changs, located 5 miles away.  <USER> OK, please give me an address and directions via a route that avoids all heavy traffic.  <SYSTEM> P.F. Changs route set to 669 El Camino Real with only moderate traffic noted. ",
                 "original user side information": {
                     "end_dialogue": false
                 },
@@ -1634,9 +1634,9 @@
         "prompt": [
             "This is a bot helping users to get navigation. Given the dialog context and external database, please generate a relevant system response for the user.",
             "This bot assists users to get navigation. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
-            "This bot helps users to get navigation. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
-            "The purpose of this bot is to assist users to get navigation. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
-            "This bot is designed to help users get navigation. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+            "This bot helps users to get navigation. Based on the conversation history and available external data, please generate a relevant system response for the user.",
+            "The purpose of this bot is to assist users to get navigation. Considering the dialogue context and the information available in the external database, please provide a fitting response for the user.",
+            "This bot is designed to help users get navigation. By utilizing the current dialog context and external resources, generate a fitting response for the user."
         ]
     },
     "KVRET--train--4": {
@@ -1769,9 +1769,9 @@
         "prompt": [
             "This is a bot helping users to manage a calendar. Given the dialog context and external database, please generate a relevant system response for the user.",
             "This bot assists users to manage a calendar. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
-            "This bot helps users to manage a calendar. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
-            "The purpose of this bot is to assist users to manage a calendar. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
-            "This bot is designed to help users manage a calendar. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+            "This bot helps users to manage a calendar. Based on the conversation history and available external data, please generate a relevant system response for the user.",
+            "The purpose of this bot is to assist users to manage a calendar. Considering the dialogue context and the information available in the external database, please provide a fitting response for the user.",
+            "This bot is designed to help users manage a calendar. By utilizing the current dialog context and external resources, generate a fitting response for the user."
         ]
     },
     "KVRET--train--5": {
@@ -2022,9 +2022,9 @@
         "prompt": [
             "This is a bot helping users to manage a calendar. Given the dialog context and external database, please generate a relevant system response for the user.",
             "This bot assists users to manage a calendar. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
-            "This bot helps users to manage a calendar. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
-            "The purpose of this bot is to assist users to manage a calendar. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
-            "This bot is designed to help users manage a calendar. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+            "This bot helps users to manage a calendar. Based on the conversation history and available external data, please generate a relevant system response for the user.",
+            "The purpose of this bot is to assist users to manage a calendar. Considering the dialogue context and the information available in the external database, please provide a fitting response for the user.",
+            "This bot is designed to help users manage a calendar. By utilizing the current dialog context and external resources, generate a fitting response for the user."
         ]
     }
 }

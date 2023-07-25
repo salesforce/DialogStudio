@@ -1,0 +1,1998 @@
+{
+    "MS-DC--train--1": {
+        "original dialog id": "1",
+        "dialog index": 1,
+        "original dialog info": {
+            "domain": "movie"
+        },
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "I'd like 2 tickets to see Zoolander 2 tomorrow at Regal Meridian 16 theater in Seattle at 9:25 PM",
+                "system response": "Okay, your purchase of 2 tickets for Zoolander 2 is confirmed.",
+                "dialog history": "",
+                "original user side information": {
+                    "act": [
+                        "request(ticket;moviename=Zoolander 2;date=tomorrow;theater=Regal Meridian 16;city=Seattle;starttime=9:25 PM;numberofpeople=2)"
+                    ]
+                },
+                "original system side information": {
+                    "act": [
+                        "inform(taskcomplete;numberofpeople=2;moviename=Zoolander 2)"
+                    ]
+                },
+                "dst": "movie moviename Zoolander 2, movie date tomorrow, movie theater Regal Meridian 16, movie city Seattle, movie starttime 9:25 PM, movie numberofpeople 2",
+                "dst accumulated": "movie moviename Zoolander 2, movie date tomorrow, movie theater Regal Meridian 16, movie city Seattle, movie starttime 9:25 PM, movie numberofpeople 2",
+                "intent": "request"
+            }
+        ],
+        "external knowledge non-flat": {
+            "metadata": {},
+            "slots and values": {
+                "movie": {
+                    "moviename": [
+                        "Room",
+                        "Back to the Future",
+                        "batman versus superman",
+                        "Lady in the Van",
+                        "my big fat greek wedding 2",
+                        "Hail Caesar",
+                        "the young miracle",
+                        "Batman Vs. Superman: Dawn of Justice",
+                        "x-men x-men apocalypse",
+                        "Batman"
+                    ],
+                    "date": [
+                        "Friday 3/11/2016",
+                        "on April 1st",
+                        "16-Mar",
+                        "03/20/2016",
+                        "Tomorrow.",
+                        "early tomorrow evening",
+                        "tomorrow afternoon",
+                        "this saturday",
+                        "Wens the 23rd",
+                        "March 12"
+                    ],
+                    "theater": [
+                        "on the south east side of Chicago",
+                        "Regal Santium Stadium 11",
+                        "Dodge Theater",
+                        "New Roc City",
+                        "Regal Cinemas Beaver Creek Stadium 12",
+                        "Edwards Greenway Grand Palace Stadium 24 & RPX",
+                        "AMC Westshore Plaza",
+                        "Regal Providence Stadium",
+                        "Pacific Glendale 18",
+                        "the studio movie grill"
+                    ],
+                    "city": [
+                        "gary",
+                        "ney york",
+                        "SAcramento",
+                        "San diego",
+                        "Burlington",
+                        "petoskey",
+                        "Wheaton",
+                        "Harrisburg",
+                        "nashua",
+                        "Redding"
+                    ],
+                    "starttime": [
+                        "4:05pm",
+                        "saturday",
+                        "20:00",
+                        "12:55",
+                        "near 6pm",
+                        "11:05",
+                        "this afternoon",
+                        "around 6-11 PM",
+                        "{3:55#7:35}",
+                        "3:10pm"
+                    ],
+                    "numberofpeople": [
+                        "4 tickets",
+                        "ten or more",
+                        "4",
+                        "The Young Messiah",
+                        "10",
+                        "5",
+                        "The Young Messiah",
+                        "9",
+                        "Two",
+                        "10"
+                    ],
+                    "genre": [
+                        "science fiction",
+                        "standard",
+                        "IMAX",
+                        "christian",
+                        "Disney movies",
+                        "regular ole' comedy",
+                        "{action#horror}",
+                        "Horror",
+                        "Romantic",
+                        "rom-com"
+                    ],
+                    "state": [
+                        "ME",
+                        "NM",
+                        "OHIO",
+                        "NY",
+                        "New York",
+                        "Oregon",
+                        "north carolina",
+                        "B.C",
+                        "Iowa",
+                        "mi"
+                    ],
+                    "theater_chain": [
+                        "regal",
+                        "Regal theater",
+                        "AMC"
+                    ],
+                    "video_format": [
+                        "standard version",
+                        "normal",
+                        "standard",
+                        "3d",
+                        "Imax",
+                        "Imax 3d",
+                        "normal",
+                        "IMAX 3d",
+                        "imax 3d",
+                        "Imax 3d"
+                    ],
+                    "distanceconstraints": [
+                        "near Woodbury",
+                        "in vegas area",
+                        "Anywhere",
+                        "near 94102",
+                        "downtown",
+                        "in the south part",
+                        "closest",
+                        "near Crystal Lake",
+                        "near bakersfield california",
+                        "within 50 miles of 53565"
+                    ],
+                    "actress": [
+                        "tina fey",
+                        "Jennifer Lawrence",
+                        "melissa mcarthy",
+                        "Tina Fey",
+                        "Melissa McCarthy",
+                        "{Tina Fey#Margot Robbie}"
+                    ],
+                    "other": [
+                        "sounds good if it's available",
+                        "pro_2016-03-09T00-33-56_fa2bf452-5faf-491b-80e5-d2948bc8a1bd",
+                        "take kids",
+                        "I don't care.",
+                        "No that is all.",
+                        "Kind of like a mind-game movie",
+                        "Yes please do the search",
+                        "pro_2016-03-07T22-42-28_df456016-aa62-4fd2-9afd-aee5783c63d5",
+                        "late",
+                        "pro_2016-03-07T22-42-11_eb7a5f23-746b-42aa-a528-6e3b358cf747"
+                    ],
+                    "zip": [
+                        "44510",
+                        "10035",
+                        "60101",
+                        "10014",
+                        "48126",
+                        "91205",
+                        "48895",
+                        "07628",
+                        "15202",
+                        "20619"
+                    ],
+                    "description": [
+                        "romantic",
+                        "romantic",
+                        "romantic",
+                        "Along the lines of gritty and or gangster ones",
+                        "best kids",
+                        "sports related",
+                        "latest",
+                        "the only kids movie",
+                        "oscar winning film",
+                        "the leads"
+                    ],
+                    "numberofkids": [
+                        "1",
+                        "6",
+                        "20",
+                        "15",
+                        "0",
+                        "4",
+                        "none",
+                        "2",
+                        "3"
+                    ],
+                    "food": [
+                        "steak"
+                    ],
+                    "critic_rating": [
+                        "horrible",
+                        "best",
+                        "top reviewed",
+                        "lowest rated movie",
+                        "high rated",
+                        "top rated",
+                        "the top",
+                        "high",
+                        "the lowest",
+                        "3 out of 5 stars",
+                        "top",
+                        "the highest"
+                    ],
+                    "pickup_time": [
+                        "11 pm"
+                    ],
+                    "pickup_location": [
+                        "six flags great America"
+                    ],
+                    "dropoff_location": [
+                        "mchenry il on the corner of 3rd avenue and Washington street"
+                    ],
+                    "mpaa_rating": [
+                        "safe for 7 years olds",
+                        "Pg",
+                        "{PG#G}",
+                        "not rated r",
+                        "g",
+                        "R-Rated",
+                        "G",
+                        "R",
+                        "PG",
+                        "not rated R",
+                        "above PG-13",
+                        "pg-13",
+                        "{pg13#R}",
+                        "pg-13 rated",
+                        "{G#PG}",
+                        "pg13",
+                        "pg13 or lower",
+                        "PG-13",
+                        "PG-rated",
+                        "any"
+                    ],
+                    "actor": [
+                        "Ryan Reynolds",
+                        "yan Reynolds",
+                        "John Goodman",
+                        "Bruce Willis",
+                        "will smith",
+                        "Bradley Cooper",
+                        "Brad Pitt",
+                        "Cohen",
+                        "the Roc",
+                        "tom cruise",
+                        "nicolas cage",
+                        "Brad pitt",
+                        "Tom Cruise",
+                        "tear jerkers",
+                        "paul rudd"
+                    ],
+                    "movie_series": [
+                        "the divergent series",
+                        "divergence",
+                        "Superman movie",
+                        "Divergent Series movie",
+                        "Divergent Series",
+                        "The Divergent Series",
+                        "The Divergent",
+                        "Divergent"
+                    ],
+                    "price": [
+                        "less expensive",
+                        "50% off",
+                        "moderately",
+                        "regular",
+                        "the cheapest",
+                        "$50",
+                        "expensive",
+                        "cheaper",
+                        "cheapest",
+                        "less than $10"
+                    ],
+                    "seating": [
+                        "recliner seating",
+                        "in the middle",
+                        "recliner"
+                    ],
+                    "cuisine": [
+                        "{Chinese#Japanese}"
+                    ]
+                }
+            },
+            "intents": {
+                "movie": [
+                    "confirm_answer",
+                    "Not_Sure",
+                    "request",
+                    "thanks",
+                    "Deny",
+                    "greeting",
+                    "inform",
+                    "closing",
+                    "confirm_question",
+                    "multiple_choice"
+                ]
+            }
+        },
+        "external knowledge": "()",
+        "dst knowledge": "( movie : ( moviename : ( Room | Back to the Future | batman versus superman | Lady in the Van | my big fat greek wedding 2 | Hail Caesar | the young miracle | Batman Vs. Superman: Dawn of Justice | x-men x-men apocalypse | Batman ) | date : ( Friday 3/11/2016 | on April 1st | 16-Mar | 03/20/2016 | Tomorrow. | early tomorrow evening | tomorrow afternoon | this saturday | Wens the 23rd | March 12 ) | theater : ( on the south east side of Chicago | Regal Santium Stadium 11 | Dodge Theater | New Roc City | Regal Cinemas Beaver Creek Stadium 12 | Edwards Greenway Grand Palace Stadium 24 & RPX | AMC Westshore Plaza | Regal Providence Stadium | Pacific Glendale 18 | the studio movie grill ) | city : ( gary | ney york | SAcramento | San diego | Burlington | petoskey | Wheaton | Harrisburg | nashua | Redding ) | starttime : ( 4:05pm | saturday | 20:00 | 12:55 | near 6pm | 11:05 | this afternoon | around 6-11 PM | (3:55#7:35) | 3:10pm ) | numberofpeople : ( 4 tickets | ten or more | 4 | The Young Messiah | 10 | 5 | The Young Messiah | 9 | Two | 10 ) | genre : ( science fiction | standard | IMAX | christian | Disney movies | \"regular ole comedy\" | (action#horror) | Horror | Romantic | rom-com ) | state : ( ME | NM | OHIO | NY | New York | Oregon | north carolina | B.C | Iowa | mi ) | theater_chain : ( regal | Regal theater | AMC ) | video_format : ( standard version | normal | standard | 3d | Imax | Imax 3d | normal | IMAX 3d | imax 3d | Imax 3d ) | distanceconstraints : ( near Woodbury | in vegas area | Anywhere | near 94102 | downtown | in the south part | closest | near Crystal Lake | near bakersfield california | within 50 miles of 53565 ) | actress : ( tina fey | Jennifer Lawrence | melissa mcarthy | Tina Fey | Melissa McCarthy | (Tina Fey#Margot Robbie) ) | other : (\"sounds good if it s available\" | pro_2016-03-09T00-33-56_fa2bf452-5faf-491b-80e5-d2948bc8a1bd | take kids | \"I don t care.\" | No that is all. | Kind of like a mind-game movie | Yes please do the search | pro_2016-03-07T22-42-28_df456016-aa62-4fd2-9afd-aee5783c63d5 | late | pro_2016-03-07T22-42-11_eb7a5f23-746b-42aa-a528-6e3b358cf747 ) | zip : ( 44510 | 10035 | 60101 | 10014 | 48126 | 91205 | 48895 | 07628 | 15202 | 20619 ) | description : ( romantic | romantic | romantic | Along the lines of gritty and or gangster ones | best kids | sports related | latest | the only kids movie | oscar winning film | the leads ) | numberofkids : ( 1 | 6 | 20 | 15 | 0 | 4 | none | 2 | 3 ) | food : ( steak ) | critic_rating : ( horrible | best | top reviewed | lowest rated movie | high rated | top rated | the top | high | the lowest | 3 out of 5 stars | top | the highest ) | pickup_time : ( 11 pm ) | pickup_location : ( six flags great America ) | dropoff_location : ( mchenry il on the corner of 3rd avenue and Washington street ) | mpaa_rating : ( safe for 7 years olds | Pg | (PG#G) | not rated r | g | R-Rated | G | R | PG | not rated R | above PG-13 | pg-13 | (pg13#R) | pg-13 rated | (G#PG) | pg13 | pg13 or lower | PG-13 | PG-rated | any ) | actor : ( Ryan Reynolds | yan Reynolds | John Goodman | Bruce Willis | will smith | Bradley Cooper | Brad Pitt | Cohen | the Roc | tom cruise | nicolas cage | Brad pitt | Tom Cruise | tear jerkers | paul rudd ) | movie_series : ( the divergent series | divergence | Superman movie | Divergent Series movie | Divergent Series | The Divergent Series | The Divergent | Divergent ) | price : ( less expensive | 50% off | moderately | regular | the cheapest | $50 | expensive | cheaper | cheapest | less than $10 ) | seating : ( recliner seating | in the middle | recliner ) | cuisine : ( (Chinese#Japanese) )))",
+        "intent knowledge": "( movie : ( confirm_answer | Not_Sure | request | thanks | Deny | greeting | inform | closing | confirm_question | multiple_choice ))",
+        "prompt": [
+            "This is a bot helping users to book a movie ticket. Given the dialog context and external database, please generate a relevant system response for the user.",
+            "This bot assists users to book a movie ticket. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
+            "This bot helps users to book a movie ticket. Based on the conversation history and available external data, please generate a relevant system response for the user.",
+            "The purpose of this bot is to assist users to book a movie ticket. Considering the dialogue context and the information available in the external database, please provide a fitting response for the user.",
+            "This bot is designed to help users book a movie ticket. By utilizing the current dialog context and external resources, generate a fitting response for the user."
+        ]
+    },
+    "MS-DC--train--2": {
+        "original dialog id": "2",
+        "dialog index": 2,
+        "original dialog info": {
+            "domain": "movie"
+        },
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "Hi! are there any good foreign movies showing around Houma, Louisiana this week?",
+                "system response": "What date would you like me to look for a reservation?",
+                "dialog history": "",
+                "original user side information": {
+                    "act": [
+                        "greeting(greeting=hi)",
+                        "request(moviename;genre=foreign;city=Houma;state=Louisiana;date=this week)"
+                    ]
+                },
+                "original system side information": {
+                    "act": [
+                        "request(date)"
+                    ]
+                },
+                "dst": "movie genre foreign, movie city Houma, movie state Louisiana, movie date this week",
+                "dst accumulated": "movie genre foreign, movie city Houma, movie state Louisiana, movie date this week",
+                "intent": "greeting, request"
+            },
+            {
+                "turn id": 2,
+                "user utterance": "How about the 9th?",
+                "system response": "Unfortunately, there are no foreign movies playing at this time. Do you have another genre that you're interested in?",
+                "dialog history": "<USER> Hi! are there any good foreign movies showing around Houma, Louisiana this week? <SYSTEM> What date would you like me to look for a reservation?",
+                "original user side information": {
+                    "act": [
+                        "inform(date=9th)"
+                    ]
+                },
+                "original system side information": {
+                    "act": [
+                        "inform(result={};genre=foreign) ",
+                        "request(genre)"
+                    ]
+                },
+                "dst": "movie date 9th",
+                "dst accumulated": "movie genre foreign, movie city Houma, movie state Louisiana, movie date 9th",
+                "intent": "inform"
+            },
+            {
+                "turn id": 3,
+                "user utterance": "Is there something that's maybe a good intelligent comedy?",
+                "system response": "Whiskey Tango Foxtrot is the only Adult comedy I see playing in your area. Would you like to try that?",
+                "dialog history": "<USER> Hi! are there any good foreign movies showing around Houma, Louisiana this week? <SYSTEM> What date would you like me to look for a reservation? <USER> How about the 9th? <SYSTEM> Unfortunately, there are no foreign movies playing at this time. Do you have another genre that you're interested in?",
+                "original user side information": {
+                    "act": [
+                        "request(moviename;description=good intelligent;genre=comedy)"
+                    ]
+                },
+                "original system side information": {
+                    "act": [
+                        "inform(moviename=Whiskey Tango Foxtrot;genre=Adult comedy;distanceconstraints=in your area) ",
+                        "confirm_question()"
+                    ]
+                },
+                "dst": "movie description good intelligent, movie genre comedy",
+                "dst accumulated": "movie genre comedy, movie city Houma, movie state Louisiana, movie date 9th, movie description good intelligent",
+                "intent": "request"
+            },
+            {
+                "turn id": 4,
+                "user utterance": "I guess I'll have to. Any night showing will be fine.",
+                "system response": "Whisky Tango Foxtrot is playing at the AMC HOUMA PALACE 10 5737 W Park Ave., Houma, LA 70364 at 11:40am 2:15pm 5:00pm 7:40pm.  Does one of those times work?  How many tickets would you need?",
+                "dialog history": "<USER> Hi! are there any good foreign movies showing around Houma, Louisiana this week? <SYSTEM> What date would you like me to look for a reservation? <USER> How about the 9th? <SYSTEM> Unfortunately, there are no foreign movies playing at this time. Do you have another genre that you're interested in? <USER> Is there something that's maybe a good intelligent comedy? <SYSTEM> Whiskey Tango Foxtrot is the only Adult comedy I see playing in your area. Would you like to try that?",
+                "original user side information": {
+                    "act": [
+                        "confirm_answer()",
+                        "inform(date=any night)"
+                    ]
+                },
+                "original system side information": {
+                    "act": [
+                        "inform(moviename=Whisky Tango Foxtrot;theater=AMC HOUMA PALACE 10 5737 W Park Ave.;zip=70364;city=Houma, LA;starttime={11:40am#2:15pm#5:00pm#7:40pm})",
+                        "multiple_choice(starttime)",
+                        "request(numberofpeople)"
+                    ]
+                },
+                "dst": "movie date any night",
+                "dst accumulated": "movie genre comedy, movie city Houma, movie state Louisiana, movie date any night, movie description good intelligent",
+                "intent": "confirm_answer, inform"
+            },
+            {
+                "turn id": 5,
+                "user utterance": "740 for 4 would be great",
+                "system response": "I have purchased your tickets for you. Thank you.",
+                "dialog history": "<USER> Hi! are there any good foreign movies showing around Houma, Louisiana this week? <SYSTEM> What date would you like me to look for a reservation? <USER> How about the 9th? <SYSTEM> Unfortunately, there are no foreign movies playing at this time. Do you have another genre that you're interested in? <USER> Is there something that's maybe a good intelligent comedy? <SYSTEM> Whiskey Tango Foxtrot is the only Adult comedy I see playing in your area. Would you like to try that? <USER> I guess I'll have to. Any night showing will be fine. <SYSTEM> Whisky Tango Foxtrot is playing at the AMC HOUMA PALACE 10 5737 W Park Ave., Houma, LA 70364 at 11:40am 2:15pm 5:00pm 7:40pm.  Does one of those times work?  How many tickets would you need?",
+                "original user side information": {
+                    "act": [
+                        "inform(numberofpeople=4;starttime=7:40pm)"
+                    ]
+                },
+                "original system side information": {
+                    "act": [
+                        "inform(taskcomplete) ",
+                        "thanks(closing=thank you)"
+                    ]
+                },
+                "dst": "movie numberofpeople 4, movie starttime 7:40pm",
+                "dst accumulated": "movie genre comedy, movie city Houma, movie state Louisiana, movie date any night, movie description good intelligent, movie numberofpeople 4, movie starttime 7:40pm",
+                "intent": "inform"
+            },
+            {
+                "turn id": 6,
+                "user utterance": "thank you.",
+                "system response": "Thanks!",
+                "dialog history": "<USER> Hi! are there any good foreign movies showing around Houma, Louisiana this week? <SYSTEM> What date would you like me to look for a reservation? <USER> How about the 9th? <SYSTEM> Unfortunately, there are no foreign movies playing at this time. Do you have another genre that you're interested in? <USER> Is there something that's maybe a good intelligent comedy? <SYSTEM> Whiskey Tango Foxtrot is the only Adult comedy I see playing in your area. Would you like to try that? <USER> I guess I'll have to. Any night showing will be fine. <SYSTEM> Whisky Tango Foxtrot is playing at the AMC HOUMA PALACE 10 5737 W Park Ave., Houma, LA 70364 at 11:40am 2:15pm 5:00pm 7:40pm.  Does one of those times work?  How many tickets would you need? <USER> 740 for 4 would be great <SYSTEM> I have purchased your tickets for you. Thank you.",
+                "original user side information": {
+                    "act": [
+                        "thanks(closing=thank you)"
+                    ]
+                },
+                "original system side information": {
+                    "act": [
+                        "thanks(closing=thanks)"
+                    ]
+                },
+                "dst": "",
+                "dst accumulated": "movie genre comedy, movie city Houma, movie state Louisiana, movie date any night, movie description good intelligent, movie numberofpeople 4, movie starttime 7:40pm",
+                "intent": "thanks"
+            }
+        ],
+        "external knowledge non-flat": {
+            "metadata": {},
+            "slots and values": {
+                "movie": {
+                    "moviename": [
+                        "Room",
+                        "Back to the Future",
+                        "batman versus superman",
+                        "Lady in the Van",
+                        "my big fat greek wedding 2",
+                        "Hail Caesar",
+                        "the young miracle",
+                        "Batman Vs. Superman: Dawn of Justice",
+                        "x-men x-men apocalypse",
+                        "Batman"
+                    ],
+                    "date": [
+                        "Friday 3/11/2016",
+                        "on April 1st",
+                        "16-Mar",
+                        "03/20/2016",
+                        "Tomorrow.",
+                        "early tomorrow evening",
+                        "tomorrow afternoon",
+                        "this saturday",
+                        "Wens the 23rd",
+                        "March 12"
+                    ],
+                    "theater": [
+                        "on the south east side of Chicago",
+                        "Regal Santium Stadium 11",
+                        "Dodge Theater",
+                        "New Roc City",
+                        "Regal Cinemas Beaver Creek Stadium 12",
+                        "Edwards Greenway Grand Palace Stadium 24 & RPX",
+                        "AMC Westshore Plaza",
+                        "Regal Providence Stadium",
+                        "Pacific Glendale 18",
+                        "the studio movie grill"
+                    ],
+                    "city": [
+                        "gary",
+                        "ney york",
+                        "SAcramento",
+                        "San diego",
+                        "Burlington",
+                        "petoskey",
+                        "Wheaton",
+                        "Harrisburg",
+                        "nashua",
+                        "Redding"
+                    ],
+                    "starttime": [
+                        "4:05pm",
+                        "saturday",
+                        "20:00",
+                        "12:55",
+                        "near 6pm",
+                        "11:05",
+                        "this afternoon",
+                        "around 6-11 PM",
+                        "{3:55#7:35}",
+                        "3:10pm"
+                    ],
+                    "numberofpeople": [
+                        "4 tickets",
+                        "ten or more",
+                        "4",
+                        "The Young Messiah",
+                        "10",
+                        "5",
+                        "The Young Messiah",
+                        "9",
+                        "Two",
+                        "10"
+                    ],
+                    "genre": [
+                        "science fiction",
+                        "standard",
+                        "IMAX",
+                        "christian",
+                        "Disney movies",
+                        "regular ole' comedy",
+                        "{action#horror}",
+                        "Horror",
+                        "Romantic",
+                        "rom-com"
+                    ],
+                    "state": [
+                        "ME",
+                        "NM",
+                        "OHIO",
+                        "NY",
+                        "New York",
+                        "Oregon",
+                        "north carolina",
+                        "B.C",
+                        "Iowa",
+                        "mi"
+                    ],
+                    "theater_chain": [
+                        "regal",
+                        "Regal theater",
+                        "AMC"
+                    ],
+                    "video_format": [
+                        "standard version",
+                        "normal",
+                        "standard",
+                        "3d",
+                        "Imax",
+                        "Imax 3d",
+                        "normal",
+                        "IMAX 3d",
+                        "imax 3d",
+                        "Imax 3d"
+                    ],
+                    "distanceconstraints": [
+                        "near Woodbury",
+                        "in vegas area",
+                        "Anywhere",
+                        "near 94102",
+                        "downtown",
+                        "in the south part",
+                        "closest",
+                        "near Crystal Lake",
+                        "near bakersfield california",
+                        "within 50 miles of 53565"
+                    ],
+                    "actress": [
+                        "tina fey",
+                        "Jennifer Lawrence",
+                        "melissa mcarthy",
+                        "Tina Fey",
+                        "Melissa McCarthy",
+                        "{Tina Fey#Margot Robbie}"
+                    ],
+                    "other": [
+                        "sounds good if it's available",
+                        "pro_2016-03-09T00-33-56_fa2bf452-5faf-491b-80e5-d2948bc8a1bd",
+                        "take kids",
+                        "I don't care.",
+                        "No that is all.",
+                        "Kind of like a mind-game movie",
+                        "Yes please do the search",
+                        "pro_2016-03-07T22-42-28_df456016-aa62-4fd2-9afd-aee5783c63d5",
+                        "late",
+                        "pro_2016-03-07T22-42-11_eb7a5f23-746b-42aa-a528-6e3b358cf747"
+                    ],
+                    "zip": [
+                        "44510",
+                        "10035",
+                        "60101",
+                        "10014",
+                        "48126",
+                        "91205",
+                        "48895",
+                        "07628",
+                        "15202",
+                        "20619"
+                    ],
+                    "description": [
+                        "romantic",
+                        "romantic",
+                        "romantic",
+                        "Along the lines of gritty and or gangster ones",
+                        "best kids",
+                        "sports related",
+                        "latest",
+                        "the only kids movie",
+                        "oscar winning film",
+                        "the leads"
+                    ],
+                    "numberofkids": [
+                        "1",
+                        "6",
+                        "20",
+                        "15",
+                        "0",
+                        "4",
+                        "none",
+                        "2",
+                        "3"
+                    ],
+                    "food": [
+                        "steak"
+                    ],
+                    "critic_rating": [
+                        "horrible",
+                        "best",
+                        "top reviewed",
+                        "lowest rated movie",
+                        "high rated",
+                        "top rated",
+                        "the top",
+                        "high",
+                        "the lowest",
+                        "3 out of 5 stars",
+                        "top",
+                        "the highest"
+                    ],
+                    "pickup_time": [
+                        "11 pm"
+                    ],
+                    "pickup_location": [
+                        "six flags great America"
+                    ],
+                    "dropoff_location": [
+                        "mchenry il on the corner of 3rd avenue and Washington street"
+                    ],
+                    "mpaa_rating": [
+                        "safe for 7 years olds",
+                        "Pg",
+                        "{PG#G}",
+                        "not rated r",
+                        "g",
+                        "R-Rated",
+                        "G",
+                        "R",
+                        "PG",
+                        "not rated R",
+                        "above PG-13",
+                        "pg-13",
+                        "{pg13#R}",
+                        "pg-13 rated",
+                        "{G#PG}",
+                        "pg13",
+                        "pg13 or lower",
+                        "PG-13",
+                        "PG-rated",
+                        "any"
+                    ],
+                    "actor": [
+                        "Ryan Reynolds",
+                        "yan Reynolds",
+                        "John Goodman",
+                        "Bruce Willis",
+                        "will smith",
+                        "Bradley Cooper",
+                        "Brad Pitt",
+                        "Cohen",
+                        "the Roc",
+                        "tom cruise",
+                        "nicolas cage",
+                        "Brad pitt",
+                        "Tom Cruise",
+                        "tear jerkers",
+                        "paul rudd"
+                    ],
+                    "movie_series": [
+                        "the divergent series",
+                        "divergence",
+                        "Superman movie",
+                        "Divergent Series movie",
+                        "Divergent Series",
+                        "The Divergent Series",
+                        "The Divergent",
+                        "Divergent"
+                    ],
+                    "price": [
+                        "less expensive",
+                        "50% off",
+                        "moderately",
+                        "regular",
+                        "the cheapest",
+                        "$50",
+                        "expensive",
+                        "cheaper",
+                        "cheapest",
+                        "less than $10"
+                    ],
+                    "seating": [
+                        "recliner seating",
+                        "in the middle",
+                        "recliner"
+                    ],
+                    "cuisine": [
+                        "{Chinese#Japanese}"
+                    ]
+                }
+            },
+            "intents": {
+                "movie": [
+                    "confirm_answer",
+                    "Not_Sure",
+                    "request",
+                    "thanks",
+                    "Deny",
+                    "greeting",
+                    "inform",
+                    "closing",
+                    "confirm_question",
+                    "multiple_choice"
+                ]
+            }
+        },
+        "external knowledge": "()",
+        "dst knowledge": "( movie : ( moviename : ( Room | Back to the Future | batman versus superman | Lady in the Van | my big fat greek wedding 2 | Hail Caesar | the young miracle | Batman Vs. Superman: Dawn of Justice | x-men x-men apocalypse | Batman ) | date : ( Friday 3/11/2016 | on April 1st | 16-Mar | 03/20/2016 | Tomorrow. | early tomorrow evening | tomorrow afternoon | this saturday | Wens the 23rd | March 12 ) | theater : ( on the south east side of Chicago | Regal Santium Stadium 11 | Dodge Theater | New Roc City | Regal Cinemas Beaver Creek Stadium 12 | Edwards Greenway Grand Palace Stadium 24 & RPX | AMC Westshore Plaza | Regal Providence Stadium | Pacific Glendale 18 | the studio movie grill ) | city : ( gary | ney york | SAcramento | San diego | Burlington | petoskey | Wheaton | Harrisburg | nashua | Redding ) | starttime : ( 4:05pm | saturday | 20:00 | 12:55 | near 6pm | 11:05 | this afternoon | around 6-11 PM | (3:55#7:35) | 3:10pm ) | numberofpeople : ( 4 tickets | ten or more | 4 | The Young Messiah | 10 | 5 | The Young Messiah | 9 | Two | 10 ) | genre : ( science fiction | standard | IMAX | christian | Disney movies | \"regular ole comedy\" | (action#horror) | Horror | Romantic | rom-com ) | state : ( ME | NM | OHIO | NY | New York | Oregon | north carolina | B.C | Iowa | mi ) | theater_chain : ( regal | Regal theater | AMC ) | video_format : ( standard version | normal | standard | 3d | Imax | Imax 3d | normal | IMAX 3d | imax 3d | Imax 3d ) | distanceconstraints : ( near Woodbury | in vegas area | Anywhere | near 94102 | downtown | in the south part | closest | near Crystal Lake | near bakersfield california | within 50 miles of 53565 ) | actress : ( tina fey | Jennifer Lawrence | melissa mcarthy | Tina Fey | Melissa McCarthy | (Tina Fey#Margot Robbie) ) | other : (\"sounds good if it s available\" | pro_2016-03-09T00-33-56_fa2bf452-5faf-491b-80e5-d2948bc8a1bd | take kids | \"I don t care.\" | No that is all. | Kind of like a mind-game movie | Yes please do the search | pro_2016-03-07T22-42-28_df456016-aa62-4fd2-9afd-aee5783c63d5 | late | pro_2016-03-07T22-42-11_eb7a5f23-746b-42aa-a528-6e3b358cf747 ) | zip : ( 44510 | 10035 | 60101 | 10014 | 48126 | 91205 | 48895 | 07628 | 15202 | 20619 ) | description : ( romantic | romantic | romantic | Along the lines of gritty and or gangster ones | best kids | sports related | latest | the only kids movie | oscar winning film | the leads ) | numberofkids : ( 1 | 6 | 20 | 15 | 0 | 4 | none | 2 | 3 ) | food : ( steak ) | critic_rating : ( horrible | best | top reviewed | lowest rated movie | high rated | top rated | the top | high | the lowest | 3 out of 5 stars | top | the highest ) | pickup_time : ( 11 pm ) | pickup_location : ( six flags great America ) | dropoff_location : ( mchenry il on the corner of 3rd avenue and Washington street ) | mpaa_rating : ( safe for 7 years olds | Pg | (PG#G) | not rated r | g | R-Rated | G | R | PG | not rated R | above PG-13 | pg-13 | (pg13#R) | pg-13 rated | (G#PG) | pg13 | pg13 or lower | PG-13 | PG-rated | any ) | actor : ( Ryan Reynolds | yan Reynolds | John Goodman | Bruce Willis | will smith | Bradley Cooper | Brad Pitt | Cohen | the Roc | tom cruise | nicolas cage | Brad pitt | Tom Cruise | tear jerkers | paul rudd ) | movie_series : ( the divergent series | divergence | Superman movie | Divergent Series movie | Divergent Series | The Divergent Series | The Divergent | Divergent ) | price : ( less expensive | 50% off | moderately | regular | the cheapest | $50 | expensive | cheaper | cheapest | less than $10 ) | seating : ( recliner seating | in the middle | recliner ) | cuisine : ( (Chinese#Japanese) )))",
+        "intent knowledge": "( movie : ( confirm_answer | Not_Sure | request | thanks | Deny | greeting | inform | closing | confirm_question | multiple_choice ))",
+        "prompt": [
+            "This is a bot helping users to book a movie ticket. Given the dialog context and external database, please generate a relevant system response for the user.",
+            "This bot assists users to book a movie ticket. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
+            "This bot helps users to book a movie ticket. Based on the conversation history and available external data, please generate a relevant system response for the user.",
+            "The purpose of this bot is to assist users to book a movie ticket. Considering the dialogue context and the information available in the external database, please provide a fitting response for the user.",
+            "This bot is designed to help users book a movie ticket. By utilizing the current dialog context and external resources, generate a fitting response for the user."
+        ]
+    },
+    "MS-DC--train--3": {
+        "original dialog id": "3",
+        "dialog index": 3,
+        "original dialog info": {
+            "domain": "movie"
+        },
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "Show me restaurants near the space needle that I can bring my cat to.",
+                "system response": "I'm sorry this is a movie ticket booking service, I am not able to search for restaurants.",
+                "dialog history": "",
+                "original user side information": {
+                    "act": [
+                        "request(other;distanceconstraints=near the space needle;other=bring my cat)"
+                    ]
+                },
+                "original system side information": {
+                    "act": [
+                        "Deny()"
+                    ]
+                },
+                "dst": "movie distanceconstraints near the space needle, movie other bring my cat",
+                "dst accumulated": "movie distanceconstraints near the space needle, movie other bring my cat",
+                "intent": "request"
+            },
+            {
+                "turn id": 2,
+                "user utterance": "show me theaters near the space needle that i can order beer in",
+                "system response": "Here are a few results I found for you: 1) Big Picture, 2) Cinerama, and 3) Central Cinema. Would you like to search for a particular movie at one of those theaters?",
+                "dialog history": "<USER> Show me restaurants near the space needle that I can bring my cat to. <SYSTEM> I'm sorry this is a movie ticket booking service, I am not able to search for restaurants.",
+                "original user side information": {
+                    "act": [
+                        "request(theater;distanceconstraints=near the space needle)"
+                    ]
+                },
+                "original system side information": {
+                    "act": [
+                        "inform(theater={Big Picture#Cinerama#Central Cinema}) ",
+                        "multiple_choice(theater)"
+                    ]
+                },
+                "dst": "movie distanceconstraints near the space needle",
+                "dst accumulated": "movie distanceconstraints near the space needle, movie other bring my cat",
+                "intent": "request"
+            }
+        ],
+        "external knowledge non-flat": {
+            "metadata": {},
+            "slots and values": {
+                "movie": {
+                    "moviename": [
+                        "Room",
+                        "Back to the Future",
+                        "batman versus superman",
+                        "Lady in the Van",
+                        "my big fat greek wedding 2",
+                        "Hail Caesar",
+                        "the young miracle",
+                        "Batman Vs. Superman: Dawn of Justice",
+                        "x-men x-men apocalypse",
+                        "Batman"
+                    ],
+                    "date": [
+                        "Friday 3/11/2016",
+                        "on April 1st",
+                        "16-Mar",
+                        "03/20/2016",
+                        "Tomorrow.",
+                        "early tomorrow evening",
+                        "tomorrow afternoon",
+                        "this saturday",
+                        "Wens the 23rd",
+                        "March 12"
+                    ],
+                    "theater": [
+                        "on the south east side of Chicago",
+                        "Regal Santium Stadium 11",
+                        "Dodge Theater",
+                        "New Roc City",
+                        "Regal Cinemas Beaver Creek Stadium 12",
+                        "Edwards Greenway Grand Palace Stadium 24 & RPX",
+                        "AMC Westshore Plaza",
+                        "Regal Providence Stadium",
+                        "Pacific Glendale 18",
+                        "the studio movie grill"
+                    ],
+                    "city": [
+                        "gary",
+                        "ney york",
+                        "SAcramento",
+                        "San diego",
+                        "Burlington",
+                        "petoskey",
+                        "Wheaton",
+                        "Harrisburg",
+                        "nashua",
+                        "Redding"
+                    ],
+                    "starttime": [
+                        "4:05pm",
+                        "saturday",
+                        "20:00",
+                        "12:55",
+                        "near 6pm",
+                        "11:05",
+                        "this afternoon",
+                        "around 6-11 PM",
+                        "{3:55#7:35}",
+                        "3:10pm"
+                    ],
+                    "numberofpeople": [
+                        "4 tickets",
+                        "ten or more",
+                        "4",
+                        "The Young Messiah",
+                        "10",
+                        "5",
+                        "The Young Messiah",
+                        "9",
+                        "Two",
+                        "10"
+                    ],
+                    "genre": [
+                        "science fiction",
+                        "standard",
+                        "IMAX",
+                        "christian",
+                        "Disney movies",
+                        "regular ole' comedy",
+                        "{action#horror}",
+                        "Horror",
+                        "Romantic",
+                        "rom-com"
+                    ],
+                    "state": [
+                        "ME",
+                        "NM",
+                        "OHIO",
+                        "NY",
+                        "New York",
+                        "Oregon",
+                        "north carolina",
+                        "B.C",
+                        "Iowa",
+                        "mi"
+                    ],
+                    "theater_chain": [
+                        "regal",
+                        "Regal theater",
+                        "AMC"
+                    ],
+                    "video_format": [
+                        "standard version",
+                        "normal",
+                        "standard",
+                        "3d",
+                        "Imax",
+                        "Imax 3d",
+                        "normal",
+                        "IMAX 3d",
+                        "imax 3d",
+                        "Imax 3d"
+                    ],
+                    "distanceconstraints": [
+                        "near Woodbury",
+                        "in vegas area",
+                        "Anywhere",
+                        "near 94102",
+                        "downtown",
+                        "in the south part",
+                        "closest",
+                        "near Crystal Lake",
+                        "near bakersfield california",
+                        "within 50 miles of 53565"
+                    ],
+                    "actress": [
+                        "tina fey",
+                        "Jennifer Lawrence",
+                        "melissa mcarthy",
+                        "Tina Fey",
+                        "Melissa McCarthy",
+                        "{Tina Fey#Margot Robbie}"
+                    ],
+                    "other": [
+                        "sounds good if it's available",
+                        "pro_2016-03-09T00-33-56_fa2bf452-5faf-491b-80e5-d2948bc8a1bd",
+                        "take kids",
+                        "I don't care.",
+                        "No that is all.",
+                        "Kind of like a mind-game movie",
+                        "Yes please do the search",
+                        "pro_2016-03-07T22-42-28_df456016-aa62-4fd2-9afd-aee5783c63d5",
+                        "late",
+                        "pro_2016-03-07T22-42-11_eb7a5f23-746b-42aa-a528-6e3b358cf747"
+                    ],
+                    "zip": [
+                        "44510",
+                        "10035",
+                        "60101",
+                        "10014",
+                        "48126",
+                        "91205",
+                        "48895",
+                        "07628",
+                        "15202",
+                        "20619"
+                    ],
+                    "description": [
+                        "romantic",
+                        "romantic",
+                        "romantic",
+                        "Along the lines of gritty and or gangster ones",
+                        "best kids",
+                        "sports related",
+                        "latest",
+                        "the only kids movie",
+                        "oscar winning film",
+                        "the leads"
+                    ],
+                    "numberofkids": [
+                        "1",
+                        "6",
+                        "20",
+                        "15",
+                        "0",
+                        "4",
+                        "none",
+                        "2",
+                        "3"
+                    ],
+                    "food": [
+                        "steak"
+                    ],
+                    "critic_rating": [
+                        "horrible",
+                        "best",
+                        "top reviewed",
+                        "lowest rated movie",
+                        "high rated",
+                        "top rated",
+                        "the top",
+                        "high",
+                        "the lowest",
+                        "3 out of 5 stars",
+                        "top",
+                        "the highest"
+                    ],
+                    "pickup_time": [
+                        "11 pm"
+                    ],
+                    "pickup_location": [
+                        "six flags great America"
+                    ],
+                    "dropoff_location": [
+                        "mchenry il on the corner of 3rd avenue and Washington street"
+                    ],
+                    "mpaa_rating": [
+                        "safe for 7 years olds",
+                        "Pg",
+                        "{PG#G}",
+                        "not rated r",
+                        "g",
+                        "R-Rated",
+                        "G",
+                        "R",
+                        "PG",
+                        "not rated R",
+                        "above PG-13",
+                        "pg-13",
+                        "{pg13#R}",
+                        "pg-13 rated",
+                        "{G#PG}",
+                        "pg13",
+                        "pg13 or lower",
+                        "PG-13",
+                        "PG-rated",
+                        "any"
+                    ],
+                    "actor": [
+                        "Ryan Reynolds",
+                        "yan Reynolds",
+                        "John Goodman",
+                        "Bruce Willis",
+                        "will smith",
+                        "Bradley Cooper",
+                        "Brad Pitt",
+                        "Cohen",
+                        "the Roc",
+                        "tom cruise",
+                        "nicolas cage",
+                        "Brad pitt",
+                        "Tom Cruise",
+                        "tear jerkers",
+                        "paul rudd"
+                    ],
+                    "movie_series": [
+                        "the divergent series",
+                        "divergence",
+                        "Superman movie",
+                        "Divergent Series movie",
+                        "Divergent Series",
+                        "The Divergent Series",
+                        "The Divergent",
+                        "Divergent"
+                    ],
+                    "price": [
+                        "less expensive",
+                        "50% off",
+                        "moderately",
+                        "regular",
+                        "the cheapest",
+                        "$50",
+                        "expensive",
+                        "cheaper",
+                        "cheapest",
+                        "less than $10"
+                    ],
+                    "seating": [
+                        "recliner seating",
+                        "in the middle",
+                        "recliner"
+                    ],
+                    "cuisine": [
+                        "{Chinese#Japanese}"
+                    ]
+                }
+            },
+            "intents": {
+                "movie": [
+                    "confirm_answer",
+                    "Not_Sure",
+                    "request",
+                    "thanks",
+                    "Deny",
+                    "greeting",
+                    "inform",
+                    "closing",
+                    "confirm_question",
+                    "multiple_choice"
+                ]
+            }
+        },
+        "external knowledge": "()",
+        "dst knowledge": "( movie : ( moviename : ( Room | Back to the Future | batman versus superman | Lady in the Van | my big fat greek wedding 2 | Hail Caesar | the young miracle | Batman Vs. Superman: Dawn of Justice | x-men x-men apocalypse | Batman ) | date : ( Friday 3/11/2016 | on April 1st | 16-Mar | 03/20/2016 | Tomorrow. | early tomorrow evening | tomorrow afternoon | this saturday | Wens the 23rd | March 12 ) | theater : ( on the south east side of Chicago | Regal Santium Stadium 11 | Dodge Theater | New Roc City | Regal Cinemas Beaver Creek Stadium 12 | Edwards Greenway Grand Palace Stadium 24 & RPX | AMC Westshore Plaza | Regal Providence Stadium | Pacific Glendale 18 | the studio movie grill ) | city : ( gary | ney york | SAcramento | San diego | Burlington | petoskey | Wheaton | Harrisburg | nashua | Redding ) | starttime : ( 4:05pm | saturday | 20:00 | 12:55 | near 6pm | 11:05 | this afternoon | around 6-11 PM | (3:55#7:35) | 3:10pm ) | numberofpeople : ( 4 tickets | ten or more | 4 | The Young Messiah | 10 | 5 | The Young Messiah | 9 | Two | 10 ) | genre : ( science fiction | standard | IMAX | christian | Disney movies | \"regular ole comedy\" | (action#horror) | Horror | Romantic | rom-com ) | state : ( ME | NM | OHIO | NY | New York | Oregon | north carolina | B.C | Iowa | mi ) | theater_chain : ( regal | Regal theater | AMC ) | video_format : ( standard version | normal | standard | 3d | Imax | Imax 3d | normal | IMAX 3d | imax 3d | Imax 3d ) | distanceconstraints : ( near Woodbury | in vegas area | Anywhere | near 94102 | downtown | in the south part | closest | near Crystal Lake | near bakersfield california | within 50 miles of 53565 ) | actress : ( tina fey | Jennifer Lawrence | melissa mcarthy | Tina Fey | Melissa McCarthy | (Tina Fey#Margot Robbie) ) | other : (\"sounds good if it s available\" | pro_2016-03-09T00-33-56_fa2bf452-5faf-491b-80e5-d2948bc8a1bd | take kids | \"I don t care.\" | No that is all. | Kind of like a mind-game movie | Yes please do the search | pro_2016-03-07T22-42-28_df456016-aa62-4fd2-9afd-aee5783c63d5 | late | pro_2016-03-07T22-42-11_eb7a5f23-746b-42aa-a528-6e3b358cf747 ) | zip : ( 44510 | 10035 | 60101 | 10014 | 48126 | 91205 | 48895 | 07628 | 15202 | 20619 ) | description : ( romantic | romantic | romantic | Along the lines of gritty and or gangster ones | best kids | sports related | latest | the only kids movie | oscar winning film | the leads ) | numberofkids : ( 1 | 6 | 20 | 15 | 0 | 4 | none | 2 | 3 ) | food : ( steak ) | critic_rating : ( horrible | best | top reviewed | lowest rated movie | high rated | top rated | the top | high | the lowest | 3 out of 5 stars | top | the highest ) | pickup_time : ( 11 pm ) | pickup_location : ( six flags great America ) | dropoff_location : ( mchenry il on the corner of 3rd avenue and Washington street ) | mpaa_rating : ( safe for 7 years olds | Pg | (PG#G) | not rated r | g | R-Rated | G | R | PG | not rated R | above PG-13 | pg-13 | (pg13#R) | pg-13 rated | (G#PG) | pg13 | pg13 or lower | PG-13 | PG-rated | any ) | actor : ( Ryan Reynolds | yan Reynolds | John Goodman | Bruce Willis | will smith | Bradley Cooper | Brad Pitt | Cohen | the Roc | tom cruise | nicolas cage | Brad pitt | Tom Cruise | tear jerkers | paul rudd ) | movie_series : ( the divergent series | divergence | Superman movie | Divergent Series movie | Divergent Series | The Divergent Series | The Divergent | Divergent ) | price : ( less expensive | 50% off | moderately | regular | the cheapest | $50 | expensive | cheaper | cheapest | less than $10 ) | seating : ( recliner seating | in the middle | recliner ) | cuisine : ( (Chinese#Japanese) )))",
+        "intent knowledge": "( movie : ( confirm_answer | Not_Sure | request | thanks | Deny | greeting | inform | closing | confirm_question | multiple_choice ))",
+        "prompt": [
+            "This is a bot helping users to book a movie ticket. Given the dialog context and external database, please generate a relevant system response for the user.",
+            "This bot assists users to book a movie ticket. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
+            "This bot helps users to book a movie ticket. Based on the conversation history and available external data, please generate a relevant system response for the user.",
+            "The purpose of this bot is to assist users to book a movie ticket. Considering the dialogue context and the information available in the external database, please provide a fitting response for the user.",
+            "This bot is designed to help users book a movie ticket. By utilizing the current dialog context and external resources, generate a fitting response for the user."
+        ]
+    },
+    "MS-DC--train--4": {
+        "original dialog id": "4",
+        "dialog index": 4,
+        "original dialog info": {
+            "domain": "movie"
+        },
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "Hi! I'm looking for good thriller. Are there any playing right now?",
+                "system response": "Yes, there are! The Witch, The Other Side of the Door, and The Boy are all thrillers. Would you like to find tickets for a showing for any of them?",
+                "dialog history": "",
+                "original user side information": {
+                    "act": [
+                        "greeting(greeting=Hi) ",
+                        "request(moviename;genre=thriller;starttime=right now)"
+                    ]
+                },
+                "original system side information": {
+                    "act": [
+                        "inform(moviename={The Witch#The Other Side of the Door#The Boy};genre=thriller) ",
+                        "multiple_choice(moviename)"
+                    ]
+                },
+                "dst": "movie genre thriller, movie starttime right now",
+                "dst accumulated": "movie genre thriller, movie starttime right now",
+                "intent": "greeting, request"
+            },
+            {
+                "turn id": 2,
+                "user utterance": "The other side of the door sounds scary! great! Can I get 4 tickets in Carbondale, Illinois for Tuesday night?",
+                "system response": "Do you have a time range in mind?",
+                "dialog history": "<USER> Hi! I'm looking for good thriller. Are there any playing right now? <SYSTEM> Yes, there are! The Witch, The Other Side of the Door, and The Boy are all thrillers. Would you like to find tickets for a showing for any of them?",
+                "original user side information": {
+                    "act": [
+                        "inform(moviename=The Other Side of the Door)",
+                        "request(ticket;numberofpeople=4;city=Carbondale;state=Illinois;date=Tuesday night)"
+                    ]
+                },
+                "original system side information": {
+                    "act": [
+                        "request(starttime)"
+                    ]
+                },
+                "dst": "movie moviename The Other Side of the Door, movie numberofpeople 4, movie city Carbondale, movie state Illinois, movie date Tuesday night",
+                "dst accumulated": "movie genre thriller, movie starttime right now, movie moviename The Other Side of the Door, movie numberofpeople 4, movie city Carbondale, movie state Illinois, movie date Tuesday night",
+                "intent": "inform, request"
+            },
+            {
+                "turn id": 3,
+                "user utterance": "Anytime after 7pm.",
+                "system response": "I'm sorry The Other Side of The Door is not playing in your area on Tuesday.I am able to find show times for The Witch and Triple 9.",
+                "dialog history": "<USER> Hi! I'm looking for good thriller. Are there any playing right now? <SYSTEM> Yes, there are! The Witch, The Other Side of the Door, and The Boy are all thrillers. Would you like to find tickets for a showing for any of them? <USER> The other side of the door sounds scary! great! Can I get 4 tickets in Carbondale, Illinois for Tuesday night? <SYSTEM> Do you have a time range in mind?",
+                "original user side information": {
+                    "act": [
+                        "inform(starttime=Anytime after 7pm)"
+                    ]
+                },
+                "original system side information": {
+                    "act": [
+                        "inform(result={};moviename=The Other Side of The Door;date=Tuesday;distanceconstraints=in your area)",
+                        "inform(moviename={The Witch#Triple 9};other= show times)"
+                    ]
+                },
+                "dst": "movie starttime Anytime after 7pm",
+                "dst accumulated": "movie genre thriller, movie starttime Anytime after 7pm, movie moviename The Other Side of the Door, movie numberofpeople 4, movie city Carbondale, movie state Illinois, movie date Tuesday night",
+                "intent": "inform"
+            },
+            {
+                "turn id": 4,
+                "user utterance": "The Witch will be fine.",
+                "system response": "I'm sorry they are only showing The Witch at 4:40 pm.  Would that be acceptable for you?",
+                "dialog history": "<USER> Hi! I'm looking for good thriller. Are there any playing right now? <SYSTEM> Yes, there are! The Witch, The Other Side of the Door, and The Boy are all thrillers. Would you like to find tickets for a showing for any of them? <USER> The other side of the door sounds scary! great! Can I get 4 tickets in Carbondale, Illinois for Tuesday night? <SYSTEM> Do you have a time range in mind? <USER> Anytime after 7pm. <SYSTEM> I'm sorry The Other Side of The Door is not playing in your area on Tuesday.I am able to find show times for The Witch and Triple 9.",
+                "original user side information": {
+                    "act": [
+                        "inform(moviename=The Witch)"
+                    ]
+                },
+                "original system side information": {
+                    "act": [
+                        "inform(moviename=The Witch;starttime=4:40pm) ",
+                        "confirm_question()"
+                    ]
+                },
+                "dst": "movie moviename The Witch",
+                "dst accumulated": "movie genre thriller, movie starttime Anytime after 7pm, movie moviename The Witch, movie numberofpeople 4, movie city Carbondale, movie state Illinois, movie date Tuesday night",
+                "intent": "inform"
+            },
+            {
+                "turn id": 5,
+                "user utterance": "That'll be fine. We'll movie before dinner.",
+                "system response": "I've purchased 4 tickets for The Witch at AMC SHOWPLACE CARBONDALE 8 for 4:40 PM. Thank you",
+                "dialog history": "<USER> Hi! I'm looking for good thriller. Are there any playing right now? <SYSTEM> Yes, there are! The Witch, The Other Side of the Door, and The Boy are all thrillers. Would you like to find tickets for a showing for any of them? <USER> The other side of the door sounds scary! great! Can I get 4 tickets in Carbondale, Illinois for Tuesday night? <SYSTEM> Do you have a time range in mind? <USER> Anytime after 7pm. <SYSTEM> I'm sorry The Other Side of The Door is not playing in your area on Tuesday.I am able to find show times for The Witch and Triple 9. <USER> The Witch will be fine. <SYSTEM> I'm sorry they are only showing The Witch at 4:40 pm.  Would that be acceptable for you?",
+                "original user side information": {
+                    "act": [
+                        "confirm_answer()",
+                        "inform(starttime=before dinner)"
+                    ]
+                },
+                "original system side information": {
+                    "act": [
+                        "inform(taskcomplete;numberofpeople=4;moviename=The Witch;theater=AMC SHOWPLACE CARBONDALE 8;city=Carbondale;starttime=4:40PM) ",
+                        "thanks(closing=thank you)"
+                    ]
+                },
+                "dst": "movie starttime before dinner",
+                "dst accumulated": "movie genre thriller, movie starttime before dinner, movie moviename The Witch, movie numberofpeople 4, movie city Carbondale, movie state Illinois, movie date Tuesday night",
+                "intent": "confirm_answer, inform"
+            },
+            {
+                "turn id": 6,
+                "user utterance": "Thank you so much.",
+                "system response": "Thank you.",
+                "dialog history": "<USER> Hi! I'm looking for good thriller. Are there any playing right now? <SYSTEM> Yes, there are! The Witch, The Other Side of the Door, and The Boy are all thrillers. Would you like to find tickets for a showing for any of them? <USER> The other side of the door sounds scary! great! Can I get 4 tickets in Carbondale, Illinois for Tuesday night? <SYSTEM> Do you have a time range in mind? <USER> Anytime after 7pm. <SYSTEM> I'm sorry The Other Side of The Door is not playing in your area on Tuesday.I am able to find show times for The Witch and Triple 9. <USER> The Witch will be fine. <SYSTEM> I'm sorry they are only showing The Witch at 4:40 pm.  Would that be acceptable for you? <USER> That'll be fine. We'll movie before dinner. <SYSTEM> I've purchased 4 tickets for The Witch at AMC SHOWPLACE CARBONDALE 8 for 4:40 PM. Thank you",
+                "original user side information": {
+                    "act": [
+                        "thanks(closing=Thank you so much)"
+                    ]
+                },
+                "original system side information": {
+                    "act": [
+                        "thanks(closing=Thank you)"
+                    ]
+                },
+                "dst": "",
+                "dst accumulated": "movie genre thriller, movie starttime before dinner, movie moviename The Witch, movie numberofpeople 4, movie city Carbondale, movie state Illinois, movie date Tuesday night",
+                "intent": "thanks"
+            }
+        ],
+        "external knowledge non-flat": {
+            "metadata": {},
+            "slots and values": {
+                "movie": {
+                    "moviename": [
+                        "Room",
+                        "Back to the Future",
+                        "batman versus superman",
+                        "Lady in the Van",
+                        "my big fat greek wedding 2",
+                        "Hail Caesar",
+                        "the young miracle",
+                        "Batman Vs. Superman: Dawn of Justice",
+                        "x-men x-men apocalypse",
+                        "Batman"
+                    ],
+                    "date": [
+                        "Friday 3/11/2016",
+                        "on April 1st",
+                        "16-Mar",
+                        "03/20/2016",
+                        "Tomorrow.",
+                        "early tomorrow evening",
+                        "tomorrow afternoon",
+                        "this saturday",
+                        "Wens the 23rd",
+                        "March 12"
+                    ],
+                    "theater": [
+                        "on the south east side of Chicago",
+                        "Regal Santium Stadium 11",
+                        "Dodge Theater",
+                        "New Roc City",
+                        "Regal Cinemas Beaver Creek Stadium 12",
+                        "Edwards Greenway Grand Palace Stadium 24 & RPX",
+                        "AMC Westshore Plaza",
+                        "Regal Providence Stadium",
+                        "Pacific Glendale 18",
+                        "the studio movie grill"
+                    ],
+                    "city": [
+                        "gary",
+                        "ney york",
+                        "SAcramento",
+                        "San diego",
+                        "Burlington",
+                        "petoskey",
+                        "Wheaton",
+                        "Harrisburg",
+                        "nashua",
+                        "Redding"
+                    ],
+                    "starttime": [
+                        "4:05pm",
+                        "saturday",
+                        "20:00",
+                        "12:55",
+                        "near 6pm",
+                        "11:05",
+                        "this afternoon",
+                        "around 6-11 PM",
+                        "{3:55#7:35}",
+                        "3:10pm"
+                    ],
+                    "numberofpeople": [
+                        "4 tickets",
+                        "ten or more",
+                        "4",
+                        "The Young Messiah",
+                        "10",
+                        "5",
+                        "The Young Messiah",
+                        "9",
+                        "Two",
+                        "10"
+                    ],
+                    "genre": [
+                        "science fiction",
+                        "standard",
+                        "IMAX",
+                        "christian",
+                        "Disney movies",
+                        "regular ole' comedy",
+                        "{action#horror}",
+                        "Horror",
+                        "Romantic",
+                        "rom-com"
+                    ],
+                    "state": [
+                        "ME",
+                        "NM",
+                        "OHIO",
+                        "NY",
+                        "New York",
+                        "Oregon",
+                        "north carolina",
+                        "B.C",
+                        "Iowa",
+                        "mi"
+                    ],
+                    "theater_chain": [
+                        "regal",
+                        "Regal theater",
+                        "AMC"
+                    ],
+                    "video_format": [
+                        "standard version",
+                        "normal",
+                        "standard",
+                        "3d",
+                        "Imax",
+                        "Imax 3d",
+                        "normal",
+                        "IMAX 3d",
+                        "imax 3d",
+                        "Imax 3d"
+                    ],
+                    "distanceconstraints": [
+                        "near Woodbury",
+                        "in vegas area",
+                        "Anywhere",
+                        "near 94102",
+                        "downtown",
+                        "in the south part",
+                        "closest",
+                        "near Crystal Lake",
+                        "near bakersfield california",
+                        "within 50 miles of 53565"
+                    ],
+                    "actress": [
+                        "tina fey",
+                        "Jennifer Lawrence",
+                        "melissa mcarthy",
+                        "Tina Fey",
+                        "Melissa McCarthy",
+                        "{Tina Fey#Margot Robbie}"
+                    ],
+                    "other": [
+                        "sounds good if it's available",
+                        "pro_2016-03-09T00-33-56_fa2bf452-5faf-491b-80e5-d2948bc8a1bd",
+                        "take kids",
+                        "I don't care.",
+                        "No that is all.",
+                        "Kind of like a mind-game movie",
+                        "Yes please do the search",
+                        "pro_2016-03-07T22-42-28_df456016-aa62-4fd2-9afd-aee5783c63d5",
+                        "late",
+                        "pro_2016-03-07T22-42-11_eb7a5f23-746b-42aa-a528-6e3b358cf747"
+                    ],
+                    "zip": [
+                        "44510",
+                        "10035",
+                        "60101",
+                        "10014",
+                        "48126",
+                        "91205",
+                        "48895",
+                        "07628",
+                        "15202",
+                        "20619"
+                    ],
+                    "description": [
+                        "romantic",
+                        "romantic",
+                        "romantic",
+                        "Along the lines of gritty and or gangster ones",
+                        "best kids",
+                        "sports related",
+                        "latest",
+                        "the only kids movie",
+                        "oscar winning film",
+                        "the leads"
+                    ],
+                    "numberofkids": [
+                        "1",
+                        "6",
+                        "20",
+                        "15",
+                        "0",
+                        "4",
+                        "none",
+                        "2",
+                        "3"
+                    ],
+                    "food": [
+                        "steak"
+                    ],
+                    "critic_rating": [
+                        "horrible",
+                        "best",
+                        "top reviewed",
+                        "lowest rated movie",
+                        "high rated",
+                        "top rated",
+                        "the top",
+                        "high",
+                        "the lowest",
+                        "3 out of 5 stars",
+                        "top",
+                        "the highest"
+                    ],
+                    "pickup_time": [
+                        "11 pm"
+                    ],
+                    "pickup_location": [
+                        "six flags great America"
+                    ],
+                    "dropoff_location": [
+                        "mchenry il on the corner of 3rd avenue and Washington street"
+                    ],
+                    "mpaa_rating": [
+                        "safe for 7 years olds",
+                        "Pg",
+                        "{PG#G}",
+                        "not rated r",
+                        "g",
+                        "R-Rated",
+                        "G",
+                        "R",
+                        "PG",
+                        "not rated R",
+                        "above PG-13",
+                        "pg-13",
+                        "{pg13#R}",
+                        "pg-13 rated",
+                        "{G#PG}",
+                        "pg13",
+                        "pg13 or lower",
+                        "PG-13",
+                        "PG-rated",
+                        "any"
+                    ],
+                    "actor": [
+                        "Ryan Reynolds",
+                        "yan Reynolds",
+                        "John Goodman",
+                        "Bruce Willis",
+                        "will smith",
+                        "Bradley Cooper",
+                        "Brad Pitt",
+                        "Cohen",
+                        "the Roc",
+                        "tom cruise",
+                        "nicolas cage",
+                        "Brad pitt",
+                        "Tom Cruise",
+                        "tear jerkers",
+                        "paul rudd"
+                    ],
+                    "movie_series": [
+                        "the divergent series",
+                        "divergence",
+                        "Superman movie",
+                        "Divergent Series movie",
+                        "Divergent Series",
+                        "The Divergent Series",
+                        "The Divergent",
+                        "Divergent"
+                    ],
+                    "price": [
+                        "less expensive",
+                        "50% off",
+                        "moderately",
+                        "regular",
+                        "the cheapest",
+                        "$50",
+                        "expensive",
+                        "cheaper",
+                        "cheapest",
+                        "less than $10"
+                    ],
+                    "seating": [
+                        "recliner seating",
+                        "in the middle",
+                        "recliner"
+                    ],
+                    "cuisine": [
+                        "{Chinese#Japanese}"
+                    ]
+                }
+            },
+            "intents": {
+                "movie": [
+                    "confirm_answer",
+                    "Not_Sure",
+                    "request",
+                    "thanks",
+                    "Deny",
+                    "greeting",
+                    "inform",
+                    "closing",
+                    "confirm_question",
+                    "multiple_choice"
+                ]
+            }
+        },
+        "external knowledge": "()",
+        "dst knowledge": "( movie : ( moviename : ( Room | Back to the Future | batman versus superman | Lady in the Van | my big fat greek wedding 2 | Hail Caesar | the young miracle | Batman Vs. Superman: Dawn of Justice | x-men x-men apocalypse | Batman ) | date : ( Friday 3/11/2016 | on April 1st | 16-Mar | 03/20/2016 | Tomorrow. | early tomorrow evening | tomorrow afternoon | this saturday | Wens the 23rd | March 12 ) | theater : ( on the south east side of Chicago | Regal Santium Stadium 11 | Dodge Theater | New Roc City | Regal Cinemas Beaver Creek Stadium 12 | Edwards Greenway Grand Palace Stadium 24 & RPX | AMC Westshore Plaza | Regal Providence Stadium | Pacific Glendale 18 | the studio movie grill ) | city : ( gary | ney york | SAcramento | San diego | Burlington | petoskey | Wheaton | Harrisburg | nashua | Redding ) | starttime : ( 4:05pm | saturday | 20:00 | 12:55 | near 6pm | 11:05 | this afternoon | around 6-11 PM | (3:55#7:35) | 3:10pm ) | numberofpeople : ( 4 tickets | ten or more | 4 | The Young Messiah | 10 | 5 | The Young Messiah | 9 | Two | 10 ) | genre : ( science fiction | standard | IMAX | christian | Disney movies | \"regular ole comedy\" | (action#horror) | Horror | Romantic | rom-com ) | state : ( ME | NM | OHIO | NY | New York | Oregon | north carolina | B.C | Iowa | mi ) | theater_chain : ( regal | Regal theater | AMC ) | video_format : ( standard version | normal | standard | 3d | Imax | Imax 3d | normal | IMAX 3d | imax 3d | Imax 3d ) | distanceconstraints : ( near Woodbury | in vegas area | Anywhere | near 94102 | downtown | in the south part | closest | near Crystal Lake | near bakersfield california | within 50 miles of 53565 ) | actress : ( tina fey | Jennifer Lawrence | melissa mcarthy | Tina Fey | Melissa McCarthy | (Tina Fey#Margot Robbie) ) | other : (\"sounds good if it s available\" | pro_2016-03-09T00-33-56_fa2bf452-5faf-491b-80e5-d2948bc8a1bd | take kids | \"I don t care.\" | No that is all. | Kind of like a mind-game movie | Yes please do the search | pro_2016-03-07T22-42-28_df456016-aa62-4fd2-9afd-aee5783c63d5 | late | pro_2016-03-07T22-42-11_eb7a5f23-746b-42aa-a528-6e3b358cf747 ) | zip : ( 44510 | 10035 | 60101 | 10014 | 48126 | 91205 | 48895 | 07628 | 15202 | 20619 ) | description : ( romantic | romantic | romantic | Along the lines of gritty and or gangster ones | best kids | sports related | latest | the only kids movie | oscar winning film | the leads ) | numberofkids : ( 1 | 6 | 20 | 15 | 0 | 4 | none | 2 | 3 ) | food : ( steak ) | critic_rating : ( horrible | best | top reviewed | lowest rated movie | high rated | top rated | the top | high | the lowest | 3 out of 5 stars | top | the highest ) | pickup_time : ( 11 pm ) | pickup_location : ( six flags great America ) | dropoff_location : ( mchenry il on the corner of 3rd avenue and Washington street ) | mpaa_rating : ( safe for 7 years olds | Pg | (PG#G) | not rated r | g | R-Rated | G | R | PG | not rated R | above PG-13 | pg-13 | (pg13#R) | pg-13 rated | (G#PG) | pg13 | pg13 or lower | PG-13 | PG-rated | any ) | actor : ( Ryan Reynolds | yan Reynolds | John Goodman | Bruce Willis | will smith | Bradley Cooper | Brad Pitt | Cohen | the Roc | tom cruise | nicolas cage | Brad pitt | Tom Cruise | tear jerkers | paul rudd ) | movie_series : ( the divergent series | divergence | Superman movie | Divergent Series movie | Divergent Series | The Divergent Series | The Divergent | Divergent ) | price : ( less expensive | 50% off | moderately | regular | the cheapest | $50 | expensive | cheaper | cheapest | less than $10 ) | seating : ( recliner seating | in the middle | recliner ) | cuisine : ( (Chinese#Japanese) )))",
+        "intent knowledge": "( movie : ( confirm_answer | Not_Sure | request | thanks | Deny | greeting | inform | closing | confirm_question | multiple_choice ))",
+        "prompt": [
+            "This is a bot helping users to book a movie ticket. Given the dialog context and external database, please generate a relevant system response for the user.",
+            "This bot assists users to book a movie ticket. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
+            "This bot helps users to book a movie ticket. Based on the conversation history and available external data, please generate a relevant system response for the user.",
+            "The purpose of this bot is to assist users to book a movie ticket. Considering the dialogue context and the information available in the external database, please provide a fitting response for the user.",
+            "This bot is designed to help users book a movie ticket. By utilizing the current dialog context and external resources, generate a fitting response for the user."
+        ]
+    },
+    "MS-DC--train--5": {
+        "original dialog id": "5",
+        "dialog index": 5,
+        "original dialog info": {
+            "domain": "movie"
+        },
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "Hello",
+                "system response": "Hello there, are you interested in purchasing movie tickets?",
+                "dialog history": "",
+                "original user side information": {
+                    "act": [
+                        "greeting(greeting=Hello)"
+                    ]
+                },
+                "original system side information": {
+                    "act": [
+                        "greeting(greeting=Hello there)",
+                        "confirm_question()"
+                    ]
+                },
+                "dst": "",
+                "dst accumulated": "",
+                "intent": "greeting"
+            },
+            {
+                "turn id": 2,
+                "user utterance": "Yes, I am. Can you tell me what's playing tomorrow night around 8PM in Seattle?",
+                "system response": "All of the top current movies are playing: Zootopia, London Has Fallen, and Whisky Tango Foxtrot were the top 4 last weekend.  Do any of these interest you?",
+                "dialog history": "<USER> Hello <SYSTEM> Hello there, are you interested in purchasing movie tickets?",
+                "original user side information": {
+                    "act": [
+                        "confirm_answer()",
+                        "request(moviename;starttime=around 8PM;date=tomorrow night;city=Seattle)"
+                    ]
+                },
+                "original system side information": {
+                    "act": [
+                        "inform(moviename={Zootopia#London Has Fallen#Whisky Tango Foxtrot};description=top 4)",
+                        "multiple_choice(moviename)"
+                    ]
+                },
+                "dst": "movie starttime around 8PM, movie date tomorrow night, movie city Seattle",
+                "dst accumulated": "movie starttime around 8PM, movie date tomorrow night, movie city Seattle",
+                "intent": "confirm_answer, request"
+            },
+            {
+                "turn id": 3,
+                "user utterance": "London Has Fallen might... did it get good reviews? I was thinking of seeing Deadpool but I might consider London Has Fallen.",
+                "system response": "London has Fallen got a lowly 26% On Rotten Tomatoes but 64% of the audience seemed to like it.",
+                "dialog history": "<USER> Hello <SYSTEM> Hello there, are you interested in purchasing movie tickets? <USER> Yes, I am. Can you tell me what's playing tomorrow night around 8PM in Seattle? <SYSTEM> All of the top current movies are playing: Zootopia, London Has Fallen, and Whisky Tango Foxtrot were the top 4 last weekend.  Do any of these interest you?",
+                "original user side information": {
+                    "act": [
+                        "confirm_question()",
+                        "inform(moviename=London Has Fallen)"
+                    ]
+                },
+                "original system side information": {
+                    "act": [
+                        "inform(moviename=London has Fallen;critic_rating=26%;description=64% of the audience like it)"
+                    ]
+                },
+                "dst": "movie moviename London Has Fallen",
+                "dst accumulated": "movie starttime around 8PM, movie date tomorrow night, movie city Seattle, movie moviename London Has Fallen",
+                "intent": "confirm_question, inform"
+            },
+            {
+                "turn id": 4,
+                "user utterance": "I guess I'll take my chances. Can I get two tickets to the 8 o'clock showing tonight?",
+                "system response": "I show London Has Fallen is playing at 9:20 pm at REGAL MERIDIAN 16 1501 7th Ave, Seattle, WA 98101 or at 7:00pm or 9:45pm at BELLEVUE LINCOLN SQUARE CINEMAS 700 Bellevue Way NE, Bellevue, WA 98004.  Would any of these work for you?",
+                "dialog history": "<USER> Hello <SYSTEM> Hello there, are you interested in purchasing movie tickets? <USER> Yes, I am. Can you tell me what's playing tomorrow night around 8PM in Seattle? <SYSTEM> All of the top current movies are playing: Zootopia, London Has Fallen, and Whisky Tango Foxtrot were the top 4 last weekend.  Do any of these interest you? <USER> London Has Fallen might... did it get good reviews? I was thinking of seeing Deadpool but I might consider London Has Fallen. <SYSTEM> London has Fallen got a lowly 26% On Rotten Tomatoes but 64% of the audience seemed to like it.",
+                "original user side information": {
+                    "act": [
+                        "inform(other=I guess I'll take my chances)",
+                        "request(ticket;numberofpeople=2;starttime=8 o'clock;date=tonight)"
+                    ]
+                },
+                "original system side information": {
+                    "act": [
+                        "inform(moviename=london has fallen;mc_list={starttime=9:20 pm||theater=regal meridian 16||city=seattle|| state=wa||zip=98101}#{starttime={7:00pm#9:45pm}|| theater=BELLEVUE LINCOLN SQUARE CINEMAS||city=Bellevue||state=wa||zip=98004})",
+                        "multiple_choice(mc_list)"
+                    ]
+                },
+                "dst": "movie other I guess I'll take my chances, movie numberofpeople 2, movie starttime 8 o'clock, movie date tonight",
+                "dst accumulated": "movie starttime 8 o'clock, movie date tonight, movie city Seattle, movie moviename London Has Fallen, movie other I guess I'll take my chances, movie numberofpeople 2",
+                "intent": "inform, request"
+            },
+            {
+                "turn id": 5,
+                "user utterance": "Let's do two tickets to the 9:20 at Regal Meridian 16 please",
+                "system response": "I have successfully purchased your tickets. Enjoy the show!",
+                "dialog history": "<USER> Hello <SYSTEM> Hello there, are you interested in purchasing movie tickets? <USER> Yes, I am. Can you tell me what's playing tomorrow night around 8PM in Seattle? <SYSTEM> All of the top current movies are playing: Zootopia, London Has Fallen, and Whisky Tango Foxtrot were the top 4 last weekend.  Do any of these interest you? <USER> London Has Fallen might... did it get good reviews? I was thinking of seeing Deadpool but I might consider London Has Fallen. <SYSTEM> London has Fallen got a lowly 26% On Rotten Tomatoes but 64% of the audience seemed to like it. <USER> I guess I'll take my chances. Can I get two tickets to the 8 o'clock showing tonight? <SYSTEM> I show London Has Fallen is playing at 9:20 pm at REGAL MERIDIAN 16 1501 7th Ave, Seattle, WA 98101 or at 7:00pm or 9:45pm at BELLEVUE LINCOLN SQUARE CINEMAS 700 Bellevue Way NE, Bellevue, WA 98004.  Would any of these work for you?",
+                "original user side information": {
+                    "act": [
+                        "inform(numberofpeople=2;starttime=9:20;theater=Regal Meridian 16)"
+                    ]
+                },
+                "original system side information": {
+                    "act": [
+                        "inform(taskcomplete)",
+                        "closing(closing=Enjoy the show)"
+                    ]
+                },
+                "dst": "movie numberofpeople 2, movie starttime 9:20, movie theater Regal Meridian 16",
+                "dst accumulated": "movie starttime 9:20, movie date tonight, movie city Seattle, movie moviename London Has Fallen, movie other I guess I'll take my chances, movie numberofpeople 2, movie theater Regal Meridian 16",
+                "intent": "inform"
+            },
+            {
+                "turn id": 6,
+                "user utterance": "Thank you!",
+                "system response": "You're welcome!",
+                "dialog history": "<USER> Hello <SYSTEM> Hello there, are you interested in purchasing movie tickets? <USER> Yes, I am. Can you tell me what's playing tomorrow night around 8PM in Seattle? <SYSTEM> All of the top current movies are playing: Zootopia, London Has Fallen, and Whisky Tango Foxtrot were the top 4 last weekend.  Do any of these interest you? <USER> London Has Fallen might... did it get good reviews? I was thinking of seeing Deadpool but I might consider London Has Fallen. <SYSTEM> London has Fallen got a lowly 26% On Rotten Tomatoes but 64% of the audience seemed to like it. <USER> I guess I'll take my chances. Can I get two tickets to the 8 o'clock showing tonight? <SYSTEM> I show London Has Fallen is playing at 9:20 pm at REGAL MERIDIAN 16 1501 7th Ave, Seattle, WA 98101 or at 7:00pm or 9:45pm at BELLEVUE LINCOLN SQUARE CINEMAS 700 Bellevue Way NE, Bellevue, WA 98004.  Would any of these work for you? <USER> Let's do two tickets to the 9:20 at Regal Meridian 16 please <SYSTEM> I have successfully purchased your tickets. Enjoy the show!",
+                "original user side information": {
+                    "act": [
+                        "thanks(closing=Thank you!)"
+                    ]
+                },
+                "original system side information": {
+                    "act": [
+                        "welcome()"
+                    ]
+                },
+                "dst": "",
+                "dst accumulated": "movie starttime 9:20, movie date tonight, movie city Seattle, movie moviename London Has Fallen, movie other I guess I'll take my chances, movie numberofpeople 2, movie theater Regal Meridian 16",
+                "intent": "thanks"
+            }
+        ],
+        "external knowledge non-flat": {
+            "metadata": {},
+            "slots and values": {
+                "movie": {
+                    "moviename": [
+                        "Room",
+                        "Back to the Future",
+                        "batman versus superman",
+                        "Lady in the Van",
+                        "my big fat greek wedding 2",
+                        "Hail Caesar",
+                        "the young miracle",
+                        "Batman Vs. Superman: Dawn of Justice",
+                        "x-men x-men apocalypse",
+                        "Batman"
+                    ],
+                    "date": [
+                        "Friday 3/11/2016",
+                        "on April 1st",
+                        "16-Mar",
+                        "03/20/2016",
+                        "Tomorrow.",
+                        "early tomorrow evening",
+                        "tomorrow afternoon",
+                        "this saturday",
+                        "Wens the 23rd",
+                        "March 12"
+                    ],
+                    "theater": [
+                        "on the south east side of Chicago",
+                        "Regal Santium Stadium 11",
+                        "Dodge Theater",
+                        "New Roc City",
+                        "Regal Cinemas Beaver Creek Stadium 12",
+                        "Edwards Greenway Grand Palace Stadium 24 & RPX",
+                        "AMC Westshore Plaza",
+                        "Regal Providence Stadium",
+                        "Pacific Glendale 18",
+                        "the studio movie grill"
+                    ],
+                    "city": [
+                        "gary",
+                        "ney york",
+                        "SAcramento",
+                        "San diego",
+                        "Burlington",
+                        "petoskey",
+                        "Wheaton",
+                        "Harrisburg",
+                        "nashua",
+                        "Redding"
+                    ],
+                    "starttime": [
+                        "4:05pm",
+                        "saturday",
+                        "20:00",
+                        "12:55",
+                        "near 6pm",
+                        "11:05",
+                        "this afternoon",
+                        "around 6-11 PM",
+                        "{3:55#7:35}",
+                        "3:10pm"
+                    ],
+                    "numberofpeople": [
+                        "4 tickets",
+                        "ten or more",
+                        "4",
+                        "The Young Messiah",
+                        "10",
+                        "5",
+                        "The Young Messiah",
+                        "9",
+                        "Two",
+                        "10"
+                    ],
+                    "genre": [
+                        "science fiction",
+                        "standard",
+                        "IMAX",
+                        "christian",
+                        "Disney movies",
+                        "regular ole' comedy",
+                        "{action#horror}",
+                        "Horror",
+                        "Romantic",
+                        "rom-com"
+                    ],
+                    "state": [
+                        "ME",
+                        "NM",
+                        "OHIO",
+                        "NY",
+                        "New York",
+                        "Oregon",
+                        "north carolina",
+                        "B.C",
+                        "Iowa",
+                        "mi"
+                    ],
+                    "theater_chain": [
+                        "regal",
+                        "Regal theater",
+                        "AMC"
+                    ],
+                    "video_format": [
+                        "standard version",
+                        "normal",
+                        "standard",
+                        "3d",
+                        "Imax",
+                        "Imax 3d",
+                        "normal",
+                        "IMAX 3d",
+                        "imax 3d",
+                        "Imax 3d"
+                    ],
+                    "distanceconstraints": [
+                        "near Woodbury",
+                        "in vegas area",
+                        "Anywhere",
+                        "near 94102",
+                        "downtown",
+                        "in the south part",
+                        "closest",
+                        "near Crystal Lake",
+                        "near bakersfield california",
+                        "within 50 miles of 53565"
+                    ],
+                    "actress": [
+                        "tina fey",
+                        "Jennifer Lawrence",
+                        "melissa mcarthy",
+                        "Tina Fey",
+                        "Melissa McCarthy",
+                        "{Tina Fey#Margot Robbie}"
+                    ],
+                    "other": [
+                        "sounds good if it's available",
+                        "pro_2016-03-09T00-33-56_fa2bf452-5faf-491b-80e5-d2948bc8a1bd",
+                        "take kids",
+                        "I don't care.",
+                        "No that is all.",
+                        "Kind of like a mind-game movie",
+                        "Yes please do the search",
+                        "pro_2016-03-07T22-42-28_df456016-aa62-4fd2-9afd-aee5783c63d5",
+                        "late",
+                        "pro_2016-03-07T22-42-11_eb7a5f23-746b-42aa-a528-6e3b358cf747"
+                    ],
+                    "zip": [
+                        "44510",
+                        "10035",
+                        "60101",
+                        "10014",
+                        "48126",
+                        "91205",
+                        "48895",
+                        "07628",
+                        "15202",
+                        "20619"
+                    ],
+                    "description": [
+                        "romantic",
+                        "romantic",
+                        "romantic",
+                        "Along the lines of gritty and or gangster ones",
+                        "best kids",
+                        "sports related",
+                        "latest",
+                        "the only kids movie",
+                        "oscar winning film",
+                        "the leads"
+                    ],
+                    "numberofkids": [
+                        "1",
+                        "6",
+                        "20",
+                        "15",
+                        "0",
+                        "4",
+                        "none",
+                        "2",
+                        "3"
+                    ],
+                    "food": [
+                        "steak"
+                    ],
+                    "critic_rating": [
+                        "horrible",
+                        "best",
+                        "top reviewed",
+                        "lowest rated movie",
+                        "high rated",
+                        "top rated",
+                        "the top",
+                        "high",
+                        "the lowest",
+                        "3 out of 5 stars",
+                        "top",
+                        "the highest"
+                    ],
+                    "pickup_time": [
+                        "11 pm"
+                    ],
+                    "pickup_location": [
+                        "six flags great America"
+                    ],
+                    "dropoff_location": [
+                        "mchenry il on the corner of 3rd avenue and Washington street"
+                    ],
+                    "mpaa_rating": [
+                        "safe for 7 years olds",
+                        "Pg",
+                        "{PG#G}",
+                        "not rated r",
+                        "g",
+                        "R-Rated",
+                        "G",
+                        "R",
+                        "PG",
+                        "not rated R",
+                        "above PG-13",
+                        "pg-13",
+                        "{pg13#R}",
+                        "pg-13 rated",
+                        "{G#PG}",
+                        "pg13",
+                        "pg13 or lower",
+                        "PG-13",
+                        "PG-rated",
+                        "any"
+                    ],
+                    "actor": [
+                        "Ryan Reynolds",
+                        "yan Reynolds",
+                        "John Goodman",
+                        "Bruce Willis",
+                        "will smith",
+                        "Bradley Cooper",
+                        "Brad Pitt",
+                        "Cohen",
+                        "the Roc",
+                        "tom cruise",
+                        "nicolas cage",
+                        "Brad pitt",
+                        "Tom Cruise",
+                        "tear jerkers",
+                        "paul rudd"
+                    ],
+                    "movie_series": [
+                        "the divergent series",
+                        "divergence",
+                        "Superman movie",
+                        "Divergent Series movie",
+                        "Divergent Series",
+                        "The Divergent Series",
+                        "The Divergent",
+                        "Divergent"
+                    ],
+                    "price": [
+                        "less expensive",
+                        "50% off",
+                        "moderately",
+                        "regular",
+                        "the cheapest",
+                        "$50",
+                        "expensive",
+                        "cheaper",
+                        "cheapest",
+                        "less than $10"
+                    ],
+                    "seating": [
+                        "recliner seating",
+                        "in the middle",
+                        "recliner"
+                    ],
+                    "cuisine": [
+                        "{Chinese#Japanese}"
+                    ]
+                }
+            },
+            "intents": {
+                "movie": [
+                    "confirm_answer",
+                    "Not_Sure",
+                    "request",
+                    "thanks",
+                    "Deny",
+                    "greeting",
+                    "inform",
+                    "closing",
+                    "confirm_question",
+                    "multiple_choice"
+                ]
+            }
+        },
+        "external knowledge": "()",
+        "dst knowledge": "( movie : ( moviename : ( Room | Back to the Future | batman versus superman | Lady in the Van | my big fat greek wedding 2 | Hail Caesar | the young miracle | Batman Vs. Superman: Dawn of Justice | x-men x-men apocalypse | Batman ) | date : ( Friday 3/11/2016 | on April 1st | 16-Mar | 03/20/2016 | Tomorrow. | early tomorrow evening | tomorrow afternoon | this saturday | Wens the 23rd | March 12 ) | theater : ( on the south east side of Chicago | Regal Santium Stadium 11 | Dodge Theater | New Roc City | Regal Cinemas Beaver Creek Stadium 12 | Edwards Greenway Grand Palace Stadium 24 & RPX | AMC Westshore Plaza | Regal Providence Stadium | Pacific Glendale 18 | the studio movie grill ) | city : ( gary | ney york | SAcramento | San diego | Burlington | petoskey | Wheaton | Harrisburg | nashua | Redding ) | starttime : ( 4:05pm | saturday | 20:00 | 12:55 | near 6pm | 11:05 | this afternoon | around 6-11 PM | (3:55#7:35) | 3:10pm ) | numberofpeople : ( 4 tickets | ten or more | 4 | The Young Messiah | 10 | 5 | The Young Messiah | 9 | Two | 10 ) | genre : ( science fiction | standard | IMAX | christian | Disney movies | \"regular ole comedy\" | (action#horror) | Horror | Romantic | rom-com ) | state : ( ME | NM | OHIO | NY | New York | Oregon | north carolina | B.C | Iowa | mi ) | theater_chain : ( regal | Regal theater | AMC ) | video_format : ( standard version | normal | standard | 3d | Imax | Imax 3d | normal | IMAX 3d | imax 3d | Imax 3d ) | distanceconstraints : ( near Woodbury | in vegas area | Anywhere | near 94102 | downtown | in the south part | closest | near Crystal Lake | near bakersfield california | within 50 miles of 53565 ) | actress : ( tina fey | Jennifer Lawrence | melissa mcarthy | Tina Fey | Melissa McCarthy | (Tina Fey#Margot Robbie) ) | other : (\"sounds good if it s available\" | pro_2016-03-09T00-33-56_fa2bf452-5faf-491b-80e5-d2948bc8a1bd | take kids | \"I don t care.\" | No that is all. | Kind of like a mind-game movie | Yes please do the search | pro_2016-03-07T22-42-28_df456016-aa62-4fd2-9afd-aee5783c63d5 | late | pro_2016-03-07T22-42-11_eb7a5f23-746b-42aa-a528-6e3b358cf747 ) | zip : ( 44510 | 10035 | 60101 | 10014 | 48126 | 91205 | 48895 | 07628 | 15202 | 20619 ) | description : ( romantic | romantic | romantic | Along the lines of gritty and or gangster ones | best kids | sports related | latest | the only kids movie | oscar winning film | the leads ) | numberofkids : ( 1 | 6 | 20 | 15 | 0 | 4 | none | 2 | 3 ) | food : ( steak ) | critic_rating : ( horrible | best | top reviewed | lowest rated movie | high rated | top rated | the top | high | the lowest | 3 out of 5 stars | top | the highest ) | pickup_time : ( 11 pm ) | pickup_location : ( six flags great America ) | dropoff_location : ( mchenry il on the corner of 3rd avenue and Washington street ) | mpaa_rating : ( safe for 7 years olds | Pg | (PG#G) | not rated r | g | R-Rated | G | R | PG | not rated R | above PG-13 | pg-13 | (pg13#R) | pg-13 rated | (G#PG) | pg13 | pg13 or lower | PG-13 | PG-rated | any ) | actor : ( Ryan Reynolds | yan Reynolds | John Goodman | Bruce Willis | will smith | Bradley Cooper | Brad Pitt | Cohen | the Roc | tom cruise | nicolas cage | Brad pitt | Tom Cruise | tear jerkers | paul rudd ) | movie_series : ( the divergent series | divergence | Superman movie | Divergent Series movie | Divergent Series | The Divergent Series | The Divergent | Divergent ) | price : ( less expensive | 50% off | moderately | regular | the cheapest | $50 | expensive | cheaper | cheapest | less than $10 ) | seating : ( recliner seating | in the middle | recliner ) | cuisine : ( (Chinese#Japanese) )))",
+        "intent knowledge": "( movie : ( confirm_answer | Not_Sure | request | thanks | Deny | greeting | inform | closing | confirm_question | multiple_choice ))",
+        "prompt": [
+            "This is a bot helping users to book a movie ticket. Given the dialog context and external database, please generate a relevant system response for the user.",
+            "This bot assists users to book a movie ticket. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
+            "This bot helps users to book a movie ticket. Based on the conversation history and available external data, please generate a relevant system response for the user.",
+            "The purpose of this bot is to assist users to book a movie ticket. Considering the dialogue context and the information available in the external database, please provide a fitting response for the user.",
+            "This bot is designed to help users book a movie ticket. By utilizing the current dialog context and external resources, generate a fitting response for the user."
+        ]
+    }
+}

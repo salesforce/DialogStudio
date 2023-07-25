@@ -130,7 +130,9 @@
                     "agent": 1,
                     "time": "1496341307.92"
                 },
-                "original system side information": {}
+                "original system side information": {},
+                "dst": "adsf",
+                "dst accumulated": ""
             },
             {
                 "turn id": 2,
@@ -143,62 +145,40 @@
                     "agent": 1,
                     "time": "1496341345.99"
                 },
-                "original system side information": {}
+                "original system side information": {},
+                "dst": "adsf",
+                "dst accumulated": ""
             },
             {
                 "turn id": 3,
                 "user utterance": "How about $6 and I pick it up myself? It'll save you shipping to me.",
                 "system response": "7, and we have a deal.",
-                "dialog history": "<USER> Hi, not sure if the charger would work for my car. Can you sell it to me for $5? <SYSTEM> It will work, i have never seen a car without a cigarette lighter port. <USER> Still, can I buy it for $5? I'm on a tight budge <SYSTEM> I think the lowest I would want to go is 8.",
+                "dialog history": "<USER> Hi, not sure if the charger would work for my car. Can you sell it to me for $5? <SYSTEM> It will work, i have never seen a car without a cigarette lighter port. <USER> Still, can I buy it for $5? I'm on a tight budge <SYSTEM> I think the lowest I would want to go is 8. ",
                 "original user side information": {
                     "action": "message",
                     "start_time": "1496341384.1",
                     "agent": 1,
                     "time": "1496341391.82"
                 },
-                "original system side information": {}
+                "original system side information": {},
+                "dst": "adsf",
+                "dst accumulated": ""
             }
         ],
         "external knowledge non-flat": {
-            "metadata": {
-                "kbs": {
-                    "personal": {
-                        "Bottomline": null,
-                        "Role": "seller",
-                        "Target": 10
-                    },
-                    "item": {
-                        "Category": "phone",
-                        "Images": [
-                            "phone/6149527852_0.jpg"
-                        ],
-                        "Price": 10,
-                        "Description": [
-                            "Charge two devices simultaneously on the go. This vehicle charger with an additional USB port delivers enough power to charge two devices at once. The push-button activated LED connector light means no more fumbling in the dark trying to connect your device. Auto Detect IC Technology automatically detects the device type and its specific charging needs for improved compatibility. And the built-in indicator light illuminates red to let you know the charger is receiving power and the power socket is working properly."
-                        ],
-                        "Title": "Verizon Car Charger with Dual Output Micro USB and LED Light"
-                    }
-                },
-                "results": {
-                    "reward": 1,
-                    "offer": {
-                        "price": 7.0,
-                        "sides": ""
-                    }
-                }
-            },
+            "metadata": {},
             "slots and values": {},
             "intents": {}
         },
-        "external knowledge": "Knowledge bases: {'personal': {'Bottomline': None, 'Role': 'seller', 'Target': 10}, 'item': {'Category': 'phone', 'Images': ['phone/6149527852_0.jpg'], 'Price': 10, 'Description': ['Charge two devices simultaneously on the go. This vehicle charger with an additional USB port delivers enough power to charge two devices at once. The push-button activated LED connector light means no more fumbling in the dark trying to connect your device. Auto Detect IC Technology automatically detects the device type and its specific charging needs for improved compatibility. And the built-in indicator light illuminates red to let you know the charger is receiving power and the power socket is working properly.'], 'Title': 'Verizon Car Charger with Dual Output Micro USB and LED Light'}} Outcome: {'reward': 1, 'offer': {'price': 7.0, 'sides': ''}}",
+        "external knowledge": "",
         "dst knowledge": "",
         "intent knowledge": "",
         "prompt": [
             "This is a bot helping users to bargain for goods. Given the dialog context and external database, please generate a relevant system response for the user.",
             "This bot assists users to bargain for goods. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
-            "This bot helps users to bargain for goods. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
-            "The purpose of this bot is to assist users to bargain for goods. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
-            "This bot is designed to help users bargain for goods. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+            "This bot helps users to bargain for goods. Based on the conversation history and available external data, please generate a relevant system response for the user.",
+            "The purpose of this bot is to assist users to bargain for goods. Considering the dialogue context and the information available in the external database, please provide a fitting response for the user.",
+            "This bot is designed to help users bargain for goods. By utilizing the current dialog context and external resources, generate a fitting response for the user."
         ]
     },
     "CraigslistBargains--train--2": {
@@ -332,7 +312,9 @@
                     "agent": 1,
                     "time": "1496341323.47"
                 },
-                "original system side information": {}
+                "original system side information": {},
+                "dst": "adsf",
+                "dst accumulated": ""
             },
             {
                 "turn id": 2,
@@ -345,88 +327,70 @@
                     "agent": 1,
                     "time": "1496341385.18"
                 },
-                "original system side information": {}
+                "original system side information": {},
+                "dst": "adsf",
+                "dst accumulated": ""
             },
             {
                 "turn id": 3,
                 "user utterance": "The wheels seem nice on it, but they could be a beter quality. Would you accept 100 for the board?",
                 "system response": "No, that offer is too low. The board is pretty much brand new as it's been ridden only 4 or 5 times.  The bone bearings are brand new.",
-                "dialog history": "<USER> Hi,I am interested in your board! <SYSTEM> Hi, do you have any questions? <USER> Do you know what wood it is made out of? <SYSTEM> I do not know specifically but the brand is a gravity skateboard.",
+                "dialog history": "<USER> Hi,I am interested in your board! <SYSTEM> Hi, do you have any questions? <USER> Do you know what wood it is made out of? <SYSTEM> I do not know specifically but the brand is a gravity skateboard. ",
                 "original user side information": {
                     "action": "message",
                     "start_time": "1496341429.24",
                     "agent": 1,
                     "time": "1496341476.72"
                 },
-                "original system side information": {}
+                "original system side information": {},
+                "dst": "adsf",
+                "dst accumulated": ""
             },
             {
                 "turn id": 4,
                 "user utterance": "If I picked it up at your location would you accpet 120?",
                 "system response": "Make it 150 and we got a deal. ",
-                "dialog history": "<USER> Hi,I am interested in your board! <SYSTEM> Hi, do you have any questions? <USER> Do you know what wood it is made out of? <SYSTEM> I do not know specifically but the brand is a gravity skateboard. <USER> The wheels seem nice on it, but they could be a beter quality. Would you accept 100 for the board? <SYSTEM> No, that offer is too low. The board is pretty much brand new as it's been ridden only 4 or 5 times.  The bone bearings are brand new.",
+                "dialog history": "<USER> Hi,I am interested in your board! <SYSTEM> Hi, do you have any questions? <USER> Do you know what wood it is made out of? <SYSTEM> I do not know specifically but the brand is a gravity skateboard.  <USER> The wheels seem nice on it, but they could be a beter quality. Would you accept 100 for the board? <SYSTEM> No, that offer is too low. The board is pretty much brand new as it's been ridden only 4 or 5 times.  The bone bearings are brand new.",
                 "original user side information": {
                     "action": "message",
                     "start_time": "1496341550.28",
                     "agent": 1,
                     "time": "1496341555.05"
                 },
-                "original system side information": {}
+                "original system side information": {},
+                "dst": "adsf",
+                "dst accumulated": ""
             },
             {
                 "turn id": 5,
                 "user utterance": "I could do 145, if you can gurantee the painting on the front of the board is not scratched up. ",
                 "system response": "Deal",
-                "dialog history": "<USER> Hi,I am interested in your board! <SYSTEM> Hi, do you have any questions? <USER> Do you know what wood it is made out of? <SYSTEM> I do not know specifically but the brand is a gravity skateboard. <USER> The wheels seem nice on it, but they could be a beter quality. Would you accept 100 for the board? <SYSTEM> No, that offer is too low. The board is pretty much brand new as it's been ridden only 4 or 5 times.  The bone bearings are brand new. <USER> If I picked it up at your location would you accpet 120? <SYSTEM> Make it 150 and we got a deal.",
+                "dialog history": "<USER> Hi,I am interested in your board! <SYSTEM> Hi, do you have any questions? <USER> Do you know what wood it is made out of? <SYSTEM> I do not know specifically but the brand is a gravity skateboard.  <USER> The wheels seem nice on it, but they could be a beter quality. Would you accept 100 for the board? <SYSTEM> No, that offer is too low. The board is pretty much brand new as it's been ridden only 4 or 5 times.  The bone bearings are brand new. <USER> If I picked it up at your location would you accpet 120? <SYSTEM> Make it 150 and we got a deal. ",
                 "original user side information": {
                     "action": "message",
                     "start_time": "1496341608.89",
                     "agent": 1,
                     "time": "1496341610.13"
                 },
-                "original system side information": {}
+                "original system side information": {},
+                "dst": "adsf",
+                "dst accumulated": ""
             }
         ],
         "external knowledge non-flat": {
-            "metadata": {
-                "kbs": {
-                    "personal": {
-                        "Bottomline": null,
-                        "Role": "seller",
-                        "Target": 200
-                    },
-                    "item": {
-                        "Category": "bike",
-                        "Images": [
-                            "bike/6151236842_0.jpg"
-                        ],
-                        "Price": 200,
-                        "Description": [
-                            "Hey there cl I have a long board for sale pretty much brand knew rode all together 4 or 5 times . The brand on the deck is a gravity skateboard. The brand of trucks are sidewinder 2sGuwuing.mini monster hawgs 70mm 78a Wheels with Swiss bones bearings brand new. Please no low ballers thank you and have a great day ."
-                        ],
-                        "Title": "Long board custom bilt from the board up"
-                    }
-                },
-                "results": {
-                    "reward": 1,
-                    "offer": {
-                        "price": 145.0,
-                        "sides": ""
-                    }
-                }
-            },
+            "metadata": {},
             "slots and values": {},
             "intents": {}
         },
-        "external knowledge": "Knowledge bases: {'personal': {'Bottomline': None, 'Role': 'seller', 'Target': 200}, 'item': {'Category': 'bike', 'Images': ['bike/6151236842_0.jpg'], 'Price': 200, 'Description': ['Hey there cl I have a long board for sale pretty much brand knew rode all together 4 or 5 times . The brand on the deck is a gravity skateboard. The brand of trucks are sidewinder 2sGuwuing.mini monster hawgs 70mm 78a Wheels with Swiss bones bearings brand new. Please no low ballers thank you and have a great day .'], 'Title': 'Long board custom bilt from the board up'}} Outcome: {'reward': 1, 'offer': {'price': 145.0, 'sides': ''}}",
+        "external knowledge": "",
         "dst knowledge": "",
         "intent knowledge": "",
         "prompt": [
             "This is a bot helping users to bargain for goods. Given the dialog context and external database, please generate a relevant system response for the user.",
             "This bot assists users to bargain for goods. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
-            "This bot helps users to bargain for goods. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
-            "The purpose of this bot is to assist users to bargain for goods. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
-            "This bot is designed to help users bargain for goods. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+            "This bot helps users to bargain for goods. Based on the conversation history and available external data, please generate a relevant system response for the user.",
+            "The purpose of this bot is to assist users to bargain for goods. Considering the dialogue context and the information available in the external database, please provide a fitting response for the user.",
+            "This bot is designed to help users bargain for goods. By utilizing the current dialog context and external resources, generate a fitting response for the user."
         ]
     },
     "CraigslistBargains--train--3": {
@@ -570,83 +534,55 @@
                     "agent": 1,
                     "time": "1496341357.74"
                 },
-                "original system side information": {}
+                "original system side information": {},
+                "dst": "adsf",
+                "dst accumulated": ""
             },
             {
                 "turn id": 2,
                 "user utterance": "im on a budget so i could do 1850",
                 "system response": "How about $1900 and I'll wave the deposit.",
-                "dialog history": "<USER> i would love to buy <SYSTEM> Sure! What's your price?",
+                "dialog history": "<USER> i would love to buy  <SYSTEM> Sure! What's your price?",
                 "original user side information": {
                     "action": "message",
                     "start_time": "1496341419.92",
                     "agent": 1,
                     "time": "1496341433.02"
                 },
-                "original system side information": {}
+                "original system side information": {},
+                "dst": "adsf",
+                "dst accumulated": ""
             },
             {
                 "turn id": 3,
                 "user utterance": "i will take it",
                 "system response": "Great!",
-                "dialog history": "<USER> i would love to buy <SYSTEM> Sure! What's your price? <USER> im on a budget so i could do 1850 <SYSTEM> How about $1900 and I'll wave the deposit.",
+                "dialog history": "<USER> i would love to buy  <SYSTEM> Sure! What's your price? <USER> im on a budget so i could do 1850 <SYSTEM> How about $1900 and I'll wave the deposit.",
                 "original user side information": {
                     "action": "message",
                     "start_time": "1496341453.2",
                     "agent": 1,
                     "time": "1496341454.29"
                 },
-                "original system side information": {}
+                "original system side information": {},
+                "dst": "adsf",
+                "dst accumulated": ""
             }
         ],
         "external knowledge non-flat": {
-            "metadata": {
-                "kbs": {
-                    "personal": {
-                        "Bottomline": null,
-                        "Role": "seller",
-                        "Target": 3200
-                    },
-                    "item": {
-                        "Category": "housing",
-                        "Images": [],
-                        "Price": 3200,
-                        "Description": [
-                            "This is a single family house in an excellent condition. It will be available for move-in on July 2017. It's in a very nice and quiet community with great school district. Email me for viewing or further information. Thanks.",
-                            "Huge living room and family room, plus 4 spacious bedrooms",
-                            "2 generous bathrooms with bathtubs",
-                            "Great school district (Oliveira elementary, Thornton junior high, American high)",
-                            "Few mins drive to Bart and Lucky and 99 Supermarkets",
-                            "Spacious two-car garage",
-                            "Easy access to FWY 880 and Dumbarton Bridge.",
-                            "Deposit: one month rent",
-                            "Lease: one year minimum, longer preferred",
-                            "No pet or smoking. No section 8. No sub-leasing.",
-                            "Tenant pay all utilities. Gardening is included in the rent"
-                        ],
-                        "Title": "A 4 bedroom single family house for rent in central Fremont"
-                    }
-                },
-                "results": {
-                    "reward": 1,
-                    "offer": {
-                        "price": 1900.0,
-                        "sides": ""
-                    }
-                }
-            },
+            "metadata": {},
             "slots and values": {},
             "intents": {}
         },
-        "external knowledge": "Knowledge bases: {'personal': {'Bottomline': None, 'Role': 'seller', 'Target': 3200}, 'item': {'Category': 'housing', 'Images': [], 'Price': 3200, 'Description': [\"This is a single family house in an excellent condition. It will be available for move-in on July 2017. It's in a very nice and quiet community with great school district. Email me for viewing or further information. Thanks.\", 'Huge living room and family room, plus 4 spacious bedrooms', '2 generous bathrooms with bathtubs', 'Great school district (Oliveira elementary, Thornton junior high, American high)', 'Few mins drive to Bart and Lucky and 99 Supermarkets', 'Spacious two-car garage', 'Easy access to FWY 880 and Dumbarton Bridge.', 'Deposit: one month rent', 'Lease: one year minimum, longer preferred', 'No pet or smoking. No section 8. No sub-leasing.', 'Tenant pay all utilities. Gardening is included in the rent'], 'Title': 'A 4 bedroom single family house for rent in central Fremont'}} Outcome: {'reward': 1, 'offer': {'price': 1900.0, 'sides': ''}}",
+        "external knowledge": "",
         "dst knowledge": "",
         "intent knowledge": "",
         "prompt": [
             "This is a bot helping users to bargain for goods. Given the dialog context and external database, please generate a relevant system response for the user.",
             "This bot assists users to bargain for goods. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
-            "This bot helps users to bargain for goods. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
-            "The purpose of this bot is to assist users to bargain for goods. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
-            "This bot is designed to help users bargain for goods. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+            "This bot helps users to bargain for goods. Based on the conversation history and available external data, please generate a relevant system response for the user.",
+            "The purpose of this bot is to assist users to bargain for goods. Considering the dialogue context and the information available in the external database, please provide a fitting response for the user.",
+            "This bot is designed to help users bargain for goods. By utilizing the current dialog context and external resources, generate a fitting response for the user."
         ]
     },
     "CraigslistBargains--train--4": {
@@ -778,7 +714,9 @@
                     "agent": 1,
                     "time": "1496341357.16"
                 },
-                "original system side information": {}
+                "original system side information": {},
+                "dst": "adsf",
+                "dst accumulated": ""
             },
             {
                 "turn id": 2,
@@ -791,7 +729,9 @@
                     "agent": 1,
                     "time": "1496341404.33"
                 },
-                "original system side information": {}
+                "original system side information": {},
+                "dst": "adsf",
+                "dst accumulated": ""
             },
             {
                 "turn id": 3,
@@ -804,47 +744,25 @@
                     "agent": 1,
                     "time": "1496341519.21"
                 },
-                "original system side information": {}
+                "original system side information": {},
+                "dst": "adsf",
+                "dst accumulated": ""
             }
         ],
         "external knowledge non-flat": {
-            "metadata": {
-                "kbs": {
-                    "personal": {
-                        "Bottomline": null,
-                        "Role": "seller",
-                        "Target": 585
-                    },
-                    "item": {
-                        "Category": "furniture",
-                        "Images": [
-                            "furniture/6131245434_0.jpg"
-                        ],
-                        "Price": 585,
-                        "Description": [
-                            "I am remodeling my space and selling a beautiful custom modern terra cotta color sectional couch. It is in like-new condition and can be taken apart in two pieces while transporting. Absolutely no wear or tear in a non-smoking home. I am located in the Sunset district of SF. Please email if you are interested in seeing it. Thank you!",
-                            "Sectional: 38L x 87W"
-                        ],
-                        "Title": "Sectional Couch"
-                    }
-                },
-                "results": {
-                    "reward": 0,
-                    "offer": null
-                }
-            },
+            "metadata": {},
             "slots and values": {},
             "intents": {}
         },
-        "external knowledge": "Knowledge bases: {'personal': {'Bottomline': None, 'Role': 'seller', 'Target': 585}, 'item': {'Category': 'furniture', 'Images': ['furniture/6131245434_0.jpg'], 'Price': 585, 'Description': ['I am remodeling my space and selling a beautiful custom modern terra cotta color sectional couch. It is in like-new condition and can be taken apart in two pieces while transporting. Absolutely no wear or tear in a non-smoking home. I am located in the Sunset district of SF. Please email if you are interested in seeing it. Thank you!', 'Sectional: 38L x 87W'], 'Title': 'Sectional Couch'}} Outcome: {'reward': 0, 'offer': None}",
+        "external knowledge": "",
         "dst knowledge": "",
         "intent knowledge": "",
         "prompt": [
             "This is a bot helping users to bargain for goods. Given the dialog context and external database, please generate a relevant system response for the user.",
             "This bot assists users to bargain for goods. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
-            "This bot helps users to bargain for goods. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
-            "The purpose of this bot is to assist users to bargain for goods. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
-            "This bot is designed to help users bargain for goods. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+            "This bot helps users to bargain for goods. Based on the conversation history and available external data, please generate a relevant system response for the user.",
+            "The purpose of this bot is to assist users to bargain for goods. Considering the dialogue context and the information available in the external database, please provide a fitting response for the user.",
+            "This bot is designed to help users bargain for goods. By utilizing the current dialog context and external resources, generate a fitting response for the user."
         ]
     },
     "CraigslistBargains--train--5": {
@@ -982,51 +900,25 @@
                     "agent": 1,
                     "time": "1496341526.6"
                 },
-                "original system side information": {}
+                "original system side information": {},
+                "dst": "adsf",
+                "dst accumulated": ""
             }
         ],
         "external knowledge non-flat": {
-            "metadata": {
-                "kbs": {
-                    "personal": {
-                        "Bottomline": null,
-                        "Role": "seller",
-                        "Target": 1000
-                    },
-                    "item": {
-                        "Category": "furniture",
-                        "Images": [
-                            "furniture/6144504669_0.jpg"
-                        ],
-                        "Price": 1000,
-                        "Description": [
-                            "MUST SEE!!!",
-                            "Like new ! - making space in our Designer Showroom - Must go, must go!!!",
-                            "Perfect for interiors, bonus room, office, special storage - make us a deal!",
-                            "Beautiful cherry hutch with a dark stain.",
-                            "Decorative glass counter.",
-                            "Price Negotiable!"
-                        ],
-                        "Title": "Beautiful Cherry Hutch"
-                    }
-                },
-                "results": {
-                    "reward": 0,
-                    "offer": null
-                }
-            },
+            "metadata": {},
             "slots and values": {},
             "intents": {}
         },
-        "external knowledge": "Knowledge bases: {'personal': {'Bottomline': None, 'Role': 'seller', 'Target': 1000}, 'item': {'Category': 'furniture', 'Images': ['furniture/6144504669_0.jpg'], 'Price': 1000, 'Description': ['MUST SEE!!!', 'Like new ! - making space in our Designer Showroom - Must go, must go!!!', 'Perfect for interiors, bonus room, office, special storage - make us a deal!', 'Beautiful cherry hutch with a dark stain.', 'Decorative glass counter.', 'Price Negotiable!'], 'Title': 'Beautiful Cherry Hutch'}} Outcome: {'reward': 0, 'offer': None}",
+        "external knowledge": "",
         "dst knowledge": "",
         "intent knowledge": "",
         "prompt": [
             "This is a bot helping users to bargain for goods. Given the dialog context and external database, please generate a relevant system response for the user.",
             "This bot assists users to bargain for goods. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
-            "This bot helps users to bargain for goods. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
-            "The purpose of this bot is to assist users to bargain for goods. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
-            "This bot is designed to help users bargain for goods. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+            "This bot helps users to bargain for goods. Based on the conversation history and available external data, please generate a relevant system response for the user.",
+            "The purpose of this bot is to assist users to bargain for goods. Considering the dialogue context and the information available in the external database, please provide a fitting response for the user.",
+            "This bot is designed to help users bargain for goods. By utilizing the current dialog context and external resources, generate a fitting response for the user."
         ]
     }
 }

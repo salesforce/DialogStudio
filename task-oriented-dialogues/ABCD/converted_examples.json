@@ -274,7 +274,9 @@
                             ]
                         }
                     ]
-                }
+                },
+                "dst": "",
+                "dst accumulated": ""
             },
             {
                 "turn id": 2,
@@ -1706,40 +1708,40 @@
             "slots and values": {
                 "product_defect": {
                     "<username>": [
-                        "dw610002",
-                        "sanyaafzal183",
-                        "normanbouchard399",
-                        "crystalminh528",
-                        "as634760",
-                        "asanders300",
-                        "rdomingo859",
-                        "aphoenix579",
-                        "as776316",
-                        "rd451246"
+                        "sanyaafzal785",
+                        "crystalm386",
+                        "dwilliams383",
+                        "rdomingo924",
+                        "chloez94",
+                        "alberts0",
+                        "nbouchard832",
+                        "sanyaa32",
+                        "joycewu9",
+                        "rodriguezd528"
                     ],
                     "<email>": [
-                        "normanbouchard878@email.com",
-                        "rdomingo145@email.com",
-                        "cm284608@email.com",
-                        "rodriguezdomingo852@email.com",
-                        "nb568015@email.com",
-                        "josephbanter816@email.com",
-                        "davidw82@email.com",
-                        "aphoenix058@email.com",
-                        "jwu11238@email.com",
-                        "rodriguezdomingo305@email.com"
+                        "sanyaa77@email.com",
+                        "sanyaa55@email.com",
+                        "ap350628@email.com",
+                        "alessandrop894@email.com",
+                        "ap574974@email.com",
+                        "aphoenix511@email.com",
+                        "dw706662@email.com",
+                        "cz514764@email.com",
+                        "sanyaafzal445@email.com",
+                        "davidwilliams473@email.com"
                     ],
                     "<order_id>": [
-                        "6034158258",
-                        "4233615665",
-                        "4640209798",
-                        "0514280290",
-                        "6794356038",
-                        "4021655645",
-                        "0461792853",
-                        "9127374139",
-                        "4738686789",
-                        "0403933250"
+                        "0129556379",
+                        "9158822241",
+                        "5353912267",
+                        "3870043563",
+                        "7189122746",
+                        "1007882638",
+                        "0646934557",
+                        "2762764761",
+                        "2661587788",
+                        "2710504879"
                     ],
                     "<phone>": [
                         "(659) 706-2848",
@@ -1755,28 +1757,28 @@
                         "(354) 288-0475"
                     ],
                     "<street_address>": [
-                        "3090 woodshore st",
-                        "4754 1st ave",
-                        "1768 brushwick dr",
-                        "0855 1st ave",
-                        "7455 kennedy st",
-                        "0472 2nd ave",
-                        "0331 1st ave",
-                        "1571 2nd ave",
-                        "5742 circle drive",
-                        "5273 kennedy st"
+                        "7646 brushwick dr",
+                        "8858 circle drive",
+                        "2773 kennedy st",
+                        "2456 1st ave",
+                        "4168 1st ave",
+                        "5919 1st ave",
+                        "6898 lexington ave",
+                        "6916 kennedy st",
+                        "0035 lexington ave",
+                        "9632 circle drive"
                     ],
                     "<zip_code>": [
-                        "60698",
-                        "19238",
-                        "39508",
-                        "65075",
-                        "4741",
-                        "41690",
-                        "59494",
-                        "95517",
-                        "87663",
-                        "16178"
+                        "62231",
+                        "70124",
+                        "94971",
+                        "87341",
+                        "75954",
+                        "52461",
+                        "99130",
+                        "42146",
+                        "94955",
+                        "25708"
                     ],
                     "<amount>": [
                         "89.00",
@@ -1798,16 +1800,16 @@
                         "79.00"
                     ],
                     "<account_id>": [
-                        "a6q1wxtvt5",
-                        "17aeczaln5",
-                        "vaoh5wbk80",
                         "r0ctwcfr6e",
-                        "sj8krxfkl5",
-                        "nmph2wgmrb",
-                        "8uripe9h1p",
-                        "bjtqcctmbi",
-                        "ks23dxwmyh",
-                        "gjufgxqig6"
+                        "eiydw2ip4y",
+                        "y99ygsxeyl",
+                        "hiklloulr9",
+                        "zm7tevnqd8",
+                        "5bwsmruszy",
+                        "verrll5tnl",
+                        "bylze8ajut",
+                        "iubol88mr2",
+                        "g8ozjjwjcg"
                     ],
                     "<name>": [
                         "michael_kors shirt",
@@ -1826,14 +1828,14 @@
             "intents": {}
         },
         "external knowledge": "()",
-        "dst knowledge": "( product_defect : ( <username> : ( dw610002 | sanyaafzal183 | normanbouchard399 | crystalminh528 | as634760 | asanders300 | rdomingo859 | aphoenix579 | as776316 | rd451246 ) | <email> : ( normanbouchard878@email.com | rdomingo145@email.com | cm284608@email.com | rodriguezdomingo852@email.com | nb568015@email.com | josephbanter816@email.com | davidw82@email.com | aphoenix058@email.com | jwu11238@email.com | rodriguezdomingo305@email.com ) | <order_id> : ( 6034158258 | 4233615665 | 4640209798 | 0514280290 | 6794356038 | 4021655645 | 0461792853 | 9127374139 | 4738686789 | 0403933250 ) | <phone> : ( (659) 706-2848 | (822) 189-2832 | (772) 457-8093 | (652) 704-5471 | (337) 301-8558 | (977) 625-2661 | (089) 875-6007 | (288) 749-5627 | (720) 986-4183 | (716) 613-6340 | (354) 288-0475 ) | <street_address> : ( 3090 woodshore st | 4754 1st ave | 1768 brushwick dr | 0855 1st ave | 7455 kennedy st | 0472 2nd ave | 0331 1st ave | 1571 2nd ave | 5742 circle drive | 5273 kennedy st ) | <zip_code> : ( 60698 | 19238 | 39508 | 65075 | 4741 | 41690 | 59494 | 95517 | 87663 | 16178 ) | <amount> : ( 89.00 | 94 | 99 | 64 | 59 | 79 | 84 | 49.00 | 54 | 64.00 | 59.00 | 89 | 84.00 | 74 | 49 | 69 | 79.00 ) | <account_id> : ( a6q1wxtvt5 | 17aeczaln5 | vaoh5wbk80 | r0ctwcfr6e | sj8krxfkl5 | nmph2wgmrb | 8uripe9h1p | bjtqcctmbi | ks23dxwmyh | gjufgxqig6 ) | <name> : ( michael_kors shirt | michael_kors jeans | calvin_klein jacket | guess jeans | michael_kors boots | guess jacket | tommy_hilfiger shirt | tommy_hilfiger jacket | guess boots | guess shirt )))",
+        "dst knowledge": "( product_defect : ( <username> : ( sanyaafzal785 | crystalm386 | dwilliams383 | rdomingo924 | chloez94 | alberts0 | nbouchard832 | sanyaa32 | joycewu9 | rodriguezd528 ) | <email> : ( sanyaa77@email.com | sanyaa55@email.com | ap350628@email.com | alessandrop894@email.com | ap574974@email.com | aphoenix511@email.com | dw706662@email.com | cz514764@email.com | sanyaafzal445@email.com | davidwilliams473@email.com ) | <order_id> : ( 0129556379 | 9158822241 | 5353912267 | 3870043563 | 7189122746 | 1007882638 | 0646934557 | 2762764761 | 2661587788 | 2710504879 ) | <phone> : ( (659) 706-2848 | (822) 189-2832 | (772) 457-8093 | (652) 704-5471 | (337) 301-8558 | (977) 625-2661 | (089) 875-6007 | (288) 749-5627 | (720) 986-4183 | (716) 613-6340 | (354) 288-0475 ) | <street_address> : ( 7646 brushwick dr | 8858 circle drive | 2773 kennedy st | 2456 1st ave | 4168 1st ave | 5919 1st ave | 6898 lexington ave | 6916 kennedy st | 0035 lexington ave | 9632 circle drive ) | <zip_code> : ( 62231 | 70124 | 94971 | 87341 | 75954 | 52461 | 99130 | 42146 | 94955 | 25708 ) | <amount> : ( 89.00 | 94 | 99 | 64 | 59 | 79 | 84 | 49.00 | 54 | 64.00 | 59.00 | 89 | 84.00 | 74 | 49 | 69 | 79.00 ) | <account_id> : ( r0ctwcfr6e | eiydw2ip4y | y99ygsxeyl | hiklloulr9 | zm7tevnqd8 | 5bwsmruszy | verrll5tnl | bylze8ajut | iubol88mr2 | g8ozjjwjcg ) | <name> : ( michael_kors shirt | michael_kors jeans | calvin_klein jacket | guess jeans | michael_kors boots | guess jacket | tommy_hilfiger shirt | tommy_hilfiger jacket | guess boots | guess shirt )))",
         "intent knowledge": "()",
         "prompt": [
             "This is a bot helping users to solve issues about refunds and returns. Given the dialog context and external database, please generate a relevant system response for the user.",
             "This bot assists users to solve issues about refunds and returns. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
-            "This bot helps users to solve issues about refunds and returns. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
-            "The purpose of this bot is to assist users to solve issues about refunds and returns. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
-            "This bot is designed to help users solve issues about refunds and returns. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+            "This bot helps users to solve issues about refunds and returns. Based on the conversation history and available external data, please generate a relevant system response for the user.",
+            "The purpose of this bot is to assist users to solve issues about refunds and returns. Considering the dialogue context and the information available in the external database, please provide a fitting response for the user.",
+            "This bot is designed to help users solve issues about refunds and returns. By utilizing the current dialog context and external resources, generate a fitting response for the user."
         ]
     },
     "ABCD--train--2": {
@@ -1997,7 +1999,9 @@
                             ]
                         }
                     ]
-                }
+                },
+                "dst": "",
+                "dst accumulated": ""
             },
             {
                 "turn id": 2,
@@ -3143,40 +3147,40 @@
             "slots and values": {
                 "product_defect": {
                     "<username>": [
-                        "dw610002",
-                        "sanyaafzal183",
-                        "normanbouchard399",
-                        "crystalminh528",
-                        "as634760",
-                        "asanders300",
-                        "rdomingo859",
-                        "aphoenix579",
-                        "as776316",
-                        "rd451246"
+                        "sanyaafzal785",
+                        "crystalm386",
+                        "dwilliams383",
+                        "rdomingo924",
+                        "chloez94",
+                        "alberts0",
+                        "nbouchard832",
+                        "sanyaa32",
+                        "joycewu9",
+                        "rodriguezd528"
                     ],
                     "<email>": [
-                        "normanbouchard878@email.com",
-                        "rdomingo145@email.com",
-                        "cm284608@email.com",
-                        "rodriguezdomingo852@email.com",
-                        "nb568015@email.com",
-                        "josephbanter816@email.com",
-                        "davidw82@email.com",
-                        "aphoenix058@email.com",
-                        "jwu11238@email.com",
-                        "rodriguezdomingo305@email.com"
+                        "sanyaa77@email.com",
+                        "sanyaa55@email.com",
+                        "ap350628@email.com",
+                        "alessandrop894@email.com",
+                        "ap574974@email.com",
+                        "aphoenix511@email.com",
+                        "dw706662@email.com",
+                        "cz514764@email.com",
+                        "sanyaafzal445@email.com",
+                        "davidwilliams473@email.com"
                     ],
                     "<order_id>": [
-                        "6034158258",
-                        "4233615665",
-                        "4640209798",
-                        "0514280290",
-                        "6794356038",
-                        "4021655645",
-                        "0461792853",
-                        "9127374139",
-                        "4738686789",
-                        "0403933250"
+                        "0129556379",
+                        "9158822241",
+                        "5353912267",
+                        "3870043563",
+                        "7189122746",
+                        "1007882638",
+                        "0646934557",
+                        "2762764761",
+                        "2661587788",
+                        "2710504879"
                     ],
                     "<phone>": [
                         "(659) 706-2848",
@@ -3192,28 +3196,28 @@
                         "(354) 288-0475"
                     ],
                     "<street_address>": [
-                        "3090 woodshore st",
-                        "4754 1st ave",
-                        "1768 brushwick dr",
-                        "0855 1st ave",
-                        "7455 kennedy st",
-                        "0472 2nd ave",
-                        "0331 1st ave",
-                        "1571 2nd ave",
-                        "5742 circle drive",
-                        "5273 kennedy st"
+                        "7646 brushwick dr",
+                        "8858 circle drive",
+                        "2773 kennedy st",
+                        "2456 1st ave",
+                        "4168 1st ave",
+                        "5919 1st ave",
+                        "6898 lexington ave",
+                        "6916 kennedy st",
+                        "0035 lexington ave",
+                        "9632 circle drive"
                     ],
                     "<zip_code>": [
-                        "60698",
-                        "19238",
-                        "39508",
-                        "65075",
-                        "4741",
-                        "41690",
-                        "59494",
-                        "95517",
-                        "87663",
-                        "16178"
+                        "62231",
+                        "70124",
+                        "94971",
+                        "87341",
+                        "75954",
+                        "52461",
+                        "99130",
+                        "42146",
+                        "94955",
+                        "25708"
                     ],
                     "<amount>": [
                         "89.00",
@@ -3235,16 +3239,16 @@
                         "79.00"
                     ],
                     "<account_id>": [
-                        "a6q1wxtvt5",
-                        "17aeczaln5",
-                        "vaoh5wbk80",
                         "r0ctwcfr6e",
-                        "sj8krxfkl5",
-                        "nmph2wgmrb",
-                        "8uripe9h1p",
-                        "bjtqcctmbi",
-                        "ks23dxwmyh",
-                        "gjufgxqig6"
+                        "eiydw2ip4y",
+                        "y99ygsxeyl",
+                        "hiklloulr9",
+                        "zm7tevnqd8",
+                        "5bwsmruszy",
+                        "verrll5tnl",
+                        "bylze8ajut",
+                        "iubol88mr2",
+                        "g8ozjjwjcg"
                     ],
                     "<name>": [
                         "michael_kors shirt",
@@ -3263,14 +3267,14 @@
             "intents": {}
         },
         "external knowledge": "()",
-        "dst knowledge": "( product_defect : ( <username> : ( dw610002 | sanyaafzal183 | normanbouchard399 | crystalminh528 | as634760 | asanders300 | rdomingo859 | aphoenix579 | as776316 | rd451246 ) | <email> : ( normanbouchard878@email.com | rdomingo145@email.com | cm284608@email.com | rodriguezdomingo852@email.com | nb568015@email.com | josephbanter816@email.com | davidw82@email.com | aphoenix058@email.com | jwu11238@email.com | rodriguezdomingo305@email.com ) | <order_id> : ( 6034158258 | 4233615665 | 4640209798 | 0514280290 | 6794356038 | 4021655645 | 0461792853 | 9127374139 | 4738686789 | 0403933250 ) | <phone> : ( (659) 706-2848 | (822) 189-2832 | (772) 457-8093 | (652) 704-5471 | (337) 301-8558 | (977) 625-2661 | (089) 875-6007 | (288) 749-5627 | (720) 986-4183 | (716) 613-6340 | (354) 288-0475 ) | <street_address> : ( 3090 woodshore st | 4754 1st ave | 1768 brushwick dr | 0855 1st ave | 7455 kennedy st | 0472 2nd ave | 0331 1st ave | 1571 2nd ave | 5742 circle drive | 5273 kennedy st ) | <zip_code> : ( 60698 | 19238 | 39508 | 65075 | 4741 | 41690 | 59494 | 95517 | 87663 | 16178 ) | <amount> : ( 89.00 | 94 | 99 | 64 | 59 | 79 | 84 | 49.00 | 54 | 64.00 | 59.00 | 89 | 84.00 | 74 | 49 | 69 | 79.00 ) | <account_id> : ( a6q1wxtvt5 | 17aeczaln5 | vaoh5wbk80 | r0ctwcfr6e | sj8krxfkl5 | nmph2wgmrb | 8uripe9h1p | bjtqcctmbi | ks23dxwmyh | gjufgxqig6 ) | <name> : ( michael_kors shirt | michael_kors jeans | calvin_klein jacket | guess jeans | michael_kors boots | guess jacket | tommy_hilfiger shirt | tommy_hilfiger jacket | guess boots | guess shirt )))",
+        "dst knowledge": "( product_defect : ( <username> : ( sanyaafzal785 | crystalm386 | dwilliams383 | rdomingo924 | chloez94 | alberts0 | nbouchard832 | sanyaa32 | joycewu9 | rodriguezd528 ) | <email> : ( sanyaa77@email.com | sanyaa55@email.com | ap350628@email.com | alessandrop894@email.com | ap574974@email.com | aphoenix511@email.com | dw706662@email.com | cz514764@email.com | sanyaafzal445@email.com | davidwilliams473@email.com ) | <order_id> : ( 0129556379 | 9158822241 | 5353912267 | 3870043563 | 7189122746 | 1007882638 | 0646934557 | 2762764761 | 2661587788 | 2710504879 ) | <phone> : ( (659) 706-2848 | (822) 189-2832 | (772) 457-8093 | (652) 704-5471 | (337) 301-8558 | (977) 625-2661 | (089) 875-6007 | (288) 749-5627 | (720) 986-4183 | (716) 613-6340 | (354) 288-0475 ) | <street_address> : ( 7646 brushwick dr | 8858 circle drive | 2773 kennedy st | 2456 1st ave | 4168 1st ave | 5919 1st ave | 6898 lexington ave | 6916 kennedy st | 0035 lexington ave | 9632 circle drive ) | <zip_code> : ( 62231 | 70124 | 94971 | 87341 | 75954 | 52461 | 99130 | 42146 | 94955 | 25708 ) | <amount> : ( 89.00 | 94 | 99 | 64 | 59 | 79 | 84 | 49.00 | 54 | 64.00 | 59.00 | 89 | 84.00 | 74 | 49 | 69 | 79.00 ) | <account_id> : ( r0ctwcfr6e | eiydw2ip4y | y99ygsxeyl | hiklloulr9 | zm7tevnqd8 | 5bwsmruszy | verrll5tnl | bylze8ajut | iubol88mr2 | g8ozjjwjcg ) | <name> : ( michael_kors shirt | michael_kors jeans | calvin_klein jacket | guess jeans | michael_kors boots | guess jacket | tommy_hilfiger shirt | tommy_hilfiger jacket | guess boots | guess shirt )))",
         "intent knowledge": "()",
         "prompt": [
             "This is a bot helping users to solve issues about refunds and returns. Given the dialog context and external database, please generate a relevant system response for the user.",
             "This bot assists users to solve issues about refunds and returns. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
-            "This bot helps users to solve issues about refunds and returns. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
-            "The purpose of this bot is to assist users to solve issues about refunds and returns. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
-            "This bot is designed to help users solve issues about refunds and returns. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+            "This bot helps users to solve issues about refunds and returns. Based on the conversation history and available external data, please generate a relevant system response for the user.",
+            "The purpose of this bot is to assist users to solve issues about refunds and returns. Considering the dialogue context and the information available in the external database, please provide a fitting response for the user.",
+            "This bot is designed to help users solve issues about refunds and returns. By utilizing the current dialog context and external resources, generate a fitting response for the user."
         ]
     },
     "ABCD--train--3": {
@@ -4378,13 +4382,15 @@
                             ]
                         }
                     ]
-                }
+                },
+                "dst": "",
+                "dst accumulated": ""
             },
             {
                 "turn id": 7,
                 "user utterance": "Perfect. Thanks",
                 "system response": "not problem! a pleasure to help you and your cat too",
-                "dialog history": "<USER> HEY HO! <SYSTEM> good afternoon, how can I help you? <USER> I've got a promo code and I want to know when they expire. I'd like to use it to buy some hats for my cat. <SYSTEM> sure!  let me check that. one moment please <USER> Some people think it's funny to put hats on cats...I do not feel that way. <SYSTEM> cats deserve to look good too <USER> exactly! <SYSTEM> ok, just to verify you already tried to use the code? <USER> No, I just want to see how long they last for. <SYSTEM> Ok, sorry for the doubt and I will answer your question. one moment please <USER>  <SYSTEM> Ok, all promo codes expire after 7 days without fail.",
+                "dialog history": "<USER> HEY HO! <SYSTEM> good afternoon, how can I help you? <USER> I've got a promo code and I want to know when they expire. I'd like to use it to buy some hats for my cat. <SYSTEM> sure!  let me check that. one moment please <USER> Some people think it's funny to put hats on cats...I do not feel that way. <SYSTEM> cats deserve to look good too <USER> exactly! <SYSTEM> ok, just to verify you already tried to use the code? <USER> No, I just want to see how long they last for. <SYSTEM> Ok, sorry for the doubt and I will answer your question. one moment please <SYSTEM> Ok, all promo codes expire after 7 days without fail.",
                 "original user side information": {
                     "delexed": [
                         {
@@ -4527,7 +4533,7 @@
                 "turn id": 8,
                 "user utterance": "That's all, have a great day! Don't forget to spay or neuter your pet!",
                 "system response": "have a nice day I won't",
-                "dialog history": "<USER> HEY HO! <SYSTEM> good afternoon, how can I help you? <USER> I've got a promo code and I want to know when they expire. I'd like to use it to buy some hats for my cat. <SYSTEM> sure!  let me check that. one moment please <USER> Some people think it's funny to put hats on cats...I do not feel that way. <SYSTEM> cats deserve to look good too <USER> exactly! <SYSTEM> ok, just to verify you already tried to use the code? <USER> No, I just want to see how long they last for. <SYSTEM> Ok, sorry for the doubt and I will answer your question. one moment please <USER>  <SYSTEM> Ok, all promo codes expire after 7 days without fail. <USER> Perfect. Thanks <SYSTEM> not problem! a pleasure to help you and your cat too",
+                "dialog history": "<USER> HEY HO! <SYSTEM> good afternoon, how can I help you? <USER> I've got a promo code and I want to know when they expire. I'd like to use it to buy some hats for my cat. <SYSTEM> sure!  let me check that. one moment please <USER> Some people think it's funny to put hats on cats...I do not feel that way. <SYSTEM> cats deserve to look good too <USER> exactly! <SYSTEM> ok, just to verify you already tried to use the code? <USER> No, I just want to see how long they last for. <SYSTEM> Ok, sorry for the doubt and I will answer your question. one moment please <SYSTEM> Ok, all promo codes expire after 7 days without fail. <USER> Perfect. Thanks <SYSTEM> not problem! a pleasure to help you and your cat too",
                 "original user side information": {
                     "delexed": [
                         {
@@ -4835,30 +4841,30 @@
                         "0529 2nd ave"
                     ],
                     "<zip_code>": [
-                        "83702",
-                        "73686",
-                        "69445",
-                        "62251",
-                        "77",
-                        "40147",
-                        "30142",
+                        "8362",
+                        "87118",
+                        "28848",
+                        "19216",
+                        "70309",
+                        "990",
+                        "62134",
+                        "19216",
                         "57907",
-                        "73686",
-                        "87093"
+                        "1255"
                     ]
                 }
             },
             "intents": {}
         },
         "external knowledge": "()",
-        "dst knowledge": "( storewide_query : ( <amount> : ( 94 | 69 | 99 | 64 | 59 | 79 | 89 | 54 | 74 | 49 | 84 ) | <name> : ( guess jacket | guess shirt | guess boots | guess jeans ) | <phone> : ( (925) 256-0903 | (634) 811-2214 | (913) 173-1617 | (944) 427-5361 | (230) 024-1800 | (444) 845-9908 | (311) 951-7884 | (708) 623-6750 | (620) 328-9301 | (947) 568-6249 | (329) 326-1717 | (632) 318-8481 ) | <street_address> : ( 3910 lincoln ave | 8978 kennedy st | 0043 brushwick dr | 6203 circle drive | 4206 brushwick dr | 9871 2nd ave | 4715 brushwick dr | 8160 woodshore st | 2659 2nd ave | 1921 lincoln ave | 5471 brushwick dr | 8716 lincoln ave | 2001 circle drive | 0529 2nd ave ) | <zip_code> : ( 83702 | 73686 | 69445 | 62251 | 77 | 40147 | 30142 | 57907 | 73686 | 87093 )))",
+        "dst knowledge": "( storewide_query : ( <amount> : ( 94 | 69 | 99 | 64 | 59 | 79 | 89 | 54 | 74 | 49 | 84 ) | <name> : ( guess jacket | guess shirt | guess boots | guess jeans ) | <phone> : ( (925) 256-0903 | (634) 811-2214 | (913) 173-1617 | (944) 427-5361 | (230) 024-1800 | (444) 845-9908 | (311) 951-7884 | (708) 623-6750 | (620) 328-9301 | (947) 568-6249 | (329) 326-1717 | (632) 318-8481 ) | <street_address> : ( 3910 lincoln ave | 8978 kennedy st | 0043 brushwick dr | 6203 circle drive | 4206 brushwick dr | 9871 2nd ave | 4715 brushwick dr | 8160 woodshore st | 2659 2nd ave | 1921 lincoln ave | 5471 brushwick dr | 8716 lincoln ave | 2001 circle drive | 0529 2nd ave ) | <zip_code> : ( 8362 | 87118 | 28848 | 19216 | 70309 | 990 | 62134 | 19216 | 57907 | 1255 )))",
         "intent knowledge": "()",
         "prompt": [
             "This is a bot helping users to find answers to FAQ questions about pricing, timing, membership or features. Given the dialog context and external database, please generate a relevant system response for the user.",
             "This bot assists users to find answers to FAQ questions about pricing, timing, membership or features. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
-            "This bot helps users to find answers to FAQ questions about pricing, timing, membership or features. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
-            "The purpose of this bot is to assist users to find answers to FAQ questions about pricing, timing, membership or features. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
-            "This bot is designed to help users find answers to FAQ questions about pricing, timing, membership or features. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+            "This bot helps users to find answers to FAQ questions about pricing, timing, membership or features. Based on the conversation history and available external data, please generate a relevant system response for the user.",
+            "The purpose of this bot is to assist users to find answers to FAQ questions about pricing, timing, membership or features. Considering the dialogue context and the information available in the external database, please provide a fitting response for the user.",
+            "This bot is designed to help users find answers to FAQ questions about pricing, timing, membership or features. By utilizing the current dialog context and external resources, generate a fitting response for the user."
         ]
     },
     "ABCD--train--4": {
@@ -5026,7 +5032,9 @@
                             ]
                         }
                     ]
-                }
+                },
+                "dst": "",
+                "dst accumulated": ""
             },
             {
                 "turn id": 2,
@@ -6491,64 +6499,64 @@
             "slots and values": {
                 "shipping_issue": {
                     "<order_id>": [
-                        "8646912916",
-                        "2996844001",
-                        "4719175057",
-                        "2334747660",
-                        "3896003186",
-                        "1936102100",
-                        "3365684849",
-                        "6767133822",
-                        "6817623927",
-                        "7991003845"
+                        "5501540255",
+                        "7129469967",
+                        "1135512314",
+                        "1551016870",
+                        "3071873553",
+                        "2967715579",
+                        "9228783166",
+                        "4838141260",
+                        "2336809170",
+                        "7257480385"
                     ],
                     "<username>": [
-                        "rdomingo830",
-                        "joycewu3",
-                        "chloez60",
-                        "davidwilliams617",
-                        "jb626950",
-                        "jwu04640",
-                        "nbouchard750",
-                        "rodriguezd837",
-                        "crystalm305",
-                        "cz060556"
+                        "davidw99",
+                        "cm924261",
+                        "cz091551",
+                        "nbouchard613",
+                        "joycewu2",
+                        "sanyaafzal261",
+                        "joycewu8",
+                        "jb777907",
+                        "rdomingo569",
+                        "alessandrop603"
                     ],
                     "<email>": [
-                        "rdomingo470@email.com",
-                        "czhang87@email.com",
-                        "asanders281@email.com",
-                        "chloezhang118@email.com",
-                        "rodriguezdomingo880@email.com",
-                        "cm591684@email.com",
-                        "chloezhang848@email.com",
-                        "sanyaafzal407@email.com",
-                        "nbouchard750@email.com",
-                        "cz007396@email.com"
+                        "normanb0@email.com",
+                        "jwu38840@email.com",
+                        "aphoenix935@email.com",
+                        "joycew44@email.com",
+                        "cminh605@email.com",
+                        "jbanter4@email.com",
+                        "jb897419@email.com",
+                        "alberts0@email.com",
+                        "chloezhang141@email.com",
+                        "cminh323@email.com"
                     ],
                     "<zip_code>": [
-                        "7043",
-                        "56517",
-                        "65002",
-                        "86993",
-                        "88278",
-                        "54555",
-                        "92464",
-                        "22614",
-                        "80843",
-                        "13517"
+                        "2552",
+                        "64275",
+                        "54832",
+                        "57637",
+                        "25171",
+                        "20431",
+                        "63530",
+                        "42087",
+                        "44264",
+                        "80291"
                     ],
                     "<account_id>": [
-                        "5jvvfmzleh",
-                        "x3v7hptych",
-                        "odupnl5bec",
-                        "myk7acvjj3",
-                        "1i94gdckik",
-                        "xyzpgrrqby",
-                        "sfm8boycmr",
-                        "jqeysfdaha",
-                        "clyzgxxpl9",
-                        "7u9cruhmja"
+                        "is8nhdwn7m",
+                        "h5jnulfxk8",
+                        "oclm8otdy0",
+                        "hb61pzojex",
+                        "rajjbyl3ut",
+                        "rajjbyl3ut",
+                        "0o2svtreok",
+                        "3oronfnnlb",
+                        "wdhgdkzak5",
+                        "t8zjtml3we"
                     ],
                     "<amount>": [
                         "94",
@@ -6565,28 +6573,28 @@
                         "84"
                     ],
                     "<street_address>": [
-                        "6683 2nd ave",
-                        "9214 kennedy st",
-                        "6647 2nd ave",
-                        "6854 woodshore st",
-                        "1838 primrose ave",
-                        "1359 brushwick dr",
-                        "4497 kennedy st",
-                        "4732 lincoln ave",
-                        "0962 kennedy st",
-                        "8784 lexington ave"
+                        "6921 primrose ave",
+                        "0339 lincoln ave",
+                        "8292 lincoln ave",
+                        "6533 lincoln ave",
+                        "5388 circle drive",
+                        "5719 primrose ave",
+                        "5707 lexington ave",
+                        "2835 lincoln ave",
+                        "2742 2nd ave",
+                        "8298 1st ave"
                     ],
                     "<phone>": [
                         "(393) 891-8147",
-                        "(180) 150-8484",
+                        "(611) 982-2533",
                         "(266) 456-0810",
-                        "(987) 148-5916",
-                        "(180) 150-8484",
-                        "(317) 789-4569",
-                        "(688) 239-2400",
-                        "(688) 239-2400",
-                        "(105) 905-0023",
-                        "(783) 231-1613"
+                        "(853) 496-4606",
+                        "(721) 298-4575",
+                        "(555) 380-2981",
+                        "(494) 623-1132",
+                        "(139) 131-6434",
+                        "(494) 623-1132",
+                        "(925) 003-3735"
                     ],
                     "<name>": [
                         "michael_kors shirt",
@@ -6605,14 +6613,14 @@
             "intents": {}
         },
         "external knowledge": "()",
-        "dst knowledge": "( shipping_issue : ( <order_id> : ( 8646912916 | 2996844001 | 4719175057 | 2334747660 | 3896003186 | 1936102100 | 3365684849 | 6767133822 | 6817623927 | 7991003845 ) | <username> : ( rdomingo830 | joycewu3 | chloez60 | davidwilliams617 | jb626950 | jwu04640 | nbouchard750 | rodriguezd837 | crystalm305 | cz060556 ) | <email> : ( rdomingo470@email.com | czhang87@email.com | asanders281@email.com | chloezhang118@email.com | rodriguezdomingo880@email.com | cm591684@email.com | chloezhang848@email.com | sanyaafzal407@email.com | nbouchard750@email.com | cz007396@email.com ) | <zip_code> : ( 7043 | 56517 | 65002 | 86993 | 88278 | 54555 | 92464 | 22614 | 80843 | 13517 ) | <account_id> : ( 5jvvfmzleh | x3v7hptych | odupnl5bec | myk7acvjj3 | 1i94gdckik | xyzpgrrqby | sfm8boycmr | jqeysfdaha | clyzgxxpl9 | 7u9cruhmja ) | <amount> : ( 94 | 69 | 99 | 64 | 59 | 79 | 89 | 54 | 69.00 | 74 | 49 | 84 ) | <street_address> : ( 6683 2nd ave | 9214 kennedy st | 6647 2nd ave | 6854 woodshore st | 1838 primrose ave | 1359 brushwick dr | 4497 kennedy st | 4732 lincoln ave | 0962 kennedy st | 8784 lexington ave ) | <phone> : ( (393) 891-8147 | (180) 150-8484 | (266) 456-0810 | (987) 148-5916 | (180) 150-8484 | (317) 789-4569 | (688) 239-2400 | (688) 239-2400 | (105) 905-0023 | (783) 231-1613 ) | <name> : ( michael_kors shirt | michael_kors jeans | guess jeans | calvin_klein boots | michael_kors boots | guess jacket | guess boots | michael_kors jacket | calvin_klein shirt | guess shirt )))",
+        "dst knowledge": "( shipping_issue : ( <order_id> : ( 5501540255 | 7129469967 | 1135512314 | 1551016870 | 3071873553 | 2967715579 | 9228783166 | 4838141260 | 2336809170 | 7257480385 ) | <username> : ( davidw99 | cm924261 | cz091551 | nbouchard613 | joycewu2 | sanyaafzal261 | joycewu8 | jb777907 | rdomingo569 | alessandrop603 ) | <email> : ( normanb0@email.com | jwu38840@email.com | aphoenix935@email.com | joycew44@email.com | cminh605@email.com | jbanter4@email.com | jb897419@email.com | alberts0@email.com | chloezhang141@email.com | cminh323@email.com ) | <zip_code> : ( 2552 | 64275 | 54832 | 57637 | 25171 | 20431 | 63530 | 42087 | 44264 | 80291 ) | <account_id> : ( is8nhdwn7m | h5jnulfxk8 | oclm8otdy0 | hb61pzojex | rajjbyl3ut | rajjbyl3ut | 0o2svtreok | 3oronfnnlb | wdhgdkzak5 | t8zjtml3we ) | <amount> : ( 94 | 69 | 99 | 64 | 59 | 79 | 89 | 54 | 69.00 | 74 | 49 | 84 ) | <street_address> : ( 6921 primrose ave | 0339 lincoln ave | 8292 lincoln ave | 6533 lincoln ave | 5388 circle drive | 5719 primrose ave | 5707 lexington ave | 2835 lincoln ave | 2742 2nd ave | 8298 1st ave ) | <phone> : ( (393) 891-8147 | (611) 982-2533 | (266) 456-0810 | (853) 496-4606 | (721) 298-4575 | (555) 380-2981 | (494) 623-1132 | (139) 131-6434 | (494) 623-1132 | (925) 003-3735 ) | <name> : ( michael_kors shirt | michael_kors jeans | guess jeans | calvin_klein boots | michael_kors boots | guess jacket | guess boots | michael_kors jacket | calvin_klein shirt | guess shirt )))",
         "intent knowledge": "()",
         "prompt": [
             "This is a bot helping users to check out update a shipment of an item. Given the dialog context and external database, please generate a relevant system response for the user.",
             "This bot assists users to check out update a shipment of an item. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
-            "This bot helps users to check out update a shipment of an item. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
-            "The purpose of this bot is to assist users to check out update a shipment of an item. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
-            "This bot is designed to help users check out update a shipment of an item. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+            "This bot helps users to check out update a shipment of an item. Based on the conversation history and available external data, please generate a relevant system response for the user.",
+            "The purpose of this bot is to assist users to check out update a shipment of an item. Considering the dialogue context and the information available in the external database, please provide a fitting response for the user.",
+            "This bot is designed to help users check out update a shipment of an item. By utilizing the current dialog context and external resources, generate a fitting response for the user."
         ]
     },
     "ABCD--train--5": {
@@ -6774,7 +6782,9 @@
                             ]
                         }
                     ]
-                }
+                },
+                "dst": "",
+                "dst accumulated": ""
             },
             {
                 "turn id": 2,
@@ -7751,30 +7761,30 @@
                         "0529 2nd ave"
                     ],
                     "<zip_code>": [
-                        "83702",
-                        "73686",
-                        "69445",
-                        "62251",
-                        "77",
-                        "40147",
-                        "30142",
+                        "8362",
+                        "87118",
+                        "28848",
+                        "19216",
+                        "70309",
+                        "990",
+                        "62134",
+                        "19216",
                         "57907",
-                        "73686",
-                        "87093"
+                        "1255"
                     ]
                 }
             },
             "intents": {}
         },
         "external knowledge": "()",
-        "dst knowledge": "( storewide_query : ( <amount> : ( 94 | 69 | 99 | 64 | 59 | 79 | 89 | 54 | 74 | 49 | 84 ) | <name> : ( guess jacket | guess shirt | guess boots | guess jeans ) | <phone> : ( (925) 256-0903 | (634) 811-2214 | (913) 173-1617 | (944) 427-5361 | (230) 024-1800 | (444) 845-9908 | (311) 951-7884 | (708) 623-6750 | (620) 328-9301 | (947) 568-6249 | (329) 326-1717 | (632) 318-8481 ) | <street_address> : ( 3910 lincoln ave | 8978 kennedy st | 0043 brushwick dr | 6203 circle drive | 4206 brushwick dr | 9871 2nd ave | 4715 brushwick dr | 8160 woodshore st | 2659 2nd ave | 1921 lincoln ave | 5471 brushwick dr | 8716 lincoln ave | 2001 circle drive | 0529 2nd ave ) | <zip_code> : ( 83702 | 73686 | 69445 | 62251 | 77 | 40147 | 30142 | 57907 | 73686 | 87093 )))",
+        "dst knowledge": "( storewide_query : ( <amount> : ( 94 | 69 | 99 | 64 | 59 | 79 | 89 | 54 | 74 | 49 | 84 ) | <name> : ( guess jacket | guess shirt | guess boots | guess jeans ) | <phone> : ( (925) 256-0903 | (634) 811-2214 | (913) 173-1617 | (944) 427-5361 | (230) 024-1800 | (444) 845-9908 | (311) 951-7884 | (708) 623-6750 | (620) 328-9301 | (947) 568-6249 | (329) 326-1717 | (632) 318-8481 ) | <street_address> : ( 3910 lincoln ave | 8978 kennedy st | 0043 brushwick dr | 6203 circle drive | 4206 brushwick dr | 9871 2nd ave | 4715 brushwick dr | 8160 woodshore st | 2659 2nd ave | 1921 lincoln ave | 5471 brushwick dr | 8716 lincoln ave | 2001 circle drive | 0529 2nd ave ) | <zip_code> : ( 8362 | 87118 | 28848 | 19216 | 70309 | 990 | 62134 | 19216 | 57907 | 1255 )))",
         "intent knowledge": "()",
         "prompt": [
             "This is a bot helping users to find answers to FAQ questions about pricing, timing, membership or features. Given the dialog context and external database, please generate a relevant system response for the user.",
             "This bot assists users to find answers to FAQ questions about pricing, timing, membership or features. Based on the dialogue context and information from the external database, please generate an appropriate response for the user.",
-            "This bot helps users to find answers to FAQ questions about pricing, timing, membership or features. Provide a suitable response to the user, keeping in mind the conversation history and accessible external data.",
-            "The purpose of this bot is to assist users to find answers to FAQ questions about pricing, timing, membership or features. Considering the dialogue context and the information available in the external knowledge, please provide a fitting response for the user.",
-            "This bot is designed to help users find answers to FAQ questions about pricing, timing, membership or features. By utilizing the current dialog context and external resources, generate an appropriate response for the user."
+            "This bot helps users to find answers to FAQ questions about pricing, timing, membership or features. Based on the conversation history and available external data, please generate a relevant system response for the user.",
+            "The purpose of this bot is to assist users to find answers to FAQ questions about pricing, timing, membership or features. Considering the dialogue context and the information available in the external database, please provide a fitting response for the user.",
+            "This bot is designed to help users find answers to FAQ questions about pricing, timing, membership or features. By utilizing the current dialog context and external resources, generate a fitting response for the user."
         ]
     }
 }

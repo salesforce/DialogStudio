@@ -217,69 +217,6 @@
                 "original user side information": {},
                 "original system side information": {}
             }
-        ],
-        "external knowledge non-flat": {
-            "metadata": {
-                "situation": "Time: 12:00, at school",
-                "knowledge": [
-                    [
-                        "Cecilia Cheung",
-                        "Stars",
-                        "Left Right Love Destiny"
-                    ],
-                    [
-                        "Cecilia Cheung",
-                        "Stars",
-                        "Left Right Love Destiny"
-                    ],
-                    [],
-                    [
-                        "Cecilia Cheung",
-                        "Intro",
-                        "Chinese dreamgirl"
-                    ],
-                    [],
-                    [
-                        "Cecilia Cheung",
-                        "Achievement",
-                        "Outstanding Asian artists of New York China Film Festival"
-                    ],
-                    [],
-                    [
-                        "Failan",
-                        "Comments",
-                        "Failan presents a love tragedy isolated in different time and space, but the film does not stop at telling a sad and beautiful love. Through the shell of the sad story, the audience gets the director's deeper thinking and understanding of the human nature of life.Focusing on the spiritual core of saving and being saved, the narrative unfolds, the theme is expounded, and the blindness to reality is unveiled. The audience is touched and awakened. The director fully played the magic of the movie, disrupting the narrative time and space, intersecting the past and the present, and advancing freely following the protagonists\u2019 emotions, making the story structure more tense and the theme and emotions more heartfelt. Although it describes the underworld, the director deliberately avoided the violence rendering and used extremely life-like methods to describe the underworld story routines such as gang struggle and group fight."
-                    ],
-                    [],
-                    [
-                        "Nicholas Tse",
-                        "Stars",
-                        "The Stool Pigeon"
-                    ],
-                    [
-                        "The Stool Pigeon",
-                        "Type",
-                        "Action plot Thriller"
-                    ],
-                    [
-                        "The Stool Pigeon",
-                        "Type",
-                        "Action plot Thriller"
-                    ],
-                    [],
-                    [],
-                    [],
-                    []
-                ]
-            }
-        },
-        "external knowledge": "Knowledge: [['Cecilia Cheung', 'Stars', 'Left Right Love Destiny'], [], ['Cecilia Cheung', 'Intro', 'Chinese dreamgirl'], ['Cecilia Cheung', 'Achievement', 'Outstanding Asian artists of New York China Film Festival'], ['Failan', 'Comments', \"Failan presents a love tragedy isolated in different time and space, but the film does not stop at telling a sad and beautiful love. Through the shell of the sad story, the audience gets the director's deeper thinking and understanding of the human nature of life.Focusing on the spiritual core of saving and being saved, the narrative unfolds, the theme is expounded, and the blindness to reality is unveiled. The audience is touched and awakened. The director fully played the magic of the movie, disrupting the narrative time and space, intersecting the past and the present, and advancing freely following the protagonists\u2019 emotions, making the story structure more tense and the theme and emotions more heartfelt. Although it describes the underworld, the director deliberately avoided the violence rendering and used extremely life-like methods to describe the underworld story routines such as gang struggle and group fight.\"], ['Nicholas Tse', 'Stars', 'The Stool Pigeon'], ['The Stool Pigeon', 'Type', 'Action plot Thriller']]",
-        "prompt": [
-            "Pretend you are an AI assistant, and the context is Time: 12:00, at school. Craft a suitable response or suggestion for the user, considering the conversation history and your knowledge base.",
-            "As a chatbot, envision the scenario is Time: 12:00, at school. Generate an appropriate response or advice based on the dialog history and your database of knowledge.",
-            "Consider yourself a chatbot, and the setting revolves around Time: 12:00, at school. Create an appropriate response or recommendation for the user, taking into account previous interactions and your information repository.",
-            "Assume you are an AI conversationalist in a scenario related to Time: 12:00, at school. Provide a fitting response or guidance for the user, based on prior conversation and your knowledge resource.",
-            "As a chatbot, picture a situation focused on Time: 12:00, at school. Offer a suitable response or suggestion to the user, keeping in mind the conversation history and your knowledge foundation."
         ]
     },
     "DuRecDial-2.0--train--2": {
@@ -472,63 +409,6 @@
                 "original user side information": {},
                 "original system side information": {}
             }
-        ],
-        "external knowledge non-flat": {
-            "metadata": {
-                "situation": "Time: 20 18 - 12 - 12   22:00, at home   Wednesday",
-                "knowledge": [
-                    [
-                        "Hengshui",
-                        "2018-12-12",
-                        "Sunny with southwest winds. The high will be 4 \u2103, and low - 7 \u2103"
-                    ],
-                    [
-                        "Hengshui",
-                        "2018-12-12",
-                        "Sunny with southwest winds. The high will be 4 \u2103, and low - 7 \u2103"
-                    ],
-                    [],
-                    [
-                        "Sunny with southwest winds. The high will be 4 \u2103, and low - 7 \u2103",
-                        "Perfect for having",
-                        "Marinated Fish"
-                    ],
-                    [],
-                    [
-                        "Marinated Fish",
-                        "Ingredients",
-                        "grouper\u3001Olive oil\u3001lemon juice\u3001Garlic\u3001pepper powder\u3001salt"
-                    ],
-                    [],
-                    [
-                        "Mr.Fish Roasted",
-                        "Specials",
-                        "Marinated Fish"
-                    ],
-                    [
-                        "Mr.Fish Roasted",
-                        "Rating",
-                        "5"
-                    ],
-                    [
-                        "Mr.Fish Roasted",
-                        "Rating",
-                        "5"
-                    ],
-                    [],
-                    [],
-                    [],
-                    []
-                ]
-            }
-        },
-        "external knowledge": "Knowledge: [['Hengshui', '2018-12-12', 'Sunny with southwest winds. The high will be 4 \u2103, and low - 7 \u2103'], [], ['Sunny with southwest winds. The high will be 4 \u2103, and low - 7 \u2103', 'Perfect for having', 'Marinated Fish'], ['Marinated Fish', 'Ingredients', 'grouper\u3001Olive oil\u3001lemon juice\u3001Garlic\u3001pepper powder\u3001salt'], ['Mr.Fish Roasted', 'Specials', 'Marinated Fish'], ['Mr.Fish Roasted', 'Rating', '5']]",
-        "prompt": [
-            "Pretend you are an AI assistant, and the context is Time: 20 18 - 12 - 12   22:00, at home   Wednesday. Craft a suitable response or suggestion for the user, considering the conversation history and your knowledge base.",
-            "As a chatbot, envision the scenario is Time: 20 18 - 12 - 12   22:00, at home   Wednesday. Generate an appropriate response or advice based on the dialog history and your database of knowledge.",
-            "Consider yourself a chatbot, and the setting revolves around Time: 20 18 - 12 - 12   22:00, at home   Wednesday. Create an appropriate response or recommendation for the user, taking into account previous interactions and your information repository.",
-            "Assume you are an AI conversationalist in a scenario related to Time: 20 18 - 12 - 12   22:00, at home   Wednesday. Provide a fitting response or guidance for the user, based on prior conversation and your knowledge resource.",
-            "As a chatbot, picture a situation focused on Time: 20 18 - 12 - 12   22:00, at home   Wednesday. Offer a suitable response or suggestion to the user, keeping in mind the conversation history and your knowledge foundation."
         ]
     },
     "DuRecDial-2.0--train--3": {
@@ -707,47 +587,6 @@
                 "original user side information": {},
                 "original system side information": {}
             }
-        ],
-        "external knowledge non-flat": {
-            "metadata": {
-                "situation": "Time: 18:00,on the way home",
-                "knowledge": [
-                    [],
-                    [],
-                    [
-                        "Leehom Wang",
-                        "Sings",
-                        "Hand in Hand"
-                    ],
-                    [
-                        "Leehom Wang",
-                        "Sings",
-                        "Change Me"
-                    ],
-                    [],
-                    [
-                        "Leehom Wang",
-                        "Sings",
-                        "All the Things You Never Knew"
-                    ],
-                    [],
-                    [],
-                    [],
-                    [],
-                    [],
-                    [],
-                    [],
-                    []
-                ]
-            }
-        },
-        "external knowledge": "Knowledge: [[], ['Leehom Wang', 'Sings', 'Hand in Hand'], ['Leehom Wang', 'Sings', 'Change Me'], ['Leehom Wang', 'Sings', 'All the Things You Never Knew']]",
-        "prompt": [
-            "Pretend you are an AI assistant, and the context is Time: 18:00,on the way home. Craft a suitable response or suggestion for the user, considering the conversation history and your knowledge base.",
-            "As a chatbot, envision the scenario is Time: 18:00,on the way home. Generate an appropriate response or advice based on the dialog history and your database of knowledge.",
-            "Consider yourself a chatbot, and the setting revolves around Time: 18:00,on the way home. Create an appropriate response or recommendation for the user, taking into account previous interactions and your information repository.",
-            "Assume you are an AI conversationalist in a scenario related to Time: 18:00,on the way home. Provide a fitting response or guidance for the user, based on prior conversation and your knowledge resource.",
-            "As a chatbot, picture a situation focused on Time: 18:00,on the way home. Offer a suitable response or suggestion to the user, keeping in mind the conversation history and your knowledge foundation."
         ]
     },
     "DuRecDial-2.0--train--4": {
@@ -985,83 +824,6 @@
                 "original user side information": {},
                 "original system side information": {}
             }
-        ],
-        "external knowledge non-flat": {
-            "metadata": {
-                "situation": "Time: 20 18 - 11 - 22   12:00, at school   Thursday",
-                "knowledge": [
-                    [
-                        "Xining",
-                        "2018-11-22",
-                        "Sunny with northwest winds. The high will be 6 \u2103, and low - 12 \u2103"
-                    ],
-                    [
-                        "Xining",
-                        "2018-11-22",
-                        "Sunny with northwest winds. The high will be 6 \u2103, and low - 12 \u2103"
-                    ],
-                    [],
-                    [
-                        "Sunny with northwest winds. The high will be 6 \u2103, and low - 12 \u2103",
-                        "Perfect for having",
-                        "Saut\u00e9ed\u00a0Spicy\u00a0Pork\u00a0"
-                    ],
-                    [],
-                    [
-                        "Saut\u00e9ed\u00a0Spicy\u00a0Pork\u00a0",
-                        "Type",
-                        "Hot Dishes"
-                    ],
-                    [],
-                    [
-                        "Laoqi Sichuan Restaurant",
-                        "Specials",
-                        "Saut\u00e9ed\u00a0Spicy\u00a0Pork\u00a0"
-                    ],
-                    [
-                        "Laoqi Sichuan Restaurant",
-                        "Price per person",
-                        "32"
-                    ],
-                    [
-                        "Laoqi Sichuan Restaurant",
-                        "Price per person",
-                        "32"
-                    ],
-                    [
-                        "Laoqi Sichuan Restaurant",
-                        "Address",
-                        "Next to Yinhe Yuzhuang, Jinse Jiayuan, No.914 Qilian Road, Chengbei District"
-                    ],
-                    [
-                        "Laoqi Sichuan Restaurant",
-                        "Address",
-                        "Next to Yinhe Yuzhuang, Jinse Jiayuan, No.914 Qilian Road, Chengbei District"
-                    ],
-                    [
-                        "Laoqi Sichuan Restaurant",
-                        "Rating",
-                        "4.7"
-                    ],
-                    [
-                        "Laoqi Sichuan Restaurant",
-                        "Rating",
-                        "4.7"
-                    ],
-                    [],
-                    [],
-                    [],
-                    []
-                ]
-            }
-        },
-        "external knowledge": "Knowledge: [['Xining', '2018-11-22', 'Sunny with northwest winds. The high will be 6 \u2103, and low - 12 \u2103'], [], ['Sunny with northwest winds. The high will be 6 \u2103, and low - 12 \u2103', 'Perfect for having', 'Saut\u00e9ed\\xa0Spicy\\xa0Pork\\xa0'], ['Saut\u00e9ed\\xa0Spicy\\xa0Pork\\xa0', 'Type', 'Hot Dishes'], ['Laoqi Sichuan Restaurant', 'Specials', 'Saut\u00e9ed\\xa0Spicy\\xa0Pork\\xa0'], ['Laoqi Sichuan Restaurant', 'Price per person', '32'], ['Laoqi Sichuan Restaurant', 'Address', 'Next to Yinhe Yuzhuang, Jinse Jiayuan, No.914 Qilian Road, Chengbei District'], ['Laoqi Sichuan Restaurant', 'Rating', '4.7']]",
-        "prompt": [
-            "Pretend you are an AI assistant, and the context is Time: 20 18 - 11 - 22   12:00, at school   Thursday. Craft a suitable response or suggestion for the user, considering the conversation history and your knowledge base.",
-            "As a chatbot, envision the scenario is Time: 20 18 - 11 - 22   12:00, at school   Thursday. Generate an appropriate response or advice based on the dialog history and your database of knowledge.",
-            "Consider yourself a chatbot, and the setting revolves around Time: 20 18 - 11 - 22   12:00, at school   Thursday. Create an appropriate response or recommendation for the user, taking into account previous interactions and your information repository.",
-            "Assume you are an AI conversationalist in a scenario related to Time: 20 18 - 11 - 22   12:00, at school   Thursday. Provide a fitting response or guidance for the user, based on prior conversation and your knowledge resource.",
-            "As a chatbot, picture a situation focused on Time: 20 18 - 11 - 22   12:00, at school   Thursday. Offer a suitable response or suggestion to the user, keeping in mind the conversation history and your knowledge foundation."
         ]
     },
     "DuRecDial-2.0--train--5": {
@@ -1231,45 +993,6 @@
                 "original user side information": {},
                 "original system side information": {}
             }
-        ],
-        "external knowledge non-flat": {
-            "metadata": {
-                "situation": "Time: 20:00, at home Topic: Academic setback",
-                "knowledge": [
-                    [],
-                    [],
-                    [],
-                    [],
-                    [],
-                    [],
-                    [],
-                    [],
-                    [],
-                    [],
-                    [
-                        "Xinxi Zhang",
-                        "Prefers",
-                        "Animal"
-                    ],
-                    [
-                        "Xinxi Zhang",
-                        "Prefers",
-                        "Animal"
-                    ],
-                    [],
-                    [],
-                    [],
-                    []
-                ]
-            }
-        },
-        "external knowledge": "Knowledge: [[], ['Xinxi Zhang', 'Prefers', 'Animal']]",
-        "prompt": [
-            "Pretend you are an AI assistant, and the context is Time: 20:00, at home Topic: Academic setback. Craft a suitable response or suggestion for the user, considering the conversation history and your knowledge base.",
-            "As a chatbot, envision the scenario is Time: 20:00, at home Topic: Academic setback. Generate an appropriate response or advice based on the dialog history and your database of knowledge.",
-            "Consider yourself a chatbot, and the setting revolves around Time: 20:00, at home Topic: Academic setback. Create an appropriate response or recommendation for the user, taking into account previous interactions and your information repository.",
-            "Assume you are an AI conversationalist in a scenario related to Time: 20:00, at home Topic: Academic setback. Provide a fitting response or guidance for the user, based on prior conversation and your knowledge resource.",
-            "As a chatbot, picture a situation focused on Time: 20:00, at home Topic: Academic setback. Offer a suitable response or suggestion to the user, keeping in mind the conversation history and your knowledge foundation."
         ]
     }
 }

@@ -59,7 +59,8 @@
                 "FARAI CHIDEYA, host : Tomorrow, how success can make or break a family."
             ]
         },
-        "log": []
+        "log": [],
+        "prompt": []
     },
     "MediaSum--train--2": {
         "original dialog id": "NPR-2",
@@ -126,7 +127,8 @@
                 "NICK TOMCHIK : Yeah, absolutely."
             ]
         },
-        "log": []
+        "log": [],
+        "prompt": []
     },
     "MediaSum--train--3": {
         "original dialog id": "NPR-3",
@@ -153,7 +155,8 @@
                 "CHIDEYA : Jeff Obafemi Carr is an actor, playwright and co-host of the radio show \"Freestyle.\" He lives in Nashville, Tennessee."
             ]
         },
-        "log": []
+        "log": [],
+        "prompt": []
     },
     "MediaSum--train--4": {
         "original dialog id": "NPR-4",
@@ -191,7 +194,8 @@
                 "FARAI CHIDEYA, host : Well, thanks again. Dr. Shannon Hader, she's the director D.C. HIV/AIDS Administration."
             ]
         },
-        "log": []
+        "log": [],
+        "prompt": []
     },
     "MediaSum--train--5": {
         "original dialog id": "NPR-5",
@@ -229,6 +233,7 @@
                 "FARAI CHIDEYA, host : Dorothy Holmes is president of the Association of Black Psychologists, and she's worked with HIV-infected clients and their families since 1995."
             ]
         },
-        "log": []
+        "log": [],
+        "prompt": []
     }
 }

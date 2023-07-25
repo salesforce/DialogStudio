@@ -1,22 +1,7 @@
 [
-    {
-        "input": "listen to westbam alumb allergic on google music",
-        "output": "PlayMusic"
-    },
-    {
-        "input": "add step to me to the 50 cl\u00e1sicos playlist ",
-        "output": "AddToPlaylist"
-    },
-    {
-        "input": "i give this current textbook a rating value of 1 and a best rating of 6",
-        "output": "RateBook"
-    },
-    {
-        "input": "play the song little robin redbreast",
-        "output": "PlayMusic"
-    },
-    {
-        "input": "please add iris dement to my playlist this is selena",
-        "output": "AddToPlaylist"
-    }
+    "listen to westbam alumb allergic on google music",
+    "add step to me to the 50 cl\u00e1sicos playlist ",
+    "i give this current textbook a rating value of 1 and a best rating of 6",
+    "play the song little robin redbreast",
+    "please add iris dement to my playlist this is selena"
 ]

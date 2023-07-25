@@ -1,0 +1,4364 @@
+{
+    "SNG01856.json": {
+        "goal": {
+            "taxi": {},
+            "police": {},
+            "hospital": {},
+            "hotel": {
+                "info": {
+                    "type": "hotel",
+                    "parking": "yes",
+                    "pricerange": "cheap",
+                    "internet": "yes"
+                },
+                "fail_info": {},
+                "book": {
+                    "pre_invalid": true,
+                    "stay": "2",
+                    "day": "tuesday",
+                    "invalid": false,
+                    "people": "6"
+                },
+                "fail_book": {
+                    "stay": "3"
+                }
+            },
+            "topic": {
+                "taxi": false,
+                "police": false,
+                "restaurant": false,
+                "hospital": false,
+                "hotel": false,
+                "general": false,
+                "attraction": false,
+                "train": false,
+                "booking": false
+            },
+            "attraction": {},
+            "train": {},
+            "message": [
+                "You are looking for a <span class='emphasis'>place to stay</span>. The hotel should be in the <span class='emphasis'>cheap</span> price range and should be in the type of <span class='emphasis'>hotel</span>",
+                "The hotel should <span class='emphasis'>include free parking</span> and should <span class='emphasis'>include free wifi</span>",
+                "Once you find the <span class='emphasis'>hotel</span> you want to book it for <span class='emphasis'>6 people</span> and <span class='emphasis'>3 nights</span> starting from <span class='emphasis'>tuesday</span>",
+                "If the booking fails how about <span class='emphasis'>2 nights</span>",
+                "Make sure you get the <span class='emphasis'>reference number</span>"
+            ],
+            "restaurant": {}
+        },
+        "log": [
+            {
+                "text": "am looking for a place to to stay that has cheap price range it should be in a type of hotel",
+                "metadata": {},
+                "dialog_act": {
+                    "Hotel-Inform": [
+                        [
+                            "Type",
+                            "hotel"
+                        ],
+                        [
+                            "Price",
+                            "cheap"
+                        ]
+                    ]
+                },
+                "span_info": [
+                    [
+                        "Hotel-Inform",
+                        "Type",
+                        "hotel",
+                        20,
+                        20
+                    ],
+                    [
+                        "Hotel-Inform",
+                        "Price",
+                        "cheap",
+                        10,
+                        10
+                    ]
+                ]
+            },
+            {
+                "text": "Okay, do you have a specific area you want to stay in?",
+                "metadata": {
+                    "taxi": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {
+                            "leaveAt": "",
+                            "destination": "",
+                            "departure": "",
+                            "arriveBy": ""
+                        }
+                    },
+                    "police": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {}
+                    },
+                    "restaurant": {
+                        "book": {
+                            "booked": [],
+                            "time": "",
+                            "day": "",
+                            "people": ""
+                        },
+                        "semi": {
+                            "food": "",
+                            "pricerange": "",
+                            "name": "",
+                            "area": ""
+                        }
+                    },
+                    "hospital": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {
+                            "department": ""
+                        }
+                    },
+                    "hotel": {
+                        "book": {
+                            "booked": [],
+                            "stay": "",
+                            "day": "",
+                            "people": ""
+                        },
+                        "semi": {
+                            "name": "not mentioned",
+                            "area": "not mentioned",
+                            "parking": "not mentioned",
+                            "pricerange": "cheap",
+                            "stars": "not mentioned",
+                            "internet": "not mentioned",
+                            "type": "hotel"
+                        }
+                    },
+                    "attraction": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {
+                            "type": "",
+                            "name": "",
+                            "area": ""
+                        }
+                    },
+                    "train": {
+                        "book": {
+                            "booked": [],
+                            "people": ""
+                        },
+                        "semi": {
+                            "leaveAt": "",
+                            "destination": "",
+                            "day": "",
+                            "arriveBy": "",
+                            "departure": ""
+                        }
+                    }
+                },
+                "dialog_act": {
+                    "Hotel-Request": [
+                        [
+                            "Area",
+                            "?"
+                        ]
+                    ]
+                },
+                "span_info": []
+            },
+            {
+                "text": "no, i just need to make sure it's cheap. oh, and i need parking",
+                "metadata": {},
+                "dialog_act": {
+                    "Hotel-Inform": [
+                        [
+                            "Parking",
+                            "yes"
+                        ]
+                    ]
+                },
+                "span_info": []
+            },
+            {
+                "text": "I found 1 cheap hotel for you that includes parking. Do you like me to book it?",
+                "metadata": {
+                    "taxi": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {
+                            "leaveAt": "",
+                            "destination": "",
+                            "departure": "",
+                            "arriveBy": ""
+                        }
+                    },
+                    "police": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {}
+                    },
+                    "restaurant": {
+                        "book": {
+                            "booked": [],
+                            "time": "",
+                            "day": "",
+                            "people": ""
+                        },
+                        "semi": {
+                            "food": "",
+                            "pricerange": "",
+                            "name": "",
+                            "area": ""
+                        }
+                    },
+                    "hospital": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {
+                            "department": ""
+                        }
+                    },
+                    "hotel": {
+                        "book": {
+                            "booked": [],
+                            "stay": "",
+                            "day": "",
+                            "people": ""
+                        },
+                        "semi": {
+                            "name": "not mentioned",
+                            "area": "not mentioned",
+                            "parking": "yes",
+                            "pricerange": "cheap",
+                            "stars": "not mentioned",
+                            "internet": "not mentioned",
+                            "type": "hotel"
+                        }
+                    },
+                    "attraction": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {
+                            "type": "",
+                            "name": "",
+                            "area": ""
+                        }
+                    },
+                    "train": {
+                        "book": {
+                            "booked": [],
+                            "people": ""
+                        },
+                        "semi": {
+                            "leaveAt": "",
+                            "destination": "",
+                            "day": "",
+                            "arriveBy": "",
+                            "departure": ""
+                        }
+                    }
+                },
+                "dialog_act": {
+                    "Booking-Inform": [
+                        [
+                            "none",
+                            "none"
+                        ]
+                    ],
+                    "Hotel-Inform": [
+                        [
+                            "Price",
+                            "cheap"
+                        ],
+                        [
+                            "Choice",
+                            "1"
+                        ],
+                        [
+                            "Parking",
+                            "none"
+                        ]
+                    ]
+                },
+                "span_info": [
+                    [
+                        "Hotel-Inform",
+                        "Price",
+                        "cheap",
+                        3,
+                        3
+                    ],
+                    [
+                        "Hotel-Inform",
+                        "Choice",
+                        "1",
+                        2,
+                        2
+                    ]
+                ]
+            },
+            {
+                "text": "Yes, please. 6 people 3 nights starting on tuesday.",
+                "metadata": {},
+                "dialog_act": {
+                    "Hotel-Inform": [
+                        [
+                            "Stay",
+                            "3"
+                        ],
+                        [
+                            "Day",
+                            "tuesday"
+                        ],
+                        [
+                            "People",
+                            "6"
+                        ]
+                    ]
+                },
+                "span_info": [
+                    [
+                        "Hotel-Inform",
+                        "Stay",
+                        "3",
+                        6,
+                        6
+                    ],
+                    [
+                        "Hotel-Inform",
+                        "Day",
+                        "tuesday",
+                        10,
+                        10
+                    ],
+                    [
+                        "Hotel-Inform",
+                        "People",
+                        "6",
+                        4,
+                        4
+                    ]
+                ]
+            },
+            {
+                "text": "I am sorry but I wasn't able to book that for you for Tuesday. Is there another day you would like to stay or perhaps a shorter stay?",
+                "metadata": {
+                    "taxi": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {
+                            "leaveAt": "",
+                            "destination": "",
+                            "departure": "",
+                            "arriveBy": ""
+                        }
+                    },
+                    "police": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {}
+                    },
+                    "restaurant": {
+                        "book": {
+                            "booked": [],
+                            "time": "",
+                            "day": "",
+                            "people": ""
+                        },
+                        "semi": {
+                            "food": "",
+                            "pricerange": "",
+                            "name": "",
+                            "area": ""
+                        }
+                    },
+                    "hospital": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {
+                            "department": ""
+                        }
+                    },
+                    "hotel": {
+                        "book": {
+                            "booked": [],
+                            "stay": "3",
+                            "day": "tuesday",
+                            "people": "6"
+                        },
+                        "semi": {
+                            "name": "not mentioned",
+                            "area": "not mentioned",
+                            "parking": "yes",
+                            "pricerange": "cheap",
+                            "stars": "not mentioned",
+                            "internet": "not mentioned",
+                            "type": "hotel"
+                        }
+                    },
+                    "attraction": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {
+                            "type": "",
+                            "name": "",
+                            "area": ""
+                        }
+                    },
+                    "train": {
+                        "book": {
+                            "booked": [],
+                            "people": ""
+                        },
+                        "semi": {
+                            "leaveAt": "",
+                            "destination": "",
+                            "day": "",
+                            "arriveBy": "",
+                            "departure": ""
+                        }
+                    }
+                },
+                "dialog_act": {
+                    "Booking-NoBook": [
+                        [
+                            "Day",
+                            "Tuesday"
+                        ]
+                    ],
+                    "Booking-Request": [
+                        [
+                            "Stay",
+                            "?"
+                        ],
+                        [
+                            "Day",
+                            "?"
+                        ]
+                    ]
+                },
+                "span_info": [
+                    [
+                        "Booking-NoBook",
+                        "Day",
+                        "Tuesday",
+                        14,
+                        14
+                    ]
+                ]
+            },
+            {
+                "text": "how about only 2 nights.",
+                "metadata": {},
+                "dialog_act": {
+                    "Hotel-Inform": [
+                        [
+                            "Stay",
+                            "2"
+                        ]
+                    ]
+                },
+                "span_info": [
+                    [
+                        "Hotel-Inform",
+                        "Stay",
+                        "2",
+                        3,
+                        3
+                    ]
+                ]
+            },
+            {
+                "text": "Booking was successful.\nReference number is : 7GAWK763. Anything else I can do for you?",
+                "metadata": {
+                    "taxi": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {
+                            "leaveAt": "",
+                            "destination": "",
+                            "departure": "",
+                            "arriveBy": ""
+                        }
+                    },
+                    "police": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {}
+                    },
+                    "restaurant": {
+                        "book": {
+                            "booked": [],
+                            "time": "",
+                            "day": "",
+                            "people": ""
+                        },
+                        "semi": {
+                            "food": "",
+                            "pricerange": "",
+                            "name": "",
+                            "area": ""
+                        }
+                    },
+                    "hospital": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {
+                            "department": ""
+                        }
+                    },
+                    "hotel": {
+                        "book": {
+                            "booked": [
+                                {
+                                    "name": "the cambridge belfry",
+                                    "reference": "7GAWK763"
+                                }
+                            ],
+                            "stay": "2",
+                            "day": "tuesday",
+                            "people": "6"
+                        },
+                        "semi": {
+                            "name": "not mentioned",
+                            "area": "not mentioned",
+                            "parking": "yes",
+                            "pricerange": "cheap",
+                            "stars": "not mentioned",
+                            "internet": "not mentioned",
+                            "type": "hotel"
+                        }
+                    },
+                    "attraction": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {
+                            "type": "",
+                            "name": "",
+                            "area": ""
+                        }
+                    },
+                    "train": {
+                        "book": {
+                            "booked": [],
+                            "people": ""
+                        },
+                        "semi": {
+                            "leaveAt": "",
+                            "destination": "",
+                            "day": "",
+                            "arriveBy": "",
+                            "departure": ""
+                        }
+                    }
+                },
+                "dialog_act": {
+                    "general-reqmore": [
+                        [
+                            "none",
+                            "none"
+                        ]
+                    ],
+                    "Booking-Book": [
+                        [
+                            "Ref",
+                            "7GAWK763"
+                        ]
+                    ]
+                },
+                "span_info": [
+                    [
+                        "Booking-Book",
+                        "Ref",
+                        "7GAWK763",
+                        8,
+                        8
+                    ]
+                ]
+            },
+            {
+                "text": "No, that will be all. Good bye.",
+                "metadata": {},
+                "dialog_act": {
+                    "general-bye": [
+                        [
+                            "none",
+                            "none"
+                        ]
+                    ]
+                },
+                "span_info": []
+            },
+            {
+                "text": "Thank you for using our services.",
+                "metadata": {
+                    "taxi": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {
+                            "leaveAt": "",
+                            "destination": "",
+                            "departure": "",
+                            "arriveBy": ""
+                        }
+                    },
+                    "police": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {}
+                    },
+                    "restaurant": {
+                        "book": {
+                            "booked": [],
+                            "time": "",
+                            "day": "",
+                            "people": ""
+                        },
+                        "semi": {
+                            "food": "",
+                            "pricerange": "",
+                            "name": "",
+                            "area": ""
+                        }
+                    },
+                    "hospital": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {
+                            "department": ""
+                        }
+                    },
+                    "hotel": {
+                        "book": {
+                            "booked": [
+                                {
+                                    "name": "the cambridge belfry",
+                                    "reference": "7GAWK763"
+                                }
+                            ],
+                            "stay": "2",
+                            "day": "tuesday",
+                            "people": "6"
+                        },
+                        "semi": {
+                            "name": "not mentioned",
+                            "area": "not mentioned",
+                            "parking": "yes",
+                            "pricerange": "cheap",
+                            "stars": "not mentioned",
+                            "internet": "not mentioned",
+                            "type": "hotel"
+                        }
+                    },
+                    "attraction": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {
+                            "type": "",
+                            "name": "",
+                            "area": ""
+                        }
+                    },
+                    "train": {
+                        "book": {
+                            "booked": [],
+                            "people": ""
+                        },
+                        "semi": {
+                            "leaveAt": "",
+                            "destination": "",
+                            "day": "",
+                            "arriveBy": "",
+                            "departure": ""
+                        }
+                    }
+                },
+                "dialog_act": {
+                    "general-bye": [
+                        [
+                            "none",
+                            "none"
+                        ]
+                    ]
+                },
+                "span_info": []
+            }
+        ]
+    },
+    "SNG0129.json": {
+        "goal": {
+            "taxi": {},
+            "police": {
+                "info": {},
+                "reqt": [
+                    "postcode",
+                    "address",
+                    "phone"
+                ],
+                "fail_info": {}
+            },
+            "hospital": {},
+            "hotel": {},
+            "attraction": {},
+            "train": {},
+            "message": [
+                "You were <span class='emphasis'>robbed</span> and are looking for help",
+                "Make sure you get <span class='emphasis'>postcode</span>, <span class='emphasis'>address</span>, and <span class='emphasis'>phone number</span>"
+            ],
+            "restaurant": {}
+        },
+        "log": [
+            {
+                "text": "Hello, I have been robbed.  Can you please help me get in touch with the police?",
+                "metadata": {},
+                "dialog_act": {
+                    "Police-Inform": [
+                        [
+                            "none",
+                            "none"
+                        ]
+                    ]
+                },
+                "span_info": []
+            },
+            {
+                "text": "Parkside Police Station is in Parkside, Cambridge. Their number is 01223358966. Anything else I can do for you?",
+                "metadata": {
+                    "taxi": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {
+                            "leaveAt": "",
+                            "destination": "",
+                            "departure": "",
+                            "arriveBy": ""
+                        }
+                    },
+                    "police": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {}
+                    },
+                    "restaurant": {
+                        "book": {
+                            "booked": [],
+                            "time": "",
+                            "day": "",
+                            "people": ""
+                        },
+                        "semi": {
+                            "food": "",
+                            "pricerange": "",
+                            "name": "",
+                            "area": ""
+                        }
+                    },
+                    "hospital": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {
+                            "department": ""
+                        }
+                    },
+                    "hotel": {
+                        "book": {
+                            "booked": [],
+                            "stay": "",
+                            "day": "",
+                            "people": ""
+                        },
+                        "semi": {
+                            "name": "",
+                            "area": "",
+                            "parking": "",
+                            "pricerange": "",
+                            "stars": "",
+                            "internet": "",
+                            "type": ""
+                        }
+                    },
+                    "attraction": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {
+                            "type": "",
+                            "name": "",
+                            "area": ""
+                        }
+                    },
+                    "train": {
+                        "book": {
+                            "booked": [],
+                            "people": ""
+                        },
+                        "semi": {
+                            "leaveAt": "",
+                            "destination": "",
+                            "day": "",
+                            "arriveBy": "",
+                            "departure": ""
+                        }
+                    }
+                },
+                "dialog_act": {
+                    "Police-Inform": [
+                        [
+                            "Name",
+                            "Parkside Police Station"
+                        ],
+                        [
+                            "Phone",
+                            "01223358966"
+                        ],
+                        [
+                            "Addr",
+                            "Parkside , Cambridge"
+                        ]
+                    ]
+                },
+                "span_info": [
+                    [
+                        "Police-Inform",
+                        "Name",
+                        "Parkside Police Station",
+                        0,
+                        2
+                    ],
+                    [
+                        "Police-Inform",
+                        "Phone",
+                        "01223358966",
+                        12,
+                        12
+                    ],
+                    [
+                        "Police-Inform",
+                        "Addr",
+                        "Parkside , Cambridge",
+                        5,
+                        7
+                    ]
+                ]
+            },
+            {
+                "text": "Can I please have the postcode as well?",
+                "metadata": {},
+                "dialog_act": {
+                    "Police-Request": [
+                        [
+                            "Post",
+                            "?"
+                        ]
+                    ]
+                },
+                "span_info": []
+            },
+            {
+                "text": "The postcode for the Parkside Police Station is CB11JG. Can I help you with anything else?",
+                "metadata": {
+                    "taxi": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {
+                            "leaveAt": "",
+                            "destination": "",
+                            "departure": "",
+                            "arriveBy": ""
+                        }
+                    },
+                    "police": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {}
+                    },
+                    "restaurant": {
+                        "book": {
+                            "booked": [],
+                            "time": "",
+                            "day": "",
+                            "people": ""
+                        },
+                        "semi": {
+                            "food": "",
+                            "pricerange": "",
+                            "name": "",
+                            "area": ""
+                        }
+                    },
+                    "hospital": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {
+                            "department": ""
+                        }
+                    },
+                    "hotel": {
+                        "book": {
+                            "booked": [],
+                            "stay": "",
+                            "day": "",
+                            "people": ""
+                        },
+                        "semi": {
+                            "name": "",
+                            "area": "",
+                            "parking": "",
+                            "pricerange": "",
+                            "stars": "",
+                            "internet": "",
+                            "type": ""
+                        }
+                    },
+                    "attraction": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {
+                            "type": "",
+                            "name": "",
+                            "area": ""
+                        }
+                    },
+                    "train": {
+                        "book": {
+                            "booked": [],
+                            "people": ""
+                        },
+                        "semi": {
+                            "leaveAt": "",
+                            "destination": "",
+                            "day": "",
+                            "arriveBy": "",
+                            "departure": ""
+                        }
+                    }
+                },
+                "dialog_act": {
+                    "Police-Inform": [
+                        [
+                            "Name",
+                            "Parkside Police Station"
+                        ],
+                        [
+                            "Post",
+                            "CB11JG"
+                        ]
+                    ]
+                },
+                "span_info": [
+                    [
+                        "Police-Inform",
+                        "Name",
+                        "Parkside Police Station",
+                        4,
+                        6
+                    ],
+                    [
+                        "Police-Inform",
+                        "Post",
+                        "CB11JG",
+                        8,
+                        8
+                    ]
+                ]
+            },
+            {
+                "text": "Was Parkside the address of the police station? If not, can I have the address please?",
+                "metadata": {},
+                "dialog_act": {
+                    "Police-Request": [
+                        [
+                            "Addr",
+                            "?"
+                        ]
+                    ]
+                },
+                "span_info": []
+            },
+            {
+                "text": "Yes, Parkside is the address.",
+                "metadata": {
+                    "taxi": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {
+                            "leaveAt": "",
+                            "destination": "",
+                            "departure": "",
+                            "arriveBy": ""
+                        }
+                    },
+                    "police": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {}
+                    },
+                    "restaurant": {
+                        "book": {
+                            "booked": [],
+                            "time": "",
+                            "day": "",
+                            "people": ""
+                        },
+                        "semi": {
+                            "food": "",
+                            "pricerange": "",
+                            "name": "",
+                            "area": ""
+                        }
+                    },
+                    "hospital": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {
+                            "department": ""
+                        }
+                    },
+                    "hotel": {
+                        "book": {
+                            "booked": [],
+                            "stay": "",
+                            "day": "",
+                            "people": ""
+                        },
+                        "semi": {
+                            "name": "",
+                            "area": "",
+                            "parking": "",
+                            "pricerange": "",
+                            "stars": "",
+                            "internet": "",
+                            "type": ""
+                        }
+                    },
+                    "attraction": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {
+                            "type": "",
+                            "name": "",
+                            "area": ""
+                        }
+                    },
+                    "train": {
+                        "book": {
+                            "booked": [],
+                            "people": ""
+                        },
+                        "semi": {
+                            "leaveAt": "",
+                            "destination": "",
+                            "day": "",
+                            "arriveBy": "",
+                            "departure": ""
+                        }
+                    }
+                },
+                "dialog_act": {},
+                "span_info": []
+            },
+            {
+                "text": "Thank you that will be all for now.",
+                "metadata": {},
+                "dialog_act": {
+                    "general-thank": [
+                        [
+                            "none",
+                            "none"
+                        ]
+                    ]
+                },
+                "span_info": []
+            },
+            {
+                "text": "Great. Thank you for contacting Cambridge Towninfo Centre.",
+                "metadata": {
+                    "taxi": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {
+                            "leaveAt": "",
+                            "destination": "",
+                            "departure": "",
+                            "arriveBy": ""
+                        }
+                    },
+                    "police": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {}
+                    },
+                    "restaurant": {
+                        "book": {
+                            "booked": [],
+                            "time": "",
+                            "day": "",
+                            "people": ""
+                        },
+                        "semi": {
+                            "food": "",
+                            "pricerange": "",
+                            "name": "",
+                            "area": ""
+                        }
+                    },
+                    "hospital": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {
+                            "department": ""
+                        }
+                    },
+                    "hotel": {
+                        "book": {
+                            "booked": [],
+                            "stay": "",
+                            "day": "",
+                            "people": ""
+                        },
+                        "semi": {
+                            "name": "",
+                            "area": "",
+                            "parking": "",
+                            "pricerange": "",
+                            "stars": "",
+                            "internet": "",
+                            "type": ""
+                        }
+                    },
+                    "attraction": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {
+                            "type": "",
+                            "name": "",
+                            "area": ""
+                        }
+                    },
+                    "train": {
+                        "book": {
+                            "booked": [],
+                            "people": ""
+                        },
+                        "semi": {
+                            "leaveAt": "",
+                            "destination": "",
+                            "day": "",
+                            "arriveBy": "",
+                            "departure": ""
+                        }
+                    }
+                },
+                "dialog_act": {
+                    "general-welcome": [
+                        [
+                            "none",
+                            "none"
+                        ]
+                    ]
+                },
+                "span_info": []
+            },
+            {
+                "text": "You were great. Goodbye.",
+                "metadata": {},
+                "dialog_act": {},
+                "span_info": []
+            },
+            {
+                "text": "We are happy to help. Have a good day!",
+                "metadata": {
+                    "taxi": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {
+                            "leaveAt": "",
+                            "destination": "",
+                            "departure": "",
+                            "arriveBy": ""
+                        }
+                    },
+                    "police": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {}
+                    },
+                    "restaurant": {
+                        "book": {
+                            "booked": [],
+                            "time": "",
+                            "day": "",
+                            "people": ""
+                        },
+                        "semi": {
+                            "food": "",
+                            "pricerange": "",
+                            "name": "",
+                            "area": ""
+                        }
+                    },
+                    "hospital": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {
+                            "department": ""
+                        }
+                    },
+                    "hotel": {
+                        "book": {
+                            "booked": [],
+                            "stay": "",
+                            "day": "",
+                            "people": ""
+                        },
+                        "semi": {
+                            "name": "",
+                            "area": "",
+                            "parking": "",
+                            "pricerange": "",
+                            "stars": "",
+                            "internet": "",
+                            "type": ""
+                        }
+                    },
+                    "attraction": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {
+                            "type": "",
+                            "name": "",
+                            "area": ""
+                        }
+                    },
+                    "train": {
+                        "book": {
+                            "booked": [],
+                            "people": ""
+                        },
+                        "semi": {
+                            "leaveAt": "",
+                            "destination": "",
+                            "day": "",
+                            "arriveBy": "",
+                            "departure": ""
+                        }
+                    }
+                },
+                "dialog_act": {
+                    "general-bye": [
+                        [
+                            "none",
+                            "none"
+                        ]
+                    ],
+                    "general-welcome": [
+                        [
+                            "none",
+                            "none"
+                        ]
+                    ]
+                },
+                "span_info": []
+            }
+        ]
+    },
+    "PMUL1635.json": {
+        "goal": {
+            "taxi": {},
+            "police": {},
+            "hospital": {},
+            "hotel": {
+                "info": {
+                    "area": "east",
+                    "parking": "yes",
+                    "stars": "4",
+                    "internet": "yes"
+                },
+                "fail_info": {},
+                "book": {
+                    "people": "3",
+                    "day": "monday",
+                    "invalid": false,
+                    "stay": "4"
+                },
+                "fail_book": {}
+            },
+            "topic": {
+                "taxi": false,
+                "police": false,
+                "restaurant": false,
+                "hospital": false,
+                "hotel": false,
+                "general": false,
+                "attraction": false,
+                "train": false,
+                "booking": false
+            },
+            "attraction": {},
+            "train": {
+                "info": {
+                    "destination": "bishops stortford",
+                    "day": "friday",
+                    "arriveBy": "19:45",
+                    "departure": "cambridge"
+                },
+                "reqt": [
+                    "duration",
+                    "leaveAt",
+                    "price"
+                ],
+                "fail_info": {}
+            },
+            "message": [
+                "You are looking for information in Cambridge",
+                "You are looking for a <span class='emphasis'>place to stay</span>. The hotel should have <span class='emphasis'>a star of 4</span> and should be in the <span class='emphasis'>east</span>",
+                "The hotel should <span class='emphasis'>include free wifi</span> and should <span class='emphasis'>include free parking</span>",
+                "Once you find the <span class='emphasis'>hotel</span> you want to book it for <span class='emphasis'>3 people</span> and <span class='emphasis'>4 nights</span> starting from <span class='emphasis'>monday</span>",
+                "Make sure you get the <span class='emphasis'>reference number</span>",
+                "You are also looking for a <span class='emphasis'>train</span>. The train should depart from <span class='emphasis'>cambridge</span> and should leave on <span class='emphasis'>friday</span>",
+                "The train should <span class='emphasis'>arrive by 19:45</span> and should go to <span class='emphasis'>bishops stortford</span>",
+                "Make sure you get <span class='emphasis'>travel time</span>, <span class='emphasis'>departure time</span>, and <span class='emphasis'>price</span>"
+            ],
+            "restaurant": {}
+        },
+        "log": [
+            {
+                "text": "I need to book a hotel in the east that has 4 stars.  ",
+                "metadata": {},
+                "dialog_act": {
+                    "Hotel-Inform": [
+                        [
+                            "Area",
+                            "east"
+                        ],
+                        [
+                            "Stars",
+                            "4"
+                        ]
+                    ]
+                },
+                "span_info": [
+                    [
+                        "Hotel-Inform",
+                        "Area",
+                        "east",
+                        8,
+                        8
+                    ],
+                    [
+                        "Hotel-Inform",
+                        "Stars",
+                        "4",
+                        11,
+                        11
+                    ]
+                ]
+            },
+            {
+                "text": "I can help you with that. What is your price range?",
+                "metadata": {
+                    "taxi": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {
+                            "leaveAt": "",
+                            "destination": "",
+                            "departure": "",
+                            "arriveBy": ""
+                        }
+                    },
+                    "police": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {}
+                    },
+                    "restaurant": {
+                        "book": {
+                            "booked": [],
+                            "people": "",
+                            "day": "",
+                            "time": ""
+                        },
+                        "semi": {
+                            "food": "",
+                            "pricerange": "",
+                            "name": "",
+                            "area": ""
+                        }
+                    },
+                    "bus": {
+                        "book": {
+                            "booked": [],
+                            "people": ""
+                        },
+                        "semi": {
+                            "leaveAt": "",
+                            "destination": "",
+                            "day": "",
+                            "arriveBy": "",
+                            "departure": ""
+                        }
+                    },
+                    "hospital": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {
+                            "department": ""
+                        }
+                    },
+                    "hotel": {
+                        "book": {
+                            "booked": [],
+                            "people": "",
+                            "day": "",
+                            "stay": ""
+                        },
+                        "semi": {
+                            "name": "not mentioned",
+                            "area": "east",
+                            "parking": "not mentioned",
+                            "pricerange": "not mentioned",
+                            "stars": "4",
+                            "internet": "not mentioned",
+                            "type": "not mentioned"
+                        }
+                    },
+                    "attraction": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {
+                            "type": "",
+                            "name": "",
+                            "area": ""
+                        }
+                    },
+                    "train": {
+                        "book": {
+                            "booked": [],
+                            "people": ""
+                        },
+                        "semi": {
+                            "leaveAt": "",
+                            "destination": "",
+                            "day": "",
+                            "arriveBy": "",
+                            "departure": ""
+                        }
+                    }
+                },
+                "dialog_act": {
+                    "Hotel-Request": [
+                        [
+                            "Price",
+                            "?"
+                        ]
+                    ]
+                },
+                "span_info": []
+            },
+            {
+                "text": "That doesn't matter as long as it has free wifi and parking.",
+                "metadata": {},
+                "dialog_act": {
+                    "Hotel-Inform": [
+                        [
+                            "Parking",
+                            "yes"
+                        ],
+                        [
+                            "Internet",
+                            "yes"
+                        ]
+                    ]
+                },
+                "span_info": []
+            },
+            {
+                "text": "If you'd like something cheap, I recommend the Allenbell. For something moderately priced, I would recommend the Warkworth House.",
+                "metadata": {
+                    "taxi": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {
+                            "leaveAt": "",
+                            "destination": "",
+                            "departure": "",
+                            "arriveBy": ""
+                        }
+                    },
+                    "police": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {}
+                    },
+                    "restaurant": {
+                        "book": {
+                            "booked": [],
+                            "people": "",
+                            "day": "",
+                            "time": ""
+                        },
+                        "semi": {
+                            "food": "",
+                            "pricerange": "",
+                            "name": "",
+                            "area": ""
+                        }
+                    },
+                    "bus": {
+                        "book": {
+                            "booked": [],
+                            "people": ""
+                        },
+                        "semi": {
+                            "leaveAt": "",
+                            "destination": "",
+                            "day": "",
+                            "arriveBy": "",
+                            "departure": ""
+                        }
+                    },
+                    "hospital": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {
+                            "department": ""
+                        }
+                    },
+                    "hotel": {
+                        "book": {
+                            "booked": [],
+                            "people": "",
+                            "day": "",
+                            "stay": ""
+                        },
+                        "semi": {
+                            "name": "not mentioned",
+                            "area": "east",
+                            "parking": "yes",
+                            "pricerange": "not mentioned",
+                            "stars": "4",
+                            "internet": "yes",
+                            "type": "not mentioned"
+                        }
+                    },
+                    "attraction": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {
+                            "type": "",
+                            "name": "",
+                            "area": ""
+                        }
+                    },
+                    "train": {
+                        "book": {
+                            "booked": [],
+                            "people": ""
+                        },
+                        "semi": {
+                            "leaveAt": "",
+                            "destination": "",
+                            "day": "",
+                            "arriveBy": "",
+                            "departure": ""
+                        }
+                    }
+                },
+                "dialog_act": {
+                    "Hotel-Recommend": [
+                        [
+                            "Price",
+                            "cheap"
+                        ],
+                        [
+                            "Price",
+                            "moderately priced"
+                        ],
+                        [
+                            "Name",
+                            "Allenbell"
+                        ],
+                        [
+                            "Name",
+                            "Warkworth House"
+                        ]
+                    ]
+                },
+                "span_info": [
+                    [
+                        "Hotel-Recommend",
+                        "Price",
+                        "cheap",
+                        5,
+                        5
+                    ],
+                    [
+                        "Hotel-Recommend",
+                        "Price",
+                        "moderately priced",
+                        14,
+                        15
+                    ],
+                    [
+                        "Hotel-Recommend",
+                        "Name",
+                        "Allenbell",
+                        10,
+                        10
+                    ],
+                    [
+                        "Hotel-Recommend",
+                        "Name",
+                        "Warkworth House",
+                        21,
+                        22
+                    ]
+                ]
+            },
+            {
+                "text": "Could you book the Wartworth for one night, 1 person?",
+                "metadata": {},
+                "dialog_act": {},
+                "span_info": []
+            },
+            {
+                "text": "What day will you be staying?",
+                "metadata": {
+                    "taxi": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {
+                            "leaveAt": "",
+                            "destination": "",
+                            "departure": "",
+                            "arriveBy": ""
+                        }
+                    },
+                    "police": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {}
+                    },
+                    "restaurant": {
+                        "book": {
+                            "booked": [],
+                            "people": "",
+                            "day": "",
+                            "time": ""
+                        },
+                        "semi": {
+                            "food": "",
+                            "pricerange": "",
+                            "name": "",
+                            "area": ""
+                        }
+                    },
+                    "bus": {
+                        "book": {
+                            "booked": [],
+                            "people": ""
+                        },
+                        "semi": {
+                            "leaveAt": "",
+                            "destination": "",
+                            "day": "",
+                            "arriveBy": "",
+                            "departure": ""
+                        }
+                    },
+                    "hospital": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {
+                            "department": ""
+                        }
+                    },
+                    "hotel": {
+                        "book": {
+                            "booked": [],
+                            "people": "",
+                            "day": "",
+                            "stay": ""
+                        },
+                        "semi": {
+                            "name": "wartworth",
+                            "area": "east",
+                            "parking": "yes",
+                            "pricerange": "not mentioned",
+                            "stars": "4",
+                            "internet": "yes",
+                            "type": "not mentioned"
+                        }
+                    },
+                    "attraction": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {
+                            "type": "",
+                            "name": "",
+                            "area": ""
+                        }
+                    },
+                    "train": {
+                        "book": {
+                            "booked": [],
+                            "people": ""
+                        },
+                        "semi": {
+                            "leaveAt": "",
+                            "destination": "",
+                            "day": "",
+                            "arriveBy": "",
+                            "departure": ""
+                        }
+                    }
+                },
+                "dialog_act": {
+                    "Booking-Request": [
+                        [
+                            "Day",
+                            "?"
+                        ]
+                    ]
+                },
+                "span_info": []
+            },
+            {
+                "text": "Friday and Can you book it for me and get a reference number ?",
+                "metadata": {},
+                "dialog_act": {
+                    "Hotel-Inform": [
+                        [
+                            "Day",
+                            "friday"
+                        ]
+                    ],
+                    "Hotel-Request": [
+                        [
+                            "Ref",
+                            "?"
+                        ]
+                    ]
+                },
+                "span_info": [
+                    [
+                        "Hotel-Inform",
+                        "Day",
+                        "friday",
+                        0,
+                        0
+                    ]
+                ]
+            },
+            {
+                "text": "Booking was successful.\nReference number is : BMUKPTG6.  Can I help you with anything else today?",
+                "metadata": {
+                    "taxi": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {
+                            "leaveAt": "",
+                            "destination": "",
+                            "departure": "",
+                            "arriveBy": ""
+                        }
+                    },
+                    "police": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {}
+                    },
+                    "restaurant": {
+                        "book": {
+                            "booked": [],
+                            "people": "",
+                            "day": "",
+                            "time": ""
+                        },
+                        "semi": {
+                            "food": "",
+                            "pricerange": "",
+                            "name": "",
+                            "area": ""
+                        }
+                    },
+                    "bus": {
+                        "book": {
+                            "booked": [],
+                            "people": ""
+                        },
+                        "semi": {
+                            "leaveAt": "",
+                            "destination": "",
+                            "day": "",
+                            "arriveBy": "",
+                            "departure": ""
+                        }
+                    },
+                    "hospital": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {
+                            "department": ""
+                        }
+                    },
+                    "hotel": {
+                        "book": {
+                            "booked": [
+                                {
+                                    "name": "warkworth house",
+                                    "reference": "BMUKPTG6"
+                                }
+                            ],
+                            "people": "1",
+                            "day": "friday",
+                            "stay": "1"
+                        },
+                        "semi": {
+                            "name": "wartworth",
+                            "area": "east",
+                            "parking": "yes",
+                            "pricerange": "not mentioned",
+                            "stars": "4",
+                            "internet": "yes",
+                            "type": "not mentioned"
+                        }
+                    },
+                    "attraction": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {
+                            "type": "",
+                            "name": "",
+                            "area": ""
+                        }
+                    },
+                    "train": {
+                        "book": {
+                            "booked": [],
+                            "people": ""
+                        },
+                        "semi": {
+                            "leaveAt": "",
+                            "destination": "",
+                            "day": "",
+                            "arriveBy": "",
+                            "departure": ""
+                        }
+                    }
+                },
+                "dialog_act": {
+                    "general-reqmore": [
+                        [
+                            "none",
+                            "none"
+                        ]
+                    ],
+                    "Booking-Book": [
+                        [
+                            "Ref",
+                            "BMUKPTG6"
+                        ]
+                    ]
+                },
+                "span_info": [
+                    [
+                        "Booking-Book",
+                        "Ref",
+                        "BMUKPTG6",
+                        8,
+                        8
+                    ]
+                ]
+            },
+            {
+                "text": "I am looking to book a train that is leaving from Cambridge to Bishops Stortford on Friday. ",
+                "metadata": {},
+                "dialog_act": {
+                    "Train-Inform": [
+                        [
+                            "Dest",
+                            "bishops stortford"
+                        ],
+                        [
+                            "Day",
+                            "friday"
+                        ],
+                        [
+                            "Depart",
+                            "cambridge"
+                        ]
+                    ]
+                },
+                "span_info": [
+                    [
+                        "Train-Inform",
+                        "Dest",
+                        "bishops stortford",
+                        13,
+                        14
+                    ],
+                    [
+                        "Train-Inform",
+                        "Day",
+                        "friday",
+                        16,
+                        16
+                    ],
+                    [
+                        "Train-Inform",
+                        "Depart",
+                        "cambridge",
+                        11,
+                        11
+                    ]
+                ]
+            },
+            {
+                "text": "There are a number of trains leaving throughout the day.  What time would you like to travel?",
+                "metadata": {
+                    "taxi": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {
+                            "leaveAt": "",
+                            "destination": "",
+                            "departure": "",
+                            "arriveBy": ""
+                        }
+                    },
+                    "police": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {}
+                    },
+                    "restaurant": {
+                        "book": {
+                            "booked": [],
+                            "people": "",
+                            "day": "",
+                            "time": ""
+                        },
+                        "semi": {
+                            "food": "",
+                            "pricerange": "",
+                            "name": "",
+                            "area": ""
+                        }
+                    },
+                    "bus": {
+                        "book": {
+                            "booked": [],
+                            "people": ""
+                        },
+                        "semi": {
+                            "leaveAt": "",
+                            "destination": "",
+                            "day": "",
+                            "arriveBy": "",
+                            "departure": ""
+                        }
+                    },
+                    "hospital": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {
+                            "department": ""
+                        }
+                    },
+                    "hotel": {
+                        "book": {
+                            "booked": [
+                                {
+                                    "name": "warkworth house",
+                                    "reference": "BMUKPTG6"
+                                }
+                            ],
+                            "people": "1",
+                            "day": "friday",
+                            "stay": "1"
+                        },
+                        "semi": {
+                            "name": "wartworth",
+                            "area": "east",
+                            "parking": "yes",
+                            "pricerange": "not mentioned",
+                            "stars": "4",
+                            "internet": "yes",
+                            "type": "not mentioned"
+                        }
+                    },
+                    "attraction": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {
+                            "type": "",
+                            "name": "",
+                            "area": ""
+                        }
+                    },
+                    "train": {
+                        "book": {
+                            "booked": [],
+                            "people": ""
+                        },
+                        "semi": {
+                            "leaveAt": "not mentioned",
+                            "destination": "bishops stortford",
+                            "day": "friday",
+                            "arriveBy": "not mentioned",
+                            "departure": "cambridge"
+                        }
+                    }
+                },
+                "dialog_act": {
+                    "Train-Inform": [
+                        [
+                            "Choice",
+                            "a number"
+                        ],
+                        [
+                            "Leave",
+                            "throughout the day"
+                        ]
+                    ],
+                    "Train-Request": [
+                        [
+                            "Leave",
+                            "?"
+                        ]
+                    ]
+                },
+                "span_info": [
+                    [
+                        "Train-Inform",
+                        "Choice",
+                        "a number",
+                        2,
+                        3
+                    ],
+                    [
+                        "Train-Inform",
+                        "Leave",
+                        "throughout the day",
+                        7,
+                        9
+                    ]
+                ]
+            },
+            {
+                "text": "I want to get there by 19:45 at the latest. ",
+                "metadata": {},
+                "dialog_act": {
+                    "Train-Inform": [
+                        [
+                            "Arrive",
+                            "19:45"
+                        ]
+                    ]
+                },
+                "span_info": [
+                    [
+                        "Train-Inform",
+                        "Arrive",
+                        "19:45",
+                        6,
+                        6
+                    ]
+                ]
+            },
+            {
+                "text": "Okay! The latest train you can take leaves at 17:29, and arrives by 18:07. Would you like for me to book that for you?",
+                "metadata": {
+                    "taxi": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {
+                            "leaveAt": "",
+                            "destination": "",
+                            "departure": "",
+                            "arriveBy": ""
+                        }
+                    },
+                    "police": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {}
+                    },
+                    "restaurant": {
+                        "book": {
+                            "booked": [],
+                            "people": "",
+                            "day": "",
+                            "time": ""
+                        },
+                        "semi": {
+                            "food": "",
+                            "pricerange": "",
+                            "name": "",
+                            "area": ""
+                        }
+                    },
+                    "bus": {
+                        "book": {
+                            "booked": [],
+                            "people": ""
+                        },
+                        "semi": {
+                            "leaveAt": "",
+                            "destination": "",
+                            "day": "",
+                            "arriveBy": "",
+                            "departure": ""
+                        }
+                    },
+                    "hospital": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {
+                            "department": ""
+                        }
+                    },
+                    "hotel": {
+                        "book": {
+                            "booked": [
+                                {
+                                    "name": "warkworth house",
+                                    "reference": "BMUKPTG6"
+                                }
+                            ],
+                            "people": "1",
+                            "day": "friday",
+                            "stay": "1"
+                        },
+                        "semi": {
+                            "name": "wartworth",
+                            "area": "east",
+                            "parking": "yes",
+                            "pricerange": "not mentioned",
+                            "stars": "4",
+                            "internet": "yes",
+                            "type": "not mentioned"
+                        }
+                    },
+                    "attraction": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {
+                            "type": "",
+                            "name": "",
+                            "area": ""
+                        }
+                    },
+                    "train": {
+                        "book": {
+                            "booked": [],
+                            "people": ""
+                        },
+                        "semi": {
+                            "leaveAt": "not mentioned",
+                            "destination": "bishops stortford",
+                            "day": "friday",
+                            "arriveBy": "19:45",
+                            "departure": "cambridge"
+                        }
+                    }
+                },
+                "dialog_act": {
+                    "Train-Inform": [
+                        [
+                            "Leave",
+                            "17:29"
+                        ],
+                        [
+                            "Arrive",
+                            "18:07"
+                        ]
+                    ],
+                    "Train-OfferBook": [
+                        [
+                            "none",
+                            "none"
+                        ]
+                    ]
+                },
+                "span_info": [
+                    [
+                        "Train-Inform",
+                        "Leave",
+                        "17:29",
+                        10,
+                        10
+                    ],
+                    [
+                        "Train-Inform",
+                        "Arrive",
+                        "18:07",
+                        15,
+                        15
+                    ]
+                ]
+            },
+            {
+                "text": "Yes please. I also need the travel time, departure time, and price.",
+                "metadata": {},
+                "dialog_act": {
+                    "Train-Request": [
+                        [
+                            "Leave",
+                            "?"
+                        ],
+                        [
+                            "Time",
+                            "?"
+                        ],
+                        [
+                            "Ticket",
+                            "?"
+                        ]
+                    ]
+                },
+                "span_info": []
+            },
+            {
+                "text": "Reference number is : UIFV8FAS. The price is 10.1 GBP and the trip will take about 38 minutes. May I be of any other assistance?",
+                "metadata": {
+                    "taxi": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {
+                            "leaveAt": "",
+                            "destination": "",
+                            "departure": "",
+                            "arriveBy": ""
+                        }
+                    },
+                    "police": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {}
+                    },
+                    "restaurant": {
+                        "book": {
+                            "booked": [],
+                            "people": "",
+                            "day": "",
+                            "time": ""
+                        },
+                        "semi": {
+                            "food": "",
+                            "pricerange": "",
+                            "name": "",
+                            "area": ""
+                        }
+                    },
+                    "bus": {
+                        "book": {
+                            "booked": [],
+                            "people": ""
+                        },
+                        "semi": {
+                            "leaveAt": "",
+                            "destination": "",
+                            "day": "",
+                            "arriveBy": "",
+                            "departure": ""
+                        }
+                    },
+                    "hospital": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {
+                            "department": ""
+                        }
+                    },
+                    "hotel": {
+                        "book": {
+                            "booked": [
+                                {
+                                    "name": "warkworth house",
+                                    "reference": "BMUKPTG6"
+                                }
+                            ],
+                            "people": "1",
+                            "day": "friday",
+                            "stay": "1"
+                        },
+                        "semi": {
+                            "name": "wartworth",
+                            "area": "east",
+                            "parking": "yes",
+                            "pricerange": "not mentioned",
+                            "stars": "4",
+                            "internet": "yes",
+                            "type": "not mentioned"
+                        }
+                    },
+                    "attraction": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {
+                            "type": "",
+                            "name": "",
+                            "area": ""
+                        }
+                    },
+                    "train": {
+                        "book": {
+                            "booked": [
+                                {
+                                    "trainID": "TR1567",
+                                    "reference": "UIFV8FAS"
+                                }
+                            ],
+                            "people": "1"
+                        },
+                        "semi": {
+                            "leaveAt": "not mentioned",
+                            "destination": "bishops stortford",
+                            "day": "friday",
+                            "arriveBy": "19:45",
+                            "departure": "cambridge"
+                        }
+                    }
+                },
+                "dialog_act": {
+                    "general-reqmore": [
+                        [
+                            "none",
+                            "none"
+                        ]
+                    ],
+                    "Train-OfferBooked": [
+                        [
+                            "Time",
+                            "38 minutes"
+                        ],
+                        [
+                            "Ref",
+                            "UIFV8FAS"
+                        ],
+                        [
+                            "Ticket",
+                            "10.1 GBP"
+                        ]
+                    ]
+                },
+                "span_info": [
+                    [
+                        "Train-OfferBooked",
+                        "Time",
+                        "38 minutes",
+                        17,
+                        18
+                    ],
+                    [
+                        "Train-OfferBooked",
+                        "Ref",
+                        "UIFV8FAS",
+                        4,
+                        4
+                    ],
+                    [
+                        "Train-OfferBooked",
+                        "Ticket",
+                        "10.1 GBP",
+                        9,
+                        10
+                    ]
+                ]
+            },
+            {
+                "text": "Yes. Sorry, but suddenly my plans changed. Can you change the Wartworth booking to Monday for 3 people and 4 nights?",
+                "metadata": {},
+                "dialog_act": {
+                    "Hotel-Inform": [
+                        [
+                            "Stay",
+                            "4"
+                        ],
+                        [
+                            "Day",
+                            "monday"
+                        ],
+                        [
+                            "People",
+                            "3"
+                        ]
+                    ]
+                },
+                "span_info": [
+                    [
+                        "Hotel-Inform",
+                        "Stay",
+                        "4",
+                        22,
+                        22
+                    ],
+                    [
+                        "Hotel-Inform",
+                        "Day",
+                        "monday",
+                        17,
+                        17
+                    ],
+                    [
+                        "Hotel-Inform",
+                        "People",
+                        "3",
+                        19,
+                        19
+                    ]
+                ]
+            },
+            {
+                "text": "I have made that change and your reference number is YF86GE4J",
+                "metadata": {
+                    "taxi": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {
+                            "leaveAt": "",
+                            "destination": "",
+                            "departure": "",
+                            "arriveBy": ""
+                        }
+                    },
+                    "police": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {}
+                    },
+                    "restaurant": {
+                        "book": {
+                            "booked": [],
+                            "people": "",
+                            "day": "",
+                            "time": ""
+                        },
+                        "semi": {
+                            "food": "",
+                            "pricerange": "",
+                            "name": "",
+                            "area": ""
+                        }
+                    },
+                    "bus": {
+                        "book": {
+                            "booked": [],
+                            "people": ""
+                        },
+                        "semi": {
+                            "leaveAt": "",
+                            "destination": "",
+                            "day": "",
+                            "arriveBy": "",
+                            "departure": ""
+                        }
+                    },
+                    "hospital": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {
+                            "department": ""
+                        }
+                    },
+                    "hotel": {
+                        "book": {
+                            "booked": [
+                                {
+                                    "name": "warkworth house",
+                                    "reference": "YF86GE4J"
+                                }
+                            ],
+                            "people": "3",
+                            "day": "monday",
+                            "stay": "4"
+                        },
+                        "semi": {
+                            "name": "wartworth",
+                            "area": "east",
+                            "parking": "yes",
+                            "pricerange": "not mentioned",
+                            "stars": "4",
+                            "internet": "yes",
+                            "type": "not mentioned"
+                        }
+                    },
+                    "attraction": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {
+                            "type": "",
+                            "name": "",
+                            "area": ""
+                        }
+                    },
+                    "train": {
+                        "book": {
+                            "booked": [
+                                {
+                                    "trainID": "TR1567",
+                                    "reference": "UIFV8FAS"
+                                }
+                            ],
+                            "people": "1"
+                        },
+                        "semi": {
+                            "leaveAt": "not mentioned",
+                            "destination": "bishops stortford",
+                            "day": "friday",
+                            "arriveBy": "19:45",
+                            "departure": "cambridge"
+                        }
+                    }
+                },
+                "dialog_act": {
+                    "Booking-Book": [
+                        [
+                            "Ref",
+                            "YF86GE4J"
+                        ]
+                    ]
+                },
+                "span_info": [
+                    [
+                        "Booking-Book",
+                        "Ref",
+                        "YF86GE4J",
+                        10,
+                        10
+                    ]
+                ]
+            },
+            {
+                "text": "Thank you very much, goodbye.",
+                "metadata": {},
+                "dialog_act": {
+                    "general-thank": [
+                        [
+                            "none",
+                            "none"
+                        ]
+                    ]
+                },
+                "span_info": []
+            },
+            {
+                "text": "You're welcome. Have a nice day!",
+                "metadata": {
+                    "taxi": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {
+                            "leaveAt": "",
+                            "destination": "",
+                            "departure": "",
+                            "arriveBy": ""
+                        }
+                    },
+                    "police": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {}
+                    },
+                    "restaurant": {
+                        "book": {
+                            "booked": [],
+                            "people": "",
+                            "day": "",
+                            "time": ""
+                        },
+                        "semi": {
+                            "food": "",
+                            "pricerange": "",
+                            "name": "",
+                            "area": ""
+                        }
+                    },
+                    "bus": {
+                        "book": {
+                            "booked": [],
+                            "people": ""
+                        },
+                        "semi": {
+                            "leaveAt": "",
+                            "destination": "",
+                            "day": "",
+                            "arriveBy": "",
+                            "departure": ""
+                        }
+                    },
+                    "hospital": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {
+                            "department": ""
+                        }
+                    },
+                    "hotel": {
+                        "book": {
+                            "booked": [
+                                {
+                                    "name": "warkworth house",
+                                    "reference": "YF86GE4J"
+                                }
+                            ],
+                            "people": "3",
+                            "day": "monday",
+                            "stay": "4"
+                        },
+                        "semi": {
+                            "name": "wartworth",
+                            "area": "east",
+                            "parking": "yes",
+                            "pricerange": "not mentioned",
+                            "stars": "4",
+                            "internet": "yes",
+                            "type": "not mentioned"
+                        }
+                    },
+                    "attraction": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {
+                            "type": "",
+                            "name": "",
+                            "area": ""
+                        }
+                    },
+                    "train": {
+                        "book": {
+                            "booked": [
+                                {
+                                    "trainID": "TR1567",
+                                    "reference": "UIFV8FAS"
+                                }
+                            ],
+                            "people": "1"
+                        },
+                        "semi": {
+                            "leaveAt": "not mentioned",
+                            "destination": "bishops stortford",
+                            "day": "friday",
+                            "arriveBy": "19:45",
+                            "departure": "cambridge"
+                        }
+                    }
+                },
+                "dialog_act": {
+                    "general-bye": [
+                        [
+                            "none",
+                            "none"
+                        ]
+                    ],
+                    "general-welcome": [
+                        [
+                            "none",
+                            "none"
+                        ]
+                    ]
+                },
+                "span_info": []
+            }
+        ]
+    },
+    "MUL2168.json": {
+        "goal": {
+            "taxi": {},
+            "police": {},
+            "hospital": {},
+            "hotel": {
+                "info": {
+                    "parking": "yes",
+                    "pricerange": "cheap",
+                    "stars": "4",
+                    "internet": "yes"
+                },
+                "fail_info": {
+                    "parking": "no",
+                    "pricerange": "cheap",
+                    "stars": "4",
+                    "internet": "yes"
+                },
+                "book": {
+                    "stay": "5",
+                    "day": "wednesday",
+                    "invalid": false,
+                    "people": "5"
+                },
+                "fail_book": {}
+            },
+            "attraction": {},
+            "train": {
+                "info": {
+                    "destination": "cambridge",
+                    "day": "wednesday",
+                    "arriveBy": "20:45",
+                    "departure": "birmingham new street"
+                },
+                "fail_info": {},
+                "book": {
+                    "invalid": false,
+                    "people": "5"
+                },
+                "fail_book": {}
+            },
+            "message": [
+                "You are planning your trip in Cambridge",
+                "You are looking for a <span class='emphasis'>train</span>. The train should go to <span class='emphasis'>cambridge</span> and should <span class='emphasis'>arrive by 20:45</span>",
+                "The train should depart from <span class='emphasis'>birmingham new street</span> and should leave on <span class='emphasis'>wednesday</span>",
+                "Once you find the train you want to make a booking for <span class='emphasis'>5 people</span>",
+                "Make sure you get the <span class='emphasis'>reference number</span>",
+                "You are also looking for a <span class='emphasis'>place to stay</span>. The hotel should have <span class='emphasis'>a star of 4</span> and should <span class='emphasis'>include free wifi</span>",
+                "The hotel <span class='emphasis'>doesn't need to have free parking</span> and should be in the <span class='emphasis'>cheap</span> price range",
+                "If there is no such hotel, how about one that has <span class='emphasis'>free parking</span>",
+                "Once you find the <span class='emphasis'>hotel</span> you want to book it for <span class='emphasis'>the same group of people</span> and <span class='emphasis'>5 nights</span> starting from <span class='emphasis'>the same day</span>",
+                "Make sure you get the <span class='emphasis'>reference number</span>"
+            ],
+            "restaurant": {}
+        },
+        "log": [
+            {
+                "text": "Hi, I'm looking for a train that is going to cambridge and arriving there by 20:45, is there anything like that?",
+                "metadata": {},
+                "dialog_act": {
+                    "Train-Inform": [
+                        [
+                            "Dest",
+                            "cambridge"
+                        ],
+                        [
+                            "Arrive",
+                            "20:45"
+                        ]
+                    ]
+                },
+                "span_info": [
+                    [
+                        "Train-Inform",
+                        "Dest",
+                        "cambridge",
+                        12,
+                        12
+                    ],
+                    [
+                        "Train-Inform",
+                        "Arrive",
+                        "20:45",
+                        17,
+                        17
+                    ]
+                ]
+            },
+            {
+                "text": "There are over 1,000 trains like that.  Where will you be departing from?",
+                "metadata": {
+                    "taxi": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {
+                            "leaveAt": "",
+                            "destination": "",
+                            "departure": "",
+                            "arriveBy": ""
+                        }
+                    },
+                    "police": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {}
+                    },
+                    "restaurant": {
+                        "book": {
+                            "booked": [],
+                            "time": "",
+                            "day": "",
+                            "people": ""
+                        },
+                        "semi": {
+                            "food": "",
+                            "pricerange": "",
+                            "name": "",
+                            "area": ""
+                        }
+                    },
+                    "hospital": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {
+                            "department": ""
+                        }
+                    },
+                    "hotel": {
+                        "book": {
+                            "booked": [],
+                            "stay": "",
+                            "day": "",
+                            "people": ""
+                        },
+                        "semi": {
+                            "name": "",
+                            "area": "",
+                            "parking": "",
+                            "pricerange": "",
+                            "stars": "",
+                            "internet": "",
+                            "type": ""
+                        }
+                    },
+                    "attraction": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {
+                            "type": "",
+                            "name": "",
+                            "area": ""
+                        }
+                    },
+                    "train": {
+                        "book": {
+                            "booked": [],
+                            "people": ""
+                        },
+                        "semi": {
+                            "leaveAt": "not mentioned",
+                            "destination": "cambridge",
+                            "day": "not mentioned",
+                            "arriveBy": "20:45",
+                            "departure": "not mentioned"
+                        }
+                    }
+                },
+                "dialog_act": {
+                    "Train-Inform": [
+                        [
+                            "Choice",
+                            "over 1"
+                        ],
+                        [
+                            "Choice",
+                            "000"
+                        ]
+                    ],
+                    "Train-Request": [
+                        [
+                            "Depart",
+                            "?"
+                        ]
+                    ]
+                },
+                "span_info": [
+                    [
+                        "Train-Inform",
+                        "Choice",
+                        "over 1",
+                        2,
+                        3
+                    ]
+                ]
+            },
+            {
+                "text": "I am departing from birmingham new street.",
+                "metadata": {},
+                "dialog_act": {
+                    "Train-Inform": [
+                        [
+                            "Depart",
+                            "birmingham new street"
+                        ]
+                    ]
+                },
+                "span_info": [
+                    [
+                        "Train-Inform",
+                        "Depart",
+                        "birmingham new street",
+                        4,
+                        6
+                    ]
+                ]
+            },
+            {
+                "text": "Can you confirm your desired travel day?",
+                "metadata": {
+                    "taxi": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {
+                            "leaveAt": "",
+                            "destination": "",
+                            "departure": "",
+                            "arriveBy": ""
+                        }
+                    },
+                    "police": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {}
+                    },
+                    "restaurant": {
+                        "book": {
+                            "booked": [],
+                            "time": "",
+                            "day": "",
+                            "people": ""
+                        },
+                        "semi": {
+                            "food": "",
+                            "pricerange": "",
+                            "name": "",
+                            "area": ""
+                        }
+                    },
+                    "hospital": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {
+                            "department": ""
+                        }
+                    },
+                    "hotel": {
+                        "book": {
+                            "booked": [],
+                            "stay": "",
+                            "day": "",
+                            "people": ""
+                        },
+                        "semi": {
+                            "name": "",
+                            "area": "",
+                            "parking": "",
+                            "pricerange": "",
+                            "stars": "",
+                            "internet": "",
+                            "type": ""
+                        }
+                    },
+                    "attraction": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {
+                            "type": "",
+                            "name": "",
+                            "area": ""
+                        }
+                    },
+                    "train": {
+                        "book": {
+                            "booked": [],
+                            "people": ""
+                        },
+                        "semi": {
+                            "leaveAt": "not mentioned",
+                            "destination": "cambridge",
+                            "day": "not mentioned",
+                            "arriveBy": "20:45",
+                            "departure": "birmingham new street"
+                        }
+                    }
+                },
+                "dialog_act": {
+                    "Train-Request": [
+                        [
+                            "Day",
+                            "?"
+                        ]
+                    ]
+                },
+                "span_info": []
+            },
+            {
+                "text": "I would like to leave on wednesday",
+                "metadata": {},
+                "dialog_act": {
+                    "Train-Inform": [
+                        [
+                            "Day",
+                            "wednesday"
+                        ]
+                    ]
+                },
+                "span_info": [
+                    [
+                        "Train-Inform",
+                        "Day",
+                        "wednesday",
+                        6,
+                        6
+                    ]
+                ]
+            },
+            {
+                "text": "I show a train leaving birmingham new street at 17:40 and arriving at 20:23 on Wednesday.  Will this work for you?",
+                "metadata": {
+                    "taxi": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {
+                            "leaveAt": "",
+                            "destination": "",
+                            "departure": "",
+                            "arriveBy": ""
+                        }
+                    },
+                    "police": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {}
+                    },
+                    "restaurant": {
+                        "book": {
+                            "booked": [],
+                            "time": "",
+                            "day": "",
+                            "people": ""
+                        },
+                        "semi": {
+                            "food": "",
+                            "pricerange": "",
+                            "name": "",
+                            "area": ""
+                        }
+                    },
+                    "hospital": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {
+                            "department": ""
+                        }
+                    },
+                    "hotel": {
+                        "book": {
+                            "booked": [],
+                            "stay": "",
+                            "day": "",
+                            "people": ""
+                        },
+                        "semi": {
+                            "name": "",
+                            "area": "",
+                            "parking": "",
+                            "pricerange": "",
+                            "stars": "",
+                            "internet": "",
+                            "type": ""
+                        }
+                    },
+                    "attraction": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {
+                            "type": "",
+                            "name": "",
+                            "area": ""
+                        }
+                    },
+                    "train": {
+                        "book": {
+                            "booked": [],
+                            "people": ""
+                        },
+                        "semi": {
+                            "leaveAt": "not mentioned",
+                            "destination": "cambridge",
+                            "day": "wednesday",
+                            "arriveBy": "20:45",
+                            "departure": "birmingham new street"
+                        }
+                    }
+                },
+                "dialog_act": {
+                    "Train-Inform": [
+                        [
+                            "Arrive",
+                            "20:23"
+                        ],
+                        [
+                            "Leave",
+                            "17:40"
+                        ],
+                        [
+                            "Day",
+                            "Wednesday"
+                        ],
+                        [
+                            "Depart",
+                            "birmingham new street"
+                        ]
+                    ]
+                },
+                "span_info": [
+                    [
+                        "Train-Inform",
+                        "Arrive",
+                        "20:23",
+                        13,
+                        13
+                    ],
+                    [
+                        "Train-Inform",
+                        "Leave",
+                        "17:40",
+                        9,
+                        9
+                    ],
+                    [
+                        "Train-Inform",
+                        "Day",
+                        "Wednesday",
+                        15,
+                        15
+                    ],
+                    [
+                        "Train-Inform",
+                        "Depart",
+                        "birmingham new street",
+                        5,
+                        7
+                    ]
+                ]
+            },
+            {
+                "text": "That will, yes. Please make a booking for 5 people please.",
+                "metadata": {},
+                "dialog_act": {
+                    "Train-Inform": [
+                        [
+                            "People",
+                            "5"
+                        ]
+                    ]
+                },
+                "span_info": [
+                    [
+                        "Train-Inform",
+                        "People",
+                        "5",
+                        10,
+                        10
+                    ]
+                ]
+            },
+            {
+                "text": "I've booked your train tickets, and your reference number is A9NHSO9Y.",
+                "metadata": {
+                    "taxi": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {
+                            "leaveAt": "",
+                            "destination": "",
+                            "departure": "",
+                            "arriveBy": ""
+                        }
+                    },
+                    "police": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {}
+                    },
+                    "restaurant": {
+                        "book": {
+                            "booked": [],
+                            "time": "",
+                            "day": "",
+                            "people": ""
+                        },
+                        "semi": {
+                            "food": "",
+                            "pricerange": "",
+                            "name": "",
+                            "area": ""
+                        }
+                    },
+                    "hospital": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {
+                            "department": ""
+                        }
+                    },
+                    "hotel": {
+                        "book": {
+                            "booked": [],
+                            "stay": "",
+                            "day": "",
+                            "people": ""
+                        },
+                        "semi": {
+                            "name": "",
+                            "area": "",
+                            "parking": "",
+                            "pricerange": "",
+                            "stars": "",
+                            "internet": "",
+                            "type": ""
+                        }
+                    },
+                    "attraction": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {
+                            "type": "",
+                            "name": "",
+                            "area": ""
+                        }
+                    },
+                    "train": {
+                        "book": {
+                            "booked": [
+                                {
+                                    "trainID": "TR4977",
+                                    "reference": "A9NHSO9Y"
+                                }
+                            ],
+                            "people": "5"
+                        },
+                        "semi": {
+                            "leaveAt": "not mentioned",
+                            "destination": "cambridge",
+                            "day": "wednesday",
+                            "arriveBy": "20:45",
+                            "departure": "birmingham new street"
+                        }
+                    }
+                },
+                "dialog_act": {
+                    "Train-OfferBooked": [
+                        [
+                            "Ref",
+                            "A9NHSO9Y"
+                        ]
+                    ]
+                },
+                "span_info": [
+                    [
+                        "Train-OfferBooked",
+                        "Ref",
+                        "A9NHSO9Y",
+                        12,
+                        12
+                    ]
+                ]
+            },
+            {
+                "text": "Thanks so much. I would also need a place to say. I am looking for something with 4 stars and has free wifi. ",
+                "metadata": {},
+                "dialog_act": {
+                    "Hotel-Inform": [
+                        [
+                            "Internet",
+                            "yes"
+                        ],
+                        [
+                            "Stars",
+                            "4"
+                        ]
+                    ]
+                },
+                "span_info": [
+                    [
+                        "Hotel-Inform",
+                        "Stars",
+                        "4",
+                        19,
+                        19
+                    ]
+                ]
+            },
+            {
+                "text": "How about the cambridge belfry?  It has all the attributes you requested and a great name!  Maybe even a real belfry?",
+                "metadata": {
+                    "taxi": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {
+                            "leaveAt": "",
+                            "destination": "",
+                            "departure": "",
+                            "arriveBy": ""
+                        }
+                    },
+                    "police": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {}
+                    },
+                    "restaurant": {
+                        "book": {
+                            "booked": [],
+                            "time": "",
+                            "day": "",
+                            "people": ""
+                        },
+                        "semi": {
+                            "food": "",
+                            "pricerange": "",
+                            "name": "",
+                            "area": ""
+                        }
+                    },
+                    "hospital": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {
+                            "department": ""
+                        }
+                    },
+                    "hotel": {
+                        "book": {
+                            "booked": [],
+                            "stay": "",
+                            "day": "",
+                            "people": ""
+                        },
+                        "semi": {
+                            "name": "not mentioned",
+                            "area": "not mentioned",
+                            "parking": "not mentioned",
+                            "pricerange": "not mentioned",
+                            "stars": "4",
+                            "internet": "yes",
+                            "type": "none"
+                        }
+                    },
+                    "attraction": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {
+                            "type": "",
+                            "name": "",
+                            "area": ""
+                        }
+                    },
+                    "train": {
+                        "book": {
+                            "booked": [
+                                {
+                                    "trainID": "TR4977",
+                                    "reference": "A9NHSO9Y"
+                                }
+                            ],
+                            "people": "5"
+                        },
+                        "semi": {
+                            "leaveAt": "not mentioned",
+                            "destination": "cambridge",
+                            "day": "wednesday",
+                            "arriveBy": "20:45",
+                            "departure": "birmingham new street"
+                        }
+                    }
+                },
+                "dialog_act": {
+                    "Hotel-Recommend": [
+                        [
+                            "Name",
+                            "the cambridge belfry"
+                        ]
+                    ]
+                },
+                "span_info": [
+                    [
+                        "Hotel-Recommend",
+                        "Name",
+                        "the cambridge belfry",
+                        2,
+                        4
+                    ]
+                ]
+            },
+            {
+                "text": "That sounds great, could you make a booking for me please?",
+                "metadata": {},
+                "dialog_act": {},
+                "span_info": []
+            },
+            {
+                "text": "What day would you like your booking for?",
+                "metadata": {
+                    "taxi": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {
+                            "leaveAt": "",
+                            "destination": "",
+                            "departure": "",
+                            "arriveBy": ""
+                        }
+                    },
+                    "police": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {}
+                    },
+                    "restaurant": {
+                        "book": {
+                            "booked": [],
+                            "time": "",
+                            "day": "",
+                            "people": ""
+                        },
+                        "semi": {
+                            "food": "",
+                            "pricerange": "",
+                            "name": "",
+                            "area": ""
+                        }
+                    },
+                    "hospital": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {
+                            "department": ""
+                        }
+                    },
+                    "hotel": {
+                        "book": {
+                            "booked": [],
+                            "stay": "",
+                            "day": "",
+                            "people": ""
+                        },
+                        "semi": {
+                            "name": "cambridge belfry",
+                            "area": "not mentioned",
+                            "parking": "not mentioned",
+                            "pricerange": "not mentioned",
+                            "stars": "4",
+                            "internet": "yes",
+                            "type": "none"
+                        }
+                    },
+                    "attraction": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {
+                            "type": "",
+                            "name": "",
+                            "area": ""
+                        }
+                    },
+                    "train": {
+                        "book": {
+                            "booked": [
+                                {
+                                    "trainID": "TR4977",
+                                    "reference": "A9NHSO9Y"
+                                }
+                            ],
+                            "people": "5"
+                        },
+                        "semi": {
+                            "leaveAt": "not mentioned",
+                            "destination": "cambridge",
+                            "day": "wednesday",
+                            "arriveBy": "20:45",
+                            "departure": "birmingham new street"
+                        }
+                    }
+                },
+                "dialog_act": {
+                    "Booking-Request": [
+                        [
+                            "Day",
+                            "?"
+                        ]
+                    ]
+                },
+                "span_info": []
+            },
+            {
+                "text": "Please book it for Wednesday for 5 people and 5 nights, please.",
+                "metadata": {},
+                "dialog_act": {
+                    "Hotel-Inform": [
+                        [
+                            "Stay",
+                            "5"
+                        ],
+                        [
+                            "Day",
+                            "wednesday"
+                        ],
+                        [
+                            "People",
+                            "5"
+                        ]
+                    ]
+                },
+                "span_info": [
+                    [
+                        "Hotel-Inform",
+                        "Stay",
+                        "5",
+                        9,
+                        9
+                    ],
+                    [
+                        "Hotel-Inform",
+                        "People",
+                        "5",
+                        6,
+                        6
+                    ],
+                    [
+                        "Hotel-Inform",
+                        "Day",
+                        "wednesday",
+                        4,
+                        4
+                    ]
+                ]
+            },
+            {
+                "text": "Booking was successful. Reference number is : 5NAWGJDC.",
+                "metadata": {
+                    "taxi": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {
+                            "leaveAt": "",
+                            "destination": "",
+                            "departure": "",
+                            "arriveBy": ""
+                        }
+                    },
+                    "police": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {}
+                    },
+                    "restaurant": {
+                        "book": {
+                            "booked": [],
+                            "time": "",
+                            "day": "",
+                            "people": ""
+                        },
+                        "semi": {
+                            "food": "",
+                            "pricerange": "",
+                            "name": "",
+                            "area": ""
+                        }
+                    },
+                    "hospital": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {
+                            "department": ""
+                        }
+                    },
+                    "hotel": {
+                        "book": {
+                            "booked": [
+                                {
+                                    "name": "the cambridge belfry",
+                                    "reference": "5NAWGJDC"
+                                }
+                            ],
+                            "stay": "5",
+                            "day": "wednesday",
+                            "people": "5"
+                        },
+                        "semi": {
+                            "name": "cambridge belfry",
+                            "area": "not mentioned",
+                            "parking": "not mentioned",
+                            "pricerange": "not mentioned",
+                            "stars": "4",
+                            "internet": "yes",
+                            "type": "none"
+                        }
+                    },
+                    "attraction": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {
+                            "type": "",
+                            "name": "",
+                            "area": ""
+                        }
+                    },
+                    "train": {
+                        "book": {
+                            "booked": [
+                                {
+                                    "trainID": "TR4977",
+                                    "reference": "A9NHSO9Y"
+                                }
+                            ],
+                            "people": "5"
+                        },
+                        "semi": {
+                            "leaveAt": "not mentioned",
+                            "destination": "cambridge",
+                            "day": "wednesday",
+                            "arriveBy": "20:45",
+                            "departure": "birmingham new street"
+                        }
+                    }
+                },
+                "dialog_act": {
+                    "Booking-Book": [
+                        [
+                            "Ref",
+                            "5NAWGJDC"
+                        ]
+                    ]
+                },
+                "span_info": [
+                    [
+                        "Booking-Book",
+                        "Ref",
+                        "5NAWGJDC",
+                        8,
+                        8
+                    ]
+                ]
+            },
+            {
+                "text": "Thank you, goodbye",
+                "metadata": {},
+                "dialog_act": {
+                    "general-thank": [
+                        [
+                            "none",
+                            "none"
+                        ]
+                    ]
+                },
+                "span_info": []
+            },
+            {
+                "text": "Goodbye. If you think of anything else you need don't hesitate to contact us.",
+                "metadata": {
+                    "taxi": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {
+                            "leaveAt": "",
+                            "destination": "",
+                            "departure": "",
+                            "arriveBy": ""
+                        }
+                    },
+                    "police": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {}
+                    },
+                    "restaurant": {
+                        "book": {
+                            "booked": [],
+                            "time": "",
+                            "day": "",
+                            "people": ""
+                        },
+                        "semi": {
+                            "food": "",
+                            "pricerange": "",
+                            "name": "",
+                            "area": ""
+                        }
+                    },
+                    "hospital": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {
+                            "department": ""
+                        }
+                    },
+                    "hotel": {
+                        "book": {
+                            "booked": [
+                                {
+                                    "name": "the cambridge belfry",
+                                    "reference": "5NAWGJDC"
+                                }
+                            ],
+                            "stay": "5",
+                            "day": "wednesday",
+                            "people": "5"
+                        },
+                        "semi": {
+                            "name": "cambridge belfry",
+                            "area": "not mentioned",
+                            "parking": "not mentioned",
+                            "pricerange": "not mentioned",
+                            "stars": "4",
+                            "internet": "yes",
+                            "type": "none"
+                        }
+                    },
+                    "attraction": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {
+                            "type": "",
+                            "name": "",
+                            "area": ""
+                        }
+                    },
+                    "train": {
+                        "book": {
+                            "booked": [
+                                {
+                                    "trainID": "TR4977",
+                                    "reference": "A9NHSO9Y"
+                                }
+                            ],
+                            "people": "5"
+                        },
+                        "semi": {
+                            "leaveAt": "not mentioned",
+                            "destination": "cambridge",
+                            "day": "wednesday",
+                            "arriveBy": "20:45",
+                            "departure": "birmingham new street"
+                        }
+                    }
+                },
+                "dialog_act": {
+                    "general-bye": [
+                        [
+                            "none",
+                            "none"
+                        ]
+                    ]
+                },
+                "span_info": []
+            }
+        ]
+    },
+    "SNG0073.json": {
+        "goal": {
+            "taxi": {
+                "info": {
+                    "leaveAt": "17:15",
+                    "destination": "pizza hut fen ditton",
+                    "departure": "saint john's college"
+                },
+                "reqt": [
+                    "car type",
+                    "phone"
+                ],
+                "fail_info": {}
+            },
+            "police": {},
+            "hospital": {},
+            "hotel": {},
+            "attraction": {},
+            "train": {},
+            "message": [
+                "You want to book a <span class='emphasis'>taxi</span>. The taxi should go to <span class='emphasis'>pizza hut fen ditton</span> and should depart from <span class='emphasis'>saint john's college</span>",
+                "The taxi should <span class='emphasis'>leave after 17:15</span>",
+                "Make sure you get <span class='emphasis'>car type</span> and <span class='emphasis'>contact number</span>"
+            ],
+            "restaurant": {}
+        },
+        "log": [
+            {
+                "text": "I would like a taxi from Saint John's college to Pizza Hut Fen Ditton.",
+                "metadata": {},
+                "dialog_act": {
+                    "Taxi-Inform": [
+                        [
+                            "Dest",
+                            "pizza hut fen ditton"
+                        ],
+                        [
+                            "Depart",
+                            "saint john 's college"
+                        ]
+                    ]
+                },
+                "span_info": [
+                    [
+                        "Taxi-Inform",
+                        "Dest",
+                        "pizza hut fen ditton",
+                        11,
+                        14
+                    ],
+                    [
+                        "Taxi-Inform",
+                        "Depart",
+                        "saint john 's college",
+                        6,
+                        9
+                    ]
+                ]
+            },
+            {
+                "text": "What time do you want to leave and what time do you want to arrive by?",
+                "metadata": {
+                    "taxi": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {
+                            "leaveAt": "not mentioned",
+                            "destination": "pizza hut fenditton",
+                            "departure": "saint johns college",
+                            "arriveBy": "not mentioned"
+                        }
+                    },
+                    "police": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {}
+                    },
+                    "restaurant": {
+                        "book": {
+                            "booked": [],
+                            "time": "",
+                            "day": "",
+                            "people": ""
+                        },
+                        "semi": {
+                            "food": "",
+                            "pricerange": "",
+                            "name": "",
+                            "area": ""
+                        }
+                    },
+                    "hospital": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {
+                            "department": ""
+                        }
+                    },
+                    "hotel": {
+                        "book": {
+                            "booked": [],
+                            "stay": "",
+                            "day": "",
+                            "people": ""
+                        },
+                        "semi": {
+                            "name": "",
+                            "area": "",
+                            "parking": "",
+                            "pricerange": "",
+                            "stars": "",
+                            "internet": "",
+                            "type": ""
+                        }
+                    },
+                    "attraction": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {
+                            "type": "",
+                            "name": "",
+                            "area": ""
+                        }
+                    },
+                    "train": {
+                        "book": {
+                            "booked": [],
+                            "people": ""
+                        },
+                        "semi": {
+                            "leaveAt": "",
+                            "destination": "",
+                            "day": "",
+                            "arriveBy": "",
+                            "departure": ""
+                        }
+                    }
+                },
+                "dialog_act": {
+                    "Taxi-Request": [
+                        [
+                            "Leave",
+                            "?"
+                        ],
+                        [
+                            "Arrive",
+                            "?"
+                        ]
+                    ]
+                },
+                "span_info": []
+            },
+            {
+                "text": "I want to leave after 17:15.",
+                "metadata": {},
+                "dialog_act": {
+                    "Taxi-Inform": [
+                        [
+                            "Leave",
+                            "17:15"
+                        ]
+                    ]
+                },
+                "span_info": [
+                    [
+                        "Taxi-Inform",
+                        "Leave",
+                        "17:15",
+                        5,
+                        5
+                    ]
+                ]
+            },
+            {
+                "text": "\nBooking completed! your taxi will be blue honda Contact number is 07218068540",
+                "metadata": {
+                    "taxi": {
+                        "book": {
+                            "booked": [
+                                {
+                                    "phone": "07218068540",
+                                    "type": "blue honda"
+                                }
+                            ]
+                        },
+                        "semi": {
+                            "leaveAt": "17:15",
+                            "destination": "pizza hut fenditton",
+                            "departure": "saint johns college",
+                            "arriveBy": "not mentioned"
+                        }
+                    },
+                    "police": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {}
+                    },
+                    "restaurant": {
+                        "book": {
+                            "booked": [],
+                            "time": "",
+                            "day": "",
+                            "people": ""
+                        },
+                        "semi": {
+                            "food": "",
+                            "pricerange": "",
+                            "name": "",
+                            "area": ""
+                        }
+                    },
+                    "hospital": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {
+                            "department": ""
+                        }
+                    },
+                    "hotel": {
+                        "book": {
+                            "booked": [],
+                            "stay": "",
+                            "day": "",
+                            "people": ""
+                        },
+                        "semi": {
+                            "name": "",
+                            "area": "",
+                            "parking": "",
+                            "pricerange": "",
+                            "stars": "",
+                            "internet": "",
+                            "type": ""
+                        }
+                    },
+                    "attraction": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {
+                            "type": "",
+                            "name": "",
+                            "area": ""
+                        }
+                    },
+                    "train": {
+                        "book": {
+                            "booked": [],
+                            "people": ""
+                        },
+                        "semi": {
+                            "leaveAt": "",
+                            "destination": "",
+                            "day": "",
+                            "arriveBy": "",
+                            "departure": ""
+                        }
+                    }
+                },
+                "dialog_act": {
+                    "Taxi-Inform": [
+                        [
+                            "Car",
+                            "blue honda"
+                        ],
+                        [
+                            "Phone",
+                            "07218068540"
+                        ]
+                    ]
+                },
+                "span_info": [
+                    [
+                        "Taxi-Inform",
+                        "Car",
+                        "blue honda",
+                        7,
+                        8
+                    ],
+                    [
+                        "Taxi-Inform",
+                        "Phone",
+                        "07218068540",
+                        12,
+                        12
+                    ]
+                ]
+            },
+            {
+                "text": "Thank you for all the help! I appreciate it.",
+                "metadata": {},
+                "dialog_act": {
+                    "general-thank": [
+                        [
+                            "none",
+                            "none"
+                        ]
+                    ]
+                },
+                "span_info": []
+            },
+            {
+                "text": "You are welcome.  Is there anything else I can help you with today?",
+                "metadata": {
+                    "taxi": {
+                        "book": {
+                            "booked": [
+                                {
+                                    "phone": "07218068540",
+                                    "type": "blue honda"
+                                }
+                            ]
+                        },
+                        "semi": {
+                            "leaveAt": "17:15",
+                            "destination": "pizza hut fenditton",
+                            "departure": "saint johns college",
+                            "arriveBy": "not mentioned"
+                        }
+                    },
+                    "police": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {}
+                    },
+                    "restaurant": {
+                        "book": {
+                            "booked": [],
+                            "time": "",
+                            "day": "",
+                            "people": ""
+                        },
+                        "semi": {
+                            "food": "",
+                            "pricerange": "",
+                            "name": "",
+                            "area": ""
+                        }
+                    },
+                    "hospital": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {
+                            "department": ""
+                        }
+                    },
+                    "hotel": {
+                        "book": {
+                            "booked": [],
+                            "stay": "",
+                            "day": "",
+                            "people": ""
+                        },
+                        "semi": {
+                            "name": "",
+                            "area": "",
+                            "parking": "",
+                            "pricerange": "",
+                            "stars": "",
+                            "internet": "",
+                            "type": ""
+                        }
+                    },
+                    "attraction": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {
+                            "type": "",
+                            "name": "",
+                            "area": ""
+                        }
+                    },
+                    "train": {
+                        "book": {
+                            "booked": [],
+                            "people": ""
+                        },
+                        "semi": {
+                            "leaveAt": "",
+                            "destination": "",
+                            "day": "",
+                            "arriveBy": "",
+                            "departure": ""
+                        }
+                    }
+                },
+                "dialog_act": {
+                    "general-reqmore": [
+                        [
+                            "none",
+                            "none"
+                        ]
+                    ]
+                },
+                "span_info": []
+            },
+            {
+                "text": "No, I am all set.  Have a nice day.  Bye.",
+                "metadata": {},
+                "dialog_act": {
+                    "general-bye": [
+                        [
+                            "none",
+                            "none"
+                        ]
+                    ]
+                },
+                "span_info": []
+            },
+            {
+                "text": "you too! thank you",
+                "metadata": {
+                    "taxi": {
+                        "book": {
+                            "booked": [
+                                {
+                                    "phone": "07218068540",
+                                    "type": "blue honda"
+                                }
+                            ]
+                        },
+                        "semi": {
+                            "leaveAt": "17:15",
+                            "destination": "pizza hut fenditton",
+                            "departure": "saint johns college",
+                            "arriveBy": "not mentioned"
+                        }
+                    },
+                    "police": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {}
+                    },
+                    "restaurant": {
+                        "book": {
+                            "booked": [],
+                            "time": "",
+                            "day": "",
+                            "people": ""
+                        },
+                        "semi": {
+                            "food": "",
+                            "pricerange": "",
+                            "name": "",
+                            "area": ""
+                        }
+                    },
+                    "hospital": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {
+                            "department": ""
+                        }
+                    },
+                    "hotel": {
+                        "book": {
+                            "booked": [],
+                            "stay": "",
+                            "day": "",
+                            "people": ""
+                        },
+                        "semi": {
+                            "name": "",
+                            "area": "",
+                            "parking": "",
+                            "pricerange": "",
+                            "stars": "",
+                            "internet": "",
+                            "type": ""
+                        }
+                    },
+                    "attraction": {
+                        "book": {
+                            "booked": []
+                        },
+                        "semi": {
+                            "type": "",
+                            "name": "",
+                            "area": ""
+                        }
+                    },
+                    "train": {
+                        "book": {
+                            "booked": [],
+                            "people": ""
+                        },
+                        "semi": {
+                            "leaveAt": "",
+                            "destination": "",
+                            "day": "",
+                            "arriveBy": "",
+                            "departure": ""
+                        }
+                    }
+                },
+                "dialog_act": {
+                    "general-bye": [
+                        [
+                            "none",
+                            "none"
+                        ]
+                    ]
+                },
+                "span_info": []
+            }
+        ]
+    }
+}
