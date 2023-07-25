@@ -8,8 +8,8 @@
 <a href="#introduction" style="font-size:20px;">Introduction</a>,
 <a href="#datasets" style="font-size:20px;">Datasets</a>,
 <a href="#model" style="font-size:20px;">Model</a>,
-<a href="https://twitter.com/JianguoZhang3" style="font-size:20px;">Twitter</a> 
-<!-- </div>
+<a href="https://twitter.com/JianguoZhang3" style="font-size:20px">Twitter</a> 
+<!-- </div> -->
 <p>
 
 # DialogStudio: Towards Richest and Most Diverse Unified Dataset Collection and Instruction-Aware Models for Conversational AI
