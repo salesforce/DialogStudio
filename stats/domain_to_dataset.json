@@ -1,0 +1,674 @@
+{
+    "music": {
+        "datasets": [
+            "SGD",
+            "Taskmaster2",
+            "MuDoCo",
+            "MetaLWOZ",
+            "SalesBot"
+        ],
+        "dial_num": 5575
+    },
+    "service": {
+        "datasets": [
+            "SGD"
+        ],
+        "dial_num": 2746
+    },
+    "restaurant": {
+        "datasets": [
+            "SGD",
+            "SimJointRestaurant",
+            "Taskmaster2",
+            "BiTOD",
+            "DSTC2-Clean",
+            "STAR",
+            "MetaLWOZ",
+            "HDSA-Dialog",
+            "Taskmaster1",
+            "WOZ2_0",
+            "MULTIWOZ2_2",
+            "MS-DC"
+        ],
+        "dial_num": 31316
+    },
+    "event": {
+        "datasets": [
+            "SGD"
+        ],
+        "dial_num": 4308
+    },
+    "flight": {
+        "datasets": [
+            "SGD",
+            "Taskmaster2",
+            "MetaLWOZ",
+            "AirDialogue",
+            "MulDoGO"
+        ],
+        "dial_num": 377363
+    },
+    "hotel": {
+        "datasets": [
+            "SGD",
+            "Taskmaster2",
+            "BiTOD",
+            "STAR",
+            "MetaLWOZ",
+            "HDSA-Dialog",
+            "MULTIWOZ2_2"
+        ],
+        "dial_num": 16974
+    },
+    "weather": {
+        "datasets": [
+            "SGD",
+            "BiTOD",
+            "KVRET",
+            "STAR",
+            "MuDoCo",
+            "MetaLWOZ"
+        ],
+        "dial_num": 4797
+    },
+    "bus": {
+        "datasets": [
+            "SGD",
+            "MetaLWOZ",
+            "HDSA-Dialog",
+            "MULTIWOZ2_2"
+        ],
+        "dial_num": 4027
+    },
+    "rentalcars": {
+        "datasets": [
+            "SGD"
+        ],
+        "dial_num": 2510
+    },
+    "media": {
+        "datasets": [
+            "SGD",
+            "MulDoGO"
+        ],
+        "dial_num": 25813
+    },
+    "movie": {
+        "datasets": [
+            "SGD",
+            "SimJointMovie",
+            "Taskmaster2",
+            "SimJointGEN",
+            "MetaLWOZ",
+            "Taskmaster1",
+            "SalesBot",
+            "Taskmaster3",
+            "MS-DC"
+        ],
+        "dial_num": 194541
+    },
+    "ridesharing": {
+        "datasets": [
+            "SGD"
+        ],
+        "dial_num": 737
+    },
+    "calendar": {
+        "datasets": [
+            "SGD"
+        ],
+        "dial_num": 1482
+    },
+    "bank": {
+        "datasets": [
+            "SGD",
+            "STAR"
+        ],
+        "dial_num": 1517
+    },
+    "home": {
+        "datasets": [
+            "SGD"
+        ],
+        "dial_num": 1089
+    },
+    "travel": {
+        "datasets": [
+            "SGD",
+            "FRAMES"
+        ],
+        "dial_num": 2754
+    },
+    "payment": {
+        "datasets": [
+            "SGD"
+        ],
+        "dial_num": 222
+    },
+    "train": {
+        "datasets": [
+            "SGD",
+            "HDSA-Dialog",
+            "MULTIWOZ2_2"
+        ],
+        "dial_num": 8211
+    },
+    "messaging": {
+        "datasets": [
+            "SGD",
+            "MuDoCo"
+        ],
+        "dial_num": 1731
+    },
+    "alarm": {
+        "datasets": [
+            "SGD",
+            "MetaLWOZ"
+        ],
+        "dial_num": 1830
+    },
+    "subscription_inquiry": {
+        "datasets": [
+            "ABCD"
+        ],
+        "dial_num": 840
+    },
+    "product_defect": {
+        "datasets": [
+            "ABCD"
+        ],
+        "dial_num": 1046
+    },
+    "account_access": {
+        "datasets": [
+            "ABCD"
+        ],
+        "dial_num": 806
+    },
+    "purchase_dispute": {
+        "datasets": [
+            "ABCD"
+        ],
+        "dial_num": 624
+    },
+    "single_item_query": {
+        "datasets": [
+            "ABCD"
+        ],
+        "dial_num": 251
+    },
+    "order_issue": {
+        "datasets": [
+            "ABCD"
+        ],
+        "dial_num": 991
+    },
+    "shipping_issue": {
+        "datasets": [
+            "ABCD"
+        ],
+        "dial_num": 991
+    },
+    "storewide_query": {
+        "datasets": [
+            "ABCD"
+        ],
+        "dial_num": 39
+    },
+    "manage_account": {
+        "datasets": [
+            "ABCD"
+        ],
+        "dial_num": 188
+    },
+    "troubleshoot_site": {
+        "datasets": [
+            "ABCD"
+        ],
+        "dial_num": 89
+    },
+    "negotiation": {
+        "datasets": [
+            "CraigslistBargains",
+            "CaSiNo"
+        ],
+        "dial_num": 6403
+    },
+    "MLS": {
+        "datasets": [
+            "Taskmaster2"
+        ],
+        "dial_num": 824
+    },
+    "EPL": {
+        "datasets": [
+            "Taskmaster2"
+        ],
+        "dial_num": 873
+    },
+    "NFL": {
+        "datasets": [
+            "Taskmaster2"
+        ],
+        "dial_num": 246
+    },
+    "NBA": {
+        "datasets": [
+            "Taskmaster2"
+        ],
+        "dial_num": 586
+    },
+    "MLB": {
+        "datasets": [
+            "Taskmaster2"
+        ],
+        "dial_num": 906
+    },
+    "food": {
+        "datasets": [
+            "Taskmaster2"
+        ],
+        "dial_num": 1571
+    },
+    "attraction": {
+        "datasets": [
+            "BiTOD",
+            "HDSA-Dialog",
+            "SalesBot",
+            "MULTIWOZ2_2"
+        ],
+        "dial_num": 12412
+    },
+    "hkmtr": {
+        "datasets": [
+            "BiTOD"
+        ],
+        "dial_num": 1286
+    },
+    "navigate": {
+        "datasets": [
+            "KVRET"
+        ],
+        "dial_num": 997
+    },
+    "schedule": {
+        "datasets": [
+            "KVRET"
+        ],
+        "dial_num": 1023
+    },
+    "meeting": {
+        "datasets": [
+            "STAR"
+        ],
+        "dial_num": 277
+    },
+    "trip": {
+        "datasets": [
+            "STAR",
+            "MetaLWOZ"
+        ],
+        "dial_num": 1450
+    },
+    "ride": {
+        "datasets": [
+            "STAR"
+        ],
+        "dial_num": 936
+    },
+    "party": {
+        "datasets": [
+            "STAR"
+        ],
+        "dial_num": 961
+    },
+    "apartment": {
+        "datasets": [
+            "STAR",
+            "MetaLWOZ"
+        ],
+        "dial_num": 1069
+    },
+    "plane": {
+        "datasets": [
+            "STAR"
+        ],
+        "dial_num": 692
+    },
+    "doctor": {
+        "datasets": [
+            "STAR"
+        ],
+        "dial_num": 637
+    },
+    "trivia": {
+        "datasets": [
+            "STAR"
+        ],
+        "dial_num": 761
+    },
+    "spaceship": {
+        "datasets": [
+            "STAR"
+        ],
+        "dial_num": 278
+    },
+    "news": {
+        "datasets": [
+            "MuDoCo"
+        ],
+        "dial_num": 167
+    },
+    "reminder": {
+        "datasets": [
+            "MuDoCo"
+        ],
+        "dial_num": 653
+    },
+    "calling": {
+        "datasets": [
+            "MuDoCo"
+        ],
+        "dial_num": 4139
+    },
+    "bank_bot": {
+        "datasets": [
+            "MetaLWOZ"
+        ],
+        "dial_num": 367
+    },
+    "sports_info": {
+        "datasets": [
+            "MetaLWOZ"
+        ],
+        "dial_num": 561
+    },
+    "edit_playlist": {
+        "datasets": [
+            "MetaLWOZ"
+        ],
+        "dial_num": 574
+    },
+    "contact_manager": {
+        "datasets": [
+            "MetaLWOZ"
+        ],
+        "dial_num": 1483
+    },
+    "library_request": {
+        "datasets": [
+            "MetaLWOZ"
+        ],
+        "dial_num": 1339
+    },
+    "update_contact": {
+        "datasets": [
+            "MetaLWOZ"
+        ],
+        "dial_num": 581
+    },
+    "look_up_info": {
+        "datasets": [
+            "MetaLWOZ"
+        ],
+        "dial_num": 533
+    },
+    "geography": {
+        "datasets": [
+            "MetaLWOZ"
+        ],
+        "dial_num": 652
+    },
+    "present_ideas": {
+        "datasets": [
+            "MetaLWOZ"
+        ],
+        "dial_num": 663
+    },
+    "pizza": {
+        "datasets": [
+            "MetaLWOZ",
+            "Taskmaster1"
+        ],
+        "dial_num": 2044
+    },
+    "guiness_check": {
+        "datasets": [
+            "MetaLWOZ"
+        ],
+        "dial_num": 1884
+    },
+    "update_calendar": {
+        "datasets": [
+            "MetaLWOZ"
+        ],
+        "dial_num": 1990
+    },
+    "scam_lookup": {
+        "datasets": [
+            "MetaLWOZ"
+        ],
+        "dial_num": 1657
+    },
+    "quote_of_the_day_bot": {
+        "datasets": [
+            "MetaLWOZ"
+        ],
+        "dial_num": 512
+    },
+    "prompt_generator": {
+        "datasets": [
+            "MetaLWOZ"
+        ],
+        "dial_num": 445
+    },
+    "phone_settings": {
+        "datasets": [
+            "MetaLWOZ"
+        ],
+        "dial_num": 473
+    },
+    "game_rules": {
+        "datasets": [
+            "MetaLWOZ"
+        ],
+        "dial_num": 1588
+    },
+    "check_status": {
+        "datasets": [
+            "MetaLWOZ"
+        ],
+        "dial_num": 783
+    },
+    "agreement_bot": {
+        "datasets": [
+            "MetaLWOZ"
+        ],
+        "dial_num": 507
+    },
+    "insurance": {
+        "datasets": [
+            "MetaLWOZ",
+            "MulDoGO"
+        ],
+        "dial_num": 9794
+    },
+    "ski_bot": {
+        "datasets": [
+            "MetaLWOZ"
+        ],
+        "dial_num": 607
+    },
+    "event_reserve": {
+        "datasets": [
+            "MetaLWOZ"
+        ],
+        "dial_num": 539
+    },
+    "what_is_it": {
+        "datasets": [
+            "MetaLWOZ"
+        ],
+        "dial_num": 776
+    },
+    "home_bot": {
+        "datasets": [
+            "MetaLWOZ"
+        ],
+        "dial_num": 1209
+    },
+    "policy_bot": {
+        "datasets": [
+            "MetaLWOZ"
+        ],
+        "dial_num": 447
+    },
+    "decider_bot": {
+        "datasets": [
+            "MetaLWOZ"
+        ],
+        "dial_num": 487
+    },
+    "appointment_reminder": {
+        "datasets": [
+            "MetaLWOZ"
+        ],
+        "dial_num": 667
+    },
+    "catalogue_bot": {
+        "datasets": [
+            "MetaLWOZ"
+        ],
+        "dial_num": 288
+    },
+    "play_times": {
+        "datasets": [
+            "MetaLWOZ"
+        ],
+        "dial_num": 1597
+    },
+    "phone_plan_bot": {
+        "datasets": [
+            "MetaLWOZ"
+        ],
+        "dial_num": 495
+    },
+    "city_info": {
+        "datasets": [
+            "MetaLWOZ"
+        ],
+        "dial_num": 964
+    },
+    "name_suggester": {
+        "datasets": [
+            "MetaLWOZ"
+        ],
+        "dial_num": 499
+    },
+    "time_zone": {
+        "datasets": [
+            "MetaLWOZ"
+        ],
+        "dial_num": 951
+    },
+    "how_to_basic": {
+        "datasets": [
+            "MetaLWOZ"
+        ],
+        "dial_num": 1084
+    },
+    "pet_advice": {
+        "datasets": [
+            "MetaLWOZ"
+        ],
+        "dial_num": 426
+    },
+    "shopping": {
+        "datasets": [
+            "MetaLWOZ"
+        ],
+        "dial_num": 901
+    },
+    "auto": {
+        "datasets": [
+            "MetaLWOZ",
+            "Taskmaster1"
+        ],
+        "dial_num": 1671
+    },
+    "wedding_planner": {
+        "datasets": [
+            "MetaLWOZ"
+        ],
+        "dial_num": 510
+    },
+    "store_details": {
+        "datasets": [
+            "MetaLWOZ"
+        ],
+        "dial_num": 737
+    },
+    "vacation_ideas": {
+        "datasets": [
+            "MetaLWOZ"
+        ],
+        "dial_num": 486
+    },
+    "taxi": {
+        "datasets": [
+            "HDSA-Dialog",
+            "MULTIWOZ2_2",
+            "MS-DC"
+        ],
+        "dial_num": 6731
+    },
+    "hospital": {
+        "datasets": [
+            "HDSA-Dialog",
+            "MULTIWOZ2_2"
+        ],
+        "dial_num": 216
+    },
+    "coffee": {
+        "datasets": [
+            "Taskmaster1"
+        ],
+        "dial_num": 1373
+    },
+    "uber": {
+        "datasets": [
+            "Taskmaster1"
+        ],
+        "dial_num": 1098
+    },
+    "playsong": {
+        "datasets": [
+            "SalesBot"
+        ],
+        "dial_num": 706
+    },
+    "lookupsong": {
+        "datasets": [
+            "SalesBot"
+        ],
+        "dial_num": 29
+    },
+    "software": {
+        "datasets": [
+            "MulDoGO"
+        ],
+        "dial_num": 5465
+    },
+    "fastfood": {
+        "datasets": [
+            "MulDoGO"
+        ],
+        "dial_num": 7715
+    },
+    "finance": {
+        "datasets": [
+            "MulDoGO"
+        ],
+        "dial_num": 8699
+    }
+}

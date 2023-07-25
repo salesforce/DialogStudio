@@ -1,0 +1,218 @@
+{
+    "SGD": {
+        "music": 1266,
+        "services": 2746,
+        "restaurants": 3218,
+        "events": 4308,
+        "flights": 3633,
+        "hotels": 3073,
+        "weather": 1668,
+        "buses": 3117,
+        "rentalcars": 2510,
+        "media": 1656,
+        "movies": 2180,
+        "ridesharing": 737,
+        "calendar": 1482,
+        "banks": 459,
+        "homes": 1089,
+        "travel": 1385,
+        "payment": 222,
+        "trains": 349,
+        "messaging": 298,
+        "alarm": 150
+    },
+    "SimJointRestaurant": {
+        "restaurant": 2227
+    },
+    "ABCD": {
+        "subscription_inquiry": 840,
+        "product_defect": 1046,
+        "account_access": 806,
+        "purchase_dispute": 624,
+        "single_item_query": 251,
+        "order_issue": 991,
+        "shipping_issue": 991,
+        "storewide_query": 39,
+        "manage_account": 188,
+        "troubleshoot_site": 89
+    },
+    "SimJointMovie": {
+        "movie": 764
+    },
+    "FRAMES": {
+        "travel": 1369
+    },
+    "CraigslistBargains": {
+        "negotiation": 5373
+    },
+    "Taskmaster2": {
+        "MLS": 824,
+        "EPL": 873,
+        "NFL": 246,
+        "NBA": 586,
+        "MLB": 906,
+        "music": 1588,
+        "restaurant": 2511,
+        "lunch": 67,
+        "hungry": 170,
+        "dinner": 263,
+        "dessert": 28,
+        "movie": 3041,
+        "flight": 2479,
+        "hotel": 2346,
+        "food": 1043
+    },
+    "BiTOD": {
+        "attractions": 2046,
+        "restaurants": 1942,
+        "hkmtr": 1286,
+        "weathers": 194,
+        "hotels": 1671
+    },
+    "DSTC2-Clean": {
+        "restaurant": 3234
+    },
+    "KVRET": {
+        "navigate": 997,
+        "schedule": 1023,
+        "weather": 994
+    },
+    "STAR": {
+        "weather": 1266,
+        "meeting": 277,
+        "trip": 668,
+        "ride": 936,
+        "party": 961,
+        "restaurant": 1180,
+        "bank": 1058,
+        "apartment": 571,
+        "plane": 692,
+        "hotel": 1023,
+        "doctor": 637,
+        "trivia": 761,
+        "spaceship": 278
+    },
+    "SimJointGEN": {
+        "movie": 120000
+    },
+    "MuDoCo": {
+        "music": 982,
+        "news": 167,
+        "reminders": 653,
+        "weather": 124,
+        "calling": 4139,
+        "messaging": 1433
+    },
+    "MetaLWOZ": {
+        "bank_bot": 367,
+        "sports_info": 561,
+        "edit_playlist": 574,
+        "contact_manager": 1483,
+        "library_request": 1339,
+        "alarm_set": 1680,
+        "music_suggester": 443,
+        "make_restaurant_reservations": 510,
+        "update_contact": 581,
+        "look_up_info": 533,
+        "geography": 652,
+        "present_ideas": 663,
+        "order_pizza": 577,
+        "guiness_check": 1884,
+        "bus_schedule_bot": 898,
+        "update_calendar": 1990,
+        "scam_lookup": 1657,
+        "movie_listings": 606,
+        "quote_of_the_day_bot": 512,
+        "prompt_generator": 445,
+        "phone_settings": 473,
+        "apartment_finder": 498,
+        "game_rules": 1588,
+        "check_status": 783,
+        "weather_check": 551,
+        "agreement_bot": 507,
+        "insurance": 1297,
+        "ski_bot": 607,
+        "event_reserve": 539,
+        "what_is_it": 776,
+        "home_bot": 1209,
+        "policy_bot": 447,
+        "decider_bot": 487,
+        "appointment_reminder": 667,
+        "catalogue_bot": 288,
+        "play_times": 1597,
+        "phone_plan_bot": 495,
+        "city_info": 964,
+        "restaurant_picker": 534,
+        "name_suggester": 499,
+        "time_zone": 951,
+        "how_to_basic": 1084,
+        "pet_advice": 426,
+        "shopping": 901,
+        "auto_sort": 514,
+        "wedding_planner": 510,
+        "store_details": 737,
+        "booking_flight": 554,
+        "vacation_ideas": 486,
+        "hotel_reserve": 497,
+        "tourism": 782
+    },
+    "HDSA-Dialog": {
+        "taxi": 1872,
+        "attraction": 3484,
+        "hotel": 4182,
+        "restaurant": 4728,
+        "train": 3931,
+        "hospital": 108,
+        "bus": 6
+    },
+    "Taskmaster1": {
+        "auto": 1157,
+        "restaurant": 1290,
+        "pizza": 1467,
+        "coffee": 1373,
+        "movie": 1278,
+        "uber": 1098
+    },
+    "CaSiNo": {
+        "negotiation": 1030
+    },
+    "SalesBot": {
+        "findattractions": 3398,
+        "playsong": 706,
+        "lookupmusic": 1296,
+        "findmovies": 4881,
+        "gettimesformovie": 113,
+        "lookupsong": 29
+    },
+    "WOZ2_0": {
+        "restaurant": 1200
+    },
+    "MULTIWOZ2_2": {
+        "taxi": 1872,
+        "attraction": 3484,
+        "hotel": 4182,
+        "restaurant": 4728,
+        "train": 3931,
+        "hospital": 108,
+        "bus": 6
+    },
+    "Taskmaster3": {
+        "movie": 58801
+    },
+    "AirDialogue": {
+        "flight": 361822
+    },
+    "MS-DC": {
+        "taxi": 2987,
+        "restaurant": 4014,
+        "movie": 2877
+    },
+    "MulDoGO": {
+        "software": 5465,
+        "insurance": 8497,
+        "media": 24157,
+        "airline": 8875,
+        "fastfood": 7715,
+        "finance": 8699
+    }
+}
