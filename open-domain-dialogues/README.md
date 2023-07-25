@@ -14,8 +14,8 @@ Below is a general format for open domain dialogues:
                 "user utterance": str,
                 "system response": str,
                 "dialog history": str,
-                "original user1 side information": dict,
-                "original user2 side information": dict,
+                "original user side information": dict,
+                "original system side information": dict,
             },
          	...
         ],
