@@ -5,11 +5,11 @@
 <!-- <p>
 <div align="center"> -->
 <a href="https://arxiv.org/abs/2307.10172" style="font-size:20px;">Paper</a>,
+<a href="#introduction" style="font-size:20px;">Introduction</a>,
 <a href="#datasets" style="font-size:20px;">Datasets</a>,
-<a href="#documentation" style="font-size:20px;">Documentation</a>,
-<a href="#model" style="font-size:20px;">Model</a>
-<!-- <a href="https://twitter.com/CaimingXiong/status/1674123308177178624" style="font-size:20px;">Twitter</a>  -->
-<!-- </div> -->
+<a href="#model" style="font-size:20px;">Model</a>,
+<a href="https://twitter.com/JianguoZhang3" style="font-size:20px;">Twitter</a> 
+<!-- </div>
 <p>
 
 # DialogStudio: Towards Richest and Most Diverse Unified Dataset Collection and Instruction-Aware Models for Conversational AI
