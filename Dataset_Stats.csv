@@ -28,7 +28,7 @@ Task Oriented Dialogue,HDSA-Dialog,26,ACL 2019,MIT License,8438,1000,1000,10438
 Task Oriented Dialogue,KETOD,27,NAACL 2022,MiT License,4247,545,532,5324
 Task Oriented Dialogue,KVRET,28,SIGDIAL 2017,No License,2425,302,304,3031
 Task Oriented Dialogue,MetaLWOZ,29,Sigdial 2019,MICROSOFT RESEARCH LICENSE TERMS,37884,0,2319,40203
-Task Oriented Dialogue,MS-DC,30,Arxiv 2018,MICROSOFT LICENSE TERMS,10000,0,0,10000
+Task Oriented Dialogue,MS-DC,30,Arxiv 2018,MICROSOFT RESEARCH LICENSE TERMS,10000,0,0,10000
 Task Oriented Dialogue,MuDoCo,31,LREC 2020,Attribution-NonCommercial 4.0 International,6058,691,749,7498
 Task Oriented Dialogue,MulDoGO,32,EMNLP 2019,Community Data License Agreement – Permissive – Version 1.0,59939,1150,2319,63408
 Task Oriented Dialogue,MultiWOZ_2.1,33,LREC 2020,MiT License,8434,999,1000,10433
