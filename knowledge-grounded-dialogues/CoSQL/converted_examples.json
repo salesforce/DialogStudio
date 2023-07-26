@@ -246,6 +246,13 @@
                 "original system side information": {},
                 "external knowledge": "| college_2 | classroom : building , room_number , capacity | department : dept_name , building , budget | course : course_id , title , dept_name , credits | instructor : id , name , dept_name , salary | section : course_id , sec_id , semester , year , building , room_number , time_slot_id | teaches : id , course_id , sec_id , semester , year | student : id , name , dept_name , tot_cred | takes : id , course_id , sec_id , semester , year , grade | advisor : s_id , i_id | time_slot : time_slot_id , day , start_hr , start_min , end_hr , end_min | prereq : course_id , prereq_id"
             }
+        ],
+        "prompt": [
+            "Using the provided dialogue history and database schema information, construct the next SQL query that will serve as the system's response to the user's latest query, adhering to the user's intent and the database structure.",
+            "Given a sequence of user-system interactions and the context of the relevant database, generate an SQL query that accurately responds to the user's most recent request and aligns with the provided database schema.",
+            "Take into account the dialogue history and the specific database schema. Your job is to formulate the correct SQL query that would act as the system's response to the latest user query.",
+            "Based on the context from a sequence of user-system exchanges and the provided database information, your task is to derive an appropriate SQL query. This query should effectively answer the user's most recent question and be consistent with the database's structure.",
+            "Considering the dialogue history and database schema, generate the SQL query that the system should provide as a response to the latest user request. Ensure your query aligns with the user's intent and the structure of the database."
         ]
     },
     "CoSQL--train--2": {
@@ -347,6 +354,13 @@
                 "original system side information": {},
                 "external knowledge": "| train_station | station : station_id , name , annual_entry_exit , annual_interchanges , total_passengers , location , main_services , number_of_platforms | train : train_id , name , time , service | train_station : train_id , station_id"
             }
+        ],
+        "prompt": [
+            "Using the provided dialogue history and database schema information, construct the next SQL query that will serve as the system's response to the user's latest query, adhering to the user's intent and the database structure.",
+            "Given a sequence of user-system interactions and the context of the relevant database, generate an SQL query that accurately responds to the user's most recent request and aligns with the provided database schema.",
+            "Take into account the dialogue history and the specific database schema. Your job is to formulate the correct SQL query that would act as the system's response to the latest user query.",
+            "Based on the context from a sequence of user-system exchanges and the provided database information, your task is to derive an appropriate SQL query. This query should effectively answer the user's most recent question and be consistent with the database's structure.",
+            "Considering the dialogue history and database schema, generate the SQL query that the system should provide as a response to the latest user request. Ensure your query aligns with the user's intent and the structure of the database."
         ]
     },
     "CoSQL--train--3": {
@@ -691,6 +705,13 @@
                 "original system side information": {},
                 "external knowledge": "| college_2 | classroom : building , room_number , capacity | department : dept_name , building , budget | course : course_id , title , dept_name , credits | instructor : id , name ( Mird ) , dept_name , salary | section : course_id , sec_id , semester , year , building , room_number , time_slot_id | teaches : id , course_id , sec_id , semester , year | student : id , name , dept_name , tot_cred | takes : id , course_id , sec_id , semester , year , grade | advisor : s_id , i_id | time_slot : time_slot_id , day , start_hr , start_min , end_hr , end_min | prereq : course_id , prereq_id"
             }
+        ],
+        "prompt": [
+            "Using the provided dialogue history and database schema information, construct the next SQL query that will serve as the system's response to the user's latest query, adhering to the user's intent and the database structure.",
+            "Given a sequence of user-system interactions and the context of the relevant database, generate an SQL query that accurately responds to the user's most recent request and aligns with the provided database schema.",
+            "Take into account the dialogue history and the specific database schema. Your job is to formulate the correct SQL query that would act as the system's response to the latest user query.",
+            "Based on the context from a sequence of user-system exchanges and the provided database information, your task is to derive an appropriate SQL query. This query should effectively answer the user's most recent question and be consistent with the database's structure.",
+            "Considering the dialogue history and database schema, generate the SQL query that the system should provide as a response to the latest user request. Ensure your query aligns with the user's intent and the structure of the database."
         ]
     },
     "CoSQL--train--4": {
@@ -786,6 +807,13 @@
                 "original system side information": {},
                 "external knowledge": "| performance_attendance | member : member_id , name , nationality , role ( Violin ) | performance : performance_id , date , host , location , attendance | member_attendance : member_id , performance_id , num_of_pieces"
             }
+        ],
+        "prompt": [
+            "Using the provided dialogue history and database schema information, construct the next SQL query that will serve as the system's response to the user's latest query, adhering to the user's intent and the database structure.",
+            "Given a sequence of user-system interactions and the context of the relevant database, generate an SQL query that accurately responds to the user's most recent request and aligns with the provided database schema.",
+            "Take into account the dialogue history and the specific database schema. Your job is to formulate the correct SQL query that would act as the system's response to the latest user query.",
+            "Based on the context from a sequence of user-system exchanges and the provided database information, your task is to derive an appropriate SQL query. This query should effectively answer the user's most recent question and be consistent with the database's structure.",
+            "Considering the dialogue history and database schema, generate the SQL query that the system should provide as a response to the latest user request. Ensure your query aligns with the user's intent and the structure of the database."
         ]
     },
     "CoSQL--train--5": {
@@ -922,6 +950,13 @@
                 "original system side information": {},
                 "external knowledge": "| train_station | station : station_id , name ( London Waterloo ) , annual_entry_exit , annual_interchanges , total_passengers , location ( London ) , main_services , number_of_platforms | train : train_id , name , time , service | train_station : train_id , station_id"
             }
+        ],
+        "prompt": [
+            "Using the provided dialogue history and database schema information, construct the next SQL query that will serve as the system's response to the user's latest query, adhering to the user's intent and the database structure.",
+            "Given a sequence of user-system interactions and the context of the relevant database, generate an SQL query that accurately responds to the user's most recent request and aligns with the provided database schema.",
+            "Take into account the dialogue history and the specific database schema. Your job is to formulate the correct SQL query that would act as the system's response to the latest user query.",
+            "Based on the context from a sequence of user-system exchanges and the provided database information, your task is to derive an appropriate SQL query. This query should effectively answer the user's most recent question and be consistent with the database's structure.",
+            "Considering the dialogue history and database schema, generate the SQL query that the system should provide as a response to the latest user request. Ensure your query aligns with the user's intent and the structure of the database."
         ]
     }
 }

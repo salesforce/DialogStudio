@@ -513,6 +513,13 @@
                 "original system side information": {},
                 "external knowledge": "col : pick | player | team | position | school row 1 : 1 | ben mcdonald | baltimore orioles | rhp | louisiana state university row 2 : 2 | tyler houston | atlanta braves | c | valley hs (las vegas, nv) row 3 : 3 | roger salkeld | seattle mariners | rhp | saugus (ca) hs row 4 : 4 | jeff jackson | philadelphia phillies | of | simeon hs (chicago, il) row 5 : 5 | donald harris | texas rangers | of | texas tech university row 6 : 6 | paul coleman | saint louis cardinals | of | frankston (tx) hs row 7 : 7 | frank thomas | chicago white sox | 1b | auburn university row 8 : 8 | earl cunningham | chicago cubs | of | lancaster (sc) hs row 9 : 9 | kyle abbott | california angels | lhp | long beach state university row 10 : 10 | charles johnson | montreal expos | c | westwood hs (fort pierce, fl) row 11 : 11 | calvin murray | cleveland indians | 3b | w.t. white high school (dallas, tx row 12 : 12 | jeff juden | houston astros | rhp | salem (ma) hs row 13 : 13 | brent mayne | kansas city royals | c | cal state fullerton row 14 : 14 | steve hosey | san francisco giants | of | fresno state university row 15 : 15 | kiki jones | los angeles dodgers | rhp | hillsborough hs (tampa, fl) row 16 : 16 | greg blosser | boston red sox | of | sarasota (fl) hs row 17 : 17 | cal eldred | milwaukee brewers | rhp | university of iowa row 18 : 18 | willie greene | pittsburgh pirates | ss | jones county hs (gray, ga) row 19 : 19 | eddie zosky | toronto blue jays | ss | fresno state university row 20 : 20 | scott bryant | cincinnati reds | of | university of texas row 21 : 21 | greg gohr | detroit tigers | rhp | santa clara university row 22 : 22 | tom goodwin | los angeles dodgers | of | fresno state university row 23 : 23 | mo vaughn | boston red sox | 1b | seton hall university row 24 : 24 | alan zinter | new york mets | c | university of arizona row 25 : 25 | chuck knoblauch | minnesota twins | 2b | texas a&m university row 26 : 26 | scott burrell | seattle mariners | rhp | hamden (ct) hs"
             }
+        ],
+        "prompt": [
+            "Given the user query and the associated external knowledge, identify the appropriate system response that accurately answers the user's question.",
+            "Taking into account the user's question and the additional information from the external data, provide a suitable system reply that correctly addresses the user's inquiry.",
+            "By analyzing the user's question along with the provided external knowledge, generate a system response that precisely answers the user's question.",
+            "Given the user's question and the related external information, generate an accurate system response that caters to the user's query.",
+            "Considering the user's query and the supporting external data, craft a relevant system response that correctly answers the user's question."
         ]
     },
     "SQA--train--2": {
@@ -1318,6 +1325,13 @@
                 "original system side information": {},
                 "external knowledge": "col : pick | player | team | position | school row 1 : 1 | ben mcdonald | baltimore orioles | rhp | louisiana state university row 2 : 2 | tyler houston | atlanta braves | c | valley hs (las vegas, nv) row 3 : 3 | roger salkeld | seattle mariners | rhp | saugus (ca) hs row 4 : 4 | jeff jackson | philadelphia phillies | of | simeon hs (chicago, il) row 5 : 5 | donald harris | texas rangers | of | texas tech university row 6 : 6 | paul coleman | saint louis cardinals | of | frankston (tx) hs row 7 : 7 | frank thomas | chicago white sox | 1b | auburn university row 8 : 8 | earl cunningham | chicago cubs | of | lancaster (sc) hs row 9 : 9 | kyle abbott | california angels | lhp | long beach state university row 10 : 10 | charles johnson | montreal expos | c | westwood hs (fort pierce, fl) row 11 : 11 | calvin murray | cleveland indians | 3b | w.t. white high school (dallas, tx row 12 : 12 | jeff juden | houston astros | rhp | salem (ma) hs row 13 : 13 | brent mayne | kansas city royals | c | cal state fullerton row 14 : 14 | steve hosey | san francisco giants | of | fresno state university row 15 : 15 | kiki jones | los angeles dodgers | rhp | hillsborough hs (tampa, fl) row 16 : 16 | greg blosser | boston red sox | of | sarasota (fl) hs row 17 : 17 | cal eldred | milwaukee brewers | rhp | university of iowa row 18 : 18 | willie greene | pittsburgh pirates | ss | jones county hs (gray, ga) row 19 : 19 | eddie zosky | toronto blue jays | ss | fresno state university row 20 : 20 | scott bryant | cincinnati reds | of | university of texas row 21 : 21 | greg gohr | detroit tigers | rhp | santa clara university row 22 : 22 | tom goodwin | los angeles dodgers | of | fresno state university row 23 : 23 | mo vaughn | boston red sox | 1b | seton hall university row 24 : 24 | alan zinter | new york mets | c | university of arizona row 25 : 25 | chuck knoblauch | minnesota twins | 2b | texas a&m university row 26 : 26 | scott burrell | seattle mariners | rhp | hamden (ct) hs"
             }
+        ],
+        "prompt": [
+            "Given the user query and the associated external knowledge, identify the appropriate system response that accurately answers the user's question.",
+            "Taking into account the user's question and the additional information from the external data, provide a suitable system reply that correctly addresses the user's inquiry.",
+            "By analyzing the user's question along with the provided external knowledge, generate a system response that precisely answers the user's question.",
+            "Given the user's question and the related external information, generate an accurate system response that caters to the user's query.",
+            "Considering the user's query and the supporting external data, craft a relevant system response that correctly answers the user's question."
         ]
     },
     "SQA--train--3": {
@@ -1834,6 +1848,13 @@
                 "original system side information": {},
                 "external knowledge": "col : pick | player | team | position | school row 1 : 1 | ben mcdonald | baltimore orioles | rhp | louisiana state university row 2 : 2 | tyler houston | atlanta braves | c | valley hs (las vegas, nv) row 3 : 3 | roger salkeld | seattle mariners | rhp | saugus (ca) hs row 4 : 4 | jeff jackson | philadelphia phillies | of | simeon hs (chicago, il) row 5 : 5 | donald harris | texas rangers | of | texas tech university row 6 : 6 | paul coleman | saint louis cardinals | of | frankston (tx) hs row 7 : 7 | frank thomas | chicago white sox | 1b | auburn university row 8 : 8 | earl cunningham | chicago cubs | of | lancaster (sc) hs row 9 : 9 | kyle abbott | california angels | lhp | long beach state university row 10 : 10 | charles johnson | montreal expos | c | westwood hs (fort pierce, fl) row 11 : 11 | calvin murray | cleveland indians | 3b | w.t. white high school (dallas, tx row 12 : 12 | jeff juden | houston astros | rhp | salem (ma) hs row 13 : 13 | brent mayne | kansas city royals | c | cal state fullerton row 14 : 14 | steve hosey | san francisco giants | of | fresno state university row 15 : 15 | kiki jones | los angeles dodgers | rhp | hillsborough hs (tampa, fl) row 16 : 16 | greg blosser | boston red sox | of | sarasota (fl) hs row 17 : 17 | cal eldred | milwaukee brewers | rhp | university of iowa row 18 : 18 | willie greene | pittsburgh pirates | ss | jones county hs (gray, ga) row 19 : 19 | eddie zosky | toronto blue jays | ss | fresno state university row 20 : 20 | scott bryant | cincinnati reds | of | university of texas row 21 : 21 | greg gohr | detroit tigers | rhp | santa clara university row 22 : 22 | tom goodwin | los angeles dodgers | of | fresno state university row 23 : 23 | mo vaughn | boston red sox | 1b | seton hall university row 24 : 24 | alan zinter | new york mets | c | university of arizona row 25 : 25 | chuck knoblauch | minnesota twins | 2b | texas a&m university row 26 : 26 | scott burrell | seattle mariners | rhp | hamden (ct) hs"
             }
+        ],
+        "prompt": [
+            "Given the user query and the associated external knowledge, identify the appropriate system response that accurately answers the user's question.",
+            "Taking into account the user's question and the additional information from the external data, provide a suitable system reply that correctly addresses the user's inquiry.",
+            "By analyzing the user's question along with the provided external knowledge, generate a system response that precisely answers the user's question.",
+            "Given the user's question and the related external information, generate an accurate system response that caters to the user's query.",
+            "Considering the user's query and the supporting external data, craft a relevant system response that correctly answers the user's question."
         ]
     },
     "SQA--train--4": {
@@ -2614,6 +2635,13 @@
                 "original system side information": {},
                 "external knowledge": "col : position | club | played | points | wins | draws | losses | goals for | goals against | goal difference row 1 : 1 | cordoba cf | 30 | 40 | 16 | 8 | 6 | 48 | 22 | 26 row 2 : 2 | cd malaga | 30 | 38 | 14 | 10 | 6 | 52 | 36 | 16 row 3 : 3 | granada cf | 30 | 36 | 15 | 6 | 9 | 48 | 34 | 14 row 4 : 4 | ud las palmas | 30 | 35 | 15 | 5 | 10 | 47 | 39 | 8 row 5 : 5 | recreativo de huelva | 30 | 33 | 13 | 7 | 10 | 43 | 42 | 1 row 6 : 6 | levante ud | 30 | 32 | 14 | 4 | 12 | 49 | 42 | 7 row 7 : 7 | hercules cf | 30 | 32 | 14 | 4 | 12 | 55 | 46 | 9 row 8 : 8 | real murcia | 30 | 31 | 12 | 7 | 11 | 40 | 35 | 5 row 9 : 9 | real jaen | 30 | 31 | 14 | 3 | 13 | 58 | 42 | 16 row 10 : 10 | cadiz cf | 30 | 28 | 12 | 4 | 14 | 43 | 52 | -9 row 11 : 11 | cd cartagena | 30 | 28 | 13 | 2 | 15 | 45 | 56 | -11 row 12 : 12 | cd mestalla | 30 | 27 | 11 | 5 | 14 | 50 | 49 | 1 row 13 : 13 | albacete balompie | 30 | 27 | 10 | 7 | 13 | 27 | 32 | -5 row 14 : 14 | cd san fernando | 30 | 27 | 11 | 5 | 14 | 37 | 47 | -10 row 15 : 15 | atletico ceuta | 30 | 23 | 8 | 7 | 15 | 33 | 48 | -15 row 16 : 16 | cd villarrobledo | 30 | 12 | 4 | 4 | 22 | 26 | 79 | -53"
             }
+        ],
+        "prompt": [
+            "Given the user query and the associated external knowledge, identify the appropriate system response that accurately answers the user's question.",
+            "Taking into account the user's question and the additional information from the external data, provide a suitable system reply that correctly addresses the user's inquiry.",
+            "By analyzing the user's question along with the provided external knowledge, generate a system response that precisely answers the user's question.",
+            "Given the user's question and the related external information, generate an accurate system response that caters to the user's query.",
+            "Considering the user's query and the supporting external data, craft a relevant system response that correctly answers the user's question."
         ]
     },
     "SQA--train--5": {
@@ -3125,6 +3153,13 @@
                 "original system side information": {},
                 "external knowledge": "col : position | club | played | points | wins | draws | losses | goals for | goals against | goal difference row 1 : 1 | cordoba cf | 30 | 40 | 16 | 8 | 6 | 48 | 22 | 26 row 2 : 2 | cd malaga | 30 | 38 | 14 | 10 | 6 | 52 | 36 | 16 row 3 : 3 | granada cf | 30 | 36 | 15 | 6 | 9 | 48 | 34 | 14 row 4 : 4 | ud las palmas | 30 | 35 | 15 | 5 | 10 | 47 | 39 | 8 row 5 : 5 | recreativo de huelva | 30 | 33 | 13 | 7 | 10 | 43 | 42 | 1 row 6 : 6 | levante ud | 30 | 32 | 14 | 4 | 12 | 49 | 42 | 7 row 7 : 7 | hercules cf | 30 | 32 | 14 | 4 | 12 | 55 | 46 | 9 row 8 : 8 | real murcia | 30 | 31 | 12 | 7 | 11 | 40 | 35 | 5 row 9 : 9 | real jaen | 30 | 31 | 14 | 3 | 13 | 58 | 42 | 16 row 10 : 10 | cadiz cf | 30 | 28 | 12 | 4 | 14 | 43 | 52 | -9 row 11 : 11 | cd cartagena | 30 | 28 | 13 | 2 | 15 | 45 | 56 | -11 row 12 : 12 | cd mestalla | 30 | 27 | 11 | 5 | 14 | 50 | 49 | 1 row 13 : 13 | albacete balompie | 30 | 27 | 10 | 7 | 13 | 27 | 32 | -5 row 14 : 14 | cd san fernando | 30 | 27 | 11 | 5 | 14 | 37 | 47 | -10 row 15 : 15 | atletico ceuta | 30 | 23 | 8 | 7 | 15 | 33 | 48 | -15 row 16 : 16 | cd villarrobledo | 30 | 12 | 4 | 4 | 22 | 26 | 79 | -53"
             }
+        ],
+        "prompt": [
+            "Given the user query and the associated external knowledge, identify the appropriate system response that accurately answers the user's question.",
+            "Taking into account the user's question and the additional information from the external data, provide a suitable system reply that correctly addresses the user's inquiry.",
+            "By analyzing the user's question along with the provided external knowledge, generate a system response that precisely answers the user's question.",
+            "Given the user's question and the related external information, generate an accurate system response that caters to the user's query.",
+            "Considering the user's query and the supporting external data, craft a relevant system response that correctly answers the user's question."
         ]
     }
 }

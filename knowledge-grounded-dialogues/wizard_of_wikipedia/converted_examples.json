@@ -842,7 +842,13 @@
                 "external knowledge": ""
             }
         ],
-        "prompt": []
+        "prompt": [
+            "Use the context provided in the dialog history and the additional resources at hand to craft a response. Your response should align with the conversation's tone and theme while enriching it by incorporating new insights from the supplementary information in a seamless, relatable manner.",
+            "Consider the dialog history and the extra data provided to formulate an engaging response. The response should be coherent with the conversation so far, and should utilize the external information to contribute something new and relevant to the dialogue.",
+            "Taking into account the ongoing conversation and the additional knowledge given, generate a response that deepens the conversation and maintains its continuity. Your response should interweave the new information organically, thus adding depth and interest to the interaction.",
+            "Review the dialog history and the supplementary information, and use these to construct a conversational response that feels both organic and insightful. The response should build upon the conversation's existing context and effectively integrate the additional knowledge.",
+            "Drawing upon the dialog context and the extra information provided, formulate a response that effectively continues the conversation. Your response should align with the ongoing dialog, employing the supplementary data to introduce new insights or perspectives in a conversationally appropriate manner."
+        ]
     },
     "wizard_of_wikipedia--train--2": {
         "original dialog id": "",
@@ -1519,7 +1525,13 @@
                 "external knowledge": "( Internet access : Internet access is the ability of individuals and organizations to connect to the Internet using computer terminals | computers | and other devices; and to access services such as email and the World Wide Web. )"
             }
         ],
-        "prompt": []
+        "prompt": [
+            "Use the context provided in the dialog history and the additional resources at hand to craft a response. Your response should align with the conversation's tone and theme while enriching it by incorporating new insights from the supplementary information in a seamless, relatable manner.",
+            "Consider the dialog history and the extra data provided to formulate an engaging response. The response should be coherent with the conversation so far, and should utilize the external information to contribute something new and relevant to the dialogue.",
+            "Taking into account the ongoing conversation and the additional knowledge given, generate a response that deepens the conversation and maintains its continuity. Your response should interweave the new information organically, thus adding depth and interest to the interaction.",
+            "Review the dialog history and the supplementary information, and use these to construct a conversational response that feels both organic and insightful. The response should build upon the conversation's existing context and effectively integrate the additional knowledge.",
+            "Drawing upon the dialog context and the extra information provided, formulate a response that effectively continues the conversation. Your response should align with the ongoing dialog, employing the supplementary data to introduce new insights or perspectives in a conversationally appropriate manner."
+        ]
     },
     "wizard_of_wikipedia--train--3": {
         "original dialog id": "",
@@ -2381,7 +2393,13 @@
                 "external knowledge": "( Pharmacist : Among other licensing requirements | different countries require pharmacists to hold either a Bachelor of Pharmacy | Master of Pharmacy | or Doctor of Pharmacy degree. )"
             }
         ],
-        "prompt": []
+        "prompt": [
+            "Use the context provided in the dialog history and the additional resources at hand to craft a response. Your response should align with the conversation's tone and theme while enriching it by incorporating new insights from the supplementary information in a seamless, relatable manner.",
+            "Consider the dialog history and the extra data provided to formulate an engaging response. The response should be coherent with the conversation so far, and should utilize the external information to contribute something new and relevant to the dialogue.",
+            "Taking into account the ongoing conversation and the additional knowledge given, generate a response that deepens the conversation and maintains its continuity. Your response should interweave the new information organically, thus adding depth and interest to the interaction.",
+            "Review the dialog history and the supplementary information, and use these to construct a conversational response that feels both organic and insightful. The response should build upon the conversation's existing context and effectively integrate the additional knowledge.",
+            "Drawing upon the dialog context and the extra information provided, formulate a response that effectively continues the conversation. Your response should align with the ongoing dialog, employing the supplementary data to introduce new insights or perspectives in a conversationally appropriate manner."
+        ]
     },
     "wizard_of_wikipedia--train--4": {
         "original dialog id": "",
@@ -3263,7 +3281,13 @@
                 "external knowledge": "( Homebrewing : The tradition of brewing being in the domain of women stemmed from the fact that brewing was a by-product of gathering | and often considered a part of baking. )"
             }
         ],
-        "prompt": []
+        "prompt": [
+            "Use the context provided in the dialog history and the additional resources at hand to craft a response. Your response should align with the conversation's tone and theme while enriching it by incorporating new insights from the supplementary information in a seamless, relatable manner.",
+            "Consider the dialog history and the extra data provided to formulate an engaging response. The response should be coherent with the conversation so far, and should utilize the external information to contribute something new and relevant to the dialogue.",
+            "Taking into account the ongoing conversation and the additional knowledge given, generate a response that deepens the conversation and maintains its continuity. Your response should interweave the new information organically, thus adding depth and interest to the interaction.",
+            "Review the dialog history and the supplementary information, and use these to construct a conversational response that feels both organic and insightful. The response should build upon the conversation's existing context and effectively integrate the additional knowledge.",
+            "Drawing upon the dialog context and the extra information provided, formulate a response that effectively continues the conversation. Your response should align with the ongoing dialog, employing the supplementary data to introduce new insights or perspectives in a conversationally appropriate manner."
+        ]
     },
     "wizard_of_wikipedia--train--5": {
         "original dialog id": "",
@@ -4180,6 +4204,12 @@
                 "external knowledge": "( Red hair : Red hair appears most commonly in people with two copies of a recessive allele on chromosome 16 which produces an altered version of the MC1R protein. )"
             }
         ],
-        "prompt": []
+        "prompt": [
+            "Use the context provided in the dialog history and the additional resources at hand to craft a response. Your response should align with the conversation's tone and theme while enriching it by incorporating new insights from the supplementary information in a seamless, relatable manner.",
+            "Consider the dialog history and the extra data provided to formulate an engaging response. The response should be coherent with the conversation so far, and should utilize the external information to contribute something new and relevant to the dialogue.",
+            "Taking into account the ongoing conversation and the additional knowledge given, generate a response that deepens the conversation and maintains its continuity. Your response should interweave the new information organically, thus adding depth and interest to the interaction.",
+            "Review the dialog history and the supplementary information, and use these to construct a conversational response that feels both organic and insightful. The response should build upon the conversation's existing context and effectively integrate the additional knowledge.",
+            "Drawing upon the dialog context and the extra information provided, formulate a response that effectively continues the conversation. Your response should align with the ongoing dialog, employing the supplementary data to introduce new insights or perspectives in a conversationally appropriate manner."
+        ]
     }
 }

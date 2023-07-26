@@ -330,6 +330,13 @@
                 "original system side information": {},
                 "external knowledge": "| hospital_1 | physician : employeeid , name , position , ssn | department : departmentid , name , head | affiliated_with : physician , department , primaryaffiliation | procedures : code , name , cost | trained_in : physician , treatment , certificationdate , certificationexpires | patient : ssn , name , address , phone , insuranceid , pcp | nurse : employeeid , name , position , registered , ssn | appointment : appointmentid , patient , prepnurse , physician , start , end , examinationroom | medication : code , name , brand , description | prescribes : physician , patient , medication , date , appointment , dose | block : blockfloor , blockcode | room : roomnumber , roomtype , blockfloor , blockcode , unavailable | on_call : nurse , blockfloor , blockcode , oncallstart , oncallend | stay : stayid , patient , room , staystart , stayend | undergoes : patient , procedures , stay , dateundergoes , physician , assistingnurse"
             }
+        ],
+        "prompt": [
+            "Incorporate the dialog context and relevant information from the external database to construct the SQL query that addresses the user's latest inquiry.",
+            "Take into account the dialog history, the user's most recent question, and the available external database to generate the SQL query that provides the desired information.",
+            "Analyze the dialog context, including the previous user queries and system responses, along with the provided external database, to formulate the SQL query that accurately answers the latest user question.",
+            "Consider the dialog flow and the information available in the external database to generate the SQL query that retrieves the requested data based on the user's most recent query.",
+            "Combine the dialog context, including the previous interactions, with the relevant information from the external database to construct the SQL query that fulfills the user's latest request."
         ]
     },
     "SParC--train--2": {
@@ -663,6 +670,13 @@
                 "original system side information": {},
                 "external knowledge": "| hospital_1 | physician : employeeid , name , position , ssn | department : departmentid , name , head | affiliated_with : physician , department , primaryaffiliation | procedures : code , name , cost | trained_in : physician , treatment , certificationdate , certificationexpires | patient : ssn , name , address , phone , insuranceid , pcp | nurse : employeeid , name , position , registered , ssn | appointment : appointmentid , patient , prepnurse , physician , start , end , examinationroom | medication : code , name , brand , description | prescribes : physician , patient , medication , date , appointment , dose | block : blockfloor , blockcode | room : roomnumber , roomtype , blockfloor , blockcode , unavailable | on_call : nurse , blockfloor , blockcode , oncallstart , oncallend | stay : stayid , patient , room , staystart , stayend | undergoes : patient , procedures , stay , dateundergoes , physician , assistingnurse"
             }
+        ],
+        "prompt": [
+            "Incorporate the dialog context and relevant information from the external database to construct the SQL query that addresses the user's latest inquiry.",
+            "Take into account the dialog history, the user's most recent question, and the available external database to generate the SQL query that provides the desired information.",
+            "Analyze the dialog context, including the previous user queries and system responses, along with the provided external database, to formulate the SQL query that accurately answers the latest user question.",
+            "Consider the dialog flow and the information available in the external database to generate the SQL query that retrieves the requested data based on the user's most recent query.",
+            "Combine the dialog context, including the previous interactions, with the relevant information from the external database to construct the SQL query that fulfills the user's latest request."
         ]
     },
     "SParC--train--3": {
@@ -1013,6 +1027,13 @@
                 "original system side information": {},
                 "external knowledge": "| hospital_1 | physician : employeeid , name , position , ssn | department : departmentid , name , head | affiliated_with : physician , department , primaryaffiliation | procedures : code , name , cost | trained_in : physician , treatment , certificationdate , certificationexpires | patient : ssn , name , address , phone , insuranceid , pcp | nurse : employeeid , name , position , registered , ssn | appointment : appointmentid , patient , prepnurse , physician , start , end , examinationroom | medication : code , name , brand , description | prescribes : physician , patient , medication , date , appointment , dose | block : blockfloor , blockcode | room : roomnumber , roomtype , blockfloor , blockcode , unavailable | on_call : nurse , blockfloor , blockcode , oncallstart , oncallend | stay : stayid , patient , room , staystart , stayend | undergoes : patient , procedures , stay , dateundergoes , physician , assistingnurse"
             }
+        ],
+        "prompt": [
+            "Incorporate the dialog context and relevant information from the external database to construct the SQL query that addresses the user's latest inquiry.",
+            "Take into account the dialog history, the user's most recent question, and the available external database to generate the SQL query that provides the desired information.",
+            "Analyze the dialog context, including the previous user queries and system responses, along with the provided external database, to formulate the SQL query that accurately answers the latest user question.",
+            "Consider the dialog flow and the information available in the external database to generate the SQL query that retrieves the requested data based on the user's most recent query.",
+            "Combine the dialog context, including the previous interactions, with the relevant information from the external database to construct the SQL query that fulfills the user's latest request."
         ]
     },
     "SParC--train--4": {
@@ -1346,6 +1367,13 @@
                 "original system side information": {},
                 "external knowledge": "| hospital_1 | physician : employeeid , name , position , ssn | department : departmentid , name , head | affiliated_with : physician , department , primaryaffiliation | procedures : code , name , cost | trained_in : physician , treatment , certificationdate , certificationexpires | patient : ssn , name , address , phone , insuranceid , pcp | nurse : employeeid , name , position , registered , ssn | appointment : appointmentid , patient , prepnurse , physician , start , end , examinationroom | medication : code , name , brand , description | prescribes : physician , patient , medication , date , appointment , dose | block : blockfloor , blockcode | room : roomnumber , roomtype , blockfloor , blockcode , unavailable | on_call : nurse , blockfloor , blockcode , oncallstart , oncallend | stay : stayid , patient , room , staystart , stayend | undergoes : patient , procedures , stay , dateundergoes , physician , assistingnurse"
             }
+        ],
+        "prompt": [
+            "Incorporate the dialog context and relevant information from the external database to construct the SQL query that addresses the user's latest inquiry.",
+            "Take into account the dialog history, the user's most recent question, and the available external database to generate the SQL query that provides the desired information.",
+            "Analyze the dialog context, including the previous user queries and system responses, along with the provided external database, to formulate the SQL query that accurately answers the latest user question.",
+            "Consider the dialog flow and the information available in the external database to generate the SQL query that retrieves the requested data based on the user's most recent query.",
+            "Combine the dialog context, including the previous interactions, with the relevant information from the external database to construct the SQL query that fulfills the user's latest request."
         ]
     },
     "SParC--train--5": {
@@ -1714,6 +1742,13 @@
                 "original system side information": {},
                 "external knowledge": "| hospital_1 | physician : employeeid , name , position , ssn | department : departmentid , name , head | affiliated_with : physician , department , primaryaffiliation | procedures : code , name , cost | trained_in : physician , treatment , certificationdate , certificationexpires | patient : ssn , name , address , phone , insuranceid , pcp | nurse : employeeid , name , position , registered , ssn | appointment : appointmentid , patient , prepnurse , physician , start , end , examinationroom | medication : code , name , brand , description | prescribes : physician , patient , medication , date , appointment , dose | block : blockfloor , blockcode | room : roomnumber , roomtype , blockfloor , blockcode , unavailable | on_call : nurse , blockfloor , blockcode , oncallstart , oncallend | stay : stayid , patient , room , staystart , stayend | undergoes : patient , procedures , stay , dateundergoes , physician , assistingnurse"
             }
+        ],
+        "prompt": [
+            "Incorporate the dialog context and relevant information from the external database to construct the SQL query that addresses the user's latest inquiry.",
+            "Take into account the dialog history, the user's most recent question, and the available external database to generate the SQL query that provides the desired information.",
+            "Analyze the dialog context, including the previous user queries and system responses, along with the provided external database, to formulate the SQL query that accurately answers the latest user question.",
+            "Consider the dialog flow and the information available in the external database to generate the SQL query that retrieves the requested data based on the user's most recent query.",
+            "Combine the dialog context, including the previous interactions, with the relevant information from the external database to construct the SQL query that fulfills the user's latest request."
         ]
     }
 }
