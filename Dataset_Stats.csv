@@ -1,6 +1,6 @@
 Category,Data_name,Index,Year,License,Train,Validation,Test,Total
-Natural Language Understanding,ATIS,1,Speed and NLP 1990,No License,4478,500,893,5871
-Natural Language Understanding,ATIS-NER,2,EMNLP 2018,CC-BY-SA,4478,500,893,5871
+Natural Language Understanding,ATIS,1,Speed and NLP 1990,GNU General Public License, version 2,4478,500,893,5871
+Natural Language Understanding,ATIS-NER,2,EMNLP 2018,GNU General Public License, version 2,4478,500,893,5871
 Natural Language Understanding,BANKING77,3,ACL 2020 NLP4ConvAI,CC BY 4.0,8622,1540,3080,13242
 Natural Language Understanding,BANKING77-OOS,4,ACL 2020 NLP4ConvAI,CC BY 4.0,5905,1506,2000,9411
 Natural Language Understanding,CLINC-Single-Domain-OOS-banking,5,EMNLP 2020,CC BY 3.0,500,500,500,1500
