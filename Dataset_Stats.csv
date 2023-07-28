@@ -49,8 +49,8 @@ Dialogue Summarization,ECTSum,47,Findings of ACL21,MIT License,1681,249,495,2425
 Dialogue Summarization,ICSI,48,EMNLP 2022,No License,110254,0,0,110254
 Dialogue Summarization,MediaSum,49,ICASSP 2005, CC BY 4.0,443596,10000,10000,463596
 Dialogue Summarization,QMSum,50,NAACL 2021,No license,162,35,35,232
-Dialogue Summarization,SAMSum,51,NAACL 2021,MIT License,14732,818,819,16369
-Dialogue Summarization,TweetSumm,52,EMNLP19,non-commercial licence: CC BY-NC-ND 4.0,879,110,110,1099
+Dialogue Summarization,SAMSum,51,NAACL 2021,non-commercial licence: CC BY-NC-ND 4.0,14732,818,819,16369
+Dialogue Summarization,TweetSumm,52,EMNLP19,Creative Commons Zero v1.0 Universal,879,110,110,1099
 Dialogue Summarization,ConvoSumm,53,ACL 2022,No License,821,200,1000,2021
 Dialogue Summarization,SummScreen_ForeverDreaming,54,ACL 2022,No License,3673,338,337,4348
 Dialogue Summarization,SummScreen_TVMegaSite,55,COLING20,Creative Commons Legal CodeCC0 1.0 Universal,18915,1795,1793,22503
