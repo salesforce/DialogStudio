@@ -1,6 +1,6 @@
 Category,Data_name,Index,Year,License,Train,Validation,Test,Total
-Natural Language Understanding,ATIS,1,Speed and NLP 1990,No License,4478,500,893,5871
-Natural Language Understanding,ATIS-NER,2,EMNLP 2018,CC-BY-SA,4478,500,893,5871
+Natural Language Understanding,ATIS,1,Speed and NLP 1990,"GNU General Public License, version 2",4478,500,893,5871
+Natural Language Understanding,ATIS-NER,2,Speed and NLP 1990,"GNU General Public License, version 2",4478,500,893,5871
 Natural Language Understanding,BANKING77,3,ACL 2020 NLP4ConvAI,CC BY 4.0,8622,1540,3080,13242
 Natural Language Understanding,BANKING77-OOS,4,ACL 2020 NLP4ConvAI,CC BY 4.0,5905,1506,2000,9411
 Natural Language Understanding,CLINC-Single-Domain-OOS-banking,5,EMNLP 2020,CC BY 3.0,500,500,500,1500
@@ -27,8 +27,8 @@ Task Oriented Dialogue,GECOR,25,EMNLP 2019,CC BY 4.0,676,0,0,676
 Task Oriented Dialogue,HDSA-Dialog,26,ACL 2019,MIT License,8438,1000,1000,10438
 Task Oriented Dialogue,KETOD,27,NAACL 2022,MiT License,4247,545,532,5324
 Task Oriented Dialogue,KVRET,28,SIGDIAL 2017,No License,2425,302,304,3031
-Task Oriented Dialogue,MetaLWOZ,29,Sigdial 2019,MICROSOFT RESEARCH OPEN DATA LICENSE TERMS,37884,0,2319,40203
-Task Oriented Dialogue,MS-DC,30,Arxiv 2018,MICROSOFT LICENSE TERMS (Not allowed to distrubute),10000,0,0,10000
+Task Oriented Dialogue,MetaLWOZ,29,Sigdial 2019,MICROSOFT RESEARCH LICENSE TERMS,37884,0,2319,40203
+Task Oriented Dialogue,MS-DC,30,Arxiv 2018,MICROSOFT RESEARCH LICENSE TERMS,10000,0,0,10000
 Task Oriented Dialogue,MuDoCo,31,LREC 2020,Attribution-NonCommercial 4.0 International,6058,691,749,7498
 Task Oriented Dialogue,MulDoGO,32,EMNLP 2019,Community Data License Agreement – Permissive – Version 1.0,59939,1150,2319,63408
 Task Oriented Dialogue,MultiWOZ_2.1,33,LREC 2020,MiT License,8434,999,1000,10433
@@ -47,10 +47,10 @@ Dialogue Summarization,CRD3,45,ACL2021,CC BY-SA 4.0,108,16,16,140
 Dialogue Summarization,DialogSum,46,ACL 2020,CC BY-SA 4.0,12460,500,500,13460
 Dialogue Summarization,ECTSum,47,Findings of ACL21,MIT License,1681,249,495,2425
 Dialogue Summarization,ICSI,48,EMNLP 2022,No License,110254,0,0,110254
-Dialogue Summarization,MediaSum,49,ICASSP 2005,Creative Commons Attribution 4.0 International Licence (CC BY 4.0),443596,10000,10000,463596
+Dialogue Summarization,MediaSum,49,ICASSP 2005, CC BY 4.0,443596,10000,10000,463596
 Dialogue Summarization,QMSum,50,NAACL 2021,No license,162,35,35,232
-Dialogue Summarization,SAMSum,51,NAACL 2021,MIT License,14732,818,819,16369
-Dialogue Summarization,TweetSumm,52,EMNLP19,non-commercial licence: CC BY-NC-ND 4.0,879,110,110,1099
+Dialogue Summarization,SAMSum,51,NAACL 2021,non-commercial licence: CC BY-NC-ND 4.0,14732,818,819,16369
+Dialogue Summarization,TweetSumm,52,EMNLP19,Creative Commons Zero v1.0 Universal,879,110,110,1099
 Dialogue Summarization,ConvoSumm,53,ACL 2022,No License,821,200,1000,2021
 Dialogue Summarization,SummScreen_ForeverDreaming,54,ACL 2022,No License,3673,338,337,4348
 Dialogue Summarization,SummScreen_TVMegaSite,55,COLING20,Creative Commons Legal CodeCC0 1.0 Universal,18915,1795,1793,22503

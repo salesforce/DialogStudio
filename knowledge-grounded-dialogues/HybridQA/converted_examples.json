@@ -91,15 +91,24 @@
             "context": "List of mosques in Afghanistan |  |  | The following is an incomplete list of large mosques in Afghanistan:",
             "answer_text": "Ghurids"
         },
-        "log": {
-            "turn id": 1,
-            "user utterance": "who were the builders of the mosque in herat with fire temples ?",
-            "system response": "ghurids",
-            "dialog history": "",
-            "original user side information": {},
-            "original system side information": {},
-            "external knowledge": "col : name | province | city | year | remarks row 1 : abdul rahman mosque | kabul province | kabul | 2009 | largest mosque in afghanistan row 2 : friday mosque of kandahar | kandahar province | kandahar | 1750 | houses the cloak of the islamic prophet muhammad row 3 : omar al-farooq mosque | kandahar province | kandahar | 2014 | built on the site that was a popular cinema of kandahar . [ 1 ] row 4 : great mosque of herat | herat province | herat | 1446 | the mosque was the city 's first congregational mosque , built on the former site of two smaller zoroastrian fire temple row 5 : shrine of ali | balkh province | mazar-i-sharif | ? | also known as the blue mosque of mazar-i-sharif row 6 : sakhi shrine ( ziarat-e sakhi ) | kabul province | kabul | ? | also known as karte sakhi shrine row 7 : mosque of jalalabad | nangarhar province | jalalabad | ? |  row 8 : lashkargah mosque | helmand province | lashkar gah | ? |  row 9 : khost mosque | khost province | khost | 2000 |  row 10 : amir ali shernway mosque | jowzjan province | sheberghan | 2017 | built by turkey [ 2 ]passages: kabul: located at crossroads in asia - roughly halfway between istanbul in the west and hanoi in the east - it is in a strategic location along the trade routes of south and central asia , and a key location of the ancient silk road . it has been part of the achaemenids followed by the seleucids , mauryans , kushans , kabul shahis , saffarids , samanids , ghaznavids , ghurids , khwarazmians , qarlughids , khaljis , timurids , mughals , and hotaks , until finally becoming part of the durrani empire ( also known as the afghan empire ) in 1747 . | great mosque of herat: the great mosque of herat ( persian : \u0645\u0633\u062c\u062f \u062c\u0627\u0645\u0639 \u0647\u0631\u0627\u062a , masjid-i j\u0101mi-i her\u0101t ) or jami masjid of herat , is a mosque in the city of herat , in the herat province of north-western afghanistan . it was built by the ghurids , under the rule of the sultan ghiyath al-din muhammad ghori , who laid its foundation in 1200 ce , and later extended by several rulers as herat changed rulers down the centuries from the timurids to the safavids , mughals and then the uzbeks , all of whom supported the mosque . | mazar-i-sharif: [ citation needed ] this is however rejected by other muslims , as the majority believe he is buried in najaf , iraq . the region around mazar-i-sharif has been historically part of greater khorasan and was controlled by the tahirids followed by the saffarids , samanids , ghaznavids , ghurids , ilkhanates , timurids , and khanate of bukhara until the mid-18th century when it became part of the durrani empire after a friendship treaty was signed between emirs murad beg and ahmad shah durrani . |"
-        }
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "who were the builders of the mosque in herat with fire temples ?",
+                "system response": "ghurids",
+                "dialog history": "",
+                "original user side information": {},
+                "original system side information": {},
+                "external knowledge": "col : name | province | city | year | remarks row 1 : abdul rahman mosque | kabul province | kabul | 2009 | largest mosque in afghanistan row 2 : friday mosque of kandahar | kandahar province | kandahar | 1750 | houses the cloak of the islamic prophet muhammad row 3 : omar al-farooq mosque | kandahar province | kandahar | 2014 | built on the site that was a popular cinema of kandahar . [ 1 ] row 4 : great mosque of herat | herat province | herat | 1446 | the mosque was the city 's first congregational mosque , built on the former site of two smaller zoroastrian fire temple row 5 : shrine of ali | balkh province | mazar-i-sharif | ? | also known as the blue mosque of mazar-i-sharif row 6 : sakhi shrine ( ziarat-e sakhi ) | kabul province | kabul | ? | also known as karte sakhi shrine row 7 : mosque of jalalabad | nangarhar province | jalalabad | ? |  row 8 : lashkargah mosque | helmand province | lashkar gah | ? |  row 9 : khost mosque | khost province | khost | 2000 |  row 10 : amir ali shernway mosque | jowzjan province | sheberghan | 2017 | built by turkey [ 2 ]passages: kabul: located at crossroads in asia - roughly halfway between istanbul in the west and hanoi in the east - it is in a strategic location along the trade routes of south and central asia , and a key location of the ancient silk road . it has been part of the achaemenids followed by the seleucids , mauryans , kushans , kabul shahis , saffarids , samanids , ghaznavids , ghurids , khwarazmians , qarlughids , khaljis , timurids , mughals , and hotaks , until finally becoming part of the durrani empire ( also known as the afghan empire ) in 1747 . | great mosque of herat: the great mosque of herat ( persian : \u0645\u0633\u062c\u062f \u062c\u0627\u0645\u0639 \u0647\u0631\u0627\u062a , masjid-i j\u0101mi-i her\u0101t ) or jami masjid of herat , is a mosque in the city of herat , in the herat province of north-western afghanistan . it was built by the ghurids , under the rule of the sultan ghiyath al-din muhammad ghori , who laid its foundation in 1200 ce , and later extended by several rulers as herat changed rulers down the centuries from the timurids to the safavids , mughals and then the uzbeks , all of whom supported the mosque . | mazar-i-sharif: [ citation needed ] this is however rejected by other muslims , as the majority believe he is buried in najaf , iraq . the region around mazar-i-sharif has been historically part of greater khorasan and was controlled by the tahirids followed by the saffarids , samanids , ghaznavids , ghurids , ilkhanates , timurids , and khanate of bukhara until the mid-18th century when it became part of the durrani empire after a friendship treaty was signed between emirs murad beg and ahmad shah durrani . |"
+            }
+        ],
+        "prompt": [
+            "Using the provided structured external knowledge, answer the user's question accurately.",
+            "The user will ask a question on a specific topic. Use the structured external knowledge provided to generate an accurate and concise answer.",
+            "In response to the user's question, leverage the structured external knowledge given to form your answer.",
+            "Respond to the user's question by leveraging the structured external knowledge provided. Ensure your answer is accurate and contextually relevant.",
+            "The user will pose a question. Your task is to provide an accurate and appropriate answer using the provided structured external knowledge."
+        ]
     },
     "HybridQA--train--2": {
         "original dialog id": "",
@@ -242,15 +251,24 @@
             "context": "1999 Kyalami Superbike World Championship round | Superbike -- Entry list |  | The 1999 Kyalami Superbike World Championship round was the opening round of the 1999 Superbike World Championship season and the 1999 Supersport World Championship season. It took place on the weekend of 26-28 March 1999 at the 4.26km Kyalami Circuit in South Africa. The round was marred by the death of Brett MacLeod after a crash in the Supersport race.",
             "answer_text": "2006"
         },
-        "log": {
-            "turn id": 1,
-            "user utterance": "after what season did the number 7 competitor retire ?",
-            "system response": "2006",
-            "dialog history": "",
-            "original user side information": {},
-            "original system side information": {},
-            "external knowledge": "col : no | rider | team | motorcycle row 1 : 1 | carl fogarty | ducati performance | ducati 996 row 2 : 4 | akira yanagawa | kawasaki racing team | kawasaki zx-7rr row 3 : 5 | colin edwards | castrol honda | honda rc45 row 4 : 6 | gregorio lavilla | kawasaki racing team | kawasaki zx-7rr row 5 : 7 | pierfrancesco chili | suzuki alstare f.s | suzuki gsx-r750 row 6 : 9 | peter goddard | aprilia rac.de cecco | aprilia rsv1000 row 7 : 11 | troy corser | ducati performance | ducati 996 row 8 : 15 | igor jerman | kawasaki bertocchi | kawasaki zx-7rr row 9 : 16 | andreas meklau | remus racing austria | ducati 996 row 10 : 18 | carlos macias | capill france racing | ducati 916 row 11 : 19 | lucio pedercini | team pedercini | ducati 916 row 12 : 20 | doriano romboni | r & d racing team | ducati 996 row 13 : 21 | katsuaki fujiwara | suzuki alstare f.s | suzuki gsx-r750 row 14 : 22 | vittoriano guareschi | yamaha wsbk team | yamaha r7 row 15 : 23 | ji\u0159\u00ed mrk\u00fdvka | jm sbk team | ducati 916 row 16 : 24 | vladim\u00edr karban | karban racing team | suzuki gsx-r750 row 17 : 26 | jean-pierre jeandat | white endurance | honda rc45 row 18 : 33 | robert ulm | kawasaki bertocchi | kawasaki zx-7rr row 19 : 38 | lance isaacs | team ducati ncr | ducati 996 row 20 : 39 | alessandro gramigni | team valli moto | yamaha r7passages: pierfrancesco chili: in world superbike he had a record number of starts , as well as 10 poles and 17 wins . he retired at the end of the 2006 season . |"
-        }
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "after what season did the number 7 competitor retire ?",
+                "system response": "2006",
+                "dialog history": "",
+                "original user side information": {},
+                "original system side information": {},
+                "external knowledge": "col : no | rider | team | motorcycle row 1 : 1 | carl fogarty | ducati performance | ducati 996 row 2 : 4 | akira yanagawa | kawasaki racing team | kawasaki zx-7rr row 3 : 5 | colin edwards | castrol honda | honda rc45 row 4 : 6 | gregorio lavilla | kawasaki racing team | kawasaki zx-7rr row 5 : 7 | pierfrancesco chili | suzuki alstare f.s | suzuki gsx-r750 row 6 : 9 | peter goddard | aprilia rac.de cecco | aprilia rsv1000 row 7 : 11 | troy corser | ducati performance | ducati 996 row 8 : 15 | igor jerman | kawasaki bertocchi | kawasaki zx-7rr row 9 : 16 | andreas meklau | remus racing austria | ducati 996 row 10 : 18 | carlos macias | capill france racing | ducati 916 row 11 : 19 | lucio pedercini | team pedercini | ducati 916 row 12 : 20 | doriano romboni | r & d racing team | ducati 996 row 13 : 21 | katsuaki fujiwara | suzuki alstare f.s | suzuki gsx-r750 row 14 : 22 | vittoriano guareschi | yamaha wsbk team | yamaha r7 row 15 : 23 | ji\u0159\u00ed mrk\u00fdvka | jm sbk team | ducati 916 row 16 : 24 | vladim\u00edr karban | karban racing team | suzuki gsx-r750 row 17 : 26 | jean-pierre jeandat | white endurance | honda rc45 row 18 : 33 | robert ulm | kawasaki bertocchi | kawasaki zx-7rr row 19 : 38 | lance isaacs | team ducati ncr | ducati 996 row 20 : 39 | alessandro gramigni | team valli moto | yamaha r7passages: pierfrancesco chili: in world superbike he had a record number of starts , as well as 10 poles and 17 wins . he retired at the end of the 2006 season . |"
+            }
+        ],
+        "prompt": [
+            "Using the provided structured external knowledge, answer the user's question accurately.",
+            "The user will ask a question on a specific topic. Use the structured external knowledge provided to generate an accurate and concise answer.",
+            "In response to the user's question, leverage the structured external knowledge given to form your answer.",
+            "Respond to the user's question by leveraging the structured external knowledge provided. Ensure your answer is accurate and contextually relevant.",
+            "The user will pose a question. Your task is to provide an accurate and appropriate answer using the provided structured external knowledge."
+        ]
     },
     "HybridQA--train--3": {
         "original dialog id": "",
@@ -393,15 +411,24 @@
             "context": "List of ECAC Hockey Player of the Year |  |  | The ECAC Hockey Player of the Year is an annual award given out at the conclusion of the ECAC Hockey regular season to the best player in the conference as voted by the coaches of each ECAC team. The Player of the Year was first awarded in 1962 and every year thereafter. Four players (Bob Brinkworth, Scott Fusco, Chase Polacek and Jimmy Vesey) have received the award two separate times, each doing so in consecutive years. The award has been split twice in its history, 2002-03 and 2013-14.",
             "answer_text": "1950"
         },
-        "log": {
-            "turn id": 1,
-            "user utterance": "what year was the 1971-72 ecac hockey player of the year born ?",
-            "system response": "1950",
-            "dialog history": "",
-            "original user side information": {},
-            "original system side information": {},
-            "external knowledge": "col : year | winner | position | school row 1 : 1961-62 | ron ryan | right wing | colby row 2 : 1962-63 | bob brinkworth | center | rensselaer row 3 : 1963-64 | bob brinkworth | center | rensselaer row 4 : 1964-65 | john cunniff | left wing | boston college row 5 : 1965-66 | terry yurkiewicz | goaltender | clarkson row 6 : 1966-67 | doug ferguson | center | cornell row 7 : 1967-68 | wayne small | forward | brown row 8 : 1968-69 | ken dryden | goaltender | cornell row 9 : 1969-70 | tim sheehy | center | boston college row 10 : 1970-71 | bruce bullock | goaltender | clarkson row 11 : 1971-72 | bob brown | defenceman | boston university row 12 : 1972-73 | tom mellor | defenceman | boston college row 13 : 1973-74 | randy roth | forward | harvard row 14 : 1974-75 | ron wilson | defenceman | providence row 15 : 1975-76 | peter brown | defenceman | boston university row 16 : 1976-77 | dave taylor | right wing | clarkson row 17 : 1977-78 | lance nethery | center | cornell row 18 : 1978-79 | ralph cox | center | new hampshire row 19 : 1979-80 | craig homola | center | vermont row 20 : 1980-81 | ed small | defenceman | clarksonpassages: bob brown (ice hockey): robert bob brown ( born december 18 , 1950 ) is a canadian former professional ice hockey player who played in the world hockey association ( wha ) . | tom mellor:  |"
-        }
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "what year was the 1971-72 ecac hockey player of the year born ?",
+                "system response": "1950",
+                "dialog history": "",
+                "original user side information": {},
+                "original system side information": {},
+                "external knowledge": "col : year | winner | position | school row 1 : 1961-62 | ron ryan | right wing | colby row 2 : 1962-63 | bob brinkworth | center | rensselaer row 3 : 1963-64 | bob brinkworth | center | rensselaer row 4 : 1964-65 | john cunniff | left wing | boston college row 5 : 1965-66 | terry yurkiewicz | goaltender | clarkson row 6 : 1966-67 | doug ferguson | center | cornell row 7 : 1967-68 | wayne small | forward | brown row 8 : 1968-69 | ken dryden | goaltender | cornell row 9 : 1969-70 | tim sheehy | center | boston college row 10 : 1970-71 | bruce bullock | goaltender | clarkson row 11 : 1971-72 | bob brown | defenceman | boston university row 12 : 1972-73 | tom mellor | defenceman | boston college row 13 : 1973-74 | randy roth | forward | harvard row 14 : 1974-75 | ron wilson | defenceman | providence row 15 : 1975-76 | peter brown | defenceman | boston university row 16 : 1976-77 | dave taylor | right wing | clarkson row 17 : 1977-78 | lance nethery | center | cornell row 18 : 1978-79 | ralph cox | center | new hampshire row 19 : 1979-80 | craig homola | center | vermont row 20 : 1980-81 | ed small | defenceman | clarksonpassages: bob brown (ice hockey): robert bob brown ( born december 18 , 1950 ) is a canadian former professional ice hockey player who played in the world hockey association ( wha ) . | tom mellor:  |"
+            }
+        ],
+        "prompt": [
+            "Using the provided structured external knowledge, answer the user's question accurately.",
+            "The user will ask a question on a specific topic. Use the structured external knowledge provided to generate an accurate and concise answer.",
+            "In response to the user's question, leverage the structured external knowledge given to form your answer.",
+            "Respond to the user's question by leveraging the structured external knowledge provided. Ensure your answer is accurate and contextually relevant.",
+            "The user will pose a question. Your task is to provide an accurate and appropriate answer using the provided structured external knowledge."
+        ]
     },
     "HybridQA--train--4": {
         "original dialog id": "",
@@ -544,15 +571,24 @@
             "context": "List of Zulu War Victoria Cross recipients | Recipients |  | The Victoria Cross (VC) was awarded to 23 members of the British Armed Forces and colonial forces for actions performed during the Anglo-Zulu War of 1879. The Victoria Cross is a military decoration awarded for valour in the face of the enemy to members of the armed forces of some Commonwealth countries and previous British Empire territories. The VC was introduced in Great Britain on 29 January 1856 by Queen Victoria to reward acts of valour during the Crimean War, and takes precedence over all other orders, decorations and medals. It may be awarded to a person of any rank in any service and to civilians under military command. The first ceremony was held on 26 June 1857, when Queen Victoria invested 62 of the 111 Crimean recipients in Hyde Park. The Anglo-Zulu War (also known as the Zulu War) was fought in 1879 between the British Empire and the Zulu Kingdom (Zululand; part of modern KwaZulu-Natal, South Africa). Although British and colonial forces under General Lord Chelmsford entered Zululand unopposed, on 11 January 1879, the Zulu army soon inflicted a heavy defeat on them at the Battle of Isandlwana, in which more than 1,300 British and colonial forces were killed. Immediately after the battle, Zulu troops moved onto the small garrison at Rorke's Drift. Here, just over 150 British and colonial soldiers defended the outpost against 4,000 Zulu warriors. The action was later made famous by the film Zulu. The defence of Rorke's Drift is considered by historians as a masterly defensive action and an example of heroism against overwhelming numbers. Eleven VC recipients received their awards for deeds performed during the defence of the small garrison - one of the largest number awarded for a single action, and the largest number (7) awarded to a single unit (the 2nd/24th Foot) for a single action.",
             "answer_text": "Battle of Hlobane"
         },
-        "log": {
-            "turn id": 1,
-            "user utterance": "what battle did the man born on 7 december 1839 fight in ?",
-            "system response": "battle of hlobane",
-            "dialog history": "",
-            "original user side information": {},
-            "original system side information": {},
-            "external knowledge": "col : name | unit | date of action | place of action row 1 : william beresford | 009 9th lancers | 1879-07-03 3 july 1879 | white umfolozi river ( near ulundi ) , zululand row 2 : anthony booth | 080 80th regiment of foot | 1879-03-12 12 march 1879 | battle of intombe , transvaal row 3 : edward browne | 024 24th regiment of foot | 1879-03-28 28 march 1879 | battle of kambula , zululand row 4 : john chard | royal engineers | 1879-02-22 22-23 january 1879 | battle of rorke 's drift , natal colony row 5 : james dalton | commissariat department commissariat and transport department | 1879-02-22 22-23 january 1879 | battle of rorke 's drift , natal colony row 6 : henry d'arcy | frontier light horse | 1879-07-03 3 july 1879 | white umfolozi river ( near ulundi ) , zululand row 7 : frederick hitch | 024 24th regiment of foot | 1879-02-22 22-23 january 1879 | battle of rorke 's drift , natal colony row 8 : alfred hook | 024 24th regiment of foot | 1879-02-22 22-23 january 1879 | battle of rorke 's drift , natal colony row 9 : robert jones | 024 24th regiment of foot | 1879-02-22 22-23 january 1879 | battle of rorke 's drift , natal colony row 10 : teignmouth melvill | 024 24th regiment of foot | 1879-01-22 22 january 1879* | battle of isandlwana , zululandpassages: battle of kambula: the battle of kambula took place on 29 march 1879 , during the anglo-zulu war , when a zulu army attacked the british camp at kambula , having routed the mounted element of the british force at the battle of hlobane the day before . | william knox leet: leet was 45 years old , and a major in the 1st bn. |"
-        }
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "what battle did the man born on 7 december 1839 fight in ?",
+                "system response": "battle of hlobane",
+                "dialog history": "",
+                "original user side information": {},
+                "original system side information": {},
+                "external knowledge": "col : name | unit | date of action | place of action row 1 : william beresford | 009 9th lancers | 1879-07-03 3 july 1879 | white umfolozi river ( near ulundi ) , zululand row 2 : anthony booth | 080 80th regiment of foot | 1879-03-12 12 march 1879 | battle of intombe , transvaal row 3 : edward browne | 024 24th regiment of foot | 1879-03-28 28 march 1879 | battle of kambula , zululand row 4 : john chard | royal engineers | 1879-02-22 22-23 january 1879 | battle of rorke 's drift , natal colony row 5 : james dalton | commissariat department commissariat and transport department | 1879-02-22 22-23 january 1879 | battle of rorke 's drift , natal colony row 6 : henry d'arcy | frontier light horse | 1879-07-03 3 july 1879 | white umfolozi river ( near ulundi ) , zululand row 7 : frederick hitch | 024 24th regiment of foot | 1879-02-22 22-23 january 1879 | battle of rorke 's drift , natal colony row 8 : alfred hook | 024 24th regiment of foot | 1879-02-22 22-23 january 1879 | battle of rorke 's drift , natal colony row 9 : robert jones | 024 24th regiment of foot | 1879-02-22 22-23 january 1879 | battle of rorke 's drift , natal colony row 10 : teignmouth melvill | 024 24th regiment of foot | 1879-01-22 22 january 1879* | battle of isandlwana , zululandpassages: battle of kambula: the battle of kambula took place on 29 march 1879 , during the anglo-zulu war , when a zulu army attacked the british camp at kambula , having routed the mounted element of the british force at the battle of hlobane the day before . | william knox leet: leet was 45 years old , and a major in the 1st bn. |"
+            }
+        ],
+        "prompt": [
+            "Using the provided structured external knowledge, answer the user's question accurately.",
+            "The user will ask a question on a specific topic. Use the structured external knowledge provided to generate an accurate and concise answer.",
+            "In response to the user's question, leverage the structured external knowledge given to form your answer.",
+            "Respond to the user's question by leveraging the structured external knowledge provided. Ensure your answer is accurate and contextually relevant.",
+            "The user will pose a question. Your task is to provide an accurate and appropriate answer using the provided structured external knowledge."
+        ]
     },
     "HybridQA--train--5": {
         "original dialog id": "",
@@ -674,14 +710,23 @@
             "context": "List of sponsored sports venues | Present naming rights -- United Kingdom | Each outdoor stadium is listed by the sports or football codes that primarily use it . `` Football '' here refers to association football . Many stadiums are occasionally used to host matches in codes other than their primary ones . | The following is a list of sports venues with sole naming rights:",
             "answer_text": "Lambeth"
         },
-        "log": {
-            "turn id": 1,
-            "user utterance": "what is the borough in which kia oval is located ?",
-            "system response": "lambeth",
-            "dialog history": "",
-            "original user side information": {},
-            "original system side information": {},
-            "external knowledge": "col : name | location | type row 1 : allianz park | hendon , london | rugby union and athletics stadium row 2 : kia oval | kennington | cricket stadium row 3 : banks 's stadium | walsall | football stadium row 4 : american express community stadium | falmer | football stadium row 5 : the balfour webnet darlington arena | darlington | football stadium row 6 : bargain booze stadium | northwich | football stadium row 7 : coral windows stadium | bradford | football stadium row 8 : bright finance stadium | sheffield | football stadium row 9 : bet 365 stadium | stoke-on-trent | football stadium row 10 : ebb stadium | aldershot | football stadium row 11 : the cherry red records stadium | kingston upon thames | football stadium row 12 : dw stadium | wigan | football and rugby league stadium row 13 : echo arena liverpool | liverpool | multi-purpose indoor arena row 14 : emirates riverside | chester-le-street , county durham | cricket stadium row 15 : emirates old trafford | manchester | cricket stadium row 16 : emirates stadium | holloway , london | football stadium row 17 : etihad stadium | manchester | football stadium row 18 : exacta stadium | chester | football stadium row 19 : galpharm stadium | huddersfield | football and rugby league stadium row 20 : genting arena | birmingham | multi-purpose indoor arenapassages: the oval: the oval , known for sponsorship reasons as the kia oval , is an international cricket ground in kennington , in the london borough of lambeth , in south london . | kennington: it is located 1.4 miles ( 2.3 km ) south of charing cross in inner london and is identified as a local centre in the london plan . it was a royal manor in the parish of st mary , lambeth in the county of surrey and was the administrative centre of the parish from 1853 . |"
-        }
+        "log": [
+            {
+                "turn id": 1,
+                "user utterance": "what is the borough in which kia oval is located ?",
+                "system response": "lambeth",
+                "dialog history": "",
+                "original user side information": {},
+                "original system side information": {},
+                "external knowledge": "col : name | location | type row 1 : allianz park | hendon , london | rugby union and athletics stadium row 2 : kia oval | kennington | cricket stadium row 3 : banks 's stadium | walsall | football stadium row 4 : american express community stadium | falmer | football stadium row 5 : the balfour webnet darlington arena | darlington | football stadium row 6 : bargain booze stadium | northwich | football stadium row 7 : coral windows stadium | bradford | football stadium row 8 : bright finance stadium | sheffield | football stadium row 9 : bet 365 stadium | stoke-on-trent | football stadium row 10 : ebb stadium | aldershot | football stadium row 11 : the cherry red records stadium | kingston upon thames | football stadium row 12 : dw stadium | wigan | football and rugby league stadium row 13 : echo arena liverpool | liverpool | multi-purpose indoor arena row 14 : emirates riverside | chester-le-street , county durham | cricket stadium row 15 : emirates old trafford | manchester | cricket stadium row 16 : emirates stadium | holloway , london | football stadium row 17 : etihad stadium | manchester | football stadium row 18 : exacta stadium | chester | football stadium row 19 : galpharm stadium | huddersfield | football and rugby league stadium row 20 : genting arena | birmingham | multi-purpose indoor arenapassages: the oval: the oval , known for sponsorship reasons as the kia oval , is an international cricket ground in kennington , in the london borough of lambeth , in south london . | kennington: it is located 1.4 miles ( 2.3 km ) south of charing cross in inner london and is identified as a local centre in the london plan . it was a royal manor in the parish of st mary , lambeth in the county of surrey and was the administrative centre of the parish from 1853 . |"
+            }
+        ],
+        "prompt": [
+            "Using the provided structured external knowledge, answer the user's question accurately.",
+            "The user will ask a question on a specific topic. Use the structured external knowledge provided to generate an accurate and concise answer.",
+            "In response to the user's question, leverage the structured external knowledge given to form your answer.",
+            "Respond to the user's question by leveraging the structured external knowledge provided. Ensure your answer is accurate and contextually relevant.",
+            "The user will pose a question. Your task is to provide an accurate and appropriate answer using the provided structured external knowledge."
+        ]
     }
 }

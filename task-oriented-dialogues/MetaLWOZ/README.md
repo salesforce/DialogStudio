@@ -14,4 +14,4 @@ This large dataset was created by crowdsourcing 37,884 goal-oriented dialogs, co
 
 The goal was to automate the user utterances so domain-specific dialog systems are easier to train, requiring less domain-specific data. Combined with large general conversational corpora or smaller goal-oriented datasets like MultiWOz, this dataset can be especially useful for training, fine-tuning, and evaluating dialog systems.
 
-The MetaLWOz dataset is being used as the baseline for the DSTC8 dialog competition.
+The MetaLWOz dataset is initially used as as one dataset for the [DSTC8 dialog competition](https://github.com/microsoft/dstc8-meta-dialog). Please cite their work if you use the dataset!

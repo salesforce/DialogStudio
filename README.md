@@ -5,8 +5,7 @@
 <!-- <p>
 <div align="center"> -->
 <a href="https://arxiv.org/abs/2307.10172" style="font-size:20px;">Paper</a>,
-<a href="#introduction" style="font-size:20px;">Introduction</a>,
-<a href="#datasets" style="font-size:20px;">Datasets</a>,
+<a href="https://huggingface.co/datasets/Salesforce/dialogstudio" style="font-size:20px;">Huggingface</a>,
 <a href="#model" style="font-size:20px;">Model</a>,
 <a href="https://twitter.com/JianguoZhang3" style="font-size:20px">Twitter</a> 
 <!-- </div> -->
@@ -59,10 +58,10 @@ You can load any dataset in the DialogStudio from the [HuggingFace hub](https://
 
 Below is one example to load the [MULTIWOZ2_2](./task-oriented-dialogues/MULTIWOZ2_2/) dataset under the [task-oriented-dialogues](./task-oriented-dialogues/) category:
 
-Agree Licenses on the [HuggingFace hub](https://huggingface.co/datasets/Salesforce/dialogstudio). Ensure you're also logged into your HuggingFace account on local. If you haven't logged in yet, you can do so by running the following command in your terminal:
+<!-- Agree Licenses on the [HuggingFace hub](https://huggingface.co/datasets/Salesforce/dialogstudio). Ensure you're also logged into your HuggingFace account on local. If you haven't logged in yet, you can do so by running the following command in your terminal:
 ```python
 huggingface-cli login
-```
+``` -->
 
 Load the dataset
 ```python
