@@ -2,7 +2,9 @@
     "ShareGPT--train--1": {
         "original dialog id": "QWJhYvA_0",
         "dialog index": 1,
-        "original dialog info": {},
+        "original dialog info": {
+            "model": "gpt-3.5-turbo"
+        },
         "log": [
             {
                 "turn id": 1,
@@ -49,7 +51,9 @@
     "ShareGPT--train--2": {
         "original dialog id": "i6IyJda_0",
         "dialog index": 2,
-        "original dialog info": {},
+        "original dialog info": {
+            "model": "gpt-3.5-turbo"
+        },
         "log": [
             {
                 "turn id": 1,
@@ -64,7 +68,9 @@
     "ShareGPT--train--3": {
         "original dialog id": "A5AbcES_0",
         "dialog index": 3,
-        "original dialog info": {},
+        "original dialog info": {
+            "model": "gpt-3.5-turbo"
+        },
         "log": [
             {
                 "turn id": 1,
@@ -79,7 +85,9 @@
     "ShareGPT--train--4": {
         "original dialog id": "hRPPgZT_0",
         "dialog index": 4,
-        "original dialog info": {},
+        "original dialog info": {
+            "model": "gpt-3.5-turbo"
+        },
         "log": [
             {
                 "turn id": 1,
@@ -118,7 +126,9 @@
     "ShareGPT--train--5": {
         "original dialog id": "hRPPgZT_8",
         "dialog index": 5,
-        "original dialog info": {},
+        "original dialog info": {
+            "model": "gpt-3.5-turbo"
+        },
         "log": [
             {
                 "turn id": 1,
