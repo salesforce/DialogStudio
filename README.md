@@ -14,7 +14,7 @@
 # DialogStudio: Towards Richest and Most Diverse Unified Dataset Collection and Instruction-Aware Models for Conversational AI
 
 ## News!
-* [Version 1.0.1] Aug 1, 2023.  We have resolved minor issues in a few dialogues, added prompts for selected knowledge-grounded datasets, removed requirements for HuggingFace login, and made updates to new datasets.
+* [Version 1.0.1] Aug 1, 2023.  We resolved minor issues in a few dialogues, added prompts for selected knowledge-grounded datasets, removed requirements for HuggingFace login, and made updates to new datasets.
 * [Initial Release] July 2023. We're thrilled to the initial release of the largest unified Dialog dataset collection. The full list of all available datasets is [here](./Dataset_Stats.csv).  
 
 
@@ -127,7 +127,7 @@ Our project follows the following structure with respect to licensing:
 2. Original dataset licenses: For reference, we also put the originally available licenses for each dataset into their respective dataset folders.
 3. Code: Our codebase is under the [Apache License 2.0](LICENSE.txt).
 
-For detailed licensing information, please refer to the specific licenses accompanying the datasets. It is important to familiarize yourself with these terms as we do not assume responsibility for licensing issues.
+For detailed licensing information, please refer to the specific licenses accompanying the original datasets. It is important to familiarize yourself with these terms as we do not assume responsibility for licensing issues.
 
 ## Acknowledgement
 We sincerely thank all dataset authors who have contributed to the Conversational AI field. Despite careful efforts, inaccuracies in our citations or references may occur. If you spot any errors or omissions, please raise an issue or submit a pull request to help us improve. Thank you!
