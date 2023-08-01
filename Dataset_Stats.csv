@@ -67,7 +67,7 @@ Open Domain Dialogue,HH-RLHF,65,Arxiv 2022,MiT License,160800,0,8552,169352
 Open Domain Dialogue,PLACES3.5,66,EACL 2023,CC BY-NC 4.0,5591,0,0,5591
 Open Domain Dialogue,Prosocial,67,EMNLP 2022,MiT License,42304,7132,8701,58137
 Open Domain Dialogue,SODA,68,Arxiv 2023,Mit License,1191582,146346,148968,1486896
-Open Domain Dialogue,ShareGPT,69,ShareGPT 2023,Mit License,96394,0,0,96394
+Open Domain Dialogue,ShareGPT,69,ShareGPT 2023,Openai Terms,96394,0,0,96394
 Knowledge Grounded Dialogue,CompWebQ,70,NAACL 2018,"GNU General Public License, version 2",27639,703,2816,31158
 Knowledge Grounded Dialogue,CoQA,71,TACL 2019,MiT License,7199,500,0,7699
 Knowledge Grounded Dialogue,CoSQL,72,EMNLP 2019,CC BY-SA 4.0,4318,586,0,4904
