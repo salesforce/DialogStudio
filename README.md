@@ -14,7 +14,7 @@
 # DialogStudio: Towards Richest and Most Diverse Unified Dataset Collection and Instruction-Aware Models for Conversational AI
 
 ## News!
-* [Version 1.0.1] Aug 1, 2023.  We have resolved minor issues in a few dialogues, added prompts for selected knowledge-grounded datasets, removed requirements for HuggingFace login, and made updates to SODA and ShareGPT datasets.
+* [Version 1.0.1] Aug 1, 2023.  We have resolved minor issues in a few dialogues, added prompts for selected knowledge-grounded datasets, removed requirements for HuggingFace login, and made updates to new datasets.
 * [Initial Release] July 2023. We're thrilled to the initial release of the largest unified Dialog dataset collection. The full list of all available datasets is [here](./Dataset_Stats.csv).  
 
 
