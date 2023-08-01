@@ -11,4 +11,4 @@ We initially clean ShareGPT through code from [FastChat](https://github.com/lm-s
 ## License
 
 This data is originally from [ShareGPT](https://github.com/domeccleston/sharegpt).
-Please follow their license and terms.
+Please follow OpenAI and their license and terms.
