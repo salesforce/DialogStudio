@@ -114,6 +114,8 @@ Datasets/
 
 We've rolled out version 1.0 of models ([dialogstudio-t5-base-v1.0](https://huggingface.co/Salesforce/dialogstudio-t5-base-v1.0), [dialogstudio-t5-large-v1.0](https://huggingface.co/Salesforce/dialogstudio-t5-large-v1.0), dialogstudio-t5-3B-v1.0) trained on a few selected DialogStudio datasets. Check each [Model Card](https://huggingface.co/Salesforce/dialogstudio-t5-base-v1.0) for more details. 
 
+Below is one example for running model on CPU:
+
 ```python
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
 
