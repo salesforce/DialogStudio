@@ -111,9 +111,25 @@ Datasets/
 
 
 ## Model
-(Will update soon)
 
-We've rolled out version 1.0 of models trained on a few selected DialogStudio datasets. Built on small-scale pre-trained models, this version does not incorporate datasets utilized for training large-scale models (>=7B) like Alpaca, ShareGPT, GPT4ALL, UltraChat from OpenAI's 'GPT-3.5/4', or other datasets such as OASST1 and WizardCoder (Note that DialogStudio has unified such datasets).  As a result, it has certain limitations in terms of writing and creative capabilities. Our initial focus is to update the model versions to enhance existing abilities. Further improvements, including expansion of other capabilities, are part of our roadmap and will be responsive to community requests.
+We've rolled out version 1.0 of models ([dialogstudio-t5-base-v1.0](https://huggingface.co/Salesforce/dialogstudio-t5-base-v1.0), [dialogstudio-t5-large-v1.0](https://huggingface.co/Salesforce/dialogstudio-t5-large-v1.0), dialogstudio-t5-3B-v1.0) trained on a few selected DialogStudio datasets. Check each [Model Card](https://huggingface.co/Salesforce/dialogstudio-t5-base-v1.0) for more details. 
+
+```python
+from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
+
+tokenizer = AutoTokenizer.from_pretrained("Salesforce/dialogstudio-t5-base-v1.0")
+model = AutoModelForSeq2SeqLM.from_pretrained("Salesforce/dialogstudio-t5-base-v1.0")
+
+input_text = "Answer the following yes/no question by reasoning step-by-step. Can you write 200 words in a single tweet?"
+input_ids = tokenizer(input_text, return_tensors="pt").input_ids
+
+outputs = model.generate(input_ids, max_new_tokens=256)
+print(tokenizer.decode(outputs[0], skip_special_tokens=True))
+```
+
+Note: 
+
+Version 1.0 is built on small-scale pre-trained models, this version does not incorporate datasets utilized for training large-scale models (>=7B) like Alpaca, ShareGPT, GPT4ALL, UltraChat from OpenAI's 'GPT-3.5/4', or other datasets such as OASST1 and WizardCoder.  As a result, it has certain limitations in terms of writing and creative capabilities. Our initial focus is to update the model versions to enhance existing abilities. Further improvements, including expansion of other capabilities, are part of our roadmap and will be responsive to community requests.
 
 
 ## License
