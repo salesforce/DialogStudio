@@ -12,7 +12,7 @@ os.environ["OPENAI_API_KEY"] = ""
 
 from langchain.chains.llm import LLMChain
 from langchain.prompts import PromptTemplate
-from langchain.chat_models import ChatOpenAI
+from langchain.chat_models import ChatOpenAI, ChatLiteLLM
 import json
 from utils import open_json, save_json, open_jsonl
 from collections import defaultdict
@@ -54,7 +54,7 @@ class EvaluateDialogs(object):
             """
         )
 
-        self.quality_chain = LLMChain(llm=ChatOpenAI(temperature=0.2, model_name="gpt-3.5-turbo"), prompt=self.quality_agent_prompt)
+        self.quality_chain = LLMChain(llm=ChatLiteLLM(temperature=0.2, model_name="gpt-3.5-turbo"), prompt=self.quality_agent_prompt)
 
     def run_openai_evaluation(self, dialog):
         res = self.quality_chain.run(dialog=dialog)
