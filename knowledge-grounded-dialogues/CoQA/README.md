@@ -1,3 +1,10 @@
+# Identify Licenses for Commercial Usage
+
+Regarding the COQA dataset, it's crucial to acknowledge that it encompasses individual licenses for each domain. To ascertain the data permissible for commercial use, please refer to the domain information. You can retrieve this information as shown below:
+```
+data["CoQA--train--24"]["original dialog info"]["source"] = "cnn"
+```
+This example indicates data sourced from CNN, which falls under the Apache License 2.0, deeming it suitable for commercial applications.
 # coqa-baselines
 We provide several baselines: conversational models, extractive reading comprehension models and their combined models for the [CoQA challenge](https://stanfordnlp.github.io/coqa/). See more details in the [paper](https://arxiv.org/abs/1808.07042). We also provide [instructions](codalab.md) on how to run pretrained models on Codalab -- our platform for evaluation on the test set.
 
@@ -142,4 +149,9 @@ All the results are based on `n_history = 2`:
 ```
 
 ## License
-MIT
+CoQA contains passages from seven domains. We make five of these public under the following licenses:
+
+Literature and Wikipedia passages are shared under CC BY-SA 4.0 license.
+Children's stories are collected from MCTest which comes with MSR-LA license.
+Middle/High school exam passages are collected from RACE which comes with its own license.
+News passages are collected from the DeepMind CNN dataset which comes with Apache license.
