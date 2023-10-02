@@ -44,7 +44,7 @@ Task Oriented Dialogue,Taskmaster3,42,Github 2020,Creative Commons Attribution 4
 Task Oriented Dialogue,WOZ2_0,43,ACL 2017,Apache License 2.0,600,200,400,1200
 Dialogue Summarization,AMI,44,ICASSP 2005,Creative Commons Attribution 4.0 International Licence (CC BY 4.0),117054,0,0,117054
 Dialogue Summarization,CRD3,45,ACL2021,CC BY-SA 4.0,108,16,16,140
-Dialogue Summarization,DialogSum,46,ACL 2020,CC BY-SA 4.0,12460,500,500,13460
+Dialogue Summarization,DialogSum,46,ACL 2020,CC BY-NC-SA 4.0,12460,500,500,13460
 Dialogue Summarization,ECTSum,47,Findings of ACL21,MIT License,1681,249,495,2425
 Dialogue Summarization,ICSI,48,EMNLP 2022,No License,110254,0,0,110254
 Dialogue Summarization,MediaSum,49,ICASSP 2005, CC BY 4.0,443596,10000,10000,463596
@@ -66,10 +66,10 @@ Open Domain Dialogue,Empathetic,64,ACL 2019,cc-by-nc-4.0,17802,2761,2541,23104
 Open Domain Dialogue,HH-RLHF,65,Arxiv 2022,MiT License,160800,0,8552,169352
 Open Domain Dialogue,PLACES3.5,66,EACL 2023,CC BY-NC 4.0,5591,0,0,5591
 Open Domain Dialogue,Prosocial,67,EMNLP 2022,MiT License,42304,7132,8701,58137
-Open Domain Dialogue,SODA,68,Arxiv 2023,Mit License,1191582,146346,148968,1486896
+Open Domain Dialogue,SODA,68,Arxiv 2023,Mit License & Consult your legal team,1191582,146346,148968,1486896
 Open Domain Dialogue,ShareGPT,69,ShareGPT 2023,ShareGPT license and OpenAI Terms,96394,0,0,96394
 Knowledge Grounded Dialogue,CompWebQ,70,NAACL 2018,"GNU General Public License, version 2",27639,703,2816,31158
-Knowledge Grounded Dialogue,CoQA,71,TACL 2019,MiT License,7199,500,0,7699
+Knowledge Grounded Dialogue,CoQA,71,TACL 2019,Mixed licenses of CC BY-SA 4.0/MSR-LA license/Non-Commercial license/Apache License 2.0 ,7199,500,0,7699
 Knowledge Grounded Dialogue,CoSQL,72,EMNLP 2019,CC BY-SA 4.0,4318,586,0,4904
 Knowledge Grounded Dialogue,DART,73,NAACL 2021,MIT License,62659,2768,5097,70524
 Knowledge Grounded Dialogue,FeTaQA,74,TACL 2022,CC BY-SA 4.0,7326,1001,2003,10330
