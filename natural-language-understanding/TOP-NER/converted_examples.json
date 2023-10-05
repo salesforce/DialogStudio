@@ -1,14 +1,14 @@
 {
-    "TOP--train--1": {
+    "TOP-NER--train--1": {
         "original dialog id": "",
         "dialog index": 1,
         "original dialog info": {
-            "task": "Intent Detection. The system response is the corresponding intent."
+            "task": "BIO tag for Named Entity Recognition. The system response is the corresponding BIO format."
         },
         "log": {
             "turn id": 1,
             "user utterance": "How long will it take to drive from Chicago to Mississippi",
-            "system response": "IN_GET_ESTIMATED_DURATION",
+            "system response": "O O O O O O B-SL_METHOD_TRAVEL O B-SL_SOURCE O B-SL_DESTINATION",
             "dialog history": "",
             "original user side information": {},
             "original system side information": {
@@ -18,16 +18,16 @@
             "external knowledge": ""
         }
     },
-    "TOP--train--2": {
+    "TOP-NER--train--2": {
         "original dialog id": "",
         "dialog index": 2,
         "original dialog info": {
-            "task": "Intent Detection. The system response is the corresponding intent."
+            "task": "BIO tag for Named Entity Recognition. The system response is the corresponding BIO format."
         },
         "log": {
             "turn id": 1,
             "user utterance": "Will it take shorter to get to the White House by bus or taxi ?",
-            "system response": "IN_UNSUPPORTED_NAVIGATION",
+            "system response": "O O O O O O O O O O O O O O O",
             "dialog history": "",
             "original user side information": {},
             "original system side information": {
@@ -37,16 +37,16 @@
             "external knowledge": ""
         }
     },
-    "TOP--train--3": {
+    "TOP-NER--train--3": {
         "original dialog id": "",
         "dialog index": 3,
         "original dialog info": {
-            "task": "Intent Detection. The system response is the corresponding intent."
+            "task": "BIO tag for Named Entity Recognition. The system response is the corresponding BIO format."
         },
         "log": {
             "turn id": 1,
             "user utterance": "will I make it to the beach by noon if I leave now",
-            "system response": "IN_GET_ESTIMATED_ARRIVAL",
+            "system response": "O O O O O B-SL_DESTINATION_IN_GET_LOCATION_SL_CATEGORY_LOCATION I-SL_DESTINATION_IN_GET_LOCATION_SL_CATEGORY_LOCATION B-SL_DATE_TIME_ARRIVAL I-SL_DATE_TIME_ARRIVAL O O O B-SL_DATE_TIME_DEPARTURE",
             "dialog history": "",
             "original user side information": {},
             "original system side information": {
@@ -56,16 +56,16 @@
             "external knowledge": ""
         }
     },
-    "TOP--train--4": {
+    "TOP-NER--train--4": {
         "original dialog id": "",
         "dialog index": 4,
         "original dialog info": {
-            "task": "Intent Detection. The system response is the corresponding intent."
+            "task": "BIO tag for Named Entity Recognition. The system response is the corresponding BIO format."
         },
         "log": {
             "turn id": 1,
             "user utterance": "When should I leave my house to get to the Hamilton Mall right when it opens on Saturday",
-            "system response": "IN_GET_ESTIMATED_DEPARTURE",
+            "system response": "O O O O B-SL_SOURCE_IN_GET_LOCATION_HOME_SL_CONTACT I-SL_SOURCE_IN_GET_LOCATION_HOME O O O B-SL_DESTINATION_IN_GET_LOCATION_SL_POINT_ON_MAP I-SL_DESTINATION_IN_GET_LOCATION_SL_POINT_ON_MAP I-SL_DESTINATION_IN_GET_LOCATION_SL_POINT_ON_MAP B-SL_DATE_TIME_ARRIVAL I-SL_DATE_TIME_ARRIVAL I-SL_DATE_TIME_ARRIVAL I-SL_DATE_TIME_ARRIVAL I-SL_DATE_TIME_ARRIVAL I-SL_DATE_TIME_ARRIVAL",
             "dialog history": "",
             "original user side information": {},
             "original system side information": {
@@ -75,16 +75,16 @@
             "external knowledge": ""
         }
     },
-    "TOP--train--5": {
+    "TOP-NER--train--5": {
         "original dialog id": "",
         "dialog index": 5,
         "original dialog info": {
-            "task": "Intent Detection. The system response is the corresponding intent."
+            "task": "BIO tag for Named Entity Recognition. The system response is the corresponding BIO format."
         },
         "log": {
             "turn id": 1,
             "user utterance": "I need to know if there 's a lot of traffic on my way home",
-            "system response": "IN_GET_INFO_TRAFFIC",
+            "system response": "O O O O O O O O O O O O O O B-SL_DESTINATION_IN_GET_LOCATION_HOME",
             "dialog history": "",
             "original user side information": {},
             "original system side information": {

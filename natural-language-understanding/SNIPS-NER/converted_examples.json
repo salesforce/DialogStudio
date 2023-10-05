@@ -1,78 +1,78 @@
 {
-    "ATIS--train--1": {
+    "SNIPS-NER--train--1": {
         "original dialog id": "",
         "dialog index": 1,
         "original dialog info": {
-            "task": "Intent Detection. The system response is the corresponding intent."
+            "task": "BIO tag for Named Entity Recognition. The system response is the corresponding BIO format."
         },
         "log": {
             "turn id": 1,
-            "user utterance": "i want to fly from baltimore to dallas round trip",
-            "system response": "atis_flight",
+            "user utterance": "listen to westbam alumb allergic on google music",
+            "system response": "O O B-artist O B-album O B-service I-service",
             "dialog history": "",
             "original user side information": {},
             "original system side information": {},
             "external knowledge": ""
         }
     },
-    "ATIS--train--2": {
+    "SNIPS-NER--train--2": {
         "original dialog id": "",
         "dialog index": 2,
         "original dialog info": {
-            "task": "Intent Detection. The system response is the corresponding intent."
+            "task": "BIO tag for Named Entity Recognition. The system response is the corresponding BIO format."
         },
         "log": {
             "turn id": 1,
-            "user utterance": "round trip fares from baltimore to philadelphia less than 1000 dollars round trip fares from denver to philadelphia less than 1000 dollars round trip fares from pittsburgh to philadelphia less than 1000 dollars",
-            "system response": "atis_airfare",
+            "user utterance": "add step to me to the 50 cl\u00e1sicos playlist",
+            "system response": "O B-entity_name I-entity_name I-entity_name O O B-playlist I-playlist O",
             "dialog history": "",
             "original user side information": {},
             "original system side information": {},
             "external knowledge": ""
         }
     },
-    "ATIS--train--3": {
+    "SNIPS-NER--train--3": {
         "original dialog id": "",
         "dialog index": 3,
         "original dialog info": {
-            "task": "Intent Detection. The system response is the corresponding intent."
+            "task": "BIO tag for Named Entity Recognition. The system response is the corresponding BIO format."
         },
         "log": {
             "turn id": 1,
-            "user utterance": "show me the flights arriving on baltimore on june fourteenth",
-            "system response": "atis_flight",
+            "user utterance": "i give this current textbook a rating value of 1 and a best rating of 6",
+            "system response": "O O O B-object_select B-object_type O O O O B-rating_value O O O O O B-best_rating",
             "dialog history": "",
             "original user side information": {},
             "original system side information": {},
             "external knowledge": ""
         }
     },
-    "ATIS--train--4": {
+    "SNIPS-NER--train--4": {
         "original dialog id": "",
         "dialog index": 4,
         "original dialog info": {
-            "task": "Intent Detection. The system response is the corresponding intent."
+            "task": "BIO tag for Named Entity Recognition. The system response is the corresponding BIO format."
         },
         "log": {
             "turn id": 1,
-            "user utterance": "what are the flights which depart from san francisco fly to washington via indianapolis and arrive by 9 pm",
-            "system response": "atis_flight",
+            "user utterance": "play the song little robin redbreast",
+            "system response": "O O B-music_item B-track I-track I-track",
             "dialog history": "",
             "original user side information": {},
             "original system side information": {},
             "external knowledge": ""
         }
     },
-    "ATIS--train--5": {
+    "SNIPS-NER--train--5": {
         "original dialog id": "",
         "dialog index": 5,
         "original dialog info": {
-            "task": "Intent Detection. The system response is the corresponding intent."
+            "task": "BIO tag for Named Entity Recognition. The system response is the corresponding BIO format."
         },
         "log": {
             "turn id": 1,
-            "user utterance": "which airlines fly from boston to washington dc via other cities",
-            "system response": "atis_airline",
+            "user utterance": "please add iris dement to my playlist this is selena",
+            "system response": "O O B-artist I-artist O B-playlist_owner O B-playlist I-playlist I-playlist",
             "dialog history": "",
             "original user side information": {},
             "original system side information": {},

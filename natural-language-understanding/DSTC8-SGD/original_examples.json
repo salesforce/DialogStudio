@@ -1,14 +1,6 @@
 [
     {
         "userInput": {
-            "text": "Can you help me out and look for a bus for me?"
-        },
-        "context": {},
-        "id": "27_001080",
-        "splitKey": 1.0
-    },
-    {
-        "userInput": {
             "text": "I want to visit New York."
         },
         "context": {
@@ -59,18 +51,63 @@
     },
     {
         "userInput": {
-            "text": "What is the bus station that I will leave from and which station will I arrrive at?"
+            "text": "Is there a bus that leaves from Anaheim to SD?"
         },
         "context": {},
-        "id": "27_001086",
+        "labels": [
+            {
+                "slot": "to_location",
+                "valueSpan": {
+                    "startIndex": 43,
+                    "endIndex": 45
+                }
+            },
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "startIndex": 32,
+                    "endIndex": 39
+                }
+            }
+        ],
+        "id": "27_001090",
         "splitKey": 1.0
     },
     {
         "userInput": {
-            "text": "Sounds fine to me."
+            "text": "Thursday next week for four people."
+        },
+        "context": {
+            "requestedSlots": [
+                "leaving_date"
+            ]
+        },
+        "labels": [
+            {
+                "slot": "leaving_date",
+                "valueSpan": {
+                    "endIndex": 18
+                }
+            }
+        ],
+        "id": "27_001092",
+        "splitKey": 1.0
+    },
+    {
+        "userInput": {
+            "text": "Anything else for three people from LAX?"
         },
         "context": {},
-        "id": "27_001088",
+        "labels": [
+            {
+                "slot": "from_location",
+                "valueSpan": {
+                    "startIndex": 36,
+                    "endIndex": 39
+                }
+            }
+        ],
+        "id": "27_001094",
         "splitKey": 1.0
     }
 ]

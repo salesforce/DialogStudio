@@ -1,0 +1,22 @@
+[
+    {
+        "input": "i wanna know my credit rating now\n",
+        "output": "credit_score\n"
+    },
+    {
+        "input": "i really wanna know my credit score\n",
+        "output": "credit_score\n"
+    },
+    {
+        "input": "whats my credit rating\n",
+        "output": "credit_score\n"
+    },
+    {
+        "input": "can you tell me my credit score\n",
+        "output": "credit_score\n"
+    },
+    {
+        "input": "please look up my credit score\n",
+        "output": "credit_score\n"
+    }
+]

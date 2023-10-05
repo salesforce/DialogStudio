@@ -1,0 +1,22 @@
+[
+    {
+        "input": "where is the tracking number for the card?\n",
+        "output": "card_arrival\n"
+    },
+    {
+        "input": "can the card was sen to me be tracked?\n",
+        "output": "card_arrival\n"
+    },
+    {
+        "input": "i haven't gotten my credit card in the mail.\n",
+        "output": "card_arrival\n"
+    },
+    {
+        "input": "my card still hasn't been delivered\n",
+        "output": "card_arrival\n"
+    },
+    {
+        "input": "how to track the card you sent\n",
+        "output": "card_arrival\n"
+    }
+]

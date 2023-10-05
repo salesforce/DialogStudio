@@ -1,5 +1,5 @@
 {
-    "ATIS--train--1": {
+    "BANKING77-OOS--train--1": {
         "original dialog id": "",
         "dialog index": 1,
         "original dialog info": {
@@ -7,15 +7,15 @@
         },
         "log": {
             "turn id": 1,
-            "user utterance": "i want to fly from baltimore to dallas round trip",
-            "system response": "atis_flight",
+            "user utterance": "where is the tracking number for the card?",
+            "system response": "card_arrival",
             "dialog history": "",
             "original user side information": {},
             "original system side information": {},
             "external knowledge": ""
         }
     },
-    "ATIS--train--2": {
+    "BANKING77-OOS--train--2": {
         "original dialog id": "",
         "dialog index": 2,
         "original dialog info": {
@@ -23,15 +23,15 @@
         },
         "log": {
             "turn id": 1,
-            "user utterance": "round trip fares from baltimore to philadelphia less than 1000 dollars round trip fares from denver to philadelphia less than 1000 dollars round trip fares from pittsburgh to philadelphia less than 1000 dollars",
-            "system response": "atis_airfare",
+            "user utterance": "can the card was sen to me be tracked?",
+            "system response": "card_arrival",
             "dialog history": "",
             "original user side information": {},
             "original system side information": {},
             "external knowledge": ""
         }
     },
-    "ATIS--train--3": {
+    "BANKING77-OOS--train--3": {
         "original dialog id": "",
         "dialog index": 3,
         "original dialog info": {
@@ -39,15 +39,15 @@
         },
         "log": {
             "turn id": 1,
-            "user utterance": "show me the flights arriving on baltimore on june fourteenth",
-            "system response": "atis_flight",
+            "user utterance": "i haven't gotten my credit card in the mail.",
+            "system response": "card_arrival",
             "dialog history": "",
             "original user side information": {},
             "original system side information": {},
             "external knowledge": ""
         }
     },
-    "ATIS--train--4": {
+    "BANKING77-OOS--train--4": {
         "original dialog id": "",
         "dialog index": 4,
         "original dialog info": {
@@ -55,15 +55,15 @@
         },
         "log": {
             "turn id": 1,
-            "user utterance": "what are the flights which depart from san francisco fly to washington via indianapolis and arrive by 9 pm",
-            "system response": "atis_flight",
+            "user utterance": "my card still hasn't been delivered",
+            "system response": "card_arrival",
             "dialog history": "",
             "original user side information": {},
             "original system side information": {},
             "external knowledge": ""
         }
     },
-    "ATIS--train--5": {
+    "BANKING77-OOS--train--5": {
         "original dialog id": "",
         "dialog index": 5,
         "original dialog info": {
@@ -71,8 +71,8 @@
         },
         "log": {
             "turn id": 1,
-            "user utterance": "which airlines fly from boston to washington dc via other cities",
-            "system response": "atis_airline",
+            "user utterance": "how to track the card you sent",
+            "system response": "card_arrival",
             "dialog history": "",
             "original user side information": {},
             "original system side information": {},

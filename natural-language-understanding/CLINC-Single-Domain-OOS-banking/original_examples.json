@@ -1,0 +1,22 @@
+[
+    {
+        "input": "may i get all of the food transactions that were made last month\n",
+        "output": "transactions\n"
+    },
+    {
+        "input": "looking at january, show all wine purchases\n",
+        "output": "transactions\n"
+    },
+    {
+        "input": "what was my last transaction\n",
+        "output": "transactions\n"
+    },
+    {
+        "input": "can you let me know my latest transactions\n",
+        "output": "transactions\n"
+    },
+    {
+        "input": "show me my transactions on mcdonalds\n",
+        "output": "transactions\n"
+    }
+]

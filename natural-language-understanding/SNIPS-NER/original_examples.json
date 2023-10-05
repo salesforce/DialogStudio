@@ -1,0 +1,22 @@
+[
+    {
+        "input": "listen to westbam alumb allergic on google music\n",
+        "output": "O O B-artist O B-album O B-service I-service \n"
+    },
+    {
+        "input": "add step to me to the 50 cl\u00e1sicos playlist \n",
+        "output": "O B-entity_name I-entity_name I-entity_name O O B-playlist I-playlist O \n"
+    },
+    {
+        "input": "i give this current textbook a rating value of 1 and a best rating of 6\n",
+        "output": "O O O B-object_select B-object_type O O O O B-rating_value O O O O O B-best_rating \n"
+    },
+    {
+        "input": "play the song little robin redbreast\n",
+        "output": "O O B-music_item B-track I-track I-track \n"
+    },
+    {
+        "input": "please add iris dement to my playlist this is selena\n",
+        "output": "O O B-artist I-artist O B-playlist_owner O B-playlist I-playlist I-playlist \n"
+    }
+]

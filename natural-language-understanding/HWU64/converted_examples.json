@@ -2,76 +2,81 @@
     "HWU64--train--1": {
         "original dialog id": "",
         "dialog index": 1,
-        "original dialog info": {},
-        "log": [
-            {
-                "turn id": 1,
-                "user utterance": "what alarms do i have set right now",
-                "system response": "alarm_query",
-                "dialog history": "",
-                "original user side information": {},
-                "original system side information": {}
-            }
-        ]
+        "original dialog info": {
+            "task": "Intent Detection. The system response is the corresponding intent."
+        },
+        "log": {
+            "turn id": 1,
+            "user utterance": "what alarms do i have set right now",
+            "system response": "alarm_query",
+            "dialog history": "",
+            "original user side information": {},
+            "original system side information": {},
+            "external knowledge": ""
+        }
     },
     "HWU64--train--2": {
         "original dialog id": "",
         "dialog index": 2,
-        "original dialog info": {},
-        "log": [
-            {
-                "turn id": 1,
-                "user utterance": "checkout today alarm of meeting",
-                "system response": "alarm_query",
-                "dialog history": "",
-                "original user side information": {},
-                "original system side information": {}
-            }
-        ]
+        "original dialog info": {
+            "task": "Intent Detection. The system response is the corresponding intent."
+        },
+        "log": {
+            "turn id": 1,
+            "user utterance": "checkout today alarm of meeting",
+            "system response": "alarm_query",
+            "dialog history": "",
+            "original user side information": {},
+            "original system side information": {},
+            "external knowledge": ""
+        }
     },
     "HWU64--train--3": {
         "original dialog id": "",
         "dialog index": 3,
-        "original dialog info": {},
-        "log": [
-            {
-                "turn id": 1,
-                "user utterance": "report alarm settings",
-                "system response": "alarm_query",
-                "dialog history": "",
-                "original user side information": {},
-                "original system side information": {}
-            }
-        ]
+        "original dialog info": {
+            "task": "Intent Detection. The system response is the corresponding intent."
+        },
+        "log": {
+            "turn id": 1,
+            "user utterance": "report alarm settings",
+            "system response": "alarm_query",
+            "dialog history": "",
+            "original user side information": {},
+            "original system side information": {},
+            "external knowledge": ""
+        }
     },
     "HWU64--train--4": {
         "original dialog id": "",
         "dialog index": 4,
-        "original dialog info": {},
-        "log": [
-            {
-                "turn id": 1,
-                "user utterance": "see see for me the alarms that you have set tomorrow morning",
-                "system response": "alarm_query",
-                "dialog history": "",
-                "original user side information": {},
-                "original system side information": {}
-            }
-        ]
+        "original dialog info": {
+            "task": "Intent Detection. The system response is the corresponding intent."
+        },
+        "log": {
+            "turn id": 1,
+            "user utterance": "see see for me the alarms that you have set tomorrow morning",
+            "system response": "alarm_query",
+            "dialog history": "",
+            "original user side information": {},
+            "original system side information": {},
+            "external knowledge": ""
+        }
     },
     "HWU64--train--5": {
         "original dialog id": "",
         "dialog index": 5,
-        "original dialog info": {},
-        "log": [
-            {
-                "turn id": 1,
-                "user utterance": "is there an alarm for ten am",
-                "system response": "alarm_query",
-                "dialog history": "",
-                "original user side information": {},
-                "original system side information": {}
-            }
-        ]
+        "original dialog info": {
+            "task": "Intent Detection. The system response is the corresponding intent."
+        },
+        "log": {
+            "turn id": 1,
+            "user utterance": "is there an alarm for ten am",
+            "system response": "alarm_query",
+            "dialog history": "",
+            "original user side information": {},
+            "original system side information": {},
+            "external knowledge": ""
+        }
     }
 }

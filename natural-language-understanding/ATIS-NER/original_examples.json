@@ -1,0 +1,22 @@
+[
+    {
+        "input": "i want to fly from baltimore to dallas round trip\n",
+        "output": "O O O O O B-fromloc.city_name O B-toloc.city_name B-round_trip I-round_trip\n"
+    },
+    {
+        "input": "round trip fares from baltimore to philadelphia less than 1000 dollars round trip fares from denver to philadelphia less than 1000 dollars round trip fares from pittsburgh to philadelphia less than 1000 dollars\n",
+        "output": "B-round_trip I-round_trip O O B-fromloc.city_name O B-toloc.city_name B-cost_relative O B-fare_amount I-fare_amount B-round_trip I-round_trip O O B-fromloc.city_name O B-toloc.city_name B-cost_relative O B-fare_amount I-fare_amount B-round_trip I-round_trip O O B-fromloc.city_name O B-toloc.city_name B-cost_relative O B-fare_amount I-fare_amount\n"
+    },
+    {
+        "input": "show me the flights arriving on baltimore on june fourteenth\n",
+        "output": "O O O O O O B-toloc.city_name O B-arrive_date.month_name B-arrive_date.day_number\n"
+    },
+    {
+        "input": "what are the flights which depart from san francisco fly to washington via indianapolis and arrive by 9 pm\n",
+        "output": "O O O O O O O B-fromloc.city_name I-fromloc.city_name O O B-toloc.city_name O B-stoploc.city_name O O B-arrive_time.time_relative B-arrive_time.time I-arrive_time.time\n"
+    },
+    {
+        "input": "which airlines fly from boston to washington dc via other cities\n",
+        "output": "O O O O B-fromloc.city_name O B-toloc.city_name B-toloc.state_code O O O\n"
+    }
+]

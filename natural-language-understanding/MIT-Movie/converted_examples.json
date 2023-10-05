@@ -2,86 +2,81 @@
     "MIT-Movie--train--1": {
         "original dialog id": "",
         "dialog index": 1,
-        "original dialog info": {},
-        "log": [
-            {
-                "turn id": 1,
-                "user utterance": "what movies star bruce willis",
-                "system response": "",
-                "dialog history": "",
-                "original user side information": {
-                    "BOI format": "O O O B-ACTOR I-ACTOR"
-                },
-                "original system side information": {}
-            }
-        ]
+        "original dialog info": {
+            "task": "BIO tag for Named Entity Recognition. The system response is the corresponding BIO format."
+        },
+        "log": {
+            "turn id": 1,
+            "user utterance": "what movies star bruce willis",
+            "system response": "O O O B-ACTOR I-ACTOR",
+            "dialog history": "",
+            "original user side information": {},
+            "original system side information": {},
+            "external knowledge": ""
+        }
     },
     "MIT-Movie--train--2": {
         "original dialog id": "",
         "dialog index": 2,
-        "original dialog info": {},
-        "log": [
-            {
-                "turn id": 1,
-                "user utterance": "show me films with drew barrymore from the 1980s",
-                "system response": "",
-                "dialog history": "",
-                "original user side information": {
-                    "BOI format": "O O O O B-ACTOR I-ACTOR O O B-YEAR"
-                },
-                "original system side information": {}
-            }
-        ]
+        "original dialog info": {
+            "task": "BIO tag for Named Entity Recognition. The system response is the corresponding BIO format."
+        },
+        "log": {
+            "turn id": 1,
+            "user utterance": "show me films with drew barrymore from the 1980s",
+            "system response": "O O O O B-ACTOR I-ACTOR O O B-YEAR",
+            "dialog history": "",
+            "original user side information": {},
+            "original system side information": {},
+            "external knowledge": ""
+        }
     },
     "MIT-Movie--train--3": {
         "original dialog id": "",
         "dialog index": 3,
-        "original dialog info": {},
-        "log": [
-            {
-                "turn id": 1,
-                "user utterance": "what movies starred both al pacino and robert deniro",
-                "system response": "",
-                "dialog history": "",
-                "original user side information": {
-                    "BOI format": "O O O O B-ACTOR I-ACTOR O B-ACTOR I-ACTOR"
-                },
-                "original system side information": {}
-            }
-        ]
+        "original dialog info": {
+            "task": "BIO tag for Named Entity Recognition. The system response is the corresponding BIO format."
+        },
+        "log": {
+            "turn id": 1,
+            "user utterance": "what movies starred both al pacino and robert deniro",
+            "system response": "O O O O B-ACTOR I-ACTOR O B-ACTOR I-ACTOR",
+            "dialog history": "",
+            "original user side information": {},
+            "original system side information": {},
+            "external knowledge": ""
+        }
     },
     "MIT-Movie--train--4": {
         "original dialog id": "",
         "dialog index": 4,
-        "original dialog info": {},
-        "log": [
-            {
-                "turn id": 1,
-                "user utterance": "find me all of the movies that starred harold ramis and bill murray",
-                "system response": "",
-                "dialog history": "",
-                "original user side information": {
-                    "BOI format": "O O O O O O O O B-ACTOR I-ACTOR O B-ACTOR I-ACTOR"
-                },
-                "original system side information": {}
-            }
-        ]
+        "original dialog info": {
+            "task": "BIO tag for Named Entity Recognition. The system response is the corresponding BIO format."
+        },
+        "log": {
+            "turn id": 1,
+            "user utterance": "find me all of the movies that starred harold ramis and bill murray",
+            "system response": "O O O O O O O O B-ACTOR I-ACTOR O B-ACTOR I-ACTOR",
+            "dialog history": "",
+            "original user side information": {},
+            "original system side information": {},
+            "external knowledge": ""
+        }
     },
     "MIT-Movie--train--5": {
         "original dialog id": "",
         "dialog index": 5,
-        "original dialog info": {},
-        "log": [
-            {
-                "turn id": 1,
-                "user utterance": "find me a movie with a quote about baseball in it",
-                "system response": "",
-                "dialog history": "",
-                "original user side information": {
-                    "BOI format": "O O O O O O O O O O O"
-                },
-                "original system side information": {}
-            }
-        ]
+        "original dialog info": {
+            "task": "BIO tag for Named Entity Recognition. The system response is the corresponding BIO format."
+        },
+        "log": {
+            "turn id": 1,
+            "user utterance": "find me a movie with a quote about baseball in it",
+            "system response": "O O O O O O O O O O O",
+            "dialog history": "",
+            "original user side information": {},
+            "original system side information": {},
+            "external knowledge": ""
+        }
     }
 }

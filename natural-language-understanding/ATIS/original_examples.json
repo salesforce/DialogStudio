@@ -1,7 +1,22 @@
 [
-    "i want to fly from baltimore to dallas round trip",
-    "round trip fares from baltimore to philadelphia less than 1000 dollars round trip fares from denver to philadelphia less than 1000 dollars round trip fares from pittsburgh to philadelphia less than 1000 dollars",
-    "show me the flights arriving on baltimore on june fourteenth",
-    "what are the flights which depart from san francisco fly to washington via indianapolis and arrive by 9 pm",
-    "which airlines fly from boston to washington dc via other cities"
+    {
+        "input": "i want to fly from baltimore to dallas round trip",
+        "output": "atis_flight"
+    },
+    {
+        "input": "round trip fares from baltimore to philadelphia less than 1000 dollars round trip fares from denver to philadelphia less than 1000 dollars round trip fares from pittsburgh to philadelphia less than 1000 dollars",
+        "output": "atis_airfare"
+    },
+    {
+        "input": "show me the flights arriving on baltimore on june fourteenth",
+        "output": "atis_flight"
+    },
+    {
+        "input": "what are the flights which depart from san francisco fly to washington via indianapolis and arrive by 9 pm",
+        "output": "atis_flight"
+    },
+    {
+        "input": "which airlines fly from boston to washington dc via other cities",
+        "output": "atis_airline"
+    }
 ]
