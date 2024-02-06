@@ -149,16 +149,14 @@ We sincerely thank all dataset authors who have contributed to the Conversationa
 
 ## Citation
 
-The data and code in this repository is mostly developed for or derived from the paper below. If you utilize datasets from DialogStudio, we kindly request you cite both the original work and our own.
+The data and code in this repository is mostly developed for or derived from the paper below. If you utilize datasets from DialogStudio, we kindly request you cite both the original work and our own work (Accepted by EACL 2024 Findings as a long paper).
 
 ```
-@misc{zhang2023dialogstudio,
-      title={DialogStudio: Towards Richest and Most Diverse Unified Dataset Collection for Conversational AI}, 
-      author={Jianguo Zhang and Kun Qian and Zhiwei Liu and Shelby Heinecke and Rui Meng and Ye Liu and Zhou Yu and and Huan Wang and Silvio Savarese and Caiming Xiong},
-      year={2023},
-      eprint={2307.10172},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+@article{zhang2023dialogstudio,
+  title={DialogStudio: Towards Richest and Most Diverse Unified Dataset Collection for Conversational AI},
+  author={Zhang, Jianguo and Qian, Kun and Liu, Zhiwei and Heinecke, Shelby and Meng, Rui and Liu, Ye and Yu, Zhou and Savarese, Silvio and Xiong, Caiming},
+  journal={arXiv preprint arXiv:2307.10172},
+  year={2023}
 }
 ```
 
