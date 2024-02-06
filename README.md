@@ -4,7 +4,7 @@
     <br>
 <!-- <p>
 <div align="center"> -->
-<a href="https://arxiv.org/abs/2307.10172" style="font-size:20px;">Paper</a>,
+<a href="https://arxiv.org/pdf/2307.10172.pdf" style="font-size:20px;">Paper</a>,
 <a href="https://huggingface.co/datasets/Salesforce/dialogstudio" style="font-size:20px;">Huggingface</a>,
 <a href="#model" style="font-size:20px;">Model</a>,
 <a href="https://twitter.com/JianguoZhang3" style="font-size:20px">Twitter</a> 
