@@ -34,7 +34,7 @@ class PreProcessData(object):
             data = json.loads(df.read())
         return data
 
-    
+
     def _load_txt(self, path=None, split_tok="\n"):
         if path is None or not os.path.exists(path):
             raise IOError('File does not exist: %s' % path)
@@ -164,7 +164,7 @@ class PreProcessData(object):
     def save_original_examples(self, examples, data_name):
         """
         save 5 original data points just for reference and check
-        data would be a list of length 5, each entry is a dialog 
+        data would be a list of length 5, each entry is a dialog
         in the form of dictionary
         """
         path = os.path.join(self.save_dir, data_name, "original_examples.json")
@@ -174,15 +174,15 @@ class PreProcessData(object):
 
     def save_converted_examples(self, data_name):
         """
-        extract the first 5 examples from the train set of the 
+        extract the first 5 examples from the train set of the
         already processed data, just for reference and check
         """
         data = self._load_json(os.path.join(self.save_dir, data_name, "train/dialogues_1.json"))
         examples = {key: data[key] for key in list(data.keys())[:5]}
         self._save_json(examples, os.path.join(self.save_dir, data_name, "converted_examples.json"))
         print("converted examples saved")
-    
-    
+
+
     def filter_cand(self, cand_list, constraints):
         """
         pop up cands that satisfy constraints
@@ -191,7 +191,7 @@ class PreProcessData(object):
                 attribute1: ...,
                 attribute2: ...,
                 ...
-            }, 
+            },
             ...
         ]
         constraints = [
@@ -294,7 +294,7 @@ class PreProcessData(object):
                             new_turn[ORI_SYS_ANN][key] = turn["data"][key]
                         #  adding dst output
                         # if "slots" not in turn["data"]: continue # checked
-                        new_turn[DST] = ", ".join([f"{domain} {slot} {value}" for slot, value in turn["data"]["slots"].items()])
+                        new_turn[DST] = DST_SPLIT.join([f"{domain} {slot} {value}" for slot, value in turn["data"]["slots"].items()])
                         # adding accumulated dst output
                         if domain not in dst_dict: dst_dict[domain] = {}
                         dst_dict[domain].update(turn["data"]["slots"])
@@ -303,13 +303,13 @@ class PreProcessData(object):
                             result_list.append(turn["slots"]["poi"])
                         elif "slots" in turn and "event" in turn["slots"]:
                             result_list.append(turn["slots"]["event"])
-                        
+
                 if usr_utts or sys_utts:
                     new_turn[USR_UTT] = " ".join(usr_utts)
                     new_turn[SYS_UTT] = sys_utts[-1] if sys_utts else " ".join(sys_utts)
                     new_dial[LOG].append(new_turn)
-                    
-                
+
+
                 # adding metadata for TOD task
                 new_dial[EK_ORI][TOD_EK][domain] = []
                 if dial["scenario"]["kb"]["items"] is not None:
@@ -340,7 +340,7 @@ class PreProcessData(object):
                     self.save_dial(new_data, data_name=data_name, file_idx=file_idx, mode=mode)
                     new_data = {} # reset
                     file_idx += 1
-    
+
             if mode == "train": self.save_original_examples(data[:5], data_name)
             print(f"finishing processing {len(data)} dialogs for {mode} set ...")
         self.save_converted_examples(data_name)
@@ -381,7 +381,7 @@ class PreProcessData(object):
                         # reset new turn for next
                         new_turn = self.init_turn(turn_id=idx+1)
                         new_turn[DIAL_HIST] = " ".join(dial_hist)
-                    
+
                     # dst output
                     # if "turn_label" not in turn: pdb.set_trace() # checked
                     slot_list = []
@@ -389,7 +389,7 @@ class PreProcessData(object):
                         if slot[0] == "request": continue
                         slot_type = "_".join(slot[0].split())
                         slot_list.append(f"restaurant {slot_type} {slot[1]}")
-                    new_turn[DST] = ", ".join(slot_list)
+                    new_turn[DST] = DST_SPLIT.join(slot_list)
                     # accumulate dst output
                     dst_dict = self.update_with_slot_list(dst_dict, slot_list)
                     new_turn[DST_ACC] = self.dst_dict_to_str(dst_dict)
@@ -535,7 +535,7 @@ class PreProcessData(object):
                     self.save_dial(new_data, data_name=data_name, file_idx=file_idx, mode=mode)
                     new_data = {} # reset
                     file_idx += 1
-    
+
             if mode == "train": self.save_original_examples(data[:5], data_name)
             print(f"finishing processing {dial_idx+1} dialogs for {mode} set ...")
         self.save_converted_examples(data_name)
@@ -583,7 +583,7 @@ class PreProcessData(object):
                         # adding dst output
                         # if "active_intent" not in turn: pdb.set_trace() #checked
                         domain = turn["active_intent"].split("_")[0]
-                        if domain == "chat": 
+                        if domain == "chat":
                             new_turn[DST] = ""
                         else:
                             slot_list = []
@@ -592,7 +592,7 @@ class PreProcessData(object):
                                 slot_type = act["slot"]
                                 slot_values = act["value"]
                                 slot_list.append(f"{domain} {slot_type} {slot_values[0]}")
-                            new_turn[DST] = ", ".join(slot_list)
+                            new_turn[DST] = DST_SPLIT.join(slot_list)
 
                             # accumulate dst output
                             dst_dict = self.update_with_slot_list(dst_dict, slot_list)
@@ -642,7 +642,7 @@ class PreProcessData(object):
                     new_data = {} # reset
                     file_idx += 1
                 dial_idx += 1
-    
+
             if mode == "train": self.save_original_examples([data[key] for key in list(data.keys())[:5]], data_name)
 
             print(f"finishing processing {dial_idx} dialogs for {mode} set ...")
@@ -782,7 +782,7 @@ class PreProcessData(object):
                     self.save_dial(new_data, data_name=data_name, file_idx=file_idx, mode=mode)
                     new_data = {} # reset
                     file_idx += 1
-    
+
             if mode == "train": self.save_original_examples(data[:5], data_name)
 
         print(f"finishing processing {dial_idx} dialogs for {mode} set ...")
@@ -847,7 +847,7 @@ class PreProcessData(object):
                                 else:
                                     slot_type = f"{dom}_{slot1}"
                             slot_list.append(f"{domain} {slot_type} {slot_value}")
-                    new_turn[DST] = ", ".join(slot_list)
+                    new_turn[DST] = DST_SPLIT.join(slot_list)
                     # accumulate dst output
                     dst_dict = self.update_with_slot_list(dst_dict, slot_list)
                     new_turn[DST_ACC] = self.dst_dict_to_str(dst_dict)
@@ -874,7 +874,7 @@ class PreProcessData(object):
             for slot in new_dial[EK_ORI][DST_EK][domain]:
                 if len(new_dial[EK_ORI][DST_EK][domain][slot]) > DST_LENGTH:
                     new_dial[EK_ORI][DST_EK][domain][slot] = random.choices(otgy["slots"][domain][slot], k=DST_LENGTH//2)
-            
+
             # turn the external knowledge into a flat string
             new_dial[EK] = self.dict_to_str(new_dial[EK_ORI][TOD_EK])
             new_dial[EK_DST] = self.dict_to_str(new_dial[EK_ORI][DST_EK])
@@ -969,7 +969,7 @@ class PreProcessData(object):
                                 else:
                                     slot_type = f"{dom}_{slot1}"
                             slot_list.append(f"{domain} {slot_type} {slot_value}")
-                    new_turn[DST] = ", ".join(slot_list)
+                    new_turn[DST] = DST_SPLIT.join(slot_list)
                     # accumulate dst output
                     dst_dict = self.update_with_slot_list(dst_dict, slot_list)
                     new_turn[DST_ACC] = self.dst_dict_to_str(dst_dict)
@@ -1098,7 +1098,7 @@ class PreProcessData(object):
                                 else:
                                     slot_type = f"{dom}_{slot1}"
                             slot_list.append(f"{domain} {slot_type} {slot_value}")
-                    new_turn[DST] = ", ".join(slot_list)
+                    new_turn[DST] = DST_SPLIT.join(slot_list)
                     # accumulate dst output
                     dst_dict = self.update_with_slot_list(dst_dict, slot_list)
                     new_turn[DST_ACC] = self.dst_dict_to_str(dst_dict)
@@ -1126,7 +1126,7 @@ class PreProcessData(object):
             for slot in new_dial[EK_ORI][DST_EK][domain]:
                 if len(new_dial[EK_ORI][DST_EK][domain][slot]) > DST_LENGTH:
                     new_dial[EK_ORI][DST_EK][domain][slot] = random.choices(otgy["slots"][domain][slot], k=DST_LENGTH//2)
-            
+
             # turn the external knowledge into a flat string
             new_dial[EK] = self.dict_to_str(new_dial[EK_ORI][TOD_EK])
             new_dial[EK_DST] = self.dict_to_str(new_dial[EK_ORI][DST_EK])
@@ -1159,7 +1159,7 @@ class PreProcessData(object):
                 finish_flag[mode] = 1
             else:
                 finish_flag[mode] = 0
-                
+
 
         # if there are some unsaved dialogs left, save it now
         for mode in ["train", "val", "test"]:
@@ -1216,14 +1216,14 @@ class PreProcessData(object):
                                 slot_type = slot["slot"]
                                 slot_value = " ".join(turn["user_utterance"]["tokens"][slot["start"]:slot["exclusive_end"]])
                                 slot_list.append(f"{domain} {slot_type} {slot_value}")
-                            new_turn[DST] = ", ".join(slot_list)
+                            new_turn[DST] = DST_SPLIT.join(slot_list)
                             # accumulate dst output
                             dst_dict = self.update_with_slot_list(dst_dict, slot_list)
                             new_turn[DST_ACC] = self.dst_dict_to_str(dst_dict)
                             # adding intent prediction output
                             # if len(turn["user_acts"]) > 1: pdb.set_trace() # checked: yes
                             intent_list = [intent["type"] for intent in turn["user_acts"]]
-                            new_turn[INTENT] = ", ".join(intent_list)
+                            new_turn[INTENT] = INTENT_SPLIT.join(intent_list)
                             dial_hist.append("<USER> " + new_turn[USR_UTT])
                     if not new_turn[SYS_UTT]:
                         new_dial[LOG].append(new_turn)
@@ -1248,7 +1248,7 @@ class PreProcessData(object):
                         self.save_dial(new_data, data_name=data_name, file_idx=file_idx, mode=mode)
                         new_data = {} # reset
                         file_idx += 1
-        
+
                 if mode == "train": self.save_original_examples(data[:5], data_name)
 
                 print(f"finishing processing {len(data)} dialogs for {mode} set ...")
@@ -1301,14 +1301,14 @@ class PreProcessData(object):
                         slot_list = []
                         for slot_type, slot_value in turn["dialogue_state"].items():
                             slot_list.append(f"{domain} {slot_type} {slot_value}")
-                        new_turn[DST_ACC] = ", ".join(slot_list)
+                        new_turn[DST_ACC] = DST_SPLIT.join(slot_list)
                         # add output for current turn dst task
                         current_slot_list = []
                         for slot_type, slot_value in turn["dialogue_state"].items():
                             slot = f"{domain} {slot_type} {slot_value}"
                             if slot in prev_slot_list: continue
                             current_slot_list.append(slot)
-                        new_turn[DST] = ", ".join(current_slot_list)
+                        new_turn[DST] = DST_SPLIT.join(current_slot_list)
                         prev_slot_list = current_slot_list
 
                 if not new_turn[SYS_UTT]:
@@ -1332,7 +1332,7 @@ class PreProcessData(object):
                     self.save_dial(new_data, data_name=data_name, file_idx=file_idx, mode=mode)
                     new_data = {} # reset
                     file_idx += 1
-    
+
             if mode == "train": self.save_original_examples(data[:5], data_name)
 
             print(f"finishing processing {len(data)} dialogs for {mode} set ...")
@@ -1396,7 +1396,7 @@ class PreProcessData(object):
 
             # continue extending the current dial
             if turn.authorRole == "customer":
-                # adding utterances 
+                # adding utterances
                 new_turn[USR_UTT] += f" {turn.utterance}"
                 new_turn[USR_UTT] = new_turn[USR_UTT].strip()
                 # adding annotation for turn level
@@ -1445,7 +1445,7 @@ class PreProcessData(object):
             if not finish_flag[mode]:
                 self.save_dial(new_data[mode], data_name=data_name, file_idx=file_idx[mode], mode=mode)
             print(f"finishing processing {dial_idx[mode]} dialogs for {mode} set ...")
-        
+
         self.save_original_examples(data[:6].to_string(index=False).split('\n'), data_name)
         self.save_converted_examples(data_name)
         self.copy_related_files(data_name, exp_list)
@@ -1523,7 +1523,7 @@ class PreProcessData(object):
                     self.save_dial(new_data, data_name=data_name, file_idx=file_idx, mode=mode)
                     new_data = {} # reset
                     file_idx += 1
-    
+
             if mode == "train": self.save_original_examples(data[:5], data_name)
             print(f"finishing processing {dial_idx} dialogs for {mode} set ...")
         self.save_converted_examples(data_name)
@@ -1565,7 +1565,7 @@ class PreProcessData(object):
                         dial_hist.append("<USER> " + new_turn[USR_UTT])
                         dial_hist.append("<SYSTEM> " + new_turn[SYS_UTT])
                         turn_id += 1
-                        
+
                 target_fligt_num_list, cands = new_dial[ORI_DIAL_INFO]["action"]["flight"], []
                 ek = json.loads(database[dial_idx])
                 for flight in ek["kb"]:
@@ -1589,7 +1589,7 @@ class PreProcessData(object):
                     self.save_dial(new_data, data_name=data_name, file_idx=file_idx, mode=mode)
                     new_data = {} # reset
                     file_idx += 1
-    
+
             if mode == "train": self.save_original_examples(data[:5], data_name)
 
             print(f"finishing processing {dial_idx} dialogs for {mode} set ...")
@@ -1633,7 +1633,7 @@ class PreProcessData(object):
 
                 # continue extending the current dial
                 if speaker == "user":
-                    # adding utterances 
+                    # adding utterances
                     new_turn[USR_UTT] += f" {utt}"
                     new_turn[USR_UTT] = new_turn[USR_UTT].strip()
                     new_turn[ORI_USR_ANN]["act"].extend(act)
@@ -1677,12 +1677,12 @@ class PreProcessData(object):
                                     if slot_type in ["result","closing","greeting"]: continue
                                     if slot_type in ["cstate", "ccity", "cdate", "cnumberofpeople", "cstarttime", "cpickup_location_city"]: slot_type = slot_type[1:]
                                     slot_list.append(f"{domain} {slot_type} {slot_value}")
-                        new_turn[DST] = ", ".join(slot_list)
+                        new_turn[DST] = DST_SPLIT.join(slot_list)
                         # accumulate dst output
                         dst_dict = self.update_with_slot_list(dst_dict, slot_list)
                         new_turn[DST_ACC] = self.dst_dict_to_str(dst_dict)
                         # adding output for intents task
-                        new_turn[INTENT] = ", ".join([act.split("(")[0] for act in new_turn[ORI_USR_ANN]["act"]])
+                        new_turn[INTENT] = INTENT_SPLIT.join([act.split("(")[0] for act in new_turn[ORI_USR_ANN]["act"]])
                         new_dial[LOG].append(new_turn)
                         turn_idx += 1
                         dial_hist.append("<USER> " + new_turn[USR_UTT])
@@ -1756,7 +1756,7 @@ class PreProcessData(object):
                 for idx, [speaker, utt] in enumerate(dial["original"]):
                     # continue extending the current dial
                     if speaker == "customer":
-                        # adding utterances 
+                        # adding utterances
                         new_turn[USR_UTT] += f" {utt}"
                         new_turn[USR_UTT] = new_turn[USR_UTT].strip()
                         new_turn[ORI_USR_ANN]["delexed"].append(dial["delexed"][idx])
@@ -1767,7 +1767,7 @@ class PreProcessData(object):
                                 if not slot_type.startswith("<") and not slot_type.endswith(">"): continue
                                 slot_type = slot_type.split(">")[0].split("<")[-1]
                                 slot_list.append(f"{domain} {slot_type} {slot_value}")
-                        new_turn[DST] = ", ".join(slot_list)
+                        new_turn[DST] = DST_SPLIT.join(slot_list)
                         # accumulate dst output
                         dst_dict = self.update_with_slot_list(dst_dict, slot_list)
                         new_turn[DST_ACC] = self.dst_dict_to_str(dst_dict)
@@ -1808,7 +1808,7 @@ class PreProcessData(object):
                     self.save_dial(new_data[mode], data_name=data_name, file_idx=file_idx[mode], mode=mode)
                     new_data[mode] = {} # reset
                     file_idx[mode] += 1
-    
+
             if mode == "train": self.save_original_examples(split_data[:5], data_name)
             print(f"finishing processing {dial_idx} dialogs for {mode} set ...")
         self.save_converted_examples(data_name)
@@ -1818,7 +1818,7 @@ class PreProcessData(object):
 
     def salesbot(self):
         """
-        chitchat+top, no user/system 
+        chitchat+top, no user/system
         no ek
         """
         data_name = "SalesBot"
@@ -1855,7 +1855,7 @@ class PreProcessData(object):
                 self.save_dial(new_data, data_name=data_name, file_idx=file_idx, mode=mode)
                 new_data = {} # reset
                 file_idx += 1
-    
+
         print(f"finishing processing {dial_idx} dialogs for {mode} set ...")
         self.save_original_examples(data[:5], data_name)
         self.save_converted_examples(data_name)
@@ -1924,7 +1924,7 @@ class PreProcessData(object):
                     self.save_dial(new_data, data_name=data_name, file_idx=file_idx, mode=mode)
                     new_data = {} # reset
                     file_idx += 1
-        
+
             if mode == "train": self.save_original_examples(data[:5], data_name)
 
             print(f"finishing processing {dial_idx} dialogs for {mode} set ...")
@@ -2060,7 +2060,7 @@ class PreProcessData(object):
                     self.save_dial(new_data, data_name=data_name, file_idx=file_idx, mode=mode)
                     new_data = {} # reset
                     file_idx += 1
-        
+
             if mode == "train": self.save_original_examples(data["dialogues"][:5], data_name)
             print(f"finishing processing {dial_idx} dialogs for {mode} set ...")
         self.save_converted_examples(data_name)
@@ -2117,7 +2117,7 @@ class PreProcessData(object):
                         slot_list = []
                         for [slot_type, slot_value] in user_turn_label:
                             slot_list.append(f"{domain} {slot_type} {slot_value}")
-                        turn_log[DST] = ", ".join(slot_list)
+                        turn_log[DST] = DST_SPLIT.join(slot_list)
 
                         dialog['log'].append(turn_log)
 
@@ -2138,7 +2138,7 @@ class PreProcessData(object):
                         slot_list = []
                         for [slot_type, slot_value] in user_turn_label:
                             slot_list.append(f"{domain} {slot_type} {slot_value}")
-                        turn_log[DST] = ", ".join(slot_list)
+                        turn_log[DST] = DST_SPLIT.join(slot_list)
                         dialog['log'].append(turn_log)
 
                     turn_index += 1
@@ -2164,7 +2164,7 @@ class PreProcessData(object):
                     self.save_dial(new_data, data_name=data_name, file_idx=file_idx, mode=mode)
                     new_data = {} # reset
                     file_idx += 1
-        
+
             if mode == "train": self.save_original_examples(f_text[:5], data_name)
             print(f"finishing processing {index} dialogs for {mode} set ...")
         self.save_converted_examples(data_name)
@@ -2208,7 +2208,7 @@ class PreProcessData(object):
                     self.save_dial(new_data, data_name=data_name, file_idx=file_idx, mode=mode)
                     new_data = {} # reset
                     file_idx += 1
-    
+
             if mode == "train": self.save_original_examples(data[:5], data_name)
             print(f"finishing processing {dial_idx} dialogs for {mode} set ...")
         self.save_converted_examples(data_name)
@@ -2271,7 +2271,7 @@ class PreProcessData(object):
                         for frame in turn["frames"]:
                             if frame["state"]["active_intent"] != "NONE":
                                 intent_list.append(frame["state"]["active_intent"])
-                        new_turn[INTENT] = ", ".join(intent_list)
+                        new_turn[INTENT] = INTENT_SPLIT.join(intent_list)
 
                         # dialog ends at user side
                         if idx == len(dial["turns"]) - 1:
@@ -2325,7 +2325,7 @@ class PreProcessData(object):
                     self.save_dial(new_data, data_name=data_name, file_idx=file_idx, mode=mode)
                     new_data = {} # reset
                     file_idx += 1
-            
+
             print(f"Processing {mode} data with {dial_idx} dialogs i.e. {turn_num} turns ... " )
             if mode == "train": self.save_original_examples(data[:5], data_name)
         self.save_converted_examples(data_name)
@@ -2425,7 +2425,7 @@ class PreProcessData(object):
                     self.save_dial(data, data_name=data_name, file_idx=file_idx, mode=mode)
                     data = defaultdict(list) # reset
                     file_idx += 1
-        
+
             if mode == "train": self.save_original_examples(data["dialogues"][:5], data_name)
             print(f"finishing processing {dial_idx} dialogs for {mode} set ...")
         self.save_converted_examples(data_name)
@@ -2525,7 +2525,7 @@ class PreProcessData(object):
                     self.save_dial(new_data, data_name=data_name, file_idx=file_idx, mode=mode)
                     new_data = {} # reset
                     file_idx += 1
-            
+
             print(f"Processing {mode} data with {dial_idx} dialogs ... " )
             if mode == "train": self.save_original_examples(data[:5], data_name)
         self.save_converted_examples(data_name)
@@ -2601,7 +2601,7 @@ class PreProcessData(object):
                 self.save_dial(new_data, data_name=data_name, file_idx=file_idx, mode=mode)
                 new_data = {} # reset
                 file_idx += 1
-            
+
         print(f"Processing {mode} data with {dial_idx+1} dialogs ... " )
         if mode == "train": self.save_original_examples(data[:5], data_name)
         self.save_converted_examples(data_name)
@@ -2623,7 +2623,7 @@ class PreProcessData(object):
             data = self._load_json(os.path.join(self.data_dir, data_name, f"data_aug_{mode}.json"))
             new_data, dial_idx, file_idx = {}, 1, 1
             for dial_id, dial in tqdm(data.items()):
-            
+
                 new_dial_id = f"{data_name}--{mode}--{dial_idx}"
                 new_dial = self.init_dial(dial_idx=dial_idx) # idx starts from 1, set this when checking its source
                 new_dial[ORI_DIAL_ID] = dial_id
@@ -2653,7 +2653,7 @@ class PreProcessData(object):
                         # other annotation for system side
                         if key_ in sys_turn:
                             new_turn[ORI_SYS_ANN][key_] = sys_turn[key_]
-                    
+
                     # used for accumulated slots, extracted based on "metadata", only in system side (turn_num * 2 + 1)
                     slot_list_acc = []
                     for dom, slot in sys_turn["metadata"].items():
@@ -2674,7 +2674,7 @@ class PreProcessData(object):
                             slot_list.append(f"{dom} {slot_type} {slot_val}")
                     new_turn[DST] = DST_SPLIT.join(slot_list).lower()
                     # add intent output
-                    new_turn[INTENT] = ", ".join(list(usr_turn["dialog_act"].keys())).lower()
+                    new_turn[INTENT] = INTENT_SPLIT.join(list(usr_turn["dialog_act"].keys())).lower()
                     new_dial[LOG].append(new_turn)
 
                 # get active domains
@@ -2724,7 +2724,7 @@ class PreProcessData(object):
                     new_data = {} # reset
                     file_idx += 1
                 dial_idx += 1
-            
+
             if len(new_data) > 0: self.save_dial(new_data, data_name=data_name, file_idx=file_idx, mode=mode)
             print(f"Processing {mode} data with {dial_idx-1} dialogs ... " )
             if mode=="train":self.save_original_examples({k:data[k] for k in list(data.keys())[:5]}, data_name)
@@ -2751,7 +2751,7 @@ class PreProcessData(object):
                 mode = "val"
             else:
                 mode = "train"
-            
+
             new_dial_id = f"{data_name}--{mode}--{dial_idx[mode]}"
             new_dial = self.init_dial(dial_idx=dial_idx[mode]) # idx starts from 1, set this when checking its source
             new_dial[ORI_DIAL_ID] = dial_id
@@ -2762,7 +2762,7 @@ class PreProcessData(object):
             #     for user side, including span_info or dialog acts
             #     therefore, we exclude these five dialogs since slot-->ek-->utt
             #     """
-            if dial_id in ["PMUL4707.json", "PMUL2245.json", "PMUL4776.json", 
+            if dial_id in ["PMUL4707.json", "PMUL2245.json", "PMUL4776.json",
                             "PMUL3872.json", "PMUL4859.json"]:
                 continue
             for turn_num in range(math.ceil(len(dial["log"]) / 2)):
@@ -2783,14 +2783,14 @@ class PreProcessData(object):
                     # other annotation for system side
                     if key_ in sys_turn:
                         new_turn[ORI_SYS_ANN][key_] = sys_turn[key_]
-                
+
                 # used for accumulated slots, extracted based on "metadata", only in system side (turn_num * 2 + 1)
                 slot_list_acc = []
                 for dom, slot in sys_turn["metadata"].items():
                     for slot_type, slot_val in slot["book"].items():
                         if not slot_val or slot_type == "booked" or slot_val == "not mentioned": continue
                         slot_list_acc.append(f"{dom} {slot_type} {slot_val}")
-                    
+
                     for slot_type, slot_val in slot["semi"].items():
                         if not slot_val or slot_val == "not mentioned": continue
                         slot_list_acc.append(f"{dom} {slot_type} {slot_val}")
@@ -2805,7 +2805,7 @@ class PreProcessData(object):
                         slot_list.append(f"{dom} {slot_type} {slot_val}")
                 new_turn[DST] = DST_SPLIT.join(slot_list).lower()
                 # add intent output
-                new_turn[INTENT] = ", ".join(list(usr_turn["dialog_act"].keys())).lower()
+                new_turn[INTENT] = INTENT_SPLIT.join(list(usr_turn["dialog_act"].keys())).lower()
 
                 new_dial[LOG].append(new_turn)
 
@@ -3032,7 +3032,7 @@ class PreProcessData(object):
         for domain in dst_dict:
             for slot, value in dst_dict[domain].items():
                 slot_list.append(f"{domain} {slot} {value.strip()}")
-        return ", ".join(slot_list)
+        return DST_SPLIT.join(slot_list)
 
 
     def update_with_slot_list(self, dst_dict, slot_list):
