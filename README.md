@@ -14,10 +14,10 @@
 # DialogStudio: Towards Richest and Most Diverse Unified Dataset Collection and Instruction-Aware Models for Conversational AI
 
 ## News!
-
-* [Upload models] Aug 18, 2023. We upload version 1.0 models ([dialogstudio-t5-base-v1.0](https://huggingface.co/Salesforce/dialogstudio-t5-base-v1.0), [dialogstudio-t5-large-v1.0](https://huggingface.co/Salesforce/dialogstudio-t5-large-v1.0), [dialogstudio-t5-3b-v1.0](https://huggingface.co/Salesforce/dialogstudio-t5-3b-v1.0)) trained on a few selected DialogStudio datasets and more than 1000 general tasks.
-* [Version 1.0.1] Aug 1, 2023.  We resolved minor issues in a few dialogues, added prompts for selected knowledge-grounded datasets, removed requirements for HuggingFace login, and made updates to SODA and ShareGPT datasets.
-* [Initial Release] July 2023. We're thrilled to the initial release of the largest unified Dialog dataset collection. The full list of all available datasets is [here](./Dataset_Stats.csv).  
+* 🎉 [AI Agent] **March 18, 2024**. Check [xLAM](https://github.com/SalesforceAIResearch/xLAM) for the latest data and models relevant to AI Agent! 
+* [Upload models] **Aug 18, 2023**. We upload version 1.0 models ([dialogstudio-t5-base-v1.0](https://huggingface.co/Salesforce/dialogstudio-t5-base-v1.0), [dialogstudio-t5-large-v1.0](https://huggingface.co/Salesforce/dialogstudio-t5-large-v1.0), [dialogstudio-t5-3b-v1.0](https://huggingface.co/Salesforce/dialogstudio-t5-3b-v1.0)) trained on a few selected DialogStudio datasets and more than 1000 general tasks.
+* [Version 1.0.1] **Aug 1, 2023**.  We resolved minor issues in a few dialogues, added prompts for selected knowledge-grounded datasets, removed requirements for HuggingFace login, and made updates to SODA and ShareGPT datasets.
+* [Initial Release] **July 2023**. We're thrilled to the initial release of the largest unified Dialog dataset collection. The full list of all available datasets is [here](./Dataset_Stats.csv).  
 
 
 ## Contents
